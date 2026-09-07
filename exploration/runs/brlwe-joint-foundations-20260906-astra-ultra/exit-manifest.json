@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "ended_at": "2026-09-06T21:10:51.468513+00:00",
+  "process_outcome": "succeeded",
+  "process_success": true,
+  "exit_code": 0,
+  "signal": null,
+  "failure_category": null,
+  "observed_categories": [],
+  "systemd": {
+    "Result": "success",
+    "ExecMainCode": "0",
+    "ExecMainStatus": "0",
+    "ControlGroup": "",
+    "ActiveState": "inactive",
+    "SubState": "dead"
+  },
+  "service_inactive_observed": true,
+  "descendant_shutdown": "not_independently_verified_by_finalizer",
+  "scientific_completeness": "not_verified_by_runner",
+  "reconciliation_state": "present_unverified",
+  "artifact_state": {
+    "claims.json": {
+      "present": true,
+      "empty": false
+    },
+    "reconciliation.md": {
+      "present": true,
+      "empty": false
+    },
+    "progress.md": {
+      "present": true,
+      "empty": false
+    },
+    "final.md": {
+      "present": true,
+      "empty": false
+    },
+    "agents.json": {
+      "present": true,
+      "empty": false
+    }
+  },
+  "unfinished_agents_as_recorded": [],
+  "agent_registry_state": "readable_list",
+  "artifact_state_basis": "latest successfully captured snapshot; live files may differ if exit capture failed",
+  "review_reconciliation": "Read preserved claims.json and reconciliation.md; runner does not resolve objections",
+  "latest_snapshot": "runner-snapshots/20260906T211051.464907Z-492a167f",
+  "exit_snapshot_succeeded": true,
+  "coordinator_checkpoint": {
+    "schema_version": 1,
+    "created_at": "2026-09-06T21:10:33.274463+00:00",
+    "reason": "Final verified bounded outcome, reconciled ledger, completed workers, and mathematical shutdown",
+    "snapshot_directory": "coordinator-checkpoints/20260906T211033.272596Z-794962eb",
+    "content_sha256": "b5cf18a550e0796530156b6179b4517baa4785634c99f05ef3e583076c5123d7",
+    "last_content_change_at": "2026-09-06T21:10:33.274468+00:00",
+    "content_changed": true,
+    "scientific_progress_verified": false,
+    "meaning": "Coordinator supplied an updated artifact set; mathematical progress is not inferred"
+  },
+  "stop_reason": null,
+  "alerts": [],
+  "automatic_resume": false
+}

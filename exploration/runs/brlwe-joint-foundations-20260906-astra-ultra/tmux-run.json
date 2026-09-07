@@ -1,0 +1,72 @@
+{
+  "append_log": false,
+  "codex_command": [
+    "/usr/bin/python3",
+    "/home/nico/projects/research_projects/binaryRLWE/exploration/runner/bounded_run.py",
+    "_service",
+    "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/run.json"
+  ],
+  "codex_path": "/home/nico/.local/bin/codex",
+  "codex_session_requested": null,
+  "codex_version": "codex-cli 0.153.0",
+  "created_at": "2026-09-06T19:54:15.795541+00:00",
+  "deadline_manifest": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/run.json",
+  "git_before": {
+    "is_repository": false
+  },
+  "inner_codex_command": [
+    "/home/nico/.local/bin/codex",
+    "--search",
+    "exec",
+    "--sandbox",
+    "workspace-write",
+    "-c",
+    "approval_policy=\"never\"",
+    "--color",
+    "never",
+    "-C",
+    "/home/nico/projects/research_projects/binaryRLWE",
+    "--model",
+    "gpt-6-astra",
+    "-c",
+    "model_reasoning_effort=\"ultra\"",
+    "--skip-git-repo-check",
+    "-"
+  ],
+  "log_file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/run.log",
+  "mode": "launch",
+  "permission_profile": "sandbox-only",
+  "prompt_file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/prompt.md",
+  "prompt_sha256": "42741047a299a2988df644585bccaf4fb809e030ebeb0e3da119973bd216c552",
+  "require_ssh_agent": false,
+  "resume_last": false,
+  "root": "/home/nico/projects/research_projects/binaryRLWE",
+  "run_file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/tmux-run.json",
+  "sandbox_preflight": {
+    "bwrap_gid": 999,
+    "bwrap_group": "codex-bwrap",
+    "bwrap_mode": "0750",
+    "bwrap_path": "/usr/bin/bwrap",
+    "bwrap_uid": 0,
+    "bwrap_version": "bubblewrap 0.9.0",
+    "codex_sandbox_exit": 0,
+    "current_group_ids": [
+      100,
+      999,
+      1002,
+      1007
+    ],
+    "gate_gid": 999,
+    "gate_group": "codex-bwrap",
+    "tmux_server_pids": [
+      587234
+    ]
+  },
+  "schema_version": 1,
+  "search": true,
+  "ssh_agent_check": null,
+  "status_file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/tmux-status.json",
+  "tmux_path": "/usr/bin/tmux",
+  "tmux_session": "brlwe-joint-foundations-20260906-astra-ultra",
+  "tmux_version": "tmux 3.4"
+}

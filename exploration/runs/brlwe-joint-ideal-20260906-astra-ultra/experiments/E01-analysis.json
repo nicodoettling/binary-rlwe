@@ -1,0 +1,264 @@
+{
+  "seed": null,
+  "precision": "exact integer/rational counts; display bounds use float",
+  "tail_bound": "none: exhaustive finite spaces",
+  "rows": [
+    {
+      "n": 4,
+      "q": 17,
+      "beta": "1",
+      "d": 1,
+      "normalized_collision": "17/16",
+      "collision_deficit": 0.0625,
+      "tv_upper": 0.125,
+      "independent_binary_check": "passed",
+      "actual_average_tv": "1/17",
+      "actual_average_tv_decimal": 0.058823529411764705
+    },
+    {
+      "n": 4,
+      "q": 17,
+      "beta": "1",
+      "d": 2,
+      "normalized_collision": "289/16",
+      "collision_deficit": 17.0625,
+      "tv_upper": 1,
+      "binomial_normalized_collision": "289/16",
+      "independent_binary_check": "passed",
+      "actual_average_tv": "273/289",
+      "actual_average_tv_decimal": 0.9446366782006921
+    },
+    {
+      "n": 4,
+      "q": 17,
+      "beta": "1",
+      "d": 3,
+      "normalized_collision": "4913/16",
+      "collision_deficit": 306.0625,
+      "tv_upper": 1,
+      "independent_binary_check": "passed",
+      "actual_average_tv": "4897/4913",
+      "actual_average_tv_decimal": 0.9967433340118054
+    },
+    {
+      "n": 4,
+      "q": 17,
+      "beta": "1",
+      "d": 4,
+      "normalized_collision": "83521/16",
+      "collision_deficit": 5219.0625,
+      "tv_upper": 1,
+      "binomial_normalized_collision": "83521/16",
+      "independent_binary_check": "passed",
+      "actual_average_tv": "83505/83521",
+      "actual_average_tv_decimal": 0.9998084314124591
+    },
+    {
+      "n": 4,
+      "q": 17,
+      "beta": "1/2",
+      "d": 1,
+      "normalized_collision": "1377/256",
+      "collision_deficit": 4.37890625,
+      "tv_upper": 1
+    },
+    {
+      "n": 4,
+      "q": 17,
+      "beta": "1/2",
+      "d": 2,
+      "normalized_collision": "23409/256",
+      "collision_deficit": 90.44140625,
+      "tv_upper": 1,
+      "binomial_normalized_collision": "23409/256"
+    },
+    {
+      "n": 4,
+      "q": 17,
+      "beta": "1/2",
+      "d": 3,
+      "normalized_collision": "397953/256",
+      "collision_deficit": 1553.50390625,
+      "tv_upper": 1
+    },
+    {
+      "n": 4,
+      "q": 17,
+      "beta": "1/2",
+      "d": 4,
+      "normalized_collision": "6765201/256",
+      "collision_deficit": 26425.56640625,
+      "tv_upper": 1,
+      "binomial_normalized_collision": "6765201/256"
+    },
+    {
+      "n": 8,
+      "q": 17,
+      "beta": "1",
+      "d": 1,
+      "normalized_collision": "4097/4096",
+      "collision_deficit": 0.000244140625,
+      "tv_upper": 0.0078125,
+      "independent_binary_check": "passed",
+      "actual_average_tv": "1/272",
+      "actual_average_tv_decimal": 0.003676470588235294
+    },
+    {
+      "n": 8,
+      "q": 17,
+      "beta": "1",
+      "d": 2,
+      "normalized_collision": "21097/14336",
+      "collision_deficit": 0.4716099330357143,
+      "tv_upper": 0.3433693103044135,
+      "binomial_normalized_collision": "289/256",
+      "independent_binary_check": "passed",
+      "actual_average_tv": "487/2023",
+      "actual_average_tv_decimal": 0.240731586752348
+    },
+    {
+      "n": 8,
+      "q": 17,
+      "beta": "1",
+      "d": 3,
+      "normalized_collision": "4913/256",
+      "collision_deficit": 18.19140625,
+      "tv_upper": 1,
+      "independent_binary_check": "passed",
+      "actual_average_tv": "4657/4913",
+      "actual_average_tv_decimal": 0.9478933441888866
+    },
+    {
+      "n": 8,
+      "q": 17,
+      "beta": "1",
+      "d": 4,
+      "normalized_collision": "83521/256",
+      "collision_deficit": 325.25390625,
+      "tv_upper": 1,
+      "binomial_normalized_collision": "83521/256",
+      "independent_binary_check": "passed",
+      "actual_average_tv": "83265/83521",
+      "actual_average_tv_decimal": 0.9969349025993463
+    },
+    {
+      "n": 8,
+      "q": 17,
+      "beta": "1/2",
+      "d": 1,
+      "normalized_collision": "2185265/1048576",
+      "collision_deficit": 1.084031105041504,
+      "tv_upper": 0.5205840722307743
+    },
+    {
+      "n": 8,
+      "q": 17,
+      "beta": "1/2",
+      "d": 2,
+      "normalized_collision": "106263855/3670016",
+      "collision_deficit": 27.954602650233678,
+      "tv_upper": 1,
+      "binomial_normalized_collision": "1896129/65536"
+    },
+    {
+      "n": 8,
+      "q": 17,
+      "beta": "1/2",
+      "d": 3,
+      "normalized_collision": "32234193/65536",
+      "collision_deficit": 490.85475158691406,
+      "tv_upper": 1
+    },
+    {
+      "n": 8,
+      "q": 17,
+      "beta": "1/2",
+      "d": 4,
+      "normalized_collision": "547981281/65536",
+      "collision_deficit": 8360.530776977539,
+      "tv_upper": 1,
+      "binomial_normalized_collision": "547981281/65536"
+    },
+    {
+      "n": 16,
+      "q": 97,
+      "beta": "1",
+      "d": 1,
+      "normalized_collision": "134217833/134217728",
+      "collision_deficit": 7.82310962677002e-07,
+      "tv_upper": 0.00044224172199064447
+    },
+    {
+      "n": 16,
+      "q": 97,
+      "beta": "1",
+      "d": 2,
+      "normalized_collision": "474712277/402653184",
+      "collision_deficit": 0.17896069337924322,
+      "tv_upper": 0.21151873048222186,
+      "binomial_normalized_collision": "4977361/4194304"
+    },
+    {
+      "n": 16,
+      "q": 97,
+      "beta": "1",
+      "d": 3,
+      "normalized_collision": "34260831747/2348810240",
+      "collision_deficit": 13.586462185638291,
+      "tv_upper": 1
+    },
+    {
+      "n": 16,
+      "q": 97,
+      "beta": "1",
+      "d": 4,
+      "normalized_collision": "20624755123851/15267266560",
+      "collision_deficit": 1349.9134096006117,
+      "tv_upper": 1,
+      "binomial_normalized_collision": "88529281/65536"
+    },
+    {
+      "n": 16,
+      "q": 97,
+      "beta": "1/2",
+      "d": 1,
+      "normalized_collision": "16099503957297/8796093022208",
+      "collision_deficit": 0.8303016937917391,
+      "tv_upper": 0.4556044594249872
+    },
+    {
+      "n": 16,
+      "q": 97,
+      "beta": "1/2",
+      "d": 2,
+      "normalized_collision": "2513655781487101/26388279066624",
+      "collision_deficit": 94.25652563930866,
+      "tv_upper": 1,
+      "binomial_normalized_collision": "26694840557025/274877906944"
+    },
+    {
+      "n": 16,
+      "q": 97,
+      "beta": "1/2",
+      "d": 3,
+      "normalized_collision": "281613822153454149/30786325577728",
+      "collision_deficit": 9146.367114092509,
+      "tv_upper": 1
+    },
+    {
+      "n": 16,
+      "q": 97,
+      "beta": "1/2",
+      "d": 4,
+      "normalized_collision": "177557231936359723437/200111116255232",
+      "collision_deficit": 887292.1961955283,
+      "tv_upper": 1,
+      "binomial_normalized_collision": "3810895259537601/4294967296"
+    }
+  ],
+  "runtime_seconds": 0.023177912924438715,
+  "departures": [
+    "beta=1 and beta=1/2 are exact effective-posterior diagnostic parameters, not claimed Gaussian widths",
+    "fixed tiny rings establish no asymptotic extraction or hardness"
+  ]
+}

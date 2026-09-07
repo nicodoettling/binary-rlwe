@@ -1,0 +1,233 @@
+{
+  "experiment": "N01-E1",
+  "seed": null,
+  "arithmetic": "Python arbitrary integers and exact Fraction; log values are diagnostic float only",
+  "started_utc": "2026-09-06T20:42:57.127277+00:00",
+  "bistochastic": {
+    "matrices": 120,
+    "probability_vectors": 28,
+    "exact_majorization_and_L2_checks": 3360,
+    "violations": 0
+  },
+  "two_atom_sharpening": {
+    "P": [
+      "3/4",
+      "1/4"
+    ],
+    "Q": [
+      "7/8",
+      "1/8"
+    ],
+    "reachable_first_coordinate": "[1/4,3/4]",
+    "target_not_reachable": true
+  },
+  "sparse_comparator_collapse": [
+    {
+      "N": 4,
+      "comparator_TV": "1/4",
+      "planted_entropy_loss": "ln(2)"
+    },
+    {
+      "N": 16,
+      "comparator_TV": "1/16",
+      "planted_entropy_loss": "ln(2)"
+    },
+    {
+      "N": 256,
+      "comparator_TV": "1/256",
+      "planted_entropy_loss": "ln(2)"
+    },
+    {
+      "N": 4096,
+      "comparator_TV": "1/4096",
+      "planted_entropy_loss": "ln(2)"
+    }
+  ],
+  "latent_public_F5": {
+    "latent_TV": "1/2",
+    "public_TV": "0"
+  },
+  "active_vs_image": [
+    {
+      "q": 3,
+      "d": 1,
+      "unit_conditioning_TV": "1/3",
+      "image_defect": "2/9"
+    },
+    {
+      "q": 3,
+      "d": 2,
+      "unit_conditioning_TV": "5/9",
+      "image_defect": "32/81"
+    },
+    {
+      "q": 5,
+      "d": 1,
+      "unit_conditioning_TV": "1/5",
+      "image_defect": "4/25"
+    },
+    {
+      "q": 5,
+      "d": 2,
+      "unit_conditioning_TV": "9/25",
+      "image_defect": "184/625"
+    },
+    {
+      "q": 17,
+      "d": 1,
+      "unit_conditioning_TV": "1/17",
+      "image_defect": "16/289"
+    },
+    {
+      "q": 17,
+      "d": 2,
+      "unit_conditioning_TV": "33/289",
+      "image_defect": "8992/83521"
+    }
+  ],
+  "posterior_second_world": {
+    "P_X": [
+      "3/4",
+      "1/4"
+    ],
+    "posterior_rows": [
+      [
+        "2/3",
+        "1/3"
+      ],
+      [
+        "0",
+        "1"
+      ]
+    ],
+    "planted_output": [
+      "1/2",
+      "1/2"
+    ],
+    "uniform_input_output": [
+      "1/3",
+      "2/3"
+    ],
+    "comparator_TV": "1/6"
+  },
+  "signed_deconvolution": {
+    "mu": [
+      "2/5",
+      "3/20",
+      "3/20",
+      "3/20",
+      "3/20"
+    ],
+    "inverse_h": [
+      "3/5",
+      "1/4",
+      "-1/20",
+      "-1/20",
+      "1/4"
+    ],
+    "nu": [
+      "3/10",
+      "17/80",
+      "11/80",
+      "11/80",
+      "17/80"
+    ],
+    "negative_inverse_coordinates": [
+      2,
+      3
+    ],
+    "nontrivial_mu_Fourier": "1/4",
+    "Fourier_ratios": "(10 +/- 3 sqrt(5))/20, strictly between zero and one"
+  },
+  "CP1": {
+    "normalizer": "10/11",
+    "posterior_A_each": "21/2000",
+    "posterior_C_each": "1/20",
+    "posterior_D": "879/1000",
+    "selected_hit": "21/2000",
+    "false_product": "1/100",
+    "e_incidence": "121/2000",
+    "x_incidence": "1/10",
+    "f_incidence": "21/2000",
+    "later_incidence": "21/221"
+  },
+  "positive_event_transfer": {
+    "M2_P_given_Q": "5/4",
+    "P_vs_Q_decision_gap": "1/4",
+    "Q_vs_Q_decision_gap": "0",
+    "all_four_event_inequalities": true
+  },
+  "good_source_event_transfer": {
+    "goodF": "7/8",
+    "goodU": "8/9",
+    "conditional_success": "15/16",
+    "guaranteed_positive_acceptance": "35/48"
+  },
+  "SE_CORRELATION_F3": {
+    "source_TV": "0",
+    "target_TV": "2/9",
+    "E": "-S",
+    "applicability": "General bridge missing S/E independence; no S,E variables in W1 source-map claims"
+  },
+  "joint_marginal_control": {
+    "diagonal_F3_pair_vs_uniform_TV": "2/3",
+    "both_marginals_uniform": true
+  },
+  "autocorrelation_controls": [
+    {
+      "n": 2,
+      "q": 17,
+      "roots": [
+        4,
+        13
+      ],
+      "polynomials_checked": 9,
+      "singleton_planted_support_cases": 288,
+      "self_adjoint_dimension": 1
+    },
+    {
+      "n": 4,
+      "q": 17,
+      "roots": [
+        2,
+        8,
+        9,
+        15
+      ],
+      "polynomials_checked": 81,
+      "singleton_planted_support_cases": 5184,
+      "self_adjoint_dimension": 2
+    },
+    {
+      "n": 8,
+      "q": 17,
+      "roots": [
+        3,
+        5,
+        6,
+        7,
+        10,
+        11,
+        12,
+        14
+      ],
+      "polynomials_checked": 6561,
+      "singleton_planted_support_cases": 0,
+      "self_adjoint_dimension": 4
+    }
+  ],
+  "uniform_product_count": {
+    "q": 17,
+    "zero_preimages": 33,
+    "each_nonzero_preimages": 16,
+    "n2_b1_d0_relaxed_acceptance": "97/289",
+    "union_bound": "10/17",
+    "d1_bound": "1 (trivial, expected)"
+  },
+  "self_adjoint_residue_count_n4": {
+    "count": 289,
+    "expected": 289
+  },
+  "finished_utc": "2026-09-06T20:42:58.163991+00:00",
+  "all_assertions_passed": true
+}

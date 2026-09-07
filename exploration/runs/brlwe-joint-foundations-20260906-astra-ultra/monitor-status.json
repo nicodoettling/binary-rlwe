@@ -1,0 +1,39 @@
+{
+  "state": "finalized",
+  "heartbeat_at": "2026-09-06T21:10:51.468975+00:00",
+  "monitor_pid": 1134596,
+  "settings": {
+    "monitor_poll_seconds": 5,
+    "snapshot_interval_seconds": 300,
+    "coordinator_checkpoint_stale_seconds": 600
+  },
+  "systemd": {
+    "Result": "success",
+    "ExecMainCode": "0",
+    "ExecMainStatus": "0",
+    "ControlGroup": "",
+    "ActiveState": "inactive",
+    "SubState": "dead"
+  },
+  "observed_session_ids": [
+    "01a07849-2b26-7ac1-96c2-c15903ac2341",
+    "01a0784e-b2cb-7612-b5cf-d2da1b99b6ea",
+    "01a0786c-3357-78a3-b3e6-4307a2a7e925",
+    "01a0786f-bf9b-7d23-bf99-ff481afc4581",
+    "01a07863-0c67-75f1-8d4e-b893c7cd87db",
+    "01a0787d-2178-70b0-beb4-a255a21099c4"
+  ],
+  "error_observation_scope": "coordinator and explicit session/thread UUIDs in agents.json",
+  "alerts": [],
+  "checkpoint": {
+    "stale": false,
+    "age_seconds": 18.1,
+    "last_content_change_at": "2026-09-06T21:10:33.274468+00:00",
+    "receipt_present": true,
+    "scientific_progress_verified": false
+  },
+  "latest_snapshot": "runner-snapshots/20260906T211051.464907Z-492a167f",
+  "stop_reason": null,
+  "automatic_resume": false,
+  "exit_manifest": "exit-manifest.json"
+}

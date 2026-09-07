@@ -1,0 +1,69 @@
+{
+  "canonical_agent_id": "/root/b01_blind",
+  "metadata": {
+    "CODEX_THREAD_ID": "01a07863-0c67-75f1-8d4e-b893c7cd87db",
+    "CODEX_SESSION_ID": "01a07849-2b26-7ac1-96c2-c15903ac2341"
+  },
+  "files": [
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/criticism/B01/model-v1.md",
+      "sha256": "df279e6d964d0ca6051232aa6b086e80582ce241e9000bb8e5d215139a3142af"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/criticism/B01/input-hashes.json",
+      "sha256": "bfabccfd71da23d5ad41ae5d40c96a4f7a04b9a7091cf87c5da5056c5c77feba"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/inputs/RESEARCH_SCOPE.md",
+      "sha256": "d664defc01d31c94cde3f505c9f6fde26a701f72718699611bbee551c82c760d"
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/SKILL.md",
+      "sha256": "9350ffeb5aebe0b126710786586f94ef5d990be35b8b9defc8004136dae40318"
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/references/audit-protocol.md",
+      "sha256": "2d076ba631c340d71f6259757c6207dbe230872810e9bad3188b215f46d095f4"
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/references/probability-regressions.md",
+      "sha256": "ad7eecf93ed02e5b2957243a9bbb2cac8e8eeeb991971f4d77d0818cd04a4fa4"
+    }
+  ],
+  "frozen_report": {
+    "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/criticism/B01/blind-report-v1.md",
+    "sha256": "73e0ef435f43d3b8e19a9144db3a34eaeaca96b759bd948f18bd3bbb7c1e013d",
+    "frozen_utc": "2026-09-06T20:45:57.247712+00:00",
+    "blind_boundary_preserved": true
+  },
+  "review_outputs": [
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/criticism/B01/assignment.md",
+      "sha256": "bc161286ab6a378a6198b056daf28c28c5dd176c534413a8b08d5fe715e597f3"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/criticism/B01/blind-report-v1.md",
+      "sha256": "73e0ef435f43d3b8e19a9144db3a34eaeaca96b759bd948f18bd3bbb7c1e013d"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/criticism/B01/finite_checks.py",
+      "sha256": "8cfe0db624a9dda39d809dd33e0760b2b095cdc644e13723be502a86b00d912d"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/criticism/B01/counterexample-data.json",
+      "sha256": "5f5ad7f49dc5bb3b40f6f20e0149fb6c588f88e13beb661838993635498ed451"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/criticism/B01/repaired-a-data.json",
+      "sha256": "5df18a2efbde21361da43c4bc623dca7c6a81041a1ecbc90660fbde769401fe3"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/criticism/B01/a2-data.json",
+      "sha256": "647b15d9a57964d4a2d9c72b923cb83f6ad8c6518424d7c40c9204e7ecc48488"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/criticism/B01/ring-b-data.json",
+      "sha256": "c95da25c809576dbc77be91b94d9f0652e1b9e41399ebb12e8647c569ca4bae4"
+    }
+  ]
+}

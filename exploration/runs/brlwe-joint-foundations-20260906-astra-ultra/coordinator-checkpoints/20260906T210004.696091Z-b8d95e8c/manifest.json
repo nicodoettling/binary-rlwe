@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260906T210004.696091Z-b8d95e8c",
+  "kind": "coordinator",
+  "created_at": "2026-09-06T21:00:04.696118+00:00",
+  "reason": "Integrated final source-proof audit, experimental evidence, and bounded review dispositions",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 104944,
+      "sha256": "bf77c76bd4f60670ec647fc803ba0c0e88e3501ee94b5f1bb58a1f8098b8e0b1"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 4675,
+      "sha256": "358f74224c12eac576eb77e4ea9b2604f3b43204e55d1d47b67abe8f64c6bc27"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 11851,
+      "sha256": "1b0ab0ec376959a7bff674538e70991758d355676ca3bbeab1b967edf0e55c6b"
+    },
+    {
+      "path": "final.md",
+      "bytes": 4435,
+      "sha256": "8780ae980d41dee84de2e672b76b0f309433f6026d939d5e8d985421de9bf133"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 5797,
+      "sha256": "719ce5e65935187334b524ebf0e300292d4f650cfab85ff5498a87eb618cbe9a"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

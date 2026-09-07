@@ -1,0 +1,3145 @@
+HAL Id: lirmm-05396885
+
+https://hal-lirmm.ccsd.cnrs.fr/lirmm-05396885v2
+
+Submitted on 3 Jun 2026
+
+HAL is a multi-disciplinary open access archive
+for the deposit and dissemination of scientific re-
+search documents, whether they are published or not.
+The documents may come from teaching and research
+institutions in France or abroad, or from public or pri-
+vate research centers.
+
+L’archive ouverte pluridisciplinaire HAL, est des-
+tinée au dépôt et à la diffusion de documents scien-
+tifiques de niveau recherche, publiés ou non, émanant
+des établissements d’enseignement et de recherche
+français ou étrangers, des laboratoires publics ou
+privés.
+
+Copyright - All rights reserved
+
+Hardness of M-LWE with General Distributions and
+Applications to Leaky Variants
+
+Katharina Boudgoust, Corentin Jeudy, Erkan Tairi, Weiqiang Wen
+
+To cite this version:
+
+Katharina Boudgoust, Corentin Jeudy, Erkan Tairi, Weiqiang Wen. Hardness of M-LWE with General Dis-
+tributions and Applications to Leaky Variants. Public-Key Cryptography – PKC 2026, May 2026, West Palm
+Beach, United States. pp.3-37, ⟨10.1007/978-3-032-26731-3_1⟩. ⟨lirmm-05396885v2⟩
+
+
+Hardness of M-LWE with General Distributions and Applications
+to Leaky Variants
+
+Katharina Boudgoust1 , Corentin Jeudy2 , Erkan Tairi3⋆ , and Weiqiang Wen4
+
+katharina.boudgoust@lirmm.fr, corentin.jeudy@orange.com, erkan.tairi@berkeley.edu,
+
+weiqiang.wen@telecom-paris.fr
+
+1 CNRS, Univ Montpellier, LIRMM
+2 Orange Labs, Applied Crypto Group
+3 University of California, Berkeley
+4 Télécom Paris, Institut Polytechnique de Paris
+
+Abstract. The Module Learning With Errors (M-LWE) problem has become a fundamental hardness
+assumption for lattice-based cryptography. It offers an attractive trade-off between strong robustness
+guarantees, sometimes directly based on worst-case lattice problems, and efficiency of the subsequent
+cryptographic primitives. Different flavors of M-LWE have then been introduced towards improving
+performance. Such variants look at different secret-error distributions and might allow for additional
+hints on the secret-error vector. Existing hardness results however only cover restricted classes of said
+distributions, or are tailored to specific leakage models. This lack of generality hinders the design of
+efficient and versatile cryptographic schemes, as each new distribution or leakage model requires a
+separate and nontrivial hardness evaluation.
+In this work, we address this limitation by establishing the hardness of search M-LWE under general
+distributions. As a first step, we show that M-LWE remains hard when the error vector follows an
+arbitrary bounded distribution with sufficient entropy, with some restriction on the number of samples.
+Building on this, we then reduce to the Hermite Normal Form (HNF) where the secret-error vector
+follows said arbitrary distribution. Overall, our result shows that the actual shape of the distribution
+does not matter, as long as it keeps sufficient entropy.
+To demonstrate the versatility of our framework, we further analyze a range of leakage scenarios. By
+examining the residual entropy given the leakage, we show that our results of M-LWE with general
+distributions encompass various types of leakage. More precisely, we cover exact and approximate linear
+hints which are widely used in recent cryptographic designs, as well as quadratic, and even non-algebraic
+forms, some of which were not yet covered by any theoretical hardness guarantees. The generality of
+our results aims at facilitating future cryptographic designs and security analyses.
+
+Keywords: Module Learning With Errors · General Distributions · Entropy · Leakage
+
+1
+Introduction
+
+After being introduced in the pioneering work by Regev [Reg05], the Learning With Errors (LWE) problem
+has induced a number of cryptographic applications through its versatility and robustness. Its connection to
+worst-case lattice problems is a source of confidence in the security of the cryptosystems that rely on it. While
+said systems were lacking efficiency, the introduction of structured variants [SSTX09,LPR10,BGV12,LS15,
+PP19] like Module Learning With Errors (M-LWE) [LS15] allowed for new optimizations and trade-off av-
+enues, while preserving some trustworthy guarantees of robustness. Since then, many primitives have become
+practical thanks to these theoretical advances. The most undeniable examples are the recently standardized
+key encapsulation and signature schemes ML-KEM [BDK+18] and ML-DSA [DKL+18], whose security is
+
+⋆ Work done while the author was at ENS Paris.
+© IACR 2026. This article is the full version of the version to be published by Springer-Verlag in the proceedings
+of PKC 2026.
+
+
+directly based on the hardness of M-LWE. Similarly, a plethora of other primitives benefited from the ver-
+satility of M-LWE like advanced encryption schemes including fully homomorphic encryption [MAM+24],
+zero-knowledge arguments [KLSS23], threshold schemes [DKM+24], etc. The caveat, however, is that the
+genericity of M-LWE opens up to very different parameter selections, all of which must be carefully assessed
+to ensure the best balance between efficiency and security.
+Concretely, for a ring R, the M-LWE problem consists in recovering a secret vector s in an R-module
+given some noisy linear system (A, t = As+e mod q) with uniformly random A, where e is a somewhat short
+error, or distinguishing such a pair (A, t) from random. Several parameters can then be tweaked and yield
+very different regimes both in terms of efficiency and exposure to efficient attacks: the degree n of R, the rank
+d of the module (i.e., the dimension of s), the modulus q, the number of samples m (i.e., the dimension of e),
+but also the distributions of s and e. Far from being mere theoretical constraints, hasty parameter selection
+can lead to security issues rendering the M-LWE problem easy to solve (e.g., large modulus, noise-to-sample
+ratio too small, small lattice dimension nd, etc.). In particular, the distributions of s and e vary from one
+construction to the next so that they are tailored to make said constructions as efficient as possible. This
+multiplicity of distributions contrasts with the very few theoretical results that support them with proven
+mathematical evidence. Although not too concerning for practical constructions (as the hardness is estimated
+using the well-known lattice estimator [APS15]), it still questions the theoretical foundation of said systems
+and somewhat weakens our confidence in the robustness of M-LWE in such new parameter settings.
+To make up for this lack of theoretical arguments, many papers have proven results for specific choices of
+distributions, trying to cover the most widely used ones. Although they do not cover the range of parameters
+used in practical schemes, they still act as a confidence booster that nothing is fundamentally wrong with
+these distributions and, if attacks arise, one could always increase the parameters to fall in the scope of the
+reduction. The first such results focused on the secret distribution [GKPV10,BLP+13,Mic18]. They proved
+that it could be taken to be uniform binary (or with a small bound) while being as hard as the standard
+formulation of LWE (i.e., with s uniform over Zd
+q and e from a discrete Gaussian distribution). They were
+later generalized to M-LWE in [BJRW20, BJRW21, BJRW23], however, only the uniform distribution with
+small coefficients were covered. A study initiated by Brakerski and Döttling [BD20a] aimed at abstracting
+the actual shape of the secret distribution while still being able to prove the hardness of LWE based on
+well-known assumptions. More precisely, the hardness was proven making the least amount of assumptions
+on the secret distribution beyond the entropy it carried. They were able to show that, as long as the secret
+distribution had sufficient min-entropy, LWE in that setting is no easier than the standard formulation. This
+result was later extended in [BD20b] to the ring setting proving that R-LWE [LPR10] with arbitrary (albeit
+with sufficient entropy) distributions is at least as hard as (a generalized version of) NTRU [HPS98]. Both
+these approaches were later extended to the case of M-LWE in [LWZW20] (reduction from standard M-LWE)
+and [BJRW22] (reduction from Module-NTRU). Although these provide evidence that the actual shape of
+the secret distribution is not so important in the hardness of (R/M-)LWE, they all rely on Gaussian error
+distributions, and thus do not cover variants with different error distributions.
+Changing the error distribution has shown to be a little more delicate, as it is the cornerstone of LWE.
+Indeed, even if no error leads to a trivial problem, having an error distribution that is too short or too
+sparse is also insecure as shown for example through algebraic attacks [AG11,STA20]. More precisely, there
+is an intricate constraint between the error distribution (and its sparsity) and the number of samples m.
+This constraint actually comes up in the first reduction provided by [MP13], where they showed LWE
+with uniform small errors stays as hard as LWE with Gaussian errors, if m = d + O(d/ log d) where d is
+the secret dimension. The specific case of binary errors was then further investigated in [STA20], where
+they did not require a uniform distribution. They obtained different requirements on m depending on the
+sparsity of the distribution. The former was later extended to the module setting in [BJRW23] showing
+similar constraints for uniform bounded errors. But again, only variants of (M-)LWE with uniform bounded
+errors or sparse binary errors were provided with this evidence of robustness, which falls short of generally
+covering the distributions used across the cryptographic literature. Taking the opposite view, wandering off
+the distributions covered by reductions or estimated using [APS15] is often frowned upon, thus limiting the
+range of available distributions to parameterize LWE with.
+
+2
+
+
+M-LWEU,D
+
+M-SIS
+
+sM-LWEU,X
+sHNF-M-LWEX
+
+sLeaky-M-LWEf
+
+Uninvertibility
+
+Sec. 4.1
+
+Second Preimage
+
+Resistance
+
+Sec. 4.2
+
+Sec. 5
+
+Sec. 4.3
+
+If enough
+entropy
+
+If enough
+samples
+
+taking
+
+X = “�
+s
+e
+
+�
+given f
+�
+s
+e
+
+�”
+
+Approximate Linear Hint
+
+Bounded Support Hint
+
+Exact Linear Hint
+
+Quadratic Hint
+
+Non-Algebraic Hint
+
+Sec. 6.1
+
+Sec. 6.2
+
+Sec. 6.2.1
+
+Sec. 6.2.2
+
+Sec. 6.2.3
+
+Improved noise
+lossiness
+Sec. 3
+
+Fig. 1.1. High-level overview of our results and proof structure. The prefix "s" refers to the search variant. The
+subscript U designates a uniform distribution of secrets modulo q, while D, X are error distributions representing the
+starting distribution (for which hardness of M-LWE is assumed) and target distribution (for which we want to prove
+hardness of M-LWE), respectively. In the case of HNF-M-LWE, X is the joint distribution of (s, e). The dashed arrow
+signifies it is optional and can be removed by relying on the statistical version of Lemma 4.3. The squiggly arrow
+means Leaky-M-LWEf is interpreted as HNF-M-LWEX for X being the conditional distribution of (s, e) given the
+leakage f(s, e). The angled arrows specify which families of leakage functions f are tackled in this paper and where.
+
+Meanwhile, several works have introduced so-called hint or extended variants of LWE (and structured
+counterparts) so as to give more flexibility and improve or unlock certain applications. This has been done
+not only in the context of reductions [BLP+13,BJRW21,BJRW23,BK25], but also in many different crypto-
+graphic constructions [AP12,ALS16,AA16,LNS21,MKMS22,LN22,DKL+23,KLSS23,HPS23,MS23,WLL24,
+ENP24,PS24]. These variants not only give (A, t) to the adversary, but also give out hints or leakages f(s, e)
+for a leakage function f that vary depending on the application. Although these variants generally lead to
+more efficient primitives, one has to ensure that the hint or leakage does not provide the adversary sufficient
+information to solve LWE. Indeed, the leakage changes the distribution of (s, e) from the adversary’s per-
+spective because this side information reduces the original secret-error space. In some cases, reductions from
+known flavours of LWE are proven, but always adopt a tailored approach to cover their specific variant. For
+that, one of the popular solutions is to characterize the distribution of (s, e) conditioned on some specific
+leaked value f(s, e) = c (see e.g., [KLSS23, Lem. 7] or [ENP24, Lem. 1]). This is a non-trivial task in general,
+which is why most results, to our knowledge, impose Gaussian distributions in order to rely on their nice
+convolution properties. On the other hand, certain variants are not supported by any theoretical insights,
+which makes it unclear whether the hints hinder security. Overall, because the distribution of (s, e) changes
+due to the leakage, there is no general hardness result covering these cases.
+
+1.1
+Our Contributions
+
+In this paper, we provide a general study of the hardness of M-LWE with arbitrary error and secret dis-
+tributions. Such a global study is especially motivated by the recent introduction of various leaky M-LWE
+variants, and was, prior to our work, was lacking. In particular, we provide the first hardness results for
+non-linear leakage. We provide a detailed description of our contributions below, with a high-level pictorial
+description of our results given in Figure 1.1.
+
+3
+
+
+We start by focusing on general error distributions in Section 4. We generalize the approach of [MP13,
+
+STA20,BJRW23] from bounded uniform to general bounded error distributions, placing only minimal amount
+of requirements on it. Analogous to the series of works initiated by [BD20a] for the secret distribution, we
+show that one can prove the hardness of M-LWE with bounded error distribution X from standard M-LWE,
+solely based on the entropy of X. The restriction of X being bounded comes naturally in the M-LWE problem
+as one usually uses small errors to obtain more efficient schemes. In addition to this bound, we obtain a
+limitation on the number of samples. Abstracting the distribution unfortunately makes this limitation on
+the number of samples harder to pin down than with the uniform over hypercube case covered in [BJRW23].
+Nevertheless, the combination of both these small restrictions helps ruling out trivial attacks for extreme
+distributions (for example when all the entropy would lie in a single coefficient). We discuss further these
+restrictions in Section 4. Overall, the main constraint on the error distribution comes from its entropy. It
+then yields interesting insights on the hardness of M-LWE: the concrete shape of the error distribution does
+not matter too much, provided it has sufficient entropy. Our proof also suggests that as long as the entropy
+stays the same, the hardness of M-LWE for two different error distributions does not drastically change, even
+if the two distributions are not cryptographically close (in terms of statistical distance, Rényi divergence or
+other metrics). It then opens for attractive perspectives for cryptographic designs where one could opt for a
+more suitable error distribution and arguing the underlying hardness based on the entropy alone. Our main
+result is summarized with the following informal theorem, and the full statement is provided in Theorem 4.1.
+Following [MP13,BJRW23], the high-level proof strategy is to show uninvertibility (Section 4.1) and second-
+preimage-resistance (Section 4.2), which imply the hardness of the search variant of M-LWE with general error
+distribution X. Second-preimage resistance can either be obtained statistically, or computationally assuming
+the hardness of M-SIS. Uninvertibility can be guaranteed assuming M-LWE with an error distribution D for
+which hardness has already been established.
+
+Theorem 1.1 (Informal). Let m > d > k ≥ 1, modulus q and ring R be of degree n, and assume decision
+M-LWE with secret distribution U(Rk
+q) and error distribution D over Rm−d+k and M-SIS in dimension m−d
+are hard. Then, for a distribution X over Rm, the search M-LWE with secret distribution U(Rd
+q) and error
+distribution X is hard provided that
+
+H∞(X) ≳ λ + log2
+�
+Vol(Bn(m−d+k)(rD,X ))
+�
+,
+
+where the n(m − d + k)-hyperball radius rD,X depends on a norm bound on X and spectral norm bound on
+D. Here, λ denotes the security parameter and ≳ refers to an asymptotic behavior.
+
+By setting D to the discrete Gaussian and X to the bounded uniform distributions, we recover the
+results of [BJRW23]. We then extend this result to the Hermite Normal Form (HNF) of M-LWE in Section 5.
+The HNF is often the preferred regime for M-LWE as it allows for replacing a large uniform secret by a
+secret of small norm, hence improving the efficiency of the subsequent cryptographic primitive. This regime
+is usually described by the fact that the secret distribution is the same as the error distribution, i.e., t = As+e
+for s drawn from Dd and e from Dm. However, this suggests that all the entries of s and e are independent and
+identically distributed according to D. A more natural and general formulation is to define t = [A | Im]x for x
+drawn from a distribution X over Rm+d. Here, Im denotes the m-dimensional identity matrix over R. In that
+case, the vector x can be seen as the concatenation [s | e], but no independence condition or specific shape
+is required for X. Reducing M-LWE with s uniform in Rd
+q and e sampled from X to this formulation with x
+drawn from X is fairly common [ACPS09,LS15,BJRW23]. A small subtlety however arises in the reduction
+when X is not invariant under permutation, e.g., not of the form X = Dm+d. Indeed, the reduction interprets
+e in the former problem as x in the latter. But for that, it requires to identify an invertible submatrix of A and
+to permute e so that the new “secret part” (the first d entries of x) matches with the rows of this submatrix.
+As a result, the distribution of the resulting x is PX for a random permutation matrix P. Albeit equivalent
+to the standard HNF formulation for permutation-invariant distributions, it shows that the HNF transform
+needs to account for this permutation at the risk of yielding an insecure problem. We thus introduce the
+permuted HNF-M-LWE (pHNF-M-LWE) problem with distribution X as the problem of finding x given A
+and t = [A | Im]Px for x drawn from X, and random permutation matrix P. Our proof then shows that
+
+4
+
+
+pHNF-M-LWE with rank d, m samples and secret-error distribution X is at least as hard as M-LWE with
+rank d, m + d samples, and error distribution X. We also provide an alternative (looser) reduction to avoid
+this permutation intricacy and reduce to the regular formulation of HNF-M-LWE.
+At this stage, we proved in Sections 4+5 that HNF-M-LWE with secret-error distribution X and M-LWE
+with error distribution X are at least as hard as the standard formulation of M-LWE if X has sufficient
+entropy. Even though not considered surprising results by themselves, they required substantial technical
+rigorousness to be proven for M-LWE. Besides giving more freedom in the choice of distributions to instantiate
+M-LWE with, our findings also provide a systematic study of leaky and hint variants of M-LWE by simply
+relying on entropy considerations. Concretely, if one is given f(x) in addition to [A | Im]x, we can consider
+the conditional distribution of x given f(x). Having abstracted the distribution in our proof then allows to
+encompass these oddly-shaped distributions as long as they are bounded (which follows from the bound on
+x) and that they have sufficient entropy. Proving hardness then comes down to estimating the conditional
+entropy of x given f(x), i.e., how much information f(x) provides on x. For that we use the average
+conditional min-entropy, denoted �
+H∞(x | f(x)), which is well suited for security arguments, as detailed in
+Section 6.
+Computing this quantity is non-trivial in general, but one can still derive meaningful lower bounds that are
+sufficient in some cases. We start in Section 6.1 with studying the setting covered in [AP12,KLSS23,ENP24]
+of approximate linear hints f(x) = Mx + f, with M arbitrary (possibly adversarial) and f Gaussian. Our
+result provides the hardness of this variant even when x does not follow a Gaussian distribution. As we
+explained, previous works required x to be Gaussian in order to characterize the conditional distribution of
+x given f(x) using convolution techniques. In our case, we can lower bound �
+H∞(x | Mx + f) by H∞(x) −
+O(
+√
+
+nk∥Mx∥2/σ), where n is the ring degree, k is the number of hints and σ is the Gaussian parameter of
+f, and without requiring x to be Gaussian. The latter point was identified as a limitation in the Raccoon
+signature scheme [dPKPR24], where the hardness of Hint-M-LWE [KLSS23] required Gaussian distributions
+which were incompatible with the sums of uniforms of [dPKPR24]. As a side contribution of potentially
+independent interest, detailed in Section 3, we generalize the notion of noise lossiness from [BD20a] and
+results thereof to what we call linear noise lossiness. We indeed show that their “flooding at the source”
+technique is not always optimal. At a high level, they decompose the Gaussian f into Mf1 + f2, argue that
+�
+H∞(x | Mx + f) ≥ �
+H∞(x | x + f1), and then choose the Gaussian parameter of f1 sufficiently large to flood
+x. This Gaussian decomposition and inequality are a bit loose, and we show that one can directly use f to
+hide the leaked information Mx. Getting rid of these first two steps removes unnecessary restrictions, giving
+more flexibility for the trade-off between the size of the mask f and the remaining guaranteed min-entropy
+of x.
+We then show in Section 6.2 that our approach also covers more general leakage variants, some of which
+were not proven hard prior to our work. We mentioned that the key methodology is to lower bound �
+H∞(x |
+f(x)). This can be done for arbitrary leakage functions, as long as the range of f(x) is bounded. Indeed,
+we have �
+H∞(x | f(x)) ≥ H∞(x) − log2|f(Supp(X))|. It means that for sufficiently small leakage space,
+one can derive a meaningful hardness result solely based on the entropy of X. We note that if the entropy
+H∞(x) of x is large enough to begin with, one can cover leakage that has an exponential leakage space,
+i.e., log2|f(Supp(X))| = Ω(λ), where λ is the security parameter. Conversely, such large leakage spaces
+are precluded in proofs based on guessing arguments which are used when no better alternative is known
+(e.g., [MS23]). Additionally, this bound on �
+H∞(x | f(x)) is agnostic to the specific shape of f which then
+allows us to cover many different types of leakage. We describe in the paper how to cover existing variants
+with exact linear hints [ALS16,AA16,BJRW21,LN22,WLL24], i.e., f linear (possibly adversarial), quadratic
+hints [MS23], but also non-algebraic hints [LNS21]. In particular, until now, each of these either required a
+tailored reduction or was not covered by any theoretical hardness evidence (e.g., Known-Covariance variant
+in [MS23]). We explain in details in Appendix A how to instantiate it to provide the first theoretical hardness
+evidence for the (module version of the) Known-Covariance variant proposed in [MS23]. To summarize, our
+results encompass most leakage variants, to our knowledge, by providing a unified methodology for studying
+their hardness.
+
+5
+
+
+1.2
+Limitations and Open Problems
+
+Similar to many other theoretical reductions, our results do not cover parameter ranges considered in practice.
+This is partly due to the generality of our results, which may lead to looser arguments than the ones focusing
+on specific settings. We thus interpret our findings as confidence booster in the studied variants of M-LWE.
+In particular, we think the impact of our work is most important when looking at variants of M-LWE
+where no prior reduction was known, such as non-linear yet algebraic leakage, e.g., [MS23], or non-algebraic
+leakage, e.g., from side-channel measurements. Tightening our results would reduce the gap between theory
+and practice, which we leave as an interesting research direction.
+Our results hold for general number fields, including the case of degree n = 1, thus covering the un-
+structured case of LWE. Nonetheless, our analysis necessitates the evaluation of norms on the multiplication
+matrices of ring elements, which is better understood in (power-of-two) cyclotomic fields. On the opposite
+extreme, we highlight that our results, as stated in Theorem 1.1, require d > 1 and hence do not cover the
+ring setting. This was already left open for the general small secret distribution case. Indeed, previous papers
+rely on a low-rank factorization which is naturally not rank-preserving. We note that even [BD20b], which
+focuses on R-LWE with entropic secret, inherently cannot reach small secrets.
+Perhaps the most relevant limitation of our work is that our main result (Theorem 4.1) only guarantees
+the hardness of the search variant of M-LWE with general error (and secret) distributions. This restriction
+is also present in prior works that study M-LWE with small error distributions [MP13, STA20, BJRW23].
+Moreover, we note that the existing search-to-decision reductions for M-LWE are not error preserving for
+ring degree n > 1 [MM11,LS15]. We believe it is an important and challenging open problem to extend our
+results to the decision variant.
+
+2
+Preliminaries
+
+We use N, Z, R, C to denote the set of natural numbers, the ring of integers, the field of reals and the field
+of complex numbers respectively. For two integers a ≤ b, we define [a, b] = {a, . . . , b} and [b] = [1, b]. For a
+positive integer q and a ring R, we define the quotient ring Rq = R/qR. For a ring R, we denote by R× its
+unit group, and we abuse notation by defining N× = N \ {0} to be the set of positive integers. Vectors and
+matrices over a ring R are written in bold lowercase and bold uppercase respectively. We use ∥x∥p to denote
+the usual ℓp norm over Cn. Recall that for p > r ≥ 1, we have ∥·∥p ≤ ∥·∥r ≤ n1/r−1/p∥·∥p. We use Bp,n(r) to
+denote the closed n-dimensional ℓp-norm ball of radius r, i.e., Bp,n(r) = {x ∈ Rn : ∥x∥p ≤ r}. For α, β ≥ 1,
+we define the (α, β)-induced matrix norm of a matrix A ∈ Cn×m by ∥A∥α,β = supx̸=0∥Ax∥β/∥x∥α. This
+norm has simpler expressions for some known pairs (α, β). For example, we have
+
+∥A∥1,1 = max
+j∈[m]
+
+�
+
+i∈[n]
+|ai,j|
+∥A∥2,∞ = max
+i∈[n]
+
+� �
+
+j∈[m]
+|ai,j|2
+
+∥A∥∞,∞ = max
+i∈[n]
+
+�
+
+j∈[m]
+|ai,j|
+∥A∥1,2 = max
+j∈[m]
+
+� �
+
+i∈[n]
+|ai,j|2
+
+∥A∥2,2 =
+�
+
+λmax(AT A),
+
+where λmax(AT A) denotes the largest eigenvalue. When α = β, we abbreviate the matrix norm by ∥·∥α,β =:
+∥·∥α. In particular, ∥·∥2,2 is generally noted ∥·∥2 in the literature and called the spectral norm.
+
+2.1
+Algebraic Number Theory
+
+A number field K = Q(ζ) is a field extension of Q of finite degree n obtained by adjoining an algebraic
+number ζ, i.e., ζ is a root of a rational polynomial. The number ζ is called an algebraic integer if it is root
+of an integer polynomial. The field K is isomorphic to Q[x]/⟨f⟩ where f is the minimal polynomial of ζ.
+
+6
+
+
+The set of algebraic integers within K defines a ring R called the ring of integers of K. We also define the
+ring KR = K ⊗Q R ∼= R[x]/⟨f⟩. For an ideal I of R, we define its norm N(I) as the index of I in R, i.e,
+N(I) = |R/I|. We call a prime integer q unramified in R if all the distinct prime ideal factors of the ideal
+qR have ramification index 1, that is qR = �
+
+i∈[κ] pi where p1, . . . , pκ are distinct prime ideals of R.
+The number field K can be seen as an n-dimensional Q-vector space with basis {ζj}j∈[0,n−1], meaning
+that a ∈ K can be expressed as a = �
+
+0≤j<n ajζj with aj ∈ Q. We can therefore define the coefficient
+embedding τ such that τ(a) = [a0| . . . |an−1]T . We sometimes use τj(a) = aj for simplicity. It then holds
+that the norms of Rn induce norms on K (and KR, R) by ∥a∥ := ∥τ(a)∥. Multiplication in K also maps
+to a matrix-vector multiplication of the coefficient embeddings as τ(ab) = Mτ(a)τ(b) where Mτ is a ring
+isomorphism defined by Mτ : a ∈ K �→ [τ(a) | τ(aζ) | . . . | τ(aζn−1)] ∈ Qn×n
+
+A popular class of number fields is that of cyclotomic fields. The m-th cyclotomic field is Km = Q(ζm)
+where ζm is a primitive m-th root of unity, e.g., ζm = exp(i2π/m). The minimal polynomial, called the
+m-th cyclotomic polynomial, is Φm = �
+
+j∈Z×
+m(x − ζj
+m). It has degree n = φ(m). We define the Vandermonde
+matrix of Km as Vm = [ζjk
+m ]j∈Z×
+m,k∈[0,n−1]. For example, when m = 2ℓ+1, Φm = xn + 1 with n = 2ℓ, and
+Vm = √nU with U unitary. In that case, we call Km a power-of-two cyclotomic field. In the latter Mτ(a)
+is the nega-circulant matrix with first column τ(a). In cyclotomic fields, we also define the conjugate of an
+element a by a∗ = σ−1(a) where σ−1 is the field automorphism of K defined by ζ �→ ζ−1. Conjugation
+corresponds to transposing Mτ, i.e., Mτ(a)T = Mτ(a∗). As a result, in a power-of-two cyclotomic field of
+degree n, we have τ(a∗) = [a0 | −an−1 | . . . | −a1]T .
+We extend these notions to vectors and matrices over K. Namely, for a ∈ Kd, τ(a) is the concatenation
+of the coefficient embeddings of its entries. Similarly, Mτ(A) is the block matrix composed of the Mτ([A]i,j).
+Vector and matrix norms are then extended to Kd and Kd×k through these embedding τ(a) and Mτ(A)
+respectively. We also define the conjugate of a vector or matrix by taking the conjugate of each entry and
+transposing the result, i.e., if x = [x1 | . . . | xd]T ∈ Kd, then x∗ is the row vector [x∗
+1 | . . . | x∗
+d].
+As we generally work with elements of Rq, we sometimes need to ensure these elements are invertible in
+the quotient ring Rq. Necessary conditions are provided for example in [LS18] in cyclotomic rings, where it
+suffices that q is sufficiently large compared to the ℓ2 or ℓ∞ norm of y ∈ Rq. We generalize their invertibility
+result in cyclotomic rings to be expressed in terms of the ℓp norm for an arbitrary p. As Rq is isomorphic to
+Zq[x]/⟨Φm(x)⟩ through ζ �→ x, we analyze invertibility in the latter.
+
+Lemma 2.1 ([LS18, Thm. 1.1] adapted).
+Let m = �
+i pei
+i
+for pi distinct primes and ei ∈ N×. Let
+z = �
+
+i pfi
+i
+for arbitrary fi ∈ [1, ei]. Let q be a prime such that q = 1 mod z and ordm(q) = m/z. Let
+y ∈ Zq[x]/⟨Φm(x)⟩ such that
+
+∃p ∈ N×, 0 < ∥τ(y)∥p < φ(z)min(1/2,1/p)
+
+∥Vz∥2
+q1/φ(z).
+
+Then y ∈ (Zq[x]/⟨Φm(x)⟩)×.
+
+Proof. By [LS18, Thm. 2.3], the way m, z, q are set ensures the cyclotomic polynomial factors as Φm(x) mod
+q = �φ(z)
+i=1 (xm/z − ri) where the xm/z − ri are distinct and irreducible in Zq[x]. We then have Φz(x) mod q =
+�φ(z)
+i=1 (x − ri). Now let y be as in the lemma statement. For i ∈ [0, φ(m)/φ(z) − 1], define
+
+ti =
+
+φ(z)−1
+�
+
+j=0
+τjφ(m)/φ(z)+i(y) · xj,
+
+Note that φ(m)/φ(z) = m/z, which we later use for conciseness. By [LS18, Lem. 3.2], if one of the ti
+is invertible in the fully-splitting ring Zq[x]/⟨Φz(x)⟩, then y is invertible in Zq[x]/⟨Φm(x)⟩. Because y ̸= 0,
+there exists k such that tk ̸= 0. Additionally, we have ∥τ(tk)∥p
+p = �φ(z)−1
+j=0
+��τjm/z+k(y)
+��p ≤ �φ(m)−1
+j=0
+|τj(y)|p =
+∥τ(y)∥p
+p. Hence, we get
+
+0 < ∥τ(tk)∥p < φ(z)min(1/2,1/p)
+
+∥Vz∥2
+q1/φ(z),
+
+7
+
+
+Assume towards contradiction tk is not invertible in Zq[x]/⟨Φz(x)⟩. By the Chinese Remainder Theorem, it
+yields there exists i ∈ [1, φ(z)] such that tk(ri) = tk mod x − ri = 0. Define the ideal I = {s ∈ Z[x]/⟨Φz(x)⟩ :
+s(ri) = s mod x − ri = 0 mod q}. I is indeed clearly an additive group. Also, because x − ri divides
+Φz(x) mod q, I is also an ideal of Z[x]/⟨Φz(x)⟩. By the CRT representation, it also follows that N(I) =
+|(Z[x]/⟨Φz(x)⟩)/I| = q.
+Looking at the ideal lattice σ(I) in the canonical embedding, we have by [PR07, Lem. 6.2] that λp′
+1 (σ(I)) ≥
+φ(z)1/p′N(I)1/φ(z) = φ(z)1/p′q1/φ(z) for any p′ ∈ N×, where λp′
+1 (L) = minx∈L\{0}∥x∥p′ is the first minimum
+of the lattice L in ℓp′ norm. We however need a similar bound for the ideal lattice τ(I) in the coefficient
+embedding. We know that σ = Vzτ where Vz is the Vandermonde matrix of the z-th cyclotomic field Kz.
+Let w ∈ I \ {0} such that w = τ(w) has norm ∥w∥p = λp
+1(τ(I)). If p > 2, then
+
+λp
+1(τ(I)) = ∥w∥p ≥ φ(z)
+1
+p − 1
+
+2 ∥w∥2 ≥ φ(z)
+1
+p − 1
+
+2
+
+∥Vz∥2
+∥σ(w)∥2 ≥ φ(z)
+1
+p − 1
+
+2
+
+∥Vz∥2
+φ(z)1/2q1/φ(z),
+
+which gives λp
+1(τ(I)) ≥
+φ(z)1/p
+
+∥Vz∥2 q1/φ(z). If p ≤ 2, we simply have λp
+1(τ(I)) ≥ λ2
+1(τ(I)) ≥
+φ(z)1/2
+
+∥Vz∥2 q1/φ(z).
+
+Combining both cases then simply gives λp
+1(τ(I)) ≥ φ(z)min(1/2,1/p)
+
+∥Vz∥2
+q1/φ(z).
+We then have tk ∈ I and 0 < ∥τ(tk)∥p < λp
+1(τ(I)), which is a contradiction. It then means tk is invertible
+in Zq[x]/⟨Φz(x)⟩ and in turn that y is invertible in Zq[x]/⟨Φm(x)⟩ as desired.
+
+We can also specialize the result in the case of power-of-two cyclotomics akin [LS18, Cor. 1.2] as follows.
+
+Lemma 2.2 ([LS18, Cor. 1.2] adapted).
+Let n ≥ κ > 1 be powers of 2 and q = 2κ + 1 mod 4κ
+a prime. Let y ∈ Zq[x]/⟨xn + 1⟩ such that 0 < ∥τ(y)∥p < κmin(0,1/p−1/2)q1/κ for some p ∈ N×, then
+y ∈ (Zq[x]/⟨xn + 1⟩)×.
+
+2.2
+Gaussians
+
+For s > 0, we define the centered Gaussian function of parameter s by ρs : x ∈ Rn �→ exp(−π∥x∥2
+2/s2).
+We can then define the discrete Gaussian over Zn through its probability mass function DZn,s =
+ρs
+
+ρs(Zn)1Zn,
+where 1Zn is the indicator function of Zn and ρs(Zn) = �
+
+y∈Zn ρs(y). We extend the discrete Gaussian
+distribution to (vectors of) ring elements as DRd,s = τ −1(DZnd,s), i.e., the vector of Znd of concatenated
+coefficient embeddings is sampled from DZnd,s, where n denotes the degree of R. We define the smoothing
+parameter of Zn, introduced in [MR04] for arbitrary lattices, as ηε(Zn) = min{s > 0 : ρ1/s(Zn) = 1+ε} for a
+given ε > 0. It was recently shown in [EWY23] that ηε(Zn) ≈
+�
+
+ln(2n/ε)/π. We also recall the standard tail
+bound in ℓ2 norm from [Ban93, Lem. 1.5]. We only specify it to Zn but note it holds for all n-dimensional
+lattices.
+
+Lemma 2.3 ([Ban93, Lem. 1.5]). Let n ∈ N× and s > 0. For all t ≥ 1/
+√
+
+2π, it holds Px∼DZn,s[∥x∥2 >
+ts√n] < (t
+√
+
+2πee−πt2)n.
+
+2.3
+Entropy
+
+For a distribution X on a support X, we define its min-entropy by H∞(X) = − log2 maxx′∈X Px∼X [x = x′].
+Throughout the paper, we interchangeably consider the min-entropy of X and the min-entropy of a random
+variable x distributed according to X. We also consider the average predictability through the average
+conditional min-entropy of distribution X conditioned on a distribution Y supported over Y by
+
+�
+H∞(X | Y) = − log2
+
+�
+Ey∼Y
+
+�
+max
+x′∈X Px∼X [x = x′ | y]
+��
+
+8
+
+
+− log2
+
+
+
+ �
+
+y′∈Y
+Py∼Y[y = y′] max
+x′∈X Px∼X
+y∼Y [x = x′ | y = y′]
+
+
+
+ .
+
+We note that other definitions of conditional entropy are possible, but the average one is better suited for
+security arguments. We elaborate on this subject in Section 6. By abuse of language, we may use conditional
+entropy or residual entropy to designate the average conditional min-entropy. We recall the following results
+of [DORS08] on the conditional entropy, which we use in Section 6.2.
+
+Lemma 2.4 ([DORS08, Lem. 2.2]). Let X, Y, Z be random variables. Then
+
+1. For any δ > 0, the conditional entropy H∞(X | Y = y) is at least �
+H∞(X | Y)−log2(1/δ) with probability
+1 − δ over the choice of y.
+
+2. If Y takes at most N values, then �
+H∞(X | Y) ≥ H∞(X) − log2 N and �
+H∞(X | Y, Z) ≥ �
+H∞(X |
+Z) − log2 N.
+
+2.4
+Assumptions
+
+We now introduce the Module Learning With Errors problem as formalized in [LS15]. We however leave free
+the choice of secret and error distributions which is particularly relevant for our work.
+
+Definition 2.1 (M-LWE).
+Let R be the ring of integers of a number field of degree n, and d, m, q be
+in N×. Let Ds be a secret distribution on Rd, and De an error distribution on Rm. The search ver-
+sion of the Module Learning With Errors problem, denoted M-LWEn,d,m,q,Ds,De, asks to recover s given
+A ←� U(Rm×d
+q
+), and b = As + e mod qR for s ←� Ds and e ←� De. The advantage of an adversary
+A is then Adv[A] = P[A(A, b) = s]. The decision version asks to distinguish such pairs (P0) (A, b =
+As + e mod qR) from (P1) (A, u) where u ←� U(Rm
+q ). The adversary’s advantage in this case is Adv[A] =
+��P(A,b)∼P0[A(A, b) = 1] − P(A,u)∼P1[A(A, u) = 1]
+��.
+
+Our proof, in its computational variant, leverages the Module Short Integer Solution problem, formalized
+in [LS15], which we extend to arbitrary ℓp norms.
+
+Definition 2.2 (M-SIS).
+Let R be the ring of integers of a number field of degree n, and d, m, q be in
+N×. Let p ∈ [1, ∞] and β > 0. The Module Short Integer Solution problem, denoted M-SISp
+n,d,m,q,β, asks to
+find x ∈ Rm such that AT x = 0 mod qR and 0 < ∥x∥p ≤ β given A ←� U(Rm×d
+q
+). The advantage of an
+adversary is Adv[A] = P[AT x = 0 ∧ 0 < ∥x∥p ≤ β : x ← A(A)].
+
+We say that a problem P (among search/decision M-LWE and M-SIS) is ε-hard if for all probabilistic
+polynomial time adversary, Adv[A] ≤ ε. We sometimes refer to ε as the hardness bound of problem P.
+
+2.5
+Function Families
+
+Our proof of hardness in Section 4 focuses on the security properties of M-LWE when seen as function family.
+More generally, a function family F over a set of functions which all have domain X and range Y is simply a
+probability distribution over F. The M-LWE problem defined in Section 2.4 can be interpreted as a function
+family whose distribution relies on the distribution of A. Moreover, we define another function family, called
+M-Knap, which is closely related to the M-LWE function family. As all functions can be unambiguously
+represented by a matrix A, we say that an adversary is given the function f as input when it is given its
+public representation, i.e., A.
+
+Definition 2.3. Let n, d, m, q ∈ N×, and R be the ring of integers of a number field of degree n, and X ⊆ Rm.
+The M-Knap(n, d, m, q, X) function family is the distribution obtained by sampling a matrix A ←� U(Rm×d
+q
+),
+and outputting fA defined by fA(x) = AT x mod qR for all x ∈ X. The M-LWE(n, d, m, q, X) function
+family is the distribution obtained by sampling A ←� U(Rm×d
+q
+) and outputting gA defined by gA(s, e) =
+As + e mod qR for all (s, e) ∈ Rd
+q × X.
+
+9
+
+
+We present the security properties we need for arbitrary function families, as well as some useful results
+which are relevant to our proof. The hardness of the M-LWE problem from Section 2.4 can then be expressed
+as security properties of M-LWE(n, d, m, q, X). Concretely, the one-wayness captures the hardness of the
+corresponding search problem, while the pseudorandomness captures the hardness of the decision problem.
+
+Definition 2.4. Let X, Y be two sets, and F be a set of functions from X to Y . Let F, G be two function
+families over F. Let X be a probability distribution over X, and ε ∈ (0, 1).
+
+Indistinguishability. F and G are ε-indistinguishable if for all PPT algorithm A, it holds |Pf∼F[A(f) = 1] −
+Pg∼G[A(g) = 1]| ≤ ε.
+
+Collision resistance. F is ε-collision resistant if for all PPT algorithm A, it holds P
+f∼F
+(x,x′)←A(f)
+[x ̸= x′∧f(x) =
+
+f(x′)] ≤ ε.
+
+Pseudorandomness. (F, X) is ε-pseudorandom if for all PPT algorithm A, it holds |P(f,x)∼F×X [A(f, f(x)) =
+1] − P(f,y)∼F×U(Y )[A(f, y) = 1]| ≤ ε.
+
+Second preimage resistance. (F, X) is ε-second preimage resistant if for all PPT algorithm A, it holds
+P(f,x)∼F×X
+x′←A(f,x)
+[x ̸= x′ ∧ f(x) = f(x′)] ≤ ε.
+
+Uninvertibility. (F, X) is ε-uninvertible if for all PPT algorithm A, it holds that P(f,x)∼F×X [A(f, f(x)) =
+x] ≤ ε.
+
+One-wayness. (F, X) is ε-one-way if for all PPT algorithm A, it holds that P(f,x)∼F×X [f(A(f, f(x))) =
+f(x)] ≤ ε.
+Each of the probabilities is implicitly reliant on the randomness A itself.
+
+We now give useful sufficient conditions to ensure some of these security properties. In particular, we extend
+the results of [MP13, Lem. 2.4] and [STA20, Lem. 6] to general distributions, i.e., not limited uniform
+distributions or unbalanced Bernoulli distributions.
+
+Lemma 2.5 ([STA20, Lem. 6] adapted).
+Let F be a function family with finite domain X. Let X be
+a distribution on X. For ε = 2−H∞(X)Ef∼F [|f(X)|], it holds that (F, X) is ε-uninvertible, even against
+unbounded adversaries.
+
+Proof. We follow the proof method from [STA20, Lem. 6]. It holds that
+
+P(f,x)∼F×X [A(f, f(x)) = x]
+
+=
+�
+
+g∈Supp(F)
+Pf[f = g]Px∼X [A(g, g(x)) = x]
+
+=
+�
+
+g∈Supp(F)
+Pf[f = g]
+�
+
+x′∈Supp(X)
+Px[x = x′]Px[A(g, g(x′)) = x′].
+
+Yet, for a fixed function f and a fixed y = f(x), the best attack for an adversary is to choose the element
+with the highest conditional probability. So in the latter sum, we have
+
+P[A(g, g(x′)) = x′]
+
+= P[x is the preimage with the highest conditional probability in g−1(g(x))].
+
+We then have
+�
+
+x′∈Supp(X)
+Px[x = x′]Px[A(g, g(x′)) = x′]
+
+10
+
+
+=
+�
+
+y∈g(X)
+
+maxx′∈g−1(y) Px[x = x′]
+�
+
+x′′∈g−1(y) Px[x = x′′] ·
+�
+
+x′′∈g−1(y)
+Px[x = x′′]
+
+=
+�
+
+y∈g(X)
+max
+x′∈g−1(y) Px[x = x′]
+
+≤
+�
+
+y∈g(X)
+max
+x′∈Supp(X) Px[x = x′]
+
+= 2−H∞(X)|g(X)|.
+
+As a result, it yields
+
+P(f,x)∼F×X [A(f, f(x)) = x] ≤
+�
+
+g∈Supp(F)
+Pf[f = g] · 2−H∞(X)|g(X)|
+
+= 2−H∞(X)Ef∼F [|f(X)|] = ε,
+
+as claimed.
+
+Lemma 2.6 ([MP13, Lem. 2.2]). Let F be a family of functions computable in polynomial time. Let X
+be a distribution on X. If (F, X) is ε-uninvertible and ε′-second preimage resistant, then it is also (ε + ε′)-
+one-way.
+
+Lemma 2.7 ([MP13, Lem. 2.5]). Let F be a function family with domain X and range Y , and G be an
+efficiently sampleable family of efficiently computable functions with domain X′ ⊇ Y . Let X be a distribution
+on X. If (F, X) is ε-uninvertible, then so is (G ◦ F, X).
+
+Lastly, we recall the duality result between the M-LWE and M-Knap function families [MM11], generalized
+to the module setting in [BJRW23]. We only recall the results we need for our reduction and refer to [BJRW23,
+Lem. 4.1 & 4.2] for a more complete statement.
+
+Lemma 2.8. Let n, d, m, k, ℓ, q ∈ N×, and R be the ring of integers of a number field of degree n, such
+that q is an unramified prime in R, and m ≥ d + 1. For any a, b ∈ N× with a ≥ b, we define δ(a, b) =
+1 − PrA∼U(Rb×a
+q
+)[ARa
+q = Rb
+q]. Let X1, X2 be probability distributions over X1 ⊆ Rℓ and X2 ⊆ Rm respec-
+tively. If (M-LWE(n, k, ℓ, q, Rℓ), X1) is ε1-pseudorandom, it then holds that (M-Knap(n, ℓ − k, ℓ, q, Rℓ), X1)
+is ε′
+1-pseudorandom where we have ε′
+1 = 2δ(ℓ, ℓ − k) + ε1/(1 − δ(ℓ, k)). Additionally, if (M-Knap(n, m −
+d, m, q, Rm), X2) is ε2-one-way, then (M-LWE(n, d, m, q, Rm), X2) is ε′
+2-one-way with ε′
+2 = δ(m, d) + ε2/(1 −
+δ(m, m − d)).
+
+3
+Linear Noise Lossiness
+
+In this section, we consider the conditional min-entropy of a random vector x given a linear evaluation of x,
+i.e., �
+H∞(x | Mx + f). More concretely, the matrix M can be adversarially chosen, while the mask vector f
+follows a prescribed distribution. This can be seen as a generalization of the noise lossiness notion of [BD20a]
+which was formulated for M being the identity matrix I.
+The overall goal of [BD20a] is the same as ours: to analyze the conditional min-entropy �
+H∞(x | Mx + f)
+for some given matrix M. To do so, they assume that f follows a Gaussian distribution and, using Gaussian
+properties, they decompose the mask f into Mf1 + f2. This decomposition is possible only if the Gaussian
+parameter of f is larger than ∥M∥2 times the Gaussian parameter of f1. Note that in [BD20a], all considered
+Gaussians f, f1 and f2 are continuous, but the analysis can be generalized to discrete Gaussians using discrete
+convolution theorems, e.g., [DGPY20, Lem. 3] or [GMPW20, Thm. 3.1]. Then, they show �
+H∞(x | Mx+f) ≥
+�
+H∞(x + f1), which means it is enough to consider the conditional entropy of x given x + f1. This approach
+is termed flooding at the source and motivated by the idea that it is less costly to hide x with f1 than hiding
+Mx with f.
+
+11
+
+
+We observe that this approach is in general not optimal, and we can in fact generalize their result to
+directly bound �
+H∞(x | Mx + f) without relying on a Gaussian decomposition and (loose) inequalities like
+�
+H∞(x | Mx + f) ≥ �
+H∞(x + f1). Hence, in our approach, the parameter for f does not need to be larger than
+∥M∥2, which allows for different trade-offs between the size of the mask f and the amount of entropy left in
+x. Put differently, we challenge the idea that flooding at the source is most effective.
+Even though our proof closely follows the original proof of [BD20a], we think this observation merits
+some spotlight and might be of independent interest.
+
+Lemma 3.1. Let k, n ∈ N× and M ∈ Zn×k be a matrix. Let x be a random variable over X ⊆ Zk, and let
+f be a random variable following a discrete distribution χ over Zn. We denote by MX the support of Mx,
+and by Y the support of Mx + f. It then holds that
+
+�
+H∞(x|Mx + f) ≥ H∞(x) − log2
+
+
+
+�
+
+y∈Y
+max
+�x∈MX Pf∼χ[f = y − �x]
+
+
+
+ .
+
+The equality holds when x follows a uniform distribution. The result also holds true for continuous distribu-
+tions by replacing the discrete sum with integrals and using density functions.
+
+Proof. We follow the blueprint of [BD20a, Lem. 5.1] with a few tweaks to generalize it. Writing the definition
+of the conditional entropy yields
+
+�
+H∞(x|Mx + f) = − log2
+
+�
+Ey[max
+x⋆∈X Px,f[x = x⋆|Mx + f = y]]
+�
+
+= − log2
+
+
+
+�
+
+y∈Y
+Px,f[Mx + f = y] · max
+x⋆∈X Px,f[x = x⋆|Mx + f = y]
+
+
+
+
+
+= − log2
+
+
+
+�
+
+y∈Y
+max
+x⋆∈X Px,f[x = x⋆ ∧ Mx + f = y]
+
+
+
+
+
+= − log2
+
+
+
+�
+
+y∈Y
+max
+x⋆∈X Px,f[Mx + f = y | x = x⋆] · Px[x = x⋆]
+
+
+
+
+
+≥ H∞(x) − log2
+
+
+
+�
+
+y∈Y
+max
+x⋆∈X Pf[Mx⋆ + f = y]
+
+
+
+
+
+= H∞(x) − log2
+
+
+
+�
+
+y∈Y
+max
+�x∈MX Pf[f = y − �x]
+
+
+
+ .
+
+The first equalities follow by definition of the conditional entropy and conditional probabilities. The inequality
+stems from the fact that Px[x = x⋆] ≤ 2−H∞(x) by definition of the min-entropy. The equality then holds
+when x follows when x follows a uniform distribution. Finally, the last equality uses the fact that for all
+y ∈ Y , maxx⋆∈X Pf[f = y − Mx⋆] = max�x∈MX Pf[f = y − �x].
+
+We then bound the sum using the following lemma, which adapts [BD20a, Lem. 5.4] to a discrete Gaussian
+mask f. Note that moving to the discrete Gaussian case requires the Gaussian parameter to be above the
+smoothing parameter of the integer lattice. Combining this bound with Lemma 3.1 then leads to Lemma 3.3
+below. We recover [BD20a, Lem. 5.4] by setting M = I.
+
+Lemma 3.2 ([BD20a, Lem. 5.4] adapted). Let n ∈ N×, and σ ≥ ηε(Zn) for some ε > 0. Let �
+X ⊆ Zn
+
+be a bounded set, and define B = max�x∈ �
+X∥�x∥2. Let f ∼ DZn,σ. Then, it holds that
+�
+
+y∈Zn
+max
+�x∈ �
+X
+Pf∼DZn,σ[f = y − �x] ≤ (1 + ε)e
+√
+
+2πnB/σ.
+
+12
+
+
+Proof. We here follow the same proof as for [BD20a, Lem. 5.4] which we adapt to discrete Gaussians over
+Zn instead of q-periodic continuous Gaussians. Fix some σ′ > σ. We have the following inequalities.
+
+�
+
+y∈Zn
+max
+�x∈ �
+X
+Pf∼DZn,σ[f = y − �x] =
+1
+
+ρσ(Zn)
+
+�
+
+y∈Zn
+max
+�x∈ �
+X
+ρσ(y − e∗)
+
+≤
+1
+
+ρσ(Zn)
+
+�
+
+y∈Zn
+max
+�x∈ �
+X
+eπ
+∥�x∥2
+2
+
+σ′2−σ2 ρσ′(y)
+
+≤ eπ
+B2
+
+σ′2−σ2 ρσ′(Zn)
+
+ρσ(Zn)
+
+= eπ
+B2
+
+σ′2−σ2
+�σ′
+
+σ
+
+�n ρ1/σ′(Zn)
+
+ρ1/σ(Zn) .
+
+The first equality holds due to the fact that y − �x ∈ Zn. The first inequality follows by a routine calculation
+(see the proof of [BD20a, Lem. 2.5]) and the second inequality uses the fact that �x is always bounded by
+B. Finally, the last equality stems from the Poisson summation formula. Then, because σ′ > σ ≥ ηε(Zn),
+it holds that the Gaussian mass ratio is bounded above by 1 + ε. Setting σ′ = σ√1 + η for a free variable
+η > 0 gives
+�
+
+y∈Zn
+max
+�x∈ �
+X
+Pf∼DZn,σ[f = y − �x] ≤ (1 + ε)eπ B2
+
+ησ2 (1 + η)n/2 ≤ (1 + ε)e
+
+πB2
+
+ησ2 + nη
+
+2 .
+
+Minimizing the expression over η by choosing η =
+�
+
+2π/nB/σ then gives the bound of (1 + ε)e
+√
+
+2πnB/σ as
+claimed.
+
+Lemma 3.3 (Linear Noise Lossiness).
+Let k, n ∈ N× and M ∈ Zn×k be a matrix. Let σ ≥ ηε(Zn) for
+some ε > 0. Let x be a random variable over Zk such that ∥Mx∥2 ≤ B is always verified. Let f follow DZn,σ.
+It holds that
+�
+H∞(x|Mx + f) ≥ H∞(x) −
+√
+
+2πnB
+
+σ log2 e − log2(1 + ε).
+
+4
+M-LWE With General Error Distributions
+
+In this section, we prove the hardness of search M-LWE for general error distributions under certain con-
+straints we clarify later on. The high-level proof strategy, albeit generalized to our broader setting, follows
+the blueprint of [MP13,BJRW23]. It goes as follows: proving hardness of the search M-LWE problem with
+general bounded error distribution comes down to proving the one-wayness of the corresponding M-LWE
+function family (Definition 2.3). Instead of doing so directly, we first prove the one-wayness of the related
+M-Knap function family (Definition 2.3) and then invoke the duality of M-Knap and M-LWE (Lemma 2.8).
+By Lemma 2.6, one-wayness of M-Knap is implied by its uninvertibility (Section 4.1) and its second preimage
+resistance (Section 4.2).
+Essentially, our results only require the error distribution to have sufficient min-entropy and to output
+elements of bounded norm. Previous works on the hardness of M-LWE for general secret distributions,
+e.g., [BD20b, BJRW22], did not inherently require any norm bound, which then might be interpreted as
+an unnecessary requirement in our case. However, because we focus on error distributions, this bound is
+intuitively crucial to ensure hardness. For example, if one considers the pathological case where all the
+entropy lies in too few coefficients, many samples would be noiseless which may be sufficient to solve this
+particular M-LWE instance. However, note that in that case, the coefficients containing all the entropy
+would be extremely big. The latter would then require very large parameters so that our result can apply
+and ensure the hardness of such an edge M-LWE instance. In particular, it would require an extremely
+large lattice dimension (or secret dimension) which would essentially compensate for the noiseless equations.
+Although our result still covers these pathological cases, it does so with very large parameters. For more
+reasonable cases, one can interpret this norm bound as a safeguard to spread the entropy more evenly and,
+
+13
+
+
+in a sense, smooth out these extreme edge cases. Typical applications of M-LWE naturally come attached
+to such norm constraints, e.g., in order to ensure correctness of an encryption scheme. As such, this is a
+reasonable assumption to make on the error distribution in addition to its min-entropy.
+
+4.1
+Uninvertibility
+
+We start by proving the uninvertibility of the M-Knap function family. Actually, we first show it in Lemma 4.1
+for a slightly different function family. Then, in a second step, the uninvertiblity of the M-Knap family
+function is proven in Lemma 4.2 by assuming the hardness of decision M-LWE (with a “standard” error
+distribution). The slightly different function family is obtained by composing a smaller-dimensional M-Knap
+with a family G of linear functions over R. Previous works [MP13, BJRW23] defined this linear function
+family with a Gaussian distribution in order to connect the result to worst-case to average-case reduction for
+M-LWE. The distribution D used to define G essentially corresponds to the error distribution for which one
+assumes M-LWE is hard. To give more modularity to our result, we do not fix D to be a Gaussian so that
+one can choose the starting M-LWE assumption they deem reasonable. For example, one could reasonably
+assume M-LWE with bounded uniform noise is hard, which has been well studied from a theoretical and
+cryptanalytic perspective and used in countless cryptographic applications. The final result would then show
+that M-LWE with general noise distributions is at least as hard as M-LWE with a bounded uniform noise.
+We thus start by defining the function family G.
+
+Definition 4.1. Let n, ℓ, m be in N× such that m ≥ ℓ. Let R be the ring of integers of a number field of
+degree n. Let D be a distribution on Rℓ, and let X ⊆ Rm. We define the function family G(n, ℓ, m, D, X)
+obtained by sampling the columns of a matrix Y ∈ Rℓ×(m−ℓ) from D and outputting hY : X → Rℓ defined
+by ∀x ∈ X, hY(x) = [Iℓ|Y]x.
+
+We now show that under some norm requirements on D and the input distribution X of G, we can show
+that (G(n, ℓ, m, D, X), X) is statistically uninvertible, provided X has sufficient entropy. By composition,
+Lemma 2.7 gives uninvertibility of M-Knap ◦ G which is relevant to later show one-wayness of M-Knap.
+
+Lemma 4.1. Let n, ℓ, m, d be in N× such that m ≥ max(d, ℓ). Let R be the ring of integers of a number field
+of degree n. Let D be a distribution on Rℓ, and, for any k ∈ N×, let Dk be the distribution over Rℓ×k where
+all the columns are sampled from D. We also assume that for any5 α, β ∈ [1, ∞], there exists Bα,β ≥ 0 and
+pα,β ∈ [0, 1] such that
+PY∼Dm−ℓ[∥Mτ([Iℓ|Y])∥α,β > Bα,β] ≤ pα,β.
+
+Then, let X ⊆ Rm be a bounded set, and denote by Bα = maxx∈X∥x∥α. Let X be a distribution such that
+Supp(X) = X. We define the function family F′ = M-Knap(n, m − d, ℓ, q, Rℓ) ◦ G(n, ℓ, m, D, X). Then,
+(F′, X) is (statistically) ε′
+inv-uninvertible for
+
+ε′
+inv = 2−H∞(X) ���Bβ,nℓ(Bα,βBα) ∩ Znℓ�� + |X| · pα,β
+�
+.
+
+Proof. We first bound EhY∼G[|hY(X)|] and use Lemma 2.5 to conclude. Let hY be sampled from G(n, ℓ, m, D, X).
+Let x ∈ X. Then, hY(x) = [Iℓ|Y]x. We then have ∥hY(x)∥β ≤ ∥[Iℓ|Y]∥α,β∥x∥α. Because X is bounded and
+all norms are equivalent on a finitely dimensional vector space, it holds that the bound Bα exists and is finite
+for any α. By assumption, it then holds that ∥x∥α ≤ Bα, and
+
+PY∼Dm−ℓ
+�
+∥Mτ([Iℓ|Y])∥α,β > Bα,β
+�
+≤ pα,β.
+
+Hence, with probability at least 1 − pα,β, we have that the ℓβ norm of τ(hY(x)) is bounded by Bα,βBα. The
+number of integer points in the nℓ-dimensional ℓβ-ball then gives an upper bound on |hY(X)|. It means we
+have
+|hY(X)| ≤
+��Bβ,nℓ(Bα,βBα) ∩ Znℓ�� =: K.
+
+5 Recall that all norms are equivalent in finite-dimensional vector spaces. Hence, if there exists Bα0,β0, pα0,β0 for one
+pair (α0, β0), it gives the existence for all pairs (α, β).
+
+14
+
+
+We note that if the radius Bα,βBα is large enough compared to nℓ, the value of K is well approximated by
+the volume of the ℓβ-ball, which is
+
+Vol(Bβ,nℓ(Bα,βBα)) =
+
+�
+2Bα,βBα · Γ
+�
+1
+β + 1
+��nℓ
+
+Γ
+�
+nℓ
+β + 1
+�
+.
+
+We note that we could have trivially chosen K = |X| but this is not tight because hY is not injective. We
+also define S = {Y ∈ Rℓ×(m−ℓ) : ∥Mτ([Iℓ|Y])∥α,β ≤ Bα,β}, and S′ its complement in Rℓ×(m−ℓ). We then
+have
+
+E [|hY(X)|] =
+�
+
+Y′∈S
+PY[Y = Y′]|hY′(X)| +
+�
+
+Y′∈S′
+PY[Y = Y′]|hY′(X)|
+
+≤ K · PY[Y ∈ S] + |X| · PY[Y ∈ S′]
+
+≤ K + |X| · pα,β,
+
+where the first inequality follows from the above calculations and the fact that for Y′ ∈ S′, we have the
+trivial bound |hY′(X)| ≤ |X|. Lemma 2.5 then yields the ε′
+inv-uninvertibility of G, with ε′
+inv = 2−H∞(X)(K +
+|X| · pα,β). By Lemma 2.7, we thus obtain the ε′
+inv-uninvertibility of F′.
+
+Remark 4.1. The quantity 2−H∞(X)|Supp(X)| is always larger than 1, as we have |Supp(X)| = 2H∞(U(X)).
+Hence 2−H∞(X)|Supp(X)| = 2H∞(U(X))−H∞(X). We then use the fact that maximal entropy is achieved for
+the uniform distribution for a fixed support. As a result, one needs not only to set the bound Bα,β so that
+pα,β is negligible (e.g., ≤ 2−λ), but also to compensate the entropy difference between X and U(X).
+
+Our result of Lemma 4.1 is naturally parameterized by (α, β) so as to remain as generic as possible, and
+cover more distributions X. Certain distributions may be more relevant to analyze in the α = ∞ metric
+than α = 2 for example. One could even optimize over (α, β) provided that they have an efficient way of
+computing or approximating Bα,β, Bα, pα,β and the number of integer points in the ℓβ ball of a given radius.
+Indeed, a stronger statement would be
+
+ε′
+inv ≤ 2−H∞(X) · inf
+α,β
+���Bβ,nℓ(Bα,βBα) ∩ Znℓ�� + |X| · pα,β
+�
+.
+
+As estimating all these quantities is non trivial for arbitrary values of (α, β), we only give in Appendix C a
+few example parameterizations for α, β (and D), as well as full examples in (1, 2)-norm in Appendix A and B.
+We typically restrict our examples to β ∈ {1, 2, ∞} for which we know closed-form or close approximations
+of the number of integer points in the ℓβ ball6. We then restrict to the values of α for which we have an
+expression of ∥·∥α,β. But we again insist that our result can be parameterized differently if needed.
+So far, we have proven the uninvertibility of a composition between M-Knap with rank m − d and
+dimension ℓ and G. However, to eventually prove hardness of M-LWE with rank d and m samples, we would
+need the uninvertibility of M-Knap with rank m − d and dimension m > ℓ. We now show that we can
+obtain the latter by combining Lemma 4.1 with an indistinguishability argument based on M-LWE with
+error distribution D.
+
+Lemma 4.2. Let n, k, q, d, m be in N× with m > d ≥ k ≥ 1 and let ℓ = m − d + k. Let D be a distribution
+over Rℓ, and X ⊆ Rm. Assume M-LWEn,k,ℓ,q,U(Rdq),D is εM-LWE-hard. Define the function families F′ =
+M-Knap(n, m − d, ℓ, q, Rℓ) ◦ G(n, ℓ, m, D, X) (as in Lemma 4.1), and F = M-Knap(n, m − d, m, q, X). If F′
+
+is ε′
+inv-uninvertible, then F is εinv-uninvertible, where
+
+εinv = ε′
+inv + (m − ℓ) (2δ(ℓ, ell − k) + εM-LWE/(1 − δ(ℓ, k))) .
+
+6 We have
+��B1,N(r) ∩ ZN�� = �min(N,⌊r⌋)
+i=0
+2i�N
+i
+��⌊r⌋
+i
+�
+,
+��B∞,N(r) ∩ ZN�� = (2⌊r⌋ + 1)N, and
+��B2,N(r) ∩ ZN�� ≤
+Vol(B2,N(r +
+√
+
+N/2)). When r ≫ N, we also have
+��Bp,N(r) ∩ ZN�� ≈ Vol(Bp,N(r)).
+
+15
+
+
+Proof. First, assuming M-LWEn,k,ℓ,q,U(Rdq),D is εM-LWE-hard entails that the M-LWE function family is
+εM-LWE-pseudorandom. Based on the duality result Lemma 2.8, we get that (M-Knap(n, m − d, ℓ, q, Rℓ), D)
+is εrand-pseudorandom with εrand = 2δ(ℓ, m − d) + εM-LWE/(1 − δ(ℓ, k)) because m − d = ℓ − k.
+Then, it holds that F and F′ are indistinguishable based on εrand. Indeed, assume an adversary A
+breaks the (m − ℓ)εrand-indistinguishability between F and F′. Take fA′ ◦ hY according to F′, and fA
+according to F. Then fA′ ◦ hY is the linear map x �→ [A′T |A′T Y]x. Decomposing AT into [AT
+1 |AT
+2 ],
+with A1 ∈ Rℓ×(m−d)
+q
+, A2 ∈ R(m−ℓ)×(m−d)
+q
+, we have that fA = x �→ [AT
+1 |AT
+2 ]x. By assumption, it means
+that A can distinguish (A′T , A′T Y mod qR) from uniform. By a hybrid argument, it means A can dis-
+tinguish (A′T , A′T y mod qR) for y ∼ D from uniform with advantage at least εrand, thus breaking the
+εrand-pseudorandomness of (M-Knap(n, m − d, ℓ, q, Rℓ), D). By assumption, we then have a contradiction,
+which means that F and F′ are (m − ℓ)εrand-indistinguishable.
+By indistinguishability, the properties of F and F′ transfer to one another with an additive loss of (m −
+ℓ)εrand. As such, applying Lemma 4.1 yields that (F, X) is (ε′
+inv + (m − ℓ)εrand)-uninvertible as claimed.
+
+4.2
+Second Preimage Resistance
+
+We now prove the second preimage resistance of the M-Knap function family with respect to an arbitrary
+distribution. We provide the proof in both statistical and computational hardness regimes to allow for more
+flexibility depending on the final application.
+
+Lemma 4.3. Let n, h, q, m be in N× such that q is prime. Let R be the ring of integers of a number field
+of degree n, and X ⊆ Rm. We also define N = maxx,x′∈X,x̸=x′ N(⟨x1 − x′
+1, . . . , xm − x′
+m, q⟩). Let X be a
+distribution such that Supp(X) = X. Then (M-Knap(n, h, m, q, X), X) is εspr-second preimage resistant with
+respect to unbounded adversaries for
+
+εspr = N h
+
+qnh (|X| − 1).
+
+If X is a bounded set and X is efficiently sampleable, (M-Knap(n, h, m, q, X), X) is also εM-SIS-second preim-
+age resistant with respect to PPT adversaries provided M-SIS2
+n,h,m,q,β2 is εM-SIS-hard for β2 = max{∥x − x′∥2;
+(x, x′) ∈ X2}. The latter statement generalizes to M-SISp by changing the definition of β2 accordingly.
+
+Proof. Observing that for any (unbounded) adversaries A, we have
+
+Advspr[A] ≤ PA←�U(Rm×h
+q
+)
+x←�X
+[∃x′′ ∈ X \ {x}, AT x′′ = AT x mod qR] =: P,
+
+by simple inclusion of event and where Advspr[A] is the advantage of A in breaking the second-preimage resis-
+tance. As P no longer depends on the adversary’s behavior or power, we can say that (M-Knap(n, h, m, q, X), X)
+is P-second preimage resistant with respect to unbounded adversaries. We now need to estimate or bound
+P. We then show that for A uniformly chosen and x drawn from X, the probability that there exists x′ ̸= x
+such that AT x′ = AT x mod qR is less than εspr. Using the total probability formula and the union bound
+on x′′, we have the following.
+
+P =
+�
+
+x′∈X
+Px[x = x′] · PA,x[∃x′′ ∈ X \ {x}, AT x′′ = AT x mod qR|x = x′]
+
+=
+�
+
+x′∈X
+Px[x = x′] · PA[∃x′′ ∈ X \ {x′}, AT (x′′ − x′) = 0 mod qR]
+
+≤
+�
+
+x′∈X
+Px[x = x′]
+�
+
+x′′∈X\{x′}
+PA[AT (x′′ − x′) = 0 mod qR].
+
+Let x′ ∈ X, x′′ ∈ X \ {x′}. Then, by [Mic04, Lem. 4.4], AT (x′′ − x′) mod qR is uniformly distributed in
+(Ix′′−x′/qR)h over the randomness of A, where Ix′′−x′ = ⟨x′′
+1−x′
+1, . . . , x′′
+m−x′
+m, q⟩. Hence the probability that
+
+16
+
+
+AT (x′′−x′) = 0 mod qR is exactly |Ix′′−x′/qR|−h. As Ix′′−x′ and qR are ideals of R, we have |Ix′′−x′/qR| =
+N(qR)/N(Ix′′−x′) = qn/N(Ix′′−x′). Hence, we have
+
+P ≤
+�
+
+x′∈X
+Px[x = x′]
+�
+
+x′′∈X\{x′}
+
+N(Ix′′−x′)h
+
+qnh
+≤
+�
+
+x′∈X
+Px[x = x′](|X| − 1)N h
+
+qnh
+
+= (|X| − 1)N h
+
+qnh = εspr,
+
+where the last inequality comes from the definition of N, then giving the first statement.
+For the second statement, we simply note that second-preimage resistance is implied by collision-resistance
+for an efficiently sampleable distribution X. Yet the collision-resistance of M-Knap(n, h, m, q, X) is implied
+by M-SISp
+n,h,m,q,βp in ℓp norm for any p ≥ 1, and where βp = max{∥x − x′∥p; (x, x′) ∈ X2}. This is obtained
+directly from [Ajt96], but we sketch it here for completeness. Assume an adversary A breaks the collision-
+resistance of M-Knap(n, h, m, q, X) with advantage ε. The reduction is given an instance A ←� U(Rm×h
+q
+) of
+M-SISp
+n,h,m,q,βp. It sends A to A as the description of the function, who then returns (x, x′) ∈ X2 such that
+AT x = AT x′ mod qR and x ̸= x′. Then AT (x−x′) = 0 mod qR and 0 < ∥x − x′∥p ≤ βp by definition of βp,
+thus solving the M-SIS instance. The reduction thus has advantage ε in solving M-SISp
+n,h,m,q,βp. Considering
+p = 2 gives the theorem statement, but we insist it is more general. In particular, if εM-SIS,p denotes the
+hardness bound of M-SISp
+n,h,m,q,βp, then εspr ≤ minp εM-SIS,p.
+
+We observe that the statistical bound is most likely not tight. First, the union bound on x′′ may be too
+loose, yielding a daunting factor |X| − 1. Second, in many cases, we can ensure Iz = R (which has norm 1)
+for all z by placing minor restrictions on X (or rather X) and q. A sufficient condition is that at least one
+of the xi − x′
+i is a unit in Rq. Such a condition can be obtained in cyclotomic rings from Lemma 2.1. For
+example, if q splits in κ factor in a power-of-two cyclotomic ring, having
+
+max
+x,x′∈X2
+min
+i∈[m]
+st. xi̸=x′
+i
+
+∥xi − x′
+i∥p < κmin(0,1/p−1/2)q1/κ,
+
+is enough to ensure N = 1. Indeed, let x ̸= x′ be in X, then 0 < mini∥xi − x′
+i∥p < κmin(0,1/p−1/2)q1/κ.
+Lemma 2.2 then ensures that at least one difference xi − x′
+i is invertible in Rq. Hence ⟨xi − x′
+i, q⟩ = R
+and as such Ix−x′ = R which has norm 1. In such situations, we can thus have εspr = (|X| − 1)/qnh.
+This would require limiting the splitting of q, but it was shown in [CHK+21] it is not so damaging in
+practical cryptographic applications anyway. We note that the bound εspr does not directly depend on the
+distribution X nor H∞(X). This is because our proof method (union bound and maximize the norm of Iz)
+is closer in essence to the collision resistance (which does not depend on the input distribution) than it is to
+the second-preimage resistance. A finer analysis may lead to a quantity that depends on the entropy though.
+The computational bound requires to assume the hardness of M-SIS, which, at first glance, may seem
+like a circular argument when trying to prove the second-preimage resistance of the M-Knap function family.
+The main difference lies in the fact that M-SIS, which relates to the collision resistance, is agnostic to the
+input distribution X, provided the latter is bounded. Although we do not want to assume specific properties
+of X to keep our result general, the hypothesis of it being bounded is reasonable in most use cases and
+applications.
+
+4.3
+One-Wayness of the M-LWE Function
+
+Combining Lemma 2.6 to Lemmas 4.2 and 4.3 gives the one-wayness of the M-Knap function family with
+input distribution X. Combined with the duality results stated in Lemma 2.8, one obtains a reduction from
+(decision) M-LWE with noise distribution D to (search) M-LWE with noise distribution X.
+
+Theorem 4.1. Let λ be a security parameter, and n, d, m, k, q be in N× such that m > d ≥ k ≥ 1 and let
+ℓ = m − d + k. Let R be the ring of integers of a number field of degree n. Let D be a distribution over Rℓ
+
+17
+
+
+such that for α, β ∈ [1, ∞] there exists Bα,β ≥ 0 and pα,β ∈ [0, 1] such that PY∼Dm−ℓ[∥Mτ([Iℓ|Y])∥α,β >
+Bα,β] ≤ pα,β. Then, let X ⊆ Rm a bounded set, and X an efficiently sampleable distribution with support
+X. Denote by Bα = maxx∈X∥x∥α, and βp = max{∥x − x′∥p; (x, x′) ∈ X2} for some p ∈ N×. We further
+assume that R is unramified above the prime q, and such that mini∈[κ] N(pi)min(m−d,k)+1 ≥ λω(1), where the
+pi’s are the prime ideal factors of ⟨q⟩.
+Then, if decision M-LWEn,k,ℓ,q,U(Rkq ),D is εM-LWE-hard and M-SISp
+n,m−d,m,q,βp is εM-SIS-hard, it holds that
+search M-LWEn,d,m,q,U(Rdq),X is ε-hard for
+
+ε = δ(m, d) + (m − ℓ)(2δ(ℓ, m − d) + εM-LWE/(1 − δ(ℓ, k))) + ε′
+inv + εM-SIS
+
+1 − δ(m, m − d)
+
+≈ (d − k)εM-LWE + εM-SIS + 2−H∞(X) ���Bβ,nℓ(Bα,βBα) ∩ Znℓ�� + |X| · pα,β
+�
+,
+
+where ε′
+inv as in Lemma 4.1, Bβ,nℓ(r) is the closed ℓβ ball of radius r, δ(a, b) = 1 − PA∼U(Rb×a
+q
+)[ARa
+q = Rb
+q],
+and ≈ smoothes out terms negligible in λ.
+
+The formula for ε includes the term in ε′
+inv from Lemma 4.1, which may be difficult to grasp. Concretely,
+if εM-LWE and εM-SIS are negligible, having ε negligible requires X to have sufficient entropy to overcome
+the factor in parenthesis. Assume for simplicity that the bound Bα,β is enforced7 in D so that pα,β =
+0. As mentioned in Section 4.1, if the radius r is sufficiently large compared to the dimension N, then
+��Bβ,N(r) ∩ ZN�� ≈ Vol(Bβ,N(r)) = (2rΓ(β−1 + 1))N/Γ(Nβ−1 + 1). With this approximation, the entropy
+requirement to make ε negligible becomes
+
+H∞(X) ≳ λ + nℓ log2
+�
+2Bα,βBαΓ(β−1 + 1)
+�
+− log2 Γ(nℓβ−1 + 1).
+
+Proof. We define F = M-Knap(n, m−d, m, q, X). Lemma 4.2 in combination with Lemma 4.1 directly yields
+the εinv-uninvertibility of (F, X), where
+
+εinv =
+�
+2−H∞(X) ���Bβ,nℓ(Bα,βBα) ∩ Znℓ�� + |X|pα,β
+�
++ (m − ℓ)
+�
+2δ(ℓ, m − d) +
+εM-LWE
+
+1 − δ(ℓ, k)
+
+��
+.
+
+In the computational statement of Lemma 4.3, it holds that (F, X) is εM-SIS-second preimage resistant.
+Lemma 2.6 then yields that (F, X) is εow-one-way with εow = εinv + εM-SIS. Lemma 2.8 then proves
+(M-LWE(n, d, m, q, X), X) is ε-one-way with ε = δ(m, d)+εow/(1−δ(m, m−d)). As one-wayness corresponds
+to the search variant, we get that search M-LWEn,d,m,q,U(Rdq),X is ε-hard.
+Combining the different expressions of εow and εinv gives the claimed expression of ε from the statement.
+The final approximation comes from the fact that the δ(·, ·) terms are negligible in λ based on the requirements
+on q. Indeed, as noted in [BJRW23, Lem. 2.6], if the smallest norm N of the prime ideal factors is such that
+N a−b+1 ≥ λω(1) for a ≥ b, then δ(a, b) ≤ λ−ω(1). The condition on the pi thus yields that δ(m, d), δ(m, m −
+d), δ(ℓ, m − d), δ(ℓ, k) are negligible.
+
+Observe that we opted for the computational second preimage resistance using the M-SIS assumption as
+it is well understood and likely to give better parameters. One can easily use the statistical second preimage
+resistance from Lemma 4.3 and obtain a similar statement by replacing εM-SIS with εspr = N m−d(|X| −
+1)/qn(m−d). We also insist that although we present our result over modules, it also covers the unstructured
+case by selecting n = 1 so that R = Z. This in particular removes certain painstaking subtleties of modules,
+especially on the duality result of Lemma 2.8 where the δ(a, b) have a closed-form expression when q is prime,
+and on the statistical version of Lemma 4.3 which becomes considerably simpler and tighter.
+Prior works [MP13,STA20,BJRW23] deduce a somewhat explicit constraint on the number of samples m.
+Typically, they require m = d(1 + o(1)) for very small error (e.g., binary). Reaching m = 2d is possible but
+takes a toll on other parameters. Unfortunately, one likely cannot reach typical choices of m in cryptographic
+
+7 This comes down to truncating D to verify the norm bound. Note that this may be enforced at key generation in
+cryptographic applications, e.g., encryption schemes.
+
+18
+
+
+constructions where one needs at least O(d log2 q) samples. Not being able to prove the hardness in such
+regimes is however not a surprise for unusually small errors as one can possibly obtain subexponential attacks
+in those regimes. Our result unfortunately suffers from similar constraints, albeit less explicitly. As we do
+not specify the actual error distribution, the constraint on m does not show up in closed form but rather as
+the entropy requirement mentioned above. Plugging a specific choice of X and computing its entropy would
+then transform the entropy condition into a constraint on m which would also depend on other parameters
+of the distribution X.
+In order to show that our result is applicable to concretely interesting distributions despite its gener-
+icity, we provide example parameter choices to prove the hardness of M-LWE with a sparse ternary error
+in Appendix B.
+
+5
+Hermite Normal Form Transform
+
+At this stage, we have proven that, if X has sufficient entropy, we can change the error distribution from D
+to X (albeit with different dimensions). But this is still for a secret distribution that is uniform over Rq. We
+thus use a Hermite Normal Form transformation reduction in order to use X for both the secret and error, i.e.,
+[s|e] ∼ X. This transform is well-known [ACPS09] and quite standard, both from a theoretical standpoint
+and a practical cryptanalytic aspect. However, it is mostly applied to product distributions, that is X = Ym
+
+where all the entries are independently sampled from the same distribution Y over R. As we target a more
+general class of distributions, we need to account for this change in the reduction which naturally gives rise
+to the following variant of HNF-M-LWE which we call permuted-HNF-M-LWE. Concretely, it is similar to
+HNF-M-LWE, i.e., find x = [s|e] ∼ X ′ given (A, [A|I]x), but for X ′ being a random permutation of X.
+
+Definition 5.1 (Permuted HNF). Let n, d, m, q be in N×. Let R be the ring of integers of a number field
+of degree n, and X be a distribution supported on a set X ⊆ Rm+d. The search version of the permuted HNF
+Module Learning With Errors problem, denoted pHNF-M-LWEn,d,m,q,X , is as follows: Given A ←� U(Rm×d
+q
+),
+and b = [A | Im] · P · x mod qR for some x ←� X and P ∈ {0, 1}(m+d)×(m+d) a random permutation matrix,
+find x. The decision variant asks to distinguish such pairs (A, b = [A | Im]·P·x mod qR) from (A, u) where
+u ←� U(Rm
+q ).
+
+Remark 5.1. If X = Ym+d is a product distribution, identically and independently sampling every entry,
+Px follows exactly the same distribution as x and we hence recover the standard formulation of M-LWE in
+Hermite Normal Form [LS15].
+
+We now show that pHNF-M-LWE with distribution X is no easier than M-LWE with noise drawn
+from X, at the expense of reducing the number of samples. The associated reduction loss features the
+quantity δ′(m, d) defined as P(ai)i∈[m]∼U(Rd
+q)m [∄S ⊆ [m], |S| = d ∧ (ai)i∈S are Rq-linearly independent], and
+introduced in [BJRW23]. Because this is a non-standard HNF formulation, we also show that the regular
+HNF-M-LWE version with distribution X is also no easier than M-LWE with noise drawn from X, with
+the same sample constraints, but with a slightly looser reduction (featuring δ(d, d) defined in Theorem 4.1
+instead of δ′(m, d)). As the loss is still acceptable in that case, the latter reduction is still preferable in
+cases where the distribution X is not permutation-invariant so as to have a more standard HNF form. We
+use the notation HNF-M-LWEn,d,m,q,X for the standard HNF variant, i.e., recovering x from [A | I]x or
+distinguishing the latter from uniform.
+
+Theorem 5.1. Let n, d, m, q be in N×, such that m > d ≥ 1. Let R be the ring of integers of a num-
+ber field of degree n, and assume that q is prime and unramified in R. Let Ds be a distribution over
+Rd and X a distribution over a set X ⊆ Rm. There is a PPT reduction from M-LWEn,d,m,q,Ds,X to
+pHNF-M-LWEn,d,m−d,q,X . More concretely, if εM-LWE and εpHNF-M-LWE denote the corresponding hardness
+bounds, it holds that εpHNF-M-LWE ≤ (1−δ′(m, d))−1εM-LWE. The reduction holds for both the search and deci-
+sion variants. Similarly, there is a PPT reduction from M-LWEn,d,m,q,Ds,X to the regular HNF-M-LWEn,d,m−d,q,X
+such that εHNF-M-LWE ≤ (1 − δ(d, d))−1εM-LWE.
+
+19
+
+
+Proof. We construct a reduction for the search variant. Let (A, b) ∈ Rm×d
+q
+× Rm
+q
+be an instance of
+M-LWEn,d,m,q,Ds,X . The reduction first checks if there is a subset S ⊆ [m] of size d such that the rows
+of A indexed by S are Rq-linearly independent. If no such subset S exists, then the reduction aborts. We
+denote this abort probability with
+
+δ′(m, d) = P(ai)i∈[m]∼U(Rd
+q)m
+�
+∄S ⊆ [m], |S| = d ∧ (aT
+i )i∈S are Rq-l.i.
+�
+
+= 1 − P(ai)i∈[m]∼U(Rd
+q)m
+�
+∃S ⊆ [m], |S| = d ∧ (aT
+i )i∈S are Rq-l.i.
+�
+.
+
+Assume that there exists such a subset S ⊆ [m] of size d such that the rows (aT
+i )i∈S are Rq-linearly
+independent. Let T = [m] \ S. We let σS be the unique permutation of [m] which maps S to [d] and T to
+[d + 1, m] while preserving the non-decreasing order, i.e., for all i, j ∈ S, i > j ⇒ σS(i) > σS(j) and for
+all i, j ∈ T, i > j ⇒ σS(i) > σS(j). We let P′ be the permutation matrix corresponding to σS. Then, the
+reduction samples PS a random permutation of [d] and PT a random permutation of [d + 1, m], and defines
+P = diag(PS, PT )P′ which is a permutation matrix by construction. We then compute
+�
+AS
+AT
+
+�
+= PA,
+and
+�
+bS
+bT
+
+�
+= Pb,
+
+where AS ∈ Rd×d
+q
+, and bS ∈ Rd
+q. Because of how we constructed P, the rows of AS are the (aT
+i )i∈S (in
+permuted order by PS) which thus means they are Rq-linearly independent. Consequently, AS is invertible
+(this is true even if Rq is not a field, as shown for example in [BJRW23, Lem. A.3]). We note that if
+b = As + e mod qR, then it holds that bS = ASs + eS, for s ←� Ds and eS ∈ Rd is the top subvector of Pe.
+On the other hand, if b is uniform in Rm
+q , then bS is uniform in Rd
+q.
+The reduction defines A′ = −AT A−1
+S
+mod qR and b′ = bT + A′bS mod qR. The reduction sends the
+pair (A′, b′) to the pHNF-M-LWEn,d,m−d,q,X oracle. In the search case, it receives back some e⋆ ∼ X. It
+then computes [e⋆
+S
+T | e⋆
+T
+T ]T = Pe⋆ and then s⋆ = A−1
+S (bS −e⋆
+S) mod qR. It finally returns s⋆ as the M-LWE
+solution. In the decision case, the reduction returns the same output as that of the oracle.
+Let us now analyze the correctness of the reduction. Since AS ∈ GLd(Rq), it holds that A′ is uniform in
+Rm−d×d
+q
+. Moreover, since A is uniform in Rm×d
+q
+, if the reduction does not abort (i.e., if there exists such a
+subset S) then the rows selected in S will be random, and hence P is a random permutation. Furthermore,
+in the search case we have that
+
+b′ = bT + A′bS mod qR
+
+= AT s + eT + A′(ASs + eS) mod qR
+
+= AT s − AT A−1
+S ASs + A′eS + eT mod qR
+
+= A′eS + eT mod qR
+
+= [A′ | Im−d] · [eS | eT ] mod qR
+
+= [A′ | Im−d] · P · e mod qR,
+
+which is correctly distributed as e is drawn from X. Hence, if the oracle successfully returns e⋆ = e, it holds
+that s⋆ = A−1
+S (ASs + eS − eS) mod qR = s, which is indeed the M-LWE secret. In the decision case, if
+b = As + e then we have seen that b′ is well-distributed. And if b is uniform, then bT is uniform and
+independent of A′bS which proves that b′ is also uniform in Rm−d
+q
+.
+Therefore, given an oracle O for pHNF-M-LWEn,d,m−d,q,X , we can construct a PPT adversary A, such
+that
+
+P [A(A, b) = s] = P [E] P [A(A, b) = s | E] + P [¬E] P [A(A, b) = (s, e) | ¬E]
+
+= (1 − δ′(m, d))P [O(A′, b′) = e] ,
+
+where the event E = {∃S ⊆ [m], |S| = d ∧ (aT
+i )i∈S are Rq-linearly independent}. This implies that εM-LWE ≥
+(1 − δ′(m, d))εpHNF-M-LWE, and hence, we obtain
+
+εpHNF-M-LWE ≤
+1
+
+1 − δ′(m, d)εM-LWE,
+
+20
+
+
+as claimed. Similarly, for the decision variant, we have
+
+AdvM-LWE[A]
+
+= |P[A(A, b = As + e) = 1] − P[A(A, b unif) = 1]|
+
+= |P[E]P[A(A, b = As + e) = 1 | E] − P[E]P[A(A, b unif) = 1 | E]|
+
+= P[E]|P[O(A′, b′ = [A′ | Im−d]Pe) = 1] − P[O(A′, b′ unif) = 1]|
+
+= (1 − δ′(m, d))AdvpHNF-M-LWE[O],
+
+which leads to
+
+εpHNF-M-LWE ≤
+1
+
+1 − δ′(m, d)εM-LWE,
+
+as desired.
+The reduction to HNF-M-LWEn,d,m−d,q,X proceeds exactly the same way, except for the initial check.
+The reduction instead simply checks whether the first d rows of A are Rq-linearly independent, and aborts
+otherwise. If this is the case, then A = [AT
+1 | AT
+2 ]T with A1 invertible. Constructing A′ = −A2A−1
+1
+mod qR
+and b′ = b2 + A′b1 mod qR then defines a valid instance of HNF-M-LWEn,d,m−d,q,X . Indeed, using the
+same arguments as above, A′ is uniform, and if b is uniform, so is b′. Then, if b = As + e, we have
+b′ = (A2s + e2) − A2A−1
+1 (A1s + e1) = [A′ | Im−d]e where e is the original M-LWE error following
+X. When computing the advantages, we simply change the formulas above by considering the event E =
+{(aT
+i )i∈[d] are Rq-linearly independent}. The probability of E is then 1 − δ′(d, d), where δ′(d, d) = δ(d, d) =
+�
+
+i∈[0,d−1]
+�
+
+j∈[κ](1 − N(pj)d−i). It then yields the claimed result.
+
+In [BJRW23], the authors show the following bound δ′(m, d) ≤ δ(d, d)⌊m/d⌋ = (1 − �
+
+0≤i<d
+�
+
+j∈[κ](1 −
+N(pj)−(d−i)))⌊m/d⌋, where the pj are the κ prime ideal factors of ⟨q⟩. This quantity may not be negligible,
+but since it only appears multiplicatively, this term does not incur a noticeable security loss for typical
+parameters. The same holds for the reduction to HNF-M-LWE. Finally, combining Theorem 5.1 with our
+result of Theorem 4.1, we obtain that HNF-M-LWEn,d,m−d,q,X (or pHNF-M-LWEn,d,m−d,q,X ) is at least
+as hard as M-LWEn,k,m−d+k,q,U(Rkq ),D, conditioned on all the parameters and distributions constraints of
+Theorem 4.1 being met. As the HNF reduction consumes d samples, meaningful applications of this reduction
+would require starting with m ≥ 2d, meaning one would need to instantiate Theorem 4.1 to reach sufficiently
+many samples. We mention in Section 4.3 that this regime is attainable, and a concrete application can be
+found in Appendix A.
+
+6
+Hardness of M-LWE with Leakage
+
+Our results from Sections 4 and 5 prove that under some careful parameter conditions, the search M-LWE
+problem with x = [s|e] ∼ X remains at least as hard as the standard formulation of M-LWE provided X is a
+bounded distribution with sufficient min-entropy. These constraints show that for a given bound and a given
+min-entropy, the specific shape of the distribution of x is somewhat irrelevant in the hardness of M-LWE.
+Additionally, as explored in this section, this allows us to encompass many variants of M-LWE with leakage.
+If one considers the problem of finding x ∼ X given [A | I]x and some leakage f(x), we can see it as finding
+x ∼ Xf given [A | I]x where Xf would be the conditional distribution X conditioned to some specific value
+for f(x).
+More concretely, for every possible leaked value c ∈ f(Supp(X)) =: Y , one can define the conditional
+distribution Xf,c as the distribution of x conditioned on f(x) = c. We could then apply our result to error
+distribution Xf,c which has entropy H∞(Xf,c) = H∞(x | f(x) = c) = − log2 maxx′ P[x = x′ | f(x) = c].
+However, this would only give hardness guarantee for a specific value of c. The natural direction would be to
+take the worst possible value for c, i.e., the one giving the smallest entropy. In that context, it would mean
+computing the worst-case conditional min-entropy defined by
+
+H∞(x | f(x)) = min
+c∈Y H∞(Xf,c) = − log2 max
+x′,c P[x = x′ | f(x) = c].
+
+21
+
+
+However, assessing the security based on this worst-case conditional min-entropy is too strict. Indeed, if an
+adversary A had significant advantage only for leaked values c which happen with negligible probability, it
+means the overall advantage of A in breaking the cryptographic scheme would be negligible anyway. It means
+we can smooth out these corner cases in security arguments, and only deal with values c that happen with
+non-negligible probability. We note that for these values, it is possible to sample x a posteriori, i.e., sampling
+x such that f(x) = c for a fixed c, as long as X is efficiently sampleable and f is efficiently computable. It
+comes from the requirement that for such c, we may need Xf,c to be efficiently sampleable. For that, the
+challenger could use a rejection sampling strategy and sample polynomially many x from X until it finds
+one that verifies f(x) = c. As c occurs with non-negligible probability, it would require at most a polynomial
+number of samples x. We note that the leakage functions we consider in this section satisfy this efficiency
+requirement.
+Nevertheless, because the leaked value f(x) is not under adversarial control (as x and f(x) are chosen/-
+computed by the challenger), it means that averaging over the value of c suffices for security arguments as
+explained also in [DORS03, App. B]. We thus consider the average conditional min-entropy �
+H∞(x | f(x))
+which quantifies more faithfully the hardness of M-LWE with leakage using the result of previous sections.
+It is based on the fact that given the leaked value f(x) = c, the predictability of x by the adversary is at
+most maxx′ P[x = x′ | f(x) = c]. On average, the adversary’s chance of successfully predicting x is then
+Ec[maxx′ P[x = x′ | f(x) = c]]. The average conditional min-entropy then corresponds to the bit-security of
+this average predictability, i.e.,
+
+�
+H∞(x | f(x)) = − log2 Ec[max
+x′ P[x = x′ | f(x) = c]].
+
+Remark 6.1. Both the worst-case and average conditional min-entropy can be delicate to estimate or tightly
+bound in the general case. Nevertheless, we show that certain generic bounds (Lemma 6.1) can still be used to
+derive meaningful conclusions to apply our hardness result. We also showed that widely used distributions like
+discrete Gaussians can lead to tighter bounds (Lemma 3.3) in the context of noisy linear leakage. Obtaining
+better evaluations of this quantity for various distributions and leakage functions then readily improves the
+hardness guarantees using our result.
+
+In what follows, we apply our result to this average conditional min-entropy in order to obtain an average-
+case hardness which is sufficient for cryptographic applications. If one desires to deal with specific leaked
+values c, then we note that it is possible to directly apply our result if one is able to compute H∞(Xf,c)
+as described above. One can also determine from the conditional min-entropy that H∞(Xf,c) is sufficiently
+large compared to �
+H∞(x | f(x)) to apply the result, with the desired probability over the choice of c, i.e., for
+values c that are likely to happen as we described above. For that, one can use [DORS08, Lem. 2.2], which
+is recalled in Item 1 Lemma 2.4, to relate the two quantities.
+Overall, if we are further able to show the average conditional min-entropy �
+H∞((s, e) | f(s, e)) is above
+the threshold for the hardness of our reduction, it would in turn provide hardness of M-LWE with leakage
+function f. We now formalize this with the following M-LWE with leakage assumption.
+
+Definition 6.1 (Leaky-M-LWE). Let n, d, m, q be in N×. Let R be the ring of integers of a number field
+of degree n, and X be a distribution supported on a set X ⊆ Rm+d. Further, let f : X → Y be a function with
+range Y called the leakage space. The search version of the Leaky Module Learning With Errors problem,
+denoted as Leaky-M-LWEn,d,m,q,X,f, is as follows: Given A ←� U(Rm×d
+q
+), b = [A | Im]·x mod qR and f(x)
+for some x ←� X, find x.
+
+In this general formulation, we leave unspecified how the function f is defined. One can for instance
+assume that it is honestly chosen from some distribution, or that the adversary has the right to choose f
+within some given constraints. Here, the choice of the adversary might even come after having seen the
+matrix A. Observe however that many choices of f yield a totally trivial problem. For example, if f is
+a linear invertible function, then the leakage allows for recovering x efficiently. For an arbitrary bijective
+function f, the problem becomes easy as long as f −1 is efficiently computable. As in this case the conditional
+min-entropy is zero, our reduction does not cover the easy instances.
+
+22
+
+
+In the rest of this section we summarize different leakage variants used in the literature and show how
+our work encompasses them with the Leaky-M-LWE assumption. This demonstrates the full potential of our
+results. In particular, our work provides the first hardness results for M-LWE with non-linear leakage. As
+these variants were introduced primarily to improve cryptographic constructions, our framework targets the
+same applications by providing further confidence in the underlying leakage variants.
+
+6.1
+Tailored Approach for Approximate Linear Leakage
+
+We start by looking at a special case of Leaky-M-LWE, where the leakage is a noisy linear equation, often
+called Hint-M-LWE in the literature. In particular, the leakage function f is defined by f(x) = Mx + f
+for some adversarially chosen matrix M ∈ Rk×m+d and honestly sampled Gaussian noise f. Note that the
+adversary knows M, but not f 8. Several works have used these variants to construct more efficient primitives
+such as functional encryption [MKMS22], updatable encryption [HPS23], zero-knowledge proofs [KLSS23],
+threshold signatures [ENP24], or laconic cryptography [DKL+23]. However, all existing reductions from
+standard M-LWE proposed in these works only function for x coming from a discrete Gaussian distribution.
+Ours is the first to work for general noise distributions X. Indeed, they essentially study the conditional
+distribution of x given Mx + f. When both x and f are Gaussian, convolution theorems akin to [GMPW20,
+Thm. 3.1] can be used to characterize the leakage distribution and in turn the conditional distribution.
+However, if x does not follow the prescribed Gaussian distribution, this approach based on convolution
+fails as the leakage distribution becomes harder to analyze. In our case, instead of studying the conditional
+distribution, we only look at the conditional entropy, which is all we need to apply our hardness result. This
+allows for generalizing to different distributions for x while guaranteeing hardness, which was not known
+before.
+For that, we rely on our generalization of [BD20a] provided in Section 3 and Lemma 3.3. It shows that as
+long as Mx is bounded by some value B in ℓ2 norm, one can mask it with a discrete Gaussian of parameter
+σ resulting in
+
+�
+H∞(x | Mx + f) ≥ H∞(x) −
+√
+
+2πnk B
+
+σ log2 e − log2(1 + ε),
+
+provided that σ ≥ ηε(Rk) = ηε(Znk) (≈
+�
+
+ln(2nk/ε)/π by [EWY23]). As we only place a mild requirement
+on ∥Mx∥2, our approach is then better suited to capture non-Gaussian distributions for x. In particular, if
+σ ≥ B
+√
+
+nk, then the entropy loss is only
+√
+
+2π log2 e + log2(1 + ε).
+This tailored approach is thus the combination of two key ingredients: (1) our generalization of the noise
+lossiness for better trade-offs, and (2) the fact that we can prove the hardness solely based on evaluating
+this conditional min-entropy. This opens for different choices of distributions for x in M-LWE variants with
+approximate linear leakage. This is for example the case of [dPEK+23], which constructs a side-channel
+resistant signature scheme, although we warn that our reduction does not cover the practical parameter
+regime they consider.
+
+6.2
+Leakage With Bounded Support
+
+Although arbitrary leakage functions may be difficult to analyze in general, our approach of abstracting the
+secret-error distribution comes down to evaluating the residual entropy given the leakage as explained above.
+We can thus use Lemma 2.4 to obtain a lower bound on said entropy, provided that the range of f is finite
+and sufficiently small compared (in log) to the initial entropy of X.
+
+Lemma 6.1. Assuming f takes at most N different values, we have �
+H∞(x | f(x)) ≥ H∞(x) − log2 N. It
+also holds that
+Py∼f(X) [H∞(x | f(x) = y) ≥ H∞(x) − log2 N − log2(1/δ)] ≥ 1 − δ.
+
+8 Previous Extended-LWE assumptions, e.g., [AP12], considered M to be (a single row vector) chosen by the chal-
+lenger from a discrete Gaussian distribution.
+
+23
+
+
+Proof. The first statement directly holds from Item 2 of Lemma 2.4. Combined with Item 1, it yields the
+second claim.
+
+Remark 6.2. It provides a systematic way of evaluating the hardness of the Leaky-M-LWE problem simply
+by computing or bounding the size of the leakage space |Y |. In the context of arbitrary but bounded-size
+leakage, an alternative strategy could be to guess the leaked value. More concretely, given a regular M-LWE
+instance (A, b), the reduction guesses c such that f(x) = c and calls the Leaky-M-LWE oracle on (A, b, c).
+This guessing approach is commonly used when no tailored technique is known and entails a reduction
+security loss that depends on |Y | as well. This is why it is limited to the situations where |Y | is polynomial.
+Our approach allows us to go beyond polynomial-sized leakage spaces, as long as H∞(x) is sufficiently larger
+than log2|Y |. More concretely, if we take the example of a leakage with 2λ possible values with λ the security
+parameter (e.g., λ = 128), we only need λ extra bits of entropy to begin with. This can be easily achieved
+in typical scenarios in lattice-based cryptography (e.g., for x of dimension 256, going from x binary to x
+ternary gives 256 log2(3/2) ≥ 128 extra bits of entropy).
+
+Remark 6.3. Notice that this generic approach would give worse results for approximate linear leakage than
+the tailored one described in Section 6.1. Indeed, assume we consider the Gaussian of width σ for f to be
+truncated in ℓ∞ norm at tσ for some t > 0. We would have ∥Mx + f∥∞ ≤ ∥Mx∥∞ + tσ ≤ B∞ + tσ. Hence,
+the entropy bound would be �
+H∞(x | Mx+f) ≥ H∞(x)−nk log2(2(B∞ +tσ)+1). As a result, the larger the
+mask (i.e., larger σ), the more entropy for x we would need to guarantee hardness, which is counter-intuitive.
+This demonstrates the looseness of the generic approach in certain use cases. For Hint-M-LWE as defined
+in the works mentioned in Section 6.1, the tailored approach based on Lemma 3.3 then follows the intuition
+that the larger the mask, the less entropy we need in the first place as the hint would give less and less
+information on x.
+
+The general approach is most interesting for leakage functions that do not fit the approximate linear hint
+framework, and for which no prior hardness result was known. We detail below a few concrete examples
+including exact linear hints, as well as quadratic leakage which, to our knowledge, was not yet tackled by
+any theoretical hardness result.
+
+6.2.1
+Exact Linear Leakage. First, we tackle several variants from the so-called Extended-M-LWE
+family that use exact linear hints without modular reduction, i.e., when f is a linear function over Z (or
+R). In that context, the elements constituting the leakage can be assumed short (meaning they do not
+entail wrap-around modulo q anyway). Examples of such variants have been used to construct functional
+encryption [ALS16], zero-knowledge proofs [LN22], side-channel resistant signatures [dPEK+23], or used
+in reductions [AA16, BJRW21]. Exact linear hints are typically expressed via f(x) = Mτ(x) for a short
+adversarially chosen M ∈ Zk×n(m+d). Note that this encompasses leakage over the ring f(x) = M′x by
+defining M = Mτ(M′). We can then bound the cardinal of the support of the leakage space in a similar
+fashion as in Lemma 4.1 using induced (α, β)-norms.
+
+Lemma 6.2 (Generic Exact Linear Leakage).
+The cardinal of the range of f is bounded by
+minα,β
+��Bβ,k(Bα,βBα) ∩ Zk��, where Bα,β = ∥M∥α,β and Bα = maxx∈X∥x∥α.
+
+If the bound exceeds |X|, then the residual entropy bound would be H∞(X) − log2|X| ≤ 0 which is
+vacuous. Reaching this bound of |X| is possible for example if ker(M) = {0}, i.e., f is injective. It means
+that f can be inverted and that Leaky-M-LWEn,d,m,q,X,f is easy in this case. It then limits the number of
+hints k that can be safely given to the adversary. We now explain how Lemma 6.2 helps covering the hardness
+of the aforementioned works. We distinguish between the adversarially and non-adversarially chosen case.
+
+Adversarial Exact Linear Hints. In both [AA16, BJRW21], the linear function is only on the error part
+(we thus do not need the HNF transform of Section 5) and most importantly adversarial, meaning M is
+chosen by the adversary in a certain set. Indeed, [BJRW21] considers f(e) = zT e over the ring for a short
+adversarially-chosen z. In that case, we can express it as above with M = [0 | Mτ(zT )] ∈ Zn×n(m+d) (the
+
+24
+
+
+0 part corresponding to the secret part of x). Let us now bound ∥M∥2,∞ as an example. It corresponds to
+the maximal ℓ2 norm of the rows. Yet, the i-th row of Mτ(zT ) is the i-th column of Mτ(zT )T = Mτ(z∗T )
+which is exactly τ(z∗xi). We then have B2,∞ = max0≤i<n
+��z∗xi��
+2, which simplifies to ∥z∥2 in power-of-two
+cyclotomic fields. It means the size of the leakage space is bounded by (2
+�
+maxe∥e∥2 · maxi
+��z∗xi��
+2
+�
++ 1)n,
+which decreases the min-entropy by at most the logarithm of that. We note that as opposed to [BJRW21],
+our case covers general number fields, and does not restrict the error distribution to a continuous Gaussian.
+Also, it does not require the explicit construction of a short unimodular matrix as in [BJRW21, Lem. 15].
+In the general formulation of [AA16], they define f(e) = [Tr(⟨zi , e⟩)]i∈[k], which is linear by linearity of
+the field trace and takes values in Qk. We can write it as f(e) = ZT �VT �Vτ(e), where �V = Im ⊗ V, for the
+Vandermonde matrix V of the field, and Z = [τ(z1) | . . . | τ(zk)]. In the power-of-two cyclotomic case, a
+standard calculation shows that [VT V]i,j = 0 if i + j /∈ {0, n} and (−1)(i+j)/n · n otherwise. Hence, defining
+M = ZT (Im ⊗VT V) yields a matrix in Zk×nm which can be used in Lemma 6.2 with an appropriate bound.
+For example, in the power-of-two cyclotomic case, one gets ∥M∥2,∞ = n · maxi∈[k]∥zi∥2.
+The set of vectors {zi}i∈[k] they use in their paper however leads to a much simpler situation. Although
+they formulate the assumption with the trace, they only use it for adversarial vectors zi where each one
+essentially extracts a single coefficient of e. More concretely, they use M = [0 | Z] ∈ {0, 1}k×n(m+d) where
+Z ∈ {0, 1}k×nm is of rank k and has a single 1 in each row (i.e., up to permutation of the columns, Z = [Ik | 0]).
+In that case, we can use the (∞, ∞)-norm and get B∞,∞ = 1. Hence, the leakage space is directly bounded
+by (2 maxe∥e∥∞+1)k. Alternatively, as it comes down to leaking k out of nm coefficients, it may be analyzed
+differently for specific error distributions. For example, if all the coefficients τi(e) are independently sampled
+from distributions ψi, leaking {τi(e): i ∈ S} then entails that the average and worst-case conditional entropy
+coincide and equal �
+H∞(e | f(e)) = H∞(e | f(e)) = �
+
+i∈[nm]\S H∞(ψi). In the case of a discrete Gaussian
+error for example, this would simply be H∞(DZnm−k,s) ≥ (nm − k) log2 s.
+
+Non-adversarial Exact Linear Hints. Cryptographic constructions also use the exact linear hints but with a
+non-adversarial function [ALS16,LN22,dPEK+23]. In that case, the matrix M is controlled by the challenger
+and follows a prescribed distribution, which can allow for better fine-tuning. In [dPEK+23], the hints are
+described as Mτ(x) which is directly covered by Lemma 6.2. The situation in [ALS16] is exactly the same
+except they consider the unstructured problem LWE (i.e., when n = 1).
+In [LN22], the hint has a slightly different shape than in [AA16, BJRW21], but most importantly does
+not contain adversarially chosen elements9. In their case, the function is f(x) = ⟨τ(cx) , τ(y)⟩, where y
+is the mask of cs in the zero-knowledge proof, and c is the public challenge generated as a hash output.
+This can then be written as Mτ(x) with M = τ(y)T (Im+d ⊗ Mτ(c)) = τ(c∗y)T . Using the (2, ∞)-norm
+(which comes down to a Cauchy-Schwarz inequality), we have B2,∞ = ∥c∗y∥2 ≤ η · tσ2
+�
+
+n(d + m), where
+η is an integer defining the challenge space, and σ2 is the discrete Gaussian parameter of y tailcutted at t.
+The residual entropy is then at least H∞(x) − log2(2ηtσ2
+�
+
+n(d + m) · maxx∈X∥x∥2 + 1). In most cases, this
+leakage decreases the entropy by at most log2 q bits.
+
+6.2.2
+Quadratic Leakage. Our result also provides a way to prove the hardness of M-LWE beyond
+linear leakage. Variants of LWE with non-linear hints have been recently introduced, like quadratic leakage
+in [MS23,PS24] to propose threshold encryption and threshold FHE. In that context, the leakage function
+is f(x) = xT Fx + f T x + f, possibly with automorphism, or the evalutation thereof. In the threshold PKE
+construction of [MS23], the authors introduce the Known-Norm LWE assumption where the adversary learns
+f(x) = ∥x∥2
+2. This can be generalized to the module setting by giving out f(x) = ∥τ(x)∥2
+2. However, in the
+structured case, the authors instead generalize the hint to f(x) = ⟨x , x⟩KR which corresponds to the
+autocorrelation (which they call covariance) of x defined by ⟨x , x⟩KR = �
+
+i∈[m+d] x∗
+i xi = x∗x. When K is a
+cyclotomic field, the conjugate is the automorphism of K defined by ζ �→ ζ−1, which also stabilizes the ring
+
+9 This was generalized to adversarially chosen c and y in [WLL24]. Our result can easily handle this case in a similar
+way as long as c and y are bounded. In the worst case, they can be considered modulo q, reducing the entropy by
+at most log2 q.
+
+25
+
+
+of integers R. It means for x ∈ Rm+d, f(x) ∈ R. The resulting problem is referred to as Known-Covariance
+M-LWE (which they only use in the ring setting, i.e., d = 1). In power-of-two cyclotomics, we can clearly see
+it is no harder than the Known-Norm case as the constant coefficient of x∗x is ∥τ(x)∥2
+2.
+The case of Known-Norm M-LWE can be easily handled by guessing ∥τ(x)∥2
+2 which is a single (polynomially-
+bounded) integer, but this method fails for the Known-Covariance M-LWE problem as it would require
+guessing an entire ring element. Our approach can take over in this setting by bounding the size of the range
+of f. Using similar bounds as for the exact linear hints, we have maxx∥x∗x∥∞ ≤ maxx∥Mτ(x∗)∥2,∞∥x∥2 =
+maxx maxi
+��xxi��
+2∥x∥2. Focusing on the power-of-two cyclotomic case, we obtain a bound of maxx∥x∥2
+2. This
+would give a leakage space of at most (2 maxx∥x∥2
+2+1)n elements. We however notice that f(x) is self-adjoint,
+i.e., f(x)∗ = f(x). Hence, τn/2(f(x)) = 0 and for all i ∈ [1, n/2 − 1], τn−i(f(x)) = −τi(f(x)). Hence, f(x)
+takes at most (2B + 1)n/2 values, where B = maxx∥x∥2
+2.
+As a result, the average conditional min-entropy is at least �
+H∞(x | x∗x) ≥ H∞(x)− n
+
+2 log2(2B +1). This
+could possibly be refined as it appears that although the constant coefficient of x∗x is ∥x∥2
+2, the other ones
+tend to be much smaller. Also, we note that this conditional distribution is invariant under permutation as
+(Px)∗(Px) = x∗PT Px = x∗x. In that case the pHNF-M-LWE and regular HNF-M-LWE coincide.
+We give more details on how to instantiate our result to prove the hardness of Known-Covariance M-LWE
+in Appendix A. In particular, we give a parameter set ensuring close to 128 bits of security to show the
+applicability of our result. Albeit with impractical parameters, it shows that there is nothing fundamentally
+weak with leaking x∗x.
+
+6.2.3
+Non-Algebraic Leakage. Our result can also be used to handle non-algebraic leakages contrarily
+to the ones we covered in the previous sections. A simple example is that of the Extended-M-LWE problem
+formulated in [LNS21] where f(x) = sign(⟨τ(cx) , τ(y)⟩), where y is a mask for cx in the zero-knowledge
+proof, and c is the public challenge obtained as a hash output. This can be seen as a weaker version of
+the Extended-M-LWE problem from [LN22] mentioned in Section 6.2.1, which now just leaks the sign of
+⟨τ(cx) , τ(y)⟩ instead of the full inner product. As a result, the leakage space is simply {−1, 1} yielding a
+residual entropy of at least H∞(x) − 1. The authors provide a reduction from LWE in the unstructured case
+which strongly relies on the fact that both c and y are controlled by the challenger. Our result extends it
+(albeit most likely loosely) to the structured case of M-LWE and to adversarial y and c.
+More generally, non-algebraic leakage often comes up in side-channel analysis, for example through timing
+measurements, power traces, or electromagnetic readings. These are generally non-linear in the secret data,
+and even most likely non-algebraic. Sophisticated machinery is then needed to transform these non-algebraic
+leakage into information that is more relevant to solving M-LWE (such as randomness bit, hamming weight,
+etc.). We only mention that our result is general enough to cover these situations, again provided one can
+lower-bound the average conditional min-entropy. Because leakage incurred by insecure implementations is
+not easy to model, we leave the application of our result to such use-cases as an interesting research direction.
+In particular, modeling the leakage exploited in side-channel attacks would provide a deeper understanding
+of the actual M-LWE assumption underlying such vulnerable systems.
+
+Acknowledgments
+
+We thank the anonymous reviewers for their helpful feedback. This work was supported by the French gov-
+ernment through the National Research Agency, under the projects ANR-21-ASTR-0016 AMIRAL, ANR-22-
+PECY-003 SecureCompute, ANR-24-CE48-4293 HELO and ANR-25-CE39-4214-01 RELATE, by the Aus-
+trian Science Fund (FWF) Project J4879-N, by the Bakar Funds and Peder Sather Funds.
+
+References
+
+AA16.
+Jacob Alperin-Sheriff and Daniel Apon. Dimension-preserving reductions from LWE to LWR. Cryptology
+ePrint Archive, Report 2016/589, 2016.
+
+26
+
+
+ACPS09.
+Benny Applebaum, David Cash, Chris Peikert, and Amit Sahai.
+Fast cryptographic primitives and
+circular-secure encryption based on hard learning problems.
+In Shai Halevi, editor, CRYPTO 2009,
+volume 5677 of LNCS, pages 595–618. Springer, Berlin, Heidelberg, August 2009.
+
+AG11.
+Sanjeev Arora and Rong Ge. New algorithms for learning in presence of errors. In Luca Aceto, Monika
+Henzinger, and Jiri Sgall, editors, ICALP 2011, Part I, volume 6755 of LNCS, pages 403–415. Springer,
+Berlin, Heidelberg, July 2011.
+
+Ajt96.
+Miklós Ajtai. Generating hard instances of lattice problems (extended abstract). In 28th ACM STOC,
+pages 99–108. ACM Press, May 1996.
+
+ALS16.
+Shweta Agrawal, Benoît Libert, and Damien Stehlé. Fully secure functional encryption for inner products,
+from standard assumptions. In Matthew Robshaw and Jonathan Katz, editors, CRYPTO 2016, Part III,
+volume 9816 of LNCS, pages 333–362. Springer, Berlin, Heidelberg, August 2016.
+
+AP12.
+Jacob Alperin-Sheriff and Chris Peikert. Circular and KDM security for identity-based encryption. In
+Marc Fischlin, Johannes Buchmann, and Mark Manulis, editors, PKC 2012, volume 7293 of LNCS, pages
+334–352. Springer, Berlin, Heidelberg, May 2012.
+
+APS15.
+Martin R. Albrecht, Rachel Player, and Sam Scott. On the concrete hardness of learning with errors.
+Cryptology ePrint Archive, Report 2015/046, 2015.
+
+Ban93.
+Wojciech Banaszczyk. New bounds in some transference theorems in the geometry of numbers. Math.
+Ann., 296(4):625–635, 1993.
+
+BD20a.
+Zvika Brakerski and Nico Döttling. Hardness of LWE on general entropic distributions. In Anne Canteaut
+and Yuval Ishai, editors, EUROCRYPT 2020, Part II, volume 12106 of LNCS, pages 551–575. Springer,
+Cham, May 2020.
+
+BD20b.
+Zvika Brakerski and Nico Döttling. Lossiness and entropic hardness for ring-LWE. In Rafael Pass and
+Krzysztof Pietrzak, editors, TCC 2020, Part I, volume 12550 of LNCS, pages 1–27. Springer, Cham,
+November 2020.
+
+BDK+18.
+Joppe W. Bos, Léo Ducas, Eike Kiltz, Tancrède Lepoint, Vadim Lyubashevsky, John M. Schanck, Peter
+Schwabe, Gregor Seiler, and Damien Stehlé. CRYSTALS - Kyber: A CCA-secure module-lattice-based
+KEM. In 2018 IEEE European Symposium on Security and Privacy, pages 353–367. IEEE Computer
+Society Press, April 2018.
+
+BGV12.
+Zvika Brakerski, Craig Gentry, and Vinod Vaikuntanathan.
+(Leveled) fully homomorphic encryption
+without bootstrapping. In Shafi Goldwasser, editor, ITCS 2012, pages 309–325. ACM, January 2012.
+
+BJRW20.
+Katharina Boudgoust, Corentin Jeudy, Adeline Roux-Langlois, and Weiqiang Wen. Towards classical
+hardness of module-LWE: The linear rank case.
+In Shiho Moriai and Huaxiong Wang, editors, ASI-
+ACRYPT 2020, Part II, volume 12492 of LNCS, pages 289–317. Springer, Cham, December 2020.
+
+BJRW21.
+Katharina Boudgoust, Corentin Jeudy, Adeline Roux-Langlois, and Weiqiang Wen. On the hardness of
+module-LWE with binary secret. In Kenneth G. Paterson, editor, CT-RSA 2021, volume 12704 of LNCS,
+pages 503–526. Springer, Cham, May 2021.
+
+BJRW22.
+Katharina Boudgoust, Corentin Jeudy, Adeline Roux-Langlois, and Weiqiang Wen. Entropic hardness of
+module-LWE from module-NTRU. In Takanori Isobe and Santanu Sarkar, editors, INDOCRYPT 2022,
+volume 13774 of LNCS, pages 78–99. Springer, Cham, December 2022.
+
+BJRW23.
+Katharina Boudgoust, Corentin Jeudy, Adeline Roux-Langlois, and Weiqiang Wen. On the hardness of
+module learning with errors with short distributions. Journal of Cryptology, 36(1):1, January 2023.
+
+BK25.
+Katharina Boudgoust and Hannah Keller. Module learning with errors with truncated matrices. In Ruben
+Niederhagen and Markku-Juhani O. Saarinen, editors, Post-Quantum Cryptography - 16th International
+Workshop, PQCrypto 2025, Part I, pages 255–277. Springer, Cham, April 2025.
+
+BLP+13.
+Zvika Brakerski, Adeline Langlois, Chris Peikert, Oded Regev, and Damien Stehlé. Classical hardness of
+learning with errors. In Dan Boneh, Tim Roughgarden, and Joan Feigenbaum, editors, 45th ACM STOC,
+pages 575–584. ACM Press, June 2013.
+
+CHK+21.
+Chi-Ming Marvin Chung, Vincent Hwang, Matthias J. Kannwischer, Gregor Seiler, Cheng-Jhih Shih, and
+Bo-Yin Yang. NTT multiplication for NTT-unfriendly rings. IACR TCHES, 2021(2):159–188, 2021.
+
+DGPY20.
+Léo Ducas, Steven Galbraith, Thomas Prest, and Yang Yu. Integral matrix gram root and lattice gaussian
+sampling without floats. In Anne Canteaut and Yuval Ishai, editors, EUROCRYPT 2020, Part II, volume
+12106 of LNCS, pages 608–637. Springer, Cham, May 2020.
+
+DKL+18.
+Léo Ducas, Eike Kiltz, Tancrède Lepoint, Vadim Lyubashevsky, Peter Schwabe, Gregor Seiler, and Damien
+Stehlé. CRYSTALS-Dilithium: A lattice-based digital signature scheme. IACR TCHES, 2018(1):238–268,
+2018.
+
+DKL+23.
+Nico Döttling, Dimitris Kolonelos, Russell W. F. Lai, Chuanwei Lin, Giulio Malavolta, and Ahmadreza
+Rahimi. Efficient laconic cryptography from learning with errors. In Carmit Hazay and Martijn Stam,
+
+27
+
+
+editors, EUROCRYPT 2023, Part III, volume 14006 of LNCS, pages 417–446. Springer, Cham, April
+2023.
+
+DKM+24. Rafaël Del Pino, Shuichi Katsumata, Mary Maller, Fabrice Mouhartem, Thomas Prest, and Markku-
+Juhani O. Saarinen. Threshold raccoon: Practical threshold signatures from standard lattice assumptions.
+In Marc Joye and Gregor Leander, editors, EUROCRYPT 2024, Part II, volume 14652 of LNCS, pages
+219–248. Springer, Cham, May 2024.
+
+DORS03.
+Yevgeniy Dodis, Rafail Ostrovsky, Leonid Reyzin, and Adam Smith. Fuzzy extractors: How to generate
+strong keys from biometrics and other noisy data. Cryptology ePrint Archive, Report 2003/235, 2003.
+
+DORS08.
+Yevgeniy Dodis, Rafail Ostrovsky, Leonid Reyzin, and Adam Smith. Fuzzy extractors: How to generate
+strong keys from biometrics and other noisy data. SIAM journal on computing, 38(1):97–139, 2008.
+
+dPEK+23. R. del Pino, T. Espitau, S. Katsumata, M. Maller, F. Mouhartem, T. Prest, M. Rossi, and M.-
+J. Saarinen.
+Raccoon: A Side-Channel Secure Signature Scheme (Specifications), 2023.
+Available at
+
+https://raccoonfamily.org/wp-content/uploads/2023/07/raccoon.pdf.
+
+dPKPR24. Rafaël del Pino, Shuichi Katsumata, Thomas Prest, and Mélissa Rossi. Raccoon: A masking-friendly
+signature proven in the probing model. In Leonid Reyzin and Douglas Stebila, editors, CRYPTO 2024,
+Part I, volume 14920 of LNCS, pages 409–444. Springer, Cham, August 2024.
+
+ENP24.
+Thomas Espitau, Guilhem Niot, and Thomas Prest. Flood and submerse: Distributed key generation and
+robust threshold signature from lattices. In Leonid Reyzin and Douglas Stebila, editors, CRYPTO 2024,
+Part VII, volume 14926 of LNCS, pages 425–458. Springer, Cham, August 2024.
+
+EWY23.
+Thomas Espitau, Alexandre Wallet, and Yang Yu.
+On gaussian sampling, smoothing parameter and
+application to signatures. In Jian Guo and Ron Steinfeld, editors, ASIACRYPT 2023, Part VII, volume
+14444 of LNCS, pages 65–97. Springer, Singapore, December 2023.
+
+GKPV10.
+Shafi Goldwasser, Yael Tauman Kalai, Chris Peikert, and Vinod Vaikuntanathan.
+Robustness of the
+learning with errors assumption. In Andrew Chi-Chih Yao, editor, ICS 2010, pages 230–240. Tsinghua
+University Press, January 2010.
+
+GMPW20. Nicholas Genise, Daniele Micciancio, Chris Peikert, and Michael Walter. Improved discrete gaussian and
+subgaussian analysis for lattice cryptography. In Aggelos Kiayias, Markulf Kohlweiss, Petros Wallden,
+and Vassilis Zikas, editors, PKC 2020, Part I, volume 12110 of LNCS, pages 623–651. Springer, Cham,
+May 2020.
+
+HPS98.
+Jeffrey Hoffstein, Jill Pipher, and Joseph H. Silverman. NTRU: A ring-based public key cryptosystem. In
+Third Algorithmic Number Theory Symposium (ANTS), volume 1423 of LNCS, pages 267–288. Springer,
+June 1998.
+
+HPS23.
+Calvin Abou Haidar, Alain Passelègue, and Damien Stehlé. Efficient updatable public-key encryption
+from lattices.
+In Jian Guo and Ron Steinfeld, editors, ASIACRYPT 2023, Part V, volume 14442 of
+LNCS, pages 342–373. Springer, Singapore, December 2023.
+
+KLSS23.
+Duhyeong Kim, Dongwon Lee, Jinyeong Seo, and Yongsoo Song. Toward practical lattice-based proof
+of knowledge from hint-MLWE. In Helena Handschuh and Anna Lysyanskaya, editors, CRYPTO 2023,
+Part V, volume 14085 of LNCS, pages 549–580. Springer, Cham, August 2023.
+
+LN22.
+Vadim Lyubashevsky and Ngoc Khanh Nguyen. BLOOM: Bimodal lattice one-out-of-many proofs and
+applications. In Shweta Agrawal and Dongdai Lin, editors, ASIACRYPT 2022, Part IV, volume 13794
+of LNCS, pages 95–125. Springer, Cham, December 2022.
+
+LNS21.
+Vadim Lyubashevsky, Ngoc Khanh Nguyen, and Gregor Seiler.
+Shorter lattice-based zero-knowledge
+proofs via one-time commitments. In Juan Garay, editor, PKC 2021, Part I, volume 12710 of LNCS,
+pages 215–241. Springer, Cham, May 2021.
+
+LPR10.
+Vadim Lyubashevsky, Chris Peikert, and Oded Regev. On ideal lattices and learning with errors over
+rings. In Henri Gilbert, editor, EUROCRYPT 2010, volume 6110 of LNCS, pages 1–23. Springer, Berlin,
+Heidelberg, May / June 2010.
+
+LS15.
+Adeline Langlois and Damien Stehlé. Worst-case to average-case reductions for module lattices. DCC,
+75(3):565–599, 2015.
+
+LS18.
+Vadim Lyubashevsky and Gregor Seiler. Short, invertible elements in partially splitting cyclotomic rings
+and applications to lattice-based zero-knowledge proofs. In Jesper Buus Nielsen and Vincent Rijmen,
+editors, EUROCRYPT 2018, Part I, volume 10820 of LNCS, pages 204–224. Springer, Cham, April / May
+2018.
+
+LWZW20. Hao Lin, Mingqiang Wang, Jincheng Zhuang, and Yang Wang. Hardness of module-LWE and ring-LWE
+on general entropic distributions. Cryptology ePrint Archive, Report 2020/1238, 2020.
+
+MAM+24. Anisha Mukherjee, Aikata, Ahmet Can Mert, Yongwoo Lee, Sunmin Kwon, Maxim Deryabin, and Su-
+joy Sinha Roy. ModHE: Modular homomorphic encryption using module lattices potentials and limita-
+tions. IACR TCHES, 2024(1):527–562, 2024.
+
+28
+
+
+Mic04.
+Daniele Micciancio. Generalized compact knapsacks, cyclic lattices, and efficient one-way functions from
+worst-case complexity assumptions. Cryptology ePrint Archive, Report 2004/286, 2004.
+
+Mic18.
+Daniele Micciancio.
+On the hardness of learning with errors with binary secrets.
+Cryptology ePrint
+Archive, Report 2018/988, 2018.
+
+MKMS22. Jose Maria Bermudo Mera, Angshuman Karmakar, Tilen Marc, and Azam Soleimanian. Efficient lattice-
+based inner-product functional encryption. In Goichiro Hanaoka, Junji Shikata, and Yohei Watanabe,
+editors, PKC 2022, Part II, volume 13178 of LNCS, pages 163–193. Springer, Cham, March 2022.
+
+MM11.
+Daniele Micciancio and Petros Mol. Pseudorandom knapsacks and the sample complexity of LWE search-
+to-decision reductions. In Phillip Rogaway, editor, CRYPTO 2011, volume 6841 of LNCS, pages 465–484.
+Springer, Berlin, Heidelberg, August 2011.
+
+MP13.
+Daniele Micciancio and Chris Peikert. Hardness of SIS and LWE with small parameters. In Ran Canetti
+and Juan A. Garay, editors, CRYPTO 2013, Part I, volume 8042 of LNCS, pages 21–39. Springer, Berlin,
+Heidelberg, August 2013.
+
+MR04.
+Daniele Micciancio and Oded Regev. Worst-case to average-case reductions based on Gaussian measures.
+In 45th FOCS, pages 372–381. IEEE Computer Society Press, October 2004.
+
+MS23.
+Daniele Micciancio and Adam Suhl. Simulation-secure threshold PKE from LWE with polynomial mod-
+ulus. Cryptology ePrint Archive, Report 2023/1728, 2023.
+
+PP19.
+Chris Peikert and Zachary Pepin. Algebraically structured LWE, revisited. In Dennis Hofheinz and Alon
+Rosen, editors, TCC 2019, Part I, volume 11891 of LNCS, pages 1–23. Springer, Cham, December 2019.
+
+PR07.
+Chris Peikert and Alon Rosen. Lattices that admit logarithmic worst-case to average-case connection
+factors. In David S. Johnson and Uriel Feige, editors, 39th ACM STOC, pages 478–487. ACM Press, June
+2007.
+
+PS24.
+Alain Passelègue and Damien Stehlé. Low communication threshold fully homomorphic encryption. In
+Kai-Min Chung and Yu Sasaki, editors, ASIACRYPT 2024, Part I, volume 15484 of LNCS, pages 297–329.
+Springer, Singapore, December 2024.
+
+Reg05.
+Oded Regev. On lattices, learning with errors, random linear codes, and cryptography. In Harold N.
+Gabow and Ronald Fagin, editors, 37th ACM STOC, pages 84–93. ACM Press, May 2005.
+
+SSTX09.
+Damien Stehlé, Ron Steinfeld, Keisuke Tanaka, and Keita Xagawa. Efficient public key encryption based
+on ideal lattices. In Mitsuru Matsui, editor, ASIACRYPT 2009, volume 5912 of LNCS, pages 617–635.
+Springer, Berlin, Heidelberg, December 2009.
+
+STA20.
+Chao Sun, Mehdi Tibouchi, and Masayuki Abe. Revisiting the hardness of binary error LWE. In Joseph K.
+Liu and Hui Cui, editors, ACISP 20, volume 12248 of LNCS, pages 425–444. Springer, Cham, Novem-
+ber / December 2020.
+
+Ver12.
+Roman Vershynin. Introduction to the non-asymptotic analysis of random matrices, page 210–268. Cam-
+bridge University Press, 2012.
+
+WLL24.
+Zhedong Wang, Qiqi Lai, and Feng-Hao Liu. Ring/module learning with errors under linear leakage -
+hardness and applications. In Qiang Tang and Vanessa Teague, editors, PKC 2024, Part II, volume 14602
+of LNCS, pages 275–304. Springer, Cham, April 2024.
+
+29
+
+
+A
+Application: Hardness of Known-Covariance M-LWE
+
+We explain in details how to instantiate our result to obtain the hardness of the Known-Covariance M-LWE
+problem introduced in [MS23]. To show it is possible to have hard parameter regimes, we propose one
+parameter set for which our reduction reaches a security target λ = 128. Other parameterization could likely
+lead to better parameters. We also note that the parameters we propose are much larger than what is used
+in practical applications. In particular, as our result does not cover the ring setting d = 1, we analyze the
+hardness of the module version only.
+As explained in Section 6.2.2, the Known-Covariance M-LWE problem asks to recover x ∈ R2d given
+A ←� U(Rd×d
+q
+), b = [A | Id]x mod qR and x∗x. We also showed the average conditional min-entopy �
+H∞(x |
+x∗x) was lower-bounded by H∞(x) − n
+
+2 log2(2 maxx∈X∥x∥2
+2 + 1)n/2, where n is the ring degree, and X the
+support of x. We now need to plug these in our results of Theorem 4.1 and 5.1.
+We make similar choices as their integer construction based on Known-Norm LWE, namely with a discrete
+Gaussian distribution for x and with A being a square matrix (secret and error having the same dimension).
+We let R be the power-of-two cyclotomic ring of degree n, and define m = 2d. We also consider x being
+drawn from DRm,s.
+
+Min-Entropy. For simplicity, we assume the discrete Gaussian is truncated in ℓ2 norm. We choose the
+tailcut bound so that it is verified with overwhelming probability. As a result, both versions are equivalent
+up to a negligible reduction loss. More concretely, we define X = τ −1(B2,nm(t2s√nm)∩Znm) for t2 ≥ 1/
+√
+
+2π
+that is such that (t2
+√
+
+2πee−πt2
+2)nm = 2−λ. The probability mass function of this truncated Gaussian is then
+ρs
+
+ρs(X) · 1X, where 1X is the indicator function of X. The union bound combined with Lemma 2.3 then gives
+
+ρs(X)
+
+ρs(Znm) = Px∼DRm,s[∥x∥2 ≤ t2s√nm] ≥ 1 − 2−λ.
+
+We can then compute H∞(x) and the lower bound on �
+H∞(x | x∗x). First, we have that H∞(x) =
+− log2 maxx∈X ρs(x)/ρs(X) = log2 ρs(X). By the inequality above, we then obtain H∞(x) ≥ log2(1 −
+2−λ) + log2 ρs(Znm). By the Poisson summation formula, we directly get ρs(Znm) = snmρ1/s(Znm) ≥ snm.
+Hence, H∞(x) ≥ log2(1 − 2−λ) + nm log2 s. Then, by definition of X, we get maxx∈X∥x∥2
+2 =
+�
+t2
+2s2nm
+�
+.
+Overall, it yields
+
+�
+H∞(x | x∗x) ≥ nm log2 s − n
+
+2 log2
+�
+2
+�
+t2
+2s2nm
+�
++ 1
+�
++ log2(1 − 2−λ).
+
+Uninvertibility. We consider D = DRℓ,σ truncated in ℓ2 norm at tσ
+√
+
+nℓ. In a similar fashion as above,
+we take a tailcut t so that (t
+√
+
+2πee−πt2)nℓ = 2−λ. We then study the (1, 2)-norm of Mτ([Iℓ | Y]) where the
+(m − ℓ) columns of Y are drawn from D. It holds that
+
+∥Mτ([Iℓ | Y])∥1,2 = max
+�
+1, ∥Mτ(Y)∥1,2
+�
+≤ tσ
+√
+
+nℓ.
+
+Indeed, in the power-of-two cyclotomic ring, we have that all the columns of Mτ(a) for a ∈ R have the same
+ℓ2 norm which equals ∥a∥2. We then have ∥Mτ(Y)∥1,2 = maxi∈[m−ℓ]∥Yei∥2 ≤ tσ
+√
+
+nℓ, where ei has a 1 at
+entry i and 0 everywhere else.
+It allows us to define B1,2 = tσ
+√
+
+nℓ and p1,2 = 0. Also, by definition of X, we can also define B1 = t2snm
+as maxx∥x∥1 ≤ maxx
+√nm∥x∥2 = t2snm. Noting that
+��B2,N(r) ∩ ZN�� ≤ Vol(B2,N(r +
+√
+
+N/2)), Lemma 4.1
+
+yields the ε′
+inv-uninvertibility needed for Theorem 4.1, with
+
+ε′
+inv = 2− �
+H∞(x|x∗x)
+
+�√π(t2tsσnm
+√
+
+nℓ +
+√
+
+nℓ/2)
+�nℓ
+
+Γ(nℓ/2 + 1)
+
+30
+
+
+≤
+1
+
+1 − 2−λ ·
+
+�
+2
+�
+t2
+2s2nm
+�
++ 1
+�n/2
+
+snm
+·
+
+�√π(t2tsσnm
+√
+
+nℓ +
+√
+
+nℓ/2)
+�nℓ
+
+Γ(nℓ/2 + 1)
+,
+
+where the inequality stems from that on �
+H∞(x | x∗x).
+
+Hardness of Known-Covariance M-LWE. We can now apply Theorem 4.1. Defining β2 = 2t2s√nm, and
+assuming q satisfy the correct number-theoretic requirements, we obtain the ε-hardness of M-LWEn,d,m,q,U(Rdq),X ,
+with ε ≈ (d − k)εM-LWE + εM-SIS + ε′
+inv, where εM-SIS is the hardness bound of M-SIS2
+n,d,m,q,β2 and εM-LWE
+that of M-LWEn,k,ℓ,q,U(Rkq ),D. Theorem 5.1 then ensures that the problem pHNF-M-LWEn,d,d,q,X is ε/(1 −
+δ′(m, d))-hard. Notice that the conditional distribution X is invariant under permutation due to the fact that
+we have (Px)∗(Px) = x∗PT Px = x∗x for any permutation matrix P. It then holds pHNF-M-LWEn,d,d,q,X
+corresponds to the standard HNF formulation HNF-M-LWEn,d,d,q,X . The latter is then exactly the Known-
+Covariance M-LWE problem. Plugging the expression of ε′
+inv and using the fact that m = 2d (and thus
+ℓ = d + k) entails that Known-Covariance M-LWEn,d,d,q,DR2d,s is ε′-hard with
+
+ε′ =
+δ(2d, d)
+
+1 − δ′(2d, d) +
+(d − k)
+�
+2δ(d + k, d) +
+εM-LWE
+
+1−δ(d+k,k)
+�
++ ε′
+inv + εM-SIS
+
+(1 − δ′(2d, d))(1 − δ(2d, d))
+
+≈ (d − k)εM-LWE + εM-SIS
+
++
+
+
+
+
+
+
+�√π(2t2tsσn3/2d
+√
+
+d + k +
+�
+
+n(d + k)/2)
+�d+k �
+
+2⌊2t2
+2s2nd⌋ + 1
+
+s2d · Γ(n(d + k)/2 + 1)1/n
+
+
+
+
+
+
+n
+
+.
+
+Parameter Selection. We now look at the last term (corresponding to ε′
+inv) which we write as ϵn. Assuming
+all parameters but d are fixed, we asymptotically have that the ϵ is approximately (2
+√
+
+2πett2σnd)d+k√
+
+d/sd−k.
+Thence, if s is too small compared to d, this term will be larger than 1 and lead to a vacuous bound. We then
+decide to choose s = Ω(2
+√
+
+2πett2σnd) and then search for the smallest d that ensures ϵ ≤ 2−λ/n. We propose
+an example parameter set with s = 4
+√
+
+2πett2σnd, but we note that a larger s would lead to a smaller rank d.
+We indeed clearly see that as s gets larger, the minimal rank d gets smaller. There is then a trade-off between
+s (and thus the modulus q) and the rank d. Once d (and s) are found, we can set the modulus q so that
+M-SISn,d,2d,q,2t2s√nm and M-LWEn,k,d+k,q,U(Rk
+q ),D are hard. The modulus q is chosen as a prime that splits in
+n prime ideals which is sufficient for the δ(·, ·) to be negligible (these values become smaller when q has fewer
+and fewer prime ideals factors of ⟨q⟩). We note that a larger s will necessitate a larger q, which will decrease
+the security of the starting M-LWE assumption. One may need to increase k to compensate. As k impacts
+ε′ more marginally, it should still be possible to find parameters in the same order of magnitude. We give in
+Table A.1 example parameters, and detail in Table A.2 the values of δ(·, ·), δ′(·, ·), ε′
+inv, εM-LWE, εM-SIS, ε′. We
+provide an estimation script10 written in Sage which finds the smallest d and estimates the final hardness.
+
+n
+k
+q
+σ
+t
+d
+s
+t2
+
+256
+5
+532843009
+6
+0.41463
+222
+958593.521
+0.41014
+
+Table A.1. Example parameter set for the hardness of Known-Covariance M-LWEn,d,d,q,DR2d,s.
+
+We aimed for a reasonably small asymptotic constant when setting s, which then leads to a high rank
+of d = 222. Albeit far from practical, it shows that there is nothing fundamentally weak in the Known-
+Covariance M-LWE assumption as we are able to find parameters for which it is hard. We also insist that these
+
+10 https://github.com/mlwegeneraldistributions/mlwe-general-distributions
+
+31
+
+
+δ(2d, d)
+δ(d + k, d)
+δ(d + k, k)
+δ′(2d, d)
+εM-LWE
+εM-SIS
+ε′
+inv
+ε′
+
+2−6448
+2−158
+2−6454
+2−26
+2−131.0
+2−14131.8
+2−216.7
+2−123.3
+
+Table
+A.2. Upper bounds on the losses and hardness estimates for the hardness of Known-Covariance
+M-LWEn,d,d,q,DR2d,s
+
+parameters are large because of our proof methodology. Indeed, the hardness for entropic noise distribution
+comes with limitations on the number of samples m. As shown in [BJRW23] for uniform noise (and coherently
+with unstructured versions [MP13, STA20]), the number of samples is limited to m = d(1 + o(1)). When
+adopting a fine-grained analysis of the parameter constraints instead of asymptotic, one can still reach
+m = 2d but at the expense of other parameters (like the error bound) which grow exponentially with m − d.
+The number of samples of m = 2d required for the HNF transform is then drastically impacting the overall
+parameters.
+
+B
+Application: Hardness of M-LWE with Sparse Error
+
+In order to demonstrate the natural requirements on the number of samples entailed by our proof, we focus
+in this section on the hardness of M-LWE with a sparse error distribution. These regimes are indeed prone
+to efficient (even polynomial-time) attacks when the number of samples m given is too large and the density
+of the error distribution is too low. We can still instantiate our result to cover very low density regimes, but
+the rank (or equivalently lattice dimension) needs to be extremely large to ensure hardness. We note that
+the sparse error regime was studied from a hardness perspective in [STA20] where they looked at an error
+distribution where all the coefficients were taken from a Bernoulli distribution of parameter p. The uniform
+case of [MP13] corresponds to p = 1/2, but they showed it could be adapted to lower values of p, at the
+expense of limitting more and more the number of samples. In our case, we take a slightly different approach
+by looking at ternary errors with a fixed Hamming weight w. We thus consider S1 = τ −1({−1, 0, 1}n), and
+define X = {x ∈ Sm
+1 : ∥x∥1 = w}. As we wish to establish a correlation between the density and the required
+lattice dimension, we equivalently choose the density ρ and set w = ⌊ρnm⌋. We then consider X = U(X),
+meaning H∞(X) = |X|−1 = 2−w�nm
+w
+�−1.
+We again consider D = DRℓ,σ truncated in ℓ2 norm at tσ
+√
+
+nℓ as in Appendix A. The (1, 2)-norm of
+Mτ([Iℓ | Y]) is then bounded by B1,2 = tσ
+√
+
+nℓ, and we have p1,2 = 0. Also, by definition of X, we directly
+have B1 = w. Lemma 4.1 then yields the ε′
+inv-uninvertibility with
+
+ε′
+inv =
+1
+
+2w�nm
+w
+� ·
+
+�√π(wtσ
+√
+
+nℓ +
+√
+
+nℓ/2)
+�nℓ
+
+Γ(nℓ/2 + 1)
+
+=
+1
+
+2⌊ρnm⌋�
+nm
+⌊ρnm⌋
+� ·
+
+�√
+
+πnℓ(tσ⌊ρnm⌋ + 1/2)
+�nℓ
+
+Γ(nℓ/2 + 1)
+,
+
+The second-preimage resistance also follows from M-SIS1
+n,m−d,m,q,2w. Since M-SIS in ℓ1 norm is unusual, we
+can instead rely on M-SIS2
+n,m−d,m,q,2√w as we directly get maxx,x′∈X∥x − x′∥2 = 2 maxx∈X∥x∥2 = 2√w.
+Theorem 4.1 then gives the ε-hardness of M-LWEn,d,m,q,U(Rdq),X with ε ≈ (d − k)εM-LWE + εM-SIS + ε′
+inv.
+We can now fix n, k, ℓ, σ, q and, for variable densities ρ, we search for the minimal ranks d achieving
+λ = 128 bits of security. Fixing k and ℓ naturally makes m = d + ℓ − k uniquely determined by d. We give a
+few examples of the minimal rank d for different densities in Table B.1, fixing n = 256, k = 2, ℓ = 4, σ = 5
+and q = 2113. These examples are computed with our estimation script11 written in Sage.
+
+11 https://github.com/mlwegeneraldistributions/mlwe-general-distributions
+
+32
+
+
+ρ
+0.5
+0.1
+0.05
+0.01
+0.001
+0.0001
+0.00001
+
+d
+41
+104
+173
+624
+4416
+33866
+273045
+
+ε
+2−138.3
+2−136.9
+2−136.2
+2−131.2
+2−131.1
+2−128.3
+2−125.4
+
+Table B.1. Example parameters for the minimal module rank d for different densities ρ. The reported value ε is the
+obtained hardness bound for M-LWEn,d,m,q,U(Rdq ),X . The deterioration in security comes from the hybrid argument
+term (d − k)εM-LWE which grows with d.
+
+Fig. B.1. Interpolation of the minimal rank d as a function of the density ρ. The interpolation curve is d = 7.932694·
+ρ−0.907169 + 43.677687. The colored area corresponds to the zone where M-LWEn,d,m,q,U(Rdq ),X is hard.
+
+33
+
+
+Although the parameters are far from practical for very low densities, we observe a somewhat inverse
+relation between ρ and d, i.e., d ≈ a/ρb + c especially for low values of ρ, as depicted in Figure B.1.
+Interpolation for densities ranging between ρ = 10−5 and ρ = 1/2 gives (a, b, c) ≈ (7.933, 0.907, 43.678). The
+interpolation is realized with our Sage script mentioned above. It then seems that for a given dimension
+d, the M-LWE problem with m = d + o(1) samples and sparse ternary errors remains hard for densities
+ρ > (a/(d − c))1/b. We however leave further experiments for future work.
+
+C
+Examples of (α, β)-norms for Uninvertibility
+
+We here give a few other examples of choices of (α, β) pairs to instantiate Lemma 4.1 (and thus Theorem 4.1)
+with.
+
+C.1
+Example in (2, 2)-norm.
+
+Our result encompasses the result of [BJRW23] in the (2, 2)-norm, i.e., the spectral norm. We indeed observe
+that ∥Mτ([I|Y])∥2 = (1 + ∥Y∥2
+2)1/2 and then bound ∥Y∥2 using results from random matrix theory. Their
+analysis was carried for a discrete Gaussian distribution D in the Minkowski embedding (so as to plug
+their reduction to worst-case to average-case reductions), but the approach could be extended to any sub-
+Gaussian distribution using [Ver12, Thm. 4.4.5]. The bound depends on the sub-Gaussian norm ∥D∥ψ2. For
+example, choosing the coefficients of Y from a centered binomial distribution gives a sub-Gaussian norm of
+1/
+√
+
+ln 3 for each coefficient. The ring setting however invalidates the entries independence condition necessary
+for [Ver12, Thm. 4.4.5]. One can instead bound the norm of Y in each field embedding σk (which then depends
+on the distortion between the coefficient and canonical embeddings) and apply the union bound. The latter
+gives a proven bound on ∥Mτ(Y)∥2 using [BJRW23, Lem. 2.3], but is unfortunately very loose. Concrete
+schemes instead rely on heuristically derived bounds.
+Again taking the example of centered binomial coefficients gives a (heuristic) bound on ∥Mτ([Iℓ | Y]∥2
+of B2,2 =
+�
+
+1 + (
+√
+
+nℓ +
+�
+
+n(m − ℓ) + t)2/ ln(3) for a chosen tailcut t defining p2,2 = 2e−t2. Then, if the
+radius r = B2 · B2,2 is large enough, then the number of integer points within the ℓ2 ball of radius r is well
+approximated by its volume (√πr)nℓ/Γ(nℓ/2 + 1). Otherwise, one can use the more conservative bound of
+(√π(r +
+√
+
+nℓ/2))nℓ/Γ(nℓ/2 + 1).
+
+C.2
+Example in (1, 1)-norm.
+
+As mentioned, other distributions X and D may be better analyzed in different norms than the (2, 2)-norm.
+Another natural regime for M-LWE to improve efficiency is that of sparse errors. In this situation, the ℓ1
+norm seems the more natural metric. As described in Appendix B, one can choose the (1, 2)-norm with
+D = DRℓ,σ. Another choice could be the (1, 1)-norm for which closed-form formulae can be derived. Pursuing
+this choice, one could opt for a distribution D that is reasonable in terms of hardness, but better suited for
+the (1, 1)-norm.
+Let us consider D to be the centered binomial distribution with parameter 1, i.e., each coefficient of every
+vector entry is 0 with probability 1/2 and ±1 each with probability 1/4. We first have ∥Mτ([Iℓ | Y])∥1,1 =
+max(1, ∥Mτ(Y)∥1,1). In power-of-two cyclotomics, it also holds that ∥Mτ(Y)∥1,1 = maxj∈[m−ℓ]∥τ(yj)∥1.
+As yj is drawn from D, we can easily see that ∥τ(yj)∥1 follows the (uncentered) binomial distribution of
+parameter (nℓ, 1/2). As a result,
+
+∀K ∈ [0, nℓ], Py∼D[∥y∥1 ≤ K] =
+
+K
+�
+
+i=0
+
+�nℓ
+i
+
+�
+2−nℓ.
+
+Then, each column of Y being sampled independently from the others, we have
+
+∀K ∈ [1, nℓ], PY∼Dm−ℓ[∥Mτ([Iℓ | Y])∥1,1 > K] = 1 −
+1
+
+2nℓ(m−ℓ)
+
+� K
+�
+
+i=0
+
+�nℓ
+i
+
+��m−ℓ
+
+.
+
+34
+
+
+We can then define B1,1 = K and p1,1 = 1 − 2−nℓ(m−ℓ)(�K
+i=0
+�nℓ
+i
+�
+)m−ℓ for a tailcut parameter K. As
+described in Appendix B, choosing X = U({x ∈ Sm
+1 : ∥x∥1 = w}) directly yields B1 = w. We then obtain
+
+ε′
+inv =
+1
+
+2w�nm
+w
+�
+
+min(Kw,nℓ)
+�
+
+i=0
+
+�nℓ
+i
+
+��Kw
+i
+
+�
+2i +
+
+
+
+1 −
+1
+
+2nℓ(m−ℓ)
+
+� K
+�
+
+i=0
+
+�nℓ
+i
+
+��m−ℓ
+
+ .
+
+For every given (n, ℓ, m, w), one can then optimize over K to minimize this expression. We observe a similar
+behavior between the density ρ = w/nm and the minimal rank d that ensures ε′
+inv ≤ 2−λ, namely a somewhat
+inverse relation. However, because the starting assumption is slightly weaker (because of using centered
+binomial instead of discrete Gaussian), the example presented in Appendix B gives tighter parameters.
+
+C.3
+Example in (2, ∞)-norm.
+
+Keeping D to be a discrete Gaussian distribution, we can study the (2, ∞)-norm as well by looking at the
+rows of [Iℓ|Y]. Using the Gaussian tail bound on the rows then yields B2,∞ =
+�
+
+1 + t2s2n(m − ℓ), and
+p2,∞ = ℓ(t
+√
+
+2πee−πt2)n(m−ℓ). If X is contained in the ℓ2-ball of radius B2, then we can set
+
+ε′
+inv = 2−H∞(X) �
+(2
+�
+B2
+�
+
+1 + t2s2n(m − ℓ)
+�
++ 1)nℓ + |X|ℓ(t
+√
+
+2πee−πt2)n(m−ℓ)�
+.
+
+35
+
+

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260906T200647.645912Z-81bd60e1",
+  "kind": "coordinator",
+  "created_at": "2026-09-06T20:06:47.645939+00:00",
+  "reason": "Integrated W2 provisional search interface with multiplicative active-event loss, no decisional transfer",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 83047,
+      "sha256": "8f88fea7d7e7dfb8d1792897d5b8aefb702dd14532da3204a7669b1ffa017215"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 2597,
+      "sha256": "4eb23245b72ca20c67b51e671073a949f1a66320517364fc8903ce404dbe20a4"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 2483,
+      "sha256": "5cbb0bce6c4225babc0add82f2fa4bb67836f9439c9dcc4d41e5b53803344572"
+    },
+    {
+      "path": "final.md",
+      "bytes": 3006,
+      "sha256": "a27bf8db5b527a0bbd003d197f915056733cfcd0aab0b195beae073fa50f3c8d"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 2164,
+      "sha256": "7f8ac148e58f275ced75ebdf30c6eac94f5dcce948f91902c630aac531235ca9"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

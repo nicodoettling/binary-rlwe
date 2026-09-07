@@ -1,0 +1,230 @@
+{
+  "canonical_agent": "/root/w2_structure",
+  "session_thread_uuid": null,
+  "note": "Byte reads and hashes; complete model-readable packet reads additionally performed. No UUID is available.",
+  "inputs": [
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/target.md",
+      "sha256": "7465a6163ab527832e7a180dcaed4a1bdfe9ddae7662ac2d6d42022a9c2a9729",
+      "bytes": 5913,
+      "read_utc": "2026-09-06T20:02:23.211714+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/inputs/SOURCE_CONTRACT.md",
+      "sha256": "eb8680c34c4c0bf544f5757319bc31e5a65531f6b938e42382809784c80f022b",
+      "bytes": 5051,
+      "read_utc": "2026-09-06T20:02:23.211762+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/regressions.json",
+      "sha256": "de98ec6a3196cc3e92191e31e980cfcf9be7d3ae0a9ade960d8d8a404f49c6c3",
+      "bytes": 19132,
+      "read_utc": "2026-09-06T20:02:23.211809+00:00"
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/SKILL.md",
+      "sha256": "9350ffeb5aebe0b126710786586f94ef5d990be35b8b9defc8004136dae40318",
+      "bytes": 4484,
+      "read_utc": "2026-09-06T20:02:23.211845+00:00"
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/references/audit-protocol.md",
+      "sha256": "2d076ba631c340d71f6259757c6207dbe230872810e9bad3188b215f46d095f4",
+      "bytes": 8480,
+      "read_utc": "2026-09-06T20:02:23.211877+00:00"
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/references/probability-regressions.md",
+      "sha256": "ad7eecf93ed02e5b2957243a9bbb2cac8e8eeeb991971f4d77d0818cd04a4fa4",
+      "bytes": 6814,
+      "read_utc": "2026-09-06T20:02:23.211910+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/consolidated/joint-ideal-20260906/CONSOLIDATED.md",
+      "sha256": "6ba49b2176bdee39e36eaef1480de53628de410e76cc1bf3304ef5e8693f2cca",
+      "bytes": 13372,
+      "read_utc": "2026-09-06T20:02:23.211949+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/consolidated/joint-ideal-20260906/claims.json",
+      "sha256": "a48c4849c421aea72b55b6d38e6aece10da47c4725b443ca0bec497821bbcf65",
+      "bytes": 120274,
+      "read_utc": "2026-09-06T20:02:23.212106+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/consolidated/joint-ideal-20260906/reconciliation.md",
+      "sha256": "bb093b85afe22bd3956ca20212872a5c2e479f02de0d05386f18de19c481944a",
+      "bytes": 12504,
+      "read_utc": "2026-09-06T20:02:23.212159+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/candidates/A.md",
+      "sha256": "f97e502a68671c5add62e055a48ca3f62e72052177167a8d60dd7f398e366521",
+      "bytes": 5061,
+      "read_utc": "2026-09-06T20:02:23.212192+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/corrections/ATT-v3.md",
+      "sha256": "4766209d639d73de1252b4eac1343289f9a250e0b79a1ef9731c5bd485066b24",
+      "bytes": 2397,
+      "read_utc": "2026-09-06T20:02:23.212229+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C02/proposed-ATT-v3.md",
+      "sha256": "1fce3b7ad8c10de075fb161baab32d38786651bd72e059e9e2998a332bd6081f",
+      "bytes": 8919,
+      "read_utc": "2026-09-06T20:02:23.212265+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C01/ATT-recheck.md",
+      "sha256": "640e4c1af9441ba436ded264a548ad6653a183c9e6974e64680e0600f074b40e",
+      "bytes": 12454,
+      "read_utc": "2026-09-06T20:02:23.212302+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/F03-attacks.md",
+      "sha256": "a6c8321c668c4cf3cd492d362362f14625fd869328322037ac2687c677fc7fea",
+      "bytes": 10773,
+      "read_utc": "2026-09-06T20:02:23.212334+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/refinement/R02-break-A.md",
+      "sha256": "f6ad32c87995741c7a17a7ee28e22b3370071ab15f1387cca5ce81079f08bf59",
+      "bytes": 14742,
+      "read_utc": "2026-09-06T20:02:23.212369+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/D02-A-correlation.md",
+      "sha256": "d78e46bb226fe1388df2d922227016ff57875bfabd4b81580204f338fc341305",
+      "bytes": 8030,
+      "read_utc": "2026-09-06T20:02:23.212400+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C02/review.md",
+      "sha256": "62ca9a2d65d6b7d5ae84a5e6fee989ce36ac31280b75ecf4b148c2c0a103ea5f",
+      "bytes": 24742,
+      "read_utc": "2026-09-06T20:02:23.212438+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/known-counterexamples.md",
+      "sha256": "d2fb558136f7d100130ae19cc62f12f73c79521456ea8f1f28466c0ebc097bf7",
+      "bytes": 4692,
+      "read_utc": "2026-09-06T20:02:23.212465+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/F02-completion.md",
+      "sha256": "392bff6701967ba59f5cfd2a7d065f274e86dadb15c792079306ba0203ce3a4d",
+      "bytes": 14357,
+      "read_utc": "2026-09-06T20:02:23.212499+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/imports/regressions/00-known-counterexamples.md",
+      "sha256": "d2fb558136f7d100130ae19cc62f12f73c79521456ea8f1f28466c0ebc097bf7",
+      "bytes": 4692,
+      "read_utc": "2026-09-06T20:02:23.212523+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/imports/regressions/01-hand-controls.md",
+      "sha256": "0ede29402edfef872572855ea8ae3313104bf366a1efcfc8e6cdfd1b9ac09813",
+      "bytes": 7770,
+      "read_utc": "2026-09-06T20:02:23.212548+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/imports/regressions/02-objections.md",
+      "sha256": "782d05de6fc5f3f6e11a4f4f51ae6ef30aaa4aa9aa1bf4c0cc117178dc24f2da",
+      "bytes": 2837,
+      "read_utc": "2026-09-06T20:02:23.212569+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/imports/regressions/03-review.md",
+      "sha256": "62ca9a2d65d6b7d5ae84a5e6fee989ce36ac31280b75ecf4b148c2c0a103ea5f",
+      "bytes": 24742,
+      "read_utc": "2026-09-06T20:02:23.212604+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/imports/regressions/04-ATT-recheck.md",
+      "sha256": "640e4c1af9441ba436ded264a548ad6653a183c9e6974e64680e0600f074b40e",
+      "bytes": 12454,
+      "read_utc": "2026-09-06T20:02:23.212631+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/imports/regressions/05-NC1-v2-and-dependencies.md",
+      "sha256": "a801c12d79a1d74093cc0a7ab265e2d4580521dafaf823694bc905011f15cad1",
+      "bytes": 2615,
+      "read_utc": "2026-09-06T20:02:23.212654+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/imports/regressions/06-checks-and-regressions.md",
+      "sha256": "877cae34d291ff6c658087c7a28e1e63527e4b150a2c8c9f3e2ce9cdfdb83294",
+      "bytes": 13096,
+      "read_utc": "2026-09-06T20:02:23.212682+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/imports/regressions/08-additive-obstruction.md",
+      "sha256": "75e43c7ec6240335344c79e4632c26c59118e8ac3a428e2413f0badf7d429bb2",
+      "bytes": 7614,
+      "read_utc": "2026-09-06T20:02:23.212707+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/imports/regressions/09-mathematical-checks.md",
+      "sha256": "03380094df60c31a07d9dbae821013b987fee87acf76b467a3b519ac417f45a2",
+      "bytes": 10338,
+      "read_utc": "2026-09-06T20:02:23.212736+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/imports/regressions/10-C01.md",
+      "sha256": "2ba5dbc0df36a02d00c38b361e6e529cc448e5feeea61aeadfcefb348ff38755",
+      "bytes": 13797,
+      "read_utc": "2026-09-06T20:02:23.212764+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/imports/regressions/11-calculations.md",
+      "sha256": "0a291223769905ddb9a75cf01df1276b1c7dc69666acac63a677b4f719cdd23b",
+      "bytes": 9828,
+      "read_utc": "2026-09-06T20:02:23.212790+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/imports/regressions/12-transport.md",
+      "sha256": "8dc4b6a56d675ebdc931b63e7f3c67699e773de09e71b1fa36fe3743ba95835f",
+      "bytes": 13968,
+      "read_utc": "2026-09-06T20:02:23.212818+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/imports/regressions/13-rejected-or-deferred.md",
+      "sha256": "64a2c86df26b9bb017da50dce0a6b1543bbbcd9cda6d09f465452abcbb34b445",
+      "bytes": 7222,
+      "read_utc": "2026-09-06T20:02:23.212843+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/imports/regressions/14-S04.md",
+      "sha256": "912baf43075797611a281d3637a5be67ada6136ace9b2a495ba5889778703023",
+      "bytes": 4347,
+      "read_utc": "2026-09-06T20:02:23.212867+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/imports/regressions/16-S05.md",
+      "sha256": "f166aec658207f9e18fb86a5f72b5c719babf13179ea22364544f5a4210e3e27",
+      "bytes": 4854,
+      "read_utc": "2026-09-06T20:02:23.212890+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/imports/regressions/17-S12.md",
+      "sha256": "0a5c6351ba6f3767da4367bb2edc6a5f18913090615a1815dbd44eb6d640a1e6",
+      "bytes": 4166,
+      "read_utc": "2026-09-06T20:02:23.212912+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/imports/regressions/18-probability-regressions.md",
+      "sha256": "ad7eecf93ed02e5b2957243a9bbb2cac8e8eeeb991971f4d77d0818cd04a4fa4",
+      "bytes": 6814,
+      "read_utc": "2026-09-06T20:02:23.212936+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/workstreams/W2/sources/primary-response.json",
+      "sha256": "e0372d64ffdce3e2454ca102b6a56aac39a3dddcaa85b0be317c0b11b54d1c2c",
+      "bytes": 24050,
+      "read_utc": "2026-09-06T20:18:15.643723+00:00",
+      "kind": "Exact web-tool response representation, not original PDF bytes"
+    }
+  ]
+}

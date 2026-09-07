@@ -1,0 +1,1713 @@
+Lossiness and Entropic Hardness for Ring-LWE
+
+Zvika Brakerski ∗
+Nico D¨ottling†
+
+Abstract
+
+The hardness of the Ring Learning with Errors problem (RLWE) is a central building block
+for efficiency-oriented lattice-based cryptography. Many applications use an “entropic” variant
+of the problem where the so-called “secret” is not distributed uniformly as prescribed but instead
+comes from some distribution with sufficient min-entropy. However, the hardness of the entropic
+variant has not been substantiated thus far.
+For standard LWE (not over rings) entropic results are known, using a “lossiness approach”
+but it was not known how to adapt this approach to the ring setting. In this work we present
+the first such results, where entropic security is established either under RLWE or under the
+Decisional Small Polynomial Ratio (DSPR) assumption which is a mild variant of the NTRU
+assumption.
+In the context of general entropic distributions, our results in the ring setting essentially
+match the known lower bounds (Bolboceanu et al., Asiacrypt 2019; Brakerski and D¨ottling,
+Eurocrypt 2020).
+
+1
+Introduction
+
+Lyubashevsky, Peikert and Regev [LPR10, LPR13] introduced the Ring Learning with Errors
+(RLWE) problem as a structured variant of the celebrated LWE problem [Reg05]. RLWE (and
+similar variants such as ideal/polynomial LWE [SSTX09]) are by now an indispensable tool for
+constructing efficient lattice-based cryptographic primitives (such as public-key encryption, key
+agreement, signatures). It is appealing to use RLWE-based cryptographic primitives since they
+are usually more succinct and efficient than their non-ring counterparts. Translating a crypto-
+graphic construction from LWE to RLWE is usually straightforward, and indeed many LWE based
+constructions have RLWE counterparts that enjoy a higher level of efficiency (at the cost of only
+enjoying hardness respective to a special class of lattices instead of all lattices as in LWE).
+The focus of this work is entropic hardness, which is an important property of LWE-based cryp-
+tography [GKPV10,BLP+13,AKPW13,Mic18,BD20] that so far resisted translation to the RLWE
+regime. Entropic hardness is the property of the LWE problem (and hopefully also RLWE) to
+remain hard even when the so called “LWE secret” is not sampled from the prescribed distribution,
+but instead is sampled from some distribution with sufficient min-entropy. This is relevant in the
+context of key-leakage (see e.g. [KR19] for a survey), and in a number of other applications which
+use RLWE with a key that is not sampled according to the prescribed distribution. These include
+
+∗Weizmann Institute of Science, Israel, zvika.brakerski@weizmann.ac.il. Supported by the Binational Science
+Foundation (Grant No. 2016726), and by the European Union Horizon 2020 Research and Innovation Program via
+ERC Project REACT (Grant 756482) and via Project PROMETHEUS (Grant 780701).
+†CISPA Helmholtz Center for Information Security, doettling@cispa.saarland.
+
+1
+
+
+implementations of fully homomorphic encryption such as [BGV12, HS14, HS15, SEA18] and even
+some of the candidates in the NIST post-quantum cryptography contest [NIS].
+The question of entropic security for RLWE is therefore highly motivated. Nevertheless, very
+little was known about its security prior to this work.
+The only work we are aware of in this
+context is by Bolboceanu et al. [BBPS19], which introduced a non-standard assumption that they
+call HLBDD. They prove the hardness of entropic RLWE for a class of distributions that they
+call k-wise independent, based on the hardness of HLBDD and standard RLWE. This solution has
+a number of drawbacks in not addressing general entropic distributions, being applicable only in
+certain rings (it requires that the ring has CRT representation) and making a new assumption.
+One would have hoped that it would be possible to use similar methods to those used in the
+context of LWE also for RLWE. After all, the structure of the problems is very similar. However,
+the same barrier seemed to have stopped all prior attempts. In a nutshell, it is the failure to find a
+proper analog lossiness argument in the ring setting. This term refers to a family of proof techniques
+that underlie all known entropic hardness results [GKPV10,BLP+13,AKPW13,Mic18,BD20]. We
+explain this barrier in more detail below.
+We recall that in standard LWE, an instance is composed of a random matrix A ∈ Zn×N
+q
+with N ≫ n, and a vector y = sA + e, where s is the “LWE secret” and e is a noise vector
+(usually sampled from a Gaussian). The goal is to find the vector s, or in the decisional version
+of the problem to distinguish (A, y) from uniform. The RLWE problem is a structured variant
+of the above, usually defined using elements from the ring of integers of an algebraic number field
+(and its dual). For the purpose of this work, it will be instructive to consider an equivalent (and
+in fact more general) formulation of RLWE that does not refer to algebraic number theory at
+all and takes great resemblance to the above LWE description. Let us rewrite the above LWE
+instance as follows, consider the case where N = n · m. We can break the matrix A into square
+blocks s.t. A = [A1, . . . , Am] and consider the LWE instance as a sequence of blocks of the form
+{(Ai, yi = sAi + ei)}m
+i=1. RLWE instances can be presented in the same way, except the matrices
+Ai are no longer uniform, but instead are drawn from a distribution over structured matrices.1
+
+Throughout this work we will attempt to state our results and techniques in terms of this Structured
+LWE formulation as much as possible, without specifying the exact structure of the matrices Ai,
+and the instantiations to the special case of number fields will follow as straightforward corollaries.
+A lossiness argument for LWE hinges on the observation that the entropic LWE distribution
+is computationally indistinguishable from one where the matrices Ai are not uniform, but instead
+are distributed as Ai = B · Ci + Fi, where B ∈ Zn×k
+q
+(note that the same B is used for all i) for
+k ≪ n, Ci ∈ Zk×n
+q
+, and Fi is small noise. (The indistinguishability is by decisional LWE.) This step
+makes the matrices Ai “close to low-rank”. Furthermore, now yi = sAi = sBCi + sFi + ei. From
+this point the methods diverge somewhat, let us stick to the approach of [AKPW13, BD20] that
+we follow in this paper. In these works, it is shown that even information theoretically s cannot
+be recovered, essentially because the adversary only has access to sB, which has dimension k and
+therefore does not contain much information, and to the terms sFi + ei, where it is shown that the
+entropy in ei masks the information about s.
+Trying to apply this argument in the structured LWE setting runs into a problem. The matrices
+Ai are no longer uniform but instead have some (efficiently verifiable) structure. Therefore, we need
+to find a distribution that is both indistinguishable from the structured Ai distribution, and has
+
+1Essentially this structure represents the multiplication of an element a from the (dual) of a ring of integers by an
+element from the ring of integers.
+
+2
+
+
+lossiness properties as above. In the context of the structure that is imposed by RLWE this seems
+hopeless since the structure imposed by the ring does not allow the Ai matrices to be close to
+low-rank for general rings.2 In this work we overcome this barrier.
+
+1.1
+Our Results
+
+We present a new approach to achieve lossiness that generalizes the “closeness to low-rank” ap-
+proach, but that can be applied for general RLWE (and possibly other structured LWE variants).
+Concretely, we observe that it suffices to replace Ai with a matrix whose span contains short vec-
+tors. That is, we will set Ai = H · Zi, where H is an invertible matrix that is sampled once and
+used for all i, and the Zi come from a distribution over low-norm matrices. The exact norm that
+we use depends on the underlying ring, but for the purposes of this overview, it suffices to think of
+Zi as a matrix where all entries are shorter than some bound ≪ q. We observe that the matrices
+H · Zi are neither low rank nor close to low-rank, however they become close to low rank under
+a (common) basis-change corresponding to the matrix H.3 The level of lossiness will be dictated
+by the properties of Zi: the lower the norm of Zi, the more lossiness is obtained. We note that
+we can assume that H itself has a short inverse, that we denote by Z0 (we explain below that this
+does not actually impose an additional restriction). We show that this notion is both sufficient for
+proving entropic security, and that there exist such lossy distributions that are indistinguishable
+from uniform under standard assumptions.
+
+The DSPR and NTRU Assumptions.
+We notice that the assumption as described above
+closely resembles the Decisional Small Polynomial Ratio (DSPR) [LTV12] and NTRU assump-
+tions [HPS98]. Both assumptions are defined over polynomial rings and have very similar syntax.
+Both essentially assert that over some polynomial ring, there is a distribution over ring elements
+s.t. when sampling f, g1, . . . , gm from this distribution, it holds that g1/f, . . . , gm/f are jointly
+indistinguishable from a set of uniformly random ring elements. The NTRU cryptosystem uses
+a specific and very short distributions for f, gi (over polynomials with {−1, 0, +1} coefficients)
+and DSPR considers a Gaussian distribution (say with some Gaussian parameter γ) which will
+be easier to use.4
+The assumption becomes weaker as γ increases. As observed by Stehl´e and
+Steinfeld [SS13], when the distributions become wide enough (γ ≳ √q), this assumption is actually
+implied by RLWE. For other parameter regimes, however, DSPR appears to provide a lower level
+of security compared to RLWE, at least with respect to state of the art attacks [KF17]. Translating
+the above into the structured LWE terminology, we can define Z0 as the matrix that corresponds
+to the operator of multiplying by f, and Zi as the matrix that corresponds to multiplying by gi.
+Intuitively the parameter γ can be thought of as a measure for the smallness of the elements in the
+Zi matrices. We note that since the polynomial rings are commutative, the matrices H, Z0, Zi all
+commute with each other in the actual instantiation. However, we will not require this property.
+Lastly, we point out that while RLWE enjoys a worst-case to average-case hardness reduction
+[LPR10, PRS17], such reduction is not known for NTRU/DSPR with small γ. There is therefore
+
+2The work of [BBPS19] can be viewed as targeting a special case where this is possible, the case where the
+ring decomposes into a “CRT representation”. This requires making a non-standard assumption like their HLBDD
+assumption which only applies to that special setting.
+3In fact, under this basis change the matrices are even close to the 0 matrix, which has the lowest possible rank.
+4We will consider Gaussians over the canonical embedding of ring elements into Euclidean space.
+
+3
+
+
+a tradeoff between the quality of the result obtained and the hardness of the assumption that we
+need to make.
+
+Noise Lossiness and Entropic Security Under DSPR.
+We follow the approach of [BD20]
+and consider the notion of noise lossiness of a distribution of secrets S, which is defined to be the
+conditional smooth min-entropy of a sample from S conditioned on learning its perturbation by
+Gaussian noise. Formally:
+νσ(S) = ˜H∞(s|s + e) ,
+(1)
+
+where e is Gaussian with parameter σ. We also recall that [BD20] show a general relation between
+noise lossiness and entropy
+νσ(S) ≳ ˜H∞(S) − n log(q/σ) .
+(2)
+
+We show that similarly to LWE, the hardness of entropic RLWE on a given secret distribution
+S is also related to its noise lossiness. We present our result in the context of RLWE in power-of-2
+cyclotomic number fields, but the result is modular and applies to RLWE on any ring that has
+reasonable regularity condition. See also discussion below.
+
+Theorem 1.1 (Informal). Assume DSPR with parameter γ. Let S be a distribution s.t. for some σ′
+
+it holds that νσ′(S) ≳ n log(γpoly(n)) + ω(log λ). Then Entropic RLWE in a power-of-2 cyclotomic
+with secret distribution S and Gaussian noise parameter σ ≈ σ′ · poly(n) · √m is hard.
+
+Plugging in Eq. (2), we get that for general entropic distributions we require average min-
+entropy of roughly ˜H∞(S) ≳ n log(q/σ) + O(n log(nmγ)) + ω(log λ) in order to achieve entropic
+hardness. We note that better bounds on noise lossiness are known for “short” distributions, where
+the entropy requirement can go almost all the way down to n log γ, which allows to show entropic
+hardness for many low-norm distributions but unfortunately is still insufficient for the widely used
+setting where the secret is chosen as a ring element with binary coefficients. Indeed, even in our
+results, we need to make stronger DSPR assumptions as we wish to deal with secrets of lower
+entropy. We believe that there is an inherent difficulty for proving hardness of such distributions
+without making extreme hardness assumptions.
+Our results are stated in a rather general form. We present a notion of “structured LWE”
+problem, which captures standard LWE, RLWE and potentially other problems, and present lossi-
+ness results based on a “matrix DSPR” assumption, assuming that the matrix distributions in the
+DSPR instance satisfy some (mild) non-degeneracy conditions. Proving that the non-degeneracy
+conditions indeed hold is the only place where the specifics of the number field are required. The
+aforementioned [SS13] fortunately implies these required conditions for power-of-2 cyclotomic num-
+ber fields. We believe that the proof can be generalized to other number fields (especially cyclo-
+tomics) but this would require essentially repeating the [SS13] proofs in more generality which we
+feel is tangent to the purpose of this work.
+Since our paper is written in a modular manner, it suffices to simply prove the non-degeneracy
+conditions in Section 6 in order to obtain entropic hardness results for other variants of structured
+LWE, be it RLWE in other number fields (or a different embedding) or other forms of the problem
+completely.
+To conclude, let us discuss the applicability of our techniques to the so called “module LWE”
+problem [BGV12,LS15,AD17,PP19]. Module-LWE interpolates between LWE and ring-LWE and
+is appealing in the practical context as it may offer superior security benefits over RLWE with
+
+4
+
+
+minimal additional computational cost. Viewed as a structured LWE problem, in module-LWE
+the matrix A is simply a block matrix, where each block is an independent RLWE matrix. Our
+methods apply to such matrices as well, under a matrix DSPR assumption. We can instantiate
+matrix DSPR under RLWE-like assumptions, but we do not know of variants of this assumption
+that rely on module-LWE-like structures. A complete module LWE analog of our result would
+require introducing such an analog.
+
+1.2
+Our Techniques
+
+As explained above, in order to prove security for entropic structured LWE, we rely on the assump-
+tion that we can replace the uniform Ai with Ai = H · Zi, where Zi are short, and there exists Z0
+(also short) s.t. HZ0 = I (mod q). We note that a survey by Peikert [Pei16] uses a similar method
+when sketching a proof that the hardness of NTRU implies that of RLWE. Namely, replacing the ai
+elements in RLWE samples with NTRU values, and arguing that the RLWE secret should become
+information-theoretically irrecoverable. One can view our method as putting together a rigorous
+variant of Peikert’s arguments, and showing that it is possible to obtain lossiness for various entropic
+distributions.
+We start by examining the distribution of the yi values after substituting Ai = H·Zi. We have
+
+yi = sAi + ei = sH · Zi + ei .
+
+We now take the approach of “flooding at the source” [BD20].
+The idea is to “bring the
+noise closer to the secret” and show that all structured LWE blocks in fact depend on a noisy
+version of the secret, which allows to apply noise lossiness. Specifically, the technique that is used
+is Gaussian decomposition. Using Gaussian decomposition it is possible to show that if the ei
+Gaussians are wide enough relative to the norm of the Zi matrices, it is possible to find e s.t.
+for all i, ei = eZi + e′
+i, where e and all e′
+i are independent. This essentially follows from the
+covariance-additivity of Gaussian vectors, which can be carried over to discrete Gaussians as well.
+Plugging this decomposed Gaussian into the equation for yi, we get
+
+sH · Zi + eZi + e′
+i = (sH + e)Zi + e′
+i .
+
+This implies that all information about s is captured in the term sH + e (mod q).
+We now note that already at this point we can derive a non-trivial entropic result. Let us
+denote s′ = sH, and notice that since H is invertible, the entropy of s′ is the same as that of
+s and recovering s is information theoretically equivalent to recovering s′.
+Now, essentially by
+definition, the probability of recovering s′ is exactly captured by its noise lossiness. Specifically, if
+the noise lossiness is super-logarithmic then s′ is not recoverable. Since we can relate noise lossiness
+to entropy (recall Eq. (2)) we have
+
+νσ(s′) ≳ ˜H∞(s′) − n log(q/σ) = ˜H∞(s) − n log(q/σ) ,
+
+where σ is the Gaussian parameter of e. Therefore, so long as ˜H∞(s) ≳ n log(q/σ) + ω(λ), then
+we have entropic security for RLWE with secret coming from the distribution of s. This is indeed
+a non-trivial bound which may be useful in certain settings (e.g. when we only know the entropy
+of the distribution of s but do not know any other properties), but in many cases we would like to
+take into account additional properties of the distribution that reduce the large gap of n log(q/σ)
+
+5
+
+
+between noise lossiness and entropy. However, in the current analysis we can say very little about
+the distribution of s′ given the distribution of s (other than the entropy being preserved). We
+therefore proceed to show a connection that directly relates to the noise lossiness of s itself.
+Recall that we deduced that all information about s is captured in the term sH + e (mod q).
+Since H is invertible, we can multiply the equation by its inverse Z0 (on the right) to obtain s+eZ0
+(mod q). We conclude that even information theoretically, an attacker can only recover s + eZ0
+(mod q), where e is Gaussian and Z0 is a low-norm matrix which is known to the attacker.
+We wish to show that s + eZ0 (mod q) does not leak much information about s. We can see
+that some information can in fact be leaked. For example, if s is short, then the reduction modulo
+q does not have any effect, and the adversary can learn s+eZ0 (as a value over the integers), this in
+particular allows to learn the coset of s relative to the lattice spanned by the rows of Z0 (henceforth
+we refer to it as the “Z0 lattice”). This is essentially the reason why our techniques don’t carry over
+to the setting of very low norm s – this would require sampling Z0 from a very narrow distribution
+that would imply very strong and unrealistic parameters for our DSPR assumption.
+Instead, we show that essentially all the entropy that can be gained by the adversary, beyond
+the “usual” noise lossiness, is indeed proportional to learning a coset of the Z0 lattice. The number
+of such cosets is ≈ γn, and thus the loss in entropy of n log γ in Theorem 1.1.
+To see this, we consider the distribution: (Z0, s + ˜e, c), where ˜e is a spherical discrete Gaussian
+over the integers, and c indicates a coset of ˜e with respect to the Z0 lattice. We show that there is
+a (randomized) process that takes this distribution as input, and outputs (Z0, s+eZ0). This means
+that the adversary cannot learn about s from (Z0, s + eZ0) more than it can from (Z0, s + ˜e, c).
+The latter, just by definition, translates to the noise lossiness of s (with respect to the Gaussian
+parameter of ˜e), minus the “leakage” that is imposed by providing the adversary the value c. Since
+this value is a coset indicator, this leakage is bounded.
+To generate (Z0, s + eZ0) from (Z0, s + ˜e, c), we use the Gaussian convolution theorem of
+Peikert [Pei10]. This theorem shows that it is possible to sample the term eZ0, which is just a
+(non spherical) discrete Gaussian over the Z0 lattice, in two steps: first sampling from a Gaussian
+over the integer lattice, and then “rounding” the sample into the Z0 lattice. The rounding step
+only requires to know the coset of the first step (in order to cancel it out). Setting the parameters
+appropriately, the theorem can be used and the result follows.
+In order to be able to apply Gaussian decomposition and also the Gaussian convolution theorem,
+we rely on probabilistic properties of the Z matrices, in particular their minimal and maximal
+singular values. The properties required in order for our method to go through turn out not to hold
+with high probability, but rather only with some fixed inverse-polynomial probability. We thus
+introduce a notion of “sometimes lossiness” and show that it suffices for proving entropic hardness.
+In Section 5 we show how to obtain entropic hardness based on probabilistic properties of the
+Z matrices. Then in Section 6 we show that these properties hold for RLWE over power-of-two
+cyclotomics, using properties proved in [SS13].
+
+1.3
+Paper Organization
+
+We try to keep the discussion abstract and use the notion of “structured LWE” as much as we can.
+Eventually we state our result in terms of properties that need to hold for the structured LWE
+problem at hand, and show that the RLWE/DSPR instantiation indeed possesses these properties.
+Standard preliminaries in information theory, lattices and algebraic number theory are provided in
+Appendix 2. The non-expert reader is advised to read this appendix before proceeding to read the
+
+6
+
+
+paper. Section 3 introduces the entropic structured LWE (entSLWE) problem and shows that mild
+form of (entropic) hardness for entSLWE with relatively few samples implies full-fledged (entropic)
+hardness. Section 4 presents a notion of lossiness that we call “sometimes lossiness” and shows
+how it is used to prove (entropic) hardness, then a sometimes lossy distribution is constructed in
+Section 5 based on an abstract problem we call Decisional Small Ratio (DSR) problem. Finally
+Section 6 shows how to instantiate all required building blocks in the RLWE setting.
+
+2
+Notation and Definitions
+
+We will denote the security parameter by λ. We say a function ν(λ) is negligible if ν(λ) ∈ λ−ω(1).
+We will generally denote row vectors by x and column vectors by x⊤.
+We will denote the L2 norm
+
+of a vector x by ∥x∥ =
+��
+i x2
+i and the L∞ norm by ∥x∥∞ = maxi |xi|.
+Let X, Y be two discrete random variables defined on a common support X. We define the
+statistical distance between X and Y as ∆(X, Y ) = 1
+
+2
+�
+x∈X | Pr[X = x] − Pr[Y = x]|.
+Consider a real valued matrix A ∈ Rn×m, assume for convenience that m ≥ n. The singular
+values of A are the square roots of the eigenvalues of the positive semidefinite (PSD) matrix AA⊤.
+We will denote the largest singular value of A by σmax(A). The spectral norm of A is σmax(A).
+It holds that
+
+σmax(A) =
+max
+x∈Rm\{0}
+∥Ax∥
+∥x∥
+.
+
+2.1
+Min-Entropy
+
+Let x be a discrete random variable supported on a set X and z be a possibly (continuous) random
+variable supported on a (measurable) set Z. The conditional min-entropy ˜H∞(x|z) of x given z is
+defined by
+
+˜H∞(x|z) = − log
+�
+Ez′
+�
+max
+x′∈X Pr[x = x′|z = z′]
+��
+.
+
+In the case that z is continuous, this becomes
+
+˜H∞(x|z) = − log
+��
+
+z′ pz(z′) max
+x′∈X Pr[x = x′|z = z′]
+�
+,
+
+where pz(·) is the probability density of z.
+For an ϵ > 0 we define the ϵ-smooth min-entropy ˜Hϵ
+∞(x|z) as the maximum over all ˜Hϵ
+∞(x′|z′)
+for which (x′, z′) is ϵ-close to (x, z) in statistical distance.
+
+2.2
+Leftover Hashing
+
+We recall a version of the generalized leftover hash lemma [DORS08,Reg05].
+
+Lemma 2.1. Let G be a finite Abelian group, and Y be a finite set. Let ℓ ≥ log(|G|) + log(|Y|) +
+ω(log(λ)) be an integer. Let g1, . . . , gℓ ←$ G be chosen uniformly at random. Further let x ←$
+{0, 1}ℓ be chosen uniformly at random. Let Y be a random variable supported on Y which is possibly
+correlated with x but independent of the gi. Then it holds that (g1, . . . , gℓ, �
+i xigi, Y ) is statistically
+close to (g1, . . . , gℓ, u, Y ), where u ←$ G is chosen uniformly at random.
+
+7
+
+
+2.3
+Lattices and Gaussians
+
+Lattices.
+We recall the standard facts about lattices. A lattice Λ ⊆ Rm is the set of all integer-
+linear combinations of a set of linearly independent basis-vectors, i.e. for every lattice Λ there exists
+a full-rank matrix B ∈ Rk×m such that Λ = Λ(B) = {z · B | z ∈ Zk}. We call k the rank of Λ and
+B a basis of Λ.
+We say that a lattice is q-ary if (qZ)m ⊆ Λ ⊆ Zm. In particular, for every q-ary lattice Λ there
+exists a matrix A ∈ Zk×m
+q
+such that Λ = Λq(A) = {y ∈ Zm | ∃x ∈ Zk
+q : y = x · A mod q}. We also
+define the lattice Λ⊥
+q (A) = {y ∈ Zm
+q | A · y = 0 mod q}.
+
+Gaussians.
+The Gaussian function ρσ : Rn → R is defined by
+
+ρσ(x) = e−π· ∥x∥2
+
+σ2 .
+
+For a a non-singular matrix B we define ρB(x) = ρ(xB−1).
+The continuous gaussian distribution DB on Rn has the probability density function ρB(x)/ρB(Rn).
+We call Σ = B⊤B the covariance matrix of the gaussian DB. For a lattice Λ, the discrete gaussian
+distribution DΛ,B supported on Λ has the probability mass function ρB(x)/ρB(Λ).
+For a lattice Λ and a positive real ϵ > 0, the smoothing parameter ηϵ(Λ) is defined to be
+the smallest real number s for which ρ1/s(Λ∗\{0}) ≤ ϵ. For a matrix B we write B ≥ ηϵ(Λ) if
+ηϵ(ΛB−1) ≤ 1.
+The following claim follows routinely from the definition of the smoothing parameter.
+
+Claim 1. Let Λ ⊆ Rn and V ∈ Rn×n be a matrix with largest singular value σmax(V). It holds
+that ηϵ(Λ · V) ≤ σmax(V) · ηϵ(Λ).
+
+We will use the following proposition allows us to decompose spherical gaussians with respect
+to a matrix F.
+
+Proposition 2.2 ( [BD20], Proposition 3.2). Let F ∈ Rn×m be an arbitrary matrix with spectral
+norm σF . Let σ, σ1 > 0 be s.t. σ > σ1 · σF . Let e1 ∼ Dn
+σ1 and let e2 ∼ D√
+
+Σ for Σ = σ2I − σ2
+1F⊤F.
+Then the random variable e = e1F + e2 is distributed according to Dm
+σ .
+
+2.4
+Noise Lossiness
+
+The noise lossiness of a distribution S measures how much information is lost about a sample of S
+when adding gaussian noise. Another way to think about noise lossiness is as a measure of how bad
+S performs as a Euclidean error-correcting code. The following definition of noise lossiness slightly
+deviates from the definition given in [BD20] by considering potentially non-spherical gaussians.
+
+Definition 2.3 (Noise Lossiness). Fix a matrix B ∈ Rn×n. Let S ⊆ Zn
+q be a distribution of secrets
+and let σ > 0 be a gaussian parameter. We define the noise-lossiness νσB(S) by
+
+νσB(S) = ˜H∞(s|s + e)
+
+where s ←$ S and e ←$ DσB.
+
+In [BD20] the following bounds for the noise lossiness of distributions were provided.
+
+8
+
+
+Lemma 2.4 (Noise-Lossiness for General Entropic Distributions). Let 0 < σ ≤ q
+�
+
+π/ ln(4n) be a
+gaussian parameter and let S be any distribution on Zn
+q . Then it holds that
+
+νσ(S) ≥ ˜H∞(S) − n · log(q/σ) − 1
+
+Lemma 2.5 (Noise-Lossiness for Short Distributions). Let σ > 0 be a gaussian parameter and let
+S be a r-bounded distribution on Zn
+q . Then it holds that
+
+νσ(S) ≥ ˜H∞(S) −
+√
+
+2πn log(e) · r
+
+σ.
+
+2.5
+Algebraic Number Fields
+
+We will briefly reiterate some basics about algebraic number fields and the Learning with Errors
+Problem over Rings. See, e.g., [LPR10,LPR13] for more details.
+An algebraic number field K is a finite extension of the rationals Q, every number field can be
+constructed via Q(ξ) = Q[X]/(f(X)) where f ∈ Q[X] is a monic irreducible polynomial and ξ is a
+root of f. The degree n of K is defined to be the degree of f and K can be seen as an n-dimensional
+Q-vectorspace.
+The number fields most relevant to us are power-of-two cyclotomics. For this instantiation the
+polynomial f is of the form f = Xn + 1 where n is a power of two.
+A number field K of degree n has n embeddings, that is injective ring homomorphisms into the
+complex numbers C, usually denoted by σi : K → C. Each σi is defined by sending ξ to one of the
+roots of f in C.
+The embeddings σi come in conjugate pairs, there are s1 real embeddings and 2s2 complex
+conjugate embeddings with n = s1 + 2s2. We can define the space H ⊆ Rs1 × C2s2 by
+
+H = {(x1, . . . , xn) ∈ Rs1 × C2s2 | ∀j ∈ [s2] : xs1+s2+j = xs1+j}.
+
+It can be shown that the space H is isomorphic to Rn as an inner product space. Let Θ : H → Rn
+
+be this isomorphism. Moreover, the space H is isomorphic as a ring to the field tensor product
+KR = K ⊗Q R. Let ¯Θ : KR → Rn be the metric isomorphism which takes KR to Rn, i.e. ¯Θ is just
+the concatenation of σ and Θ.
+The canonical embedding σ : K → H is then defined via σ(x) = (σ1(x), . . . , σn(x)). It can be
+shown that σ is a ring-homomorphism, where both addition and multiplication on Cn are defined
+component-wise.
+The canonical embedding induces a geometry on K, that is we can define a
+eucilidean norm on K via the euclidean norm on Cn, concretely for x ∈ K we define ∥x∥ = ∥σ(x)∥.
+Note that ∥σ(x)∥ = ∥Θ(σ(x))∥.
+While ∥ · ∥ immediately satisfies the triangle inequality, in the canonical embedding also the
+following multiplicative inequality holds: For all x, y ∈ KR it holds that ∥x · y∥ ≤ ∥x∥∞ · ∥y∥.
+Here, ∥ · ∥∞ is the L∞ norm defined by ∥x∥∞ = maxi |σi(x)|. We will also use the inequality
+∥x · y∥∞ ≤ ∥x∥∞ · ∥y∥∞.
+We can define a gaussian distribution DKR,
+√
+
+Σ via the gaussian distribution D√
+
+Σ on Rn, i.e. we
+set DKR,
+√
+
+Σ = ¯Θ−1(D√
+
+Σ).
+A element x ∈ K is called algebraic integer, if the minimal polynomial of x has integer coeffi-
+cients. For a number field K we denote by R ⊆ K the set of all algebraic integers in K, which can
+be shown to be a sub-ring of K. For the special case that K is a cyclotomic, it holds that R = Z[ξ].
+
+9
+
+
+Since R is a finitely generated Z-module, it holds that Λ = ¯Θ(R) ⊆ Rn is a lattice. We let L
+denote some basis for this lattice and we denote B = L−1. In this notation, multiplication by the
+matrix B maps a x ∈ λ to an integer vector, i.e. xB ∈ Zn, which is exactly the coefficient vector
+of the ring element with respect to the basis L. We define the smoothing parameter ηϵ(R) of R to
+be ηϵ(Λ).
+Gaussian distributions over K, or more precisely over KR are defined as follows. Given a Gaussian
+distribution D√
+
+Σ over Rn, we map it to KR via ¯Θ−1. The resulting distribution is the Gaussian
+with parameter
+√
+
+Σ over KR.
+
+2.6
+Ring-LWE
+
+Let q be a modulus and R be a ring of integers of a number field K. We will briefly define the
+(non-dual) decisional Ring Learning with Errors (Ring-LWE) problem in Hermite form for an error-
+distribution χ supported on R is defined as follows. We discuss other versions of the Ring LWE
+problem in Section 3. We use a definition provided by Peikert [Pei16, Section 4.4.1] which is slightly
+different from the one in [LPR10] but easier to work with. See discussion in [Pei16, Section 4.4.1]
+for details.
+
+Definition 2.6 (Decisional Ring-LWE (Hermite Form)). Let s ←$ χ. Given m samples (ai, bi) ∈
+Rq × Rq, the task is to decide whether the bi are of the form bi = ais + ei for errors ei ←$ χ or if
+the bi are chosen uniformly at random from Rq.
+
+Lyubashevsky, Peikert and Regev [LPR10] provided a worst-to-average case reduction for the
+Ring LWE problem relative to worst-case problems in ideal lattices. In particular, they show that
+if the error distribution χ is an appropriate gaussian, then the Ring LWE search problem is as hard
+as the approximate shortest vector problem in worst case ideal lattices. Furthermore, [LPR10]
+provide a search-to-decision reduction which bases the hardness of decisional Ring LWE on the
+search variant.
+
+3
+(Entropic) Structured LWE
+
+In this section, we define a version of LWE which we call structured LWE. Structured LWE gener-
+alizes both standard and ring-LWE.
+We will only consider the search version of structured LWE in this work.
+
+Definition 3.1 (Entropic Structured Learning with Errors). Let q be a modulus and n, k be integers.
+Let M be a distribution of matrices on Zn×n
+q
+and Υ be a distribution of error-distributions on Rn.
+Furthermore, let S be a distribution on Zn
+q . The goal of the entSLWE(q, k, M, Υ, S) problem is to
+find a secret s ←$ S given k samples ((A1, y1), . . . , (Ak, yk)), where χ ←$ Υ is an error distribution
+and for all i ∈ [k] we have Ai ←$ M, ei ←$ χ and yi ← sAi + ei.
+
+If A = (A1, . . . , Ak), e = (e1, . . . , ek) and y = (y1, . . . , yk) where yi = sAi +ei, we will use the
+shorthand y = sA + e. This in fact corresponds to the standard matrix multiplication and vector
+addition if we identify A with to be the horizontal concatenation of all Ai and e the horizontal
+concatenation of all ei. We note that Regev’s LWE is obtained when M, S are uniform and Υ is
+Gaussian. The Ring-LWE instantiation is discussed in Section 3.2 below.
+We will consider two different hardness notions for entSLWE. In the standard notion, we require
+that no PPT adversary find the secret s with non-negligible probability.
+
+10
+
+
+Definition 3.2 (Standard Hardness). Let q, n, k, M, Υ and S be as above.
+We say that the
+entSLWE(q, k, M, Υ, S) problem is (standard-) hard, if it holds for every PPT adversary A that
+
+Pr[A(A, sA + e) = s] < negl(λ),
+
+where χ ←$ Υ, A ←$ Mk, s ←$ S and e ←$ χk.
+
+We call the second notion mild hardness. In essence, the success probability of an adversary
+which breaks mild hardness only depends on the choice of s and e, but not on the choice of A.
+
+Definition 3.3 (Mild Hardness). Let q, n, k, M, Υ and S be as above. We say that the problem
+entSLWE(q, k, M, Υ, S) is mildly hard, if for every PPT adversary A and every negligible function
+ν it holds that
+Pr
+s,e,χ[Pr
+A [A(A, sA + e) = s] > 1 − ν] < negl(λ).
+
+In this work we will focus on the notion of mild hardness. While this seems like a restriction
+at first glance, it follows by a routine amplification argument that, given an unbounded number of
+samples, mild hardness implies standard hardness.
+
+Lemma 3.4. Let q, n, M and S be as above and let Υ be a distribution of error-distributions. If
+entSLWE(q, M, Υ, S) is mildly hard, then it is also standard hard.
+
+Proof. Assume towards contradiction there was a PPT search adversary A with non-negligible suc-
+cess probability ϵ′ against standard hardness of entSLWE(q, M, Υ, S). For notational convenience,
+the adversary A obtains its samples via an oracle Os,χ, which has s and χ hardwired. When queried,
+Os,χ chooses A ←$ M and e ←$ χ and outputs a sample (A, sA + e). Let ϵ = 1/poly(λ) be such
+that ϵ(λ) = ϵ′(λ) infinitely often. We will construct an adversary B against the mild hardness of
+entSLWE(q, M, Φ, S) as follows.
+
+Algorithm BOs,χ
+
+• For i = 1, . . . , 2λ/ϵ:
+
+– Compute si ← AOs,χ(1λ).
+– Query λ additional samples and test whether si is a valid solution, if so output
+s ← si
+
+• If none of the si passed the check, output ⊥.
+
+Assume that yi = sAi + ei for all i ∈ [k]. We will now analyze the success probability of B.
+Say that a pair (s, χ) is good, if it holds that
+
+Pr[AOs,χ(1λ) = s] ≥ ϵ/2,
+
+where the probability is taken over the remaining random choices of O and the random coins of A.
+By a Markov inequality, it holds that
+
+Pr
+s,χ[(s, χ) good] = Pr
+s,χ[Pr[AOs,χ(·)(1λ) = s] ≥ ϵ/2] ≥ ϵ/2.
+
+11
+
+
+Now, fix a good (s, χ). We will bound the probability that all iterations of B fail to compute s.
+Once we have fixed s and χ, all iterations use independent random coins, and thus their outcomes
+are independent. Consequently, it holds that
+
+Pr[∀i ∈ [2λ/ϵ] : AOs,χ(·)(1λ) ̸= s] =
+
+2λ/ϵ
+�
+
+i=1
+Pr[AOs,χ(·)(1λ) ̸= s]
+
+≤ (1 − ϵ/2)2λ/ϵ
+
+≤ exp(−ϵ/2 · 2λ/ϵ)
+
+= exp(−λ),
+
+which is negligible. We can conclude that
+
+Pr
+s [Pr[B((Ai, sAi + ei)i∈[k]) = s] > 1 − exp(−λ)] ≥ ϵ/2,
+
+which means that B breaks the mild hardness of entSLWE(q, M, Φ, S).
+
+3.1
+Rerandomization
+
+Lemma 3.4 holds given an unbounded number of samples. We will now consider statistical reran-
+domization procedures which allow to generate an unbounded number of samples (Ai, sAi + ei)
+from a fixed number of samples. A typical artifact of statistical re-randomization is that if one
+starts with a bounded number of samples for a fixed error distribution χ, then the rerandomized
+samples will have an error that comes from a distribution of error distributions. We provide a
+simple rerandomization procedure which takes random subset sums over the input samples. While
+the norm of errors in the output distribution will be bounded, these errors will not follow a nice
+distribution.
+
+Lemma 3.5. Let k ≥ log(|G|) + n log(q) + ω(log(λ)), let Φ be an error distribution on Zn. The
+distribution of error-distributions ΥΦ,bin is defined as follows: A distribution χ ←$ ΥΦ,bin is deter-
+mined by k elements e1, . . . , ek ∈ Zn chosen from Φ. To sample from the distribution χ, choose a
+x ←$ {0, 1}k uniformly at random and output �
+i xiei.
+If entSLWE(q, k, M, Φ, S) is mildly hard, then entSLWE(q, M, ΥΦ,bin, S) is also mildly hard.
+
+Note that if the distribution Φ is B-bounded, then ΥΦ,bin is kB-bounded.
+
+Proof. The reduction proceeds via statistical rerandomization.
+Let A be an adversary against
+the mild hardness of entSLWE(q, k, M, Φ, S). We will construct an adversary B against the mild
+hardness of entSLWE(q, k, M, Φ, S). More concretely, assume there is a negligible function ν and a
+non-negligible function ϵ such that
+
+Pr
+s,e,χ[Pr
+A [A(A, sA + e) = s] > 1 − ν] > ϵ.
+
+The adversary B proceeds as follows.
+
+Algorithm B
+
+• Input: k samples (A1, y1), . . . , (Ak, yk).
+
+12
+
+
+• Setup an oracle O, which when queried chooses a uniformly random x ∈ {0, 1}k and
+outputs (�
+i xiAi, �
+i xiyi).
+
+• Compute and output s ← AO(·)(1λ)
+
+We will now show that B faithfully simulates the oracle O of entSLWE(q, k, M, Φ, S). Assume
+that yi = sAi + ei. Then the rerandomized sample
+
+(
+�
+
+i
+xiAi,
+�
+
+i
+xiyi = s(
+�
+
+i
+xiAi) +
+�
+
+i
+xiei)
+
+has an error term e∗ = �
+i xiei which follows a distribution χ of ΥΦ,bin, where χ is defined by
+e1, . . . , ek ∈ Zn. Note that e∗ is supported on Zn
+q . Thus, by the leftover hash lemma (Lemma
+
+2.1), the distribution of �
+i xiAi is statistically close to uniform in G given the e∗ and we conclude
+that the distribution of the samples generated by O is statistically close to the correct distribution,
+which concludes the proof.
+
+3.2
+Ring-LWE as Structured LWE
+
+Recall the conventions and properties from algebraic number theory as described in Appendix 2.5,
+and the definition of RLWE from Section 2.6 (note that we use the simpler definition that does not
+use the so-called dual-ring). In particular recall that the ring of integers R of the number field K
+is a finitely generated Z-module. Since the number field K is mapped into Rn via the mapping ¯Θ,
+this mapping allows to cast R as a lattice Λ. We denote the basis of this lattice by L and its inverse
+by B = L−1. The mapping B ◦ ¯Θ therefore maps from K to Rn such that the image of R is Zn.
+Let a ∈ R. Since multiplication is sublinear, then there exists a matrix Aa ∈ Zn×n, such that
+for all s ∈ R, if s ∈ Zn is the vector representation of s according to the aforementioned mapping,
+then Aas is the vector representation of a · s ∈ R according to the above mapping. A Gaussian
+distribution with parameter
+√
+
+Σ over the field is mapped by B ◦ ¯Θ to a Gaussian over Rn with
+parameter σB.
+Therefore, a Ring-LWE equation of the form as + e, with a, s ∈ Rq = R/qR is translated by
+the mapping B ◦ ¯Θ (which is efficiently computable and efficiently invertible given B) into the
+linear equation Aas + e (mod q), where Aa ∈ Zn×n
+q
+, s ∈ Zn
+q and e is sampled from the distribution
+χ = DσB.
+Therefore given a Ring-LWE instance, we can convert it into a structured LWE instance with the
+aforementioned parameters, so that solving the structured-LWE instance will also imply a solution
+to the original Ring-LWE instance. The “quality” of the translation relies on the properties of the
+matrix B, i.e. on how good of a basis for R we can obtain. We discuss the properties of B in the
+case of power-of-two cyclotomic number fields in Section 6.
+
+4
+Sometimes Lossiness and Hardness of Entropic Structured LWE
+
+We will first define a new lossiness notion which we call Sometimes Lossiness. This notion will
+serve as our main tool to establish hardness of entropic generalized LWE problems. Recall the
+definitions of smooth min-entropy (see Appendix 2.1).
+
+Definition 4.1. Let q, n, m be integers. Let X be a distribution on (Zn×n
+q
+)k, S be a distribution
+on Zn
+q and χ be an error-distribution on Zm
+q . We say that X is a sometimes lossy pseudorandom
+
+13
+
+
+distribution for S and χ if there exists negligible function ϵ, a κ = ω(log(λ)) and a δ ≥ 1/poly(λ)
+such that the following properties hold.
+
+• Pseudorandomness: X is computationally indistinguishable from Mk.
+
+• Sometimes Lossiness: It holds that
+
+Pr
+A←$X[ ˜Hϵ
+∞(s|A, sA + e) ≥ κ] ≥ δ,
+
+where s ←$ S and e ←$ χ.
+
+4.1
+From Sometimes Lossiness to the Hardness of Entropic Structured LWE
+
+We will now show that a sometimes lossy pseudorandom distribution X for a distribution of secrets
+S and an error distribution χ implies that hardness of entSLWE(q, k, M, χ, S).
+
+Theorem 4.2. Let S be a distribution of secrets and let χ be an error distribution. Assume there
+exists a sometimes lossy pseudorandom distribution X. Then entSLWE(q, k, M, χ, S) is mildly hard.
+
+Proof. Let δ = 1/poly(λ) be as in Definition 4.1. Set ℓ = λ/δ = poly(λ). By a standard hybrid
+argument, it holds that
+(A(1), . . . , A(ℓ)) ≈c (U(1), . . . , Uℓ),
+
+where A(i) ←$ X and U(i) ←$ Mk for all i = 1, . . . , ℓ. Our argument will make use of the fact that
+by our choice of ℓ, some of the A(i) must be lossy, except with some negligible probability.
+Assume towards contradiction that entSLWE(q, k, M, χ, S) is not mildly hard, i.e. there exists
+a PPT adversary A against entSLWE(q, k, M, χ, S) such that
+
+Pr
+s,e[Pr
+A [A(A, sA + e) = s] > 1 − ν] > ϵ,
+
+where s ←$ S, A ←$ X, e ←$ χ, ν = ν(λ) is negligible and ϵ ≥ 1/poly(λ).
+We will use A to construct a distinguisher D which distinguishes (A(1), . . . , A(ℓ)) and (U(1), . . . , U(ℓ))
+with non-negligible advantage. Let N = λ/ϵ = poly(λ). The distinguisher D is given as follows.
+
+D(A1, . . . , Aℓ) :
+
+For i = 1, . . . , ℓ:
+
+• For j = 1, . . . , N:
+
+– Choose si,j ←$ S and ei,j ←$ χk
+
+– Compute s′
+i,j ← A(A(i), si,jA(i) + ei,j)
+
+• If for all j ∈ [N] it holds that s′
+i,j ̸= si,j, abort and output 1.
+
+Output 0.
+
+We will now analyze the distinguishing advantage of D.
+
+14
+
+
+1. First assume that A’s input is (A(1), . . . , A(ℓ)), where each A(i) is chosen from X. Since the
+A(i) are all independent and X is sometimes lossy for S and χ, recalling that ℓ = λ/ϵ it holds
+that
+
+Pr
+A(1),...,A(ℓ)[∀i ∈ [ℓ] : ˜H∞(s|sA(i) + e) < κ] =
+
+ℓ�
+
+i=1
+Pr
+A(i)[ ˜H∞(s|sA(i) + e) < κ]
+
+≤ (1 − ϵ)ℓ ≤ e−ϵℓ = e−λ,
+
+which is negligible.
+Consequently, there exists an index i ∈ [ℓ] such that ˜H∞(s|sA(i) +
+e) ≥ k, except with negligible probability over the choice of the A(1), . . . , A(ℓ). Thus, fix
+A(1), . . . , A(ℓ) for which there exists an index i∗ ∈ [ℓ] with ˜H∞(s|sA(i∗) + e) ≥ k. Now, since
+si∗,1, . . . , si∗,N ←$ S, it holds by a union-bound that
+
+Pr[∃j ∈ [N] : A(A(i∗), si∗,jA(i∗) + ei∗,j) = si∗,j] ≤ N · Pr[A(A(i∗), sA(i∗) + e) = s]
+
+≤ N · 2− ˜H∞(s|A(i∗),sA(i∗)+e)
+
+≤ N · 2−κ,
+
+where s ←$ S and e ←$ χ. The term N · 2−κ is negligible as N = poly(λ) and κ = ω(log(λ)).
+Consequently, it follows that in the computation of D(A(1), . . . , A(ℓ)) in the i∗-th iteration of
+the outer loop it will hold that s′
+i∗,j ̸= si∗,j for all j ∈ [N], except with negligible probability
+over the choice of si∗,1, . . . , si∗,N and ei∗,1, . . . , ei∗,N.
+This will cause D(A(1), . . . , A(ℓ)) to
+output 1.
+
+All together, we conclude that in case (A(1), . . . , A(ℓ)) is chosen from X ℓ, it holds that
+D(A(1), . . . , A(ℓ)) = 1, except with negligible probability over the choice of (A(1), . . . , A(ℓ))
+and the random coins of D.
+
+2. Now assume that A’s input is (U(1), . . . , U(ℓ)), where each Ui is chosen from Mk. We will
+show that with high probability over the choice of (U(1), . . . , U(ℓ)) and the random coins
+of D, for every iteration i there will be an index j such that s′
+i,j = si,j, which will cause
+D(U(1), . . . , U(ℓ)) to output 0.
+
+Now fix an i∗ ∈ [ℓ]. Define the event BAD(s, e) by
+
+BAD(s, e) :⇔ Pr
+U [A(U, sU + e) = s] ≤ 1 − ν,
+
+where U ←$ M. Recall that since we assume that A breaks mild hardness it holds that
+Prs,e[BAD(s, e)] ≤ 1−ϵ. We will now bound the probability that all (si∗,1, ei∗,1), . . . , (si∗,N, i∗, N)
+are bad. Since the (si∗,1, ei∗,1), . . . , (si∗,N, i∗, N) are independent, it holds that
+
+Pr[∀j ∈ [N] : BAD(si∗,j, ei∗,j)] =
+�
+
+j∈[N]
+Pr[BAD(si∗,j, ei∗,j)] ≤ (1−ϵ)N ≤ exp(−ϵ·N) = exp(−λ),
+
+where we have used that N = λ/ϵ. Consequently, it holds with overwhelming probability
+1 − exp(−λ) that at least one si∗,j is not bad. Thus, fix (si∗,1, ei∗,1), . . . , (si∗,N, i∗, N) such
+
+15
+
+
+that there is an index j∗ such that (si∗,j∗, ei∗,j∗) is not bad, i.e. PrU[A(U, si∗,j∗U + e) =
+si∗,j∗] > 1 − ν. It follows that
+
+Pr
+U(i∗)[A(U(i∗), si∗,1U(i∗) + ei∗,1) = si∗,1 ∨ · · · ∨ A(U(i∗), si∗,NU(i∗) + ei∗,N) = si∗,N]
+
+≥ Pr
+U(i∗)[A(U(i∗), si∗,j∗U(i∗) + ei∗,j∗) = si∗,j∗]
+
+≥ 1 − ν,
+
+which is overwhelming. We can conclude that, it happens with at most negligible probability
+over the choice of the si∗,1, . . . , si∗,N, ei∗,1, . . . , ei∗,N and U(i∗) that the i∗-th iteration of the
+outer loop does not results in an abort with output 1.
+
+A union-bound over all i∗ ∈ [ℓ] yields that with at most negligible probability over the choice
+of the U(1), . . . , U(ℓ) and the random coins of D that in the computation of D(U(1), . . . , U(ℓ))
+any of the ℓ iterations of the outer loop results in an abort with output 1. By construction
+of D, this means that D(U(1), . . . , U(ℓ)) = 0 with overwhelming probability.
+
+Putting everything together, we conclude that
+
+Pr[D(A(1), . . . , A(ℓ)) = 1] − Pr[D(U(1), . . . , U(ℓ)) = 1]
+
+= Pr[D(A(1), . . . , A(ℓ)) = 1] + Pr[D(U(1), . . . , U(ℓ)) = 0] − 1
+
+= 1 − negl(λ),
+
+Thus, D distinguishes X and Mk with advantage close to 1, which contradicts the assumption that
+X and M are computationally indistinguishable. This concludes the proof.
+
+5
+Construction of Sometimes Lossy Distributions
+
+In this section we will construct sometimes lossy distributions from a somewhat general problem we
+call Decisional Small Ratio (DSR) problem. In Section 6 we will show that DSR can be instantiated
+with by the Decisional Small Polynomial Ratio (DSPR) assumption (which is related to the NTRU
+problem) or the standard RLWE assumption, leading to sometimes lossy distributions with different
+parameters.
+
+Definition 5.1 (Decisional Small Ratio (DSR) Assumption). Let q be a modulus and k, n be integers
+and let M be a distribution of matrices on Zn×n
+q
+. Let Ψ be a distribution on (Zn×n
+q
+)× × Zn×nk
+q
+.
+The DSR assumption for q, n, k, M and Ψ postulates that
+
+H · Z ≈c U,
+
+where (Z0, Z) ←$ Ψ, H is the Zq-inverse of Z0 mod q and U ←$ Mk.
+
+The DSR assumption generalizes the Decisional Small Polynomial Ration (DSPR) assumption
+[LTV12], which itself is a generalization of the decisional NTRU assumption. We will show that
+under certain conditions the DSR assumption implies a sometimes lossy mode for LWE.
+In our analysis, we will make use of the following smoothing lemma and convolution theorem.
+
+16
+
+
+Lemma 5.2 ( [Reg05, Claim 3.9]). Let Λ ⊆ Rn be a lattice and let σ ≥
+√
+
+2ηϵ(Λ). Let e ∼ DΛ,σ be
+a discrete gaussian and e′ ∼ DRn,σ be a continuous gaussian. Then e + e′ is 4ϵ close to DRn,
+√
+
+2σ.
+
+Theorem 5.3 ( [Pei10, Thm 3.1]). Let Σ1, Σ2 > 0 be two positive definite matrices such that
+Σ = Σ1 + Σ2 > 0 and Σ−1
+1
++ Σ−1
+2
+> 0. Let Λ1, Λ2 be two lattices such that √Σ1 ≥ ηϵ(Λ1) and
+√Λ2 ≥ ηϵ(Λ2) for some ϵ > 0. Let c1, c2 ∈ Rn be arbitrary. Consider the following sampling
+procedure for x ∈ Λ2 + c2.
+
+• Choose x1 ←$ DΛ1+c1,√Σ1.
+
+• Choose x ←$ x1 + DΛ2+c2−x1,√Σ2.
+
+Then it holds that the marginal distribution of x is within statistical distance 8ϵ to DΛ2+c2.
+
+Lemmas 5.4,5.5 and 5.6 will be used to prove Theorem 5.7, the main technical result of this
+section.
+
+Convention:
+In the following lemmas, always assume the following: q is a modulus, n is an
+integer and B ∈ Rn×n. Moreover let Λ = Λ(B−1) and set s = ηϵ(Λ).
+
+Lemma 5.4 (Blockwise Gaussian Decomposition). Let F = (F1, . . . , Fk) ∈ Rn×nk, where for all
+i Fi ∈ Rn×n and set F′ = (BF1B−1, . . . , BFkB−1). Assume that the largest singular value of F′
+
+is σF′. Let σ, σ1 > 0 be such that σ ≥ σF′ · σ1. There exists a distribution Ψ on Rnk, such that if
+e′ ∼ Dσ1·B and e′′ ∼ Ψ are independent, then e = e′F + e′′ is distributed according to Dk
+σB.
+
+Proof. Let Σ = σ2I − σ2
+1F′⊤F′. Let f′ ∼ Dσ1I = Dn
+σ1 and f′′ ∼ D√
+
+Σ. By Proposition 2.2 it holds
+that f = f′F′ + f′′ is distributed according to Dnk
+σ
+= Dk
+σI.
+Write f = (f1, . . . , fk) and f′′ = (f′′
+1, . . . , f′′
+k). Then it holds for all i
+
+fi = f′ · F′
+i + f′′ = f′BFiB−1 + f′′
+i .
+
+Multiplying both sides with B yields
+
+fiB = f′BF + f′′
+i B.
+
+Now notice that f′B is distributed according to Dσ1B and for all i ∈ [k] it holds that fiB is
+distributed according to DσB. Note that e′ and f′B are identically distributed, and also ei and fiB
+are identically distributed for all i ∈ [k] . Setting Ψ to be the distribution of the f′′B the result
+follows.
+
+Lemma 5.5 (Continuous to Discrete). Let Z0 ∈ Zn×n. Let τ2 be the largest singular value of
+Z′
+0 = BZ0B−1. Assume that σ >
+√
+
+2τ2ηϵ(B−1). Let f ∼ D√
+
+2σB and e ∼ DΛ(Z0),σ·B. Let S be a
+random variable supported on Zn
+q . Then it holds that
+
+˜H4ϵ
+∞(s|s + fZ−1
+0 ) ≥ ˜H∞(s|s + eZ−1
+0 ).
+
+Proof. Let ˜e′ ∼ DσI be a spherical continuous gaussian and let ˜e be distributed according to
+DΛ(B−1Z′
+0),σI. By Claim 1 we have that τ1 · ηϵ(B−1) ≥ σmax(Z′
+0) · ηϵ(Λ(B−1)) ≥ ηϵ(Λ(B−1 · Z′
+0)).
+Now let ˜f ∼ D√
+
+2σI. Then it holds by Lemma 5.2 that ˜f and ˜e + ˜e′ are 4ϵ close.
+
+17
+
+
+Now note that by the definition of e we have that e and ˜e · B are identically distributed, also f
+and ˜f · B are identically distributed. Setting e′ = ˜e′B, we obtain that fZ−1
+0
+and eZ−1
+0
++ e′Z−1
+0
+are
+4ϵ-close. We can conclude that
+
+˜H∞(s|s + eZ−1
+0 ) = ˜H∞(s|s + eZ−1
+0 , e′) ≤ ˜H∞(s|s + eZ−1
+0
++ e′Z−1
+0 ) ≤ ˜H4ϵ
+∞(s|s + fZ−1
+0 ).
+
+Lemma 5.6 (Discrete to Continuous). Let f ←$ DZn,
+√
+
+2σ·B and e ←$ DσB, then it holds that
+
+˜H8ϵ
+∞(s|s + f) ≥ ˜H∞(s|s + e).
+
+Proof. Let e′ be distributed according to DZn−e,σB. Then it holds by Theorem 5.3 that the statis-
+tical distance between e + e′ and f is smaller than 8ϵ.
+
+Theorem 5.7. Let Z0 ∈ Zn×n and for i ∈ [k] Zi ∈ Zn×n be matrices and let Z = (Z1, . . . , Zk) ∈
+Zn×nk
+q
+be the matrix obtained by concatenating the Zi. Further let Z−1
+0
+∈ Qn×n be the rational
+inverse of Z0 and H ∈ Zn×n
+q
+be the Zq-inverse of Z0 mod q.
+Define the matrix Z′
+0 = BZ0B−1 and Z′ = (BZ1B−1, . . . , BZkB−1).
+Let τ1 be the largest
+singular value of Z′
+0
+−1Z′ and τ2 be the largest singular value of Z′
+0. For a σ > τ2ηϵ(Λ(B−1)) let
+σ0 ≥ 23/2σ · τ1. Then it holds that
+
+˜H20ϵ
+∞ (s|sHZ + e0) ≥ ˜H∞(s|s + e) − n log(τ2),
+
+where e0 ←$ Dk
+σ0B and e ←$ DσB.
+
+Proof. Fix a distribution of secrets S and let s ←$ S. Let σ1 = σ0/τ1 ≥ 23/2σ
+Since the largest singular value of Z′
+0
+−1Z′ is τ1, by Lemma 5.4 there exists a distribution Ψ over
+Rnk such that we can equivalently sample e0 by e0 = e1Z−1
+0 Z + e′
+1, where e1 ∼ Dσ1B and e′
+1 ∼ Ψ.
+Consequently, we can write
+
+y = sHZ + e0 = sHZ + e1Z−1
+0 Z + e′
+1 = (sH + e1Z−1
+0 )Z + e′
+1.
+
+Thus, since y can be computed from sH + e1Z−1
+0
+and e′
+1 it follows that
+
+˜H∞(s|sHZ + e0) = ˜H∞(s|sH + e1Z−1
+0 , e′
+1) = ˜H∞(s|sH + e1Z−1
+0 ),
+
+where the second equality follows as e′
+1 is independent from s and e1.
+Now let σ2 = σ1/
+√
+
+2 ≥ 2σ and let e2 ∼ DΛ(Z0),σ2B be a discrete gaussian. By Lemma 5.5 it
+holds that
+˜H4ϵ
+∞(s|s + e1Z−1
+0 ) ≥ ˜H∞(s|s + e2Z−1
+0 ).
+
+Now, since H is the Zq-inverse of Z0 mod q, multiplying sH + e2Z−1
+0
+by Z0 yields
+
+˜H∞(s|sH + e2Z−1
+0 ) = ˜H∞(s|s + e2).
+
+Now let σ3 = σ2/
+√
+
+2 ≥
+√
+
+2σ, e3 ∼ DZn,σ3B and e′
+3 ∼ DΛ(Z0)−e3,σ3B. Setting Λ2 = Zn and
+Λ1 = Λ(Z0) in Theorem 5.3 and noting that σ3 > σ > ηϵ(Λ(B−1)) we obtain that the statistical
+distance between e2 and e3 + e′
+3 is at most 8ϵ.
+
+18
+
+
+It follows that
+
+˜H8ϵ
+∞(s|s + e2) ≥ ˜H∞(s|s + e3 + e′
+3) ≥ ˜H∞(s|s + e3, e′
+3).
+
+Since e′
+3 is distributed according to DΛ(Z0)−e3,σ3, it only depends on e3 mod Λ(Z0). Thus
+
+˜H∞(s|s+e3, e′
+3) ≥ ˜H∞(s|s+e3)−H0(e′
+3) ≥ ˜H∞(s|s+e3)−log(det(Z0)) ≥ ˜H∞(s|s+e3)−n·log(τ2),
+
+as |Zn/Λ(Z0)| = det(Z0) = det(Z′
+0) ≤ n · log(τ) (as the largest singular value of Z′
+0 is τ2).
+Finally as σ3/
+√
+
+2 = σ > ηϵ(B−1), by Lemma 5.5 we can bound
+
+˜H8ϵ
+∞(s|s + e3) ≥ ˜H∞(s|s + e),
+
+where e ←$ DσB. Putting everything together, we obtain that
+
+˜H20ϵ
+∞ (s|sHZ + e0) ≥ ˜H∞(s|s + e) − n · log(τ2).
+
+We can now summarize the results of this section in the following theorem.
+
+Theorem 5.8. Let τ1, τ2 > 0.
+Let Ψ be a distribution on (Zn×n)× × Zn×nk and assume the
+Decisional Small Ratio assumption holds for Ψ. Assume further that if (Z0, Z) ←$ Ψ then
+
+• σmax(BZ−1
+0 ZB−1) ≤ τ1 where Z−1
+0
+is the rational inverse of Z0.
+
+• σmax(BZ0B−1) ≤ τ2
+
+with probability at least δ over the choice of (Z0, Z). Define the distribution X on Zn×m
+q
+by HZ,
+where (Z0, Z) ←$ Ψ and H ∈ Zn×n is the Zq-inverse of Z0. Let σ > τ2ηϵ(Λ(B−1)) and σ0 > 23/2τ1σ.
+Now let χ = Dσ0B. Further assume that νσB(S) ≥ n log(τ2) + ω(log(λ)).
+Then X is a sometimes lossy pseudorandom distribution for S and error distribution χ.
+
+By combining Theorems 5.8 and 4.2 we obtain the following corollary.
+
+Corollary 5.9. Assume that the conditions of Theorem 5.8 are satisfied. Then entSLWE(q, k, M, Dσ0B, S)
+is mildly hard.
+
+6
+Instantiation for RLWE over Power-of-Two Cyclotomics
+
+In this Section, we will instantiate the results of Section 5 for Ring LWE over power-of-two cyclo-
+tomics. That is, we will construct a sometimes lossy pseudorandom distribution in this setting.
+Throughout this section let B ∈ Rn×n be a basis-change matrix as described in Section 3.2.
+First recall the Decisional Small Polynomial Ratio (DSPR) problem, as defined by Lopez-Alt
+et al. [LTV12]. The DSPR problem is in fact a generalization of the NTRU problem.
+
+Definition 6.1 (Decisional Small Polynomial Ratio problem (DSPR)). Let R be a ring of integers
+of a number field K and let q be a modulus. Let γ > 0. Let g ←$ DR,γ and f ←$ DR,γ conditioned
+on f mod q ∈ R×
+q . Let h be the Rq-inverse of f. The DSPR problem for distribution DR,γ asks to
+distinguish hg ∈ Rq from a uniformly random a ←$ Rq.
+
+19
+
+
+We will make use of the following Lemmas and Theorems of Stehl´e and Steinfeld [SS13].
+Theorem 6.2 shows that if the a gaussian χ is sufficiently wide, then ring elements hg are
+actually statistically close to a uniform a ←$ Rq.
+
+Theorem 6.2 ( [SS13, Theorem 3.2 restated]). Let n ≥ 8 be a power of 2 such that Φ = Xn + 1
+splits into n linear factors modulo a prime q ≥ 5.
+Let 0 < α < 1/3 and assume that γ ≥
+n ·
+�
+
+ln(8nq) · q1/2+α and that f, g ←$ DR×
+q ,γ. Let h be the Rq-inverse of f. Then it holds that hg
+is within statistical distance 210n · q−αn of the uniform distribution on R×
+q .
+
+Lemma 6.3 ( [SS13, Lemma 3.5 restated]). Let n ≥ 8 be a power of 2 such that Φ = Xn + 1 splits
+into n linear factors modulo q ≥ 5. Let γ ≥
+�
+
+n · ln(2n(1 + n2))/π · q1/n. Then it holds that
+
+Pr
+f←$DR,γ
+[f /∈ R×
+q ] ≤ n(1/q + 2/n2).
+
+Lemma 6.4 ( [SS13, Lemma 2.8 restated]). Let R be a ring of integers. Then it holds for any
+γ ≥ ηϵ(R) that
+Pr
+f←$DR,γ
+[∥f∥ ≥ γ log(n)√n] ≤ negl(λ)
+
+Lemma 6.5 ( [SS13, Lemma 4.1 restated]). Let n ≥ 8 be a power of 2, Φ = Xn + 1 and R =
+Z[X]/(Φ). For any γ ≥ 8nηϵ(R) it holds that
+
+Pr
+f←$DR,γ
+
+�
+∥f−1∥ ≥ 24√n
+
+γ
+
+�
+≤ 1/2
+
+We will now establish the hardness of an instance of the DSR problem, assuming RLWE and
+either the DSPR problem or Theorem 6.2. Let χ be a B-bounded error distribution on R and let
+γ > 0 be a gaussian parameter. Define the distribution Ψ as follows:
+
+• Choose f, g ←$ DR,γ such that f mod q ∈ R×
+q .
+
+• Choose e1, . . . , ek ←$ χ and e′
+1, . . . , e′
+k ←$ χ
+
+• For all i ∈ [k] set zi = g · ei + f · e′
+i.
+
+• Let Z0 be the multiplication matrix of f and for all i ∈ [k] let Zi be the multiplication matrix
+of zi
+
+• Set Z = (Z1, . . . , Zk)
+
+• Output (Z0, Z)
+
+We will now show that the distribution Ψ is a sometimes lossy pseudorandom distribution.
+Recall that by Theorem 5.8 it is sufficient to bound the maximal singular values of BZ0B−1,
+BZ−1
+0 ZB−1 and establish that the DSR assumption for Ψ holds. We will start by showing that if
+the Ring LWE assumption for error distribution χ and the DSPR assumptions hold, then the DSR
+assumption holds for Ψ.
+
+Lemma 6.6. Assuming both DSPR for distribution DR,γ and RLWE for error-distribution χ, it
+follows that DSR for distribution Ψ is hard. Moreover, if χ = DR×
+q ,γ and the conditions of Theorem
+
+6.2 are met, then the DSPR assumption is not necessary.
+
+20
+
+
+Proof. Let h be the Rq-inverse of f. Observe that yi = hzi = hg · ei + e′
+i. Under the DSPR
+assumption we can replace hg by a uniformly random a ∈ Rq. It then follows by a simple hybrid
+argument that for all i yi = aei+e′
+i is indistinguishable from a uniformly random ui under Hermite
+RLWE for error distribution χ′.
+Likewise, if the conditions of Theorem 6.2 are met, hg is statistically close to a uniformly random
+a ∈ R×
+q . It follows again via a hybrid argument that for all i yi = aei + e′
+i is indistinguishable from
+a uniformly random ui under Hermite RLWE for error distribution χ′. Note that RLWE also holds
+if we condition on a ∈ R×
+q , as this event happens with significant probability.
+
+The following technical lemma lets us bound the maximal singular value of a matrix Z′ by
+bounding the singular values of blocks of Z′.
+
+Lemma 6.7. Let Z′ = (Z′
+1| . . . |Z′
+m) ∈ Rn×n·k be a block matrix where each Z′
+i ∈ Rn×n. Assume
+that it holds for all i that σmax(Z′
+i) ≤ γ. Then it holds that σmax(Z′) ≤
+√
+
+k · γ.
+
+Proof. Fix any vector x = (x1, . . . , xk) ∈ Rnk, where the xi ∈ Rn. Then it holds that
+
+∥Z′x∥ = ∥
+
+k
+�
+
+i=1
+Z′
+ixi∥ ≤
+
+k
+�
+
+i=1
+∥Z′
+ixi∥ ≤
+
+k
+�
+
+i=1
+γ∥xi∥ ≤ γ
+√
+
+k ·
+
+�
+�
+�
+�
+
+k
+�
+
+i=1
+∥xi∥2 = γ
+√
+
+k · ∥x∥,
+
+where the last inequality follows from the relationship between the L1 and L2 norms. It follows
+that σmax(Z′) ≤
+√
+
+k · γ
+
+Lemma 6.8 bounds the maximal singular values of BZ0B−1 and BZ−1
+0 ZB−1
+
+Lemma 6.8. Let γ > max{
+�
+
+n · ln(2n(1 + n2))/π·q1/n, 8nηϵ(R)} and assume that χ is B-bounded.
+Let (Z0, Z) ←$ Ψ. It holds that
+
+• Z0 is invertible in Zn×n
+q
+
+• σmax(BZ0B−1) ≤ O(γ log(n)√n)
+
+• σmax(BZ−1
+0 ZB−1) ≤ O(n log(n)
+√
+
+kB)
+
+except with probability 1/2 + o(1) over the choice of (Z0, Z).
+
+Proof. We will bound the maximal singular value of BZ0B−1 by ∥σ(f)∥∞. Likewise, we will bound
+the maximal singular values of the BZ−1
+0 ZiB−1 via ∥σ(f−1zi)∥∞.
+The bound on the maximal
+singular value of BZB−1 will follow by Lemma 6.7.
+Note that
+
+• It holds by Lemma 6.3 that f in invertible in R×
+q , except with probability n/q+2/n = O(1/n).
+
+• It holds by Lemma 6.4 and a union bound that ∥σ(f)∥ ≤ γ log(n)√n and ∥σ(zi)∥ ≤ γ log(n)√n
+for all i ∈ [k], except with negligible probability.
+
+• By Lemma 6.5 we have that ∥σ(f−1)∥ ≤ 24√n/γ, except with probability ≤ 1/2.
+
+21
+
+
+Consequently, all 3 items hold, except with probability 1/2 + o(1). Moreover, since the ei and
+e′
+i are distributed according to χ and χ is B-bounded, it holds that for all i ∈ [k] that ∥σ(ei)∥ ≤ B
+and ∥σ(e′
+i)∥ ≤ B.
+Thus, we have that
+
+σmax(BZ0B−1) ≤ ∥σ(f)∥∞ ≤ ∥σ(f)∥ ≤ γ log(n)√n = O(γ log(n)√n).
+
+Moreover, it holds for all i that
+
+σmax(BZ−1
+0 ZiB−1) ≤ ∥σ(f−1zi)∥∞
+= ∥σ(f−1gei + e′
+i)∥∞
+≤ ∥σ(f−1)∥∞ · ∥σ(g)∥∞ · ∥σ(ei)∥∞ + ∥σ(e′
+i)∥∞
+≤ ∥σ(f−1)∥ · ∥σ(g)∥ · ∥σ(ei)∥ + ∥σ(e′
+i)∥
+
+≤ 24n log(n) · B = O(n log(n)B)
+
+By Lemma 6.7 we conclude that σmax(BZB−1) ≤ O(n log(n)
+√
+
+kB).
+
+We can now summarize the results of this section in our main theorem by combining Lemma
+
+6.8 with Corollary 5.9.
+
+Theorem 6.9. Assume that DSPR with parameter γ and Ring LWE with a B-bounded noise
+distribution χ holds. Let S be a distribution s.t. for some σ it holds that νσ(S) ≥ n log(γ·log(n)√n)+
+ω(log λ). Then Entropic Ring LWE for power-of-two cyclotomics with k samples, secret distribution
+S and Gaussian noise parameter σ0 ≥ O(σn log(n)B
+√
+
+k) is mildly hard.
+
+By Theorem 6.2 we know that we can drop the DSPR assumption provided that γ ≥ poly(n)q1/2+α
+
+for an arbitrarily small constant α.
+This translates to the stronger requirement that νσ(S) ≥
+(1/2+α)n log(q)+O(n log(n)). Thus, the distribution S must have at more than (1/2+α)n log(q)+
+O(n log(n)) min-entropy to begin with. However, note that if S is an r-bounded distribution, where
+r ≥ poly(n)q1/2+α, then Lemma 2.5 tells us if σ is a poly(n) factor larger than r, we have essentially
+νσ(S) ≈ ˜H∞(S) and the requirements can be met.
+
+References
+
+[AD17]
+Martin R. Albrecht and Amit Deo.
+Large modulus ring-LWE ≥ module-LWE.
+In Tsuyoshi Takagi and Thomas Peyrin, editors, Advances in Cryptology – ASI-
+ACRYPT 2017, Part I, volume 10624 of Lecture Notes in Computer Science, pages
+267–296, Hong Kong, China, December 3–7, 2017. Springer, Heidelberg, Germany.
+
+[AKPW13] Jo¨el Alwen, Stephan Krenn, Krzysztof Pietrzak, and Daniel Wichs.
+Learning with
+rounding, revisited - new reduction, properties and applications. In Ran Canetti and
+Juan A. Garay, editors, Advances in Cryptology – CRYPTO 2013, Part I, volume
+8042 of Lecture Notes in Computer Science, pages 57–74, Santa Barbara, CA, USA,
+August 18–22, 2013. Springer, Heidelberg, Germany.
+
+[BBPS19]
+Madalina Bolboceanu, Zvika Brakerski, Renen Perlman, and Devika Sharma. Order-
+lwe and the hardness of ring-lwe with entropic secrets. Asiacrypt, 2019. https://
+eprint.iacr.org/2018/494.
+
+22
+
+
+[BD20]
+Zvika Brakerski and Nico D¨ottling. Hardness of LWE on general entropic distributions.
+In Anne Canteaut and Yuval Ishai, editors, Advances in Cryptology - EUROCRYPT
+2020 - 39th Annual International Conference on the Theory and Applications of Cryp-
+tographic Techniques, Zagreb, Croatia, May 10-14, 2020, Proceedings, Part II, volume
+12106 of Lecture Notes in Computer Science, pages 551–575. Springer, 2020.
+
+[BGV12]
+Zvika Brakerski, Craig Gentry, and Vinod Vaikuntanathan. (Leveled) fully homomor-
+phic encryption without bootstrapping. In Shafi Goldwasser, editor, ITCS 2012: 3rd
+Innovations in Theoretical Computer Science, pages 309–325, Cambridge, MA, USA,
+January 8–10, 2012. Association for Computing Machinery.
+
+[BLP+13]
+Zvika Brakerski, Adeline Langlois, Chris Peikert, Oded Regev, and Damien Stehl´e.
+Classical hardness of learning with errors. In Dan Boneh, Tim Roughgarden, and Joan
+Feigenbaum, editors, 45th Annual ACM Symposium on Theory of Computing, pages
+575–584, Palo Alto, CA, USA, June 1–4, 2013. ACM Press.
+
+[DORS08]
+Yevgeniy Dodis, Rafail Ostrovsky, Leonid Reyzin, and Adam D. Smith. Fuzzy extrac-
+tors: How to generate strong keys from biometrics and other noisy data. SIAM J.
+Comput., 38(1):97–139, 2008.
+
+[GKPV10] Shafi Goldwasser, Yael Tauman Kalai, Chris Peikert, and Vinod Vaikuntanathan. Ro-
+bustness of the learning with errors assumption.
+In Andrew Chi-Chih Yao, editor,
+ICS 2010: 1st Innovations in Computer Science, pages 230–240, Tsinghua University,
+Beijing, China, January 5–7, 2010. Tsinghua University Press.
+
+[HPS98]
+Jeffrey Hoffstein, Jill Pipher, and Joseph H. Silverman. NTRU: A ring-based public
+key cryptosystem. In ANTS, volume 1423 of Lecture Notes in Computer Science, pages
+267–288. Springer, 1998.
+
+[HS14]
+Shai Halevi and Victor Shoup. Algorithms in helib. In Juan A. Garay and Rosario
+Gennaro, editors, Advances in Cryptology - CRYPTO 2014 - 34th Annual Cryptology
+Conference, Santa Barbara, CA, USA, August 17-21, 2014, Proceedings, Part I, volume
+8616 of Lecture Notes in Computer Science, pages 554–571. Springer, 2014.
+
+[HS15]
+Shai Halevi and Victor Shoup.
+Bootstrapping for helib.
+In Elisabeth Oswald and
+Marc Fischlin, editors, Advances in Cryptology - EUROCRYPT 2015 - 34th Annual
+International Conference on the Theory and Applications of Cryptographic Techniques,
+Sofia, Bulgaria, April 26-30, 2015, Proceedings, Part I, volume 9056 of Lecture Notes
+in Computer Science, pages 641–670. Springer, 2015.
+
+[KF17]
+Paul Kirchner and Pierre-Alain Fouque. Revisiting lattice attacks on overstretched
+ntru parameters. In Jean-S´ebastien Coron and Jesper Buus Nielsen, editors, Advances
+in Cryptology – EUROCRYPT 2017, pages 3–26, Cham, 2017. Springer International
+Publishing.
+
+[KR19]
+Yael Tauman Kalai and Leonid Reyzin. A survey of leakage-resilient cryptography.
+IACR Cryptol. ePrint Arch., 2019:302, 2019.
+
+23
+
+
+[LPR10]
+Vadim Lyubashevsky, Chris Peikert, and Oded Regev. On ideal lattices and learning
+with errors over rings. In Henri Gilbert, editor, Advances in Cryptology - EUROCRYPT
+2010, 29th Annual International Conference on the Theory and Applications of Crypto-
+graphic Techniques, French Riviera, May 30 - June 3, 2010. Proceedings, volume 6110
+of Lecture Notes in Computer Science, pages 1–23. Springer, 2010.
+
+[LPR13]
+Vadim Lyubashevsky, Chris Peikert, and Oded Regev. A toolkit for ring-lwe cryptog-
+raphy. In Thomas Johansson and Phong Q. Nguyen, editors, Advances in Cryptology
+- EUROCRYPT 2013, 32nd Annual International Conference on the Theory and Ap-
+plications of Cryptographic Techniques, Athens, Greece, May 26-30, 2013. Proceedings,
+volume 7881 of Lecture Notes in Computer Science, pages 35–54. Springer, 2013.
+
+[LS15]
+Adeline Langlois and Damien Stehl´e. Worst-case to average-case reductions for module
+lattices. Des. Codes Cryptogr., 75(3):565–599, 2015.
+
+[LTV12]
+Adriana L´opez-Alt, Eran Tromer, and Vinod Vaikuntanathan. On-the-fly multiparty
+computation on the cloud via multikey fully homomorphic encryption. In Howard J.
+Karloff and Toniann Pitassi, editors, 44th Annual ACM Symposium on Theory of Com-
+puting, pages 1219–1234, New York, NY, USA, May 19–22, 2012. ACM Press.
+
+[Mic18]
+Daniele Micciancio. On the hardness of learning with errors with binary secrets. Theory
+of Computing, 14(1):1–17, 2018.
+
+[NIS]
+NIST.
+Post-quantum cryptography standardization.
+https://csrc.nist.gov/
+Projects/Post-Quantum-Cryptography.
+
+[Pei10]
+Chris Peikert. An efficient and parallel Gaussian sampler for lattices. In Tal Rabin,
+editor, Advances in Cryptology – CRYPTO 2010, volume 6223 of Lecture Notes in Com-
+puter Science, pages 80–97, Santa Barbara, CA, USA, August 15–19, 2010. Springer,
+Heidelberg, Germany.
+
+[Pei16]
+Chris Peikert. A decade of lattice cryptography. Foundations and Trends in Theoretical
+Computer Science, 10(4):283–424, 2016. Specific references are to the ePrint version
+https://eprint.iacr.org/2015/939.
+
+[PP19]
+Chris Peikert and Zachary Pepin.
+Algebraically structured LWE, revisited.
+In
+TCC 2019: 17th Theory of Cryptography Conference, Part I, Lecture Notes in Com-
+puter Science, pages 1–23. Springer, Heidelberg, Germany, March 2019.
+
+[PRS17]
+Chris Peikert, Oded Regev, and Noah Stephens-Davidowitz.
+Pseudorandomness of
+ring-lwe for any ring and modulus. In Hamed Hatami, Pierre McKenzie, and Valerie
+King, editors, Proceedings of the 49th Annual ACM SIGACT Symposium on Theory
+of Computing, STOC 2017, Montreal, QC, Canada, June 19-23, 2017, pages 461–473.
+ACM, 2017.
+
+[Reg05]
+Oded Regev. On lattices, learning with errors, random linear codes, and cryptography.
+In Harold N. Gabow and Ronald Fagin, editors, 37th Annual ACM Symposium on
+Theory of Computing, pages 84–93, Baltimore, MA, USA, May 22–24, 2005. ACM
+Press.
+
+24
+
+
+[SEA18]
+Microsoft SEAL. http://sealcrypto.org, October 2018. Microsoft Research, Red-
+mond, WA.
+
+[SS11]
+Damien Stehl´e and Ron Steinfeld. Making NTRU as secure as worst-case problems
+over ideal lattices. In Kenneth G. Paterson, editor, Advances in Cryptology - EURO-
+CRYPT 2011 - 30th Annual International Conference on the Theory and Applications
+of Cryptographic Techniques, Tallinn, Estonia, May 15-19, 2011. Proceedings, volume
+6632 of Lecture Notes in Computer Science, pages 27–47. Springer, 2011.
+
+[SS13]
+Damien Stehl´e and Ron Steinfeld. Making ntruencrypt and ntrusign as secure as stan-
+dard worst-case problems over ideal lattices. IACR Cryptol. ePrint Arch., 2013:4, 2013.
+Preliminary version in [SS11].
+
+[SSTX09]
+Damien Stehl´e, Ron Steinfeld, Keisuke Tanaka, and Keita Xagawa. Efficient public key
+encryption based on ideal lattices. In Mitsuru Matsui, editor, Advances in Cryptology
+- ASIACRYPT 2009, 15th International Conference on the Theory and Application of
+Cryptology and Information Security, Tokyo, Japan, December 6-10, 2009. Proceedings,
+volume 5912 of Lecture Notes in Computer Science, pages 617–635. Springer, 2009.
+
+25
+
+

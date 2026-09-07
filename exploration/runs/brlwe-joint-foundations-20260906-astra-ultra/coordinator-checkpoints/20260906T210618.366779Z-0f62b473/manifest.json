@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260906T210618.366779Z-0f62b473",
+  "kind": "coordinator",
+  "created_at": "2026-09-06T21:06:18.366802+00:00",
+  "reason": "Recorded explicit dispositions for all historical and newly targeted regressions",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 104706,
+      "sha256": "262314e39f802deb52f7186ae70fc98f02296037667045990527b4f451e8822b"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 6558,
+      "sha256": "b366666d3747e150cb4a90a0a80aa6837abf12aa5d94d124c6657db172ab58ce"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 13734,
+      "sha256": "dd45602e1a17c47b5028343b8f71c5cfd2560ff3fcd122d35b2bc782ea7ab132"
+    },
+    {
+      "path": "final.md",
+      "bytes": 15330,
+      "sha256": "38cda5476e0e6ae2cb47e7970ac663c9e8bdacf1dfa08f6ed979bb4555f9a906"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 6315,
+      "sha256": "2fa2d953422f8bc28b9a90e736b587a391f3c2c4a17a9ee6d11ea5a5bc250dbb"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

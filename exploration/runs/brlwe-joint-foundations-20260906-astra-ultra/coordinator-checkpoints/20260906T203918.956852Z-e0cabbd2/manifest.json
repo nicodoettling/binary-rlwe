@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260906T203918.956852Z-e0cabbd2",
+  "kind": "coordinator",
+  "created_at": "2026-09-06T20:39:18.956875+00:00",
+  "reason": "Updated canonical partial synthesis and source comparison; fresh review roles and UUIDs registered",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 95879,
+      "sha256": "8fb2470b80785152707a5de51feedfd9f5bb634be00062a11d318054733350be"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 7887,
+      "sha256": "72de14c4a072308c092c445446cbf70d9f0750db98ef3203b38df86673381f9a"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 7773,
+      "sha256": "346529a6210aed8dbd70d5e638f08d4b0400461cb7adcf3e1a91048803cea4b4"
+    },
+    {
+      "path": "final.md",
+      "bytes": 3934,
+      "sha256": "9b4e414a46efc9e25d780743258080f4c1718840dccd58a4b70be4315f4d7ad1"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 4334,
+      "sha256": "5fb6a1b2c149366a09ee44a17541b7ae164e77ee7fad3b16e21e5fd06c680195"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

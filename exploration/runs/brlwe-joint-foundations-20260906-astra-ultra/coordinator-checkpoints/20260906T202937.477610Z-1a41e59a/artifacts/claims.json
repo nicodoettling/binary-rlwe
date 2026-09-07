@@ -1,0 +1,2279 @@
+{
+  "schema_version": 2,
+  "run_id": "brlwe-joint-foundations-20260906-astra-ultra",
+  "updated_utc": "2026-09-06T20:29:37.352318+00:00",
+  "target_version": "T0",
+  "certification": {
+    "globally_certified": false,
+    "same_model_review": "Complementary, correlated review; no statistical independence asserted"
+  },
+  "claims": [
+    {
+      "id": "SC0",
+      "version": 1,
+      "statement": "General source: Gamma=(J,U,F,H) is independent of S,G; I=Ann(J), U in I; V is uniform I independent of Gamma conditional J; only (U+F,V+H) is published versus two independent uniform R elements. No binary-secret input.",
+      "dependencies": [],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "definition"
+      ],
+      "evidence": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/F01-theorem-v1.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/bridge.md"
+      ],
+      "evidence_versions": [
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/F01-theorem-v1.md",
+          "sha256": "e8b8218ca2bb2d851b6068b4456983739cf5188bd4f12c49d880054064068852"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/bridge.md",
+          "sha256": "c14f0ec141c471be0b9f4621661747abf4d29067353cb5db10932c8b14d974c9"
+        }
+      ],
+      "prior_version": 1,
+      "certification": "NOT_GLOBALLY_CERTIFIED",
+      "scope": "Exact claim and assumptions as stated; prior reports are bounded mathematical reviews, not global certification.",
+      "review_disposition": "REVIEWED_WITH_STATED_SCOPE",
+      "reviews": [
+        {
+          "reviewer": "C01",
+          "claim_version_reviewed": 1,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C01/review.md",
+            "sha256": "010715d762513148506589cdb432e6fb619eeac30f4cb413985f1e7b6d98b88b"
+          },
+          "scope": "See version-specific disposition and exclusions in full raw report; no global certificate."
+        }
+      ],
+      "regressions": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/known-counterexamples.md"
+      ],
+      "claim_kind": "definition",
+      "downstream": [
+        "B0",
+        "X0",
+        "N0",
+        "U0",
+        "A2"
+      ]
+    },
+    {
+      "id": "B0",
+      "version": 1,
+      "statement": "Under SC0, bijective multiplication Q=R/J -> I by U, public independent Y~S+G, and exact strong noise/extraction comparisons, Adv_target(D)<=Adv_src(B1)+Adv_src(B2)+eta_N+eta_X. B1(a,c)=D(a,as+e); B2(a,c)=D(a,ay+c). Source tests may differ. Optional implementation loss 2xi_src+2xi_1+xi_Y+xi_target.",
+      "dependencies": [
+        {
+          "id": "SC0",
+          "version": 1
+        },
+        {
+          "id": "Y0",
+          "version": 1
+        }
+      ],
+      "conditional_on": [
+        {
+          "id": "X0",
+          "version": 2
+        },
+        {
+          "id": "N0",
+          "version": 2
+        },
+        {
+          "id": "U0",
+          "version": 2
+        }
+      ],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation"
+      ],
+      "evidence": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/F01-theorem-v1.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/F01.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/bridge.md"
+      ],
+      "evidence_versions": [
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/F01-theorem-v1.md",
+          "sha256": "e8b8218ca2bb2d851b6068b4456983739cf5188bd4f12c49d880054064068852"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/F01.md",
+          "sha256": "c6a09c470a6d2e8b62f0e592d6b7fae4c87d89cca4179c597d2a296c5fd22039"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/bridge.md",
+          "sha256": "c14f0ec141c471be0b9f4621661747abf4d29067353cb5db10932c8b14d974c9"
+        }
+      ],
+      "prior_version": 1,
+      "certification": "NOT_GLOBALLY_CERTIFIED",
+      "scope": "Exact claim and assumptions as stated; prior reports are bounded mathematical reviews, not global certification.",
+      "review_disposition": "REVIEWED_CONDITIONAL",
+      "reviews": [
+        {
+          "reviewer": "C01",
+          "claim_version_reviewed": 1,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C01/review.md",
+            "sha256": "010715d762513148506589cdb432e6fb619eeac30f4cb413985f1e7b6d98b88b"
+          },
+          "scope": "See version-specific disposition and exclusions in full raw report; no global certificate."
+        },
+        {
+          "reviewer": "C03",
+          "claim_version_reviewed": 1,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C03/review.md",
+            "sha256": "61e42b6236262022f87859882cbe7c42c4a39463c8d57e380ad5adf9589903b1"
+          },
+          "scope": "See version-specific disposition and exclusions in full raw report; no global certificate."
+        }
+      ],
+      "regressions": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/known-counterexamples.md"
+      ],
+      "claim_kind": "conditional_implication",
+      "downstream": [
+        "A0",
+        "S0"
+      ]
+    },
+    {
+      "id": "X0",
+      "version": 2,
+      "statement": "Extraction premise schema: TV((J,U,F,H,Y,pi_J(S)),(J,U,F,H,Y,Z))<=eta_X, Z quotient-uniform conditionally independent given J. H and Y are retained. This is a hypothesis schema, not a universally asserted bound.",
+      "dependencies": [
+        {
+          "id": "SC0",
+          "version": 1
+        },
+        {
+          "id": "Y0",
+          "version": 1
+        }
+      ],
+      "conditional_on": [],
+      "status": "OPEN",
+      "evidence_labels": [
+        "definition"
+      ],
+      "evidence": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/bridge.md"
+      ],
+      "evidence_versions": [
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/bridge.md",
+          "sha256": "c14f0ec141c471be0b9f4621661747abf4d29067353cb5db10932c8b14d974c9"
+        }
+      ],
+      "prior_version": 2,
+      "certification": "NOT_GLOBALLY_CERTIFIED",
+      "scope": "Exact claim and assumptions as stated; prior reports are bounded mathematical reviews, not global certification.",
+      "review_disposition": "SCHEMA_VALIDITY_REVIEWED; NOT_A_UNIVERSAL_STATISTICAL_BOUND",
+      "reviews": [
+        {
+          "reviewer": "C01",
+          "claim_version_reviewed": 2,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C01/review.md",
+            "sha256": "010715d762513148506589cdb432e6fb619eeac30f4cb413985f1e7b6d98b88b"
+          },
+          "scope": "See version-specific disposition and exclusions in full raw report; no global certificate."
+        }
+      ],
+      "regressions": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/known-counterexamples.md"
+      ],
+      "claim_kind": "hypothesis_schema",
+      "downstream": [
+        "B0"
+      ]
+    },
+    {
+      "id": "N0",
+      "version": 2,
+      "statement": "Noise premise schema: TV((J,U,F,FG+H),(J,U,F,E))<=eta_N, E independent target error. H is integrated out. This sufficient latent condition may not be weakened to public correctness without a revised full hybrid.",
+      "dependencies": [
+        {
+          "id": "SC0",
+          "version": 1
+        },
+        {
+          "id": "Y0",
+          "version": 1
+        }
+      ],
+      "conditional_on": [],
+      "status": "OPEN",
+      "evidence_labels": [
+        "definition"
+      ],
+      "evidence": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/bridge.md"
+      ],
+      "evidence_versions": [
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/bridge.md",
+          "sha256": "c14f0ec141c471be0b9f4621661747abf4d29067353cb5db10932c8b14d974c9"
+        }
+      ],
+      "prior_version": 2,
+      "certification": "NOT_GLOBALLY_CERTIFIED",
+      "scope": "Exact claim and assumptions as stated; prior reports are bounded mathematical reviews, not global certification.",
+      "review_disposition": "SCHEMA_VALIDITY_REVIEWED; NOT_A_UNIVERSAL_STATISTICAL_BOUND",
+      "reviews": [
+        {
+          "reviewer": "C01",
+          "claim_version_reviewed": 2,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C01/review.md",
+            "sha256": "010715d762513148506589cdb432e6fb619eeac30f4cb413985f1e7b6d98b88b"
+          },
+          "scope": "See version-specific disposition and exclusions in full raw report; no global certificate."
+        }
+      ],
+      "regressions": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/known-counterexamples.md"
+      ],
+      "claim_kind": "hypothesis_schema",
+      "downstream": [
+        "B0",
+        "BNG",
+        "NO1"
+      ]
+    },
+    {
+      "id": "U0",
+      "version": 2,
+      "statement": "Nonbijective U costs E[1-|UR|/|I|]. Uniform U in a d-coordinate ideal gives 1-(1-1/q+1/q²)^d; direct uniform nonzero active coordinates have zero cost but change the source law.",
+      "dependencies": [
+        {
+          "id": "SC0",
+          "version": 1
+        }
+      ],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation"
+      ],
+      "evidence": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/F01.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/bridge.md"
+      ],
+      "evidence_versions": [
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/F01.md",
+          "sha256": "c6a09c470a6d2e8b62f0e592d6b7fae4c87d89cca4179c597d2a296c5fd22039"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/bridge.md",
+          "sha256": "c14f0ec141c471be0b9f4621661747abf4d29067353cb5db10932c8b14d974c9"
+        }
+      ],
+      "prior_version": 2,
+      "certification": "NOT_GLOBALLY_CERTIFIED",
+      "scope": "Exact claim and assumptions as stated; prior reports are bounded mathematical reviews, not global certification.",
+      "review_disposition": "REVIEWED_WITH_STATED_SCOPE",
+      "reviews": [
+        {
+          "reviewer": "C01",
+          "claim_version_reviewed": 2,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C01/review.md",
+            "sha256": "010715d762513148506589cdb432e6fb619eeac30f4cb413985f1e7b6d98b88b"
+          },
+          "scope": "See version-specific disposition and exclusions in full raw report; no global certificate."
+        }
+      ],
+      "regressions": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/known-counterexamples.md"
+      ],
+      "claim_kind": "mathematical_statement",
+      "downstream": [
+        "B0",
+        "AN"
+      ]
+    },
+    {
+      "id": "Y0",
+      "version": 1,
+      "statement": "The public reduction draws fresh binary S0 and G0 from a fixed public auxiliary law, independently of its source challenge, and sets Y=S0+G0. No hidden J,U,F,H or source-sampler access is used.",
+      "dependencies": [],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation"
+      ],
+      "evidence": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/F01.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/bridge.md"
+      ],
+      "evidence_versions": [
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/F01.md",
+          "sha256": "c6a09c470a6d2e8b62f0e592d6b7fae4c87d89cca4179c597d2a296c5fd22039"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/bridge.md",
+          "sha256": "c14f0ec141c471be0b9f4621661747abf4d29067353cb5db10932c8b14d974c9"
+        }
+      ],
+      "prior_version": 1,
+      "certification": "NOT_GLOBALLY_CERTIFIED",
+      "scope": "Exact claim and assumptions as stated; prior reports are bounded mathematical reviews, not global certification.",
+      "review_disposition": "REVIEWED_WITH_STATED_SCOPE",
+      "reviews": [
+        {
+          "reviewer": "C01",
+          "claim_version_reviewed": 1,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C01/review.md",
+            "sha256": "010715d762513148506589cdb432e6fb619eeac30f4cb413985f1e7b6d98b88b"
+          },
+          "scope": "See version-specific disposition and exclusions in full raw report; no global certificate."
+        }
+      ],
+      "regressions": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/known-counterexamples.md"
+      ],
+      "claim_kind": "mathematical_statement",
+      "downstream": [
+        "B0",
+        "X0",
+        "N0",
+        "AN",
+        "KM"
+      ]
+    },
+    {
+      "id": "A2",
+      "version": 1,
+      "statement": "Exact candidate law and parameters are candidates/A.md A2: d=floor(sqrt(n)/ell^4), ell=ceil(log2 n), all uniform CRT d-supports, active-unit U, independent uniform V, iid D_ell F conditioned on [-ell²,ell²], canonical coefficient-order exact H_seq from B=sigma²I-ell²M_F M_F^T, sigma=2n ell³; split prime sigma*n^c<=q<=n^K.",
+      "dependencies": [
+        {
+          "id": "SC0",
+          "version": 1
+        }
+      ],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "definition"
+      ],
+      "evidence": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/candidates/A.md"
+      ],
+      "evidence_versions": [
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/candidates/A.md",
+          "sha256": "f97e502a68671c5add62e055a48ca3f62e72052177167a8d60dd7f398e366521"
+        }
+      ],
+      "prior_version": 1,
+      "certification": "NOT_GLOBALLY_CERTIFIED",
+      "scope": "Exact claim and assumptions as stated; prior reports are bounded mathematical reviews, not global certification.",
+      "review_disposition": "REVIEWED_WITH_STATED_SCOPE",
+      "reviews": [
+        {
+          "reviewer": "C01",
+          "claim_version_reviewed": 1,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C01/review.md",
+            "sha256": "010715d762513148506589cdb432e6fb619eeac30f4cb413985f1e7b6d98b88b"
+          },
+          "scope": "See version-specific disposition and exclusions in full raw report; no global certificate."
+        },
+        {
+          "reviewer": "C02",
+          "claim_version_reviewed": 1,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C02/review.md",
+            "sha256": "62ca9a2d65d6b7d5ae84a5e6fee989ce36ac31280b75ecf4b148c2c0a103ea5f"
+          },
+          "scope": "See version-specific disposition and exclusions in full raw report; no global certificate."
+        }
+      ],
+      "regressions": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/known-counterexamples.md"
+      ],
+      "claim_kind": "definition",
+      "downstream": [
+        "AN",
+        "P0",
+        "ATT",
+        "UNIQ",
+        "CHAR",
+        "MN",
+        "LEAK"
+      ]
+    },
+    {
+      "id": "NC1",
+      "version": 2,
+      "statement": "For integer M in Z^(p by n), B=sigma^2 I_p-tau^2 MM^T positive definite and Theta=tau^2 I_n-tau^4 M^TM/sigma^2 positive definite, put delta=sum_(k!=0) exp(-pi k^T Theta k). Set e_conv=min(1,delta/(1-delta)) when delta<1 and 1 otherwise. For beta=lambda_min(B), kappa=2sum_(j>=1)exp(-pi beta j^2), set e_seq=min(1,(((1+kappa)/(1-kappa))^p-1)/2) when kappa<1 and 1 otherwise. Independent G~D_tau^n and canonical H_seq from B satisfy TV(MG+H_seq,D_sigma^p)<=min(1,e_conv+e_seq); H_seq versus D_B has distance at most e_seq. Wrapping contracts distance. Finite implementation is a separate comparison; no generic finite-PPT claim for arbitrary real inputs.",
+      "dependencies": [],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation"
+      ],
+      "evidence": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/F02-completion.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/F02-review-packet.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/D03-common-k.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/corrections/NC1-v2-and-dependencies.md"
+      ],
+      "evidence_versions": [
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/F02-completion.md",
+          "sha256": "392bff6701967ba59f5cfd2a7d065f274e86dadb15c792079306ba0203ce3a4d"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/F02-review-packet.md",
+          "sha256": "80e4b719b6539138a1cc2bcd98aabed0f51e8983be196d6c4391ba485bd5481d"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/D03-common-k.md",
+          "sha256": "7ba3052a8358f37f3023e4ec37daf8e82b7d5984b334b5a5e8edbdc082092046"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/corrections/NC1-v2-and-dependencies.md",
+          "sha256": "a801c12d79a1d74093cc0a7ab265e2d4580521dafaf823694bc905011f15cad1"
+        }
+      ],
+      "prior_version": 1,
+      "certification": "NOT_GLOBALLY_CERTIFIED",
+      "scope": "NC1 v1 literal unguarded ledger sentence rejected; detailed old guarded proof survives. C03 checked this exact piecewise correction. A2 and MN satisfy both useful-domain guards eventually.",
+      "review_disposition": "REPAIRED_AND_FRESHLY_RECHECKED; NO_GLOBAL_CERTIFICATE",
+      "reviews": [
+        {
+          "reviewer": "C03",
+          "claim_version_reviewed": 1,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C03/review.md",
+            "sha256": "61e42b6236262022f87859882cbe7c42c4a39463c8d57e380ad5adf9589903b1"
+          },
+          "scope": "See version-specific disposition and exclusions in full raw report; no global certificate."
+        },
+        {
+          "reviewer": "C03",
+          "claim_version_reviewed": 2,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C03/objections.md",
+            "sha256": "782d05de6fc5f3f6e11a4f4f51ae6ef30aaa4aa9aa1bf4c0cc117178dc24f2da"
+          },
+          "scope": "Piecewise NC1 v2 freshly checked, including all outside-domain branches."
+        }
+      ],
+      "regressions": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/known-counterexamples.md"
+      ],
+      "claim_kind": "mathematical_statement",
+      "downstream": [
+        "AN",
+        "CHAR",
+        "MN"
+      ]
+    },
+    {
+      "id": "XG1",
+      "version": 1,
+      "statement": "For same-Y posterior replicas with beta=4E[p_Y(1-p_Y)], Delta coefficients have masses 1-beta/2,beta/4,beta/4. For uniform d-support, normalized averaged quotient collision is q^d E[binom(z(Delta),d)/binom(n,d)].",
+      "dependencies": [],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation",
+        "experiment"
+      ],
+      "evidence": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/coordinator-extraction-gate.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/D01.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/experiments/E01-note.md"
+      ],
+      "evidence_versions": [
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/coordinator-extraction-gate.md",
+          "sha256": "7a4bd3acc26b045b3114b23f0954ad38a8b3beee13be2bdf9ed5770e6da1d958"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/D01.md",
+          "sha256": "154d1b1d343d3ef8bbf3bde6a6589a773af7f3ca5be840ac37ebf0b7ebb97bbe"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/experiments/E01-note.md",
+          "sha256": "00dec65a1670215941824b0586387b79b1e8d90b185a99aeae5c69d412302388"
+        }
+      ],
+      "prior_version": 1,
+      "certification": "NOT_GLOBALLY_CERTIFIED",
+      "scope": "Exact claim and assumptions as stated; prior reports are bounded mathematical reviews, not global certification.",
+      "review_disposition": "REVIEWED_WITH_STATED_SCOPE",
+      "reviews": [
+        {
+          "reviewer": "C01",
+          "claim_version_reviewed": 1,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C01/review.md",
+            "sha256": "010715d762513148506589cdb432e6fb619eeac30f4cb413985f1e7b6d98b88b"
+          },
+          "scope": "See version-specific disposition and exclusions in full raw report; no global certificate."
+        }
+      ],
+      "regressions": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/known-counterexamples.md"
+      ],
+      "claim_kind": "mathematical_statement",
+      "downstream": [
+        "X1"
+      ],
+      "verification_scope": "Coordinator reproduced E01 postprocessing from saved exhaustive counts: 24 rows and eight independent binary-image controls. Original ternary enumeration not rerun; finite checks do not prove this general identity or asymptotic extraction.",
+      "verification_evidence": [
+        {
+          "path": "exploration/verification/20260906-preparation/math-diagnostics.json",
+          "bytes": 317,
+          "sha256": "8626c0a26ed3063f1e9d53c7089a217d64d5776180c1233f274883c631b50b75",
+          "scope": "Coordinator E01 postprocessing rerun report; original ternary enumeration not rerun."
+        }
+      ]
+    },
+    {
+      "id": "X1",
+      "version": 1,
+      "statement": "For fixed K>1, sufficiently large power-of-two n, each split prime q<=n^K and ceil((ln n)²)<=d<=floor(sqrt(n)/(ln n)^4), G iid wrapped D_ceil(log2 n) yields TV((Y,pi_T(S)),(Y,Z))<=.5 exp(-c_K*n/(d*(ln n)^6)) for EVERY d-support T. Appending any source kernel independent of S,G conditional T retains this bound.",
+      "dependencies": [
+        {
+          "id": "XG1",
+          "version": 1
+        }
+      ],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation",
+        "primary_source"
+      ],
+      "evidence": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/D01-theorem-v1.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/D01.md"
+      ],
+      "evidence_versions": [
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/D01-theorem-v1.md",
+          "sha256": "83f76af8f9a8364dcef3937df0ca0bf70c7745f8c5ab78e65e8cc823d7a2f3df"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/D01.md",
+          "sha256": "154d1b1d343d3ef8bbf3bde6a6589a773af7f3ca5be840ac37ebf0b7ebb97bbe"
+        }
+      ],
+      "prior_version": 1,
+      "certification": "NOT_GLOBALLY_CERTIFIED",
+      "scope": "Exact claim and assumptions as stated; prior reports are bounded mathematical reviews, not global certification.",
+      "review_disposition": "REVIEWED_WITH_STATED_SCOPE",
+      "reviews": [
+        {
+          "reviewer": "C01",
+          "claim_version_reviewed": 1,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C01/review.md",
+            "sha256": "010715d762513148506589cdb432e6fb619eeac30f4cb413985f1e7b6d98b88b"
+          },
+          "scope": "See version-specific disposition and exclusions in full raw report; no global certificate."
+        }
+      ],
+      "regressions": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/known-counterexamples.md"
+      ],
+      "claim_kind": "mathematical_statement",
+      "external_dependencies": [
+        {
+          "source": "Breuillard--Varju arXiv:1810.13360v2",
+          "theorem": "Proposition 23, Definition 22",
+          "checked_by": "C01 core review; not reverified in consolidation"
+        },
+        {
+          "source": "Voutier arXiv:1211.3110",
+          "theorem": "Corollary 2",
+          "checked_by": "C01 core review; not reverified in consolidation"
+        }
+      ],
+      "downstream": [
+        "AN"
+      ]
+    },
+    {
+      "id": "PR1",
+      "version": 1,
+      "statement": "For fixed integer h>1+c, least prime q=1 mod 2n^h satisfies q>=2n^h+1 and q<=C(2n^h)^5.18 by Xylouris. Thus the A2 numerical modulus regime is nonempty for sufficiently large fixed K; c=1,h=3,K=16 is one eventual choice.",
+      "dependencies": [],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation",
+        "primary_source"
+      ],
+      "evidence": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/coordinator-prime-regime.md"
+      ],
+      "evidence_versions": [
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/coordinator-prime-regime.md",
+          "sha256": "f240b4201325eb8666f12ec39b2535ab7ca6a4f565f8e5d60ccec50fe91d9e21"
+        }
+      ],
+      "prior_version": 1,
+      "certification": "NOT_GLOBALLY_CERTIFIED",
+      "scope": "Exact claim and assumptions as stated; prior reports are bounded mathematical reviews, not global certification.",
+      "review_disposition": "REVIEWED_WITH_STATED_SCOPE",
+      "reviews": [
+        {
+          "reviewer": "C01",
+          "claim_version_reviewed": 1,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C01/review.md",
+            "sha256": "010715d762513148506589cdb432e6fb619eeac30f4cb413985f1e7b6d98b88b"
+          },
+          "scope": "See version-specific disposition and exclusions in full raw report; no global certificate."
+        }
+      ],
+      "regressions": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/known-counterexamples.md"
+      ],
+      "claim_kind": "mathematical_statement",
+      "external_dependencies": [
+        {
+          "source": "Xylouris, Acta Arithmetica 150.1",
+          "theorem": "Theorem 1.1, exponent 5.18",
+          "checked_by": "C01 core review; not reverified in consolidation"
+        }
+      ],
+      "downstream": [
+        "AN"
+      ]
+    },
+    {
+      "id": "AN",
+      "version": 2,
+      "statement": "A2 has a nonempty asymptotic analytic regime: its exact source law has bijective U, publicly samplable independent Y, negligible full retained extraction and negligible retained-(J,U,F) noise error, with polynomial-time negligible approximations and explicit costs. This asserts no source hardness.",
+      "dependencies": [
+        {
+          "id": "A2",
+          "version": 1
+        },
+        {
+          "id": "NC1",
+          "version": 2
+        },
+        {
+          "id": "X1",
+          "version": 1
+        },
+        {
+          "id": "PR1",
+          "version": 1
+        },
+        {
+          "id": "U0",
+          "version": 2
+        },
+        {
+          "id": "Y0",
+          "version": 1
+        }
+      ],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation"
+      ],
+      "evidence": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/candidates/A.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/parameter-table.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/refinement/R01-compatibility.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/refinement/R03-interface-audit.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/corrections/NC1-v2-and-dependencies.md"
+      ],
+      "evidence_versions": [
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/candidates/A.md",
+          "sha256": "f97e502a68671c5add62e055a48ca3f62e72052177167a8d60dd7f398e366521"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/parameter-table.md",
+          "sha256": "cba87cbe8ca21acf636da74a31cebbe61427ae438de2f02a6abee4ef185237b3"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/refinement/R01-compatibility.md",
+          "sha256": "d01838ccad834979ee64165c2c5dab90e8df0162f4123b420cba2e13564ebb58"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/refinement/R03-interface-audit.md",
+          "sha256": "ff47bae8fabbcac42a6a4c1c0fe0bab27a355975f058b9b20fa485ed7f9d453a"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/corrections/NC1-v2-and-dependencies.md",
+          "sha256": "a801c12d79a1d74093cc0a7ab265e2d4580521dafaf823694bc905011f15cad1"
+        }
+      ],
+      "prior_version": 1,
+      "certification": "NOT_GLOBALLY_CERTIFIED",
+      "scope": "Exact claim and assumptions as stated; prior reports are bounded mathematical reviews, not global certification.",
+      "review_disposition": "MATCHED_ANALYTIC_REGIME_REVIEWED; NO_SOURCE_HARDNESS",
+      "reviews": [
+        {
+          "reviewer": "C01",
+          "claim_version_reviewed": 1,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C01/review.md",
+            "sha256": "010715d762513148506589cdb432e6fb619eeac30f4cb413985f1e7b6d98b88b"
+          },
+          "scope": "See version-specific disposition and exclusions in full raw report; no global certificate."
+        },
+        {
+          "reviewer": "C02",
+          "claim_version_reviewed": 1,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C02/review.md",
+            "sha256": "62ca9a2d65d6b7d5ae84a5e6fee989ce36ac31280b75ecf4b148c2c0a103ea5f"
+          },
+          "scope": "See version-specific disposition and exclusions in full raw report; no global certificate."
+        },
+        {
+          "reviewer": "C03",
+          "claim_version_reviewed": 1,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C03/review.md",
+            "sha256": "61e42b6236262022f87859882cbe7c42c4a39463c8d57e380ad5adf9589903b1"
+          },
+          "scope": "See version-specific disposition and exclusions in full raw report; no global certificate."
+        },
+        {
+          "reviewer": "C03",
+          "claim_version_reviewed": 2,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C03/review.md",
+            "sha256": "61e42b6236262022f87859882cbe7c42c4a39463c8d57e380ad5adf9589903b1"
+          },
+          "scope": "A2 application unchanged after NC1 v2; extraction/prime dependencies assigned to C01."
+        }
+      ],
+      "regressions": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/known-counterexamples.md"
+      ],
+      "claim_kind": "mathematical_statement",
+      "downstream": [
+        "A0",
+        "S0"
+      ]
+    },
+    {
+      "id": "P0",
+      "version": 2,
+      "statement": "P0-A2: the EXACT A2 correlated pair (including active U and H_seq conditional F) is computationally indistinguishable from two independent uniform R elements at the same parameters. No matching established source reduction has been found.",
+      "dependencies": [
+        {
+          "id": "A2",
+          "version": 1
+        }
+      ],
+      "conditional_on": [],
+      "status": "OPEN",
+      "evidence_labels": [
+        "conjecture"
+      ],
+      "evidence": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/candidates/A.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/F03-source-ledger.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/refinement/R02-break-A.md"
+      ],
+      "evidence_versions": [
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/candidates/A.md",
+          "sha256": "f97e502a68671c5add62e055a48ca3f62e72052177167a8d60dd7f398e366521"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/F03-source-ledger.md",
+          "sha256": "4de3488e3c6f32abb93c4fbabe838b078f82b3c2484170f88299acdce5a16187"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/refinement/R02-break-A.md",
+          "sha256": "f6ad32c87995741c7a17a7ee28e22b3370071ab15f1387cca5ce81079f08bf59"
+        }
+      ],
+      "prior_version": 2,
+      "certification": "NOT_GLOBALLY_CERTIFIED",
+      "scope": "Exact claim and assumptions as stated; prior reports are bounded mathematical reviews, not global certification.",
+      "review_disposition": "OPEN; NO_MATCHING_INDEPENDENT_SOURCE_REDUCTION",
+      "reviews": [
+        {
+          "reviewer": "C02",
+          "claim_version_reviewed": 2,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C02/review.md",
+            "sha256": "62ca9a2d65d6b7d5ae84a5e6fee989ce36ac31280b75ecf4b148c2c0a103ea5f"
+          },
+          "scope": "See version-specific disposition and exclusions in full raw report; no global certificate."
+        },
+        {
+          "reviewer": "C03",
+          "claim_version_reviewed": 2,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C03/review.md",
+            "sha256": "61e42b6236262022f87859882cbe7c42c4a39463c8d57e380ad5adf9589903b1"
+          },
+          "scope": "See version-specific disposition and exclusions in full raw report; no global certificate."
+        }
+      ],
+      "regressions": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/known-counterexamples.md"
+      ],
+      "claim_kind": "unsupported_computational_hypothesis",
+      "downstream": [
+        "A0",
+        "S0"
+      ]
+    },
+    {
+      "id": "A0",
+      "version": 3,
+      "statement": "A fully supported one-sample hardness construction at A2 would require P0-A2 in addition to AN and the bridge. Analytic compatibility is provisionally derived, but independent support for the computational premise is missing.",
+      "dependencies": [
+        {
+          "id": "AN",
+          "version": 2
+        },
+        {
+          "id": "B0",
+          "version": 1
+        }
+      ],
+      "conditional_on": [
+        {
+          "id": "P0",
+          "version": 2
+        }
+      ],
+      "status": "BLOCKED",
+      "evidence_labels": [
+        "conjecture"
+      ],
+      "evidence": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/parameter-table.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/refinement/R01-compatibility.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/corrections/NC1-v2-and-dependencies.md"
+      ],
+      "evidence_versions": [
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/parameter-table.md",
+          "sha256": "cba87cbe8ca21acf636da74a31cebbe61427ae438de2f02a6abee4ef185237b3"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/refinement/R01-compatibility.md",
+          "sha256": "d01838ccad834979ee64165c2c5dab90e8df0162f4123b420cba2e13564ebb58"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/corrections/NC1-v2-and-dependencies.md",
+          "sha256": "a801c12d79a1d74093cc0a7ab265e2d4580521dafaf823694bc905011f15cad1"
+        }
+      ],
+      "prior_version": 2,
+      "certification": "NOT_GLOBALLY_CERTIFIED",
+      "scope": "Exact claim and assumptions as stated; prior reports are bounded mathematical reviews, not global certification.",
+      "review_disposition": "BLOCKED_ON_P0; CONDITIONAL_IMPLICATION_REVIEWED",
+      "reviews": [
+        {
+          "reviewer": "C02",
+          "claim_version_reviewed": 2,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C02/review.md",
+            "sha256": "62ca9a2d65d6b7d5ae84a5e6fee989ce36ac31280b75ecf4b148c2c0a103ea5f"
+          },
+          "scope": "See version-specific disposition and exclusions in full raw report; no global certificate."
+        }
+      ],
+      "regressions": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/known-counterexamples.md"
+      ],
+      "claim_kind": "blocked_hardness_program",
+      "downstream": []
+    },
+    {
+      "id": "BSH",
+      "version": 1,
+      "statement": "The independent public shear (a,c0)->(a,c0+La+W) preserves uniform pairs and exactly transfers each output-source advantage to the specified independent-noise base. It preserves the actual U law. Hidden V=V0+LU remains conditionally uniform independent of U,F,H.",
+      "dependencies": [],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation"
+      ],
+      "evidence": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/F03.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/D02.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/candidates/B.md"
+      ],
+      "evidence_versions": [
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/F03.md",
+          "sha256": "83608df6cfe48621a37f5c957c3a1fb6e05f86c853820707d5f323323be53097"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/D02.md",
+          "sha256": "0bae1a41a7318febdbb40162e6008c36061d959d2eb0daa7050fc7f9c55fde53"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/candidates/B.md",
+          "sha256": "b2639b1a855280b5499b8c462f7c586d9c4c400c8e99d15150356dd0a08f2907"
+        }
+      ],
+      "prior_version": 1,
+      "certification": "NOT_GLOBALLY_CERTIFIED",
+      "scope": "Exact claim and assumptions as stated; prior reports are bounded mathematical reviews, not global certification.",
+      "review_disposition": "REVIEWED_WITH_STATED_SCOPE",
+      "reviews": [
+        {
+          "reviewer": "C02",
+          "claim_version_reviewed": 1,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C02/review.md",
+            "sha256": "62ca9a2d65d6b7d5ae84a5e6fee989ce36ac31280b75ecf4b148c2c0a103ea5f"
+          },
+          "scope": "See version-specific disposition and exclusions in full raw report; no global certificate."
+        }
+      ],
+      "regressions": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/known-counterexamples.md"
+      ],
+      "claim_kind": "mathematical_statement",
+      "downstream": [
+        "D0"
+      ]
+    },
+    {
+      "id": "BNG",
+      "version": 1,
+      "statement": "Under D02 exact iid-shear independence hypotheses, at gamma=tau=ell,sigma=2n ell³,q>=8sigma the strong retained-(J,U,F) noise distance is at least (1-pi/16)exp(-2pi)/(96n²ell⁴(1+ell)), for arbitrary independent X=H00+W. Wrapped two-F-fiber proof handles complex phases. This does not imply a public-transcript impossibility.",
+      "dependencies": [
+        {
+          "id": "N0",
+          "version": 2
+        }
+      ],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation"
+      ],
+      "evidence": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/D02-review-packet.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/D02.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/refinement/R01-compatibility.md"
+      ],
+      "evidence_versions": [
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/D02-review-packet.md",
+          "sha256": "0272b0066725f9dbadd482fcf5c20445a6c285838834a7aa55fdad57964ee01b"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/D02.md",
+          "sha256": "0bae1a41a7318febdbb40162e6008c36061d959d2eb0daa7050fc7f9c55fde53"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/refinement/R01-compatibility.md",
+          "sha256": "d01838ccad834979ee64165c2c5dab90e8df0162f4123b420cba2e13564ebb58"
+        }
+      ],
+      "prior_version": 1,
+      "certification": "NOT_GLOBALLY_CERTIFIED",
+      "scope": "Exact claim and assumptions as stated; prior reports are bounded mathematical reviews, not global certification.",
+      "review_disposition": "REVIEWED_WITH_STATED_SCOPE",
+      "reviews": [
+        {
+          "reviewer": "C02",
+          "claim_version_reviewed": 1,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C02/review.md",
+            "sha256": "62ca9a2d65d6b7d5ae84a5e6fee989ce36ac31280b75ecf4b148c2c0a103ea5f"
+          },
+          "scope": "See version-specific disposition and exclusions in full raw report; no global certificate."
+        }
+      ],
+      "regressions": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/known-counterexamples.md"
+      ],
+      "claim_kind": "mathematical_statement",
+      "downstream": [
+        "D0"
+      ]
+    },
+    {
+      "id": "D0",
+      "version": 2,
+      "statement": "B1 is retired as a negligible-error completion route in the tested iid independent public-shear scope, while its exact public source reduction remains valid. No blanket exclusion of public-only hybrids or adequately quantified finite-advantage transfers.",
+      "dependencies": [
+        {
+          "id": "BSH",
+          "version": 1
+        },
+        {
+          "id": "BNG",
+          "version": 1
+        }
+      ],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation"
+      ],
+      "evidence": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/candidates/B.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/D02.md"
+      ],
+      "evidence_versions": [
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/candidates/B.md",
+          "sha256": "b2639b1a855280b5499b8c462f7c586d9c4c400c8e99d15150356dd0a08f2907"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/D02.md",
+          "sha256": "0bae1a41a7318febdbb40162e6008c36061d959d2eb0daa7050fc7f9c55fde53"
+        }
+      ],
+      "prior_version": 2,
+      "certification": "NOT_GLOBALLY_CERTIFIED",
+      "scope": "Retires the independent iid public-shear route for negligible strong retained-F noise error at the main widths. Does not refute public-only/nonlinear/correlated simulators or quantified finite-advantage transfers.",
+      "review_disposition": "REVIEWED_SCOPED_RETIREMENT",
+      "reviews": [
+        {
+          "reviewer": "C02",
+          "claim_version_reviewed": 2,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C02/review.md",
+            "sha256": "62ca9a2d65d6b7d5ae84a5e6fee989ce36ac31280b75ecf4b148c2c0a103ea5f"
+          },
+          "scope": "See version-specific disposition and exclusions in full raw report; no global certificate."
+        }
+      ],
+      "regressions": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/known-counterexamples.md"
+      ],
+      "claim_kind": "scoped_retirement",
+      "downstream": []
+    },
+    {
+      "id": "NO1",
+      "version": 1,
+      "statement": "Under the independent-additive retained-variable noise premise and tau>=tau0>0, conditional TV epsilon forces max centered F coefficient squared <=(pi sigma²+2q²epsilon)/(16 D_tau0(1)). Averaged conditioning needs the stated Markov loss. This is not an impossibility for arbitrary public simulators.",
+      "dependencies": [
+        {
+          "id": "N0",
+          "version": 2
+        }
+      ],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation",
+        "primary_source"
+      ],
+      "evidence": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/F02.md"
+      ],
+      "evidence_versions": [
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/F02.md",
+          "sha256": "bfe968ec197164442a1fd30d547c615b03fb209913257ad57a6ee012b736408c"
+        }
+      ],
+      "prior_version": 1,
+      "certification": "NOT_GLOBALLY_CERTIFIED",
+      "scope": "Exact claim and assumptions as stated; prior reports are bounded mathematical reviews, not global certification.",
+      "review_disposition": "REVIEWED_WITH_STATED_SCOPE",
+      "reviews": [
+        {
+          "reviewer": "C03",
+          "claim_version_reviewed": 1,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C03/review.md",
+            "sha256": "61e42b6236262022f87859882cbe7c42c4a39463c8d57e380ad5adf9589903b1"
+          },
+          "scope": "See version-specific disposition and exclusions in full raw report; no global certificate."
+        }
+      ],
+      "regressions": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/known-counterexamples.md"
+      ],
+      "claim_kind": "mathematical_statement",
+      "external_dependencies": [
+        {
+          "source": "NIST DLMF 20.5.3",
+          "theorem": "Jacobi theta product",
+          "checked_by": "C03 review"
+        }
+      ],
+      "downstream": []
+    },
+    {
+      "id": "DEC",
+      "version": 1,
+      "statement": "On the finite group, pointwise Fourier deconvolution ratios in (0,1] do not imply a probability law. F02 supplies a wrapped-DG Z5 counterexample and a rational signed inverse; Renyi second-moment event transfer does not generally preserve decision advantage.",
+      "dependencies": [],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation"
+      ],
+      "evidence": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/F02.md"
+      ],
+      "evidence_versions": [
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/F02.md",
+          "sha256": "bfe968ec197164442a1fd30d547c615b03fb209913257ad57a6ee012b736408c"
+        }
+      ],
+      "prior_version": 1,
+      "certification": "NOT_GLOBALLY_CERTIFIED",
+      "scope": "Exact claim and assumptions as stated; prior reports are bounded mathematical reviews, not global certification.",
+      "review_disposition": "REVIEWED_WITH_STATED_SCOPE",
+      "reviews": [
+        {
+          "reviewer": "C03",
+          "claim_version_reviewed": 1,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C03/review.md",
+            "sha256": "61e42b6236262022f87859882cbe7c42c4a39463c8d57e380ad5adf9589903b1"
+          },
+          "scope": "See version-specific disposition and exclusions in full raw report; no global certificate."
+        }
+      ],
+      "regressions": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/known-counterexamples.md"
+      ],
+      "claim_kind": "mathematical_statement",
+      "downstream": []
+    },
+    {
+      "id": "ATT",
+      "version": 3,
+      "statement": "For power-of-two n, split odd prime q, b>=1 integer, power-of-two r|n with 2d<=r<=n, and q^(1-d/r)>2nb, a deterministic algorithm accepts every A=U+F with CRT support(U)<=d and integer coefficient F in [-b,b]^n; uniform acceptance is at most min(1,2^r(2b+1)^n/q^(n(1-d/r))). Time exp(O(r))*poly(n,log q,log b), allowing exponential memory. Generic arbitrary-q input includes public CRT roots or a primitive 2n-th root. For A2, deterministic root enumeration is polynomial in n, and r=Theta_c(d) gives exp(O_c(d))*poly(n,log q) time and advantage 1-exp(-Omega_c(n log n)). Source approximation xi_src reduces advantage by at most xi_src. No implementation, concrete security estimate or polynomial-time attack at A2 is claimed.",
+      "dependencies": [
+        {
+          "id": "A2",
+          "version": 1
+        }
+      ],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation",
+        "primary_source"
+      ],
+      "evidence": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/F03-attacks.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/refinement/R02-break-A.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/corrections/ATT-v3.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C02/proposed-ATT-v3.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C01/ATT-recheck.md"
+      ],
+      "evidence_versions": [
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/F03-attacks.md",
+          "sha256": "a6c8321c668c4cf3cd492d362362f14625fd869328322037ac2687c677fc7fea"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/refinement/R02-break-A.md",
+          "sha256": "f6ad32c87995741c7a17a7ee28e22b3370071ab15f1387cca5ce81079f08bf59"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/corrections/ATT-v3.md",
+          "sha256": "4766209d639d73de1252b4eac1343289f9a250e0b79a1ef9731c5bd485066b24"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C02/proposed-ATT-v3.md",
+          "sha256": "1fce3b7ad8c10de075fb161baab32d38786651bd72e059e9e2998a332bd6081f"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C01/ATT-recheck.md",
+          "sha256": "640e4c1af9441ba436ded264a548ad6653a183c9e6974e64680e0600f074b40e"
+        }
+      ],
+      "prior_version": 2,
+      "certification": "NOT_GLOBALLY_CERTIFIED",
+      "scope": "Selected deterministic solver differs from historical ATT v2, which remains valid only with p_alg and actual repetition cost. ATT v3 does not refute polynomial-time P0 at A2.",
+      "review_disposition": "DETERMINISTIC_REPAIR_FRESHLY_RECHECKED_WITH_ROOT_INPUT_CORRECTION",
+      "reviews": [
+        {
+          "reviewer": "C01",
+          "claim_version_reviewed": 3,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C01/ATT-recheck.md",
+            "sha256": "640e4c1af9441ba436ded264a548ad6653a183c9e6974e64680e0600f074b40e"
+          },
+          "scope": "Fresh review of deterministic solver plus generic public-root correction; A2 preprocessing checked."
+        }
+      ],
+      "regressions": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/known-counterexamples.md"
+      ],
+      "claim_kind": "mathematical_statement",
+      "external_dependencies": [
+        {
+          "source": "Boudgoust--Gachon--Pellet-Mary ePrint 2022/709",
+          "theorem": "Theorem 3.2, Lemma 3.3, Section 3.2 and Corollary 4.2",
+          "checked_by": "C01 ATT recheck and C02 proposal"
+        },
+        {
+          "source": "Micciancio--Voulgaris ECCC TR10-014 revision 1",
+          "theorem": "Section 2 rectangular integer representation; Corollary 5.5",
+          "checked_by": "C01 ATT recheck and C02 proposal"
+        }
+      ],
+      "downstream": []
+    },
+    {
+      "id": "UNIQ",
+      "version": 1,
+      "statement": "If q^(1-2d/n)>2b sqrt(n) and 2b<q, a box-bounded decomposition A=U+F with CRT support(U)<=d has unique F, by divisibility and an upper bound on the cyclotomic norm. Active U then determines T. This gives no efficient decoder.",
+      "dependencies": [
+        {
+          "id": "A2",
+          "version": 1
+        }
+      ],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation"
+      ],
+      "evidence": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/D02-A-correlation.md"
+      ],
+      "evidence_versions": [
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/D02-A-correlation.md",
+          "sha256": "d78e46bb226fe1388df2d922227016ff57875bfabd4b81580204f338fc341305"
+        }
+      ],
+      "prior_version": 1,
+      "certification": "NOT_GLOBALLY_CERTIFIED",
+      "scope": "Exact claim and assumptions as stated; prior reports are bounded mathematical reviews, not global certification.",
+      "review_disposition": "REVIEWED_WITH_STATED_SCOPE",
+      "reviews": [
+        {
+          "reviewer": "C02",
+          "claim_version_reviewed": 1,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C02/review.md",
+            "sha256": "62ca9a2d65d6b7d5ae84a5e6fee989ce36ac31280b75ecf4b148c2c0a103ea5f"
+          },
+          "scope": "See version-specific disposition and exclusions in full raw report; no global certificate."
+        }
+      ],
+      "regressions": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/known-counterexamples.md"
+      ],
+      "claim_kind": "mathematical_statement",
+      "downstream": []
+    },
+    {
+      "id": "CHAR",
+      "version": 2,
+      "statement": "For exact A2, each fixed nontrivial additive pair character has negligible bias, bounded by R02.9 using the exact active-U factor and the full H_seq conditional F law. This excludes only fixed characters and polynomial-l1 fixed linear combinations, not arbitrary efficient tests or statistical distinguishability.",
+      "dependencies": [
+        {
+          "id": "A2",
+          "version": 1
+        },
+        {
+          "id": "NC1",
+          "version": 2
+        }
+      ],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation"
+      ],
+      "evidence": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/refinement/R02-break-A.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/corrections/NC1-v2-and-dependencies.md"
+      ],
+      "evidence_versions": [
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/refinement/R02-break-A.md",
+          "sha256": "f6ad32c87995741c7a17a7ee28e22b3370071ab15f1387cca5ce81079f08bf59"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/corrections/NC1-v2-and-dependencies.md",
+          "sha256": "a801c12d79a1d74093cc0a7ab265e2d4580521dafaf823694bc905011f15cad1"
+        }
+      ],
+      "prior_version": 1,
+      "certification": "NOT_GLOBALLY_CERTIFIED",
+      "scope": "Fixed additive characters and polynomial-l1 fixed combinations only. C02 checked v1 including useful-domain estimates; NC1 dependency changed to v2 and was checked separately by C03. No new proof-blind review of the whole amended CHAR claim is asserted.",
+      "review_disposition": "REVIEWED_WITH_STATED_SCOPE",
+      "reviews": [
+        {
+          "reviewer": "C02",
+          "claim_version_reviewed": 1,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C02/review.md",
+            "sha256": "62ca9a2d65d6b7d5ae84a5e6fee989ce36ac31280b75ecf4b148c2c0a103ea5f"
+          },
+          "scope": "See version-specific disposition and exclusions in full raw report; no global certificate."
+        }
+      ],
+      "regressions": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/known-counterexamples.md"
+      ],
+      "claim_kind": "mathematical_statement",
+      "downstream": []
+    },
+    {
+      "id": "KM",
+      "version": 1,
+      "statement": "The new source ((U_i+F_i,U_i K+H_i)) uses one uniform K independent of full Gamma_m. Under full joint noise/extraction, Adv_target,m<=two common-K source advantages+eta_N,m+eta_X,m, with the stated implementation terms. It needs no individual U bijectivity when this source is defined directly. The finite inequality itself does not assume computational hardness; only its negligible-advantage corollary needs Pm.",
+      "dependencies": [
+        {
+          "id": "Y0",
+          "version": 1
+        }
+      ],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation"
+      ],
+      "evidence": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/D03-common-k.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/multi-sample.md"
+      ],
+      "evidence_versions": [
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/D03-common-k.md",
+          "sha256": "7ba3052a8358f37f3023e4ec37daf8e82b7d5984b334b5a5e8edbdc082092046"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/multi-sample.md",
+          "sha256": "8c464cd2b82e4f1a9d791840aae7f0ca62f793a22fb1cb3f2f5603bb49ac4a17"
+        }
+      ],
+      "prior_version": 1,
+      "certification": "NOT_GLOBALLY_CERTIFIED",
+      "scope": "Exact claim and assumptions as stated; prior reports are bounded mathematical reviews, not global certification.",
+      "review_disposition": "REVIEWED_CONDITIONAL",
+      "reviews": [
+        {
+          "reviewer": "C03",
+          "claim_version_reviewed": 1,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C03/review.md",
+            "sha256": "61e42b6236262022f87859882cbe7c42c4a39463c8d57e380ad5adf9589903b1"
+          },
+          "scope": "See version-specific disposition and exclusions in full raw report; no global certificate."
+        }
+      ],
+      "regressions": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/known-counterexamples.md"
+      ],
+      "claim_kind": "conditional_implication",
+      "downstream": [
+        "M0"
+      ]
+    },
+    {
+      "id": "Pm",
+      "version": 1,
+      "statement": "The exact common-K source of D03, including full sample-major H_seq with cross blocks, is computationally pseudorandom against 2m independent uniform ring elements. This is a new unsupported assumption, not a tensor product of P0-A2.",
+      "dependencies": [],
+      "conditional_on": [],
+      "status": "OPEN",
+      "evidence_labels": [
+        "conjecture"
+      ],
+      "evidence": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/D03-common-k.md"
+      ],
+      "evidence_versions": [
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/D03-common-k.md",
+          "sha256": "7ba3052a8358f37f3023e4ec37daf8e82b7d5984b334b5a5e8edbdc082092046"
+        }
+      ],
+      "prior_version": 1,
+      "certification": "NOT_GLOBALLY_CERTIFIED",
+      "scope": "Exact claim and assumptions as stated; prior reports are bounded mathematical reviews, not global certification.",
+      "review_disposition": "OPEN; NO_MATCHING_INDEPENDENT_SOURCE_REDUCTION",
+      "reviews": [
+        {
+          "reviewer": "C02",
+          "claim_version_reviewed": 1,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C02/review.md",
+            "sha256": "62ca9a2d65d6b7d5ae84a5e6fee989ce36ac31280b75ecf4b148c2c0a103ea5f"
+          },
+          "scope": "See version-specific disposition and exclusions in full raw report; no global certificate."
+        },
+        {
+          "reviewer": "C03",
+          "claim_version_reviewed": 1,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C03/review.md",
+            "sha256": "61e42b6236262022f87859882cbe7c42c4a39463c8d57e380ad5adf9589903b1"
+          },
+          "scope": "See version-specific disposition and exclusions in full raw report; no global certificate."
+        }
+      ],
+      "regressions": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/known-counterexamples.md"
+      ],
+      "claim_kind": "unsupported_computational_hypothesis",
+      "downstream": [
+        "M0"
+      ]
+    },
+    {
+      "id": "MN",
+      "version": 2,
+      "statement": "For prescribed polynomial m, stacked M in Z^(mn by n), sigma_m=2n ell³ sqrt(m), and B=sigma_m²I-tau²MM^T, full discrete completion and H_seq approximation have negligible joint error. Smoothing has dimension n, sampler dimension mn; cross blocks and sigma_m*n^c<=q are required. No unchanged-sigma polynomial-m theorem.",
+      "dependencies": [
+        {
+          "id": "NC1",
+          "version": 2
+        },
+        {
+          "id": "A2",
+          "version": 1
+        }
+      ],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation"
+      ],
+      "evidence": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/D03-common-k.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/corrections/NC1-v2-and-dependencies.md"
+      ],
+      "evidence_versions": [
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/D03-common-k.md",
+          "sha256": "7ba3052a8358f37f3023e4ec37daf8e82b7d5984b334b5a5e8edbdc082092046"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/corrections/NC1-v2-and-dependencies.md",
+          "sha256": "a801c12d79a1d74093cc0a7ab265e2d4580521dafaf823694bc905011f15cad1"
+        }
+      ],
+      "prior_version": 1,
+      "certification": "NOT_GLOBALLY_CERTIFIED",
+      "scope": "Prescribed polynomial m, sample-major H_seq with full cross blocks, sigma_m=sqrt(m)*sigma_1 and sigma_m*n^c<=q. Neither unchanged-width expansion nor Pm hardness follows.",
+      "review_disposition": "STACKED_COMPLETION_REVIEWED; NC1_GUARDS_RECHECKED",
+      "reviews": [
+        {
+          "reviewer": "C03",
+          "claim_version_reviewed": 1,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C03/review.md",
+            "sha256": "61e42b6236262022f87859882cbe7c42c4a39463c8d57e380ad5adf9589903b1"
+          },
+          "scope": "See version-specific disposition and exclusions in full raw report; no global certificate."
+        },
+        {
+          "reviewer": "C03",
+          "claim_version_reviewed": 2,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C03/review.md",
+            "sha256": "61e42b6236262022f87859882cbe7c42c4a39463c8d57e380ad5adf9589903b1"
+          },
+          "scope": "Stacked application unchanged after NC1 v2; sample/modulus restrictions retained."
+        }
+      ],
+      "regressions": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/known-counterexamples.md"
+      ],
+      "claim_kind": "mathematical_statement",
+      "downstream": [
+        "M0"
+      ]
+    },
+    {
+      "id": "LEAK",
+      "version": 1,
+      "statement": "Separate observations Y_i=S+G_i retain one S and have quotient consistency and leakage constraints. Full recovery has failure <=n exp(-pi m/(4tau²))+2nm exp(-pi(q-3)²/(4tau²)). Entropy forces eta_ext>=1-[H(S|Y_vec)+1]/[d log2q]; for A2 m=Ctau²ln n,C>2/pi gives distance 1-o(1). This concerns exposed auxiliary variables, not an RLWE transcript attack.",
+      "dependencies": [
+        {
+          "id": "A2",
+          "version": 1
+        }
+      ],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation"
+      ],
+      "evidence": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/D03.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/refinement/R03-interface-audit.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/multi-sample.md"
+      ],
+      "evidence_versions": [
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/D03.md",
+          "sha256": "28bf75236f6646429519c5930ad73e6e4a416b4fac38dd3c8916f6fcb5ead495"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/refinement/R03-interface-audit.md",
+          "sha256": "ff47bae8fabbcac42a6a4c1c0fe0bab27a355975f058b9b20fa485ed7f9d453a"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/multi-sample.md",
+          "sha256": "8c464cd2b82e4f1a9d791840aae7f0ca62f793a22fb1cb3f2f5603bb49ac4a17"
+        }
+      ],
+      "prior_version": 1,
+      "certification": "NOT_GLOBALLY_CERTIFIED",
+      "scope": "Exposed auxiliary observations only. A2 threshold uses m=Ctau^2 ln n,C>2/pi; A1 logarithmic threshold is not substituted. This is not a public RLWE attack.",
+      "review_disposition": "REVIEWED_WITH_STATED_SCOPE",
+      "reviews": [
+        {
+          "reviewer": "C03",
+          "claim_version_reviewed": 1,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C03/review.md",
+            "sha256": "61e42b6236262022f87859882cbe7c42c4a39463c8d57e380ad5adf9589903b1"
+          },
+          "scope": "See version-specific disposition and exclusions in full raw report; no global certificate."
+        }
+      ],
+      "regressions": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/known-counterexamples.md"
+      ],
+      "claim_kind": "mathematical_statement",
+      "downstream": [
+        "M0"
+      ]
+    },
+    {
+      "id": "REC",
+      "version": 1,
+      "statement": "For exact planted recovery success epsilon from m inputs, self-verification against residual set T yields Adv_dec,m>=epsilon-m delta_T-2^n v_T^m. Held-out h verification yields Adv_dec,m+h>=epsilon(1-delta_T)^h-v_T^h. Baseline residual box makes self-verification losses negligible, so no held-out samples are needed under its own m-sample decision premise.",
+      "dependencies": [],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation"
+      ],
+      "evidence": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/F01.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/D03.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/multi-sample.md"
+      ],
+      "evidence_versions": [
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/F01.md",
+          "sha256": "c6a09c470a6d2e8b62f0e592d6b7fae4c87d89cca4179c597d2a296c5fd22039"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/D03.md",
+          "sha256": "28bf75236f6646429519c5930ad73e6e4a416b4fac38dd3c8916f6fcb5ead495"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/multi-sample.md",
+          "sha256": "8c464cd2b82e4f1a9d791840aae7f0ca62f793a22fb1cb3f2f5603bb49ac4a17"
+        }
+      ],
+      "prior_version": 1,
+      "certification": "NOT_GLOBALLY_CERTIFIED",
+      "scope": "Exact claim and assumptions as stated; prior reports are bounded mathematical reviews, not global certification.",
+      "review_disposition": "REVIEWED_WITH_STATED_SCOPE",
+      "reviews": [
+        {
+          "reviewer": "C01",
+          "claim_version_reviewed": 1,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C01/review.md",
+            "sha256": "010715d762513148506589cdb432e6fb619eeac30f4cb413985f1e7b6d98b88b"
+          },
+          "scope": "See version-specific disposition and exclusions in full raw report; no global certificate."
+        },
+        {
+          "reviewer": "C03",
+          "claim_version_reviewed": 1,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C03/review.md",
+            "sha256": "61e42b6236262022f87859882cbe7c42c4a39463c8d57e380ad5adf9589903b1"
+          },
+          "scope": "See version-specific disposition and exclusions in full raw report; no global certificate."
+        }
+      ],
+      "regressions": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/known-counterexamples.md"
+      ],
+      "claim_kind": "mathematical_statement",
+      "downstream": [
+        "S0"
+      ]
+    },
+    {
+      "id": "M0",
+      "version": 3,
+      "statement": "No polynomial-sample result for one fixed reference target follows from the one-pair source assumption. D03 gives a separate conditional common-K theorem with full joint completion, parameter changes and an unsupported new source premise.",
+      "dependencies": [
+        {
+          "id": "KM",
+          "version": 1
+        },
+        {
+          "id": "MN",
+          "version": 2
+        },
+        {
+          "id": "LEAK",
+          "version": 1
+        }
+      ],
+      "conditional_on": [
+        {
+          "id": "Pm",
+          "version": 1
+        }
+      ],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation"
+      ],
+      "evidence": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/multi-sample.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/corrections/NC1-v2-and-dependencies.md"
+      ],
+      "evidence_versions": [
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/multi-sample.md",
+          "sha256": "8c464cd2b82e4f1a9d791840aae7f0ca62f793a22fb1cb3f2f5603bb49ac4a17"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/corrections/NC1-v2-and-dependencies.md",
+          "sha256": "a801c12d79a1d74093cc0a7ab265e2d4580521dafaf823694bc905011f15cad1"
+        }
+      ],
+      "prior_version": 2,
+      "certification": "NOT_GLOBALLY_CERTIFIED",
+      "scope": "Exact claim and assumptions as stated; prior reports are bounded mathematical reviews, not global certification.",
+      "review_disposition": "REVIEWED_CONDITIONAL; PMSOURCE_OPEN",
+      "reviews": [
+        {
+          "reviewer": "C02",
+          "claim_version_reviewed": 2,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C02/review.md",
+            "sha256": "62ca9a2d65d6b7d5ae84a5e6fee989ce36ac31280b75ecf4b148c2c0a103ea5f"
+          },
+          "scope": "See version-specific disposition and exclusions in full raw report; no global certificate."
+        },
+        {
+          "reviewer": "C03",
+          "claim_version_reviewed": 2,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C03/review.md",
+            "sha256": "61e42b6236262022f87859882cbe7c42c4a39463c8d57e380ad5adf9589903b1"
+          },
+          "scope": "See version-specific disposition and exclusions in full raw report; no global certificate."
+        }
+      ],
+      "regressions": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/known-counterexamples.md"
+      ],
+      "claim_kind": "scope_limitation_and_conditional_extension",
+      "downstream": []
+    },
+    {
+      "id": "S0",
+      "version": 3,
+      "statement": "Under AN v2 and P0-A2 v2, B0 v1 and REC v1 give the one-sample A2 negligible exact planted-recovery consequence in the baseline residual regime. The general finite REC comparison retains all B0 statistical/implementation losses. Larger sample budgets need their own decision premise; verification does not identify the original witness and no mild-search/oracle amplification is imported.",
+      "dependencies": [
+        {
+          "id": "AN",
+          "version": 2
+        },
+        {
+          "id": "B0",
+          "version": 1
+        },
+        {
+          "id": "REC",
+          "version": 1
+        }
+      ],
+      "conditional_on": [
+        {
+          "id": "P0",
+          "version": 2
+        }
+      ],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation"
+      ],
+      "evidence": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/bridge.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/multi-sample.md",
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/corrections/NC1-v2-and-dependencies.md"
+      ],
+      "evidence_versions": [
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/bridge.md",
+          "sha256": "c14f0ec141c471be0b9f4621661747abf4d29067353cb5db10932c8b14d974c9"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/multi-sample.md",
+          "sha256": "8c464cd2b82e4f1a9d791840aae7f0ca62f793a22fb1cb3f2f5603bb49ac4a17"
+        },
+        {
+          "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/corrections/NC1-v2-and-dependencies.md",
+          "sha256": "a801c12d79a1d74093cc0a7ab265e2d4580521dafaf823694bc905011f15cad1"
+        }
+      ],
+      "prior_version": 2,
+      "certification": "NOT_GLOBALLY_CERTIFIED",
+      "scope": "Exact claim and assumptions as stated; prior reports are bounded mathematical reviews, not global certification.",
+      "review_disposition": "DEPENDENCY_REPAIR_FRESHLY_RECHECKED; CONDITIONAL_ON_AN_AND_P0",
+      "reviews": [
+        {
+          "reviewer": "C01",
+          "claim_version_reviewed": 2,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C01/review.md",
+            "sha256": "010715d762513148506589cdb432e6fb619eeac30f4cb413985f1e7b6d98b88b"
+          },
+          "scope": "See version-specific disposition and exclusions in full raw report; no global certificate."
+        },
+        {
+          "reviewer": "C03",
+          "claim_version_reviewed": 2,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C03/review.md",
+            "sha256": "61e42b6236262022f87859882cbe7c42c4a39463c8d57e380ad5adf9589903b1"
+          },
+          "scope": "See version-specific disposition and exclusions in full raw report; no global certificate."
+        },
+        {
+          "reviewer": "C01",
+          "claim_version_reviewed": 3,
+          "report": {
+            "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C01/review.md",
+            "sha256": "010715d762513148506589cdb432e6fb619eeac30f4cb413985f1e7b6d98b88b"
+          },
+          "scope": "Proposed S0 v3 with AN v2 explicitly closes C01-O1, conditional on AN/P0."
+        }
+      ],
+      "regressions": [
+        "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/known-counterexamples.md"
+      ],
+      "claim_kind": "conditional_implication",
+      "downstream": []
+    },
+    {
+      "id": "W1",
+      "version": 1,
+      "statement": "Determine whether an explicit independently noised hidden-ideal or primary-source challenge admits a public polynomial-time transformation to exact P0-A2 with both worlds and all errors accounted.",
+      "dependencies": [
+        {
+          "id": "A2",
+          "version": 1
+        },
+        {
+          "id": "P0",
+          "version": 2
+        }
+      ],
+      "assumptions": [
+        "Frozen T0 and full RESEARCH_SCOPE.md",
+        "m=1; no multi-sample development gate approved"
+      ],
+      "status": "OPEN",
+      "evidence": [],
+      "regressions": [
+        "all inherited controls as applicable"
+      ],
+      "reviews": [],
+      "disposition": "ASSIGNED triage; exact deadline 2026-09-06T21:19:15Z"
+    },
+    {
+      "id": "W2",
+      "version": 1,
+      "statement": "Determine whether exact A2 admits a polynomial distinguisher, a developed runtime improvement over ATT v3, or a noncircular ideal-decoding interface.",
+      "dependencies": [
+        {
+          "id": "A2",
+          "version": 1
+        },
+        {
+          "id": "ATT",
+          "version": 3
+        },
+        {
+          "id": "UNIQ",
+          "version": 1
+        },
+        {
+          "id": "CHAR",
+          "version": 2
+        }
+      ],
+      "assumptions": [
+        "Frozen T0 and full RESEARCH_SCOPE.md",
+        "m=1; no multi-sample development gate approved"
+      ],
+      "status": "OPEN",
+      "evidence": [],
+      "regressions": [
+        "all inherited controls as applicable"
+      ],
+      "reviews": [],
+      "disposition": "ASSIGNED triage; exact deadline 2026-09-06T21:19:15Z"
+    },
+    {
+      "id": "W3",
+      "version": 1,
+      "statement": "Determine whether a full public-observable hybrid permits one alternative supported source law in the shared A2 target regime.",
+      "dependencies": [
+        {
+          "id": "A2",
+          "version": 1
+        },
+        {
+          "id": "B0",
+          "version": 1
+        },
+        {
+          "id": "BNG",
+          "version": 1
+        }
+      ],
+      "assumptions": [
+        "Frozen T0 and full RESEARCH_SCOPE.md",
+        "m=1; no multi-sample development gate approved"
+      ],
+      "status": "OPEN",
+      "evidence": [
+        {
+          "path": "workstreams/W3/note.md",
+          "sha256": "f384009dde9fccd34dd9c7ff98545644a579b447a24d5bf59f1b42f2ee3d8e4d"
+        }
+      ],
+      "regressions": [
+        "all inherited controls as applicable"
+      ],
+      "reviews": [],
+      "disposition": "General bridge statement reopened for explicit independence repair; fixed ring rank claim remains separately provisional."
+    },
+    {
+      "id": "T0-RESULT",
+      "version": 1,
+      "statement": "The investigation supports a complete hardness implication only if an independently supported computational source and all analytic and reduction dependencies close.",
+      "dependencies": [
+        {
+          "id": "W1",
+          "version": 1
+        },
+        {
+          "id": "W2",
+          "version": 1
+        },
+        {
+          "id": "W3",
+          "version": 1
+        },
+        {
+          "id": "A0",
+          "version": 3
+        }
+      ],
+      "assumptions": [
+        "Frozen T0 and full RESEARCH_SCOPE.md",
+        "m=1; no multi-sample development gate approved"
+      ],
+      "status": "OPEN",
+      "evidence": [],
+      "regressions": [
+        "all inherited controls as applicable"
+      ],
+      "reviews": [],
+      "disposition": "General bridge repaired-premise review pending; P0 remains unsupported."
+    },
+    {
+      "id": "W3-OBS",
+      "version": 2,
+      "statement": "For Src_ind=(U+F,V+E0) with independent target noise E0, proof-only Hhat satisfying full retained Nhat and Xhat yields TV((U+F,(U+F)S+E),(U+F,V+FS0+E0))<=2 eta_N+eta_X+E[1-|UR|/|I|]. Public B1(a,c)=D(a,as+e), B2(a,c)=D(a,as0+c) give the analogous two-source-advantage bound. This includes active and uniform U as distinct exact laws.",
+      "dependencies": [
+        {
+          "id": "A2",
+          "version": 1
+        },
+        {
+          "id": "NC1",
+          "version": 2
+        },
+        {
+          "id": "X1",
+          "version": 1
+        },
+        {
+          "id": "U0",
+          "version": 2
+        }
+      ],
+      "assumptions": [
+        "Same F and active U as A2; E_sigma independent of entire source tuple",
+        "Source pseudorandomness separately unsupported; m=1"
+      ],
+      "status": "OPEN",
+      "evidence": [
+        {
+          "path": "workstreams/W3/note.md",
+          "sha256": "f384009dde9fccd34dd9c7ff98545644a579b447a24d5bf59f1b42f2ee3d8e4d"
+        }
+      ],
+      "reviews": [],
+      "regressions": [
+        "R02",
+        "R03",
+        "R04",
+        "R08",
+        "R14",
+        "CP-1"
+      ],
+      "disposition": "Reopened after missing joint S/E independence in frozen general review packet; explicit exact-law repair and fresh proof recheck required.",
+      "author_version": "W3-OBS v1"
+    },
+    {
+      "id": "W1-BROADEN",
+      "version": 1,
+      "statement": "Candidate one-call public map broadens only second component of equal-width independently noised HLBDD: add independent D_sqrt(sigma^2-ell^2)^n, producing independent target-width second noise up to guarded convolution error, and charge first-noise truncation. Uniform comparator preserved. Active-U matching remains separate with delta_unit=1-(1-1/q)^d.",
+      "dependencies": [
+        {
+          "id": "NC1",
+          "version": 2
+        },
+        {
+          "id": "A2",
+          "version": 1
+        }
+      ],
+      "assumptions": [
+        "Explicit equal-width same-hidden-ideal HLBDD challenge and common regime must be source checked",
+        "Map preserves actual U law; no negligible active conditioning assumed"
+      ],
+      "status": "PROVISIONAL",
+      "evidence": [
+        {
+          "path": "inputs/frozen/W1-draft-v1-note.md",
+          "sha256": "1d89872f7cb767250f98bbd7a504b0b67035d667afa802dd74b26a4f6d50b689"
+        }
+      ],
+      "reviews": [],
+      "regressions": [
+        "R14",
+        "NC1-v1",
+        "R03"
+      ],
+      "disposition": "Substantial full draft received; remains PROVISIONAL pending exact final freeze and fresh review"
+    },
+    {
+      "id": "W2-SEARCH",
+      "version": 1,
+      "statement": "Candidate reduction: an active-U first-component F decoder gives a known-support average-case partial-Vandermonde knapsack solver by publicly filling unknown CRT coordinates uniformly, with success at least (1-1/q)^d times active-source decoder success. This is positive-event search transfer, not a decision hardness theorem.",
+      "dependencies": [
+        {
+          "id": "A2",
+          "version": 1
+        },
+        {
+          "id": "UNIQ",
+          "version": 1
+        }
+      ],
+      "assumptions": [
+        "Precisely specified random support, coefficient F distribution and known-support challenge required",
+        "Public simulator does not sample F-dependent H_seq from unknown F"
+      ],
+      "status": "PROVISIONAL",
+      "evidence": [
+        "preliminary message /root/w2_structure"
+      ],
+      "reviews": [],
+      "regressions": [
+        "R13",
+        "R14",
+        "R07"
+      ],
+      "disposition": "Full statement and proof pending; no source support inferred"
+    },
+    {
+      "id": "W1-AKEEP",
+      "version": 1,
+      "statement": "No exact stochastic map that keeps A unchanged and maps uniform pairs exactly to uniform pairs can send the independently D_sigma-noised active-U source to exact A2, under first-mask uniqueness and proper ideal support. Proposed proof uses doubly stochastic conditional kernels and conditional L2 contraction on positive-mass F=1 fibers.",
+      "dependencies": [
+        {
+          "id": "A2",
+          "version": 1
+        },
+        {
+          "id": "UNIQ",
+          "version": 1
+        }
+      ],
+      "assumptions": [
+        "Exact frozen T0; additional stated finite gates must be verified in saved proof"
+      ],
+      "status": "PROVISIONAL",
+      "evidence": [
+        {
+          "path": "inputs/frozen/W1-draft-v1-note.md",
+          "sha256": "1d89872f7cb767250f98bbd7a504b0b67035d667afa802dd74b26a4f6d50b689"
+        }
+      ],
+      "reviews": [],
+      "regressions": [
+        "all relevant imported controls; new targeted checks pending"
+      ],
+      "disposition": "Substantial full draft received; remains PROVISIONAL pending exact final freeze and fresh review"
+    },
+    {
+      "id": "W3-RANK-PUBLIC",
+      "version": 2,
+      "statement": "For W3-OBS uniform-U public laws P=(U+F,US+FS+E), Q=(U+F,V+FS0+E0), put R0=ceil(sigma ell), B0=nb+R0 and delta_E<=2n exp(-pi ell^2). Under 2b<q, q^(1-2d/n)>2b sqrt(n), q^(1-d/n)>2B0 sqrt(n), TV(P,Q)>=max(0,eta_iso-2delta_E). The witness enumerates unique bounded F and tests membership in the actual U-support ideal plus Box(B0). Gates hold eventually for c>1/2; the witness is exponential, not PPT.",
+      "dependencies": [
+        {
+          "id": "A2",
+          "version": 1
+        },
+        {
+          "id": "UNIQ",
+          "version": 1
+        },
+        {
+          "id": "U0",
+          "version": 2
+        }
+      ],
+      "assumptions": [
+        "Exact frozen T0; additional stated finite gates must be verified in saved proof"
+      ],
+      "status": "PROVISIONAL",
+      "evidence": [
+        {
+          "path": "workstreams/W3/note.md",
+          "sha256": "f384009dde9fccd34dd9c7ff98545644a579b447a24d5bf59f1b42f2ee3d8e4d"
+        }
+      ],
+      "reviews": [],
+      "regressions": [
+        "all relevant imported controls; new targeted checks pending"
+      ],
+      "disposition": "Full author proof received; PROVISIONAL. Coordinator v2 freezes exact ell-based radius and tail from prior preliminary log-based radius.",
+      "author_version": "W3-RANK v1"
+    },
+    {
+      "id": "W2-ORB",
+      "version": 1,
+      "statement": "Proposed random-support grouped-orbit ATT variant uses empty orbits: for r equal root orbits, E empty has mean mu=r*C(n-n/r,d)/C(n,d) and Var(E)<=mu; under q^alpha>2nb and mu>alpha*r, planted acceptance >=1-mu/(mu-alpha*r)^2, uniform acceptance <=2^r(2b+1)^n/q^(alpha*n), cost exp(O(r))*poly. Precomputed branches cover with probability <=2^r(1-alpha)^d.",
+      "dependencies": [
+        {
+          "id": "A2",
+          "version": 1
+        },
+        {
+          "id": "ATT",
+          "version": 3
+        }
+      ],
+      "assumptions": [
+        "Exact frozen T0; additional stated finite gates must be verified in saved proof"
+      ],
+      "status": "PROVISIONAL",
+      "evidence": [
+        "preliminary worker message; full note pending"
+      ],
+      "reviews": [],
+      "regressions": [
+        "all relevant imported controls; new targeted checks pending"
+      ],
+      "disposition": "Provisional constants improvement and obstruction within specified partition/branch class; no polynomial attack or unrestricted lower bound."
+    },
+    {
+      "id": "W1-ENTROPY",
+      "version": 2,
+      "statement": "For A-preserving exactly uniform-pair-preserving Markov maps from independent D_sigma active source to A2, under uniqueness and q^(1-d/n)>2sigma ell sqrt(n), output TV epsilon obeys epsilon*n ln q+h2(epsilon)>=g, with g=exp(-pi)/(12ell^2)-2n e_h-L_tail and explicit discrete entropy/tail errors in the proof; g>0 eventually for c>1/2.",
+      "dependencies": [
+        {
+          "id": "A2",
+          "version": 1
+        },
+        {
+          "id": "UNIQ",
+          "version": 1
+        },
+        {
+          "id": "NC1",
+          "version": 2
+        },
+        {
+          "id": "W1-AKEEP",
+          "version": 1
+        }
+      ],
+      "status": "PROVISIONAL",
+      "assumptions": [
+        "Discrete entropy and exceptional-tail entropy bounds remain unproved",
+        "Stochastic public map keeps A unchanged and preserves uniform pair exactly"
+      ],
+      "evidence": [
+        "coordinator/entropy-frontier-v1.md",
+        "coordinator/entropy-frontier-v2.md",
+        {
+          "path": "inputs/frozen/W1-draft-v1-note.md",
+          "sha256": "1d89872f7cb767250f98bbd7a504b0b67035d667afa802dd74b26a4f6d50b689"
+        }
+      ],
+      "reviews": [],
+      "regressions": [
+        "C03-HC2",
+        "C02-LATENT-PUBLIC",
+        "PUBLIC-ENCODED-F"
+      ],
+      "disposition": "Open entropy obligations developed into full candidate theorem; coordinator and W1 coauthors, no fresh review yet"
+    },
+    {
+      "id": "W1-KERNEL-ATT",
+      "version": 1,
+      "statement": "Candidate: an efficiently repeatable public sampler given A alone for exact or negligible-distance canonical H_seq(F) gives a polynomial first-marginal distinguisher by covariance estimation and integer autocorrelation rounding. R=F F† is recovered, A A†-R has CRT support <=2d, and bounded self-adjoint R counting gives negligible false acceptance on uniform A.",
+      "dependencies": [
+        {
+          "id": "A2",
+          "version": 1
+        },
+        {
+          "id": "NC1",
+          "version": 2
+        }
+      ],
+      "assumptions": [
+        "Sampler output uses fresh independent coins on repeated fixed A and has the exact latent kernel conditional that A",
+        "q<=n^K so polynomial covariance sample count in q remains polynomial in n",
+        "This is not an arbitrary pair map using C or an algorithm available from one source sample"
+      ],
+      "status": "PROVISIONAL",
+      "evidence": [
+        {
+          "path": "inputs/frozen/W1-draft-v1-note.md",
+          "sha256": "1d89872f7cb767250f98bbd7a504b0b67035d667afa802dd74b26a4f6d50b689"
+        }
+      ],
+      "reviews": [],
+      "regressions": [
+        "R04",
+        "R08",
+        "R14",
+        "C03-HC2",
+        "PUBLIC-ENCODED-F"
+      ],
+      "disposition": "Substantial full draft received; remains PROVISIONAL pending exact final freeze and fresh review"
+    },
+    {
+      "id": "W1-UNIFORM-ENT",
+      "version": 1,
+      "statement": "For ANY Markov map on R_q^2 preserving the exactly uniform pair, the W1-ENTROPY gap implies epsilon*2n ln q+h2(epsilon)>=g and epsilon>=g^2/(2n ln q+2)^2; A need not be preserved. This applies to broad independent-noise to A2 simulation for c>1/2. Approximate uniform preservation is explicitly excluded.",
+      "dependencies": [
+        {
+          "id": "W1-ENTROPY",
+          "version": 2
+        }
+      ],
+      "assumptions": [
+        "Exact uniform comparator preservation; same initial and target A marginal",
+        "Finite strict uniqueness and box-injection gates of entropy proof"
+      ],
+      "status": "PROVISIONAL",
+      "evidence": [
+        {
+          "path": "inputs/frozen/W1-draft-v1-note.md",
+          "sha256": "1d89872f7cb767250f98bbd7a504b0b67035d667afa802dd74b26a4f6d50b689"
+        }
+      ],
+      "reviews": [],
+      "regressions": [
+        "UNIFORM-APPROX-COLLAPSE",
+        "C03-HC2",
+        "C02-LATENT-PUBLIC"
+      ],
+      "disposition": "Full candidate global-entropy extension, coauthored coordinator/W1; no fresh review"
+    },
+    {
+      "id": "W1-POSTERIOR",
+      "version": 1,
+      "statement": "Exact latent posterior sampling can produce the intended planted mixture, but its uniform-input output requires a separate likelihood-weighted second-world equation with zero-mass fallback branches. In unique-F A2, an exact F posterior sampler decodes F and yields a support/box distinguisher.",
+      "dependencies": [
+        {
+          "id": "UNIQ",
+          "version": 1
+        },
+        {
+          "id": "A2",
+          "version": 1
+        }
+      ],
+      "assumptions": [
+        "Explicit finite source/posterior distributions and public uniform comparator as defined in proof"
+      ],
+      "status": "PROVISIONAL",
+      "evidence": [
+        {
+          "path": "inputs/frozen/W1-draft-v1-note.md",
+          "sha256": "1d89872f7cb767250f98bbd7a504b0b67035d667afa802dd74b26a4f6d50b689"
+        }
+      ],
+      "reviews": [],
+      "regressions": [
+        "R02",
+        "R08",
+        "R13"
+      ],
+      "disposition": "Full draft conditional-interface warning; no posterior sampler supplied"
+    },
+    {
+      "id": "B01-LITERAL-A",
+      "version": 1,
+      "statement": "Literal B01-M1 statements A1/A2 without explicit joint independence of S and E have their claimed zero-error consequences.",
+      "dependencies": [],
+      "assumptions": [
+        "Exact frozen B01-M1 wording"
+      ],
+      "status": "REJECTED",
+      "evidence": [
+        "criticism/B01/model-v1.md",
+        "criticism/B01/partial.md",
+        "B01 worker counterexample message"
+      ],
+      "reviews": [],
+      "regressions": [
+        "SE-CORRELATION-F3"
+      ],
+      "disposition": "Counterexample has E=-S; source uniform but target event a=1,c=0 has advantage 2/9."
+    }
+  ],
+  "import_provenance": {
+    "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/consolidated/joint-ideal-20260906/claims.json",
+    "sha256": "a48c4849c421aea72b55b6d38e6aece10da47c4725b443ca0bec497821bbcf65"
+  },
+  "checkpoint_note": "B01 identified a literal missing S/E joint-independence premise in coordinator packet B01-M1. Over F3 with U=1,F uniform,S uniform,E=-S,G,H uniform, both stated statistical errors and rank defect vanish but P and target have TV 2/9 from uniform. Literal B01 A1/A2 rejected. W3-OBS and downstream W3/T0 reopened pending an explicit joint-law repair and fresh nonauthor recheck; fixed ring statement B has independent errors and is outside this objection. W2 final triage report received; no polynomial or exp(o(d)) attack and no decisional P0 support."
+}

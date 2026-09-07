@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "updated_utc": "2026-09-06T19:57:58.916607+00:00",
+  "controls": [
+    {
+      "id": "R01",
+      "exact_record": "| R01 | Binomial ideal masks have blocks scalar times known geometric vectors. Enumerating a and a scalar in F_q costs polynomial time; false positive <= L q (|E|/q)^L, for coefficient-small E. | candidates/C01.md; candidates/C01/calculations.md. Retire that sampler, not arbitrary rich supports. |",
+      "expected_outcome": "Binomial ideal masks have blocks scalar times known geometric vectors. Enumerating a and a scalar in F_q costs polynomial time; false positive <= L q (",
+      "provenance": "E",
+      "disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet"
+    },
+    {
+      "id": "R02",
+      "exact_record": "| R02 | Coins C=G, H=E-FG make conditional independence vacuous for arbitrarily large F. | criticism/C01/additive-obstruction.md. Require conditional G law to survive and distinguish public from latent correctness. |",
+      "expected_outcome": "Coins C=G, H=E-FG make conditional independence vacuous for arbitrarily large F.",
+      "provenance": "criticism/C01/additive-obstruction.md. Require conditional G law to survive and distinguish public from latent correctness.",
+      "disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet"
+    },
+    {
+      "id": "R03",
+      "exact_record": "| R03 | A1=A2 uniform has exactly uniform marginals and distinguishable pair. | criticism/C02/checks-and-regressions.md J1. Joint pair assumption mandatory. |",
+      "expected_outcome": "A1=A2 uniform has exactly uniform marginals and distinguishable pair.",
+      "provenance": "criticism/C02/checks-and-regressions.md J1. Joint pair assumption mandatory.",
+      "disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet"
+    },
+    {
+      "id": "R04",
+      "exact_record": "| R04 | E1=Z, E2=(-1)^(S xor T)Z, S,T fair, Z Gaussian: all conditional error marginals Gaussian, but p_guess(S|E1,E2,T)=1-W(0)/2 versus 1/2 without T. | Same, C2. Product Gaussian target cannot be inferred from marginals. |",
+      "expected_outcome": "E1=Z, E2=(-1)^(S xor T)Z, S,T fair, Z Gaussian: all conditional error marginals Gaussian, but p_guess(S",
+      "provenance": "E1,E2,T)=1-W(0)/2 versus 1/2 without T.",
+      "disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet"
+    },
+    {
+      "id": "R05",
+      "exact_record": "| R05 | S,T fair, E=S xor T, A=0: pairwise independence does not give full conditional kernel. | Same, C1. |",
+      "expected_outcome": "S,T fair, E=S xor T, A=0: pairwise independence does not give full conditional kernel.",
+      "provenance": "Same, C1.",
+      "disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet"
+    },
+    {
+      "id": "R06",
+      "exact_record": "| R06 | q=3 half-dimensional quotient family omits one of nine outputs per four bits; TV tends to one despite entropy budget. | scouts/S04.md and experiment_e02.json. Outside reference growing-q regime; entropy alone insufficient. |",
+      "expected_outcome": "q=3 half-dimensional quotient family omits one of nine outputs per four bits; TV tends to one despite entropy budget.",
+      "provenance": "scouts/S04.md and experiment_e02.json. Outside reference growing-q regime; entropy alone insufficient.",
+      "disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet"
+    },
+    {
+      "id": "R07",
+      "exact_record": "| R07 | Field kernel dimension can coexist with no nonzero ternary kernel vector; Boolean lossiness requires actual fibers. | scouts/S05.md. |",
+      "expected_outcome": "Field kernel dimension can coexist with no nonzero ternary kernel vector; Boolean lossiness requires actual fibers.",
+      "provenance": "scouts/S05.md.",
+      "disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet"
+    },
+    {
+      "id": "R08",
+      "exact_record": "| R08 | A secret-dependent precursor can nearly reveal S while the public degraded transcript retains substantial entropy (fixed A=1 control). | criticism/C02/checks-and-regressions.md; E04. Precursor recovery is not public attack. |",
+      "expected_outcome": "A secret-dependent precursor can nearly reveal S while the public degraded transcript retains substantial entropy (fixed A=1 control).",
+      "provenance": "criticism/C02/checks-and-regressions.md; E04. Precursor recovery is not public attack.",
+      "disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet"
+    },
+    {
+      "id": "R09",
+      "exact_record": "| R09 | Strict injection thresholds cannot include equality: n=2,f=1+X has colliding binary 0 and 1+X. Lucas quotient occupancy is index minus one at n=4,8,16, missing (2,1), not full. | Same I1 and E05. No all-degree occupancy claim. |",
+      "expected_outcome": "Strict injection thresholds cannot include equality: n=2,f=1+X has colliding binary 0 and 1+X. Lucas quotient occupancy is index minus one at n=4,8,16, missing (2,1), not full.",
+      "provenance": "Same I1 and E05. No all-degree occupancy claim.",
+      "disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet"
+    },
+    {
+      "id": "R10",
+      "exact_record": "| R10 | No-wrap alone can give uniform acceptance 1 when residual box spans all centered residues. Known denominator or short numerator tests still attack enumerably structured families. | Same D1; scouts/S12.md. |",
+      "expected_outcome": "No-wrap alone can give uniform acceptance 1 when residual box spans all centered residues. Known denominator or short numerator tests still attack enumerably structured families.",
+      "provenance": "Same D1; scouts/S12.md.",
+      "disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet"
+    },
+    {
+      "id": "R11",
+      "exact_record": "| R11 | Half A=0, half A=I noiseless model is sometimes lossy but average recovery ~1/2. | Same H1. Mild/sometimes hardness cannot become negligible average success silently. |",
+      "expected_outcome": "Half A=0, half A=I noiseless model is sometimes lossy but average recovery ~1/2.",
+      "provenance": "Same H1. Mild/sometimes hardness cannot become negligible average success silently.",
+      "disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet"
+    },
+    {
+      "id": "R12",
+      "exact_record": "| R12 | At n=1,q=3,a1=a2=1,t=1, binary (1,0),(0,1) are both verified preimages; verification does not identify original planted witness. | candidates/C03/transport.md. |",
+      "expected_outcome": "At n=1,q=3,a1=a2=1,t=1, binary (1,0),(0,1) are both verified preimages; verification does not identify original planted witness.",
+      "provenance": "candidates/C03/transport.md.",
+      "disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet"
+    },
+    {
+      "id": "R13",
+      "exact_record": "| R13 | Renyi event transfer Q(F)>=P(F)^2/M2(P||Q) requires this orientation; it does not transfer signed decision advantage. | candidates/C03/transport.md; criticism/C03/mathematical-checks.md. |",
+      "expected_outcome": "Renyi event transfer Q(F)>=P(F)^2/M2(P",
+      "provenance": "",
+      "disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet"
+    },
+    {
+      "id": "R14",
+      "exact_record": "| R14 | Uniform ideal U has bad active-unit probability 1-(1-1/q)^d, nonnegligible for polynomial q; conditioning changes the exact source. | candidates/C01.md. |",
+      "expected_outcome": "Uniform ideal U has bad active-unit probability 1-(1-1/q)^d, nonnegligible for polynomial q; conditioning changes the exact source.",
+      "provenance": "candidates/C01.md.",
+      "disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet"
+    },
+    {
+      "id": "R15",
+      "exact_record": "| R15 | Repeated added noise, rotations, independent secrets, or common V_i=U_i K do not supply independent samples sharing S. | BRIDGE_CONTRACT; prior reconciliation; C03 transport. |",
+      "expected_outcome": "Repeated added noise, rotations, independent secrets, or common V_i=U_i K do not supply independent samples sharing S.",
+      "provenance": "BRIDGE_CONTRACT; prior reconciliation; C03 transport.",
+      "disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet"
+    },
+    {
+      "id": "R16",
+      "exact_record": "| R16 | Statistical planted-to-uniform claim fails by existential binary-residual-box test; posterior transport may need hard sampling; tower packing requires unavailable correlated responses. | rejected-or-deferred.md; scouts/S01\u2013S03. Computational and statistical assertions distinct. |",
+      "expected_outcome": "Statistical planted-to-uniform claim fails by existential binary-residual-box test; posterior transport may need hard sampling; tower packing requires unavailable correlated responses.",
+      "provenance": "rejected-or-deferred.md; scouts/S01\u2013S03. Computational and statistical assertions distinct.",
+      "disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet"
+    },
+    {
+      "id": "R17",
+      "exact_record": "| R17 | Independent-matrix moments fail at three-point ring-commutativity terms; public exact symmetries have tiny orbits; QCSD F2 masking loses planted recoverability and odd-q carries; sparse Fourier support gives no general quantum speedup. | rejected-or-deferred.md; scouts/S07\u2013S11. Do not revive these mechanisms by renaming. |",
+      "expected_outcome": "Independent-matrix moments fail at three-point ring-commutativity terms; public exact symmetries have tiny orbits; QCSD F2 masking loses planted recoverability and odd-q carries; sparse Fourier support gives no general quantum speedup.",
+      "provenance": "rejected-or-deferred.md; scouts/S07\u2013S11. Do not revive these mechanisms by renaming.",
+      "disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet"
+    },
+    {
+      "id": "R18",
+      "exact_record": "| R18 | CP-1 cached-prefix regression has event probability .0105 > .01 despite residual per-stage marginal bounds. | mathematical-proof-audit probability-regressions.md. Applicable if multiplying selected-stage probabilities; not a blanket objection to fixed independent coefficient products. |",
+      "expected_outcome": "CP-1 cached-prefix regression has event probability .0105 > .01 despite residual per-stage marginal bounds.",
+      "provenance": "mathematical-proof-audit probability-regressions.md. Applicable if multiplying selected-stage probabilities; not a blanket objection to fixed independent coefficient products.",
+      "disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet"
+    },
+    {
+      "id": "C03-HC1",
+      "evidence": "imports/regressions/01-hand-controls.md",
+      "disposition": "IMPORTED complete exact hand control; applicable scope retained"
+    },
+    {
+      "id": "C03-HC2",
+      "evidence": "imports/regressions/01-hand-controls.md",
+      "disposition": "IMPORTED complete exact hand control; applicable scope retained"
+    },
+    {
+      "id": "C03-HC3",
+      "evidence": "imports/regressions/01-hand-controls.md",
+      "disposition": "IMPORTED complete exact hand control; applicable scope retained"
+    },
+    {
+      "id": "C03-HC4",
+      "evidence": "imports/regressions/01-hand-controls.md",
+      "disposition": "IMPORTED complete exact hand control; applicable scope retained"
+    },
+    {
+      "id": "C03-HC5",
+      "evidence": "imports/regressions/01-hand-controls.md",
+      "disposition": "IMPORTED complete exact hand control; applicable scope retained"
+    },
+    {
+      "id": "C03-HC6",
+      "evidence": "imports/regressions/01-hand-controls.md",
+      "disposition": "IMPORTED complete exact hand control; applicable scope retained"
+    },
+    {
+      "id": "C03-HC7",
+      "evidence": "imports/regressions/01-hand-controls.md",
+      "disposition": "IMPORTED complete exact hand control; applicable scope retained"
+    },
+    {
+      "id": "C02-LATENT-PUBLIC",
+      "scope": "F5 latent/public mismatch",
+      "disposition": "IMPORTED with full source reports"
+    },
+    {
+      "id": "C02-CHAR",
+      "scope": "statistically sparse support despite negligible fixed-character bias",
+      "disposition": "IMPORTED with full source reports"
+    },
+    {
+      "id": "C01-ATT",
+      "scope": "n=2 q=17 strict dual rounding and n=8 orbit/root controls",
+      "disposition": "IMPORTED with full source reports"
+    },
+    {
+      "id": "CP-1",
+      "scope": "cached-prefix .0105>.01",
+      "disposition": "IMPORTED with full source reports"
+    },
+    {
+      "id": "NC1-v1",
+      "scope": "negative denominator counterexample",
+      "disposition": "IMPORTED with full source reports"
+    },
+    {
+      "id": "S0-dependency",
+      "scope": "AN v2 is mandatory for instantiated negligible-loss conclusion",
+      "disposition": "IMPORTED with full source reports"
+    },
+    {
+      "id": "PUBLIC-ENCODED-F",
+      "scope": "Projection preserves latent TV when F is explicitly encoded in A; does not supply efficient A2 decoding",
+      "evidence": "experiments/coordinator_controls_v1.json",
+      "disposition": "Exact toy check passed; complements C02 latent projection erasure"
+    },
+    {
+      "id": "W2-SUBGROUP-BOUNDARY",
+      "exact_model": "n=8,d=2, all subgroup partitions with index<=2; coverage is 1",
+      "evidence": "workstreams/W2/data/subgroup_controls.json",
+      "expected_outcome": "Reject a finite all-subgroup negligible-coverage claim without asymptotic hypotheses rmax=o(d), d>>log^2 n",
+      "disposition": "New worker exact evidence integrated; proof check pending"
+    },
+    {
+      "id": "UNIFORM-APPROX-COLLAPSE",
+      "scope": "A map collapsing an exponentially sparse planted support can preserve uniform input approximately while reducing planted entropy",
+      "evidence": "inputs/frozen/W1-draft-v1-note.md",
+      "expected_outcome": "Reject extension of exact-uniform-preserving entropy no-go to mere negligible-TV comparator preservation",
+      "disposition": "Exact author control received; fresh review pending"
+    }
+  ],
+  "complete_evidence_packets": [
+    {
+      "original": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/known-counterexamples.md",
+      "copy": "imports/regressions/00-known-counterexamples.md",
+      "sha256": "d2fb558136f7d100130ae19cc62f12f73c79521456ea8f1f28466c0ebc097bf7"
+    },
+    {
+      "original": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C03/hand-controls.md",
+      "copy": "imports/regressions/01-hand-controls.md",
+      "sha256": "0ede29402edfef872572855ea8ae3313104bf366a1efcfc8e6cdfd1b9ac09813"
+    },
+    {
+      "original": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C03/objections.md",
+      "copy": "imports/regressions/02-objections.md",
+      "sha256": "782d05de6fc5f3f6e11a4f4f51ae6ef30aaa4aa9aa1bf4c0cc117178dc24f2da"
+    },
+    {
+      "original": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C02/review.md",
+      "copy": "imports/regressions/03-review.md",
+      "sha256": "62ca9a2d65d6b7d5ae84a5e6fee989ce36ac31280b75ecf4b148c2c0a103ea5f"
+    },
+    {
+      "original": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C01/ATT-recheck.md",
+      "copy": "imports/regressions/04-ATT-recheck.md",
+      "sha256": "640e4c1af9441ba436ded264a548ad6653a183c9e6974e64680e0600f074b40e"
+    },
+    {
+      "original": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/corrections/NC1-v2-and-dependencies.md",
+      "copy": "imports/regressions/05-NC1-v2-and-dependencies.md",
+      "sha256": "a801c12d79a1d74093cc0a7ab265e2d4580521dafaf823694bc905011f15cad1"
+    },
+    {
+      "original": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-explore-20260906-astra-ultra/criticism/C02/checks-and-regressions.md",
+      "copy": "imports/regressions/06-checks-and-regressions.md",
+      "sha256": "877cae34d291ff6c658087c7a28e1e63527e4b150a2c8c9f3e2ce9cdfdb83294"
+    },
+    {
+      "original": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-explore-20260906-astra-ultra/criticism/C02/boolean_fibers.json",
+      "copy": "imports/regressions/07-boolean_fibers.json",
+      "sha256": "08d2e027f54005e70578d3ada6aa04b86178642fd2d9197d8cf439cd8e8df912"
+    },
+    {
+      "original": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-explore-20260906-astra-ultra/criticism/C01/additive-obstruction.md",
+      "copy": "imports/regressions/08-additive-obstruction.md",
+      "sha256": "75e43c7ec6240335344c79e4632c26c59118e8ac3a428e2413f0badf7d429bb2"
+    },
+    {
+      "original": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-explore-20260906-astra-ultra/criticism/C03/mathematical-checks.md",
+      "copy": "imports/regressions/09-mathematical-checks.md",
+      "sha256": "03380094df60c31a07d9dbae821013b987fee87acf76b467a3b519ac417f45a2"
+    },
+    {
+      "original": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-explore-20260906-astra-ultra/candidates/C01.md",
+      "copy": "imports/regressions/10-C01.md",
+      "sha256": "2ba5dbc0df36a02d00c38b361e6e529cc448e5feeea61aeadfcefb348ff38755"
+    },
+    {
+      "original": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-explore-20260906-astra-ultra/candidates/C01/calculations.md",
+      "copy": "imports/regressions/11-calculations.md",
+      "sha256": "0a291223769905ddb9a75cf01df1276b1c7dc69666acac63a677b4f719cdd23b"
+    },
+    {
+      "original": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-explore-20260906-astra-ultra/candidates/C03/transport.md",
+      "copy": "imports/regressions/12-transport.md",
+      "sha256": "8dc4b6a56d675ebdc931b63e7f3c67699e773de09e71b1fa36fe3743ba95835f"
+    },
+    {
+      "original": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-explore-20260906-astra-ultra/rejected-or-deferred.md",
+      "copy": "imports/regressions/13-rejected-or-deferred.md",
+      "sha256": "64a2c86df26b9bb017da50dce0a6b1543bbbcd9cda6d09f465452abcbb34b445"
+    },
+    {
+      "original": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-explore-20260906-astra-ultra/scouts/S04.md",
+      "copy": "imports/regressions/14-S04.md",
+      "sha256": "912baf43075797611a281d3637a5be67ada6136ace9b2a495ba5889778703023"
+    },
+    {
+      "original": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-explore-20260906-astra-ultra/scouts/S04/experiment_e02.json",
+      "copy": "imports/regressions/15-experiment_e02.json",
+      "sha256": "c96d6ebd1e371c800069a8db1cb0c6ae816736575e24c9323558a41eef4b6e58"
+    },
+    {
+      "original": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-explore-20260906-astra-ultra/scouts/S05.md",
+      "copy": "imports/regressions/16-S05.md",
+      "sha256": "f166aec658207f9e18fb86a5f72b5c719babf13179ea22364544f5a4210e3e27"
+    },
+    {
+      "original": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-explore-20260906-astra-ultra/scouts/S12.md",
+      "copy": "imports/regressions/17-S12.md",
+      "sha256": "0a5c6351ba6f3767da4367bb2edc6a5f18913090615a1815dbd44eb6d640a1e6"
+    },
+    {
+      "original": "/home/nico/.codex/skills/mathematical-proof-audit/references/probability-regressions.md",
+      "copy": "imports/regressions/18-probability-regressions.md",
+      "sha256": "ad7eecf93ed02e5b2957243a9bbb2cac8e8eeeb991971f4d77d0818cd04a4fa4"
+    }
+  ],
+  "policy": "All historical controls remain mandatory where relevant; outside-premise cases must be explained, never deleted. Finite search is not unrestricted proof.",
+  "new_experiment_evidence": "experiments/coordinator_controls_v1.json"
+}

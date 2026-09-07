@@ -1,0 +1,19 @@
+# C03 investigator checkpoint
+
+2026-09-06, 10:15 UTC. Bounded investigation, no experiments run by this investigator. Only C03 files will be written. Investigation cutoff 10:43 UTC; dossier delivery by 10:48 UTC.
+
+The original uncentered Gaussian transfer is correct as a joint planted-witness comparison: target secret X remains the actual source X. On recovering X, the public normalized equation recovers the actual Y. No posterior resampling or marginal-only coupling is used.
+
+Root supplied a centered refinement, independently checked here: A'=2a_2^{-1}a_1, B'=2a_2^{-1}t-H+G, with H=sum X^j. For odd q, A' is uniform; residual coefficients are independent uniform signs plus D_sigma. Writing tau=pi/sigma^2, P(z)=D_sigma(z), Q(z)=(P(z-1)+P(z+1))/2, one has Q/P=e^{-tau}cosh(2tau z), M_2(Q||P)=cosh(2tau), and Q>=e^{-tau}P. Consequently M_2(P||Q)<=1+e^tau(cosh(2tau)-1). The tensor and wrapping argument therefore gives polynomial success loss at n/sigma^4=O(log n), improving the original n/sigma^2 condition. Full proof and sampling precision will be recorded separately.
+
+Primary sources directly opened: Micciancio's Cyclic.pdf, Theorem 4.8 and its use of Theorem 4.2; Lyubashevsky–Micciancio's IdealHash.pdf, Section 5.1 and Theorem 5.1. The former needs unbounded block count and polynomial coefficient width in a cyclic ring. The latter is collision search on a symmetric bounded coefficient domain with compression and modulus hypotheses. Neither gives the exact two iid binary block planted-preimage source. This source normalizes exactly to one binary-secret/binary-error RLWE sample plus an independent uniform unit.
+
+The prime restriction can also be removed. For n a power of two and odd q, write d_p=ord_(2n)(p). Then rho_q=Pr[a_2 unit]=product_(p|q)(1-p^(-d_p))^(n/d_p). Since p^(d_p)>=2n+1, each distinct-prime factor exceeds 1/2. Thus rho_q>=2^(-omega(q))>=q^(-log_3 2), an inverse-polynomial lower bound for every odd polynomial modulus. Factoring q is needed only to express this identity, not by the simulator: determinant/adjugate arithmetic tests and inverts the public multiplication matrix in polynomial time.
+
+Joint-law caution for the centered improvement: the improved mixture comparison is on (A,X,B), not on a transcript that also exposes the source residual Y. This suffices because the solver only sees (A',B'), and the reduction's event of returning the planted pair is logically exactly the event X_hat=X. Its subsequent Y_hat=C−AX_hat then equals the original Y. Exposing C or Y to the solver would change the target and invalidate this improved mixture bound.
+
+Proposed outcome: retire the direction as an independent hardness explanation; preserve its quantitative transport lemma, prominently restricted to one sample and an unsupported exact source. Not a proof of easiness or a statement that no future bridge exists.
+
+Source accesses: https://cseweb.ucsd.edu/~daniele/papers/Cyclic.pdf and https://cseweb.ucsd.edu/~daniele/papers/IdealHash.pdf . Built-in PDF text extraction succeeded; two requested page screenshots returned Internal Error. No conclusion depends on an unread formula image.
+
+2026-09-06, 10:27 UTC: dossier and full calculation completed at ../C03.md, transport.md, and source-check.md. The coordinator's allocated E03 scalar diagnostic was read and cited as secondary numerical evidence; this investigator ran no experiment. The final next question is the coordinator's variance-matching scalar likelihood lemma, explicitly unproved. It could improve quantitative transfer but would not establish independent K2 hardness. The earlier binary-packing follow-up was set aside as too broad. Recommended disposition remains retirement as an independent hardness explanation, with the one-sample transport retained. No full-audit ACCEPT verdict is asserted.

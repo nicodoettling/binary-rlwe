@@ -1,0 +1,10 @@
+# C01 — bridge, extractor and common-regime critic
+
+Output directory: /home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C01/
+Exact task deadline: 2026-09-06T16:15:00Z. Read ../REVIEW_INSTRUCTIONS.md first.
+
+Stage 1: after required contract/known-counterexample reads, inspect ONLY the frozen definitions/statements in foundations/F01-theorem-v1.md and development/D01-theorem-v1.md. Before reading author proofs, independently try to refute/reconstruct these claims and save blind-check.md. This is blind to the author proofs, not to the required shared contract. Explicitly test public Y samplability, two computational endpoints, dropped/retained H, equal-marginal controls, and sign/inverse CRT pairs. You may consult primary sources at this stage. Preserve this report unchanged after you read the proofs.
+
+Stage 2: inspect foundations/F01.md, development/D01.md, development/coordinator-prime-regime.md, refinement/R01-compatibility.md, canonical candidates/A.md, bridge.md, parameter-table.md, dependencies.md and claims.json from review-v1. Verify B0/SC0/X0v2/N0v2/U0v2/Y0; XG1/X1; PR1; and the corresponding AN/A0/S0 interfaces (noise proof itself assigned to C03). Directly check Breuillard–Varju arXiv1810.13360v2 Section5 Definition22/Proposition23, Voutier Corollary2, and Xylouris Theorem1.1. In particular joint tuple D=d, log(Q^D)=d log q, index n-1, absolute-to-normalized error factor q^d, all-root admissibility below degree n, no RH/support rejection, exact posterior ternary beta, and asymptotic gates for d=floor(sqrt(n)/ell^4). Check integer content, cyclotomic factor reduction when q divides the index, and every quantifier. Do not infer source hardness from AN. Confirm one-sample recovery accounting or refer any defect to C03/coordinator.
+
+Save review.md and any correction note in this output directory, tied to exact versions. No author of these claims is your critic identity. Do not broaden into new extraction optimization.

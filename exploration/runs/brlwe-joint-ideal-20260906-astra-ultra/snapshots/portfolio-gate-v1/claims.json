@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "run_id": "brlwe-joint-ideal-20260906-astra-ultra",
+  "updated_utc": "2026-09-06T14:38:48.368460+00:00",
+  "claims": [
+    {
+      "id": "B0",
+      "version": 1,
+      "statement": "For every PPT one-sample test D there are public source tests B1,B2 with Adv_target(D) <= Adv_source(B1)+Adv_source(B2)+eta_ext+eta_noise+explicit implementation losses.",
+      "dependencies": [
+        {
+          "id": "SC0",
+          "version": 1
+        },
+        {
+          "id": "X0",
+          "version": 1
+        },
+        {
+          "id": "N0",
+          "version": 1
+        },
+        {
+          "id": "U0",
+          "version": 1
+        },
+        {
+          "id": "Y0",
+          "version": 1
+        }
+      ],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation"
+      ],
+      "evidence": [
+        "foundations/F01-theorem-v1.md",
+        "foundations/F01.md"
+      ],
+      "critic_dispositions": []
+    },
+    {
+      "id": "SC0",
+      "version": 1,
+      "statement": "The exact paired source is (U+F,V+H) with V uniform in Ann(J), independent of (U,F,H) conditional on J; source sampling has no binary secret input.",
+      "dependencies": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "definition"
+      ],
+      "evidence": [
+        "foundations/F03.md"
+      ],
+      "critic_dispositions": []
+    },
+    {
+      "id": "X0",
+      "version": 1,
+      "statement": "TV((J,U,F,H,Y,pi_J(S)),(J,U,F,H,Y,Z)) <= eta_ext with uniform conditionally independent Z.",
+      "dependencies": [
+        {
+          "id": "SC0",
+          "version": 1
+        },
+        {
+          "id": "Y0",
+          "version": 1
+        }
+      ],
+      "status": "OPEN",
+      "evidence_labels": [
+        "conjecture"
+      ],
+      "evidence": [],
+      "critic_dispositions": []
+    },
+    {
+      "id": "N0",
+      "version": 1,
+      "statement": "TV((J,U,F,FG+H),(J,U,F,E)) <= eta_noise with E independent wrapped iid target Gaussian; H integrated out.",
+      "dependencies": [
+        {
+          "id": "SC0",
+          "version": 1
+        },
+        {
+          "id": "Y0",
+          "version": 1
+        }
+      ],
+      "status": "OPEN",
+      "evidence_labels": [
+        "conjecture"
+      ],
+      "evidence": [],
+      "critic_dispositions": []
+    },
+    {
+      "id": "U0",
+      "version": 1,
+      "statement": "U induces an isomorphism R_q/J to Ann(J); its precise sampling and conditioning cost belong to SC0.",
+      "dependencies": [
+        {
+          "id": "SC0",
+          "version": 1
+        }
+      ],
+      "status": "OPEN",
+      "evidence_labels": [
+        "conjecture"
+      ],
+      "evidence": [],
+      "critic_dispositions": []
+    },
+    {
+      "id": "Y0",
+      "version": 1,
+      "statement": "Y can be sampled as fresh S0+G0 from a fixed public G law independently of the source challenge.",
+      "dependencies": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation"
+      ],
+      "evidence": [
+        "foundations/F01-theorem-v1.md"
+      ],
+      "critic_dispositions": []
+    },
+    {
+      "id": "P0",
+      "version": 1,
+      "statement": "The exact source SC0 is computationally indistinguishable from two independent uniform ring elements in a common claimed regime.",
+      "dependencies": [
+        {
+          "id": "SC0",
+          "version": 1
+        }
+      ],
+      "status": "OPEN",
+      "evidence_labels": [
+        "conjecture"
+      ],
+      "evidence": [],
+      "critic_dispositions": []
+    },
+    {
+      "id": "A0",
+      "version": 1,
+      "statement": "Candidate slot A has one common regime for rich-support extraction, efficient completion and an independently defensible joint source.",
+      "dependencies": [
+        {
+          "id": "X0",
+          "version": 1
+        },
+        {
+          "id": "N0",
+          "version": 1
+        },
+        {
+          "id": "U0",
+          "version": 1
+        },
+        {
+          "id": "P0",
+          "version": 1
+        }
+      ],
+      "status": "OPEN",
+      "evidence_labels": [
+        "conjecture"
+      ],
+      "evidence": [],
+      "critic_dispositions": []
+    },
+    {
+      "id": "D0",
+      "version": 1,
+      "statement": "Candidate slot B is substantively distinct or explicitly retired with a scoped obstruction.",
+      "dependencies": [],
+      "status": "OPEN",
+      "evidence_labels": [
+        "conjecture"
+      ],
+      "evidence": [],
+      "critic_dispositions": []
+    },
+    {
+      "id": "M0",
+      "version": 1,
+      "statement": "Any m-sample extension provides the full shared-secret, independent-public-multiplier and iid-noise target law with a matching joint source.",
+      "dependencies": [
+        {
+          "id": "B0",
+          "version": 1
+        }
+      ],
+      "status": "OPEN",
+      "evidence_labels": [
+        "conjecture"
+      ],
+      "evidence": [],
+      "critic_dispositions": []
+    },
+    {
+      "id": "S0",
+      "version": 1,
+      "statement": "Decision-to-search consequence specifies training budget, held-out verification samples, false-positive mass and recovery notion.",
+      "dependencies": [
+        {
+          "id": "M0",
+          "version": 1
+        }
+      ],
+      "status": "OPEN",
+      "evidence_labels": [
+        "conjecture"
+      ],
+      "evidence": [],
+      "critic_dispositions": []
+    },
+    {
+      "id": "NC1",
+      "version": 1,
+      "statement": "For B=sigma^2 I-tau^2 MM^T>0 and T=tau^2 I-tau^4 M^TM/sigma^2>0, independent G~D_tau^n and H~D_B give TV(MG+H,D_sigma^n)<=delta(T)/(1-delta(T)); the actual H_seq sampler adds eta_seq and implementation error.",
+      "dependencies": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation"
+      ],
+      "evidence": [
+        "foundations/F02-completion.md"
+      ],
+      "critic_dispositions": []
+    },
+    {
+      "id": "NO1",
+      "version": 1,
+      "statement": "Under the SC0 joint independent-additive noise condition and tau>=tau0>0, max centered F coefficient squared is bounded conditionally by (pi sigma^2+2q^2 epsilon)/(16 D_tau0(1)), with Markov cost for averaged latent conditioning.",
+      "dependencies": [
+        {
+          "id": "N0",
+          "version": 1
+        }
+      ],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation",
+        "primary_source"
+      ],
+      "evidence": [
+        "foundations/F02.md"
+      ],
+      "critic_dispositions": []
+    },
+    {
+      "id": "XG1",
+      "version": 1,
+      "statement": "For uniform CRT d-support and effective posterior difference coefficients P(0)=1-beta/2,P(\u00b11)=beta/4, q^d E Coll(pi_T S|Y)=q^d E[binom(z(Delta),d)/binom(n,d)].",
+      "dependencies": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation",
+        "experiment"
+      ],
+      "evidence": [
+        "foundations/coordinator-extraction-gate.md",
+        "experiments/E01-note.md"
+      ],
+      "critic_dispositions": []
+    }
+  ],
+  "history": []
+}

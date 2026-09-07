@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260906T200424.337250Z-6dbccda9",
+  "kind": "coordinator",
+  "created_at": "2026-09-06T20:04:24.337274+00:00",
+  "reason": "Integrated W3 provisional independent-noise observable hybrid and remaining source obligation",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 80880,
+      "sha256": "fb13ac266e7165cacf4344547d9688f7621d02bd571e03492873be93661f00b9"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 1498,
+      "sha256": "0784be9e373d8c36b4e65aee44f753683cfc17401523bdaa62bb5b7304083505"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 1384,
+      "sha256": "9ff17a4ee68bfa037fe8344f99490ab7b641c0a4a0ae03322ccea8493b4c3969"
+    },
+    {
+      "path": "final.md",
+      "bytes": 1907,
+      "sha256": "fcf6a43cad7b79ec9fd886782bb51deeec16ee24047098d51b5b2f2e4198c52f"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 2040,
+      "sha256": "3a2389bf5b249a0f793a0cc698fcbfef0fc200f8818825d9556803045a319304"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

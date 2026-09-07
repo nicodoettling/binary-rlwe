@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260906T205359.867633Z-eb05e270",
+  "kind": "coordinator",
+  "created_at": "2026-09-06T20:53:59.867657+00:00",
+  "reason": "Integrated structural constant-comparison objection and refreshed completed repair disposition",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 100370,
+      "sha256": "621c6acf031b3d2997d714a8b292c769fa99ee7d507eb66f06a087ec53d12003"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 4611,
+      "sha256": "3eef056a24fb18ac6ce2119946c6964334e3c9f94869c4a6d5a1e595abaa01d3"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 10454,
+      "sha256": "6352a9d4f29077647167727e5ada48e6e2fca8978a0e5f4eccbdda13c9fa54df"
+    },
+    {
+      "path": "final.md",
+      "bytes": 4409,
+      "sha256": "95683ca27b54dbce395582b2380e03cda35a9031f215b978bedf5cbca072abed"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 5507,
+      "sha256": "f8ad047c2f7494c28aa326ca79988ab4ff429ebed12a12d6e2c87eca9a023288"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

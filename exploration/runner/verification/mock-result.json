@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "elapsed_seconds": 5.292481770040467,
+  "return_code": 1,
+  "processes": {
+    "parent": 1035611,
+    "detached_child": 1035612,
+    "cgroup": "0::/user.slice/user-1007.slice/user@1007.service/app.slice/brlwe-deadline-test-4342b1b38f.service\n"
+  },
+  "service_output": "Running as unit: brlwe-deadline-test-4342b1b38f.service\nFinished with result: timeout\nMain processes terminated with: code=killed/status=KILL\nService runtime: 5.269s\nCPU time consumed: 23ms\nMemory peak: 6.5M\nMemory swap peak: 0B\n"
+}

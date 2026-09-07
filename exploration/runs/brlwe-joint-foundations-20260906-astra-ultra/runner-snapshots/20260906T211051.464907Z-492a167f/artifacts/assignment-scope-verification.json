@@ -1,0 +1,46 @@
+{
+  "utc": "2026-09-06T21:09:20.244064+00:00",
+  "meaning": "Canonical initial/follow-up archives; actual N03 spawn had full scope, shortened saved archive retained separately and corrected.",
+  "checks": [
+    {
+      "path": "workstreams/W1/assignment.md",
+      "full_scope_verbatim": true,
+      "sha256": "c2139ae09334f947eafd1b7db81805a549a21af5930bfbcb601336eeb67afd11"
+    },
+    {
+      "path": "workstreams/W2/assignment.md",
+      "full_scope_verbatim": true,
+      "sha256": "50a424ab3ce1afc18ab8030925971d0f417892fe68910ad3dbd7035b112aa554"
+    },
+    {
+      "path": "workstreams/W3/assignment.md",
+      "full_scope_verbatim": true,
+      "sha256": "c8fac25492aa800c0d6ff0fb59beb91c740342cbcffecd825544d840d1fff540"
+    },
+    {
+      "path": "criticism/B01/assignment.md",
+      "full_scope_verbatim": true,
+      "sha256": "bc161286ab6a378a6198b056daf28c28c5dd176c534413a8b08d5fe715e597f3"
+    },
+    {
+      "path": "criticism/N01/assignment.md",
+      "full_scope_verbatim": true,
+      "sha256": "8e88f42d1ae8a36c68ed821c5fe012e5d56c012aca8e7e0f40a51b3f34122cbf"
+    },
+    {
+      "path": "criticism/N02/assignment.md",
+      "full_scope_verbatim": true,
+      "sha256": "3a646ca2c1f63ca4f926bc42a4ab96de7c97c8cfec5e49e4d3e9321fd9ed8730"
+    },
+    {
+      "path": "criticism/N03/assignment.md",
+      "full_scope_verbatim": true,
+      "sha256": "b893c7d232798dbb5cc08d476f2575edb8a6edd95ac36519dd67231a018d3287"
+    },
+    {
+      "path": "criticism/N01/provenance-assignment.md",
+      "full_scope_verbatim": true,
+      "sha256": "cc3a4cbc8b12729dff705d7964a85ad2205475f021b286bb9c1cf229d4b9bff2"
+    }
+  ]
+}

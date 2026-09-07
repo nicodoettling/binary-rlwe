@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260906T200046.787016Z-d44001bd",
+  "kind": "coordinator",
+  "created_at": "2026-09-06T20:00:46.787039+00:00",
+  "reason": "W1 W2 W3 dispatched with scoped input packets and deadlines; collaborator registry and experiment allocation recorded",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 79687,
+      "sha256": "5e95f4be2bd25ab3b21ea84a8fcb5c73f2a164e93236444004b6e394fe6765ee"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 1130,
+      "sha256": "e15ed5550edbe9c37bdd6f00533283efa9bbf69774e099cb13c6e12fcbf85cde"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 1016,
+      "sha256": "a822c887b94fd28892afed55acf49619fff44398877d002f9bca689686ddfd22"
+    },
+    {
+      "path": "final.md",
+      "bytes": 1539,
+      "sha256": "4378093fad3db5ac4621c54fbb97ab28be96af22d9a33b334aabc4b09428fada"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 1950,
+      "sha256": "89e71b85692569f8e4ef52442a71ab4d1760c67b1cb925a9ec74a685e1d81cc9"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

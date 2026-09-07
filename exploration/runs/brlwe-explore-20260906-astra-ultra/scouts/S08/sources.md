@@ -1,0 +1,14 @@
+# S08 source ledger
+
+Before 10:03:00 UTC: only the coordinator-provided formal-only.md was read. All calculations in development.md are independent deductions. No web source accessed, no experiment run, no other scout notes read.
+
+## Release and primary comparison
+
+- At 10:03:01 UTC, release barrier packet was read. The root-level paths `binaryRLWE/target.md` and `binaryRLWE/related.bib` were attempted and did not exist. `rg --files` located the intended run target and literature bibliography. The run target was then read and exactly matched the initial formal-only ledger. The index had been read while the first target-path attempt failed; no additional target assumptions were introduced.
+- Brakerski–Döttling, *Lossiness and Entropic Hardness for Ring-LWE*, https://eprint.iacr.org/2020/1185. Supplied primary text R/sources/2020-1185.txt inspected: printed pp. 11–13, Lemmas 3.4–3.5 and Section 3.1 (text lines 634–766) establish the unbounded-oracle amplification and bounded-input subset-sum rerandomization; the latter changes to a distribution of error distributions. Printed p. 6 (lines 275–305) explains leakage of the Z_0 lattice coset and the entropy cost. Theorem 6.9, printed p. 22 (lines 1513 onward), states the specific entropy/noise threshold. These are source-verified baseline statements, distinct from S08 deductions.
+- Brakerski–Döttling, *Hardness of LWE on General Entropic Distributions*, https://eprint.iacr.org/2020/119. Supplied primary text R/sources/2020-119.txt inspected around text lines 245–267 and 313–329: ordinary matrices A=BC+F lead to sB and noise masking. This source-verified comparison does not assert applicability to the ring multiplication algebra.
+- Hou–Jiang, *Careful with the Ring: Enhanced Hybrid Decoding Attacks against Module/Ring-LWE*, https://eprint.iacr.org/2026/366. Primary ePrint abstract fetched using the web tool around 10:04 UTC. It states ring-structure acceleration of hybrid decoding, particularly sparse-secret instances. The direct PDF https://eprint.iacr.org/2026/366.pdf failed with HTTP 403; its internal transformations were not verified and are not used as a load-bearing comparison. The abstract establishes only that exploitation of ring symmetries is not itself a novelty claim.
+
+No experiment was run, so no coordinator CPU allocation was consumed. No other scout notes were read. The new material is the explicit affine binary action, restricted normalizer calculation, and full-joint public selection calculation, not a claimed new cryptographic reduction or an exhaustive literature novelty finding.
+
+Final note completed and checked at approximately 10:08 UTC, well before the 10:22 task deadline. Final word count: approximately 560. The normalizer scope and exact-versus-approximate distinction were retained in the final. No claims were upgraded to source-verified beyond the specifically inspected primary baseline passages.

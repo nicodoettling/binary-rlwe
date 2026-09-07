@@ -1,0 +1,12 @@
+# Local Python and operating-system caches.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+
+# Raw launcher transcripts; research artifacts and evidence snapshots are tracked.
+/exploration/runs/*/run.log
+/exploration/incidents/*-client.log
+
+# Locally compiled experiment; retain its source and recorded results.
+/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/experiments/E01-root-collisions

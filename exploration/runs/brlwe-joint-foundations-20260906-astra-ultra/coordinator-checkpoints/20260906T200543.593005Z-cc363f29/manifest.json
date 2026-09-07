@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260906T200543.593005Z-cc363f29",
+  "kind": "coordinator",
+  "created_at": "2026-09-06T20:05:43.593029+00:00",
+  "reason": "Integrated W1 broadening candidate and 14 completed finite regression checks; conditioning gap retained",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 81981,
+      "sha256": "6f9eeaf63cda8a4d954c19be31b65e487295cc1a84a6af3031b04f24c3a94654"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 2197,
+      "sha256": "99187dd80480f727abaaf5bd17c631bc5545ac413b0e7e197d5db6e627dc9be1"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 2083,
+      "sha256": "0dcc92ace3cdb9959319105380c4c48b017b587f12f060a3a6eefbcdc1305423"
+    },
+    {
+      "path": "final.md",
+      "bytes": 2606,
+      "sha256": "9858fae255f5c16fc0383d7ce53ca45202bb29eb151a55bfba45da5105aebd09"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 2194,
+      "sha256": "9268227cd1c762c11eaf94344635323acda3bf0f92ee67d69a2c2f30d1d3cc9d"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

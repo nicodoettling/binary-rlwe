@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260906T201841.955665Z-3234c22a",
+  "kind": "coordinator",
+  "created_at": "2026-09-06T20:18:41.955689+00:00",
+  "reason": "Integrated full W3 observable and public-rank proofs, plus W2 exact experiments and subgroup boundary",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 89638,
+      "sha256": "2941686876fd26c0972bd4e8da7f269a3dcfef9e73d1d01bc40d18aaab75bd0f"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 5235,
+      "sha256": "cb89924b6cf41c42ef65234da0c70ca2f95463c4f93f17a29502e3ddf8fe628d"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 5121,
+      "sha256": "0ae3385a311bc7a08fe48afbea2ab29524e30d3a02f9ae4b08c872e40e9710eb"
+    },
+    {
+      "path": "final.md",
+      "bytes": 5644,
+      "sha256": "308bfbc60da59866580d804ae855d22cc6907d47f48976da0bbc4465a61c96a7"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 2214,
+      "sha256": "4f1862744f4df3d1419f6e84abfaa70c573ecb96763ea5caf21de0760c16f1a0"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

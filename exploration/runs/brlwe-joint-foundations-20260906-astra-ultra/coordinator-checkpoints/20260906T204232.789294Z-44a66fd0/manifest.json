@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260906T204232.789294Z-44a66fd0",
+  "kind": "coordinator",
+  "created_at": "2026-09-06T20:42:32.789318+00:00",
+  "reason": "Recorded review progress, exact parameter intersection, and conservative orbit-constant comparison boundary",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 96178,
+      "sha256": "a1451f781fa7ef6ae3b678729f1e4f3f0ad5fdc1c6061f89c37146beb6ca7909"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 8636,
+      "sha256": "cfe46fd57a229f68184aa9056d95298c40ae3238c1ddd1b47012c3dc18ce9b6c"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 8522,
+      "sha256": "eb6958374d6a0031ea50cb02e704fb95857fa91be61235cc2682d23ddee784dd"
+    },
+    {
+      "path": "final.md",
+      "bytes": 4683,
+      "sha256": "42abf0928c9d93c9e32a9169e100e6d69f89d5bae28eea6480d501f7f5476a0c"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 4541,
+      "sha256": "2d25555c2f14438936850e09dde2e9ecf86a1c99ab89dc1c237019a49eeb8149"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

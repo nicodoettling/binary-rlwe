@@ -1,0 +1,86 @@
+{
+  "critic": "C01",
+  "snapshot": "review-v1",
+  "frozen_utc": "2026-09-06T15:36:43.466709+00:00",
+  "authorization_and_all_frozen_deadlines_verified": true,
+  "task_deadline_utc": "2026-09-06T16:15:00Z",
+  "research_stop_utc": "2026-09-06T16:10:00Z",
+  "all_snapshot_hashes_match": true,
+  "reviewed_files": [
+    {
+      "path": "foundations/F01-theorem-v1.md",
+      "sha256": "e8b8218ca2bb2d851b6068b4456983739cf5188bd4f12c49d880054064068852"
+    },
+    {
+      "path": "development/D01-theorem-v1.md",
+      "sha256": "83f76af8f9a8364dcef3937df0ca0bf70c7745f8c5ab78e65e8cc823d7a2f3df"
+    },
+    {
+      "path": "foundations/F01.md",
+      "sha256": "c6a09c470a6d2e8b62f0e592d6b7fae4c87d89cca4179c597d2a296c5fd22039"
+    },
+    {
+      "path": "development/D01.md",
+      "sha256": "154d1b1d343d3ef8bbf3bde6a6589a773af7f3ca5be840ac37ebf0b7ebb97bbe"
+    },
+    {
+      "path": "development/coordinator-prime-regime.md",
+      "sha256": "f240b4201325eb8666f12ec39b2535ab7ca6a4f565f8e5d60ccec50fe91d9e21"
+    },
+    {
+      "path": "refinement/R01-compatibility.md",
+      "sha256": "d01838ccad834979ee64165c2c5dab90e8df0162f4123b420cba2e13564ebb58"
+    },
+    {
+      "path": "refinement/R03-interface-audit.md",
+      "sha256": "ff47bae8fabbcac42a6a4c1c0fe0bab27a355975f058b9b20fa485ed7f9d453a"
+    },
+    {
+      "path": "candidates/A.md",
+      "sha256": "f97e502a68671c5add62e055a48ca3f62e72052177167a8d60dd7f398e366521"
+    },
+    {
+      "path": "bridge.md",
+      "sha256": "c14f0ec141c471be0b9f4621661747abf4d29067353cb5db10932c8b14d974c9"
+    },
+    {
+      "path": "parameter-table.md",
+      "sha256": "cba87cbe8ca21acf636da74a31cebbe61427ae438de2f02a6abee4ef185237b3"
+    },
+    {
+      "path": "dependencies.md",
+      "sha256": "140d30e0142876e90a9cbbdc3fb5f6eb85608ae72b0f9541ce715f9c18e0e108"
+    },
+    {
+      "path": "claims.json",
+      "sha256": "4c1194bb72d934fd2207182999a6eb72a7a82b47da6e314c3989d38cd563274d"
+    },
+    {
+      "path": "known-counterexamples.md",
+      "sha256": "d2fb558136f7d100130ae19cc62f12f73c79521456ea8f1f28466c0ebc097bf7"
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "29ef8e92ea6f82e6e4582e245f525e1f71e2f7e17eb0a542fba50155e981a143"
+    }
+  ],
+  "blind_check_sha256": "394be36570251905acffcb4b66a3012771bc638bde982f6fa879df80cc27757f",
+  "experiments_run": 0,
+  "source_checks": [
+    {
+      "url": "https://arxiv.org/pdf/1810.13360v2",
+      "locations": "Section 5.1, Definition 22, Proposition 23; printed pp. 23-24",
+      "read_format": "primary PDF extracted text"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1211.3110",
+      "locations": "Theorem and Corollary 2; printed pp. 3-4",
+      "read_format": "primary PDF extracted text"
+    },
+    {
+      "url": "https://www.impan.pl/shop/publication/transaction/download/product/83078",
+      "locations": "Theorem 1.1; printed pp. 65-66",
+      "read_format": "primary publisher PDF extracted text"
+    }
+  ]
+}

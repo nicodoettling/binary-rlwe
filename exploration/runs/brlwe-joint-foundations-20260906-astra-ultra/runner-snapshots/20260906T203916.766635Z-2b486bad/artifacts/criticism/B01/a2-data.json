@@ -1,0 +1,21 @@
+{
+  "mode": "a2",
+  "seed": null,
+  "arithmetic": "exact integers and fractions.Fraction",
+  "tail_error": 0,
+  "wall_seconds": 0.012084654066711664,
+  "result": {
+    "deterministic_tests_checked": 512,
+    "eta_N": "0",
+    "eta_X": "1/6",
+    "eta_iso": "1/9",
+    "max_A2_excess": "-1/18",
+    "T1_source_mapping_TV": "0",
+    "T2_source_mapping_TV": "0",
+    "pairwise_independence_control": {
+      "all_pairwise_TV": "0",
+      "P_uniform_TV": "2/9",
+      "law": "F,S independent uniform F3; E=S+F; U=1; G,H,V independent uniform."
+    }
+  }
+}

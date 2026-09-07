@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260906T210101.155093Z-79514ebb",
+  "kind": "coordinator",
+  "created_at": "2026-09-06T21:01:01.155116+00:00",
+  "reason": "Integrated finite subgroup controls and corrected regression metadata; completed evidence provenance assigned",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 104754,
+      "sha256": "776461e0ddbc28723ae719aa2be30099663120c7e83af04b73b57af2a8771352"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 5132,
+      "sha256": "e2ec8f527b510cea931097591577188b6c1456fe64bd634d61b9ec6d3ac5eab2"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 12308,
+      "sha256": "5547aa11458e4358497a2601fb6e7e67c76583296c3d74600050cc5b25fe44a8"
+    },
+    {
+      "path": "final.md",
+      "bytes": 4892,
+      "sha256": "af1df3e4928754cf43146199405c551ec2809f8494b620aea5dfcf37675ba81f"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 6290,
+      "sha256": "002419f15c472268c811747b85101f35d30e1d2a14bca6c312865d0e87db08f4"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

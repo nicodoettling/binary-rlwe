@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "updated_utc": "2026-09-06T20:09:04.545301+00:00",
+  "coordinator": {
+    "agent_id": "/root",
+    "session_id": "01a07849-2b26-7ac1-96c2-c15903ac2341",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "ultra",
+    "status": "running"
+  },
+  "workers": [
+    {
+      "agent_id": "/root/w1_public_reductions",
+      "assignment_id": "W1-v1",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none",
+      "status": "running",
+      "session_id": null,
+      "uuid_status": "Worker confirms no session/thread UUID exposed in supplied context",
+      "deadline_utc": "2026-09-06T21:19:15Z",
+      "output_directory": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/workstreams/W1",
+      "may_spawn": false,
+      "last_result": "W1-AKEEP preliminary exact-kernel obstruction"
+    },
+    {
+      "agent_id": "/root/w2_structure",
+      "assignment_id": "W2-v1",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none",
+      "status": "running",
+      "session_id": null,
+      "uuid_status": "Worker confirms no UUID exposed",
+      "deadline_utc": "2026-09-06T21:19:15Z",
+      "output_directory": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/workstreams/W2",
+      "may_spawn": false,
+      "last_result": "W2-ORB preliminary occupancy bounds"
+    },
+    {
+      "agent_id": "/root/w3_observable",
+      "assignment_id": "W3-v1",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none",
+      "status": "running",
+      "session_id": null,
+      "uuid_status": "not exposed by spawn tool; requested from worker",
+      "deadline_utc": "2026-09-06T21:19:15Z",
+      "output_directory": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/workstreams/W3",
+      "may_spawn": false,
+      "last_result": "W3-RANK-PUBLIC preliminary public statistical comparison"
+    }
+  ],
+  "max_active_workers": 3,
+  "grandchildren_allowed": false
+}

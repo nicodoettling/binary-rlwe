@@ -1,0 +1,26 @@
+[
+  {
+    "session_file": "/home/nico/.codex/sessions/2026/09/06/rollout-2026-09-06T09-07-13-01a075f8-c932-7322-86e5-43f36542fb17.jsonl",
+    "approval_policy": "never",
+    "sandbox_policy": {
+      "type": "workspace-write",
+      "network_access": false,
+      "exclude_tmpdir_env_var": false,
+      "exclude_slash_tmp": false
+    },
+    "model": "gpt-6-astra",
+    "effort": "ultra"
+  },
+  {
+    "session_file": "/home/nico/.codex/sessions/2026/09/06/rollout-2026-09-06T09-07-31-01a075f9-0fa2-72b3-a154-8ba2c6468b19.jsonl",
+    "approval_policy": "never",
+    "sandbox_policy": {
+      "type": "workspace-write",
+      "network_access": false,
+      "exclude_tmpdir_env_var": false,
+      "exclude_slash_tmp": false
+    },
+    "model": "gpt-6-astra",
+    "effort": "ultra"
+  }
+]

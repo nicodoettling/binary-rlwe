@@ -1,0 +1,100 @@
+{
+  "max_concurrent": 2,
+  "default_timeout_seconds": 120,
+  "experiments": [
+    {
+      "id": "E00_unit_difference_sanity",
+      "owner": "/root",
+      "status": "completed",
+      "allocation_utc": "2026-09-06T09:19:16.981547+00:00",
+      "timeout_seconds": 120,
+      "task_deadline_utc": "2026-09-06T09:24:00Z",
+      "purpose": "Check surprising short-unit condition and compare quotient support with output entropy in tiny rings",
+      "pid": null,
+      "completed_utc": "2026-09-06T09:20:06.748234+00:00",
+      "exit_code": 0,
+      "output": "experiments/unit_difference_sanity.json",
+      "seed": null,
+      "process_running": false
+    },
+    {
+      "id": "E01_conference_fibers",
+      "owner": "/root/s05_arithmetic_fibers",
+      "status": "completed",
+      "allocation_utc": "2026-09-06T09:25:02.778902+00:00",
+      "timeout_seconds": 120,
+      "task_deadline_utc": "2026-09-06T09:29:00Z",
+      "purpose": "Exact n=8 q=7 conference-pattern Boolean fibers and perturbed-ideal quotient distribution",
+      "process_running": false,
+      "completed_utc": "2026-09-06T09:26:41.363868+00:00",
+      "exit_code": 0,
+      "seed": null,
+      "reported_runtime_seconds": 0.13,
+      "output": "scouts/S05/"
+    },
+    {
+      "id": "E02_harmonic_projection",
+      "owner": "/root/s04_harmonic_analysis",
+      "status": "completed",
+      "allocation_utc": "2026-09-06T09:35:32.217648+00:00",
+      "timeout_seconds": 30,
+      "task_deadline_utc": "2026-09-06T09:38:00Z",
+      "purpose": "Tiny exact binary projection collisions and feasible splitting differences",
+      "process_running": false,
+      "completed_utc": "2026-09-06T09:37:59.118766+00:00",
+      "exit_code": 0,
+      "seed": null,
+      "reported_runtime_seconds": 0.177,
+      "output": "scouts/S04/experiment_e02.json",
+      "failed_attempts": [
+        "python unavailable; retried with python3 under the same bounded allocation"
+      ]
+    },
+    {
+      "id": "E03_centered_noise_renyi",
+      "owner": "/root",
+      "status": "completed",
+      "allocation_utc": "2026-09-06T10:15:21.293725+00:00",
+      "timeout_seconds": 120,
+      "task_deadline_utc": "2026-09-06T10:25:00Z",
+      "purpose": "Compare exact wrapped scalar Renyi costs of uncentered binary and centered Rademacher residuals; check hand Gaussian identities",
+      "seed": null,
+      "process_running": false,
+      "completed_utc": "2026-09-06T10:16:08.058649+00:00",
+      "exit_code": 0,
+      "output": "experiments/centered_noise_renyi.json",
+      "reported_runtime_seconds": 0.000858
+    },
+    {
+      "id": "E04_wrapped_precursor",
+      "owner": "/root",
+      "status": "completed",
+      "allocation_utc": "2026-09-06T10:18:23.481947+00:00",
+      "timeout_seconds": 120,
+      "task_deadline_utc": "2026-09-06T10:28:00Z",
+      "purpose": "Compare exact discrete precursor K=(q+1)S+E mod2q with its degraded public Y=K modq; scalar posterior tensorizes",
+      "seed": null,
+      "process_running": false,
+      "completed_utc": "2026-09-06T10:18:51.180281+00:00",
+      "exit_code": 0,
+      "output": "experiments/wrapped_precursor.json",
+      "reported_runtime_seconds": 0.000689
+    },
+    {
+      "id": "E05_lucas_boolean_fibers",
+      "owner": "/root/c02_critic",
+      "status": "completed",
+      "allocation_utc": "2026-09-06T10:33:16.902324+00:00",
+      "timeout_seconds": 30,
+      "task_deadline_utc": "2026-09-06T10:40:00Z",
+      "purpose": "Exact Boolean occupied cosets and histograms for Lucas denominator f=1-X-X\u00b2, n=4,8,16; test whether index charge is attained",
+      "seed": null,
+      "process_running": false,
+      "output": "criticism/C02/boolean_fibers.json",
+      "completed_utc": "2026-09-06T10:34:39Z",
+      "exit_code": 0,
+      "reported_runtime_seconds": 0.285,
+      "failed_attempts": []
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "run_id": "brlwe-joint-ideal-20260906-astra-ultra",
+  "state": "research_in_progress",
+  "phase": "reconciliation",
+  "updated_utc": "2026-09-06T15:57:41.295450+00:00",
+  "finite": true,
+  "automatic_resume": false,
+  "complete": false,
+  "launcher_exit_observed": false,
+  "portfolio": [
+    "A2",
+    "B1"
+  ],
+  "foundation_streams_completed": [
+    "F01",
+    "F02",
+    "F03"
+  ],
+  "development_streams_completed": [
+    "D01",
+    "D02",
+    "D03"
+  ],
+  "refinement_allocations": [
+    "R01",
+    "R02",
+    "R03"
+  ],
+  "refinement_streams_completed": [
+    "R01",
+    "R02",
+    "R03"
+  ],
+  "critics_active": [],
+  "active_experiments": 0,
+  "critics_completed": [
+    "C01",
+    "C02",
+    "C03"
+  ],
+  "correction_rechecks_completed": [
+    "C01-ATT-recheck",
+    "C01-S0-dependency",
+    "C03-NC1-guards"
+  ],
+  "active_workers": 0
+}

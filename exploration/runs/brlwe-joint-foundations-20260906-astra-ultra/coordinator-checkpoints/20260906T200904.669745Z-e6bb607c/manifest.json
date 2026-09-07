@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260906T200904.669745Z-e6bb607c",
+  "kind": "coordinator",
+  "created_at": "2026-09-06T20:09:04.669769+00:00",
+  "reason": "Integrated exact A-preserving obstruction, public rank-loss comparison candidate, and random-orbit bounds",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 86323,
+      "sha256": "cfba333e1d74951145a488dd874505eff95d21e91ca2448125f1208643bdd9eb"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 3267,
+      "sha256": "c0c6226b2912c7714110a4967b6f9745ab8db1d742074d29a456c8cf83b81394"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 3153,
+      "sha256": "624c53e4fe839c7584ea369e9d11c9cedcc6d7597cfe4a5b12f568cb1271e7d8"
+    },
+    {
+      "path": "final.md",
+      "bytes": 3676,
+      "sha256": "cbd496f281e632dce612207db9f991541ac41b5f6e6053bc4dd002be60b28945"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 2162,
+      "sha256": "1e64b3a8d58ff5b866b95ec1f6f3c45ced88f0f7abcc753d70f3d28fd3c1e8dc"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

@@ -1,0 +1,28 @@
+{
+  "checked_utc": "2026-09-06T15:42:27.778506+00:00",
+  "required_present": {
+    "final.md": true,
+    "target.md": true,
+    "dependencies.md": true,
+    "bridge.md": true,
+    "claims.json": true,
+    "sources.bib": true,
+    "sources-and-assumptions.md": true,
+    "parameter-table.md": true,
+    "multi-sample.md": true,
+    "rejected-or-deferred.md": true,
+    "progress.md": true,
+    "agents.json": true,
+    "experiments/registry.json": true,
+    "reconciliation.md": true
+  },
+  "claim_count": 29,
+  "missing_dependency_versions": [],
+  "changed_frozen_review_files": [],
+  "candidate_dossiers": [
+    "A.md",
+    "B.md"
+  ],
+  "active_experiments": 0,
+  "formal_certificate_claimed": false
+}

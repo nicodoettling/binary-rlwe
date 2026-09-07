@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260906T210739.734790Z-901c202a",
+  "kind": "coordinator",
+  "created_at": "2026-09-06T21:07:39.734813+00:00",
+  "reason": "Integrated final structural review and closed all assigned workstreams with explicit bounded outcomes",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 108303,
+      "sha256": "76aa291413ccf9aa6552bb243cdaed297ef857d1f3c0b589ad8a3eec400be300"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 5149,
+      "sha256": "43e279037f053d6fa8a3f4caecaaa89d67ed9dbb1787fbc608fbfc1bd6d38612"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 14327,
+      "sha256": "23deb47e0b85df8be1b323636a478b98b7a1749fa2d23546da6b33d0ba204523"
+    },
+    {
+      "path": "final.md",
+      "bytes": 15394,
+      "sha256": "ecb751619c9c9f9dac9549de8ae8913d1bf8b9beda7f40c5c47006cb4f86fc6e"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 6451,
+      "sha256": "085b37640d952b64adba0446e81cddeb2879bd1d088955481bb529323db7736c"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

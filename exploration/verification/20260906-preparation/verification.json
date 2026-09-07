@@ -1,0 +1,84 @@
+{
+  "verified_utc": "2026-09-06T18:40:37.378292+00:00",
+  "unit_tests": {
+    "command": "python3 -m unittest discover -s exploration/runner -v",
+    "exit_code": 0,
+    "count": 37,
+    "output": "runner-unit-tests.txt",
+    "service_calls": "mocked",
+    "model_calls": 0
+  },
+  "plan_validation": {
+    "validation": "passed",
+    "creates_run": false,
+    "plan_directory": "/home/nico/projects/research_projects/binaryRLWE/exploration/joint-ideal-next",
+    "max_wall_seconds": 18000,
+    "launch_authorized": false,
+    "phase_boundaries_seconds": {
+      "setup_end": 1200,
+      "triage_end": 5400,
+      "development_end": 10800,
+      "criticism_end": 14400,
+      "reconciliation_end": 16200,
+      "synthesis_end": 17100,
+      "workers_stop": 17100,
+      "hard_stop": 18000
+    },
+    "systemd_runtime_seconds": 17990,
+    "systemd_stop_grace_seconds": 5
+  },
+  "files": [
+    {
+      "path": "exploration/joint-ideal-next/PLAN.md",
+      "sha256": "cc0d2d72de811e44f3c5eb70abdf7b2017d90a1c753f22666e29bdd93488c5a8"
+    },
+    {
+      "path": "exploration/joint-ideal-next/run-config.json",
+      "sha256": "fc7499303047755f78f0c42d80d55dac4d4e421b2aaf48220b2cc432418c30c1"
+    },
+    {
+      "path": "exploration/joint-ideal-next/COORDINATOR_PROMPT.md",
+      "sha256": "6faab71b7e662ce84320f3670a5c831b19f564313415844826d26524294bee3f"
+    },
+    {
+      "path": "exploration/joint-ideal-next/RESEARCH_SCOPE.md",
+      "sha256": "d664defc01d31c94cde3f505c9f6fde26a701f72718699611bbee551c82c760d"
+    },
+    {
+      "path": "exploration/joint-ideal-next/SOURCE_CONTRACT.md",
+      "sha256": "eb8680c34c4c0bf544f5757319bc31e5a65531f6b938e42382809784c80f022b"
+    },
+    {
+      "path": "exploration/joint-ideal-next/TASK_TEMPLATE.md",
+      "sha256": "92dae39e1e637a104df73df0a5328374dc3af4b5c40f2548450bd3a9848b08af"
+    },
+    {
+      "path": "exploration/runner/bounded_run.py",
+      "sha256": "ae00eb91ca82bfd64ddfe2722f83fee1543f616677976f3778c05f17eaa0adb6"
+    },
+    {
+      "path": "exploration/runner/resilience.py",
+      "sha256": "a7c513844a136d2c6528bb7ebbd23fb770f8f458a41f467da1672ca1a1663c99"
+    },
+    {
+      "path": "exploration/runner/README.md",
+      "sha256": "79cbeba01b16e715babb39606870ede17808e5ebaa11087b907b531cf8f73635"
+    },
+    {
+      "path": "exploration/runner/test_plan_config.py",
+      "sha256": "774a9c9700fe5ad3478baa3fe6a13757045e17be666360b44be9dc7aa1f51496"
+    },
+    {
+      "path": "exploration/runner/test_resilience.py",
+      "sha256": "699a97ba0aa6e3c83e84b403d915f00aee85b0cd6cecb0a8892c3fdedda86f2c"
+    },
+    {
+      "path": "exploration/runner/test_deadline.py",
+      "sha256": "60b59241729dbd3725e917a1d3b109358132d936362d4fdf6f92bc335f4ae4a3"
+    }
+  ],
+  "limitations": [
+    "New monitor verified with simulated services and saved-format error fixtures; live host preflights await launch approval.",
+    "No claim of formal mathematical certification or automatic chat/email notifications."
+  ]
+}

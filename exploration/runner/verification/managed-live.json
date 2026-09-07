@@ -1,0 +1,42 @@
+{
+  "unit": "brlwe-smoke-20260906a.service",
+  "cgroup": "/user.slice/user-1007.slice/user@1007.service/app.slice/brlwe-smoke-20260906a.service",
+  "processes": [
+    {
+      "pid": 1036220,
+      "command": "/home/nico/.vscode-server/extensions/openai.chatgpt-26.901.22334-linux-x64/bin/linux-x86_64/codex --search exec --sandbox workspace-write -c approval_policy=\"never\" --color never -C /home/nico/projects/research_projects/binaryRLWE --model gpt-6-astra -c model_reasoning_effort=\"ultra\" --skip-git-repo-check - "
+    },
+    {
+      "pid": 1036554,
+      "command": "/home/nico/.local/share/pipx/venvs/cryptominisat-mcp/bin/python /home/nico/.local/bin/cryptominisat-mcp "
+    },
+    {
+      "pid": 1036555,
+      "command": "/home/nico/.local/share/pipx/venvs/magma-mcp/bin/python /home/nico/.local/bin/magma-mcp "
+    },
+    {
+      "pid": 1036977,
+      "command": "/home/nico/.vscode-server/extensions/openai.chatgpt-26.901.22334-linux-x64/bin/linux-x86_64/codex-code-mode-host "
+    },
+    {
+      "pid": 1037302,
+      "command": "/home/nico/.codex/tmp/arg0/codex-arg0YF5RqS/codex-linux-sandbox --sandbox-policy-cwd /home/nico/projects/research_projects/binaryRLWE --command-cwd /home/nico/projects/research_projects/binaryRLWE --permission-profile {\"type\":\"managed\",\"file_system\":{\"type\":\"restricted\",\"entries\":[{\"path\":{\"type\":\"special\",\"value\":{\"kind\":\"root\"}},\"access\":\"read\"},{\"path\":{\"type\":\"path\",\"path\":\"/home/nico/projects/research_projects/binaryRLWE\"},\"access\":\"write\"},{\"path\":{\"type\":\"special\",\"value\":{\"kind\":\"slash_tmp\"}},\"access\":\"write\"},{\"path\":{\"type\":\"special\",\"value\":{\"kind\":\"tmpdir\"}},\"access\":\"write\"},{\"pat"
+    },
+    {
+      "pid": 1037307,
+      "command": "bwrap --as-pid-1 --new-session --die-with-parent --ro-bind / / --dev /dev --bind /tmp /tmp --perms 555 --tmpfs /tmp/.git --remount-ro /tmp/.git --perms 555 --tmpfs /tmp/.agents --remount-ro /tmp/.agents --perms 555 --tmpfs /tmp/.codex --remount-ro /tmp/.codex --ro-bind /tmp/codex-bwrap-synthetic-mount-targets-1007 /tmp/codex-bwrap-synthetic-mount-targets-1007 --bind /home/nico/projects/research_projects/binaryRLWE /home/nico/projects/research_projects/binaryRLWE --perms 555 --tmpfs /home/nico/projects/research_projects/binaryRLWE/.git --remount-ro /home/nico/projects/research_projects/binaryRL"
+    },
+    {
+      "pid": 1037308,
+      "command": "codex-linux-sandbox --sandbox-policy-cwd /home/nico/projects/research_projects/binaryRLWE --command-cwd /home/nico/projects/research_projects/binaryRLWE --permission-profile {\"type\":\"managed\",\"file_system\":{\"type\":\"restricted\",\"entries\":[{\"path\":{\"type\":\"special\",\"value\":{\"kind\":\"root\"}},\"access\":\"read\"},{\"path\":{\"type\":\"path\",\"path\":\"/home/nico/projects/research_projects/binaryRLWE\"},\"access\":\"write\"},{\"path\":{\"type\":\"special\",\"value\":{\"kind\":\"slash_tmp\"}},\"access\":\"write\"},{\"path\":{\"type\":\"special\",\"value\":{\"kind\":\"tmpdir\"}},\"access\":\"write\"},{\"path\":{\"type\":\"path\",\"path\":\"/home/nico/project"
+    },
+    {
+      "pid": 1037309,
+      "command": "/bin/bash -c mkdir -p /home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-smoke-20260906a\ncat > /home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-smoke-20260906a/worker-checkpoint.md <<'EOF'\nThe managed worker started.\nEOF\npython3 - <<'PY'\nimport json\nimport os\nimport signal\nimport time\nfrom pathlib import Path\n\noutput = Path('/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-smoke-20260906a')\nrecord = {'pid': os.getpid(), 'cgroup': Path('/proc/self/cgroup').read_text()}\n(output / 'worker-process.json').write_text(json.dumps(recor"
+    },
+    {
+      "pid": 1037312,
+      "command": "python3 - "
+    }
+  ]
+}

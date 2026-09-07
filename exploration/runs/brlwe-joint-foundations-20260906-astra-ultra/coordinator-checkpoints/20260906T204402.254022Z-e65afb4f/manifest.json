@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260906T204402.254022Z-e65afb4f",
+  "kind": "coordinator",
+  "created_at": "2026-09-06T20:44:02.254045+00:00",
+  "reason": "Integrated fresh dual-number repair control and pairwise-independence regression; verdict still pending",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 95905,
+      "sha256": "e118ecbd84ac154c6bb76150f121d1048bb8fa58c1b0087ec3c01ee7bb7a3f11"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 9112,
+      "sha256": "e52166d9e9838005db5734a8c590d3429608861f128c9f259816b57df8f65357"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 8998,
+      "sha256": "64bf7663b7f10dfc62102d0f7d48d638e86b905e64dd414001d4d09d09f2108a"
+    },
+    {
+      "path": "final.md",
+      "bytes": 5159,
+      "sha256": "d146a03066bef0a095744ace402237a5a26f93a6f6c94f607b5d251d63fdfb32"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 4534,
+      "sha256": "8e8120cac73831b220520bd8f89dd97ce63f873ac8685568c36ca064726afdf0"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

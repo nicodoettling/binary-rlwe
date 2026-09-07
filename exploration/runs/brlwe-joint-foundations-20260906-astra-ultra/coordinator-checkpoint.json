@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-06T21:10:33.274463+00:00",
+  "reason": "Final verified bounded outcome, reconciled ledger, completed workers, and mathematical shutdown",
+  "snapshot_directory": "coordinator-checkpoints/20260906T211033.272596Z-794962eb",
+  "content_sha256": "b5cf18a550e0796530156b6179b4517baa4785634c99f05ef3e583076c5123d7",
+  "last_content_change_at": "2026-09-06T21:10:33.274468+00:00",
+  "content_changed": true,
+  "scientific_progress_verified": false,
+  "meaning": "Coordinator supplied an updated artifact set; mathematical progress is not inferred"
+}

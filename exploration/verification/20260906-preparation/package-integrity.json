@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "current_claims": 29,
+  "hashed_inputs_verified": 158,
+  "checks": [
+    "corrected versions and dependency references",
+    "P0 and Pm remain open",
+    "no global acceptance claim",
+    "input hashes",
+    "consolidation and new-plan local links"
+  ],
+  "limitations": [
+    "Bookkeeping and file-integrity verification is not a proof certificate."
+  ]
+}

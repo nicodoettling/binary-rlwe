@@ -1,0 +1,76 @@
+{
+  "run_id": "brlwe-explore-20260906-astra-ultra",
+  "status": "completed",
+  "phase": "completed",
+  "updated_utc": "2026-09-06T10:53:58.624639+00:00",
+  "manifest_validated": true,
+  "deadline_supervisor_verified": true,
+  "hard_deadline_utc": "2026-09-06T15:11:38.094702+00:00",
+  "research_complete": true,
+  "scouts_completed": 12,
+  "scouts_total": 12,
+  "active_workers": [],
+  "developed_directions": 3,
+  "active_experiments": 0,
+  "selected_directions": 3,
+  "phase_history": [
+    {
+      "phase": "discovery",
+      "completed_utc": "2026-09-06T10:12:23.972311+00:00"
+    },
+    {
+      "phase": "selection",
+      "completed_utc": "2026-09-06T10:12:23.972311+00:00"
+    },
+    {
+      "phase": "investigation",
+      "started_utc": "2026-09-06T10:12:23.972311+00:00"
+    },
+    {
+      "phase": "investigation",
+      "completed_utc": "2026-09-06T10:29:36.019829+00:00"
+    },
+    {
+      "phase": "criticism",
+      "started_utc": "2026-09-06T10:29:36.019829+00:00"
+    },
+    {
+      "phase": "criticism",
+      "completed_utc": "2026-09-06T10:43:55.457152+00:00"
+    },
+    {
+      "phase": "reconciliation",
+      "started_utc": "2026-09-06T10:43:55.457152+00:00"
+    },
+    {
+      "phase": "reconciliation",
+      "completed_utc": "2026-09-06T10:48:26.466347+00:00"
+    },
+    {
+      "phase": "synthesis",
+      "started_utc": "2026-09-06T10:48:26.466347+00:00"
+    },
+    {
+      "phase": "synthesis",
+      "completed_utc": "2026-09-06T10:53:58.624639+00:00"
+    },
+    {
+      "phase": "shutdown",
+      "completed_utc": "2026-09-06T10:53:58.624639+00:00"
+    }
+  ],
+  "criticism_completed": 3,
+  "retained_directions": 2,
+  "retired_independent_hardness_directions": 1,
+  "retained_supporting_lemmas": [
+    "C03 centered one-sample noise transfer"
+  ],
+  "completed_utc": "2026-09-06T10:53:58.624639+00:00",
+  "completion_reason": "finite_schedule_completed_early",
+  "time_limit_termination": false,
+  "final_report": "final.md",
+  "final_report_sha256": "6ce6a8102db8a24b5d345de54a6f82f397594c8da3a385ea8fe868b1bce7f789",
+  "final_word_count": 1956,
+  "artifact_checks_passed": true,
+  "launcher_exit_status_asserted": false
+}

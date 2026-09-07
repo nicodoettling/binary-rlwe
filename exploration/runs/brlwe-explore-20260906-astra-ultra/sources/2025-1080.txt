@@ -1,0 +1,4837 @@
+HAL Id: lirmm-05396888
+
+https://hal-lirmm.ccsd.cnrs.fr/lirmm-05396888v2
+
+Submitted on 3 Jun 2026
+
+HAL is a multi-disciplinary open access archive
+for the deposit and dissemination of scientific re-
+search documents, whether they are published or not.
+The documents may come from teaching and research
+institutions in France or abroad, or from public or pri-
+vate research centers.
+
+L’archive ouverte pluridisciplinaire HAL, est des-
+tinée au dépôt et à la diffusion de documents scien-
+tifiques de niveau recherche, publiés ou non, émanant
+des établissements d’enseignement et de recherche
+français ou étrangers, des laboratoires publics ou
+privés.
+
+Copyright - All rights reserved
+
+Leftover Hash Lemma(s) Over Cyclotomic Rings
+
+Katharina Boudgoust, Oleksandra Lapiha
+
+To cite this version:
+
+Katharina Boudgoust, Oleksandra Lapiha. Leftover Hash Lemma(s) Over Cyclotomic Rings. Advances in
+Cryptology – EUROCRYPT 2026, May 2026, Rome, Italy. pp.62-91, ⟨10.1007/978-3-032-25327-9_3⟩. ⟨lirmm-
+05396888v2⟩
+
+
+Leftover Hash Lemma(s) Over Cyclotomic Rings
+
+Katharina Boudgoust1 ID
+and Oleksandra Lapiha2 ID
+
+1 CNRS, Univ Montpellier, LIRMM, France
+2 Royal Holloway, University of London, UK
+
+katharina.boudgoust@lirmm.fr, sasha.lapiha.2021@live.rhul.ac.uk
+
+February 12, 2026
+
+Abstract. In this work, we propose a systematic approach for obtaining leftover hash lemmas
+(LHLs) over cyclotomic rings. Such LHLs build a fundamental tool in lattice-based cryptography,
+both in theoretical reductions as well as in the design of cryptographic primitives. The scattered
+set of prior works makes it difficult to navigate the landscape and requires a substantial effort to
+understand the mathematical constraints under which the LHL holds over cyclotomic rings. This is
+especially painful if one’s given setting does not fit exactly into prior studies.
+We argue that all prior approaches boil down to two main theorems. From there on, we recover
+all previous flavours of seemingly independent LHLs as corollaries. More importantly, we further
+showcase the power of our interpretation by providing new useful LHL statements. Our work further
+proves LHLs in the presence of leakage for both approaches and provides novel bounds for wide
+families of leakage functions. We believe that our work will facilitate future uses of the LHL over
+cyclotomic rings, especially in the case of new algebraic and leakage settings.
+
+Keywords: Lattice-Based Cryptography, Leftover Hash Lemma, Cyclotomic Rings, Leakage
+
+© IACR 2026. This article is the full revision of the version to be published by Springer-Verlag in the proceedings
+of EUROCRYPT 2026.
+
+
+Table of Contents
+
+Leftover Hash Lemma(s) Over Cyclotomic Rings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+1
+
+Katharina Boudgoust ID
+and Oleksandra Lapiha ID
+
+1
+Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+
+1.1 Technical Overview. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+
+2
+Preliminaries . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+
+2.1
+Number Theory. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+
+2.2
+Probability Theory . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+
+2.3
+Lattices . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+
+3
+LHL via Counting Ideals . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+
+3.1
+General Theorem . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+
+3.2
+General Theorem in the Presence of Leakage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+
+3.3
+Corollaries . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+
+4
+LHL via Smoothing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+
+4.1
+General Theorem . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+
+4.2
+Smoothing Analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+
+4.3
+Smoothing in the Presence of Exact Linear Leakage . . . . . . . . . . . . . . . . . . . . . . . . .
+30
+
+4.4
+Smoothing in the Presence of Noisy Linear Leakage . . . . . . . . . . . . . . . . . . . . . . . . .
+32
+
+5
+Properties of Some Concrete Distributions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+34
+
+Bounded Uniform Distribution . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+34
+
+Discrete Gaussian Distribution. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+35
+
+Biased Ternary Distribution . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+35
+
+Fixed Hamming Weight Ternary Distribution . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+37
+
+Centered Binomial Uniform Distribution . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+38
+
+A Missing Proofs from Section 5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+43
+
+A.1 Proof of Lemma 34 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+43
+
+A.2 Proof of Lemma 35 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+44
+
+
+1
+Introduction
+
+The leftover hash lemma (LHL) is a versatile tool in cryptography, allowing to extract uniform
+looking randomness from a random variable which is itself not uniformly random, but has
+“good” properties, such as large min-entropy [30,29]. It can be applied in various contexts, but
+the one we consider in this work is its use in lattice-based cryptography. Here, the general
+framework can be described as follows: Let R be a cyclotomic ring and q be an integer modulus,
+defining the quotient ring Rq = R/qR. Given a vector x from some input distribution over R
+(or Rq) with guaranteed “good” properties, one obtains a uniformly looking vector over Rq by
+multiplying x from the left with a wide uniform matrix A over Rq. In other words, our goal is
+to show that Ax mod q (given A) is “close” to a uniformly sampled vector u. Most commonly,
+the closeness is measured using the statistical distance, but in the context of lattice-based
+cryptography, we also use the measure of R´enyi divergence. The LHL over cyclotomic rings has
+been widely studied and extensively used over the past 15 years. In particular, it is of utility
+every time one cannot resort to computational arguments.
+
+The Special Case of R = Z. In lattice-based cryptography, the LHL was first used over the
+special ring R = Z, i.e., the cyclotomic ring of degree 1. When q is a prime and hence Zq a
+field, the original LHL [30,29] immediately holds. In more details, to apply the LHL it is enough
+to show that the function A: x �→ Ax mod q defines a universal hash function. That is, for
+a randomly chosen A and arbitrary inputs x ̸= x′, the probability of Ax = Ax′ equals one
+over the size of the image. Put differently, if we fix all but one columns of A and x ̸= x′, the
+remaining column is uniquely defined. This is true over Zq with prime q as every non-zero
+element in a field is invertible. For example, the standard LHL over Z is used in Regev’s original
+public-key encryption scheme [50], the hardness of LWE with binary secrets [28,15], or with
+deterministic noise [3]. In parallel, an alternative strategy to prove the LHL was deployed in the
+special case where x follows a discrete Gaussian distribution over Z. Such distributions arise
+naturally when working over lattices, hence meriting a special approach. Here, the so-called
+smoothing property [45] of discrete Gaussians is used to show that for a large enough Gaussian
+width, Ax mod q (given A) is statistically close to a uniformly sampled vector u. Note that the
+min-entropy of the Gaussian distribution scales with its width. This variant of the LHL is for
+instance used for proving the security of Regev’s dual public-key encryption scheme [27,8] and
+the re-randomization of LWE samples [4,26]. As far as we are aware, [8] were the first to use the
+R´enyi divergence as an alternative closeness measure for the LHL over Z.
+
+Presence of Leakage. The standard LHL [30,29] can be extended to allow for additional leakage
+on the vector x, as proven in [20]. This is commonly referred to as generalised LHL. More
+precisely, the goal is now to show that Ax mod q, given A as well as some additional leakage y on
+x, is close to a uniformly sampled vector u. It requires that the distribution of x given leakage y
+still has “good” properties. Concretely, it is sufficient to show that the average conditional
+min-entropy of x given y is high. The generalised LHL can be applied to the same use cases over
+Z described above. It served for instance to demonstrate the hardness of LWE with entropic
+secrets [14] or to argue the circuit privacy of FHE [12].
+
+The General Case. Over time, the lattice-based community moved to cyclotomic rings of larger
+degrees as they allow for significantly more compact cryptographic schemes as well as faster
+computations, e.g. [54,40,34]. However, when using cyclotomic rings of degrees larger than 1,
+one cannot apply the LHL in the same way as before. In general, Rq is not a field, even if q is
+
+3
+
+
+prime.3 Hence, not every non-zero ring element is invertible. This observation marked the start
+of a long sequence of works, many claiming a novel LHL over cyclotomic rings. To the best of
+our knowledge, the first LHL over (not necessarily cyclotomic) rings is due to Micciancio [43].
+It was originally restricted to cyclic rings of the form Z[X]/⟨XN − 1⟩ for any integer N and
+matrices A with one row. It was subsequently generalised to cyclotomic rings [54] and matrices
+of multiple rows [11]. The latter work was also the first to use the R´enyi divergence measure in
+the general case. In [33], limiting the setting to power-of-2 cyclotomic rings with a two-splitting
+prime modulus4 allowed for tighter parameters. All quoted works only consider the uniform
+distribution over elements of small norm as the input distribution. Later, [38] claimed a different
+proof approach leading to more general conditions on the input distribution. Their LHL applied
+to the ring of integers of any number field and arbitrary hash input distributions, as long as
+they had a small enough collision probability (or large enough min-entropy). It can be seen
+as a generalization of [44] to number fields. Note that all the results listed until now do not
+allow for any leakage. The work of [38] was generalised to cover a fixed leakage function (namely,
+leaking x + e, where e follows a continuous Gaussian distribution) in [37]. In a recent follow-up
+work [32], the LHL of [37] was generalised to arbitrary leakage functions. In [13], another version
+of the LHL is proven tailored to the setting of power-of-2 cyclotomics with power-of-2 moduli
+and noisy linear leakage.
+In parallel to generalising the original LHL proof to the structured setting, another line of
+work [53,41,51] aimed at extending the smoothing-based argument to higher degree cyclotomics.
+Even though the high level approach stays the same, the main challenge lies in computing the
+smoothing parameter (to be defined later) of a kernel lattice corresponding to the matrix A.
+The computations are significantly easier for integer matrices compared to matrices over higher-
+degree cyclotomic rings. Additionally, there are two ways of sampling a discrete Gaussian
+distribution over R depending on the ring embedding, and the smoothing analysis depends on
+this choice. Whereas the generalised LHL can handle arbitrary leakage, allowing for leakage in
+the smoothing-based approach is less obvious. So far, it had only been addressed for specific
+leakage functions [19,55].
+Ideally, one aims for an LHL over cyclotomic rings as versatile and general as the standard
+LHL over finite fields. Moreover, the application of such an LHL should not require the user to
+be an expert on cyclotomic rings. Unfortunately, the messy landscape of LHLs over cyclotomic
+rings, each of them having a different setting and parameter restrictions, makes a black-box use
+very difficult. This brings us to the following research questions we asked ourselves in this work:
+
+Is it possible to 1) generalise the seemingly independent flavours of the LHL over
+cyclotomic rings into few single results, which 2) allow an easy adaptation to new
+mathematical settings and 3) new leakage functions?
+
+Our Results. We positively answer the above questions. First, we show that the large set of
+LHLs over cyclotomic rings can be reduced to two main theorems, addressing point 1) of our
+research question. One approach leads us to the LHL via counting ideals, and the other one
+to the LHL via smoothing. The previous results can then be expressed as corollaries of one of
+the two theorems. We further generalise both theorems to the leakage context, hence providing
+generalised LHLs over cyclotomic rings. We highlight that the counting approach applies to a
+large class of input distributions (including discrete Gaussians), whereas the smoothing approach
+is so far limited to discrete Gaussian distributions. Still, the latter approach has its benefits
+as it allows for parameter configurations not covered by the counting proof technique, wider
+
+3 Requiring Rq to be a field is a very restrictive condition. For power-of-2 cyclotomic rings, predominant in
+practice, there exists no integer q meeting the condition.
+4 That is, the ring Rq is the product of two finite fields.
+
+4
+
+
+range of matrix distributions, and a tailored analysis in the case of linear leakage. We give more
+details on this in the technical overview. With this new perspective at hand, we note that many
+of the previous results extend to broader settings, addressing point 2) and 3) of our research
+question. As a concrete example, our results in Section 4 provide a smoothing-based LHL in the
+coefficient embedding for any cyclotomic ring, whereas before the state-of-the-art was limited to
+power-of-two cyclotomics. Moreover, still for the smoothing-based approach we prove a tailored
+LHL allowing for exact linear leakage, which to the best of our knowledge has not appeared in
+prior works.
+We are interested in studying the LHL on its own due to its fundamental nature in cryp-
+tography. Nonetheless, we see concrete applications of our results, especially when considering
+practical cryptosystems. All NIST lattice PQC standards use fully-splitting rings. For such rings,
+prior LHL formulations were either instantiated for bounded uniform or discrete Gaussian input
+distributions. However, due to implementation considerations, some practical cryptosystems
+prefer other distributions, e.g. the central binomial distribution as used in Kyber [52]. Our LHL
+presented in Corollary 7 together with distribution properties in Section 5 allows for simple and
+concrete instantiations for fully-splitting rings and such distributions used in practice.
+
+Our Scope. Throughout this work, we focus on the LHL over cyclotomic rings that proves
+Ax mod q (given A and potentially some leakage on x) is close to uniform, where A comes from
+the uniform distribution. We thus do not look at results where A is kept secret, like [17], or where
+both A and x are Gaussians and are shown to be again close to some Gaussian distribution,
+like [2,35]. Further, we do not study computational arguments, where the closeness of (A, Ax)
+to uniform is guaranteed by relying on hardness assumptions related to structured lattices, such
+as Module LWE [34]. We concentrate on cyclotomic fields, the ones most used in lattice-based
+cryptography, but highlight if the results apply to more general number fields.
+
+1.1
+Technical Overview
+
+We give more details regarding our key insights. Our overall goal is to give concrete constraints
+under which (A, Ax) is close5 to (A, u), where the n×m matrix A and the vector u are sampled
+uniformly at random over Rq for a cyclotomic ring R and a modulus q. The hash input vector x
+is sampled from some distribution P over Rm
+q (or over Rm).
+
+Via Counting Ideals. The first approach makes use of the well-known observation that a small
+collision probability of (A, Ax) implies closeness to uniform [20]. Upper bounding the first boils
+down to bounding the probability Pr[A(x − x′) = 0] for uniform random A and independently
+sampled x, x′ ← P. A basic result of algebra (Lemma 11) states that for fixed x, x′ and uniform
+random A, the expression A(x−x′) is distributed uniformly at random over the ideal Ix,x′ ⊆ Rq
+generated by x − x′, that is Ix,x′ = ⟨x1 − x′
+1, . . . , xm − x′
+m⟩. Using that the uniform distribution
+over some ideal I is proportional to its norm N(I) and conditioning (and hence counting) over
+all ideals of Rq, we obtain our first LHL.
+
+Theorem 1 (Counting Ideals, Informal).
+Let A ← U(Rn×m
+q
+) and x ← P for some
+distribution over Rm
+q . The distance of (A, Ax) to the uniform distribution scales with
+
+�
+
+I̸=Rq
+N(I)n ·
+Pr
+x,x′←P[Ix,x′ = I].
+(1)
+
+5 For simplicity, we will not distinguish between statistical and R´enyi closeness here.
+
+5
+
+
+In other words, whether a distribution P is good for randomness extraction depends on the
+behaviour of Ix,x′ for independently sampled x, x′ ← P. The formal statement can be found
+in Theorem 4. We emphasise that the use of the ideal Ix,x′ itself is not novel, and that our
+contribution lies in framing the above as the common starting point of various seemingly
+independent LHLs, allowing us to derive previous and new flavours.
+By observing that Pr[Ix,x′ = I] ≤ Pr[∀i : xi−x′
+i ∈ I] = Coll(P mod I) and Coll(P mod I) ≤
+2−H∞(P mod I), we replace the dependency on the rather algebraic object Ix,x′ by more well-
+studied objects like collision probability Coll(·) and min-entropy H∞(·). Here, P mod I denotes
+the distribution of sampling x ← P and taking each of its coefficients modulo I. This leads
+to the LHL presented in [44,38] and formulated in Corollary 3. Note that the described proof
+techniques are very general, and the results so far apply to any number field.
+We can now use known upper bounds on the collision probability and/or min-entropy for
+specific distributions over cyclotomic rings to give more concrete formulas for the expression in
+Equation (1). Previously, this has been done for bounded uniform distributions in [43,54,11] and
+for discrete Gaussian distributions in [32], as covered in Corollary 4+5.
+By trivially upper bounding the norm N(I) by the size of Rq, it is enough to compute the
+probability �
+I̸=Rq Pr[Ix,x′ = I] = Pr[Ix,x′ ̸= Rq]. If we are in the low-splitting regime6 and P
+provides short-norm elements, we can use [42] to bound the latter probability by Coll(P), leading
+to Corollary 6. More precisely, [42] guarantees that as long as x ̸= x′, the ideal Ix,x′ contains a
+unit and hence generates the full ring Rq. Thus, we get Ix,x′ ̸= Rq only when x and x′ are equal.
+In general, it is easier to bound Coll(P), rather than Coll(P mod I) for an arbitrary ideal I.
+Hence, Corollary 6 is easier to apply than Corollary 3, at the cost of imposing a low-splitting
+regime. A similar reasoning was done in [33], but restricted to power-of-2 cyclotomics and the
+two-splitting regime. To the best of our knowledge, this versatile and easy-to-apply formulation
+of the LHL was not formally presented and proved in the literature before.
+Last but not least, with Corollary 7 we prove a LHL based on the well-spreadness property
+of P. The latter has been formalised in [1]. Informally, it bounds the probability of an element
+sampled from P hitting a specific element in each CRT slot of Rq, serving as an upper bound on
+Coll(P mod I) independent of I. Note that for distributions used in the literature, we usually
+do not have a good understanding of Coll(P mod I) for an arbitrary I, but we do know concrete
+bounds for well-spreadness. In general, well-spreadness of P leads to a looser statement compared
+to the collision probability of P from Corollary 6. However, it can be used even when R is
+splitting in many factors modulo q covering parameter regimes where Corollary 6 no longer
+applies. Even though implicitly covered in the literature [38], we think this formulation of the
+LHL deserves more spotlight, as it is especially useful in the high-splitting regime for input
+distributions other than bounded uniform and discrete Gaussians.
+In Section 5, we provide concrete bounds for collision probability modulo ideals (for Corol-
+laries 4 and 5), general collision probability (relevant for Corollary 6), and well-spreadness (for
+Corollary 7) of various distributions studied in the lattice literature. In particular, we cover
+distributions beyond the bounded uniform and discrete Gaussian case. For example, we look
+at the centered binomial distribution (as in the NIST standard Kyber [52]) or the ternary
+distribution with fixed Hamming weight.
+As observed in the literature, the counting ideals approach can be generalised to the setting of
+leakage on x. More concretely, our goal is to show that (A, Ax, y) is close to (A, u, y), where A, u
+are uniform over Rq, x ← P and y ← Q. Here, Q depends on x. Again, there exists some (maybe
+less well-known) relation between closeness-to-uniform and the average conditional collision
+
+6 We say that the ring R is low-splitting modulo q, if Rq is the product of few fields.
+
+6
+
+
+probability Ey←Q[Coll((A, Ax) | y)].7 We compute this expected value in a similar way as in the
+non-leakage case. In particular, we now have to bound the probability Ey←Q[Pr[A(x−x′) = 0 | y]].
+Applying Lemma 11, conditioning over all ideals of Rq and by linearity of the expectation, we
+obtain the following informal leakage analogue of Theorem 1.
+
+Theorem 2 (Counting Ideals with Leakage, Informal). Let A ← U(Rn×m
+q
+) and x ← P
+for some distribution over Rm
+q . Further, let Q be a distribution depending on x. The distance of
+(A, Ax), given y ← Q, to the uniform distribution scales with
+�
+
+I̸=Rq
+N(I)n · Ey←Q[Pr[Ix,x′ = I | y]].
+(2)
+
+Hence, whether a distribution P is good for randomness extraction depends on the expected
+value of Pr[Ix,x′ = I] under leakage y. The formal statement can be found in Theorem 5. Note
+that when Q is independent of x, we recover Equation (1) from Theorem 1. Again, this result
+builds the starting point to derive previous and new flavours of the LHL.
+Let �
+Coll and �
+H∞ denote the average conditional collision probability and min-entropy defined
+in the main body. Using that Ey←Q Pr[Ix,x′ = I | y] ≤ �
+Coll(P mod I | Q) ≤ 2−�
+H∞(P mod I|Q),
+we recover Corollary 3, which was recently proven in [32], generalising [37] and [13].
+For the low-splitting regime, we observe that the invertibility properties proven in [42] do not
+depend on the exact distribution, and hence are valid even in the presence of leakage. Therefore,
+we obtain an expression that depends only on �
+Coll(P | Q). This results in a novel LHL in the
+low-splitting regime stated in Corollary 6. It can be seen as a generalisation of [36] from the
+limiting setup requiring Rq to be a field to any low-splitting regime. Again, we think this useful
+LHL flavour was not yet proposed in the literature.
+Note that we do not propose a leakage variant of Corollary 7, as well-spreadness does depend
+on the distribution. Such a generalisation requires a notion of well-spreadness under leakage,
+which we leave for future research.
+
+Via Smoothing. The second approach focuses on the special case where the hash input x comes
+from a discrete Gaussian distribution over Rm of width σ, denoted DRm,σ.8 As Gaussians
+arise very naturally in lattice-based cryptography, a dedicated line of research has evolved. It
+starts by observing that the closeness of (A, Ax) to uniform can be expressed as the expected
+value over A of the closeness of Ax to uniform. For example for the statistical distance SD, it
+holds SD((A, Ax), (A, u)) = EA[SD(Ax, u)] for uniform u. Then, for a fixed n × m matrix A,
+the map A: x ∈ Rm �→ Ax mod q ∈ Rn
+q induces an isomorphism between Rm/Λ⊥
+q (A) and
+im(A), where Λ⊥
+q (A) = {y ∈ Rm | Ay = 0 mod q} is the kernel of the map. For simplicity,
+let us assume for now that im(A) = Rn
+q . Then, Ax mod q is close to uniform over Rn
+q if and
+only if x mod Λ⊥
+q (A) is close to uniform over Rm/Λ⊥
+q (A). At this point, we use a well-known
+observation on discrete Gaussian distributions made in [27]: closeness to the uniform distribution
+is guaranteed as long as the Gaussian width of x lies above the smoothing parameter η of
+Λ⊥
+q (A). Informally, the smoothing parameter [45] provides a threshold of the Gaussian width,
+above which we have a much better understanding how discrete Gaussians distributions behave.
+Overall, this gives us the following smoothing-based LHL.
+
+Theorem 3 (Smoothing, Informal).
+Let A ← U(Rn×m
+q
+) and x ← DRm,σ. The distribu-
+tion (A, Ax) is close to the uniform distribution if both im(A) = Rn
+q and σ ≥ η(Λ⊥
+q (A)) with
+overwhelming probability over the choice of A.
+
+7 There exist different definitions of average conditional collision probability in the literature. Our choice fits well
+with the use of the R´enyi divergence measure.
+8 Our results apply to non-spherical discrete Gaussians with non-zero center, but for simplicity we focus on
+spherical and zero-centered in the technical overview.
+
+7
+
+
+The formal statement can be found in Theorem 6. The existing literature then deviates on
+how an upper bound for the smoothing parameter of the kernel lattice is obtained. The works
+of [53,51] derive a lower bound on the first minimum of the dual lattice. To do that they use a
+union bound over all possible vectors within a ball, paired with a volume argument for the ball
+and a set of ideal lattices. In contrast, [41] proceed by the definition of the smoothing parameter
+and directly compute the expected Gaussian weight of the dual lattice and then apply Markov’s
+inequality. Interestingly, even though the proofs differ substantially, both use the same technical
+result (Lemma 11) over the ideal Iz for some vector z over Rq, exactly the same result which
+was a key observation in the counting approach to prove Theorem 1.
+Note that for a matrix A over the ring Rq, interpreting Λ⊥
+q (A) as a lattice, requires to specify
+which of the two possible embeddings is used. Concretely, [53] opted for the coefficient embedding,
+and [41,51] state their results in the canonical embedding. Whereas the latter applies to any
+cyclotomic ring, the coefficient version is limited to power-of-2 cyclotomics. This constraint
+comes from the fact that for the smoothing analysis, [53] needs to express the dual of Λ⊥
+q (A)
+as the lattice Λq(A′) of some related matrix A′ over Rq. We show with Corollary 8 that this
+limitation is not necessary. Our key observation is that once we have the smoothing-based
+LHL (including any smoothing analysis for Λ⊥
+q (A)) in one embedding, we can switch to the
+other embedding (without the need of re-doing a smoothing analysis of Λ⊥
+q (A) for the other
+embedding). Depending on the direction we go, the incurred loss is determined by the smallest
+or largest singular value of the Vandermonde matrix of the given cyclotomic ring. In the case of
+power-of-2 cyclotomics, we exactly recover [53] from the canonical embedding statement. To the
+best of our knowledge, this is the first smoothing-based LHL in the coefficient embedding that
+applies to any cyclotomic ring.
+Regarding the image condition, all prior results enforce im(A) = Rn
+q by either prepending the
+identity matrix [41], recalled in Lemma 26, or by limiting to invertible entries [53,51], restated
+in Lemma 24+25. We provide new LHL versions for both approaches in the more natural case
+when the matrix has to be truly uniform (cf. Lemma 27+28). This comes at the expense of
+either requiring a low-splitting regime or non-constant number of columns m of A, similarly to
+the counting approach.
+Our work concludes with a novel study of the smoothing-based approach when linear leakage
+on the input vector x is given. We distinguish between exact and noisy linear leakage. The noisy
+leakage is of the form (E, Ex + y), where the matrix E is given, but y stays hidden and comes
+from a different discrete Gaussian distribution. We assume E, x and y to all have short norm,
+and do not perform the computation modulo q. This can be seen as a statistical version of the
+Hint-LWE problem. By using recent results from the literature on the Hint-LWE problem [23],
+we observe that the distribution of x (originally coming from a zero-centred discrete Gaussian
+distribution) given the leakage (E, Ex + y) still follows a discrete Gaussian distribution over the
+ring. The width and centre of the new distribution depend on the leakage, but x itself is sampled
+independently. In other words, we can apply the normal smoothing-based LHL (Theorem 3),
+where x comes from the discrete Gaussian distribution defined by the leakage, leading to our
+noisy leakage result in Theorem 8. We note that the first type of leakage function considered
+in [19] can be seen as a special case, where E is the identity matrix. The two other types of
+leakage in [19] are more specific to the side-channel attack setting, and we do not cover them in
+this work.
+In the exact leakage context, the hint is of the form (E, Ex), where x comes from a discrete
+zero-centred Gaussian distribution. Again, we do not reduce modulo q. Here our proof technique
+is inspired by the approach of [55]. The hint can be seen as a constraint, conditioning x to lie in
+a specific coset of the lattice Λ⊥(E). Put differently, x follows a discrete Gaussian distribution
+over the lattice Λ⊥(E), and we now prove that x mod Λ⊥(E) ∩ Λ⊥
+q (A) is close to uniform. As
+
+8
+
+
+in the non-leakage context, we can use a smoothing argument once the Gaussian width of x
+lies above the smoothing parameter of the new lattice Λ⊥(E) ∩ Λ⊥
+q (A). The remainder of the
+proof gives a bound on the latter, following the approach of [53], and leading to Theorem 7. The
+original work [55] only applied this technique in a noisy leakage context, which we extended
+to the more powerful exact leakage. In fact, this provides the first meaningful bound for the
+LHL with exact leakage as previously its effect was bounded by its bit-size. In practice, this
+means that in prior work leaking even one ring element would increase the statistical distance to
+uniform by a factor exponential in the ring degree (see Lemma 10).
+
+Counting vs. Smoothing. The attentive reader might be wondering why we keep the smoothing
+approach all along, given that the counting approach already applies to discrete Gaussians, cf.
+Corollary 5. We detail two aspects where the smoothing approach beats the counting approach.
+First, as remarked in [41], if the matrix A is sampled from the uniform distribution, then both
+the smoothing and counting LHL cannot allow for both the number m of columns of A and the
+degree δ of the splitting to be constant. In other words, we cannot simultaneously have constant
+matrix dimensions and be in the high-splitting regime. However, in the smoothing approach,
+we can circumvent this limitation, for instance by prepending the identity matrix to A. An
+additional advantage of the smoothing approach over the counting approach is that for exact
+linear leakage, we obtain tighter results and hence allow for more information to be leaked.
+
+Open Problems. The last missing step to systemise the study of leftover hash lemmas over
+cyclotomic rings, would be to find a general theorem encompassing both the counting and the
+smoothing approach. Moreover, tighter min-entropy bounds modulo ideals and under specific
+leakage distributions would yield better LHL results. Extending the smoothing-based approach
+to distributions other than discrete Gaussian and to larger classes of leakage, beyond linear
+leakage, could be an interesting future direction. Finally, a curious algebraic problem would
+be to analyse the probability of ⟨x1 − x′
+1, . . . , xm − x′
+m⟩ = I directly rather than resorting to
+Pr[∀i : (xi − x′
+i) ∈ I].
+
+2
+Preliminaries
+
+We denote matrices in uppercase boldface letters A and vectors in lowercase x. We write [A | B]
+for concatenating matrices horizontally and [A||B] for stacking them vertically. For A ∈ Rn×m
+
+we write ∥A∥F =
+��
+i,j a2
+ij to signify the Frobenius norm of the matrix. The s1(A) and sn(A)
+
+denote the largest and the smallest singular values of A respectively. It holds that s1(A) ≤ ∥A∥F .
+We denote the Euclidean ℓ2 norm as ∥x∥ and the infinity norm as ∥x∥∞.
+
+2.1
+Number Theory
+
+A number field K = Q(ζ) of degree N is a finite field extension of the rationals Q obtained
+by adjoining an algebraic number ζ. We denote its ring of integers by R. We call K a ν-th
+cyclotomic number field if ζ is a ν-th primitive root of unity. Its degree is given by N = φ(ν),
+where φ is Euler’s totient function.
+We can identify K = Q[X]/⟨Φ(X)⟩, where Φ(X) is the minimal polynomial of ζ. Every
+element x ∈ K can then be written with respect to the basis
+�
+1, ζ, . . . , ζN−1�
+as x = �N−1
+i=0 xiζi
+
+with xi ∈ Q. The isomorphism τ : K → QN which maps x to its coefficient vector τ(x) =
+(x0, . . . , xN−1)T is called the coefficient embedding. By associating the norm of an element x
+in K with the norm of its corresponding τ(x) ∈ QN, it is possible to equip K with a geometry.
+
+9
+
+
+For a positive integer η, we define Sη = τ −1 �
+{−η, . . . , η}N�
+= {y ∈ R | ∥τ(y)∥∞ ≤ η}, which
+corresponds to the set of polynomials in R with coefficients in {−η, . . . , η}.
+Another way of equipping K with a geometry is the canonical embedding. More precisely, for
+a number field K of degree N, let θ1, . . . , θN denote the embeddings of K into C. The canonical
+embedding θ: K → CN maps x ∈ K to θ(x) := (θ1(x), . . . , θN(x))T . It also helps us define the
+discriminant of the number field K as ∆K = |det(θi(rj))i,j|2 for any basis (rj) of R.
+Let θi(ζν) ∈ R for i ≤ t1 and for t1 < i ≤ t2 + t1: θi(ζν) ∈ C and θt2+i(ζν) = θi(ζν). Define
+
+UH =
+1
+√
+
+2
+
+
+
+
+
+√
+
+2It1
+0
+0
+0
+It2
+It2
+0
+−iIt2 iIt2
+
+
+
+ .
+
+Then θH(x) := UH · θ(x) ∈ RN. This embedding θH : K → RN is sometimes called the
+Minkowski embedding. Since UH is a unitary transformation, it does not affect the geometric
+lattice properties we consider in this paper. Hence, we will abuse the notation and call it canonical
+embedding for simplicity.
+Note that the two geometries induced by the coefficient and canonical embeddings are
+in general not the same, but we can measure their distortion using the Vandermode matrix.
+Let (αi)i∈{1,...,N} = (θi(ζ))i∈{1,...,N} be the roots of the defining polynomial Φ(X) of K = Q(ζ).
+They form the Vandermonde matrix VΦ defined as
+
+VΦ =
+
+
+
+
+
+
+
+
+1 α1 · · · αN−1
+1
+1 α2 · · · αN−1
+2
+...
+...
+...
+1 αN · · · αN−1
+N
+
+
+
+
+
+
+ .
+
+Then ∀x ∈ K : θ(x) = UH · VΦ · τ(x). Denote as s1(ν) the spectral norm of the Vandermonde
+matrix VΦ of the ν-th cyclotomic field, i.e., the largest singular value of VΦ. Moreover, let sN(ν)
+denote the smallest singular value of VΦ, which is also the inverse of the spectral norm of (VΦ)−1.
+Since s1(UH) = sN(UH) = 1, for every x ∈ K it holds
+
+∥τ(x)∥ · sN(ν) ≤ ∥θ(x)∥ ≤ ∥τ(x)∥ · s1(ν).
+(3)
+
+In the case of power-of-two cyclotomics, i.e., ν = 2k+1 for a positive integer k and N = 2k,
+we know that s1(ν) = sN(ν) =
+√
+
+N. Thus, τ and θ are isometric up to a factor of
+√
+
+N. The
+distortion between embeddings for other number fields was studied further in [10] and [51].
+For cyclotomic fields, we can lower and upper bound the spectral norm of VΦ.
+
+Lemma 1 ([5, Proposition 2]). For all positive integers ν
+�
+
+φ(ν) ≤ s1(ν) ≤
+�
+
+t(ν),
+
+where t(ν) = ν when ν is odd and t(ν) = ν/2 when it is even. The inequality turns into an
+equality on both sides when ν is a power of 2.
+
+The field discriminant can be bounded as follows.
+
+Lemma 2 ([41]).
+For ν ∈ N, let K = Q(ζν) be the ν-th cyclotomic number field. Denote
+N = φ(ν). Then
+
+|∆K| =
+νN
+
+�
+d|ν d
+N
+
+d−1
+≤ NN.
+
+10
+
+
+Using the fact that every cyclotomic field K is a Galois field extension of Q, we have a good
+grasp of the splitting behavior of the minimal polynomial Φ(X) into irreducible factor over finite
+fields. More precisely, for unramified prime q (this is guaranteed if q ∤ ∆K), the polynomial
+Φ(X) uniquely factors as Φ(X) = �f
+j=1 Φj(X) mod q, such that f|N, all Φj(X) are distinct,
+have degree δ|N and are irreducible modulo q, where N = fδ. Using that for cyclotomic
+fields, R = Z[X]/⟨Φ(X)⟩, the above implies that for any q prime not dividing ∆K, the quotient
+ring Rq = R/qR of degree N factors into distinct finite fields as
+
+Rq = Zq[X]/⟨Φ(X)⟩ =
+
+f�
+
+j=1
+Zq[X]/ ⟨Φj(X)⟩.
+
+We call Rq fully-splitting if f = N, high-splitting if δ is a small constant and low-splitting if f is
+a small constant. The splitting of Φ(X) mod q defines norm bounds below which elements are
+invertible in Rq.
+
+Lemma 3 ([42, Lemma 3.1]).
+Let K = Q[X]/⟨Φ(X)⟩ be the ν-th cyclotomic field of de-
+gree N = φ(ν), with R its ring of integers. Let q be a prime such that Φ(X) = �f
+j=1 Φj(X) mod q,
+for distinct Φj(X) of degree δ = N/f irreducible in the ring Zq[X]. Then, for any element y
+of Rq satisfying 0 < ∥τ(y)∥∞ ≤ ∥τ(y)∥2 < q1/f√
+
+N/s1(ν), it holds that y mod qR is a unit in
+Rq.
+
+Putting significantly stronger constraints on the relationship between q and Φ(x), [42, Theo-
+rem 1.1] provides tighter norm bounds.
+
+Lemma 4 ([42, Theorem 1.1]).
+Let K = Q[X]/⟨Φ(X)⟩ be the ν-th cyclotomic field of
+degree N = φ(ν), with R its ring of integers. Further, let ν = � pei
+i for ei ≥ 1 and let µ = � pfi
+i
+for 1 ≤ fi ≤ ei. If q is a prime such that q = 1 mod µ and the multiplicative order modulo ν
+of q is ν/µ, then the polynomial Φ(X) factors modulo q as Φ(X) = �φ(µ)
+j=1 (Xν/µ − rj) mod q, for
+distinct rj ∈ Z×
+q , where Xν/µ − rj are irreducible in the ring Zq[X]. Further, for any element y
+of Rq satisfying 0 < ∥τ(y)∥∞ < q1/φ(µ)/s1(µ), it holds that y mod qR is a unit in Rq.
+
+An integral ideal I of a ring R is a subgroup of R such that I · R = I. The definition also applies
+to the quotient ring Rq = R/qR for an integer modulus q. We denote a principal ideal generated
+by a ∈ R as ⟨a⟩ = aR.
+
+Lemma 5 (Ideals in Rq).
+Consider a cyclotomic number field K, its ring of integers R
+and an unramified prime number q. Let Φ(X) = �f
+j=1 Φj(X) mod q be the factorisation of the
+corresponding cyclotomic polynomial in Rq. Then every ideal I ⊆ Rq is of the form
+
+I = ⟨
+�
+
+j∈G
+Φj(X)⟩, with N(I) = qδ|G|,
+
+for some subset G ⊂ {1, . . . , f}. The set G = ∅ corresponds to the ideal ⟨1⟩.
+
+Proof. By the ideal correspondence theorem of commutative algebra, every ideal I ⊂ Rq
+corresponds to an ideal of Zq[X] containing ⟨Φ(X)⟩. Since Zq is a field, Zq[X] is a principal ideal
+domain. Then every ideal containing ⟨Φ(X)⟩ is generated by a single polynomial f(X) dividing
+Φ(X) modulo q. Hence, I = ⟨�
+i∈G(Xδ − rj)⟩ for some subset of indices G ⊂ {1, . . . , f}.
+⊓⊔
+
+The norm of an integral ideal I of R is defined as N(I) = |R/I|. For any sub-ideal I′ ⊆ I ⊆ R
+the norm satisfies N(I) = |(R/I′)/(I/I′)|. In particular, if I contains qR we have N(I) =
+|Rq|/|I mod qR|.
+
+11
+
+
+The set of ideals J ⊂ Rq = R/qR are in one to one correspondence with ideals I ⊆ R that
+contain qR via a map I mod qR = J . Alternatively, we write I = qR + J taking an arbitrary
+representative of J in R. Note that N(I) = |Rq|/|I mod qR| = |Rq/J| = N(J ) where we abuse
+the notation writing N(J ) for the norm of J as an ideal of Rq.
+For any element a in the ring we define its algebraic norm as N(a) := �N
+i=1 θi(a), it verifies
+|N(a)| = N(⟨a⟩). Then for the fractional ideals 1
+
+aI where a ∈ R, I ⊆ R we define the norm as
+N( 1
+
+aI) := N(I)
+
+|N(a)|. We denote R∗ the dual of R as an R-module. The following lemma allows us
+to compute the norms of ideals inside R∗.
+
+Lemma 6 ([41, Section 2.5.4]). Let K be a cyclotomic number field and R be its ring of
+integers. Then there exists an element t ∈ R such that R∗ = 1
+
+t · R. Its norm is R∗ = |N(t)|−1 =
+∆−1
+K .
+
+Then for and ideal J ⊆ R∗ we have N(J ) = N(t · J ) · ∆−1
+K where t · J is an integral ideal
+in R. We upper bound the sum of norms of ideals in Rq.
+
+Lemma 7 ([41, Claim 7.3] adapted). Let K be a cyclotomic number field of degree N and
+R its ring of integers, let k > 1 be an integer and q ≥ 2 an unramified prime number. Let
+Rq = R/qR factor into f fields of size qδ, for some f · δ = N. Let I be the set of all integer
+ideals of Rq. Then
+
+�
+
+I∈I
+|I|k =
+�
+
+I∈I
+N(I)k ≤ exp(1) · qNk,
+�
+
+I∈I
+|I|−k =
+�
+
+I∈I
+N(I)−k ≤ 1 + 2f · q−δk,
+
+where the right inequality additionally assumes 2f · q−δk ≤ 1.
+
+Proof. Let Rq = �f
+j=1 Zq[X]/⟨Φj(X)⟩ be the factorisation of the ring. Since q is an unramified
+prime by Lemma 5 every ideal of Rq is of the form I = �
+j∈G Zq[X]/⟨Φj(X)⟩ for some G ⊂
+{1, . . . , f}. Then for I′ = �
+j /∈G Zq[X]/⟨Φj(X)⟩ it holds that |I| = N(I′). Hence, we can reorder
+the sum over all ideals and obtain �
+I∈I|I|k = �
+I′∈I N(I′)k. This way derive bounds for the
+size of ideals from the bounds for their norm. We now extend the proof of [41, Claim 7.3] to
+negative powers,
+�
+
+I∈I
+N(I)−k ≤ (1 + q−δk)f ≤ 1 + 2f · q−δk,
+
+using the bound on binomial formula (1 + x)n ≤ 1 + 2nx for 2nx ≤ 1.
+⊓⊔
+
+2.2
+Probability Theory
+
+The cardinality of a finite set S is denoted by |S|. For a probability distribution P over S, we
+denote by x ← P the process of sampling x ∈ S according to P. The probability of sampling x
+according to P is denoted by P(x). By U(S), we denote the uniform distribution over S, which
+is defined as Pr[x = y|x ← U(S)] = 1/|S| for every y ∈ S. The support of a probability
+distribution P over S is defined as Supp(P) = {x ∈ S | P(x) ̸= 0}.
+The collision probability of P is defined as Coll(P) = Pr[x = x′|x, x′ ← P]. By E(P) we
+denote the expected value of P. If P is a discrete probability distribution over S, the collision
+probability equals Coll(P) = �
+x∈S P(x)2 and the expected value equals E(P) = �
+x∈S x · P(x).
+The min-entropy of P is defined as H∞(P) = − log2 (maxx∈S P(x)). It is true that Coll(P) ≤
+
+12
+
+
+�
+x∈S P(x)·maxy∈S P(y) = maxy∈S P(y), which implies Coll(P) ≤ 2−H∞(P). For two probability
+distributions P (over S) and Q (over T) we define the average conditional collision probability as
+
+�
+Coll(P | Q) := Ey←Q Pr[x = x′ | x, x′ ← P, y].
+
+We remark that there are different flavours of how to define average conditional collision probabil-
+ity in the literature [24]. We opted for this one as it allows for equalities when working with the
+R´enyi divergence (cf. Lemma 9). If P and Q are discrete, �
+Coll(P | Q) = �
+y∈T Q(y) �
+x∈S Pr[P =
+
+x | y]2. If Q is independent of P, we recover the ordinary collision probability, i.e., �
+Coll(P | Q) =
+Coll(P). The average conditional collision probability is upper bounded by the average conditional
+min-entropy introduced in [20, Sec. 2.4], �
+H∞(P | Q) := − log2 (Ey←Q maxx∈S Pr[P = x | y]) .
+More precisely, �
+Coll(P | Q) ≤ Ey←Q maxx∈S Pr[P = x | y] = 2−�
+H∞(P|Q).
+
+Let P and Q be two discrete probability distributions over a discrete domain S. Their statis-
+tical distance is defined as SD(P, Q) = 1/2 �
+x∈S|P(x) − Q(x)|. We call P and Q statistically
+close in the security parameter λ if SD(P, Q) = negl(λ). If the statistical distance is bounded
+by ε > 0 we write P ≈ε Q. The statistical distance to uniform, even in the presence of leakage,
+can be upper bounded in terms of the (average conditional) collision probability of P under
+leakage Q.
+
+Lemma 8 ([20, Lem. 2.4] implicit). Let P be a discrete probability distribution over a finite
+set S and Q be a discrete probability distribution over a finite set T. Then,
+
+i) SD(P, U(S)) ≤ 1
+
+2
+�
+
+|S| · Coll(P) − 1,
+
+ii) SD((P, Q), (U(S), Q)) ≤ 1
+
+2
+
+�
+
+|S| · �
+Coll(P | Q) − 1.
+
+Let P and Q be two discrete probability distributions such that Supp(P) ⊂ Supp(Q). Their R´enyi
+divergence (of order 2 and in exponential notation) is defined as RD(P; Q) = �
+x∈Supp(P)
+P(x)2
+
+Q(x) .
+
+We also define the R´enyi divergence of infinite order as RD∞(P; Q) = maxx∈Supp(P)
+P(x)
+Q(x). For any
+two distributions P, Q it holds RD(P; Q) ≤ RD∞(P; Q). See [56] for this and other properties
+of the R´enyi divergence, such as data processing inequality. We call P and Q R´enyi close
+if RD(P; Q) ∈ O(1). The R´enyi divergence to the uniform distribution can be expressed in terms
+of average conditional collision probability.
+
+Lemma 9 (extended [11, Lemma B.1]). Let P be a discrete probability distribution over a
+finite set S and Q be a discrete probability distribution over a finite set T. Then,
+
+RD(P; U(S)) = |S| · Coll(P),
+RD((P, Q), (U(S), Q)) = |S| · �
+Coll(P | Q).
+
+Proof. We prove the equality in the presence of leakage. The non-leakage version follows by
+�
+Coll(P | Q) = Coll(P) if Q is independent of P, the multiplicativity of the R´enyi divergence, as
+well as RD(Q, Q) = 1.
+
+First, we observe that Supp(P) ⊂ Supp(U(S)) and hence the R´enyi divergence is well-defined.
+Let U := U(S) and RD := RD((P, Q); (U, Q)). By the definition of the R´enyi divergence and
+
+13
+
+
+the average collision probability, it yields
+
+RD :=
+�
+
+(x,y)∈Supp(P×Q)
+
+Pr [P = x ∧ Q = y]2
+
+Pr [U = x ∧ Q = y]
+
+= |S| ·
+�
+
+(x,y)∈Supp(P×Q)
+
+Pr [P = x | Q = y]2 Pr [Q = y]2
+
+Pr [Q = y]
+
+= |S| ·
+�
+
+(x,y)∈Supp(P×Q)
+Pr [P = x | Q = y]2 Pr [Q = y]
+
+= |S| ·
+�
+
+(x,y)∈S×T
+Pr [P = x | Q = y]2 Pr [Q = y]
+
+= |S| · �
+Coll(P | Q),
+
+where we used from line 1 to 2 that U and Q are independent.
+⊓⊔
+
+We recall a general result, lower bounding the average conditional collision probability by the
+min-entropy and the bit-size of the leakage.
+
+Lemma 10 ([20, Lem. 2.2]). Let P and Q be two discrete probability distributions, where
+Q has at most |T| possible values. Then, �
+H∞(P | Q) ≥ H∞(P) − log2|T|. This implies that
+�
+Coll(P | Q) ≤ 2−H∞(P) · |T|.
+
+Let R be the ring of integers of a number field and q an unramified prime such that Rq factors
+into subfields as Rq = Zq[X]/⟨Φ(X)⟩ = �f
+j=1 Zq[X]/⟨Φj(X)⟩. For x ∈ Rq and j ∈ {1, . . . , f}, we
+call x mod Φj(X) the j-th CRT slot. An element x is invertible in Rq (denoted x ∈ R×
+q ) iff all
+its CRT-slots are non-zero. We recall the notion of well-spread distributions over Rq as defined
+in [1].
+
+Definition 1 (Well-Spreadness). Let P be a distribution over Rq and B ∈ [0, 1] be a constant.
+We say that P is B-well-spread if for all j ∈ [f] and for all y ∈ Zq[X]/⟨Φj(X)⟩ it holds
+Pr[x mod Φj(X) = y|x ← P] ≤ B.
+
+The closer B gets to 1/qδ, the more P acts like the uniform distribution over each CRT-slot.
+Lastly, we recall a useful lemma proven in [43, Lem. 4.3] for ideals and generalised to modules in
+[11, Lem. B.3].
+
+Lemma 11. Let A be an arbitrary finite ring and n, m be positive integers. Consider an arbitrary
+vector z = (zi)m
+i=1 ∈ Am. We define the ideal Iz := ⟨z1, . . . , zm⟩. For A ← U(An×m), the vector
+Az is uniformly distributed over the module In
+z . In particular, PrA←U(An×m) [Az = 0] =
+1
+
+|Iz|n .
+
+2.3
+Lattices
+
+A lattice Λ is a discrete additive subgroup of Rm. It is usually defined as all integer linear
+combinations of a set of basis vectors that are linearly independent in Rm. Formally, a set of
+n ≤ m basis vectors b1, . . . , bn ∈ (Rm)n defines a lattice Λ(b1, . . . , bn) := {�n
+i=1 bixi|xi ∈ Z ∀i}.
+Parameter m here is the lattice dimension and parameter n is its rank. In this work, we
+only work with full-rank lattices, that are lattices for which n = m and hence dimension
+and rank can be used interchangeably. We further define the dual of a lattice Λ as Λ∗ =
+{y ∈ spanR(Λ): ⟨y, x⟩ ∈ Z ∀x ∈ Λ}. The first minimum of a lattice Λ with respect to the ℓ2-
+norm is defined by λ1(Λ) = minx∈Λ\{0}∥x∥. We write λ∞
+1 (Λ) for the first minimum with respect
+
+14
+
+
+to the infinity norm. Denote Cn a closed ball of dimension n and radius 1. Then for i > 1 the
+i-th minimum of the lattice is defined as λi(Λ) = min{r > 0 : dim span(Λ ∩ rCn) ≥ i}
+Let Σ ∈ Rm×m be a symmetric positive-definite matrix and c ∈ Rm and Λ be an m-
+dimensional lattice. For any vector x ∈ Rm we define the Gaussian mass function ρ√
+
+Σ,c(x)
+as follows: ρ√
+
+Σ,c(x) := exp
+�
+−π(x − c)T Σ−1(x − c)
+�
+. Then, the discrete Gaussian distribution
+DΛ,
+√
+
+Σ,c over Λ is given by
+
+∀x ∈ Λ : DΛ,
+√
+
+Σ,c(x) =
+ρ√
+
+Σ,c(x)
+
+�
+z∈Λ ρ√
+
+Σ,c(z).
+
+When c = 0 or Λ = Zm we omit them from the notation. When Σ = σ2Im, we say the discrete
+Gaussian distribution is spherical and simply write DΛ,σ,c.
+An important quantity related to discrete Gaussians over lattices is the smoothing pa-
+rameter [45]. For some ε > 0 and a lattice Λ, we define ηε(Λ) as the smallest s > 0 such
+that ρ1/s(Λ∗) ≤ 1 + ε.
+The notion of the smoothing parameter was adapted to elliptical Gaussians for example
+in [47]. For that, we define a partial ordering on positive semi-definite matrices. For matrices
+Σ1, Σ2 ∈ Rm×m we say Σ1 ≥ Σ2 iff Σ1 − Σ2 is positive semi-definite. As a shorthand for any
+s ≥ 0 we say Σ ≥ s iff Σ ≥ s·Im. Then for a symmetric positive semi-definite matrix Σ ∈ Rm×m
+
+the inequality Σ ≥ η2
+ε(Λ) := s2 correctly implies ρ√
+
+Σ−1(Λ∗) = �
+x∈Λ∗ exp(−π · xT Σx) ≤
+�
+x∈Λ∗ exp(−π · xT s2Imx) = ρ1/s(Λ∗) ≤ 1 + ε.
+
+Lemma 12 ([46]). For any ε > 0 and n-dimensional lattice Λ it holds
+
+ηε(Λ) ≤
+
+�
+
+ln(2n(1 + 1/ε))/π
+
+λ∞
+1 (Λ∗)
+
+Lemma 13 ([45, Lemma 3.3] adapted). For any ε ∈ (0, 1/2) and a rank-d lattice Λ it holds
+ηε(Λ) ≤ λd(Λ) ·
+�
+
+ln(2d(1 + 1/ε))/π.
+
+Lemma 14 ([41, Lemma 2.6]). For any n-dimensional lattice Λ
+
+η2−2n(Λ) ≤ √n/λ1(Λ∗).
+
+Lemma 15 ([9]). Let Λ ⊂ Rm be a rank-n lattice for 1 ≤ n ≤ m. Then for 1 ≤ i ≤ n
+
+1 ≤ λi(Λ) · λn−i+1(Λ∗) ≤ n.
+
+Lemma 16 ([26, Lemma 2.3]). Let m ≥ n > 0 and Σ ≥ 0. For any n-dimensional lattice Λ,
+center c ∈ Rn and an injective map V ∈ Rm×n
+
+V · DΛ,
+√
+
+Σ,c = DV·Λ,
+√
+
+V·Σ·VT ,V·c.
+
+The following result is usually referenced to [27, Corollary 2.8], but was already implicit in
+[45]. The version for non-spherical discrete Gaussians we state is for instance proven in [31,
+Lemma 1.25].
+
+Lemma 17. Let Λ, Λ′ be m-dimensional lattices such that Λ′ ⊆ Λ, let ε ∈ (0, 1), Σ ∈ Rm×m be
+symmetric positive-definite and c ∈ Rm. Let (DΛ,
+√
+
+Σ,c mod Λ′) denote the distribution on Λ/Λ′
+
+obtained by sampling a vector from DΛ,
+√
+
+Σ,c and reducing the sample modulo Λ′. Then for any
+√
+
+Σ ≥ ηε(Λ′) and ∀x ∈ Λ/Λ′ :
+
+Pr[x ← DΛ,
+√
+
+Σ,c mod Λ′] ∈
+�1 − ε
+
+1 + ε, 1 + ε
+
+1 − ε
+
+�
+1
+
+|Λ/Λ′|.
+
+15
+
+
+Corollary 1. Let Λ, Λ′ be m-dimensional lattices such that Λ′ ⊆ Λ, let ε ∈ (0, 1), Σ ∈ Rm×m
+
+be symmetric positive-definite and c ∈ Rm. Then for any
+√
+
+Σ ≥ ηε(Λ′)
+
+SD((DΛ,
+√
+
+Σ,c mod Λ′), U(Λ/Λ′)) ≤ ε/(1 − ε).
+
+Corollary 2 ([7, Lemma 2.10] adapted).
+Let Λ, Λ′ be m-dimensional lattices such that
+Λ′ ⊆ Λ, let ε ∈ (0, 1), Σ ∈ Rm×m be symmetric positive-definite and c ∈ Rm. Then for any
+√
+
+Σ ≥ ηε(Λ′)
+
+RD((DΛ,
+√
+
+Σ,c mod Λ′); U(Λ/Λ′)) ≤ RD∞((DΛ,
+√
+
+Σ,c mod Λ′); U(Λ/Λ′)) ≤ 1 + ε
+
+1 − ε.
+
+We remark that [49,25] propose a different formulation of the above corollary, making use of the
+notion of relative error. However, their bound reflects an asymptotic behaviour, whereas the one
+we use holds in the worst case.
+
+Lemma 18 ([46, Corollary 5.3] adapted). Let Λ be an m-dimensional lattice and σ > 0.
+Then, for x ← DΛ,σ
+Pr[∥x∥∞ ≥ σ · r] ≤ 2m · e−πr2.
+
+Any R-module M ⊂ Kr of rank r defines module lattices τ(M) and θ(M) in RNr through the
+coefficient embedding τ or the canonical embedding θ. We write Dτ
+M,
+√
+
+Σ,c (respectively Dθ
+M,
+√
+
+Σ,c)
+to denote the discrete Gaussian distribution obtained by embedding the module M and the
+center c ∈ Rr through τ (resp. θ). Any ideal I of degree-N ring R defines a lattice in RN through
+the coefficient embedding τ or the canonical embedding θ. Such lattices are called ideal lattices.
+
+Lemma 19 ([41, Lemma 2.14]). Let K be a number field of degree N. For any fractional
+ideal I of K
+√
+
+N · N(I)1/N ≤ λ1(θ(I)).
+
+By using Equation 3, we obtain
+√
+
+N · N(I)1/N/s1(ν) ≤ λ1(τ(I)).
+
+Lemma 20 ([48, Lemma 6.5] adapted). Let ε = 2−N. For any ideal I in degree N ring R
+we have
+ηε(θ(I)) ≤ (N(I) · |∆K|)1/N.
+
+Lemma 21 ([41, Claim 7.1]). Let r, ε > 0. For any n-dimensional lattice Λ
+
+ρ1/r(Λ) ≤ max
+�
+1,
+�ηε(Λ∗)
+
+r
+
+�n�
+(1 + ε)
+
+In particular for any fractional ideal I ⊂ K we have
+
+ρ1/r(θ(I)) ≤ max
+�
+1, N(I)−1r−N�
+(1 + 2−2N)
+
+ρ1/r(τ(I)) ≤ max
+�
+1, N(I)−1s1(ν)N · r−N�
+(1 + 2−2N)
+
+To obtain the bound for the ideals we apply Lemma 14 and Lemma 19 to the general statement.
+In this work, we consider the special class of q-ary lattices. For A ∈ Rn×m
+q
+we define Λ⊥
+q (A) =
+{y ∈ Rm : Ay = 0 mod q}, as well as the lattice Λq(AT ) =
+�
+y ∈ Rm : ∃s ∈ Rn s.t AT s = y mod q
+�
+.
+Both define an R-module of rank m, which after being embedded via τ or θ, defines a correspond-
+ing module lattice. For a ∈ Rq = Zq[X]/⟨Φ(X)⟩ define Rot(a) := [τ(a) | · · · | τ(XN−1 · a)] ∈
+ZN×N
+q
+and for A = (aij)i,j ∈ Rn×m
+q
+define a block matrix Rot(A) := (Rot(aij))i,j ∈ ZNn×Nm
+q
+.
+We note that for the coefficient embedding τ(Λ⊥
+q (A)) = Λ⊥
+q (Rot(A)).
+
+16
+
+
+Lemma 22 ([51, Lemma 5.1] adapted). Let K be a number field with R its ring of integers.
+Further, let q ≥ 2 be a modulus defining Rq. Let A ∈ Rn×m
+q
+for integers 0 < n < m. Then with
+respect to the canonical embedding θ
+
+θ(Λ⊥
+q (A))∗ = θ
+�
+(R∗)m +
+�
+1/q · AT · s | s ∈ (R∗)n��
+,
+
+where R∗ is the dual of R seen as an ideal. With respect to the coefficient embedding τ using the
+transformation to integer lattices we get
+
+τ(Λ⊥
+q (A))∗ = Λ⊥
+q (Rot(A))∗ = 1/q · Λq(Rot(A)T ).
+
+Lemma 23 ([11, Lemma 2.6]). Let K be a cyclotomic field with R its ring of integers of
+degree N. Further, let q be a non ramified prime modulus such that Rq = �f
+j=1 Zq[X]/⟨Φj(X)⟩ for
+distinct, irreducible Φj(X) of degree δ and N = fδ. Let n ≤ m be integers. Then PrA←U(Rn×m
+q
+)(A·
+
+Rm
+q = Rn
+q ) ≥ �n−1
+i=0
+�
+1 −
+1
+
+qδ(m−i)
+�f
+.
+
+3
+LHL via Counting Ideals
+
+Let K be a number field with R its ring of integers. Let m, n, q be positive integers and let P
+be a probability distribution over Rm
+q
+with Rq = R/qR. We define the distribution P′ as
+follows: Sample A ← U(Rn×m
+q
+) and x ← P, then output (Ax mod q, A) ∈ Rn
+q × Rn×m
+q
+. To ease
+readability, we sometimes assume the modulo q operation without writing it explicitly. Our
+overall goal is to show that, under clearly specified conditions, the distribution P′ is (statistically
+or R´enyi) close to the uniform distribution over Rn
+q × Rn×m
+q
+.
+We start by bounding the statistical distance and the R´enyi divergence using algebraic
+properties of ideals over the ring Rq in Section 3.1. In Section 3.2 we subsequently generalise
+the result to allow for leakage y on the hash input x. Lastly, in Section 3.3 we derive different
+corollaries which replace the algebraic properties by more concrete terms already studied in the
+literature, e.g. collision probability or well-spreadness. Those corollaries both recover flavours
+of the leftover hash lemma over cyclotomic rings previously proposed in the literature, as well
+as provide new interpretations. Note that the statements of the main results Theorem 4+5 are
+purely over the ring and hence agnostic to the choice of the embedding. They actually apply to
+any number field, not necessarily cyclotomic. In contrast, the probabilistic terms such as collision
+probability and well-spreadness in Section 3.3 require specifying which embedding is used.
+In Section 5 we give bounds with detailed proofs on well-spreadness and collision probability
+for various distributions over cyclotomic rings proposed in the lattice-based literature.
+
+3.1
+General Theorem
+
+For x = (xi)m
+i=1, x′ = (x′
+i)m
+i=1 ∈ Rm
+q , we define the ideal Ix,x′ as Ix,x′ = ⟨x1 − x′
+1, . . . , xm − x′
+m⟩ ⊂
+Rq. This ideal has already implicitly appeared in previous LHLs [43,44]. The notions of greatest
+common divisor ideal [18] or maximally belonging [38] are also used in the literature.
+
+Theorem 4. Let K be a number field with R its ring of integers. Let m, n, q be positive integers
+and P be a distribution over Rm
+q . We define
+
+P′ =
+�
+(Ax mod q, A) | A ← U(Rn×m
+q
+), x ← P
+�
+, and
+
+U′ =
+�
+(u, A) | A ← U(Rn×m
+q
+), u ← U(Rn
+q )
+�
+.
+
+17
+
+
+Denote I the set of all ideals in Rq. Then, it holds
+
+SD(P′, U′) ≤ 1
+
+2
+
+�
+�
+�
+�
+
+�
+
+I∈I
+I̸=Rq
+
+N(I)n ·
+Pr
+x,x′←P[Ix,x′ = I],
+
+RD(P′; U′) =
+�
+
+I∈I
+N(I)n ·
+Pr
+x,x′←P[Ix,x′ = I].
+
+We highlight that the formula is exact in the R´enyi divergence case. The reason we use the R´enyi
+divergence of order two is because it tightly relates to the collision probability (see Lemma 9)
+and the collision probability is the backbone of the proof below. Further, it is the tightest of
+the R´enyi measures (R´enyi divergence of order 2 lower bounds all R´enyi divergences of higher
+orders, in particular RD∞).
+
+Proof. Our goal is to bound Coll(P′), and then apply Lemma 8 and Lemma 9. Over the
+randomness of A, A′ ← U(Rn×m
+q
+) and x, x′ ← P it yields
+
+Coll(P′) = Pr
+�
+A = A′ ∧ A · x = A′ · x′�
+= Pr
+�
+A = A′�
+· Pr
+�
+A · x = A · x′|A = A′�
+
+=
+1
+
+|Rq|n·m · Pr
+�
+A(x − x′) = 0
+�
+.
+
+Let x = (x1, . . . , xm) and x′ = (x′
+1, . . . , x′
+m). We condition the remaining term on the value of
+ideal Ix,x′ generated by x and x′, thus
+
+Pr
+�
+A(x − x′) = 0
+�
+=
+�
+
+I∈I
+Pr
+�
+A(x − x′) = 0|Ix,x′ = I
+�
+· Pr
+�
+Ix,x′ = I
+�
+
+=
+�
+
+I∈I
+
+Pr
+�
+Ix,x′ = I
+�
+
+|I|n
+.
+
+The last equality holds by Lemma 11. To obtain the final statement for the R´enyi divergence,
+we put everything together and use Lemma 9 with Supp(P′) ⊆ Rn
+q × Rn×m
+q
+:= S, where
+|S| = |Rq|n·(m+1). It holds
+
+RD(P′; U′) = |Rq|n·(m+1) · Coll(P′) = |Rq|n·(m+1) ·
+1
+
+|Rq|n·m ·
+�
+
+I∈I
+
+Pr
+�
+Ix,x′ = I
+�
+
+|I|n
+
+=
+�
+
+I∈I
+N(I)n · Pr
+�
+Ix,x′ = I
+�
+.
+
+The last equality uses the fact that N(I) = |Rq|/|I|. The statement for the statistical distance is
+obtained analogously using Lemma 8, the fact that N(Rq) = 1 and that Pr
+�
+Ix,x′ = Rq
+�
+≤ 1.
+⊓⊔
+
+3.2
+General Theorem in the Presence of Leakage
+
+In this section, besides the hash input distribution P over Rm
+q , we also consider a leakage
+distribution Q over a domain T. The distribution P′ is as before: Sample A ← U(Rn×m
+q
+) and x ←
+P, then output (Ax mod q, A). Our overall goal is to show that, under specific conditions, the
+distribution P′ is (statistically or R´enyi) close to the uniform distribution U(Rn
+q × Rn×m
+q
+), even
+in the presence of leakage sampled from Q, that depends on x.
+Recall the definition of the ideal Ix,x = ⟨x1 − x′
+1, . . . , xm − x′
+m⟩ ⊂ Rq for x = (xi)m
+i=1, x′ =
+(x′
+i)m
+i=1 ∈ Rm
+q . Theorem 5 below is similar to Theorem 4, where Prx,x′←P[Ix,x′ = I] is replaced
+by Ey←Q Prx,x′←P[Ix,x′ = I | y].
+
+18
+
+
+Theorem 5. Let K be a number field with R its ring of integers. Let m, n, q be positive integers,
+let P be a distribution over Rm
+q and let Q be another distribution over a set T. We define
+
+P′ =
+�
+(Ax mod q, A) | A ← U(Rn×m
+q
+), x ← P
+�
+, and
+
+U′ =
+�
+(u, A) | A ← U(Rn×m
+q
+), u ← U(Rn
+q )
+�
+.
+
+Denote I the set of all ideals in Rq. Then, it holds
+
+SD
+�
+(P′, Q),
+�
+U′, Q
+��
+≤ 1
+
+2
+
+�
+�
+�
+�
+
+�
+
+I∈I
+I̸=Rq
+
+N(I)n · Ey←Q
+Pr
+x,x′←P[Ix,x′ = I | y],
+
+RD
+�
+(P′, Q);
+�
+U′, Q
+��
+=
+�
+
+I∈I
+N(I)n · Ey←Q
+Pr
+x,x′←P[Ix,x′ = I | y].
+
+Proof. Similar to the proof of Theorem 4, we bound the average conditional collision probability
+of P′ given leakage Q and then apply Lemma 8 and Lemma 9. Over the random choices of
+A, A′ ← U(Rn×m
+q
+) and x, x′ ← P it holds
+
+�
+Coll(P′ | Q) = Ey←Q
+�
+Pr
+�
+(A, Ax) = (A′, A′x′) | y
+��
+
+= Ey←Q
+�
+Pr[A = A′ | y] · Pr
+�
+Ax = A′x′ | y, A = A′��
+
+= Ey←Q
+�
+Pr[A = A′] · Pr
+�
+Ax = Ax′ | y
+��
+
+=
+1
+
+|Rq|n·m · Ey←Q
+�
+Pr
+�
+A(x − x′) = 0 | y
+��
+,
+
+where from line 1 to 2 we used the chain rule and from line 2 to 3 we used that y ← Q is
+independent of A, A′ ← U(Rn×m
+q
+).
+Let x = (x1, . . . , xm) and x′ = (x′
+1, . . . , x′
+m). We condition the term inside the expected value
+on the ideal Ix,x′ generated by the difference of x and x′, that is
+
+Pr
+�
+A(x − x′) = 0 | y
+�
+=
+�
+
+I∈I
+Pr
+�
+A(x − x′) = 0 | y ∧ Ix,x′ = I
+�
+· Pr[Ix,x′ = I | y]
+
+=
+�
+
+I∈I
+
+Pr[Ix,x′ = I | y]
+
+|I|n
+,
+
+where we used that Lemma 11 applies even in the presence of leakage y on x and x′ as the
+result holds for arbitrary hash inputs. Using Lemma 8 and Lemma 9 together with Supp(P′) ⊆
+Rn×m
+q
+× Rn
+q concludes the proof. For example, for the R´enyi divergence, we have
+
+RD
+�
+(P′, Q);
+�
+U′, Q
+��
+= |Rq|n·(m+1) · �
+Coll(P | Q)
+
+= |Rq|n·(m+1) ·
+1
+
+|Rq|n·m · Ey←Q
+�
+
+I∈I
+
+Pr[Ix,x′ = I | y]
+
+|I|n
+
+=
+�
+
+I∈I
+
+|Rq|n
+
+|I|n Ey←Q Pr[Ix,x′ = I | y]
+
+=
+�
+
+I∈I
+N(I)n · Ey←Q Pr[Ix,x′ = I | y].
+
+In the statistical distance we further use that N(Rq) = 1 and Ey←Q Pr[Ix,x′ = Rq | y] ≤ 1.
+⊓⊔
+
+19
+
+
+3.3
+Corollaries
+
+The first corollary provides a LHL with respect to the (average conditional) collision probability.
+For a distribution P and ideal I of Rq, we denote by P mod I the distribution which first
+samples an element from P and then computes its value modulo I coordinate-wise.
+
+Corollary 3. Let K be a number field with R its ring of integers. Let m, n, q be positive integers
+and P be a distribution over Rm
+q , defining the distributions P′ and U′ as in Theorem 5. Let Q be
+the leakage distribution. Denote I the set of all ideals in Rq. Then, it holds
+
+SD
+�
+(P′, Q),
+�
+U′, Q
+��
+≤ 1
+
+2
+
+�
+�
+�
+�
+
+�
+
+I∈I
+I̸=Rq
+
+N(I)n · �
+Coll(P mod I | Q)],
+
+RD
+�
+(P′, Q);
+�
+U′, Q
+��
+≤
+�
+
+I∈I
+N(I)n · �
+Coll(P mod I | Q).
+
+Q is independent of P, it simplifies to
+
+SD(P′, U′) ≤ 1
+
+2
+
+�
+�
+�
+�
+
+�
+
+I∈I
+I̸=Rq
+
+N(I)n · Coll(P mod I),
+
+RD(P′; U′) ≤
+�
+
+I∈I
+N(I)n · Coll(P mod I).
+
+Proof. Let x = (x1, . . . , xm) and x′ = (x′
+1, . . . , x′
+m), defining Ix,x′. The corollary follows from
+Theorem 5 as for x, x ← P and I ∈ I, it holds
+
+Ey←Q Pr
+�
+Ix,x′ = I | y
+�
+≤ Ey←Q Pr[∀i : xi − x′
+i ∈ I | y]
+
+= Ey←QColl(P mod I | y) = �
+Coll(P mod I | Q).
+
+⊓⊔
+
+The corollary recovers the recent LHL from [32, Lem. 5.1], generalising the LHLs in [38, Thm. 5.7]
+and [37, Thm. 4].
+The LHL proven in [13, Lem. 12] can be seen as a special case of Corollary 3, where both N
+and q are powers of 2, the leakage takes at most |Rq| values and the hash input distribution P is
+a spherical discrete Gaussian (over a non-trivial lattice). The main part of the proof consists of
+providing a global bound H for the min-entropy modulo any ideal and using Lemma 10. To do
+so, they make use of the special shape of I when both N and q are powers of 2.
+In the case of a uniform bounded hash input distribution, one can compute the sum of norms
+and collision probabilities, as given in the following corollary. It covers the LHL versions proved
+in [43, Thm. 4.2], [54, Thm. 3.2], and [11, Lem. 2.8].
+
+Corollary 4 (Bounded Uniform). Let K be a cyclotomic field with R its ring of integers.
+Further, let q be an unramified prime modulus such that Rq = �f
+j=1 Zq[X]/⟨Φj(X)⟩ for distinct,
+irreducible Φj(X) of degree δ. Let m, n, η be positive integers such that η < q/2. Define Sη =
+{x ∈ R: ∥τ(x)∥∞ ≤ η}, and let P be the uniform distribution over Sm
+η
+⊂ Rm
+q , defining the
+distributions P′, and U′ as in Theorem 4. Then, it holds
+
+SD(P′, U′) ≤ 1
+
+2
+
+�
+�
+�
+�
+
+��
+qn
+
+(2η + 1)m
+
+�δ
++ 1
+
+�f
+− 1,
+
+20
+
+
+RD(P′; U′) ≤
+
+��
+qn
+
+(2η + 1)m
+
+�δ
++ 1
+
+�f
+.
+
+Note that one can simplify (but loosen) the bounds using
+
+��
+qn
+
+(2η + 1)m
+
+�δ
++ 1
+
+�f
+≤
+�
+qn
+
+(2η + 1)m + 1
+�N
+.
+
+Proof. We use the statement of Corollary 3 as a starting point. Recall from Lemma 5 that every
+ideal I of Rq is of the form I = ⟨�
+j∈G Φj(X)⟩ with norm N(I) = qδ|G|, for some subset of
+indices G ⊂ {1, . . . , f}. Using Lemma 30,
+
+�
+
+I∈I
+N(I)n · Coll(P mod I) ≤
+�
+
+G⊂{1,...,f}
+qnδ|G| ·
+1
+
+(2η + 1)mδ|G|
+
+=
+
+f
+�
+
+j=0
+
+�f
+j
+
+� �
+qnδ
+
+(2η + 1)mδ
+
+�j
+=
+
+��
+qn
+
+(2η + 1)m
+
+�δ
++ 1
+
+�f
+
+here for the first summand we used N(Rq) · Coll(P mod Rq) = 1 · 1 = 1
+⊓⊔
+
+Similarly, we obtain a corollary for discrete Gaussian distributions in the coefficient embedding,
+implicit in [32].
+
+Corollary 5 (Discrete Gaussian). Let K be a cyclotomic field with R its ring of integers.
+Further, let q be an unramified prime modulus such that Rq = �f
+j=1 Zq[X]/⟨Φj(X)⟩ for distinct,
+irreducible Φj(X) of degree δ. Let m, n be positive integers, σ be a positive real and c ∈ Rm, and
+set P = Dτ
+Rm,σ,c, defining the distributions P′ and U′ as in Theorem 4. If σ ≤
+√π
+
+2 ·
+q
+√
+
+ln(4mN) it
+
+holds
+
+SD(P′, U′) ≤
+1
+√
+
+2
+
+�
+�
+�
+�
+
+�� qn
+
+σm
+
+�δ
++ 1
+
+�f
+− 1,
+
+RD(P′; U′) ≤ 2
+
+�� qn
+
+σm
+
+�δ
++ 1
+
+�f
+.
+
+Proof. The proof is very similar to the one of Corollary 4. Using Lemma 32 and that σ ≤
+√π
+2 ·
+q
+√
+
+ln(4mN) ≤
+√π
+
+2 ·
+q
+√
+
+ln(4mδ|G|) for all G ⊆ {1, . . . , f}, as well as Coll(P mod I) ≤ 2−H∞(P mod I)
+
+it holds
+
+�
+
+I∈I
+N(I)n · Coll(P mod I) ≤
+�
+
+I∈I
+N(I)n · 2−H∞(P mod I)
+
+≤
+�
+
+G⊂{1,...,f}
+qnδ|G| · 2−(mδ|G| log σ−1)
+
+= 2
+
+f
+�
+
+j=0
+
+�f
+j
+
+� �
+qnδ
+
+2mδ log σ
+
+�j
+= 2
+
+�� qn
+
+σm
+
+�δ
++ 1
+
+�f
+,
+
+21
+
+
+concluding the proof for the R´enyi divergence. For the statistical distance, we have a similar
+reasoning
+
+�
+
+I∈I,I̸=Rq
+N(I)n · 2−H∞(P mod I) ≤
+�
+
+G⊂{1,...,f},G̸=∅
+qnδ|G| · 2−(mδ|G| log σ−1)
+
+= 2
+
+
+
+
+f
+�
+
+j=0
+
+�f
+j
+
+� �
+qnδ
+
+2mδ log σ
+
+�j
+− 1
+
+
+
+ = 2
+
+
+
+
+
+�� qn
+
+σm
+
+�δ
++ 1
+
+�f
+− 1
+
+
+
+ .
+
+⊓⊔
+
+For general distributions, it might be difficult to compute the product of norms and collision
+probabilities for each ideal. Then, one can upper bound either the norms or the collision
+probabilities separately, as in the two corollaries below.
+The following statement generalises the LHL in [33, Lem. 4] from power-of-two cyclotomics
+to general cyclotomics, and additionally allows for arbitrarily shaped leakage. Essentially, it says
+that if Rq splits into few subfields and P provides elements of short norm with high probability,
+the ideal Ix,x′ generates the full ring unless x and x′ collide. In other words, in the low-splitting
+regime, the function A: x �→ Ax mod q defines a universal hash function and we recover the
+standard (generalised) LHL [30,29,20]. To the best of our knowledge, we are the first to derive a
+generalisation of the LHL in the low-splitting regime that allows for leakage.
+
+Corollary 6 (Low-Splitting).
+Let K = Q[X]/⟨Φ(X)⟩ be the ν-th cyclotomic field of de-
+gree N = φ(ν), with R its ring of integers. Let q be a prime such that Φ(X) = �f
+j=1 Φj(X) mod q,
+for distinct Φj(X) irreducible in the ring Zq[X]. Let s1(µ) be the spectral norm of the Van-
+dermonde matrix of Q(ζµ) and let η be a positive integer such that 2η < q1/f√
+
+N/s1(ν),
+defining Sη = {x ∈ Rq : ∥τ(x)∥∞ ≤ η}. Further, let P be a distribution over Rm
+q
+such that
+Pr[∀i ∈ [m] : xi ∈ Sη | �
+i∈[m] xi · Xi = x ← P] ≥ 1 − C for some real C ∈ [0, 1]. Moreover, let Q
+be the leakage distribution. We define the distributions P′ and U′ as in Theorem 5. Then, it holds
+
+SD((P′, Q), (U′, Q)) ≤ 1
+
+2
+
+�
+
+|Rq|n ·
+�
+�
+Coll(P | Q) + 2C
+�
+
+RD((P′, Q); (U′, Q)) ≤ 1 + |Rq|n ·
+�
+�
+Coll(P | Q) + 2C
+�
+.
+
+If Q is independent of P, this simplifies to
+
+SD(P′, U′) ≤ 1
+
+2
+
+�
+
+|Rq|n · (Coll(P) + 2C),
+
+RD(P′; U′) ≤ 1 + |Rq|n · (Coll(P) + 2C).
+
+Proof. First, we recall that N(I) ≤ |Rq| for every ideal I of Rq. By the linearity of expectation,
+it is thus enough to show that for x, x′ ← P it yields
+
+�
+
+I∈I
+I̸=Rq
+
+Ey←Q Pr[Ix,x′ = I | y] = Ey←Q
+�
+
+I∈I
+I̸=Rq
+
+Pr[Ix,x′ = I | y]
+
+= Ey←Q Pr[Ix,x′ ̸= Rq | y] ≤ �
+Coll(P | Q) + 2C.
+
+22
+
+
+By the law of total probabilities and the linearity of the expectation we have
+
+Ey Pr[Ix,x′ ̸= Rq | y] = Ey
+�
+Pr[Ix,x′ ̸= Rq | x ̸= x′, y] · Pr[x ̸= x′ | y]
+
++ Pr[Ix,x′ ̸= Rq | x = x′, y] · Pr[x = x′ | y]
+�
+
+≤ Ey(Pr[Ix,x′ ̸= Rq | x ̸= x′, y]) + Ey(Coll(P | y))
+
+= Ey(Pr[Ix,x′ ̸= Rq | x ̸= x′, y]) + �
+Coll(P | Q).
+
+It remains to bound the first probability term by 2C. It holds
+
+Pr[Ix,x′ ̸= Rq | x ̸= x′, y] ≤ Pr[Ix,x′ ̸= Rq | x ̸= x′ ∧
+��x − x′��
+∞ ≤ 2η, y]
+
++ Pr[
+��x − x′��
+∞ > 2η] ≤ 0 + 2C,
+
+where we used the properties of P and Lemma 3. Note that the latter result holds for arbitrary
+elements fulfilling the conditions, so even in the presence of leakage. This concludes the proof.
+⊓⊔
+
+Remark 1. To apply the corollary above in the presence of leakage one has different possibilities.
+Most available literature uses the chain rule from Lemma 10. Informally, it lower bounds the
+incurred entropy loss by the size of the leakage space. Alternatively, one can use more specific
+chain rules for concrete choices of distributions. As an example, [14, Sec. 5] proved a lower bound
+where, given x ← P for arbitrary distribution P, the distribution Q samples a Gaussian error e
+and outputs x + e.
+
+Remark 2. Note that the above result enforces a relationship between the norm bound η of the
+hash input and the splitting behaviour of the ring R modulo q. In particular, the larger is µ (and
+thus s1(µ) and φ(µ)), the larger q needs to be for a fixed η to fulfil the condition. For example,
+if we are in the high-splitting regime, where ν/µ is a small constant, the modulus q would need
+to be exponentially large, even for the smallest η = 1. Thus, for practical parameter sets, this
+approach requires a low-splitting regime.
+
+Next, we provide an alternative corollary, involving the well-spreadness of the hash input
+distribution P. Even though it generally leads to looser bounds than Corollary 6, it can be used
+in the high-splitting regime with practical parameters. Well-spreadness serves as an upper bound
+on Coll(P mod I) for any possible ideal I. Note that we do not propose a leakage variant for it,
+as well-spreadness does depend on the distribution. Such generalisation would require a notion
+of well-spreadness under leakage, which we leave as future work.
+
+Corollary 7 (Well-Spread). Let K be a cyclotomic field such that R is its ring of integers.
+Let m, n, q be positive integers, where q is an unramified prime. For B ∈ [0, 1], let X be a
+B-well-spread distribution over Rq, defining the distribution P = (X)m and P′ and U′ as in
+Theorem 4. Then, it holds
+
+SD(P′, U′) ≤ 1
+
+2
+
+�
+
+Bm · exp(1) · |Rq|n,
+and
+RD(P′; U′) ≤ Bm · exp(1) · |Rq|n.
+
+Proof. Let Rq = �f
+j=1 Zq[X]/⟨Φj(X)⟩ be the unique factorisation into subfields, and for j ∈ [f],
+denote the j-th CRT slot of Rq as Ij = Zq[X]/⟨Φj(X)⟩. By Lemma 5, ideals of Rq are of the
+form I = �
+j∈G Ij for G ⊂ {1, . . . , f}. Then for arbitrary j ∈ G
+
+Coll(P mod I) =
+Pr
+x,y←P[x = y mod I] ≤
+Pr
+x,y←P[x = y mod Ij] ≤ Bm.
+
+Here the last inequality follows from the well-spreadness of X and P being a product of m
+independent distributions. By Lemma 7 for q prime, �
+I∈I
+I̸=Rq
+N(I)n ≤ �
+I∈I N(I)n ≤ |Rq|n·exp(1)
+
+and the corollary follows.
+⊓⊔
+
+23
+
+
+4
+LHL via Smoothing
+
+In this section, we consider an alternative approach to obtain an LHL over cyclotomic rings. It
+focuses on the distribution of a discrete Gaussian vector x over R multiplied with a matrix A
+sampled from some distribution PA over Rq. We prove that the output distribution is independent
+of PA and close to uniform with respect to statistical distance and R´enyi divergence. Note that
+in Section 3 we only looked at PA being the uniform distribution. In this section, we take a more
+general perspective as slightly different distributions have been studied in the literature. The
+only works we are aware of that use the R´enyi divergence in combination with a smoothing-based
+LHL (in slightly different contexts), are [8, Cor. 4.4] and [25, Lem. 14].
+We start by providing the general result in Section 4.1. It guarantees closeness to uniform as
+long as the width of x lies above the smoothing parameter of the kernel lattice of A and the
+image of A is of full rank, both with overwhelming probability over A ← PA. Moreover, we
+show in Corollary 8 that once we can guarantee both conditions with respect to one embedding,
+we obtain an LHL for the other embedding too, hence allowing to switch between canonical and
+coefficient embedding easily. To the best of our knowledge, this observation leads to the first
+smoothing-based LHL in the coefficient embedding for arbitrary cyclotomic rings.
+In Section 4.2, we give a concrete analysis of the smoothing parameter of the kernel lat-
+tice Λ⊥
+q (A) for different choices of PA. The section both recalls existing results on non-uniform
+PA and shows that we can generalise them to statements for A that comes from the uniform
+distribution. In Section 4.3 and Section 4.4 we look at smoothing in the presence of exact and
+noisy linear leakage, respectively.
+
+4.1
+General Theorem
+
+In this section, we formally describe the general smoothing-based argument, leaving the analysis
+of the smoothing parameter for later. We emphasise that the proof itself is not novel, but
+separating the general argument from the concrete smoothing analysis allows for a more modular
+perspective. The theorem is stated for cyclotomic fields, but the proof generalises to any number
+field.
+
+Theorem 6. Let K be a cyclotomic number field with R its ring of integers. For positive
+integer q, we define the finite ring Rq. Let PA be a distribution on the set of matrices Rn×m
+q
+for n ≤ m. Let ε ∈ (0, 1), and β, δ1, δ2 > 0 and π ∈ {τ, θ} represent either lattice embedding.
+Suppose that
+
+Pr
+�
+ηε(π(Λ⊥
+q (A))) > β|A ← PA
+�
+< δ1,
+
+Pr
+�
+im(A) ̸= Rn
+q |A ← PA
+�
+< δ2.
+
+Let c ∈ Rm, Σ ∈ RNm×Nm positive definite s.t. Σ ≥ β2. Define
+
+P′ =
+�
+(Ax mod q, A) | A ← PA, x ← Dπ
+Rm,
+√
+
+Σ,c
+
+�
+,
+
+U′ =
+�
+(u, A) | A ← PA, u ← U(Rn
+q )
+�
+.
+
+Then
+
+SD(P′, U′) < ε/(1 − ε) + δ1 + δ2,
+
+RD(P′; U′) ≤ RD∞(P′; U) < 1 + ε
+
+1 − ε + (δ1 + δ2) · qNn.
+
+24
+
+
+The theorem holds for both the canonical embedding θ and the coefficient embedding τ of the
+module lattices, as long as we have good bounds for the smoothing parameter in the respective
+kernel lattice.
+We show that it is enough to know a bound for a smoothing parameter in one embedding,
+as it already allows us to apply the theorem to the other embedding using the Vandermonde
+transformation map between embeddings.
+
+Corollary 8. For ν ≥ 1 let R be the ν-th cyclotomic ring of degree N. Suppose that the
+conditions of Theorem 6 on distribution PA are satisfied in the canonical embedding θ, then the
+statistical and R´enyi closeness holds for x ← Dτ
+Rm,
+√
+
+Σ,c with Σ ≥ β2/sN(ν)2. Similarly, if the
+
+conditions are satisfied in the coefficient embedding τ, they imply the statement for x ← Dθ
+Rm,
+√
+
+Σ,c
+with Σ ≥ β2 · s1(ν)2.
+
+Remark 3. An alternative proof strategy would be to use Equation 3 in combination with
+Lemma 12. However, it would only apply to proofs that bound the smoothing parameter through
+the first minimum of the dual lattice, as in [53,51]. Our proof strategy leads to a more general
+result, also covering any other proof approach for bounding the smoothing parameter as for
+example in [41].
+
+Proof. Let V = Im ⊗ (UH · VΦ) ∈ RNm×Nm be the embedding distortion map. Then for any
+subset Λ ⊂ Rm we have V · τ(Λ) = θ(Λ) and V−1 · θ(Λ) = τ(Λ). Since UH is an isometry we
+have s1(V) = s1(ν) and sNm(V) = sN(ν). Rewrite the distribution as
+
+Dτ
+Rm,
+√
+
+Σ,c := Dτ(Rm),
+√
+
+Σ,τ(c) = V−1 · DV·τ(Rm),
+√
+
+VΣVT ,Vτ(c)
+= V−1 · Dθ(Rm),
+√
+
+VΣVT ,θ(c) =: V−1 · Dθ
+Rm,
+√
+
+Σ,c,
+
+which holds by Lemma 16 since V is injective. Besides, for any x ∈ θ(Rm)
+
+(V−1 · x) mod τ(Λ⊥
+q (A)) = V−1 · x mod V−1 · θ(Λ⊥
+q (A))
+
+= V−1 · x + V−1 · θ(Λ⊥
+q (A))
+
+= V−1 · (x mod θ(Λ⊥
+q (A))).
+
+One of the conditions in Theorem 6 states Pr
+�
+ηε(θ(Λ⊥
+q (A))) < β|A ← PA
+�
+≥ 1 − δ1. Say for a
+fixed matrix A ∈ Rn×m
+q
+this condition is true. Then since we require sNm(V)2 · Σ ≥ β2, we have
+VΣVT ≥ ηε(θ(Λ⊥
+q (A)))2. For such matrix we apply Corollary 1 as follows
+
+Dτ
+Rm,
+√
+
+Σ,c mod τ(Λ⊥
+q (A)) = V−1 ·
+�
+Dθ
+Rm,
+√
+
+VΣVT ,c mod θ(Λ⊥
+q (A))
+�
+
+≈ε/(1−ε) V−1 · U(θ(Rm)/θ(Λ⊥
+q (A)))
+
+= U(τ(Rm)/τ(Λ⊥
+q (A))).
+
+Thus SD(Dθ
+Rm,
+√
+
+Σ,c mod τ(Λ⊥
+q (A)), U(τ(Rm)/τ(Λ⊥
+q (A)))) ≤ ε/(1 − ε) holds for any Σ ≥
+
+β2/sN(ν)2. Taking into account the remaining conditions of Theorem 6 independent of the
+embedding for a random A ← PA we obtain
+
+SD((Ax mod q, A), (u, A)) ≤ ε/(1 − ε) + δ1 + δ2.
+
+The statements for the R´enyi divergence and the implication from coefficient embedding to
+canonical embedding are obtained in the same way.
+⊓⊔
+
+25
+
+
+4.2
+Smoothing Analysis
+
+The quality of Theorem 6 heavily depends on the distribution PA, as well as the bound β on the
+smoothing parameter, determining the probabilities δ1 and δ2.
+Overall, we distinguish two different strategies to analyse the smoothing parameter of Λ⊥
+q (A).
+The first strategy was given in [41], it directly computes the expected Gaussian weight of the
+dual lattice. The second strategy was detailed in [53] and its follow-up work [51]. It focuses on
+lower bounding the length of the shortest vector in the dual lattice.
+We first present statements that appeared in prior work where the distribution of A is not
+truly uniform and im(A) = Rn
+q with probability 1 by construction. Then we give generalisations
+of both strategies to matrices uniform in Rn×m
+q
+. We showcase the proofs in both canonical and
+coefficient embedding even though both can be applied to an arbitrary embedding. Note that
+when A is uniform, Lemma 23 provides bounds on the probability δ2 that the image of A has
+full rank.
+The first classic result comes from [53] and considers a uniform matrix with invertible entries
+which ensures the full rank condition.
+
+Lemma 24 ([53, Theorem 2]). Let K be a cyclotomic number field of degree N with R its
+ring of integers, where N ≥ 8 is a power of 2. Let q ≥ 5 be a prime, m ≥ 2 be an integer,
+ε ∈ (0, 1/2) and ε′ > 0.
+Let r =
+�
+
+ln(2Nm(1 + 1/ε))/π · min(
+√
+
+N · q
+1
+m +ε′, q
+1
+m +f·ε′). Then
+
+Pr[ηε(τ(Λ⊥
+q (a))) > r | a ← U((R×
+q )m)] ≤ 23N(m+1) · q−ε′mN.
+
+Its canonical embedding version is described in [51].
+
+Lemma 25 ([51, Lemma 5.2]). Let K be a cyclotomic number field of degree N with R its
+ring of integers. Let q ≥ 2 be a prime not dividing ∆K. Let m ≥ 2, ε ∈ (0, 1/2) and ε′ > 0.
+Then for r =
+�
+
+ln(2Nm(1 + 1/ε))/π · ∆1/N
+K
+· q
+1
+m +ε′ it holds
+
+Pr[ηε(θ(Λ⊥
+q (a))) > r | a ← U((R×
+q )m)] ≤ 23N(m+1) · q−ε′mN.
+
+We also state the original [41] statement that ensure the full rank constraint by prepending
+identity to a uniform matrix.
+
+Lemma 26 ([41, Theorem 7.4]).
+Let K be a cyclotomic number field of degree N with
+R its ring of integers. Let q > 2, 0 < n ≤ m be integers, ε = q2 · m · 21−2N and s > 0 s.t.
+22s > 2 · (2−N(m−2) + q2 · m). Let PA =
+�
+A = [In | ¯A] | ¯A ← U
+�
+Rn×(m−n)
+q
+��
+. Then for every
+r > 2N
+EA←PA
+�
+ρ1/r(θ(Λ⊥
+q (A))∗)
+�
+≤ 1 + 2(r/N)−Nm · qNn+2 + ε.
+
+If r > 2N · qn/m+2/Nm then
+
+Pr
+�
+η2−N+s(θ(Λ⊥
+q (A))) > r | A ← PA
+�
+≤ 2−N+s.
+
+The following lemma can be seen as a generalisation of [41] to completely uniform matrices.
+Unfortunately, considering this less structured distribution makes the parameters depend on the
+factorisation of the integer modulus q. Contrary to the original work we restrict q to be a prime
+and delegate lifting this restriction to future work.
+
+26
+
+
+Lemma 27 ([41] for Uniform Matrices).
+Let K be a cyclotomic field of degree N with
+R its ring of integers. Further, let q > 2 be an unramified prime modulus such that Rq =
+�f
+j=1 Zq[X]/⟨Φj(X)⟩ for distinct, irreducible Φj(X) of degree δ. Let 0 < n ≤ m, 2 ≤ m be
+integers and s > 0, ε = m · 21−2N + 2f · q−δ(m−n) · (1 + m · 21−2N) such that δ(m − n) log q > 2N,
+22s > 2 · (2−N(m−2) + m + f · (1 + m · 21−2N)), 2f · q−δ(m−n) ≤ 1.Then for every r > 2N
+
+EA←U(Rn×m
+q
+)
+�
+ρ1/r(θ(Λ⊥
+q (A))∗)
+�
+≤ 2 exp(1) · (r/N)−Nm · qNn + 1 + ε.
+
+If r > 2 exp(1/Nm) · N · qn/m then
+
+Pr
+�
+η2−N+s(θ(Λ⊥
+q (A))) > r | A ← U(Rn×m
+q
+)
+�
+≤ 2−N+s.
+
+Proof. First, we identify the exact shape of the dual lattice of Λ⊥
+q (A) from Lemma 22 for the
+canonical embedding
+
+θ(Λ⊥
+q (A))∗ = θ
+�
+(R∗)m +
+�1
+
+q AT · s | s ∈ (R∗)n
+��
+.
+
+For cleaner notations we drop mentioning the embedding θ(·) in the rest of the proof and
+denote the expected value we analyse as E := EA←U(Rn×m
+q
+)
+�
+ρ1/r(Λ⊥
+q (A)∗)
+�
+. For arbitrary rings
+{Ri}i=0,1,2 where R2 = R0/R1 is a quotient of R0 we define a function rep : R2 → R0 that maps
+an element of R2 to its arbitrary representative in R0. For the expectation we have
+
+E ≤ EA←U(Rn×m
+q
+)
+
+
+
+ �
+
+s∈(R∗q)n
+ρ1/r
+�
+1/q · ((qR∗)m + rep(AT · s))
+�
+
+
+
+
+=
+�
+
+s∈(R∗q)n
+EA←U(Rn×m
+q
+)
+�
+ρ1/r
+�
+1/q · ((qR∗)m + rep(AT · s))
+��
+
+=
+�
+
+s∈(R∗q)n
+
+�
+Ea←U(Rnq )
+�
+ρ1/r
+�
+1/q · (qR∗ + rep(aT · s))
+���m
+,
+
+where the first equality holds by linearity of the expectation and the second holds since the rows
+of A are iid. Note that since we add qR∗ to a representative of aT · s ∈ R∗/qR∗ the value above
+is independent of the specific choice of the representative. By Lemma 11, the value aT · s mod q
+is distributed uniformly in the ideal Is ⊂ R∗
+q. Then
+
+E
+�
+ρ1/r
+�
+1/q · (qR∗ + rep(aT · s))
+��
+=
+�
+
+x∈Is
+
+1
+|Is| · ρ1/r (1/q · (qR∗ + rep(x)))
+
+=
+1
+|Is| · ρ1/r (1/q · (qR∗ + rep(Is))) .
+
+Now we group the summands in EA←U(Rn×m
+q
+)
+�
+ρ1/r(Λ⊥
+q (A)∗)
+�
+based on the ideal s generates.
+Denote I′ = qR∗ + rep(I) ⊂ R∗ an ideal of R∗ containing qR∗ that corresponds to an ideal
+I ⊂ R∗
+q. Following Lemma 6 we have another bijection R = t · R∗ for a ring element t. It extends
+to the ideals of R∗ denoting J ′ := t · I′ = t · rep(I) + qR and to the ideals of R∗
+q denoting
+J := t · I ⊂ Rq. Then I = I′ mod qR, J = J ′ mod qR and |J | = |I|. Then we have
+
+N(1/q · I′) = N(I′)
+
+|N(q)| =
+N(J ′)
+
+|N(t)| · |N(q)| =
+N(J )
+
+|N(t)| · |N(q)|
+
+=
+|Rq|
+
+|J | · ∆K · |Rq| =
+1
+
+|J | · ∆K
+.
+(4)
+
+27
+
+
+In the transitions above we use multiplicativity of norms, the fact that for J = J ′ mod qR we
+have N(J ) = N(J ′) and the definition of the norm in finite rings. Then if T is the set of all
+ideals I′ ⊂ R∗ that contain qR∗ using the notation above we have
+
+E ≤
+�
+
+I′∈T
+
+�
+1
+
+|I′ mod qR∗| · ρ1/r(1/q · I′)
+�m
+�
+
+s:Is=I′ mod qR∗
+1
+
+≤
+�
+
+I′∈T
+
+�
+1
+
+|I′ mod qR∗| · ρ1/r(1/q · I′)
+�m
+· |I′ mod qR∗|n
+
+=
+�
+
+I′∈T
+
+1
+
+|I|m−n · ρ1/r(1/q · I′)m =
+�
+
+I′∈T
+
+1
+
+|J |m−n · ρ1/r(1/q · I′)m.
+
+Now for each ideal I′ ∈ T by Lemma 21 and Equation (4)
+
+ρ1/r(1/q · I′)m ≤ max(1, r−Nm · N(1/q · I′)−m)(1 + 2−2N)m
+
+≤ max(1, r−Nm · (|J | · ∆K)m)(1 + 2−2N)m
+
+≤ 1 + m21−2N
+�
+��
+�
+α
++ 2r−Nm∆m
+K
+�
+��
+�
+β
+
+·|J |m.
+
+where J ⊂ Rq is defined as above. In the last inequality (1+2−2N)m ≤
+1
+
+1−m·2−2N ≤ 1+2·m·2−2N
+
+since m·2−2N ≤ 1/2. For the case when r−Nm ·(|t · J mod qR| · ∆K)m > 1 we use
+1
+
+1−m·2−2N ≤ 2.
+To bound the larger of two values we take the sum of the bounds. Denote I the set of ideals in
+Rq. Putting the arguments together we get
+
+E ≤ α ·
+�
+
+J ∈I
+|J |n−m + β ·
+�
+
+J ∈I
+|J |n
+
+≤ α · (1 + 2fq−δ(m−n)) + 2 exp(1) · r−NmNNmqNn
+
+where in the last inequality we use Lemma 7. Lastly we apply the Markov inequality. Define
+arbitrary positive values ε′, ε′′ such that ε′ · ε′′ > ε. Then for any r > exp(1/Nm) · N · qn/m ·
+(2/(ε′′ · ε′ − ε))1/Nm we have
+
+Pr(ρ1/r(Λ⊥
+q (A)∗) − 1 > ε′) ≤ EA
+�
+ρ1/r(Λ⊥
+q (A)∗)
+�
+− 1
+
+ε′
+
+≤ m21−2N + 2fq−δ(m−n) · (1 + m21−2N) + ε′′ε′ − ε
+
+ε′
+
+≤ ε′′.
+
+Here in the last inequality we used the definition of ε from the lemma statement. Set ε′ = ε′′ =
+2−N+s. Then for δ(m − n) log q > 2N and 22s > 2 · (2−N(m−2) + m + f · (1 + m · 21−2N)) we have
+
+ε′ · ε′′ > ε and
+�
+2
+
+ε′′·ε′−ε
+�1/Nm
+≤ 2, and the statement follows.
+⊓⊔
+
+We also extend [53,51] to the setting where PA is the uniform distribution over Rn×m
+q
+, proven in
+the coefficient embedding.
+
+Lemma 28 ([53,51] for Uniform Matrices).
+Let K be a cyclotomic field of degree N
+with R its ring of integers. Further, let q ≥ 5 be an unramified prime modulus such that
+Rq = �f
+j=1 Zq[X]/⟨Φj(X)⟩ for distinct, irreducible Φj(X) of degree δ. Let N ≥ 8 be a power of
+2. Let max(n, 2) ≤ m be integers, ε ∈ (0, 1/2) and ε′ > 0.
+Let r =
+�
+
+ln(2Nm(1 + 1/ε))/π ·
+√
+
+N · qn/m · eε′. Then
+
+Pr[ηε(τ(Λ⊥
+q (A))) > r | A ← U(Rn×m
+q
+)] ≤ 2−Nm(ε′−3)
+
+28
+
+
+Proof. Following Lemma 22 the dual lattice to Λ⊥
+q (A) with respect to the coefficient embedding
+is of the form
+
+τ(Λ⊥
+q (A))∗ = 1
+
+q Λq(Rot(A)T )
+
+= 1
+
+q
+�
+τ(t) | t ∈ Rm s.t. ∃s ∈ Rn
+q : τ(t) = Rot(A)T · τ(s) mod q
+�
+
+= 1
+
+q τ(Λq( ¯AT )).
+
+By properties of power-of-2 cyclotomics, the matrix Rot(A)T is in bijective correspondence with
+Rot( ¯AT ) for some ¯A ∈ Rn×m
+q
+. The bijection maps every coordinate aij = �N−1
+k=0 αkXk ∈ Rq of
+A to a corresponding coordinate of ¯A equal ¯aij = α0 − �N−1
+k=1 αkXN−k. Therefore, ¯A follows
+the uniform distribution and it suffices for us to lower bound the first minimum of the lattice
+λ∞
+1 ( 1
+
+qτ(Λq(AT ))) for A ← U(Rn×m
+q
+).
+
+We claim that λ∞
+1 ( 1
+
+qτ(Λq(AT ))) ≥ 1/(
+√
+
+N·qε′/ log q+n/m) except with probability ≤ 2−Nm(ε′−3).
+Let B > 0 and then apply Lemma 12. For every t ∈ Rm of norm 0 < ∥t∥∞ < B and s ∈ Rn
+q
+define
+
+p(t, s) =
+Pr
+{ai}i←(Rnq )m(∀i : ti = aT
+i · s mod q) =
+
+m
+�
+
+i=1
+Pr
+ai←Rnq
+(ti = aT
+i · s mod q).
+
+Denote pi(ti, s) := Prai←Rnq (ti = aT
+i ·s mod q). By Lemma 11 the value aT
+i ·s mod q is distributed
+uniformly in Is. Then for any fixed ti ∈ Is
+
+pi(ti, s) =
+1
+|Is|.
+
+And the probability p that the lattice contains a short infinity norm vector is bounded as
+
+p = Pr
+A (∃t : t ∈ τ(Λq(AT )), 0 < ∥t∥∞ < B)
+
+≤
+�
+
+0<∥t∥∞<B,s∈Rnq
+p(t, s)
+
+=
+�
+
+0<∥t∥∞<B,s∈Rnq
+
+�
+
+i
+pi(ti, s)
+
+≤
+
+f
+�
+
+k=0
+
+�
+
+I∈I
+|I|=qδk
+
+�
+
+s∈In
+
+�
+
+0<∥t∥∞<B
+t∈Im
+
+1
+
+qm·δk
+
+≤ |{I ∈ I}| · max
+k∈[f] qn·δk · N(B, k)m
+
+qm·δk
+= 2f · max
+k∈[f]
+N(B, k)m
+
+q(m−n)·δk
+
+The first inequality comes from the union bound. The second inequality conditions on the ideal
+generated by coefficients of s. We enumerate over all ideals of Rq according to their norm. We
+also substitute the generating condition by s ∈ In. In the third inequality N(B, k) denotes
+the number of elements t ∈ Rq such that 0 < ∥t∥∞ < B, t ∈ I for I of cardinality qδk. Then
+|s ∈ In| = qn·δk. We upper bound this probability over all ideals of Rq.
+We now analyse N(B, k). For convenience, let S = {j1, . . . , jf−k} be an arbitrary subset of
+{1, . . . , f} of cardinality f − k. The bound we obtain in the end only depends on the cardinality
+of S. We proceed by a volume argument.
+
+29
+
+
+Denote λ∞ = λ∞
+1 (τ(I)) for I = ⟨q, �
+j∈S Φj(X)⟩. Then N(B, k) is upper bounded by the ratio
+between volumes of hypercubes
+�
+v ∈ RN | ∥v∥∞ ≤ B + λ∞/2
+�
+and
+�
+v ∈ RN | ∥v∥∞ ≤ λ∞
+�
+
+N(B, k) ≤
+� 2B
+
+λ∞
++ 1
+�N
+
+By Lemma 19 and inequalitites between norms
+1
+
+s1(ν)N(I)1/N ≤
+1
+√
+
+N · λ1(τ(I)) ≤ λ∞. For
+
+the power-of-2 cyclotomics s1(ν) =
+√
+
+N. Computing the norm we get 1/
+√
+
+N · qδ(f−k)/N =
+1/
+√
+
+N · q1−k/f ≤ λ∞. Take B =
+1
+√
+
+N qβ then for β < 1 − k/f we have λ∞ > B and N(B, k) = 0.
+
+Otherwise, for large enough q we have 2qβ−(1−k/f) > 1 and
+
+N(B, k) ≤ (2qβ−1+k/f + 1)N ≤ 22N · qNβ−N+δk.
+
+Here in the first expression we insert the computed bounds and in the second inequality we use
+(x + 1)N ≤ (2x)N for x > 1. Hence,
+
+p ≤ 2f · max
+k∈[f]
+22NmqNmβ−Nm+δkm
+
+q(m−n)·δk
+
+≤ 2N(2m+1)qNmβ−Nm+Nn ≤ 2−Nm(ε′−3).
+
+In the first inequality use that the maximum is attained for k = f and the inequality f < N for
+the other term. In the last equality we set β = 1 − n/m − ε′/ log q and bound 2N(2m+1) ≤ 23Nm.
+It follows that the shortest vector of 1/q · τ(Λq(AT )) is at least
+1
+√
+
+N qβ−1 =
+1
+√
+
+N · q−n/m−ε′/ log q
+
+with probability in 1 − 2−Nm(ε′−3). Using the conventional smoothing bound from Lemma 12
+and q1/ log q = e we obtain the result.
+⊓⊔
+
+4.3
+Smoothing in the Presence of Exact Linear Leakage
+
+In the following, we study the smoothing-based approach under linear leakage on the hash input
+vector x. We distinguish between exact and noisy leakage. The first type of leakage is addressed
+in this section and the proof technique is inspired by a recent LHL variant [55], lifting it to a
+more general leakage setting. The second class of leakage is treated in Section 4.4, using recent
+results [23] on the distribution of discrete Gaussians under noisy linear leakage. It can be seen
+as a generalization of the first type of leakage studied in [19].
+In the exact case we consider leakage of the form (E, E · x) for a given wide matrix E = (Il |
+¯E) ∈ Rl×m with l < m. The matrix ¯E can be sampled from a short distribution or be fixed as
+long as it satisfies the required conditions.
+We rely heavily on the approach of [55]. The original work defined matrices A and E so that
+the leakage is not exact and corresponds to our Section 4.4. However, their techniques are so
+powerful that they cover the case of exact leakage we present here. The original work also covers
+composite modulus q which we omit for simplicity.
+
+Theorem 7. Let K be a cyclotomic number field with N a power of 2. Let q be a prime,
+0 < n + l ≤ m be integers. Let ε ∈ (0, 1/2), δE, δ2 ∈ (0, 1), ε′ > 3, Bmax > 0, and let
+Σ ∈ RNm×Nm be positive-definite. Assume
+
+Σ ≥ Nm · max
+�
+2Bmax,
+√
+
+Neε′ · q(n+l)/m�
+·
+�
+
+ln(2N(m − l)(1 + 1/ε))/π,
+
+q ≥ 2 · Bmax · Nm · max
+�
+2Bmax,
+√
+
+Neε′ · q(n+l)/m�
+.
+
+Let PE be a distribution on the set of matrices Rl×m s.t. with probability at least 1 − δE for
+E = [Il | ¯E] ← PE it holds
+
+30
+
+
+1. s1(Rot(E)) < Bmax,
+2. Pr
+�
+A · Λ⊥(E) mod q = Rn
+q | A ← U(Rn×m
+q
+)
+�
+≥ 1 − δ2.
+
+Then for distributions defined as
+
+P′ =
+�
+Ax mod q, Ex, A, E | x ← Dτ
+Rm,Σ
+�
+,
+
+U′ =
+�
+u, Ex, A, E | x ← Dτ
+Rm,Σ,u ← U(Rn
+q )
+�
+,
+
+we have
+
+SD(P′, U′) ≤ ε/(1 − ε) + 2−Nm(ε′−3) + δE + δ2,
+
+RD(P′; U′) < 1 + ε
+
+1 − ε + (2−Nm(ε′−3) + δE + δ2) · qNn.
+
+Proof. Similarly to Theorem 6 let S represent the set of all matrices (A, E) for which conditions
+(1, 2) hold. Consider an arbitrary pair (A, E) ∈ S.
+For any leakage w ∈ im(E) (= E · t′ for some t′) there exists a vector t ∈ Rm s.t. A · t =
+0 mod q and E · t = w. We construct it as t = t′ + t′′ where we denote r := At′ mod q and find
+t′′ ∈ Λ⊥(E) s.t. A · t′′ = −r mod q. Such t′′ exists by Condition 2 of the theorem. Then, given
+the leakage w the distribution of x is
+�
+x ← DRm,Σ | x ∈ (Λ⊥(E) + t)
+�
+= DΛ⊥(E)+t,Σ = t + DΛ⊥(E),Σ,−t,
+
+and it is enough to analyse A·(t+DΛ⊥(E),Σ,−t) = A·DΛ⊥(E),Σ,−t mod q. The matrix A : Λ⊥(E) →
+Rn
+q represents a linear map. It generates an isomorphism Λ⊥(E) mod (Λ⊥
+q (A) ∩ Λ⊥(E)) ∼
+A · Λ⊥(E) mod q = Rn
+q . Here the last equality follows again from Condition 2. Hence, it remains
+to prove that DΛ⊥(E),Σ,−t mod (Λ⊥
+q (A) ∩ Λ⊥(E)) is uniformly distributed. By Corollary 1 and
+Corollary 2 the distribution is close to uniform if Σ ≥ ηε(τ(Λ⊥
+q (A) ∩ Λ⊥(E))). In the remainder
+of the proof we analyse the smoothing parameter of this lattice.
+Since E = [I | ¯E] contains the identity, the matrix Rot(E) is full rank hence the lattice
+τ(Λ⊥(E)) is of rank N(m−l) in RNm. We know that τ(Λ⊥
+q (A)) is full rank in the same dimension.
+Hence, their intersection is a lattice with the same rank as τ(Λ⊥(E)). It remains to upper bound
+λN(m−l)(τ(Λ⊥
+q (A) ∩ Λ⊥(E))) and apply the classic smoothing parameter bound in Lemma 13.
+Consider a simpler lattice Λ = Λ⊥
+q (A) ∩ Λ⊥
+q (E) of rank Nm where the kernel of E is taken
+modulo q. By the transference theorems
+
+λN(m−l)(τ(Λ)) ≤
+Nm
+
+λNl+1(τ(Λ)∗) =
+Nm
+
+1/q · λNl+1(Λq([Rot(A)T | Rot(E)T ])),
+
+where we know the shape of the dual lattice by Lemma 22. Denote M = [Rot(A)|| Rot(E)]. Since
+Rot(E)T is only of rank Nl, the (Nl + 1)st minimum of Λq(MT ) has to be larger than some
+vector outside the span of Rot(E)T . Formally, λNl+1(Λq(MT )) ≥ λ1(Λq(MT ) \ Rot(E)T · ZNl).
+We represent τ(u) ∈ Λq(MT )\Rot(E)T ·ZNl as u = Rot(A)T ·τ(vA)+Rot(E)T ·τ(vE) mod q.
+We analyse u reduced modulo q since is has the shortest norm in the lattice. Consider the
+following cases. Firstly, assume vA ̸= 0 mod q. The proof of [53] from Lemma 289 still applies with
+the shift Rot(E)T · τ(vE) mod q and only adds another union bound over vE ∈ Rl
+q. Therefore,
+for any ε′ > 0 in this case we have,
+
+Pr
+�
+∥τ(u)∥ ≥
+q
+√
+
+Neε′ · q(n+l)/m
+
+�
+≥ 1 − 2−Nm(ε′−3).
+
+9 Here the proof strategy only applies to the power-of-2 cyclotomics in the coefficient embedding.
+
+31
+
+
+Otherwise, if vA = 0 mod q and 0 < ∥τ(vE) mod q∥ ≤ q/2Bmax
+
+∥τ(u)∥ =
+��Rot(E)T · τ(vE)
+�� ≤ s1(Rot(E)T ) · ∥τ(vE)∥ < Bmax · q/2Bmax = q/2.
+
+This means that Rot(E)T ·τ(vE) is never reduced modulo q and it belongs to the set Rot(E)T ·ZNl
+
+we excluded from the lattice. Lastly, if vA = 0 mod q and q/2Bmax < ∥τ(vE) mod q∥, we lower
+bound the norm
+
+∥τ(u)∥ =
+����
+
+�
+INl
+Rot(¯E)T
+
+�
+· τ(vE) mod q
+���� ≥ ∥τ(vE) mod q∥ >
+q
+
+2Bmax
+.
+
+Overall, the shortest vector is larger than q · min
+�
+1
+
+2Bmax , (
+√
+
+Neε′ · q(n+l)/m)−1�
+. Combining this
+bound with the arguments above we get
+
+λN(m−l)(τ(Λ)) ≤
+Nm
+
+1/q · λNl+1(Λq(MT ))
+
+≤ Nm · max
+�
+2Bmax,
+√
+
+Neε′ · q(n+l)/m�
+.
+(5)
+
+For vectors x with norm bounded this way it holds
+
+∥Rot(E) · τ(x)∥ ≤ s1(Rot(E)) · ∥τ(x)∥
+
+< Bmax · Nm · max
+�
+2Bmax,
+√
+
+Neε′ · q(n+l)/m�
+≤ q/2
+
+by our conditions on q. In other words, Ex = 0 also holds over the integers. Therefore,
+λN(m−l)(τ(Λ⊥
+q (A) ∩ Λ⊥(E))) ≤ λN(m−l)(τ(Λ)) from Equation (5). Finally, when (A, E) are not
+necessarily in S we adapt the statistical distance in the same way as in Theorem 6, concluding
+the proof.
+⊓⊔
+
+Remark 4. Since the proof relies on the smoothing argument and Corollaries 1+2, the transfor-
+mation between embeddings from Corollary 8 still applies here. For the canonical embedding
+statement we require the same conditions and
+
+Σ ≥ s1(ν) · Nm · max
+�
+2Bmax,
+√
+
+Neε′ · q(n+l)/m�
+·
+�
+
+ln(2N(m − l)(1 + 1/ε))/π.
+
+Remark 5. For Condition 1 need s1(Rot(E)) < Bmax so the distribution of ¯E has to have
+short outputs. For Condition 2, every vector w = (w1, w2) in Λ⊥(E) can be represented as
+w1 = −¯E · w2 for some w2 ∈ Rm−l. Hence, the matrix product is equal to
+
+[A1 | A2] ·
+�−¯E · w2
+w2
+
+�
+= (−¯E · A1 + A2) · w2.
+
+The matrix A2 ∈ Rn×(m−l)
+q
+is uniform and independent of the other summand, so the distribution
+
+of the matrix sum is still uniform. Then by Lemma 23 we can take 1−δ2 = �n−1
+i=0
+�
+1 −
+1
+
+qδ(m−l−i)
+�f
+.
+
+4.4
+Smoothing in the Presence of Noisy Linear Leakage
+
+Lastly, we consider leakage of the form (E, E · x + y) for a given matrix E and a hidden noise
+vector y. The matrix E can be sampled from a short distribution or be fixed as long as it satisfies
+the conditions below. Moreover, we allow for Q many leaked hints defined by different matrices
+(Ei)i∈[Q] and noise vectors (yi)i∈[Q] coming from potentially different noise distributions.
+Our key observation is that recent advancements in studying Module Learning With Errors
+under noisy leakage are also useful in the context of our smoothing LHL under leakage. We
+recall the following result.
+
+32
+
+
+Lemma 29 ([23, Lem. 1]). Let m, Q be positive integers, and σx, (σy,i)i∈[Q] be positive reals.
+Take E0, . . . , EQ−1 ∈ Zm×m and let I denote the identity matrix of dimension m. We define
+
+Σ =
+�
+1
+σ2x I + �
+i∈[Q]
+1
+
+σ2
+y,i · ET
+i Ei
+
+�−1
+. Then the following two distributions over Zm(Q+1) are
+
+identical:
+
+D1 =
+�
+(x, z0, . . . , zQ−1)|x ← DZm,σx, yi ← DZm,σyi, zi = Ei · x + yi
+�
+
+D2 =
+
+
+
+
+
+
+
+(�x, z0, . . . , zQ−1)
+
+�������
+
+x ← DZm,σx, yi ← DZm,σyi, zi = Ei · x + yi
+
+c = Σ ·
+�
+
+i∈[Q]
+
+1
+
+σ2
+y,i
+ET
+i zi,
+�x ← DZm,
+√
+
+Σ,c
+
+
+
+
+
+
+
+
+The above lemma allows us to derive the following smoothing-based LHL with noisy linear
+leakage.
+
+Theorem 8. Let K be a cyclotomic field of degree N. Let q be an integer. Let PA be a distribution
+on the set of matrices Rn×m
+q
+for n ≤ m. Let ε ∈ (0, 1), and β, δ1, δ2 > 0. Suppose that
+
+Pr
+�
+ηε(Λ⊥
+q (A)) > β|A ← PA
+�
+< δ1,
+
+Pr
+�
+im(A) ̸= Rn
+q |A ← PA
+�
+< δ2.
+
+Let Q > 0 be an integer, and σx, (σy,i)i∈[Q] be positive reals. For i ∈ [Q] take Ei ∈ Rm×m,
+defining its corresponding rotation matrix Rot(Ei) ∈ ZmN×mN, and let I denote the identity
+matrix of dimension Nm. We define
+
+Σ =
+
+
+
+ 1
+
+σ2x
+I +
+�
+
+i∈[Q]
+
+1
+
+σ2
+y,i
+· Rot(Ei)T Rot(Ei)
+
+
+
+
+
+−1
+
+,
+
+and assume that Σ ≥ β2. Define
+
+P′ =
+�
+(Ax mod q, A, (Ei, Eix + yi)i) | A ← PA, x ← DRm,σx, yi ← DRm,σyi
+
+�
+
+U′ =
+�
+(u ← U(Rn
+q ), A, (Ei, Eix + yi)i) | A ← PA, x ← DRm,σx, yi ← DRm,σyi
+
+�
+
+where i ∈ [Q]. Then
+
+SD(P′, U′) < ε/(1 − ε) + δ1 + δ2,
+RD(P′; U′) < 1 + ε
+
+1 − ε + (δ1 + δ2) · qNn.
+
+Proof. Let D1 and D2 be the two distributions from Lemma 29 using the rotation matri-
+ces Rot(E0), . . . , Rot(EQ−1). Let us rewrite P′ and introduce P′′ as follows.
+
+P′ =
+�
+(Ax mod q, A, (Ei, zi)i∈[Q]) | A ← PA, τ(x, z0, . . . , zQ−1) ← D1
+�
+,
+
+P′′ =
+�
+(A�x mod q, A, (Ei, zi)i∈[Q]) | A ← PA, τ(�x, z0, . . . , zQ−1) ← D2
+�
+.
+
+By Lemma 29, the two distributions are identical, hence not changing the SD or RD value.
+In P′′, the distribution of the hash input �x comes from a discrete Gaussian distribution with
+covariance matrix Σ defined in the lemma statement and with center τ −1(c), where c =
+Σ · �
+i∈[Q]
+1
+
+σ2
+y,i Rot(Ei)T τ(z)i. As by assumption Σ ≥ β2, we can now invoke Theorem 6,
+
+concluding the proof.
+⊓⊔
+
+33
+
+
+5
+Properties of Some Concrete Distributions
+
+The different LHL flavours we presented in Section 3.3 make use of the collision probability
+or well-spreadness of a given hash input distribution P over Rm
+q
+for a ring R, modulus q
+and dimension m. In some cases, we might assume that P is obtained by independently and
+identically sampling every of the m ring elements over some distribution X over Rq, that is,
+P = X m. In this section, we give bounds on well-spreadness and collision probability for different
+distributions over cyclotomic rings which appeared in the lattice literature. Some bounds have
+been (implicitly) proven before, some are generalised results and some are new bounds. We will
+detail our contribution for every distribution. All results are stated with respect to the coefficient
+embedding.
+
+Bounded Uniform Distribution The following lemma gives concrete formulas for the collision
+probability and the well-spreadness of the bounded uniform distribution over Rq. All were already
+implicitly proved in [43]. The bounded uniform distribution is used in many places in lattice-based
+cryptography. A popular example is the signature scheme Dilithium [39].
+
+Lemma 30 (Adapted from [43]).
+Let R be a cyclotomic ring of degree N and let q be
+an unramified prime number such that Φ(X) = �f
+j=1 Φj(X) mod q is the factorisation of the
+cyclotomic polynomial in Rq with every Φj being of degree δ and N = fδ. Let η < q/2 be
+a positive integer. Let I = ⟨�
+j∈G Φj(X)⟩ for some non-empty subset G ⊂ {1, . . . , f} be an
+arbitrary ideal of Rq (this respresentation of I is correct by Lemma 5). Let X be the uniform
+distribution over Sη = {c ∈ Rq : ∥τ(c)∥∞ ≤ η}, defining the hash input distribution P = X m for
+some dimension m. Then
+
+– Coll(X mod I) ≤ 1/(2η + 1)δ|G|,
+– Coll(P mod I) ≤ 1/(2η + 1)δ|G|m,
+– Coll(P) = 1/(2η + 1)Nm.
+
+In particular the distribution X is 1/(2η + 1)δ-well-spread.
+
+Proof. Firstly, Coll(P) = Coll(X)m, where
+
+Coll(X) =
+�
+
+c∈Sη
+Pr[c ← X]2 = (2η + 1)N ·
+1
+
+(2η + 1)2N =
+1
+
+(2η + 1)N .
+
+For the collision probability of the reduced distribution, let c(X) ← X. Then
+
+c(X) =
+
+d−1
+�
+
+i=0
+αiXi
+
+�
+��
+�
+c0
+
++
+
+N−1
+�
+
+i=d
+αiXi
+
+�
+��
+�
+c1
+
+,
+
+where all αi ← U({−η, . . . , η}). For any fixed value of c1, the sum c0 + c1 = c is distributed
+uniformly in a subset of Rq of size (2η + 1)δ|G| dependent on the value of (c1 mod fI). Then for
+two samples c0 + c1 ← X, c′
+0 + c′
+1 ← X
+
+Pr(c0 + (c1 mod fI) = c′
+0 + (c′
+1 mod fI)) = Pr(c0 = c′
+0 + (c′
+1 − c1 mod fI))
+
+≤ (2η + 1)−δ|G|.
+
+⊓⊔
+
+Remark 6. We can clearly see that for δ ̸= N, Corollary 6 provides tighter bounds than
+Corollary 7. Hence, it depends on the splitting behavior of the ring, which statement gives the
+better results.
+
+34
+
+
+Discrete Gaussian Distribution Second, we look at the maybe most natural distribution
+arising in lattice-based cryptography: discrete Gaussian distributions. Using the smoothing
+properties of Gaussians, we compute in Lemma 31 a novel well-spreadness bound. As Section 3
+applies to distributions over Rq, we consider the discrete Gaussian distribution reduced modulo
+q.
+
+Lemma 31. Let K be a cyclotomic field with R its ring of integers. Further, let q be an
+unramified prime modulus such that Rq = �f
+j=1 Zq[X]/⟨Φj(X)⟩ for distinct, irreducible Φj(X)
+of degree δ. Let ε = 2−N, where N is the ring degree of R. Let σ > N · qδ/N. Then Dθ
+R,σ mod q
+is B-well-spread with
+
+B = 1
+
+qδ
+�
+1 + 2−N+2�
+.
+
+Proof. By Lemma 20 and Lemma 2, for all j ∈ [f],
+
+ηε(⟨q, Φj(X)⟩) ≤ (N(⟨q, Φj(X)⟩) · |∆K|)1/N ≤ qδ/N · N.
+
+Thus σ > maxj(ηε(⟨q, Φj(X)⟩)) and by Lemma 17 ∀y ∈ Zq[X]/⟨Φj(X)⟩
+
+max
+j∈[f] (Pr[x mod (q, Φj(X)) = y|x ← DR,σ]) ≤ 1
+
+qδ (1 + 2−N+2).
+
+⊓⊔
+
+We further state a recent result on the min-entropy of discrete Gaussian distributions modulo
+ideals of Rq in the coefficient embedding. We state a slightly generalised version considering
+discrete Gaussians over Rm for m ≥ 1.
+
+Lemma 32 (Adapted from [32, Cor. 4]). Let K be a cyclotomic field with R its ring of
+integers. Further, let q be an unramified prime modulus such that Rq = �f
+j=1 Zq[X]/⟨Φj(X)⟩ for
+distinct, irreducible Φj(X) of degree δ. Let I be an ideal of Rq of norm qδk for some k ∈ {0, . . . , f}
+(this is correct by Lemma 5). For m ∈ N, let σ be a positive real and c ∈ Rm be a centre. If
+σ ≤
+√π
+
+2 ·
+q
+√
+
+ln(4mδk) it holds
+
+H∞(Dτ
+Rm,σ,c mod I) ≥ mδk log σ − 1.
+
+Biased Ternary Distribution Next we consider biased ternary distributions. Such distributions
+are for instance relevant in compact proof systems and were used in [6]. Let D be the ternary
+distribution with bias p ∈ [0, 1] over {±1, 0}, which samples 0 with probability p and ±1 with
+probability (1 − p)/2. The following lemma provides a formula for the collision probability
+as well as for well-spreadness. The proof of the latter follows the proof technique of [6], and
+generalises their result form power-of-2 to arbitrary cyclotomics. It requires the special relation
+from Lemma 4 between modulus q and cyclotomic polynomial Φ(X). We include the full proof
+below to showcase the proof technique.
+
+Lemma 33 (Generalised from [6, Lemma 3.2]).
+Let K = Q[X]/⟨Φ(X)⟩ be the ν-th
+cyclotomic field of degree N = φ(ν), with R its ring of integers. Further, let ν = � pei
+i
+for
+ei ≥ 1 and let µ = � pfi
+i
+for 1 ≤ fi ≤ ei. Let q be a prime such that q = 1 mod µ and the
+multiplicative order modulo ν of q is ν/µ. By Lemma 4, Φ(X) = �f
+j=1(Xδ − rj) mod q for
+distinct rj ∈ Z×
+q with N = fδ. Let X be the distribution over S1 = {c ∈ Rq : ∥τ(c)∥∞ ≤ 1} where
+each coefficient of the polynomial is sampled from D, that is, X = DN. This defines the hash
+
+35
+
+
+input distribution P = X m = DNm for some dimension m. The distribution X is B-well-spread
+with
+
+B = max
+j∈[f]
+
+�
+1
+q + 1
+
+q
+
+q−1
+�
+
+k=1
+
+f−1
+�
+
+l=0
+|p + (1 − p) cos(2πkrl
+j/q)|
+
+�δ
+
+,
+(6)
+
+and the collision probability of P is given by
+
+Coll(P) =
+�1 − 2p + 3p2
+
+2
+
+�Nm
+.
+
+Proof. We start by proving the collision probability formula. Note that Coll(P) = Coll(DNm) =
+Coll(D)Nm, where
+
+Coll(D) =
+�
+
+j∈{±1,0}
+D(j)2 = p2 + 2 ·
+�p − 1
+
+2
+
+�2
+= 3p2 − 2p + 1
+
+2
+.
+
+We now prove the well-spreadness, which requires to analyze the distribution of the CRT-slots
+mod (Xδ − rj). We start by introducing some notations. Let c(X) = �N−1
+i=0 ciXi ← X. Let
+S(δ)
+1
+⊂ Rq be the set given as
+
+S(δ)
+1
+=
+�
+c(X) = c0 + cδXδ + · · · + cδ(f−1)X(f−1)δ | ∥c∥∞ ≤ 1
+�
+,
+
+where δ divides the degree of each monomial. Then we can write S1 as
+
+S1 =
+
+�
+
+c(X) = ˜c0(X) + · · · + ˜cδ−1(X) · Xδ−1 | ˜ci(X) =
+
+f−1
+�
+
+l=0
+cδl+iXδl ∈ S(δ)
+1
+
+�
+
+.
+
+Computing c(X) mod (Xδ − rj) is equivalent to evaluating δ-powers of X as Xδ = rj. Or
+evaluating polynomials ¯ci(X) in rj where
+
+¯ci(X) := ˜ci(X1/δ) = ci + cδ+iX + · · · + cδ(f−1)+iXf−1.
+
+Overall we obtain
+
+c(X) mod (Xδ − rj) = ¯c0(rj) + ¯c1(rj) · X + · · · + ¯cδ−1(rj) · Xδ−1.
+
+Note that the distributions of each coefficient ¯ci(rj) are i.i.d. and equal to �f−1
+l=0 cδl+irl
+j, a
+convolution of f independent random variables cδl+irl
+j. Since distributions of ¯ci(rj) are identical
+we prove the statement only for i = 0.
+Denote P1 the distribution of ¯c0(rj) = �f−1
+l=0 cδlrl
+j with values in Zq. By the Fourier transform
+inversion property for finite fields ∀y ∈ Zq:
+
+P1(y) = 1
+
+q
+
+q−1
+�
+
+k=0
+ˆP1(k) · e−2πiy k
+
+q ,
+
+where by ˆF we denote the Fourier transform of a function F. For l ∈ [f] let µl denote the
+distribution µl =
+�
+cδlrl
+j | cδl ← D
+�
+. Then P1 = �f−1
+l=0 µl and ˆP1 = �f−1
+l=0 ˆµl. For any k ∈ Zq
+
+ˆµl(k) = p + 1 − p
+
+2
+· e−2πik
+rl
+j
+q + 1 − p
+
+2
+· e+2πik
+rl
+j
+q
+
+= p + (1 − p) · cos(2πkrl
+j/q),
+
+36
+
+
+where the transformation uses the Euler formula and the odd and even properties of the sine
+and cosine functions accordingly. Then
+
+P1(y) = 1
+
+q
+
+q−1
+�
+
+k=0
+
+f−1
+�
+
+l=0
+
+�
+p + (1 − p) · cos(2πkrl
+j/q)
+�
+· e−2πiy k
+
+q
+
+≤ 1
+
+q + 1
+
+q
+
+q−1
+�
+
+k=1
+
+f−1
+�
+
+l=0
+
+���p + (1 − p) · cos(2πkrl
+j/q)
+��� ,
+
+where the first inequality follows from taking the absolute value on both sides and applying the
+triangle inequality and the last equality only separates the term corresponding to k = 0. As all
+coefficients are identically and independently distributed, the same bound holds for all of the δ
+coefficients. Given that the bound on P1 depends on the underlying rj, the final bound on the
+formula of the well-spreadness B takes the maximum over all rj.
+⊓⊔
+
+Remark 7. As already observed in [6, Lemma 3.3], in the special case of power-of-2 cyclotomic
+rings, we can exploit symmetries in order to simplify the well-spreadness formula. More precisely,
+for any j ∈ [f], the element rj generates the same group. That is, ∀j :
+�
+±1, ±rj, . . . , ±rf−1
+j
+�
+=
+⟨rj⟩ = Gµ where Gµ is the only subgroup of order µ in Z∗
+q. This group contains a subgroup
+
+⟨1, −1⟩ therefore the following set ∀j :
+�
+1, rj, . . . , rf−1
+j
+�
+= Gµ/⟨−1⟩ also forms the same quotient
+group for every j. This is exactly the set that appears in the product of the well-spreadness
+formula. Therefore, the product contains the same values for every rj only multiplied in a
+different order and we don’t need to take the maximum over j ∈ [f] to obtain the bound on
+well-spreadness.
+Similarly, we don’t have to sum over all k ∈ 1 . . . q − 1. We obtain the same product value
+for every k′ = α · k with α ∈ Gµ. Then for all k, α we have
+�
+k · α, k · α · rj, . . . , k · α · rf−1
+j
+�
+= k · (α · Gµ)/⟨−1⟩ = k · Gµ/⟨−1⟩.
+
+Then the sum becomes
+
+P1(y) = 1
+
+q + 2f
+
+q
+
+�
+
+k∈Z∗q/Gµ
+
+f−1
+�
+
+l=0
+
+���p + (1 − p) · cos(2πkrl
+j/q)
+��� ,
+
+and numerical estimations can be computed 2f times faster. The same optimisations apply to
+Lemma 34 and Lemma 35 in the case of power-of-2 cyclotomics. The group arguments above are
+not true for arbitrary cyclotomic rings, as for example −1 may not even belong to Gµ.
+
+Fixed Hamming Weight Ternary Distribution Another distribution that appears in the
+literature, is the uniform bounded distribution with an additional restriction on the Hamming
+weight of the vectors. Similar to the biased ternary distribution, it appears in the context of
+compact proof systems. It allows for even more efficient proofs as it generates elements of smaller
+ℓ1-norm. Concretely, we consider the uniform distribution over
+
+S1,w =
+�
+c(X) = ˜c0(X) + · · · + ˜cδ−1(X) · Xδ−1 | ˜ci ∈ S(δ)
+1
+∧ HW(˜ci) = ˜w
+�
+.
+
+Note that every element c(X) of S1,w has the same Hamming weight HW(c) = δ · ˜w := w and
+coefficients equal to ±1 or 0. We remark that the non-zero coefficients are somewhat regularly
+distributed. This tweak simplifies the analysis of well-spreadness significantly.
+
+37
+
+
+The same proof technique applies when the non-zero coefficients are distributed in the set
+Sη \ {0}, although it makes the Fourier Transform of the coefficient distributions more complex.
+A similar distribution was analysed in [21].
+Below, we provide a formula for the collision probability and the well-spreadness. The latter
+has been proven for power-of-2 cyclotomics in the work of [22], where they built upon the
+approach of [6] detailed above. The main obstacle the proof deals with is that the Hamming
+weight restriction introduces dependencies into some of the distributions. The authors first
+remove this dependency and apply the Fourier analysis tools and then prove that the distribution
+analysed is close enough to the original one. We generalise the result to arbitrary cyclotomics
+and provide a proof for completeness. As for the biased ternary case, we require the special
+relation from Lemma 4 between modulus q and cyclotomic polynomial Φ(X). The full proof is
+provided in Appendix A.1
+
+Lemma 34 (Generalised from [22, Lemma 1]). Let K = Q[X]/⟨Φ(X)⟩ be the ν-th cyclo-
+tomic field of degree N = φ(ν), with R its ring of integers. Further, let ν = � pei
+i
+for ei ≥ 1
+and let µ = � pfi
+i
+for 1 ≤ fi ≤ ei. Let q be a prime such that q = 1 mod µ and the multi-
+plicative order modulo ν of q is ν/µ. By Lemma 4, Φ(X) = �f
+j=1(Xδ − rj) mod q for distinct
+rj ∈ Z×
+q with N = fδ. Let X be the uniform distribution over S1,w, defining the hash input
+distribution P = X m for some dimension m. The distribution X is B-well-spread with
+
+B = max
+j∈[f]
+
+
+
+β
+
+q + β
+
+q
+
+q−1
+�
+
+k=1
+
+�����
+1
+f
+
+f−1
+�
+
+l=0
+cos(2πkrl
+j/q)
+
+�����
+
+˜w
+
+
+
+δ
+
+,
+(7)
+
+where β = f ˜
+w(f− ˜w)!
+
+f!
+and the collision probability of P is given by
+
+Coll(P) =
+
+��f
+˜w
+
+�−δ
+2−w
+�m
+.
+
+Centered Binomial Uniform Distribution Let D be the centered binomial distribution
+with parameter η, defined over j ∈ {−η, . . . , η} by
+
+Pr[j ← D] = 2−2η ·
+� 2η
+η + j
+
+�
+.
+
+By sampling each coefficient independently over D, we obtain a distribution X over the ring R of
+degree N, where X = DN. Similar to the bounded uniform distribution, it has found widespread
+use in lattice-based cryptography. For instance, it is used in the encryption scheme Kyber [52].
+We provide a formula of collision probability and well-spreadness in the lemma below, applying to
+arbitrary cyclotomic rings. The latter has been analysed in [16] for the special case of power-of-2
+cyclotomics. The detailed proof can be found in Appendix A.2.
+
+Lemma 35. Let K = Q[X]/⟨Φ(X)⟩ be the ν-th cyclotomic field of degree N = φ(ν), with R
+its ring of integers. Further, let ν = � pei
+i
+for ei ≥ 1 and let µ = � pfi
+i
+for 1 ≤ fi ≤ ei.
+Let q be a prime such that q = 1 mod µ and the multiplicative order modulo ν of q is ν/µ.
+By Lemma 4, Φ(X) = �f
+j=1(Xδ − rj) mod q for distinct rj ∈ Z×
+q with N = fδ. Define X =
+�
+c(X) = �N−1
+i=0 ciXi | ci ← D
+�
+, that is, X = DN. This defines the hash input distribution P =
+
+X m = DNm for some dimension m.
+
+38
+
+
+The collision probability of P is given by
+
+Coll(P) =
+�
+2−4η
+�4η
+2η
+
+��Nm
+,
+
+and the distribution X is B-well spread with
+
+B = max
+j∈[f]
+
+�
+1
+q + 1
+
+q
+
+q−1
+�
+
+k=1
+
+f−1
+�
+
+l=0
+| cos(πkrl
+j/q)|2η
+�δ
+
+.
+(8)
+
+Remark 8. When η = 1 we recover the result in Lemma 33 for p = 1/2, using cos(x)2 =
+1
+2 + 1
+
+2 cos(2x).
+
+Acknowledgments
+
+We thank the anonymous reviewers for their helpful feedback. Katharina Boudgoust is supported
+by the French National Research Agency (ANR), under the projects ANR-21-ASTR-0016
+AMIRAL, ANR-22-PECY-003 SecureCompute and ANR-25-CE39-4214-01 RELATE. Oleksandra
+Lapiha was supported by the EPSRC and the UK Government as part of the Centre for
+Doctoral Training in Cyber Security for the Everyday at Royal Holloway, University of London
+(EP/S021817/1).
+
+39
+
+
+References
+
+1. Marius A. Aardal, Diego F. Aranha, Katharina Boudgoust, Sebastian Kolby, and Akira Takahashi. Aggregating
+falcon signatures with LaBRADOR. In Leonid Reyzin and Douglas Stebila, editors, CRYPTO 2024, Part I,
+volume 14920 of LNCS, pages 71–106. Springer, Cham, August 2024. 1.1, 2.2
+
+2. Shweta Agrawal, Craig Gentry, Shai Halevi, and Amit Sahai. Discrete Gaussian leftover hash lemma over
+infinite domains. In Kazue Sako and Palash Sarkar, editors, ASIACRYPT 2013, Part I, volume 8269 of LNCS,
+pages 97–116. Springer, Berlin, Heidelberg, December 2013. 1
+
+3. Jo¨el Alwen, Stephan Krenn, Krzysztof Pietrzak, and Daniel Wichs. Learning with rounding, revisited - new
+reduction, properties and applications. In Ran Canetti and Juan A. Garay, editors, CRYPTO 2013, Part I,
+volume 8042 of LNCS, pages 57–74. Springer, Berlin, Heidelberg, August 2013. 1
+
+4. Benny Applebaum, David Cash, Chris Peikert, and Amit Sahai. Fast cryptographic primitives and circular-
+secure encryption based on hard learning problems. In Shai Halevi, editor, CRYPTO 2009, volume 5677 of
+LNCS, pages 595–618. Springer, Berlin, Heidelberg, August 2009. 1
+
+5. Thomas Attema, Ronald Cramer, and Chaoping Xing. A note on short invertible ring elements and applications
+to cyclotomic and trinomials number fields. Cryptology ePrint Archive, Report 2019/1200, 2019. 1
+
+6. Thomas Attema, Vadim Lyubashevsky, and Gregor Seiler. Practical product proofs for lattice commitments.
+In Daniele Micciancio and Thomas Ristenpart, editors, CRYPTO 2020, Part II, volume 12171 of LNCS,
+pages 470–499. Springer, Cham, August 2020. 5, 33, 7, 5
+
+7. Shi Bai, Adeline Langlois, Tancr`ede Lepoint, Damien Stehl´e, and Ron Steinfeld. Improved security proofs in
+lattice-based cryptography: Using the R´enyi divergence rather than the statistical distance. In Tetsu Iwata
+and Jung Hee Cheon, editors, ASIACRYPT 2015, Part I, volume 9452 of LNCS, pages 3–24. Springer, Berlin,
+Heidelberg, November / December 2015. 2
+
+8. Shi Bai, Tancr`ede Lepoint, Adeline Roux-Langlois, Amin Sakzad, Damien Stehl´e, and Ron Steinfeld. Improved
+security proofs in lattice-based cryptography: Using the R´enyi divergence rather than the statistical distance.
+Journal of Cryptology, 31(2):610–640, April 2018. 1, 4
+
+9. Wojciech Banaszczyk. New bounds in some transference theorems in the geometry of numbers. Mathematische
+Annalen, 296(4):625—–635, 1993. 15
+
+10. Iv´an Blanco-Chac´on. On the RLWE/PLWE equivalence for cyclotomic number fields. Applicable Algebra in
+Engineering, Communication and Computing, 33:53–71, 2022. 2.1
+
+11. Katharina Boudgoust, Corentin Jeudy, Adeline Roux-Langlois, and Weiqiang Wen. On the hardness of module
+learning with errors with short distributions. Journal of Cryptology, 36(1):1, January 2023. 1, 1.1, 9, 2.2, 23,
+3.3
+
+12. Florian Bourse, Rafa¨el del Pino, Michele Minelli, and Hoeteck Wee. FHE circuit privacy almost for free. In
+Matthew Robshaw and Jonathan Katz, editors, CRYPTO 2016, Part II, volume 9815 of LNCS, pages 62–89.
+Springer, Berlin, Heidelberg, August 2016. 1
+
+13. Florian Bourse and Malika Izabach`ene. Plug-and-play sanitization for TFHE. Cryptology ePrint Archive,
+Report 2022/1438, 2022. 1, 1.1, 3.3
+
+14. Zvika Brakerski and Nico D¨ottling. Hardness of LWE on general entropic distributions. In Anne Canteaut
+and Yuval Ishai, editors, EUROCRYPT 2020, Part II, volume 12106 of LNCS, pages 551–575. Springer,
+Cham, May 2020. 1, 1
+
+15. Zvika Brakerski, Adeline Langlois, Chris Peikert, Oded Regev, and Damien Stehl´e. Classical hardness of
+learning with errors. In Dan Boneh, Tim Roughgarden, and Joan Feigenbaum, editors, 45th ACM STOC,
+pages 575–584. ACM Press, June 2013. 1
+
+16. Hao Chen, Kristin E. Lauter, and Katherine E. Stange. Security considerations for Galois non-dual RLWE
+families. In Roberto Avanzi and Howard M. Heys, editors, SAC 2016, volume 10532 of LNCS, pages 443–462.
+Springer, Cham, August 2016. 5
+
+17. Chitchanok Chuengsatiansup, Thomas Prest, Damien Stehl´e, Alexandre Wallet, and Keita Xagawa. ModFalcon:
+Compact signatures based on module-NTRU lattices. In Hung-Min Sun, Shiuh-Pyng Shieh, Guofei Gu, and
+Giuseppe Ateniese, editors, ASIACCS 20, pages 853–866. ACM Press, October 2020. 1
+
+18. Keith Conrad. The different ideal. https://kconrad.math.uconn.edu/blurbs/gradnumthy/idealfactor.
+pdf, last accessed on 17.07.2024. 3.1
+
+19. Dana Dachman-Soled, Huijing Gong, Mukul Kulkarni, and Aria Shahverdi. Towards a ring analogue of the
+leftover hash lemma. J. Math. Cryptol., 15(1):87–110, 2021. 1, 1.1, 4.3
+
+20. Yevgeniy Dodis, Rafail Ostrovsky, Leonid Reyzin, and Adam Smith. Fuzzy extractors: How to generate strong
+keys from biometrics and other noisy data. SIAM journal on computing, 38(1):97–139, 2008. 1, 1.1, 2.2, 8, 10,
+3.3
+
+21. Muhammed F. Esgin, Ron Steinfeld, Dongxi Liu, and Sushmita Ruj. Efficient hybrid exact/relaxed lattice
+proofs and applications to rounding and VRFs. In Helena Handschuh and Anna Lysyanskaya, editors,
+CRYPTO 2023, Part V, volume 14085 of LNCS, pages 484–517. Springer, Cham, August 2023. 5
+
+40
+
+
+22. Muhammed F. Esgin, Ron Steinfeld, and Raymond K. Zhao. MatRiCT+: More efficient post-quantum private
+blockchain payments. In 2022 IEEE Symposium on Security and Privacy, pages 1281–1298. IEEE Computer
+Society Press, May 2022. 5, 34
+
+23. Thomas Espitau, Guilhem Niot, and Thomas Prest. Flood and submerse: Distributed key generation and
+robust threshold signature from lattices. In Leonid Reyzin and Douglas Stebila, editors, CRYPTO 2024,
+Part VII, volume 14926 of LNCS, pages 425–458. Springer, Cham, August 2024. 1.1, 4.3, 29
+
+24. Serge Fehr and Stefan Berens. On the conditional r´enyi entropy. IEEE Trans. Inf. Theory, 60(11):6801–6810,
+2014. 2.2
+
+25. Phillip Gajland, Jonas Janneck, and Eike Kiltz. A closer look at falcon. Cryptology ePrint Archive, Report
+2024/1769, 2024. 2.3, 4
+
+26. Nicholas Genise, Daniele Micciancio, Chris Peikert, and Michael Walter. Improved discrete gaussian and
+subgaussian analysis for lattice cryptography. In Aggelos Kiayias, Markulf Kohlweiss, Petros Wallden, and
+Vassilis Zikas, editors, PKC 2020, Part I, volume 12110 of LNCS, pages 623–651. Springer, Cham, May 2020.
+1, 16
+
+27. Craig Gentry, Chris Peikert, and Vinod Vaikuntanathan. Trapdoors for hard lattices and new cryptographic
+constructions. In Richard E. Ladner and Cynthia Dwork, editors, 40th ACM STOC, pages 197–206. ACM
+Press, May 2008. 1, 1.1, 2.3
+
+28. Shafi Goldwasser, Yael Tauman Kalai, Chris Peikert, and Vinod Vaikuntanathan. Robustness of the learning
+with errors assumption. In ICS, pages 230–240. Tsinghua University Press, 2010. 1
+
+29. Johan H˚astad, Russell Impagliazzo, Leonid A. Levin, and Michael Luby. A pseudorandom generator from any
+one-way function. SIAM Journal on Computing, 28(4):1364–1396, 1999. 1, 1, 1, 3.3
+
+30. Russell Impagliazzo, Leonid A. Levin, and Michael Luby. Pseudo-random generation from one-way functions
+(extended abstracts). In 21st ACM STOC, pages 12–24. ACM Press, May 1989. 1, 1, 1, 3.3
+
+31. Corentin Jeudy. Design of advanced post-quantum signature schemes. (Conception d’algorithmes de signatures
+avanc´ees post-quantiques). PhD thesis, University of Rennes 1, France, 2024. https://cjeudy.github.io/
+assets/pub/manuscript.pdf. 2.3
+
+32. Haoxiang Jin, Feng-Hao Liu, Zhedong Wang, and Dawu Gu. Discrete gaussians modulo sub-lattices: New
+leftover hash lemmas for discrete gaussians. In PKC 2025, Part II, LNCS, pages 301–330. Springer, Cham,
+May 2025. 1, 1.1, 1.1, 3.3, 3.3, 32
+
+33. Shuichi Katsumata and Shota Yamada. Partitioning via non-linear polynomial functions: More compact IBEs
+from ideal lattices and bilinear maps. In Jung Hee Cheon and Tsuyoshi Takagi, editors, ASIACRYPT 2016,
+Part II, volume 10032 of LNCS, pages 682–712. Springer, Berlin, Heidelberg, December 2016. 1, 1.1, 3.3
+
+34. Adeline Langlois and Damien Stehl´e. Worst-case to average-case reductions for module lattices. DCC,
+75(3):565–599, 2015. 1, 1
+
+35. Adeline Langlois, Damien Stehl´e, and Ron Steinfeld. GGHLite: More efficient multilinear maps from ideal
+lattices. In Phong Q. Nguyen and Elisabeth Oswald, editors, EUROCRYPT 2014, volume 8441 of LNCS,
+pages 239–256. Springer, Berlin, Heidelberg, May 2014. 1
+
+36. Hao Lin, Mingqiang Wang, Jincheng Zhuang, and Yang Wang. Hardness of module-LWE and ring-LWE
+on general entropic distributions. Cryptology ePrint Archive, Report 2020/1238, 2020. Version 2020-10-09
+https://eprint.iacr.org/archive/2020/1238/20201009:113322. 1.1
+
+37. Hao Lin, Mingqiang Wang, Jincheng Zhuang, and Yang Wang. Hardness of entropic module-lwe. Theoretical
+Computer Science, page 114553, 2024. 1, 1.1, 3.3
+
+38. Feng-Hao Liu and Zhedong Wang. Rounding in the rings. In Daniele Micciancio and Thomas Ristenpart,
+editors, CRYPTO 2020, Part II, volume 12171 of LNCS, pages 296–326. Springer, Cham, August 2020. 1,
+1.1, 3.1, 3.3
+
+39. Vadim Lyubashevsky, L´eo Ducas, Eike Kiltz, Tancr`ede Lepoint, Peter Schwabe, Gregor Seiler, Damien Stehl´e,
+and Shi Bai. CRYSTALS-DILITHIUM. Technical report, National Institute of Standards and Technology, 2022.
+available at https://csrc.nist.gov/Projects/post-quantum-cryptography/selected-algorithms-2022.
+5
+
+40. Vadim Lyubashevsky, Chris Peikert, and Oded Regev. On ideal lattices and learning with errors over rings.
+In Henri Gilbert, editor, EUROCRYPT 2010, volume 6110 of LNCS, pages 1–23. Springer, Berlin, Heidelberg,
+May / June 2010. 1
+
+41. Vadim Lyubashevsky, Chris Peikert, and Oded Regev. A toolkit for ring-LWE cryptography. In Thomas
+Johansson and Phong Q. Nguyen, editors, EUROCRYPT 2013, volume 7881 of LNCS, pages 35–54. Springer,
+Berlin, Heidelberg, May 2013. 1, 1.1, 1.1, 2, 6, 7, 2.1, 14, 19, 21, 3, 4.2, 4.2, 26, 4.2, 27
+
+42. Vadim Lyubashevsky and Gregor Seiler. Short, invertible elements in partially splitting cyclotomic rings and
+applications to lattice-based zero-knowledge proofs. In Jesper Buus Nielsen and Vincent Rijmen, editors,
+EUROCRYPT 2018, Part I, volume 10820 of LNCS, pages 204–224. Springer, Cham, April / May 2018. 1.1,
+1.1, 3, 2.1, 4
+
+43. Daniele Micciancio. Generalized compact knapsacks, cyclic lattices, and efficient one-way functions. Comput.
+Complex., 16(4):365–411, 2007. 1, 1.1, 2.2, 3.1, 3.3, 5, 30
+
+41
+
+
+44. Daniele Micciancio and Petros Mol. Pseudorandom knapsacks and the sample complexity of LWE search-
+to-decision reductions. In Phillip Rogaway, editor, CRYPTO 2011, volume 6841 of LNCS, pages 465–484.
+Springer, Berlin, Heidelberg, August 2011. 1, 1.1, 3.1
+
+45. Daniele Micciancio and Oded Regev. Worst-case to average-case reductions based on gaussian measures.
+SIAM J. Comput., 37(1):267–302, 2007. 1, 1.1, 2.3, 13, 2.3
+
+46. Chris Peikert. Limits on the hardness of lattice problems in lp norms. computational complexity, 17(2):300–351,
+2008. 12, 18
+
+47. Chris Peikert. An efficient and parallel Gaussian sampler for lattices. In Tal Rabin, editor, CRYPTO 2010,
+volume 6223 of LNCS, pages 80–97. Springer, Berlin, Heidelberg, August 2010. 2.3
+
+48. Chris Peikert and Alon Rosen. Lattices that admit logarithmic worst-case to average-case connection factors.
+In David S. Johnson and Uriel Feige, editors, 39th ACM STOC, pages 478–487. ACM Press, June 2007. 20
+
+49. Thomas Prest. Sharper bounds in lattice-based cryptography using the R´enyi divergence. In Tsuyoshi Takagi
+and Thomas Peyrin, editors, ASIACRYPT 2017, Part I, volume 10624 of LNCS, pages 347–374. Springer,
+Cham, December 2017. 2.3
+
+50. Oded Regev. On lattices, learning with errors, random linear codes, and cryptography. In Harold N. Gabow
+and Ronald Fagin, editors, 37th ACM STOC, pages 84–93. ACM Press, May 2005. 1
+
+51. Miruna Rosca, Damien Stehl´e, and Alexandre Wallet. On the ring-LWE and polynomial-LWE problems. In
+Jesper Buus Nielsen and Vincent Rijmen, editors, EUROCRYPT 2018, Part I, volume 10820 of LNCS, pages
+146–173. Springer, Cham, April / May 2018. 1, 1.1, 2.1, 22, 3, 4.2, 4.2, 25, 4.2, 28
+
+52. Peter Schwabe, Roberto Avanzi, Joppe Bos, L´eo Ducas, Eike Kiltz, Tancr`ede Lepoint, Vadim Lyubashevsky,
+John M. Schanck, Gregor Seiler, Damien Stehl´e, and Jintai Ding. CRYSTALS-KYBER. Technical report,
+National Institute of Standards and Technology, 2022.
+available at https://csrc.nist.gov/Projects/
+post-quantum-cryptography/selected-algorithms-2022. 1, 1.1, 5
+
+53. Damien Stehl´e and Ron Steinfeld. Making NTRU as secure as worst-case problems over ideal lattices. In
+Kenneth G. Paterson, editor, EUROCRYPT 2011, volume 6632 of LNCS, pages 27–47. Springer, Berlin,
+Heidelberg, May 2011. 1, 1.1, 3, 4.2, 24, 4.2, 28, 4.3
+
+54. Damien Stehl´e, Ron Steinfeld, Keisuke Tanaka, and Keita Xagawa. Efficient public key encryption based on
+ideal lattices. In Mitsuru Matsui, editor, ASIACRYPT 2009, volume 5912 of LNCS, pages 617–635. Springer,
+Berlin, Heidelberg, December 2009. 1, 1.1, 3.3
+
+55. Ron Steinfeld, Amin Sakzad, Muhammed F. Esgin, Veronika Kuchta, Mert Yassi, and Raymond K. Zhao.
+LUNA: Quasi-optimally succinct designated-verifier zero-knowledge arguments from lattices. In Bo Luo,
+Xiaojing Liao, Jun Xu, Engin Kirda, and David Lie, editors, ACM CCS 2024, pages 3167–3181. ACM Press,
+October 2024. 1, 1.1, 4.3
+
+56. Tim van Erven and Peter Harremo¨es. R´enyi divergence and kullback-leibler divergence. IEEE Trans. Inf.
+Theory, 60(7):3797–3820, 2014. 2.2
+
+42
+
+
+A
+Missing Proofs from Section 5
+
+A.1
+Proof of Lemma 34
+
+Proof. We start with the collision probability of P, where Coll(P) = Coll(X)m. We compute
+
+|S1, ˜w| =
+�f
+˜w
+�δ2w. Then, the collision probability of X, which is the uniform distribution over
+
+S1, ˜w, is
+�f
+˜w
+�−δ2−w.
+It remains to show the well-spreadness. To obtain a uniformly random element in S1, ˜w each
+polynomial ˜ci(X) can be sampled independently in the following way. First, we choose the
+non-zero monomials (t1, . . . , t ˜w) as an ordered ˜w-tuple of distinct elements from [f] uniformly at
+random. This ensures the Hamming weight condition. Then we choose the signs of the non-zero
+monomials cδtα+i ← U({1, −1}) for α = 1, . . . , ˜w. Finally, we set ˜ci(X) = � ˜w
+α=1 cδtα+i · Xδ·tα,
+defining c(X) = �δ−1
+i=0 ˜ci(X) · Xi. Note that this method samples each possible ˜ci(X) polynomial
+˜w! times, but this does not skew the distribution.
+Now reduce the polynomial c(X) modulo Xδ − rj for some j ∈ [f]. Similar to the proof
+of Lemma 33, the distributions of each coefficient of the resulting polynomial are independent
+and equal to ¯c0(rj) = � ˜w
+α=1 cδtα · rtα
+j
+∈ Zq. Denote this distribution P2. We aim to prove that
+maxy∈Zq(P2(y)) is bounded.
+Define a similar distribution P1 where instead of choosing a tuple of distinct powers of X they
+are allowed to repeat. In this distribution, we sample tα ← U([f]), cδtα ← U({1, −1}) for each
+α = 1, . . . , ˜w. Then, P1 is the distribution of ¯c0(rj) = � ˜w
+α=1 cδtα · rtα
+j
+∈ Zq. This simplification
+allows us to represent the distribution as a sum of ˜w independent random variables and easily
+compute corresponding Fourier transforms. Using the inversion property of Fourier transforms
+over finite fields ∀y ∈ Zq
+
+P1(y) = 1
+
+q + 1
+
+q
+
+q−1
+�
+
+k=1
+ˆP1(k) · e−2πi y k
+
+q .
+
+The distribution P1 is a convolution of ˜w distributions µα where
+
+µα =
+�
+cδtα · rtα
+j
+| cδtα ← {1, −1}, tα ← [f]
+�
+.
+
+Note that the distribution is the same for all α. Then ˆP1(k) = � ˜w
+α=1 ˆµα(k) = ˆµ1(k) ˜w. Define a
+
+set S =
+�
+±1, ±rj, . . . , ±rf−1
+j
+�
+then µ1 = U(S) and for any k ∈ Zq
+
+ˆµ1(k) =
+�
+
+x∈S
+µ1(x) · e−2πik x
+
+q
+(9)
+
+=
+
+f−1
+�
+
+l=0
+
+1
+2f · (e−2πik
+rl
+j
+q + e+2πik
+rl
+j
+q ) = 1
+
+2f
+
+f−1
+�
+
+l=0
+2 cos(2πkrl
+j/q).
+
+In the above, the first equality uses the shape of S and µ1 = U(S), the second equality uses the
+Euler formula and that cosine and sine are even and odd functions accordingly. Substituting this
+expression into the main formula we get
+
+P1(y) = 1
+
+q + 1
+
+q
+
+q−1
+�
+
+k=1
+
+�
+1
+f
+
+f−1
+�
+
+l=0
+cos(2πkrl
+j/q)
+
+� ˜w
+
+· e−2πi y k
+
+q
+
+≤ 1
+
+q + 1
+
+q
+
+q−1
+�
+
+k=1
+
+�����
+1
+f
+
+f−1
+�
+
+l=0
+cos(2πkrl
+j/q)
+
+�����
+
+˜w
+
+.
+
+43
+
+
+For the inequality we take the absolute value on both sides and apply the triangle inequality
+on the right. The left side does not change since P1(y) is a positive real number. To obtain a
+statement about P2(y) we compute an upper bound on RD∞(P2; P1) := maxy∈Zq
+P2(y)
+P1(y). Note that
+we take the R´enyi divergence of the infinite order as for uniform distributions this is optimal.
+Denote as T the set of ordered ˜w-tuples with non-repeating coordinates in [f]. Then |T | =
+f!
+
+(f− ˜w)!. The distributions P1, P2 can be seen as computing the same function on the following
+distributions of ordered tuples
+
+D1 = {((t1, . . . , t ˜w), (cδt1, . . . , cδt ˜
+w)) | tα ← U([f]), cδtα ← U({1, −1})},
+
+D2 = {((t1, . . . , t ˜w), (cδt1, . . . , cδt ˜
+w)) | (t1, . . . , t ˜w) ← U(T ), cδtα ← U({1, −1})}.
+
+Note that T ⊂ [f] ˜w so Supp(D2) ⊂ Supp(D1) and divergence RD∞(D2; D1) is well defined.
+Then by the data processing inequality for R´enyi divergence
+
+RD∞(P2; P1) ≤ RD∞(D2; D1)
+
+= | Supp(D1)|
+
+| Supp(D2)| = 2 ˜wf ˜w(f − ˜w)!
+
+2 ˜wf!
+= f ˜w(f − ˜w)!
+
+f!
+= β,
+
+where the first equality holds since D1 and D2 are uniform distributions on their support.
+Therefore, by the probability preservation property of RD∞, ∀y : P2(y) ≤ β · P1(y) which implies
+the main statement.
+⊓⊔
+
+A.2
+Proof of Lemma 35
+
+Proof. By the definition of collision probability and by the Vandermonde identity
+
+Coll(P) = 2−4η
+η
+�
+
+i=−η
+
+� 2η
+η + i
+
+�2
+= 2−4η
+�4η
+2η
+
+�
+.
+
+Similarly to the proof of Lemma 33 denote P1 the distribution of ¯c0(rj) = �f−1
+l=0 cδlrl
+j with values
+in Zq. By the Fourier transform inversion property for finite fields ∀y ∈ Zq:
+
+P1(y) = 1
+
+q
+
+q−1
+�
+
+k=0
+ˆP1(k) · e−2πiy k
+
+q .
+
+For l ∈ [f] denote as µl the distribution µl =
+�
+cδlrl
+j | cδl ← D
+�
+. Then P1 = �f−1
+l=0 µl and
+ˆP1 = �f−1
+l=0 ˆµl. For k ∈ Zq
+
+ˆµl(k) =
+
+η
+�
+
+s=−η
+2−2η ·
+� 2η
+η + s
+
+�
+e−2πik
+srl
+j
+
+q = 2−2η · e2πik
+ηrl
+j
+
+q ·
+
+2η
+�
+
+s=0
+
+�2η
+s
+
+�
+e−2πik
+srl
+j
+
+q
+
+= 2−2η · e2πik
+ηrl
+j
+
+q ·
+
+�
+
+1 + e−2πik
+rl
+j
+q
+�2η
+
+= 2−2η ·
+
+�
+
+eπik
+rl
+j
+q
+�2η
+·
+
+�
+
+1 + e−2πik
+rl
+j
+q
+�2η
+
+=
+
+
+
+
+eπik
+rl
+j
+q + e−πik
+rl
+j
+q
+
+2
+
+
+
+
+
+
+2η
+
+= cos(πkrl
+j/q)2η,
+
+44
+
+
+where the transformations above use the binomial and Euler formulas and the odd and even
+property of the sine and cosine functions accordingly. Then
+
+P1(y) = 1
+
+q
+
+q−1
+�
+
+k=0
+
+f−1
+�
+
+l=0
+cos(πkrl
+j/q)2η · e−2πiy k
+
+q
+
+≤ 1
+
+q
+
+q−1
+�
+
+k=0
+
+f−1
+�
+
+l=0
+
+���cos(πkrl
+j/q)
+���
+2η
+= 1
+
+q + 1
+
+q
+
+q−1
+�
+
+k=1
+
+f−1
+�
+
+l=0
+
+���cos(πkrl
+j/q)
+���
+2η
+,
+
+where the first inequality comes from taking the absolute value on both sides and applying the
+triangle inequality, the second equality separates the term k = 0.
+⊓⊔
+
+45
+
+

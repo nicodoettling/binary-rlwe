@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260906T210920.377252Z-f0d3ed7f",
+  "kind": "coordinator",
+  "created_at": "2026-09-06T21:09:20.377277+00:00",
+  "reason": "Saved mathematical shutdown, completed agent dispositions, and all-assignment scope verification",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 108248,
+      "sha256": "7dd9f8717b9dd44567cdba82b28152f4c7e001573a2804b503999f3b43e6698c"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 5687,
+      "sha256": "4f0ea786e4fa10c5ce93cc6b4454543e795e03145472344bd045da1758b6c513"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 14865,
+      "sha256": "895263404b9d7d846801fd3aeaf62bac7c77f625515d7a4217df53fd1ed984f6"
+    },
+    {
+      "path": "final.md",
+      "bytes": 15932,
+      "sha256": "a668269c751f7309210e61fb6b439ee38e4b920eac0af7be1414f0575a85149d"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 6509,
+      "sha256": "34146304209568ec5e905f050e18acccbab7274d9f9caf4e0976ee8d6335c5ce"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

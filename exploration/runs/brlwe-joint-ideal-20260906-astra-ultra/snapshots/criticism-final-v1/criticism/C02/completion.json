@@ -1,0 +1,29 @@
+{
+  "completed_utc": "2026-09-06T15:54:24.659783+00:00",
+  "research_complete": true,
+  "experiments_run": 0,
+  "frozen_ATT_version_accepted": "ATT v2, qualified",
+  "new_correction_status": "ATT-D v1 REPAIRED-PENDING-RECHECK; author C02 cannot accept",
+  "files": [
+    {
+      "file": "review.md",
+      "bytes": 24742,
+      "sha256": "62ca9a2d65d6b7d5ae84a5e6fee989ce36ac31280b75ecf4b148c2c0a103ea5f"
+    },
+    {
+      "file": "proposed-repairs.md",
+      "bytes": 3671,
+      "sha256": "949386e0703152dbcc4464426e392f047bfed0c09f5bf0b2ccf1216a5312e41e"
+    },
+    {
+      "file": "proposed-ATT-v3.md",
+      "bytes": 8919,
+      "sha256": "1fce3b7ad8c10de075fb161baab32d38786651bd72e059e9e2998a332bd6081f"
+    },
+    {
+      "file": "input-hashes.json",
+      "bytes": 9498,
+      "sha256": "e8ac873c9da4b8e7ff414e47aa4bf8b6af266d5d56cc532028f94d330a21646a"
+    }
+  ]
+}

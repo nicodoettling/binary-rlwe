@@ -1,0 +1,14 @@
+{
+  "state": "failed_or_interrupted",
+  "systemd_unit": "brlwe-joint-ideal-20260906-astra-ultra.service",
+  "exit_code": 1,
+  "ended_at": "2026-09-06T15:59:48.057898+00:00",
+  "systemd": {
+    "Result": "exit-code",
+    "ExecMainCode": "1",
+    "ExecMainStatus": "1",
+    "ControlGroup": "",
+    "ActiveState": "failed",
+    "SubState": "failed"
+  }
+}

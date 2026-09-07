@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260906T201642.163837Z-0b5e7c2d",
+  "kind": "coordinator",
+  "created_at": "2026-09-06T20:16:42.163860+00:00",
+  "reason": "Saved versioned unfinished discrete entropy derivation and quantitative continuity bounds",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 88823,
+      "sha256": "bd4d5b0e6ea5fd75c45d8c2a3a620dff437521514c65415bb7e3bc4221e955bb"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 4600,
+      "sha256": "58fecac0a24d40e2e71eb6509da07307b32210f5c347b8224827d9d20668c5da"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 4486,
+      "sha256": "ece7215c1e4acb14f5cefec10a8dc11cab880432f5fab2ffc44c36326bd48d33"
+    },
+    {
+      "path": "final.md",
+      "bytes": 5009,
+      "sha256": "af3ec69af52b982d692f5ca2c5c56d69891ed7481f882d3be9b10448f0edbab0"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 2171,
+      "sha256": "9c355b9293e57033baed49155fe76235ab25b0d9d75b34fac533134fc76c6edd"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

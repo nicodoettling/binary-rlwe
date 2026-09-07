@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260906T205813.712104Z-70767009",
+  "kind": "coordinator",
+  "created_at": "2026-09-06T20:58:13.712133+00:00",
+  "reason": "Integrated structural exact controls, source checks, and fresh-process artifact audit",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 100655,
+      "sha256": "82117abc4d65b1819be2063b63544edc3e1339b7033ed6ee06df341fe30d45ae"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 5361,
+      "sha256": "d11753c6a49cfb2638e80187919d2db632a45581e95370789af827a09cb07325"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 11204,
+      "sha256": "81b154f39236dfbd47661b9b2736956e1f0074188698ad6a6f9a3643259f74d9"
+    },
+    {
+      "path": "final.md",
+      "bytes": 5159,
+      "sha256": "a7fac7f710261508b8baf0e628adef6ebd9a80db792823c976b64bb6610aa116"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 5723,
+      "sha256": "e1fc6144cf153679057a8cd6fb0463c4f3915fbe1a5a22a921fe07f3bc9e0933"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

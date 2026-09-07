@@ -1,0 +1,9 @@
+Active run manifest: /home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-smoke-20260906a/run.json
+
+This is a short launcher/cancellation smoke test, not the research run. Read only the active run manifest to find your output_directory. Do no research, web search, or goal creation.
+
+Immediately spawn one worker with model="gpt-6-astra", reasoning_effort="ultra", fork_turns="none". Give it the absolute output directory and this task: "Do not spawn agents. Immediately write worker-checkpoint.md in the supplied output directory saying the managed worker started. Then use a shell tool to run Python that writes its PID and /proc/self/cgroup to worker-process.json in that directory, ignores SIGINT and SIGTERM, and sleeps for 600 seconds. This is a cancellation test; the external service timer will stop it. Do not start other work."
+
+Write the returned agent ID to agents.json and coordinator-checkpoint.md saying the agent was spawned. Then wait for cancellation. Do not cancel the worker or return voluntarily: this test specifically checks the external service timer. All model invocations must use Astra ultra. If shell-tool waits yield a process session, keep the session alive and wait; don't terminate it yourself.
+
+Execution constraints: use local in-process collaboration only. Do not use remote execution environments, external worker services, tmux, systemd, nohup, or another Codex CLI to launch work. Every research worker must run gpt-6-astra with ultra reasoning: specify model="gpt-6-astra", reasoning_effort="ultra", fork_turns="none" when creating workers. Do not alter runner code, deadline metadata, or service settings. Record agent IDs in agents.json; run.json is launcher-owned. Read public sources with built-in web tools. No goal tools or automatic resume.

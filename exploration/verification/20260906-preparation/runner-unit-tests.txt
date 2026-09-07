@@ -1,0 +1,42 @@
+test_cannot_extend_plan (test_plan_config.PlanConfigurationTests.test_cannot_extend_plan) ... ok
+test_execution_requires_verified_finite_deadline (test_plan_config.PlanConfigurationTests.test_execution_requires_verified_finite_deadline) ... ok
+test_five_hour_configuration (test_plan_config.PlanConfigurationTests.test_five_hour_configuration) ... ok
+test_internal_entry_points_also_require_confirmation (test_plan_config.PlanConfigurationTests.test_internal_entry_points_also_require_confirmation) ... ok
+test_original_plan_still_validates (test_plan_config.PlanConfigurationTests.test_original_plan_still_validates) ... ok
+test_reject_path_escape (test_plan_config.PlanConfigurationTests.test_reject_path_escape) ... ok
+test_rescale_uses_selected_plan_duration (test_plan_config.PlanConfigurationTests.test_rescale_uses_selected_plan_duration) ... ok
+test_scope_file_and_monitoring_defaults (test_plan_config.PlanConfigurationTests.test_scope_file_and_monitoring_defaults) ... ok
+test_scope_file_must_stay_in_plan (test_plan_config.PlanConfigurationTests.test_scope_file_must_stay_in_plan) ... ok
+test_unconfirmed_launch_has_no_launch_side_effects (test_plan_config.PlanConfigurationTests.test_unconfirmed_launch_has_no_launch_side_effects) ... ok
+test_validation_never_launches (test_plan_config.PlanConfigurationTests.test_validation_never_launches) ... ok
+test_categories_are_distinct (test_resilience.ErrorTests.test_categories_are_distinct) ... ok
+test_current_cli_log_fallback (test_resilience.ErrorTests.test_current_cli_log_fallback) ... ok
+test_historical_error_in_fenced_output_is_not_a_confirmed_failure (test_resilience.ErrorTests.test_historical_error_in_fenced_output_is_not_a_confirmed_failure) ... ok
+test_oversized_line_reader_is_bounded_and_recovers (test_resilience.ErrorTests.test_oversized_line_reader_is_bounded_and_recovers) ... ok
+test_partial_record_then_completed_line (test_resilience.ErrorTests.test_partial_record_then_completed_line) ... ok
+test_quotes_and_other_sessions_do_not_classify (test_resilience.ErrorTests.test_quotes_and_other_sessions_do_not_classify) ... ok
+test_structured_actual_terminal_record (test_resilience.ErrorTests.test_structured_actual_terminal_record) ... ok
+test_truncated_log_restarts_reader (test_resilience.ErrorTests.test_truncated_log_restarts_reader) ... ok
+test_finalizer_survives_observation_and_snapshot_failure (test_resilience.FinalizationTests.test_finalizer_survives_observation_and_snapshot_failure) ... ok
+test_malformed_agent_registry_does_not_prevent_finalization (test_resilience.FinalizationTests.test_malformed_agent_registry_does_not_prevent_finalization) ... ok
+test_timeout_missing_reconciliation_and_no_retry (test_resilience.FinalizationTests.test_timeout_missing_reconciliation_and_no_retry) ... ok
+test_unknown_service_state_does_not_claim_success (test_resilience.FinalizationTests.test_unknown_service_state_does_not_claim_success) ... ok
+test_zero_exit_is_not_scientific_completion (test_resilience.FinalizationTests.test_zero_exit_is_not_scientific_completion) ... ok
+test_catchable_signal_stops_owned_service_and_finalizes (test_resilience.ServiceTests.test_catchable_signal_stops_owned_service_and_finalizes) ... ok
+test_confirmed_policy_error_stops_only_own_service (test_resilience.ServiceTests.test_confirmed_policy_error_stops_only_own_service) ... ok
+test_deadline_embedded_program_compiles_without_execution (test_resilience.ServiceTests.test_deadline_embedded_program_compiles_without_execution) ... ok
+test_deadline_test_module_import_has_no_live_side_effects (test_resilience.ServiceTests.test_deadline_test_module_import_has_no_live_side_effects) ... ok
+test_launch_exception_still_finalizes (test_resilience.ServiceTests.test_launch_exception_still_finalizes) ... ok
+test_mock_service_is_monitored_and_finalized_with_timer_unchanged (test_resilience.ServiceTests.test_mock_service_is_monitored_and_finalized_with_timer_unchanged) ... ok
+test_checkpoint_requires_complete_nonempty_valid_artifacts (test_resilience.SnapshotTests.test_checkpoint_requires_complete_nonempty_valid_artifacts) ... ok
+test_copies_hashed_contents_preserves_previous_and_excludes_store (test_resilience.SnapshotTests.test_copies_hashed_contents_preserves_previous_and_excludes_store) ... ok
+test_failure_keeps_previous_snapshot_and_cleans_staging (test_resilience.SnapshotTests.test_failure_keeps_previous_snapshot_and_cleans_staging) ... ok
+test_filesystem_snapshots_do_not_clear_staleness (test_resilience.SnapshotTests.test_filesystem_snapshots_do_not_clear_staleness) ... ok
+test_fixed_snapshot_cadence (test_resilience.SnapshotTests.test_fixed_snapshot_cadence) ... ok
+test_refuses_symlink_artifact (test_resilience.SnapshotTests.test_refuses_symlink_artifact) ... ok
+test_unchanged_checkpoint_does_not_reset_change_time (test_resilience.SnapshotTests.test_unchanged_checkpoint_does_not_reset_change_time) ... ok
+
+----------------------------------------------------------------------
+Ran 37 tests in 0.140s
+
+OK

@@ -1,0 +1,23 @@
+{
+  "verified_utc": "2026-09-06T14:23:17.170884+00:00",
+  "manifest_path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/run.json",
+  "manifest_sha256_at_intake": "8777299c951c012da5c0da88ea793fc2f684c110ab7518a0a427ac9ae49be29f",
+  "launch_authorized": true,
+  "deadline_supervisor_verified": true,
+  "run_id": "brlwe-joint-ideal-20260906-astra-ultra",
+  "output_directory": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra",
+  "start_utc": "2026-09-06T14:21:13.181175+00:00",
+  "hard_deadline_utc": "2026-09-06T19:21:13.181175+00:00",
+  "phase_deadlines_utc": {
+    "setup_end": "2026-09-06T14:36:13.181175+00:00",
+    "foundations_end": "2026-09-06T15:21:13.181175+00:00",
+    "development_end": "2026-09-06T16:36:13.181175+00:00",
+    "refinement_end": "2026-09-06T17:36:13.181175+00:00",
+    "criticism_end": "2026-09-06T18:16:13.181175+00:00",
+    "reconciliation_end": "2026-09-06T18:36:13.181175+00:00",
+    "synthesis_end": "2026-09-06T19:06:13.181175+00:00",
+    "workers_stop": "2026-09-06T19:06:13.181175+00:00",
+    "hard_stop": "2026-09-06T19:21:13.181175+00:00"
+  },
+  "verification": "Read and checked authorization, absolute paths, chronology and exact phase offsets. Read launcher managed-result.json showing prior deadline test passed with no survivors. No launcher files changed."
+}

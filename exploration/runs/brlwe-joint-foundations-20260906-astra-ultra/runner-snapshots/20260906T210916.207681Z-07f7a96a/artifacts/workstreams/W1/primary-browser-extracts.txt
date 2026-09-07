@@ -1,0 +1,423 @@
+ (https://eprint.iacr.org/2018/494.pdf)
+citeturn15view0 [wordlim: 200] Crawled: 1.1 years ago; Content type: application/pdf; Number of pages: 46; Source: open({"ref_id":"turn2view0","lineno":2830}); Total lines: 3208
+L2817@P36: q ∈ Pn−k. Sample x1, x2 ← Q/qR conditioned on x1 being invertible
+L2818@P36: modulo P, and s
+L2819@P36: $
+L2820@P36: ← ϕ. Then the distributions (x1, x1 · s) and (x1, x2) are indistinguishable.
+L2821@P36: Proof. Let s
+L2822@P36: 0 be any representative of s (mod P). Then (x1, x1 · s) = (x1, x1 · s0
+L2823@P36: ) since x1 ∈ Q and
+L2824@P36: P +Q = qR. Thus, Definition 7.1 implies that (x1, x1 · s) is indistinguishable from (x1, x1 · z) where
+L2825@P36: z is uniform in Rq.
+L2826@P36-37: 37Now fix any P, x1, we will show that x1z and x2 are identically distributed. Since x1 is
+L2827@P37: invertible modulo P, then x1z is uniform modulo P. Since x1 ∈ Q/qR it follows that x1z = 0
+L2828@P37: (mod Q). Therefore x1z is uniform in Q/qR.
+L2829@P37: 7.1 Hidden-Lattice Decision Bounded Distance Decoding
+L2830@P37: We first define the hidden lattice BDD (HLBDD) distribution, and then the decisional problem
+L2831@P37: associated with it. We use Gaussian noise but other noise distributions can be considered as well,
+L2832@P37: the property that we use in our proof is that the distribution is bounded.
+L2833@P37: Definition 7.3 (Hidden Lattice BDD Distribution). Let L1 and L2 be two given lattices, and let
+L2834@P37: L be a finite family of lattices, where each member L
+L2835@P37: 0 ∈ L satisfies L1 ⊆ L0 ⊆ L2. Let r ∈ G be a
+L2836@P37: Gaussian parameter. The Hidden Lattice BDD Distribution over L2/L1, denoted by CL1,L,DL2,r, is
+L2837@P37: sampled by choosing uniformly at random a lattice L
+L2838@P37: 0
+L2839@P37: $
+L2840@P37: ← L, an element x
+L2841@P37: $← L0/L1, and an error
+L2842@P37: term e←DL2,r and outputting y = x + e mod L1.
+L2843@P37: One should think of the lattice L2 as the “ambient space”, i.e. Z
+L2844@P37: n
+L2845@P37: for general Euclidean setting
+L2846@P37: or the ring of integer R in the algebraic setting. Note that it is possible to define the distribution
+L2847@P37: with a continuous noise term e. The usual connection between discrete and continuous distribution
+L2848@P37: from LWE / RLWE apply here as well (see, e.g., [LPR13, Lemma 2.23]).
+L2849@P37: Definition 7.4 (HLBDD Problem). Let L1,L2, L, r be as in Definition 7.3. The HLBDD Problem,
+L2850@P37: denote by HLBDDL1,L,DL2,r
+L2851@P37: is to distinguish between two samples from the distribution CL1,L,DL2,r
+L2852@P37: ,
+L2853@P37: and two samples from the uniform distribution over L2/L.
+L2854@P37: For the purpose of this section we will set L2 = R (the ring of integers of our number field) and
+L2855@P37: L = Pk, for k = n
+L2856@P37: Ω(1)
+L2857@P37: .
+L2858@P37: Hardness and Variants. We defined HLBDD as the problem where the distinguisher only gets
+L2859@P37: 2 samples from the HLBDD distribution. This is the minimal definition that is needed for our
+L2860@P37: application. However, we note that we do not know of polynomial time algorithms even for weaker
+--------------------------------------------------------------------------------
+ (https://eprint.iacr.org/2018/494.pdf)
+citeturn15view1 [wordlim: 200] Crawled: 1.1 years ago; Content type: application/pdf; Number of pages: 46; Source: open({"ref_id":"turn2view0","lineno":3000}); Total lines: 3208
+L2987@P39: Lemma 7.7. Let ϕ be a distribution over Rq that is B-bounded, i.e. Prs←ϕ[ksk < B] is nonnegligible, and k-wise independent. Let σ ≥ ηε(R) and ˜r, ˜r, r
+L2988@P39: 0 ∈ G be Gaussian parameters such
+L2989@P39: that ˜r is as in Lemma 2.11, ˜r ≥ max{r
+L2990@P39: 0
+L2991@P39: , σ} and ˜r swallows r
+L2992@P39: 0
+L2993@P39: . Then, there is a reduction from
+L2994@P39: HLBDDqR,Pn−k,DR,r
+L2995@P39: 0
+L2996@P39: to R-LWEq,ϕ,DR,˜r with a single sample.
+L2997@P39: Proof. We show that under the HLBDDqR,Pn−k,DR,r
+L2998@P39: 0 assumption, a sample from R-LWEq,ϕ,DR,˜r
+L2999@P39: is
+L3000@P39: indistinguishable from a sample from U(Rq × Rq). We prove this using a hybrid argument. The
+L3001@P39: hybrids used are defined here and followed by a detailed description.
+L3002@P39: H0 : (a, b = as + e) ∈ Rq × Rq where s ← ϕ, e ← DR,˜r
+L3003@P39: H1 : (x1 + e1,(x1 + e1)s + e) ∈ (Q + R) mod q × Rq where Q
+L3004@P39: $
+L3005@P39: ← Pn−k, e1←DR,r
+L3006@P39: 0
+L3007@P39: H2 : (x1 + e1, x1s + e2) ∈ Rq × Rq, where e2←DR,˜r
+L3008@P39: H3 : (x1 + e1, x2 + e2) ∈ Rq × Rq, where x2←Q/qR
+L3009@P39: H4 : U(Rq × Rq)
+L3010@P39: Hybrid H0. In this hybrid, we consider the distribution As,DR,˜r
+L3011@P39: , where s←ϕ.
+L3012@P39: Hybrid H1. Here, instead of sampling a
+L3013@P39: $
+L3014@P39: ← Rq, we do the following;
+L3015@P39: 1. sample an ideal Q
+L3016@P39: $
+L3017@P39: ← Pn−k,
+L3018@P39: 2. sample an element x1
+L3019@P39: $← Q/qR and an error term e1←DR,r
+L3020@P39: 0, and
+L3021@P39-40: 403. output a := x1 + e1 mod qR.
+L3022@P40: Thus, this hybrid has samples of the form
+L3023@P40: (a = x1 + e1 mod qR, b = x1 · s + e1 · s + e mod qR) .
+L3024@P40: Assuming the hardness of HLBDDqR,Pn−k,DR,r
+L3025@P40: 0
+L3026@P40: , we get that H0 ≈ H1.
+L3027@P40: Hybrid H2. Here, we replace the term e1 · s + e with e2, where e2
+L3028@P40: $
+L3029@P40: ← DR,˜r. This yields,
+L3030@P40: (a = x1 + e1 mod qR, b = x1 · s + e2 mod qR) .
+L3031@P40: Recall that ϕ is B-bounded. Let us check that e1 · s + e is statistically close to e2. Indeed, by
+L3032@P40: Lemma 2.8, with non-negligible probability ke1sk ≤ ke1k · ksk ≤ kr
+L3033@P40: 0k∞ ·
+L3034@P40: √
+L3035@P40: n · B. Recall that ˜r
+L3036@P40: swallows r
+L3037@P40: 0
+L3038@P40: , so by Definition 2.13, it follows that B · n · kr
+L3039@P40: 0k∞ / min ˜rσ,i = negl(n). Since e1s ∈ R,
+L3040@P40: by Lemma 2.11 we get that e1 · s + e is distributed statistically close to the distribution of e2. We
+L3041@P40: conclude that the hybrids H1 and H2 are statistically close.
+L3042@P40: Hybrid H3. We note that since q is super-polynomial, x1 is invertible with all but negligible
+L3043@P40: probability. Therefore, Lemma 7.2 implies that the hybrids H2 and H3 are indistinguishable.
+L3044@P40: Hybrid H4. Observe that the resulting distribution from the previous hybrid is
+L3045@P40: (a = x1 + e1 mod qR, b = x2 + e2 mod qR) ,
+L3046@P40: where x1, x2
+L3047@P40: $← Q/qR, e1←DR,r
+L3048@P40: 0 and e2←DR,˜r. In this hybrid, we sample a and b uniformly at random. Assuming the hardness of HLBDDqR,Pn−k,DR,r
+L3049@P40: 0
+L3050@P40: , which implies the hardness of HLBDDqR,Pn−k,DR,˜r
+L3051@P40: as long as ˜r ≥ r
+L3052@P40: 0
+L3053@P40: , we replace x1+e1 mod qR and x2+e2 with elements from U(Rq). Thus H3 ≈ H4.
+L3054@P40: Putting it all together, we get that As,DR,˜r = H0 ≈ H4 = U(Rq × Rq).
+L3055@P40: Acknowledgments
+L3056@P40: We wish to thank the anonymous referees for their insightful comments and useful suggestions.
+L3057@P40: References
+--------------------------------------------------------------------------------
+ (https://eprint.iacr.org/2020/1185.pdf)
+citeturn15view2 [wordlim: 200] Crawled: 1.2 years ago; Content type: application/pdf; Number of pages: 25; Source: open({"ref_id":"turn2view1","lineno":1344}); Total lines: 1711
+L1334@P18: Then X is a sometimes lossy pseudorandom distribution for S and error distribution χ.
+L1335@P18: By combining Theorems 5.8 and 4.2 we obtain the following corollary.
+L1336@P18: Corollary 5.9. Assume that the conditions of Theorem 5.8 are satisfied. Then entSLWE(q, k,M, Dσ0B, S)
+L1337@P18: is mildly hard.
+L1338@P18: 6 Instantiation for RLWE over Power-of-Two Cyclotomics
+L1339@P18: In this Section, we will instantiate the results of Section 5 for Ring LWE over power-of-two cyclotomics. That is, we will construct a sometimes lossy pseudorandom distribution in this setting.
+L1340@P18: Throughout this section let B ∈ R
+L1341@P18: n×n be a basis-change matrix as described in Section 3.2.
+L1342@P18: First recall the Decisional Small Polynomial Ratio (DSPR) problem, as defined by Lopez-Alt
+L1343@P18: et al. [LTV12]. The DSPR problem is in fact a generalization of the NTRU problem.
+L1344@P18: Definition 6.1 (Decisional Small Polynomial Ratio problem (DSPR)). Let R be a ring of integers
+L1345@P18: of a number field K and let q be a modulus. Let γ > 0. Let g ←$ DR,γ and f ←$ DR,γ conditioned
+L1346@P18: on f mod q ∈ R
+L1347@P18: ×
+L1348@P18: q
+L1349@P18: . Let h be the Rq-inverse of f. The DSPR problem for distribution DR,γ asks to
+L1350@P18: distinguish hg ∈ Rq from a uniformly random a ←$ Rq.
+L1351@P18-19: 19We will make use of the following Lemmas and Theorems of Stehl´e and Steinfeld [SS13].
+L1352@P19: Theorem 6.2 shows that if the a gaussian χ is sufficiently wide, then ring elements hg are
+L1353@P19: actually statistically close to a uniform a ←$ Rq.
+L1354@P19: Theorem 6.2 ( [SS13, Theorem 3.2 restated]). Let n ≥ 8 be a power of 2 such that Φ = Xn + 1
+L1355@P19: splits into n linear factors modulo a prime q ≥ 5. Let 0 < α < 1/3 and assume that γ ≥
+L1356@P19: n ·
+L1357@P19: p
+L1358@P19: ln(8nq) · q
+L1359@P19: 1/2+α and that f, g ←$ DR
+L1360@P19: ×
+L1361@P19: q ,γ
+L1362@P19: . Let h be the Rq-inverse of f. Then it holds that hg
+L1363@P19: is within statistical distance 2
+L1364@P19: 10n
+L1365@P19: · q
+L1366@P19: −αn of the uniform distribution on R×
+L1367@P19: q
+L1368@P19: .
+L1369@P19: Lemma 6.3 ( [SS13, Lemma 3.5 restated]). Let n ≥ 8 be a power of 2 such that Φ = Xn + 1 splits
+L1370@P19: into n linear factors modulo q ≥ 5. Let γ ≥
+L1371@P19: p
+L1372@P19: n · ln(2n(1 + n2))/π · q
+L1373@P19: 1/n. Then it holds that
+L1374@P19: Pr
+L1375@P19: f←$DR,γ
+L1376@P19: [f ∈/ R
+L1377@P19: ×
+L1378@P19: q
+L1379@P19: ] ≤ n(1/q + 2/n2).
+L1380@P19: Lemma 6.4 ( [SS13, Lemma 2.8 restated]). Let R be a ring of integers. Then it holds for any
+L1381@P19: γ ≥ η(R) that
+L1382@P19: Pr
+L1383@P19: f←$DR,γ
+L1384@P19: [kfk ≥ γ log(n)
+L1385@P19: √
+L1386@P19: n] ≤ negl(λ)
+L1387@P19: Lemma 6.5 ( [SS13, Lemma 4.1 restated]). Let n ≥ 8 be a power of 2, Φ = Xn + 1 and R =
+L1388@P19: Z[X]/(Φ). For any γ ≥ 8nη(R) it holds that
+L1389@P19: Pr
+L1390@P19: f←$DR,γ 
+L1391@P19: kf
+L1392@P19: −1
+L1393@P19: k ≥ 24√
+L1394@P19: n
+L1395@P19: γ
+L1396@P19: 
+L1397@P19: ≤ 1/2
+L1398@P19: We will now establish the hardness of an instance of the DSR problem, assuming RLWE and
+L1399@P19: either the DSPR problem or Theorem 6.2. Let χ be a B-bounded error distribution on R and let
+L1400@P19: γ > 0 be a gaussian parameter. Define the distribution Ψ as follows:
+L1401@P19: • Choose f, g ←$ DR,γ such that f mod q ∈ R
+L1402@P19: ×
+L1403@P19: q
+L1404@P19: .
+L1405@P19: • Choose e1, . . . , ek ←$ χ and e
+L1406@P19: 0
+L1407@P19: 1
+L1408@P19: , . . . , e
+L1409@P19: 0
+L1410@P19: k ←$ χ
+L1411@P19: • For all i ∈ [k] set zi = g · ei + f · e
+L1412@P19: 0
+L1413@P19: i
+L1414@P19: .
+L1415@P19: • Let Z0 be the multiplication matrix of f and for all i ∈ [k] let Zi be the multiplication matrix
+L1416@P19: of zi
+L1417@P19: • Set Z = (Z1, . . . , Zk)
+L1418@P19: • Output (Z0, Z)
+L1419@P19: We will now show that the distribution Ψ is a sometimes lossy pseudorandom distribution.
+L1420@P19: Recall that by Theorem 5.8 it is sufficient to bound the maximal singular values of BZ0B−1,
+L1421@P19: BZ−1
+--------------------------------------------------------------------------------
+ (https://eprint.iacr.org/2020/1185.pdf)
+citeturn15view3 [wordlim: 200] Crawled: 1.2 years ago; Content type: application/pdf; Number of pages: 25; Source: open({"ref_id":"turn2view1","lineno":1425}); Total lines: 1711
+L1387@P19: Lemma 6.5 ( [SS13, Lemma 4.1 restated]). Let n ≥ 8 be a power of 2, Φ = Xn + 1 and R =
+L1388@P19: Z[X]/(Φ). For any γ ≥ 8nη(R) it holds that
+L1389@P19: Pr
+L1390@P19: f←$DR,γ 
+L1391@P19: kf
+L1392@P19: −1
+L1393@P19: k ≥ 24√
+L1394@P19: n
+L1395@P19: γ
+L1396@P19: 
+L1397@P19: ≤ 1/2
+L1398@P19: We will now establish the hardness of an instance of the DSR problem, assuming RLWE and
+L1399@P19: either the DSPR problem or Theorem 6.2. Let χ be a B-bounded error distribution on R and let
+L1400@P19: γ > 0 be a gaussian parameter. Define the distribution Ψ as follows:
+L1401@P19: • Choose f, g ←$ DR,γ such that f mod q ∈ R
+L1402@P19: ×
+L1403@P19: q
+L1404@P19: .
+L1405@P19: • Choose e1, . . . , ek ←$ χ and e
+L1406@P19: 0
+L1407@P19: 1
+L1408@P19: , . . . , e
+L1409@P19: 0
+L1410@P19: k ←$ χ
+L1411@P19: • For all i ∈ [k] set zi = g · ei + f · e
+L1412@P19: 0
+L1413@P19: i
+L1414@P19: .
+L1415@P19: • Let Z0 be the multiplication matrix of f and for all i ∈ [k] let Zi be the multiplication matrix
+L1416@P19: of zi
+L1417@P19: • Set Z = (Z1, . . . , Zk)
+L1418@P19: • Output (Z0, Z)
+L1419@P19: We will now show that the distribution Ψ is a sometimes lossy pseudorandom distribution.
+L1420@P19: Recall that by Theorem 5.8 it is sufficient to bound the maximal singular values of BZ0B−1,
+L1421@P19: BZ−1
+L1422@P19: 0 ZB−1 and establish that the DSR assumption for Ψ holds. We will start by showing that if
+L1423@P19: the Ring LWE assumption for error distribution χ and the DSPR assumptions hold, then the DSR
+L1424@P19: assumption holds for Ψ.
+L1425@P19: Lemma 6.6. Assuming both DSPR for distribution DR,γ and RLWE for error-distribution χ, it
+L1426@P19: follows that DSR for distribution Ψ is hard. Moreover, if χ = DR
+L1427@P19: ×
+L1428@P19: q ,γ
+L1429@P19: and the conditions of Theorem
+L1430@P19: 6.2 are met, then the DSPR assumption is not necessary.
+L1431@P19-20: 20Proof. Let h be the Rq-inverse of f. Observe that yi = hzi = hg · ei + e
+L1432@P20: 0
+L1433@P20: i
+L1434@P20: . Under the DSPR
+L1435@P20: assumption we can replace hg by a uniformly random a ∈ Rq. It then follows by a simple hybrid
+L1436@P20: argument that for all i yi = aei+e
+L1437@P20: 0
+L1438@P20: i
+L1439@P20: is indistinguishable from a uniformly random ui under Hermite
+L1440@P20: RLWE for error distribution χ
+L1441@P20: 0
+L1442@P20: .
+L1443@P20: Likewise, if the conditions of Theorem 6.2 are met, hg is statistically close to a uniformly random
+L1444@P20: a ∈ R
+L1445@P20: ×
+L1446@P20: q
+L1447@P20: . It follows again via a hybrid argument that for all i yi = aei + e
+L1448@P20: 0
+L1449@P20: i
+L1450@P20: is indistinguishable from
+L1451@P20: a uniformly random ui under Hermite RLWE for error distribution χ
+L1452@P20: 0
+L1453@P20: . Note that RLWE also holds
+L1454@P20: if we condition on a ∈ R
+L1455@P20: ×
+L1456@P20: q
+L1457@P20: , as this event happens with significant probability.
+L1458@P20: The following technical lemma lets us bound the maximal singular value of a matrix Z
+L1459@P20: 0 by
+L1460@P20: bounding the singular values of blocks of Z
+L1461@P20: 0
+L1462@P20: .
+L1463@P20: Lemma 6.7. Let Z
+L1464@P20: 0 = (Z0
+L1465@P20: 1
+L1466@P20: | . . . |Z
+L1467@P20: 0
+L1468@P20: m) ∈ R
+L1469@P20: n×n·k
+L1470@P20: be a block matrix where each Z
+L1471@P20: 0
+L1472@P20: i ∈ R
+L1473@P20: n×n
+L1474@P20: . Assume
+L1475@P20: that it holds for all i that σmax(Z
+L1476@P20: 0
+L1477@P20: i
+L1478@P20: ) ≤ γ. Then it holds that σmax(Z
+L1479@P20: 0
+L1480@P20: ) ≤
+L1481@P20: √
+L1482@P20: k · γ.
+L1483@P20: Proof. Fix any vector x = (x1, . . . , xk) ∈ R
+L1484@P20: nk, where the xi ∈ Rn
+L1485@P20: . Then it holds that
+L1486@P20: kZ
+L1487@P20: 0xk = k
+L1488@P20: X
+L1489@P20: k
+L1490@P20: i=1
+L1491@P20: Z
+L1492@P20: 0
+L1493@P20: ixik ≤ X
+L1494@P20: k
+L1495@P20: i=1
+L1496@P20: kZ
+L1497@P20: 0
+L1498@P20: ixik ≤ X
+L1499@P20: k
+L1500@P20: i=1
+L1501@P20: γkxik ≤ γ
+L1502@P20: √
+L1503@P20: k ·
+L1504@P20: vuutX
+L1505@P20: k
+L1506@P20: i=1
+L1507@P20: kxik
+L1508@P20: 2 = γ
+L1509@P20: √
+L1510@P20: k · kxk,
+L1511@P20: where the last inequality follows from the relationship between the L1 and L2 norms. It follows
+L1512@P20: that σmax(Z
+L1513@P20: 0
+L1514@P20: ) ≤
+L1515@P20: √
+L1516@P20: k · γ
+--------------------------------------------------------------------------------
+ (https://eprint.iacr.org/2020/1185.pdf)
+citeturn15view4 [wordlim: 200] Crawled: 1.2 years ago; Content type: application/pdf; Number of pages: 25; Source: open({"ref_id":"turn2view1","lineno":1604}); Total lines: 1711
+L1557@P20-21: 21Consequently, all 3 items hold, except with probability 1/2 + o(1). Moreover, since the ei and
+L1558@P21: e
+L1559@P21: 0
+L1560@P21: i
+L1561@P21: are distributed according to χ and χ is B-bounded, it holds that for all i ∈ [k] that kσ(ei)k ≤ B
+L1562@P21: and kσ(e
+L1563@P21: 0
+L1564@P21: i
+L1565@P21: )k ≤ B.
+L1566@P21: Thus, we have that
+L1567@P21: σmax(BZ0B
+L1568@P21: −1
+L1569@P21: ) ≤ kσ(f)k∞ ≤ kσ(f)k ≤ γ log(n)
+L1570@P21: √
+L1571@P21: n = O(γ log(n)
+L1572@P21: √
+L1573@P21: n).
+L1574@P21: Moreover, it holds for all i that
+L1575@P21: σmax(BZ−1
+L1576@P21: 0 ZiB
+L1577@P21: −1
+L1578@P21: ) ≤ kσ(f
+L1579@P21: −1
+L1580@P21: zi)k∞
+L1581@P21: = kσ(f
+L1582@P21: −1gei + e0
+L1583@P21: i
+L1584@P21: )k∞
+L1585@P21: ≤ kσ(f
+L1586@P21: −1
+L1587@P21: )k∞ · kσ(g)k∞ · kσ(ei)k∞ + kσ(e
+L1588@P21: 0
+L1589@P21: i
+L1590@P21: )k∞
+L1591@P21: ≤ kσ(f
+L1592@P21: −1
+L1593@P21: )k · kσ(g)k · kσ(ei)k + kσ(e
+L1594@P21: 0
+L1595@P21: i
+L1596@P21: )k
+L1597@P21: ≤ 24n log(n) · B = O(n log(n)B)
+L1598@P21: By Lemma 6.7 we conclude that σmax(BZB−1
+L1599@P21: ) ≤ O(n log(n)
+L1600@P21: √
+L1601@P21: kB).
+L1602@P21: We can now summarize the results of this section in our main theorem by combining Lemma
+L1603@P21: 6.8 with Corollary 5.9.
+L1604@P21: Theorem 6.9. Assume that DSPR with parameter γ and Ring LWE with a B-bounded noise
+L1605@P21: distribution χ holds. Let S be a distribution s.t. for some σ it holds that νσ(S) ≥ n log(γ·log(n)
+L1606@P21: √
+L1607@P21: n)+
+L1608@P21: ω(log λ). Then Entropic Ring LWE for power-of-two cyclotomics with k samples, secret distribution
+L1609@P21: S and Gaussian noise parameter σ0 ≥ O(σn log(n)B
+L1610@P21: √
+L1611@P21: k) is mildly hard.
+L1612@P21: By Theorem 6.2 we know that we can drop the DSPR assumption provided that γ ≥ poly(n)q
+L1613@P21: 1/2+α
+L1614@P21: for an arbitrarily small constant α. This translates to the stronger requirement that νσ(S) ≥
+L1615@P21: (1/2+α)n log(q)+O(n log(n)). Thus, the distribution S must have at more than (1/2+α)n log(q)+
+L1616@P21: O(n log(n)) min-entropy to begin with. However, note that if S is an r-bounded distribution, where
+L1617@P21: r ≥ poly(n)q
+L1618@P21: 1/2+α, then Lemma 2.5 tells us if σ is a poly(n) factor larger than r, we have essentially
+L1619@P21: νσ(S) ≈ H˜∞(S) and the requirements can be met.
+L1620@P21: References
+L1621@P21: [AD17] Martin R. Albrecht and Amit Deo. Large modulus ring-LWE ≥ module-LWE.
+L1622@P21: In Tsuyoshi Takagi and Thomas Peyrin, editors, Advances in Cryptology – ASIACRYPT 2017, Part I, volume 10624 of Lecture Notes in Computer Science, pages
+L1623@P21: 267–296, Hong Kong, China, December 3–7, 2017. Springer, Heidelberg, Germany.
+L1624@P21: [AKPW13] Jo¨el Alwen, Stephan Krenn, Krzysztof Pietrzak, and Daniel Wichs. Learning with
+L1625@P21: rounding, revisited - new reduction, properties and applications. In Ran Canetti and
+L1626@P21: Juan A. Garay, editors, Advances in Cryptology – CRYPTO 2013, Part I, volume
+L1627@P21: 8042 of Lecture Notes in Computer Science, pages 57–74, Santa Barbara, CA, USA,
+L1628@P21: August 18–22, 2013. Springer, Heidelberg, Germany.
+--------------------------------------------------------------------------------
+DLMF: §20.5 Infinite Products and Related Results ‣ Properties ‣ Chapter 20 Theta Functions (https://dlmf.nist.gov/20.5.E3)
+citeturn15view5 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://dlmf.nist.gov/20.5.E3","lineno":null}); Redirected to URL: https://dlmf.nist.gov/20.5; Total lines: 291
+

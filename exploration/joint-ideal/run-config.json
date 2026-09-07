@@ -1,0 +1,41 @@
+{
+  "status": "authorized_pending_launch",
+  "run_kind": "finite_joint_ideal_investigation",
+  "max_wall_seconds": 18000,
+  "duration_status": "user_requested_five_hour_maximum",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "ultra",
+  "model_policy": "preserve_user_requested_astra_ultra",
+  "max_active_agents_including_coordinator": 4,
+  "max_active_workers": 3,
+  "workers_may_spawn_agents": false,
+  "goal_tools_allowed": false,
+  "automatic_resume": false,
+  "max_developed_directions": 2,
+  "successful_direction_quota": 0,
+  "default_experiment_timeout_seconds": 120,
+  "maximum_experiment_timeout_seconds": 300,
+  "max_concurrent_experiments": 2,
+  "deadline_supervisor_implemented": true,
+  "deadline_supervisor_verified": true,
+  "deadline_verification_evidence": "exploration/runner/verification/managed-result.json",
+  "launch_authorized": true,
+  "launch_confirmation_required": true,
+  "phase_boundaries_seconds": {
+    "setup_end": 900,
+    "foundations_end": 3600,
+    "development_end": 8100,
+    "refinement_end": 11700,
+    "criticism_end": 14100,
+    "reconciliation_end": 15300,
+    "synthesis_end": 17100,
+    "workers_stop": 17100,
+    "hard_stop": 18000
+  },
+  "launch_confirmation_received": true,
+  "launch_authorization": {
+    "recorded_utc": "2026-09-06T14:20:57.379389+00:00",
+    "user_message": "please go ahead and launch",
+    "scope": "Prepared five-hour joint noisy-ideal investigation with Astra ultra; no goal or automatic continuation."
+  }
+}

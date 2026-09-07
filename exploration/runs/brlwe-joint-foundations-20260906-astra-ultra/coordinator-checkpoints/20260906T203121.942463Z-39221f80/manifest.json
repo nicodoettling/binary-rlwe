@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260906T203121.942463Z-39221f80",
+  "kind": "coordinator",
+  "created_at": "2026-09-06T20:31:21.942485+00:00",
+  "reason": "Saved explicit joint-law repair; general bridge remains REPAIRED-PENDING-RECHECK",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 93491,
+      "sha256": "a996971b3238fd3ffc1da1b9e74868892ab853f15c1d63b8957e1696c472a723"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 6940,
+      "sha256": "3748b9f27c637740f49a32b7ec69fe4bcdc5a0836f45918acffe3d15fac5bde5"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 6826,
+      "sha256": "425d39e33f17a9587bb9abb09df83b3cb66fb06572f25c7e1c7aab2dd30a65bd"
+    },
+    {
+      "path": "final.md",
+      "bytes": 7349,
+      "sha256": "7a98107ef71d075617130d286c8d145a1a42cbd343b08d588c8e65a10336602f"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 3058,
+      "sha256": "9bb783a91b8137b17d24c7545bd453b2334a8c027b0af4a059d3a01de497ddc8"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

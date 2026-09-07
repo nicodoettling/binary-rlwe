@@ -1,0 +1,199 @@
+{
+  "experiment": "E02_harmonic_projection",
+  "seed": "none",
+  "method": "exact exhaustive binary enumeration; rational collision and total variation",
+  "cases": [
+    {
+      "name": "two_split_small_counterexample",
+      "n": 4,
+      "q": 3,
+      "rank": 1,
+      "basis": "coefficient",
+      "secret": "iid uniform binary",
+      "noise": "none; secret projection only",
+      "samples": "none",
+      "f": [
+        -1,
+        1,
+        1
+      ],
+      "degree": 2,
+      "support": 8,
+      "collision": "1/8",
+      "collision_float": 0.125,
+      "tv": "1/9",
+      "tv_float": 0.1111111111111111,
+      "max_fiber": 2
+    },
+    {
+      "name": "two_split_small_counterexample_n8",
+      "n": 8,
+      "q": 3,
+      "rank": 1,
+      "basis": "coefficient",
+      "secret": "iid uniform binary",
+      "noise": "none; secret projection only",
+      "samples": "none",
+      "f": [
+        -1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "degree": 4,
+      "support": 64,
+      "collision": "1/64",
+      "collision_float": 0.015625,
+      "tv": "17/81",
+      "tv_float": 0.20987654320987653,
+      "max_fiber": 4
+    },
+    {
+      "name": "two_split_q5",
+      "n": 8,
+      "q": 5,
+      "rank": 1,
+      "basis": "coefficient",
+      "secret": "iid uniform binary",
+      "noise": "none; secret projection only",
+      "samples": "none",
+      "f": [
+        -2,
+        0,
+        0,
+        0,
+        1
+      ],
+      "degree": 4,
+      "support": 256,
+      "collision": "1/256",
+      "collision_float": 0.00390625,
+      "tv": "369/625",
+      "tv_float": 0.5904,
+      "max_fiber": 1
+    },
+    {
+      "name": "two_split_q13",
+      "n": 8,
+      "q": 13,
+      "rank": 1,
+      "basis": "coefficient",
+      "secret": "iid uniform binary",
+      "noise": "none; secret projection only",
+      "samples": "none",
+      "f": [
+        -5,
+        0,
+        0,
+        0,
+        1
+      ],
+      "degree": 4,
+      "support": 256,
+      "collision": "1/256",
+      "collision_float": 0.00390625,
+      "tv": "28305/28561",
+      "tv_float": 0.9910367284058681,
+      "max_fiber": 1
+    },
+    {
+      "name": "full_split_single_root3",
+      "n": 8,
+      "q": 17,
+      "rank": 1,
+      "basis": "coefficient",
+      "secret": "iid uniform binary",
+      "noise": "none; secret projection only",
+      "samples": "none",
+      "f": [
+        -3,
+        1
+      ],
+      "degree": 1,
+      "support": 17,
+      "collision": "241/4096",
+      "collision_float": 0.058837890625,
+      "tv": "1/272",
+      "tv_float": 0.003676470588235294,
+      "max_fiber": 16
+    },
+    {
+      "name": "full_split_pair_plusminus3",
+      "n": 8,
+      "q": 17,
+      "rank": 1,
+      "basis": "coefficient",
+      "secret": "iid uniform binary",
+      "noise": "none; secret projection only",
+      "samples": "none",
+      "f": [
+        -9,
+        0,
+        1
+      ],
+      "degree": 2,
+      "support": 256,
+      "collision": "1/256",
+      "collision_float": 0.00390625,
+      "tv": "33/289",
+      "tv_float": 0.11418685121107267,
+      "max_fiber": 1
+    },
+    {
+      "name": "full_split_structured_four_slots",
+      "n": 8,
+      "q": 17,
+      "rank": 1,
+      "basis": "coefficient",
+      "secret": "iid uniform binary",
+      "noise": "none; secret projection only",
+      "samples": "none",
+      "f": [
+        -4,
+        0,
+        0,
+        0,
+        1
+      ],
+      "degree": 4,
+      "support": 256,
+      "collision": "1/256",
+      "collision_float": 0.00390625,
+      "tv": "83265/83521",
+      "tv_float": 0.9969349025993463,
+      "max_fiber": 1
+    },
+    {
+      "name": "full_split_n16_root19",
+      "n": 16,
+      "q": 97,
+      "rank": 1,
+      "basis": "coefficient",
+      "secret": "iid uniform binary",
+      "noise": "none; secret projection only",
+      "samples": "none",
+      "f": [
+        -19,
+        1
+      ],
+      "degree": 1,
+      "support": 97,
+      "collision": "1383689/134217728",
+      "collision_float": 0.010309286415576935,
+      "tv": "9/24832",
+      "tv_float": 0.0003624355670103093,
+      "max_fiber": 676
+    }
+  ],
+  "fourier_check": {
+    "n": 8,
+    "q": 17,
+    "r": 3,
+    "beta": 1,
+    "fourier_collision": 0.058837890625,
+    "exact_collision": "241/4096",
+    "absolute_error": 0.0
+  },
+  "elapsed_seconds": 0.1768990708515048
+}

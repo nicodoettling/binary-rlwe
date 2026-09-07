@@ -1,0 +1,25 @@
+Active run manifest: /home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/run.json
+
+Coordinate the finite five-hour investigation in exploration/joint-ideal/PLAN.md. Read its BRIDGE_CONTRACT.md, TASK_TEMPLATE.md and run-config.json. The user has asked to investigate the joint noisy-ideal computational program, not to run a goal or prove until success.
+
+The launcher must give an absolute active run-manifest path. Before any research, verify launch_authorized=true, deadline_supervisor_verified=true, run_id, output_directory, start_utc, hard_deadline_utc and phase_deadlines_utc. A missing authorization or deadline is a configuration error. Do not infer authorization from the earlier broad exploration. Do not invent or extend the clock.
+
+Use gpt-6-astra with ultra reasoning for yourself and every worker. At most three active workers, no grandchildren. Fresh workers require model="gpt-6-astra", reasoning_effort="ultra", fork_turns="none". Give exact task deadlines and output paths; register agents in agents.json, not launcher-owned run.json. Independent critics must not be authors of the claims they review.
+
+Follow F01–F03, D01–D03, bounded refinement, fresh criticism, reconciliation and synthesis. Bound the candidate portfolio at two. Read all known counterexamples before proposing their variants. Maintain the precise source experiment, dependency diagram and shared parameter feasibility table. Different marginal noise laws or parameter regimes cannot be combined into a construction.
+
+The four outcomes sought are a checked conditional one-sample theorem, defensible or explicitly retired source families, a separate multiple-sample/task analysis, and a critical final assessment. Do not claim source hardness from the theorem that assumes it. Do not claim novelty until a targeted source comparison supports the precise distinction.
+
+Distinguish public-transcript correctness from sufficient stronger latent-variable conditions. The baseline noise comparison includes (J,U,F) but integrates over H; extraction retains H. Any relaxation requires a revised full hybrid. The final reduction must sample Y without hidden challenge data. Joint pair pseudorandomness is required, including the exact F/H correlation and the law of U.
+
+Use the reference binary rank-one target, coefficient basis, wrapped iid discrete-Gaussian errors, polynomial q baseline and explicit sample count. Record every departure. Start with one sample; do not silently treat shared ideal products or shared-noise samples as independent. Derive separately any decision-to-search consequence and required verification samples.
+
+Write only research notes and bounded experiment code under output_directory. Prior runs, literature, plan and launcher files are read-only inputs. Use public primary-source browsing and installed local tools; no external workers, remote execution, package-installation project, publication, or contacting researchers. Do not call goal tools, launch services, create recurring tasks, or arrange resume/continuation.
+
+Keep claims.json with dependencies, exact versions, evidence labels and critic dispositions. Save progress and partial final.md continuously. All experiments need coordinator allocation, recorded parameters/seed/precision and an enforced timeout; at most two at once, 120 seconds by default and 300 seconds maximum. No experiment or tool retry may exceed the task or run deadline.
+
+Phase times are latest boundaries, not instructions to idle. Early completion requires completion or explicit retirement of all required workstreams and disposition of material critic objections. A promising partial result is not by itself a terminal outcome. At synthesis_end/workers_stop, interrupt active workers and cancel experiments first; collect saved notes only afterward. Complete shutdown before the hard deadline. If interrupted, preserve an explicitly partial report.
+
+The final report must answer whether the bridge is correct, whether any exact source assumption is independently supported, whether a common parameter regime exists, what multiple samples permit, and the most discriminating next question. No viable family is an acceptable result. Link final.md and recorded research status in the final response; do not claim unobserved launcher exit. No additional investigation continues after the finite report.
+
+Execution constraints: use local in-process collaboration only. Do not use remote execution environments, external worker services, tmux, systemd, nohup, or another Codex CLI to launch work. Every research worker must run gpt-6-astra with ultra reasoning: specify model="gpt-6-astra", reasoning_effort="ultra", fork_turns="none" when creating workers. Do not alter runner code, deadline metadata, or service settings. Record agent IDs in agents.json; run.json is launcher-owned. Read public sources with built-in web tools. No goal tools or automatic resume.

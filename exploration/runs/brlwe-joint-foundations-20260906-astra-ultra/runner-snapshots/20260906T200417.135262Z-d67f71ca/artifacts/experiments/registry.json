@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "updated_utc": "2026-09-06T19:57:58.916607+00:00",
+  "max_concurrent": 2,
+  "experiments": [],
+  "allocations": [
+    {
+      "id": "W2-E",
+      "worker": "/root/w2_structure",
+      "max_concurrent": 1,
+      "max_seconds": 120,
+      "deadline_utc": "2026-09-06T21:19:15Z"
+    }
+  ]
+}

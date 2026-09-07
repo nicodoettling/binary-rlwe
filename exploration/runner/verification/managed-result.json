@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "status": {
+    "state": "time_limit",
+    "systemd_unit": "brlwe-smoke-20260906a.service",
+    "exit_code": 1,
+    "ended_at": "2026-09-06T09:11:09.076405+00:00",
+    "systemd": {
+      "Result": "timeout",
+      "ExecMainCode": "1",
+      "ExecMainStatus": "1",
+      "ControlGroup": "",
+      "ActiveState": "failed",
+      "SubState": "failed"
+    }
+  },
+  "survivors": [],
+  "checkpoints_preserved": true,
+  "models_verified": true
+}

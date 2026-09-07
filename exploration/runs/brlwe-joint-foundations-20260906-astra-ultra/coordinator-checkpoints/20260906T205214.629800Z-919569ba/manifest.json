@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260906T205214.629800Z-919569ba",
+  "kind": "coordinator",
+  "created_at": "2026-09-06T20:52:14.629824+00:00",
+  "reason": "Integrated final blind report and fresh exact-proof repair recheck; assigned structural review",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 100410,
+      "sha256": "0787777ef746fc82813fac5187716805394b1e2dfcbb87dc81384be8abd1626f"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 5432,
+      "sha256": "1355f5e34faedee6a14df4e804bdf8e4df7303f7c0539110b52b836fa5a5a2e0"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 9989,
+      "sha256": "673ae9c4d603aebb1b755e8c46557830be0833feb60a4291ca7c4facc6902b22"
+    },
+    {
+      "path": "final.md",
+      "bytes": 6150,
+      "sha256": "5f9e06751a411697f630dc585352b4006cfe4f883d5d32f7b9fe7a15ee43f27c"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 5507,
+      "sha256": "0ceb1285768526ecb1f7cd38320bee6d89029e5d002465585dadb8af1cb99106"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

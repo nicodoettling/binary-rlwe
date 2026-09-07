@@ -1,0 +1,19 @@
+{
+  "validation": "passed",
+  "creates_run": false,
+  "plan_directory": "/home/nico/projects/research_projects/binaryRLWE/exploration/joint-ideal-next",
+  "max_wall_seconds": 18000,
+  "launch_authorized": false,
+  "phase_boundaries_seconds": {
+    "setup_end": 1200,
+    "triage_end": 5400,
+    "development_end": 10800,
+    "criticism_end": 14400,
+    "reconciliation_end": 16200,
+    "synthesis_end": 17100,
+    "workers_stop": 17100,
+    "hard_stop": 18000
+  },
+  "systemd_runtime_seconds": 17990,
+  "systemd_stop_grace_seconds": 5
+}

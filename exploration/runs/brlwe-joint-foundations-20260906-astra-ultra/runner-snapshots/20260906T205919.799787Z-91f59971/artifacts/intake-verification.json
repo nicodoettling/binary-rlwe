@@ -1,0 +1,32 @@
+{
+  "utc": "2026-09-06T19:57:58.916607+00:00",
+  "active_manifest": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/run.json",
+  "launch_authorization": {
+    "recorded_utc": "2026-09-06T19:53:45.231380+00:00",
+    "user_message": "please go ahead and start the run",
+    "scope": "Prepared five-hour joint-ideal computational-foundations investigation; Astra ultra; at most four active agents; no goal or automatic continuation.",
+    "approved_preparation_verification": "exploration/verification/20260906-preparation/verification.json"
+  },
+  "output_directory_verified": true,
+  "phase_deadlines_utc": {
+    "setup_end": "2026-09-06T20:14:15.932394+00:00",
+    "triage_end": "2026-09-06T21:24:15.932394+00:00",
+    "development_end": "2026-09-06T22:54:15.932394+00:00",
+    "criticism_end": "2026-09-06T23:54:15.932394+00:00",
+    "reconciliation_end": "2026-09-07T00:24:15.932394+00:00",
+    "synthesis_end": "2026-09-07T00:39:15.932394+00:00",
+    "workers_stop": "2026-09-07T00:39:15.932394+00:00",
+    "hard_stop": "2026-09-07T00:54:15.932394+00:00"
+  },
+  "hard_deadline_utc": "2026-09-07T00:54:15.932394+00:00",
+  "finite_seconds": 18000,
+  "supervisor_evidence": [
+    "monitor-status.json",
+    "tmux-status.json",
+    "tmux-run.json",
+    "/home/nico/projects/research_projects/binaryRLWE/exploration/runner/verification/managed-result.json"
+  ],
+  "limitation": "Read-only persisted active service evidence and fresh heartbeat; host /proc PIDs not visible in sandbox. No unobserved exit claim.",
+  "scope_sha256": "d664defc01d31c94cde3f505c9f6fde26a701f72718699611bbee551c82c760d",
+  "source_contract_sha256": "eb8680c34c4c0bf544f5757319bc31e5a65531f6b938e42382809784c80f022b"
+}

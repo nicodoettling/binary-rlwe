@@ -1,0 +1,16 @@
+{
+  "state": "completed",
+  "systemd_unit": "brlwe-joint-foundations-20260906-astra-ultra.service",
+  "exit_code": 0,
+  "ended_at": "2026-09-06T21:10:51.468513+00:00",
+  "systemd": {
+    "Result": "success",
+    "ExecMainCode": "0",
+    "ExecMainStatus": "0",
+    "ControlGroup": "",
+    "ActiveState": "inactive",
+    "SubState": "dead"
+  },
+  "failure_category": null,
+  "exit_manifest": "exit-manifest.json"
+}

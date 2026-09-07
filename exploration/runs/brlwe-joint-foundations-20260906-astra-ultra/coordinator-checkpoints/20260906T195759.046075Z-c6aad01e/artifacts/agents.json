@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "updated_utc": "2026-09-06T19:57:58.916607+00:00",
+  "coordinator": {
+    "agent_id": "/root",
+    "session_id": "01a07849-2b26-7ac1-96c2-c15903ac2341",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "ultra",
+    "status": "running"
+  },
+  "workers": [],
+  "max_active_workers": 3,
+  "grandchildren_allowed": false
+}

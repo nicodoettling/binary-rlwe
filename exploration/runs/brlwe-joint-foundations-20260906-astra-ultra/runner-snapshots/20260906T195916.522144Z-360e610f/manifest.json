@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260906T195916.522144Z-360e610f",
+  "kind": "periodic",
+  "created_at": "2026-09-06T19:59:16.522176+00:00",
+  "reason": "",
+  "artifacts": [
+    {
+      "path": "agents.json",
+      "bytes": 349,
+      "sha256": "56ac46d8decac8d208fdd1af1b562e4be0a12681e578d32ed8b52fa1a2461896"
+    },
+    {
+      "path": "claim-history.jsonl",
+      "bytes": 38406,
+      "sha256": "ad4d414e243f8575c6c0278daa09bb59479094acd8b71785296433377d3045f1"
+    },
+    {
+      "path": "claims.json",
+      "bytes": 79557,
+      "sha256": "2c26e4db4351d2695551265a7e820dd64d83a43c4f555974fe67df151b49d384"
+    },
+    {
+      "path": "dependencies.md",
+      "bytes": 958,
+      "sha256": "2695dba1d2bc1e9ba31678cb94685bb4df37d71f50137c8fad9ecf77811140e1"
+    },
+    {
+      "path": "experiments/registry.json",
+      "bytes": 144,
+      "sha256": "87a6cfcec3f8cbbe5d5eaf6e9ea0bc67fc563ce492ef97862b070a8930220da9"
+    },
+    {
+      "path": "final.md",
+      "bytes": 1204,
+      "sha256": "a3b9e0033284a78db72e5618c3a3151a917925062d64d04f880170b272ad4cf4"
+    },
+    {
+      "path": "imports/consolidated-claims.json",
+      "bytes": 120274,
+      "sha256": "a48c4849c421aea72b55b6d38e6aece10da47c4725b443ca0bec497821bbcf65"
+    },
+    {
+      "path": "imports/consolidated-reconciliation.md",
+      "bytes": 12504,
+      "sha256": "bb093b85afe22bd3956ca20212872a5c2e479f02de0d05386f18de19c481944a"
+    },
+    {
+      "path": "imports/consolidated-report.md",
+      "bytes": 13372,
+      "sha256": "6ba49b2176bdee39e36eaef1480de53628de410e76cc1bf3304ef5e8693f2cca"
+    },
+    {
+      "path": "imports/regressions/00-known-counterexamples.md",
+      "bytes": 4692,
+      "sha256": "d2fb558136f7d100130ae19cc62f12f73c79521456ea8f1f28466c0ebc097bf7"
+    },
+    {
+      "path": "imports/regressions/01-hand-controls.md",
+      "bytes": 7770,
+      "sha256": "0ede29402edfef872572855ea8ae3313104bf366a1efcfc8e6cdfd1b9ac09813"
+    },
+    {
+      "path": "imports/regressions/02-objections.md",
+      "bytes": 2837,
+      "sha256": "782d05de6fc5f3f6e11a4f4f51ae6ef30aaa4aa9aa1bf4c0cc117178dc24f2da"
+    },
+    {
+      "path": "imports/regressions/03-review.md",
+      "bytes": 24742,
+      "sha256": "62ca9a2d65d6b7d5ae84a5e6fee989ce36ac31280b75ecf4b148c2c0a103ea5f"
+    },
+    {
+      "path": "imports/regressions/04-ATT-recheck.md",
+      "bytes": 12454,
+      "sha256": "640e4c1af9441ba436ded264a548ad6653a183c9e6974e64680e0600f074b40e"
+    },
+    {
+      "path": "imports/regressions/05-NC1-v2-and-dependencies.md",
+      "bytes": 2615,
+      "sha256": "a801c12d79a1d74093cc0a7ab265e2d4580521dafaf823694bc905011f15cad1"
+    },
+    {
+      "path": "imports/regressions/06-checks-and-regressions.md",
+      "bytes": 13096,
+      "sha256": "877cae34d291ff6c658087c7a28e1e63527e4b150a2c8c9f3e2ce9cdfdb83294"
+    },
+    {
+      "path": "imports/regressions/07-boolean_fibers.json",
+      "bytes": 3416,
+      "sha256": "08d2e027f54005e70578d3ada6aa04b86178642fd2d9197d8cf439cd8e8df912"
+    },
+    {
+      "path": "imports/regressions/08-additive-obstruction.md",
+      "bytes": 7614,
+      "sha256": "75e43c7ec6240335344c79e4632c26c59118e8ac3a428e2413f0badf7d429bb2"
+    },
+    {
+      "path": "imports/regressions/09-mathematical-checks.md",
+      "bytes": 10338,
+      "sha256": "03380094df60c31a07d9dbae821013b987fee87acf76b467a3b519ac417f45a2"
+    },
+    {
+      "path": "imports/regressions/10-C01.md",
+      "bytes": 13797,
+      "sha256": "2ba5dbc0df36a02d00c38b361e6e529cc448e5feeea61aeadfcefb348ff38755"
+    },
+    {
+      "path": "imports/regressions/11-calculations.md",
+      "bytes": 9828,
+      "sha256": "0a291223769905ddb9a75cf01df1276b1c7dc69666acac63a677b4f719cdd23b"
+    },
+    {
+      "path": "imports/regressions/12-transport.md",
+      "bytes": 13968,
+      "sha256": "8dc4b6a56d675ebdc931b63e7f3c67699e773de09e71b1fa36fe3743ba95835f"
+    },
+    {
+      "path": "imports/regressions/13-rejected-or-deferred.md",
+      "bytes": 7222,
+      "sha256": "64a2c86df26b9bb017da50dce0a6b1543bbbcd9cda6d09f465452abcbb34b445"
+    },
+    {
+      "path": "imports/regressions/14-S04.md",
+      "bytes": 4347,
+      "sha256": "912baf43075797611a281d3637a5be67ada6136ace9b2a495ba5889778703023"
+    },
+    {
+      "path": "imports/regressions/15-experiment_e02.json",
+      "bytes": 4339,
+      "sha256": "c96d6ebd1e371c800069a8db1cb0c6ae816736575e24c9323558a41eef4b6e58"
+    },
+    {
+      "path": "imports/regressions/16-S05.md",
+      "bytes": 4854,
+      "sha256": "f166aec658207f9e18fb86a5f72b5c719babf13179ea22364544f5a4210e3e27"
+    },
+    {
+      "path": "imports/regressions/17-S12.md",
+      "bytes": 4166,
+      "sha256": "0a5c6351ba6f3767da4367bb2edc6a5f18913090615a1815dbd44eb6d640a1e6"
+    },
+    {
+      "path": "imports/regressions/18-probability-regressions.md",
+      "bytes": 6814,
+      "sha256": "ad7eecf93ed02e5b2957243a9bbb2cac8e8eeeb991971f4d77d0818cd04a4fa4"
+    },
+    {
+      "path": "inputs/RESEARCH_SCOPE.md",
+      "bytes": 1673,
+      "sha256": "d664defc01d31c94cde3f505c9f6fde26a701f72718699611bbee551c82c760d"
+    },
+    {
+      "path": "inputs/SOURCE_CONTRACT.md",
+      "bytes": 5051,
+      "sha256": "eb8680c34c4c0bf544f5757319bc31e5a65531f6b938e42382809784c80f022b"
+    },
+    {
+      "path": "inputs/TASK_TEMPLATE.md",
+      "bytes": 2884,
+      "sha256": "92dae39e1e637a104df73df0a5328374dc3af4b5c40f2548450bd3a9848b08af"
+    },
+    {
+      "path": "intake-verification.json",
+      "bytes": 1757,
+      "sha256": "47c1bbdfdf26e60b90d4c831f9ed7fc901ea1342d7b15c4fd04fc225d46001b3"
+    },
+    {
+      "path": "parameter-table.md",
+      "bytes": 363,
+      "sha256": "fa94d9f9fd45c14e42d1140ee494e980da348b7d21aa93ad175105d887f09e09"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 681,
+      "sha256": "ff03f418fa062bff21f7aa83bdb81db5adf9f5df5c1b07d2fae086c93e785ae4"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 795,
+      "sha256": "18676ef197647fe30da4e75b33af129f0731d8bf5da0ce8786eaeab41e7a0055"
+    },
+    {
+      "path": "regressions.json",
+      "bytes": 19132,
+      "sha256": "de98ec6a3196cc3e92191e31e980cfcf9be7d3ae0a9ade960d8d8a404f49c6c3"
+    },
+    {
+      "path": "source-comparison.md",
+      "bytes": 286,
+      "sha256": "171d183ca048c02f9df015bfac5952880a6f050094664947922268b36426e48f"
+    },
+    {
+      "path": "target.md",
+      "bytes": 5913,
+      "sha256": "7465a6163ab527832e7a180dcaed4a1bdfe9ddae7662ac2d6d42022a9c2a9729"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

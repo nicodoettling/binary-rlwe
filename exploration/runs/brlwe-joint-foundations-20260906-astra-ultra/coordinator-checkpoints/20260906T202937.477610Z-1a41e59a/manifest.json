@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260906T202937.477610Z-1a41e59a",
+  "kind": "coordinator",
+  "created_at": "2026-09-06T20:29:37.477633+00:00",
+  "reason": "Recorded blind F3 counterexample, rejected literal statement, and reopened general bridge dependencies before repair",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 93599,
+      "sha256": "4655ae2135fb8485f41e59418b61b55f480f862962430bb0b5c43f6e5a1ceda8"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 6521,
+      "sha256": "a8456d8945c14992a3fef5ab3dcf60785b57112177d4ad88b0fc10fefaaaf813"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 6407,
+      "sha256": "617c7aac46b67c8e275c9da1fc6a2af80159730ba419522ee636a1ab338c2b23"
+    },
+    {
+      "path": "final.md",
+      "bytes": 6930,
+      "sha256": "7b495b3a1dc3ec987ed42b8edde1a0d0bfb573d1ecac67ca011ed9df225a7ccf"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 3058,
+      "sha256": "cf32f2b18c79c65a283378f570afb1c67aeb84b95c05758a23777710938b97c7"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

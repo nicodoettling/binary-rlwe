@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260906T201236.618703Z-a0adc3c2",
+  "kind": "coordinator",
+  "created_at": "2026-09-06T20:12:36.618727+00:00",
+  "reason": "Saved unfinished entropy calculations and exact pending proof obligations; prepared early review intake",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 87402,
+      "sha256": "31ddd3139b4ee8451098881b62d51fe528bc8f8cac84d73b023241ffab3fae77"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 3665,
+      "sha256": "25f2f332323fa94afad1034ba647af39a1c13559612839750f2ddc345bc470bc"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 3551,
+      "sha256": "952d6fe6e077105d21be42ffe526cd023684606d5b867f70c61c0e0575ef0de3"
+    },
+    {
+      "path": "final.md",
+      "bytes": 4074,
+      "sha256": "f69eceb368bb88163d8d4977d066e4fecf1119f7034b60b3ba70c51557c45a53"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 2140,
+      "sha256": "cd64ba31d15a59716f536db9a7665cf187f6e99f795aada6f680665cae91feed"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

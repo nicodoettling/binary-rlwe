@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260906T201409.201698Z-11d2e2b4",
+  "kind": "coordinator",
+  "created_at": "2026-09-06T20:14:09.201723+00:00",
+  "reason": "Setup completed; full scope verified in all assignments; conditional kernel-sampling attack integrated",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 88779,
+      "sha256": "d6825387c59880d400dcd74ceface5e086eb6643bc675fd6584b558ad858db3d"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 4219,
+      "sha256": "c4c9d0ece743f95efb8f7234e013fee3724528d1393724950b285b1692d9842e"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 4105,
+      "sha256": "f45df3bbede47853c74ba4f241aeb9804a7ddf0f555c116cbd0b84a782d5af41"
+    },
+    {
+      "path": "final.md",
+      "bytes": 4628,
+      "sha256": "16434dff92aafb42770e8e5e9d65b2aa7da5e9426d7503b06b42ece594a9a1a8"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 2171,
+      "sha256": "4d9b885da6007b70c8984b16a1bb65ade7cd67da4c7e6b53fd0af6b71739ad98"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

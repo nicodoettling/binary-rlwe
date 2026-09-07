@@ -1,0 +1,55 @@
+{
+  "run_id": "brlwe-joint-ideal-20260906-astra-ultra",
+  "max_concurrent": 2,
+  "default_timeout_seconds": 120,
+  "maximum_timeout_seconds": 300,
+  "experiments": [
+    {
+      "id": "E01",
+      "owner": "/root",
+      "allocation_utc": "2026-09-06T14:35:34.475794+00:00",
+      "status": "completed",
+      "purpose": "Exact rich-support collision diagnostic, weighted ternary root-count histograms versus selected binomial control; test whether marginal extraction conceals joint deficits. No asymptotic hardness inference.",
+      "parameters": {
+        "rings": [
+          [
+            4,
+            17
+          ],
+          [
+            8,
+            17
+          ],
+          [
+            16,
+            97
+          ]
+        ],
+        "beta": [
+          "1",
+          "1/2"
+        ],
+        "support_dimensions": "1 through min(4,n)",
+        "comparison": "uniform d-subsets versus one binomial support at d=2,4"
+      },
+      "seed": null,
+      "precision": "Exact uint64 weighted counts for n<=16; exact Python rational postprocessing; floating square roots only for displayed TV upper bounds. beta values are diagnostic posterior parameters, not claimed exact Gaussian tau.",
+      "tail_bound": "No truncation or probabilistic tails: exhaustive finite ternary enumeration.",
+      "timeout_seconds": 120,
+      "task_deadline_utc": "2026-09-06T14:50:00Z",
+      "code": "experiments/E01-root-collisions.cpp",
+      "output": "experiments/E01-root-collisions.json",
+      "process_running": false,
+      "failures": [],
+      "started_utc": "2026-09-06T14:36:06.615875+00:00",
+      "command": "g++ -O3 -std=c++17 experiments/E01-root-collisions.cpp -o experiments/E01-root-collisions; execute with aggregate 120 second timeout",
+      "pid": 9,
+      "exit_code": 0,
+      "completed_utc": "2026-09-06T14:37:35.417206+00:00",
+      "wall_seconds": 1.1745965210720897,
+      "analysis_code": "experiments/E01-analyze.py",
+      "analysis_output": "experiments/E01-analysis.json",
+      "analysis_exit_code": 0
+    }
+  ]
+}

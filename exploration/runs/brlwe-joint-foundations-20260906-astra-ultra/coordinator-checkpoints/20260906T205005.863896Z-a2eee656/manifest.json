@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260906T205005.863896Z-a2eee656",
+  "kind": "coordinator",
+  "created_at": "2026-09-06T20:50:05.863920+00:00",
+  "reason": "Recorded frozen blind report, source audit interim evidence, and canonical reconciliation",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 95841,
+      "sha256": "5563fd164f3b59ee6814a31b650a7fb412c5609048ca74e3befc036312d525b8"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 4853,
+      "sha256": "9a855e86e6921a4271d10f1c61075039dba3d9b1b3e4fdeaef8ed160766ad921"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 9410,
+      "sha256": "1d5773ba1c257c6bdd1321ee7d4a29342705a81ea5fdcc1fdf7ec4d05f74431c"
+    },
+    {
+      "path": "final.md",
+      "bytes": 5571,
+      "sha256": "63066b49c50cc449631cb906518c78a4080c6343650a5089ea17bf4cabba1125"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 4683,
+      "sha256": "22392eb9ca65f27b521faef4f5d21121b506e59de0f4b998d969d6dbc7435e51"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

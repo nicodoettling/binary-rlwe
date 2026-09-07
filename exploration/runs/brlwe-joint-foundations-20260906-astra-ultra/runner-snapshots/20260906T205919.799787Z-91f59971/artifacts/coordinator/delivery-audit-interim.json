@@ -1,0 +1,305 @@
+{
+  "created_utc": "2026-09-06T20:56:51.020268+00:00",
+  "mode": "interim",
+  "meaning": "Fresh-process saved-artifact integrity check; not a mathematical certificate or process exit observation.",
+  "checks": [
+    {
+      "name": "required nonempty research files",
+      "passed": true,
+      "detail": [
+        "target.md",
+        "claims.json",
+        "claim-history.jsonl",
+        "dependencies.md",
+        "reconciliation.md",
+        "regressions.json",
+        "progress.md",
+        "agents.json",
+        "final.md",
+        "parameter-table.md",
+        "source-comparison.md",
+        "experiments/registry.json",
+        "selection.md"
+      ]
+    },
+    {
+      "name": "unique current claim identifiers",
+      "passed": true,
+      "detail": 46
+    },
+    {
+      "name": "every dependency is an exact current version",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "current dependency graph is acyclic",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "no global acceptance of the incomplete graph",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "all remaining repairs explicitly identified",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "current hashed evidence and review reports match",
+      "passed": true,
+      "detail": {
+        "mismatches": [],
+        "checked": [
+          {
+            "claim": "W3",
+            "path": "candidates/observable/statement-and-proof-v2.md",
+            "sha256": "7e16c7daeaf0ca36bf88278f42cf2fc0606b1afe546a68eff815b37bceeed7c0"
+          },
+          {
+            "claim": "W3",
+            "review": "criticism/N02/review-v1.md",
+            "sha256": "33b0c185ec25ab640f3bdc5e96948e578ca0460f070676290053a45e67b8ab7e"
+          },
+          {
+            "claim": "W3",
+            "review": "criticism/B01/blind-report-v1.md",
+            "sha256": "73e0ef435f43d3b8e19a9144db3a34eaeaca96b759bd948f18bd3bbb7c1e013d"
+          },
+          {
+            "claim": "W3-OBS",
+            "path": "candidates/observable/statement-and-proof-v2.md",
+            "sha256": "7e16c7daeaf0ca36bf88278f42cf2fc0606b1afe546a68eff815b37bceeed7c0"
+          },
+          {
+            "claim": "W3-OBS",
+            "review": "criticism/N02/review-v1.md",
+            "sha256": "33b0c185ec25ab640f3bdc5e96948e578ca0460f070676290053a45e67b8ab7e"
+          },
+          {
+            "claim": "W3-OBS",
+            "review": "criticism/B01/blind-report-v1.md",
+            "sha256": "73e0ef435f43d3b8e19a9144db3a34eaeaca96b759bd948f18bd3bbb7c1e013d"
+          },
+          {
+            "claim": "W1-BROADEN",
+            "path": "inputs/frozen/W1-final-v1-note.md",
+            "sha256": "98194bd60d4d53fb786f3a4986529d39dd4658b30e0d9da418dc5e4db2429a8f"
+          },
+          {
+            "claim": "W2-SEARCH",
+            "path": "inputs/frozen/W2-final-v1-note.md",
+            "sha256": "6fdaef8bd1f4aa648bd6e00cc0f443120eba0fad274e074d9f927348b4ea013f"
+          },
+          {
+            "claim": "W1-AKEEP",
+            "path": "inputs/frozen/W1-final-v1-note.md",
+            "sha256": "98194bd60d4d53fb786f3a4986529d39dd4658b30e0d9da418dc5e4db2429a8f"
+          },
+          {
+            "claim": "W3-RANK-PUBLIC",
+            "path": "candidates/observable/statement-and-proof-v2.md",
+            "sha256": "7e16c7daeaf0ca36bf88278f42cf2fc0606b1afe546a68eff815b37bceeed7c0"
+          },
+          {
+            "claim": "W3-RANK-PUBLIC",
+            "review": "criticism/N02/review-v1.md",
+            "sha256": "33b0c185ec25ab640f3bdc5e96948e578ca0460f070676290053a45e67b8ab7e"
+          },
+          {
+            "claim": "W3-RANK-PUBLIC",
+            "review": "criticism/B01/blind-report-v1.md",
+            "sha256": "73e0ef435f43d3b8e19a9144db3a34eaeaca96b759bd948f18bd3bbb7c1e013d"
+          },
+          {
+            "claim": "W2-ORB",
+            "path": "inputs/frozen/W2-final-v1-note.md",
+            "sha256": "6fdaef8bd1f4aa648bd6e00cc0f443120eba0fad274e074d9f927348b4ea013f"
+          },
+          {
+            "claim": "W1-ENTROPY",
+            "path": "inputs/frozen/W1-final-v1-note.md",
+            "sha256": "98194bd60d4d53fb786f3a4986529d39dd4658b30e0d9da418dc5e4db2429a8f"
+          },
+          {
+            "claim": "W1-KERNEL-ATT",
+            "path": "inputs/frozen/W1-final-v1-note.md",
+            "sha256": "98194bd60d4d53fb786f3a4986529d39dd4658b30e0d9da418dc5e4db2429a8f"
+          },
+          {
+            "claim": "W1-UNIFORM-ENT",
+            "path": "inputs/frozen/W1-final-v1-note.md",
+            "sha256": "98194bd60d4d53fb786f3a4986529d39dd4658b30e0d9da418dc5e4db2429a8f"
+          },
+          {
+            "claim": "W1-POSTERIOR",
+            "path": "inputs/frozen/W1-final-v1-note.md",
+            "sha256": "98194bd60d4d53fb786f3a4986529d39dd4658b30e0d9da418dc5e4db2429a8f"
+          },
+          {
+            "claim": "B01-LITERAL-A",
+            "path": "criticism/B01/model-v1.md",
+            "sha256": "df279e6d964d0ca6051232aa6b086e80582ce241e9000bb8e5d215139a3142af"
+          },
+          {
+            "claim": "B01-LITERAL-A",
+            "path": "criticism/B01/blind-report-v1.md",
+            "sha256": "73e0ef435f43d3b8e19a9144db3a34eaeaca96b759bd948f18bd3bbb7c1e013d"
+          },
+          {
+            "claim": "B01-LITERAL-A",
+            "review": "criticism/B01/blind-report-v1.md",
+            "sha256": "73e0ef435f43d3b8e19a9144db3a34eaeaca96b759bd948f18bd3bbb7c1e013d"
+          },
+          {
+            "claim": "B01-LITERAL-A",
+            "review": "criticism/N02/review-v1.md",
+            "sha256": "33b0c185ec25ab640f3bdc5e96948e578ca0460f070676290053a45e67b8ab7e"
+          },
+          {
+            "claim": "W2-COVER",
+            "path": "inputs/frozen/W2-final-v1-note.md",
+            "sha256": "6fdaef8bd1f4aa648bd6e00cc0f443120eba0fad274e074d9f927348b4ea013f"
+          },
+          {
+            "claim": "W2-SCAL",
+            "path": "inputs/frozen/W2-final-v1-note.md",
+            "sha256": "6fdaef8bd1f4aa648bd6e00cc0f443120eba0fad274e074d9f927348b4ea013f"
+          }
+        ]
+      }
+    },
+    {
+      "name": "all complete historical packets and original bytes retained",
+      "passed": true,
+      "detail": {
+        "count": 19,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "history records parse and remain nonempty",
+      "passed": true,
+      "detail": 77
+    },
+    {
+      "name": "all canonical worker assignment archives include full scope",
+      "passed": true,
+      "detail": [
+        {
+          "path": "workstreams/W1/assignment.md",
+          "full_scope_verbatim": true,
+          "sha256": "c2139ae09334f947eafd1b7db81805a549a21af5930bfbcb601336eeb67afd11"
+        },
+        {
+          "path": "workstreams/W2/assignment.md",
+          "full_scope_verbatim": true,
+          "sha256": "50a424ab3ce1afc18ab8030925971d0f417892fe68910ad3dbd7035b112aa554"
+        },
+        {
+          "path": "workstreams/W3/assignment.md",
+          "full_scope_verbatim": true,
+          "sha256": "c8fac25492aa800c0d6ff0fb59beb91c740342cbcffecd825544d840d1fff540"
+        },
+        {
+          "path": "criticism/B01/assignment.md",
+          "full_scope_verbatim": true,
+          "sha256": "bc161286ab6a378a6198b056daf28c28c5dd176c534413a8b08d5fe715e597f3"
+        },
+        {
+          "path": "criticism/N01/assignment.md",
+          "full_scope_verbatim": true,
+          "sha256": "8e88f42d1ae8a36c68ed821c5fe012e5d56c012aca8e7e0f40a51b3f34122cbf"
+        },
+        {
+          "path": "criticism/N02/assignment.md",
+          "full_scope_verbatim": true,
+          "sha256": "3a646ca2c1f63ca4f926bc42a4ab96de7c97c8cfec5e49e4d3e9321fd9ed8730"
+        },
+        {
+          "path": "criticism/N03/assignment.md",
+          "full_scope_verbatim": true,
+          "sha256": "b893c7d232798dbb5cc08d476f2575edb8a6edd95ac36519dd67231a018d3287"
+        }
+      ]
+    },
+    {
+      "name": "target retains the full frozen source contract",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "requested research model and reasoning on all registered workers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "recorded active worker bound",
+      "passed": true,
+      "detail": [
+        "/root/n01_source_audit",
+        "/root/n03_structure_audit"
+      ]
+    },
+    {
+      "name": "registered experiment code and data integrity",
+      "passed": true,
+      "detail": [
+        {
+          "id": "COORD-E01",
+          "hashes_match": true,
+          "status": "complete"
+        },
+        {
+          "id": "W2-E-01-v1",
+          "hashes_match": true,
+          "status": "complete_worker_report"
+        },
+        {
+          "id": "W2-E-02-v1",
+          "hashes_match": true,
+          "status": "complete_worker_report"
+        },
+        {
+          "id": "B01-counterexample",
+          "hashes_match": true,
+          "status": "complete"
+        },
+        {
+          "id": "B01-repaired_a",
+          "hashes_match": true,
+          "status": "complete"
+        },
+        {
+          "id": "B01-a2",
+          "hashes_match": true,
+          "status": "complete"
+        },
+        {
+          "id": "B01-ring_b",
+          "hashes_match": true,
+          "status": "complete"
+        }
+      ]
+    },
+    {
+      "name": "specific launch authorization and output remain identical to intake",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "finite phase deadlines remain identical to verified intake",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "audit stays inside assigned task and hard deadline",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "passed": true,
+  "audit_code_sha256": "164fc863b2b6709a0d5ceb380b9d1dfa2f34bd0402c565c1af55becc0114b6b7"
+}

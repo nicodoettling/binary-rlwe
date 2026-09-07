@@ -1,0 +1,23 @@
+{
+  "utc": "2026-09-06T20:14:09.072302+00:00",
+  "checks": [
+    {
+      "agent_id": "/root/w1_public_reductions",
+      "assignment_exists": true,
+      "full_scope_verbatim": true,
+      "sha256": "c2139ae09334f947eafd1b7db81805a549a21af5930bfbcb601336eeb67afd11"
+    },
+    {
+      "agent_id": "/root/w2_structure",
+      "assignment_exists": true,
+      "full_scope_verbatim": true,
+      "sha256": "50a424ab3ce1afc18ab8030925971d0f417892fe68910ad3dbd7035b112aa554"
+    },
+    {
+      "agent_id": "/root/w3_observable",
+      "assignment_exists": true,
+      "full_scope_verbatim": true,
+      "sha256": "c8fac25492aa800c0d6ff0fb59beb91c740342cbcffecd825544d840d1fff540"
+    }
+  ]
+}

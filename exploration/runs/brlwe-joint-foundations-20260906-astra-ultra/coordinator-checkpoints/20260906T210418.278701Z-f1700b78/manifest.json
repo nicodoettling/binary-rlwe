@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260906T210418.278701Z-f1700b78",
+  "kind": "coordinator",
+  "created_at": "2026-09-06T21:04:18.278723+00:00",
+  "reason": "Saved full self-contained synthesis with exact computational and review limitations",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 104716,
+      "sha256": "f4e33e5e807be09209badf0dea9dd447652df1f316fcac6abd945551147ddd57"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 5551,
+      "sha256": "8e04108e5bf0a4843a1c38581f5cd96e16840c11ad023b56a49e0d63826458ea"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 12727,
+      "sha256": "c334dc3aa967022b5bfdc263f9ad58b1f8c22135e65d6bd83d4e91811dd1fbac"
+    },
+    {
+      "path": "final.md",
+      "bytes": 14505,
+      "sha256": "cb1e10563d40e2044ec8dbe75ab8e58b0ccc1b5e51e76010635c312ff03a67e6"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 6290,
+      "sha256": "8367d4567e7fbe576ebe649518d560ec4ec95bfb9f36def08dc858a00b146077"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

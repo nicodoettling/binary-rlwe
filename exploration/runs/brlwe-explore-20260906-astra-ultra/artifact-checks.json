@@ -1,0 +1,28 @@
+{
+  "checked_utc": "2026-09-06T10:52:25.533487+00:00",
+  "missing_manifest_fields": [],
+  "manifest_output_directory_matches": true,
+  "manifest_supervisor_verified": true,
+  "manifest_phase_deadlines_unchanged": true,
+  "manifest_sha256": "6fb248d04f51e7c231f07cc52ad3622c374bff4a2b2719995752180c9c74b507",
+  "missing_required_files": [],
+  "broken_local_markdown_links": [],
+  "agent_count": 18,
+  "all_recorded_workers_completed": true,
+  "all_workers_requested_model": true,
+  "experiment_count": 6,
+  "all_experiments_completed": true,
+  "final_word_count": 1956,
+  "final_word_count_in_range": true,
+  "all_agent_deadlines_within_phase": true,
+  "formal_context_delay_at_least_ten_minutes": true,
+  "coordinator_requested_model": true,
+  "reviewed_snapshots_match": {
+    "C01": true,
+    "C03": true,
+    "C03_source": true
+  },
+  "checks_passed": true,
+  "final_sha256": "6ce6a8102db8a24b5d345de54a6f82f397594c8da3a385ea8fe868b1bce7f789",
+  "finalized_utc": "2026-09-06T10:53:58.624639+00:00"
+}

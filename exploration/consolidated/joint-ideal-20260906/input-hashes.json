@@ -1,0 +1,957 @@
+{
+  "version": 1,
+  "created_utc": "2026-09-06T18:34:30.017070+00:00",
+  "workspace_root": "/home/nico/projects/research_projects/binaryRLWE",
+  "source_root": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra",
+  "scope": "Complete source-run file hashes plus mandatory skill inputs. Presence here proves input identity only, not substantive review of each file. Original files were not modified.",
+  "files": [
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/agents.json",
+      "bytes": 10205,
+      "sha256": "9b1c2c7084cd6ac706c3fb629bf471610c7c795bd2b0da49601177229f449abe",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/artifact-checkpoint.json",
+      "bytes": 704,
+      "sha256": "3f304d2ff7f7f01546212d0638ede3c5176992e509b8dd32fbdcf0d12879426b",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/bridge.md",
+      "bytes": 4754,
+      "sha256": "c14f0ec141c471be0b9f4621661747abf4d29067353cb5db10932c8b14d974c9",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/candidates/A.md",
+      "bytes": 5061,
+      "sha256": "f97e502a68671c5add62e055a48ca3f62e72052177167a8d60dd7f398e366521",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/candidates/B.md",
+      "bytes": 3554,
+      "sha256": "b2639b1a855280b5499b8c462f7c586d9c4c400c8e99d15150356dd0a08f2907",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/claims.json",
+      "bytes": 39090,
+      "sha256": "4c1194bb72d934fd2207182999a6eb72a7a82b47da6e314c3989d38cd563274d",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/corrections/ATT-v3.md",
+      "bytes": 2397,
+      "sha256": "4766209d639d73de1252b4eac1343289f9a250e0b79a1ef9731c5bd485066b24",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/corrections/NC1-v2-and-dependencies.md",
+      "bytes": 2615,
+      "sha256": "a801c12d79a1d74093cc0a7ab265e2d4580521dafaf823694bc905011f15cad1",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C01/ATT-recheck.md",
+      "bytes": 12454,
+      "sha256": "640e4c1af9441ba436ded264a548ad6653a183c9e6974e64680e0600f074b40e",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C01/assignment.md",
+      "bytes": 2025,
+      "sha256": "32f884a07670d9805f736576de5cc5524856a56144b90d8533f79cfc15d41201",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C01/blind-check.md",
+      "bytes": 10618,
+      "sha256": "394be36570251905acffcb4b66a3012771bc638bde982f6fa879df80cc27757f",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C01/correction-S0-dependency.md",
+      "bytes": 2101,
+      "sha256": "2c288f5568fb0854cb2fec247adfa356e38d1eddfbbe22faf87e294bc0cd23f4",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C01/inputs-and-verification.json",
+      "bytes": 2943,
+      "sha256": "ea437cd9446b284ea5176bf40ffeca97fd364e00a620b52aa0459640b69eb0d3",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C01/review.md",
+      "bytes": 17466,
+      "sha256": "010715d762513148506589cdb432e6fb619eeac30f4cb413985f1e7b6d98b88b",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C02/assignment.md",
+      "bytes": 2206,
+      "sha256": "491f5cf36223a5ac888567ce0721f353ecd6b8ba7b1dcd812851871e89313de5",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C02/completion.json",
+      "bytes": 876,
+      "sha256": "489963f1b3015e2dead88f7df8415581a7ceae2a1ee19d59122239f235f2007b",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C02/input-hashes.json",
+      "bytes": 9498,
+      "sha256": "e8ac873c9da4b8e7ff414e47aa4bf8b6af266d5d56cc532028f94d330a21646a",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C02/proposed-ATT-v3.md",
+      "bytes": 8919,
+      "sha256": "1fce3b7ad8c10de075fb161baab32d38786651bd72e059e9e2998a332bd6081f",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C02/proposed-repairs.md",
+      "bytes": 3671,
+      "sha256": "949386e0703152dbcc4464426e392f047bfed0c09f5bf0b2ccf1216a5312e41e",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C02/review.md",
+      "bytes": 24742,
+      "sha256": "62ca9a2d65d6b7d5ae84a5e6fee989ce36ac31280b75ecf4b148c2c0a103ea5f",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C03/assignment.md",
+      "bytes": 2264,
+      "sha256": "7ef87128cf37f5f0d04d3161845fab4fd493b58c51bd22477005a73864528d05",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C03/hand-controls.md",
+      "bytes": 7770,
+      "sha256": "0ede29402edfef872572855ea8ae3313104bf366a1efcfc8e6cdfd1b9ac09813",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C03/objections.md",
+      "bytes": 2837,
+      "sha256": "782d05de6fc5f3f6e11a4f4f51ae6ef30aaa4aa9aa1bf4c0cc117178dc24f2da",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C03/progress.md",
+      "bytes": 3509,
+      "sha256": "0cd3969a70977030d2f4f4d4e24769a2ff77e9196c71a119ffc1121bcfb3f239",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C03/review-inputs.json",
+      "bytes": 6124,
+      "sha256": "d1909f58419d1a9bdf37a617c23a177a30394921c0e143f4c9cebd323f095f11",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C03/review.md",
+      "bytes": 18972,
+      "sha256": "61e42b6236262022f87859882cbe7c42c4a39463c8d57e380ad5adf9589903b1",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/REVIEW_INSTRUCTIONS.md",
+      "bytes": 4085,
+      "sha256": "cd96402038a5715bba5d89eef04c8c23cb467c6efe825a59a038a332211082ed",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/index.md",
+      "bytes": 1040,
+      "sha256": "1c8c78eb27a41d4664f974184128a0c0569ec45d75e12e3562da274fb0adbf1e",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/deadline-status.json",
+      "bytes": 352,
+      "sha256": "7e1d9845ab6ec2e58c38b2fbe894a7d10af6d66d6ab66a128f46ca10df166c53",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/dependencies.md",
+      "bytes": 2218,
+      "sha256": "140d30e0142876e90a9cbbdc3fb5f6eb85608ae72b0f9541ce715f9c18e0e108",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/D01-checkpoint-v0.md",
+      "bytes": 4254,
+      "sha256": "2f965df75784d89dcc3136db9e8b0b650c9289429af4460ed97d258520cf6583",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/D01-theorem-v1.md",
+      "bytes": 4442,
+      "sha256": "83f76af8f9a8364dcef3937df0ca0bf70c7745f8c5ab78e65e8cc823d7a2f3df",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/D01.md",
+      "bytes": 21758,
+      "sha256": "154d1b1d343d3ef8bbf3bde6a6589a773af7f3ca5be840ac37ebf0b7ebb97bbe",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/D02-A-correlation.md",
+      "bytes": 8030,
+      "sha256": "d78e46bb226fe1388df2d922227016ff57875bfabd4b81580204f338fc341305",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/D02-review-packet.md",
+      "bytes": 5100,
+      "sha256": "0272b0066725f9dbadd482fcf5c20445a6c285838834a7aa55fdad57964ee01b",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/D02.md",
+      "bytes": 13987,
+      "sha256": "0bae1a41a7318febdbb40162e6008c36061d959d2eb0daa7050fc7f9c55fde53",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/D03-common-k.md",
+      "bytes": 14129,
+      "sha256": "7ba3052a8358f37f3023e4ec37daf8e82b7d5984b334b5a5e8edbdc082092046",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/D03.md",
+      "bytes": 21206,
+      "sha256": "28bf75236f6646429519c5930ad73e6e4a416b4fac38dd3c8916f6fcb5ead495",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/development/coordinator-prime-regime.md",
+      "bytes": 2048,
+      "sha256": "f240b4201325eb8666f12ec39b2535ab7ca6a4f565f8e5d60ccec50fe91d9e21",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/experiments/E01-analysis.json",
+      "bytes": 6837,
+      "sha256": "9bc82760885161c06c178cc9031650e46f4f6fd0b7683a0561aa25206d0b6ebe",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/experiments/E01-analyze.py",
+      "bytes": 3058,
+      "sha256": "294030b92fecf8e92f886188f464384a895cd6fcbe561d20fc7e7e1554946dda",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/experiments/E01-note.md",
+      "bytes": 2471,
+      "sha256": "00dec65a1670215941824b0586387b79b1e8d90b185a99aeae5c69d412302388",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/experiments/E01-root-collisions",
+      "bytes": 21456,
+      "sha256": "12960311644aeccb2f904767fe52e0d130f0c8e5136c95a95a15d34b0e5b54f5",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/experiments/E01-root-collisions.cpp",
+      "bytes": 2729,
+      "sha256": "ecddfa1e6c124d48126342e8dfed354b315ede4ea8c366b41de39c5bdf79ba30",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/experiments/E01-root-collisions.json",
+      "bytes": 956,
+      "sha256": "0449e2b731da038d217fcdb32a11f422547ab0ccae04b264d4ee325d6c7500d3",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/experiments/registry.json",
+      "bytes": 2052,
+      "sha256": "dc34e00c8302533a64692a59b8a9b24095cf4ea6fec04dca8a1c61aabade5805",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/final.md",
+      "bytes": 13348,
+      "sha256": "53d47faa2bbc6db5dc83ec92500a987d5078229a4d3f836f593ed5107faf7551",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/F01-theorem-v1.md",
+      "bytes": 7354,
+      "sha256": "e8b8218ca2bb2d851b6068b4456983739cf5188bd4f12c49d880054064068852",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/F01.md",
+      "bytes": 29283,
+      "sha256": "c6a09c470a6d2e8b62f0e592d6b7fae4c87d89cca4179c597d2a296c5fd22039",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/F02-completion.md",
+      "bytes": 14357,
+      "sha256": "392bff6701967ba59f5cfd2a7d065f274e86dadb15c792079306ba0203ce3a4d",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/F02-review-packet.md",
+      "bytes": 6512,
+      "sha256": "80e4b719b6539138a1cc2bcd98aabed0f51e8983be196d6c4391ba485bd5481d",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/F02.md",
+      "bytes": 14103,
+      "sha256": "bfe968ec197164442a1fd30d547c615b03fb209913257ad57a6ee012b736408c",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/F03-attacks.md",
+      "bytes": 10773,
+      "sha256": "a6c8321c668c4cf3cd492d362362f14625fd869328322037ac2687c677fc7fea",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/F03-source-ledger.md",
+      "bytes": 15537,
+      "sha256": "4de3488e3c6f32abb93c4fbabe838b078f82b3c2484170f88299acdce5a16187",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/F03-sources.bib",
+      "bytes": 3539,
+      "sha256": "dd9027d2cc60a4b1c35d4ca0ce6ab97af5232290f0f8e43cadc6ee2ec3d0c999",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/F03.md",
+      "bytes": 12348,
+      "sha256": "83608df6cfe48621a37f5c957c3a1fb6e05f86c853820707d5f323323be53097",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/foundations/coordinator-extraction-gate.md",
+      "bytes": 3927,
+      "sha256": "7a4bd3acc26b045b3114b23f0954ad38a8b3beee13be2bdf9ed5770e6da1d958",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/known-counterexamples.md",
+      "bytes": 4692,
+      "sha256": "d2fb558136f7d100130ae19cc62f12f73c79521456ea8f1f28466c0ebc097bf7",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/launch-validation.json",
+      "bytes": 1420,
+      "sha256": "bf1ae64d7b33ce362bd8d325a16a564b7c67c88bd6347299053e091a0d6e2517",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/multi-sample.md",
+      "bytes": 4276,
+      "sha256": "8c464cd2b82e4f1a9d791840aae7f0ca62f793a22fb1cb3f2f5603bb49ac4a17",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/parameter-table.md",
+      "bytes": 5945,
+      "sha256": "cba87cbe8ca21acf636da74a31cebbe61427ae438de2f02a6abee4ef185237b3",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/progress.md",
+      "bytes": 4835,
+      "sha256": "eb8abe895edb4fb4b9257cbaba54cd6743f920916dcbc20f5df5b0442a528ba3",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/prompt.md",
+      "bytes": 4965,
+      "sha256": "b495d9910bc157a4caaec87b280cebf0746fb306765647dc51e01d4d60c499e5",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/reconciliation.md",
+      "bytes": 2285,
+      "sha256": "f2fc96ab28cde521e0e9e40c159ea7df7ef0dda84477c1921e3901650218c05c",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/refinement/R01-compatibility.md",
+      "bytes": 18328,
+      "sha256": "d01838ccad834979ee64165c2c5dab90e8df0162f4123b420cba2e13564ebb58",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/refinement/R02-break-A.md",
+      "bytes": 14742,
+      "sha256": "f6ad32c87995741c7a17a7ee28e22b3370071ab15f1387cca5ce81079f08bf59",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/refinement/R03-interface-audit.md",
+      "bytes": 16432,
+      "sha256": "ff47bae8fabbcac42a6a4c1c0fe0bab27a355975f058b9b20fa485ed7f9d453a",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/rejected-or-deferred.md",
+      "bytes": 3186,
+      "sha256": "ea8f07a0653144539e01ef9814e8553b0231a05f90a1977f8aba30dadee593fb",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/run.json",
+      "bytes": 3208,
+      "sha256": "9d6c895281217654957fa3f4966902b80ad71046229981d800411221b245484b",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/run.log",
+      "bytes": 5924335,
+      "sha256": "29ba9bfe16089683718982777779786e89e92bdd98cbb99f0113e0d67528ce77",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/selection.md",
+      "bytes": 3726,
+      "sha256": "d514e3a9e5d607c3b48f22a1b028d57a3e451913fd56579aaa2b6c18b7abba68",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/shutdown.json",
+      "bytes": 375,
+      "sha256": "18b8e2b3248e92f7115c6c22e5159470532893930a1f0ec34c6fc1ab4c8629b6",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/criticism-final-v1/corrections/NC1-v2-and-dependencies.md",
+      "bytes": 2615,
+      "sha256": "a801c12d79a1d74093cc0a7ab265e2d4580521dafaf823694bc905011f15cad1",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/criticism-final-v1/criticism/C01/ATT-recheck.md",
+      "bytes": 12454,
+      "sha256": "640e4c1af9441ba436ded264a548ad6653a183c9e6974e64680e0600f074b40e",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/criticism-final-v1/criticism/C01/assignment.md",
+      "bytes": 2025,
+      "sha256": "32f884a07670d9805f736576de5cc5524856a56144b90d8533f79cfc15d41201",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/criticism-final-v1/criticism/C01/blind-check.md",
+      "bytes": 10618,
+      "sha256": "394be36570251905acffcb4b66a3012771bc638bde982f6fa879df80cc27757f",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/criticism-final-v1/criticism/C01/correction-S0-dependency.md",
+      "bytes": 2101,
+      "sha256": "2c288f5568fb0854cb2fec247adfa356e38d1eddfbbe22faf87e294bc0cd23f4",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/criticism-final-v1/criticism/C01/inputs-and-verification.json",
+      "bytes": 2943,
+      "sha256": "ea437cd9446b284ea5176bf40ffeca97fd364e00a620b52aa0459640b69eb0d3",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/criticism-final-v1/criticism/C01/review.md",
+      "bytes": 17466,
+      "sha256": "010715d762513148506589cdb432e6fb619eeac30f4cb413985f1e7b6d98b88b",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/criticism-final-v1/criticism/C02/assignment.md",
+      "bytes": 2206,
+      "sha256": "491f5cf36223a5ac888567ce0721f353ecd6b8ba7b1dcd812851871e89313de5",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/criticism-final-v1/criticism/C02/completion.json",
+      "bytes": 876,
+      "sha256": "489963f1b3015e2dead88f7df8415581a7ceae2a1ee19d59122239f235f2007b",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/criticism-final-v1/criticism/C02/input-hashes.json",
+      "bytes": 9498,
+      "sha256": "e8ac873c9da4b8e7ff414e47aa4bf8b6af266d5d56cc532028f94d330a21646a",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/criticism-final-v1/criticism/C02/proposed-ATT-v3.md",
+      "bytes": 8919,
+      "sha256": "1fce3b7ad8c10de075fb161baab32d38786651bd72e059e9e2998a332bd6081f",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/criticism-final-v1/criticism/C02/proposed-repairs.md",
+      "bytes": 3671,
+      "sha256": "949386e0703152dbcc4464426e392f047bfed0c09f5bf0b2ccf1216a5312e41e",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/criticism-final-v1/criticism/C02/review.md",
+      "bytes": 24742,
+      "sha256": "62ca9a2d65d6b7d5ae84a5e6fee989ce36ac31280b75ecf4b148c2c0a103ea5f",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/criticism-final-v1/criticism/C03/assignment.md",
+      "bytes": 2264,
+      "sha256": "7ef87128cf37f5f0d04d3161845fab4fd493b58c51bd22477005a73864528d05",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/criticism-final-v1/criticism/C03/hand-controls.md",
+      "bytes": 7770,
+      "sha256": "0ede29402edfef872572855ea8ae3313104bf366a1efcfc8e6cdfd1b9ac09813",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/criticism-final-v1/criticism/C03/objections.md",
+      "bytes": 2837,
+      "sha256": "782d05de6fc5f3f6e11a4f4f51ae6ef30aaa4aa9aa1bf4c0cc117178dc24f2da",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/criticism-final-v1/criticism/C03/progress.md",
+      "bytes": 3509,
+      "sha256": "0cd3969a70977030d2f4f4d4e24769a2ff77e9196c71a119ffc1121bcfb3f239",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/criticism-final-v1/criticism/C03/review-inputs.json",
+      "bytes": 6124,
+      "sha256": "d1909f58419d1a9bdf37a617c23a177a30394921c0e143f4c9cebd323f095f11",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/criticism-final-v1/criticism/C03/review.md",
+      "bytes": 18972,
+      "sha256": "61e42b6236262022f87859882cbe7c42c4a39463c8d57e380ad5adf9589903b1",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/criticism-final-v1/manifest.json",
+      "bytes": 2804,
+      "sha256": "ece93b988b40b6c6aaafc84ee07ef02d817a4485391e660b5aeae88954034908",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/foundations-v1/F01-theorem-v1.md",
+      "bytes": 7354,
+      "sha256": "e8b8218ca2bb2d851b6068b4456983739cf5188bd4f12c49d880054064068852",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/foundations-v1/F01.md",
+      "bytes": 29283,
+      "sha256": "c6a09c470a6d2e8b62f0e592d6b7fae4c87d89cca4179c597d2a296c5fd22039",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/foundations-v1/F02-completion.md",
+      "bytes": 14357,
+      "sha256": "392bff6701967ba59f5cfd2a7d065f274e86dadb15c792079306ba0203ce3a4d",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/foundations-v1/F02-review-packet.md",
+      "bytes": 6512,
+      "sha256": "80e4b719b6539138a1cc2bcd98aabed0f51e8983be196d6c4391ba485bd5481d",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/foundations-v1/F02.md",
+      "bytes": 14103,
+      "sha256": "bfe968ec197164442a1fd30d547c615b03fb209913257ad57a6ee012b736408c",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/foundations-v1/F03-attacks.md",
+      "bytes": 10773,
+      "sha256": "a6c8321c668c4cf3cd492d362362f14625fd869328322037ac2687c677fc7fea",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/foundations-v1/F03-source-ledger.md",
+      "bytes": 15537,
+      "sha256": "4de3488e3c6f32abb93c4fbabe838b078f82b3c2484170f88299acdce5a16187",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/foundations-v1/F03.md",
+      "bytes": 12348,
+      "sha256": "83608df6cfe48621a37f5c957c3a1fb6e05f86c853820707d5f323323be53097",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/foundations-v1/coordinator-extraction-gate.md",
+      "bytes": 3927,
+      "sha256": "7a4bd3acc26b045b3114b23f0954ad38a8b3beee13be2bdf9ed5770e6da1d958",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/foundations-v1.json",
+      "bytes": 2072,
+      "sha256": "e0b45a3fe5a6669512f7e8912c46f8044b3f12c1162f3ade2a36c7a8c145b6f2",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/portfolio-gate-v1/candidates/A.md",
+      "bytes": 3949,
+      "sha256": "7d51fedde33b8e67f00e8aea786b1d06bd969f59191afacdc8ef64dd21f48477",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/portfolio-gate-v1/candidates/B.md",
+      "bytes": 2338,
+      "sha256": "c95cab60cf680dd89f842804f458ba98943bae3e5e3dea66bc99044494f6c6f6",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/portfolio-gate-v1/claims.json",
+      "bytes": 7066,
+      "sha256": "386b0d4633df328efcd25de163c8b37634a38f145013766c8cd60f0b0080c24d",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/portfolio-gate-v1/dependencies.md",
+      "bytes": 1119,
+      "sha256": "a0ed4d25664e74bfc78bf4e5888c82e672b617f28bab554dd8cddeafe8a558b9",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/portfolio-gate-v1/final.md",
+      "bytes": 3213,
+      "sha256": "cffd47802b40d51c94839816e462763749d1c41bf78ae1bdcca03af3a9d50c7e",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/portfolio-gate-v1/manifest.json",
+      "bytes": 964,
+      "sha256": "fcb0714d2609e45c64d7d8d180eedbe9a7f5ee27f4aa127c10c3499106787dc3",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/portfolio-gate-v1/parameter-table.md",
+      "bytes": 5606,
+      "sha256": "1f70be27890b521b354b9784b76dd62e54fe60924f64c4461a673d8a4491ce6d",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/portfolio-gate-v1/selection.md",
+      "bytes": 3124,
+      "sha256": "37ab5bd722ce5419c37bfeab322975680937e65fa2b6a464ebc587d3f97d66ff",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/bridge.md",
+      "bytes": 4754,
+      "sha256": "c14f0ec141c471be0b9f4621661747abf4d29067353cb5db10932c8b14d974c9",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/candidates/A.md",
+      "bytes": 5061,
+      "sha256": "f97e502a68671c5add62e055a48ca3f62e72052177167a8d60dd7f398e366521",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/candidates/B.md",
+      "bytes": 3554,
+      "sha256": "b2639b1a855280b5499b8c462f7c586d9c4c400c8e99d15150356dd0a08f2907",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/claims.json",
+      "bytes": 39090,
+      "sha256": "4c1194bb72d934fd2207182999a6eb72a7a82b47da6e314c3989d38cd563274d",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/dependencies.md",
+      "bytes": 2218,
+      "sha256": "140d30e0142876e90a9cbbdc3fb5f6eb85608ae72b0f9541ce715f9c18e0e108",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/development/D01-checkpoint-v0.md",
+      "bytes": 4254,
+      "sha256": "2f965df75784d89dcc3136db9e8b0b650c9289429af4460ed97d258520cf6583",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/development/D01-theorem-v1.md",
+      "bytes": 4442,
+      "sha256": "83f76af8f9a8364dcef3937df0ca0bf70c7745f8c5ab78e65e8cc823d7a2f3df",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/development/D01.md",
+      "bytes": 21758,
+      "sha256": "154d1b1d343d3ef8bbf3bde6a6589a773af7f3ca5be840ac37ebf0b7ebb97bbe",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/development/D02-A-correlation.md",
+      "bytes": 8030,
+      "sha256": "d78e46bb226fe1388df2d922227016ff57875bfabd4b81580204f338fc341305",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/development/D02-review-packet.md",
+      "bytes": 5100,
+      "sha256": "0272b0066725f9dbadd482fcf5c20445a6c285838834a7aa55fdad57964ee01b",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/development/D02.md",
+      "bytes": 13987,
+      "sha256": "0bae1a41a7318febdbb40162e6008c36061d959d2eb0daa7050fc7f9c55fde53",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/development/D03-common-k.md",
+      "bytes": 14129,
+      "sha256": "7ba3052a8358f37f3023e4ec37daf8e82b7d5984b334b5a5e8edbdc082092046",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/development/D03.md",
+      "bytes": 21206,
+      "sha256": "28bf75236f6646429519c5930ad73e6e4a416b4fac38dd3c8916f6fcb5ead495",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/development/coordinator-prime-regime.md",
+      "bytes": 2048,
+      "sha256": "f240b4201325eb8666f12ec39b2535ab7ca6a4f565f8e5d60ccec50fe91d9e21",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/experiments/E01-note.md",
+      "bytes": 2471,
+      "sha256": "00dec65a1670215941824b0586387b79b1e8d90b185a99aeae5c69d412302388",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/experiments/registry.json",
+      "bytes": 2052,
+      "sha256": "dc34e00c8302533a64692a59b8a9b24095cf4ea6fec04dca8a1c61aabade5805",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/foundations/F01-theorem-v1.md",
+      "bytes": 7354,
+      "sha256": "e8b8218ca2bb2d851b6068b4456983739cf5188bd4f12c49d880054064068852",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/foundations/F01.md",
+      "bytes": 29283,
+      "sha256": "c6a09c470a6d2e8b62f0e592d6b7fae4c87d89cca4179c597d2a296c5fd22039",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/foundations/F02-completion.md",
+      "bytes": 14357,
+      "sha256": "392bff6701967ba59f5cfd2a7d065f274e86dadb15c792079306ba0203ce3a4d",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/foundations/F02-review-packet.md",
+      "bytes": 6512,
+      "sha256": "80e4b719b6539138a1cc2bcd98aabed0f51e8983be196d6c4391ba485bd5481d",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/foundations/F02.md",
+      "bytes": 14103,
+      "sha256": "bfe968ec197164442a1fd30d547c615b03fb209913257ad57a6ee012b736408c",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/foundations/F03-attacks.md",
+      "bytes": 10773,
+      "sha256": "a6c8321c668c4cf3cd492d362362f14625fd869328322037ac2687c677fc7fea",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/foundations/F03-source-ledger.md",
+      "bytes": 15537,
+      "sha256": "4de3488e3c6f32abb93c4fbabe838b078f82b3c2484170f88299acdce5a16187",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/foundations/F03.md",
+      "bytes": 12348,
+      "sha256": "83608df6cfe48621a37f5c957c3a1fb6e05f86c853820707d5f323323be53097",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/foundations/coordinator-extraction-gate.md",
+      "bytes": 3927,
+      "sha256": "7a4bd3acc26b045b3114b23f0954ad38a8b3beee13be2bdf9ed5770e6da1d958",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/known-counterexamples.md",
+      "bytes": 4692,
+      "sha256": "d2fb558136f7d100130ae19cc62f12f73c79521456ea8f1f28466c0ebc097bf7",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/manifest.json",
+      "bytes": 5059,
+      "sha256": "29ef8e92ea6f82e6e4582e245f525e1f71e2f7e17eb0a542fba50155e981a143",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/multi-sample.md",
+      "bytes": 4276,
+      "sha256": "8c464cd2b82e4f1a9d791840aae7f0ca62f793a22fb1cb3f2f5603bb49ac4a17",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/parameter-table.md",
+      "bytes": 5945,
+      "sha256": "cba87cbe8ca21acf636da74a31cebbe61427ae438de2f02a6abee4ef185237b3",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/refinement/R01-compatibility.md",
+      "bytes": 18328,
+      "sha256": "d01838ccad834979ee64165c2c5dab90e8df0162f4123b420cba2e13564ebb58",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/refinement/R02-break-A.md",
+      "bytes": 14742,
+      "sha256": "f6ad32c87995741c7a17a7ee28e22b3370071ab15f1387cca5ce81079f08bf59",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/refinement/R03-interface-audit.md",
+      "bytes": 16432,
+      "sha256": "ff47bae8fabbcac42a6a4c1c0fe0bab27a355975f058b9b20fa485ed7f9d453a",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/rejected-or-deferred.md",
+      "bytes": 3186,
+      "sha256": "ea8f07a0653144539e01ef9814e8553b0231a05f90a1977f8aba30dadee593fb",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/selection.md",
+      "bytes": 3726,
+      "sha256": "d514e3a9e5d607c3b48f22a1b028d57a3e451913fd56579aaa2b6c18b7abba68",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/sources-and-assumptions.md",
+      "bytes": 4557,
+      "sha256": "bf3399877f14684447bb5cb79ed0113af43e5c2ac6783b3d342aca56e474f2df",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/sources.bib",
+      "bytes": 5822,
+      "sha256": "a973d54198d984fb1a0f015fae17a33b900d1c34f2592a462a65f6f597187293",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/target.md",
+      "bytes": 3361,
+      "sha256": "67839cdfc7494d51aee642174c0f2a509f4252f4136f498bca0a8ffef0312bf9",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/sources/coordinator-primary-checks.md",
+      "bytes": 1219,
+      "sha256": "6ea8003c5faa0b819ff6f294c4b99b6248eb45609b64969ed1330b7a1f0650f8",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/sources-and-assumptions.md",
+      "bytes": 4557,
+      "sha256": "bf3399877f14684447bb5cb79ed0113af43e5c2ac6783b3d342aca56e474f2df",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/sources.bib",
+      "bytes": 5822,
+      "sha256": "a973d54198d984fb1a0f015fae17a33b900d1c34f2592a462a65f6f597187293",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/status.json",
+      "bytes": 852,
+      "sha256": "a19db64dcc6f2e043e52c6168e04999f3e4a5df56538c97ef5d083d59cf5c0a1",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/target.md",
+      "bytes": 3361,
+      "sha256": "67839cdfc7494d51aee642174c0f2a509f4252f4136f498bca0a8ffef0312bf9",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/tmux-run.json",
+      "bytes": 2471,
+      "sha256": "740a19b807e1a1ad25477905d6a93aa3d284dc4249bd0814e60d4efedc0716cf",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/tmux-status.json",
+      "bytes": 752,
+      "sha256": "eeabfc9e5e91fe75d03c23fc92f322254080ce895e3389fcdae9d54685d2adaa",
+      "scope": "archived source input; substantive-review scope specified in raw reports"
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/SKILL.md",
+      "bytes": 4484,
+      "sha256": "9350ffeb5aebe0b126710786586f94ef5d990be35b8b9defc8004136dae40318",
+      "scope": "consolidation instructions read"
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/references/audit-protocol.md",
+      "bytes": 8480,
+      "sha256": "2d076ba631c340d71f6259757c6207dbe230872810e9bad3188b215f46d095f4",
+      "scope": "consolidation instructions read"
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/references/probability-regressions.md",
+      "bytes": 6814,
+      "sha256": "ad7eecf93ed02e5b2957243a9bbb2cac8e8eeeb991971f4d77d0818cd04a4fa4",
+      "scope": "consolidation instructions read"
+    },
+    {
+      "path": "exploration/verification/20260906-preparation/math-diagnostics.json",
+      "bytes": 317,
+      "sha256": "8626c0a26ed3063f1e9d53c7089a217d64d5776180c1233f274883c631b50b75",
+      "scope": "Coordinator E01 postprocessing rerun report; original ternary enumeration not rerun."
+    }
+  ]
+}

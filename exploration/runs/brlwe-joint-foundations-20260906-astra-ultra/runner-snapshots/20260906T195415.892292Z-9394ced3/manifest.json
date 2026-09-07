@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260906T195415.892292Z-9394ced3",
+  "kind": "periodic",
+  "created_at": "2026-09-06T19:54:15.892330+00:00",
+  "reason": "",
+  "artifacts": [],
+  "missing_core_artifacts": [
+    "claims.json",
+    "reconciliation.md",
+    "progress.md",
+    "final.md",
+    "agents.json"
+  ],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

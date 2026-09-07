@@ -1,0 +1,122 @@
+{
+  "reviewer": "C03",
+  "recorded_utc": "2026-09-06T15:48:13.260001+00:00",
+  "frozen_snapshot": "review-v1",
+  "snapshot_file_count_verified": 36,
+  "files_read_or_primary_identified": [
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/known-counterexamples.md",
+      "sha256": "d2fb558136f7d100130ae19cc62f12f73c79521456ea8f1f28466c0ebc097bf7"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/claims.json",
+      "sha256": "4c1194bb72d934fd2207182999a6eb72a7a82b47da6e314c3989d38cd563274d"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/foundations/F02-review-packet.md",
+      "sha256": "80e4b719b6539138a1cc2bcd98aabed0f51e8983be196d6c4391ba485bd5481d"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/foundations/F02-completion.md",
+      "sha256": "392bff6701967ba59f5cfd2a7d065f274e86dadb15c792079306ba0203ce3a4d"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/foundations/F02.md",
+      "sha256": "bfe968ec197164442a1fd30d547c615b03fb209913257ad57a6ee012b736408c"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/foundations/F01-theorem-v1.md",
+      "sha256": "e8b8218ca2bb2d851b6068b4456983739cf5188bd4f12c49d880054064068852"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/foundations/F01.md",
+      "sha256": "c6a09c470a6d2e8b62f0e592d6b7fae4c87d89cca4179c597d2a296c5fd22039"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/development/D03.md",
+      "sha256": "28bf75236f6646429519c5930ad73e6e4a416b4fac38dd3c8916f6fcb5ead495"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/development/D03-common-k.md",
+      "sha256": "7ba3052a8358f37f3023e4ec37daf8e82b7d5984b334b5a5e8edbdc082092046"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/refinement/R03-interface-audit.md",
+      "sha256": "ff47bae8fabbcac42a6a4c1c0fe0bab27a355975f058b9b20fa485ed7f9d453a"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/candidates/A.md",
+      "sha256": "f97e502a68671c5add62e055a48ca3f62e72052177167a8d60dd7f398e366521"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/parameter-table.md",
+      "sha256": "cba87cbe8ca21acf636da74a31cebbe61427ae438de2f02a6abee4ef185237b3"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/multi-sample.md",
+      "sha256": "8c464cd2b82e4f1a9d791840aae7f0ca62f793a22fb1cb3f2f5603bb49ac4a17"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/bridge.md",
+      "sha256": "c14f0ec141c471be0b9f4621661747abf4d29067353cb5db10932c8b14d974c9"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/run.json",
+      "sha256": "8777299c951c012da5c0da88ea793fc2f684c110ab7518a0a427ac9ae49be29f"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/REVIEW_INSTRUCTIONS.md",
+      "sha256": "cd96402038a5715bba5d89eef04c8c23cb467c6efe825a59a038a332211082ed"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C03/assignment.md",
+      "sha256": "7ef87128cf37f5f0d04d3161845fab4fd493b58c51bd22477005a73864528d05"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/corrections/NC1-v2-and-dependencies.md",
+      "sha256": "a801c12d79a1d74093cc0a7ab265e2d4580521dafaf823694bc905011f15cad1"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/snapshots/review-v1/manifest.json",
+      "sha256": "29ef8e92ea6f82e6e4582e245f525e1f71e2f7e17eb0a542fba50155e981a143"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-explore-20260906-astra-ultra/criticism/C02/checks-and-regressions.md",
+      "sha256": "877cae34d291ff6c658087c7a28e1e63527e4b150a2c8c9f3e2ce9cdfdb83294"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/literature/2020-1185.pdf",
+      "sha256": "8ee650d5d05d2e7fe33657e35ff5bb9c79be6d16d8a0d8604d8278eb87aa7e46"
+    }
+  ],
+  "primary_sources_checked": [
+    {
+      "url": "https://dlmf.nist.gov/20.5.E3",
+      "items": [
+        "20.5.3"
+      ]
+    },
+    {
+      "url": "https://sites.cc.gatech.edu/fac/cpeikert/pubs/pargauss.pdf",
+      "items": [
+        "Sections 2.4-2.5",
+        "Theorem 3.1"
+      ]
+    },
+    {
+      "url": "https://eprint.iacr.org/2018/494.pdf",
+      "items": [
+        "Definition 2.13",
+        "Lemma 7.6"
+      ]
+    },
+    {
+      "url": "https://eprint.iacr.org/2020/1185.pdf",
+      "items": [
+        "Definitions 3.1-3.3",
+        "Lemmas 3.4-3.5"
+      ]
+    }
+  ],
+  "experiments_executed": 0
+}

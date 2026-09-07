@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260906T203526.598723Z-33e98772",
+  "kind": "coordinator",
+  "created_at": "2026-09-06T20:35:26.598746+00:00",
+  "reason": "All triage notes frozen; selected two directions early; blind finite evidence and fresh repair review registered",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 95926,
+      "sha256": "57a7112a5e7d65aa6ccfa9bfb65d05890d81c13f70fbcf4a18d44496c0b1bfc3"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 7437,
+      "sha256": "a74d5d99aa8c6056b0c24fade42c769ec8dd1dcfe75e365ece340736f4df5e75"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 7323,
+      "sha256": "6af44b278b7510718e84ec2854539a81ee8406a39a423208e79c6ffdfb0d8db4"
+    },
+    {
+      "path": "final.md",
+      "bytes": 7846,
+      "sha256": "0b6bc4524de2328b828ef7659834dc048cc75b33d56f114a1384beb3930d45db"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 3610,
+      "sha256": "119199a6eb374c097432d52f4ca56a15af2ec71200e8d980bbce608ae3ecff40"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

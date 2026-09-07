@@ -1,0 +1,45 @@
+# Dependency graph T0
+
+Updated 2026-09-06T20:14:09.072302+00:00. No global certification. New worker results remain provisional. An edited premise reopens all descendants.
+
+* SC0 v1 [PROVISIONAL] <- 
+* B0 v1 [PROVISIONAL] <- SC0 v1, Y0 v1, X0 v2, N0 v2, U0 v2
+* X0 v2 [OPEN] <- SC0 v1, Y0 v1
+* N0 v2 [OPEN] <- SC0 v1, Y0 v1
+* U0 v2 [PROVISIONAL] <- SC0 v1
+* Y0 v1 [PROVISIONAL] <- 
+* A2 v1 [PROVISIONAL] <- SC0 v1
+* NC1 v2 [PROVISIONAL] <- 
+* XG1 v1 [PROVISIONAL] <- 
+* X1 v1 [PROVISIONAL] <- XG1 v1
+* PR1 v1 [PROVISIONAL] <- 
+* AN v2 [PROVISIONAL] <- A2 v1, NC1 v2, X1 v1, PR1 v1, U0 v2, Y0 v1
+* P0 v2 [OPEN] <- A2 v1
+* A0 v3 [BLOCKED] <- AN v2, B0 v1, P0 v2
+* BSH v1 [PROVISIONAL] <- 
+* BNG v1 [PROVISIONAL] <- N0 v2
+* D0 v2 [PROVISIONAL] <- BSH v1, BNG v1
+* NO1 v1 [PROVISIONAL] <- N0 v2
+* DEC v1 [PROVISIONAL] <- 
+* ATT v3 [PROVISIONAL] <- A2 v1
+* UNIQ v1 [PROVISIONAL] <- A2 v1
+* CHAR v2 [PROVISIONAL] <- A2 v1, NC1 v2
+* KM v1 [PROVISIONAL] <- Y0 v1
+* Pm v1 [OPEN] <- 
+* MN v2 [PROVISIONAL] <- NC1 v2, A2 v1
+* LEAK v1 [PROVISIONAL] <- A2 v1
+* REC v1 [PROVISIONAL] <- 
+* M0 v3 [PROVISIONAL] <- KM v1, MN v2, LEAK v1, Pm v1
+* S0 v3 [PROVISIONAL] <- AN v2, B0 v1, REC v1, P0 v2
+* W1 v1 [OPEN] <- A2 v1, P0 v2
+* W2 v1 [OPEN] <- A2 v1, ATT v3, UNIQ v1, CHAR v2
+* W3 v1 [OPEN] <- A2 v1, B0 v1, BNG v1
+* T0-RESULT v1 [OPEN] <- W1 v1, W2 v1, W3 v1, A0 v3
+* W3-OBS v1 [PROVISIONAL] <- A2 v1, NC1 v2, X1 v1, U0 v2
+* W1-BROADEN v1 [PROVISIONAL] <- NC1 v2, A2 v1
+* W2-SEARCH v1 [PROVISIONAL] <- A2 v1, UNIQ v1
+* W1-AKEEP v1 [PROVISIONAL] <- A2 v1, UNIQ v1
+* W3-RANK-PUBLIC v1 [PROVISIONAL] <- A2 v1, UNIQ v1, U0 v2
+* W2-ORB v1 [PROVISIONAL] <- A2 v1, ATT v3
+* W1-ENTROPY v1 [OPEN] <- A2 v1, UNIQ v1, NC1 v2, W1-AKEEP v1
+* W1-KERNEL-ATT v1 [PROVISIONAL] <- A2 v1, NC1 v2

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260906T210500.269923Z-8e64101f",
+  "kind": "coordinator",
+  "created_at": "2026-09-06T21:05:00.269945+00:00",
+  "reason": "Integrated final numerical provenance and explicit first-run data preservation limitation",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 104895,
+      "sha256": "e0d5c9b8fac1d34999b85a24e1fba1c892392ad1484a3e0d9801eec7218c4db5"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 6149,
+      "sha256": "b6e961fe6b32af4d72d83414f9e33cd6cae53d436f0859e71b38a596f55a9090"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 13325,
+      "sha256": "2ae3daa105d3d1a4671f5b7b70e78ba84a8af57efb27e90a82d3db92c19c430b"
+    },
+    {
+      "path": "final.md",
+      "bytes": 14921,
+      "sha256": "1efadcf206a5b71727e8248c96cb04ce178b83b450b46175749503d4fc1ceb61"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 6315,
+      "sha256": "160a5eaf50c1f9a75ef47168207a02c1e4a8ec9ddd1e8937908c5126b60df0d4"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

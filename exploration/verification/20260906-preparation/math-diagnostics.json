@@ -1,0 +1,7 @@
+{
+  "test": "E01 postprocessing rerun from copied source and saved exhaustive counts",
+  "status": "passed",
+  "rows_reproduced": 24,
+  "independent_binary_image_checks": 8,
+  "limitation": "Does not rerun the original ternary enumeration; finite diagnostics do not prove asymptotic extraction or source hardness."
+}

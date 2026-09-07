@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "recorded_utc": "2026-09-06T21:09:20.244064+00:00",
+  "owner": "research coordinator; runner exit records separate",
+  "mathematical_status": "BOUNDED_INVESTIGATION_COMPLETE_WITH_OPEN_HARDNESS_PREMISES",
+  "complete_hardness_theorem": false,
+  "early_exit_gate": {
+    "all_assigned_workstreams_final": true,
+    "all_material_objections_final": true,
+    "unresolved_computational_claims_explicit": true,
+    "new_directions_selected": [
+      "W1 source interfaces",
+      "W3 independent-noise observable alternative"
+    ],
+    "multiple_sample_gate": "NOT OPENED; m=1"
+  },
+  "remaining_obligations": [
+    {
+      "id": "P0-A2",
+      "status": "OPEN",
+      "obligation": "Independent computational support for exact active-U, F-dependent canonical H_seq pair remains absent."
+    },
+    {
+      "id": "ACTIVE-INDEPENDENT-SOURCE",
+      "status": "OPEN",
+      "obligation": "Negligible-loss inheritance of active-point same-ideal source from ordinary uniform-point HLBDD or another independently specified assumption."
+    },
+    {
+      "id": "ANALYTIC-IMPORTS",
+      "status": "PROVISIONAL",
+      "obligation": "Inherited NC1 v2, X1 v1, AN v2, PR1 v1 and their full load-bearing graph retain bounded review limits; no global certification."
+    },
+    {
+      "id": "GENERAL-PUBLIC-TRANSPORT",
+      "status": "OPEN_OUTSIDE_PROVED_OBSTRUCTIONS",
+      "obligation": "Equal-small-noise inputs, maps using C and controlled approximate comparator preservation are not excluded by the broad-source entropy or latent-sampler theorems."
+    },
+    {
+      "id": "MULTIPLE-SAMPLES",
+      "status": "DEFERRED",
+      "obligation": "Explicit m/common-K source and joint H analysis required before any extension."
+    }
+  ],
+  "known_process_status": {
+    "workers": [
+      {
+        "agent_id": "/root/w1_public_reductions",
+        "status": "complete",
+        "completed_utc": null,
+        "evidence": "agents.json plus worker completion reports; current collaboration list confirms B01/N01/N03 terminal"
+      },
+      {
+        "agent_id": "/root/w2_structure",
+        "status": "complete",
+        "completed_utc": null,
+        "evidence": "agents.json plus worker completion reports; current collaboration list confirms B01/N01/N03 terminal"
+      },
+      {
+        "agent_id": "/root/w3_observable",
+        "status": "complete",
+        "completed_utc": null,
+        "evidence": "agents.json plus worker completion reports; current collaboration list confirms B01/N01/N03 terminal"
+      },
+      {
+        "agent_id": "/root/b01_blind",
+        "status": "complete",
+        "completed_utc": null,
+        "evidence": "agents.json plus worker completion reports; current collaboration list confirms B01/N01/N03 terminal"
+      },
+      {
+        "agent_id": "/root/n02_observable_recheck",
+        "status": "complete",
+        "completed_utc": "2026-09-06T20:49:52Z",
+        "evidence": "agents.json plus worker completion reports; current collaboration list confirms B01/N01/N03 terminal"
+      },
+      {
+        "agent_id": "/root/n01_source_audit",
+        "status": "complete",
+        "completed_utc": "2026-09-06T21:04:02Z",
+        "evidence": "agents.json plus worker completion reports; current collaboration list confirms B01/N01/N03 terminal"
+      },
+      {
+        "agent_id": "/root/n03_structure_audit",
+        "status": "complete",
+        "completed_utc": "2026-09-06T21:05:33Z",
+        "evidence": "agents.json plus worker completion reports; current collaboration list confirms B01/N01/N03 terminal"
+      }
+    ],
+    "active_experiments_recorded": 0,
+    "experiment_cancellation_required": false,
+    "worker_interrupt_required": false,
+    "reason": "All assigned workers report completed before their deadlines; all bounded experiment processes returned. No unfinished tool or experiment known.",
+    "coordinator": "Mathematical work complete; final checkpoint and return. Process exit not observed.",
+    "monitor_heartbeat_utc": "2026-09-06T21:09:16.210831+00:00",
+    "monitor_service_state": "active",
+    "monitor_alerts": [],
+    "host_descendants_independently_verified": false,
+    "host_visibility_limit": "Host service PIDs not visible in sandbox /proc; persisted supervisor observations and worker tool completions only.",
+    "launcher_exit_observed": false
+  },
+  "errors_and_deviations": {
+    "content_policy_interruption_observed": false,
+    "automatic_retry_resume_or_rerouting": false,
+    "ordinary_tool_errors": "Worker-reported unavailable python alias and primary PDF screenshot cache-miss/403; successful text retrieval used, no content-policy block.",
+    "checkpoint_cadence": "One N01 worker interval20:48:01 to20:57:27 exceeded5min during reading/drafting; coordinator checkpoints continued.",
+    "archive_corrections": "N03 saved scope restored verbatim with original shortened archive retained; parsed regression R01/R04/R13 fields repaired without changing exact original records.",
+    "numerical_preservation_limit": "First N01 Gaussian full JSON overwritten during a tail-bound annotation correction; first stdout and labeled reconstructed source retained, corrected full data complete. See criticism/N01/experiment-provenance.md."
+  },
+  "final_verification": "coordinator/delivery-audit-final.json; saved-artifact integrity only",
+  "runner_ownership": "run.json, snapshots, alerts, receipts, artifact-index and exit-manifest untouched by coordinator except installed checkpoint helper writes its own paths.",
+  "finalized_utc": "2026-09-06T21:10:33.019420+00:00",
+  "saved_artifact_verification": {
+    "status": "PASS",
+    "checks": 20,
+    "initial_observed_pass_utc": "2026-09-06T21:09:33.092958+00:00",
+    "path": "coordinator/delivery-audit-final.json",
+    "meaning": "Integrity/status check only; no proof certificate"
+  }
+}

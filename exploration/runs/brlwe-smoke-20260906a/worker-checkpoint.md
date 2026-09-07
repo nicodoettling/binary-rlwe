@@ -1,0 +1,1 @@
+The managed worker started.

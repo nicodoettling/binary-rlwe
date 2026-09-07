@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "updated_utc": "2026-09-06T20:29:37.352318+00:00",
+  "coordinator": {
+    "agent_id": "/root",
+    "session_id": "01a07849-2b26-7ac1-96c2-c15903ac2341",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "ultra",
+    "status": "running"
+  },
+  "workers": [
+    {
+      "agent_id": "/root/w1_public_reductions",
+      "assignment_id": "W1-v1",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none",
+      "status": "running",
+      "session_id": null,
+      "uuid_status": "Worker confirms no session/thread UUID exposed in supplied context",
+      "deadline_utc": "2026-09-06T21:19:15Z",
+      "output_directory": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/workstreams/W1",
+      "may_spawn": false,
+      "last_result": "W1-KERNEL-ATT provisional conditional attack and entropy derivation underway"
+    },
+    {
+      "agent_id": "/root/w2_structure",
+      "assignment_id": "W2-v1",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none",
+      "status": "complete",
+      "session_id": null,
+      "uuid_status": "Worker confirms no UUID exposed",
+      "deadline_utc": "2026-09-06T21:19:15Z",
+      "output_directory": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/workstreams/W2",
+      "may_spawn": false,
+      "last_result": "Final W2-ORB/COVER/SCAL/PV triage notes and exact experiments delivered; no P0 support"
+    },
+    {
+      "agent_id": "/root/w3_observable",
+      "assignment_id": "W3-v1",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none",
+      "status": "complete",
+      "session_id": "01a07849-2b26-7ac1-96c2-c15903ac2341",
+      "uuid_status": "Worker reported environment metadata; session matches coordinator, thread differs; no infrastructure inference",
+      "deadline_utc": "2026-09-06T21:19:15Z",
+      "output_directory": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/workstreams/W3",
+      "may_spawn": false,
+      "last_result": "Frozen W3 note and all 26 input hashes rechecked",
+      "thread_id": "01a0784e-b2cb-7612-b5cf-d2da1b99b6ea"
+    },
+    {
+      "agent_id": "/root/b01_blind",
+      "assignment_id": "B01-v1",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none",
+      "status": "running",
+      "session_id": null,
+      "uuid_status": "requested available environment metadata",
+      "deadline_utc": "2026-09-06T20:54:15Z",
+      "output_directory": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/criticism/B01",
+      "may_spawn": false,
+      "blind_input": "criticism/B01/model-v1.md",
+      "blind_input_sha256": "df279e6d964d0ca6051232aa6b086e80582ce241e9000bb8e5d215139a3142af"
+    }
+  ],
+  "max_active_workers": 3,
+  "grandchildren_allowed": false
+}

@@ -1,0 +1,11 @@
+# C02 investigation record
+
+Started 2026-09-06 10:13:16 UTC. Assigned deadline: 10:47:30 UTC, with last five minutes reserved for writing. All writes remain under this candidate's assigned run directory. No experiment, additional agent, source-proof audit, or runner/manifest change.
+
+Read target, candidate template, selection, S06 and S12 dossiers and support, and coordinator checks. Independently read primary BD2020 source definitions 2.3, 2.6, 3.1–3.5, 4.1, Theorem 4.2, Theorem 5.7–5.8, Definition 6.1 and Section 6 sampler. Independently checked SS2013 projection lemma and the inverse lemma's small-ball proof through primary PDF text. Public screenshot attempts for SS2013 pp.7 and 26 failed with HTTP403; the displayed extraction and explicit projection calculation suffice for the retained normalized bound.
+
+Current result: retain CONTROL as a structural diagnostic with an unresolved bridge. The public-A sampler requires DSPR plus Hermite-form RLWE in the old construction; the exact discrete wrapped-transcript guessing inequality for Boolean S is still absent. Sampler coins are posterior irrelevant only under the correct joint conditional-kernel hypothesis. The real precursor leaks an exact integer coset on a proved no-wrap event. Deterministic injection certificates survive the BD/SS normalization caveat; the probability assigned to BD's displayed inverse event is not propagated.
+
+Completed additional algebra: the fixed denominator 1-X-X^2 has quotient (Z/L_{n/2}Z)^2 for n≥4 a power of two, hence an exponentially growing quotient exponent and a quotient of size about phi^n. This separates entropy deficit from the low-scalar-exponent distinguisher. A fixed denominator is still public and distinguishable under a short numerator bound. No enumeration has been run.
+
+Completed ahead of deadline and stopped at coordinator request, approximately 10:29 UTC. Deliverables: ../C02.md, calculations.md, and sources-and-bridge.md. Final check covered source-normalization qualifications, independence hypotheses, finite-sample/error distinctions, and relative artifact paths. The root-owned E04 diagnostic is cited with its fixed-A departure and explicit numerical-zero caveat. No additional experiment or investigation remains active.

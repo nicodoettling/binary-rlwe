@@ -1,0 +1,11 @@
+# W1 source and delivery notes
+
+Canonical worker `/root/w1_public_reductions`; no session/thread UUID was exposed. The assignment is preserved verbatim in assignment.md. No content-policy interruption occurred in this worker turn.
+
+The frozen target, SOURCE_CONTRACT, three audit-skill files, consolidation, all current/historical claim statements and metadata parsed from claims.json, the assigned mathematical source packet, relevant full regression packets, and source controls were read. Local load-bearing bytes are hashed in input-hashes.json. The active regressions registry changed during ordinary coordinator integration; its original hash is preserved alongside a subsequent read hash. Read-only delivery comparison is recorded separately in source-input-verification.json. That comparison is administrative evidence, not a mathematical experiment.
+
+Public primary checking used the current ePrint 2018/494 and 2020/1185 PDF text, with theorem/definition locations recorded in note.md. Local user-supplied 2020-1185.pdf and 2020-119.pdf and their prior text extractions are separately hashed. The relevant DSPR definitions and theorem were cross-checked against the supplied extraction. NIST DLMF 20.5.3 was rechecked for the normalized theta product. primary-browser-extracts.txt preserves the retrieved browser text and is hashed; its hash is NOT represented as the raw 2018/494 PDF hash.
+
+No Gaussian sampler or covariance experiment was run. The worker's new finite controls are explicit hand calculations in note.md. The coordinator's existing experiment record coordinator_controls_v1.json was read and hashed after its registry integration, but not rerun or treated as W1's experiment. Its active-unit, latent/public, deconvolution and parity outputs match the controls used here. The new S/E-correlation bridge control does not concern W1's source-only statements, which contain no S or E correlated with S.
+
+All W1 mathematical claims remain PROVISIONAL. The entropy contraction idea, its weighted tail-entropy estimate, and the extension to arbitrary exact-uniform-preserving pair maps were contributed by the coordinator. W1 filled in the sequential discrete entropy, parameter gap and finite losses. Author/coordinator agreement is not a fresh nonauthor recheck or independent statistical evidence.

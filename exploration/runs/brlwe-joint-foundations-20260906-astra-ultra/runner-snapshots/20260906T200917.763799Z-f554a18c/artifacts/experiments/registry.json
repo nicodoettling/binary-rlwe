@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "updated_utc": "2026-09-06T20:05:43.468689+00:00",
+  "max_concurrent": 2,
+  "experiments": [
+    {
+      "id": "COORD-E01",
+      "status": "complete",
+      "exit_code": 0,
+      "code": "experiments/coordinator_controls_v1.py",
+      "output": "experiments/coordinator_controls_v1.json",
+      "code_sha256": "00d6d926e3f08dfbe0d92c8e42e756caf9db49efa3cecb8cc5f862ac7a405f5f",
+      "command": "timeout 120s python3 experiments/coordinator_controls_v1.py > experiments/coordinator_controls_v1.json",
+      "precision": "Exact Fraction; labeled 80-digit mpmath diagnostics with displayed truncation tail",
+      "seed": null,
+      "checks_passed": 14,
+      "scope": "Finite historical and projection controls only"
+    }
+  ],
+  "allocations": [
+    {
+      "id": "W2-E",
+      "worker": "/root/w2_structure",
+      "max_concurrent": 1,
+      "max_seconds": 120,
+      "deadline_utc": "2026-09-06T21:19:15Z"
+    }
+  ]
+}

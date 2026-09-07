@@ -1,0 +1,129 @@
+{
+  "id": "E05_C02_boolean_fibers",
+  "owner": "/root/c02_critic",
+  "parameters": {
+    "degrees": [
+      4,
+      8,
+      16
+    ],
+    "denominator": "1-X-X^2",
+    "ambient_ring": "Z[X]/(X^n+1)",
+    "secret": "uniform Boolean coefficient vector",
+    "observation": "exact integer quotient class",
+    "q": null,
+    "sigma": null,
+    "public_sampler": null,
+    "seed": null,
+    "timeout_seconds": 30
+  },
+  "evidence": "exact integer exhaustive enumeration, cross-checked by independent polynomial reduction and dynamic quotient counting",
+  "started_utc": "2026-09-06T10:34:39.677413+00:00",
+  "finished_utc": "2026-09-06T10:34:39.962753+00:00",
+  "runtime_seconds": 0.28536088205873966,
+  "status": "completed",
+  "failures": [],
+  "rows": [
+    {
+      "n": 4,
+      "lucas_modulus": 3,
+      "quotient_order": 9,
+      "occupied_classes": 8,
+      "all_classes_occupied": false,
+      "missing_class_count": 1,
+      "first_missing_classes": [
+        [
+          2,
+          1
+        ]
+      ],
+      "total_boolean_mass": 16,
+      "fiber_size_histogram": {
+        "2": 8
+      },
+      "smallest_fiber": 2,
+      "largest_fiber": 2,
+      "exact_guessing_probability": "1/2",
+      "residual_average_min_entropy": 1.0,
+      "exact_collision_probability": "1/8",
+      "quotient_identity_checked": true,
+      "direct_polynomial_and_matrix_representations_agree": true,
+      "enumeration_and_dynamic_counts_agree": true,
+      "runtime_seconds": 0.00014625117182731628
+    },
+    {
+      "n": 8,
+      "lucas_modulus": 7,
+      "quotient_order": 49,
+      "occupied_classes": 48,
+      "all_classes_occupied": false,
+      "missing_class_count": 1,
+      "first_missing_classes": [
+        [
+          2,
+          1
+        ]
+      ],
+      "total_boolean_mass": 256,
+      "fiber_size_histogram": {
+        "4": 16,
+        "6": 32
+      },
+      "smallest_fiber": 4,
+      "largest_fiber": 6,
+      "exact_guessing_probability": "3/16",
+      "residual_average_min_entropy": 2.415037499278844,
+      "exact_collision_probability": "11/512",
+      "quotient_identity_checked": true,
+      "direct_polynomial_and_matrix_representations_agree": true,
+      "enumeration_and_dynamic_counts_agree": true,
+      "runtime_seconds": 0.0008981709834188223
+    },
+    {
+      "n": 16,
+      "lucas_modulus": 47,
+      "quotient_order": 2209,
+      "occupied_classes": 2208,
+      "all_classes_occupied": false,
+      "missing_class_count": 1,
+      "first_missing_classes": [
+        [
+          2,
+          1
+        ]
+      ],
+      "total_boolean_mass": 65536,
+      "fiber_size_histogram": {
+        "8": 32,
+        "14": 64,
+        "18": 128,
+        "20": 128,
+        "22": 64,
+        "24": 32,
+        "25": 64,
+        "26": 128,
+        "27": 128,
+        "28": 192,
+        "30": 160,
+        "32": 192,
+        "33": 128,
+        "34": 96,
+        "35": 128,
+        "36": 256,
+        "38": 64,
+        "39": 64,
+        "40": 96,
+        "42": 64
+      },
+      "smallest_fiber": 8,
+      "largest_fiber": 42,
+      "exact_guessing_probability": "69/2048",
+      "residual_average_min_entropy": 4.891475543221832,
+      "exact_collision_probability": "4029/8388608",
+      "quotient_identity_checked": true,
+      "direct_polynomial_and_matrix_representations_agree": true,
+      "enumeration_and_dynamic_counts_agree": true,
+      "runtime_seconds": 0.28417078708298504
+    }
+  ]
+}

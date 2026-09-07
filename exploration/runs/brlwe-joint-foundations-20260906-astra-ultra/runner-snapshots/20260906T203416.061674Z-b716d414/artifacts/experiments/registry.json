@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "updated_utc": "2026-09-06T20:18:41.832651+00:00",
+  "max_concurrent": 2,
+  "experiments": [
+    {
+      "id": "COORD-E01",
+      "status": "complete",
+      "exit_code": 0,
+      "code": "experiments/coordinator_controls_v1.py",
+      "output": "experiments/coordinator_controls_v1.json",
+      "code_sha256": "00d6d926e3f08dfbe0d92c8e42e756caf9db49efa3cecb8cc5f862ac7a405f5f",
+      "command": "timeout 120s python3 experiments/coordinator_controls_v1.py > experiments/coordinator_controls_v1.json",
+      "precision": "Exact Fraction; labeled 80-digit mpmath diagnostics with displayed truncation tail",
+      "seed": null,
+      "checks_passed": 14,
+      "scope": "Finite historical and projection controls only"
+    },
+    {
+      "id": "W2-E-01-v1",
+      "status": "complete_worker_report",
+      "code": "workstreams/W2/code/structural_controls.py",
+      "output": "workstreams/W2/data/structural_controls.json",
+      "code_sha256": "60aa7ae7195b3401478a4dafd4ecc39115b76b48f66804f08026850bc6b19d97",
+      "output_sha256": "e78104c9ba0fcee52be2fc179e2d48c79ed9ac943448cb0d309a49395a769bad",
+      "timeout_seconds": 120,
+      "elapsed_seconds": 0.2764,
+      "arithmetic": "exact integer/Fraction",
+      "seed": null,
+      "scope": "Finite occupancy, shear and active-conditioning controls; no source sampler or SVP execution"
+    },
+    {
+      "id": "W2-E-02-v1",
+      "status": "complete_worker_report",
+      "code": "workstreams/W2/code/subgroup_controls.py",
+      "output": "workstreams/W2/data/subgroup_controls.json",
+      "code_sha256": "869bdc4034d20d0af88fe17fe94a4e5e56f39d962c58bcdc3b89f660f4fc05d5",
+      "output_sha256": "49d11af5bbd8cc9b6f0e23c84d1b55275b3e792d4ff3467307282efca8c240dc",
+      "timeout_seconds": 120,
+      "elapsed_seconds": 0.00993,
+      "arithmetic": "exact integer/Fraction",
+      "seed": null,
+      "scope": "Finite occupancy, shear and active-conditioning controls; no source sampler or SVP execution"
+    }
+  ],
+  "allocations": [
+    {
+      "id": "W2-E",
+      "worker": "/root/w2_structure",
+      "max_concurrent": 1,
+      "max_seconds": 120,
+      "deadline_utc": "2026-09-06T21:19:15Z"
+    },
+    {
+      "id": "B01-E",
+      "worker": "/root/b01_blind",
+      "max_concurrent": 1,
+      "max_seconds": 120,
+      "deadline_utc": "2026-09-06T20:54:15Z"
+    }
+  ]
+}

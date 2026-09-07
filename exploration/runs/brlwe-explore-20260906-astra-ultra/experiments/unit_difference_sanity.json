@@ -1,0 +1,74 @@
+{
+  "evidence": "experiment; exact integer arithmetic, finite exhaustive examples",
+  "seed": null,
+  "parameters": "dense binary differences, n=4,8; q=5,13,17",
+  "hand_checks_passed": true,
+  "elapsed_seconds": 0.18627401487901807,
+  "results": [
+    {
+      "n": 4,
+      "q": 5,
+      "difference_gcd_degree_counts": {
+        "0": 80
+      },
+      "first_nonunit": null,
+      "total_nonzero_differences": 80
+    },
+    {
+      "n": 8,
+      "q": 5,
+      "difference_gcd_degree_counts": {
+        "0": 6560
+      },
+      "first_nonunit": null,
+      "total_nonzero_differences": 6560
+    },
+    {
+      "n": 4,
+      "q": 13,
+      "difference_gcd_degree_counts": {
+        "0": 80
+      },
+      "first_nonunit": null,
+      "total_nonzero_differences": 80
+    },
+    {
+      "n": 8,
+      "q": 13,
+      "difference_gcd_degree_counts": {
+        "0": 6560
+      },
+      "first_nonunit": null,
+      "total_nonzero_differences": 6560
+    },
+    {
+      "n": 4,
+      "q": 17,
+      "difference_gcd_degree_counts": {
+        "0": 80
+      },
+      "first_nonunit": null,
+      "total_nonzero_differences": 80
+    },
+    {
+      "n": 8,
+      "q": 17,
+      "difference_gcd_degree_counts": {
+        "0": 4000,
+        "2": 512,
+        "1": 2048
+      },
+      "first_nonunit": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        0,
+        -1,
+        -1
+      ],
+      "total_nonzero_differences": 6560
+    }
+  ]
+}

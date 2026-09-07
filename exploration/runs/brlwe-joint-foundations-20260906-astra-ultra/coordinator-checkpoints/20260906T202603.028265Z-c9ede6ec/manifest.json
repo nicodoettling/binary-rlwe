@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260906T202603.028265Z-c9ede6ec",
+  "kind": "coordinator",
+  "created_at": "2026-09-06T20:26:03.028288+00:00",
+  "reason": "Registered W3 completion and blind review; integrated full W1 entropy and sampler-interface drafts with scope controls",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 92558,
+      "sha256": "9f3b9e01aadb4a4a20ea41b68170dae40ceabc2d60e2234857fdc6860c2a2441"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 5932,
+      "sha256": "0d7b876210414b0db153c1541bd8b7c7b9e236e5b23c94c409db92ca5ec45907"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 5818,
+      "sha256": "783553828dda3c88a2006986316b7978fd5c76ccaff61eb9c3a31cfb73b7b456"
+    },
+    {
+      "path": "final.md",
+      "bytes": 6341,
+      "sha256": "66d220cab5248404950e6d9e9351c2746c9c3f2da8a8f4f51190b6b8551f6f8f"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 3038,
+      "sha256": "9905a84c9c08d545a5e42f7e19f647ba7669f3fcdab34348cfdd6e32ec8c6584"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

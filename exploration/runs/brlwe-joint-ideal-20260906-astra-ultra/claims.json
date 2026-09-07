@@ -1,0 +1,1231 @@
+{
+  "schema_version": 2,
+  "run_id": "brlwe-joint-ideal-20260906-astra-ultra",
+  "updated_utc": "2026-09-06T15:36:43.466709+00:00",
+  "status": "provisional_before_fresh_criticism",
+  "claims": [
+    {
+      "id": "SC0",
+      "version": 1,
+      "statement": "General source: Gamma=(J,U,F,H) is independent of S,G; I=Ann(J), U in I; V is uniform I independent of Gamma conditional J; only (U+F,V+H) is published versus two independent uniform R elements. No binary-secret input.",
+      "dependencies": [],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "definition"
+      ],
+      "evidence": [
+        "foundations/F01-theorem-v1.md",
+        "bridge.md"
+      ],
+      "critic_dispositions": [],
+      "evidence_versions": [
+        {
+          "path": "foundations/F01-theorem-v1.md",
+          "sha256": "e8b8218ca2bb2d851b6068b4456983739cf5188bd4f12c49d880054064068852"
+        },
+        {
+          "path": "bridge.md",
+          "sha256": "c14f0ec141c471be0b9f4621661747abf4d29067353cb5db10932c8b14d974c9"
+        }
+      ]
+    },
+    {
+      "id": "B0",
+      "version": 1,
+      "statement": "Under SC0, bijective multiplication Q=R/J -> I by U, public independent Y~S+G, and exact strong noise/extraction comparisons, Adv_target(D)<=Adv_src(B1)+Adv_src(B2)+eta_N+eta_X. B1(a,c)=D(a,as+e); B2(a,c)=D(a,ay+c). Source tests may differ. Optional implementation loss 2xi_src+2xi_1+xi_Y+xi_target.",
+      "dependencies": [
+        {
+          "id": "SC0",
+          "version": 1
+        },
+        {
+          "id": "Y0",
+          "version": 1
+        }
+      ],
+      "conditional_on": [
+        {
+          "id": "X0",
+          "version": 2
+        },
+        {
+          "id": "N0",
+          "version": 2
+        },
+        {
+          "id": "U0",
+          "version": 2
+        }
+      ],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation"
+      ],
+      "evidence": [
+        "foundations/F01-theorem-v1.md",
+        "foundations/F01.md",
+        "bridge.md"
+      ],
+      "critic_dispositions": [],
+      "evidence_versions": [
+        {
+          "path": "foundations/F01-theorem-v1.md",
+          "sha256": "e8b8218ca2bb2d851b6068b4456983739cf5188bd4f12c49d880054064068852"
+        },
+        {
+          "path": "foundations/F01.md",
+          "sha256": "c6a09c470a6d2e8b62f0e592d6b7fae4c87d89cca4179c597d2a296c5fd22039"
+        },
+        {
+          "path": "bridge.md",
+          "sha256": "c14f0ec141c471be0b9f4621661747abf4d29067353cb5db10932c8b14d974c9"
+        }
+      ]
+    },
+    {
+      "id": "X0",
+      "version": 2,
+      "statement": "Extraction premise schema: TV((J,U,F,H,Y,pi_J(S)),(J,U,F,H,Y,Z))<=eta_X, Z quotient-uniform conditionally independent given J. H and Y are retained. This is a hypothesis schema, not a universally asserted bound.",
+      "dependencies": [
+        {
+          "id": "SC0",
+          "version": 1
+        },
+        {
+          "id": "Y0",
+          "version": 1
+        }
+      ],
+      "conditional_on": [],
+      "status": "HYPOTHESIS_SCHEMA",
+      "evidence_labels": [
+        "definition"
+      ],
+      "evidence": [
+        "bridge.md"
+      ],
+      "critic_dispositions": [],
+      "evidence_versions": [
+        {
+          "path": "bridge.md",
+          "sha256": "c14f0ec141c471be0b9f4621661747abf4d29067353cb5db10932c8b14d974c9"
+        }
+      ]
+    },
+    {
+      "id": "N0",
+      "version": 2,
+      "statement": "Noise premise schema: TV((J,U,F,FG+H),(J,U,F,E))<=eta_N, E independent target error. H is integrated out. This sufficient latent condition may not be weakened to public correctness without a revised full hybrid.",
+      "dependencies": [
+        {
+          "id": "SC0",
+          "version": 1
+        },
+        {
+          "id": "Y0",
+          "version": 1
+        }
+      ],
+      "conditional_on": [],
+      "status": "HYPOTHESIS_SCHEMA",
+      "evidence_labels": [
+        "definition"
+      ],
+      "evidence": [
+        "bridge.md"
+      ],
+      "critic_dispositions": [],
+      "evidence_versions": [
+        {
+          "path": "bridge.md",
+          "sha256": "c14f0ec141c471be0b9f4621661747abf4d29067353cb5db10932c8b14d974c9"
+        }
+      ]
+    },
+    {
+      "id": "U0",
+      "version": 2,
+      "statement": "Nonbijective U costs E[1-|UR|/|I|]. Uniform U in a d-coordinate ideal gives 1-(1-1/q+1/q²)^d; direct uniform nonzero active coordinates have zero cost but change the source law.",
+      "dependencies": [
+        {
+          "id": "SC0",
+          "version": 1
+        }
+      ],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation"
+      ],
+      "evidence": [
+        "foundations/F01.md",
+        "bridge.md"
+      ],
+      "critic_dispositions": [],
+      "evidence_versions": [
+        {
+          "path": "foundations/F01.md",
+          "sha256": "c6a09c470a6d2e8b62f0e592d6b7fae4c87d89cca4179c597d2a296c5fd22039"
+        },
+        {
+          "path": "bridge.md",
+          "sha256": "c14f0ec141c471be0b9f4621661747abf4d29067353cb5db10932c8b14d974c9"
+        }
+      ]
+    },
+    {
+      "id": "Y0",
+      "version": 1,
+      "statement": "The public reduction draws fresh binary S0 and G0 from a fixed public auxiliary law, independently of its source challenge, and sets Y=S0+G0. No hidden J,U,F,H or source-sampler access is used.",
+      "dependencies": [],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation"
+      ],
+      "evidence": [
+        "foundations/F01.md",
+        "bridge.md"
+      ],
+      "critic_dispositions": [],
+      "evidence_versions": [
+        {
+          "path": "foundations/F01.md",
+          "sha256": "c6a09c470a6d2e8b62f0e592d6b7fae4c87d89cca4179c597d2a296c5fd22039"
+        },
+        {
+          "path": "bridge.md",
+          "sha256": "c14f0ec141c471be0b9f4621661747abf4d29067353cb5db10932c8b14d974c9"
+        }
+      ]
+    },
+    {
+      "id": "A2",
+      "version": 1,
+      "statement": "Exact candidate law and parameters are candidates/A.md A2: d=floor(sqrt(n)/ell^4), ell=ceil(log2 n), all uniform CRT d-supports, active-unit U, independent uniform V, iid D_ell F conditioned on [-ell²,ell²], canonical coefficient-order exact H_seq from B=sigma²I-ell²M_F M_F^T, sigma=2n ell³; split prime sigma*n^c<=q<=n^K.",
+      "dependencies": [
+        {
+          "id": "SC0",
+          "version": 1
+        }
+      ],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "definition"
+      ],
+      "evidence": [
+        "candidates/A.md"
+      ],
+      "critic_dispositions": [],
+      "evidence_versions": [
+        {
+          "path": "candidates/A.md",
+          "sha256": "f97e502a68671c5add62e055a48ca3f62e72052177167a8d60dd7f398e366521"
+        }
+      ]
+    },
+    {
+      "id": "NC1",
+      "version": 1,
+      "statement": "For integer rectangular M and B=sigma²I-tau²MM^T>0, Theta=tau²I-tau⁴M^TM/sigma²>0, independent G~D_tau and H*~D_B give TV(MG+H*,D_sigma)<=delta(Theta)/(1-delta(Theta)). Exact canonical H_seq adds eta_seq from pointwise adaptive-normalizer bounds; approximation to H_seq is separate.",
+      "dependencies": [],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation"
+      ],
+      "evidence": [
+        "foundations/F02-completion.md",
+        "foundations/F02-review-packet.md",
+        "development/D03-common-k.md"
+      ],
+      "critic_dispositions": [],
+      "evidence_versions": [
+        {
+          "path": "foundations/F02-completion.md",
+          "sha256": "392bff6701967ba59f5cfd2a7d065f274e86dadb15c792079306ba0203ce3a4d"
+        },
+        {
+          "path": "foundations/F02-review-packet.md",
+          "sha256": "80e4b719b6539138a1cc2bcd98aabed0f51e8983be196d6c4391ba485bd5481d"
+        },
+        {
+          "path": "development/D03-common-k.md",
+          "sha256": "7ba3052a8358f37f3023e4ec37daf8e82b7d5984b334b5a5e8edbdc082092046"
+        }
+      ]
+    },
+    {
+      "id": "XG1",
+      "version": 1,
+      "statement": "For same-Y posterior replicas with beta=4E[p_Y(1-p_Y)], Delta coefficients have masses 1-beta/2,beta/4,beta/4. For uniform d-support, normalized averaged quotient collision is q^d E[binom(z(Delta),d)/binom(n,d)].",
+      "dependencies": [],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation",
+        "experiment"
+      ],
+      "evidence": [
+        "foundations/coordinator-extraction-gate.md",
+        "development/D01.md",
+        "experiments/E01-note.md"
+      ],
+      "critic_dispositions": [],
+      "evidence_versions": [
+        {
+          "path": "foundations/coordinator-extraction-gate.md",
+          "sha256": "7a4bd3acc26b045b3114b23f0954ad38a8b3beee13be2bdf9ed5770e6da1d958"
+        },
+        {
+          "path": "development/D01.md",
+          "sha256": "154d1b1d343d3ef8bbf3bde6a6589a773af7f3ca5be840ac37ebf0b7ebb97bbe"
+        },
+        {
+          "path": "experiments/E01-note.md",
+          "sha256": "00dec65a1670215941824b0586387b79b1e8d90b185a99aeae5c69d412302388"
+        }
+      ]
+    },
+    {
+      "id": "X1",
+      "version": 1,
+      "statement": "For fixed K>1, sufficiently large power-of-two n, each split prime q<=n^K and ceil((ln n)²)<=d<=floor(sqrt(n)/(ln n)^4), G iid wrapped D_ceil(log2 n) yields TV((Y,pi_T(S)),(Y,Z))<=.5 exp(-c_K*n/(d*(ln n)^6)) for EVERY d-support T. Appending any source kernel independent of S,G conditional T retains this bound.",
+      "dependencies": [
+        {
+          "id": "XG1",
+          "version": 1
+        }
+      ],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation",
+        "primary_source"
+      ],
+      "evidence": [
+        "development/D01-theorem-v1.md",
+        "development/D01.md"
+      ],
+      "critic_dispositions": [],
+      "evidence_versions": [
+        {
+          "path": "development/D01-theorem-v1.md",
+          "sha256": "83f76af8f9a8364dcef3937df0ca0bf70c7745f8c5ab78e65e8cc823d7a2f3df"
+        },
+        {
+          "path": "development/D01.md",
+          "sha256": "154d1b1d343d3ef8bbf3bde6a6589a773af7f3ca5be840ac37ebf0b7ebb97bbe"
+        }
+      ]
+    },
+    {
+      "id": "PR1",
+      "version": 1,
+      "statement": "For fixed integer h>1+c, least prime q=1 mod 2n^h satisfies q>=2n^h+1 and q<=C(2n^h)^5.18 by Xylouris. Thus the A2 numerical modulus regime is nonempty for sufficiently large fixed K; c=1,h=3,K=16 is one eventual choice.",
+      "dependencies": [],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation",
+        "primary_source"
+      ],
+      "evidence": [
+        "development/coordinator-prime-regime.md"
+      ],
+      "critic_dispositions": [],
+      "evidence_versions": [
+        {
+          "path": "development/coordinator-prime-regime.md",
+          "sha256": "f240b4201325eb8666f12ec39b2535ab7ca6a4f565f8e5d60ccec50fe91d9e21"
+        }
+      ]
+    },
+    {
+      "id": "AN",
+      "version": 1,
+      "statement": "A2 has a nonempty asymptotic analytic regime: its exact source law has bijective U, publicly samplable independent Y, negligible full retained extraction and negligible retained-(J,U,F) noise error, with polynomial-time negligible approximations and explicit costs. This asserts no source hardness.",
+      "dependencies": [
+        {
+          "id": "A2",
+          "version": 1
+        },
+        {
+          "id": "NC1",
+          "version": 1
+        },
+        {
+          "id": "X1",
+          "version": 1
+        },
+        {
+          "id": "PR1",
+          "version": 1
+        },
+        {
+          "id": "U0",
+          "version": 2
+        },
+        {
+          "id": "Y0",
+          "version": 1
+        }
+      ],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation"
+      ],
+      "evidence": [
+        "candidates/A.md",
+        "parameter-table.md",
+        "refinement/R01-compatibility.md",
+        "refinement/R03-interface-audit.md"
+      ],
+      "critic_dispositions": [],
+      "evidence_versions": [
+        {
+          "path": "candidates/A.md",
+          "sha256": "f97e502a68671c5add62e055a48ca3f62e72052177167a8d60dd7f398e366521"
+        },
+        {
+          "path": "parameter-table.md",
+          "sha256": "cba87cbe8ca21acf636da74a31cebbe61427ae438de2f02a6abee4ef185237b3"
+        },
+        {
+          "path": "refinement/R01-compatibility.md",
+          "sha256": "d01838ccad834979ee64165c2c5dab90e8df0162f4123b420cba2e13564ebb58"
+        },
+        {
+          "path": "refinement/R03-interface-audit.md",
+          "sha256": "ff47bae8fabbcac42a6a4c1c0fe0bab27a355975f058b9b20fa485ed7f9d453a"
+        }
+      ]
+    },
+    {
+      "id": "P0",
+      "version": 2,
+      "statement": "P0-A2: the EXACT A2 correlated pair (including active U and H_seq conditional F) is computationally indistinguishable from two independent uniform R elements at the same parameters. No matching established source reduction has been found.",
+      "dependencies": [
+        {
+          "id": "A2",
+          "version": 1
+        }
+      ],
+      "conditional_on": [],
+      "status": "OPEN",
+      "evidence_labels": [
+        "conjecture"
+      ],
+      "evidence": [
+        "candidates/A.md",
+        "foundations/F03-source-ledger.md",
+        "refinement/R02-break-A.md"
+      ],
+      "critic_dispositions": [],
+      "evidence_versions": [
+        {
+          "path": "candidates/A.md",
+          "sha256": "f97e502a68671c5add62e055a48ca3f62e72052177167a8d60dd7f398e366521"
+        },
+        {
+          "path": "foundations/F03-source-ledger.md",
+          "sha256": "4de3488e3c6f32abb93c4fbabe838b078f82b3c2484170f88299acdce5a16187"
+        },
+        {
+          "path": "refinement/R02-break-A.md",
+          "sha256": "f6ad32c87995741c7a17a7ee28e22b3370071ab15f1387cca5ce81079f08bf59"
+        }
+      ]
+    },
+    {
+      "id": "A0",
+      "version": 2,
+      "statement": "A fully supported one-sample hardness construction at A2 would require P0-A2 in addition to AN and the bridge. Analytic compatibility is provisionally derived, but independent support for the computational premise is missing.",
+      "dependencies": [
+        {
+          "id": "AN",
+          "version": 1
+        },
+        {
+          "id": "B0",
+          "version": 1
+        }
+      ],
+      "conditional_on": [
+        {
+          "id": "P0",
+          "version": 2
+        }
+      ],
+      "status": "DEFERRED",
+      "evidence_labels": [
+        "conjecture"
+      ],
+      "evidence": [
+        "parameter-table.md",
+        "refinement/R01-compatibility.md"
+      ],
+      "critic_dispositions": [],
+      "evidence_versions": [
+        {
+          "path": "parameter-table.md",
+          "sha256": "cba87cbe8ca21acf636da74a31cebbe61427ae438de2f02a6abee4ef185237b3"
+        },
+        {
+          "path": "refinement/R01-compatibility.md",
+          "sha256": "d01838ccad834979ee64165c2c5dab90e8df0162f4123b420cba2e13564ebb58"
+        }
+      ]
+    },
+    {
+      "id": "BSH",
+      "version": 1,
+      "statement": "The independent public shear (a,c0)->(a,c0+La+W) preserves uniform pairs and exactly transfers each output-source advantage to the specified independent-noise base. It preserves the actual U law. Hidden V=V0+LU remains conditionally uniform independent of U,F,H.",
+      "dependencies": [],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation"
+      ],
+      "evidence": [
+        "foundations/F03.md",
+        "development/D02.md",
+        "candidates/B.md"
+      ],
+      "critic_dispositions": [],
+      "evidence_versions": [
+        {
+          "path": "foundations/F03.md",
+          "sha256": "83608df6cfe48621a37f5c957c3a1fb6e05f86c853820707d5f323323be53097"
+        },
+        {
+          "path": "development/D02.md",
+          "sha256": "0bae1a41a7318febdbb40162e6008c36061d959d2eb0daa7050fc7f9c55fde53"
+        },
+        {
+          "path": "candidates/B.md",
+          "sha256": "b2639b1a855280b5499b8c462f7c586d9c4c400c8e99d15150356dd0a08f2907"
+        }
+      ]
+    },
+    {
+      "id": "BNG",
+      "version": 1,
+      "statement": "Under D02 exact iid-shear independence hypotheses, at gamma=tau=ell,sigma=2n ell³,q>=8sigma the strong retained-(J,U,F) noise distance is at least (1-pi/16)exp(-2pi)/(96n²ell⁴(1+ell)), for arbitrary independent X=H00+W. Wrapped two-F-fiber proof handles complex phases. This does not imply a public-transcript impossibility.",
+      "dependencies": [
+        {
+          "id": "N0",
+          "version": 2
+        }
+      ],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation"
+      ],
+      "evidence": [
+        "development/D02-review-packet.md",
+        "development/D02.md",
+        "refinement/R01-compatibility.md"
+      ],
+      "critic_dispositions": [],
+      "evidence_versions": [
+        {
+          "path": "development/D02-review-packet.md",
+          "sha256": "0272b0066725f9dbadd482fcf5c20445a6c285838834a7aa55fdad57964ee01b"
+        },
+        {
+          "path": "development/D02.md",
+          "sha256": "0bae1a41a7318febdbb40162e6008c36061d959d2eb0daa7050fc7f9c55fde53"
+        },
+        {
+          "path": "refinement/R01-compatibility.md",
+          "sha256": "d01838ccad834979ee64165c2c5dab90e8df0162f4123b420cba2e13564ebb58"
+        }
+      ]
+    },
+    {
+      "id": "D0",
+      "version": 2,
+      "statement": "B1 is retired as a negligible-error completion route in the tested iid independent public-shear scope, while its exact public source reduction remains valid. No blanket exclusion of public-only hybrids or adequately quantified finite-advantage transfers.",
+      "dependencies": [
+        {
+          "id": "BSH",
+          "version": 1
+        },
+        {
+          "id": "BNG",
+          "version": 1
+        }
+      ],
+      "conditional_on": [],
+      "status": "RETIRED_PENDING_REVIEW",
+      "evidence_labels": [
+        "derivation"
+      ],
+      "evidence": [
+        "candidates/B.md",
+        "development/D02.md"
+      ],
+      "critic_dispositions": [],
+      "evidence_versions": [
+        {
+          "path": "candidates/B.md",
+          "sha256": "b2639b1a855280b5499b8c462f7c586d9c4c400c8e99d15150356dd0a08f2907"
+        },
+        {
+          "path": "development/D02.md",
+          "sha256": "0bae1a41a7318febdbb40162e6008c36061d959d2eb0daa7050fc7f9c55fde53"
+        }
+      ]
+    },
+    {
+      "id": "NO1",
+      "version": 1,
+      "statement": "Under the independent-additive retained-variable noise premise and tau>=tau0>0, conditional TV epsilon forces max centered F coefficient squared <=(pi sigma²+2q²epsilon)/(16 D_tau0(1)). Averaged conditioning needs the stated Markov loss. This is not an impossibility for arbitrary public simulators.",
+      "dependencies": [
+        {
+          "id": "N0",
+          "version": 2
+        }
+      ],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation",
+        "primary_source"
+      ],
+      "evidence": [
+        "foundations/F02.md"
+      ],
+      "critic_dispositions": [],
+      "evidence_versions": [
+        {
+          "path": "foundations/F02.md",
+          "sha256": "bfe968ec197164442a1fd30d547c615b03fb209913257ad57a6ee012b736408c"
+        }
+      ]
+    },
+    {
+      "id": "DEC",
+      "version": 1,
+      "statement": "On the finite group, pointwise Fourier deconvolution ratios in (0,1] do not imply a probability law. F02 supplies a wrapped-DG Z5 counterexample and a rational signed inverse; Renyi second-moment event transfer does not generally preserve decision advantage.",
+      "dependencies": [],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation"
+      ],
+      "evidence": [
+        "foundations/F02.md"
+      ],
+      "critic_dispositions": [],
+      "evidence_versions": [
+        {
+          "path": "foundations/F02.md",
+          "sha256": "bfe968ec197164442a1fd30d547c615b03fb209913257ad57a6ee012b736408c"
+        }
+      ]
+    },
+    {
+      "id": "ATT",
+      "version": 2,
+      "statement": "For a power-of-two r with 2d<=r<=n and q^(1-d/r)>=8n^(1+epsilon)b, grouped-orbit ideal decoding has exp(O(r/epsilon))*poly cost and finite advantage >=p_alg-2^r(2b+1)^n/q^(n(1-d/r)). Imported probabilistic solver success p_alg must be retained. At A2 choose r=Theta_c(d), epsilon=c/4; no polynomial-time guarantee follows.",
+      "dependencies": [
+        {
+          "id": "A2",
+          "version": 1
+        }
+      ],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation",
+        "primary_source"
+      ],
+      "evidence": [
+        "foundations/F03-attacks.md",
+        "refinement/R02-break-A.md"
+      ],
+      "critic_dispositions": [],
+      "evidence_versions": [
+        {
+          "path": "foundations/F03-attacks.md",
+          "sha256": "a6c8321c668c4cf3cd492d362362f14625fd869328322037ac2687c677fc7fea"
+        },
+        {
+          "path": "refinement/R02-break-A.md",
+          "sha256": "f6ad32c87995741c7a17a7ee28e22b3370071ab15f1387cca5ce81079f08bf59"
+        }
+      ]
+    },
+    {
+      "id": "UNIQ",
+      "version": 1,
+      "statement": "If q^(1-2d/n)>2b sqrt(n) and 2b<q, a box-bounded decomposition A=U+F with CRT support(U)<=d has unique F, by divisibility and an upper bound on the cyclotomic norm. Active U then determines T. This gives no efficient decoder.",
+      "dependencies": [
+        {
+          "id": "A2",
+          "version": 1
+        }
+      ],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation"
+      ],
+      "evidence": [
+        "development/D02-A-correlation.md"
+      ],
+      "critic_dispositions": [],
+      "evidence_versions": [
+        {
+          "path": "development/D02-A-correlation.md",
+          "sha256": "d78e46bb226fe1388df2d922227016ff57875bfabd4b81580204f338fc341305"
+        }
+      ]
+    },
+    {
+      "id": "CHAR",
+      "version": 1,
+      "statement": "For exact A2, each fixed nontrivial additive pair character has negligible bias, bounded by R02.9 using the exact active-U factor and the full H_seq conditional F law. This excludes only fixed characters and polynomial-l1 fixed linear combinations, not arbitrary efficient tests or statistical distinguishability.",
+      "dependencies": [
+        {
+          "id": "A2",
+          "version": 1
+        },
+        {
+          "id": "NC1",
+          "version": 1
+        }
+      ],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation"
+      ],
+      "evidence": [
+        "refinement/R02-break-A.md"
+      ],
+      "critic_dispositions": [],
+      "evidence_versions": [
+        {
+          "path": "refinement/R02-break-A.md",
+          "sha256": "f6ad32c87995741c7a17a7ee28e22b3370071ab15f1387cca5ce81079f08bf59"
+        }
+      ]
+    },
+    {
+      "id": "KM",
+      "version": 1,
+      "statement": "The new source ((U_i+F_i,U_i K+H_i)) uses one uniform K independent of full Gamma_m. Under full joint noise/extraction, Adv_target,m<=two common-K source advantages+eta_N,m+eta_X,m, with the stated implementation terms. It needs no individual U bijectivity when this source is defined directly. The finite inequality itself does not assume computational hardness; only its negligible-advantage corollary needs Pm.",
+      "dependencies": [
+        {
+          "id": "Y0",
+          "version": 1
+        }
+      ],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation"
+      ],
+      "evidence": [
+        "development/D03-common-k.md",
+        "multi-sample.md"
+      ],
+      "critic_dispositions": [],
+      "evidence_versions": [
+        {
+          "path": "development/D03-common-k.md",
+          "sha256": "7ba3052a8358f37f3023e4ec37daf8e82b7d5984b334b5a5e8edbdc082092046"
+        },
+        {
+          "path": "multi-sample.md",
+          "sha256": "8c464cd2b82e4f1a9d791840aae7f0ca62f793a22fb1cb3f2f5603bb49ac4a17"
+        }
+      ]
+    },
+    {
+      "id": "Pm",
+      "version": 1,
+      "statement": "The exact common-K source of D03, including full sample-major H_seq with cross blocks, is computationally pseudorandom against 2m independent uniform ring elements. This is a new unsupported assumption, not a tensor product of P0-A2.",
+      "dependencies": [],
+      "conditional_on": [],
+      "status": "OPEN",
+      "evidence_labels": [
+        "conjecture"
+      ],
+      "evidence": [
+        "development/D03-common-k.md"
+      ],
+      "critic_dispositions": [],
+      "evidence_versions": [
+        {
+          "path": "development/D03-common-k.md",
+          "sha256": "7ba3052a8358f37f3023e4ec37daf8e82b7d5984b334b5a5e8edbdc082092046"
+        }
+      ]
+    },
+    {
+      "id": "MN",
+      "version": 1,
+      "statement": "For prescribed polynomial m, stacked M in Z^(mn by n), sigma_m=2n ell³ sqrt(m), and B=sigma_m²I-tau²MM^T, full discrete completion and H_seq approximation have negligible joint error. Smoothing has dimension n, sampler dimension mn; cross blocks and sigma_m*n^c<=q are required. No unchanged-sigma polynomial-m theorem.",
+      "dependencies": [
+        {
+          "id": "NC1",
+          "version": 1
+        },
+        {
+          "id": "A2",
+          "version": 1
+        }
+      ],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation"
+      ],
+      "evidence": [
+        "development/D03-common-k.md"
+      ],
+      "critic_dispositions": [],
+      "evidence_versions": [
+        {
+          "path": "development/D03-common-k.md",
+          "sha256": "7ba3052a8358f37f3023e4ec37daf8e82b7d5984b334b5a5e8edbdc082092046"
+        }
+      ]
+    },
+    {
+      "id": "LEAK",
+      "version": 1,
+      "statement": "Separate observations Y_i=S+G_i retain one S and have quotient consistency and leakage constraints. Full recovery has failure <=n exp(-pi m/(4tau²))+2nm exp(-pi(q-3)²/(4tau²)). Entropy forces eta_ext>=1-[H(S|Y_vec)+1]/[d log2q]; for A2 m=Ctau²ln n,C>2/pi gives distance 1-o(1). This concerns exposed auxiliary variables, not an RLWE transcript attack.",
+      "dependencies": [
+        {
+          "id": "A2",
+          "version": 1
+        }
+      ],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation"
+      ],
+      "evidence": [
+        "development/D03.md",
+        "refinement/R03-interface-audit.md",
+        "multi-sample.md"
+      ],
+      "critic_dispositions": [],
+      "evidence_versions": [
+        {
+          "path": "development/D03.md",
+          "sha256": "28bf75236f6646429519c5930ad73e6e4a416b4fac38dd3c8916f6fcb5ead495"
+        },
+        {
+          "path": "refinement/R03-interface-audit.md",
+          "sha256": "ff47bae8fabbcac42a6a4c1c0fe0bab27a355975f058b9b20fa485ed7f9d453a"
+        },
+        {
+          "path": "multi-sample.md",
+          "sha256": "8c464cd2b82e4f1a9d791840aae7f0ca62f793a22fb1cb3f2f5603bb49ac4a17"
+        }
+      ]
+    },
+    {
+      "id": "REC",
+      "version": 1,
+      "statement": "For exact planted recovery success epsilon from m inputs, self-verification against residual set T yields Adv_dec,m>=epsilon-m delta_T-2^n v_T^m. Held-out h verification yields Adv_dec,m+h>=epsilon(1-delta_T)^h-v_T^h. Baseline residual box makes self-verification losses negligible, so no held-out samples are needed under its own m-sample decision premise.",
+      "dependencies": [],
+      "conditional_on": [],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation"
+      ],
+      "evidence": [
+        "foundations/F01.md",
+        "development/D03.md",
+        "multi-sample.md"
+      ],
+      "critic_dispositions": [],
+      "evidence_versions": [
+        {
+          "path": "foundations/F01.md",
+          "sha256": "c6a09c470a6d2e8b62f0e592d6b7fae4c87d89cca4179c597d2a296c5fd22039"
+        },
+        {
+          "path": "development/D03.md",
+          "sha256": "28bf75236f6646429519c5930ad73e6e4a416b4fac38dd3c8916f6fcb5ead495"
+        },
+        {
+          "path": "multi-sample.md",
+          "sha256": "8c464cd2b82e4f1a9d791840aae7f0ca62f793a22fb1cb3f2f5603bb49ac4a17"
+        }
+      ]
+    },
+    {
+      "id": "M0",
+      "version": 2,
+      "statement": "No polynomial-sample result for one fixed reference target follows from the one-pair source assumption. D03 gives a separate conditional common-K theorem with full joint completion, parameter changes and an unsupported new source premise.",
+      "dependencies": [
+        {
+          "id": "KM",
+          "version": 1
+        },
+        {
+          "id": "MN",
+          "version": 1
+        },
+        {
+          "id": "LEAK",
+          "version": 1
+        }
+      ],
+      "conditional_on": [
+        {
+          "id": "Pm",
+          "version": 1
+        }
+      ],
+      "status": "DEFERRED",
+      "evidence_labels": [
+        "derivation"
+      ],
+      "evidence": [
+        "multi-sample.md"
+      ],
+      "critic_dispositions": [],
+      "evidence_versions": [
+        {
+          "path": "multi-sample.md",
+          "sha256": "8c464cd2b82e4f1a9d791840aae7f0ca62f793a22fb1cb3f2f5603bb49ac4a17"
+        }
+      ]
+    },
+    {
+      "id": "S0",
+      "version": 2,
+      "statement": "The one-sample conditional decision implication extends to one-sample exact recovery via REC. Larger budgets need their own decision premise; successful verification is not identification of the original witness, and no mild-search/oracle amplification is imported.",
+      "dependencies": [
+        {
+          "id": "REC",
+          "version": 1
+        },
+        {
+          "id": "B0",
+          "version": 1
+        }
+      ],
+      "conditional_on": [
+        {
+          "id": "P0",
+          "version": 2
+        }
+      ],
+      "status": "PROVISIONAL",
+      "evidence_labels": [
+        "derivation"
+      ],
+      "evidence": [
+        "bridge.md",
+        "multi-sample.md"
+      ],
+      "critic_dispositions": [],
+      "evidence_versions": [
+        {
+          "path": "bridge.md",
+          "sha256": "c14f0ec141c471be0b9f4621661747abf4d29067353cb5db10932c8b14d974c9"
+        },
+        {
+          "path": "multi-sample.md",
+          "sha256": "8c464cd2b82e4f1a9d791840aae7f0ca62f793a22fb1cb3f2f5603bb49ac4a17"
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "at_utc": "2026-09-06T15:30:08.882030+00:00",
+      "event": "A1 to A2 dimension and exact source convention; foundation/development/refinement statements integrated",
+      "prior_ledger": "snapshots/portfolio-gate-v1/claims.json",
+      "downstream_reopened": [
+        "P0",
+        "A0",
+        "M0",
+        "S0"
+      ],
+      "prior_versions": [
+        {
+          "id": "B0",
+          "version": 1,
+          "statement": "For every PPT one-sample test D there are public source tests B1,B2 with Adv_target(D) <= Adv_source(B1)+Adv_source(B2)+eta_ext+eta_noise+explicit implementation losses.",
+          "dependencies": [
+            {
+              "id": "SC0",
+              "version": 1
+            },
+            {
+              "id": "X0",
+              "version": 1
+            },
+            {
+              "id": "N0",
+              "version": 1
+            },
+            {
+              "id": "U0",
+              "version": 1
+            },
+            {
+              "id": "Y0",
+              "version": 1
+            }
+          ],
+          "status": "PROVISIONAL",
+          "evidence_labels": [
+            "derivation"
+          ],
+          "evidence": [
+            "foundations/F01-theorem-v1.md",
+            "foundations/F01.md"
+          ],
+          "critic_dispositions": []
+        },
+        {
+          "id": "SC0",
+          "version": 1,
+          "statement": "The exact paired source is (U+F,V+H) with V uniform in Ann(J), independent of (U,F,H) conditional on J; source sampling has no binary secret input.",
+          "dependencies": [],
+          "status": "PROVISIONAL",
+          "evidence_labels": [
+            "definition"
+          ],
+          "evidence": [
+            "foundations/F03.md"
+          ],
+          "critic_dispositions": []
+        },
+        {
+          "id": "X0",
+          "version": 1,
+          "statement": "TV((J,U,F,H,Y,pi_J(S)),(J,U,F,H,Y,Z)) <= eta_ext with uniform conditionally independent Z.",
+          "dependencies": [
+            {
+              "id": "SC0",
+              "version": 1
+            },
+            {
+              "id": "Y0",
+              "version": 1
+            }
+          ],
+          "status": "OPEN",
+          "evidence_labels": [
+            "conjecture"
+          ],
+          "evidence": [],
+          "critic_dispositions": []
+        },
+        {
+          "id": "N0",
+          "version": 1,
+          "statement": "TV((J,U,F,FG+H),(J,U,F,E)) <= eta_noise with E independent wrapped iid target Gaussian; H integrated out.",
+          "dependencies": [
+            {
+              "id": "SC0",
+              "version": 1
+            },
+            {
+              "id": "Y0",
+              "version": 1
+            }
+          ],
+          "status": "OPEN",
+          "evidence_labels": [
+            "conjecture"
+          ],
+          "evidence": [],
+          "critic_dispositions": []
+        },
+        {
+          "id": "U0",
+          "version": 1,
+          "statement": "U induces an isomorphism R_q/J to Ann(J); its precise sampling and conditioning cost belong to SC0.",
+          "dependencies": [
+            {
+              "id": "SC0",
+              "version": 1
+            }
+          ],
+          "status": "OPEN",
+          "evidence_labels": [
+            "conjecture"
+          ],
+          "evidence": [],
+          "critic_dispositions": []
+        },
+        {
+          "id": "Y0",
+          "version": 1,
+          "statement": "Y can be sampled as fresh S0+G0 from a fixed public G law independently of the source challenge.",
+          "dependencies": [],
+          "status": "PROVISIONAL",
+          "evidence_labels": [
+            "derivation"
+          ],
+          "evidence": [
+            "foundations/F01-theorem-v1.md"
+          ],
+          "critic_dispositions": []
+        },
+        {
+          "id": "P0",
+          "version": 1,
+          "statement": "The exact source SC0 is computationally indistinguishable from two independent uniform ring elements in a common claimed regime.",
+          "dependencies": [
+            {
+              "id": "SC0",
+              "version": 1
+            }
+          ],
+          "status": "OPEN",
+          "evidence_labels": [
+            "conjecture"
+          ],
+          "evidence": [],
+          "critic_dispositions": []
+        },
+        {
+          "id": "A0",
+          "version": 1,
+          "statement": "Candidate slot A has one common regime for rich-support extraction, efficient completion and an independently defensible joint source.",
+          "dependencies": [
+            {
+              "id": "X0",
+              "version": 1
+            },
+            {
+              "id": "N0",
+              "version": 1
+            },
+            {
+              "id": "U0",
+              "version": 1
+            },
+            {
+              "id": "P0",
+              "version": 1
+            }
+          ],
+          "status": "OPEN",
+          "evidence_labels": [
+            "conjecture"
+          ],
+          "evidence": [],
+          "critic_dispositions": []
+        },
+        {
+          "id": "D0",
+          "version": 1,
+          "statement": "Candidate slot B is substantively distinct or explicitly retired with a scoped obstruction.",
+          "dependencies": [],
+          "status": "OPEN",
+          "evidence_labels": [
+            "conjecture"
+          ],
+          "evidence": [],
+          "critic_dispositions": []
+        },
+        {
+          "id": "M0",
+          "version": 1,
+          "statement": "Any m-sample extension provides the full shared-secret, independent-public-multiplier and iid-noise target law with a matching joint source.",
+          "dependencies": [
+            {
+              "id": "B0",
+              "version": 1
+            }
+          ],
+          "status": "OPEN",
+          "evidence_labels": [
+            "conjecture"
+          ],
+          "evidence": [],
+          "critic_dispositions": []
+        },
+        {
+          "id": "S0",
+          "version": 1,
+          "statement": "Decision-to-search consequence specifies training budget, held-out verification samples, false-positive mass and recovery notion.",
+          "dependencies": [
+            {
+              "id": "M0",
+              "version": 1
+            }
+          ],
+          "status": "OPEN",
+          "evidence_labels": [
+            "conjecture"
+          ],
+          "evidence": [],
+          "critic_dispositions": []
+        },
+        {
+          "id": "NC1",
+          "version": 1,
+          "statement": "For B=sigma^2 I-tau^2 MM^T>0 and T=tau^2 I-tau^4 M^TM/sigma^2>0, independent G~D_tau^n and H~D_B give TV(MG+H,D_sigma^n)<=delta(T)/(1-delta(T)); the actual H_seq sampler adds eta_seq and implementation error.",
+          "dependencies": [],
+          "status": "PROVISIONAL",
+          "evidence_labels": [
+            "derivation"
+          ],
+          "evidence": [
+            "foundations/F02-completion.md"
+          ],
+          "critic_dispositions": []
+        },
+        {
+          "id": "NO1",
+          "version": 1,
+          "statement": "Under the SC0 joint independent-additive noise condition and tau>=tau0>0, max centered F coefficient squared is bounded conditionally by (pi sigma^2+2q^2 epsilon)/(16 D_tau0(1)), with Markov cost for averaged latent conditioning.",
+          "dependencies": [
+            {
+              "id": "N0",
+              "version": 1
+            }
+          ],
+          "status": "PROVISIONAL",
+          "evidence_labels": [
+            "derivation",
+            "primary_source"
+          ],
+          "evidence": [
+            "foundations/F02.md"
+          ],
+          "critic_dispositions": []
+        },
+        {
+          "id": "XG1",
+          "version": 1,
+          "statement": "For uniform CRT d-support and effective posterior difference coefficients P(0)=1-beta/2,P(±1)=beta/4, q^d E Coll(pi_T S|Y)=q^d E[binom(z(Delta),d)/binom(n,d)].",
+          "dependencies": [],
+          "status": "PROVISIONAL",
+          "evidence_labels": [
+            "derivation",
+            "experiment"
+          ],
+          "evidence": [
+            "foundations/coordinator-extraction-gate.md",
+            "experiments/E01-note.md"
+          ],
+          "critic_dispositions": []
+        }
+      ]
+    }
+  ],
+  "review_snapshot": "snapshots/review-v1"
+}

@@ -1,0 +1,9 @@
+# Research context carried into every assignment
+
+This is academic theoretical cryptography research on the hardness of binary-secret Ring Learning with Errors (RLWE). The mathematical objective is to prove reductions between precisely specified probability distributions, identify necessary assumptions, or refute proposed statements by mathematical counterexamples. A cryptographic distinguisher or recovery algorithm in this project acts on a formally defined distribution of locally generated synthetic ring elements.
+
+The methods are reading public research papers, algebraic and probabilistic reasoning, proof review, and bounded local numerical or exact finite-model experiments. The outputs are mathematical notes, complete reduction interfaces, parameter inequalities, counterexamples, and reproducible experiment records. No existing service, deployed cryptographic system, third-party ciphertext, credential, or external machine is a research target.
+
+Keep the actual cryptographic objectives and terminology explicit. This scope supplies context; it is not evidence that a theorem holds or a guarantee against screening errors. The previous run ended with a recorded `cyber_policy` error, reported through Codex feedback. Any new content-policy interruption must be recorded and surfaced, with no automatic retry or continuation.
+
+Every assignment retains the same bounded-run limits: Astra with ultra reasoning, assigned UTC deadline, local workspace output, no goal tools, no external workers, and no further agent spawning by workers. Public literature browsing is permitted. Experiments use installed tools and synthetic inputs within their allocated time.

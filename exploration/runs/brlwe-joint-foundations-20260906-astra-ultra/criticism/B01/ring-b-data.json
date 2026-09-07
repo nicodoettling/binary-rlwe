@@ -1,0 +1,112 @@
+{
+  "mode": "ring_b",
+  "seed": null,
+  "arithmetic": "exact integers and fractions.Fraction",
+  "tail_error": 0,
+  "wall_seconds": 0.37870623311027884,
+  "result": {
+    "parameters": {
+      "n": 4,
+      "q": 97,
+      "d": 1,
+      "b": 1,
+      "R0": 0,
+      "F": "zero",
+      "E": "zero (modified noise model)"
+    },
+    "roots": [
+      33,
+      47,
+      50,
+      64
+    ],
+    "TV_P_Q": "7872/9409",
+    "witness_P": "1",
+    "witness_Q": "9313/9409",
+    "eta_iso": "96/9409",
+    "first_difference_vectors_checked": 625,
+    "first_bad_nonzero": 0,
+    "second_vectors_checked": 6561,
+    "second_bad_nonzero": 0,
+    "second_difference_vectors_checked": 83521,
+    "second_bad_nonzero_differences": 0,
+    "public_test_representatives": [
+      {
+        "u": 0,
+        "v": 0,
+        "accept": true
+      },
+      {
+        "u": 0,
+        "v": 1,
+        "accept": false
+      },
+      {
+        "u": 0,
+        "v": 96,
+        "accept": false
+      },
+      {
+        "u": 1,
+        "v": 0,
+        "accept": true
+      },
+      {
+        "u": 1,
+        "v": 1,
+        "accept": true
+      },
+      {
+        "u": 1,
+        "v": 96,
+        "accept": true
+      },
+      {
+        "u": 96,
+        "v": 0,
+        "accept": true
+      },
+      {
+        "u": 96,
+        "v": 1,
+        "accept": true
+      },
+      {
+        "u": 96,
+        "v": 96,
+        "accept": true
+      }
+    ],
+    "dropped_first_gate_control": {
+      "n": 4,
+      "q": 17,
+      "d": 1,
+      "b": 2,
+      "w": [
+        1,
+        0,
+        4,
+        0
+      ],
+      "CRT_w": [
+        0,
+        2,
+        2,
+        0
+      ]
+    },
+    "sharp_norm_control": {
+      "n": 2,
+      "q": 5,
+      "w": [
+        1,
+        2
+      ],
+      "CRT_w": [
+        0,
+        2
+      ],
+      "norm_squared": 5
+    }
+  }
+}

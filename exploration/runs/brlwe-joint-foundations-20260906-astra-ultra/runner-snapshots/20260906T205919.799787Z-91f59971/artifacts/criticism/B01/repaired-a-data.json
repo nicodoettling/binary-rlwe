@@ -1,0 +1,18 @@
+{
+  "mode": "repaired_a",
+  "seed": null,
+  "arithmetic": "exact integers and fractions.Fraction",
+  "tail_error": 0,
+  "wall_seconds": 2.396911562187597,
+  "result": {
+    "models": 46798,
+    "max_TV_minus_budget": "0",
+    "source_branches": {
+      "U_zero": 22,
+      "bijection": 29,
+      "rank_loss": 17,
+      "U_nonzero": 24
+    },
+    "scope": "Exhaustive listed finite laws only; not an unrestricted proof."
+  }
+}

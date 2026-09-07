@@ -1,0 +1,12 @@
+{
+  "observed_utc": "2026-09-06T10:53:58.624639+00:00",
+  "source": "local collaboration.list_agents immediately before this record, plus agents.json and completed experiment records",
+  "active_research_workers": 0,
+  "unfinished_workers": [],
+  "active_experiments": 0,
+  "cancellation_required": false,
+  "stop_method": "all delegated tasks and bounded experiments completed naturally before early shutdown",
+  "continuations_created": false,
+  "launcher_owned_files_edited": false,
+  "launcher_process_exit_status": "not asserted; launcher owns post-exit finalization"
+}

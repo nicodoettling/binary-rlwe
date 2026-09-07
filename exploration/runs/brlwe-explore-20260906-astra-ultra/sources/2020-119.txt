@@ -1,0 +1,2386 @@
+Hardness of LWE on General Entropic Distributions
+
+Zvika Brakerski ∗
+Nico D¨ottling†
+
+Abstract
+
+The hardness of the Learning with Errors (LWE) problem is by now a cornerstone of the
+cryptographic landscape. In many of its applications the so called “LWE secret” is not sam-
+pled uniformly, but comes from a distribution with some min-entropy. This variant, known as
+“Entropic LWE”, has been studied in a number of works, starting with Goldwasser et al. (ICS
+2010). However, so far it was only known how to prove the hardness of Entropic LWE for secret
+distributions supported inside a ball of small radius.
+In this work we resolve the hardness of Entropic LWE with arbitrary long secrets, in the
+following sense. We show an entropy bound that guarantees the security of arbitrary Entropic
+LWE. This bound is higher than what is required in the ball-bounded setting, but we show that
+this is essentially tight. Tightness is shown unconditionally for highly-composite moduli, and
+using black-box impossibility for arbitrary moduli.
+Technically, we show that the entropic hardness of LWE relies on a simple to describe
+lossiness property of the distribution of secrets itself. This is simply the probability of recovering
+a random sample from this distribution s, given s+e, where e is Gaussian noise (i.e. the quality
+of the distribution of secrets as an error correcting code for Gaussian noise). We hope that this
+characterization will make it easier to derive entropic LWE results more easily in the future.
+We also use our techniques to show new results for the ball-bounded setting, essentially showing
+that under a strong enough assumption even polylogarithmic entropy suffices.
+
+1
+Introduction
+
+Lattice-based cryptography has emerged in the last few decades as one of the most important
+developments in cryptography. Lattice-based cryptographic schemes have been shown to achieve
+functionalities that are unknown under any other cryptographic structure (such as fully homomor-
+phic encryption [Gen09, BV11], attribute-based encryption for circuits [GVW13] and many others).
+At the same time, it is possible in many cases to show strong security properties such as worst-case
+to average-case hardness results [Ajt96, AD97, MR04, Reg05] that relate the hardness of break-
+ing the cryptographic scheme to that of solving approximate short-vector problems in worst-case
+lattices, a problem that resists algorithmic progress even when when use of quantum computers is
+considered.
+Much of the progress in advancing lattice-based cryptography can be attributed to the hardness
+of the Learning with Errors (LWE) problem, introduced by Regev [Reg05]. This problem can be
+stated in a very clean linear-algebraic syntax, which allows to utilize it for applications very easily,
+
+∗Weizmann Institute of Science, Israel, zvika.brakerski@weizmann.ac.il. Supported by the Binational Science
+Foundation (Grant No. 2016726), and by the European Union Horizon 2020 Research and Innovation Program via
+ERC Project REACT (Grant 756482) and via Project PROMETHEUS (Grant 780701).
+†CISPA Helmholtz Center for Information Security, doettling@cispa.saarland.
+
+1
+
+
+and at the same time was shown to enjoy worst-case hardness as explained above. An instance
+of the LWE problem has the following form. It is parameterized by a dimension n and modulus
+q ≫ n. Consider the following distribution. Sample a (public) random matrix A ∈ Zn×m
+q
+, for
+arbitrary m = poly(n), and a (secret) random vector s ∈ Zn
+q , and output (A, y), where y = sA + e
+(mod q), and e is a noise vector selected from some distribution (often a Gaussian with parameter
+σ ≪ q). The goal of the LWE solver is to find s given (A, y), where m can be as large as the
+adversary desires. In the most straightforward use of this assumption for cryptography (suggested
+in Regev’s original paper), (A, y) are used as public key for an encryption scheme, and s is the
+secret key. Similar roles are assumed in other cryptographic constructions.
+Goldwasser et al. [GKPV10] initiated a study on the hardness of LWE when s is not chosen
+uniformly at random. This study was motivated by the desire to achieve an entropic notion of
+security that will allow to guarantee that the problem remains hard even if some information about
+s is leaked.
+They showed that if s is sampled from a binary distribution (i.e. supported over
+{0, 1}n), then LWE remains hard so long as s has sufficient entropy. In fact, sampling s from a
+(possibly sparse) binary distribution is attractive in other contexts such as constructing efficient
+post-quantum cryptographic objects [NIS], minimizing noise blowup in homomorphic encryption
+[BGV12], classical worst-case to average-case reduction [BLP+13] and proving hardness for the
+so-called Learning with Rounding (LWR) problem [BPR12, BGM+16]. Progress on understanding
+entropic LWE in the binary setting was made in subsequent works [BLP+13, Mic18].
+However, the question of hardness of LWE on imperfect secret distributions carries significance
+beyond the binary setting. If we consider the key-leakage problem, then changing the honest key
+distribution to be binary just for the sake of improving robustness against key-leakage carries a
+heavy cost in the performance and security features in case no leakage occurs. An entropic hardness
+result for the general uniform setting is thus a natural question. Furthermore, for a problem as
+important as LWE, the mere scientific understanding of the robustness of the problem to small
+changes in the prescribed distributions and parameters stands as a self-supporting goal.
+Alas, it appears that current approaches provide no insight for the general setting. Existing
+results can be extended beyond the binary setting so long as the norm of the vectors s is bounded,
+i.e. so long as the secret distribution is contained within some small enough ball, as was made
+explicit by Alwen et al. [AKPW13]. However this appeared to be an artifact of the proof technique
+and it was speculated by some that a general entropic LWE result should exist. Exploring the
+hardness of general entropic LWE is the goal of this work.
+
+1.1
+Our Results
+
+We relate the hardness of Entropic LWE for arbitrary distributions to a basic property of the
+distribution, specifically to how bad the distribution performs as an error correcting code against
+Gaussian noise. Specifically, let S be some distribution over secrets in Zn
+q . Recall the notion of
+conditional smooth min-entropy ˜H∞ and define the noise lossiness of S as
+
+νσ(S) = ˜H∞(s|s + e) = − log
+�
+Pr
+s,e[A∗(s + e) = s]
+�
+,
+(1)
+
+where s is sampled from S and e is (continuous, say) Gaussian noise with parameter σ, and A∗ is
+the optimal maximal likelihood decoder for s, namely A∗(y) = arg maxs Prs,e[s|y = s + e]. This
+notion is a min-entropy analogue to the notion of equivocation for Shannon-entropy, and can be
+seen as a guaranteed information loss of a gaussian channel (rather than average information loss).
+
+2
+
+
+We advocate for noise lossiness as a new and natural measure for a distribution and show that it
+allows to get a good handle on the entropic LWE question. We do this by showing that distributions
+with sufficiently high noise lossiness lead to hard instances of Entropic LWE (under assumptions, see
+details below). We then show that high min-entropy implies (some limited level of) noise lossiness,
+which allows us to derive hardness results for general Entropic LWE. We furthermore show that
+results for distributions supported inside a ball can also be derived using our technique and show
+that noise lossiness of such distributions is larger than that of general distributions.1 Finally, we
+show that our bounds for the general entropic setting are essentially tight. See below for details.
+
+Noise Lossiness Implies Entropic LWE Hardness (Section 4).
+We show that high noise
+lossiness implies entropic hardness. Our result relies on the hardness of the decision version of LWE
+(with “standard” secret distribution). Whereas the variant we discussed so far is the search variant,
+which asserts that finding s given (A, y) should be hard, the decision variant dLWE asserts that
+it is computationally hard to even distinguish (A, y) from (A, u) where u ∈ Zm
+q is uniform. The
+hardness of decision LWE immediately implies hardness for search LWE, and the converse is also
+true but not for every noise distribution and via a reduction that incurs some cost. This is also the
+case in the entropic setting. By default when we refer to (Entropic) LWE in this work, we refer to
+the search version. We will mention explicitly when referring to the decision version.
+Our results in this setting are as follows.
+
+Theorem 1.1 (Main Theorem, Informal). Assume that decision LWE with dimension k, modulus
+q and Gaussian noise parameter γ is hard. Let S be a distribution over Zn
+q with νσ1(S) ≥ k log(q)+
+ω(log λ) for some parameter σ1, then Entropic LWE with secret distribution S and Gaussian noise
+parameter σ ≈ σ1γ√m is hard.
+
+Our actual theorem is even more expressive on two aspects. First, while the above result applies
+for search Entropic LWE for all values of q, but in some cases, e.g. when q is prime, it also applies
+to decision Entropic LWE. Second, in the case where S is supported inside a ball, the term k log(q)
+can be relaxed to roughly k log(γr) where r is the radius of the ball (this only applies to the search
+version).
+We note that we incur a loss in noise that depends on √m, i.e. depends on the number of LWE
+samples. This is inherent in our proof technique, but using known statistical or computational
+rerandomization results, this dependence can be replaced by dependence on n, γ.
+As explained above, most of our results imply hardness for search Entropic LWE and do not
+directly imply hardness for the decision version (albeit search-to-decision reductions can be applied,
+as we explained below). We note that this is an artifact of the applicability of our proof technique
+even in cases where the decision problem is not hard at all. We view this as a potentially useful
+property which may find future applications. To illustrate, consider the setting where the distribu-
+tions of s and e, as well as the modulus q, are all even. (Indeed, usually we consider the coordinates
+of e to be continuous Gaussians or a discrete Gaussians over Z, but one may be interested in a
+setting where they are, say, discrete Gaussian over 2Z.) In this setting, decision LWE is trivially
+easy, but search LWE remains hard. Our techniques (as detailed in the technical overview below)
+naturally extend to this setting and can be used to prove entropic hardness in this case as well.
+
+1In fact, noise lossiness provides a simple intuitive explanation on why ball-bounded distributions with given
+min-entropy yield harder Entropic LWE instances than general ones. This is due to the fact that packing the same
+number of elements in a small ball necessarily makes it harder to go back to the point of origin once noise is added.
+
+3
+
+
+In the standard regime of parameters, where e is a continuous Gaussian, we can derive the
+hardness of the decision problem using known search-to-decision reductions.
+The most generic
+version, as in e.g. [Reg05], runs in time q · poly(n) but in many cases the dependence on q can be
+eliminated [Pei09, MM11]. In particular we note that in the ball-bounded setting, search-to-decision
+does not incur dependence on q.
+
+Noise-Lossiness and Entropy (Section 5).
+We analyze the relation between noise-lossiness
+and min-entropy of a distribution both in the general setting and in the ball-bounded setting. We
+derive the following bounds.
+
+Lemma 1.2 (Noise-Lossiness of General Distributions). Let S be a general distribution over Zn
+q ,
+then νσ(S) ≥ ˜H∞(s) − n log(q/σ) − 1.
+
+Lemma 1.3 (Noise-Lossiness of Small Distributions.). Let S be a distribution over Zn
+q which is
+supported only inside a ball of radius r, then νσ(S) ≥ ˜H∞(s) −
+√
+
+2π log(e) · √nr/σ.
+
+Putting these results together with our main theorem, we get general Entropic LWE hardness
+whenever ˜H∞(s) ≳ k log(q) + n log(qγ√m/σ). In the r-ball-bounded setting we require entropy
+˜H∞(s) ≳ k log(γr) +
+√
+
+2π log(e)γ√nmr/σ.2 Note that if we make the very strong (yet not implau-
+sible) assumption that LWE is sub-exponentially secure, then we can use complexity leveraging and
+choose k to be polylogarithmic, we can choose σ to be large enough that the second term vanishes,
+and we get entropic hardness even with ˜H∞(s) which is polylogarithmic in the security parameter,
+in particular independent of log(q).
+
+Tightness (Sections 6 and 7).
+We provide two tightness results. The first one is essentially a
+restatement of a bound that was shown in the Ring-LWE setting by Bolboceanu et al. [BBPS19].
+It is unconditional, but requires q to have a factor of a proper size.
+
+Theorem 1.4 (Counterexample for Entropic LWE, Informal [BBPS19]). Let n, q, σ be LWE
+parameters. Then if there exists p s.t. p|q and p ≈ σ√n, then there exists a distribution S with
+min-entropy roughly n log(q/σ), such that Entropic LWE is insecure with respect to S.
+
+However, the above requires that q has a factor of appropriate size. One could wonder whether
+one can do better for a prime q. While we do not have an explicit counterexample here, we can
+show that proving such a statement (i.e. security for Entropic LWE with entropy below roughly
+n log(q/σ)) cannot be done by a black-box reduction to a standard “game based” assumption.
+In particular if the reduction can only access the adversary and to the distribution of secrets as
+black-box, then the entropy bound n log(q/σ) applies even for prime q.
+
+Theorem 1.5 (Barrier for Entropic LWE, Informal). Let n, q, σ be LWE parameters.
+Then
+there is no black-box reduction from Entropic LWE with entropy ≪ n log(q/σ) to any game-based
+cryptographic assumption.
+
+2In the ball-bounded setting, our main improvement over [AKPW13, Appendix B] is that our entropy bound is
+independent of q. This is due to our use of Hermite normal form. Beyond this important difference, our flooding
+method and that of [AKPW13] are asymptotically similar in the ball-bounded setting. Our method of flooding at the
+source, however, is a general method that performs at least as well as the state of the art in the ball-bounded setting,
+and also implies tight results in the unbounded setting.
+
+4
+
+
+1.2
+Technical Overview
+
+We provide a technical overview of our main contributions.
+
+The Lossiness Approach to Entropic LWE.
+The starting point of our proof is the lossiness
+approach. This approach (in some small variants) was used in all existing hardness results for
+Entropic LWE [GKPV10]. However, prior works were only able to use it for norm-bounded secrets.
+We show a minor yet crucial modification that allows to relate the hardness of Entropic LWE to
+the noise-lossiness of the noise distribution.
+Fix parameters n, q, σ and recall that the adversary is given (A, y), where A is uniform, y =
+sA + e (mod q), s sampled from S and e is a (continuous) Gaussian with parameter σ.
+The
+lossiness approach replaces the uniform matrix A with an “LWE matrix” of the form: BC + F,
+where B ∈ Zn×k
+q
+, C ∈ Zk×m
+q
+are uniform, and k ≪ n, m, and where F is a matrix whose every
+element is a (discrete) Gaussian with parameter γ. The decisional LWE assumption with dimension
+k, modulus q and noise parameter γ asserts that BC+F is computationally indistinguishable from
+a uniform matrix, and therefore the adversary should also be able to recover s when (A, y) is
+generated using A = BC + F. At this point, the vector y is distributed as
+
+y = sA + e = sBC + sF + e .
+
+The strategies on how to continue from here diverge.
+The [GKPV10] approach is to say that
+when s is confined inside a ball, and when e is a wide enough Gaussian, then the value sF + e is
+“essentially independent” of s. This is sometimes referred to as “noise flooding” since the noise e
+“floods” the value sF and minimizes its effect. This allows to apply the leftover hash lemma to
+argue that sB is statistically close to a uniform s′ and obtain a new “standard” LWE instance.
+The [BLP+13, Mic18] approaches can be viewed as variants of this method, where the argument
+on sF + e is refined in non-trivial ways to achieve better parameters.
+This type of argument cannot work for the general setting (i.e. when s is not short) since in this
+case sF + e can reveal noticeable information about s. For example, if s is a multiple of some large
+enough factor then the noise e can just be rounded away (indeed this will be the starting point for
+our tightness result, as we explain further below).
+Our approach therefore is to resort to a weaker claim. We do not try to change y into a form
+of standard LWE, but instead all we show is that y loses information about s. Namely, we will
+show that even information-theoretically it is not possible to recover s from (A, y). This approach
+was taken, for example, by Alwen et al. [AKPW13], but they were unable to show lossiness for the
+general setting. The reason, essentially, is that they also use a refined version of noise flooding, one
+that did not require that e completely floods sF, only slightly perturb it. We can call it “gentle
+flooding” for the purpose of this work. A similar argument was used in [DM13] to establish hardness
+of LWE with uniform errors from a short interval.
+We note that in all flooding methods, it is beneficial if F contains small values as much as
+possible. Therefore in order to show hardness for s with as low entropy as possible, the parameter
+γ is to be taken as small as possible, while still supporting the hardness of distinguishing BC + F
+from uniform.
+
+Our Approach: Gentle Flooding at the Source.
+Our approach can be viewed in hindsight
+as a very simple modification of the lossiness / flooding approach, that results in a very clean
+
+5
+
+
+statement, and the characterization of the noise lossiness as the “right” parameter for the hardness
+of Entropic LWE.
+We take another look at the term sF + e and recall that our goal is to use e to lose information
+about s. Clearly, if e was of the form e1F, then things would be more approachable since then
+we would simply have (s + e1)F, and we will simply need to argue about the lossiness of s under
+additive Gaussian noise (which is exactly our notion of noise lossiness for the distribution S).
+Our observation is that even though e does not have this form, the properties of the Gaussian
+distribution allow to present e as e = e1F+e2, where e1, e2 are independent random variables (but
+the distribution of e2 depends on F). This is easiest to analyze when e is a continuous Gaussian,
+which is the approach we take in this work.3
+
+It can be shown essentially by definition that the sum of two independent Gaussian vectors
+with covariance matrices Σ1, Σ2 is a Gaussian with covariance matrix Σ1 + Σ2. It follows that if
+we choose e1 to be a spherical Gaussian with parameter σ1 then e1F will have covariance matrix
+σ1FT F. Therefore if we choose e2 to be an aspherical Gaussian with covariance σI − σ1FT F, we
+get that e = e1F + e2 is indeed a spherical σ Gaussian. There is an important emphasis here,
+the matrix σI − σ1FT F must be a valid covariance matrix, i.e. positive semidefinite. To guarantee
+this, we must set the ratio σ/σ1 to be at least the largest singular value of the matrix F. Standard
+results on singular values of Gaussian matrices imply that the largest singular value is roughly
+√mγ, which governs the ratio between σ1 and σ. We stress again that e1 and e2 are independent
+random variables.
+Once we established the decomposition of the Gaussian, we can write y as
+
+y = sA + e = sBC + (s + e1)F + e2 .
+
+Now, our noise lossiness term νσ1(S) = ˜H∞(s|s + e1) naturally emerges.
+Note that y cannot
+provide more information about s than the two variables (sB, s + e1). Since the former contains
+only k log q bits, it follows that if the noise lossiness is sufficiently larger than k log q, then naturally
+˜H∞(s|s + e1, sB) is non-trivial (we need ω(log λ) where λ is the security parameter), which implies
+that finding s is information theoretically hard. Thus the hardness of Entropic (search) LWE is
+established.
+If in addition B can serve as an extractor (this is the case when the modulus q is prime, or
+when the S is binary), then we can make a stronger claim, that sB is statistically close to uniform,
+and then apply (standard) LWE again in order to obtain hardness for Entropic dLWE directly.
+Finally, we notice that for norm-bounded distributions we can improve the parameters further
+by using LWE in Hermite Normal Form (HNF) which has been shown to be equivalent to standard
+LWE in [ACPS09]. HNF LWE allows to argue that BC + F is indistinguishable from uniform even
+when the elements of B are also sampled from a Gaussian with parameter γ (same as F). Using
+HNF, we can further bound the entropy loss caused by the term sB and achieve a bound that is
+independent of q, and only depends on γ, r, σ. We can only apply this technique for Entropic search
+LWE.
+For the complete analysis and formal statement of the result, see Section 4.
+
+Computing The Noise Lossiness.
+We briefly explain the intuition behind the noise lossiness
+computation. The exact details require calculation and are detailed in Section 5.
+
+3It can be shown and is by now standard that the hardness of LWE is essentially equivalent whether e is a
+continuous Gaussian, discrete Gaussian, or “rounded” Gaussian [Pei10].
+
+6
+
+
+For the sake of this overview, let us consider only “flat” distributions, i.e. ones that are uniform
+over a set of K strings (and thus have min-entropy log K). We will provide an upper bound on the
+probability Prs,e[A∗(s + e) = s] from Eq. (1), which will immediately translate to a bound on the
+noise-lossiness.
+For general distributions, we note that we can write
+
+Pr
+s,e[A∗(s + e) = s] =
+�
+
+y
+Pr
+s,e[s + e = y ∧ A∗(y) = s]dy ,
+
+where the integral is over the entire q-cube (we use integral since we use a continuous distribution
+for e, but a calculation with discrete Gaussian will be very similar). Note that the expression
+Prs,e[s + e = y ∧ A∗(y) = s] can be written as Prs,e[A∗(y) + e = y ∧ A∗(y) = s], which can then
+be decomposed since the event A∗(y) + e = y depends only on e and the event A∗(y) = s depends
+only on s (recall that y is fixed at this point). We can therefore write
+
+Pr
+s,e[A∗(s + e) = s] =
+�
+
+y
+Pr
+e [e = y − A∗(y)] · Pr
+s [A∗(y) = s]dy .
+
+Now, for all y it holds that Prs[A∗(y) = s] ≤ 1/K, simply since A∗(y) is a fixed value. It also
+holds that Pre[e = y − A∗(y)] is bounded by the maximum value of the Gaussian mass function,
+which is 1/σn. We get that
+
+Pr
+s,e[A∗(s + e) = s] ≤
+1
+
+Kσn
+
+�
+
+y
+dy =
+qn
+
+Kσn ,
+
+and Lemma 1.2 follows.
+For the setting of Lemma 1.3, recall that S is supported only over r-norm-bounded vectors. Note
+that the analysis above is correct up to and including the conclusion that Prs[A∗(y) = s] ≤ 1/K.
+Furthermore, A∗(y) must return a value in the support of S, that is small. We therefore remain
+with the challenge of bounding
+�
+
+y Pre[e = y−A∗(y)]dy, when we are guaranteed that ∥A∗(y)∥ ≤ r.
+We can deduce that this can only induce a minor perturbation to the e Gaussian. Using Gaussian
+tail bounds the result follows.
+
+Tightness.
+The result of [BBPS19] (Theorem 1.4 above) is quite straightforward in our setting
+(they showed a ring variant which is somewhat more involved). The idea to choose S to be uniform
+over the set of all vectors that are multiples of p (or in the [BBPS19] terminology, uniform over an
+ideal dividing the ideal q). This distribution has min-entropy n log(q/p) ≈ n log(q/σ) (since p ≈ σ),
+and it clearly leads to an insecure LWE instance since the instance can be taken modulo p in order
+to recover the noise, and then once the noise is removed the secret can easily be recovered.
+The above argument seems to “unfairly” rely on the structure of the modulus q, and one
+could hope that for prime q, which has no factors, a better result can be achieved. We extend a
+methodology due to Wichs [Wic13] to show that if such a result exists then it will require non-
+black-box use of the adversary and/or the sampler for the distribution S. Consider a black-box
+reduction that given access to an entropic LWE adversary A and a sampler for S (we overload the
+notation and denote the sampler by S as well), manages to solve some hard problem, e.g. solve a
+standard LWE instance.
+We show that it is possible to efficiently (jointly) simulate A, S, such that in the eyes of a
+reduction they are indistinguishable from a real high-entropy distribution S and an adversary A
+
+7
+
+
+that solves Entropic LWE on it, thus leading to an efficient unconditional algorithm for said hard
+problem. The basic idea relies on the natural intuition that it is hard to generate a “valid” LWE
+instance without knowing the value of s that is being used. While this intuition is false in many
+situations, we show that in the entropic setting with black-box reductions it can be made formal.
+Specifically, consider S that is just a uniform distribution over a set of K randomly chosen
+strings (note that this distribution does not have an efficient sampler, but a black-box reduction
+is required to work in such a setting as well, and we will show how to simulate S efficiently).
+The adversary A, upon receiving an instance (A, y) first checks that A is full rank (otherwise
+return ⊥), and if so it brute-forces s out of y by trying all possible s∗ in the support of S, and if
+there is one for which y − s∗A (mod q) is short (i.e. of the length that we expect from noise with
+Gaussian parameter σ), then return a random such s∗ as answer (otherwise return ⊥). This is a
+valid adversary for Entropic LWE and therefore it should allow the reduction to solve the hard
+problem.
+Now, let us show how to simulate S, A efficiently. The idea is to rely on the intuition that the
+reduction cannot generate valid LWE instances with values of S that it does not know, and since the
+distribution is sparse, the reduction cannot generate strings in the support of S in any way except
+calling the S sampler. Furthermore, since the reduction can only make polynomially many queries
+to the sampler, there are only polynomially many options for s for which it can generate valid LWE
+instances, and our efficient implementation of A can just check these polynomially many options.
+(Note that throughout this intuitive outline we keep referring to valid Entropic LWE instances, the
+above argument actually fails without a proper notion of validity as will be explained below.)
+Concretely, we will simulate the adversary using a stateful procedure, i.e. one that keeps state.
+However, in the eyes of the reduction this will simulate the original stateless adversary and therefore
+will suffice for our argument. We will simulate S using “lazy sampling”. Whenever the reduction
+makes a call to S, we will just sample a new random string s, and save the new sample to its
+internal state. When a query (A, y) to A is made, then we first check that A is indeed full rank
+(otherwise return ⊥), and if it is the case, go over all vectors s∗ that we generated so far (and
+are stored in the state), and check whether y − s∗A (mod q) is short (in the same sense as above,
+i.e. of the length that we expect from noise with Gaussian parameter σ). If it is the case then a
+random such s∗ is returned as the Entropic LWE answer. If the scan did not reveal any adequate
+candidate, then return ⊥.
+We want to argue that the above simulates the stateless process. The first step is to show
+that if there is no s∗ in the state and thus our simulated adversary returns ⊥, then the inefficient
+adversary would also have returned ⊥ with all but negligible probability. Secondly, noticing that
+when our simulated adversary does return a value s∗, this s∗ is a value that the reduction already
+received as a response to a S query, and only one such s∗ exists. In fact, both of these concerns
+boil down to properly defining a notion of validity of the Entropic LWE instance that will prevent
+both of these concerns.
+To this end, we notice that the original inefficient adversary return a non-⊥ value only on
+instances where A is full rank, and there exists a short e∗ and value s∗ in the support of S such
+that y = s∗A + e∗. We will prove that it is not possible to find an instance which is valid for s
+in the support of S which has not been seen by the reduction. This will address both concerns
+and can be proven since the unseen elements of S are just randomly sampled strings, so we can
+think of the vectors as sampled after the matrix A is determined. The probability of a random
+vector s to be s.t. y − sA is σ-short, where y is arbitrary and A is full rank, is roughly (σ/q)n.
+
+8
+
+
+This translates to the cardinality K of S being as large as (roughly) n log(q/σ) and still allowing
+to apply the union bound. The result thus follows.
+Maybe somewhat interestingly, while our security proofs for entropic LWE are technically sim-
+ilar to converse coding theorems [Sha48, W+59], our barrier result resembles the random coding
+arguments used to prove the coding theorem [Sha48, Sha49].
+
+1.3
+Acknowledgement
+
+We would like to thank the reviewers of Eurocrypt 2020 and Katharina Boudgoust for their helpful
+comments.
+
+2
+Preliminaries
+
+We will denote the security parameter by λ. We say a function ν(λ) is negligible if ν(λ) ∈ λ−ω(1).
+We will generally denote row vectors by x and column vectors by x⊤. We will denote the L2 norm
+
+of a vector x by ∥x∥ =
+��
+i x2
+i and the L∞ norm by ∥x∥∞ = maxi |xi|.
+We denote by Tq = R/qZ be the real torus of scale q. We can embed Zq = Z/qZ into Tq in the
+natural way. Tq is an abelian group and therefore a Z-algebra. Thus multiplication of vectors from
+Tn
+q with Z-matrices is well-defined. Tq is however not a Zq-algebra. We will represent Tq elements
+by their central residue class representation in [−q/2, q/2).
+For a continuous random variable x, we will denote the probability-density function of x by
+px(·).
+We will denote the probability density of x conditioned on an event E by px|E(·).
+Let
+X, Y be two discrete random variables defined on a common support X. We define the statistical
+distance between X and Y as ∆(X, Y ) = �
+x∈X | Pr[X = x]−Pr[Y = x]|. Likewise, if X and Y are
+two continuous random variables defined on a measurable set X, we define the statistical distance
+between X and Y as ∆(X, Y ) =
+�
+
+x∈X |pX(x) − pY (x)|.
+
+Random Matrices
+Let p be a prime modulus. Let A ←$ Zn×m
+p
+be chosen uniformly at random.
+Then the probability that A is not invertible (i.e. does not have an invertible column-submatrix)
+
+Pr[A not invertible] = 1 −
+
+n−1
+�
+
+i=0
+(1 − pi−m) ≤ pn−m.
+
+For an arbitrary modulus q, a matrix A is invertible if and only if it is invertible modulo all
+prime factors pi of q. As we can bound the number of prime factors of q by log(q), we get for an
+A ←$ Zn×m
+p
+that
+Pr[A not invertible] ≤ log(q) · 2n−m.
+
+2.1
+Min-Entropy
+
+Let x be a discrete random variable supported on a set X and z be a possibly (continuous) random
+variable supported on a (measurable) set Z. The conditional min-entropy ˜H∞(x|z) of x given z is
+defined by
+
+˜H∞(x|z) = − log
+�
+Ez′
+�
+max
+x′∈X Pr[x = x′|z = z′]
+��
+.
+
+9
+
+
+In the case that z is continuous, this becomes
+
+˜H∞(x|z) = − log
+��
+
+z′ pz(z′) max
+x′∈X Pr[x = x′|z = z′]
+�
+,
+
+where pz(·) is the probability density of z.
+
+2.2
+Leftover Hashing
+
+We recall the generalized leftover hash lemma [DORS08, Reg05].
+
+Lemma 2.1. Let q be a modulus and let n, k be integers. Let s be a random variable defined on Zn
+q
+and let B ←$ Zn×k
+q
+be chosen uniformly random. Furthermore let Y be a random-variable (possibly)
+correlated with s. Then, given that either q is prime or s is supported on {−1, 0, 1}n it holds that
+
+∆((B, sB, Y ), (B, u, Y )) ≤
+�
+
+qk · 2− ˜H∞(s|Y ).
+
+The proof of the LHL relies on the fact the the function HB : X → Zk
+q given by x �→ sB is a
+universal hash function. This can either be achieved by choosing q to be prime or restricting the
+domain X ⊆ Zn
+q appropriately, e.g. to {−1, 0, 1}n.
+
+2.3
+Gaussians
+
+Continuous Gaussians
+A matrix Σ ∈ Rn×n is called positive definite, if it holds for every
+x ∈ Rn\{0} that xΣx⊤ > 0. For every positive definite matrix Σ there exists a unique positive
+definite matrix
+√
+
+Σ such that (
+√
+
+Σ)2 = Σ.
+For a parameter σ > 0 define the n-dimensional gaussian function ρσ : Rn → (0, 1] by
+
+ρσ(x) = e−π∥x∥2/σ2.
+
+For a positive definite matrix Σ ∈ Rn×n, define the function ρ√
+
+Σ : Rn → (0, 1] by
+
+ρ√
+
+Σ(x) := e−πxΣ−1x⊤.
+
+For a scalar σ > 0, we will define
+
+ρσ(x) := ρσ·I(x) = e−π∥x∥2/σ2.
+
+The total measure of ρ√
+
+Σ over Rn is
+
+ρ√
+
+Σ(Rn) =
+�
+
+Rn ρ√
+
+Σ(x)dx =
+�
+
+det(Σ).
+
+In the scalar case this becomes
+
+ρσ(Rn) =
+�
+
+Rn ρσ(x)dx = σn.
+
+Normalizing ρ√
+
+Σ by ρ√
+
+Σ(Rn) yields the probability density for the continuous gaussian distribution
+D√
+
+Σ over Rn.
+
+10
+
+
+For a discrete set S ⊆ Rn we define ρ√
+
+Σ(S) by
+
+ρ√
+
+Σ(S) :=
+�
+
+s∈S
+ρ√
+
+Σ(s).
+
+In particular, for a integer q we have
+
+ρ√
+
+Σ(qZn) =
+�
+
+z∈qZn
+ρ√
+
+Σ(z).
+
+For a gaussian x ∼ Dσ we get the tail-bound
+
+Pr[|x| ≥ t] ≤ 2 · e− t2
+
+2σ2 .
+
+As a simple consequence we get Pr[|x| ≥ (log(λ)) · σ] ≤ negl(λ).
+
+Discrete Gaussians
+We say a random variable x defined on Z follows the discrete gaussian
+distribution DZ,σ for a parameter σ > 0, if the probability mass function of x is given by
+
+Pr[x = x′] = ρσ(x′)
+
+ρσ(Z)
+
+for every x′ ∈ Z.
+
+Modular Gaussians
+For a modulus q, we also define the q-periodic gaussian function ˜ρq,
+√
+
+Σ : by
+
+˜ρq,
+√
+
+Σ(x) :=
+�
+
+z∈qZn
+ρq,
+√
+
+Σ(x − z).
+
+We define ˜ρq,
+√
+
+Σ(Tn
+q ) by
+
+˜ρq,
+√
+
+Σ(Tn
+q ) := ˜ρq,
+√
+
+Σ([−q/2, q/2)n) =
+�
+
+[−q/2,q/2)n ˜ρq,
+√
+
+Σ(x)dx = ρ√
+
+Σ(Rn).
+
+Consequently, normalizing ˜ρq,
+√
+
+Σ by ˜ρq,
+√
+
+Σ(Tn
+q ) yields a probability density on Tn
+q . We call the
+corresponding distribution D√
+
+Σ mod q a modular gaussian. A x ∼ D√
+
+Σ mod q can be sampled
+by sampling and x′ ←$ D√
+
+Σ and computing x ← x′ mod q.
+In order to prove our strong converse coding theorems, we need various upper bounds for the
+periodic gaussian function. We will use the following variant of the smoothing lemma of Micciancio
+and Regev [MR04]4.
+
+Lemma 2.2 (Smoothing Lemma [MR04]). Let ϵ > 0. Given that 1
+
+σ ≥
+�
+
+ln(2n(1+1/ϵ))
+
+π
+· 1
+
+q, then it
+holds that
+ρσ(qZn\{0}) ≤ ϵ.
+
+4We use the smoothing lemma with the parameter s = 1/σ and the lattice Λ = 1
+
+q Zn. Note that for this lattice it
+holds that λn = 1/q.
+
+11
+
+
+Lemma 2.3. The periodic gaussian function ˜ρq,σ assumes its maximum at q · Zn. In particular, it
+holds for all x ∈ Rn that ˜ρq,σ(x) ≤ ˜ρq,σ(0).
+
+Proof. We can write ˜ρq,σ as
+˜ρq,σ(x) = fx(qZn),
+
+where fx(z) = ρσ(z − x). The Poisson summation formula allows us to express fx(qZn) by
+
+fx(qZn) = det(1
+
+q Zn) · ˆfx(1
+
+q Zn) = 1
+
+qn ˆfx(1
+
+q Zn)
+
+Since ˆfx(ω) = e−2πi·⟨x,ω⟩σnρ1/σ(ω), we can write fx(qZn) as
+
+fx(qZn) =
+�σ
+
+q
+
+�n
+·
+�
+
+ω∈ 1
+
+q Zn
+e−2πi·⟨x,ω⟩ρ1/σ(ω),
+
+we can bound
+
+˜ρq,σ(x) = |˜ρq,σ(x)|
+
+= |fx(qZn)|
+
+=
+
+�������
+
+�σ
+
+q
+
+�n
+·
+�
+
+ω∈ 1
+
+q Zn
+e−2πi·⟨x,ω⟩ρ1/σ(ω)
+
+�������
+
+≤
+�σ
+
+q
+
+�n
+·
+�
+
+ω∈ 1
+
+q Zn
+|e−2πi·⟨x,ω⟩| · |ρ1/σ(ω)|
+
+=
+�σ
+
+q
+
+�n
+·
+�
+
+ω∈ 1
+
+q Zn
+ρ1/σ(ω)
+
+= f0(qZn)
+
+= ˜ρq,σ(0)
+
+The first equality holds as ˜ρq,σ(x) > 0 and the inequality holds by an application of the triangle
+inequality. This concludes the proof.
+
+Lemma 2.4. If q
+
+σ ≥
+�
+
+ln(4n)
+
+π
+, then it holds for all x ∈ Rn that
+
+˜ρq,σ(x) ≤ 2.
+
+Proof. Choosing ϵ = 1 in Lemma 2.2 yields
+
+ρσ(qZn\{0}) = 1
+
+as 1
+
+σ ≥
+�
+
+ln(2n(1+1/ϵ))
+
+π
+· 1
+
+q =
+�
+
+ln(4n)
+
+π
+· 1
+
+q. Consequently, we obtain
+
+ˆρq,σ(0) =
+�
+
+z∈qZn
+ˆρσ(z)
+
+= ρσ1(qZn)
+
+= 1 + ρσ1(qZn\{0})
+
+≤ 2.
+
+12
+
+
+The claim follows from the fact above.
+
+We will use the following estimate for shifted gaussians.
+
+Lemma 2.5. Let σ2 > σ1 > 0. Then it holds for all x ∈ Rn and t ∈ Rn that
+
+ρσ1(x − t) ≤ e
+π
+∥t∥2
+
+σ2
+2−σ2
+1 · ρσ2(x).
+
+Moreover, the same holds for the q-periodic gaussian function ˆρqZn,σ1, i.e.
+
+ˆρqZn,σ1(x − t) ≤ e
+π
+∥t∥2
+
+σ2
+2−σ2
+1 · ˆρqZn,σ2(x).
+
+Proof. By a routine calculation,
+
+ρσ1(x − t) ≤ e
+π
+∥t∥2
+
+σ2
+2−σ2
+1 · ρσ2(x)
+
+is equivalent to
+∥x − t∥2
+
+σ2
+1
+− ∥x∥2
+
+σ2
+2
++
+∥t∥2
+
+σ2
+2 − σ2
+1
+≥ 0.
+
+Now it holds that
+
+∥x − t∥2
+
+σ2
+1
+− ∥x∥2
+
+σ2
+2
++
+∥t∥2
+
+σ2
+2 − σ2
+1
+= ∥x∥2
+
+σ2
+1
+− 2
+
+σ2
+1
+⟨x, t⟩ + ∥t∥2
+
+σ2
+1
+− ∥x∥2
+
+σ2
+2
++
+∥t∥2
+
+σ2
+2 − σ2
+1
+
+= σ2
+2 − σ2
+1
+
+σ2
+1σ2
+2
+∥x∥2 − 2
+
+σ2
+1
+⟨x, t⟩ +
+σ2
+2
+
+σ2
+1(σ2
+2 − σ2
+1)∥t∥2
+
+= 1
+
+σ2
+1
+
+�����
+
+�
+
+1 − (σ1/σ2)2x −
+1
+�
+
+1 − (σ1/σ2)2 t
+
+�����
+
+2
+
+≥ 0.
+
+To prove the second statement, note that
+
+ˆρqZn,σ1(x − t) =
+�
+
+z∈qZn
+ρσ1(x − t − z)
+
+≤
+�
+
+z∈qZn
+e
+π
+∥t∥2
+
+σ2
+2−σ2
+1 · ρσ2(x − z)
+
+= e
+π
+∥t∥2
+
+σ2
+2−σ2
+1 · ˆρqZn,σ2(x),
+
+which concludes the proof.
+
+13
+
+
+2.4
+Learning with Errors
+
+The learning with errors (LWE) problem was defined by Regev [Reg05].
+The search problem
+LWE(n, m, q, χ), for n, m, q ∈ N and for a distribution χ supported over the torus Tq is to find s given
+(A, sA+e), where A ←$ Zn×m
+q
+is chosen uniformly random and e ←$ χm is chosen according to χm.
+The decisional version dLWE(n, m, q, χ) asks to distinguish between the distributions (A, sA + e)
+and (A, u + e), where A, s and e are as in the search version and u ←$ Zm
+q is chosen uniformly
+random. We also consider the hardness of solving dLWE for any m = poly(n log q). This problem
+is denoted dLWE(n, q, χ). The matrix version of this problem asks to distinguish (A, S · A + E)
+from (A, U), where S ←$ Zk×n
+q
+, E ←$ χk×m and U ← Zk×m
+q
+. The hardness of the matrix version
+for any k = poly(n) can be established from dLWEn,m,q,χ via a routine hybrid-argument. Moreover,
+Applebaum et al. [ACPS09] showed that if the error-distribution χ is supported on Zq, then the
+matrix S can also be chosen from χk×m without affecting the hardness of the problem.
+As shown in [Reg05], the LWE(n, q, χ) problem with χ being a continuous Gaussian distribution
+with parameter σ = αq ≥ 2√n is at least as hard as approximating the shortest independent
+vector problem (SIVP) to within a factor of γ = ˜O(n/α) in worst case dimension n lattices. This
+is proven using a quantum reduction. Classical reductions (to a slightly different problem) exist as
+well [Pei09, BLP+13] but with somewhat worse parameters. The best known (classical or quantum)
+algorithms for these problems run in time 2 ˜O(n/ log γ), and in particular they are conjectured to be
+intractable for γ = poly(n).
+Regev also provided a search-to-decision reduction which bases the hardness of the decisional
+problem dLWE(n, q, χ) on the search version LWE(n, q, χ) whenever q is prime of polynomial size.
+This reduction has been generalized to more general classes of moduli [Pei09, BLP+13]. Moreover,
+there exists a sample preserving reduction which [MM11] which bases the hardness of dLWE(n, m, q, χ)
+on LWE(n, m, q, χ) for certain moduli q without affecting the number of samples m.
+Finally, Peikert [Pei10] provided a randomized rounding algorithm which allows to base the
+hardness of LWE(n, m, q, DZ,σ′) (i.e. LWE with a discrete gaussian error DZ,σ′) on LWE(n, m, q, Dσ)
+(continuous gaussian error), where σ′ is only slightly larger than σ.
+
+2.5
+Entropic LWE
+
+We will now consider LWE with entropic secrets, entropic LWE for short. In this variant, we allow
+the distribution of secrets S to be chosen from a family of distributions ¯S = {Si}i. This captures
+the idea the distribution of secrets can be worst-case from a certain family.
+
+Definition 2.6 (Entropic LWE). Let q = q(λ) be a modulus and n, m = poly(λ). Let χ be an
+error-distribution on Tq. Let ¯S = S(λ, q, n, m) be a family of distributions on Zn
+q . We say that
+the search problem ent-LWE(q, n, m, ¯S, χ) is hard, if it holds for every PPT adversary A and every
+S ∈ ¯S that
+Pr[A(1λ, A, s · A + e) = s] ≤ negl(λ),
+
+where A ←$ Zm×n
+q
+, s ←$ S and e ←$ χm. Likewise, we say that the decisional problem ent-dLWE(q, n, m, ¯S, χ)
+is hard, if it holds for every PPT distinguisher D and every S ∈ ¯S that
+
+| Pr[D(1λ, A, sA + e) = 1] − Pr[D(1λ, u + e) = 1]| ≤ negl(λ),
+
+where A ←$ Zm×n
+q
+, s ←$ S, e ←$ χm and u ←$ Zm
+q .
+
+14
+
+
+3
+Probability-Theoretic Tools
+
+3.1
+Singular Values of Discrete Gaussian Matrices
+
+Consider a real valued matrix A ∈ Rn×m, assume for convenience that m ≥ n. The singular values
+of A are the square roots of the eigenvalues of the positive semidefinite (PSD) matrix AA⊤. They
+are denoted σ1(A) ≥ · · · ≥ σn(A) ≥ 0. The spectral norm of A is σ1(A), and we will also denote
+it by σA. It holds that
+
+σA = σ1(A) =
+max
+x∈Rm\{0}
+∥Ax∥
+∥x∥
+.
+
+We will be interested in the of discrete Gaussian matrices.
+
+Proposition 3.1 ([MP12, Lemma 2.8, 2.9]). Let F ∼ Dn×m
+Z,γ , assume for convenience that m ≥ n.
+Then with all but 2−m probability it holds that σF ≤ γ · C · √m, where C is a global constant.
+
+3.2
+Decomposition Theorem for Continuous Gaussians
+
+The following proposition is an immediate corollary of the properties of (continuous) Gaussian
+vectors. We provide a proof for the sake of completeness.
+
+Proposition 3.2. Let F ∈ Zn×m be an arbitrary matrix with spectral norm σF . Let σ, σ1 > 0 be
+s.t. σ > σ1 · σF . Let e1 ∼ Dn
+σ1 and let e2 ∼ D√
+
+Σ for Σ = σ2I − σ2
+1F⊤F. Then the random variable
+e = e1F + e2 is distributed according to Dm
+σ .
+
+Proof. First note that Σ is positive definite: It holds for any x ∈ Rm\{0} that
+
+xΣx⊤ = σ2∥x∥2 − σ2
+1∥xF∥2 ≥ σ2∥x∥ − σ2σ2
+F∥x∥2 ≥ (σ2 − σ2
+1σ2
+F) · ∥x∥2 > 0,
+
+as σ > σ1 · σF. Since e1, e2 are independent Gaussian vectors, they are also jointly Gaussian,
+and therefore e is also a Gaussian vector. Since e1, e2 have expectation 0, then so does e. The
+covariance matrix of e is given by a direct calculation, recalling that e1, e2 are independent:
+
+E[e⊤e] = E[F⊤e⊤eF] + E[e⊤
+2 e2]
+
+= F⊤σ2
+1IF + Σ
+
+= σ2
+1F⊤F + σ2I − σ2
+1F⊤F
+
+= σ2I ,
+
+and the statement follows.
+
+4
+Hardness of Entropic LWE with Gaussian Noise
+
+In this Section we will establish our main result, the hardness of entropic search LWE with contin-
+uous gaussian noise. Using standard techniques, we can conclude that entropic search LWE with
+discrete gaussian noise is also hard. Finally for suitable moduli a search-to-decision reduction can
+be used to establish the hardness of entropic decisional LWE.
+
+15
+
+
+Theorem 4.1. Let C be the global constant from Proposition 3.1. Let q = q(λ) be a modulus and
+n, m = poly(λ) where m ≥ n, and let r, γ, σ1 > 0. Let s be a random variable on Zn
+q distributed
+according to some distribution S. Let e1 ∼ Dσ1 mod q be an error term. Assume that s is r-
+bounded, where we assume that r = q if no bound for s is known. Further assume that
+
+˜H∞(s|s + e1) ≥ k · log(min{2C · γ · √nr, q}) + ω(log(λ))
+
+Let σ > C · √m · γ · σ1. Then the search problem ent-LWE(q, n, m, S, Dσ) is hard, provided that
+dLWE(q, k, DZ,γ) is hard.
+Furthermore, if ˜H∞(s|s + e1) ≥ k · log(q) + ω(log(λ)) and we have that either q is prime or s ∈
+{0, 1}n, then the decisional problem ent-dLWE(q, n, m, S, Dσ) is hard, provided that dLWE(q, k, DZ,γ)
+and dLWE(q, k, m, Dσ) are hard.
+
+Proof. Let A be a search adversary against ent-LWE(q, n, m, S, Dσ). Throughout this proof, as in
+the theorem statement, C is the global constant from Proposition 3.1. Let W be a distribution on
+Zn×k
+q
+, which depending on the setting will either be the uniform distribution on Zn×k
+q
+or a discrete
+gaussian distribution Dn×k
+Z,γ . Consider the following hybrid LWE-distributions.
+
+• H0:
+
+– s ←$ S
+
+– A ←$ Zn×m
+q
+
+– e ←$ Dm
+σ
+
+– Output (A, sA + e)
+
+• H1:
+
+– s ←$ S
+
+– B ←$ W, C ←$ Zk×m
+q
+, F ←$ Dn×m
+Z,γ
+
+– A ← B · C + F
+
+– e ←$ Dm
+σ
+
+– Output (A, sA + e)
+
+• H2:
+
+– s ←$ S
+
+– B ←$ W, C ←$ Zk×m
+q
+, F ←$ Dn×m
+Z,γ
+
+– If ∥B∥ > C · γ · √n or ∥F∥ > C · γ · √m output ⊥
+
+– A ← B · C + F
+
+– e ←$ Dm
+σ
+
+– Output (A, sA + e)
+
+• H3:
+
+– s ←$ S
+
+16
+
+
+– B ←$ W, C ←$ Zk×m
+q
+, F ←$ Dn×m
+Z,γ
+
+– If ∥B∥ > C · γ · √n or ∥F∥ > C · γ · √m output ⊥
+
+– A ← B · C + F
+
+– Set Σ ← σ2I − σ2
+1FT F
+
+– e1 ←$ Dn
+σ, e2 ←$ Dm
+√
+
+Σ
+
+– e ← e1F + e2
+– Output (A, sA + e)
+
+First note that H0 is identical to the ent-LWE(q, n, m, S, Dσ)-experiment.
+Next, it follows directly by the hardness of dLWE(q, k, DZ,γ) that H0 and H1 are computationally
+indistinguishable. Specifically, if W is the uniform distribution on Zn×k
+q
+it follows by the standard
+form of dLWE(q, k, DZ,γ), whereas if W is Dn×k
+Z,γ
+we use the Hermite form of dLWE(q, k, DZ,γ).
+We claim that H1 and H2 are statistically close. To see this, note that conditioned on ∥B∥ ≤
+C · γ · √n and ∥F∥ ≤ C · γ · √m the two experiments are identically distributed. Thus we can
+bound the statistical distance between H1 and H2 by Pr[∥B∥ > C · γ · √n or ∥F∥ > C · γ · √m]. As
+B ∼ Dn×k
+Z,γ , it holds by Proposition 3.1 that ∥B∥ ≤ C ·γ ·√n except with probability 2−n. Likewise,
+as F ∼ Dn×m
+Z,γ , it also holds by Proposition 3.1 that ∥F∥ ≤ C · γ · √m except with probability 2−m.
+Thus, a union bound yields
+
+Pr[∥B∥ > C · γ · √n or ∥F∥ > C · γ · √m] ≤ 2−n + 2−m ≤ 2 · 2−n,
+
+i.e. the statistical distance between H1 and H2 is at most 2 · 2−n.
+Finally, we claim that H2 and H3 are identically distributed.
+As ∥F∥ ≤ C · γ · √m and
+σ > C · √m · γ · σ1, Proposition 3.2 yields that the distribution of e1F + e2 is exactly Dm
+σ and the
+claim follows.
+We will now show that it holds for any search adversary A that if Pr[A(sA + e) = s] < negl(λ)
+where (A, sA + e) ←$ H3. Consequently, by the above we can then argue that the same holds if
+(A, sA + e) ←$ H0, which means that search problem ent-LWE(q, n, m, S, Dσ) is hard, concluding
+the proof for the first statement of the theorem. To do so, we will bound the conditional min-
+entropy of s given A and sA + e1F + e2. We first observe that we can compute y = sA + e1F + e2
+given sB ∈ Zk
+q, s + e1 ∈ Tn
+q and e2 ∈ Rm, as well as the (fixed) matrices C ∈ Zk×m
+q
+and F ∈ Zn×m.
+It holds that
+
+sA + e1F + e2 = sBC + sF + e1F + e2
+= (sB)C + (s + e1)F + e2.
+
+Assume that we can describe sB using ℓ bits. We can then bound
+
+˜H∞(s|A, sA + e) ≥ ˜H∞(s|B, C, F, sB, s + e1, e2)
+
+= ˜H∞(s|sB, s + e1)
+
+≥ ˜H∞(s|s + e1) − ℓ
+
+where the equality follows from the fact that e2 is independent of everything else and the second
+inequality follows from the entropy chain-rule. We will now distinguish two cases, depending on
+whether s is short or not.
+
+17
+
+
+1. In the first case, assume that W is the discrete gaussian distribution Dn×k
+Z,γ , thus it holds
+that ∥B∥ ≤ C · γ · √n except with negligible probability. Moreover, assume that we have
+a bound ∥s∥ ≤ r. Then it holds that ∥sB∥ ≤ C · γ · √nr. We can bound the number of
+z ∈ Zk with ∥z∥ ≤ C · γ · √nr by (2C · γ · √nr)k. Consequently, we can describe sB using
+ℓ = k · log(2C · γ · √nr) bits.
+
+2. If we have no bound on ∥s∥, we can generically describe sB using ℓ = k·log(q) bits as sB ∈ Zk
+q.
+
+As by assumption we have that
+
+˜H∞(s|s + e1) ≥ k · log(min{2C · γ · √nr, q}) + ω(log(λ)),
+
+it follows that
+
+Pr[A(sA + e) = s] ≤ 2− ˜H∞(s|A,sA+e)
+
+≤ 2− ˜H∞(s|s+e1)+ℓ
+
+≤ 2− ˜H∞(s|s+e1)+k·log(min{2C·γ·√nr,q})
+
+≤ 2−ω(log(λ)),
+
+which is negligible.This concludes the proof of the first part of the statement.
+To prove the second part of the statement, consider the following additional hybrids, where we
+will set W to be the uniform distribution on Zn×k
+q
+.
+
+• H4:
+
+– s ←$ S
+
+– s∗ ←$ Zk
+q
+
+– B ←$ Zn×k
+q
+, C ←$ Zk×m
+q
+, F ←$ Dn×m
+Z,γ
+
+– If ∥B∥ > C · γ · √n or ∥F∥ > C · γ · √m output ⊥
+
+– A ← B · C + F
+
+– Set Σ ← σ2I − σ2
+1FT F
+
+– e1 ←$ Dn
+σ, e2 ←$ Dm
+√
+
+Σ
+
+– e ← e1F + e2
+– Output (A, s∗C + (s + e1)F + e2)
+
+• H5:
+
+– s ←$ S
+
+– s∗ ←$ Zk
+q
+
+– B ←$ Zn×k
+q
+, C ←$ Zk×m
+q
+, F ←$ Dn×m
+Z,γ
+
+– If ∥B∥ > C · γ · √n or ∥F∥ > C · γ · √m output ⊥
+
+– A ← B · C + F
+
+– e ←$ Dm
+σ
+
+18
+
+
+– Output (A, s∗C + sF + e)
+
+We will now show that H3 and H4 are statistically close via the leftover hash lemma. Note
+that the only difference between H3 and H4 is that in H4 we have replaced sB by a uniformly
+random s∗. Moreover, the only other term depending on s is s + e1. Consequently, we can bound
+the statistical distance between H3 and H4 by
+
+∆(H3, H4) ≤ ∆((B, sB, s + e1), (B, s∗, s + e1))
+
+≤
+�
+
+qk · 2− ˜H∞(s|s+e1)
+
+≤
+�
+
+2k·log(q) · 2−k·log(q)+−ω(log(λ))
+
+= 2−ω(log(λ)),
+
+which is negligible. The second inequality follows by the generalized leftover hash lemma, whereas
+the third inequality follows from the assumption ˜H∞(s|s + e1) ≥ k · log(q) + ω(log(λ)). Note that
+we can apply the leftover hash lemma whenever q is prime or s is binary.
+Next, we claim that H4 and H5 are identically distributed. To see this, note that all we did
+was reversing the decomposition of e = e1F + e2. Thus, H4 and H5 are identically distributed by
+the same argument as H2 and H3 are identically distributed.
+Now assume there was a PPT distinguisher D which distinguishes ent-dLWE with non-negligible
+advantage. By the above argument, such a distinguisher must also have non-negligible advantage
+in distinguishing (A, y) from (A, u + e), where (A, y) ←$ H5, u ←$ Zm
+q and e ←$ Dσ. From such
+as distinguisher we can construct a distinguisher D′ against dLWE(q, k, m, Dσ) as follows. D′ gets
+as input a matrix C ∈ Zk×m
+q
+and a vector z ∈ Zm
+q . D′ proceeds as follows:
+
+• s ←$ S
+
+• B ←$ Dn×k
+Z,γ , F ←$ Dn×m
+Z,γ
+
+• If ∥B∥ > C · γ · √n or ∥F∥ > C · γ · √m output ⊥
+
+• A ← B · C + F
+
+• y = z + sF
+
+• Output D(A, )
+
+We claim that D′ has the same advantage as D. First consider the case that the input of D′ is
+of the form (C, z = s∗C + e), where D ←$ Zk×m
+q
+, s∗ ←$ Zk
+q and e ←$ Dσ. Then it holds that
+
+y = z + sF = s∗C + sF + e,
+
+i.e. (A, y) is distributed according to H5.
+On the other hand, if the input of D′ is distributed according to (C, z = u + e), then it holds
+that y = z + sF ≡ u′ + e for a uniformly random u′ ←$ Zm
+q . Consequently (A, y) has the same
+distribution as (A, u + e), where (A, y) ←$ H5, u ←$ Zm
+q and e ←$ Dσ. We conclude that D′ has
+the same advantage as D, which contradicts the hardness of dLWE(q, k, m, Dσ). This concludes the
+proof.
+
+19
+
+
+5
+Noise-Lossiness for Modular Gaussians
+
+In this Section, we will compute the noise lossiness for general high-minentropy distributions. We
+further show that considerable improvements can be achieved when considering short distributions.
+Our Lemmas in this Section can be seen as strong converse coding theorems for gaussian channels.
+I.e. if a distribution codes above a certain information rate, then information must be lost and
+noise lossiness quantifies how much information is lost. The following lemma will allow us to bound
+˜H∞(s|s + e) by suitably bounding maxs∗ pe(y − s∗).
+
+Lemma 5.1. Let q ∈ N be a modulus and fix n, m ∈ N with m > n. Let s be a random variable on
+Zk
+q with min-entropy ˜H∞(s). Let χ be a noise distribution over Rn and let e ∼ χ. Then it holds
+that
+˜H∞(s|s + e) ≥ ˜H∞(s) − log
+��
+
+y
+max
+s∗ pe(y − s∗)dy
+�
+
+in the case that χ is continuous and
+
+˜H∞(s|s + e) ≥ ˜H∞(s) − log
+
+��
+
+y
+max
+s∗ Pr
+e [e = y − s∗]
+
+�
+
+in the case that χ is discrete. Moreover, if s is a flat distribution then equality holds.
+
+Proof. The lemma follows from the following derivation in the continuous case. The discrete case
+follows analogously.
+
+˜H∞(s|s + e) = − log
+�
+
+E
+y[max
+s∗∈S Pr
+s,e[s = s∗|s + e = y]]
+�
+
+= − log
+��
+
+y
+ps+e(y) · max
+s∗ Pr
+s,e[s = s∗|s + e = y]dy
+�
+
+= − log
+��
+
+y
+max
+s∗ ps,s+e(s∗, y)dy
+�
+
+= − log
+
+
+
+
+
+�
+
+y
+max
+s∗ ps+e|s=s∗(y) · Pr[s = s∗]
+�
+��
+�
+
+≤2− ˜
+H∞(s)
+
+dy
+
+
+
+
+
+
+≥ ˜H∞(s) − log
+��
+
+y
+max
+s∗ pe(y − s∗)dy
+�
+.
+
+To see that equality holds for flat distributions, note that in this case we have Pr[s = s∗] =
+2− ˜H∞(s).
+
+5.1
+General High Entropy Secrets
+
+We first turn to the case of general high-entropy secrets and prove the following lemma.
+
+Lemma 5.2. Let n be an integer, let q be a modulus and σ1 be a parameter for a gaussian. Assume
+that
+q
+σ1
+≥
+
+�
+
+ln(4n)
+
+π
+.
+
+20
+
+
+Let s be a random variable on Zn
+q and e1 ∼ Dσ1 mod q. Then it holds that
+
+˜H∞(s|s + e1) ≥ ˜H∞(s) − n · log(q/σ1) − 1
+
+We remark that the requirement
+q
+σ1 ≥
+�
+
+ln(4n)
+
+π
+is made for technical reasons, but we restrict
+ourselves to keep the proof simple. We also remark that this condition is essentially trivially fulfilled
+by interesting parameter choices.
+We can instantiate Theorem 4.1 with Lemma 5.2 obtaining the following corollary.
+
+Corollary 5.3. Let C be a global constant. Let q = q(λ) be a modulus and let n, m, k = poly(λ). Let
+γ, σ1 > 0. Assume that S is a distribution on Zn
+q with ˜H∞(s) > k ·log(q)+n·log(q/σ1)+ω(log(λ)).
+Now let σ > C · √m · γσ1. Then ent-LWE(q, n, m, S, Dσ) is hard, provided that dLWE(q, k, DZ,γ) is
+hard.
+
+of Lemma 5.2. It holds that
+�
+
+y
+max
+s∗ pe(y − s∗)dy =
+1
+
+ρσ1(Rn)
+
+�
+
+y
+max
+s∗
+ˆρqZn,σ1(y − s∗)dy
+
+≤
+1
+
+ρσ1(Rn) ·
+�
+
+y
+2dy
+
+= 2 ·
+qn
+
+ρσ1(Rn)
+
+= 2 · qn
+
+σn
+1
+,
+
+where the ˆρqZn,σ1(y − s∗) ≤ 2 follows by Lemma 2.4 as
+q
+σ1 ≥
+�
+
+ln(4n)
+
+π
+. We can conclude by Lemma
+
+5.1 that
+
+˜H∞(s|s + e) ≥ ˜H∞(s) − log
+��
+
+y
+max
+s∗ pe(y − s∗)dy
+�
+
+≥ ˜H∞(s) − n · log(q/σ1) − 1.
+
+5.2
+Short Secrets
+
+We will now turn to the case where the secret has bounded norm.
+
+Lemma 5.4. Let n be an integer, let q be a modulus and σ1 be a parameter for a gaussian. Assume
+that s is a random-variable on Zn
+q such that ∥s∥ ≤ r for a parameter r = r(λ). Let e1 ∼ Dσ1 mod q
+Then it holds that
+˜H∞(s|s + e1) ≥ ˜H∞(s) −
+√
+
+2πn · r
+
+σ1
+log(e).
+
+In particular, if σ1 > √n·r, then ˜H∞(s|s+e1) ≥ ˜H∞(s)−π log(e). We can instantiate Theorem
+
+4.1 with Lemma 5.4 obtaining the following corollary.
+
+21
+
+
+Corollary 5.5. Let C be a global constant. Let q = q(λ) be a modulus and let n, m, k = poly(λ).
+Let γ = γ(λ) > 0 and σ1 = σ1(λ) > 0. Assume that S is a r-bounded distribution with ˜H∞(s) >
+k·log(2C·γ·σ1)+
+√
+
+2πn· r
+
+σ1 log(e)+ω(log(λ)). Now let σ > C·√mσ1·γ. Then ent-LWE(q, n, m, S, Dσ)
+is hard, provided that dLWE(q, k, DZ,γ) is hard.
+
+of Lemma 5.4. Fix some σ2 > σ1. Since it holds that ∥s∥ ≤ r, it holds that
+�
+
+y
+max
+s∗ pe(y − s∗)dy =
+1
+
+ρσ1(Rn)
+
+�
+
+y
+max
+s∗
+ˆρqZn,σ1(y − s∗)dy
+
+≤
+1
+
+ρσ1(Rn)
+
+�
+
+y
+max
+s∗ e
+π ∥s∗∥2
+
+σ2
+2−σ2
+1 · ˆρqZn,σ2(y)dy
+
+≤
+1
+
+ρσ1(Rn) · e
+π
+r2
+
+σ2
+2−σ2
+1 ·
+�
+
+y
+ˆρqZn,σ2(y)dy
+
+= e
+π
+r2
+
+σ2
+2−σ2
+1 · ρσ2(Rn)
+
+ρσ1(Rn)
+
+= e
+π
+r2
+
+σ2
+2−σ2
+1 ·
+�σ2
+
+σ1
+
+�n
+
+Now, setting σ2 = σ1 · √1 + η we get that
+
+�
+
+y
+max
+s∗ pe(y − s∗)dy ≤ e
+π
+r2
+
+σ2
+2−σ2
+1 ·
+�σ2
+
+σ1
+
+�n
+
+= e
+π r2
+
+ησ2
+1 · (1 + η)n/2
+
+≤ e
+π r2
+
+ησ2
+1
++ nη
+
+2
+
+By Lemma 5.1, we can conclude that
+
+˜H∞(s|s + e1) ≥ ˜H∞(s) −
+�
+π r2
+
+ησ2
+1
++ nη
+
+2
+
+�
+log(e).
+
+Recall that η is still a free parameter. This expression is minimized by choosing η =
+�
+
+2π
+n
+r
+σ1 , which
+yields
+˜H∞(s|s + e1) ≥ ˜H∞(s) −
+√
+
+2πn · r
+
+σ1
+log(e).
+
+6
+Tightness of the Result
+
+In this Section, we will show that for general moduli and general min-entropy distributions our
+result is tight up to polynomial factors.
+For a modulus q and a noise parameter σ, we will provide an example of a distribution s with
+min-entropy ≈ n · log(q/σ), such that ent-LWE(q, n, m, X, χ) is easy. For this counter-example, the
+choice of the modulus q is critical.
+
+22
+
+
+Lemma 6.1. Let q = q(λ) be a modulus such that q has a divisor p of size |p| > 2B + 1, let n, m =
+poly(λ) and let χ be a B-bounded error-distribution. Define the distribution S to be the uniform
+distribution on p · Zn
+q . Then there exists an efficient algorithm A that solves ent-LWE(q, n, m, S, χ)
+
+Corollary 6.2. There exist moduli q and distributions S with min-entropy ≥ n · (log(q/σ) −
+log(log(λ)))) such that ent-LWE(q, n, m, S, Dσ) is easy.
+
+The corollary follows from Lemma 6.1 by choosing p such that p = 2 log(λ)·σ+1 and noting that
+a gaussian of parameter σ is log(λ)·σ bounded, except with negligible probability. Moreover, for this
+choice of p the distribution S in Lemma 6.1 has min-entropy n·log(q/p) ≥ n·log(q/σ)−2 log(log(λ))
+
+Proof of Lemma 6.1. Assume that reduction modulor p computes a central residue class represen-
+tation in [−p/2, p/2]. The algorithm A proceeds as follows.
+
+A(A, y) :
+
+• Compute e ← y mod p
+
+• Solve the equation system s · A = y − e for s, e.g. via Gaussian elimination.
+
+• Output s
+
+To see that the algorithm A is correct, note that
+
+y
+mod p = (s · A + e)
+mod p = (p · r · A + e)
+mod p = e
+
+as p ≥ 2B and ∥e∥ ≤ B.
+
+7
+Barriers for Entropic LWE
+
+In the last Section we provided an attack on entropic LWE when the min-entropy of the secret is
+below n·log(q/σ) for a worst-case choice of the modulus q. On might still hope that for more benign
+choices of the modulus q this problem might be hard in this entropy regime. In this section we will
+provide a barrier for the hardness of entropic LWE in this regime for any modulus. In particular,
+we will show that for entropies below n · log(q/σ), the hardness of entropic LWE does not follow
+from any standard assumption in a black-box way. This leaves open the possibility that in this
+regime the hardness of entropic LWE may be established from more exotic knowledge assumptions.
+To establish our result, we will use a framework developed by Wichs [Wic13].
+
+7.1
+Simulatable Attacks
+
+We first recall the notion of cryptographic games as a way to characterize cryptographic standard
+assumptions due to Haitner and Holenstein [HH09]. This chracterization captures essentially all
+falsifiable assumptions [Nao03] used in cryptography, such as LWE.
+
+Definition 7.1 (Cryptographic Games [HH09]). A cryptographic game C = (Γ, c) is defined by a
+(possibly inefficient) randomized machine Γ, called the challenger, and a constant c ∈ [0, 1). On
+
+23
+
+
+input a security parameter 1λ, the challenger interacts with an attack A(1λ) and outputs a bit b.
+Denote this by Γ(1λ) ⇆ A(1λ). The advantage of an attacker A against C is defined by
+
+AdvA
+C (1λ) = Pr[(Γ(1λ) ⇆ A(1λ)) = 1] − c.
+
+We say that a cryptographic game C is secure if for all PPT attackers A the advantage Adv˚
+A
+C (λ) is
+negligible.
+
+Definition 7.2 (Black-Box Reduction). Let C1 and C2 be cryptographic games. A black-box reduc-
+tion deriving the security of C2 from the security of C1 is an oracle PPT-machine B(·) for which there
+are constants c, λ0 such that for all λ ≥ λ0 and all (possibly inefficient, non-uniform) attackers Aλ
+with advantage AdvAλ
+C1 (λ) ≥ 1/2, we have AdvBAλ
+C2
+(λ) ≥ λ−c.
+
+We remark that the choice of the constant 1/2 for the advantage of Aλ is arbitrary and can
+be replaced by a non-negligible function (depending Aλ). We now recall the notion of simulatable
+attacks [Wic13].
+
+Definition 7.3 (Simulatable Attacks [Wic13]). An ϵ-simulatable attack on an assumption C is a
+tuple (A, Sim) such that A is a stateless, non-uniform possibly inefficient attacker against C, and
+Sim is a stateful PPT simulator. We require the following two properties to hold.
+
+• The (inefficient) attacker A successfully breaks C with advantage 1 − negl(λ).
+
+• For every (possibly inefficient) oracle machine M(·) making at most q queries to its oracle it
+holds that
+| Pr[MA(1λ,1)(1λ) = 1] − Pr[MSim(1λ) = 1]| ≤ poly(q) · ϵ.
+
+where the probabilities are taken over all the random choices involved.
+
+We use the shorthand simulatable attack for ϵ-simulatable attack with some negligible ϵ.
+
+We remark that for reasons of conceptual simplicity Wichs [Wic13] required the advantage of
+the simulatable adversary A to be 1. But it can easily be verified that Theorem 7.4 below also
+works with our slightly relaxed notion which allows the unbounded adversary to have advantage
+1 − negl(λ). The following theorem by Wichs [Wic13] shows that the existence of a simulatable
+attack for some assumption C1 implies that there cannot by a reduction B which reduces the
+hardness of C1 to any standard assumption C2, where C1 and C2 are cryptographic games in the
+sense of Definition 7.1.
+
+Theorem 7.4 ([Wic13] Theorem 4.2). If there exists a simulatable attack against some assumption
+C1 and there is a black-box reduction B reducing the security of C1 to some assumption C2, then C2
+is not secure.
+
+The idea for the proof of this theorem is simple: If an attack A against C1 is simulatable, then
+the behavior of BSim will be indistinguishable from BA. But since A breaks C1, it holds that BA
+
+breaks C2. Therefore, the efficient algorithm BSim must also break C2, implying that C2 is insecure.
+
+24
+
+
+7.2
+A Simulatable Attack for Entropic LWE
+
+We will now provide a simulatable attack against entropic (search-)LWE. The attack consists of a
+pair of a min-entropy distribution S and an attacker A. Since we want to prove a result for general
+min-entropy distributions, we assume that both the adversary and the min-entropy distribution S
+are adversarially chosen. Thus, we can consider the distribution S as running a coordinated attack
+with the attacker A. More importantly, any black-box reduction B reducing the entropic LWE to
+a standard assumption will only have black-box access to the distribution S. We remark that, to
+the best of our knowledge, currently all reductions in the realm of leakage resilient cryptography
+only make black-box use of the distribution. Making effective non-black box use of an adversarially
+chosen sampling circuit seems out of reach for current techniques. Assume in the following that
+m ≥ 2n and let χ be a B-bounded error distribution. Furthermore let k be a positive integer.
+Consider the following attacker, consisting of the adversary A and the distribution S.
+
+• The distribution S is a flat distribution on a set S of size 2k, where the set S is chosen
+uniformly random.
+
+• AS(A, y): Given a pair (A, y), the attacker A proceeds as follows:
+
+– Check if the matrix A has an invertible column-submatrix, if not abort and output ⊥
+(this check can be performed efficiently using linear algebra).
+
+– Compute a set I ⊆ [m] of size n such that the column-submatrix AI is invertible (where
+AI is obtained by dropping all columns of A that do not have indices in I).
+
+– Set A′ = AI and y′ = yI (i.e. y′ is y projected to the coordinates in I)
+
+– Initialize a set S′ = ∅
+
+– For every s ∈ S, check if ∥y − sA∥∞ ≤ B, if so include s in the set S′.
+
+– Choose an s ←$ S′ uniformly random and output s
+
+First observe that whenever the matrix A has an invertible submatrix, then A does have
+advantage 1. The probability that A does not have an invertible submatrix is at most log(q)·2n−m =
+log(q) · 2−n, which is negligible (see Section 2). Consequently, A breaks ent-LWE(q, n, m, S, χ) with
+probability 1 − negl(λ).
+We will now provide our simulator for the adversary A and the distribution S. The simulator
+jointly simulates the distribution S and the attacker A, i.e. from the interface of an oracle machine
+B it holds that Sim(1λ, ·, ·) simulates (S(·), A(·)). The advantage of the simulator stems from having
+a joint view of the samples provided so far and the inputs of the adversary A. The main idea of
+our simulator is that is samples the set S lazily and keeps track of all the samples S∗ it gave out
+so far. When provided with an instance (A, y), it will perform the same check as A but restricted
+to the set X′ and therefore run in time O(q). Recall that the simulator is stateful.
+
+• Simulator Sim(1λ, ·, ·):
+
+– Initialize a set S∗ = ∅.
+
+– Whenever a sample is queried from S, choose s ←$ Zn
+q uniformly random, include s in
+the set S∗ and output s.
+
+– Whenever an instance is provided to A, do the following:
+
+25
+
+
+∗ Initialize a set S′ = ∅
+∗ Check for every s ∈ S∗, check if ∥y − sA∥∞ ≤ B, if so include s in the set S′.
+∗ Choose an s ←$ S′ uniformly random and output s.
+
+We will now show that the simulator Sim simulates the attack (A, X) with negligible error. We
+need the following lemma.
+
+Lemma 7.5. Let z ←$ Zn
+q be distributed uniformly random. Then it holds that
+
+Pr[∥z∥∞ ≤ B] ≤ ((2B + 1)/q)n.
+
+Proof. Since all the components zi of z are distributed uniformly and independently, it holds that
+
+Pr[∥z∥∞ ≤ B] =
+
+n
+�
+
+i=1
+Pr[|zi| ≤ B] ≤ ((2B + 1)/q)n.
+
+Theorem 7.6. Let χ = χ(λ) be a B-bounded error-distribution. Further, let k < n · log(q/(2B +
+1)) − ω(log(λ)) be an integer. Let ¯S be the family of all distributions on Zn
+q with min-entropy at
+most k. Then, if there is a reduction B from ent-LWE(q, n, m, ¯S, χ) to any cryptographic game C,
+then C is not secure.
+
+Proof. We will show that (S, A) is a simulatable attack for ent-LWE(q, n, m, ¯S, χ), where S ∈ ¯S.
+The claim then follows immediately by Theorem 7.4. We will prove the statement by a hybrid
+argument. Fix a (possibly inefficient) machine B, assume that B queries S at most ℓ1 times and A
+at most ℓ2 times. Let H0(1λ) = BS,A(1λ). For i = 1, . . . , ℓ2 we define the following hybrids Hi.
+
+Hi : Hi behaves identical to BSim(1λ, ·, ·) until B makes its i + 1-st call to the attacker oracle. At
+this point, take the set S∗ computed by Sim and complement it to a set S by choosing the
+missing elements uniformly random and fixing them. Moreover, starting from this call answer
+every call to the attacker oracle by AS(·).
+
+Note first that Hℓ2 is identically distributed to BSim(1λ). Also observe that from the view of
+B the experiments Hi and Hi+1 are identically distributed until the i + 1-st query to the attacker
+oracle.
+Now fix the any state of B and Sim when B sends its i+1-st query (A, y) and assume that B has
+observed outputs from ˜S = {s1, . . . , sℓ′
+1} from S with ℓ′
+1 ≤ ℓ1. At this point Hi samples elements
+s′
+ℓ′
+1+1, . . . , s′
+K uniformly at random. We claim that if it holds for all j ∈ {ℓ + 1, . . . , K} that
+
+∥s′
+jA − y∥ > B,
+
+then the outputs of AS and Sim are identical. To see this, note that if this condition holds, then
+both AS and Sim will either output a uniformly random element from ˜S = {s ∈ X∗ | ∥sA−y∥ ≤ B}
+or ⊥ if the set ˜S is empty.
+Thus, to bound the statistical distance between Hi and Hi+1 it is sufficient to bound the
+probability of the above event. Note that we can sample s′
+ℓ′
+1+1, . . . , s′
+2k by choosing the s′
+j from
+
+26
+
+
+Zn
+q \ ˜S uniformly random without replacement. This implies that for each index j ∈ {ℓ′
+1 +1, . . . , 2k},
+the marginal distribution of s′
+j is uniform over Zn
+q \ ˜S.
+But we can sample s uniformly from Zn
+q \ ˜S by sampling s uniformly from Zn
+q and rejecting if
+s ∈ ˜S. Thus, a s′ sampled uniformly from Zn
+q \ ˜S has statistical distance at most | ˜S|/qn ≤ ℓ1/qn
+
+from a uniformly random s ←$ Zn
+q . Consequently by Lemma 7.5, it holds for each index j that
+
+Pr
+S [∥s′
+jA − y∥ ≤ B] ≤ ((2B + 1)/q)n + ℓ1/qn.
+
+A union-bound over all indices j ∈ {ℓ′
+1, . . . , 2k} yields that
+
+Pr
+S [∃j ∈ {ℓ′
+1, . . . , 2k} : ∥s′
+jA − y∥ ≤ B] ≤ (2k − ℓ1) · (((2B + 1)/q)n + ℓ1/qn))
+
+We can conclude that the statistical distance between H0 and Hℓ2 is at most
+
+δ = ℓ2 · (2k − ℓ1) · (((2B + 1)/q)n + ℓ1/qn))
+
+≤ 2ℓ2 · 2k · ((2B + 1)/q)n
+
+≤ 2ℓ2 · 2−ω(log(λ))
+
+= negl(λ).
+
+Here the first inequality follows from ℓ1 ≤ (2B +1)n (as ℓ1 is polynomial) and the second inequality
+follows from our assumption that k < n·log(q/(2B +1))−ω(log(λ)). This concludes the proof.
+
+References
+
+[ACPS09]
+Benny Applebaum, David Cash, Chris Peikert, and Amit Sahai. Fast cryptographic
+primitives and circular-secure encryption based on hard learning problems. In Shai
+Halevi, editor, Advances in Cryptology – CRYPTO 2009, volume 5677 of Lecture Notes
+in Computer Science, pages 595–618, Santa Barbara, CA, USA, August 16–20, 2009.
+Springer, Heidelberg, Germany.
+
+[AD97]
+Mikl´os Ajtai and Cynthia Dwork. A public-key cryptosystem with worst-case/average-
+case equivalence. In 29th Annual ACM Symposium on Theory of Computing, pages
+284–293, El Paso, TX, USA, May 4–6, 1997. ACM Press.
+
+[Ajt96]
+Mikl´os Ajtai. Generating hard instances of lattice problems (extended abstract). In
+28th Annual ACM Symposium on Theory of Computing, pages 99–108, Philadephia,
+PA, USA, May 22–24, 1996. ACM Press.
+
+[AKPW13] Jo¨el Alwen, Stephan Krenn, Krzysztof Pietrzak, and Daniel Wichs.
+Learning with
+rounding, revisited - new reduction, properties and applications. In Ran Canetti and
+Juan A. Garay, editors, Advances in Cryptology – CRYPTO 2013, Part I, volume
+8042 of Lecture Notes in Computer Science, pages 57–74, Santa Barbara, CA, USA,
+August 18–22, 2013. Springer, Heidelberg, Germany.
+
+[BBPS19]
+Madalina Bolboceanu, Zvika Brakerski, Renen Perlman, and Devika Sharma. Order-
+lwe and the hardness of ring-lwe with entropic secrets. Asiacrypt, 2019. https://
+eprint.iacr.org/2018/494.
+
+27
+
+
+[BGM+16] Andrej Bogdanov, Siyao Guo, Daniel Masny, Silas Richelson, and Alon Rosen. On
+the hardness of learning with rounding over small modulus. In Eyal Kushilevitz and
+Tal Malkin, editors, TCC 2016-A: 13th Theory of Cryptography Conference, Part I,
+volume 9562 of Lecture Notes in Computer Science, pages 209–224, Tel Aviv, Israel,
+January 10–13, 2016. Springer, Heidelberg, Germany.
+
+[BGV12]
+Zvika Brakerski, Craig Gentry, and Vinod Vaikuntanathan. (Leveled) fully homomor-
+phic encryption without bootstrapping. In Shafi Goldwasser, editor, ITCS 2012: 3rd
+Innovations in Theoretical Computer Science, pages 309–325, Cambridge, MA, USA,
+January 8–10, 2012. Association for Computing Machinery.
+
+[BLP+13]
+Zvika Brakerski, Adeline Langlois, Chris Peikert, Oded Regev, and Damien Stehl´e.
+Classical hardness of learning with errors. In Dan Boneh, Tim Roughgarden, and Joan
+Feigenbaum, editors, 45th Annual ACM Symposium on Theory of Computing, pages
+575–584, Palo Alto, CA, USA, June 1–4, 2013. ACM Press.
+
+[BPR12]
+Abhishek Banerjee, Chris Peikert, and Alon Rosen. Pseudorandom functions and lat-
+tices. In David Pointcheval and Thomas Johansson, editors, Advances in Cryptology –
+EUROCRYPT 2012, volume 7237 of Lecture Notes in Computer Science, pages 719–
+737, Cambridge, UK, April 15–19, 2012. Springer, Heidelberg, Germany.
+
+[BV11]
+Zvika Brakerski and Vinod Vaikuntanathan. Efficient fully homomorphic encryption
+from (standard) LWE. In Rafail Ostrovsky, editor, 52nd Annual Symposium on Foun-
+dations of Computer Science, pages 97–106, Palm Springs, CA, USA, October 22–25,
+2011. IEEE Computer Society Press.
+
+[DM13]
+Nico D¨ottling and J¨orn M¨uller-Quade. Lossy codes and a new variant of the learning-
+with-errors problem. In Thomas Johansson and Phong Q. Nguyen, editors, Advances in
+Cryptology – EUROCRYPT 2013, volume 7881 of Lecture Notes in Computer Science,
+pages 18–34, Athens, Greece, May 26–30, 2013. Springer, Heidelberg, Germany.
+
+[DORS08]
+Yevgeniy Dodis, Rafail Ostrovsky, Leonid Reyzin, and Adam D. Smith. Fuzzy extrac-
+tors: How to generate strong keys from biometrics and other noisy data. SIAM J.
+Comput., 38(1):97–139, 2008.
+
+[Gen09]
+Craig Gentry. Fully homomorphic encryption using ideal lattices. In Michael Mitzen-
+macher, editor, 41st Annual ACM Symposium on Theory of Computing, pages 169–178,
+Bethesda, MD, USA, May 31 – June 2, 2009. ACM Press.
+
+[GKPV10] Shafi Goldwasser, Yael Tauman Kalai, Chris Peikert, and Vinod Vaikuntanathan. Ro-
+bustness of the learning with errors assumption.
+In Andrew Chi-Chih Yao, editor,
+ICS 2010: 1st Innovations in Computer Science, pages 230–240, Tsinghua University,
+Beijing, China, January 5–7, 2010. Tsinghua University Press.
+
+[GVW13]
+Sergey Gorbunov, Vinod Vaikuntanathan, and Hoeteck Wee. Attribute-based encryp-
+tion for circuits. In Dan Boneh, Tim Roughgarden, and Joan Feigenbaum, editors,
+45th Annual ACM Symposium on Theory of Computing, pages 545–554, Palo Alto,
+CA, USA, June 1–4, 2013. ACM Press.
+
+28
+
+
+[HH09]
+Iftach Haitner and Thomas Holenstein. On the (im)possibility of key dependent encryp-
+tion. In Omer Reingold, editor, TCC 2009: 6th Theory of Cryptography Conference,
+volume 5444 of Lecture Notes in Computer Science, pages 202–219. Springer, Heidel-
+berg, Germany, March 15–17, 2009.
+
+[Mic18]
+Daniele Micciancio. On the hardness of learning with errors with binary secrets. Theory
+of Computing, 14(1):1–17, 2018.
+
+[MM11]
+Daniele Micciancio and Petros Mol. Pseudorandom knapsacks and the sample com-
+plexity of LWE search-to-decision reductions. In Phillip Rogaway, editor, Advances
+in Cryptology – CRYPTO 2011, volume 6841 of Lecture Notes in Computer Science,
+pages 465–484, Santa Barbara, CA, USA, August 14–18, 2011. Springer, Heidelberg,
+Germany.
+
+[MP12]
+Daniele Micciancio and Chris Peikert. Trapdoors for lattices: Simpler, tighter, faster,
+smaller. In David Pointcheval and Thomas Johansson, editors, Advances in Cryptology
+– EUROCRYPT 2012, volume 7237 of Lecture Notes in Computer Science, pages 700–
+718, Cambridge, UK, April 15–19, 2012. Springer, Heidelberg, Germany.
+
+[MR04]
+Daniele Micciancio and Oded Regev. Worst-case to average-case reductions based on
+Gaussian measures. In 45th Annual Symposium on Foundations of Computer Science,
+pages 372–381, Rome, Italy, October 17–19, 2004. IEEE Computer Society Press.
+
+[Nao03]
+Moni Naor.
+On cryptographic assumptions and challenges (invited talk).
+In Dan
+Boneh, editor, Advances in Cryptology – CRYPTO 2003, volume 2729 of Lecture Notes
+in Computer Science, pages 96–109, Santa Barbara, CA, USA, August 17–21, 2003.
+Springer, Heidelberg, Germany.
+
+[NIS]
+NIST.
+Post-quantum cryptography standardization.
+https://csrc.nist.gov/
+Projects/Post-Quantum-Cryptography.
+
+[Pei09]
+Chris Peikert. Public-key cryptosystems from the worst-case shortest vector problem:
+extended abstract. In Michael Mitzenmacher, editor, 41st Annual ACM Symposium
+on Theory of Computing, pages 333–342, Bethesda, MD, USA, May 31 – June 2, 2009.
+ACM Press.
+
+[Pei10]
+Chris Peikert. An efficient and parallel Gaussian sampler for lattices. In Tal Rabin,
+editor, Advances in Cryptology – CRYPTO 2010, volume 6223 of Lecture Notes in Com-
+puter Science, pages 80–97, Santa Barbara, CA, USA, August 15–19, 2010. Springer,
+Heidelberg, Germany.
+
+[Reg05]
+Oded Regev. On lattices, learning with errors, random linear codes, and cryptography.
+In Harold N. Gabow and Ronald Fagin, editors, 37th Annual ACM Symposium on
+Theory of Computing, pages 84–93, Baltimore, MA, USA, May 22–24, 2005. ACM
+Press.
+
+[Sha48]
+Claude Elwood Shannon.
+A mathematical theory of communication.
+Bell system
+technical journal, 27(3):379–423, 1948.
+
+29
+
+
+[Sha49]
+Claude Elwood Shannon. Communication in the presence of noise. Proceedings of the
+IRE, 37(1):10–21, 1949.
+
+[W+59]
+J Wolfowitz et al. Strong converse of the coding theorem for semicontinuous channels.
+Illinois Journal of Mathematics, 3(4):477–489, 1959.
+
+[Wic13]
+Daniel Wichs. Barriers in cryptography with weak, correlated and leaky sources. In
+Robert D. Kleinberg, editor, ITCS 2013: 4th Innovations in Theoretical Computer
+Science, pages 111–126, Berkeley, CA, USA, January 9–12, 2013. Association for Com-
+puting Machinery.
+
+30
+
+

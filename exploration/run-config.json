@@ -1,0 +1,32 @@
+{
+  "status": "authorized_pending_launch",
+  "run_kind": "finite_exploration",
+  "max_wall_seconds": 21600,
+  "duration_status": "accepted_with_launch_request",
+  "max_active_agents_including_coordinator": 4,
+  "max_active_workers": 3,
+  "workers_may_spawn_agents": false,
+  "goal_tools_allowed": false,
+  "automatic_resume": false,
+  "model_policy": "explicit_user_override",
+  "scouting_assignments": 12,
+  "max_developed_directions": 3,
+  "successful_direction_quota": 0,
+  "default_experiment_timeout_seconds": 120,
+  "max_concurrent_experiments": 2,
+  "deadline_supervisor_implemented": true,
+  "deadline_supervisor_verified": true,
+  "launch_authorized": true,
+  "phase_boundaries_seconds": {
+    "setup_end": 900,
+    "discovery_end": 8100,
+    "selection_end": 9000,
+    "investigation_end": 13500,
+    "criticism_end": 17100,
+    "reconciliation_end": 18900,
+    "workers_stop": 21000,
+    "hard_stop": 21600
+  },
+  "model": "gpt-6-astra",
+  "reasoning_effort": "ultra"
+}

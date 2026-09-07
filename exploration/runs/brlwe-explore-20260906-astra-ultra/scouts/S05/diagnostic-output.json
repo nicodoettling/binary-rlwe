@@ -1,0 +1,57 @@
+{
+  "n": 8,
+  "q": 7,
+  "conference_count_zero_at_0": 8,
+  "c": [
+    0,
+    -1,
+    -1,
+    -1,
+    1,
+    1,
+    -1,
+    1
+  ],
+  "rank_c": 4,
+  "binary_fiber_histogram": {
+    "1": 224,
+    "2": 16
+  },
+  "binary_image_size": 240,
+  "empty_field_fibers": 2161,
+  "binary_secrets_in_nontrivial_fibers": 32,
+  "box_perturbations": [
+    {
+      "H": 0,
+      "support": 1,
+      "quotient_TV": 0.9995835068721366,
+      "fixed_collision_coordinate_probability_within_1": 1.0,
+      "fixed_collision_all_coordinates_probability_within_1": 1.0,
+      "unwrapped_collision_RMS": 0.0
+    },
+    {
+      "H": 1,
+      "support": 2161,
+      "quotient_TV": 0.2512188026111408,
+      "fixed_collision_coordinate_probability_within_1": 0.5134887974394147,
+      "fixed_collision_all_coordinates_probability_within_1": 0.026977594878829447,
+      "unwrapped_collision_RMS": 2.160246899469287
+    },
+    {
+      "H": 2,
+      "support": 2401,
+      "quotient_TV": 0.008250565464389837,
+      "fixed_collision_coordinate_probability_within_1": 0.4290688,
+      "fixed_collision_all_coordinates_probability_within_1": 0.00659712,
+      "unwrapped_collision_RMS": 3.7416573867739413
+    },
+    {
+      "H": 3,
+      "support": 2401,
+      "quotient_TV": 0.0,
+      "fixed_collision_coordinate_probability_within_1": 0.42857142857142855,
+      "fixed_collision_all_coordinates_probability_within_1": 0.007080383173677634,
+      "unwrapped_collision_RMS": 5.291502622129181
+    }
+  ]
+}

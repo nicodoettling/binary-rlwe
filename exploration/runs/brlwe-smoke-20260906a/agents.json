@@ -1,0 +1,9 @@
+{
+  "agents": [
+    {
+      "agent_id": "/root/cancellation_worker",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra"
+    }
+  ]
+}

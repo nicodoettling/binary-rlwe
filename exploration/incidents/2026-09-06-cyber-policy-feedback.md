@@ -1,0 +1,18 @@
+Subject: Suspected cybersecurity false positive during academic cryptography research
+
+Please investigate a suspected false-positive cybersecurity content-policy termination in Codex.
+
+- Session ID: `01a07718-4189-7492-9b02-8b3ae06ab59d`
+- Model: `gpt-6-astra`; reasoning effort: `ultra`
+- Codex CLI version: `0.153.0` (verified in the run header)
+- Error time: 2026-09-06 at 15:59:47.332 UTC
+- Process exit: 2026-09-06 at 15:59:48.065 UTC; exit code `1`
+- Persisted error classification: `cyber_policy`
+
+The task was theoretical research on the hardness of binary-secret Ring-LWE: reading public academic literature, developing and auditing mathematical proofs, and running bounded local experiments on synthetic inputs. No existing systems were targeted. The run operated in a local workspace-write sandbox.
+
+The saved error message begins: “This content was flagged for possible cybersecurity risk.” It also directs the user to the Trusted Access for Cyber program. The persisted session records this as a `cyber_policy` task-completion error; the launcher records the subsequent failed exit. This report concerns that content-policy block, not a tool-permission or sandbox approval-review rejection.
+
+We suspect a false positive given the academic research scope, but the exact triggering content and the reason for the classification are unknown. The termination interrupted an ongoing research session.
+
+Please review the classification for this session and advise how to support recurring legitimate academic cryptography research with Astra, including whether any account review or program enrollment is appropriate.

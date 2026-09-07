@@ -1,0 +1,160 @@
+{
+  "experiment_id": "COORD-E01",
+  "version": 1,
+  "seed": null,
+  "randomness": "none",
+  "python": "3.12.3",
+  "mpmath": "1.2.1",
+  "code_sha256": "00d6d926e3f08dfbe0d92c8e42e756caf9db49efa3cecb8cc5f862ac7a405f5f",
+  "arithmetic": "exact Fraction except explicitly marked 80-digit diagnostics",
+  "elapsed_seconds": 0.005401822971180081,
+  "scope": "Finite historical regressions and one targeted projection control, no A2 sampler or asymptotic hardness test",
+  "checks": [
+    {
+      "id": "CP-1",
+      "values": {
+        "normalizer": "10/11",
+        "posterior": {
+          "A0": "21/2000",
+          "A1": "21/2000",
+          "C0": "1/20",
+          "C1": "1/20",
+          "D": "879/1000"
+        },
+        "selected": "21/2000",
+        "false_product": "1/100",
+        "cached_prefix_incidence": "21/221"
+      },
+      "passed": true
+    },
+    {
+      "id": "R14-q3-d1",
+      "values": {
+        "image_defect": "2/9",
+        "active_conditioning_tv": "1/3"
+      },
+      "passed": true
+    },
+    {
+      "id": "R14-q3-d2",
+      "values": {
+        "image_defect": "32/81",
+        "active_conditioning_tv": "5/9"
+      },
+      "passed": true
+    },
+    {
+      "id": "R14-q3-d3",
+      "values": {
+        "image_defect": "386/729",
+        "active_conditioning_tv": "19/27"
+      },
+      "passed": true
+    },
+    {
+      "id": "R14-q5-d1",
+      "values": {
+        "image_defect": "4/25",
+        "active_conditioning_tv": "1/5"
+      },
+      "passed": true
+    },
+    {
+      "id": "R14-q5-d2",
+      "values": {
+        "image_defect": "184/625",
+        "active_conditioning_tv": "9/25"
+      },
+      "passed": true
+    },
+    {
+      "id": "R14-q5-d3",
+      "values": {
+        "image_defect": "6364/15625",
+        "active_conditioning_tv": "61/125"
+      },
+      "passed": true
+    },
+    {
+      "id": "R03-COMMON-K",
+      "values": {
+        "tv": "2/3"
+      },
+      "passed": true
+    },
+    {
+      "id": "C02-LATENT-PUBLIC",
+      "values": {
+        "latent_tv": "1/2",
+        "public_tv": "0"
+      },
+      "passed": true
+    },
+    {
+      "id": "SAME-Y-REPLICAS",
+      "values": {
+        "difference": {
+          "0": "2/3",
+          "-1": "1/6",
+          "1": "1/6"
+        },
+        "collision": "2/3",
+        "independent_prior_collision": "1/2"
+      },
+      "passed": true
+    },
+    {
+      "id": "HC4-SIGNED-INVERSE",
+      "values": {
+        "mu": [
+          "2/5",
+          "3/20",
+          "3/20",
+          "3/20",
+          "3/20"
+        ],
+        "h": [
+          "3/5",
+          "1/4",
+          "-1/20",
+          "-1/20",
+          "1/4"
+        ],
+        "nu": [
+          "3/10",
+          "17/80",
+          "11/80",
+          "11/80",
+          "17/80"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "id": "ATT-DUAL-ROUNDING",
+      "values": {
+        "planted_cases": 153,
+        "max_error": "5/17"
+      },
+      "passed": true
+    },
+    {
+      "id": "PUBLIC-ENCODED-F",
+      "values": {
+        "public_tv": "1/2"
+      },
+      "passed": true
+    },
+    {
+      "id": "NC1-GUARD-AND-SEQ-PARITY",
+      "values": {
+        "precision_digits": 80,
+        "delta_lower": "1.4106933627606491519321527022586002402691916181109646365863425751202134949955268",
+        "Z0_minus_Zhalf": "0.044008958425385513161574242728810243873437306107926783976134769180457220519116672",
+        "each_omitted_tail_upper": "1.1175188591331673894427223562147185184757612782017117614728822039410371923672374e-382"
+      },
+      "passed": true
+    }
+  ],
+  "passed": true
+}
