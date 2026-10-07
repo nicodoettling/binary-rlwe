@@ -1,0 +1,291 @@
+{
+  "created_at": "2026-09-07T22:21:04.419574+00:00",
+  "version": 1,
+  "scope": "Interim frozen evidence; RF1 and RD1 final packets not yet included. No mathematical acceptance inferred from hashes.",
+  "files": [
+    {
+      "path": "candidates/search/proof-v1.md",
+      "sha256": "198c36bce9a73b87f2e1f5cf644d7e96b13cda063922f1ab10b0b2ee60114042"
+    },
+    {
+      "path": "candidates/search/supplement-v1.md",
+      "sha256": "71752406e81e327b5c47d0d118ea9bc6aa0f87566d23345daf290a7b8322410a"
+    },
+    {
+      "path": "candidates/search/theorem-only-v2.md",
+      "sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124"
+    },
+    {
+      "path": "coordinator/primary-browser-record-v1.json",
+      "sha256": "fddb783eb9e759c1794771e6ea2d5b98deb346176f16b50229af6d52f80f8bf7"
+    },
+    {
+      "path": "coordinator/rectangular-completion-v1.md",
+      "sha256": "d66a1ea3e1c61990c77380de60c39b00a3097ab111407aedc610cfbe34c70163"
+    },
+    {
+      "path": "coordinator/source-and-parameters-v1.md",
+      "sha256": "131e6a3feec87010007a30ddc1e37bdec44687648120bfe1e8c5187e6e779f50"
+    },
+    {
+      "path": "criticism/RB1/SHA256SUMS-v1",
+      "sha256": "1a17fe11fe055d5db5edf013c3b2cc42d26047eda30867e3a8163866268e429f"
+    },
+    {
+      "path": "criticism/RB1/assignment.md",
+      "sha256": "0986b5e5b69bcb8e6b8fc6bb5ad019461026f39e5a9ce2ba1f89f63e0e0cea8c"
+    },
+    {
+      "path": "criticism/RB1/blind-report-draft-v1.md",
+      "sha256": "c95e83a3a53cd589d2f2bf731ead33b35857af33edea28f1f3a0f8b722061b2d"
+    },
+    {
+      "path": "criticism/RB1/blind-report-v1.md",
+      "sha256": "c95e83a3a53cd589d2f2bf731ead33b35857af33edea28f1f3a0f8b722061b2d"
+    },
+    {
+      "path": "criticism/RB1/finite-controls-v1.py",
+      "sha256": "25c00b5225e78ac3f0c30e2c65c8fc7572bae735b1973396835db5a12587bab5"
+    },
+    {
+      "path": "criticism/RB1/finite-controls-v1.results.json",
+      "sha256": "9084cc3419f69175695b63489d79ab2284edc7e029ce208ff7fc1cbd1bdd2360"
+    },
+    {
+      "path": "criticism/RB1/finite-controls-v2.py",
+      "sha256": "c4451126b82b0b30bb9422dd09f91aa048a036c975a4d41539d9eba80877c592"
+    },
+    {
+      "path": "criticism/RB1/finite-controls-v2.results.json",
+      "sha256": "8c4fbc0f8b12ddc4a3af3873c50e6272158bd860a54efbb8bc15f11a1710157a"
+    },
+    {
+      "path": "criticism/RB1/freeze-v1.json",
+      "sha256": "253d8a48c046595652cd4cf68c4b2decbf2101532ec9cd61d4d8b2d82d42612b"
+    },
+    {
+      "path": "criticism/RB1/input/SHA256SUMS",
+      "sha256": "1c71926afe6523d8b86f74ce5714cfd137230d0f586b810386a14e459a0021ca"
+    },
+    {
+      "path": "criticism/RB1/input/theorem-only-v2.md",
+      "sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124"
+    },
+    {
+      "path": "criticism/RB1/partial-v1.md",
+      "sha256": "ca2fe20c7e794b4d4c15921c5cbab6ce5bf6c0676760a4e8b55f3bb78f251cd9"
+    },
+    {
+      "path": "criticism/RB1/partial-v2.md",
+      "sha256": "4257ca73881b672c7922ed8668d8561a195cf2594695e7ffb15e72f80d114db2"
+    },
+    {
+      "path": "criticism/RB1/source-manifest-v1.json",
+      "sha256": "30ba4dec1d64bc32dbc5bc599c29589df895dbff34cf7f67bd8d99351c615731"
+    },
+    {
+      "path": "criticism/RS1/additional-input-hashes.json",
+      "sha256": "125757793d43a7e1b5a69f2d34371fe8b88799bc826aca3ea71e40a6b7281cee"
+    },
+    {
+      "path": "criticism/RS1/assignment.md",
+      "sha256": "2e93c843da347c3cea697b43a51029c599824acb6e9e77e67ec866a0a0c93aaf"
+    },
+    {
+      "path": "criticism/RS1/delivery-verification.json",
+      "sha256": "d27137219547c23905780f4bb6fecac8998d891c81e056bb30763e019bd61cb0"
+    },
+    {
+      "path": "criticism/RS1/input/proof-v1.md",
+      "sha256": "198c36bce9a73b87f2e1f5cf644d7e96b13cda063922f1ab10b0b2ee60114042"
+    },
+    {
+      "path": "criticism/RS1/input/source-and-parameters-v1.md",
+      "sha256": "131e6a3feec87010007a30ddc1e37bdec44687648120bfe1e8c5187e6e779f50"
+    },
+    {
+      "path": "criticism/RS1/input/supplement-v1.md",
+      "sha256": "71752406e81e327b5c47d0d118ea9bc6aa0f87566d23345daf290a7b8322410a"
+    },
+    {
+      "path": "criticism/RS1/input/theorem-only-v2.md",
+      "sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124"
+    },
+    {
+      "path": "criticism/RS1/input-hashes.json",
+      "sha256": "2c1f0e676b0d8e37492e158a04224968b32c5f394109af9108a95dd8139fc331"
+    },
+    {
+      "path": "criticism/RS1/partial-1.md",
+      "sha256": "a2351db353a7099f24acf58bbdfb9456ed1a9e637c0fb1aa7c1a4db02f3c108e"
+    },
+    {
+      "path": "criticism/RS1/report-v1.md",
+      "sha256": "f04881cf65af51b7079fd59b785e9ca2d8cbc53fb710c06e0b823ae31cc20785"
+    },
+    {
+      "path": "experiments/rectangular-identities-v1.json",
+      "sha256": "0dd3d0bc968235bb7b846909be42e8124d9de9964624f63f5472da96292be041"
+    },
+    {
+      "path": "experiments/rectangular-identities-v1.py",
+      "sha256": "c60ed05d8580c00b134d7de3af7f1483025105f97fbba0e7d309f5fce3e95b27"
+    },
+    {
+      "path": "workers/A1/artifact-manifest-v1.json",
+      "sha256": "c67bda9fb06b5c81297b4cd68e34db03dfdd67c1e53735dd8e0d8ae9aa136411"
+    },
+    {
+      "path": "workers/A1/assignment.md",
+      "sha256": "dcdd2bb183df9adba8b25dbe9089b7d0fe0d2aa775a71b327c955ad71122f1b4"
+    },
+    {
+      "path": "workers/A1/claims.json",
+      "sha256": "f2084c297dbd09dcc1920d878966869068a11ae64d4b93c2f8edc9988e9a8584"
+    },
+    {
+      "path": "workers/A1/exact_controls_v1.json",
+      "sha256": "1891321654560d5dd4c3dab8a9490e6a9a63ad8846cf338f98d658f8e8db509c"
+    },
+    {
+      "path": "workers/A1/exact_controls_v1.py",
+      "sha256": "09fa4d72a73705561cdb08ee68929b250d5418b4bcc200006523c6b15a16353e"
+    },
+    {
+      "path": "workers/A1/final.md",
+      "sha256": "8f5bbaf6acdc92b5da4110932ddad508665bc72db3dfc855bd5b87115b32b258"
+    },
+    {
+      "path": "workers/A1/frozen-theorem-v1.md",
+      "sha256": "cf81bffcac7bc644356fa7f92e3cccdfa4b8b494c448029d572e68df9d02679d"
+    },
+    {
+      "path": "workers/A1/integrity-check-v1.json",
+      "sha256": "e324478ce1ade6a48ecb9259395186c7587b8e2153c90a43f3b82c1fffc76d74"
+    },
+    {
+      "path": "workers/A1/progress.md",
+      "sha256": "dcd6788a4993a5c1b6eba5de0aa0c58b24fbdf1cb15afaab6ab70f19090c1716"
+    },
+    {
+      "path": "workers/A1/proof-v1.md",
+      "sha256": "198c36bce9a73b87f2e1f5cf644d7e96b13cda063922f1ab10b0b2ee60114042"
+    },
+    {
+      "path": "workers/A1/source-access.md",
+      "sha256": "f72816a39654a61a013105b1caf1347ab95f3f74e42ca2d6b6263b8c3dc4b271"
+    },
+    {
+      "path": "workers/A1/supplement-v1.md",
+      "sha256": "71752406e81e327b5c47d0d118ea9bc6aa0f87566d23345daf290a7b8322410a"
+    },
+    {
+      "path": "workers/A1/theorem-only-v1.md",
+      "sha256": "c0f4fd514c0f3846445ce3b01226ba2d81d69b86b3252ede709101a1883e7e80"
+    },
+    {
+      "path": "workers/A1/theorem-only-v2.md",
+      "sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124"
+    },
+    {
+      "path": "workers/B1/assignment.md",
+      "sha256": "12e72989ffec4cb2e6ebfd37ca56b99dc5687b5be2773b8be0a6c1b7c83a088d"
+    },
+    {
+      "path": "workers/B1/cap-before-exact-v1.json",
+      "sha256": "f3da6abf79f3c9b0ac5b102d056e6629be38d70eac3ef4796f0042b54a9cfbe0"
+    },
+    {
+      "path": "workers/B1/cap-before-exact-v2.json",
+      "sha256": "f3da6abf79f3c9b0ac5b102d056e6629be38d70eac3ef4796f0042b54a9cfbe0"
+    },
+    {
+      "path": "workers/B1/claims.json",
+      "sha256": "f833b8aced3fcbc2b1eff5081112cfc6606d0153137dc3f56dcbeddac003a8eb"
+    },
+    {
+      "path": "workers/B1/control-addendum-v2.md",
+      "sha256": "98d565a70db7d3d8fd5171e38e57ad499119501bc282fd7930f25490f5dda078"
+    },
+    {
+      "path": "workers/B1/exact-controls-v1.json",
+      "sha256": "cb074d042120026343cc10e978b9f035cf1d289f146f34e9bbc7f7466548f8b1"
+    },
+    {
+      "path": "workers/B1/exact-controls-v1.py",
+      "sha256": "2ebd15afa8e6dfb55f80ae47a7551074f911e75222c30da88f93f21f4258051c"
+    },
+    {
+      "path": "workers/B1/exact-controls-v2.json",
+      "sha256": "ccccbd5bfb5faf7e90daeb258fba207068f170f9c4138faf4950e09128d7a949"
+    },
+    {
+      "path": "workers/B1/exact-controls-v2.py",
+      "sha256": "454f8a1a815b6acd9ab8190217959bf07726d09fd36f983f0fc593334c225152"
+    },
+    {
+      "path": "workers/B1/final.md",
+      "sha256": "56442104641aeb818fa297ed8cb87d20adf0c9aa58efc84013d56e70ecce6d8d"
+    },
+    {
+      "path": "workers/B1/partial-2145.md",
+      "sha256": "927bdbc8511704e5645ed9369e761dac26b198e7ef9b6385bcf4e87bf61d70da"
+    },
+    {
+      "path": "workers/B1/proof-v1.md",
+      "sha256": "664460e15f77cb225344fbf87d73a2a0056bafbef124b882649798e945d5c820"
+    },
+    {
+      "path": "workers/B1/statement-v1.md",
+      "sha256": "634c1f1cddad11902590653599bfdc42437bd86b17807831b82a118a278df11a"
+    },
+    {
+      "path": "workers/C1/artifact-hashes-v1.sha256",
+      "sha256": "815c45464309c83c0f0c4d3cb2b4b33b612ffc970e030ed5976ef9e2fd6fc789"
+    },
+    {
+      "path": "workers/C1/assignment.md",
+      "sha256": "21545b4042ba8d206c1da78a8d6281ddda359e1eea5097242cd426a1a8568976"
+    },
+    {
+      "path": "workers/C1/claims-v1.json",
+      "sha256": "ecbbd3ca71db656657be73de412cb7820a2fff2af7d6542efbaee5a604c5cffd"
+    },
+    {
+      "path": "workers/C1/exact-controls-v1.json",
+      "sha256": "f7cc508adb733a1c07c3395bb00741d3e75a1124d127140999750d9a91c1713d"
+    },
+    {
+      "path": "workers/C1/exact-controls-v1.py",
+      "sha256": "dd964edea0ba8a56e777fd88d1d956ef7050b3e2a407462d9d0669dc2ebecb86"
+    },
+    {
+      "path": "workers/C1/final.md",
+      "sha256": "5385a67407b91d874410de56dae184c997ef1b8e0b7421eb4d76078db437bfb0"
+    },
+    {
+      "path": "workers/C1/input-hashes-v1.sha256",
+      "sha256": "c508e4540de5f38f934e47d80ed89720fc97ca83c64cb049e42a5a3e543a3d05"
+    },
+    {
+      "path": "workers/C1/larger-q-theorem-v1.md",
+      "sha256": "8b4c3f83a8b8c120c7a01eeb05731ea4fdf5d3d092ccf7d288956662e19c95e8"
+    },
+    {
+      "path": "workers/C1/partial.md",
+      "sha256": "e147914ee5b708ffb3144e5be480d7b2be21108bfa19ee67dfcae27ac4225257"
+    },
+    {
+      "path": "workers/C1/primary-web-record-v1.json",
+      "sha256": "b11c194f77d518198c1c99bc514194f8fecfe91875e1b946a7c0fb4e26411d28"
+    },
+    {
+      "path": "workers/C1/source-checks-v1.md",
+      "sha256": "7bc8f1bf1a2e973a338fc39468648c292e6a5034d58abe8e47b3d046fc7d8e17"
+    },
+    {
+      "path": "workers/C1/source-transfer-v1.md",
+      "sha256": "25ae59dcda887083d943e4d456f15a33c7929a3856aeef9fc84bb90ec44763b4"
+    }
+  ]
+}

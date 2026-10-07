@@ -1,0 +1,64 @@
+{
+  "updated_utc": "2026-09-07T21:57:23.669607+00:00",
+  "certified": false,
+  "claims": [
+    {
+      "id": "A1-WITNESS",
+      "statement": "Witness-retaining planted-to-loss law and latent upper bound under full product law",
+      "dependencies": [],
+      "status": "PROVISIONAL",
+      "evidence": "proof-v1.md sections 1-3",
+      "review_required": "Fresh nonauthor and blind review; coordinator import/regression closure"
+    },
+    {
+      "id": "A1-BIT",
+      "statement": "Exact iid unwrapped noisy-bit guessing and wrapped contraction",
+      "dependencies": [],
+      "status": "PROVISIONAL",
+      "evidence": "proof-v1.md section 4",
+      "review_required": "Fresh nonauthor and blind review; coordinator import/regression closure"
+    },
+    {
+      "id": "A1-RECT",
+      "statement": "Rectangular independent-summand discrete Gaussian completion with guarded Poisson normalization",
+      "dependencies": [],
+      "status": "PROVISIONAL",
+      "evidence": "proof-v1.md sections 5-6",
+      "review_required": "Fresh nonauthor and blind review; coordinator import/regression closure"
+    },
+    {
+      "id": "A1-FINITE",
+      "statement": "One/two-target-sample exact-witness source reduction",
+      "dependencies": [
+        "A1-WITNESS",
+        "A1-BIT",
+        "A1-RECT"
+      ],
+      "status": "PROVISIONAL",
+      "evidence": "proof-v1.md sections 7-8",
+      "review_required": "Fresh nonauthor and blind review; coordinator import/regression closure"
+    },
+    {
+      "id": "A1-PARAM",
+      "statement": "Polynomial-q asymptotic family and larger quotient range",
+      "dependencies": [
+        "A1-FINITE",
+        "external least-prime import"
+      ],
+      "status": "PROVISIONAL",
+      "evidence": "proof-v1.md section 9; supplement-v1.md",
+      "review_required": "Fresh nonauthor and blind review; coordinator import/regression closure"
+    },
+    {
+      "id": "A1-ASYMPTOTIC",
+      "statement": "PPT search hardness from exact explicit two-point source assumption",
+      "dependencies": [
+        "A1-PARAM",
+        "explicit source computational assumption"
+      ],
+      "status": "PROVISIONAL",
+      "evidence": "theorem-only-v2.md; proof-v1.md",
+      "review_required": "Fresh nonauthor and blind review; coordinator import/regression closure"
+    }
+  ]
+}

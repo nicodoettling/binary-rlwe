@@ -1,0 +1,96 @@
+{
+  "utc": "2026-09-07T22:30:09.737489+00:00",
+  "all_expected_match": true,
+  "inputs": [
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/coordinator/A-PPT-ledger-v2.json",
+      "sha256": "e8ac045319cc40b0979cc54a3bd4e6c659badefdeee25dff221fe96cfc680447",
+      "expected": "e8ac045319cc40b0979cc54a3bd4e6c659badefdeee25dff221fe96cfc680447",
+      "snapshot": "input/coordinator/A-PPT-ledger-v2.json"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/coordinator/A-PPT-ledger-v1-rejected.json",
+      "sha256": "213a5ecd57b1a4f5a99d7267470c5854dff7500020cc8ec1ee93cd4474a2213b",
+      "expected": null,
+      "snapshot": "input/coordinator/A-PPT-ledger-v1-rejected.json"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/coordinator/A-PPT-ledger-v1-scope-defect.md",
+      "sha256": "47d5816c48ee81507b9b8f39bccbcedaa0f151ddc8f54a03b5fe8233ed1d9431",
+      "expected": null,
+      "snapshot": "input/coordinator/A-PPT-ledger-v1-scope-defect.md"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/candidates/search/theorem-only-v2.md",
+      "sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124",
+      "expected": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124",
+      "snapshot": "input/candidates/search/theorem-only-v2.md"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/candidates/search/proof-v1.md",
+      "sha256": "198c36bce9a73b87f2e1f5cf644d7e96b13cda063922f1ab10b0b2ee60114042",
+      "expected": "198c36bce9a73b87f2e1f5cf644d7e96b13cda063922f1ab10b0b2ee60114042",
+      "snapshot": "input/candidates/search/proof-v1.md"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/candidates/search/supplement-v1.md",
+      "sha256": "71752406e81e327b5c47d0d118ea9bc6aa0f87566d23345daf290a7b8322410a",
+      "expected": "71752406e81e327b5c47d0d118ea9bc6aa0f87566d23345daf290a7b8322410a",
+      "snapshot": "input/candidates/search/supplement-v1.md"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/coordinator/source-and-parameters-v1.md",
+      "sha256": "131e6a3feec87010007a30ddc1e37bdec44687648120bfe1e8c5187e6e779f50",
+      "expected": null,
+      "snapshot": "input/coordinator/source-and-parameters-v1.md"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/coordinator/rectangular-completion-v1.md",
+      "sha256": "d66a1ea3e1c61990c77380de60c39b00a3097ab111407aedc610cfbe34c70163",
+      "expected": null,
+      "snapshot": "input/coordinator/rectangular-completion-v1.md"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/claims.json",
+      "sha256": "e4ab92ca59da63bfc0735f795941b162d831d290cfe31fa415034e71dc41f2f4",
+      "expected": null,
+      "snapshot": "input/claims.json"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/imports/latest-regressions.json",
+      "sha256": "5b3d21b92ba3efc6fb64cc77f4523de6b24f73e794009fefc508c555dbe112a0",
+      "expected": null,
+      "snapshot": "input/imports/latest-regressions.json"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/imports/historical-file-index.json",
+      "sha256": "22fd6792648ecd77f2087935a2938e7ac7aec8edb62b56c6febe4f9e926c59bb",
+      "expected": null,
+      "snapshot": "input/imports/historical-file-index.json"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RF1/report-v1.md",
+      "sha256": "ff7a034fa2d8be726a0940801a45697f082c342e786d3fd47a7674bd87b91c64",
+      "expected": null,
+      "snapshot": "input/criticism/RF1/report-v1.md"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RB1/blind-report-v1.md",
+      "sha256": "c95e83a3a53cd589d2f2bf731ead33b35857af33edea28f1f3a0f8b722061b2d",
+      "expected": null,
+      "snapshot": "input/criticism/RB1/blind-report-v1.md"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RS1/report-v1.md",
+      "sha256": "f04881cf65af51b7079fd59b785e9ca2d8cbc53fb710c06e0b823ae31cc20785",
+      "expected": null,
+      "snapshot": "input/criticism/RS1/report-v1.md"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/launcher-run.json",
+      "sha256": "b10b1b538f542ff87504e2bbd38b31811ee6d704503761c19eed06f7e8b6cef8",
+      "expected": null,
+      "snapshot": "input/launcher-run.json"
+    }
+  ]
+}

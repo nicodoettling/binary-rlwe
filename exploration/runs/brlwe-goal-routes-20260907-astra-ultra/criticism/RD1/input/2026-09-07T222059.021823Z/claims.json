@@ -1,0 +1,173 @@
+{
+  "updated_at": "2026-09-07T22:19:59.258387+00:00",
+  "goal": {
+    "threadId": "01a07dcb-40ad-7231-8540-1675639ae41b",
+    "objective": "Establish and critically validate a new quantitatively meaningful hardness implication for coefficient-binary, rank-one RLWE from an independently specified and motivated nonbinary source assumption, with a coherent parameter regime, exact search/decision and sample scope, and no unresolved load-bearing defect; investigate direct search lossiness, partial splitting, and computational source transfer as complementary routes.",
+    "status": "active",
+    "tokensUsed": 0,
+    "timeUsedSeconds": 0,
+    "createdAt": 1788816946,
+    "updatedAt": 1788816946
+  },
+  "claims": [
+    {
+      "id": "SOURCE-2",
+      "version": 1,
+      "status": "PROVISIONAL",
+      "kind": "source definition and motivation",
+      "statement": "Exact uniform same-hidden-ideal two-point D_ell source versus uniform R_q\u00b2; its computational pseudorandomness is an explicitly assumed premise. Literature motivation and exact scope under review.",
+      "proof": "coordinator/source-and-parameters-v1.md",
+      "dependencies": [],
+      "reviews": []
+    },
+    {
+      "id": "PRIME-POLY",
+      "version": 1,
+      "status": "PROVISIONAL",
+      "kind": "primary import and derived parameters",
+      "statement": "Least prime1 mod2n\u00b3 is eventually at most n16 and at least2n\u00b3+1; q/sigma_m>=n for m<=2; explicit polynomial-in-unary-n setup.",
+      "proof": "coordinator/source-and-parameters-v1.md",
+      "dependencies": [],
+      "reviews": []
+    },
+    {
+      "id": "NC-RECT",
+      "version": 1,
+      "status": "PROVISIONAL",
+      "kind": "derived result",
+      "statement": "Proof-only exact rectangular discrete Gaussian completion gives guarded full retained-source/witness TV error eta_N with p=mn output and n auxiliary coordinates.",
+      "proof": "coordinator/rectangular-completion-v1.md",
+      "dependencies": [],
+      "reviews": []
+    },
+    {
+      "id": "A-GUESS",
+      "version": 1,
+      "status": "PROVISIONAL",
+      "kind": "derived result",
+      "statement": "Revealing one quotient of cardinality L after Y costs at most L in guessing; independent latent source/completion data cost nothing further; noisy iid bits have unwrapped guessing ((1+D_tau(0))/2)^n and wrapped guessing no larger.",
+      "proof": "candidates/search/proof-v1.md",
+      "dependencies": [],
+      "reviews": []
+    },
+    {
+      "id": "MASK-TAIL",
+      "version": 1,
+      "status": "PROVISIONAL",
+      "kind": "derived result",
+      "statement": "Conditioning all used m*n iid D_ell mask coordinates on [-ell\u00b2,ell\u00b2] costs at most min(1,mn exp(-pi ell\u00b2)/(pi ell)).",
+      "proof": "coordinator/rectangular-completion-v1.md",
+      "dependencies": [],
+      "reviews": []
+    },
+    {
+      "id": "SAMP-E",
+      "version": 1,
+      "status": "PROVISIONAL",
+      "kind": "derived result",
+      "statement": "The full independent target coefficient Gaussian sampler has bounded polynomial bit complexity and total TV below2^-n using the stated dyadic table policy.",
+      "proof": "candidates/search/supplement-v1.md",
+      "dependencies": [],
+      "reviews": []
+    },
+    {
+      "id": "A-FINITE",
+      "version": 1,
+      "status": "PROVISIONAL",
+      "kind": "derived result",
+      "statement": "For m=1 or2, epsilon_m <= Adv_Base2(B_m)+q^d((1+D_ell(0))/2)^n+eta_N+delta_F,m; executable loss adds xi_source+2xi_alg+xi_target.",
+      "proof": "candidates/search/proof-v1.md",
+      "dependencies": [
+        {
+          "id": "NC-RECT",
+          "version": 1
+        },
+        {
+          "id": "A-GUESS",
+          "version": 1
+        },
+        {
+          "id": "MASK-TAIL",
+          "version": 1
+        },
+        {
+          "id": "SOURCE-2",
+          "version": 1
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "A-PPT",
+      "version": 1,
+      "status": "PROVISIONAL",
+      "kind": "derived result",
+      "statement": "At fixed polynomial q(n) and either explicit growing d family, the exact Base2 pseudorandomness premise implies negligible exact binary recovery for m1/2 at sigma_m=2sqrt(m)n ell\u00b3; no additional target samples or decision claim.",
+      "proof": "candidates/search/theorem-only-v2.md",
+      "dependencies": [
+        {
+          "id": "A-FINITE",
+          "version": 1
+        },
+        {
+          "id": "SAMP-E",
+          "version": 1
+        },
+        {
+          "id": "PRIME-POLY",
+          "version": 1
+        }
+      ],
+      "reviews": [],
+      "explicit_computational_hypothesis": "Pseudorandomness of Base2(n,q(n),d(n)) at the chosen source family; this hypothesis is assumed, not proved or renamed analytic premise."
+    },
+    {
+      "id": "B-SPLIT",
+      "version": 1,
+      "status": "PROVISIONAL",
+      "kind": "derived result",
+      "statement": "Partial-splitting and exact packing candidate with2f smaller-ring source points; analytic extraction/composition not newly certified.",
+      "proof": "workers/B1/proof-v1.md",
+      "dependencies": [],
+      "reviews": []
+    },
+    {
+      "id": "C-LARGE-Q",
+      "version": 1,
+      "status": "PROVISIONAL",
+      "kind": "derived result",
+      "statement": "Larger-modulus one-sample decision candidate, log q~n^(1/8), with unclosed full extraction/composition review.",
+      "proof": "workers/C1/larger-q-theorem-v1.md",
+      "dependencies": [],
+      "reviews": []
+    },
+    {
+      "id": "C-SPAN",
+      "version": 1,
+      "status": "PROVISIONAL",
+      "kind": "derived result",
+      "statement": "Scoped two-point ideal-span and signed-mixture obstructions; author exact controls, no full nonauthor review.",
+      "proof": "workers/C1/source-transfer-v1.md",
+      "dependencies": [],
+      "reviews": []
+    }
+  ],
+  "historical_claims": {
+    "ledger": "imports/latest-claims.json",
+    "regressions": "imports/latest-regressions.json",
+    "all_provenance": "imports/historical-file-index.json",
+    "authority": "Latest W3-OBS coordinatorv3/authorv2 supersedes its stale header. Imports remain provisional and no general NC1/X1/AN certification is inferred."
+  },
+  "selection": "selection.md",
+  "global_new_claim_acceptance": false,
+  "frozen_reviews": [
+    {
+      "path": "criticism/RB1/blind-report-v1.md",
+      "sha256": "c95e83a3a53cd589d2f2bf731ead33b35857af33edea28f1f3a0f8b722061b2d"
+    },
+    {
+      "path": "criticism/RS1/report-v1.md",
+      "sha256": "f04881cf65af51b7079fd59b785e9ca2d8cbc53fb710c06e0b823ae31cc20785"
+    }
+  ]
+}

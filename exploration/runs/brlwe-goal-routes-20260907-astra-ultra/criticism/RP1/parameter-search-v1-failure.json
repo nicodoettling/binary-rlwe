@@ -1,0 +1,9 @@
+{
+  "utc": "2026-09-07T22:32:55.843184+00:00",
+  "exit_code": 1,
+  "elapsed_wall_seconds": 2.046743117,
+  "failed_assertion": "assert byid['A-PPT']==ledger",
+  "reason": "Current ledger copy contains reviews and mathematical_review_disposition added by coordinator. Frozen repair ledger intentionally has reviews empty. All mathematical controls completed before this overstrict administrative equality check.",
+  "repair": "v2 compares every field except these two review-metadata keys; exact original script preserved.",
+  "policy_interruption": false
+}

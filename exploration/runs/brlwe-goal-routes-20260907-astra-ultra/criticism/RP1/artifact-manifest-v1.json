@@ -1,0 +1,147 @@
+{
+  "utc": "2026-09-07T22:37:04.988745+00:00",
+  "review_disposition": "PASS exact A-PPT v2 scope repair; global acceptance remains coordinator responsibility",
+  "historical_registry_ids_covered": 40,
+  "files": [
+    {
+      "path": "assignment.md",
+      "sha256": "220e4bcebc5eeab2f9fc5b71e587613509315aa7871ab2feb40ee7a58d453edf",
+      "bytes": 5953
+    },
+    {
+      "path": "final-integrity-v1.json",
+      "sha256": "6831dcaf3c4c3337cf76c66ed4ca98a6b414a76378382188fb413d7ae567484c",
+      "bytes": 6460
+    },
+    {
+      "path": "historical-input-hashes-v1.json",
+      "sha256": "64990ac6b458e4769cd00a3da2a06d05b4895f77ba6d4061037feebe5e4caeaf",
+      "bytes": 831
+    },
+    {
+      "path": "input/candidates/search/proof-v1.md",
+      "sha256": "198c36bce9a73b87f2e1f5cf644d7e96b13cda063922f1ab10b0b2ee60114042",
+      "bytes": 28375
+    },
+    {
+      "path": "input/candidates/search/supplement-v1.md",
+      "sha256": "71752406e81e327b5c47d0d118ea9bc6aa0f87566d23345daf290a7b8322410a",
+      "bytes": 4072
+    },
+    {
+      "path": "input/candidates/search/theorem-only-v2.md",
+      "sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124",
+      "bytes": 5100
+    },
+    {
+      "path": "input/cap-status-intake.json",
+      "sha256": "f3da6abf79f3c9b0ac5b102d056e6629be38d70eac3ef4796f0042b54a9cfbe0",
+      "bytes": 3002
+    },
+    {
+      "path": "input/claims.json",
+      "sha256": "e4ab92ca59da63bfc0735f795941b162d831d290cfe31fa415034e71dc41f2f4",
+      "bytes": 13848
+    },
+    {
+      "path": "input/coordinator/A-PPT-ledger-v1-rejected.json",
+      "sha256": "213a5ecd57b1a4f5a99d7267470c5854dff7500020cc8ec1ee93cd4474a2213b",
+      "bytes": 781
+    },
+    {
+      "path": "input/coordinator/A-PPT-ledger-v1-scope-defect.md",
+      "sha256": "47d5816c48ee81507b9b8f39bccbcedaa0f151ddc8f54a03b5fe8233ed1d9431",
+      "bytes": 1377
+    },
+    {
+      "path": "input/coordinator/A-PPT-ledger-v2.json",
+      "sha256": "e8ac045319cc40b0979cc54a3bd4e6c659badefdeee25dff221fe96cfc680447",
+      "bytes": 1513
+    },
+    {
+      "path": "input/coordinator/rectangular-completion-v1.md",
+      "sha256": "d66a1ea3e1c61990c77380de60c39b00a3097ab111407aedc610cfbe34c70163",
+      "bytes": 5913
+    },
+    {
+      "path": "input/coordinator/source-and-parameters-v1.md",
+      "sha256": "131e6a3feec87010007a30ddc1e37bdec44687648120bfe1e8c5187e6e779f50",
+      "bytes": 5498
+    },
+    {
+      "path": "input/criticism/RB1/blind-report-v1.md",
+      "sha256": "c95e83a3a53cd589d2f2bf731ead33b35857af33edea28f1f3a0f8b722061b2d",
+      "bytes": 25188
+    },
+    {
+      "path": "input/criticism/RF1/report-v1.md",
+      "sha256": "ff7a034fa2d8be726a0940801a45697f082c342e786d3fd47a7674bd87b91c64",
+      "bytes": 32787
+    },
+    {
+      "path": "input/criticism/RS1/report-v1.md",
+      "sha256": "f04881cf65af51b7079fd59b785e9ca2d8cbc53fb710c06e0b823ae31cc20785",
+      "bytes": 29045
+    },
+    {
+      "path": "input/imports/historical-file-index.json",
+      "sha256": "22fd6792648ecd77f2087935a2938e7ac7aec8edb62b56c6febe4f9e926c59bb",
+      "bytes": 612602
+    },
+    {
+      "path": "input/imports/latest-regressions.json",
+      "sha256": "5b3d21b92ba3efc6fb64cc77f4523de6b24f73e794009fefc508c555dbe112a0",
+      "bytes": 39214
+    },
+    {
+      "path": "input/launcher-run.json",
+      "sha256": "b10b1b538f542ff87504e2bbd38b31811ee6d704503761c19eed06f7e8b6cef8",
+      "bytes": 3446
+    },
+    {
+      "path": "input-hashes-v1.json",
+      "sha256": "28ce6f8a2ab83eb91c3eb61b9d71ce9607566a063ae9b62e2154ce2c4d61fb7c",
+      "bytes": 5351
+    },
+    {
+      "path": "parameter-search-v1-failure.json",
+      "sha256": "5374d28a13151b193f794942c0f0ab8937611108b667045319fcb0275a5528f2",
+      "bytes": 556
+    },
+    {
+      "path": "parameter-search-v1.py",
+      "sha256": "72b1118a3593e6fc08d0e682b2b4525fa4d68e44c2c5693035dbe5323eb24671",
+      "bytes": 7118
+    },
+    {
+      "path": "parameter-search-v1.stderr.txt",
+      "sha256": "9e34e665b459ecbaeb100898fd67dcd2fb66b635212037c72a06c5309127066d",
+      "bytes": 290
+    },
+    {
+      "path": "parameter-search-v2.json",
+      "sha256": "fb53a0916d5f2081647567a81a9da0cdbc8c26c8841a553ea3d488a9d652f41a",
+      "bytes": 8935
+    },
+    {
+      "path": "parameter-search-v2.py",
+      "sha256": "ea4d829041f592b9435e8092d2b1836fde570007ae5a4ca3f702080325185d69",
+      "bytes": 7288
+    },
+    {
+      "path": "partial-v1.md",
+      "sha256": "be9996f13beed521b913b013977935da5e7648c4d96833c67ea3739fd6ed4c66",
+      "bytes": 1091
+    },
+    {
+      "path": "report-v1.md",
+      "sha256": "210bbbc4d9432bccf5a8f3541f0807202600b04f909ff5ea21b07d3b4d06cb0e",
+      "bytes": 21150
+    },
+    {
+      "path": "slot-release-v1.json",
+      "sha256": "6479e44d6be73b1201cfd238f84cdc13e7fc4a9c4aa30ddf1135f470f5c51563",
+      "bytes": 143
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "status": "finite controls passed; no asymptotic proof",
+  "packing": {
+    "n": 4,
+    "q": 5,
+    "f": 2,
+    "N": 2,
+    "k": 1,
+    "smaller_ideal_size": 5,
+    "original_ideal_size": 25,
+    "distinct_active_quotients": 25,
+    "source_noise": "independent coefficient fair bits, exact source law comparison",
+    "source_count_total": 400,
+    "source_count_support": 400,
+    "uniform_bijection_size": 625
+  },
+  "same_y": {
+    "noise": "G mod5 probabilities (2,1,1,1,1)/6, independent coordinates",
+    "block_tv": "23/90",
+    "full_tv": "431/1080",
+    "strictly_nonvacuous_product_bound": "23/45",
+    "posterior_factorization_entries": 10000
+  },
+  "elapsed_seconds": 0.06042128195986152
+}

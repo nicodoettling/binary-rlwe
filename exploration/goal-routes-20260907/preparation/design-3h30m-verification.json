@@ -1,0 +1,25 @@
+{
+  "verified_utc": "2026-09-07T21:29:50.273060+00:00",
+  "baseline_commit": "174e0a2ca47dcb1e09ba8c5ae48117b698e2f2ed",
+  "scope": "Design/configuration/local-link checks, installed launch --help, and standalone snapshot API on temporary synthetic fixtures; no mathematical theorem or host readiness certification.",
+  "checks": {
+    "local_links": "pass",
+    "timing_concurrency_authorization": "pass",
+    "proposed_output_unused": "pass",
+    "installed_cli_options": "pass",
+    "standalone_snapshot_core_hash_immutability": "pass",
+    "scientific_design_review": "completed; proposed statements remain unproved",
+    "operational_design_review": "completed; no host preflight performed"
+  },
+  "native_goal_created": false,
+  "research_launched": false,
+  "host_preflight_performed": false,
+  "plan_files_sha256": {
+    "COORDINATOR_PROMPT.md": "67040f7a65559e310adc059371aed80c620333547a6a21c4efef385d35984d16",
+    "LAUNCH.md": "b37eb9e616b27e4543da095a72a0b7ac0942bd01c0663bf1a3cca488641012d3",
+    "PLAN.md": "d0ee3324aa03f4dd7c40bf8e1389371337b62a8c9f86783e223308f2a96276f9",
+    "RESEARCH_SCOPE.md": "3c01c443b5f0f4196c66d6258ee567ee959ba61ed37b48de93bde3d98b6debfc",
+    "TASK_TEMPLATE.md": "96c0e196f17395cdf87e79034a14115c7500c401ba31d635002cc347e9aebffe",
+    "run-config.json": "63adbc944a11d34e4068ec1ca0c46227668b61f9ee9e89d2efba0362de11484d"
+  }
+}

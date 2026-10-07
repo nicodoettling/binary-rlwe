@@ -1,0 +1,75 @@
+{
+  "frozen_at": "2026-09-07T22:33:24.389096+00:00",
+  "reviewer": "RD1",
+  "disposition": "PASS for exact integrated scientific scope and consistency; current graph correctly pending RP1 repair recheck and final administrative promotion/check",
+  "global_final_accept_claimed": false,
+  "no_new_mathematical_experiment": true,
+  "report_sha256": "19cef2b65a275d1d6bb5076b9208ddb6f63427b1301fdc88fa581f4eec3e1047",
+  "artifacts": [
+    {
+      "path": "assignment.md",
+      "sha256": "1f97c0db1ce20d96cb2efe72aa73a97780c8c02361b7d7badfc98348d9717878",
+      "bytes": 4917
+    },
+    {
+      "path": "report-v1.md",
+      "sha256": "19cef2b65a275d1d6bb5076b9208ddb6f63427b1301fdc88fa581f4eec3e1047",
+      "bytes": 20658
+    },
+    {
+      "path": "report-draft-v1.md",
+      "sha256": "d62d6b3b1d0cdb66ed8770d0f01e2e486f56a8a683b386bbcfe1bfc742b7970d",
+      "bytes": 15780
+    },
+    {
+      "path": "partial.md",
+      "sha256": "7c58b83bb546baf44bb58754e5bc2eafd9d8781ce5d8856d7e40f160a61ef1b4",
+      "bytes": 4249
+    },
+    {
+      "path": "delivery-check-v1.py",
+      "sha256": "c513c06c4583041c65b83e19031b94f05304d0097ac77ab213cc7d8c4ac72ff2",
+      "bytes": 7102
+    },
+    {
+      "path": "delivery-check-v2.py",
+      "sha256": "0b2c35b7fcc72cd06643268bf0c5af40eeef4941408e9140a864cf5318e63c94",
+      "bytes": 8163
+    },
+    {
+      "path": "input/integrated-pass-v2/manifest.json",
+      "sha256": "9ee34590cbbbc6bdc218fa320e5998c8c80efd2cd1a4f72566fe281dc06ae9a6",
+      "bytes": 69517
+    },
+    {
+      "path": "input/integrated-pass/manifest.json",
+      "sha256": "d6306dfe2b7fb4d86c4d35837064a85ee67b488ae2eee41ca5b7305b6fde51e8",
+      "bytes": 61265
+    },
+    {
+      "path": "input/interim-check/manifest.json",
+      "sha256": "a844205eba57754b3d51e830968755ac74b2f24a5d6ce023efec3be2c1b64024",
+      "bytes": 61035
+    },
+    {
+      "path": "input/2026-09-07T222059.021823Z/manifest.json",
+      "sha256": "603912928e30c183f916696331afae409d194c5f992c4a9d36f75292fa0a46fa",
+      "bytes": 7048
+    },
+    {
+      "path": "input/support-first-pass/manifest.json",
+      "sha256": "530f21021ca6eac39ed68be6d1e8166e21617bab1379efbbb869747481d859b7",
+      "bytes": 7219
+    },
+    {
+      "path": "input/policy-and-repair-observation/manifest.json",
+      "sha256": "5bee65d8de380f24f7304fa06bc44945e566fa03505acc768f18b6b95e413b77",
+      "bytes": 5299
+    },
+    {
+      "path": "input/historical-registry/manifest.json",
+      "sha256": "f86dfffb66dd1983d32fa8c9720a6c23d88bf28b86ec0c98ca43e3f98043fe64",
+      "bytes": 303
+    }
+  ]
+}

@@ -1,0 +1,517 @@
+{
+  "checked_at": "2026-09-07T22:20:32.956633+00:00",
+  "all_match": true,
+  "checks": [
+    {
+      "input_manifest": "input-hashes-v1.json",
+      "path": "exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/A1/artifact-manifest-v1.json",
+      "expected_sha256": "c67bda9fb06b5c81297b4cd68e34db03dfdd67c1e53735dd8e0d8ae9aa136411",
+      "actual_sha256": "c67bda9fb06b5c81297b4cd68e34db03dfdd67c1e53735dd8e0d8ae9aa136411",
+      "match": true
+    },
+    {
+      "input_manifest": "input-hashes-v1.json",
+      "path": "exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/A1/assignment.md",
+      "expected_sha256": "dcdd2bb183df9adba8b25dbe9089b7d0fe0d2aa775a71b327c955ad71122f1b4",
+      "actual_sha256": "dcdd2bb183df9adba8b25dbe9089b7d0fe0d2aa775a71b327c955ad71122f1b4",
+      "match": true
+    },
+    {
+      "input_manifest": "input-hashes-v1.json",
+      "path": "exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/A1/claims.json",
+      "expected_sha256": "f2084c297dbd09dcc1920d878966869068a11ae64d4b93c2f8edc9988e9a8584",
+      "actual_sha256": "f2084c297dbd09dcc1920d878966869068a11ae64d4b93c2f8edc9988e9a8584",
+      "match": true
+    },
+    {
+      "input_manifest": "input-hashes-v1.json",
+      "path": "exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/A1/exact_controls_v1.json",
+      "expected_sha256": "1891321654560d5dd4c3dab8a9490e6a9a63ad8846cf338f98d658f8e8db509c",
+      "actual_sha256": "1891321654560d5dd4c3dab8a9490e6a9a63ad8846cf338f98d658f8e8db509c",
+      "match": true
+    },
+    {
+      "input_manifest": "input-hashes-v1.json",
+      "path": "exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/A1/exact_controls_v1.py",
+      "expected_sha256": "09fa4d72a73705561cdb08ee68929b250d5418b4bcc200006523c6b15a16353e",
+      "actual_sha256": "09fa4d72a73705561cdb08ee68929b250d5418b4bcc200006523c6b15a16353e",
+      "match": true
+    },
+    {
+      "input_manifest": "input-hashes-v1.json",
+      "path": "exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/A1/final.md",
+      "expected_sha256": "8f5bbaf6acdc92b5da4110932ddad508665bc72db3dfc855bd5b87115b32b258",
+      "actual_sha256": "8f5bbaf6acdc92b5da4110932ddad508665bc72db3dfc855bd5b87115b32b258",
+      "match": true
+    },
+    {
+      "input_manifest": "input-hashes-v1.json",
+      "path": "exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/A1/frozen-theorem-v1.md",
+      "expected_sha256": "cf81bffcac7bc644356fa7f92e3cccdfa4b8b494c448029d572e68df9d02679d",
+      "actual_sha256": "cf81bffcac7bc644356fa7f92e3cccdfa4b8b494c448029d572e68df9d02679d",
+      "match": true
+    },
+    {
+      "input_manifest": "input-hashes-v1.json",
+      "path": "exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/A1/integrity-check-v1.json",
+      "expected_sha256": "e324478ce1ade6a48ecb9259395186c7587b8e2153c90a43f3b82c1fffc76d74",
+      "actual_sha256": "e324478ce1ade6a48ecb9259395186c7587b8e2153c90a43f3b82c1fffc76d74",
+      "match": true
+    },
+    {
+      "input_manifest": "input-hashes-v1.json",
+      "path": "exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/A1/progress.md",
+      "expected_sha256": "dcd6788a4993a5c1b6eba5de0aa0c58b24fbdf1cb15afaab6ab70f19090c1716",
+      "actual_sha256": "dcd6788a4993a5c1b6eba5de0aa0c58b24fbdf1cb15afaab6ab70f19090c1716",
+      "match": true
+    },
+    {
+      "input_manifest": "input-hashes-v1.json",
+      "path": "exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/A1/proof-v1.md",
+      "expected_sha256": "198c36bce9a73b87f2e1f5cf644d7e96b13cda063922f1ab10b0b2ee60114042",
+      "actual_sha256": "198c36bce9a73b87f2e1f5cf644d7e96b13cda063922f1ab10b0b2ee60114042",
+      "match": true
+    },
+    {
+      "input_manifest": "input-hashes-v1.json",
+      "path": "exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/A1/source-access.md",
+      "expected_sha256": "f72816a39654a61a013105b1caf1347ab95f3f74e42ca2d6b6263b8c3dc4b271",
+      "actual_sha256": "f72816a39654a61a013105b1caf1347ab95f3f74e42ca2d6b6263b8c3dc4b271",
+      "match": true
+    },
+    {
+      "input_manifest": "input-hashes-v1.json",
+      "path": "exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/A1/supplement-v1.md",
+      "expected_sha256": "71752406e81e327b5c47d0d118ea9bc6aa0f87566d23345daf290a7b8322410a",
+      "actual_sha256": "71752406e81e327b5c47d0d118ea9bc6aa0f87566d23345daf290a7b8322410a",
+      "match": true
+    },
+    {
+      "input_manifest": "input-hashes-v1.json",
+      "path": "exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/A1/theorem-only-v1.md",
+      "expected_sha256": "c0f4fd514c0f3846445ce3b01226ba2d81d69b86b3252ede709101a1883e7e80",
+      "actual_sha256": "c0f4fd514c0f3846445ce3b01226ba2d81d69b86b3252ede709101a1883e7e80",
+      "match": true
+    },
+    {
+      "input_manifest": "input-hashes-v1.json",
+      "path": "exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/A1/theorem-only-v2.md",
+      "expected_sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124",
+      "actual_sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124",
+      "match": true
+    },
+    {
+      "input_manifest": "input-hashes-v1.json",
+      "path": "exploration/runs/brlwe-goal-routes-20260907-astra-ultra/coordinator/rectangular-completion-v1.md",
+      "expected_sha256": "d66a1ea3e1c61990c77380de60c39b00a3097ab111407aedc610cfbe34c70163",
+      "actual_sha256": "d66a1ea3e1c61990c77380de60c39b00a3097ab111407aedc610cfbe34c70163",
+      "match": true
+    },
+    {
+      "input_manifest": "input-hashes-v1.json",
+      "path": "exploration/runs/brlwe-goal-routes-20260907-astra-ultra/coordinator/source-and-parameters-v1.md",
+      "expected_sha256": "131e6a3feec87010007a30ddc1e37bdec44687648120bfe1e8c5187e6e779f50",
+      "actual_sha256": "131e6a3feec87010007a30ddc1e37bdec44687648120bfe1e8c5187e6e779f50",
+      "match": true
+    },
+    {
+      "input_manifest": "input-hashes-v1.json",
+      "path": "exploration/runs/brlwe-goal-routes-20260907-astra-ultra/experiments/rectangular-identities-v1.py",
+      "expected_sha256": "c60ed05d8580c00b134d7de3af7f1483025105f97fbba0e7d309f5fce3e95b27",
+      "actual_sha256": "c60ed05d8580c00b134d7de3af7f1483025105f97fbba0e7d309f5fce3e95b27",
+      "match": true
+    },
+    {
+      "input_manifest": "input-hashes-v1.json",
+      "path": "exploration/runs/brlwe-goal-routes-20260907-astra-ultra/experiments/rectangular-identities-v1.json",
+      "expected_sha256": "0dd3d0bc968235bb7b846909be42e8124d9de9964624f63f5472da96292be041",
+      "actual_sha256": "0dd3d0bc968235bb7b846909be42e8124d9de9964624f63f5472da96292be041",
+      "match": true
+    },
+    {
+      "input_manifest": "input-hashes-v1.json",
+      "path": "exploration/runs/brlwe-goal-routes-20260907-astra-ultra/imports/latest-regressions.json",
+      "expected_sha256": "5b3d21b92ba3efc6fb64cc77f4523de6b24f73e794009fefc508c555dbe112a0",
+      "actual_sha256": "5b3d21b92ba3efc6fb64cc77f4523de6b24f73e794009fefc508c555dbe112a0",
+      "match": true
+    },
+    {
+      "input_manifest": "input-hashes-v1.json",
+      "path": "exploration/runs/brlwe-goal-routes-20260907-astra-ultra/imports/historical-file-index.json",
+      "expected_sha256": "22fd6792648ecd77f2087935a2938e7ac7aec8edb62b56c6febe4f9e926c59bb",
+      "actual_sha256": "22fd6792648ecd77f2087935a2938e7ac7aec8edb62b56c6febe4f9e926c59bb",
+      "match": true
+    },
+    {
+      "input_manifest": "input-hashes-v1.json",
+      "path": "exploration/runs/brlwe-goal-routes-20260907-astra-ultra/launcher-run.json",
+      "expected_sha256": "b10b1b538f542ff87504e2bbd38b31811ee6d704503761c19eed06f7e8b6cef8",
+      "actual_sha256": "b10b1b538f542ff87504e2bbd38b31811ee6d704503761c19eed06f7e8b6cef8",
+      "match": true
+    },
+    {
+      "input_manifest": "input-hashes-v1.json",
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/SKILL.md",
+      "expected_sha256": "9350ffeb5aebe0b126710786586f94ef5d990be35b8b9defc8004136dae40318",
+      "actual_sha256": "9350ffeb5aebe0b126710786586f94ef5d990be35b8b9defc8004136dae40318",
+      "match": true
+    },
+    {
+      "input_manifest": "input-hashes-v1.json",
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/references/audit-protocol.md",
+      "expected_sha256": "2d076ba631c340d71f6259757c6207dbe230872810e9bad3188b215f46d095f4",
+      "actual_sha256": "2d076ba631c340d71f6259757c6207dbe230872810e9bad3188b215f46d095f4",
+      "match": true
+    },
+    {
+      "input_manifest": "input-hashes-v1.json",
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/references/probability-regressions.md",
+      "expected_sha256": "ad7eecf93ed02e5b2957243a9bbb2cac8e8eeeb991971f4d77d0818cd04a4fa4",
+      "actual_sha256": "ad7eecf93ed02e5b2957243a9bbb2cac8e8eeeb991971f4d77d0818cd04a4fa4",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/known-counterexamples.md",
+      "expected_sha256": "d2fb558136f7d100130ae19cc62f12f73c79521456ea8f1f28466c0ebc097bf7",
+      "actual_sha256": "d2fb558136f7d100130ae19cc62f12f73c79521456ea8f1f28466c0ebc097bf7",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C03/hand-controls.md",
+      "expected_sha256": "0ede29402edfef872572855ea8ae3313104bf366a1efcfc8e6cdfd1b9ac09813",
+      "actual_sha256": "0ede29402edfef872572855ea8ae3313104bf366a1efcfc8e6cdfd1b9ac09813",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C03/objections.md",
+      "expected_sha256": "782d05de6fc5f3f6e11a4f4f51ae6ef30aaa4aa9aa1bf4c0cc117178dc24f2da",
+      "actual_sha256": "782d05de6fc5f3f6e11a4f4f51ae6ef30aaa4aa9aa1bf4c0cc117178dc24f2da",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C02/review.md",
+      "expected_sha256": "62ca9a2d65d6b7d5ae84a5e6fee989ce36ac31280b75ecf4b148c2c0a103ea5f",
+      "actual_sha256": "62ca9a2d65d6b7d5ae84a5e6fee989ce36ac31280b75ecf4b148c2c0a103ea5f",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C01/ATT-recheck.md",
+      "expected_sha256": "640e4c1af9441ba436ded264a548ad6653a183c9e6974e64680e0600f074b40e",
+      "actual_sha256": "640e4c1af9441ba436ded264a548ad6653a183c9e6974e64680e0600f074b40e",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/corrections/NC1-v2-and-dependencies.md",
+      "expected_sha256": "a801c12d79a1d74093cc0a7ab265e2d4580521dafaf823694bc905011f15cad1",
+      "actual_sha256": "a801c12d79a1d74093cc0a7ab265e2d4580521dafaf823694bc905011f15cad1",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-explore-20260906-astra-ultra/criticism/C02/checks-and-regressions.md",
+      "expected_sha256": "877cae34d291ff6c658087c7a28e1e63527e4b150a2c8c9f3e2ce9cdfdb83294",
+      "actual_sha256": "877cae34d291ff6c658087c7a28e1e63527e4b150a2c8c9f3e2ce9cdfdb83294",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-explore-20260906-astra-ultra/criticism/C02/boolean_fibers.json",
+      "expected_sha256": "08d2e027f54005e70578d3ada6aa04b86178642fd2d9197d8cf439cd8e8df912",
+      "actual_sha256": "08d2e027f54005e70578d3ada6aa04b86178642fd2d9197d8cf439cd8e8df912",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-explore-20260906-astra-ultra/criticism/C01/additive-obstruction.md",
+      "expected_sha256": "75e43c7ec6240335344c79e4632c26c59118e8ac3a428e2413f0badf7d429bb2",
+      "actual_sha256": "75e43c7ec6240335344c79e4632c26c59118e8ac3a428e2413f0badf7d429bb2",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-explore-20260906-astra-ultra/criticism/C03/mathematical-checks.md",
+      "expected_sha256": "03380094df60c31a07d9dbae821013b987fee87acf76b467a3b519ac417f45a2",
+      "actual_sha256": "03380094df60c31a07d9dbae821013b987fee87acf76b467a3b519ac417f45a2",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-explore-20260906-astra-ultra/candidates/C01.md",
+      "expected_sha256": "2ba5dbc0df36a02d00c38b361e6e529cc448e5feeea61aeadfcefb348ff38755",
+      "actual_sha256": "2ba5dbc0df36a02d00c38b361e6e529cc448e5feeea61aeadfcefb348ff38755",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-explore-20260906-astra-ultra/candidates/C01/calculations.md",
+      "expected_sha256": "0a291223769905ddb9a75cf01df1276b1c7dc69666acac63a677b4f719cdd23b",
+      "actual_sha256": "0a291223769905ddb9a75cf01df1276b1c7dc69666acac63a677b4f719cdd23b",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-explore-20260906-astra-ultra/candidates/C03/transport.md",
+      "expected_sha256": "8dc4b6a56d675ebdc931b63e7f3c67699e773de09e71b1fa36fe3743ba95835f",
+      "actual_sha256": "8dc4b6a56d675ebdc931b63e7f3c67699e773de09e71b1fa36fe3743ba95835f",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-explore-20260906-astra-ultra/rejected-or-deferred.md",
+      "expected_sha256": "64a2c86df26b9bb017da50dce0a6b1543bbbcd9cda6d09f465452abcbb34b445",
+      "actual_sha256": "64a2c86df26b9bb017da50dce0a6b1543bbbcd9cda6d09f465452abcbb34b445",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-explore-20260906-astra-ultra/scouts/S04.md",
+      "expected_sha256": "912baf43075797611a281d3637a5be67ada6136ace9b2a495ba5889778703023",
+      "actual_sha256": "912baf43075797611a281d3637a5be67ada6136ace9b2a495ba5889778703023",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-explore-20260906-astra-ultra/scouts/S04/experiment_e02.json",
+      "expected_sha256": "c96d6ebd1e371c800069a8db1cb0c6ae816736575e24c9323558a41eef4b6e58",
+      "actual_sha256": "c96d6ebd1e371c800069a8db1cb0c6ae816736575e24c9323558a41eef4b6e58",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-explore-20260906-astra-ultra/scouts/S05.md",
+      "expected_sha256": "f166aec658207f9e18fb86a5f72b5c719babf13179ea22364544f5a4210e3e27",
+      "actual_sha256": "f166aec658207f9e18fb86a5f72b5c719babf13179ea22364544f5a4210e3e27",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-explore-20260906-astra-ultra/scouts/S12.md",
+      "expected_sha256": "0a5c6351ba6f3767da4367bb2edc6a5f18913090615a1815dbd44eb6d640a1e6",
+      "actual_sha256": "0a5c6351ba6f3767da4367bb2edc6a5f18913090615a1815dbd44eb6d640a1e6",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/references/probability-regressions.md",
+      "expected_sha256": "ad7eecf93ed02e5b2957243a9bbb2cac8e8eeeb991971f4d77d0818cd04a4fa4",
+      "actual_sha256": "ad7eecf93ed02e5b2957243a9bbb2cac8e8eeeb991971f4d77d0818cd04a4fa4",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/criticism/B01/partial.md",
+      "expected_sha256": "020eb0c94351df63b9277a1f822db974595b57e2569311ae819ec0c938384ef8",
+      "actual_sha256": "020eb0c94351df63b9277a1f822db974595b57e2569311ae819ec0c938384ef8",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/criticism/N02/hand-controls.md",
+      "expected_sha256": "53b97b3879c360c8ae227af10027ab8750cca7deac990f48ef58d434a921afa0",
+      "actual_sha256": "53b97b3879c360c8ae227af10027ab8750cca7deac990f48ef58d434a921afa0",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/criticism/N03/controls-v1.json",
+      "expected_sha256": "cbc2c0af5fc6a1584255d7e28752e7c89592a9468119e5c3e784a93c3a2cffd4",
+      "actual_sha256": "cbc2c0af5fc6a1584255d7e28752e7c89592a9468119e5c3e784a93c3a2cffd4",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/criticism/N03/controls-v1.py",
+      "expected_sha256": "3e263088b7d2b862d843689a1ea383f097583c5c998ebb439f0a928a72a062e8",
+      "actual_sha256": "3e263088b7d2b862d843689a1ea383f097583c5c998ebb439f0a928a72a062e8",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/runner-snapshots/20260906T202419.692928Z-b7cbd211/artifacts/criticism/B01/partial.md",
+      "expected_sha256": "d133b156e1cb7ea357ead6ce62fc95e894dc46ba9eda2f7229c90b7ec587fc7d",
+      "actual_sha256": "d133b156e1cb7ea357ead6ce62fc95e894dc46ba9eda2f7229c90b7ec587fc7d",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/runner-snapshots/20260906T202920.361027Z-a22d7be1/artifacts/criticism/B01/partial.md",
+      "expected_sha256": "9b3083fabf7c2d09f98f13f1d58ab365cde8510f304d73b596c2d9c2972850c7",
+      "actual_sha256": "9b3083fabf7c2d09f98f13f1d58ab365cde8510f304d73b596c2d9c2972850c7",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/runner-snapshots/20260906T203416.061674Z-b716d414/artifacts/criticism/B01/partial.md",
+      "expected_sha256": "1a0960ad3fe03769f9a044803047ab18d606154ac0e2c6286129dfb236367a86",
+      "actual_sha256": "1a0960ad3fe03769f9a044803047ab18d606154ac0e2c6286129dfb236367a86",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/runner-snapshots/20260906T203916.766635Z-2b486bad/artifacts/criticism/B01/partial.md",
+      "expected_sha256": "b447ba035afc2ed32a9cf41a253ad77b945c234c18f82d9776cac03e3c1c6596",
+      "actual_sha256": "b447ba035afc2ed32a9cf41a253ad77b945c234c18f82d9776cac03e3c1c6596",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/runner-snapshots/20260906T204417.530002Z-cae8bf0b/artifacts/criticism/B01/partial.md",
+      "expected_sha256": "b447ba035afc2ed32a9cf41a253ad77b945c234c18f82d9776cac03e3c1c6596",
+      "actual_sha256": "b447ba035afc2ed32a9cf41a253ad77b945c234c18f82d9776cac03e3c1c6596",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/runner-snapshots/20260906T204417.530002Z-cae8bf0b/artifacts/criticism/N02/hand-controls.md",
+      "expected_sha256": "53b97b3879c360c8ae227af10027ab8750cca7deac990f48ef58d434a921afa0",
+      "actual_sha256": "53b97b3879c360c8ae227af10027ab8750cca7deac990f48ef58d434a921afa0",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/runner-snapshots/20260906T204918.271331Z-1b5f3967/artifacts/criticism/B01/partial.md",
+      "expected_sha256": "020eb0c94351df63b9277a1f822db974595b57e2569311ae819ec0c938384ef8",
+      "actual_sha256": "020eb0c94351df63b9277a1f822db974595b57e2569311ae819ec0c938384ef8",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/runner-snapshots/20260906T204918.271331Z-1b5f3967/artifacts/criticism/N02/hand-controls.md",
+      "expected_sha256": "53b97b3879c360c8ae227af10027ab8750cca7deac990f48ef58d434a921afa0",
+      "actual_sha256": "53b97b3879c360c8ae227af10027ab8750cca7deac990f48ef58d434a921afa0",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/runner-snapshots/20260906T205419.016191Z-634c4b46/artifacts/criticism/B01/partial.md",
+      "expected_sha256": "020eb0c94351df63b9277a1f822db974595b57e2569311ae819ec0c938384ef8",
+      "actual_sha256": "020eb0c94351df63b9277a1f822db974595b57e2569311ae819ec0c938384ef8",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/runner-snapshots/20260906T205419.016191Z-634c4b46/artifacts/criticism/N02/hand-controls.md",
+      "expected_sha256": "53b97b3879c360c8ae227af10027ab8750cca7deac990f48ef58d434a921afa0",
+      "actual_sha256": "53b97b3879c360c8ae227af10027ab8750cca7deac990f48ef58d434a921afa0",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/runner-snapshots/20260906T205919.799787Z-91f59971/artifacts/criticism/B01/partial.md",
+      "expected_sha256": "020eb0c94351df63b9277a1f822db974595b57e2569311ae819ec0c938384ef8",
+      "actual_sha256": "020eb0c94351df63b9277a1f822db974595b57e2569311ae819ec0c938384ef8",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/runner-snapshots/20260906T205919.799787Z-91f59971/artifacts/criticism/N02/hand-controls.md",
+      "expected_sha256": "53b97b3879c360c8ae227af10027ab8750cca7deac990f48ef58d434a921afa0",
+      "actual_sha256": "53b97b3879c360c8ae227af10027ab8750cca7deac990f48ef58d434a921afa0",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/runner-snapshots/20260906T205919.799787Z-91f59971/artifacts/criticism/N03/controls-v1.json",
+      "expected_sha256": "cbc2c0af5fc6a1584255d7e28752e7c89592a9468119e5c3e784a93c3a2cffd4",
+      "actual_sha256": "cbc2c0af5fc6a1584255d7e28752e7c89592a9468119e5c3e784a93c3a2cffd4",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/runner-snapshots/20260906T205919.799787Z-91f59971/artifacts/criticism/N03/controls-v1.py",
+      "expected_sha256": "3e263088b7d2b862d843689a1ea383f097583c5c998ebb439f0a928a72a062e8",
+      "actual_sha256": "3e263088b7d2b862d843689a1ea383f097583c5c998ebb439f0a928a72a062e8",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/runner-snapshots/20260906T210420.541082Z-2e878e70/artifacts/criticism/B01/partial.md",
+      "expected_sha256": "020eb0c94351df63b9277a1f822db974595b57e2569311ae819ec0c938384ef8",
+      "actual_sha256": "020eb0c94351df63b9277a1f822db974595b57e2569311ae819ec0c938384ef8",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/runner-snapshots/20260906T210420.541082Z-2e878e70/artifacts/criticism/N02/hand-controls.md",
+      "expected_sha256": "53b97b3879c360c8ae227af10027ab8750cca7deac990f48ef58d434a921afa0",
+      "actual_sha256": "53b97b3879c360c8ae227af10027ab8750cca7deac990f48ef58d434a921afa0",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/runner-snapshots/20260906T210420.541082Z-2e878e70/artifacts/criticism/N03/controls-v1.json",
+      "expected_sha256": "cbc2c0af5fc6a1584255d7e28752e7c89592a9468119e5c3e784a93c3a2cffd4",
+      "actual_sha256": "cbc2c0af5fc6a1584255d7e28752e7c89592a9468119e5c3e784a93c3a2cffd4",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/runner-snapshots/20260906T210420.541082Z-2e878e70/artifacts/criticism/N03/controls-v1.py",
+      "expected_sha256": "3e263088b7d2b862d843689a1ea383f097583c5c998ebb439f0a928a72a062e8",
+      "actual_sha256": "3e263088b7d2b862d843689a1ea383f097583c5c998ebb439f0a928a72a062e8",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/runner-snapshots/20260906T210916.207681Z-07f7a96a/artifacts/criticism/B01/partial.md",
+      "expected_sha256": "020eb0c94351df63b9277a1f822db974595b57e2569311ae819ec0c938384ef8",
+      "actual_sha256": "020eb0c94351df63b9277a1f822db974595b57e2569311ae819ec0c938384ef8",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/runner-snapshots/20260906T210916.207681Z-07f7a96a/artifacts/criticism/N02/hand-controls.md",
+      "expected_sha256": "53b97b3879c360c8ae227af10027ab8750cca7deac990f48ef58d434a921afa0",
+      "actual_sha256": "53b97b3879c360c8ae227af10027ab8750cca7deac990f48ef58d434a921afa0",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/runner-snapshots/20260906T210916.207681Z-07f7a96a/artifacts/criticism/N03/controls-v1.json",
+      "expected_sha256": "cbc2c0af5fc6a1584255d7e28752e7c89592a9468119e5c3e784a93c3a2cffd4",
+      "actual_sha256": "cbc2c0af5fc6a1584255d7e28752e7c89592a9468119e5c3e784a93c3a2cffd4",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/runner-snapshots/20260906T210916.207681Z-07f7a96a/artifacts/criticism/N03/controls-v1.py",
+      "expected_sha256": "3e263088b7d2b862d843689a1ea383f097583c5c998ebb439f0a928a72a062e8",
+      "actual_sha256": "3e263088b7d2b862d843689a1ea383f097583c5c998ebb439f0a928a72a062e8",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/runner-snapshots/20260906T211051.464907Z-492a167f/artifacts/criticism/B01/partial.md",
+      "expected_sha256": "020eb0c94351df63b9277a1f822db974595b57e2569311ae819ec0c938384ef8",
+      "actual_sha256": "020eb0c94351df63b9277a1f822db974595b57e2569311ae819ec0c938384ef8",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/runner-snapshots/20260906T211051.464907Z-492a167f/artifacts/criticism/N02/hand-controls.md",
+      "expected_sha256": "53b97b3879c360c8ae227af10027ab8750cca7deac990f48ef58d434a921afa0",
+      "actual_sha256": "53b97b3879c360c8ae227af10027ab8750cca7deac990f48ef58d434a921afa0",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/runner-snapshots/20260906T211051.464907Z-492a167f/artifacts/criticism/N03/controls-v1.json",
+      "expected_sha256": "cbc2c0af5fc6a1584255d7e28752e7c89592a9468119e5c3e784a93c3a2cffd4",
+      "actual_sha256": "cbc2c0af5fc6a1584255d7e28752e7c89592a9468119e5c3e784a93c3a2cffd4",
+      "match": true
+    },
+    {
+      "input_manifest": "historical-input-hashes-v1.json",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/runner-snapshots/20260906T211051.464907Z-492a167f/artifacts/criticism/N03/controls-v1.py",
+      "expected_sha256": "3e263088b7d2b862d843689a1ea383f097583c5c998ebb439f0a928a72a062e8",
+      "actual_sha256": "3e263088b7d2b862d843689a1ea383f097583c5c998ebb439f0a928a72a062e8",
+      "match": true
+    }
+  ]
+}

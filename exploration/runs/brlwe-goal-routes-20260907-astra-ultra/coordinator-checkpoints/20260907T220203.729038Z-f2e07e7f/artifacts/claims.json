@@ -1,0 +1,99 @@
+{
+  "updated_at": "2026-09-07T22:02:03.724661+00:00",
+  "goal": {
+    "threadId": "01a07dcb-40ad-7231-8540-1675639ae41b",
+    "objective": "Establish and critically validate a new quantitatively meaningful hardness implication for coefficient-binary, rank-one RLWE from an independently specified and motivated nonbinary source assumption, with a coherent parameter regime, exact search/decision and sample scope, and no unresolved load-bearing defect; investigate direct search lossiness, partial splitting, and computational source transfer as complementary routes.",
+    "status": "active",
+    "tokensUsed": 0,
+    "timeUsedSeconds": 0,
+    "createdAt": 1788816946,
+    "updatedAt": 1788816946
+  },
+  "new_claims": [
+    {
+      "id": "A-SEARCH",
+      "version": 1,
+      "status": "PROVISIONAL",
+      "statement": "Under retained witness noise comparison, m noised ideal multipliers leak at most one quotient factor times P_guess(S|S+G), plus noise error. Actual two-point source may support m=2.",
+      "proof": "workers/A1/proof-v1.md",
+      "dependencies": [
+        "NC-RECT (under local rederivation)",
+        "G-BIT (under worker derivation)",
+        "SOURCE-2 (under primary verification)"
+      ],
+      "reviews": [],
+      "evidence": "A1 exact dual-number and noisy-bit controls passed; exact residual checking rejected",
+      "proof_sha256": "198c36bce9a73b87f2e1f5cf644d7e96b13cda063922f1ab10b0b2ee60114042"
+    },
+    {
+      "id": "B-SPLIT",
+      "version": 1,
+      "status": "PROVISIONAL",
+      "statement": "For explicit partial splitting x^f-a, coefficient index blocks yield exact f-fold decomposition into split rings of degree N=n/f; extraction still relies on historical X1 and source becomes 2f same-support smaller-ring points.",
+      "dependencies": [
+        "historical X1 v1 PROVISIONAL",
+        "prime progression input"
+      ]
+    },
+    {
+      "id": "C-SPAN",
+      "version": 1,
+      "status": "PROVISIONAL",
+      "statement": "Two-source ideal-linear transformations may preserve common-zero deficiency of order d/q\u00b2; finite law being tested.",
+      "dependencies": [],
+      "evidence": "C1 exact mixture/span controls passed; scope excludes arbitrary public maps"
+    },
+    {
+      "id": "NC-RECT",
+      "version": 1,
+      "status": "PROVISIONAL",
+      "statement": "Exact proof-only independent rectangular discrete Gaussian completion with guarded finite error; full witness law retained after appending independent S.",
+      "proof": "coordinator/rectangular-completion-v1.md",
+      "dependencies": [
+        "Gaussian Fourier transform and Poisson summation"
+      ],
+      "review": []
+    },
+    {
+      "id": "SOURCE-2",
+      "version": 1,
+      "status": "PROVISIONAL",
+      "statement": "Explicit same-hidden-ideal two-point small independent coefficient Gaussian source, motivated by HLBDD Section7, comparator R_q\u00b2; its pseudorandomness remains an assumption.",
+      "proof": "coordinator/source-and-parameters-v1.md",
+      "dependencies": [
+        "Order-LWE Definitions7.3\u20137.4 and Lemma7.7"
+      ],
+      "review": []
+    },
+    {
+      "id": "PRIME-POLY",
+      "version": 1,
+      "status": "PROVISIONAL",
+      "statement": "Least prime 1 mod2n\u00b3 gives 2n\u00b3<q<=n16 eventually and q/sigma_m>=n for m<=2; deterministic polynomial-in-unary-n setup.",
+      "proof": "coordinator/source-and-parameters-v1.md",
+      "dependencies": [
+        "Xylouris Theorem1.1 primary checked"
+      ],
+      "review": []
+    }
+  ],
+  "historical_claims": {
+    "path": "imports/latest-claims.json",
+    "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/claims.json",
+    "authority": "Latest ledger and reconciliation supersede frozen headers. W3-OBS coordinator v3 corresponds to author v2. Imported analytic claims remain provisional pending justified use."
+  },
+  "frontier": [
+    "A direct search witness-retaining noise law and one/two-sample lossiness",
+    "B partial splitting with compatible entropy",
+    "C computational transfer and source budget"
+  ],
+  "selection": "selection.md",
+  "review_inputs": {
+    "statement": "candidates/search/theorem-only-v2.md",
+    "proof": [
+      "candidates/search/proof-v1.md",
+      "candidates/search/supplement-v1.md"
+    ],
+    "blind_statement_sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124"
+  }
+}

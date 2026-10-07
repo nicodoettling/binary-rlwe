@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260907T224122.157261Z-8d261b7e",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-09-07T22:41:22.157285+00:00",
+  "reason": "Recorded actual completed native goal and accepted scoped theorem; terminal worker/experiment states and future scope exclusions preserved",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 15719,
+      "sha256": "c7bca700f89fddac9e4d0f389ccb7edd52ccce728390c58b623b343857d499cc"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 5662,
+      "sha256": "6822acf189e98a82971f1b2403465a196c062d356ba882464518e996126ccc5b"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 8971,
+      "sha256": "0df1f29b97dfa8bf132993ab7064bcdce6268cec9ee0d03bfa29783c4ee0c93f"
+    },
+    {
+      "path": "final.md",
+      "bytes": 14555,
+      "sha256": "8134671eab6c64b5709e0a7387332ae87ac28670ea3a489d29e18cc72379d468"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 2991,
+      "sha256": "9cb59ddbbed70c4591344ac3708e81047554eabb02e9d652ac8f6ebb3ebadac9"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

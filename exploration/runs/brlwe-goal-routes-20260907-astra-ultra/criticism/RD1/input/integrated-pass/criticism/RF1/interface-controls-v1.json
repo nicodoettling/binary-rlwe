@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-09-07T22:10:56.937007+00:00",
+  "arithmetic": "exact Fraction",
+  "seed": null,
+  "controls": [
+    {
+      "id": "ZERO-IDEAL-ALL-DECODERS",
+      "m": 1,
+      "external_source_elements": 2,
+      "used_source_elements": 1,
+      "target_samples": 1,
+      "decoder_count": 8,
+      "planted_guess": "1/2",
+      "best_target_success": "3/4",
+      "all_endpoint_inequalities": true
+    },
+    {
+      "id": "ZERO-IDEAL-ALL-DECODERS",
+      "m": 2,
+      "external_source_elements": 2,
+      "used_source_elements": 2,
+      "target_samples": 2,
+      "decoder_count": 128,
+      "planted_guess": "1/2",
+      "best_target_success": "7/8",
+      "all_endpoint_inequalities": true
+    },
+    {
+      "id": "VARYING-QUOTIENT-ZERO-FIBERS",
+      "public_endpoint_TV": "9/32",
+      "source_guess": "17/32",
+      "expected_cardinality_guess_bound": "3/4",
+      "J_choices": "0 and (t), each probability 1/2",
+      "zeros_allowed": true
+    },
+    {
+      "id": "DYADIC-NORMALIZATION",
+      "tables": 384,
+      "all_probabilities_valid": true,
+      "max_excess_over_claimed_bound": "-3/320",
+      "scope": "exact rational final-table rounding only, not numerical exp evaluation"
+    }
+  ],
+  "elapsed_seconds": 0.008355746045708656,
+  "status": "all assertions passed"
+}

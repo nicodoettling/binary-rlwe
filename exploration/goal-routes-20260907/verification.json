@@ -1,0 +1,18 @@
+{
+  "verified_utc": "2026-09-07T21:34:02.162729+00:00",
+  "scope": "Approved three-hour plan consistency, exact model/concurrency/timing and local-link checks; host preflights performed by actual launcher next.",
+  "research_launched": false,
+  "native_goal_created": false,
+  "host_preflight_performed": false,
+  "launch_authorized": true,
+  "max_wall_seconds": 10800,
+  "baseline_commit": "174e0a2ca47dcb1e09ba8c5ae48117b698e2f2ed",
+  "plan_files_sha256": {
+    "COORDINATOR_PROMPT.md": "8e1760f08a29aa78de7c2e0812d224ff4caf0fe0163f944a61d1c6c7815f114b",
+    "LAUNCH.md": "7067ca4a0befebb08357e937642d4ded48876ddd07a5c7a2577d57f628216e0a",
+    "PLAN.md": "e621b231bb50f95d4b08d22713469e801c46883b3b6f2e2463c278cfdcddd6e0",
+    "RESEARCH_SCOPE.md": "5d7b3675b849c7f44670e5161796c0eaa86e2d3b0fd225cb88f5b1482966bb93",
+    "TASK_TEMPLATE.md": "96c0e196f17395cdf87e79034a14115c7500c401ba31d635002cc347e9aebffe",
+    "run-config.json": "1076a6852730d5f5e46fd51df38f1053493d5c1284ec29ec50e1fcc88f3d919e"
+  }
+}

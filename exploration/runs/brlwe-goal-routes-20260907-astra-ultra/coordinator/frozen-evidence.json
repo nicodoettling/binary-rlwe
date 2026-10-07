@@ -1,0 +1,2083 @@
+{
+  "created_at": "2026-09-07T22:39:31.495071+00:00",
+  "version": 3,
+  "scope": "Final complete frozen proof/review/input/experiment evidence. Mutable core and native/cap state are checked separately; identity does not certify mathematical truth.",
+  "files": [
+    {
+      "path": "candidates/search/proof-v1.md",
+      "sha256": "198c36bce9a73b87f2e1f5cf644d7e96b13cda063922f1ab10b0b2ee60114042"
+    },
+    {
+      "path": "candidates/search/supplement-v1.md",
+      "sha256": "71752406e81e327b5c47d0d118ea9bc6aa0f87566d23345daf290a7b8322410a"
+    },
+    {
+      "path": "candidates/search/theorem-only-v2.md",
+      "sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124"
+    },
+    {
+      "path": "coordinator/A-PPT-ledger-v1-rejected.json",
+      "sha256": "213a5ecd57b1a4f5a99d7267470c5854dff7500020cc8ec1ee93cd4474a2213b"
+    },
+    {
+      "path": "coordinator/A-PPT-ledger-v1-scope-defect.md",
+      "sha256": "47d5816c48ee81507b9b8f39bccbcedaa0f151ddc8f54a03b5fe8233ed1d9431"
+    },
+    {
+      "path": "coordinator/A-PPT-ledger-v2.json",
+      "sha256": "e8ac045319cc40b0979cc54a3bd4e6c659badefdeee25dff221fe96cfc680447"
+    },
+    {
+      "path": "coordinator/HANDOFF-observed-v1.md",
+      "sha256": "c2272c8377f7e777aedce8dcd7374c76dad0f32a7082378cade62ceebd252bcf"
+    },
+    {
+      "path": "coordinator/artifact-check-interim-v1.json",
+      "sha256": "ea3ca469091abc7b1f188c904423e913c82ea325b41a54a371a86bc68a1cfddd"
+    },
+    {
+      "path": "coordinator/artifact-check-interim-v2.json",
+      "sha256": "cb9b992b57fb438fdd48b7f33721c4e57dddbae0110ffac6a8a827670a07801c"
+    },
+    {
+      "path": "coordinator/assignment-scope-check-v2.json",
+      "sha256": "4aeb5ff633644b5477cc061605e2dc7b5c95b3e8b3d76796b87ab93e654d9607"
+    },
+    {
+      "path": "coordinator/check-artifacts-v1.py",
+      "sha256": "6dedc665422c35f00b48b71feead16980e6d2e9baff1f696da8776b82291ccf4"
+    },
+    {
+      "path": "coordinator/check-artifacts-v2.py",
+      "sha256": "e6bacafebcac647d991dcedacdc4dacdf632aa9d14ed8d4a6d2bbbe81d8cfb86"
+    },
+    {
+      "path": "coordinator/check-artifacts-v3.py",
+      "sha256": "8507583671c6c5b582ef267d9b6c7cd2c42286f208e11065a74f328aabca7d7e"
+    },
+    {
+      "path": "coordinator/checkpoint-cadence-v1.json",
+      "sha256": "ca99d433eb9a808650164e88ffb8282d8c1f4946ae0ffc682dbd1a5848311cf4"
+    },
+    {
+      "path": "coordinator/delivery-scientific-v1.md",
+      "sha256": "4278ed3685d1eaa179f236196c7fcb8f60dcfb51149616acd47fb3e5d8da31d6"
+    },
+    {
+      "path": "coordinator/delivery-scientific-v2.md",
+      "sha256": "e1457a6fb37cbca01e201967e7125a8c28ae87785f0b76ca9f4c1fd17f8e17ad"
+    },
+    {
+      "path": "coordinator/launch-receipt-observed-v1.json",
+      "sha256": "bb93c23a142fd8c8418bfe3f2d9c3348c43677c7f69fe26333b303cc8ec74eef"
+    },
+    {
+      "path": "coordinator/metadata-change-observation-v1.json",
+      "sha256": "4371a635a3b2b9ff4e981811e7c0659f694f5712a6c534c081854e6911247a63"
+    },
+    {
+      "path": "coordinator/primary-browser-record-v1.json",
+      "sha256": "fddb783eb9e759c1794771e6ea2d5b98deb346176f16b50229af6d52f80f8bf7"
+    },
+    {
+      "path": "coordinator/rectangular-completion-v1.md",
+      "sha256": "d66a1ea3e1c61990c77380de60c39b00a3097ab111407aedc610cfbe34c70163"
+    },
+    {
+      "path": "coordinator/run-config-observed-v1.json",
+      "sha256": "10ec7d73a680abb7181f85e491f685934dd5c3ec92709163aadd40ecb43c47b9"
+    },
+    {
+      "path": "coordinator/source-and-parameters-v1.md",
+      "sha256": "131e6a3feec87010007a30ddc1e37bdec44687648120bfe1e8c5187e6e779f50"
+    },
+    {
+      "path": "criticism/RB1/SHA256SUMS-v1",
+      "sha256": "1a17fe11fe055d5db5edf013c3b2cc42d26047eda30867e3a8163866268e429f"
+    },
+    {
+      "path": "criticism/RB1/assignment.md",
+      "sha256": "0986b5e5b69bcb8e6b8fc6bb5ad019461026f39e5a9ce2ba1f89f63e0e0cea8c"
+    },
+    {
+      "path": "criticism/RB1/blind-report-draft-v1.md",
+      "sha256": "c95e83a3a53cd589d2f2bf731ead33b35857af33edea28f1f3a0f8b722061b2d"
+    },
+    {
+      "path": "criticism/RB1/blind-report-v1.md",
+      "sha256": "c95e83a3a53cd589d2f2bf731ead33b35857af33edea28f1f3a0f8b722061b2d"
+    },
+    {
+      "path": "criticism/RB1/finite-controls-v1.py",
+      "sha256": "25c00b5225e78ac3f0c30e2c65c8fc7572bae735b1973396835db5a12587bab5"
+    },
+    {
+      "path": "criticism/RB1/finite-controls-v1.results.json",
+      "sha256": "9084cc3419f69175695b63489d79ab2284edc7e029ce208ff7fc1cbd1bdd2360"
+    },
+    {
+      "path": "criticism/RB1/finite-controls-v2.py",
+      "sha256": "c4451126b82b0b30bb9422dd09f91aa048a036c975a4d41539d9eba80877c592"
+    },
+    {
+      "path": "criticism/RB1/finite-controls-v2.results.json",
+      "sha256": "8c4fbc0f8b12ddc4a3af3873c50e6272158bd860a54efbb8bc15f11a1710157a"
+    },
+    {
+      "path": "criticism/RB1/freeze-v1.json",
+      "sha256": "253d8a48c046595652cd4cf68c4b2decbf2101532ec9cd61d4d8b2d82d42612b"
+    },
+    {
+      "path": "criticism/RB1/input/SHA256SUMS",
+      "sha256": "1c71926afe6523d8b86f74ce5714cfd137230d0f586b810386a14e459a0021ca"
+    },
+    {
+      "path": "criticism/RB1/input/theorem-only-v2.md",
+      "sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124"
+    },
+    {
+      "path": "criticism/RB1/partial-v1.md",
+      "sha256": "ca2fe20c7e794b4d4c15921c5cbab6ce5bf6c0676760a4e8b55f3bb78f251cd9"
+    },
+    {
+      "path": "criticism/RB1/partial-v2.md",
+      "sha256": "4257ca73881b672c7922ed8668d8561a195cf2594695e7ffb15e72f80d114db2"
+    },
+    {
+      "path": "criticism/RB1/source-manifest-v1.json",
+      "sha256": "30ba4dec1d64bc32dbc5bc599c29589df895dbff34cf7f67bd8d99351c615731"
+    },
+    {
+      "path": "criticism/RD1/LATEST_SNAPSHOT",
+      "sha256": "770d272e10f94212b4e34a520344f7ba6f07b023cf515af5538ea325723b7515"
+    },
+    {
+      "path": "criticism/RD1/assignment.md",
+      "sha256": "1f97c0db1ce20d96cb2efe72aa73a97780c8c02361b7d7badfc98348d9717878"
+    },
+    {
+      "path": "criticism/RD1/delivery-check-v1.py",
+      "sha256": "c513c06c4583041c65b83e19031b94f05304d0097ac77ab213cc7d8c4ac72ff2"
+    },
+    {
+      "path": "criticism/RD1/delivery-check-v2.py",
+      "sha256": "0b2c35b7fcc72cd06643268bf0c5af40eeef4941408e9140a864cf5318e63c94"
+    },
+    {
+      "path": "criticism/RD1/freeze-v1.json",
+      "sha256": "ae0c1149bc97c597d04702cf728a2cfe8ba6c74110a76b4fdf918dae57da6713"
+    },
+    {
+      "path": "criticism/RD1/input/2026-09-07T222059.021823Z/candidates/search/proof-v1.md",
+      "sha256": "198c36bce9a73b87f2e1f5cf644d7e96b13cda063922f1ab10b0b2ee60114042"
+    },
+    {
+      "path": "criticism/RD1/input/2026-09-07T222059.021823Z/candidates/search/supplement-v1.md",
+      "sha256": "71752406e81e327b5c47d0d118ea9bc6aa0f87566d23345daf290a7b8322410a"
+    },
+    {
+      "path": "criticism/RD1/input/2026-09-07T222059.021823Z/candidates/search/theorem-only-v2.md",
+      "sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124"
+    },
+    {
+      "path": "criticism/RD1/input/2026-09-07T222059.021823Z/claims.json",
+      "sha256": "b1ec10f186e66a6a811b609628ce4fb1bb2ec13efcf798662dac1e91a060ded3"
+    },
+    {
+      "path": "criticism/RD1/input/2026-09-07T222059.021823Z/experiments/registry.json",
+      "sha256": "2c2af5326d7d6859fc09e8acb976bba79ce16d10b549c1d4051bd0f66d152ed2"
+    },
+    {
+      "path": "criticism/RD1/input/2026-09-07T222059.021823Z/final.md",
+      "sha256": "3f830fa76fd35d0ee5f8917a1b1b70f90fe3f1995ce0b0af928e6218db97b2a8"
+    },
+    {
+      "path": "criticism/RD1/input/2026-09-07T222059.021823Z/imports/historical-file-index.json",
+      "sha256": "22fd6792648ecd77f2087935a2938e7ac7aec8edb62b56c6febe4f9e926c59bb"
+    },
+    {
+      "path": "criticism/RD1/input/2026-09-07T222059.021823Z/launcher-run.json",
+      "sha256": "b10b1b538f542ff87504e2bbd38b31811ee6d704503761c19eed06f7e8b6cef8"
+    },
+    {
+      "path": "criticism/RD1/input/2026-09-07T222059.021823Z/manifest.json",
+      "sha256": "603912928e30c183f916696331afae409d194c5f992c4a9d36f75292fa0a46fa"
+    },
+    {
+      "path": "criticism/RD1/input/2026-09-07T222059.021823Z/parameter-table.md",
+      "sha256": "b37922b509d3336b519ff430b7aa51dd684c0dc7a8716afa3f713861c018ac48"
+    },
+    {
+      "path": "criticism/RD1/input/2026-09-07T222059.021823Z/reconciliation.md",
+      "sha256": "1d989f3c7490a8dde06981bc1151611e588f54e8308b33a6cc26604f173ae18b"
+    },
+    {
+      "path": "criticism/RD1/input/2026-09-07T222059.021823Z/regressions.json",
+      "sha256": "e2f67c6924d68623b90de9926785c8593dc5f9935e7dcb5be82ca4ffe33a2f4a"
+    },
+    {
+      "path": "criticism/RD1/input/2026-09-07T222059.021823Z/resume.md",
+      "sha256": "a339cff5f6ddc596a4f4443a4cff2748f1be537bfabf1d36e412ce6ee998dfb4"
+    },
+    {
+      "path": "criticism/RD1/input/2026-09-07T222059.021823Z/run.log.brlwe-goal-routes-20260907-astra-ultra.cap-status.json",
+      "sha256": "f3da6abf79f3c9b0ac5b102d056e6629be38d70eac3ef4796f0042b54a9cfbe0"
+    },
+    {
+      "path": "criticism/RD1/input/2026-09-07T222059.021823Z/source-comparison.md",
+      "sha256": "081ed3f90922cce2fbc7a0d8338252b47848c4da59f79e8ee8a200dd8aa1576a"
+    },
+    {
+      "path": "criticism/RD1/input/historical-registry/latest-regressions.json",
+      "sha256": "5b3d21b92ba3efc6fb64cc77f4523de6b24f73e794009fefc508c555dbe112a0"
+    },
+    {
+      "path": "criticism/RD1/input/historical-registry/manifest.json",
+      "sha256": "f86dfffb66dd1983d32fa8c9720a6c23d88bf28b86ec0c98ca43e3f98043fe64"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/candidates/search/proof-v1.md",
+      "sha256": "198c36bce9a73b87f2e1f5cf644d7e96b13cda063922f1ab10b0b2ee60114042"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/candidates/search/supplement-v1.md",
+      "sha256": "71752406e81e327b5c47d0d118ea9bc6aa0f87566d23345daf290a7b8322410a"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/candidates/search/theorem-only-v2.md",
+      "sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/claim-history.jsonl",
+      "sha256": "6fb3480ef788839f917f5b2a790a972fc12d5d47f992d2af41e0a22dec030b9f"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/claims.json",
+      "sha256": "e4ab92ca59da63bfc0735f795941b162d831d290cfe31fa415034e71dc41f2f4"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/coordinator/A-PPT-ledger-v1-rejected.json",
+      "sha256": "213a5ecd57b1a4f5a99d7267470c5854dff7500020cc8ec1ee93cd4474a2213b"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/coordinator/A-PPT-ledger-v1-scope-defect.md",
+      "sha256": "47d5816c48ee81507b9b8f39bccbcedaa0f151ddc8f54a03b5fe8233ed1d9431"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/coordinator/A-PPT-ledger-v2.json",
+      "sha256": "e8ac045319cc40b0979cc54a3bd4e6c659badefdeee25dff221fe96cfc680447"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/coordinator/HANDOFF-observed-v1.md",
+      "sha256": "c2272c8377f7e777aedce8dcd7374c76dad0f32a7082378cade62ceebd252bcf"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/coordinator/artifact-check-interim-v1.json",
+      "sha256": "ea3ca469091abc7b1f188c904423e913c82ea325b41a54a371a86bc68a1cfddd"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/coordinator/artifact-check-interim-v2.json",
+      "sha256": "cb9b992b57fb438fdd48b7f33721c4e57dddbae0110ffac6a8a827670a07801c"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/coordinator/check-artifacts-v1.py",
+      "sha256": "6dedc665422c35f00b48b71feead16980e6d2e9baff1f696da8776b82291ccf4"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/coordinator/check-artifacts-v2.py",
+      "sha256": "e6bacafebcac647d991dcedacdc4dacdf632aa9d14ed8d4a6d2bbbe81d8cfb86"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/coordinator/checkpoint-cadence-v1.json",
+      "sha256": "ca99d433eb9a808650164e88ffb8282d8c1f4946ae0ffc682dbd1a5848311cf4"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/coordinator/delivery-scientific-v1.md",
+      "sha256": "4278ed3685d1eaa179f236196c7fcb8f60dcfb51149616acd47fb3e5d8da31d6"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/coordinator/frozen-evidence.json",
+      "sha256": "e13f5c48a185a581e9ec6f887ae1eed01564a86895c6072d4ccfac56870cee9f"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/coordinator/frozen-inputs-v1.json",
+      "sha256": "b18e0ef83d2fafaaef2bd03900130e2a24e4cf0d8794b2df80d77a97c03aa63d"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/coordinator/launch-receipt-observed-v1.json",
+      "sha256": "bb93c23a142fd8c8418bfe3f2d9c3348c43677c7f69fe26333b303cc8ec74eef"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/coordinator/metadata-change-observation-v1.json",
+      "sha256": "4371a635a3b2b9ff4e981811e7c0659f694f5712a6c534c081854e6911247a63"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/coordinator/primary-browser-record-v1.json",
+      "sha256": "fddb783eb9e759c1794771e6ea2d5b98deb346176f16b50229af6d52f80f8bf7"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/coordinator/rectangular-completion-v1.md",
+      "sha256": "d66a1ea3e1c61990c77380de60c39b00a3097ab111407aedc610cfbe34c70163"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/coordinator/run-config-observed-v1.json",
+      "sha256": "10ec7d73a680abb7181f85e491f685934dd5c3ec92709163aadd40ecb43c47b9"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/coordinator/source-and-parameters-v1.md",
+      "sha256": "131e6a3feec87010007a30ddc1e37bdec44687648120bfe1e8c5187e6e779f50"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RB1/SHA256SUMS-v1",
+      "sha256": "1a17fe11fe055d5db5edf013c3b2cc42d26047eda30867e3a8163866268e429f"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RB1/assignment.md",
+      "sha256": "0986b5e5b69bcb8e6b8fc6bb5ad019461026f39e5a9ce2ba1f89f63e0e0cea8c"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RB1/blind-report-draft-v1.md",
+      "sha256": "c95e83a3a53cd589d2f2bf731ead33b35857af33edea28f1f3a0f8b722061b2d"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RB1/blind-report-v1.md",
+      "sha256": "c95e83a3a53cd589d2f2bf731ead33b35857af33edea28f1f3a0f8b722061b2d"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RB1/finite-controls-v1.py",
+      "sha256": "25c00b5225e78ac3f0c30e2c65c8fc7572bae735b1973396835db5a12587bab5"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RB1/finite-controls-v1.results.json",
+      "sha256": "9084cc3419f69175695b63489d79ab2284edc7e029ce208ff7fc1cbd1bdd2360"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RB1/finite-controls-v2.py",
+      "sha256": "c4451126b82b0b30bb9422dd09f91aa048a036c975a4d41539d9eba80877c592"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RB1/finite-controls-v2.results.json",
+      "sha256": "8c4fbc0f8b12ddc4a3af3873c50e6272158bd860a54efbb8bc15f11a1710157a"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RB1/freeze-v1.json",
+      "sha256": "253d8a48c046595652cd4cf68c4b2decbf2101532ec9cd61d4d8b2d82d42612b"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RB1/input/SHA256SUMS",
+      "sha256": "1c71926afe6523d8b86f74ce5714cfd137230d0f586b810386a14e459a0021ca"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RB1/input/theorem-only-v2.md",
+      "sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RB1/partial-v1.md",
+      "sha256": "ca2fe20c7e794b4d4c15921c5cbab6ce5bf6c0676760a4e8b55f3bb78f251cd9"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RB1/partial-v2.md",
+      "sha256": "4257ca73881b672c7922ed8668d8561a195cf2594695e7ffb15e72f80d114db2"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RB1/source-manifest-v1.json",
+      "sha256": "30ba4dec1d64bc32dbc5bc599c29589df895dbff34cf7f67bd8d99351c615731"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RF1/artifact-manifest-v1.json",
+      "sha256": "0b0360526852e5d4191eaba23db6a21e4e429d67cf8ff55a866d938293a52588"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RF1/assignment.md",
+      "sha256": "8c1df993e2545796aadd7a86d0b6af9fcaa146e2db11c91b57bd1adea25b4e8a"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RF1/author-controls-copy-v1.py",
+      "sha256": "09fa4d72a73705561cdb08ee68929b250d5418b4bcc200006523c6b15a16353e"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RF1/commands-and-results-v1.json",
+      "sha256": "8aba8035aec4d60bb79d5690f33db9633fed55e16267d8ad95a84d7421d3e98c"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RF1/exact-search-v1.json",
+      "sha256": "124e8fda394b7b42d0b9a911c0fdd4fbd08d2310dab6f5bfdb0fecbee376a9dd"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RF1/exact-search-v1.py",
+      "sha256": "6a20bb60a805806edb8afe4bbaacb741c9afd9d549d4fdaefe0d2243b37b8119"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RF1/exact_controls_v1.json",
+      "sha256": "d8f915386b3df4eb97ebe6f04e4d969ad83c6236025e54aab88478eec42178d1"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RF1/historical-input-hashes-v1.json",
+      "sha256": "cb259ec8b68d465f18807a55160c4d30c072e783846a220262c4b382a1b1e4f6"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RF1/input-hashes-v1.json",
+      "sha256": "e45ab9ad6df1b297c6d80854f26a266b615cfebad646eacbfeec96ab26da7236"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RF1/integrity-final-v1.json",
+      "sha256": "5425658959dce2f6c4b316e438f3ccc782741c1138e64f14117e8ad25d861331"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RF1/interface-controls-v1.json",
+      "sha256": "49e325521afb279bfcba31f480ff05a7f24f0fa21ac3b5b9013aa9fd2add1bf6"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RF1/interface-controls-v1.py",
+      "sha256": "2fee329796cadff12fa72056e684c5fd7d057f835c8383951f04ec20f65d07fb"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RF1/partial-v1.md",
+      "sha256": "db5527f137a79c14729901e889b354dd7cdc540309648c71d35007002e64ee2c"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RF1/partial-v2.md",
+      "sha256": "acb9141aa121a9e24ee2f134aed1e17d9179b16965fc1d339b8b148749ba9662"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RF1/partial-v3.md",
+      "sha256": "1b80127188a6545822f7ef89940e35bc8334fed0dbf0fb96145ccbe054571064"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RF1/primary-response-v1.json",
+      "sha256": "53083debbeb3dca1e721d4db07b7d5e5220aab0fcfa660d540f74ea6456c40b9"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RF1/rectangular-control-v1.json",
+      "sha256": "28f7b0cf2d2da66e5c43472f72b5a7283e98009799b9a0508cd57cfc4a75462f"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RF1/rectangular-control-v1.py",
+      "sha256": "e5e9ed0875c6fd2134d3eb26c035a9cbe532693438ca2e5be105edbc1621ddc9"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RF1/report-v1.md",
+      "sha256": "ff7a034fa2d8be726a0940801a45697f082c342e786d3fd47a7674bd87b91c64"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RF1/source-d1-limitation-v1.md",
+      "sha256": "786bcaa3d5dbf931e34d914133b69c688b73be87fa0f215fd46bc0319a2d65b3"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RS1/additional-input-hashes.json",
+      "sha256": "125757793d43a7e1b5a69f2d34371fe8b88799bc826aca3ea71e40a6b7281cee"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RS1/assignment.md",
+      "sha256": "2e93c843da347c3cea697b43a51029c599824acb6e9e77e67ec866a0a0c93aaf"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RS1/delivery-verification.json",
+      "sha256": "d27137219547c23905780f4bb6fecac8998d891c81e056bb30763e019bd61cb0"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RS1/input-hashes.json",
+      "sha256": "2c1f0e676b0d8e37492e158a04224968b32c5f394109af9108a95dd8139fc331"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RS1/input/proof-v1.md",
+      "sha256": "198c36bce9a73b87f2e1f5cf644d7e96b13cda063922f1ab10b0b2ee60114042"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RS1/input/source-and-parameters-v1.md",
+      "sha256": "131e6a3feec87010007a30ddc1e37bdec44687648120bfe1e8c5187e6e779f50"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RS1/input/supplement-v1.md",
+      "sha256": "71752406e81e327b5c47d0d118ea9bc6aa0f87566d23345daf290a7b8322410a"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RS1/input/theorem-only-v2.md",
+      "sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RS1/partial-1.md",
+      "sha256": "a2351db353a7099f24acf58bbdfb9456ed1a9e637c0fb1aa7c1a4db02f3c108e"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/criticism/RS1/report-v1.md",
+      "sha256": "f04881cf65af51b7079fd59b785e9ca2d8cbc53fb710c06e0b823ae31cc20785"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/experiments/rectangular-identities-v1.json",
+      "sha256": "0dd3d0bc968235bb7b846909be42e8124d9de9964624f63f5472da96292be041"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/experiments/rectangular-identities-v1.py",
+      "sha256": "c60ed05d8580c00b134d7de3af7f1483025105f97fbba0e7d309f5fce3e95b27"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/experiments/registry.json",
+      "sha256": "d2fb282f0ac3532f9e46307a84a09ab1aaf565be7d3f527c002c80c284286b14"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/final.md",
+      "sha256": "cbb594385542a3275769ae24de8168f87416d0e786e8295d904de9d43063c70e"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/imports/latest-regressions.json",
+      "sha256": "5b3d21b92ba3efc6fb64cc77f4523de6b24f73e794009fefc508c555dbe112a0"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/launcher-run.json",
+      "sha256": "b10b1b538f542ff87504e2bbd38b31811ee6d704503761c19eed06f7e8b6cef8"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/manifest.json",
+      "sha256": "9ee34590cbbbc6bdc218fa320e5998c8c80efd2cd1a4f72566fe281dc06ae9a6"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/parameter-table.md",
+      "sha256": "b37922b509d3336b519ff430b7aa51dd684c0dc7a8716afa3f713861c018ac48"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/reconciliation.md",
+      "sha256": "c47c9df2082e217a05844ae4f25017ed8f6d8ae2266643a9a4c798ee9b9918bf"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/regressions.json",
+      "sha256": "c57c57de8f9a45f77d3b5c1c090c97351900990c4722fc0ed7fffb0977e9ad7c"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/resume.md",
+      "sha256": "be3ee753fa652ba4b74f60535ee9f08f114b69cfb963d55c79dd5c437e3528b8"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/run.log.brlwe-goal-routes-20260907-astra-ultra.cap-status.json",
+      "sha256": "f3da6abf79f3c9b0ac5b102d056e6629be38d70eac3ef4796f0042b54a9cfbe0"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/source-comparison.md",
+      "sha256": "081ed3f90922cce2fbc7a0d8338252b47848c4da59f79e8ee8a200dd8aa1576a"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/A1/artifact-manifest-v1.json",
+      "sha256": "c67bda9fb06b5c81297b4cd68e34db03dfdd67c1e53735dd8e0d8ae9aa136411"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/A1/assignment.md",
+      "sha256": "dcdd2bb183df9adba8b25dbe9089b7d0fe0d2aa775a71b327c955ad71122f1b4"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/A1/claims.json",
+      "sha256": "f2084c297dbd09dcc1920d878966869068a11ae64d4b93c2f8edc9988e9a8584"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/A1/exact_controls_v1.json",
+      "sha256": "1891321654560d5dd4c3dab8a9490e6a9a63ad8846cf338f98d658f8e8db509c"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/A1/exact_controls_v1.py",
+      "sha256": "09fa4d72a73705561cdb08ee68929b250d5418b4bcc200006523c6b15a16353e"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/A1/final.md",
+      "sha256": "8f5bbaf6acdc92b5da4110932ddad508665bc72db3dfc855bd5b87115b32b258"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/A1/frozen-theorem-v1.md",
+      "sha256": "cf81bffcac7bc644356fa7f92e3cccdfa4b8b494c448029d572e68df9d02679d"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/A1/integrity-check-v1.json",
+      "sha256": "e324478ce1ade6a48ecb9259395186c7587b8e2153c90a43f3b82c1fffc76d74"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/A1/progress.md",
+      "sha256": "dcd6788a4993a5c1b6eba5de0aa0c58b24fbdf1cb15afaab6ab70f19090c1716"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/A1/proof-v1.md",
+      "sha256": "198c36bce9a73b87f2e1f5cf644d7e96b13cda063922f1ab10b0b2ee60114042"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/A1/source-access.md",
+      "sha256": "f72816a39654a61a013105b1caf1347ab95f3f74e42ca2d6b6263b8c3dc4b271"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/A1/supplement-v1.md",
+      "sha256": "71752406e81e327b5c47d0d118ea9bc6aa0f87566d23345daf290a7b8322410a"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/A1/theorem-only-v1.md",
+      "sha256": "c0f4fd514c0f3846445ce3b01226ba2d81d69b86b3252ede709101a1883e7e80"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/A1/theorem-only-v2.md",
+      "sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/B1/assignment.md",
+      "sha256": "12e72989ffec4cb2e6ebfd37ca56b99dc5687b5be2773b8be0a6c1b7c83a088d"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/B1/cap-before-exact-v1.json",
+      "sha256": "f3da6abf79f3c9b0ac5b102d056e6629be38d70eac3ef4796f0042b54a9cfbe0"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/B1/cap-before-exact-v2.json",
+      "sha256": "f3da6abf79f3c9b0ac5b102d056e6629be38d70eac3ef4796f0042b54a9cfbe0"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/B1/claims.json",
+      "sha256": "f833b8aced3fcbc2b1eff5081112cfc6606d0153137dc3f56dcbeddac003a8eb"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/B1/control-addendum-v2.md",
+      "sha256": "98d565a70db7d3d8fd5171e38e57ad499119501bc282fd7930f25490f5dda078"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/B1/exact-controls-v1.json",
+      "sha256": "cb074d042120026343cc10e978b9f035cf1d289f146f34e9bbc7f7466548f8b1"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/B1/exact-controls-v1.py",
+      "sha256": "2ebd15afa8e6dfb55f80ae47a7551074f911e75222c30da88f93f21f4258051c"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/B1/exact-controls-v2.json",
+      "sha256": "ccccbd5bfb5faf7e90daeb258fba207068f170f9c4138faf4950e09128d7a949"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/B1/exact-controls-v2.py",
+      "sha256": "454f8a1a815b6acd9ab8190217959bf07726d09fd36f983f0fc593334c225152"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/B1/final.md",
+      "sha256": "56442104641aeb818fa297ed8cb87d20adf0c9aa58efc84013d56e70ecce6d8d"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/B1/partial-2145.md",
+      "sha256": "927bdbc8511704e5645ed9369e761dac26b198e7ef9b6385bcf4e87bf61d70da"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/B1/proof-v1.md",
+      "sha256": "664460e15f77cb225344fbf87d73a2a0056bafbef124b882649798e945d5c820"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/B1/statement-v1.md",
+      "sha256": "634c1f1cddad11902590653599bfdc42437bd86b17807831b82a118a278df11a"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/C1/artifact-hashes-v1.sha256",
+      "sha256": "815c45464309c83c0f0c4d3cb2b4b33b612ffc970e030ed5976ef9e2fd6fc789"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/C1/assignment.md",
+      "sha256": "21545b4042ba8d206c1da78a8d6281ddda359e1eea5097242cd426a1a8568976"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/C1/claims-v1.json",
+      "sha256": "ecbbd3ca71db656657be73de412cb7820a2fff2af7d6542efbaee5a604c5cffd"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/C1/exact-controls-v1.json",
+      "sha256": "f7cc508adb733a1c07c3395bb00741d3e75a1124d127140999750d9a91c1713d"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/C1/exact-controls-v1.py",
+      "sha256": "dd964edea0ba8a56e777fd88d1d956ef7050b3e2a407462d9d0669dc2ebecb86"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/C1/final.md",
+      "sha256": "5385a67407b91d874410de56dae184c997ef1b8e0b7421eb4d76078db437bfb0"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/C1/input-hashes-v1.sha256",
+      "sha256": "c508e4540de5f38f934e47d80ed89720fc97ca83c64cb049e42a5a3e543a3d05"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/C1/larger-q-theorem-v1.md",
+      "sha256": "8b4c3f83a8b8c120c7a01eeb05731ea4fdf5d3d092ccf7d288956662e19c95e8"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/C1/partial.md",
+      "sha256": "e147914ee5b708ffb3144e5be480d7b2be21108bfa19ee67dfcae27ac4225257"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/C1/primary-web-record-v1.json",
+      "sha256": "b11c194f77d518198c1c99bc514194f8fecfe91875e1b946a7c0fb4e26411d28"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/C1/source-checks-v1.md",
+      "sha256": "7bc8f1bf1a2e973a338fc39468648c292e6a5034d58abe8e47b3d046fc7d8e17"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass-v2/workers/C1/source-transfer-v1.md",
+      "sha256": "25ae59dcda887083d943e4d456f15a33c7929a3856aeef9fc84bb90ec44763b4"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/candidates/search/proof-v1.md",
+      "sha256": "198c36bce9a73b87f2e1f5cf644d7e96b13cda063922f1ab10b0b2ee60114042"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/candidates/search/supplement-v1.md",
+      "sha256": "71752406e81e327b5c47d0d118ea9bc6aa0f87566d23345daf290a7b8322410a"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/candidates/search/theorem-only-v2.md",
+      "sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/claim-history.jsonl",
+      "sha256": "6fb3480ef788839f917f5b2a790a972fc12d5d47f992d2af41e0a22dec030b9f"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/claims.json",
+      "sha256": "e4ab92ca59da63bfc0735f795941b162d831d290cfe31fa415034e71dc41f2f4"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/coordinator/check-artifacts-v1.py",
+      "sha256": "6dedc665422c35f00b48b71feead16980e6d2e9baff1f696da8776b82291ccf4"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/coordinator/frozen-evidence.json",
+      "sha256": "6522aca450866e8f0b61475ead711b63dc1e5d0ac42142336a3a96955ed196ff"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/coordinator/frozen-inputs-v1.json",
+      "sha256": "b18e0ef83d2fafaaef2bd03900130e2a24e4cf0d8794b2df80d77a97c03aa63d"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/coordinator/primary-browser-record-v1.json",
+      "sha256": "fddb783eb9e759c1794771e6ea2d5b98deb346176f16b50229af6d52f80f8bf7"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/coordinator/rectangular-completion-v1.md",
+      "sha256": "d66a1ea3e1c61990c77380de60c39b00a3097ab111407aedc610cfbe34c70163"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/coordinator/source-and-parameters-v1.md",
+      "sha256": "131e6a3feec87010007a30ddc1e37bdec44687648120bfe1e8c5187e6e779f50"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RB1/SHA256SUMS-v1",
+      "sha256": "1a17fe11fe055d5db5edf013c3b2cc42d26047eda30867e3a8163866268e429f"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RB1/assignment.md",
+      "sha256": "0986b5e5b69bcb8e6b8fc6bb5ad019461026f39e5a9ce2ba1f89f63e0e0cea8c"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RB1/blind-report-draft-v1.md",
+      "sha256": "c95e83a3a53cd589d2f2bf731ead33b35857af33edea28f1f3a0f8b722061b2d"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RB1/blind-report-v1.md",
+      "sha256": "c95e83a3a53cd589d2f2bf731ead33b35857af33edea28f1f3a0f8b722061b2d"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RB1/finite-controls-v1.py",
+      "sha256": "25c00b5225e78ac3f0c30e2c65c8fc7572bae735b1973396835db5a12587bab5"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RB1/finite-controls-v1.results.json",
+      "sha256": "9084cc3419f69175695b63489d79ab2284edc7e029ce208ff7fc1cbd1bdd2360"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RB1/finite-controls-v2.py",
+      "sha256": "c4451126b82b0b30bb9422dd09f91aa048a036c975a4d41539d9eba80877c592"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RB1/finite-controls-v2.results.json",
+      "sha256": "8c4fbc0f8b12ddc4a3af3873c50e6272158bd860a54efbb8bc15f11a1710157a"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RB1/freeze-v1.json",
+      "sha256": "253d8a48c046595652cd4cf68c4b2decbf2101532ec9cd61d4d8b2d82d42612b"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RB1/input/SHA256SUMS",
+      "sha256": "1c71926afe6523d8b86f74ce5714cfd137230d0f586b810386a14e459a0021ca"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RB1/input/theorem-only-v2.md",
+      "sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RB1/partial-v1.md",
+      "sha256": "ca2fe20c7e794b4d4c15921c5cbab6ce5bf6c0676760a4e8b55f3bb78f251cd9"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RB1/partial-v2.md",
+      "sha256": "4257ca73881b672c7922ed8668d8561a195cf2594695e7ffb15e72f80d114db2"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RB1/source-manifest-v1.json",
+      "sha256": "30ba4dec1d64bc32dbc5bc599c29589df895dbff34cf7f67bd8d99351c615731"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RF1/artifact-manifest-v1.json",
+      "sha256": "0b0360526852e5d4191eaba23db6a21e4e429d67cf8ff55a866d938293a52588"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RF1/assignment.md",
+      "sha256": "8c1df993e2545796aadd7a86d0b6af9fcaa146e2db11c91b57bd1adea25b4e8a"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RF1/author-controls-copy-v1.py",
+      "sha256": "09fa4d72a73705561cdb08ee68929b250d5418b4bcc200006523c6b15a16353e"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RF1/commands-and-results-v1.json",
+      "sha256": "8aba8035aec4d60bb79d5690f33db9633fed55e16267d8ad95a84d7421d3e98c"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RF1/exact-search-v1.json",
+      "sha256": "124e8fda394b7b42d0b9a911c0fdd4fbd08d2310dab6f5bfdb0fecbee376a9dd"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RF1/exact-search-v1.py",
+      "sha256": "6a20bb60a805806edb8afe4bbaacb741c9afd9d549d4fdaefe0d2243b37b8119"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RF1/exact_controls_v1.json",
+      "sha256": "d8f915386b3df4eb97ebe6f04e4d969ad83c6236025e54aab88478eec42178d1"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RF1/historical-input-hashes-v1.json",
+      "sha256": "cb259ec8b68d465f18807a55160c4d30c072e783846a220262c4b382a1b1e4f6"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RF1/input-hashes-v1.json",
+      "sha256": "e45ab9ad6df1b297c6d80854f26a266b615cfebad646eacbfeec96ab26da7236"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RF1/integrity-final-v1.json",
+      "sha256": "5425658959dce2f6c4b316e438f3ccc782741c1138e64f14117e8ad25d861331"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RF1/interface-controls-v1.json",
+      "sha256": "49e325521afb279bfcba31f480ff05a7f24f0fa21ac3b5b9013aa9fd2add1bf6"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RF1/interface-controls-v1.py",
+      "sha256": "2fee329796cadff12fa72056e684c5fd7d057f835c8383951f04ec20f65d07fb"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RF1/partial-v1.md",
+      "sha256": "db5527f137a79c14729901e889b354dd7cdc540309648c71d35007002e64ee2c"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RF1/partial-v2.md",
+      "sha256": "acb9141aa121a9e24ee2f134aed1e17d9179b16965fc1d339b8b148749ba9662"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RF1/partial-v3.md",
+      "sha256": "1b80127188a6545822f7ef89940e35bc8334fed0dbf0fb96145ccbe054571064"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RF1/primary-response-v1.json",
+      "sha256": "53083debbeb3dca1e721d4db07b7d5e5220aab0fcfa660d540f74ea6456c40b9"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RF1/rectangular-control-v1.json",
+      "sha256": "28f7b0cf2d2da66e5c43472f72b5a7283e98009799b9a0508cd57cfc4a75462f"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RF1/rectangular-control-v1.py",
+      "sha256": "e5e9ed0875c6fd2134d3eb26c035a9cbe532693438ca2e5be105edbc1621ddc9"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RF1/report-v1.md",
+      "sha256": "ff7a034fa2d8be726a0940801a45697f082c342e786d3fd47a7674bd87b91c64"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RF1/source-d1-limitation-v1.md",
+      "sha256": "786bcaa3d5dbf931e34d914133b69c688b73be87fa0f215fd46bc0319a2d65b3"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RS1/additional-input-hashes.json",
+      "sha256": "125757793d43a7e1b5a69f2d34371fe8b88799bc826aca3ea71e40a6b7281cee"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RS1/assignment.md",
+      "sha256": "2e93c843da347c3cea697b43a51029c599824acb6e9e77e67ec866a0a0c93aaf"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RS1/delivery-verification.json",
+      "sha256": "d27137219547c23905780f4bb6fecac8998d891c81e056bb30763e019bd61cb0"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RS1/input-hashes.json",
+      "sha256": "2c1f0e676b0d8e37492e158a04224968b32c5f394109af9108a95dd8139fc331"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RS1/input/proof-v1.md",
+      "sha256": "198c36bce9a73b87f2e1f5cf644d7e96b13cda063922f1ab10b0b2ee60114042"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RS1/input/source-and-parameters-v1.md",
+      "sha256": "131e6a3feec87010007a30ddc1e37bdec44687648120bfe1e8c5187e6e779f50"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RS1/input/supplement-v1.md",
+      "sha256": "71752406e81e327b5c47d0d118ea9bc6aa0f87566d23345daf290a7b8322410a"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RS1/input/theorem-only-v2.md",
+      "sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RS1/partial-1.md",
+      "sha256": "a2351db353a7099f24acf58bbdfb9456ed1a9e637c0fb1aa7c1a4db02f3c108e"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/criticism/RS1/report-v1.md",
+      "sha256": "f04881cf65af51b7079fd59b785e9ca2d8cbc53fb710c06e0b823ae31cc20785"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/experiments/rectangular-identities-v1.json",
+      "sha256": "0dd3d0bc968235bb7b846909be42e8124d9de9964624f63f5472da96292be041"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/experiments/rectangular-identities-v1.py",
+      "sha256": "c60ed05d8580c00b134d7de3af7f1483025105f97fbba0e7d309f5fce3e95b27"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/experiments/registry.json",
+      "sha256": "d2fb282f0ac3532f9e46307a84a09ab1aaf565be7d3f527c002c80c284286b14"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/final.md",
+      "sha256": "cbb594385542a3275769ae24de8168f87416d0e786e8295d904de9d43063c70e"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/launcher-run.json",
+      "sha256": "b10b1b538f542ff87504e2bbd38b31811ee6d704503761c19eed06f7e8b6cef8"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/manifest.json",
+      "sha256": "d6306dfe2b7fb4d86c4d35837064a85ee67b488ae2eee41ca5b7305b6fde51e8"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/parameter-table.md",
+      "sha256": "b37922b509d3336b519ff430b7aa51dd684c0dc7a8716afa3f713861c018ac48"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/reconciliation.md",
+      "sha256": "c47c9df2082e217a05844ae4f25017ed8f6d8ae2266643a9a4c798ee9b9918bf"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/regressions.json",
+      "sha256": "c57c57de8f9a45f77d3b5c1c090c97351900990c4722fc0ed7fffb0977e9ad7c"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/resume.md",
+      "sha256": "be3ee753fa652ba4b74f60535ee9f08f114b69cfb963d55c79dd5c437e3528b8"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/run.log.brlwe-goal-routes-20260907-astra-ultra.cap-status.json",
+      "sha256": "f3da6abf79f3c9b0ac5b102d056e6629be38d70eac3ef4796f0042b54a9cfbe0"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/source-comparison.md",
+      "sha256": "081ed3f90922cce2fbc7a0d8338252b47848c4da59f79e8ee8a200dd8aa1576a"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/A1/artifact-manifest-v1.json",
+      "sha256": "c67bda9fb06b5c81297b4cd68e34db03dfdd67c1e53735dd8e0d8ae9aa136411"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/A1/assignment.md",
+      "sha256": "dcdd2bb183df9adba8b25dbe9089b7d0fe0d2aa775a71b327c955ad71122f1b4"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/A1/claims.json",
+      "sha256": "f2084c297dbd09dcc1920d878966869068a11ae64d4b93c2f8edc9988e9a8584"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/A1/exact_controls_v1.json",
+      "sha256": "1891321654560d5dd4c3dab8a9490e6a9a63ad8846cf338f98d658f8e8db509c"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/A1/exact_controls_v1.py",
+      "sha256": "09fa4d72a73705561cdb08ee68929b250d5418b4bcc200006523c6b15a16353e"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/A1/final.md",
+      "sha256": "8f5bbaf6acdc92b5da4110932ddad508665bc72db3dfc855bd5b87115b32b258"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/A1/frozen-theorem-v1.md",
+      "sha256": "cf81bffcac7bc644356fa7f92e3cccdfa4b8b494c448029d572e68df9d02679d"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/A1/integrity-check-v1.json",
+      "sha256": "e324478ce1ade6a48ecb9259395186c7587b8e2153c90a43f3b82c1fffc76d74"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/A1/progress.md",
+      "sha256": "dcd6788a4993a5c1b6eba5de0aa0c58b24fbdf1cb15afaab6ab70f19090c1716"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/A1/proof-v1.md",
+      "sha256": "198c36bce9a73b87f2e1f5cf644d7e96b13cda063922f1ab10b0b2ee60114042"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/A1/source-access.md",
+      "sha256": "f72816a39654a61a013105b1caf1347ab95f3f74e42ca2d6b6263b8c3dc4b271"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/A1/supplement-v1.md",
+      "sha256": "71752406e81e327b5c47d0d118ea9bc6aa0f87566d23345daf290a7b8322410a"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/A1/theorem-only-v1.md",
+      "sha256": "c0f4fd514c0f3846445ce3b01226ba2d81d69b86b3252ede709101a1883e7e80"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/A1/theorem-only-v2.md",
+      "sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/B1/assignment.md",
+      "sha256": "12e72989ffec4cb2e6ebfd37ca56b99dc5687b5be2773b8be0a6c1b7c83a088d"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/B1/cap-before-exact-v1.json",
+      "sha256": "f3da6abf79f3c9b0ac5b102d056e6629be38d70eac3ef4796f0042b54a9cfbe0"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/B1/cap-before-exact-v2.json",
+      "sha256": "f3da6abf79f3c9b0ac5b102d056e6629be38d70eac3ef4796f0042b54a9cfbe0"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/B1/claims.json",
+      "sha256": "f833b8aced3fcbc2b1eff5081112cfc6606d0153137dc3f56dcbeddac003a8eb"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/B1/control-addendum-v2.md",
+      "sha256": "98d565a70db7d3d8fd5171e38e57ad499119501bc282fd7930f25490f5dda078"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/B1/exact-controls-v1.json",
+      "sha256": "cb074d042120026343cc10e978b9f035cf1d289f146f34e9bbc7f7466548f8b1"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/B1/exact-controls-v1.py",
+      "sha256": "2ebd15afa8e6dfb55f80ae47a7551074f911e75222c30da88f93f21f4258051c"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/B1/exact-controls-v2.json",
+      "sha256": "ccccbd5bfb5faf7e90daeb258fba207068f170f9c4138faf4950e09128d7a949"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/B1/exact-controls-v2.py",
+      "sha256": "454f8a1a815b6acd9ab8190217959bf07726d09fd36f983f0fc593334c225152"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/B1/final.md",
+      "sha256": "56442104641aeb818fa297ed8cb87d20adf0c9aa58efc84013d56e70ecce6d8d"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/B1/partial-2145.md",
+      "sha256": "927bdbc8511704e5645ed9369e761dac26b198e7ef9b6385bcf4e87bf61d70da"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/B1/proof-v1.md",
+      "sha256": "664460e15f77cb225344fbf87d73a2a0056bafbef124b882649798e945d5c820"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/B1/statement-v1.md",
+      "sha256": "634c1f1cddad11902590653599bfdc42437bd86b17807831b82a118a278df11a"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/C1/artifact-hashes-v1.sha256",
+      "sha256": "815c45464309c83c0f0c4d3cb2b4b33b612ffc970e030ed5976ef9e2fd6fc789"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/C1/assignment.md",
+      "sha256": "21545b4042ba8d206c1da78a8d6281ddda359e1eea5097242cd426a1a8568976"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/C1/claims-v1.json",
+      "sha256": "ecbbd3ca71db656657be73de412cb7820a2fff2af7d6542efbaee5a604c5cffd"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/C1/exact-controls-v1.json",
+      "sha256": "f7cc508adb733a1c07c3395bb00741d3e75a1124d127140999750d9a91c1713d"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/C1/exact-controls-v1.py",
+      "sha256": "dd964edea0ba8a56e777fd88d1d956ef7050b3e2a407462d9d0669dc2ebecb86"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/C1/final.md",
+      "sha256": "5385a67407b91d874410de56dae184c997ef1b8e0b7421eb4d76078db437bfb0"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/C1/input-hashes-v1.sha256",
+      "sha256": "c508e4540de5f38f934e47d80ed89720fc97ca83c64cb049e42a5a3e543a3d05"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/C1/larger-q-theorem-v1.md",
+      "sha256": "8b4c3f83a8b8c120c7a01eeb05731ea4fdf5d3d092ccf7d288956662e19c95e8"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/C1/partial.md",
+      "sha256": "e147914ee5b708ffb3144e5be480d7b2be21108bfa19ee67dfcae27ac4225257"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/C1/primary-web-record-v1.json",
+      "sha256": "b11c194f77d518198c1c99bc514194f8fecfe91875e1b946a7c0fb4e26411d28"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/C1/source-checks-v1.md",
+      "sha256": "7bc8f1bf1a2e973a338fc39468648c292e6a5034d58abe8e47b3d046fc7d8e17"
+    },
+    {
+      "path": "criticism/RD1/input/integrated-pass/workers/C1/source-transfer-v1.md",
+      "sha256": "25ae59dcda887083d943e4d456f15a33c7929a3856aeef9fc84bb90ec44763b4"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/candidates/search/proof-v1.md",
+      "sha256": "198c36bce9a73b87f2e1f5cf644d7e96b13cda063922f1ab10b0b2ee60114042"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/candidates/search/supplement-v1.md",
+      "sha256": "71752406e81e327b5c47d0d118ea9bc6aa0f87566d23345daf290a7b8322410a"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/candidates/search/theorem-only-v2.md",
+      "sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/claim-history.jsonl",
+      "sha256": "7f3e6410fa61227dcda0aa322c612ae53c4037725a61a52359eea45cbbbdab60"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/claims.json",
+      "sha256": "fdd86023f6c7e3444ee0a7494bb5f70e6914d9e8c59270bef74257e9d077e3c6"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/coordinator/check-artifacts-v1.py",
+      "sha256": "6dedc665422c35f00b48b71feead16980e6d2e9baff1f696da8776b82291ccf4"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/coordinator/frozen-evidence.json",
+      "sha256": "6522aca450866e8f0b61475ead711b63dc1e5d0ac42142336a3a96955ed196ff"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/coordinator/frozen-inputs-v1.json",
+      "sha256": "b18e0ef83d2fafaaef2bd03900130e2a24e4cf0d8794b2df80d77a97c03aa63d"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/coordinator/primary-browser-record-v1.json",
+      "sha256": "fddb783eb9e759c1794771e6ea2d5b98deb346176f16b50229af6d52f80f8bf7"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/coordinator/rectangular-completion-v1.md",
+      "sha256": "d66a1ea3e1c61990c77380de60c39b00a3097ab111407aedc610cfbe34c70163"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/coordinator/source-and-parameters-v1.md",
+      "sha256": "131e6a3feec87010007a30ddc1e37bdec44687648120bfe1e8c5187e6e779f50"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RB1/SHA256SUMS-v1",
+      "sha256": "1a17fe11fe055d5db5edf013c3b2cc42d26047eda30867e3a8163866268e429f"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RB1/assignment.md",
+      "sha256": "0986b5e5b69bcb8e6b8fc6bb5ad019461026f39e5a9ce2ba1f89f63e0e0cea8c"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RB1/blind-report-draft-v1.md",
+      "sha256": "c95e83a3a53cd589d2f2bf731ead33b35857af33edea28f1f3a0f8b722061b2d"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RB1/blind-report-v1.md",
+      "sha256": "c95e83a3a53cd589d2f2bf731ead33b35857af33edea28f1f3a0f8b722061b2d"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RB1/finite-controls-v1.py",
+      "sha256": "25c00b5225e78ac3f0c30e2c65c8fc7572bae735b1973396835db5a12587bab5"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RB1/finite-controls-v1.results.json",
+      "sha256": "9084cc3419f69175695b63489d79ab2284edc7e029ce208ff7fc1cbd1bdd2360"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RB1/finite-controls-v2.py",
+      "sha256": "c4451126b82b0b30bb9422dd09f91aa048a036c975a4d41539d9eba80877c592"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RB1/finite-controls-v2.results.json",
+      "sha256": "8c4fbc0f8b12ddc4a3af3873c50e6272158bd860a54efbb8bc15f11a1710157a"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RB1/freeze-v1.json",
+      "sha256": "253d8a48c046595652cd4cf68c4b2decbf2101532ec9cd61d4d8b2d82d42612b"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RB1/input/SHA256SUMS",
+      "sha256": "1c71926afe6523d8b86f74ce5714cfd137230d0f586b810386a14e459a0021ca"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RB1/input/theorem-only-v2.md",
+      "sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RB1/partial-v1.md",
+      "sha256": "ca2fe20c7e794b4d4c15921c5cbab6ce5bf6c0676760a4e8b55f3bb78f251cd9"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RB1/partial-v2.md",
+      "sha256": "4257ca73881b672c7922ed8668d8561a195cf2594695e7ffb15e72f80d114db2"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RB1/source-manifest-v1.json",
+      "sha256": "30ba4dec1d64bc32dbc5bc599c29589df895dbff34cf7f67bd8d99351c615731"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RF1/artifact-manifest-v1.json",
+      "sha256": "0b0360526852e5d4191eaba23db6a21e4e429d67cf8ff55a866d938293a52588"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RF1/assignment.md",
+      "sha256": "8c1df993e2545796aadd7a86d0b6af9fcaa146e2db11c91b57bd1adea25b4e8a"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RF1/author-controls-copy-v1.py",
+      "sha256": "09fa4d72a73705561cdb08ee68929b250d5418b4bcc200006523c6b15a16353e"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RF1/commands-and-results-v1.json",
+      "sha256": "8aba8035aec4d60bb79d5690f33db9633fed55e16267d8ad95a84d7421d3e98c"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RF1/exact-search-v1.json",
+      "sha256": "124e8fda394b7b42d0b9a911c0fdd4fbd08d2310dab6f5bfdb0fecbee376a9dd"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RF1/exact-search-v1.py",
+      "sha256": "6a20bb60a805806edb8afe4bbaacb741c9afd9d549d4fdaefe0d2243b37b8119"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RF1/exact_controls_v1.json",
+      "sha256": "d8f915386b3df4eb97ebe6f04e4d969ad83c6236025e54aab88478eec42178d1"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RF1/historical-input-hashes-v1.json",
+      "sha256": "cb259ec8b68d465f18807a55160c4d30c072e783846a220262c4b382a1b1e4f6"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RF1/input-hashes-v1.json",
+      "sha256": "e45ab9ad6df1b297c6d80854f26a266b615cfebad646eacbfeec96ab26da7236"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RF1/integrity-final-v1.json",
+      "sha256": "5425658959dce2f6c4b316e438f3ccc782741c1138e64f14117e8ad25d861331"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RF1/interface-controls-v1.json",
+      "sha256": "49e325521afb279bfcba31f480ff05a7f24f0fa21ac3b5b9013aa9fd2add1bf6"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RF1/interface-controls-v1.py",
+      "sha256": "2fee329796cadff12fa72056e684c5fd7d057f835c8383951f04ec20f65d07fb"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RF1/partial-v1.md",
+      "sha256": "db5527f137a79c14729901e889b354dd7cdc540309648c71d35007002e64ee2c"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RF1/partial-v2.md",
+      "sha256": "acb9141aa121a9e24ee2f134aed1e17d9179b16965fc1d339b8b148749ba9662"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RF1/partial-v3.md",
+      "sha256": "1b80127188a6545822f7ef89940e35bc8334fed0dbf0fb96145ccbe054571064"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RF1/primary-response-v1.json",
+      "sha256": "53083debbeb3dca1e721d4db07b7d5e5220aab0fcfa660d540f74ea6456c40b9"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RF1/rectangular-control-v1.json",
+      "sha256": "28f7b0cf2d2da66e5c43472f72b5a7283e98009799b9a0508cd57cfc4a75462f"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RF1/rectangular-control-v1.py",
+      "sha256": "e5e9ed0875c6fd2134d3eb26c035a9cbe532693438ca2e5be105edbc1621ddc9"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RF1/report-v1.md",
+      "sha256": "ff7a034fa2d8be726a0940801a45697f082c342e786d3fd47a7674bd87b91c64"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RF1/source-d1-limitation-v1.md",
+      "sha256": "786bcaa3d5dbf931e34d914133b69c688b73be87fa0f215fd46bc0319a2d65b3"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RS1/additional-input-hashes.json",
+      "sha256": "125757793d43a7e1b5a69f2d34371fe8b88799bc826aca3ea71e40a6b7281cee"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RS1/assignment.md",
+      "sha256": "2e93c843da347c3cea697b43a51029c599824acb6e9e77e67ec866a0a0c93aaf"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RS1/delivery-verification.json",
+      "sha256": "d27137219547c23905780f4bb6fecac8998d891c81e056bb30763e019bd61cb0"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RS1/input-hashes.json",
+      "sha256": "2c1f0e676b0d8e37492e158a04224968b32c5f394109af9108a95dd8139fc331"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RS1/input/proof-v1.md",
+      "sha256": "198c36bce9a73b87f2e1f5cf644d7e96b13cda063922f1ab10b0b2ee60114042"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RS1/input/source-and-parameters-v1.md",
+      "sha256": "131e6a3feec87010007a30ddc1e37bdec44687648120bfe1e8c5187e6e779f50"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RS1/input/supplement-v1.md",
+      "sha256": "71752406e81e327b5c47d0d118ea9bc6aa0f87566d23345daf290a7b8322410a"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RS1/input/theorem-only-v2.md",
+      "sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RS1/partial-1.md",
+      "sha256": "a2351db353a7099f24acf58bbdfb9456ed1a9e637c0fb1aa7c1a4db02f3c108e"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/criticism/RS1/report-v1.md",
+      "sha256": "f04881cf65af51b7079fd59b785e9ca2d8cbc53fb710c06e0b823ae31cc20785"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/experiments/rectangular-identities-v1.json",
+      "sha256": "0dd3d0bc968235bb7b846909be42e8124d9de9964624f63f5472da96292be041"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/experiments/rectangular-identities-v1.py",
+      "sha256": "c60ed05d8580c00b134d7de3af7f1483025105f97fbba0e7d309f5fce3e95b27"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/experiments/registry.json",
+      "sha256": "3ab21432bc74e328f175e0c9473a90d071929177115c50fe4a76e11663690916"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/final.md",
+      "sha256": "4353a6a3da5f8001d778a6c47ce6a8ed6c30d9dd604d9a096cf5239454918f4a"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/launcher-run.json",
+      "sha256": "b10b1b538f542ff87504e2bbd38b31811ee6d704503761c19eed06f7e8b6cef8"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/manifest.json",
+      "sha256": "a844205eba57754b3d51e830968755ac74b2f24a5d6ce023efec3be2c1b64024"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/parameter-table.md",
+      "sha256": "b37922b509d3336b519ff430b7aa51dd684c0dc7a8716afa3f713861c018ac48"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/reconciliation.md",
+      "sha256": "b75926d0adfef3ec03dd3fd42e584742b8d5eb4625db8bc0d3af74a7a894c5b7"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/regressions.json",
+      "sha256": "e2f67c6924d68623b90de9926785c8593dc5f9935e7dcb5be82ca4ffe33a2f4a"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/resume.md",
+      "sha256": "b3618cdf129616dfcc845918d1eec549c5634a977655a312507b724b8774d8c7"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/run.log.brlwe-goal-routes-20260907-astra-ultra.cap-status.json",
+      "sha256": "f3da6abf79f3c9b0ac5b102d056e6629be38d70eac3ef4796f0042b54a9cfbe0"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/source-comparison.md",
+      "sha256": "081ed3f90922cce2fbc7a0d8338252b47848c4da59f79e8ee8a200dd8aa1576a"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/A1/artifact-manifest-v1.json",
+      "sha256": "c67bda9fb06b5c81297b4cd68e34db03dfdd67c1e53735dd8e0d8ae9aa136411"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/A1/assignment.md",
+      "sha256": "dcdd2bb183df9adba8b25dbe9089b7d0fe0d2aa775a71b327c955ad71122f1b4"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/A1/claims.json",
+      "sha256": "f2084c297dbd09dcc1920d878966869068a11ae64d4b93c2f8edc9988e9a8584"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/A1/exact_controls_v1.json",
+      "sha256": "1891321654560d5dd4c3dab8a9490e6a9a63ad8846cf338f98d658f8e8db509c"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/A1/exact_controls_v1.py",
+      "sha256": "09fa4d72a73705561cdb08ee68929b250d5418b4bcc200006523c6b15a16353e"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/A1/final.md",
+      "sha256": "8f5bbaf6acdc92b5da4110932ddad508665bc72db3dfc855bd5b87115b32b258"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/A1/frozen-theorem-v1.md",
+      "sha256": "cf81bffcac7bc644356fa7f92e3cccdfa4b8b494c448029d572e68df9d02679d"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/A1/integrity-check-v1.json",
+      "sha256": "e324478ce1ade6a48ecb9259395186c7587b8e2153c90a43f3b82c1fffc76d74"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/A1/progress.md",
+      "sha256": "dcd6788a4993a5c1b6eba5de0aa0c58b24fbdf1cb15afaab6ab70f19090c1716"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/A1/proof-v1.md",
+      "sha256": "198c36bce9a73b87f2e1f5cf644d7e96b13cda063922f1ab10b0b2ee60114042"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/A1/source-access.md",
+      "sha256": "f72816a39654a61a013105b1caf1347ab95f3f74e42ca2d6b6263b8c3dc4b271"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/A1/supplement-v1.md",
+      "sha256": "71752406e81e327b5c47d0d118ea9bc6aa0f87566d23345daf290a7b8322410a"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/A1/theorem-only-v1.md",
+      "sha256": "c0f4fd514c0f3846445ce3b01226ba2d81d69b86b3252ede709101a1883e7e80"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/A1/theorem-only-v2.md",
+      "sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/B1/assignment.md",
+      "sha256": "12e72989ffec4cb2e6ebfd37ca56b99dc5687b5be2773b8be0a6c1b7c83a088d"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/B1/cap-before-exact-v1.json",
+      "sha256": "f3da6abf79f3c9b0ac5b102d056e6629be38d70eac3ef4796f0042b54a9cfbe0"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/B1/cap-before-exact-v2.json",
+      "sha256": "f3da6abf79f3c9b0ac5b102d056e6629be38d70eac3ef4796f0042b54a9cfbe0"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/B1/claims.json",
+      "sha256": "f833b8aced3fcbc2b1eff5081112cfc6606d0153137dc3f56dcbeddac003a8eb"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/B1/control-addendum-v2.md",
+      "sha256": "98d565a70db7d3d8fd5171e38e57ad499119501bc282fd7930f25490f5dda078"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/B1/exact-controls-v1.json",
+      "sha256": "cb074d042120026343cc10e978b9f035cf1d289f146f34e9bbc7f7466548f8b1"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/B1/exact-controls-v1.py",
+      "sha256": "2ebd15afa8e6dfb55f80ae47a7551074f911e75222c30da88f93f21f4258051c"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/B1/exact-controls-v2.json",
+      "sha256": "ccccbd5bfb5faf7e90daeb258fba207068f170f9c4138faf4950e09128d7a949"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/B1/exact-controls-v2.py",
+      "sha256": "454f8a1a815b6acd9ab8190217959bf07726d09fd36f983f0fc593334c225152"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/B1/final.md",
+      "sha256": "56442104641aeb818fa297ed8cb87d20adf0c9aa58efc84013d56e70ecce6d8d"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/B1/partial-2145.md",
+      "sha256": "927bdbc8511704e5645ed9369e761dac26b198e7ef9b6385bcf4e87bf61d70da"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/B1/proof-v1.md",
+      "sha256": "664460e15f77cb225344fbf87d73a2a0056bafbef124b882649798e945d5c820"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/B1/statement-v1.md",
+      "sha256": "634c1f1cddad11902590653599bfdc42437bd86b17807831b82a118a278df11a"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/C1/artifact-hashes-v1.sha256",
+      "sha256": "815c45464309c83c0f0c4d3cb2b4b33b612ffc970e030ed5976ef9e2fd6fc789"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/C1/assignment.md",
+      "sha256": "21545b4042ba8d206c1da78a8d6281ddda359e1eea5097242cd426a1a8568976"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/C1/claims-v1.json",
+      "sha256": "ecbbd3ca71db656657be73de412cb7820a2fff2af7d6542efbaee5a604c5cffd"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/C1/exact-controls-v1.json",
+      "sha256": "f7cc508adb733a1c07c3395bb00741d3e75a1124d127140999750d9a91c1713d"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/C1/exact-controls-v1.py",
+      "sha256": "dd964edea0ba8a56e777fd88d1d956ef7050b3e2a407462d9d0669dc2ebecb86"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/C1/final.md",
+      "sha256": "5385a67407b91d874410de56dae184c997ef1b8e0b7421eb4d76078db437bfb0"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/C1/input-hashes-v1.sha256",
+      "sha256": "c508e4540de5f38f934e47d80ed89720fc97ca83c64cb049e42a5a3e543a3d05"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/C1/larger-q-theorem-v1.md",
+      "sha256": "8b4c3f83a8b8c120c7a01eeb05731ea4fdf5d3d092ccf7d288956662e19c95e8"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/C1/partial.md",
+      "sha256": "e147914ee5b708ffb3144e5be480d7b2be21108bfa19ee67dfcae27ac4225257"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/C1/primary-web-record-v1.json",
+      "sha256": "b11c194f77d518198c1c99bc514194f8fecfe91875e1b946a7c0fb4e26411d28"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/C1/source-checks-v1.md",
+      "sha256": "7bc8f1bf1a2e973a338fc39468648c292e6a5034d58abe8e47b3d046fc7d8e17"
+    },
+    {
+      "path": "criticism/RD1/input/interim-check/workers/C1/source-transfer-v1.md",
+      "sha256": "25ae59dcda887083d943e4d456f15a33c7929a3856aeef9fc84bb90ec44763b4"
+    },
+    {
+      "path": "criticism/RD1/input/policy-and-repair-observation/A-PPT-ledger-v1-rejected.json",
+      "sha256": "213a5ecd57b1a4f5a99d7267470c5854dff7500020cc8ec1ee93cd4474a2213b"
+    },
+    {
+      "path": "criticism/RD1/input/policy-and-repair-observation/A-PPT-ledger-v1-scope-defect.md",
+      "sha256": "47d5816c48ee81507b9b8f39bccbcedaa0f151ddc8f54a03b5fe8233ed1d9431"
+    },
+    {
+      "path": "criticism/RD1/input/policy-and-repair-observation/PLAN.md",
+      "sha256": "93681d59fa3ee9785e322d09a6d10083ec49da4632c7138881eb19cdff64f8df"
+    },
+    {
+      "path": "criticism/RD1/input/policy-and-repair-observation/RESEARCH_SCOPE.md",
+      "sha256": "5d7b3675b849c7f44670e5161796c0eaa86e2d3b0fd225cb88f5b1482966bb93"
+    },
+    {
+      "path": "criticism/RD1/input/policy-and-repair-observation/SKILL.md",
+      "sha256": "9350ffeb5aebe0b126710786586f94ef5d990be35b8b9defc8004136dae40318"
+    },
+    {
+      "path": "criticism/RD1/input/policy-and-repair-observation/TASK_TEMPLATE.md",
+      "sha256": "96c0e196f17395cdf87e79034a14115c7500c401ba31d635002cc347e9aebffe"
+    },
+    {
+      "path": "criticism/RD1/input/policy-and-repair-observation/audit-protocol.md",
+      "sha256": "2d076ba631c340d71f6259757c6207dbe230872810e9bad3188b215f46d095f4"
+    },
+    {
+      "path": "criticism/RD1/input/policy-and-repair-observation/check-artifacts-v2.py",
+      "sha256": "e6bacafebcac647d991dcedacdc4dacdf632aa9d14ed8d4a6d2bbbe81d8cfb86"
+    },
+    {
+      "path": "criticism/RD1/input/policy-and-repair-observation/manifest.json",
+      "sha256": "5bee65d8de380f24f7304fa06bc44945e566fa03505acc768f18b6b95e413b77"
+    },
+    {
+      "path": "criticism/RD1/input/policy-and-repair-observation/metadata-change-observation-v1.json",
+      "sha256": "4371a635a3b2b9ff4e981811e7c0659f694f5712a6c534c081854e6911247a63"
+    },
+    {
+      "path": "criticism/RD1/input/policy-and-repair-observation/probability-regressions.md",
+      "sha256": "ad7eecf93ed02e5b2957243a9bbb2cac8e8eeeb991971f4d77d0818cd04a4fa4"
+    },
+    {
+      "path": "criticism/RD1/input/policy-and-repair-observation/run-config.json",
+      "sha256": "10ec7d73a680abb7181f85e491f685934dd5c3ec92709163aadd40ecb43c47b9"
+    },
+    {
+      "path": "criticism/RD1/input/support-first-pass/claim-history.jsonl",
+      "sha256": "23e8bd60ff80761509d12055cbfdef0f015afb69e614127f763b5a9003425719"
+    },
+    {
+      "path": "criticism/RD1/input/support-first-pass/coordinator/rectangular-completion-v1.md",
+      "sha256": "d66a1ea3e1c61990c77380de60c39b00a3097ab111407aedc610cfbe34c70163"
+    },
+    {
+      "path": "criticism/RD1/input/support-first-pass/coordinator/source-and-parameters-v1.md",
+      "sha256": "131e6a3feec87010007a30ddc1e37bdec44687648120bfe1e8c5187e6e779f50"
+    },
+    {
+      "path": "criticism/RD1/input/support-first-pass/criticism/RB1/blind-report-v1.md",
+      "sha256": "c95e83a3a53cd589d2f2bf731ead33b35857af33edea28f1f3a0f8b722061b2d"
+    },
+    {
+      "path": "criticism/RD1/input/support-first-pass/criticism/RB1/freeze-v1.json",
+      "sha256": "253d8a48c046595652cd4cf68c4b2decbf2101532ec9cd61d4d8b2d82d42612b"
+    },
+    {
+      "path": "criticism/RD1/input/support-first-pass/criticism/RB1/source-manifest-v1.json",
+      "sha256": "30ba4dec1d64bc32dbc5bc599c29589df895dbff34cf7f67bd8d99351c615731"
+    },
+    {
+      "path": "criticism/RD1/input/support-first-pass/criticism/RF1/artifact-manifest-v1.json",
+      "sha256": "0b0360526852e5d4191eaba23db6a21e4e429d67cf8ff55a866d938293a52588"
+    },
+    {
+      "path": "criticism/RD1/input/support-first-pass/criticism/RF1/input-hashes-v1.json",
+      "sha256": "e45ab9ad6df1b297c6d80854f26a266b615cfebad646eacbfeec96ab26da7236"
+    },
+    {
+      "path": "criticism/RD1/input/support-first-pass/criticism/RF1/integrity-final-v1.json",
+      "sha256": "5425658959dce2f6c4b316e438f3ccc782741c1138e64f14117e8ad25d861331"
+    },
+    {
+      "path": "criticism/RD1/input/support-first-pass/criticism/RF1/report-v1.md",
+      "sha256": "ff7a034fa2d8be726a0940801a45697f082c342e786d3fd47a7674bd87b91c64"
+    },
+    {
+      "path": "criticism/RD1/input/support-first-pass/criticism/RS1/additional-input-hashes.json",
+      "sha256": "125757793d43a7e1b5a69f2d34371fe8b88799bc826aca3ea71e40a6b7281cee"
+    },
+    {
+      "path": "criticism/RD1/input/support-first-pass/criticism/RS1/delivery-verification.json",
+      "sha256": "d27137219547c23905780f4bb6fecac8998d891c81e056bb30763e019bd61cb0"
+    },
+    {
+      "path": "criticism/RD1/input/support-first-pass/criticism/RS1/input-hashes.json",
+      "sha256": "2c1f0e676b0d8e37492e158a04224968b32c5f394109af9108a95dd8139fc331"
+    },
+    {
+      "path": "criticism/RD1/input/support-first-pass/criticism/RS1/report-v1.md",
+      "sha256": "f04881cf65af51b7079fd59b785e9ca2d8cbc53fb710c06e0b823ae31cc20785"
+    },
+    {
+      "path": "criticism/RD1/input/support-first-pass/manifest.json",
+      "sha256": "530f21021ca6eac39ed68be6d1e8166e21617bab1379efbbb869747481d859b7"
+    },
+    {
+      "path": "criticism/RD1/partial.md",
+      "sha256": "7c58b83bb546baf44bb58754e5bc2eafd9d8781ce5d8856d7e40f160a61ef1b4"
+    },
+    {
+      "path": "criticism/RD1/report-draft-v1.md",
+      "sha256": "d62d6b3b1d0cdb66ed8770d0f01e2e486f56a8a683b386bbcfe1bfc742b7970d"
+    },
+    {
+      "path": "criticism/RD1/report-v1.md",
+      "sha256": "19cef2b65a275d1d6bb5076b9208ddb6f63427b1301fdc88fa581f4eec3e1047"
+    },
+    {
+      "path": "criticism/RF1/artifact-manifest-v1.json",
+      "sha256": "0b0360526852e5d4191eaba23db6a21e4e429d67cf8ff55a866d938293a52588"
+    },
+    {
+      "path": "criticism/RF1/assignment.md",
+      "sha256": "8c1df993e2545796aadd7a86d0b6af9fcaa146e2db11c91b57bd1adea25b4e8a"
+    },
+    {
+      "path": "criticism/RF1/author-controls-copy-v1.py",
+      "sha256": "09fa4d72a73705561cdb08ee68929b250d5418b4bcc200006523c6b15a16353e"
+    },
+    {
+      "path": "criticism/RF1/commands-and-results-v1.json",
+      "sha256": "8aba8035aec4d60bb79d5690f33db9633fed55e16267d8ad95a84d7421d3e98c"
+    },
+    {
+      "path": "criticism/RF1/exact-search-v1.json",
+      "sha256": "124e8fda394b7b42d0b9a911c0fdd4fbd08d2310dab6f5bfdb0fecbee376a9dd"
+    },
+    {
+      "path": "criticism/RF1/exact-search-v1.py",
+      "sha256": "6a20bb60a805806edb8afe4bbaacb741c9afd9d549d4fdaefe0d2243b37b8119"
+    },
+    {
+      "path": "criticism/RF1/exact_controls_v1.json",
+      "sha256": "d8f915386b3df4eb97ebe6f04e4d969ad83c6236025e54aab88478eec42178d1"
+    },
+    {
+      "path": "criticism/RF1/historical-input-hashes-v1.json",
+      "sha256": "cb259ec8b68d465f18807a55160c4d30c072e783846a220262c4b382a1b1e4f6"
+    },
+    {
+      "path": "criticism/RF1/input-hashes-v1.json",
+      "sha256": "e45ab9ad6df1b297c6d80854f26a266b615cfebad646eacbfeec96ab26da7236"
+    },
+    {
+      "path": "criticism/RF1/integrity-final-v1.json",
+      "sha256": "5425658959dce2f6c4b316e438f3ccc782741c1138e64f14117e8ad25d861331"
+    },
+    {
+      "path": "criticism/RF1/interface-controls-v1.json",
+      "sha256": "49e325521afb279bfcba31f480ff05a7f24f0fa21ac3b5b9013aa9fd2add1bf6"
+    },
+    {
+      "path": "criticism/RF1/interface-controls-v1.py",
+      "sha256": "2fee329796cadff12fa72056e684c5fd7d057f835c8383951f04ec20f65d07fb"
+    },
+    {
+      "path": "criticism/RF1/partial-v1.md",
+      "sha256": "db5527f137a79c14729901e889b354dd7cdc540309648c71d35007002e64ee2c"
+    },
+    {
+      "path": "criticism/RF1/partial-v2.md",
+      "sha256": "acb9141aa121a9e24ee2f134aed1e17d9179b16965fc1d339b8b148749ba9662"
+    },
+    {
+      "path": "criticism/RF1/partial-v3.md",
+      "sha256": "1b80127188a6545822f7ef89940e35bc8334fed0dbf0fb96145ccbe054571064"
+    },
+    {
+      "path": "criticism/RF1/primary-response-v1.json",
+      "sha256": "53083debbeb3dca1e721d4db07b7d5e5220aab0fcfa660d540f74ea6456c40b9"
+    },
+    {
+      "path": "criticism/RF1/rectangular-control-v1.json",
+      "sha256": "28f7b0cf2d2da66e5c43472f72b5a7283e98009799b9a0508cd57cfc4a75462f"
+    },
+    {
+      "path": "criticism/RF1/rectangular-control-v1.py",
+      "sha256": "e5e9ed0875c6fd2134d3eb26c035a9cbe532693438ca2e5be105edbc1621ddc9"
+    },
+    {
+      "path": "criticism/RF1/report-v1.md",
+      "sha256": "ff7a034fa2d8be726a0940801a45697f082c342e786d3fd47a7674bd87b91c64"
+    },
+    {
+      "path": "criticism/RF1/source-d1-limitation-v1.md",
+      "sha256": "786bcaa3d5dbf931e34d914133b69c688b73be87fa0f215fd46bc0319a2d65b3"
+    },
+    {
+      "path": "criticism/RP1/artifact-manifest-v1.json",
+      "sha256": "322bc09e90534582afa3b6eef3c1963a04b2a09b43fe869841ed6b047080f679"
+    },
+    {
+      "path": "criticism/RP1/assignment.md",
+      "sha256": "220e4bcebc5eeab2f9fc5b71e587613509315aa7871ab2feb40ee7a58d453edf"
+    },
+    {
+      "path": "criticism/RP1/final-integrity-v1.json",
+      "sha256": "6831dcaf3c4c3337cf76c66ed4ca98a6b414a76378382188fb413d7ae567484c"
+    },
+    {
+      "path": "criticism/RP1/historical-input-hashes-v1.json",
+      "sha256": "64990ac6b458e4769cd00a3da2a06d05b4895f77ba6d4061037feebe5e4caeaf"
+    },
+    {
+      "path": "criticism/RP1/input-hashes-v1.json",
+      "sha256": "28ce6f8a2ab83eb91c3eb61b9d71ce9607566a063ae9b62e2154ce2c4d61fb7c"
+    },
+    {
+      "path": "criticism/RP1/input/candidates/search/proof-v1.md",
+      "sha256": "198c36bce9a73b87f2e1f5cf644d7e96b13cda063922f1ab10b0b2ee60114042"
+    },
+    {
+      "path": "criticism/RP1/input/candidates/search/supplement-v1.md",
+      "sha256": "71752406e81e327b5c47d0d118ea9bc6aa0f87566d23345daf290a7b8322410a"
+    },
+    {
+      "path": "criticism/RP1/input/candidates/search/theorem-only-v2.md",
+      "sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124"
+    },
+    {
+      "path": "criticism/RP1/input/cap-status-intake.json",
+      "sha256": "f3da6abf79f3c9b0ac5b102d056e6629be38d70eac3ef4796f0042b54a9cfbe0"
+    },
+    {
+      "path": "criticism/RP1/input/claims.json",
+      "sha256": "e4ab92ca59da63bfc0735f795941b162d831d290cfe31fa415034e71dc41f2f4"
+    },
+    {
+      "path": "criticism/RP1/input/coordinator/A-PPT-ledger-v1-rejected.json",
+      "sha256": "213a5ecd57b1a4f5a99d7267470c5854dff7500020cc8ec1ee93cd4474a2213b"
+    },
+    {
+      "path": "criticism/RP1/input/coordinator/A-PPT-ledger-v1-scope-defect.md",
+      "sha256": "47d5816c48ee81507b9b8f39bccbcedaa0f151ddc8f54a03b5fe8233ed1d9431"
+    },
+    {
+      "path": "criticism/RP1/input/coordinator/A-PPT-ledger-v2.json",
+      "sha256": "e8ac045319cc40b0979cc54a3bd4e6c659badefdeee25dff221fe96cfc680447"
+    },
+    {
+      "path": "criticism/RP1/input/coordinator/rectangular-completion-v1.md",
+      "sha256": "d66a1ea3e1c61990c77380de60c39b00a3097ab111407aedc610cfbe34c70163"
+    },
+    {
+      "path": "criticism/RP1/input/coordinator/source-and-parameters-v1.md",
+      "sha256": "131e6a3feec87010007a30ddc1e37bdec44687648120bfe1e8c5187e6e779f50"
+    },
+    {
+      "path": "criticism/RP1/input/criticism/RB1/blind-report-v1.md",
+      "sha256": "c95e83a3a53cd589d2f2bf731ead33b35857af33edea28f1f3a0f8b722061b2d"
+    },
+    {
+      "path": "criticism/RP1/input/criticism/RF1/report-v1.md",
+      "sha256": "ff7a034fa2d8be726a0940801a45697f082c342e786d3fd47a7674bd87b91c64"
+    },
+    {
+      "path": "criticism/RP1/input/criticism/RS1/report-v1.md",
+      "sha256": "f04881cf65af51b7079fd59b785e9ca2d8cbc53fb710c06e0b823ae31cc20785"
+    },
+    {
+      "path": "criticism/RP1/input/imports/historical-file-index.json",
+      "sha256": "22fd6792648ecd77f2087935a2938e7ac7aec8edb62b56c6febe4f9e926c59bb"
+    },
+    {
+      "path": "criticism/RP1/input/imports/latest-regressions.json",
+      "sha256": "5b3d21b92ba3efc6fb64cc77f4523de6b24f73e794009fefc508c555dbe112a0"
+    },
+    {
+      "path": "criticism/RP1/input/launcher-run.json",
+      "sha256": "b10b1b538f542ff87504e2bbd38b31811ee6d704503761c19eed06f7e8b6cef8"
+    },
+    {
+      "path": "criticism/RP1/parameter-search-v1-failure.json",
+      "sha256": "5374d28a13151b193f794942c0f0ab8937611108b667045319fcb0275a5528f2"
+    },
+    {
+      "path": "criticism/RP1/parameter-search-v1.py",
+      "sha256": "72b1118a3593e6fc08d0e682b2b4525fa4d68e44c2c5693035dbe5323eb24671"
+    },
+    {
+      "path": "criticism/RP1/parameter-search-v1.stderr.txt",
+      "sha256": "9e34e665b459ecbaeb100898fd67dcd2fb66b635212037c72a06c5309127066d"
+    },
+    {
+      "path": "criticism/RP1/parameter-search-v2.json",
+      "sha256": "fb53a0916d5f2081647567a81a9da0cdbc8c26c8841a553ea3d488a9d652f41a"
+    },
+    {
+      "path": "criticism/RP1/parameter-search-v2.py",
+      "sha256": "ea4d829041f592b9435e8092d2b1836fde570007ae5a4ca3f702080325185d69"
+    },
+    {
+      "path": "criticism/RP1/partial-v1.md",
+      "sha256": "be9996f13beed521b913b013977935da5e7648c4d96833c67ea3739fd6ed4c66"
+    },
+    {
+      "path": "criticism/RP1/report-v1.md",
+      "sha256": "210bbbc4d9432bccf5a8f3541f0807202600b04f909ff5ea21b07d3b4d06cb0e"
+    },
+    {
+      "path": "criticism/RP1/slot-release-v1.json",
+      "sha256": "6479e44d6be73b1201cfd238f84cdc13e7fc4a9c4aa30ddf1135f470f5c51563"
+    },
+    {
+      "path": "criticism/RS1/additional-input-hashes.json",
+      "sha256": "125757793d43a7e1b5a69f2d34371fe8b88799bc826aca3ea71e40a6b7281cee"
+    },
+    {
+      "path": "criticism/RS1/assignment.md",
+      "sha256": "2e93c843da347c3cea697b43a51029c599824acb6e9e77e67ec866a0a0c93aaf"
+    },
+    {
+      "path": "criticism/RS1/delivery-verification.json",
+      "sha256": "d27137219547c23905780f4bb6fecac8998d891c81e056bb30763e019bd61cb0"
+    },
+    {
+      "path": "criticism/RS1/input-hashes.json",
+      "sha256": "2c1f0e676b0d8e37492e158a04224968b32c5f394109af9108a95dd8139fc331"
+    },
+    {
+      "path": "criticism/RS1/input/proof-v1.md",
+      "sha256": "198c36bce9a73b87f2e1f5cf644d7e96b13cda063922f1ab10b0b2ee60114042"
+    },
+    {
+      "path": "criticism/RS1/input/source-and-parameters-v1.md",
+      "sha256": "131e6a3feec87010007a30ddc1e37bdec44687648120bfe1e8c5187e6e779f50"
+    },
+    {
+      "path": "criticism/RS1/input/supplement-v1.md",
+      "sha256": "71752406e81e327b5c47d0d118ea9bc6aa0f87566d23345daf290a7b8322410a"
+    },
+    {
+      "path": "criticism/RS1/input/theorem-only-v2.md",
+      "sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124"
+    },
+    {
+      "path": "criticism/RS1/partial-1.md",
+      "sha256": "a2351db353a7099f24acf58bbdfb9456ed1a9e637c0fb1aa7c1a4db02f3c108e"
+    },
+    {
+      "path": "criticism/RS1/report-v1.md",
+      "sha256": "f04881cf65af51b7079fd59b785e9ca2d8cbc53fb710c06e0b823ae31cc20785"
+    },
+    {
+      "path": "experiments/rectangular-identities-v1.json",
+      "sha256": "0dd3d0bc968235bb7b846909be42e8124d9de9964624f63f5472da96292be041"
+    },
+    {
+      "path": "experiments/rectangular-identities-v1.py",
+      "sha256": "c60ed05d8580c00b134d7de3af7f1483025105f97fbba0e7d309f5fce3e95b27"
+    },
+    {
+      "path": "workers/A1/artifact-manifest-v1.json",
+      "sha256": "c67bda9fb06b5c81297b4cd68e34db03dfdd67c1e53735dd8e0d8ae9aa136411"
+    },
+    {
+      "path": "workers/A1/assignment.md",
+      "sha256": "dcdd2bb183df9adba8b25dbe9089b7d0fe0d2aa775a71b327c955ad71122f1b4"
+    },
+    {
+      "path": "workers/A1/claims.json",
+      "sha256": "f2084c297dbd09dcc1920d878966869068a11ae64d4b93c2f8edc9988e9a8584"
+    },
+    {
+      "path": "workers/A1/exact_controls_v1.json",
+      "sha256": "1891321654560d5dd4c3dab8a9490e6a9a63ad8846cf338f98d658f8e8db509c"
+    },
+    {
+      "path": "workers/A1/exact_controls_v1.py",
+      "sha256": "09fa4d72a73705561cdb08ee68929b250d5418b4bcc200006523c6b15a16353e"
+    },
+    {
+      "path": "workers/A1/final.md",
+      "sha256": "8f5bbaf6acdc92b5da4110932ddad508665bc72db3dfc855bd5b87115b32b258"
+    },
+    {
+      "path": "workers/A1/frozen-theorem-v1.md",
+      "sha256": "cf81bffcac7bc644356fa7f92e3cccdfa4b8b494c448029d572e68df9d02679d"
+    },
+    {
+      "path": "workers/A1/integrity-check-v1.json",
+      "sha256": "e324478ce1ade6a48ecb9259395186c7587b8e2153c90a43f3b82c1fffc76d74"
+    },
+    {
+      "path": "workers/A1/progress.md",
+      "sha256": "dcd6788a4993a5c1b6eba5de0aa0c58b24fbdf1cb15afaab6ab70f19090c1716"
+    },
+    {
+      "path": "workers/A1/proof-v1.md",
+      "sha256": "198c36bce9a73b87f2e1f5cf644d7e96b13cda063922f1ab10b0b2ee60114042"
+    },
+    {
+      "path": "workers/A1/source-access.md",
+      "sha256": "f72816a39654a61a013105b1caf1347ab95f3f74e42ca2d6b6263b8c3dc4b271"
+    },
+    {
+      "path": "workers/A1/supplement-v1.md",
+      "sha256": "71752406e81e327b5c47d0d118ea9bc6aa0f87566d23345daf290a7b8322410a"
+    },
+    {
+      "path": "workers/A1/theorem-only-v1.md",
+      "sha256": "c0f4fd514c0f3846445ce3b01226ba2d81d69b86b3252ede709101a1883e7e80"
+    },
+    {
+      "path": "workers/A1/theorem-only-v2.md",
+      "sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124"
+    },
+    {
+      "path": "workers/B1/assignment.md",
+      "sha256": "12e72989ffec4cb2e6ebfd37ca56b99dc5687b5be2773b8be0a6c1b7c83a088d"
+    },
+    {
+      "path": "workers/B1/cap-before-exact-v1.json",
+      "sha256": "f3da6abf79f3c9b0ac5b102d056e6629be38d70eac3ef4796f0042b54a9cfbe0"
+    },
+    {
+      "path": "workers/B1/cap-before-exact-v2.json",
+      "sha256": "f3da6abf79f3c9b0ac5b102d056e6629be38d70eac3ef4796f0042b54a9cfbe0"
+    },
+    {
+      "path": "workers/B1/claims.json",
+      "sha256": "f833b8aced3fcbc2b1eff5081112cfc6606d0153137dc3f56dcbeddac003a8eb"
+    },
+    {
+      "path": "workers/B1/control-addendum-v2.md",
+      "sha256": "98d565a70db7d3d8fd5171e38e57ad499119501bc282fd7930f25490f5dda078"
+    },
+    {
+      "path": "workers/B1/exact-controls-v1.json",
+      "sha256": "cb074d042120026343cc10e978b9f035cf1d289f146f34e9bbc7f7466548f8b1"
+    },
+    {
+      "path": "workers/B1/exact-controls-v1.py",
+      "sha256": "2ebd15afa8e6dfb55f80ae47a7551074f911e75222c30da88f93f21f4258051c"
+    },
+    {
+      "path": "workers/B1/exact-controls-v2.json",
+      "sha256": "ccccbd5bfb5faf7e90daeb258fba207068f170f9c4138faf4950e09128d7a949"
+    },
+    {
+      "path": "workers/B1/exact-controls-v2.py",
+      "sha256": "454f8a1a815b6acd9ab8190217959bf07726d09fd36f983f0fc593334c225152"
+    },
+    {
+      "path": "workers/B1/final.md",
+      "sha256": "56442104641aeb818fa297ed8cb87d20adf0c9aa58efc84013d56e70ecce6d8d"
+    },
+    {
+      "path": "workers/B1/partial-2145.md",
+      "sha256": "927bdbc8511704e5645ed9369e761dac26b198e7ef9b6385bcf4e87bf61d70da"
+    },
+    {
+      "path": "workers/B1/proof-v1.md",
+      "sha256": "664460e15f77cb225344fbf87d73a2a0056bafbef124b882649798e945d5c820"
+    },
+    {
+      "path": "workers/B1/statement-v1.md",
+      "sha256": "634c1f1cddad11902590653599bfdc42437bd86b17807831b82a118a278df11a"
+    },
+    {
+      "path": "workers/C1/artifact-hashes-v1.sha256",
+      "sha256": "815c45464309c83c0f0c4d3cb2b4b33b612ffc970e030ed5976ef9e2fd6fc789"
+    },
+    {
+      "path": "workers/C1/assignment.md",
+      "sha256": "21545b4042ba8d206c1da78a8d6281ddda359e1eea5097242cd426a1a8568976"
+    },
+    {
+      "path": "workers/C1/claims-v1.json",
+      "sha256": "ecbbd3ca71db656657be73de412cb7820a2fff2af7d6542efbaee5a604c5cffd"
+    },
+    {
+      "path": "workers/C1/exact-controls-v1.json",
+      "sha256": "f7cc508adb733a1c07c3395bb00741d3e75a1124d127140999750d9a91c1713d"
+    },
+    {
+      "path": "workers/C1/exact-controls-v1.py",
+      "sha256": "dd964edea0ba8a56e777fd88d1d956ef7050b3e2a407462d9d0669dc2ebecb86"
+    },
+    {
+      "path": "workers/C1/final.md",
+      "sha256": "5385a67407b91d874410de56dae184c997ef1b8e0b7421eb4d76078db437bfb0"
+    },
+    {
+      "path": "workers/C1/input-hashes-v1.sha256",
+      "sha256": "c508e4540de5f38f934e47d80ed89720fc97ca83c64cb049e42a5a3e543a3d05"
+    },
+    {
+      "path": "workers/C1/larger-q-theorem-v1.md",
+      "sha256": "8b4c3f83a8b8c120c7a01eeb05731ea4fdf5d3d092ccf7d288956662e19c95e8"
+    },
+    {
+      "path": "workers/C1/partial.md",
+      "sha256": "e147914ee5b708ffb3144e5be480d7b2be21108bfa19ee67dfcae27ac4225257"
+    },
+    {
+      "path": "workers/C1/primary-web-record-v1.json",
+      "sha256": "b11c194f77d518198c1c99bc514194f8fecfe91875e1b946a7c0fb4e26411d28"
+    },
+    {
+      "path": "workers/C1/source-checks-v1.md",
+      "sha256": "7bc8f1bf1a2e973a338fc39468648c292e6a5034d58abe8e47b3d046fc7d8e17"
+    },
+    {
+      "path": "workers/C1/source-transfer-v1.md",
+      "sha256": "25ae59dcda887083d943e4d456f15a33c7929a3856aeef9fc84bb90ec44763b4"
+    }
+  ]
+}

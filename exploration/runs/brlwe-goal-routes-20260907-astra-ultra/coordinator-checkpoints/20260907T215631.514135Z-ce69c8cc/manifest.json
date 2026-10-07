@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260907T215631.514135Z-ce69c8cc",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-09-07T21:56:31.514158+00:00",
+  "reason": "Recorded exact rectangular algebra controls and blind-packet isolation requirements",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 4130,
+      "sha256": "84628fb27c83e58d3ed5b332937db6c7f7981e1525e48383f18b7f2c92d4ad5c"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 2855,
+      "sha256": "8d65957e8cc9c4a6b865d1ac4a993291b7f6c841a2cecdf00629a2e02a354587"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 3866,
+      "sha256": "7533630ec4d90d7062e706c487b6efbd28ec1b2f7295782a6cc84b32bcd08494"
+    },
+    {
+      "path": "final.md",
+      "bytes": 3811,
+      "sha256": "1324f76fcac6853f68c9ee4e4644fdd319b3a1ce4f4ff074e4f8a0753aa6e2d9"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 734,
+      "sha256": "1fb19ae010e9d533145a09b289fb83e93ccfdc15e5e4ad54074e816a9c5cfcb7"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

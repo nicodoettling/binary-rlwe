@@ -1,0 +1,384 @@
+{
+  "updated_at": "2026-09-07T22:39:31.495071+00:00",
+  "goal": {
+    "threadId": "01a07dcb-40ad-7231-8540-1675639ae41b",
+    "objective": "Establish and critically validate a new quantitatively meaningful hardness implication for coefficient-binary, rank-one RLWE from an independently specified and motivated nonbinary source assumption, with a coherent parameter regime, exact search/decision and sample scope, and no unresolved load-bearing defect; investigate direct search lossiness, partial splitting, and computational source transfer as complementary routes.",
+    "status": "active",
+    "tokensUsed": 1475866,
+    "timeUsedSeconds": 3706,
+    "createdAt": 1788816946,
+    "updatedAt": 1788820652
+  },
+  "claims": [
+    {
+      "id": "SOURCE-2",
+      "version": 1,
+      "status": "ACCEPTED",
+      "kind": "source definition and motivation",
+      "statement": "Exact uniform same-hidden-ideal two-point D_ell source versus uniform R_q\u00b2; its computational pseudorandomness is an explicitly assumed premise. Literature motivation and exact scope checked; no source-hardness theorem is asserted.",
+      "proof": "coordinator/source-and-parameters-v1.md",
+      "dependencies": [],
+      "reviews": [
+        {
+          "reviewer": "RF1",
+          "path": "criticism/RF1/report-v1.md",
+          "sha256": "ff7a034fa2d8be726a0940801a45697f082c342e786d3fd47a7674bd87b91c64",
+          "disposition": "PASS in expressly stated scope"
+        },
+        {
+          "reviewer": "RS1",
+          "path": "criticism/RS1/report-v1.md",
+          "sha256": "f04881cf65af51b7079fd59b785e9ca2d8cbc53fb710c06e0b823ae31cc20785",
+          "disposition": "PASS in expressly stated scope"
+        }
+      ],
+      "proof_sha256": "131e6a3feec87010007a30ddc1e37bdec44687648120bfe1e8c5187e6e779f50",
+      "mathematical_review_disposition": "PASS; coordinator reconciled exact current graph",
+      "accepted_at": "2026-09-07T22:39:31.495071+00:00",
+      "computational_hardness_status": "ASSUMED_NOT_PROVED"
+    },
+    {
+      "id": "PRIME-POLY",
+      "version": 1,
+      "status": "ACCEPTED",
+      "kind": "primary import and derived parameters",
+      "statement": "Least prime1 mod2n\u00b3 is eventually at most n16 and at least2n\u00b3+1; q/sigma_m>=n for m<=2; explicit polynomial-in-unary-n setup.",
+      "proof": "coordinator/source-and-parameters-v1.md",
+      "dependencies": [],
+      "reviews": [
+        {
+          "reviewer": "RF1",
+          "path": "criticism/RF1/report-v1.md",
+          "sha256": "ff7a034fa2d8be726a0940801a45697f082c342e786d3fd47a7674bd87b91c64",
+          "disposition": "PASS in expressly stated scope"
+        },
+        {
+          "reviewer": "RS1",
+          "path": "criticism/RS1/report-v1.md",
+          "sha256": "f04881cf65af51b7079fd59b785e9ca2d8cbc53fb710c06e0b823ae31cc20785",
+          "disposition": "PASS in expressly stated scope"
+        }
+      ],
+      "proof_sha256": "131e6a3feec87010007a30ddc1e37bdec44687648120bfe1e8c5187e6e779f50",
+      "mathematical_review_disposition": "PASS; coordinator reconciled exact current graph",
+      "accepted_at": "2026-09-07T22:39:31.495071+00:00"
+    },
+    {
+      "id": "NC-RECT",
+      "version": 1,
+      "status": "ACCEPTED",
+      "kind": "derived result",
+      "statement": "Proof-only exact rectangular discrete Gaussian completion gives guarded full retained-source/witness TV error eta_N with p=mn output and n auxiliary coordinates.",
+      "proof": "coordinator/rectangular-completion-v1.md",
+      "dependencies": [],
+      "reviews": [
+        {
+          "reviewer": "RB1",
+          "path": "criticism/RB1/blind-report-v1.md",
+          "sha256": "c95e83a3a53cd589d2f2bf731ead33b35857af33edea28f1f3a0f8b722061b2d",
+          "disposition": "PASS in expressly stated scope"
+        },
+        {
+          "reviewer": "RF1",
+          "path": "criticism/RF1/report-v1.md",
+          "sha256": "ff7a034fa2d8be726a0940801a45697f082c342e786d3fd47a7674bd87b91c64",
+          "disposition": "PASS in expressly stated scope"
+        }
+      ],
+      "proof_sha256": "d66a1ea3e1c61990c77380de60c39b00a3097ab111407aedc610cfbe34c70163",
+      "mathematical_review_disposition": "PASS; coordinator reconciled exact current graph",
+      "accepted_at": "2026-09-07T22:39:31.495071+00:00"
+    },
+    {
+      "id": "A-GUESS",
+      "version": 1,
+      "status": "ACCEPTED",
+      "kind": "derived result",
+      "statement": "Revealing one quotient of cardinality L after Y costs at most L in guessing; independent latent source/completion data cost nothing further; noisy iid bits have unwrapped guessing ((1+D_tau(0))/2)^n and wrapped guessing no larger.",
+      "proof": "candidates/search/proof-v1.md",
+      "dependencies": [],
+      "reviews": [
+        {
+          "reviewer": "RB1",
+          "path": "criticism/RB1/blind-report-v1.md",
+          "sha256": "c95e83a3a53cd589d2f2bf731ead33b35857af33edea28f1f3a0f8b722061b2d",
+          "disposition": "PASS in expressly stated scope"
+        },
+        {
+          "reviewer": "RF1",
+          "path": "criticism/RF1/report-v1.md",
+          "sha256": "ff7a034fa2d8be726a0940801a45697f082c342e786d3fd47a7674bd87b91c64",
+          "disposition": "PASS in expressly stated scope"
+        }
+      ],
+      "proof_sha256": "198c36bce9a73b87f2e1f5cf644d7e96b13cda063922f1ab10b0b2ee60114042",
+      "mathematical_review_disposition": "PASS; coordinator reconciled exact current graph",
+      "accepted_at": "2026-09-07T22:39:31.495071+00:00"
+    },
+    {
+      "id": "MASK-TAIL",
+      "version": 1,
+      "status": "ACCEPTED",
+      "kind": "derived result",
+      "statement": "Conditioning all used m*n iid D_ell mask coordinates on [-ell\u00b2,ell\u00b2] costs at most min(1,mn exp(-pi ell\u00b2)/(pi ell)).",
+      "proof": "coordinator/rectangular-completion-v1.md",
+      "dependencies": [],
+      "reviews": [
+        {
+          "reviewer": "RB1",
+          "path": "criticism/RB1/blind-report-v1.md",
+          "sha256": "c95e83a3a53cd589d2f2bf731ead33b35857af33edea28f1f3a0f8b722061b2d",
+          "disposition": "PASS in expressly stated scope"
+        },
+        {
+          "reviewer": "RF1",
+          "path": "criticism/RF1/report-v1.md",
+          "sha256": "ff7a034fa2d8be726a0940801a45697f082c342e786d3fd47a7674bd87b91c64",
+          "disposition": "PASS in expressly stated scope"
+        }
+      ],
+      "proof_sha256": "d66a1ea3e1c61990c77380de60c39b00a3097ab111407aedc610cfbe34c70163",
+      "mathematical_review_disposition": "PASS; coordinator reconciled exact current graph",
+      "accepted_at": "2026-09-07T22:39:31.495071+00:00"
+    },
+    {
+      "id": "SAMP-E",
+      "version": 1,
+      "status": "ACCEPTED",
+      "kind": "derived result",
+      "statement": "The full independent target coefficient Gaussian sampler has bounded polynomial bit complexity and total TV below2^-n using the stated dyadic table policy.",
+      "proof": "candidates/search/supplement-v1.md",
+      "dependencies": [],
+      "reviews": [
+        {
+          "reviewer": "RB1",
+          "path": "criticism/RB1/blind-report-v1.md",
+          "sha256": "c95e83a3a53cd589d2f2bf731ead33b35857af33edea28f1f3a0f8b722061b2d",
+          "disposition": "PASS in expressly stated scope"
+        },
+        {
+          "reviewer": "RF1",
+          "path": "criticism/RF1/report-v1.md",
+          "sha256": "ff7a034fa2d8be726a0940801a45697f082c342e786d3fd47a7674bd87b91c64",
+          "disposition": "PASS in expressly stated scope"
+        }
+      ],
+      "proof_sha256": "71752406e81e327b5c47d0d118ea9bc6aa0f87566d23345daf290a7b8322410a",
+      "mathematical_review_disposition": "PASS; coordinator reconciled exact current graph",
+      "accepted_at": "2026-09-07T22:39:31.495071+00:00"
+    },
+    {
+      "id": "A-FINITE",
+      "version": 1,
+      "status": "ACCEPTED",
+      "kind": "derived result",
+      "statement": "For m=1 or2, epsilon_m <= Adv_Base2(B_m)+q^d((1+D_ell(0))/2)^n+eta_N+delta_F,m; executable loss adds xi_source+2xi_alg+xi_target.",
+      "proof": "candidates/search/proof-v1.md",
+      "dependencies": [
+        {
+          "id": "NC-RECT",
+          "version": 1
+        },
+        {
+          "id": "A-GUESS",
+          "version": 1
+        },
+        {
+          "id": "MASK-TAIL",
+          "version": 1
+        },
+        {
+          "id": "SOURCE-2",
+          "version": 1
+        }
+      ],
+      "reviews": [
+        {
+          "reviewer": "RB1",
+          "path": "criticism/RB1/blind-report-v1.md",
+          "sha256": "c95e83a3a53cd589d2f2bf731ead33b35857af33edea28f1f3a0f8b722061b2d",
+          "disposition": "PASS in expressly stated scope"
+        },
+        {
+          "reviewer": "RF1",
+          "path": "criticism/RF1/report-v1.md",
+          "sha256": "ff7a034fa2d8be726a0940801a45697f082c342e786d3fd47a7674bd87b91c64",
+          "disposition": "PASS in expressly stated scope"
+        }
+      ],
+      "proof_sha256": "198c36bce9a73b87f2e1f5cf644d7e96b13cda063922f1ab10b0b2ee60114042",
+      "mathematical_review_disposition": "PASS; coordinator reconciled exact current graph",
+      "accepted_at": "2026-09-07T22:39:31.495071+00:00"
+    },
+    {
+      "id": "A-PPT",
+      "version": 2,
+      "status": "ACCEPTED",
+      "kind": "derived result",
+      "statement": "Let n grow through powers of two, ell=ceil(log2 n), and q(n) be the least prime congruent to1 modulo2n^3. For either separately chosen d(n)=floor(sqrt(n)/ell^4) or d(n)=floor(n/(64ell)), pseudorandomness of the exact Base2(n,q(n),d(n)) source implies negligible actual-secret recovery by every uniform PPT solver from exactly m in {1,2} rank-one coefficient-binary RLWE samples with independent uniform multipliers and fully independent coefficient D_sigma_m errors, sigma_m=2sqrt(m)n ell^3. Each d choice is its own source assumption; no other polynomial-q family, extra target samples or decision claim is inferred.",
+      "proof": "candidates/search/theorem-only-v2.md",
+      "dependencies": [
+        {
+          "id": "A-FINITE",
+          "version": 1
+        },
+        {
+          "id": "SAMP-E",
+          "version": 1
+        },
+        {
+          "id": "PRIME-POLY",
+          "version": 1
+        }
+      ],
+      "reviews": [
+        {
+          "reviewer": "RB1",
+          "path": "criticism/RB1/blind-report-v1.md",
+          "sha256": "c95e83a3a53cd589d2f2bf731ead33b35857af33edea28f1f3a0f8b722061b2d",
+          "disposition": "PASS in expressly stated scope"
+        },
+        {
+          "reviewer": "RF1",
+          "path": "criticism/RF1/report-v1.md",
+          "sha256": "ff7a034fa2d8be726a0940801a45697f082c342e786d3fd47a7674bd87b91c64",
+          "disposition": "PASS in expressly stated scope"
+        },
+        {
+          "reviewer": "RD1",
+          "path": "criticism/RD1/report-v1.md",
+          "sha256": "19cef2b65a275d1d6bb5076b9208ddb6f63427b1301fdc88fa581f4eec3e1047",
+          "disposition": "PASS exact delivered scope"
+        },
+        {
+          "reviewer": "RP1",
+          "path": "criticism/RP1/report-v1.md",
+          "sha256": "210bbbc4d9432bccf5a8f3541f0807202600b04f909ff5ea21b07d3b4d06cb0e",
+          "disposition": "PASS exact repaired ledger v2 and new targeted parameter search"
+        }
+      ],
+      "explicit_computational_hypothesis": "Pseudorandomness of Base2(n,q(n),d(n)) at the chosen source family; this hypothesis is assumed, not proved or renamed analytic premise.",
+      "downstream_claims": [],
+      "replaces_rejected_ledger": "coordinator/A-PPT-ledger-v1-rejected.json",
+      "proof_sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124",
+      "scope_repair_only": "Frozen theorem-only-v2/proof-v1/supplement-v1 unchanged; the ledger now states their concrete prime sequence explicitly.",
+      "mathematical_review_disposition": "PASS; coordinator reconciled exact current graph",
+      "accepted_at": "2026-09-07T22:39:31.495071+00:00"
+    },
+    {
+      "id": "B-SPLIT",
+      "version": 1,
+      "status": "PROVISIONAL",
+      "kind": "derived result",
+      "statement": "Partial-splitting and exact packing candidate with2f smaller-ring source points; analytic extraction/composition not newly certified.",
+      "proof": "workers/B1/proof-v1.md",
+      "dependencies": [],
+      "reviews": [],
+      "proof_sha256": "664460e15f77cb225344fbf87d73a2a0056bafbef124b882649798e945d5c820"
+    },
+    {
+      "id": "C-LARGE-Q",
+      "version": 1,
+      "status": "PROVISIONAL",
+      "kind": "derived result",
+      "statement": "Larger-modulus one-sample decision candidate, log q~n^(1/8), with unclosed full extraction/composition review.",
+      "proof": "workers/C1/larger-q-theorem-v1.md",
+      "dependencies": [],
+      "reviews": [],
+      "proof_sha256": "8b4c3f83a8b8c120c7a01eeb05731ea4fdf5d3d092ccf7d288956662e19c95e8"
+    },
+    {
+      "id": "C-SPAN",
+      "version": 1,
+      "status": "PROVISIONAL",
+      "kind": "derived result",
+      "statement": "Scoped two-point ideal-span and signed-mixture obstructions; author exact controls, no full nonauthor review.",
+      "proof": "workers/C1/source-transfer-v1.md",
+      "dependencies": [],
+      "reviews": [],
+      "proof_sha256": "25ae59dcda887083d943e4d456f15a33c7929a3856aeef9fc84bb90ec44763b4"
+    }
+  ],
+  "historical_claims": {
+    "ledger": "imports/latest-claims.json",
+    "regressions": "imports/latest-regressions.json",
+    "all_provenance": "imports/historical-file-index.json",
+    "authority": "Latest W3-OBS coordinatorv3/authorv2 supersedes its stale header. Imports remain provisional and no general NC1/X1/AN certification is inferred."
+  },
+  "selection": "selection.md",
+  "global_new_claim_acceptance": true,
+  "frozen_reviews": [
+    {
+      "path": "criticism/RB1/blind-report-v1.md",
+      "sha256": "c95e83a3a53cd589d2f2bf731ead33b35857af33edea28f1f3a0f8b722061b2d"
+    },
+    {
+      "path": "criticism/RS1/report-v1.md",
+      "sha256": "f04881cf65af51b7079fd59b785e9ca2d8cbc53fb710c06e0b823ae31cc20785"
+    }
+  ],
+  "mathematical_reviews": [
+    {
+      "reviewer": "RB1",
+      "path": "criticism/RB1/blind-report-v1.md",
+      "sha256": "c95e83a3a53cd589d2f2bf731ead33b35857af33edea28f1f3a0f8b722061b2d",
+      "disposition": "PASS in expressly stated scope"
+    },
+    {
+      "reviewer": "RF1",
+      "path": "criticism/RF1/report-v1.md",
+      "sha256": "ff7a034fa2d8be726a0940801a45697f082c342e786d3fd47a7674bd87b91c64",
+      "disposition": "PASS in expressly stated scope"
+    },
+    {
+      "reviewer": "RS1",
+      "path": "criticism/RS1/report-v1.md",
+      "sha256": "f04881cf65af51b7079fd59b785e9ca2d8cbc53fb710c06e0b823ae31cc20785",
+      "disposition": "PASS in expressly stated scope"
+    }
+  ],
+  "delivery_gate": "Mathematical, source, blind, delivery and fresh-repair reports reconciled; final status-only artifact verification follows this atomic write.",
+  "accepted_claims": [
+    {
+      "id": "SOURCE-2",
+      "version": 1
+    },
+    {
+      "id": "PRIME-POLY",
+      "version": 1
+    },
+    {
+      "id": "NC-RECT",
+      "version": 1
+    },
+    {
+      "id": "A-GUESS",
+      "version": 1
+    },
+    {
+      "id": "MASK-TAIL",
+      "version": 1
+    },
+    {
+      "id": "SAMP-E",
+      "version": 1
+    },
+    {
+      "id": "A-FINITE",
+      "version": 1
+    },
+    {
+      "id": "A-PPT",
+      "version": 2
+    }
+  ],
+  "explicit_assumptions": [
+    {
+      "id": "H-BASE2",
+      "status": "ASSUMED_NOT_PROVED",
+      "statement": "Pseudorandomness of Base2(n,q(n),d(n)) at the chosen source family; this hypothesis is assumed, not proved or renamed analytic premise.",
+      "scope": "Separate assumption for each concrete growing d at the exact least-prime q sequence."
+    }
+  ],
+  "remaining_goal_obligation": "Fresh status/graph consistency check and native completion receipt only; no unresolved mathematical dependency of A-PPT v2."
+}

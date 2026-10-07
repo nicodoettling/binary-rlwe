@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260907T223931.538715Z-edfb5721",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-09-07T22:39:31.538747+00:00",
+  "reason": "Accepted exact scoped theorem after completed blind/full/source/delivery and fresh repaired-ledger reviews; all workers completed",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 15854,
+      "sha256": "cb6ff544693202777e421f22670d0d93b77657dd49f870d86f3a494ee88994ea"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 5322,
+      "sha256": "f433c483ed064261451df8261cfc5da6bbc9d1a7c57be5f4b8ff5f102d90ee41"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 8279,
+      "sha256": "f9ff6a1e59e42f1f1d0a4a214775f121db1a5831ee4d9851d5346281aa53c3c2"
+    },
+    {
+      "path": "final.md",
+      "bytes": 14085,
+      "sha256": "52313e2c363f3860edc56d35a7bfe125a1da500ad49149ce6b4949de7dceb719"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 2889,
+      "sha256": "f45669685a2b1b084b563fd9db2cbaa4b2cbb176c7b9eb99439b189991a8b0ea"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

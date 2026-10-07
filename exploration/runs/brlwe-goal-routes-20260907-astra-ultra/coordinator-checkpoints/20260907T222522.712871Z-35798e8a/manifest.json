@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260907T222522.712871Z-35798e8a",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-09-07T22:25:22.712893+00:00",
+  "reason": "Integrated full proof pass and preserved RD1 ledger-scope defect before repair",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 6671,
+      "sha256": "fdd86023f6c7e3444ee0a7494bb5f70e6914d9e8c59270bef74257e9d077e3c6"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 5679,
+      "sha256": "b75926d0adfef3ec03dd3fd42e584742b8d5eb4625db8bc0d3af74a7a894c5b7"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 6690,
+      "sha256": "1852cb5b15aa912ed69a83d448986e58a97a8f3a549bdc95bf1a196c953073cc"
+    },
+    {
+      "path": "final.md",
+      "bytes": 6337,
+      "sha256": "4353a6a3da5f8001d778a6c47ce6a8ed6c30d9dd604d9a096cf5239454918f4a"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 2270,
+      "sha256": "a5aaa571f887a57c18a5c7ea06d5ae668bec2f16d0fb4a93a0a08e50df1175f4"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

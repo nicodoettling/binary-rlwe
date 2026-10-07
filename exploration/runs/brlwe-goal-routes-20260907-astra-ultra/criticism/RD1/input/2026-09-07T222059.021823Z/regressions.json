@@ -1,0 +1,22 @@
+{
+  "updated_at": "2026-09-07T22:12:07.509879+00:00",
+  "historical_registry": "imports/latest-regressions.json",
+  "complete_historical_records": "imports/historical-file-index.json",
+  "new_records": [
+    {
+      "id": "RECT-ALG-1",
+      "evidence": "experiments/rectangular-identities-v1.json",
+      "claim": "NC-RECT v1",
+      "expected": "three rectangular identities hold, including zero/singular M; unguarded NC1 v1 rejected",
+      "result": "pass finite exact tests; not Gaussian/asymptotic certification"
+    },
+    {
+      "id": "SOURCE-SMALL-D",
+      "claim": "SOURCE-2 plausibility range",
+      "evidence": "criticism/RS1/partial-1.md",
+      "expected": "d=1 allows enumeration of n*q ideal points and source distinguishability; finite conditional theorem survives, all-d source plausibility rejected",
+      "status": "source referee full record pending"
+    }
+  ],
+  "note": "All historical rejected statements and provenance retained by reference/hash; applicability will be recorded per new claim. No missing original is reconstructed."
+}

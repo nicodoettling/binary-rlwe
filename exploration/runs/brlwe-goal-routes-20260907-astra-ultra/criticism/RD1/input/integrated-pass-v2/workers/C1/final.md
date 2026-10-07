@@ -1,0 +1,11 @@
+# C1 completed bounded deliverable
+
+The constructive result is a **provisional one-sample decisional implication at larger integer modulus**. Set d=floor(n^(1/4)), log q=Theta(n^(1/8)), ell=ceil(log2 n), sigma=2n ell^3. The new BV/Voutier extraction calculation gives negligible error, the actual image loss d/q is negligible, and source/target representations and public transformations take polynomial bit time. The exact ordinary same-ideal source remains an independent computational assumption at these changed parameters. No active-point or completion-kernel source assumption is substituted.
+
+The full statement, laws, proof, finite losses, new extraction derivation, root algorithm, optional prime setup and attack-scope qualification are in [larger-q-theorem-v1.md](larger-q-theorem-v1.md). It has **not** received fresh nonauthor review. Current NC1 v2 and W3-OBS coordinator v3 / author v2 remain explicit dependencies; the coordinator must close their review/import status before any acceptance. This is not the preferred polynomial-modulus endpoint and supplies no multiple-target-sample result.
+
+For polynomial q, [source-transfer-v1.md](source-transfer-v1.md) records exact scoped obstructions: signed mixture cancellation; impossibility of obtaining fresh hidden-source draws through repeated computations on one input; the two-point ideal-span defect 1-(1-q^-2+q^-3)^d; and rejection-sampling normalization in both worlds. These do not rule out all public nonlinear maps or controlled approximate comparator preservation.
+
+One coordinator-approved exact experiment ran, with all assertions passing and no correction version needed. Code/results: exact-controls-v1.py and exact-controls-v1.json. The slot was released immediately. Full primary checks and raw returned text are in source-checks-v1.md and primary-web-record-v1.json; reference hashes and local claims are in input-hashes-v1.sha256 and claims-v1.json. No packages, extra workers, goals, or external jobs were created. No content-policy interruption occurred.
+
+Next useful review: first try to break C1-X-LQ's singleton q^d normalization, strict admissibility degree, and polynomial-bit source interface, then recheck its exact W3/NC1 composition. The optional randomized setup can be omitted while reviewing the uniform promise-input theorem.

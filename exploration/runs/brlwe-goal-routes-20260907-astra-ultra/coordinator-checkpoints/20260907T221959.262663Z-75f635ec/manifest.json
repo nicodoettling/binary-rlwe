@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260907T221959.262663Z-75f635ec",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-09-07T22:19:59.262685+00:00",
+  "reason": "Recorded fresh delivery audit and retained provisional theorem status during final proof review",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 6577,
+      "sha256": "b1ec10f186e66a6a811b609628ce4fb1bb2ec13efcf798662dac1e91a060ded3"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 5130,
+      "sha256": "1d989f3c7490a8dde06981bc1151611e588f54e8308b33a6cc26604f173ae18b"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 6141,
+      "sha256": "924958360e03ad36fad65d1b3db869e91a05ea2e1c45ee3be442f21122ad6f0d"
+    },
+    {
+      "path": "final.md",
+      "bytes": 5788,
+      "sha256": "3f830fa76fd35d0ee5f8917a1b1b70f90fe3f1995ce0b0af928e6218db97b2a8"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 2223,
+      "sha256": "c3f13b3bf2e9cbb87c7062b24fb8095ed7b8b323057784ab035fbb080355459e"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

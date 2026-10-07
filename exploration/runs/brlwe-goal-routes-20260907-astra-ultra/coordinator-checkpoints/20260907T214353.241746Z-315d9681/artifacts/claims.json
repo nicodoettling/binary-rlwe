@@ -1,0 +1,54 @@
+{
+  "updated_at": "2026-09-07T21:43:53.237543+00:00",
+  "goal": {
+    "threadId": "01a07dcb-40ad-7231-8540-1675639ae41b",
+    "objective": "Establish and critically validate a new quantitatively meaningful hardness implication for coefficient-binary, rank-one RLWE from an independently specified and motivated nonbinary source assumption, with a coherent parameter regime, exact search/decision and sample scope, and no unresolved load-bearing defect; investigate direct search lossiness, partial splitting, and computational source transfer as complementary routes.",
+    "status": "active",
+    "tokensUsed": 0,
+    "timeUsedSeconds": 0,
+    "createdAt": 1788816946,
+    "updatedAt": 1788816946
+  },
+  "new_claims": [
+    {
+      "id": "A-SEARCH",
+      "version": 1,
+      "status": "PROVISIONAL",
+      "statement": "Under retained witness noise comparison, m noised ideal multipliers leak at most one quotient factor times P_guess(S|S+G), plus noise error. Actual two-point source may support m=2.",
+      "proof": "workers/A1/frozen-theorem-v1.md",
+      "dependencies": [
+        "NC-RECT (under local rederivation)",
+        "G-BIT (under worker derivation)",
+        "SOURCE-2 (under primary verification)"
+      ],
+      "reviews": []
+    },
+    {
+      "id": "B-SPLIT",
+      "version": 1,
+      "status": "OPEN",
+      "statement": "Structured partial splitting x^f-a may reduce conditional quotient extraction to f split-ring blocks of dimension N=n/f.",
+      "dependencies": [
+        "historical X1 v1 PROVISIONAL",
+        "prime progression input"
+      ]
+    },
+    {
+      "id": "C-SPAN",
+      "version": 1,
+      "status": "OPEN",
+      "statement": "Two-source ideal-linear transformations may preserve common-zero deficiency of order d/q\u00b2; finite law being tested.",
+      "dependencies": []
+    }
+  ],
+  "historical_claims": {
+    "path": "imports/latest-claims.json",
+    "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/claims.json",
+    "authority": "Latest ledger and reconciliation supersede frozen headers. W3-OBS coordinator v3 corresponds to author v2. Imported analytic claims remain provisional pending justified use."
+  },
+  "frontier": [
+    "A direct search witness-retaining noise law and one/two-sample lossiness",
+    "B partial splitting with compatible entropy",
+    "C computational transfer and source budget"
+  ]
+}

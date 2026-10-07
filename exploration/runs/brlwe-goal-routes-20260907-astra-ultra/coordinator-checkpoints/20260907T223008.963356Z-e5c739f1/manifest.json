@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260907T223008.963356Z-e5c739f1",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-09-07T22:30:08.963399+00:00",
+  "reason": "Prepared full reviewed scientific delivery and40 historical regression dispositions; precise ledger repair and delivery audit still pending",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 13848,
+      "sha256": "e4ab92ca59da63bfc0735f795941b162d831d290cfe31fa415034e71dc41f2f4"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 4226,
+      "sha256": "c47c9df2082e217a05844ae4f25017ed8f6d8ae2266643a9a4c798ee9b9918bf"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 7167,
+      "sha256": "49aee74499fe19f69b279e449f05616b8ad9aadcc89737fbd9f16fe66e81cfe7"
+    },
+    {
+      "path": "final.md",
+      "bytes": 13340,
+      "sha256": "cbb594385542a3275769ae24de8168f87416d0e786e8295d904de9d43063c70e"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 2599,
+      "sha256": "8fe9ac03916a4b95ac94148a24a905639010bf2b5c4ddea586e11083be50250d"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

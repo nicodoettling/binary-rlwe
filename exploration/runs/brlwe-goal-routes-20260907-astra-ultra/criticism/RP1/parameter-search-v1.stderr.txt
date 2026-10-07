@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RP1/parameter-search-v1.py", line 134, in <module>
+    assert byid['A-PPT']==ledger
+           ^^^^^^^^^^^^^^^^^^^^^
+AssertionError

@@ -1,0 +1,30 @@
+{
+  "updated_at": "2026-09-07T21:43:53.237543+00:00",
+  "coordinator": "01a07dcb-40ad-7231-8540-1675639ae41b",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "ultra",
+  "max_active_total": 4,
+  "workers": [
+    {
+      "task": "/root/a_search_initial",
+      "id": "A1",
+      "status": "running",
+      "deadline": "2026-09-07T22:15:00Z",
+      "ownership": "workers/A1"
+    },
+    {
+      "task": "/root/b_splitting_initial",
+      "id": "B1",
+      "status": "running",
+      "deadline": "2026-09-07T22:15:00Z",
+      "ownership": "workers/B1"
+    },
+    {
+      "task": "/root/c_transfer_initial",
+      "id": "C1",
+      "status": "running",
+      "deadline": "2026-09-07T22:15:00Z",
+      "ownership": "workers/C1"
+    }
+  ]
+}

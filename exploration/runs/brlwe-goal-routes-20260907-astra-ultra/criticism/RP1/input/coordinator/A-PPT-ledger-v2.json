@@ -1,0 +1,28 @@
+{
+  "id": "A-PPT",
+  "version": 2,
+  "status": "REPAIRED-PENDING-RECHECK",
+  "kind": "derived result",
+  "statement": "Let n grow through powers of two, ell=ceil(log2 n), and q(n) be the least prime congruent to1 modulo2n^3. For either separately chosen d(n)=floor(sqrt(n)/ell^4) or d(n)=floor(n/(64ell)), pseudorandomness of the exact Base2(n,q(n),d(n)) source implies negligible actual-secret recovery by every uniform PPT solver from exactly m in {1,2} rank-one coefficient-binary RLWE samples with independent uniform multipliers and fully independent coefficient D_sigma_m errors, sigma_m=2sqrt(m)n ell^3. Each d choice is its own source assumption; no other polynomial-q family, extra target samples or decision claim is inferred.",
+  "proof": "candidates/search/theorem-only-v2.md",
+  "dependencies": [
+    {
+      "id": "A-FINITE",
+      "version": 1
+    },
+    {
+      "id": "SAMP-E",
+      "version": 1
+    },
+    {
+      "id": "PRIME-POLY",
+      "version": 1
+    }
+  ],
+  "reviews": [],
+  "explicit_computational_hypothesis": "Pseudorandomness of Base2(n,q(n),d(n)) at the chosen source family; this hypothesis is assumed, not proved or renamed analytic premise.",
+  "downstream_claims": [],
+  "replaces_rejected_ledger": "coordinator/A-PPT-ledger-v1-rejected.json",
+  "proof_sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124",
+  "scope_repair_only": "Frozen theorem-only-v2/proof-v1/supplement-v1 unchanged; the ledger now states their concrete prime sequence explicitly."
+}

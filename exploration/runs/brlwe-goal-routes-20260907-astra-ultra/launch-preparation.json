@@ -1,0 +1,22 @@
+{
+  "prepared_utc": "2026-09-07T21:34:02.165995+00:00",
+  "authorization": {
+    "recorded_utc": "2026-09-07T21:33:09.434153+00:00",
+    "user_message": "go ahead and start, but please with a 3h time limit instead of 3.5h",
+    "scope": "Approved broader native-goal plan with the cap reduced to 3h; Astra ultra; at most four active agents including coordinator; no service restart/resume after termination."
+  },
+  "max_wall_seconds": 10800,
+  "model": "gpt-6-astra",
+  "reasoning_effort": "ultra",
+  "max_active_agents_including_coordinator": 4,
+  "initial_git_commit": "174e0a2ca47dcb1e09ba8c5ae48117b698e2f2ed",
+  "initial_worktree_status": " M HANDOFF.md\n?? exploration/goal-routes-20260907/\n",
+  "helper_files_sha256": {
+    "/home/nico/.codex/skills/codex-tmux-runner/SKILL.md": "78e3f0453ac09567bb2122ba361db8d41c4b90ba3786cf41b902650c41c6dedf",
+    "/home/nico/.codex/skills/codex-tmux-runner/references/runbook.md": "dd72c079e8218a798a3656de4975f433e1f32951be90e52ce4df184299abc962",
+    "/home/nico/.codex/skills/codex-tmux-runner/references/capped-runs.md": "e8d4b6423db091828683eebc1368ac220e6e7cbc1fecbc3b4e9ac24f249e4724",
+    "/home/nico/.codex/skills/codex-tmux-runner/scripts/capped_codex_tmux.py": "cc606c83067132cda7cd0b902be70e055b9c97079e73396b1c562821826b140a",
+    "/home/nico/.codex/skills/codex-tmux-runner/scripts/codex_tmux.py": "39bd72e0eacc102ed656f2da4308950b436e1475fbbda73d583ed4cc614960f4"
+  },
+  "plan_directory": "/home/nico/projects/research_projects/binaryRLWE/exploration/goal-routes-20260907"
+}

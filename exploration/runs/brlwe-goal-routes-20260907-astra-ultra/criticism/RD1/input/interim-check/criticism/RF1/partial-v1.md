@@ -1,0 +1,11 @@
+# RF1 partial review, 2026-09-07 22:07 UTC
+
+Exact theorem-only-v2 and proof-v1 plus supplement-v1 hashes match the assignment. All five nominated mathematical input hashes match; input-hashes-v1.json records them before review. The required skill and both references were read. launcher-run.json was followed to the exact cap status file; service is running with the specified deadlines. No RB1 files have been read and no proof context has been sent to RB1.
+
+The first falsification target was the witness-retaining noise comparison. The actual full law is mu(dC) K_C(dH) P_S(dS) P_G(dG) P_E(dE). Under that law, (C,H) is independent of (S,G); a dependence of H on C does not invalidate appending S to the retained (C,N) comparison. Attempted H=S, H=-G, C=G and pairwise-only F,S,E models violate explicit hypotheses. No counterexample satisfying the hypotheses has been found. A new exact rational full-kernel search is being prepared.
+
+The algebraic noise-completion proof retains the full source witness C and integrates out H before comparison, then reveals H only in the loss world to upper-bound recovery. This ordering is coherent. The quotient-cardinality charge is valid even for nonuniform leakage fibers. No extractor and no latent-to-public lower-bound transfer occurs.
+
+The rectangular completion identity appears correct including rank-deficient M and the output nullspace; the normalization Q(z)=P(z)r_z/E_P[r] contains the required denominator and its delta>=1 guard. A new nontrivial rectangular normalized-law numerical control with explicit truncation qualifications is pending. The exact Gaussian target is a product over all mn output coefficients; correlated H blocks are essential.
+
+The historical full evidence for negative denominator, H_seq mismatch, Gaussian marginal leakage, pairwise dependence, CP-1, residual-versus-witness checking and varying ideals/zero fibers has been read. Applicable regressions will be independently recomputed; no prior certificate is adopted. Primary Xylouris Theorem 1.1 was checked directly: the exponent 5.18 and an effective constant are present. Finite F, implementation I, asymptotic A and final regression dispositions remain OPEN until the remaining controls, constants and report are finished.

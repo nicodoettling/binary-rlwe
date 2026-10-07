@@ -1,0 +1,260 @@
+{
+  "recorded_at": "2026-09-07T22:42:22.413508+00:00",
+  "coordinator_phase": "complete; returning final report",
+  "goal_state": {
+    "threadId": "01a07dcb-40ad-7231-8540-1675639ae41b",
+    "objective": "Establish and critically validate a new quantitatively meaningful hardness implication for coefficient-binary, rank-one RLWE from an independently specified and motivated nonbinary source assumption, with a coherent parameter regime, exact search/decision and sample scope, and no unresolved load-bearing defect; investigate direct search lossiness, partial splitting, and computational source transfer as complementary routes.",
+    "status": "complete",
+    "tokensUsed": 1481682,
+    "timeUsedSeconds": 3844,
+    "createdAt": 1788816946,
+    "updatedAt": 1788820790
+  },
+  "scientific_outcome": "SCOPED_GOAL_ACHIEVED: accepted conditional uniform-PPT exact binary recovery hardness for m1/2 at the specified polynomial q; explicit nonbinary Base2 computational premise assumed",
+  "original_multiple_sample_goal": "OPEN",
+  "accepted_claims": [
+    {
+      "id": "SOURCE-2",
+      "version": 1
+    },
+    {
+      "id": "PRIME-POLY",
+      "version": 1
+    },
+    {
+      "id": "NC-RECT",
+      "version": 1
+    },
+    {
+      "id": "A-GUESS",
+      "version": 1
+    },
+    {
+      "id": "MASK-TAIL",
+      "version": 1
+    },
+    {
+      "id": "SAMP-E",
+      "version": 1
+    },
+    {
+      "id": "A-FINITE",
+      "version": 1
+    },
+    {
+      "id": "A-PPT",
+      "version": 2
+    }
+  ],
+  "pending_claims": [
+    "B-SPLIT v1 PROVISIONAL",
+    "C-LARGE-Q v1 PROVISIONAL",
+    "C-SPAN v1 PROVISIONAL",
+    "H-BASE2 computational hardness ASSUMED_NOT_PROVED"
+  ],
+  "known_worker_status": [
+    {
+      "task": "/root/a_search_initial",
+      "id": "A1",
+      "status": "completed",
+      "deadline": "2026-09-07T22:15:00Z",
+      "ownership": "workers/A1",
+      "final": "workers/A1/final.md"
+    },
+    {
+      "task": "/root/b_splitting_initial",
+      "id": "B1",
+      "status": "completed",
+      "deadline": "2026-09-07T22:15:00Z",
+      "ownership": "workers/B1",
+      "final": "workers/B1/final.md"
+    },
+    {
+      "task": "/root/c_transfer_initial",
+      "id": "C1",
+      "status": "completed",
+      "deadline": "2026-09-07T22:15:00Z",
+      "ownership": "workers/C1",
+      "final": "workers/C1/final.md"
+    },
+    {
+      "id": "RB1",
+      "task": "/root/r_blind_search",
+      "status": "completed",
+      "role": "fresh blind theorem-only review",
+      "ownership": "criticism/RB1",
+      "deadline": "2026-09-07T22:25:00Z",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none",
+      "final": "criticism/RB1/blind-report-v1.md"
+    },
+    {
+      "id": "RF1",
+      "task": "/root/r_full_search",
+      "status": "completed",
+      "role": "fresh full mathematical review",
+      "ownership": "criticism/RF1",
+      "deadline": "2026-09-07T22:30:00Z",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none",
+      "final": "criticism/RF1/report-v1.md"
+    },
+    {
+      "id": "RS1",
+      "task": "/root/r_source_scope",
+      "status": "completed",
+      "role": "source/parameters/scientific scope review",
+      "ownership": "criticism/RS1",
+      "deadline": "2026-09-07T22:25:00Z",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none",
+      "final": "criticism/RS1/report-v1.md"
+    },
+    {
+      "id": "RD1",
+      "task": "/root/r_delivery_audit",
+      "status": "completed",
+      "role": "fresh delivery/scope audit",
+      "ownership": "criticism/RD1",
+      "deadline": "2026-09-07T22:38:00Z",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none",
+      "final": "criticism/RD1/report-v1.md"
+    },
+    {
+      "id": "RP1",
+      "task": "/root/r_parameter_recheck",
+      "status": "completed",
+      "role": "fresh repaired-ledger/parameter recheck",
+      "ownership": "criticism/RP1",
+      "deadline": "2026-09-07T22:42:00Z",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none",
+      "final": "criticism/RP1/report-v1.md"
+    }
+  ],
+  "known_experiment_status": [
+    {
+      "id": "B1-E1",
+      "status": "completed",
+      "worker": "B1",
+      "slot": 1,
+      "maximum_seconds": 120,
+      "allocation_until": "2026-09-07T21:50:00Z",
+      "description": "exact product-field TV/order/control",
+      "reported_result": "passed exact controls; worker evidence retained",
+      "slot_released": true
+    },
+    {
+      "id": "A1-E1",
+      "worker": "A1",
+      "status": "completed",
+      "slot": 2,
+      "maximum_seconds": 120,
+      "allocation_until": "2026-09-07T21:52:00Z",
+      "description": "exact guessing/witness/stacking controls",
+      "reported_result": "passed exact controls; worker evidence retained",
+      "slot_released": true
+    },
+    {
+      "id": "C1-E1",
+      "worker": "C1",
+      "status": "completed",
+      "slot": 2,
+      "maximum_seconds": 120,
+      "description": "exact signed mixtures, same-challenge repetition, two-point span",
+      "slot_released": true
+    },
+    {
+      "id": "ROOT-RECT-1",
+      "status": "completed",
+      "slot": 2,
+      "maximum_seconds": 120,
+      "command": "timeout 120s python3 -B exploration/runs/brlwe-goal-routes-20260907-astra-ultra/experiments/rectangular-identities-v1.py",
+      "code": "experiments/rectangular-identities-v1.py",
+      "result": "experiments/rectangular-identities-v1.json",
+      "outcome": "All 1560 exact rational rectangular matrix identity checks passed; old guard rejected via 82/63>1",
+      "elapsed_seconds": 0.40266835992224514,
+      "slot_released": true
+    },
+    {
+      "id": "B1-E2",
+      "worker": "B1",
+      "status": "completed",
+      "slot": 1,
+      "maximum_seconds": 30,
+      "code": "workers/B1/exact-controls-v2.py",
+      "result": "workers/B1/exact-controls-v2.json",
+      "slot_released": true,
+      "elapsed_seconds": 0.061
+    },
+    {
+      "id": "RB1-ALLOC",
+      "worker": "RB1",
+      "status": "completed",
+      "slot": 1,
+      "maximum_seconds": 120,
+      "slot_released": true,
+      "evidence_directory": "criticism/RB1"
+    },
+    {
+      "id": "RF1-ALLOC",
+      "worker": "RF1",
+      "status": "completed",
+      "slot": 2,
+      "maximum_seconds": 120,
+      "slot_released": true,
+      "evidence_directory": "criticism/RF1"
+    },
+    {
+      "id": "RP1-ALLOC",
+      "worker": "RP1",
+      "status": "completed",
+      "slot": 1,
+      "maximum_seconds": 120,
+      "description": "fresh exact exponent/parameter regression for repaired ledger",
+      "slot_released": true,
+      "evidence_directory": "criticism/RP1",
+      "reported_outcome": "Mathematical exact controls pass; original administrative whole-node check failure preserved; corrected load-bearing-field comparison passes"
+    }
+  ],
+  "last_checkpoint": {
+    "created_at": "2026-09-07T22:42:22.418089+00:00",
+    "snapshot_directory": "coordinator-checkpoints/20260907T224222.418068Z-f1312e18",
+    "reason": "Final delivery records30 passing terminal artifact checks and completed native goal; no work scheduled",
+    "scientific_progress_verified": false
+  },
+  "launcher_exit_observed": false,
+  "descendant_cleanup_observed": false,
+  "cap_status_authority": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/run.log.brlwe-goal-routes-20260907-astra-ultra.cap-status.json",
+  "content_policy_interruption": null,
+  "automatic_continuation_authorized": false,
+  "last_successful_artifact_check": "coordinator/artifact-check-final-after-goal.json",
+  "worker_service_observation": {
+    "codex_pid": 1347523,
+    "codex_session_id": "01a07dcb-40ad-7231-8540-1675639ae41b",
+    "heartbeat_at": "2026-09-07T22:41:12.721421+00:00",
+    "observed": {
+      "approval": "never",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "sandbox": "workspace-write [workdir, /tmp, $TMPDIR]",
+      "session_id": "01a07dcb-40ad-7231-8540-1675639ae41b",
+      "workdir": "/home/nico/projects/research_projects/binaryRLWE"
+    },
+    "schema_version": 1,
+    "started_at": "2026-09-07T21:34:27.252883+00:00",
+    "state": "running",
+    "tmux_session": "brlwe-goal-routes-20260907-astra-ultra",
+    "updated_at": "2026-09-07T22:41:12.721459+00:00",
+    "worker_pid": 1347368
+  },
+  "final_artifact_check": "coordinator/artifact-check-delivered.json",
+  "native_goal_elapsed_seconds": 3844,
+  "shutdown_observation": "Coordinator work and owned worker/experiment tasks complete; launcher exit and process cleanup remain unobserved."
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260907T224222.418068Z-f1312e18",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-09-07T22:42:22.418089+00:00",
+  "reason": "Final delivery records30 passing terminal artifact checks and completed native goal; no work scheduled",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 15783,
+      "sha256": "a59e6ad3698f7d498de905dc9469adec00bb652995eb7f100f1f677112bbfd2a"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 6054,
+      "sha256": "1cbd5e8ba56ce4802c2a1ca9c27437c851187c557788a2ee9448d4028a5e2d55"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 9363,
+      "sha256": "10c38f9fd830c3842b6596a2e2b74c87368fbc9d2bb00f5b6ae6c8b050e61d00"
+    },
+    {
+      "path": "final.md",
+      "bytes": 14947,
+      "sha256": "42093acdd69d705ca8a7685b432a5c67b875ce145a568c3fc3507c4177368b1c"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 2989,
+      "sha256": "941359cb0380aff56e67a8a9310ae6df6bff4211d7a65d42c83b84b897395dd4"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

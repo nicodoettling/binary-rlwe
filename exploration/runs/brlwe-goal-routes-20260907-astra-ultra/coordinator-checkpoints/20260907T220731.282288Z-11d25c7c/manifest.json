@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260907T220731.282288Z-11d25c7c",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-09-07T22:07:31.282347+00:00",
+  "reason": "Rewrote canonical search report and exact dependency graph with effective-source and scope qualifications; reviewers continue",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 6265,
+      "sha256": "c1d719a29949add99b6b7f1f337a0e253045d7c62d24223df3925b16fae76671"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 3767,
+      "sha256": "e7afb33766807c13be2c2f2ff440f9f0d1f6db48bef6f5d6b71b1b7c57faa7b9"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 4778,
+      "sha256": "9a85d7a2ffece8bf890ae5ddf2001d3e3b1a4221bf3fcb801e4fcfe7a92f6fcc"
+    },
+    {
+      "path": "final.md",
+      "bytes": 4425,
+      "sha256": "71aff685502306cfe5f76a1acbdfdd3432baa9a1bdd466f3230059fb542c1567"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 1810,
+      "sha256": "acda3de76fbcc5923214c6f417ca32ed699eceb64cb10c57d910e8ba7ee48157"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

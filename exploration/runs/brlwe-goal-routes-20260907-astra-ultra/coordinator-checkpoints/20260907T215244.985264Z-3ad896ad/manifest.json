@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260907T215244.985264Z-3ad896ad",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-09-07T21:52:44.985285+00:00",
+  "reason": "Froze full A1 proof and local rectangular-completion/source/prime derivations; prepared exact theorem-only review boundary",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 4130,
+      "sha256": "ad0a823995ddcdc0e7b5b31ad8a0d819b12769dc75c41de4e642b57ecfa83830"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 2259,
+      "sha256": "3086f2a5b17faa281d5b8b48d50d3abf67bba50f6bb13afff8a902897724aadf"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 3270,
+      "sha256": "dcfc40899656e06ac1c0aac0a37d09ec72a3aa4d6a295c772a82092e981285b7"
+    },
+    {
+      "path": "final.md",
+      "bytes": 3215,
+      "sha256": "be6d348d9d84738a0befa321191af58e18c34c3cdc280b6201dfa28dd0ef0ad8"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 734,
+      "sha256": "16ea1f8bf15ae4ba7af3b8bb74397ef8c316153e9481e0e56f5aba01c826a6bc"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

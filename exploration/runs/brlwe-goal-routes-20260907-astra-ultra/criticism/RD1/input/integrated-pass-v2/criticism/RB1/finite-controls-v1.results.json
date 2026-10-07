@@ -1,0 +1,133 @@
+{
+  "elapsed_seconds": 0.016812040004879236,
+  "exact_finite_leakage": [
+    {
+      "claimed_bound": "9/16",
+      "d": 0,
+      "m": 1,
+      "max_guess": "9/16",
+      "min_guess": "9/16",
+      "tuples_checked": 1,
+      "zero_tuple_guess": "9/16"
+    },
+    {
+      "claimed_bound": "45/16",
+      "d": 1,
+      "m": 1,
+      "max_guess": "1",
+      "min_guess": "9/16",
+      "tuples_checked": 10,
+      "zero_tuple_guess": "9/16"
+    },
+    {
+      "claimed_bound": "225/16",
+      "d": 2,
+      "m": 1,
+      "max_guess": "1",
+      "min_guess": "9/16",
+      "tuples_checked": 25,
+      "zero_tuple_guess": "9/16"
+    },
+    {
+      "claimed_bound": "9/16",
+      "d": 0,
+      "m": 2,
+      "max_guess": "9/16",
+      "min_guess": "9/16",
+      "tuples_checked": 1,
+      "zero_tuple_guess": "9/16"
+    },
+    {
+      "claimed_bound": "45/16",
+      "d": 1,
+      "m": 2,
+      "max_guess": "1",
+      "min_guess": "9/16",
+      "tuples_checked": 50,
+      "zero_tuple_guess": "9/16"
+    },
+    {
+      "claimed_bound": "225/16",
+      "d": 2,
+      "m": 2,
+      "max_guess": "1",
+      "min_guess": "9/16",
+      "tuples_checked": 625,
+      "zero_tuple_guess": "9/16"
+    }
+  ],
+  "input_sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124",
+  "numerical_constants": [
+    {
+      "D_ell_0": 0.920441787835591,
+      "Delta_N": 0.41543808025784,
+      "d0_guess_bound": 0.9220241651162904,
+      "ell": 1,
+      "eta_N": 0.7106827629844286,
+      "finite_tail_numeric": 6.419792233761218e-06,
+      "n": 2,
+      "tail_bound": 0.01375541740409698
+    },
+    {
+      "D_ell_0": 0.4999965126819667,
+      "Delta_N": 0.0006457524552722734,
+      "d0_guess_bound": 0.3164033075856706,
+      "ell": 2,
+      "eta_N": 0.0006461697209561035,
+      "finite_tail_numeric": 2.969761851267012e-09,
+      "n": 4,
+      "tail_bound": 5.550277742443992e-07
+    },
+    {
+      "D_ell_0": 0.33333333333298293,
+      "Delta_N": 9.875966227030348e-09,
+      "d0_guess_bound": 0.039018442310541336,
+      "ell": 3,
+      "eta_N": 9.875966324565058e-09,
+      "finite_tail_numeric": 4.618022861653856e-16,
+      "n": 8,
+      "tail_bound": 5.5762429607173786e-14
+    },
+    {
+      "D_ell_0": 0.25,
+      "Delta_N": 1.3571683785651478e-15,
+      "d0_guess_bound": 0.0005421010862427522,
+      "ell": 4,
+      "eta_N": 1.3571683785651496e-15,
+      "finite_tail_numeric": 1.135983944334276e-25,
+      "n": 16,
+      "tail_bound": 1.1769783506717087e-23
+    },
+    {
+      "D_ell_0": 0.2,
+      "Delta_N": 1.6754186266488257e-24,
+      "d0_guess_bound": 7.958661109946392e-08,
+      "ell": 5,
+      "eta_N": 1.6754186266488257e-24,
+      "finite_tail_numeric": 5.127195507502853e-38,
+      "n": 32,
+      "tail_bound": 4.948473819548535e-36
+    }
+  ],
+  "numerical_theta_envelopes": [
+    {
+      "K": "7/8",
+      "centers_checked": 256,
+      "m": 1,
+      "max_normalized_theta": 1.2724535206407386,
+      "min_normalized_theta": 0.7604472869961196,
+      "theorem_lower": 0.5845619197421601,
+      "theorem_upper": 1.41543808025784
+    },
+    {
+      "K": "7/8",
+      "centers_checked": 1024,
+      "m": 2,
+      "max_normalized_theta": 1.2724535206407386,
+      "min_normalized_theta": 0.7604472869961196,
+      "theorem_lower": 0.5845619197421601,
+      "theorem_upper": 1.41543808025784
+    }
+  ],
+  "verdict": "All finite controls passed; unrestricted claims require the accompanying proof."
+}

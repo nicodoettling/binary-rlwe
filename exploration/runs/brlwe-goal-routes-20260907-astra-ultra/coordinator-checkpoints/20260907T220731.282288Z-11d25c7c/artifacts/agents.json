@@ -1,0 +1,66 @@
+{
+  "updated_at": "2026-09-07T22:07:31.277894+00:00",
+  "coordinator": "01a07dcb-40ad-7231-8540-1675639ae41b",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "ultra",
+  "max_active_total": 4,
+  "workers": [
+    {
+      "task": "/root/a_search_initial",
+      "id": "A1",
+      "status": "completed",
+      "deadline": "2026-09-07T22:15:00Z",
+      "ownership": "workers/A1",
+      "final": "workers/A1/final.md"
+    },
+    {
+      "task": "/root/b_splitting_initial",
+      "id": "B1",
+      "status": "completed",
+      "deadline": "2026-09-07T22:15:00Z",
+      "ownership": "workers/B1",
+      "final": "workers/B1/final.md"
+    },
+    {
+      "task": "/root/c_transfer_initial",
+      "id": "C1",
+      "status": "completed",
+      "deadline": "2026-09-07T22:15:00Z",
+      "ownership": "workers/C1",
+      "final": "workers/C1/final.md"
+    },
+    {
+      "id": "RB1",
+      "task": "/root/r_blind_search",
+      "status": "running",
+      "role": "fresh blind theorem-only review",
+      "ownership": "criticism/RB1",
+      "deadline": "2026-09-07T22:25:00Z",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none"
+    },
+    {
+      "id": "RF1",
+      "task": "/root/r_full_search",
+      "status": "running",
+      "role": "fresh full mathematical review",
+      "ownership": "criticism/RF1",
+      "deadline": "2026-09-07T22:30:00Z",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none"
+    },
+    {
+      "id": "RS1",
+      "task": "/root/r_source_scope",
+      "status": "running",
+      "role": "source/parameters/scientific scope review",
+      "ownership": "criticism/RS1",
+      "deadline": "2026-09-07T22:25:00Z",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none"
+    }
+  ]
+}

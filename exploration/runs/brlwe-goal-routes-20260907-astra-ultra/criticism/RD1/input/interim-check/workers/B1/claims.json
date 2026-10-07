@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "worker": "B1",
+  "certification": "PROVISIONAL; no nonauthor review in this worker packet",
+  "statement": "statement-v1.md",
+  "proof": "proof-v1.md",
+  "claims": [
+    {"id":"B1-ALG-v1","status":"PROVISIONAL","dependencies":[],"statement":"Exact factor order f and binomial factorization for the prescribed 2-adic family."},
+    {"id":"B1-PACK-v1","status":"PROVISIONAL","dependencies":["B1-ALG-v1"],"statement":"Exact source and uniform-comparator packing from 2f smaller-ring noisy points to two original-ring points."},
+    {"id":"B1-ISO-v1","status":"PROVISIONAL","dependencies":["B1-ALG-v1"],"statement":"Exact retained product-field TV 1-(1-q^-f+q^-2f)^k."},
+    {"id":"B1-X-v1","status":"PROVISIONAL","dependencies":["B1-ALG-v1","X1-v1"],"statement":"Conditional block extraction transfers with explicit f times smaller-ring error and the same observations."},
+    {"id":"B1-DEC-v1","status":"PROVISIONAL","dependencies":["B1-PACK-v1","B1-ISO-v1","B1-X-v1","NC1-v2","W3-OBS-v3"],"statement":"Finite one-target-sample decision inequality from the exact 2f-point source budget."},
+    {"id":"B1-PARAM-v1","status":"PROVISIONAL","dependencies":["B1-ALG-v1","B1-DEC-v1","Xylouris-Theorem-1.1","X1-v1","NC1-v2"],"statement":"Nonempty polynomial-q asymptotic family f=Theta(log n), D log q=o(n), q/sigma>=n, all statistical losses negligible, polynomial-in-n setup."},
+    {"id":"B1-SOURCE-PREMISE-v1","status":"OPEN","dependencies":[],"statement":"Computational pseudorandomness of the exact split-dimension-N, k-support, width-log2(N), 2f-point same-ideal tuple; relationship to primary HLBDD requires exact budget/parameter qualification."}
+  ],
+  "experiments":["exact-controls-v1.py","exact-controls-v1.json","exact-controls-v2.py","exact-controls-v2.json"],
+  "excluded_inferences":["two smaller-ring points suffice","multiple target samples","source hardness follows from nonbinary syntax","extension-field coefficient RLWE replaces original target","uniform arbitrary matrix LHL gives selected-quotient extraction"]
+}

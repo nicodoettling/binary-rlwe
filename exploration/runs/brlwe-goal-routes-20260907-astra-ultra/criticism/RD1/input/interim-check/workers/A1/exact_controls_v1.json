@@ -1,0 +1,144 @@
+{
+  "schema": 1,
+  "arithmetic": "fractions.Fraction; exhaustive deterministic states",
+  "seed": null,
+  "controls": [
+    {
+      "id": "NOISY-BIT",
+      "n": 1,
+      "modulus": null,
+      "guess": "2/3",
+      "unwrapped_formula": "2/3"
+    },
+    {
+      "id": "NOISY-BIT",
+      "n": 1,
+      "modulus": 3,
+      "guess": "1/2",
+      "unwrapped_formula": "2/3"
+    },
+    {
+      "id": "NOISY-BIT",
+      "n": 1,
+      "modulus": 5,
+      "guess": "11/18",
+      "unwrapped_formula": "2/3"
+    },
+    {
+      "id": "NOISY-BIT",
+      "n": 2,
+      "modulus": null,
+      "guess": "4/9",
+      "unwrapped_formula": "4/9"
+    },
+    {
+      "id": "NOISY-BIT",
+      "n": 2,
+      "modulus": 3,
+      "guess": "1/4",
+      "unwrapped_formula": "4/9"
+    },
+    {
+      "id": "NOISY-BIT",
+      "n": 2,
+      "modulus": 5,
+      "guess": "121/324",
+      "unwrapped_formula": "4/9"
+    },
+    {
+      "id": "NOISY-BIT",
+      "n": 3,
+      "modulus": null,
+      "guess": "8/27",
+      "unwrapped_formula": "8/27"
+    },
+    {
+      "id": "NOISY-BIT",
+      "n": 3,
+      "modulus": 3,
+      "guess": "1/8",
+      "unwrapped_formula": "8/27"
+    },
+    {
+      "id": "NOISY-BIT",
+      "n": 3,
+      "modulus": 5,
+      "guess": "1331/5832",
+      "unwrapped_formula": "8/27"
+    },
+    {
+      "id": "ALL-TWO-LABEL-MAPS",
+      "maps": 16,
+      "base_guess": "25/64",
+      "max_revealed_guess": "21/32",
+      "upper": "25/32",
+      "maximizing_map": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "SOURCE-EXACT-WITNESS",
+      "m": 1,
+      "source_elements_in_challenge": 2,
+      "source_elements_used": 1,
+      "target_samples": 1,
+      "planted_guess": "3/8",
+      "target_success": "11/16",
+      "source_advantage": "5/16",
+      "one_quotient_budget": "1/2",
+      "full_witness_simulation_equal": true,
+      "residual_check_accepts_both_worlds": 1
+    },
+    {
+      "id": "SOURCE-EXACT-WITNESS",
+      "m": 2,
+      "source_elements_in_challenge": 2,
+      "source_elements_used": 2,
+      "target_samples": 2,
+      "planted_guess": "7/16",
+      "target_success": "55/64",
+      "source_advantage": "27/64",
+      "one_quotient_budget": "1/2",
+      "full_witness_simulation_equal": true,
+      "residual_check_accepts_both_worlds": 1
+    },
+    {
+      "id": "SHARED-G-MARGINAL-TRAP",
+      "m": 2,
+      "each_marginal_tv": 0,
+      "full_joint_tv": "3/4"
+    },
+    {
+      "id": "H-SECRET-DEPENDENCE",
+      "marginal_noise_tv": 0,
+      "witness_retaining_tv": "3/4",
+      "premise_violated": "H independent of (S,G) given source tuple"
+    },
+    {
+      "id": "H-G-DEPENDENCE",
+      "marginal_H_uniform": true,
+      "completed_sum": "point mass zero",
+      "premise_violated": "conditional full product law"
+    },
+    {
+      "id": "CP-1",
+      "posterior_A": "21/2000",
+      "posterior_C": "1/20",
+      "posterior_D": "879/1000",
+      "incidences": [
+        "1/10",
+        "121/2000",
+        "21/2000"
+      ],
+      "selected_event": "21/2000",
+      "invalid_product": "1/100",
+      "second_residual": "21/221",
+      "replacement": "No sequential product; exact independent-coordinate factorization only"
+    }
+  ],
+  "elapsed_seconds": 0.0169828690122813,
+  "status": "all exact assertions passed"
+}

@@ -1,0 +1,36 @@
+{
+  "d_equals_n_uniform_source": {
+    "count_per_pair": 16,
+    "exact_pair_probability": "1/625",
+    "latent_cases": 10000,
+    "n": 2,
+    "note": "Finite independent binary F fixture; uniform addition identity is distribution-free.",
+    "pair_outputs": 625,
+    "q": 5
+  },
+  "elapsed_seconds": 0.14775883499532938,
+  "iid_target_interface": [
+    {
+      "exact_probability_per_case": "1/400",
+      "independent_error_tuples_per_fixed_secret_and_a": 4,
+      "m": 1,
+      "note": "Finite coefficient-error fixture; algebraic bijection holds for the theorem's iid Gaussian law as well.",
+      "witness_cases": 400
+    },
+    {
+      "exact_probability_per_case": "1/40000",
+      "independent_error_tuples_per_fixed_secret_and_a": 16,
+      "m": 2,
+      "note": "Finite coefficient-error fixture; algebraic bijection holds for the theorem's iid Gaussian law as well.",
+      "witness_cases": 40000
+    }
+  ],
+  "input_sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124",
+  "normalized_likelihood_ratio": {
+    "Delta": "1/4",
+    "bound": "1/3",
+    "cases": 405,
+    "maximum_TV": "1/8"
+  },
+  "verdict": "All added exact controls passed."
+}

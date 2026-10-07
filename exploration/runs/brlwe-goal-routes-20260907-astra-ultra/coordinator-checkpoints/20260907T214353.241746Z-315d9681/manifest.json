@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260907T214353.241746Z-315d9681",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-09-07T21:43:53.241768+00:00",
+  "reason": "Integrated initial A1 search mechanism and B1/C1 algebraic frontiers; all three workers assigned with shared cap",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 2440,
+      "sha256": "6ea5d59f27ac466fcd49ec677934fbafba809f21a7a5995f5d549aaa9d5bb83a"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 957,
+      "sha256": "f671a414e53dc3226dabbdeb67c8e042bd6f7056dfc354645fb6d589db91de9b"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 1968,
+      "sha256": "7e087da52b74bfc325b00e55526f0f3fa87fd68be0c0ae1d0326e2034888affd"
+    },
+    {
+      "path": "final.md",
+      "bytes": 1913,
+      "sha256": "ed6b1290436a4d57de330d8e7321e7e16bf48396b27dfeabaa1f6996115bf723"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 734,
+      "sha256": "a9bc3725941c7a39cce240ff5aabe32222bbb53ce3f6ed7c99f2077439dcddbb"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

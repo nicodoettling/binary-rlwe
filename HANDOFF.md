@@ -8,7 +8,7 @@ Nico Döttling is revisiting work with Zvika Brakerski on hardness of Ring-LWE w
 
 **No complete hardness theorem has been obtained.** The strongest new result is a reviewed conditional **one-pair decision-hardness implication** from pseudorandomness of an independently noised hidden-ideal source. The precise source-hardness premise needed for negligible loss remains open. There is also a reviewed subexponential distinguishing algorithm for the proposed source family, but no polynomial-time distinguisher at the chosen asymptotic parameters.
 
-All three research runs are over. The latest run, `brlwe-joint-foundations-20260906-astra-ultra`, completed normally on 6 September at 21:10:51 UTC after approximately 1 hour 16 minutes, within its five-hour maximum. Its [exit manifest](exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/exit-manifest.json) records success and no failure category. There is no pending launch or automatic continuation.
+All three executed research runs are over. The latest executed run, `brlwe-joint-foundations-20260906-astra-ultra`, completed normally on 6 September at 21:10:51 UTC after approximately 1 hour 16 minutes, within its five-hour maximum. Its [exit manifest](exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/exit-manifest.json) records success and no failure category. The user has approved the broader [native-goal plan](exploration/goal-routes-20260907/PLAN.md) with a **three-hour cap**, reduced from the proposed 3.5 hours. The run started at 21:34:27 UTC on 7 September; its native goal is active, with wrap-up at 00:14:27 and the cap deadline at 00:34:27 UTC on 8 September. See the [launch receipt](exploration/goal-routes-20260907/launch-receipt.json); verify live status before relying on this startup snapshot.
 
 The repository is on `main`. The initial research snapshot is commit `bb424e7`; this handoff is added in a subsequent commit. Existing research artifacts and evidence snapshots are versioned. Raw launcher logs, Python caches, and one compiled experiment binary are ignored; their source and research results remain tracked.
 
@@ -92,7 +92,7 @@ A useful next investigation should begin with exact source experiments and quant
 
 The latest run also leaves open public transformations using both components, equal-small-noise starting distributions, and controlled approximate preservation of the uniform comparator. These lie outside the proved source-conversion obstructions. Multiple samples require a separately defined common-quotient-variable source, joint noise completion, and task-conversion accounting; no extension should be inferred from the one-pair theorem.
 
-This is a proposed research question, not authorization to launch another unattended run.
+This is one proposed research question, not authorization to launch another unattended run. The newer [capped-goal plan](exploration/goal-routes-20260907/PLAN.md) broadens the investigation to direct search lossiness, partial splitting, and computational source transfer rather than making active-point inheritance the sole objective.
 
 ## Claims and pitfalls to preserve
 
@@ -116,6 +116,7 @@ This is a proposed research question, not authorization to launch another unatte
 | [Consolidation](exploration/consolidated/joint-ideal-20260906/CONSOLIDATED.md) | Reconciles the interrupted run and supersedes its partial report and precritic ledger for the historical mathematical state. |
 | `exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/` | Latest authoritative research ledger, synthesis, frozen inputs, reviews, experiments, and exit evidence. |
 | `exploration/joint-ideal-next/` | The plan and authorization for the already completed latest run. Despite the name, it is not an unlaunched next run. |
+| `exploration/goal-routes-20260907/` | Launched 180-minute native-goal run with coordinator plus up to three workers, all Astra ultra; uses the updated skill's capped helper. |
 | `exploration/runner/` | Finite-run launcher, supervisor, tests, and operational documentation. |
 | `exploration/incidents/` | Academic-research false-positive report and feedback submission receipt. |
 | `exploration/verification/` | Preparation checks with explicit verification scope. |
@@ -124,13 +125,13 @@ Preserve old run directories, reviewed snapshots, hashes, and append-only claim 
 
 ## Bounded-run workflow and user preferences
 
-The user explicitly requested finite exploratory research, not a goal run, and chose **`gpt-6-astra` with `ultra` reasoning**. The focused plans use a five-hour maximum, permit early completion only after assigned obligations have dispositions, allow at most four active agents including the coordinator, and prohibit worker-spawned agents. Default local experiment timeout is 120 seconds, maximum 300 seconds, with at most two concurrent experiments.
+The previous runs were explicitly finite non-goal explorations. **The latest user request supersedes that earlier preference for the new proposal:** launch a native-goal run capped at three hours, with four active agents total and **`gpt-6-astra` with `ultra` reasoning**. The new goal must not be called achieved merely because all workstreams have dispositions. Workers cannot spawn agents or create goals. Default local experiment timeout remains 120 seconds, maximum 300 seconds, with at most two concurrent experiments.
 
-Prepare a concrete plan and obtain the user's approval before a new unattended launch, as requested in this discussion. Existing `launch_authorized=true` flags record approvals for runs that already happened; they are not permission to replay those runs. There are no goal tools, automatic resumes/restarts, or recurring continuations. Do not contact researchers or publish externally without explicit authorization. The earlier feedback authorization covered the single submitted incident report.
+Prepare a concrete plan and obtain the user's approval before a new unattended launch, as requested in this discussion. Existing `launch_authorized=true` flags record approvals for runs that already happened; they are not permission to replay those runs. The new proposal permits one coordinator goal and native continuations inside the live cap, but no automatic service resume/restart or post-deadline research. Do not contact researchers or publish externally without explicit authorization. The earlier feedback authorization covered the single submitted incident report.
 
 Use the installed `codex-tmux-runner` skill for launching or supervising unattended sessions, and `mathematical-proof-audit` for extended proof efforts requiring its review workflow. Their local instructions are under `/home/nico/.codex/skills/`; they are external dependencies, not files bundled in this repository. Check the applicable instructions and host prerequisites before a future launch.
 
-The [runner README](exploration/runner/README.md) documents the launcher. It relies on the locally installed helper, Codex CLI, Bubblewrap, tmux, and a systemd user service. The research process uses `workspace-write` with approval policy `never`; host service/preflight access is a separate permission boundary. The independent timer covers research descendants and is not extended by monitoring or snapshot work.
+The [runner README](exploration/runner/README.md) documents the legacy non-goal launcher; it rejects goal mode and must not launch the new proposal. The new [launch contract](exploration/goal-routes-20260907/LAUNCH.md) uses the updated skill's `capped_codex_tmux.py`. Both rely on installed host tools, with `workspace-write` and approval policy `never` for research; host service/preflight access is a separate permission boundary. The new helper supplies independent cgroup runtime enforcement, but does not include the legacy continuous policy/staleness observer. Its scientific checkpoints are cooperative, with immutable snapshots through the existing standalone snapshot function. Timeout leaves an unresolved native goal unfinished, not paused or completed.
 
 The coordinator maintains `claims.json`, `reconciliation.md`, `progress.md`, `final.md`, and `agents.json`, with five-minute checkpoints and updates after worker results. Nonauthor reviews must address exact claim versions, followed by coordinator reconciliation. Process success, artifact integrity, and scientific completeness are separate records.
 

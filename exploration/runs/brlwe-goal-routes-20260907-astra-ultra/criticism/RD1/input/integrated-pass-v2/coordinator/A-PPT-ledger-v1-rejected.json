@@ -1,0 +1,24 @@
+{
+  "id": "A-PPT",
+  "version": 1,
+  "status": "PROVISIONAL",
+  "kind": "derived result",
+  "statement": "At fixed polynomial q(n) and either explicit growing d family, the exact Base2 pseudorandomness premise implies negligible exact binary recovery for m1/2 at sigma_m=2sqrt(m)n ell\u00b3; no additional target samples or decision claim.",
+  "proof": "candidates/search/theorem-only-v2.md",
+  "dependencies": [
+    {
+      "id": "A-FINITE",
+      "version": 1
+    },
+    {
+      "id": "SAMP-E",
+      "version": 1
+    },
+    {
+      "id": "PRIME-POLY",
+      "version": 1
+    }
+  ],
+  "reviews": [],
+  "explicit_computational_hypothesis": "Pseudorandomness of Base2(n,q(n),d(n)) at the chosen source family; this hypothesis is assumed, not proved or renamed analytic premise."
+}

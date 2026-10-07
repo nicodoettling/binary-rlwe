@@ -1,0 +1,876 @@
+{
+  "updated_at": "2026-09-07T22:30:08.949573+00:00",
+  "historical_registry": "imports/latest-regressions.json",
+  "complete_historical_records": "imports/historical-file-index.json",
+  "new_records": [
+    {
+      "id": "RECT-ALG-1",
+      "evidence": "experiments/rectangular-identities-v1.json",
+      "claim": "NC-RECT v1",
+      "expected": "three rectangular identities hold, including zero/singular M; unguarded NC1 v1 rejected",
+      "result": "pass finite exact tests; not Gaussian/asymptotic certification"
+    },
+    {
+      "id": "SOURCE-SMALL-D",
+      "claim": "SOURCE-2 plausibility range",
+      "evidence": "criticism/RS1/report-v1.md",
+      "expected": "d=1 allows enumeration of n*q ideal points and source distinguishability; finite conditional theorem survives, all-d source plausibility rejected",
+      "status": "EXACT_HAND_COUNTEREXAMPLE_REVIEWED",
+      "independent_evidence": "criticism/RF1/source-d1-limitation-v1.md"
+    },
+    {
+      "id": "A-PPT-LEDGER-SCOPE",
+      "rejected_version": 1,
+      "repair_version": 2,
+      "status": "FRESH_RECHECK_PENDING",
+      "evidence": "coordinator/A-PPT-ledger-v1-scope-defect.md",
+      "repair": "coordinator/A-PPT-ledger-v2.json"
+    }
+  ],
+  "note": "All historical rejected statements and provenance retained by reference/hash; applicability will be recorded per new claim. No missing original is reconstructed.",
+  "historical_application": [
+    {
+      "id": "R01",
+      "historical_entry": {
+        "id": "R01",
+        "exact_record": "| R01 | Binomial ideal masks have blocks scalar times known geometric vectors. Enumerating a and a scalar in F_q costs polynomial time; false positive <= L q (|E|/q)^L, for coefficient-small E. | candidates/C01.md; candidates/C01/calculations.md. Retire that sampler, not arbitrary rich supports. |",
+        "expected_outcome": "Binomial ideal masks have blocks scalar times known geometric vectors. Enumerating a and a scalar in F_q costs polynomial time; false positive <= L q (|E|/q)^L, for coefficient-small E.",
+        "provenance": "candidates/C01.md; candidates/C01/calculations.md. Retire that sampler, not arbitrary rich supports.",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "metadata_correction": "Parsed spaced table delimiters without splitting mathematical | symbols; exact_record retained unchanged.",
+        "intake_disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet",
+        "current_handling": "Binomial structured mask family stays retired; all new laws use the exact uniform d-subset source.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| R01; R09; R10; C01-ATT | Binomial-support decoders, strict norm/injection thresholds, Lucas occupancy, and residual boxes filling all centered residues remain valid warnings for their old claims. No structured-support pseudorandomness, strict norm uniqueness, full quotient occupancy or residual-box distinguisher is asserted here. Inapplicable to the proof, retained as source-premise limitations. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "R02",
+      "historical_entry": {
+        "id": "R02",
+        "exact_record": "| R02 | Coins C=G, H=E-FG make conditional independence vacuous for arbitrarily large F. | criticism/C01/additive-obstruction.md. Require conditional G law to survive and distinguish public from latent correctness. |",
+        "expected_outcome": "Coins C=G, H=E-FG make conditional independence vacuous for arbitrarily large F.",
+        "provenance": "criticism/C01/additive-obstruction.md. Require conditional G law to survive and distinguish public from latent correctness.",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "intake_disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet",
+        "current_handling": "No hidden G or challenger coins enter a public algorithm; H is a conditional proof kernel independent of later S,G.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| R02: C=G, H=E-FG | Exact hand substitution gives N=E while G becomes deterministic conditional C. REJECT the weakened conditional-independence rule. Current C independent of G and fixed conditional G law exclude it; PASS. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "R03",
+      "historical_entry": {
+        "id": "R03",
+        "exact_record": "| R03 | A1=A2 uniform has exactly uniform marginals and distinguishable pair. | criticism/C02/checks-and-regressions.md J1. Joint pair assumption mandatory. |",
+        "expected_outcome": "A1=A2 uniform has exactly uniform marginals and distinguishable pair.",
+        "provenance": "criticism/C02/checks-and-regressions.md J1. Joint pair assumption mandatory.",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "intake_disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet",
+        "current_handling": "Every comparator and simulation is a full joint pair law; diagonal-uniform counterexample retained.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| R03, R04, R05; C03-HC5; PAIRWISE-SE-F3; SE-CORRELATION-F3 | Exact shared-G/common-K F3 TV=2/3; all pair marginals of F,S,E are product but full TV=2/3; correlated-secret target TV=2/9. For the Gaussian sign control, odd q makes nonzero r and -r distinct, giving guessing 1-W(0)/2 with the sign tape and 1/2 without it. Current target and noise comparison specify the full product law; PASS. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "R04",
+      "historical_entry": {
+        "id": "R04",
+        "exact_record": "| R04 | E1=Z, E2=(-1)^(S xor T)Z, S,T fair, Z Gaussian: all conditional error marginals Gaussian, but p_guess(S|E1,E2,T)=1-W(0)/2 versus 1/2 without T. | Same, C2. Product Gaussian target cannot be inferred from marginals. |",
+        "expected_outcome": "E1=Z, E2=(-1)^(S xor T)Z, S,T fair, Z Gaussian: all conditional error marginals Gaussian, but p_guess(S|E1,E2,T)=1-W(0)/2 versus 1/2 without T.",
+        "provenance": "Same, C2. Product Gaussian target cannot be inferred from marginals.",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "metadata_correction": "Parsed spaced table delimiters without splitting mathematical | symbols; exact_record retained unchanged.",
+        "intake_disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet",
+        "current_handling": "Gaussian marginals do not determine the joint law; full product/conditional kernels required.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| R03, R04, R05; C03-HC5; PAIRWISE-SE-F3; SE-CORRELATION-F3 | Exact shared-G/common-K F3 TV=2/3; all pair marginals of F,S,E are product but full TV=2/3; correlated-secret target TV=2/9. For the Gaussian sign control, odd q makes nonzero r and -r distinct, giving guessing 1-W(0)/2 with the sign tape and 1/2 without it. Current target and noise comparison specify the full product law; PASS. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "R05",
+      "historical_entry": {
+        "id": "R05",
+        "exact_record": "| R05 | S,T fair, E=S xor T, A=0: pairwise independence does not give full conditional kernel. | Same, C1. |",
+        "expected_outcome": "S,T fair, E=S xor T, A=0: pairwise independence does not give full conditional kernel.",
+        "provenance": "Same, C1.",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "intake_disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet",
+        "current_handling": "Pairwise independence insufficient; repaired OBS requires the full joint product law and passes new triple-correlation control.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| R03, R04, R05; C03-HC5; PAIRWISE-SE-F3; SE-CORRELATION-F3 | Exact shared-G/common-K F3 TV=2/3; all pair marginals of F,S,E are product but full TV=2/3; correlated-secret target TV=2/9. For the Gaussian sign control, odd q makes nonzero r and -r distinct, giving guessing 1-W(0)/2 with the sign tape and 1/2 without it. Current target and noise comparison specify the full product law; PASS. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "R06",
+      "historical_entry": {
+        "id": "R06",
+        "exact_record": "| R06 | q=3 half-dimensional quotient family omits one of nine outputs per four bits; TV tends to one despite entropy budget. | scouts/S04.md and experiment_e02.json. Outside reference growing-q regime; entropy alone insufficient. |",
+        "expected_outcome": "q=3 half-dimensional quotient family omits one of nine outputs per four bits; TV tends to one despite entropy budget.",
+        "provenance": "scouts/S04.md and experiment_e02.json. Outside reference growing-q regime; entropy alone insufficient.",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "intake_disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet",
+        "current_handling": "Fixed-q entropy counterexample retained outside A2 growing-q gates; no entropy-only extraction theorem inferred.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| R06, R07 | Entropy-only extraction and field-kernel-to-Boolean-fiber shortcuts remain rejected. Current quotient lemma uses only cardinality, allowing arbitrary fibers; noisy-bit loss is computed directly. Exhaustive new leakage controls cover the relevant replacement; PASS. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "R07",
+      "historical_entry": {
+        "id": "R07",
+        "exact_record": "| R07 | Field kernel dimension can coexist with no nonzero ternary kernel vector; Boolean lossiness requires actual fibers. | scouts/S05.md. |",
+        "expected_outcome": "Field kernel dimension can coexist with no nonzero ternary kernel vector; Boolean lossiness requires actual fibers.",
+        "provenance": "scouts/S05.md.",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "intake_disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet",
+        "current_handling": "Field kernel dimension is not Boolean lossiness; no such implication imported.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| R06, R07 | Entropy-only extraction and field-kernel-to-Boolean-fiber shortcuts remain rejected. Current quotient lemma uses only cardinality, allowing arbitrary fibers; noisy-bit loss is computed directly. Exhaustive new leakage controls cover the relevant replacement; PASS. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "R08",
+      "historical_entry": {
+        "id": "R08",
+        "exact_record": "| R08 | A secret-dependent precursor can nearly reveal S while the public degraded transcript retains substantial entropy (fixed A=1 control). | criticism/C02/checks-and-regressions.md; E04. Precursor recovery is not public attack. |",
+        "expected_outcome": "A secret-dependent precursor can nearly reveal S while the public degraded transcript retains substantial entropy (fixed A=1 control).",
+        "provenance": "criticism/C02/checks-and-regressions.md; E04. Precursor recovery is not public attack.",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "intake_disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet",
+        "current_handling": "Latent/public distinction enforced by explicit public witnesses or separately declared stronger sampler capability.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| R08; C02-LATENT-PUBLIC; PUBLIC-ENCODED-F | F5 control independently gives latent TV=1/2 and public TV=0. Reverse projection lower bounds remain rejected. Current latent reveal is solely a guessing upper bound; whether public projection can preserve encoded F is irrelevant to that direction; PASS. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "R09",
+      "historical_entry": {
+        "id": "R09",
+        "exact_record": "| R09 | Strict injection thresholds cannot include equality: n=2,f=1+X has colliding binary 0 and 1+X. Lucas quotient occupancy is index minus one at n=4,8,16, missing (2,1), not full. | Same I1 and E05. No all-degree occupancy claim. |",
+        "expected_outcome": "Strict injection thresholds cannot include equality: n=2,f=1+X has colliding binary 0 and 1+X. Lucas quotient occupancy is index minus one at n=4,8,16, missing (2,1), not full.",
+        "provenance": "Same I1 and E05. No all-degree occupancy claim.",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "intake_disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet",
+        "current_handling": "Strict norm and rounding inequalities retained; equality and Lucas-occupancy shortcuts not revived.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| R01; R09; R10; C01-ATT | Binomial-support decoders, strict norm/injection thresholds, Lucas occupancy, and residual boxes filling all centered residues remain valid warnings for their old claims. No structured-support pseudorandomness, strict norm uniqueness, full quotient occupancy or residual-box distinguisher is asserted here. Inapplicable to the proof, retained as source-premise limitations. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "R10",
+      "historical_entry": {
+        "id": "R10",
+        "exact_record": "| R10 | No-wrap alone can give uniform acceptance 1 when residual box spans all centered residues. Known denominator or short numerator tests still attack enumerably structured families. | Same D1; scouts/S12.md. |",
+        "expected_outcome": "No-wrap alone can give uniform acceptance 1 when residual box spans all centered residues. Known denominator or short numerator tests still attack enumerably structured families.",
+        "provenance": "Same D1; scouts/S12.md.",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "intake_disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet",
+        "current_handling": "Uniform acceptance counted explicitly and capped at1; no-wrap alone never supplies a small false-positive probability.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| R01; R09; R10; C01-ATT | Binomial-support decoders, strict norm/injection thresholds, Lucas occupancy, and residual boxes filling all centered residues remain valid warnings for their old claims. No structured-support pseudorandomness, strict norm uniqueness, full quotient occupancy or residual-box distinguisher is asserted here. Inapplicable to the proof, retained as source-premise limitations. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "R11",
+      "historical_entry": {
+        "id": "R11",
+        "exact_record": "| R11 | Half A=0, half A=I noiseless model is sometimes lossy but average recovery ~1/2. | Same H1. Mild/sometimes hardness cannot become negligible average success silently. |",
+        "expected_outcome": "Half A=0, half A=I noiseless model is sometimes lossy but average recovery ~1/2.",
+        "provenance": "Same H1. Mild/sometimes hardness cannot become negligible average success silently.",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "intake_disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet",
+        "current_handling": "Sometimes lossiness does not imply negligible average recovery; conditional sampler guarantees and bad-source losses stated.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| R11; C03-HC6 success/bad-error correlation | The two-atom model success=bad-error makes multiplication by good-error probability false. Current proof pays a union/TV subtraction once. The half-zero/half-identity model remains a rejection of sometimes-lossy-to-negligible-average reasoning; current source loss bounds average guessing directly; PASS. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "R12",
+      "historical_entry": {
+        "id": "R12",
+        "exact_record": "| R12 | At n=1,q=3,a1=a2=1,t=1, binary (1,0),(0,1) are both verified preimages; verification does not identify original planted witness. | candidates/C03/transport.md. |",
+        "expected_outcome": "At n=1,q=3,a1=a2=1,t=1, binary (1,0),(0,1) are both verified preimages; verification does not identify original planted witness.",
+        "provenance": "candidates/C03/transport.md.",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "intake_disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet",
+        "current_handling": "Verification identifies the actual F only under proved strict uniqueness; autocorrelation test otherwise counts all possible valid witnesses.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| R12 exact witness vs residual | Author-code rerun and new zero-ideal controls show residual checking can accept every transcript while exact sampled-witness success differs. Current B_m compares to its own S; PASS. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "R13",
+      "historical_entry": {
+        "id": "R13",
+        "exact_record": "| R13 | Renyi event transfer Q(F)>=P(F)^2/M2(P||Q) requires this orientation; it does not transfer signed decision advantage. | candidates/C03/transport.md; criticism/C03/mathematical-checks.md. |",
+        "expected_outcome": "Renyi event transfer Q(F)>=P(F)^2/M2(P||Q) requires this orientation; it does not transfer signed decision advantage.",
+        "provenance": "candidates/C03/transport.md; criticism/C03/mathematical-checks.md.",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "metadata_correction": "Restored parsed fields truncated by the || in the exact original record, which was retained unchanged.",
+        "intake_disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet",
+        "current_handling": "Positive-event search/acceptance transfers only; no signed decision advantage transported by Renyi or conditioning.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| R13; C03-HC4 Renyi orientation | Positive-event change of measure does not preserve a signed difference. Current proof uses a single absolute acceptance gap with no Renyi transfer; PASS by explicit nonuse. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "R14",
+      "historical_entry": {
+        "id": "R14",
+        "exact_record": "| R14 | Uniform ideal U has bad active-unit probability 1-(1-1/q)^d, nonnegligible for polynomial q; conditioning changes the exact source. | candidates/C01.md. |",
+        "expected_outcome": "Uniform ideal U has bad active-unit probability 1-(1-1/q)^d, nonnegligible for polynomial q; conditioning changes the exact source.",
+        "provenance": "candidates/C01.md.",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "intake_disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet",
+        "current_handling": "Active-conditioning delta_act and image defect eta_iso are distinct exact nonnegligible quantities; no silent source replacement.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| R14; N02-DUAL-NUMBER | Zero ideal multipliers included throughout; new primitive enumeration reproduces TV 9/32, and planted guessing 17/32 respects the cardinality bound. No active-unit conditioning, rank defect or eta_iso is invoked; PASS. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "R15",
+      "historical_entry": {
+        "id": "R15",
+        "exact_record": "| R15 | Repeated added noise, rotations, independent secrets, or common V_i=U_i K do not supply independent samples sharing S. | BRIDGE_CONTRACT; prior reconciliation; C03 transport. |",
+        "expected_outcome": "Repeated added noise, rotations, independent secrets, or common V_i=U_i K do not supply independent samples sharing S.",
+        "provenance": "BRIDGE_CONTRACT; prior reconciliation; C03 transport.",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "intake_disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet",
+        "current_handling": "m=1 only; common-K and shared-secret multiple-sample gates not opened; repeated hypothetical public sampler calls are not source challenges.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| R15; C03-HC5 common K; C03-HC7 separate Y | Common K gives three diagonal points instead of nine independent points in F3, TV 2/3. Current source genuinely supplies the two multipliers; correlated completion handles the shared G only inside the proof. It does not convert common K to independent ideal points, expand a source, or reveal several separately noised Y values; PASS. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "R16",
+      "historical_entry": {
+        "id": "R16",
+        "exact_record": "| R16 | Statistical planted-to-uniform claim fails by existential binary-residual-box test; posterior transport may need hard sampling; tower packing requires unavailable correlated responses. | rejected-or-deferred.md; scouts/S01\u2013S03. Computational and statistical assertions distinct. |",
+        "expected_outcome": "Statistical planted-to-uniform claim fails by existential binary-residual-box test; posterior transport may need hard sampling; tower packing requires unavailable correlated responses.",
+        "provenance": "rejected-or-deferred.md; scouts/S01\u2013S03. Computational and statistical assertions distinct.",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "intake_disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet",
+        "current_handling": "Statistical planting, hidden-posterior efficiency and tower simulation shortcuts remain retired; no general map impossibility inferred.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| R16; R17; C02-CHAR | Statistical source pseudorandomness, posterior transport, tower packing, independent-matrix moments, symmetry-orbit hardness, QCSD masking and fixed-character-to-pseudorandomness arguments are absent. Base_2 indistinguishability is computational and expressly assumed. No verdict about those retired methods is reused. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "R17",
+      "historical_entry": {
+        "id": "R17",
+        "exact_record": "| R17 | Independent-matrix moments fail at three-point ring-commutativity terms; public exact symmetries have tiny orbits; QCSD F2 masking loses planted recoverability and odd-q carries; sparse Fourier support gives no general quantum speedup. | rejected-or-deferred.md; scouts/S07\u2013S11. Do not revive these mechanisms by renaming. |",
+        "expected_outcome": "Independent-matrix moments fail at three-point ring-commutativity terms; public exact symmetries have tiny orbits; QCSD F2 masking loses planted recoverability and odd-q carries; sparse Fourier support gives no general quantum speedup.",
+        "provenance": "rejected-or-deferred.md; scouts/S07\u2013S11. Do not revive these mechanisms by renaming.",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "intake_disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet",
+        "current_handling": "Independent-matrix, tiny-symmetry, coding-surrogate and sparse-Fourier shortcuts remain retired; no new use.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| R16; R17; C02-CHAR | Statistical source pseudorandomness, posterior transport, tower packing, independent-matrix moments, symmetry-orbit hardness, QCSD masking and fixed-character-to-pseudorandomness arguments are absent. Base_2 indistinguishability is computational and expressly assumed. No verdict about those retired methods is reused. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "R18",
+      "historical_entry": {
+        "id": "R18",
+        "exact_record": "| R18 | CP-1 cached-prefix regression has event probability .0105 > .01 despite residual per-stage marginal bounds. | mathematical-proof-audit probability-regressions.md. Applicable if multiplying selected-stage probabilities; not a blanket objection to fixed independent coefficient products. |",
+        "expected_outcome": "CP-1 cached-prefix regression has event probability .0105 > .01 despite residual per-stage marginal bounds.",
+        "provenance": "mathematical-proof-audit probability-regressions.md. Applicable if multiplying selected-stage probabilities; not a blanket objection to fixed independent coefficient products.",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "intake_disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet",
+        "current_handling": "CP-1 reproduced at21/2000>1/100; exact chain rule, pointwise conditional bounds or fixed-input independent calls replace illicit marginal products.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| R18/CP-1; C03-HC6 | Independently recomputed normalizer 10/11, posterior A_b=21/2000,C_b=1/20,D=879/1000; incidences 1/10,121/2000,21/2000. Selected event 21/2000>1/100, later 21/221<1/10. Support restriction and renormalization, including latent cached information, invalidate the old product. Current fixed-coordinate products have full unconditioned product laws and no adaptive filtration/cache branch; PASS. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "C03-HC1",
+      "historical_entry": {
+        "id": "C03-HC1",
+        "evidence": "imports/regressions/01-hand-controls.md",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "intake_disposition": "IMPORTED complete exact hand control; applicable scope retained",
+        "current_handling": "NC1 negative-denominator control retained with both v2 guards.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| NC1-v1; C03-HC1 | M=0,tau=1/3,sigma=1 has true TV=0 but delta>82/63>1, so the old ratio is negative. REJECT old guardless formula; current piecewise bound returns one; PASS. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "C03-HC2",
+      "historical_entry": {
+        "id": "C03-HC2",
+        "evidence": "imports/regressions/01-hand-controls.md",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "intake_disposition": "IMPORTED complete exact hand control; applicable scope retained",
+        "current_handling": "Adaptive H_seq normalizer differs from D_B; exact chain-rule entropy and paid full-path likelihood ratio used.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| C03-HC2: H_seq | M=(1,1)^t,tau=1,sigma^2=3 gives parity-dependent second normalizers. Exact Poisson odd terms make Z_(3/2)(0)-Z_(3/2)(1/2)>0; numerical reproduction gives 0.0440089584. REJECT exact H_seq=D_B. Current H is proof-only exact D_B; PASS. Positive scalar complements alone would also miss a negative stacked eigenvalue; current full B guard excludes that. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "C03-HC3",
+      "historical_entry": {
+        "id": "C03-HC3",
+        "evidence": "imports/regressions/01-hand-controls.md",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "intake_disposition": "IMPORTED complete exact hand control; applicable scope retained",
+        "current_handling": "Discrete moments differ from covariance B/(2pi); Poisson correction, sequential ratio and wrapping losses explicit.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| C03-HC3 | Discrete covariance need not be B/(2pi); at small scalar width variance is asymptotic to 2exp(-pi/t^2). No covariance identity is used. Current proof uses exact quadratic mass and normalizers; PASS. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "C03-HC4",
+      "historical_entry": {
+        "id": "C03-HC4",
+        "evidence": "imports/regressions/01-hand-controls.md",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "intake_disposition": "IMPORTED complete exact hand control; applicable scope retained",
+        "current_handling": "Signed inverse and actual wrapped Gaussian deconvolution failures retained; Fourier ratios do not certify a probability kernel.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| C03-HC4 | The exact rational signed inverse has entries -1/20 despite positive Fourier ratios; reproduced. The archived wrapped-Gaussian residue inequalities force t2>=7.11e-5 while t2<2e-7, so fixed narrow exact deconvolution fails. Current statement supplies a positive D_B law, sufficient PSD/smoothing hypotheses and an approximation loss; it does not assert arbitrary exact wrapped deconvolution; PASS. |",
+        "| R13; C03-HC4 Renyi orientation | Positive-event change of measure does not preserve a signed difference. Current proof uses a single absolute acceptance gap with no Renyi transfer; PASS by explicit nonuse. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "C03-HC5",
+      "historical_entry": {
+        "id": "C03-HC5",
+        "evidence": "imports/regressions/01-hand-controls.md",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "intake_disposition": "IMPORTED complete exact hand control; applicable scope retained",
+        "current_handling": "Joint error leakage remains a counterexample to Gaussian-marginal and pairwise-law arguments.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| R03, R04, R05; C03-HC5; PAIRWISE-SE-F3; SE-CORRELATION-F3 | Exact shared-G/common-K F3 TV=2/3; all pair marginals of F,S,E are product but full TV=2/3; correlated-secret target TV=2/9. For the Gaussian sign control, odd q makes nonzero r and -r distinct, giving guessing 1-W(0)/2 with the sign tape and 1/2 without it. Current target and noise comparison specify the full product law; PASS. |",
+        "| R15; C03-HC5 common K; C03-HC7 separate Y | Common K gives three diagonal points instead of nine independent points in F3, TV 2/3. Current source genuinely supplies the two multipliers; correlated completion handles the shared G only inside the proof. It does not convert common K to independent ideal points, expand a source, or reveal several separately noised Y values; PASS. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "C03-HC6",
+      "historical_entry": {
+        "id": "C03-HC6",
+        "evidence": "imports/regressions/01-hand-controls.md",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "intake_disposition": "IMPORTED complete exact hand control; applicable scope retained",
+        "current_handling": "Common-K dependence and success/bad-noise correlation retained; no unsupported event independence.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| R11; C03-HC6 success/bad-error correlation | The two-atom model success=bad-error makes multiplication by good-error probability false. Current proof pays a union/TV subtraction once. The half-zero/half-identity model remains a rejection of sometimes-lossy-to-negligible-average reasoning; current source loss bounds average guessing directly; PASS. |",
+        "| R18/CP-1; C03-HC6 | Independently recomputed normalizer 10/11, posterior A_b=21/2000,C_b=1/20,D=879/1000; incidences 1/10,121/2000,21/2000. Selected event 21/2000>1/100, later 21/221<1/10. Support restriction and renormalization, including latent cached information, invalidate the old product. Current fixed-coordinate products have full unconditioned product laws and no adaptive filtration/cache branch; PASS. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "C03-HC7",
+      "historical_entry": {
+        "id": "C03-HC7",
+        "evidence": "imports/regressions/01-hand-controls.md",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "intake_disposition": "IMPORTED complete exact hand control; applicable scope retained",
+        "current_handling": "Separate-Y A1/A2 scales remain distinct; multiple-sample development deferred.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| R15; C03-HC5 common K; C03-HC7 separate Y | Common K gives three diagonal points instead of nine independent points in F3, TV 2/3. Current source genuinely supplies the two multipliers; correlated completion handles the shared G only inside the proof. It does not convert common K to independent ideal points, expand a source, or reveal several separately noised Y values; PASS. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "C02-LATENT-PUBLIC",
+      "historical_entry": {
+        "id": "C02-LATENT-PUBLIC",
+        "scope": "F5 latent/public mismatch",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "intake_disposition": "IMPORTED with full source reports",
+        "current_handling": "Exact F5 latent TV1/2 with publicTV0 reproduced; public lower bounds use explicit tests.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| R08; C02-LATENT-PUBLIC; PUBLIC-ENCODED-F | F5 control independently gives latent TV=1/2 and public TV=0. Reverse projection lower bounds remain rejected. Current latent reveal is solely a guessing upper bound; whether public projection can preserve encoded F is irrelevant to that direction; PASS. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "C02-CHAR",
+      "historical_entry": {
+        "id": "C02-CHAR",
+        "scope": "statistically sparse support despite negligible fixed-character bias",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "intake_disposition": "IMPORTED with full source reports",
+        "current_handling": "Negligible character bias does not establish pseudorandomness or large support; no such inference.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| R16; R17; C02-CHAR | Statistical source pseudorandomness, posterior transport, tower packing, independent-matrix moments, symmetry-orbit hardness, QCSD masking and fixed-character-to-pseudorandomness arguments are absent. Base_2 indistinguishability is computational and expressly assumed. No verdict about those retired methods is reused. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "C01-ATT",
+      "historical_entry": {
+        "id": "C01-ATT",
+        "scope": "n=2 q=17 strict dual rounding and n=8 orbit/root controls",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "intake_disposition": "IMPORTED with full source reports",
+        "current_handling": "Deterministic exact-SVP solver, strict dual rounding and public-root inputs retained; structural final review pending.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| R01; R09; R10; C01-ATT | Binomial-support decoders, strict norm/injection thresholds, Lucas occupancy, and residual boxes filling all centered residues remain valid warnings for their old claims. No structured-support pseudorandomness, strict norm uniqueness, full quotient occupancy or residual-box distinguisher is asserted here. Inapplicable to the proof, retained as source-premise limitations. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "CP-1",
+      "historical_entry": {
+        "id": "CP-1",
+        "scope": "cached-prefix .0105>.01",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "intake_disposition": "IMPORTED with full source reports",
+        "current_handling": "Cached-prefix posterior and21/2000 selected event reproduced exactly; shortcut remains rejected.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| R18/CP-1; C03-HC6 | Independently recomputed normalizer 10/11, posterior A_b=21/2000,C_b=1/20,D=879/1000; incidences 1/10,121/2000,21/2000. Selected event 21/2000>1/100, later 21/221<1/10. Support restriction and renormalization, including latent cached information, invalidate the old product. Current fixed-coordinate products have full unconditioned product laws and no adaptive filtration/cache branch; PASS. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "NC1-v1",
+      "historical_entry": {
+        "id": "NC1-v1",
+        "scope": "negative denominator counterexample",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "intake_disposition": "IMPORTED with full source reports",
+        "current_handling": "Old negative denominator remains rejected; guarded v2 used.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| NC1-v1; C03-HC1 | M=0,tau=1/3,sigma=1 has true TV=0 but delta>82/63>1, so the old ratio is negative. REJECT old guardless formula; current piecewise bound returns one; PASS. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "S0-dependency",
+      "historical_entry": {
+        "id": "S0-dependency",
+        "scope": "AN v2 is mandatory for instantiated negligible-loss conclusion",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "intake_disposition": "IMPORTED with full source reports",
+        "current_handling": "S0 retains AN v2; no global analytic/import certification.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| S0-dependency | No historical AN/NC1 acceptance is inherited. A1-FINITE depends on the newly checked witness, bit and rectangular lemmas; A1-PARAM additionally depends on the fresh prime check; PASS for this explicit graph. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "PUBLIC-ENCODED-F",
+      "historical_entry": {
+        "id": "PUBLIC-ENCODED-F",
+        "scope": "Projection preserves latent TV when F is explicitly encoded in A; does not supply efficient A2 decoding",
+        "evidence": "experiments/coordinator_controls_v1.json",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "intake_disposition": "Exact toy check passed; complements C02 latent projection erasure",
+        "current_handling": "Exact toy shows projection can preserve information if F encoded; no efficient A2 decoder inferred.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| R08; C02-LATENT-PUBLIC; PUBLIC-ENCODED-F | F5 control independently gives latent TV=1/2 and public TV=0. Reverse projection lower bounds remain rejected. Current latent reveal is solely a guessing upper bound; whether public projection can preserve encoded F is irrelevant to that direction; PASS. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "W2-SUBGROUP-BOUNDARY",
+      "historical_entry": {
+        "id": "W2-SUBGROUP-BOUNDARY",
+        "exact_model": "n=8,d=2, all subgroup partitions with index<=2; coverage is 1",
+        "evidence": "workstreams/W2/data/subgroup_controls.json",
+        "expected_outcome": "Reject a finite all-subgroup negligible-coverage claim without asymptotic hypotheses rmax=o(d), d>>log^2 n",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "intake_disposition": "New worker exact evidence integrated; proof check pending",
+        "current_handling": "Finite full-coverage n8,d2 control independently confirmed; asymptotic method gate essential.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| W2-SUBGROUP-BOUNDARY; W2-CONSTANT-COMPARISON | No all-subgroup coverage bound or comparative attack-runtime improvement appears in the frozen theorem. Their n=8,d=2 coverage-one boundary and optimized-constant qualification are inapplicable to this proof, retained for source-security work. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "UNIFORM-APPROX-COLLAPSE",
+      "historical_entry": {
+        "id": "UNIFORM-APPROX-COLLAPSE",
+        "scope": "A map collapsing an exponentially sparse planted support can preserve uniform input approximately while reducing planted entropy",
+        "evidence": "inputs/frozen/W1-draft-v1-note.md",
+        "expected_outcome": "Reject extension of exact-uniform-preserving entropy no-go to mere negligible-TV comparator preservation",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "intake_disposition": "Exact author control received; fresh review pending",
+        "current_handling": "Fresh N01 review confirms failure of entropy-no-go extension to approximate uniform preservation.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| UNIFORM-APPROX-COLLAPSE | No exact-uniform entropy no-go is extended to approximate preservation. The source-test uniform endpoint is exactly the target by its explicit sampler. Inapplicable to the present argument. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "SE-CORRELATION-F3",
+      "historical_entry": {
+        "id": "SE-CORRELATION-F3",
+        "exact_model": "R=F3,J=0,I=R,U=1,F uniformR,V uniformR,S uniformR,E=-S,G uniformR,H uniformR; other listed variables independent; eta_N=eta_X=eta_iso=0.",
+        "expected_outcome": "Reject literal general bridge if joint S/E independence is omitted: source uniform, target (a,(a-1)S) has TV 2/9 from uniform.",
+        "evidence": "criticism/B01/partial.md",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "intake_disposition": "New blind counterexample integrated before repair",
+        "current_handling": "Literal B01 A1/A2 REJECTED with exact target advantage2/9; separate full-law repair freshly rechecked.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| R03, R04, R05; C03-HC5; PAIRWISE-SE-F3; SE-CORRELATION-F3 | Exact shared-G/common-K F3 TV=2/3; all pair marginals of F,S,E are product but full TV=2/3; correlated-secret target TV=2/9. For the Gaussian sign control, odd q makes nonzero r and -r distinct, giving guessing 1-W(0)/2 with the sign tape and 1/2 without it. Current target and noise comparison specify the full product law; PASS. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "W2-CONSTANT-COMPARISON",
+      "historical_entry": {
+        "id": "W2-CONSTANT-COMPARISON",
+        "exact_model": "At c=1, original deterministic strict gate follows for r>=a d with any fixed a>2 eventually. The archived C0=8 is sufficient, not optimal.",
+        "expected_outcome": "Do not claim a runtime improvement over optimized deterministic ATT solely from random example a=3; retain hidden-constant and exp(O(d)) scope.",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "intake_disposition": "Coordinator review observation, to be checked by W2 nonauthor referee",
+        "current_handling": "N03 confirms a3 compares with archivedC0=8, not optimized deterministic a>2 atc1; final wording qualified.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| W2-SUBGROUP-BOUNDARY; W2-CONSTANT-COMPARISON | No all-subgroup coverage bound or comparative attack-runtime improvement appears in the frozen theorem. Their n=8,d=2 coverage-one boundary and optimized-constant qualification are inapplicable to this proof, retained for source-security work. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "N02-DUAL-NUMBER",
+      "historical_entry": {
+        "id": "N02-DUAL-NUMBER",
+        "exact_model": "R=F2[t]/(t^2), J uniform {0,(t)}, U,V uniform Ann(J), F=H=E=0, S,G uniformR independently; full product law.",
+        "expected_outcome": "Public endpoint TV equals eta_iso=9/32; nonzero nonunit t induces a quotient isomorphism when J=(t).",
+        "evidence": "criticism/N02/hand-controls.md",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "intake_disposition": "Fresh nonauthor hand control; final report pending",
+        "current_handling": "Fresh exact-proof recheck positive control TV=eta_iso9/32 covers hidden quotient variation, zero U and nonunit quotient isomorphism.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| R14; N02-DUAL-NUMBER | Zero ideal multipliers included throughout; new primitive enumeration reproduces TV 9/32, and planted guessing 17/32 respects the cardinality bound. No active-unit conditioning, rank defect or eta_iso is invoked; PASS. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "PAIRWISE-SE-F3",
+      "historical_entry": {
+        "id": "PAIRWISE-SE-F3",
+        "exact_model": "F,S independent uniformF3, E=-F-S; all pairwise marginals independent but joint product law fails.",
+        "expected_outcome": "Reject a repair asserting only pairwise independence; full product-kernel premise is required.",
+        "evidence": "criticism/N02/hand-controls.md",
+        "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+        "intake_disposition": "New targeted counterexample preserved",
+        "current_handling": "New F3 full-triple dependence control refutes a pairwise-only repair; actual complete product law excludes it.",
+        "review_evidence": [
+          "criticism/N01/review-v1.md \u00a78",
+          "criticism/N02/review-v1.md final table",
+          "reconciliation.md"
+        ]
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| R03, R04, R05; C03-HC5; PAIRWISE-SE-F3; SE-CORRELATION-F3 | Exact shared-G/common-K F3 TV=2/3; all pair marginals of F,S,E are product but full TV=2/3; correlated-secret target TV=2/9. For the Gaussian sign control, odd q makes nonzero r and -r distinct, giving guessing 1-W(0)/2 with the sign tape and 1/2 without it. Current target and noise comparison specify the full product law; PASS. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "N03-PV-CONDITIONING",
+      "historical_entry": {
+        "id": "N03-PV-CONDITIONING",
+        "exact_model": "n2,q17,d1 with specified nonuniform finite F prior; active Rec success3/4, raw-fill13/17 >=(16/17)*(3/4)=12/17. Separate Bernoulli3/4 vs1/4 mixture erases active signed gap.",
+        "evidence": "criticism/N03/controls-v1.json",
+        "disposition": "RECONCILED: positive-event search transfer valid, decision transfer shortcut rejected."
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| N03-PV-CONDITIONING; N03-SCAL-POSTERIOR | No active-PV search transfer or prior law of ratios after conditioning on public data is used. The current only selected event is the mask box, whose conditional law is written explicitly. Their decision-cancellation and fixed-ratio posterior controls are inapplicable to the new chain. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    },
+    {
+      "id": "N03-SCAL-POSTERIOR",
+      "historical_entry": {
+        "id": "N03-SCAL-POSTERIOR",
+        "exact_model": "q3,d2,U=(1,1),F=H=0; prior V/U iid uniform, conditioning on publicC=(0,0) fixes ratios=(0,0).",
+        "evidence": "criticism/N03/review-v1.md \u00a75",
+        "disposition": "RECONCILED: conditional ratio law uses retainedT,U,F,H before V/publicC; maximum-and-union bound handles adaptive choice."
+      },
+      "current_evidence": "criticism/RF1/report-v1.md section8",
+      "current_application_rows": [
+        "| N03-PV-CONDITIONING; N03-SCAL-POSTERIOR | No active-PV search transfer or prior law of ratios after conditioning on public data is used. The current only selected event is the mask box, whose conditional law is written explicitly. Their decision-cancellation and fixed-ratio posterior controls are inapplicable to the new chain. |"
+      ],
+      "status": "RECONCILED_APPLICABILITY"
+    }
+  ],
+  "source_qualification_evidence": "criticism/RS1/report-v1.md section5"
+}

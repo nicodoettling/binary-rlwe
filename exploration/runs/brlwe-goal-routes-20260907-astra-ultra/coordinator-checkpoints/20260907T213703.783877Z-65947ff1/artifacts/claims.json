@@ -1,0 +1,23 @@
+{
+  "updated_at": "2026-09-07T21:37:03.549787+00:00",
+  "goal": {
+    "threadId": "01a07dcb-40ad-7231-8540-1675639ae41b",
+    "objective": "Establish and critically validate a new quantitatively meaningful hardness implication for coefficient-binary, rank-one RLWE from an independently specified and motivated nonbinary source assumption, with a coherent parameter regime, exact search/decision and sample scope, and no unresolved load-bearing defect; investigate direct search lossiness, partial splitting, and computational source transfer as complementary routes.",
+    "status": "active",
+    "tokensUsed": 0,
+    "timeUsedSeconds": 0,
+    "createdAt": 1788816946,
+    "updatedAt": 1788816946
+  },
+  "new_claims": [],
+  "historical_claims": {
+    "path": "imports/latest-claims.json",
+    "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/claims.json",
+    "authority": "Latest ledger and reconciliation supersede frozen headers. W3-OBS coordinator v3 corresponds to author v2. Imported analytic claims remain provisional pending justified use."
+  },
+  "frontier": [
+    "A direct search witness-retaining noise law and one/two-sample lossiness",
+    "B partial splitting with compatible entropy",
+    "C computational transfer and source budget"
+  ]
+}

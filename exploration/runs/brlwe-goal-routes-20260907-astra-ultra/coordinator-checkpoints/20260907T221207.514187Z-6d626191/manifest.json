@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260907T221207.514187Z-6d626191",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-09-07T22:12:07.514209+00:00",
+  "reason": "Integrated three referee partials and explicit small-d source counterexample; all final review gates remain open",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 6265,
+      "sha256": "f8f0f3e64d438d343095c08c7e3ea76e980ffcdae2b951061e8eedd0bda300e8"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 4381,
+      "sha256": "c77bfd249971833423c2b1c57f884f0ae23a11a36288554d8bb9e5f0ba1ce7e5"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 5392,
+      "sha256": "e11e5cd471e4d43c96578d20e9fa547ed2324c1c816da08e241fb44872d5a2ff"
+    },
+    {
+      "path": "final.md",
+      "bytes": 5039,
+      "sha256": "109054f7085909993dc888dd48e033c7ce292e71211f3e125d97a0582b1080b6"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 1810,
+      "sha256": "61f8b960fe7e614dd7f3d63ed86eaba161572d1ca77811aa1fc9ca68557be456"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

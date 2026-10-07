@@ -1,0 +1,54 @@
+{
+  "verified_utc": "2026-09-07T21:36:50.217150+00:00",
+  "status": "verified_running",
+  "scope": "Host read-only startup/service/process containment check; not scientific certification.",
+  "service": "codex-cap-brlwe-goal-routes-20260907-astra-ultra-c5bc23d93e2c.service",
+  "systemd_properties": {
+    "Restart": "no",
+    "TimeoutStopUSec": "1min",
+    "RuntimeMaxUSec": "2h 58min 55s",
+    "MainPID": "1347368",
+    "Result": "success",
+    "ControlGroup": "/user.slice/user-1007.slice/user@1007.service/app.slice/codex-cap-brlwe-goal-routes-20260907-astra-ultra-c5bc23d93e2c.service",
+    "KillMode": "control-group",
+    "SendSIGKILL": "yes",
+    "ActiveState": "active",
+    "SubState": "running"
+  },
+  "processes": {
+    "worker_pid": {
+      "pid": 1347368,
+      "cgroup": "0::/user.slice/user-1007.slice/user@1007.service/app.slice/codex-cap-brlwe-goal-routes-20260907-astra-ultra-c5bc23d93e2c.service",
+      "within_run_cgroup": true
+    },
+    "codex_pid": {
+      "pid": 1347523,
+      "cgroup": "0::/user.slice/user-1007.slice/user@1007.service/app.slice/codex-cap-brlwe-goal-routes-20260907-astra-ultra-c5bc23d93e2c.service",
+      "within_run_cgroup": true
+    }
+  },
+  "cap_seconds": 10800,
+  "started_at": "2026-09-07T21:34:27.111419+00:00",
+  "wrapup_at": "2026-09-08T00:14:27.111419+00:00",
+  "hard_deadline_at": "2026-09-08T00:34:27.111419+00:00",
+  "in_service_sandbox_preflight": {
+    "bwrap_gid": 999,
+    "bwrap_group": "codex-bwrap",
+    "bwrap_mode": "0750",
+    "bwrap_path": "/usr/bin/bwrap",
+    "bwrap_uid": 0,
+    "bwrap_version": "bubblewrap 0.9.0",
+    "codex_sandbox_exit": 0,
+    "current_group_ids": [
+      100,
+      999,
+      1002,
+      1007
+    ],
+    "gate_gid": 999,
+    "gate_group": "codex-bwrap",
+    "tmux_server_pids": [
+      587234
+    ]
+  }
+}

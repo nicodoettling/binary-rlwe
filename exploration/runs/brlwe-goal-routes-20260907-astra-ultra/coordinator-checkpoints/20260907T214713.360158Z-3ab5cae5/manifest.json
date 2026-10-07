@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20260907T214713.360158Z-3ab5cae5",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-09-07T21:47:13.360180+00:00",
+  "reason": "Integrated all three initial exact-control results and source-budget distinctions; proof-only exact Gaussian simplification recorded",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 2763,
+      "sha256": "aaf44f1dd0e76c1870afa8282498db4ac582b80c347e93e0730db8673224f093"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 1710,
+      "sha256": "b6ae6e0a7d2fdce12eeec652920a9eb012d858663d6624b0de9fc8b3def3b11b"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 2721,
+      "sha256": "5cf454da0739ba93cfb46a1ed8e668305d91253077080f78f7f6cd3b1968b19f"
+    },
+    {
+      "path": "final.md",
+      "bytes": 2666,
+      "sha256": "c5bac0a658903caf737278232341aed846000c44dedc8f9c25ef3c69ced7b40e"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 734,
+      "sha256": "ae04f85270493c3450e3eb18a1ef82a1e4e77110f4c09c6bbf4ae3f121eb85dd"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

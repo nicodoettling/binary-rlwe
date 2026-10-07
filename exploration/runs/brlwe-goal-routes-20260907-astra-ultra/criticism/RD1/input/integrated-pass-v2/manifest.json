@@ -1,0 +1,973 @@
+{
+  "started_at": "2026-09-07T22:32:07.282354+00:00",
+  "finished_at": "2026-09-07T22:32:07.306404+00:00",
+  "scope": "Administrative byte/version/link checks only; mathematical and endpoint review is in RD1 report. No finite mathematical experiment or source-hardness test.",
+  "all_passed": true,
+  "claim_statuses": {
+    "SOURCE-2": {
+      "version": 1,
+      "status": "PROVISIONAL"
+    },
+    "PRIME-POLY": {
+      "version": 1,
+      "status": "PROVISIONAL"
+    },
+    "NC-RECT": {
+      "version": 1,
+      "status": "PROVISIONAL"
+    },
+    "A-GUESS": {
+      "version": 1,
+      "status": "PROVISIONAL"
+    },
+    "MASK-TAIL": {
+      "version": 1,
+      "status": "PROVISIONAL"
+    },
+    "SAMP-E": {
+      "version": 1,
+      "status": "PROVISIONAL"
+    },
+    "A-FINITE": {
+      "version": 1,
+      "status": "PROVISIONAL"
+    },
+    "A-PPT": {
+      "version": 2,
+      "status": "REPAIRED-PENDING-RECHECK"
+    },
+    "B-SPLIT": {
+      "version": 1,
+      "status": "PROVISIONAL"
+    },
+    "C-LARGE-Q": {
+      "version": 1,
+      "status": "PROVISIONAL"
+    },
+    "C-SPAN": {
+      "version": 1,
+      "status": "PROVISIONAL"
+    }
+  },
+  "checks": [
+    {
+      "name": "inherited service hard cap",
+      "passed": true,
+      "detail": "2026-09-08T00:34:27.111419+00:00"
+    },
+    {
+      "name": "unique claim identifiers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "graph versions, proof paths and accepted review receipts",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "acyclic current graph",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "exact theorem, proofs and complete referee hashes",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "delivery candidate equals reviewed author bytes",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "blind freeze declaration and theorem hash",
+      "passed": true,
+      "detail": {
+        "frozen_at": "2026-09-07T22:15:09.955862+00:00"
+      }
+    },
+    {
+      "name": "complete RB1 frozen-artifact hashes",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "complete RF1 frozen-artifact hashes",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "RS1 review inputs equal delivered versions",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "coordinator frozen-evidence manifest",
+      "passed": true,
+      "detail": {
+        "files": 104,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "delivery local Markdown link targets",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "claim history JSONL parses",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "per-claim proof and review receipt hashes",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "all imported historical regression IDs map to exact referee rows",
+      "passed": true,
+      "detail": {
+        "imported": 40,
+        "mapped": 40,
+        "missing": [],
+        "extra": [],
+        "bad_rows": []
+      }
+    },
+    {
+      "name": "read snapshot remained stable through check",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "inputs": {
+    "launcher-run.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/launcher-run.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/launcher-run.json",
+      "sha256": "b10b1b538f542ff87504e2bbd38b31811ee6d704503761c19eed06f7e8b6cef8",
+      "bytes": 3446,
+      "read_utc": "2026-09-07T22:32:07.282488+00:00"
+    },
+    "run.log.brlwe-goal-routes-20260907-astra-ultra.cap-status.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/run.log.brlwe-goal-routes-20260907-astra-ultra.cap-status.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/run.log.brlwe-goal-routes-20260907-astra-ultra.cap-status.json",
+      "sha256": "f3da6abf79f3c9b0ac5b102d056e6629be38d70eac3ef4796f0042b54a9cfbe0",
+      "bytes": 3002,
+      "read_utc": "2026-09-07T22:32:07.282715+00:00"
+    },
+    "final.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/final.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/final.md",
+      "sha256": "cbb594385542a3275769ae24de8168f87416d0e786e8295d904de9d43063c70e",
+      "bytes": 13340,
+      "read_utc": "2026-09-07T22:32:07.282884+00:00"
+    },
+    "resume.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/resume.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/resume.md",
+      "sha256": "be3ee753fa652ba4b74f60535ee9f08f114b69cfb963d55c79dd5c437e3528b8",
+      "bytes": 13648,
+      "read_utc": "2026-09-07T22:32:07.283021+00:00"
+    },
+    "parameter-table.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/parameter-table.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/parameter-table.md",
+      "sha256": "b37922b509d3336b519ff430b7aa51dd684c0dc7a8716afa3f713861c018ac48",
+      "bytes": 2039,
+      "read_utc": "2026-09-07T22:32:07.283140+00:00"
+    },
+    "source-comparison.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/source-comparison.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/source-comparison.md",
+      "sha256": "081ed3f90922cce2fbc7a0d8338252b47848c4da59f79e8ee8a200dd8aa1576a",
+      "bytes": 2120,
+      "read_utc": "2026-09-07T22:32:07.283254+00:00"
+    },
+    "claims.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/claims.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/claims.json",
+      "sha256": "e4ab92ca59da63bfc0735f795941b162d831d290cfe31fa415034e71dc41f2f4",
+      "bytes": 13848,
+      "read_utc": "2026-09-07T22:32:07.283376+00:00"
+    },
+    "reconciliation.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/reconciliation.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/reconciliation.md",
+      "sha256": "c47c9df2082e217a05844ae4f25017ed8f6d8ae2266643a9a4c798ee9b9918bf",
+      "bytes": 4226,
+      "read_utc": "2026-09-07T22:32:07.283491+00:00"
+    },
+    "regressions.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/regressions.json",
+      "sha256": "c57c57de8f9a45f77d3b5c1c090c97351900990c4722fc0ed7fffb0977e9ad7c",
+      "bytes": 58474,
+      "read_utc": "2026-09-07T22:32:07.283746+00:00"
+    },
+    "experiments/registry.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/experiments/registry.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/experiments/registry.json",
+      "sha256": "d2fb282f0ac3532f9e46307a84a09ab1aaf565be7d3f527c002c80c284286b14",
+      "bytes": 3354,
+      "read_utc": "2026-09-07T22:32:07.283910+00:00"
+    },
+    "claim-history.jsonl": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/claim-history.jsonl",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/claim-history.jsonl",
+      "sha256": "6fb3480ef788839f917f5b2a790a972fc12d5d47f992d2af41e0a22dec030b9f",
+      "bytes": 3062,
+      "read_utc": "2026-09-07T22:32:07.284019+00:00"
+    },
+    "coordinator/source-and-parameters-v1.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/coordinator/source-and-parameters-v1.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/coordinator/source-and-parameters-v1.md",
+      "sha256": "131e6a3feec87010007a30ddc1e37bdec44687648120bfe1e8c5187e6e779f50",
+      "bytes": 5498,
+      "read_utc": "2026-09-07T22:32:07.284256+00:00"
+    },
+    "coordinator/rectangular-completion-v1.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/coordinator/rectangular-completion-v1.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/coordinator/rectangular-completion-v1.md",
+      "sha256": "d66a1ea3e1c61990c77380de60c39b00a3097ab111407aedc610cfbe34c70163",
+      "bytes": 5913,
+      "read_utc": "2026-09-07T22:32:07.284401+00:00"
+    },
+    "candidates/search/proof-v1.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/candidates/search/proof-v1.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/candidates/search/proof-v1.md",
+      "sha256": "198c36bce9a73b87f2e1f5cf644d7e96b13cda063922f1ab10b0b2ee60114042",
+      "bytes": 28375,
+      "read_utc": "2026-09-07T22:32:07.284596+00:00"
+    },
+    "candidates/search/supplement-v1.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/candidates/search/supplement-v1.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/candidates/search/supplement-v1.md",
+      "sha256": "71752406e81e327b5c47d0d118ea9bc6aa0f87566d23345daf290a7b8322410a",
+      "bytes": 4072,
+      "read_utc": "2026-09-07T22:32:07.284738+00:00"
+    },
+    "candidates/search/theorem-only-v2.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/candidates/search/theorem-only-v2.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/candidates/search/theorem-only-v2.md",
+      "sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124",
+      "bytes": 5100,
+      "read_utc": "2026-09-07T22:32:07.284878+00:00"
+    },
+    "workers/B1/proof-v1.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/B1/proof-v1.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/B1/proof-v1.md",
+      "sha256": "664460e15f77cb225344fbf87d73a2a0056bafbef124b882649798e945d5c820",
+      "bytes": 20004,
+      "read_utc": "2026-09-07T22:32:07.285057+00:00"
+    },
+    "workers/C1/larger-q-theorem-v1.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/C1/larger-q-theorem-v1.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/C1/larger-q-theorem-v1.md",
+      "sha256": "8b4c3f83a8b8c120c7a01eeb05731ea4fdf5d3d092ccf7d288956662e19c95e8",
+      "bytes": 16441,
+      "read_utc": "2026-09-07T22:32:07.285211+00:00"
+    },
+    "workers/C1/source-transfer-v1.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/C1/source-transfer-v1.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/C1/source-transfer-v1.md",
+      "sha256": "25ae59dcda887083d943e4d456f15a33c7929a3856aeef9fc84bb90ec44763b4",
+      "bytes": 10120,
+      "read_utc": "2026-09-07T22:32:07.285336+00:00"
+    },
+    "criticism/RB1/blind-report-v1.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RB1/blind-report-v1.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RB1/blind-report-v1.md",
+      "sha256": "c95e83a3a53cd589d2f2bf731ead33b35857af33edea28f1f3a0f8b722061b2d",
+      "bytes": 25188,
+      "read_utc": "2026-09-07T22:32:07.285703+00:00"
+    },
+    "criticism/RS1/report-v1.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RS1/report-v1.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RS1/report-v1.md",
+      "sha256": "f04881cf65af51b7079fd59b785e9ca2d8cbc53fb710c06e0b823ae31cc20785",
+      "bytes": 29045,
+      "read_utc": "2026-09-07T22:32:07.285885+00:00"
+    },
+    "criticism/RF1/report-v1.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RF1/report-v1.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RF1/report-v1.md",
+      "sha256": "ff7a034fa2d8be726a0940801a45697f082c342e786d3fd47a7674bd87b91c64",
+      "bytes": 32787,
+      "read_utc": "2026-09-07T22:32:07.286071+00:00"
+    },
+    "workers/A1/theorem-only-v2.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/A1/theorem-only-v2.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/A1/theorem-only-v2.md",
+      "sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124",
+      "bytes": 5100,
+      "read_utc": "2026-09-07T22:32:07.286236+00:00"
+    },
+    "workers/A1/proof-v1.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/A1/proof-v1.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/A1/proof-v1.md",
+      "sha256": "198c36bce9a73b87f2e1f5cf644d7e96b13cda063922f1ab10b0b2ee60114042",
+      "bytes": 28375,
+      "read_utc": "2026-09-07T22:32:07.286400+00:00"
+    },
+    "workers/A1/supplement-v1.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/A1/supplement-v1.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/A1/supplement-v1.md",
+      "sha256": "71752406e81e327b5c47d0d118ea9bc6aa0f87566d23345daf290a7b8322410a",
+      "bytes": 4072,
+      "read_utc": "2026-09-07T22:32:07.286537+00:00"
+    },
+    "criticism/RB1/freeze-v1.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RB1/freeze-v1.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RB1/freeze-v1.json",
+      "sha256": "253d8a48c046595652cd4cf68c4b2decbf2101532ec9cd61d4d8b2d82d42612b",
+      "bytes": 2060,
+      "read_utc": "2026-09-07T22:32:07.286672+00:00"
+    },
+    "criticism/RB1/assignment.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RB1/assignment.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RB1/assignment.md",
+      "sha256": "0986b5e5b69bcb8e6b8fc6bb5ad019461026f39e5a9ce2ba1f89f63e0e0cea8c",
+      "bytes": 5113,
+      "read_utc": "2026-09-07T22:32:07.286809+00:00"
+    },
+    "criticism/RB1/input/theorem-only-v2.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RB1/input/theorem-only-v2.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RB1/input/theorem-only-v2.md",
+      "sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124",
+      "bytes": 5100,
+      "read_utc": "2026-09-07T22:32:07.286941+00:00"
+    },
+    "criticism/RB1/source-manifest-v1.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RB1/source-manifest-v1.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RB1/source-manifest-v1.json",
+      "sha256": "30ba4dec1d64bc32dbc5bc599c29589df895dbff34cf7f67bd8d99351c615731",
+      "bytes": 2106,
+      "read_utc": "2026-09-07T22:32:07.287052+00:00"
+    },
+    "criticism/RB1/finite-controls-v1.py": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RB1/finite-controls-v1.py",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RB1/finite-controls-v1.py",
+      "sha256": "25c00b5225e78ac3f0c30e2c65c8fc7572bae735b1973396835db5a12587bab5",
+      "bytes": 4882,
+      "read_utc": "2026-09-07T22:32:07.287215+00:00"
+    },
+    "criticism/RB1/finite-controls-v1.results.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RB1/finite-controls-v1.results.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RB1/finite-controls-v1.results.json",
+      "sha256": "9084cc3419f69175695b63489d79ab2284edc7e029ce208ff7fc1cbd1bdd2360",
+      "bytes": 3417,
+      "read_utc": "2026-09-07T22:32:07.287323+00:00"
+    },
+    "criticism/RB1/finite-controls-v2.py": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RB1/finite-controls-v2.py",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RB1/finite-controls-v2.py",
+      "sha256": "c4451126b82b0b30bb9422dd09f91aa048a036c975a4d41539d9eba80877c592",
+      "bytes": 3003,
+      "read_utc": "2026-09-07T22:32:07.287433+00:00"
+    },
+    "criticism/RB1/finite-controls-v2.results.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RB1/finite-controls-v2.results.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RB1/finite-controls-v2.results.json",
+      "sha256": "8c4fbc0f8b12ddc4a3af3873c50e6272158bd860a54efbb8bc15f11a1710157a",
+      "bytes": 1177,
+      "read_utc": "2026-09-07T22:32:07.287538+00:00"
+    },
+    "criticism/RB1/partial-v1.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RB1/partial-v1.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RB1/partial-v1.md",
+      "sha256": "ca2fe20c7e794b4d4c15921c5cbab6ce5bf6c0676760a4e8b55f3bb78f251cd9",
+      "bytes": 3510,
+      "read_utc": "2026-09-07T22:32:07.287645+00:00"
+    },
+    "criticism/RB1/partial-v2.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RB1/partial-v2.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RB1/partial-v2.md",
+      "sha256": "4257ca73881b672c7922ed8668d8561a195cf2594695e7ffb15e72f80d114db2",
+      "bytes": 2028,
+      "read_utc": "2026-09-07T22:32:07.287754+00:00"
+    },
+    "criticism/RF1/artifact-manifest-v1.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RF1/artifact-manifest-v1.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RF1/artifact-manifest-v1.json",
+      "sha256": "0b0360526852e5d4191eaba23db6a21e4e429d67cf8ff55a866d938293a52588",
+      "bytes": 2098,
+      "read_utc": "2026-09-07T22:32:07.287867+00:00"
+    },
+    "criticism/RF1/assignment.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RF1/assignment.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RF1/assignment.md",
+      "sha256": "8c1df993e2545796aadd7a86d0b6af9fcaa146e2db11c91b57bd1adea25b4e8a",
+      "bytes": 5913,
+      "read_utc": "2026-09-07T22:32:07.287998+00:00"
+    },
+    "criticism/RF1/author-controls-copy-v1.py": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RF1/author-controls-copy-v1.py",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RF1/author-controls-copy-v1.py",
+      "sha256": "09fa4d72a73705561cdb08ee68929b250d5418b4bcc200006523c6b15a16353e",
+      "bytes": 5355,
+      "read_utc": "2026-09-07T22:32:07.288121+00:00"
+    },
+    "criticism/RF1/commands-and-results-v1.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RF1/commands-and-results-v1.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RF1/commands-and-results-v1.json",
+      "sha256": "8aba8035aec4d60bb79d5690f33db9633fed55e16267d8ad95a84d7421d3e98c",
+      "bytes": 3278,
+      "read_utc": "2026-09-07T22:32:07.288240+00:00"
+    },
+    "criticism/RF1/exact-search-v1.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RF1/exact-search-v1.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RF1/exact-search-v1.json",
+      "sha256": "124e8fda394b7b42d0b9a911c0fdd4fbd08d2310dab6f5bfdb0fecbee376a9dd",
+      "bytes": 2310,
+      "read_utc": "2026-09-07T22:32:07.288347+00:00"
+    },
+    "criticism/RF1/exact-search-v1.py": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RF1/exact-search-v1.py",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RF1/exact-search-v1.py",
+      "sha256": "6a20bb60a805806edb8afe4bbaacb741c9afd9d549d4fdaefe0d2243b37b8119",
+      "bytes": 6371,
+      "read_utc": "2026-09-07T22:32:07.288470+00:00"
+    },
+    "criticism/RF1/exact_controls_v1.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RF1/exact_controls_v1.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RF1/exact_controls_v1.json",
+      "sha256": "d8f915386b3df4eb97ebe6f04e4d969ad83c6236025e54aab88478eec42178d1",
+      "bytes": 3283,
+      "read_utc": "2026-09-07T22:32:07.288582+00:00"
+    },
+    "criticism/RF1/historical-input-hashes-v1.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RF1/historical-input-hashes-v1.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RF1/historical-input-hashes-v1.json",
+      "sha256": "cb259ec8b68d465f18807a55160c4d30c072e783846a220262c4b382a1b1e4f6",
+      "bytes": 11913,
+      "read_utc": "2026-09-07T22:32:07.288702+00:00"
+    },
+    "criticism/RF1/input-hashes-v1.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RF1/input-hashes-v1.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RF1/input-hashes-v1.json",
+      "sha256": "e45ab9ad6df1b297c6d80854f26a266b615cfebad646eacbfeec96ab26da7236",
+      "bytes": 3923,
+      "read_utc": "2026-09-07T22:32:07.288819+00:00"
+    },
+    "criticism/RF1/integrity-final-v1.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RF1/integrity-final-v1.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RF1/integrity-final-v1.json",
+      "sha256": "5425658959dce2f6c4b316e438f3ccc782741c1138e64f14117e8ad25d861331",
+      "bytes": 31438,
+      "read_utc": "2026-09-07T22:32:07.288959+00:00"
+    },
+    "criticism/RF1/interface-controls-v1.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RF1/interface-controls-v1.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RF1/interface-controls-v1.json",
+      "sha256": "49e325521afb279bfcba31f480ff05a7f24f0fa21ac3b5b9013aa9fd2add1bf6",
+      "bytes": 1298,
+      "read_utc": "2026-09-07T22:32:07.289082+00:00"
+    },
+    "criticism/RF1/interface-controls-v1.py": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RF1/interface-controls-v1.py",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RF1/interface-controls-v1.py",
+      "sha256": "2fee329796cadff12fa72056e684c5fd7d057f835c8383951f04ec20f65d07fb",
+      "bytes": 3309,
+      "read_utc": "2026-09-07T22:32:07.289201+00:00"
+    },
+    "criticism/RF1/partial-v1.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RF1/partial-v1.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RF1/partial-v1.md",
+      "sha256": "db5527f137a79c14729901e889b354dd7cdc540309648c71d35007002e64ee2c",
+      "bytes": 2261,
+      "read_utc": "2026-09-07T22:32:07.289308+00:00"
+    },
+    "criticism/RF1/partial-v2.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RF1/partial-v2.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RF1/partial-v2.md",
+      "sha256": "acb9141aa121a9e24ee2f134aed1e17d9179b16965fc1d339b8b148749ba9662",
+      "bytes": 2496,
+      "read_utc": "2026-09-07T22:32:07.289411+00:00"
+    },
+    "criticism/RF1/partial-v3.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RF1/partial-v3.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RF1/partial-v3.md",
+      "sha256": "1b80127188a6545822f7ef89940e35bc8334fed0dbf0fb96145ccbe054571064",
+      "bytes": 2039,
+      "read_utc": "2026-09-07T22:32:07.289514+00:00"
+    },
+    "criticism/RF1/primary-response-v1.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RF1/primary-response-v1.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RF1/primary-response-v1.json",
+      "sha256": "53083debbeb3dca1e721d4db07b7d5e5220aab0fcfa660d540f74ea6456c40b9",
+      "bytes": 18032,
+      "read_utc": "2026-09-07T22:32:07.289638+00:00"
+    },
+    "criticism/RF1/rectangular-control-v1.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RF1/rectangular-control-v1.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RF1/rectangular-control-v1.json",
+      "sha256": "28f7b0cf2d2da66e5c43472f72b5a7283e98009799b9a0508cd57cfc4a75462f",
+      "bytes": 2841,
+      "read_utc": "2026-09-07T22:32:07.289753+00:00"
+    },
+    "criticism/RF1/rectangular-control-v1.py": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RF1/rectangular-control-v1.py",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RF1/rectangular-control-v1.py",
+      "sha256": "e5e9ed0875c6fd2134d3eb26c035a9cbe532693438ca2e5be105edbc1621ddc9",
+      "bytes": 5500,
+      "read_utc": "2026-09-07T22:32:07.289863+00:00"
+    },
+    "criticism/RF1/source-d1-limitation-v1.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RF1/source-d1-limitation-v1.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RF1/source-d1-limitation-v1.md",
+      "sha256": "786bcaa3d5dbf931e34d914133b69c688b73be87fa0f215fd46bc0319a2d65b3",
+      "bytes": 2037,
+      "read_utc": "2026-09-07T22:32:07.290015+00:00"
+    },
+    "criticism/RS1/input-hashes.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RS1/input-hashes.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RS1/input-hashes.json",
+      "sha256": "2c1f0e676b0d8e37492e158a04224968b32c5f394109af9108a95dd8139fc331",
+      "bytes": 1344,
+      "read_utc": "2026-09-07T22:32:07.290126+00:00"
+    },
+    "criticism/RS1/delivery-verification.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RS1/delivery-verification.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RS1/delivery-verification.json",
+      "sha256": "d27137219547c23905780f4bb6fecac8998d891c81e056bb30763e019bd61cb0",
+      "bytes": 8425,
+      "read_utc": "2026-09-07T22:32:07.290630+00:00"
+    },
+    "criticism/RS1/additional-input-hashes.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RS1/additional-input-hashes.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RS1/additional-input-hashes.json",
+      "sha256": "125757793d43a7e1b5a69f2d34371fe8b88799bc826aca3ea71e40a6b7281cee",
+      "bytes": 7575,
+      "read_utc": "2026-09-07T22:32:07.290760+00:00"
+    },
+    "coordinator/frozen-evidence.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/coordinator/frozen-evidence.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/coordinator/frozen-evidence.json",
+      "sha256": "e13f5c48a185a581e9ec6f887ae1eed01564a86895c6072d4ccfac56870cee9f",
+      "bytes": 15558,
+      "read_utc": "2026-09-07T22:32:07.290900+00:00"
+    },
+    "coordinator/frozen-inputs-v1.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/coordinator/frozen-inputs-v1.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/coordinator/frozen-inputs-v1.json",
+      "sha256": "b18e0ef83d2fafaaef2bd03900130e2a24e4cf0d8794b2df80d77a97c03aa63d",
+      "bytes": 597,
+      "read_utc": "2026-09-07T22:32:07.291012+00:00"
+    },
+    "coordinator/check-artifacts-v1.py": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/coordinator/check-artifacts-v1.py",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/coordinator/check-artifacts-v1.py",
+      "sha256": "6dedc665422c35f00b48b71feead16980e6d2e9baff1f696da8776b82291ccf4",
+      "bytes": 5930,
+      "read_utc": "2026-09-07T22:32:07.291136+00:00"
+    },
+    "coordinator/A-PPT-ledger-v1-rejected.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/coordinator/A-PPT-ledger-v1-rejected.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/coordinator/A-PPT-ledger-v1-rejected.json",
+      "sha256": "213a5ecd57b1a4f5a99d7267470c5854dff7500020cc8ec1ee93cd4474a2213b",
+      "bytes": 781,
+      "read_utc": "2026-09-07T22:32:07.291475+00:00"
+    },
+    "coordinator/A-PPT-ledger-v1-scope-defect.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/coordinator/A-PPT-ledger-v1-scope-defect.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/coordinator/A-PPT-ledger-v1-scope-defect.md",
+      "sha256": "47d5816c48ee81507b9b8f39bccbcedaa0f151ddc8f54a03b5fe8233ed1d9431",
+      "bytes": 1377,
+      "read_utc": "2026-09-07T22:32:07.291591+00:00"
+    },
+    "coordinator/A-PPT-ledger-v2.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/coordinator/A-PPT-ledger-v2.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/coordinator/A-PPT-ledger-v2.json",
+      "sha256": "e8ac045319cc40b0979cc54a3bd4e6c659badefdeee25dff221fe96cfc680447",
+      "bytes": 1513,
+      "read_utc": "2026-09-07T22:32:07.291702+00:00"
+    },
+    "coordinator/HANDOFF-observed-v1.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/coordinator/HANDOFF-observed-v1.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/coordinator/HANDOFF-observed-v1.md",
+      "sha256": "c2272c8377f7e777aedce8dcd7374c76dad0f32a7082378cade62ceebd252bcf",
+      "bytes": 18275,
+      "read_utc": "2026-09-07T22:32:07.291837+00:00"
+    },
+    "coordinator/artifact-check-interim-v1.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/coordinator/artifact-check-interim-v1.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/coordinator/artifact-check-interim-v1.json",
+      "sha256": "ea3ca469091abc7b1f188c904423e913c82ea325b41a54a371a86bc68a1cfddd",
+      "bytes": 2491,
+      "read_utc": "2026-09-07T22:32:07.291963+00:00"
+    },
+    "coordinator/artifact-check-interim-v2.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/coordinator/artifact-check-interim-v2.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/coordinator/artifact-check-interim-v2.json",
+      "sha256": "cb9b992b57fb438fdd48b7f33721c4e57dddbae0110ffac6a8a827670a07801c",
+      "bytes": 3026,
+      "read_utc": "2026-09-07T22:32:07.292084+00:00"
+    },
+    "coordinator/check-artifacts-v2.py": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/coordinator/check-artifacts-v2.py",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/coordinator/check-artifacts-v2.py",
+      "sha256": "e6bacafebcac647d991dcedacdc4dacdf632aa9d14ed8d4a6d2bbbe81d8cfb86",
+      "bytes": 6870,
+      "read_utc": "2026-09-07T22:32:07.292250+00:00"
+    },
+    "coordinator/checkpoint-cadence-v1.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/coordinator/checkpoint-cadence-v1.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/coordinator/checkpoint-cadence-v1.json",
+      "sha256": "ca99d433eb9a808650164e88ffb8282d8c1f4946ae0ffc682dbd1a5848311cf4",
+      "bytes": 3776,
+      "read_utc": "2026-09-07T22:32:07.292368+00:00"
+    },
+    "coordinator/delivery-scientific-v1.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/coordinator/delivery-scientific-v1.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/coordinator/delivery-scientific-v1.md",
+      "sha256": "4278ed3685d1eaa179f236196c7fcb8f60dcfb51149616acd47fb3e5d8da31d6",
+      "bytes": 11225,
+      "read_utc": "2026-09-07T22:32:07.292501+00:00"
+    },
+    "coordinator/launch-receipt-observed-v1.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/coordinator/launch-receipt-observed-v1.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/coordinator/launch-receipt-observed-v1.json",
+      "sha256": "bb93c23a142fd8c8418bfe3f2d9c3348c43677c7f69fe26333b303cc8ec74eef",
+      "bytes": 2060,
+      "read_utc": "2026-09-07T22:32:07.292623+00:00"
+    },
+    "coordinator/metadata-change-observation-v1.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/coordinator/metadata-change-observation-v1.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/coordinator/metadata-change-observation-v1.json",
+      "sha256": "4371a635a3b2b9ff4e981811e7c0659f694f5712a6c534c081854e6911247a63",
+      "bytes": 16514,
+      "read_utc": "2026-09-07T22:32:07.292761+00:00"
+    },
+    "coordinator/primary-browser-record-v1.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/coordinator/primary-browser-record-v1.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/coordinator/primary-browser-record-v1.json",
+      "sha256": "fddb783eb9e759c1794771e6ea2d5b98deb346176f16b50229af6d52f80f8bf7",
+      "bytes": 19894,
+      "read_utc": "2026-09-07T22:32:07.292909+00:00"
+    },
+    "coordinator/run-config-observed-v1.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/coordinator/run-config-observed-v1.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/coordinator/run-config-observed-v1.json",
+      "sha256": "10ec7d73a680abb7181f85e491f685934dd5c3ec92709163aadd40ecb43c47b9",
+      "bytes": 3316,
+      "read_utc": "2026-09-07T22:32:07.293074+00:00"
+    },
+    "criticism/RB1/SHA256SUMS-v1": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RB1/SHA256SUMS-v1",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RB1/SHA256SUMS-v1",
+      "sha256": "1a17fe11fe055d5db5edf013c3b2cc42d26047eda30867e3a8163866268e429f",
+      "bytes": 878,
+      "read_utc": "2026-09-07T22:32:07.293243+00:00"
+    },
+    "criticism/RB1/blind-report-draft-v1.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RB1/blind-report-draft-v1.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RB1/blind-report-draft-v1.md",
+      "sha256": "c95e83a3a53cd589d2f2bf731ead33b35857af33edea28f1f3a0f8b722061b2d",
+      "bytes": 25188,
+      "read_utc": "2026-09-07T22:32:07.293428+00:00"
+    },
+    "criticism/RB1/input/SHA256SUMS": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RB1/input/SHA256SUMS",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RB1/input/SHA256SUMS",
+      "sha256": "1c71926afe6523d8b86f74ce5714cfd137230d0f586b810386a14e459a0021ca",
+      "bytes": 85,
+      "read_utc": "2026-09-07T22:32:07.293799+00:00"
+    },
+    "criticism/RS1/assignment.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RS1/assignment.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RS1/assignment.md",
+      "sha256": "2e93c843da347c3cea697b43a51029c599824acb6e9e77e67ec866a0a0c93aaf",
+      "bytes": 6327,
+      "read_utc": "2026-09-07T22:32:07.294923+00:00"
+    },
+    "criticism/RS1/input/proof-v1.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RS1/input/proof-v1.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RS1/input/proof-v1.md",
+      "sha256": "198c36bce9a73b87f2e1f5cf644d7e96b13cda063922f1ab10b0b2ee60114042",
+      "bytes": 28375,
+      "read_utc": "2026-09-07T22:32:07.295177+00:00"
+    },
+    "criticism/RS1/input/source-and-parameters-v1.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RS1/input/source-and-parameters-v1.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RS1/input/source-and-parameters-v1.md",
+      "sha256": "131e6a3feec87010007a30ddc1e37bdec44687648120bfe1e8c5187e6e779f50",
+      "bytes": 5498,
+      "read_utc": "2026-09-07T22:32:07.295322+00:00"
+    },
+    "criticism/RS1/input/supplement-v1.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RS1/input/supplement-v1.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RS1/input/supplement-v1.md",
+      "sha256": "71752406e81e327b5c47d0d118ea9bc6aa0f87566d23345daf290a7b8322410a",
+      "bytes": 4072,
+      "read_utc": "2026-09-07T22:32:07.295442+00:00"
+    },
+    "criticism/RS1/input/theorem-only-v2.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RS1/input/theorem-only-v2.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RS1/input/theorem-only-v2.md",
+      "sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124",
+      "bytes": 5100,
+      "read_utc": "2026-09-07T22:32:07.295565+00:00"
+    },
+    "criticism/RS1/partial-1.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RS1/partial-1.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/criticism/RS1/partial-1.md",
+      "sha256": "a2351db353a7099f24acf58bbdfb9456ed1a9e637c0fb1aa7c1a4db02f3c108e",
+      "bytes": 3153,
+      "read_utc": "2026-09-07T22:32:07.295683+00:00"
+    },
+    "experiments/rectangular-identities-v1.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/experiments/rectangular-identities-v1.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/experiments/rectangular-identities-v1.json",
+      "sha256": "0dd3d0bc968235bb7b846909be42e8124d9de9964624f63f5472da96292be041",
+      "bytes": 1199,
+      "read_utc": "2026-09-07T22:32:07.295848+00:00"
+    },
+    "experiments/rectangular-identities-v1.py": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/experiments/rectangular-identities-v1.py",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/experiments/rectangular-identities-v1.py",
+      "sha256": "c60ed05d8580c00b134d7de3af7f1483025105f97fbba0e7d309f5fce3e95b27",
+      "bytes": 2570,
+      "read_utc": "2026-09-07T22:32:07.295965+00:00"
+    },
+    "workers/A1/artifact-manifest-v1.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/A1/artifact-manifest-v1.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/A1/artifact-manifest-v1.json",
+      "sha256": "c67bda9fb06b5c81297b4cd68e34db03dfdd67c1e53735dd8e0d8ae9aa136411",
+      "bytes": 1332,
+      "read_utc": "2026-09-07T22:32:07.296079+00:00"
+    },
+    "workers/A1/assignment.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/A1/assignment.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/A1/assignment.md",
+      "sha256": "dcdd2bb183df9adba8b25dbe9089b7d0fe0d2aa775a71b327c955ad71122f1b4",
+      "bytes": 5307,
+      "read_utc": "2026-09-07T22:32:07.296208+00:00"
+    },
+    "workers/A1/claims.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/A1/claims.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/A1/claims.json",
+      "sha256": "f2084c297dbd09dcc1920d878966869068a11ae64d4b93c2f8edc9988e9a8584",
+      "bytes": 2316,
+      "read_utc": "2026-09-07T22:32:07.296327+00:00"
+    },
+    "workers/A1/exact_controls_v1.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/A1/exact_controls_v1.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/A1/exact_controls_v1.json",
+      "sha256": "1891321654560d5dd4c3dab8a9490e6a9a63ad8846cf338f98d658f8e8db509c",
+      "bytes": 3281,
+      "read_utc": "2026-09-07T22:32:07.296446+00:00"
+    },
+    "workers/A1/exact_controls_v1.py": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/A1/exact_controls_v1.py",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/A1/exact_controls_v1.py",
+      "sha256": "09fa4d72a73705561cdb08ee68929b250d5418b4bcc200006523c6b15a16353e",
+      "bytes": 5355,
+      "read_utc": "2026-09-07T22:32:07.296567+00:00"
+    },
+    "workers/A1/final.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/A1/final.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/A1/final.md",
+      "sha256": "8f5bbaf6acdc92b5da4110932ddad508665bc72db3dfc855bd5b87115b32b258",
+      "bytes": 3765,
+      "read_utc": "2026-09-07T22:32:07.296688+00:00"
+    },
+    "workers/A1/frozen-theorem-v1.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/A1/frozen-theorem-v1.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/A1/frozen-theorem-v1.md",
+      "sha256": "cf81bffcac7bc644356fa7f92e3cccdfa4b8b494c448029d572e68df9d02679d",
+      "bytes": 4944,
+      "read_utc": "2026-09-07T22:32:07.296806+00:00"
+    },
+    "workers/A1/integrity-check-v1.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/A1/integrity-check-v1.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/A1/integrity-check-v1.json",
+      "sha256": "e324478ce1ade6a48ecb9259395186c7587b8e2153c90a43f3b82c1fffc76d74",
+      "bytes": 657,
+      "read_utc": "2026-09-07T22:32:07.296919+00:00"
+    },
+    "workers/A1/progress.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/A1/progress.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/A1/progress.md",
+      "sha256": "dcd6788a4993a5c1b6eba5de0aa0c58b24fbdf1cb15afaab6ab70f19090c1716",
+      "bytes": 1791,
+      "read_utc": "2026-09-07T22:32:07.297034+00:00"
+    },
+    "workers/A1/source-access.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/A1/source-access.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/A1/source-access.md",
+      "sha256": "f72816a39654a61a013105b1caf1347ab95f3f74e42ca2d6b6263b8c3dc4b271",
+      "bytes": 1527,
+      "read_utc": "2026-09-07T22:32:07.297227+00:00"
+    },
+    "workers/A1/theorem-only-v1.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/A1/theorem-only-v1.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/A1/theorem-only-v1.md",
+      "sha256": "c0f4fd514c0f3846445ce3b01226ba2d81d69b86b3252ede709101a1883e7e80",
+      "bytes": 7902,
+      "read_utc": "2026-09-07T22:32:07.297387+00:00"
+    },
+    "workers/B1/assignment.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/B1/assignment.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/B1/assignment.md",
+      "sha256": "12e72989ffec4cb2e6ebfd37ca56b99dc5687b5be2773b8be0a6c1b7c83a088d",
+      "bytes": 5234,
+      "read_utc": "2026-09-07T22:32:07.297554+00:00"
+    },
+    "workers/B1/cap-before-exact-v1.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/B1/cap-before-exact-v1.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/B1/cap-before-exact-v1.json",
+      "sha256": "f3da6abf79f3c9b0ac5b102d056e6629be38d70eac3ef4796f0042b54a9cfbe0",
+      "bytes": 3002,
+      "read_utc": "2026-09-07T22:32:07.297675+00:00"
+    },
+    "workers/B1/cap-before-exact-v2.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/B1/cap-before-exact-v2.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/B1/cap-before-exact-v2.json",
+      "sha256": "f3da6abf79f3c9b0ac5b102d056e6629be38d70eac3ef4796f0042b54a9cfbe0",
+      "bytes": 3002,
+      "read_utc": "2026-09-07T22:32:07.297789+00:00"
+    },
+    "workers/B1/claims.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/B1/claims.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/B1/claims.json",
+      "sha256": "f833b8aced3fcbc2b1eff5081112cfc6606d0153137dc3f56dcbeddac003a8eb",
+      "bytes": 2057,
+      "read_utc": "2026-09-07T22:32:07.297903+00:00"
+    },
+    "workers/B1/control-addendum-v2.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/B1/control-addendum-v2.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/B1/control-addendum-v2.md",
+      "sha256": "98d565a70db7d3d8fd5171e38e57ad499119501bc282fd7930f25490f5dda078",
+      "bytes": 1394,
+      "read_utc": "2026-09-07T22:32:07.298016+00:00"
+    },
+    "workers/B1/exact-controls-v1.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/B1/exact-controls-v1.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/B1/exact-controls-v1.json",
+      "sha256": "cb074d042120026343cc10e978b9f035cf1d289f146f34e9bbc7f7466548f8b1",
+      "bytes": 3442,
+      "read_utc": "2026-09-07T22:32:07.298139+00:00"
+    },
+    "workers/B1/exact-controls-v1.py": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/B1/exact-controls-v1.py",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/B1/exact-controls-v1.py",
+      "sha256": "2ebd15afa8e6dfb55f80ae47a7551074f911e75222c30da88f93f21f4258051c",
+      "bytes": 3463,
+      "read_utc": "2026-09-07T22:32:07.298258+00:00"
+    },
+    "workers/B1/exact-controls-v2.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/B1/exact-controls-v2.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/B1/exact-controls-v2.json",
+      "sha256": "ccccbd5bfb5faf7e90daeb258fba207068f170f9c4138faf4950e09128d7a949",
+      "bytes": 730,
+      "read_utc": "2026-09-07T22:32:07.298371+00:00"
+    },
+    "workers/B1/exact-controls-v2.py": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/B1/exact-controls-v2.py",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/B1/exact-controls-v2.py",
+      "sha256": "454f8a1a815b6acd9ab8190217959bf07726d09fd36f983f0fc593334c225152",
+      "bytes": 2896,
+      "read_utc": "2026-09-07T22:32:07.298488+00:00"
+    },
+    "workers/B1/final.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/B1/final.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/B1/final.md",
+      "sha256": "56442104641aeb818fa297ed8cb87d20adf0c9aa58efc84013d56e70ecce6d8d",
+      "bytes": 3109,
+      "read_utc": "2026-09-07T22:32:07.298604+00:00"
+    },
+    "workers/B1/partial-2145.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/B1/partial-2145.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/B1/partial-2145.md",
+      "sha256": "927bdbc8511704e5645ed9369e761dac26b198e7ef9b6385bcf4e87bf61d70da",
+      "bytes": 2767,
+      "read_utc": "2026-09-07T22:32:07.298724+00:00"
+    },
+    "workers/B1/statement-v1.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/B1/statement-v1.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/B1/statement-v1.md",
+      "sha256": "634c1f1cddad11902590653599bfdc42437bd86b17807831b82a118a278df11a",
+      "bytes": 7390,
+      "read_utc": "2026-09-07T22:32:07.298893+00:00"
+    },
+    "workers/C1/artifact-hashes-v1.sha256": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/C1/artifact-hashes-v1.sha256",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/C1/artifact-hashes-v1.sha256",
+      "sha256": "815c45464309c83c0f0c4d3cb2b4b33b612ffc970e030ed5976ef9e2fd6fc789",
+      "bytes": 781,
+      "read_utc": "2026-09-07T22:32:07.299009+00:00"
+    },
+    "workers/C1/assignment.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/C1/assignment.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/C1/assignment.md",
+      "sha256": "21545b4042ba8d206c1da78a8d6281ddda359e1eea5097242cd426a1a8568976",
+      "bytes": 5347,
+      "read_utc": "2026-09-07T22:32:07.299138+00:00"
+    },
+    "workers/C1/claims-v1.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/C1/claims-v1.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/C1/claims-v1.json",
+      "sha256": "ecbbd3ca71db656657be73de412cb7820a2fff2af7d6542efbaee5a604c5cffd",
+      "bytes": 3068,
+      "read_utc": "2026-09-07T22:32:07.299259+00:00"
+    },
+    "workers/C1/exact-controls-v1.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/C1/exact-controls-v1.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/C1/exact-controls-v1.json",
+      "sha256": "f7cc508adb733a1c07c3395bb00741d3e75a1124d127140999750d9a91c1713d",
+      "bytes": 5735,
+      "read_utc": "2026-09-07T22:32:07.299379+00:00"
+    },
+    "workers/C1/exact-controls-v1.py": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/C1/exact-controls-v1.py",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/C1/exact-controls-v1.py",
+      "sha256": "dd964edea0ba8a56e777fd88d1d956ef7050b3e2a407462d9d0669dc2ebecb86",
+      "bytes": 3356,
+      "read_utc": "2026-09-07T22:32:07.299494+00:00"
+    },
+    "workers/C1/final.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/C1/final.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/C1/final.md",
+      "sha256": "5385a67407b91d874410de56dae184c997ef1b8e0b7421eb4d76078db437bfb0",
+      "bytes": 2323,
+      "read_utc": "2026-09-07T22:32:07.299608+00:00"
+    },
+    "workers/C1/input-hashes-v1.sha256": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/C1/input-hashes-v1.sha256",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/C1/input-hashes-v1.sha256",
+      "sha256": "c508e4540de5f38f934e47d80ed89720fc97ca83c64cb049e42a5a3e543a3d05",
+      "bytes": 1544,
+      "read_utc": "2026-09-07T22:32:07.299721+00:00"
+    },
+    "workers/C1/partial.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/C1/partial.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/C1/partial.md",
+      "sha256": "e147914ee5b708ffb3144e5be480d7b2be21108bfa19ee67dfcae27ac4225257",
+      "bytes": 3454,
+      "read_utc": "2026-09-07T22:32:07.299886+00:00"
+    },
+    "workers/C1/primary-web-record-v1.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/C1/primary-web-record-v1.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/C1/primary-web-record-v1.json",
+      "sha256": "b11c194f77d518198c1c99bc514194f8fecfe91875e1b946a7c0fb4e26411d28",
+      "bytes": 20295,
+      "read_utc": "2026-09-07T22:32:07.300024+00:00"
+    },
+    "workers/C1/source-checks-v1.md": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/C1/source-checks-v1.md",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/workers/C1/source-checks-v1.md",
+      "sha256": "7bc8f1bf1a2e973a338fc39468648c292e6a5034d58abe8e47b3d046fc7d8e17",
+      "bytes": 2878,
+      "read_utc": "2026-09-07T22:32:07.300158+00:00"
+    },
+    "imports/latest-regressions.json": {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/imports/latest-regressions.json",
+      "archived": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RD1/input/integrated-pass-v2/imports/latest-regressions.json",
+      "sha256": "5b3d21b92ba3efc6fb64cc77f4523de6b24f73e794009fefc508c555dbe112a0",
+      "bytes": 39214,
+      "read_utc": "2026-09-07T22:32:07.302894+00:00"
+    }
+  }
+}

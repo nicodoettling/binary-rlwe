@@ -1,0 +1,193 @@
+{
+  "checked_at": "2026-09-07T22:39:31.781390+00:00",
+  "scope": "Saved-artifact consistency and preservation only. Mathematical certification comes from claim-specific proof/review reconciliation; process exit remains cap-helper evidence.",
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "required nonempty outputs",
+      "passed": true,
+      "detail": [
+        "final.md",
+        "resume.md",
+        "progress.md",
+        "claims.json",
+        "claim-history.jsonl",
+        "reconciliation.md",
+        "agents.json",
+        "regressions.json",
+        "parameter-table.md",
+        "source-comparison.md",
+        "experiments/registry.json",
+        "goal-created.json",
+        "coordinator-checkpoint.json",
+        "selection.md"
+      ]
+    },
+    {
+      "name": "JSON parses",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "append-only claim history parses",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "unique current claim IDs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "current dependency versions and accepted closure",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "acyclic current graph",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "current claim proof paths",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "claim proof and review hash pointers",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "frozen proof/review/input hashes",
+      "passed": true,
+      "detail": {
+        "files": 519,
+        "failures": []
+      }
+    },
+    {
+      "name": "all imported historical originals unchanged",
+      "passed": true,
+      "detail": {
+        "files": 1902,
+        "changes": []
+      }
+    },
+    {
+      "name": "core report local Markdown links",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "original Git HEAD unchanged",
+      "passed": true,
+      "detail": "174e0a2ca47dcb1e09ba8c5ae48117b698e2f2ed"
+    },
+    {
+      "name": "externally updated HANDOFF matches preserved observation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "externally updated config matches preserved observation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "external metadata preserves exact authorization and cap identity",
+      "passed": true,
+      "detail": {
+        "authorization_exact": true,
+        "approval_flags": true,
+        "goal_objective": true,
+        "model": true,
+        "output": true,
+        "cap_limits": true,
+        "receipt_session": true,
+        "receipt_deadlines": true
+      }
+    },
+    {
+      "name": "goal exact objective/session",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "launch-specific approval",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "recorded active worker ceiling",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "shutdown goal state explicitly recorded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "shutdown has no known active workers",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "final selected accepted graph",
+      "passed": true,
+      "detail": {
+        "PRIME-POLY": "ACCEPTED",
+        "A-GUESS": "ACCEPTED",
+        "MASK-TAIL": "ACCEPTED",
+        "SAMP-E": "ACCEPTED",
+        "NC-RECT": "ACCEPTED",
+        "SOURCE-2": "ACCEPTED",
+        "A-PPT": "ACCEPTED",
+        "A-FINITE": "ACCEPTED"
+      }
+    },
+    {
+      "name": "accepted A-PPT exact repaired load-bearing fields",
+      "passed": true,
+      "detail": [
+        "statement",
+        "version",
+        "proof",
+        "dependencies",
+        "explicit_computational_hypothesis",
+        "scope_repair_only"
+      ]
+    },
+    {
+      "name": "source hardness remains explicitly assumed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unreviewed B/C remain provisional",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "complete historical regression applicability graph",
+      "passed": true,
+      "detail": 40
+    },
+    {
+      "name": "no known unfinished experiments",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "experiment evidence paths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fresh repair and delivery reports in accepted claim",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}

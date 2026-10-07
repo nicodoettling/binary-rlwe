@@ -1,0 +1,134 @@
+{
+  "checked_at": "2026-09-07T22:41:22.152607+00:00",
+  "scope": "Final observed immutable snapshot cadence, including activation to first snapshot; no missing snapshots reconstructed. Scientific consistency is not inferred.",
+  "rows": [
+    {
+      "snapshot": "coordinator-checkpoints/20260907T213703.783877Z-65947ff1",
+      "at": "2026-09-07T21:37:03.783907+00:00",
+      "seconds_since_previous": 156.672488,
+      "over300": false
+    },
+    {
+      "snapshot": "coordinator-checkpoints/20260907T214353.241746Z-315d9681",
+      "at": "2026-09-07T21:43:53.241768+00:00",
+      "seconds_since_previous": 409.457861,
+      "over300": true
+    },
+    {
+      "snapshot": "coordinator-checkpoints/20260907T214713.360158Z-3ab5cae5",
+      "at": "2026-09-07T21:47:13.360180+00:00",
+      "seconds_since_previous": 200.118412,
+      "over300": false
+    },
+    {
+      "snapshot": "coordinator-checkpoints/20260907T215244.985264Z-3ad896ad",
+      "at": "2026-09-07T21:52:44.985285+00:00",
+      "seconds_since_previous": 331.625105,
+      "over300": true
+    },
+    {
+      "snapshot": "coordinator-checkpoints/20260907T215631.514135Z-ce69c8cc",
+      "at": "2026-09-07T21:56:31.514158+00:00",
+      "seconds_since_previous": 226.528873,
+      "over300": false
+    },
+    {
+      "snapshot": "coordinator-checkpoints/20260907T220203.729038Z-f2e07e7f",
+      "at": "2026-09-07T22:02:03.729060+00:00",
+      "seconds_since_previous": 332.214902,
+      "over300": true
+    },
+    {
+      "snapshot": "coordinator-checkpoints/20260907T220731.282288Z-11d25c7c",
+      "at": "2026-09-07T22:07:31.282347+00:00",
+      "seconds_since_previous": 327.553287,
+      "over300": true
+    },
+    {
+      "snapshot": "coordinator-checkpoints/20260907T221207.514187Z-6d626191",
+      "at": "2026-09-07T22:12:07.514209+00:00",
+      "seconds_since_previous": 276.231862,
+      "over300": false
+    },
+    {
+      "snapshot": "coordinator-checkpoints/20260907T221646.739035Z-b0224fae",
+      "at": "2026-09-07T22:16:46.739057+00:00",
+      "seconds_since_previous": 279.224848,
+      "over300": false
+    },
+    {
+      "snapshot": "coordinator-checkpoints/20260907T221959.262663Z-75f635ec",
+      "at": "2026-09-07T22:19:59.262685+00:00",
+      "seconds_since_previous": 192.523628,
+      "over300": false
+    },
+    {
+      "snapshot": "coordinator-checkpoints/20260907T222522.712871Z-35798e8a",
+      "at": "2026-09-07T22:25:22.712893+00:00",
+      "seconds_since_previous": 323.450208,
+      "over300": true
+    },
+    {
+      "snapshot": "coordinator-checkpoints/20260907T223008.963356Z-e5c739f1",
+      "at": "2026-09-07T22:30:08.963399+00:00",
+      "seconds_since_previous": 286.250506,
+      "over300": false
+    },
+    {
+      "snapshot": "coordinator-checkpoints/20260907T223352.234212Z-a0a4b205",
+      "at": "2026-09-07T22:33:52.234234+00:00",
+      "seconds_since_previous": 223.270835,
+      "over300": false
+    },
+    {
+      "snapshot": "coordinator-checkpoints/20260907T223931.538715Z-edfb5721",
+      "at": "2026-09-07T22:39:31.538747+00:00",
+      "seconds_since_previous": 339.304513,
+      "over300": true
+    },
+    {
+      "snapshot": "coordinator-checkpoints/20260907T224122.157261Z-8d261b7e",
+      "at": "2026-09-07T22:41:22.157285+00:00",
+      "seconds_since_previous": 110.618538,
+      "over300": false
+    }
+  ],
+  "late_intervals": [
+    {
+      "snapshot": "coordinator-checkpoints/20260907T214353.241746Z-315d9681",
+      "at": "2026-09-07T21:43:53.241768+00:00",
+      "seconds_since_previous": 409.457861,
+      "over300": true
+    },
+    {
+      "snapshot": "coordinator-checkpoints/20260907T215244.985264Z-3ad896ad",
+      "at": "2026-09-07T21:52:44.985285+00:00",
+      "seconds_since_previous": 331.625105,
+      "over300": true
+    },
+    {
+      "snapshot": "coordinator-checkpoints/20260907T220203.729038Z-f2e07e7f",
+      "at": "2026-09-07T22:02:03.729060+00:00",
+      "seconds_since_previous": 332.214902,
+      "over300": true
+    },
+    {
+      "snapshot": "coordinator-checkpoints/20260907T220731.282288Z-11d25c7c",
+      "at": "2026-09-07T22:07:31.282347+00:00",
+      "seconds_since_previous": 327.553287,
+      "over300": true
+    },
+    {
+      "snapshot": "coordinator-checkpoints/20260907T222522.712871Z-35798e8a",
+      "at": "2026-09-07T22:25:22.712893+00:00",
+      "seconds_since_previous": 323.450208,
+      "over300": true
+    },
+    {
+      "snapshot": "coordinator-checkpoints/20260907T223931.538715Z-edfb5721",
+      "at": "2026-09-07T22:39:31.538747+00:00",
+      "seconds_since_previous": 339.304513,
+      "over300": true
+    }
+  ]
+}

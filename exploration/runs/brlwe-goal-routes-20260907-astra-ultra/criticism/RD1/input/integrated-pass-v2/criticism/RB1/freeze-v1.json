@@ -1,0 +1,60 @@
+{
+  "frozen_at": "2026-09-07T22:15:09.955862+00:00",
+  "blind": true,
+  "proposed_proof_received_before_freeze": false,
+  "historical_objection_received_before_freeze": false,
+  "candidate_sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124",
+  "local_verdict": "Independent reconstruction proves F and I, and proves A conditional on the supplied least-prime statement and source indistinguishability assumption. No substantive missing hypothesis found.",
+  "artifacts": [
+    {
+      "path": "assignment.md",
+      "sha256": "0986b5e5b69bcb8e6b8fc6bb5ad019461026f39e5a9ce2ba1f89f63e0e0cea8c",
+      "bytes": 5113
+    },
+    {
+      "path": "input/theorem-only-v2.md",
+      "sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124",
+      "bytes": 5100
+    },
+    {
+      "path": "source-manifest-v1.json",
+      "sha256": "30ba4dec1d64bc32dbc5bc599c29589df895dbff34cf7f67bd8d99351c615731",
+      "bytes": 2106
+    },
+    {
+      "path": "blind-report-v1.md",
+      "sha256": "c95e83a3a53cd589d2f2bf731ead33b35857af33edea28f1f3a0f8b722061b2d",
+      "bytes": 25188
+    },
+    {
+      "path": "finite-controls-v1.py",
+      "sha256": "25c00b5225e78ac3f0c30e2c65c8fc7572bae735b1973396835db5a12587bab5",
+      "bytes": 4882
+    },
+    {
+      "path": "finite-controls-v1.results.json",
+      "sha256": "9084cc3419f69175695b63489d79ab2284edc7e029ce208ff7fc1cbd1bdd2360",
+      "bytes": 3417
+    },
+    {
+      "path": "finite-controls-v2.py",
+      "sha256": "c4451126b82b0b30bb9422dd09f91aa048a036c975a4d41539d9eba80877c592",
+      "bytes": 3003
+    },
+    {
+      "path": "finite-controls-v2.results.json",
+      "sha256": "8c4fbc0f8b12ddc4a3af3873c50e6272158bd860a54efbb8bc15f11a1710157a",
+      "bytes": 1177
+    },
+    {
+      "path": "partial-v1.md",
+      "sha256": "ca2fe20c7e794b4d4c15921c5cbab6ce5bf6c0676760a4e8b55f3bb78f251cd9",
+      "bytes": 3510
+    },
+    {
+      "path": "partial-v2.md",
+      "sha256": "4257ca73881b672c7922ed8668d8561a195cf2594695e7ffb15e72f80d114db2",
+      "bytes": 2028
+    }
+  ]
+}

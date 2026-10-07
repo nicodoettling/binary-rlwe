@@ -1,0 +1,197 @@
+{
+  "completed_at": "2026-09-07T22:12:56.966449+00:00",
+  "scope": "Administrative artifact and frozen-input integrity only; not proof certification",
+  "all_pass": true,
+  "checks": [
+    {
+      "check": "frozen input original",
+      "path": "exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/A1/theorem-only-v2.md",
+      "expected": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124",
+      "actual": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124",
+      "pass": true
+    },
+    {
+      "check": "frozen input frozen_copy",
+      "path": "exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RS1/input/theorem-only-v2.md",
+      "expected": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124",
+      "actual": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124",
+      "pass": true
+    },
+    {
+      "check": "frozen input original",
+      "path": "exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/A1/proof-v1.md",
+      "expected": "198c36bce9a73b87f2e1f5cf644d7e96b13cda063922f1ab10b0b2ee60114042",
+      "actual": "198c36bce9a73b87f2e1f5cf644d7e96b13cda063922f1ab10b0b2ee60114042",
+      "pass": true
+    },
+    {
+      "check": "frozen input frozen_copy",
+      "path": "exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RS1/input/proof-v1.md",
+      "expected": "198c36bce9a73b87f2e1f5cf644d7e96b13cda063922f1ab10b0b2ee60114042",
+      "actual": "198c36bce9a73b87f2e1f5cf644d7e96b13cda063922f1ab10b0b2ee60114042",
+      "pass": true
+    },
+    {
+      "check": "frozen input original",
+      "path": "exploration/runs/brlwe-goal-routes-20260907-astra-ultra/workers/A1/supplement-v1.md",
+      "expected": "71752406e81e327b5c47d0d118ea9bc6aa0f87566d23345daf290a7b8322410a",
+      "actual": "71752406e81e327b5c47d0d118ea9bc6aa0f87566d23345daf290a7b8322410a",
+      "pass": true
+    },
+    {
+      "check": "frozen input frozen_copy",
+      "path": "exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RS1/input/supplement-v1.md",
+      "expected": "71752406e81e327b5c47d0d118ea9bc6aa0f87566d23345daf290a7b8322410a",
+      "actual": "71752406e81e327b5c47d0d118ea9bc6aa0f87566d23345daf290a7b8322410a",
+      "pass": true
+    },
+    {
+      "check": "frozen input original",
+      "path": "exploration/runs/brlwe-goal-routes-20260907-astra-ultra/coordinator/source-and-parameters-v1.md",
+      "expected": "131e6a3feec87010007a30ddc1e37bdec44687648120bfe1e8c5187e6e779f50",
+      "actual": "131e6a3feec87010007a30ddc1e37bdec44687648120bfe1e8c5187e6e779f50",
+      "pass": true
+    },
+    {
+      "check": "frozen input frozen_copy",
+      "path": "exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RS1/input/source-and-parameters-v1.md",
+      "expected": "131e6a3feec87010007a30ddc1e37bdec44687648120bfe1e8c5187e6e779f50",
+      "actual": "131e6a3feec87010007a30ddc1e37bdec44687648120bfe1e8c5187e6e779f50",
+      "pass": true
+    },
+    {
+      "check": "archived input unchanged",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/final.md",
+      "actual": "5d5054fe8f6750e4618ec9e9671a46c03a2250031520f3e77d440a04672c20b8",
+      "pass": true
+    },
+    {
+      "check": "archived input unchanged",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/claims.json",
+      "actual": "698dec6a9656c0bcaf2cb755ec0d7db3bf99f6fa07962728ec6d24a04bbc71cb",
+      "pass": true
+    },
+    {
+      "check": "archived input unchanged",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/reconciliation.md",
+      "actual": "60fcacc155147ae632868f1f5a7d468d11dbb9f5631154af0dd53c2dc634a59e",
+      "pass": true
+    },
+    {
+      "check": "archived input unchanged",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/source-comparison.md",
+      "actual": "6faa73e635162cb3c862e808d5646247b94a728e580eca128371a832e3fe8f91",
+      "pass": true
+    },
+    {
+      "check": "archived input unchanged",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/parameter-table.md",
+      "actual": "944203e9ff1b4bdd268070af8ee1b1bb9da20f86cc5c67f75f09c9b6f49d6536",
+      "pass": true
+    },
+    {
+      "check": "archived input unchanged",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/target.md",
+      "actual": "7465a6163ab527832e7a180dcaed4a1bdfe9ddae7662ac2d6d42022a9c2a9729",
+      "pass": true
+    },
+    {
+      "check": "archived input unchanged",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/inputs/frozen/W1-final-v1-note.md",
+      "actual": "98194bd60d4d53fb786f3a4986529d39dd4658b30e0d9da418dc5e4db2429a8f",
+      "pass": true
+    },
+    {
+      "check": "archived input unchanged",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/inputs/frozen/W2-final-v1-note.md",
+      "actual": "6fdaef8bd1f4aa648bd6e00cc0f443120eba0fad274e074d9f927348b4ea013f",
+      "pass": true
+    },
+    {
+      "check": "archived input unchanged",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/criticism/N01/review-v1.md",
+      "actual": "b2567a04649aca0f668f8fd5278412e1f00f280f755a9b0a7801ec93da365c43",
+      "pass": true
+    },
+    {
+      "check": "archived input unchanged",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-foundations-20260906-astra-ultra/criticism/N03/review-v1.md",
+      "actual": "0213a8425cc1fa1aa9a1b199eca7e296131c18f8343bb9c6508e979914577391",
+      "pass": true
+    },
+    {
+      "check": "archived input unchanged",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/corrections/ATT-v3.md",
+      "actual": "4766209d639d73de1252b4eac1343289f9a250e0b79a1ef9731c5bd485066b24",
+      "pass": true
+    },
+    {
+      "check": "archived input unchanged",
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-joint-ideal-20260906-astra-ultra/criticism/C01/ATT-recheck.md",
+      "actual": "640e4c1af9441ba436ded264a548ad6653a183c9e6974e64680e0600f074b40e",
+      "pass": true
+    },
+    {
+      "check": "report local link",
+      "path": "assignment.md",
+      "pass": true
+    },
+    {
+      "check": "report local link",
+      "path": "input-hashes.json",
+      "pass": true
+    },
+    {
+      "check": "report local link",
+      "path": "additional-input-hashes.json",
+      "pass": true
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "additional-input-hashes.json",
+      "sha256": "125757793d43a7e1b5a69f2d34371fe8b88799bc826aca3ea71e40a6b7281cee",
+      "bytes": 7575
+    },
+    {
+      "path": "assignment.md",
+      "sha256": "2e93c843da347c3cea697b43a51029c599824acb6e9e77e67ec866a0a0c93aaf",
+      "bytes": 6327
+    },
+    {
+      "path": "input/proof-v1.md",
+      "sha256": "198c36bce9a73b87f2e1f5cf644d7e96b13cda063922f1ab10b0b2ee60114042",
+      "bytes": 28375
+    },
+    {
+      "path": "input/source-and-parameters-v1.md",
+      "sha256": "131e6a3feec87010007a30ddc1e37bdec44687648120bfe1e8c5187e6e779f50",
+      "bytes": 5498
+    },
+    {
+      "path": "input/supplement-v1.md",
+      "sha256": "71752406e81e327b5c47d0d118ea9bc6aa0f87566d23345daf290a7b8322410a",
+      "bytes": 4072
+    },
+    {
+      "path": "input/theorem-only-v2.md",
+      "sha256": "bba5d89bc2658228f9cdb7c3c9f325349f864bbe9a24c03be414ae7eee221124",
+      "bytes": 5100
+    },
+    {
+      "path": "input-hashes.json",
+      "sha256": "2c1f0e676b0d8e37492e158a04224968b32c5f394109af9108a95dd8139fc331",
+      "bytes": 1344
+    },
+    {
+      "path": "partial-1.md",
+      "sha256": "a2351db353a7099f24acf58bbdfb9456ed1a9e637c0fb1aa7c1a4db02f3c108e",
+      "bytes": 3153
+    },
+    {
+      "path": "report-v1.md",
+      "sha256": "f04881cf65af51b7079fd59b785e9ca2d8cbc53fb710c06e0b823ae31cc20785",
+      "bytes": 29045
+    }
+  ]
+}
