@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-16T21:28:17.166493+00:00",
+  "purpose": "Fresh reproduction of historical finite probability/cross-block/normalizer/witness regressions applicable to EX; no asymptotic proof by testing",
+  "estimates": "At most64152 small Fraction leakage models;3x2 matrix and33^3 finite output grid; finite F2/dual-number ring controls. Expected<20 seconds each, <128MiB memory.",
+  "limits": {
+    "seconds_per_job": 120,
+    "address_space_bytes": 536870912
+  },
+  "sequential_jobs": 3,
+  "team_slot": "one light; B may occupy other; RB1 released"
+}

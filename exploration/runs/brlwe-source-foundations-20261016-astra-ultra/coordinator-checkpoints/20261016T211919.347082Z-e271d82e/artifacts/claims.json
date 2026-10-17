@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-16T21:19:19.337883+00:00",
+  "goal_state": "active",
+  "source_contract": "coordinator/source-contract-v1.md",
+  "claims": [
+    {
+      "id": "BASELINE-A-PPT-v2",
+      "status": "ACCEPTED",
+      "scope": "Historical inherited review only; computational Base2 premise assumed; exactly m=1 or 2",
+      "dependencies": [
+        "ASSUMPTION-Base2"
+      ],
+      "evidence": [
+        "../brlwe-goal-routes-20260907-astra-ultra/claims.json",
+        "../brlwe-goal-routes-20260907-astra-ultra/candidates/search/theorem-only-v2.md"
+      ]
+    },
+    {
+      "id": "ASSUMPTION-Base2",
+      "status": "OPEN",
+      "kind": "computational assumption",
+      "statement": "Exact SC-v1 Base2 is indistinguishable from uniform for the selected separate parameter family."
+    },
+    {
+      "id": "NEW-RESULT",
+      "status": "OPEN",
+      "statement": "No new qualifying result established.",
+      "dependencies": []
+    },
+    {
+      "id": "EX-REG",
+      "version": 1,
+      "status": "PROVISIONAL",
+      "statement": "Full seed-retained noisy two-seed expansion law in frozen EX-v1",
+      "dependencies": [],
+      "evidence": [
+        "coordinator/expansion-theorem-only-v1.md"
+      ]
+    },
+    {
+      "id": "EX-REC",
+      "version": 1,
+      "status": "PROVISIONAL",
+      "statement": "m-sample exact-witness recovery reduction preserving a Base2 pair, with explicit inflated masks and target noise",
+      "dependencies": [
+        "EX-REG",
+        "BASELINE-A-PPT-v2"
+      ],
+      "evidence": [
+        "coordinator/expansion-theorem-only-v1.md"
+      ]
+    },
+    {
+      "id": "EX-PPT",
+      "version": 1,
+      "status": "PROVISIONAL",
+      "statement": "Fixed polynomial sample exponent h at a changed effective polynomial modulus family",
+      "dependencies": [
+        "EX-REC"
+      ],
+      "evidence": [
+        "coordinator/expansion-theorem-only-v1.md"
+      ]
+    }
+  ]
+}

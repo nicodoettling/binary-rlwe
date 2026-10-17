@@ -1,0 +1,941 @@
+{
+  "schema_version": 2,
+  "updated_at": "2026-10-16T21:43:23.224978+00:00",
+  "goal_state": "active",
+  "source_contract": "coordinator/source-contract-v1.md",
+  "current_candidate": "coordinator/expansion-theorem-only-v2.md",
+  "proof": "coordinator/expansion-proof-v2.md",
+  "statement_sha256": "44b3154f650f43022e7720484f185c27890fb56c695b2b5303d73970463ebb51",
+  "proof_sha256": "234d9e69af04fcddc68af7eba08e508d309eecffcf87203f81b2bac79d611909",
+  "assumptions": [
+    {
+      "id": "MODEL-EX-v2",
+      "kind": "exact frozen experiment and classical uniform PPT model",
+      "definition": "coordinator/expansion-theorem-only-v2.md"
+    },
+    {
+      "id": "BASE2-NEW-FAMILY",
+      "kind": "computational premise",
+      "proof_status": "UNPROVED; assumed explicitly, never certified as hardness",
+      "definition": "coordinator/expansion-theorem-only-v2.md",
+      "scope": "separate premise for each h and selected d; not inherited from September"
+    },
+    {
+      "id": "BASE2-SEPTEMBER-FAMILIES",
+      "kind": "historical computational premise",
+      "proof_status": "UNPROVED; assumed explicitly"
+    }
+  ],
+  "claims": [
+    {
+      "id": "BASELINE-A-PPT-v2",
+      "version": 2,
+      "status": "ACCEPTED",
+      "scope": "Historical exact-version review only; computational premise unproved; m1or2. Comparison baseline, not an imported proof dependency of EX.",
+      "dependencies": [],
+      "assumptions": [
+        "BASE2-SEPTEMBER-FAMILIES"
+      ],
+      "evidence": [
+        "../brlwe-goal-routes-20260907-astra-ultra/candidates/search/theorem-only-v2.md",
+        "../brlwe-goal-routes-20260907-astra-ultra/claims.json"
+      ]
+    },
+    {
+      "id": "EX-ALG",
+      "version": 2,
+      "status": "ACCEPTED",
+      "statement": "Nonzero centered character of CRT support k has coefficient norm at least q^(1-k/n); transpose multiplication is the coefficient involution.",
+      "dependencies": [],
+      "assumptions": [
+        "MODEL-EX-v2"
+      ],
+      "evidence": [
+        "coordinator/expansion-theorem-only-v2.md",
+        "coordinator/expansion-proof-v2.md"
+      ],
+      "proof_sections": [
+        2
+      ],
+      "regressions": [
+        "R09",
+        "R14"
+      ],
+      "reviewers": [
+        {
+          "role": "RS1",
+          "report": "criticism/RS1/report-v1.md",
+          "sha256": "5776ff42544da4a067141d26905244da6de8d188b4b8a4957479aa0aeccfb1e8",
+          "scope": "source/parameter/complexity",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RF1",
+          "report": "criticism/RF1/report-v1.md",
+          "sha256": "721f72bac4ded7e13054fe14ea69c95678b414b4dd31d1ce3f6e545155f25e90",
+          "scope": "full proof theorem-v2/proof-v1",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RF1-v2",
+          "report": "criticism/RF1/proof-v2-recheck-v1.md",
+          "sha256": "37190f2fb8e4165d651e0c4d219dbee18937c59c2a45c56f00260a8f801a9e27",
+          "scope": "exact canonical proof-v2 recheck",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RB2",
+          "report": "criticism/RB2/report-v1.md",
+          "sha256": "dbd59bb1427d4cb2980fbbccf70e3dc912768d234c1873401ddec14f7c5b195a",
+          "scope": "strict theorem-only blind reconstruction",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RD1",
+          "report": "criticism/RD1/report-v1.md",
+          "sha256": "fceb8afff7598a10b0791722e14927091c19d59f96f5f631df56027549e3cf36",
+          "scope": "fresh complete mathematical consistency and artifact review",
+          "verdict": "PASS within explicit conditional scope"
+        }
+      ],
+      "downstream": [
+        "EX-BOX",
+        "EX-REG"
+      ],
+      "accepted_at": "2026-10-16T21:43:23.224978+00:00",
+      "exact_statement_sha256": "44b3154f650f43022e7720484f185c27890fb56c695b2b5303d73970463ebb51",
+      "exact_proof_sha256": "234d9e69af04fcddc68af7eba08e508d309eecffcf87203f81b2bac79d611909",
+      "conditional_scope": "Acceptance of the implication and its lemmas; Base2 hardness remains unproved and is an explicit premise of EX-PPT."
+    },
+    {
+      "id": "EX-BOX",
+      "version": 2,
+      "status": "ACCEPTED",
+      "statement": "For independent interval differences with L<=q, every rank-k linear constraint has probability at most L^(-k); two independent uniform seeds give L^(-2k).",
+      "dependencies": [
+        "EX-ALG"
+      ],
+      "assumptions": [
+        "MODEL-EX-v2"
+      ],
+      "evidence": [
+        "coordinator/expansion-theorem-only-v2.md",
+        "coordinator/expansion-proof-v2.md"
+      ],
+      "proof_sections": [
+        3
+      ],
+      "regressions": [
+        "R18",
+        "CP-1",
+        "N03-SCAL-POSTERIOR"
+      ],
+      "reviewers": [
+        {
+          "role": "RS1",
+          "report": "criticism/RS1/report-v1.md",
+          "sha256": "5776ff42544da4a067141d26905244da6de8d188b4b8a4957479aa0aeccfb1e8",
+          "scope": "source/parameter/complexity",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RF1",
+          "report": "criticism/RF1/report-v1.md",
+          "sha256": "721f72bac4ded7e13054fe14ea69c95678b414b4dd31d1ce3f6e545155f25e90",
+          "scope": "full proof theorem-v2/proof-v1",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RF1-v2",
+          "report": "criticism/RF1/proof-v2-recheck-v1.md",
+          "sha256": "37190f2fb8e4165d651e0c4d219dbee18937c59c2a45c56f00260a8f801a9e27",
+          "scope": "exact canonical proof-v2 recheck",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RB2",
+          "report": "criticism/RB2/report-v1.md",
+          "sha256": "dbd59bb1427d4cb2980fbbccf70e3dc912768d234c1873401ddec14f7c5b195a",
+          "scope": "strict theorem-only blind reconstruction",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RD1",
+          "report": "criticism/RD1/report-v1.md",
+          "sha256": "fceb8afff7598a10b0791722e14927091c19d59f96f5f631df56027549e3cf36",
+          "scope": "fresh complete mathematical consistency and artifact review",
+          "verdict": "PASS within explicit conditional scope"
+        }
+      ],
+      "downstream": [
+        "EX-REG"
+      ],
+      "accepted_at": "2026-10-16T21:43:23.224978+00:00",
+      "exact_statement_sha256": "44b3154f650f43022e7720484f185c27890fb56c695b2b5303d73970463ebb51",
+      "exact_proof_sha256": "234d9e69af04fcddc68af7eba08e508d309eecffcf87203f81b2bac79d611909",
+      "conditional_scope": "Acceptance of the implication and its lemmas; Base2 hardness remains unproved and is an explicit premise of EX-PPT."
+    },
+    {
+      "id": "EX-GFOURIER",
+      "version": 2,
+      "status": "ACCEPTED",
+      "statement": "Coefficient D_L characteristic function squared is at most 16^n exp(-2pi L\u00b2||z||\u00b2/q\u00b2), with all aliases retained.",
+      "dependencies": [],
+      "assumptions": [
+        "MODEL-EX-v2"
+      ],
+      "evidence": [
+        "coordinator/expansion-theorem-only-v2.md",
+        "coordinator/expansion-proof-v2.md"
+      ],
+      "proof_sections": [
+        4
+      ],
+      "regressions": [
+        "C02-CHAR",
+        "C03-HC3"
+      ],
+      "reviewers": [
+        {
+          "role": "RS1",
+          "report": "criticism/RS1/report-v1.md",
+          "sha256": "5776ff42544da4a067141d26905244da6de8d188b4b8a4957479aa0aeccfb1e8",
+          "scope": "source/parameter/complexity",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RF1",
+          "report": "criticism/RF1/report-v1.md",
+          "sha256": "721f72bac4ded7e13054fe14ea69c95678b414b4dd31d1ce3f6e545155f25e90",
+          "scope": "full proof theorem-v2/proof-v1",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RF1-v2",
+          "report": "criticism/RF1/proof-v2-recheck-v1.md",
+          "sha256": "37190f2fb8e4165d651e0c4d219dbee18937c59c2a45c56f00260a8f801a9e27",
+          "scope": "exact canonical proof-v2 recheck",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RB2",
+          "report": "criticism/RB2/report-v1.md",
+          "sha256": "dbd59bb1427d4cb2980fbbccf70e3dc912768d234c1873401ddec14f7c5b195a",
+          "scope": "strict theorem-only blind reconstruction",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RD1",
+          "report": "criticism/RD1/report-v1.md",
+          "sha256": "fceb8afff7598a10b0791722e14927091c19d59f96f5f631df56027549e3cf36",
+          "scope": "fresh complete mathematical consistency and artifact review",
+          "verdict": "PASS within explicit conditional scope"
+        }
+      ],
+      "downstream": [
+        "EX-REG"
+      ],
+      "accepted_at": "2026-10-16T21:43:23.224978+00:00",
+      "exact_statement_sha256": "44b3154f650f43022e7720484f185c27890fb56c695b2b5303d73970463ebb51",
+      "exact_proof_sha256": "234d9e69af04fcddc68af7eba08e508d309eecffcf87203f81b2bac79d611909",
+      "conditional_scope": "Acceptance of the implication and its lemmas; Base2 hardness remains unproved and is an explicit premise of EX-PPT."
+    },
+    {
+      "id": "EX-REG",
+      "version": 2,
+      "status": "ACCEPTED",
+      "statement": "The full retained-seed m-output expansion law has TV at most the exact delta_exp in theorem v2.",
+      "dependencies": [
+        "EX-ALG",
+        "EX-BOX",
+        "EX-GFOURIER"
+      ],
+      "assumptions": [
+        "MODEL-EX-v2"
+      ],
+      "evidence": [
+        "coordinator/expansion-theorem-only-v2.md",
+        "coordinator/expansion-proof-v2.md"
+      ],
+      "proof_sections": [
+        5
+      ],
+      "regressions": [
+        "R03",
+        "R15",
+        "CP-1",
+        "C02-CHAR"
+      ],
+      "reviewers": [
+        {
+          "role": "RS1",
+          "report": "criticism/RS1/report-v1.md",
+          "sha256": "5776ff42544da4a067141d26905244da6de8d188b4b8a4957479aa0aeccfb1e8",
+          "scope": "source/parameter/complexity",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RF1",
+          "report": "criticism/RF1/report-v1.md",
+          "sha256": "721f72bac4ded7e13054fe14ea69c95678b414b4dd31d1ce3f6e545155f25e90",
+          "scope": "full proof theorem-v2/proof-v1",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RF1-v2",
+          "report": "criticism/RF1/proof-v2-recheck-v1.md",
+          "sha256": "37190f2fb8e4165d651e0c4d219dbee18937c59c2a45c56f00260a8f801a9e27",
+          "scope": "exact canonical proof-v2 recheck",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RB2",
+          "report": "criticism/RB2/report-v1.md",
+          "sha256": "dbd59bb1427d4cb2980fbbccf70e3dc912768d234c1873401ddec14f7c5b195a",
+          "scope": "strict theorem-only blind reconstruction",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RD1",
+          "report": "criticism/RD1/report-v1.md",
+          "sha256": "fceb8afff7598a10b0791722e14927091c19d59f96f5f631df56027549e3cf36",
+          "scope": "fresh complete mathematical consistency and artifact review",
+          "verdict": "PASS within explicit conditional scope"
+        }
+      ],
+      "downstream": [
+        "EX-REC"
+      ],
+      "accepted_at": "2026-10-16T21:43:23.224978+00:00",
+      "exact_statement_sha256": "44b3154f650f43022e7720484f185c27890fb56c695b2b5303d73970463ebb51",
+      "exact_proof_sha256": "234d9e69af04fcddc68af7eba08e508d309eecffcf87203f81b2bac79d611909",
+      "conditional_scope": "Acceptance of the implication and its lemmas; Base2 hardness remains unproved and is an explicit premise of EX-PPT."
+    },
+    {
+      "id": "EX-MASK",
+      "version": 2,
+      "status": "ACCEPTED",
+      "statement": "The common-T expanded ideal components and correlated integer masks obey the stated good-event mass and stacked norm bound.",
+      "dependencies": [],
+      "assumptions": [
+        "MODEL-EX-v2"
+      ],
+      "evidence": [
+        "coordinator/expansion-theorem-only-v2.md",
+        "coordinator/expansion-proof-v2.md"
+      ],
+      "proof_sections": [
+        6
+      ],
+      "regressions": [
+        "R11",
+        "R14",
+        "C03-HC6",
+        "N03-PV-CONDITIONING"
+      ],
+      "reviewers": [
+        {
+          "role": "RS1",
+          "report": "criticism/RS1/report-v1.md",
+          "sha256": "5776ff42544da4a067141d26905244da6de8d188b4b8a4957479aa0aeccfb1e8",
+          "scope": "source/parameter/complexity",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RF1",
+          "report": "criticism/RF1/report-v1.md",
+          "sha256": "721f72bac4ded7e13054fe14ea69c95678b414b4dd31d1ce3f6e545155f25e90",
+          "scope": "full proof theorem-v2/proof-v1",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RF1-v2",
+          "report": "criticism/RF1/proof-v2-recheck-v1.md",
+          "sha256": "37190f2fb8e4165d651e0c4d219dbee18937c59c2a45c56f00260a8f801a9e27",
+          "scope": "exact canonical proof-v2 recheck",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RB2",
+          "report": "criticism/RB2/report-v1.md",
+          "sha256": "dbd59bb1427d4cb2980fbbccf70e3dc912768d234c1873401ddec14f7c5b195a",
+          "scope": "strict theorem-only blind reconstruction",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RD1",
+          "report": "criticism/RD1/report-v1.md",
+          "sha256": "fceb8afff7598a10b0791722e14927091c19d59f96f5f631df56027549e3cf36",
+          "scope": "fresh complete mathematical consistency and artifact review",
+          "verdict": "PASS within explicit conditional scope"
+        }
+      ],
+      "downstream": [
+        "EX-COMP",
+        "EX-REC"
+      ],
+      "accepted_at": "2026-10-16T21:43:23.224978+00:00",
+      "exact_statement_sha256": "44b3154f650f43022e7720484f185c27890fb56c695b2b5303d73970463ebb51",
+      "exact_proof_sha256": "234d9e69af04fcddc68af7eba08e508d309eecffcf87203f81b2bac79d611909",
+      "conditional_scope": "Acceptance of the implication and its lemmas; Base2 hardness remains unproved and is an explicit premise of EX-PPT."
+    },
+    {
+      "id": "EX-COMP",
+      "version": 2,
+      "status": "ACCEPTED",
+      "statement": "The full mn-by-n discrete Gaussian completion has witness-retained TV at most guarded eta; H is integrated out.",
+      "dependencies": [
+        "EX-MASK"
+      ],
+      "assumptions": [
+        "MODEL-EX-v2"
+      ],
+      "evidence": [
+        "coordinator/expansion-theorem-only-v2.md",
+        "coordinator/expansion-proof-v2.md"
+      ],
+      "proof_sections": [
+        7
+      ],
+      "regressions": [
+        "R02",
+        "R04",
+        "R05",
+        "C03-HC1",
+        "C03-HC2",
+        "C03-HC3",
+        "C03-HC4",
+        "NC1-v1",
+        "RECT-ALG-1"
+      ],
+      "reviewers": [
+        {
+          "role": "RS1",
+          "report": "criticism/RS1/report-v1.md",
+          "sha256": "5776ff42544da4a067141d26905244da6de8d188b4b8a4957479aa0aeccfb1e8",
+          "scope": "source/parameter/complexity",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RF1",
+          "report": "criticism/RF1/report-v1.md",
+          "sha256": "721f72bac4ded7e13054fe14ea69c95678b414b4dd31d1ce3f6e545155f25e90",
+          "scope": "full proof theorem-v2/proof-v1",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RF1-v2",
+          "report": "criticism/RF1/proof-v2-recheck-v1.md",
+          "sha256": "37190f2fb8e4165d651e0c4d219dbee18937c59c2a45c56f00260a8f801a9e27",
+          "scope": "exact canonical proof-v2 recheck",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RB2",
+          "report": "criticism/RB2/report-v1.md",
+          "sha256": "dbd59bb1427d4cb2980fbbccf70e3dc912768d234c1873401ddec14f7c5b195a",
+          "scope": "strict theorem-only blind reconstruction",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RD1",
+          "report": "criticism/RD1/report-v1.md",
+          "sha256": "fceb8afff7598a10b0791722e14927091c19d59f96f5f631df56027549e3cf36",
+          "scope": "fresh complete mathematical consistency and artifact review",
+          "verdict": "PASS within explicit conditional scope"
+        }
+      ],
+      "downstream": [
+        "EX-REC"
+      ],
+      "accepted_at": "2026-10-16T21:43:23.224978+00:00",
+      "exact_statement_sha256": "44b3154f650f43022e7720484f185c27890fb56c695b2b5303d73970463ebb51",
+      "exact_proof_sha256": "234d9e69af04fcddc68af7eba08e508d309eecffcf87203f81b2bac79d611909",
+      "conditional_scope": "Acceptance of the implication and its lemmas; Base2 hardness remains unproved and is an explicit premise of EX-PPT."
+    },
+    {
+      "id": "EX-GUESS",
+      "version": 2,
+      "status": "ACCEPTED",
+      "statement": "One noisy binary vector and one support projection bound actual-secret guessing by q^d((1+D_ell(0))/2)^n.",
+      "dependencies": [],
+      "assumptions": [
+        "MODEL-EX-v2"
+      ],
+      "evidence": [
+        "coordinator/expansion-theorem-only-v2.md",
+        "coordinator/expansion-proof-v2.md"
+      ],
+      "proof_sections": [
+        7
+      ],
+      "regressions": [
+        "R06",
+        "R07",
+        "R08",
+        "R12",
+        "R14",
+        "C03-HC7",
+        "N02-DUAL-NUMBER"
+      ],
+      "reviewers": [
+        {
+          "role": "RS1",
+          "report": "criticism/RS1/report-v1.md",
+          "sha256": "5776ff42544da4a067141d26905244da6de8d188b4b8a4957479aa0aeccfb1e8",
+          "scope": "source/parameter/complexity",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RF1",
+          "report": "criticism/RF1/report-v1.md",
+          "sha256": "721f72bac4ded7e13054fe14ea69c95678b414b4dd31d1ce3f6e545155f25e90",
+          "scope": "full proof theorem-v2/proof-v1",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RF1-v2",
+          "report": "criticism/RF1/proof-v2-recheck-v1.md",
+          "sha256": "37190f2fb8e4165d651e0c4d219dbee18937c59c2a45c56f00260a8f801a9e27",
+          "scope": "exact canonical proof-v2 recheck",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RB2",
+          "report": "criticism/RB2/report-v1.md",
+          "sha256": "dbd59bb1427d4cb2980fbbccf70e3dc912768d234c1873401ddec14f7c5b195a",
+          "scope": "strict theorem-only blind reconstruction",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RD1",
+          "report": "criticism/RD1/report-v1.md",
+          "sha256": "fceb8afff7598a10b0791722e14927091c19d59f96f5f631df56027549e3cf36",
+          "scope": "fresh complete mathematical consistency and artifact review",
+          "verdict": "PASS within explicit conditional scope"
+        }
+      ],
+      "downstream": [
+        "EX-REC"
+      ],
+      "accepted_at": "2026-10-16T21:43:23.224978+00:00",
+      "exact_statement_sha256": "44b3154f650f43022e7720484f185c27890fb56c695b2b5303d73970463ebb51",
+      "exact_proof_sha256": "234d9e69af04fcddc68af7eba08e508d309eecffcf87203f81b2bac79d611909",
+      "conditional_scope": "Acceptance of the implication and its lemmas; Base2 hardness remains unproved and is an explicit premise of EX-PPT."
+    },
+    {
+      "id": "EX-REC",
+      "version": 2,
+      "status": "ACCEPTED",
+      "statement": "The exact public one-call recovery test has epsilon <= Base2 advantage + guessing + eta + mask + expansion losses.",
+      "dependencies": [
+        "EX-REG",
+        "EX-MASK",
+        "EX-COMP",
+        "EX-GUESS"
+      ],
+      "assumptions": [
+        "MODEL-EX-v2"
+      ],
+      "evidence": [
+        "coordinator/expansion-theorem-only-v2.md",
+        "coordinator/expansion-proof-v2.md"
+      ],
+      "proof_sections": [
+        7
+      ],
+      "regressions": [
+        "R12",
+        "R13",
+        "PAIRWISE-SE-F3",
+        "SE-CORRELATION-F3",
+        "UNIFORM-APPROX-COLLAPSE"
+      ],
+      "reviewers": [
+        {
+          "role": "RS1",
+          "report": "criticism/RS1/report-v1.md",
+          "sha256": "5776ff42544da4a067141d26905244da6de8d188b4b8a4957479aa0aeccfb1e8",
+          "scope": "source/parameter/complexity",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RF1",
+          "report": "criticism/RF1/report-v1.md",
+          "sha256": "721f72bac4ded7e13054fe14ea69c95678b414b4dd31d1ce3f6e545155f25e90",
+          "scope": "full proof theorem-v2/proof-v1",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RF1-v2",
+          "report": "criticism/RF1/proof-v2-recheck-v1.md",
+          "sha256": "37190f2fb8e4165d651e0c4d219dbee18937c59c2a45c56f00260a8f801a9e27",
+          "scope": "exact canonical proof-v2 recheck",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RB2",
+          "report": "criticism/RB2/report-v1.md",
+          "sha256": "dbd59bb1427d4cb2980fbbccf70e3dc912768d234c1873401ddec14f7c5b195a",
+          "scope": "strict theorem-only blind reconstruction",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RD1",
+          "report": "criticism/RD1/report-v1.md",
+          "sha256": "fceb8afff7598a10b0791722e14927091c19d59f96f5f631df56027549e3cf36",
+          "scope": "fresh complete mathematical consistency and artifact review",
+          "verdict": "PASS within explicit conditional scope"
+        }
+      ],
+      "downstream": [
+        "EX-PARAM",
+        "EX-PPT"
+      ],
+      "accepted_at": "2026-10-16T21:43:23.224978+00:00",
+      "exact_statement_sha256": "44b3154f650f43022e7720484f185c27890fb56c695b2b5303d73970463ebb51",
+      "exact_proof_sha256": "234d9e69af04fcddc68af7eba08e508d309eecffcf87203f81b2bac79d611909",
+      "conditional_scope": "Acceptance of the implication and its lemmas; Base2 hardness remains unproved and is an explicit premise of EX-PPT."
+    },
+    {
+      "id": "EX-PRIME",
+      "version": 2,
+      "status": "ACCEPTED",
+      "statement": "Published effective least-prime exponent5.18 gives the stated least-prime family and eventual upper bound n^(6K).",
+      "dependencies": [],
+      "assumptions": [
+        "MODEL-EX-v2"
+      ],
+      "evidence": [
+        "coordinator/expansion-theorem-only-v2.md",
+        "coordinator/expansion-proof-v2.md"
+      ],
+      "proof_sections": [
+        8
+      ],
+      "regressions": [
+        "A-PPT-LEDGER-SCOPE"
+      ],
+      "reviewers": [
+        {
+          "role": "RS1",
+          "report": "criticism/RS1/report-v1.md",
+          "sha256": "5776ff42544da4a067141d26905244da6de8d188b4b8a4957479aa0aeccfb1e8",
+          "scope": "source/parameter/complexity",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RF1",
+          "report": "criticism/RF1/report-v1.md",
+          "sha256": "721f72bac4ded7e13054fe14ea69c95678b414b4dd31d1ce3f6e545155f25e90",
+          "scope": "full proof theorem-v2/proof-v1",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RF1-v2",
+          "report": "criticism/RF1/proof-v2-recheck-v1.md",
+          "sha256": "37190f2fb8e4165d651e0c4d219dbee18937c59c2a45c56f00260a8f801a9e27",
+          "scope": "exact canonical proof-v2 recheck",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RB2",
+          "report": "criticism/RB2/report-v1.md",
+          "sha256": "dbd59bb1427d4cb2980fbbccf70e3dc912768d234c1873401ddec14f7c5b195a",
+          "scope": "strict theorem-only blind reconstruction",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RD1",
+          "report": "criticism/RD1/report-v1.md",
+          "sha256": "fceb8afff7598a10b0791722e14927091c19d59f96f5f631df56027549e3cf36",
+          "scope": "fresh complete mathematical consistency and artifact review",
+          "verdict": "PASS within explicit conditional scope"
+        }
+      ],
+      "downstream": [
+        "EX-PARAM",
+        "EX-IMPL"
+      ],
+      "accepted_at": "2026-10-16T21:43:23.224978+00:00",
+      "exact_statement_sha256": "44b3154f650f43022e7720484f185c27890fb56c695b2b5303d73970463ebb51",
+      "exact_proof_sha256": "234d9e69af04fcddc68af7eba08e508d309eecffcf87203f81b2bac79d611909",
+      "conditional_scope": "Acceptance of the implication and its lemmas; Base2 hardness remains unproved and is an explicit premise of EX-PPT."
+    },
+    {
+      "id": "EX-PARAM",
+      "version": 2,
+      "status": "ACCEPTED",
+      "statement": "For fixed h,K=h+10, the two separate d families make every error negligible and q/sigma>=n eventually.",
+      "dependencies": [
+        "EX-PRIME",
+        "EX-REC"
+      ],
+      "assumptions": [
+        "MODEL-EX-v2"
+      ],
+      "evidence": [
+        "coordinator/expansion-theorem-only-v2.md",
+        "coordinator/expansion-proof-v2.md"
+      ],
+      "proof_sections": [
+        8
+      ],
+      "regressions": [
+        "A-PPT-LEDGER-SCOPE",
+        "SOURCE-SMALL-D",
+        "S0-dependency"
+      ],
+      "reviewers": [
+        {
+          "role": "RS1",
+          "report": "criticism/RS1/report-v1.md",
+          "sha256": "5776ff42544da4a067141d26905244da6de8d188b4b8a4957479aa0aeccfb1e8",
+          "scope": "source/parameter/complexity",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RF1",
+          "report": "criticism/RF1/report-v1.md",
+          "sha256": "721f72bac4ded7e13054fe14ea69c95678b414b4dd31d1ce3f6e545155f25e90",
+          "scope": "full proof theorem-v2/proof-v1",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RF1-v2",
+          "report": "criticism/RF1/proof-v2-recheck-v1.md",
+          "sha256": "37190f2fb8e4165d651e0c4d219dbee18937c59c2a45c56f00260a8f801a9e27",
+          "scope": "exact canonical proof-v2 recheck",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RB2",
+          "report": "criticism/RB2/report-v1.md",
+          "sha256": "dbd59bb1427d4cb2980fbbccf70e3dc912768d234c1873401ddec14f7c5b195a",
+          "scope": "strict theorem-only blind reconstruction",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RD1",
+          "report": "criticism/RD1/report-v1.md",
+          "sha256": "fceb8afff7598a10b0791722e14927091c19d59f96f5f631df56027549e3cf36",
+          "scope": "fresh complete mathematical consistency and artifact review",
+          "verdict": "PASS within explicit conditional scope"
+        }
+      ],
+      "downstream": [
+        "EX-IMPL",
+        "EX-PPT"
+      ],
+      "accepted_at": "2026-10-16T21:43:23.224978+00:00",
+      "exact_statement_sha256": "44b3154f650f43022e7720484f185c27890fb56c695b2b5303d73970463ebb51",
+      "exact_proof_sha256": "234d9e69af04fcddc68af7eba08e508d309eecffcf87203f81b2bac79d611909",
+      "conditional_scope": "Acceptance of the implication and its lemmas; Base2 hardness remains unproved and is an explicit premise of EX-PPT."
+    },
+    {
+      "id": "EX-IMPL",
+      "version": 2,
+      "status": "ACCEPTED",
+      "statement": "A bounded uniform polynomial wrapper implements the full local law with negligible xi_alg and the stated full-law error charges.",
+      "dependencies": [
+        "EX-PRIME",
+        "EX-PARAM"
+      ],
+      "assumptions": [
+        "MODEL-EX-v2"
+      ],
+      "evidence": [
+        "coordinator/expansion-theorem-only-v2.md",
+        "coordinator/expansion-proof-v2.md"
+      ],
+      "proof_sections": [
+        9
+      ],
+      "regressions": [
+        "R12",
+        "R15",
+        "PAIRWISE-SE-F3"
+      ],
+      "reviewers": [
+        {
+          "role": "RS1",
+          "report": "criticism/RS1/report-v1.md",
+          "sha256": "5776ff42544da4a067141d26905244da6de8d188b4b8a4957479aa0aeccfb1e8",
+          "scope": "source/parameter/complexity",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RF1",
+          "report": "criticism/RF1/report-v1.md",
+          "sha256": "721f72bac4ded7e13054fe14ea69c95678b414b4dd31d1ce3f6e545155f25e90",
+          "scope": "full proof theorem-v2/proof-v1",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RF1-v2",
+          "report": "criticism/RF1/proof-v2-recheck-v1.md",
+          "sha256": "37190f2fb8e4165d651e0c4d219dbee18937c59c2a45c56f00260a8f801a9e27",
+          "scope": "exact canonical proof-v2 recheck",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RB2",
+          "report": "criticism/RB2/report-v1.md",
+          "sha256": "dbd59bb1427d4cb2980fbbccf70e3dc912768d234c1873401ddec14f7c5b195a",
+          "scope": "strict theorem-only blind reconstruction",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RD1",
+          "report": "criticism/RD1/report-v1.md",
+          "sha256": "fceb8afff7598a10b0791722e14927091c19d59f96f5f631df56027549e3cf36",
+          "scope": "fresh complete mathematical consistency and artifact review",
+          "verdict": "PASS within explicit conditional scope"
+        }
+      ],
+      "downstream": [
+        "EX-PPT"
+      ],
+      "accepted_at": "2026-10-16T21:43:23.224978+00:00",
+      "exact_statement_sha256": "44b3154f650f43022e7720484f185c27890fb56c695b2b5303d73970463ebb51",
+      "exact_proof_sha256": "234d9e69af04fcddc68af7eba08e508d309eecffcf87203f81b2bac79d611909",
+      "conditional_scope": "Acceptance of the implication and its lemmas; Base2 hardness remains unproved and is an explicit premise of EX-PPT."
+    },
+    {
+      "id": "EX-PPT",
+      "version": 2,
+      "status": "ACCEPTED",
+      "statement": "Under the explicit new-family Base2 assumption, uniform PPT actual-secret recovery from m<=n^h target samples is negligible.",
+      "dependencies": [
+        "EX-REC",
+        "EX-PARAM",
+        "EX-IMPL"
+      ],
+      "assumptions": [
+        "MODEL-EX-v2",
+        "BASE2-NEW-FAMILY"
+      ],
+      "evidence": [
+        "coordinator/expansion-theorem-only-v2.md",
+        "coordinator/expansion-proof-v2.md"
+      ],
+      "proof_sections": [
+        8,
+        9
+      ],
+      "regressions": [
+        "S0-dependency",
+        "A-PPT-LEDGER-SCOPE",
+        "SOURCE-SMALL-D"
+      ],
+      "reviewers": [
+        {
+          "role": "RS1",
+          "report": "criticism/RS1/report-v1.md",
+          "sha256": "5776ff42544da4a067141d26905244da6de8d188b4b8a4957479aa0aeccfb1e8",
+          "scope": "source/parameter/complexity",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RF1",
+          "report": "criticism/RF1/report-v1.md",
+          "sha256": "721f72bac4ded7e13054fe14ea69c95678b414b4dd31d1ce3f6e545155f25e90",
+          "scope": "full proof theorem-v2/proof-v1",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RF1-v2",
+          "report": "criticism/RF1/proof-v2-recheck-v1.md",
+          "sha256": "37190f2fb8e4165d651e0c4d219dbee18937c59c2a45c56f00260a8f801a9e27",
+          "scope": "exact canonical proof-v2 recheck",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RB2",
+          "report": "criticism/RB2/report-v1.md",
+          "sha256": "dbd59bb1427d4cb2980fbbccf70e3dc912768d234c1873401ddec14f7c5b195a",
+          "scope": "strict theorem-only blind reconstruction",
+          "verdict": "PASS within explicit conditional scope"
+        },
+        {
+          "role": "RD1",
+          "report": "criticism/RD1/report-v1.md",
+          "sha256": "fceb8afff7598a10b0791722e14927091c19d59f96f5f631df56027549e3cf36",
+          "scope": "fresh complete mathematical consistency and artifact review",
+          "verdict": "PASS within explicit conditional scope"
+        }
+      ],
+      "downstream": [],
+      "accepted_at": "2026-10-16T21:43:23.224978+00:00",
+      "exact_statement_sha256": "44b3154f650f43022e7720484f185c27890fb56c695b2b5303d73970463ebb51",
+      "exact_proof_sha256": "234d9e69af04fcddc68af7eba08e508d309eecffcf87203f81b2bac79d611909",
+      "conditional_scope": "Acceptance of the implication and its lemmas; Base2 hardness remains unproved and is an explicit premise of EX-PPT."
+    },
+    {
+      "id": "A-ENTROPY",
+      "version": 1,
+      "status": "PROVISIONAL",
+      "statement": "Exact-uniform-comparator-preserving maps from k ordinary RLWE samples have a stated entropy obstruction to Base_m; not applied to approximate uniformity.",
+      "dependencies": [],
+      "evidence": [
+        "workers/A/entropy-budget-theorem-only-v1.md",
+        "workers/A/entropy-budget-proof-v1.md"
+      ],
+      "load_bearing_for_EX": false
+    },
+    {
+      "id": "B-FOURIER",
+      "version": 1,
+      "status": "PROVISIONAL",
+      "statement": "Scoped joint-character and finite Fourier controls; no general distinguisher lower bound.",
+      "dependencies": [],
+      "evidence": [
+        "workers/B/candidate-fc-v1.md"
+      ],
+      "load_bearing_for_EX": false
+    },
+    {
+      "id": "B-JL",
+      "version": 3,
+      "status": "REPAIRED-PENDING-RECHECK",
+      "statement": "Fixed-field short joint cancellation obstruction at its strict gates; v2 b=0 denominator defect repaired by b>=1.",
+      "dependencies": [],
+      "evidence": [
+        "workers/B/joint-lattice-v3-theorem.md",
+        "workers/B/joint-lattice-v3-proof.md",
+        "workers/B/v2-domain-objection.md"
+      ],
+      "load_bearing_for_EX": false
+    },
+    {
+      "id": "C-PURE-MIX",
+      "version": 1,
+      "status": "PROVISIONAL",
+      "statement": "Pure ring-ideal-preserving expansion retains the zero-root obstruction q^-2-q^-m; additive-noise construction is separate.",
+      "dependencies": [],
+      "evidence": [
+        "workers/C/m3-law-theorem-v1.md"
+      ],
+      "load_bearing_for_EX": false
+    }
+  ],
+  "acceptance_gates": {
+    "full_proof": "CLOSED: see coordinator/review-index-v1.json and reconciliation.md",
+    "source_parameter_complexity": "CLOSED: see coordinator/review-index-v1.json and reconciliation.md",
+    "fresh_blind": "CLOSED: see coordinator/review-index-v1.json and reconciliation.md",
+    "historical_regressions": "CLOSED: see coordinator/review-index-v1.json and reconciliation.md",
+    "exact_artifact": "CLOSED: see coordinator/review-index-v1.json and reconciliation.md"
+  },
+  "scoped_goal_achievement": {
+    "result": "Two-point public sample expansion plus many-sample actual-secret recovery implication",
+    "mathematical_delivery": "closed",
+    "native_goal_state": "active pending completion tool receipt",
+    "unproved_premise": "Base2 at each exact new h,q,d family",
+    "side_claims_not_dependencies": [
+      "A-ENTROPY",
+      "B-FOURIER",
+      "B-JL",
+      "C-PURE-MIX"
+    ]
+  }
+}

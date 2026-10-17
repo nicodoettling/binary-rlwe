@@ -1,0 +1,48 @@
+{
+  "status": "ADMINISTRATIVE_INTEGRITY_CHECK_PASS",
+  "time_utc": "2026-10-16T21:35:25.648241+00:00",
+  "input_checks": [
+    {
+      "file": "input/expansion-theorem-only-v2.md",
+      "expected": "44b3154f650f43022e7720484f185c27890fb56c695b2b5303d73970463ebb51",
+      "actual": "44b3154f650f43022e7720484f185c27890fb56c695b2b5303d73970463ebb51",
+      "hash_match": true,
+      "full_hash_in_report": true
+    },
+    {
+      "file": "input/expansion-proof-v1.md",
+      "expected": "38c43826a936f69a775a97f19dfb3aeb90256cd03d8953d47fd54f82da27c8ae",
+      "actual": "38c43826a936f69a775a97f19dfb3aeb90256cd03d8953d47fd54f82da27c8ae",
+      "hash_match": true,
+      "full_hash_in_report": true
+    },
+    {
+      "file": "input/source-contract-v1.md",
+      "expected": "bcb62c8553b456161381875cc6712d0f0b739f518657b2ac2b635160135e813b",
+      "actual": "bcb62c8553b456161381875cc6712d0f0b739f518657b2ac2b635160135e813b",
+      "hash_match": true,
+      "full_hash_in_report": true
+    },
+    {
+      "file": "input/source-comparison.md",
+      "expected": "a8fb956b8ebbdbfebeed68e2f8296690db915f0ca91a6372d48c1e07338a7ef1",
+      "actual": "a8fb956b8ebbdbfebeed68e2f8296690db915f0ca91a6372d48c1e07338a7ef1",
+      "hash_match": true,
+      "full_hash_in_report": true
+    },
+    {
+      "file": "input/parameter-table.md",
+      "expected": "b7b6fd5d0269cb1f9ff12e2e5671c38edaf6a5e734556b3b6077880e6c7cfedd",
+      "actual": "b7b6fd5d0269cb1f9ff12e2e5671c38edaf6a5e734556b3b6077880e6c7cfedd",
+      "hash_match": true,
+      "full_hash_in_report": true
+    }
+  ],
+  "classified_unique_regression_ids": 43,
+  "numerical_experiments_in_RS1": 0,
+  "author_files_modified_by_RS1": false,
+  "blind_material_accessed": false,
+  "global_claim_acceptance": false,
+  "report_sha256": "5776ff42544da4a067141d26905244da6de8d188b4b8a4957479aa0aeccfb1e8",
+  "sampler_sha256": "1e5538f35eea87da97b0924400ec0b80a59e31e8597177d082112847a14fefc2"
+}

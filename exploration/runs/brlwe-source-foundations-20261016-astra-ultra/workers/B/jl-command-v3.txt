@@ -1,0 +1,3 @@
+timeout 120s python3 -B exploration/runs/brlwe-source-foundations-20261016-astra-ultra/workers/B/jl_controls_v3.py > exploration/runs/brlwe-source-foundations-20261016-astra-ultra/workers/B/jl-output-v3.json
+Address-space limit: resource.RLIMIT_AS set to 512 MiB before mathematical work.
+Estimate: 390625 four-by-four F_5 rank cases, <=100000 direct rank-one row cases, 104976 ideal vectors at n=4,q=17, exact hypergeometric checks n<=32; source sets at n=2,q=97 require 18 sets of 97 vectors. Expected <128 MiB and <=120 seconds. No random seed; deterministic exhaustive arithmetic. Truncated Gaussian decimals explicitly diagnostic only.

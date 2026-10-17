@@ -1,0 +1,31 @@
+{
+  "created_at": "2026-10-16T21:13:21.719646+00:00",
+  "checks": {
+    "authorized": true,
+    "total_agents_four": true,
+    "five_hours": true,
+    "model_and_effort": true,
+    "native_goal": true,
+    "no_token_budget": true,
+    "no_resume": true,
+    "baseline:candidates/search/theorem-only-v2.md": true,
+    "baseline:candidates/search/proof-v1.md": true,
+    "baseline:candidates/search/supplement-v1.md": true,
+    "baseline:criticism/RS1/report-v1.md": true,
+    "baseline:criticism/RP1/report-v1.md": true,
+    "baseline:claims.json": true,
+    "baseline:reconciliation.md": true,
+    "baseline:regressions.json": true
+  },
+  "all_pass": true,
+  "git_head": "b28438e0c5865f27208439b277c9562dca6e5b39",
+  "git_status": "## main...origin/main\n?? exploration/source-foundations-20261016/\n",
+  "hashes": {
+    "/home/nico/projects/research_projects/binaryRLWE/exploration/source-foundations-20261016/PLAN.md": "1bacf6453b86a61fdbe36f9be4b50053caebe9b0afeba671c186ebb0da55c2e7",
+    "/home/nico/projects/research_projects/binaryRLWE/exploration/source-foundations-20261016/COORDINATOR_PROMPT.md": "299d5174a3bd96d8a9f0be896bb6a709167d0836849a9b0950aeef06e0febb98",
+    "/home/nico/projects/research_projects/binaryRLWE/exploration/source-foundations-20261016/run-config.json": "ccd1a26d0b8d9315caa6ee4c30184fc29dfcd8c8c81f644427b7ef82c2975a66",
+    "/home/nico/.codex/skills/codex-tmux-runner/scripts/v2/capped_codex_tmux.py": "38da39407b00102cc9967b2315a45bf52457c194abc3c443f2f6abb32fca11c7",
+    "/home/nico/.codex/skills/codex-tmux-runner/scripts/v2/codex_tmux.py": "da7051a58b565b13b1d7955bdc433f987c37c53c64473861bd26a12df2dd9a53"
+  },
+  "scope": "Launch-contract and path checks only; no mathematical certification."
+}

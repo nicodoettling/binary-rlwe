@@ -1,0 +1,127 @@
+{
+  "created_at": "2026-10-16T21:28:35.596670+00:00",
+  "M": [
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "tau_squared": "4",
+  "sigma_squared": "16",
+  "B": [
+    [
+      "8",
+      "-4",
+      "-4"
+    ],
+    [
+      "-4",
+      "12",
+      "0"
+    ],
+    [
+      "-4",
+      "0",
+      "12"
+    ]
+  ],
+  "Theta": [
+    [
+      "2",
+      "-1"
+    ],
+    [
+      "-1",
+      "2"
+    ]
+  ],
+  "B_eigenvalues": [
+    4,
+    12,
+    16
+  ],
+  "Theta_eigenvalues": [
+    1,
+    3
+  ],
+  "exact_rational_square_checks": 3125,
+  "exact_matrix_identities": true,
+  "delta_truncated": 0.011204695537690093,
+  "guarded_bound": 0.011331663375750976,
+  "r_min": 0.9962651015847291,
+  "r_max": 1.01120469553769,
+  "r_primal_Poisson_max_difference": 2.220446049250313e-16,
+  "ZG_2d": 4.000055797672284,
+  "ZH_3d": 27.71281292177611,
+  "ZD_sigma_3d": 64.0,
+  "EPr_grid": 1.000013949442395,
+  "EPr_normalizer_identity": 1.000013949442395,
+  "P_grid_mass": 1.0,
+  "TV_grid_qualified": 0.002104312365688408,
+  "point_checks": [
+    {
+      "z": [
+        0,
+        0,
+        0
+      ],
+      "independent_sum_mass": 0.015799852968637573,
+      "normalized_Poisson_mass": 0.015799852968637573,
+      "absolute_difference": 0.0
+    },
+    {
+      "z": [
+        1,
+        0,
+        0
+      ],
+      "independent_sum_mass": 0.012791320320026958,
+      "normalized_Poisson_mass": 0.012791320320026958,
+      "absolute_difference": 0.0
+    },
+    {
+      "z": [
+        2,
+        -1,
+        3
+      ],
+      "independent_sum_mass": 0.0009962299344816526,
+      "normalized_Poisson_mass": 0.0009962299344816526,
+      "absolute_difference": 0.0
+    },
+    {
+      "z": [
+        4,
+        3,
+        -2
+      ],
+      "independent_sum_mass": 5.239100813442553e-05,
+      "normalized_Poisson_mass": 5.2391008134425507e-05,
+      "absolute_difference": 2.0328790734103208e-20
+    }
+  ],
+  "analytic_unnormalized_tail_bounds": {
+    "G_box9": 3.676695824901821e-27,
+    "H_box18": 9.191739562254553e-26,
+    "P_box16": 3.5629102068523376e-20,
+    "Q_box16": 3.6436576050564936e-20,
+    "Fourier_box6": 2.7732143620287803e-48
+  },
+  "H_seq_parity_normalizer": {
+    "Z_1_5_0": 1.2467493665563687,
+    "Z_1_5_half": 1.2027404081309832,
+    "difference": 0.04400895842538555,
+    "old_exact_sampler_identification": false
+  },
+  "qualification": "Algebra uses exact Fraction. Gaussian masses use math.fsum and binary64 exp/cos without directed rounding; tolerances are numerical checks, not rigorous interval certificates. Analytic truncation bounds are derived in comments and do not bound floating arithmetic. Proof certification rests on the exact symbolic identities and uniform Poisson bound, not this numerical evidence.",
+  "elapsed_seconds": 0.22535923501709476,
+  "status": "all assertions passed"
+}

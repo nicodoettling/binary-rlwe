@@ -1,0 +1,51 @@
+{
+  "frozen_at": "2026-10-16T21:42:23.393442+00:00",
+  "reviews": [
+    {
+      "role": "RS1",
+      "report": "criticism/RS1/report-v1.md",
+      "sha256": "5776ff42544da4a067141d26905244da6de8d188b4b8a4957479aa0aeccfb1e8",
+      "scope": "source/parameter/complexity",
+      "verdict": "PASS within explicit conditional scope"
+    },
+    {
+      "role": "RF1",
+      "report": "criticism/RF1/report-v1.md",
+      "sha256": "721f72bac4ded7e13054fe14ea69c95678b414b4dd31d1ce3f6e545155f25e90",
+      "scope": "full proof theorem-v2/proof-v1",
+      "verdict": "PASS within explicit conditional scope"
+    },
+    {
+      "role": "RF1-v2",
+      "report": "criticism/RF1/proof-v2-recheck-v1.md",
+      "sha256": "37190f2fb8e4165d651e0c4d219dbee18937c59c2a45c56f00260a8f801a9e27",
+      "scope": "exact canonical proof-v2 recheck",
+      "verdict": "PASS within explicit conditional scope"
+    },
+    {
+      "role": "RB2",
+      "report": "criticism/RB2/report-v1.md",
+      "sha256": "dbd59bb1427d4cb2980fbbccf70e3dc912768d234c1873401ddec14f7c5b195a",
+      "scope": "strict theorem-only blind reconstruction",
+      "verdict": "PASS within explicit conditional scope"
+    },
+    {
+      "role": "RD1",
+      "report": "criticism/RD1/report-v1.md",
+      "sha256": "fceb8afff7598a10b0791722e14927091c19d59f96f5f631df56027549e3cf36",
+      "scope": "fresh complete mathematical consistency and artifact review",
+      "verdict": "PASS within explicit conditional scope"
+    }
+  ],
+  "strict_blind": {
+    "role": "RB2",
+    "receipt": "criticism/RB2/freeze-receipt-v1.json",
+    "report_frozen_before_disclosure": true
+  },
+  "excluded_blind_attempt": {
+    "role": "RB1",
+    "reason": "list_agents scientific summary exposure",
+    "evidence": "criticism/RB1/isolation-incident.md"
+  },
+  "correlation": "All same Astra model; role diversity is correlated scrutiny, not statistically independent verification."
+}

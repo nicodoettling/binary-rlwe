@@ -1,0 +1,14 @@
+{
+  "status":"PROVISIONAL",
+  "controls":[
+    {"id":"B-R-ZERO","meaning":"Uniform ideal amplitudes include zero and one-zero rows.","evidence":"jl-output-v3.json rank_row_controls","result":"Exact rank counts include all zero rows; no active-unit substitution."},
+    {"id":"B-R-SAME-T","meaning":"The public-to-hidden cancellation norm gate depends on common support size d.","evidence":"jl-output-v3.json public_coefficient_noise_control.redrawn_support_counterexample","result":"For n=2,q=97 distinct supports, F1=F2=(-1,-1), U1=(23,76), U2=(76,23), h1=h2=1 yields A1+A2=0 but U1+U2=(2,2), rejecting transfer to redrawn supports."},
+    {"id":"B-R-TAIL-DOMAIN","meaning":"v2 admitted b=0 with a divided-by-b tail expression.","evidence":"v2-domain-objection.md","result":"v3 narrows b>=1; repair awaits fresh review."},
+    {"id":"B-R-STRICT","meaning":"Root/norm gates are strict; equality is not classified by the contradiction proof.","evidence":"joint-lattice-v3-theorem.md","result":"No equality relaxation made; archived ATT strict gate retained."},
+    {"id":"B-R-CP1","meaning":"Reject multiplication of adaptive posterior marginal bounds.","evidence":["joint-lattice-v3-proof.md section 4","jl_controls_v3.py"],"result":"21/2000>1/100 and 21/221<1/10 reproduced. New amplitude product is under a fixed full product law and finite union, without adaptive conditioning."},
+    {"id":"B-R-SMALL-BOUNDARY","meaning":"Asymptotic r=o(d) cannot be replaced by r=d=1.","evidence":"jl-output-v3.json public_coefficient_noise_control","result":"Finite n=2 source shows nonzero distinguishing signal; generic bound is vacuous there, consistently with theorem."},
+    {"id":"B-R-ALGEBRAIC-TOY","meaning":"q=5,n=4 is not a split SC-v1 ring instance.","evidence":"jl-output-v3.json low_degree_rank_control","result":"390625 cases check only the polynomial evaluation lemma over F_5; not advertised as SC-v1 source tests."},
+    {"id":"B-R-FLOAT","meaning":"Gaussian diagnostic truncation bounds do not bound floating arithmetic error.","evidence":["fc-output-v1.json","jl-output-v3.json"],"result":"Both explicitly qualified; exact probability controls use rational toy product noise."},
+    {"id":"B-R-CHARACTER","meaning":"Small or non-improving character biases do not bound arbitrary distinguishers.","evidence":"fourier-calculation-v1.md","result":"Only fixed-character and explicit Fourier-l1 class claims; full-law TV dependence retained."}
+  ]
+}

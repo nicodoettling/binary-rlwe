@@ -1,0 +1,88 @@
+{
+  "checked_at": "2026-10-16T21:14:25.372180+00:00",
+  "launch_authorized": true,
+  "run_file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-source-foundations-20261016-astra-ultra/launcher-run.json",
+  "session_id": "01a14690-1afb-7b03-a01d-09c842692662",
+  "tmux_session": "brlwe-source-foundations-20261016-astra-ultra",
+  "observed": {
+    "approval": "never",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "ultra",
+    "sandbox": "workspace-write [workdir, /tmp, $TMPDIR]",
+    "session_id": "01a14690-1afb-7b03-a01d-09c842692662",
+    "workdir": "/home/nico/projects/research_projects/binaryRLWE"
+  },
+  "process_containment": {
+    "worker_pid": {
+      "pid": 246867,
+      "cgroup": "0::/user.slice/user-1007.slice/user@1007.service/app.slice/codex-cap-brlwe-source-foundations-20261016-astra--72240bce8837.service",
+      "in_expected_service": true
+    },
+    "codex_pid": {
+      "pid": 247016,
+      "cgroup": "0::/user.slice/user-1007.slice/user@1007.service/app.slice/codex-cap-brlwe-source-foundations-20261016-astra--72240bce8837.service",
+      "in_expected_service": true
+    }
+  },
+  "service": "codex-cap-brlwe-source-foundations-20261016-astra--72240bce8837.service",
+  "service_properties": {
+    "ActiveEnterTimestampMonotonic": "280128859307",
+    "ActiveState": "active",
+    "ControlGroup": "/user.slice/user-1007.slice/user@1007.service/app.slice/codex-cap-brlwe-source-foundations-20261016-astra--72240bce8837.service",
+    "ExecMainCode": "0",
+    "ExecMainStatus": "0",
+    "FinalKillSignal": "9",
+    "KillMode": "control-group",
+    "KillSignal": "15",
+    "LoadState": "loaded",
+    "MainPID": "246867",
+    "Restart": "no",
+    "Result": "success",
+    "RuntimeMaxUSec": "4h 58min 55s",
+    "RuntimeRandomizedExtraUSec": "0",
+    "SendSIGKILL": "yes",
+    "SubState": "running",
+    "TimeoutStopUSec": "1min",
+    "WorkingDirectory": "/home/nico/projects/research_projects/binaryRLWE"
+  },
+  "timing": {
+    "started_at": {
+      "utc": "2026-10-16T21:13:31.461020+00:00",
+      "berlin": "2026-10-16T23:13:31.461020+02:00"
+    },
+    "wrapup_at": {
+      "utc": "2026-10-17T01:53:31.461020+00:00",
+      "berlin": "2026-10-17T03:53:31.461020+02:00"
+    },
+    "graceful_shutdown_at": {
+      "utc": "2026-10-17T02:12:26.461020+00:00",
+      "berlin": "2026-10-17T04:12:26.461020+02:00"
+    },
+    "scheduled_kill_at": {
+      "utc": "2026-10-17T02:13:26.461020+00:00",
+      "berlin": "2026-10-17T04:13:26.461020+02:00"
+    },
+    "hard_deadline_at": {
+      "utc": "2026-10-17T02:13:31.461020+00:00",
+      "berlin": "2026-10-17T04:13:31.461020+02:00"
+    }
+  },
+  "concurrency_configured": {
+    "config_key_support": "unverified",
+    "config_overrides": [
+      "agents.enabled=true",
+      "agents.max_concurrent_threads_per_session=3"
+    ],
+    "configured_agents_enabled": true,
+    "configured_max_spawned_threads": 3,
+    "effective_capacity": "unverified",
+    "requested_spawned_agents": 3,
+    "requested_total_agents": 4,
+    "verification_note": "CLI --config availability is checked, not recognition/application of these keys. Verify the coordinator's reported slots and worker startup; configuration does not override backend or managed limits."
+  },
+  "native_goal_observed": true,
+  "workers_observed": true,
+  "verification_pending": null,
+  "runtime_verification": "runtime-startup-verification.json",
+  "runtime_verified_at": "2026-10-16T21:17:28.004318+00:00"
+}

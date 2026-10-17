@@ -1,0 +1,46 @@
+{
+  "role": "RF1 nonblind full-proof referee",
+  "frozen_at": "2026-10-16T21:38:09.574663+00:00",
+  "files": [
+    {
+      "file": "input/theorem-only-v2.md",
+      "sha256": "44b3154f650f43022e7720484f185c27890fb56c695b2b5303d73970463ebb51"
+    },
+    {
+      "file": "input/proof-v1.md",
+      "sha256": "38c43826a936f69a775a97f19dfb3aeb90256cd03d8953d47fd54f82da27c8ae"
+    },
+    {
+      "file": "input/manifest.json",
+      "sha256": "b9c733b92103218266889bc6249f002b2aed4a3494bdc0ad72a6953c1b35eaac"
+    },
+    {
+      "file": "input/regressions-read-snapshot.json",
+      "sha256": "ed5f4b4621980a89493d2e097f46d44cf23039bb8458f669806d4f305ba67f03"
+    },
+    {
+      "file": "report-v1.md",
+      "sha256": "721f72bac4ded7e13054fe14ea69c95678b414b4dd31d1ce3f6e545155f25e90"
+    },
+    {
+      "file": "negative-controls-v1.md",
+      "sha256": "4b1202ac28a30f0b036a64f8701eaddf056b8b042c263c3394aed1aabdbd12bb"
+    },
+    {
+      "file": "rectangular_control.py",
+      "sha256": "2ac8bae2b1ca5215933e307a94c5e7e869e9ff9e0a93c9ead879065024e1296a"
+    },
+    {
+      "file": "rectangular-command.txt",
+      "sha256": "d9add3ea7aa2d98c4ae55266b54f8107476642f0a3d5162ae674cb49d3c844dc"
+    },
+    {
+      "file": "rectangular-output.txt",
+      "sha256": "09afca22fb929b414f6a5a8f6f76d6ff4801c8f0ee4398f7bff3f28a77ce69ad"
+    },
+    {
+      "file": "experiment-cap-preflight.json",
+      "sha256": "f3026a06ea03ef4e11a01dad3ce3ff53c7189b4727d27b8f97626583c4ad3be4"
+    }
+  ]
+}

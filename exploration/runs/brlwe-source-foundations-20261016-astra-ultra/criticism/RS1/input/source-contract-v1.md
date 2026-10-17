@@ -1,0 +1,13 @@
+# Frozen source and target contract SC-v1
+
+Frozen before worker assignments. This is a research input, not a new result.
+
+n>=2 is a power of two, ell=ceil(log2 n), q is an odd prime q=1 mod 2n, and R_q=F_q[X]/(X^n+1), represented in coefficients. Public parameters may include all n roots. D_t(z)=exp(-pi*z^2/t^2)/sum_{k in Z}exp(-pi*k^2/t^2).
+
+Base2(n,q,d): choose one uniform d-subset T of the n CRT roots. I_T consists of CRT vectors zero outside T. Conditional on T, U_1,U_2 are independent uniform I_T elements, including zero active coordinates. Independently, all 2n coefficients of F_1,F_2 are iid D_ell integer errors. Publish only (A_1,A_2)=(U_1+F_1,U_2+F_2) modulo q. Comparator: independent uniform R_q elements. One challenge pair and public parameters are the entire algorithm interface: no witnesses, support, basis, source oracle, independent same-T resampling, binary secret, target responses or hidden completion access. Gaussian basis is coefficients, not finite-field CRT. Computational indistinguishability is a separate unproved assumption for each parameter family. Recovering T is not the definition of distinguishing.
+
+Baseline target: for fixed m=1 or 2, uniform coefficient-binary S in {0,1}^n; independent uniform a_i in R_q; all mn E_i coefficients iid D_sigma_m, jointly independent of S and all a_i. sigma_m=2sqrt(m)n ell^3. Publish ((a_i,a_i*S+E_i))_i. Success is recovery of actual sampled S. Baseline accepts A-PPT v2 in its recorded September review scope, assuming Base2. q is the least prime 1 mod 2n^3, eventually 2n^3+1<=q<=n^16. Separate d families floor(sqrt(n)/ell^4) and floor(n/(64ell)). More target samples require an explicit source budget or public expansion theorem.
+
+Base_m, if used, means m ideal points and independent coefficient errors conditional on the SAME single T, against m independent uniform elements. For m>2 this is an explicitly stronger premise unless a reduction is established. Merely restacking A-PPT under Base_m is supporting work. First expansion gate is m=3 with full joint comparator multiplier/error law, not marginals or covariance alone.
+
+Precedence: completed September goal-routes final/claims/reconciliation and exact A-PPT v2 theorem/proof/supplement; then reviewed ATT v3 and latest source interpretation; then foundations claims/regressions/reconciliation and consolidated record. HANDOFF is stale. September B/C routes remain provisional reserves. Historical author status headers do not override exact-version review. Every new claim starts PROVISIONAL and changes are versioned; proof acceptance requires nonauthor proof/source/complexity review plus fresh blind review and applicable regressions.

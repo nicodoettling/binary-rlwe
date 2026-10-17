@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-16T21:14:43.863447+00:00",
+  "goal_state": "active",
+  "source_contract": "coordinator/source-contract-v1.md",
+  "claims": [
+    {
+      "id": "BASELINE-A-PPT-v2",
+      "status": "ACCEPTED",
+      "scope": "Historical inherited review only; computational Base2 premise assumed; exactly m=1 or 2",
+      "dependencies": [
+        "ASSUMPTION-Base2"
+      ],
+      "evidence": [
+        "../brlwe-goal-routes-20260907-astra-ultra/claims.json",
+        "../brlwe-goal-routes-20260907-astra-ultra/candidates/search/theorem-only-v2.md"
+      ]
+    },
+    {
+      "id": "ASSUMPTION-Base2",
+      "status": "OPEN",
+      "kind": "computational assumption",
+      "statement": "Exact SC-v1 Base2 is indistinguishable from uniform for the selected separate parameter family."
+    },
+    {
+      "id": "NEW-RESULT",
+      "status": "OPEN",
+      "statement": "No new qualifying result established.",
+      "dependencies": []
+    }
+  ]
+}

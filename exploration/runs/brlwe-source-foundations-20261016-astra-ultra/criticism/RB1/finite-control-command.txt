@@ -1,0 +1,1 @@
+timeout --signal=TERM --kill-after=5s 120s python3 -u /home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-source-foundations-20261016-astra-ultra/criticism/RB1/finite_control.py > /home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-source-foundations-20261016-astra-ultra/criticism/RB1/finite-control-output.txt 2>&1

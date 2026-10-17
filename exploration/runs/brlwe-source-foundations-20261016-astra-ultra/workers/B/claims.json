@@ -1,0 +1,22 @@
+{
+  "author": "/root/joint_b",
+  "status": "PROVISIONAL",
+  "current_candidate": "B-JL-v3",
+  "not_certified": true,
+  "claims": [
+    {"id":"B-ATT-RECON","version":1,"status":"PROVISIONAL","statement":"Reconstruction of inherited exact ATT-v3 and RS1 scope; no new review or attack.","evidence":"att-reconstruction.md","dependencies":["archived ATT-v3","archived C01 exact recheck","September RS1"]},
+    {"id":"B-FC","version":1,"status":"PROVISIONAL","statement":"Exact same-T and redrawn-T Fourier formulas; no joint single-character improvement; bounded Fourier-l1 scope only.","evidence":["candidate-fc-v1.md","fourier-calculation-v1.md","fc-output-v1.json"],"dependencies":["SC-v1","one-dimensional Gaussian Poisson identity"]},
+    {"id":"B-JL-NORM","version":3,"status":"PROVISIONAL","statement":"Strict determinant norm gates force small-output public multiplier witnesses to cancel the hidden ideal part, and force nonzero short multipliers to have CRT support greater than n/2.","evidence":"joint-lattice-v3-proof.md sections 1-2","dependencies":["SC-v1","integer determinant/Hadamard argument"]},
+    {"id":"B-JL-OCC","version":3,"status":"PROVISIONAL","statement":"Every half-root orbit union of every index<=r subgroup contains more than d/4 support points except probability at most N_G 2^r (2/3^(3/4))^d.","evidence":["joint-lattice-v3-proof.md section 3","jl-output-v3.json"],"dependencies":["uniform d-subset T","elementary symmetric-mean inequality"]},
+    {"id":"B-JL-REL","version":3,"status":"PROVISIONAL","statement":"Source witness probability bounded by eta_rel plus the full coefficient Gaussian tail.","evidence":"joint-lattice-v3-proof.md section 4","dependencies":["B-JL-NORM v3","B-JL-OCC v3","SC-v1 full independent uniform amplitude law"]},
+    {"id":"B-JL-UNIF","version":3,"status":"PROVISIONAL","statement":"Uniform witness probability <=N_G(2C+1)^(2r)((2B+1)/q)^(n/2).","evidence":["joint-lattice-v3-proof.md section 5","jl-output-v3.json"],"dependencies":["B-JL-NORM v3","uniform image pivot coordinates","integer fixed-space coordinate injection"]},
+    {"id":"B-JL-ASYM","version":3,"status":"PROVISIONAL","statement":"At both frozen baseline d families, r=o(d), C=n,b=ell^2,B=2n^2ell^2 satisfy all gates eventually and give negligible acceptance at both source and uniform endpoints.","evidence":"joint-lattice-v3-proof.md section 6","dependencies":["B-JL-REL v3","B-JL-UNIF v3","frozen q least-prime bounds"]},
+    {"id":"B-JL-DEG","version":3,"status":"PROVISIONAL","statement":"For degree<k polynomial multiplier pairs, exact hidden cancellation probability <=min(1,k q^(2k-d)/(q-1)) for every fixed T.","evidence":["joint-lattice-v3-proof.md section 7","jl-output-v3.json"],"dependencies":["SC-v1 uniform ideal amplitudes","monic gcd and projective-pair count"]}
+  ],
+  "superseded_versions": [
+    {"id":"B-JL","version":1,"status":"PROVISIONAL","disposition":"precursor frozen candidate; not certified"},
+    {"id":"B-JL","version":2,"status":"REJECTED","reason":"Tail formula undefined at permitted b=0; asymptotic specialization unaffected.","evidence":"v2-domain-objection.md","replacement":"B-JL-v3 requires b>=1"}
+  ],
+  "required_reviews": ["nonauthor exact proof", "source/parameter and complexity", "fresh blind theorem-only review", "fresh recheck of v2 boundary repair", "delivery consistency"],
+  "scientific_limit": "No improved general distinguisher, Base2 hardness theorem, elimination of a baseline source regime, or general lattice lower bound has been established. The obstruction is for the explicitly frozen short fixed-field joint-relation witness class."
+}

@@ -1,0 +1,64 @@
+{
+  "status": "exact finite comparator regression only",
+  "parameters": {
+    "n": 2,
+    "q": 5,
+    "m": 3,
+    "roots": [
+      2,
+      3
+    ]
+  },
+  "root_enumeration_cases": 390625,
+  "root_law_at_zero": {
+    "numerator": 149,
+    "denominator": 3125,
+    "decimal": 0.04768
+  },
+  "root_uniform_probability": {
+    "numerator": 1,
+    "denominator": 125,
+    "decimal": 0.008
+  },
+  "root_event_gap": {
+    "numerator": 124,
+    "denominator": 3125,
+    "decimal": 0.03968
+  },
+  "scoped_lower_bound": {
+    "numerator": 4,
+    "denominator": 125,
+    "decimal": 0.032
+  },
+  "full_ring_tv_no_addition": {
+    "numerator": 753424,
+    "denominator": 9765625,
+    "decimal": 0.0771506176
+  },
+  "full_ring_tv_formula": {
+    "numerator": 753424,
+    "denominator": 9765625,
+    "decimal": 0.0771506176
+  },
+  "full_ring_tv_after_finite_noise_each_axis": [
+    {
+      "numerator": 28224,
+      "denominator": 390625,
+      "decimal": 0.07225344
+    },
+    {
+      "numerator": 784,
+      "denominator": 15625,
+      "decimal": 0.050176
+    },
+    {
+      "numerator": 3336449,
+      "denominator": 625000000,
+      "decimal": 0.0053383184
+    }
+  ],
+  "finite_noise_law": "independent coefficient {-1:1/4,0:1/2,1:1/4}",
+  "gaussian_claim": false,
+  "tails_or_precision": "none: all probabilities exact rational; decimals display only",
+  "seed": "none: exhaustive deterministic enumeration"
+}

@@ -1,0 +1,1453 @@
+{
+  "checked_at": "2026-10-16T21:44:18.331006+00:00",
+  "structural_check_only_not_mathematical_certification": true,
+  "mode": "accepted",
+  "checks": [
+    {
+      "check": "exact theorem hash",
+      "pass": true
+    },
+    {
+      "check": "exact canonical proof hash",
+      "pass": true
+    },
+    {
+      "check": "unique claim IDs",
+      "pass": true
+    },
+    {
+      "check": "dependency exists EX-BOX -> EX-ALG",
+      "pass": true
+    },
+    {
+      "check": "dependency exists EX-REG -> EX-ALG",
+      "pass": true
+    },
+    {
+      "check": "dependency exists EX-REG -> EX-BOX",
+      "pass": true
+    },
+    {
+      "check": "dependency exists EX-REG -> EX-GFOURIER",
+      "pass": true
+    },
+    {
+      "check": "dependency exists EX-COMP -> EX-MASK",
+      "pass": true
+    },
+    {
+      "check": "dependency exists EX-REC -> EX-REG",
+      "pass": true
+    },
+    {
+      "check": "dependency exists EX-REC -> EX-MASK",
+      "pass": true
+    },
+    {
+      "check": "dependency exists EX-REC -> EX-COMP",
+      "pass": true
+    },
+    {
+      "check": "dependency exists EX-REC -> EX-GUESS",
+      "pass": true
+    },
+    {
+      "check": "dependency exists EX-PARAM -> EX-PRIME",
+      "pass": true
+    },
+    {
+      "check": "dependency exists EX-PARAM -> EX-REC",
+      "pass": true
+    },
+    {
+      "check": "dependency exists EX-IMPL -> EX-PRIME",
+      "pass": true
+    },
+    {
+      "check": "dependency exists EX-IMPL -> EX-PARAM",
+      "pass": true
+    },
+    {
+      "check": "dependency exists EX-PPT -> EX-REC",
+      "pass": true
+    },
+    {
+      "check": "dependency exists EX-PPT -> EX-PARAM",
+      "pass": true
+    },
+    {
+      "check": "dependency exists EX-PPT -> EX-IMPL",
+      "pass": true
+    },
+    {
+      "check": "claim evidence ../brlwe-goal-routes-20260907-astra-ultra/candidates/search/theorem-only-v2.md",
+      "pass": true
+    },
+    {
+      "check": "claim evidence ../brlwe-goal-routes-20260907-astra-ultra/claims.json",
+      "pass": true
+    },
+    {
+      "check": "claim evidence coordinator/expansion-theorem-only-v2.md",
+      "pass": true
+    },
+    {
+      "check": "claim evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "accepted current EX-ALG",
+      "pass": true
+    },
+    {
+      "check": "claim evidence coordinator/expansion-theorem-only-v2.md",
+      "pass": true
+    },
+    {
+      "check": "claim evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "accepted current EX-BOX",
+      "pass": true
+    },
+    {
+      "check": "closed dependency EX-ALG",
+      "pass": true
+    },
+    {
+      "check": "claim evidence coordinator/expansion-theorem-only-v2.md",
+      "pass": true
+    },
+    {
+      "check": "claim evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "accepted current EX-GFOURIER",
+      "pass": true
+    },
+    {
+      "check": "claim evidence coordinator/expansion-theorem-only-v2.md",
+      "pass": true
+    },
+    {
+      "check": "claim evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "accepted current EX-REG",
+      "pass": true
+    },
+    {
+      "check": "closed dependency EX-ALG",
+      "pass": true
+    },
+    {
+      "check": "closed dependency EX-BOX",
+      "pass": true
+    },
+    {
+      "check": "closed dependency EX-GFOURIER",
+      "pass": true
+    },
+    {
+      "check": "claim evidence coordinator/expansion-theorem-only-v2.md",
+      "pass": true
+    },
+    {
+      "check": "claim evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "accepted current EX-MASK",
+      "pass": true
+    },
+    {
+      "check": "claim evidence coordinator/expansion-theorem-only-v2.md",
+      "pass": true
+    },
+    {
+      "check": "claim evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "accepted current EX-COMP",
+      "pass": true
+    },
+    {
+      "check": "closed dependency EX-MASK",
+      "pass": true
+    },
+    {
+      "check": "claim evidence coordinator/expansion-theorem-only-v2.md",
+      "pass": true
+    },
+    {
+      "check": "claim evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "accepted current EX-GUESS",
+      "pass": true
+    },
+    {
+      "check": "claim evidence coordinator/expansion-theorem-only-v2.md",
+      "pass": true
+    },
+    {
+      "check": "claim evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "accepted current EX-REC",
+      "pass": true
+    },
+    {
+      "check": "closed dependency EX-REG",
+      "pass": true
+    },
+    {
+      "check": "closed dependency EX-MASK",
+      "pass": true
+    },
+    {
+      "check": "closed dependency EX-COMP",
+      "pass": true
+    },
+    {
+      "check": "closed dependency EX-GUESS",
+      "pass": true
+    },
+    {
+      "check": "claim evidence coordinator/expansion-theorem-only-v2.md",
+      "pass": true
+    },
+    {
+      "check": "claim evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "accepted current EX-PRIME",
+      "pass": true
+    },
+    {
+      "check": "claim evidence coordinator/expansion-theorem-only-v2.md",
+      "pass": true
+    },
+    {
+      "check": "claim evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "accepted current EX-PARAM",
+      "pass": true
+    },
+    {
+      "check": "closed dependency EX-PRIME",
+      "pass": true
+    },
+    {
+      "check": "closed dependency EX-REC",
+      "pass": true
+    },
+    {
+      "check": "claim evidence coordinator/expansion-theorem-only-v2.md",
+      "pass": true
+    },
+    {
+      "check": "claim evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "accepted current EX-IMPL",
+      "pass": true
+    },
+    {
+      "check": "closed dependency EX-PRIME",
+      "pass": true
+    },
+    {
+      "check": "closed dependency EX-PARAM",
+      "pass": true
+    },
+    {
+      "check": "claim evidence coordinator/expansion-theorem-only-v2.md",
+      "pass": true
+    },
+    {
+      "check": "claim evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "accepted current EX-PPT",
+      "pass": true
+    },
+    {
+      "check": "closed dependency EX-REC",
+      "pass": true
+    },
+    {
+      "check": "closed dependency EX-PARAM",
+      "pass": true
+    },
+    {
+      "check": "closed dependency EX-IMPL",
+      "pass": true
+    },
+    {
+      "check": "claim evidence workers/A/entropy-budget-theorem-only-v1.md",
+      "pass": true
+    },
+    {
+      "check": "claim evidence workers/A/entropy-budget-proof-v1.md",
+      "pass": true
+    },
+    {
+      "check": "claim evidence workers/B/candidate-fc-v1.md",
+      "pass": true
+    },
+    {
+      "check": "claim evidence workers/B/joint-lattice-v3-theorem.md",
+      "pass": true
+    },
+    {
+      "check": "claim evidence workers/B/joint-lattice-v3-proof.md",
+      "pass": true
+    },
+    {
+      "check": "claim evidence workers/B/v2-domain-objection.md",
+      "pass": true
+    },
+    {
+      "check": "claim evidence workers/C/m3-law-theorem-v1.md",
+      "pass": true
+    },
+    {
+      "check": "all 43 historical controls preserved",
+      "pass": true
+    },
+    {
+      "check": "regression disposition R01",
+      "pass": true
+    },
+    {
+      "check": "regression evidence coordinator/source-contract-v1.md",
+      "pass": true
+    },
+    {
+      "check": "regression disposition R02",
+      "pass": true
+    },
+    {
+      "check": "regression evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "regression evidence experiments/historical-rerun/exact-search-v1.json",
+      "pass": true
+    },
+    {
+      "check": "regression disposition R03",
+      "pass": true
+    },
+    {
+      "check": "regression evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "regression evidence experiments/historical-rerun/exact-search-v1.json",
+      "pass": true
+    },
+    {
+      "check": "regression evidence imports/regressions/01-hand-controls.md",
+      "pass": true
+    },
+    {
+      "check": "regression disposition R04",
+      "pass": true
+    },
+    {
+      "check": "regression evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "regression evidence experiments/historical-rerun/exact-search-v1.json",
+      "pass": true
+    },
+    {
+      "check": "regression evidence imports/regressions/01-hand-controls.md",
+      "pass": true
+    },
+    {
+      "check": "regression disposition R05",
+      "pass": true
+    },
+    {
+      "check": "regression evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "regression evidence experiments/historical-rerun/exact-search-v1.json",
+      "pass": true
+    },
+    {
+      "check": "regression evidence imports/regressions/01-hand-controls.md",
+      "pass": true
+    },
+    {
+      "check": "regression disposition R06",
+      "pass": true
+    },
+    {
+      "check": "regression evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "regression evidence experiments/historical-rerun/exact-search-v1.json",
+      "pass": true
+    },
+    {
+      "check": "regression disposition R07",
+      "pass": true
+    },
+    {
+      "check": "regression evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "regression evidence experiments/historical-rerun/exact-search-v1.json",
+      "pass": true
+    },
+    {
+      "check": "regression disposition R08",
+      "pass": true
+    },
+    {
+      "check": "regression evidence experiments/historical-rerun/exact-search-v1.json",
+      "pass": true
+    },
+    {
+      "check": "regression evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "regression disposition R09",
+      "pass": true
+    },
+    {
+      "check": "regression evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "regression disposition R10",
+      "pass": true
+    },
+    {
+      "check": "regression evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "regression disposition R11",
+      "pass": true
+    },
+    {
+      "check": "regression evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "regression evidence experiments/historical-rerun/exact-search-v1.json",
+      "pass": true
+    },
+    {
+      "check": "regression disposition R12",
+      "pass": true
+    },
+    {
+      "check": "regression evidence experiments/expansion_controls_v1.stdout.json",
+      "pass": true
+    },
+    {
+      "check": "regression evidence experiments/historical-rerun/interface-controls-v1.json",
+      "pass": true
+    },
+    {
+      "check": "regression evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "regression disposition R13",
+      "pass": true
+    },
+    {
+      "check": "regression evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "regression disposition R14",
+      "pass": true
+    },
+    {
+      "check": "regression evidence experiments/historical-rerun/interface-controls-v1.json",
+      "pass": true
+    },
+    {
+      "check": "regression evidence experiments/expansion_controls_v1.stdout.json",
+      "pass": true
+    },
+    {
+      "check": "regression disposition R15",
+      "pass": true
+    },
+    {
+      "check": "regression evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "regression evidence workers/C/exact_m3_control_v1.out.json",
+      "pass": true
+    },
+    {
+      "check": "regression evidence experiments/expansion_controls_v1.stdout.json",
+      "pass": true
+    },
+    {
+      "check": "regression disposition R16",
+      "pass": true
+    },
+    {
+      "check": "regression evidence coordinator/expansion-theorem-only-v2.md",
+      "pass": true
+    },
+    {
+      "check": "regression disposition R17",
+      "pass": true
+    },
+    {
+      "check": "regression evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "regression disposition R18",
+      "pass": true
+    },
+    {
+      "check": "regression evidence experiments/historical-rerun/exact-search-v1.json",
+      "pass": true
+    },
+    {
+      "check": "regression evidence experiments/expansion_controls_v1.stdout.json",
+      "pass": true
+    },
+    {
+      "check": "regression evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "regression disposition C03-HC1",
+      "pass": true
+    },
+    {
+      "check": "regression evidence experiments/historical-rerun/exact-search-v1.json",
+      "pass": true
+    },
+    {
+      "check": "regression evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "regression disposition C03-HC2",
+      "pass": true
+    },
+    {
+      "check": "regression evidence criticism/RF1/rectangular-output.txt",
+      "pass": true
+    },
+    {
+      "check": "regression evidence experiments/historical-rerun/rectangular-control-v1.json",
+      "pass": true
+    },
+    {
+      "check": "regression evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "regression disposition C03-HC3",
+      "pass": true
+    },
+    {
+      "check": "regression evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "regression evidence experiments/historical-rerun/rectangular-control-v1.json",
+      "pass": true
+    },
+    {
+      "check": "regression disposition C03-HC4",
+      "pass": true
+    },
+    {
+      "check": "regression evidence experiments/historical-rerun/exact-search-v1.json",
+      "pass": true
+    },
+    {
+      "check": "regression evidence imports/regressions/01-hand-controls.md",
+      "pass": true
+    },
+    {
+      "check": "regression evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "regression disposition C03-HC5",
+      "pass": true
+    },
+    {
+      "check": "regression evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "regression evidence experiments/historical-rerun/exact-search-v1.json",
+      "pass": true
+    },
+    {
+      "check": "regression evidence imports/regressions/01-hand-controls.md",
+      "pass": true
+    },
+    {
+      "check": "regression disposition C03-HC6",
+      "pass": true
+    },
+    {
+      "check": "regression evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "regression evidence experiments/historical-rerun/exact-search-v1.json",
+      "pass": true
+    },
+    {
+      "check": "regression disposition C03-HC7",
+      "pass": true
+    },
+    {
+      "check": "regression evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "regression evidence criticism/RF1/rectangular-output.txt",
+      "pass": true
+    },
+    {
+      "check": "regression disposition C02-LATENT-PUBLIC",
+      "pass": true
+    },
+    {
+      "check": "regression evidence experiments/historical-rerun/exact-search-v1.json",
+      "pass": true
+    },
+    {
+      "check": "regression evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "regression disposition C02-CHAR",
+      "pass": true
+    },
+    {
+      "check": "regression evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "regression evidence experiments/expansion_controls_v1.stdout.json",
+      "pass": true
+    },
+    {
+      "check": "regression disposition C01-ATT",
+      "pass": true
+    },
+    {
+      "check": "regression evidence workers/B/att-reconstruction.md",
+      "pass": true
+    },
+    {
+      "check": "regression evidence criticism/RS1/report-v1.md",
+      "pass": true
+    },
+    {
+      "check": "regression disposition CP-1",
+      "pass": true
+    },
+    {
+      "check": "regression evidence experiments/historical-rerun/exact-search-v1.json",
+      "pass": true
+    },
+    {
+      "check": "regression evidence experiments/expansion_controls_v1.stdout.json",
+      "pass": true
+    },
+    {
+      "check": "regression evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "regression disposition NC1-v1",
+      "pass": true
+    },
+    {
+      "check": "regression evidence experiments/historical-rerun/exact-search-v1.json",
+      "pass": true
+    },
+    {
+      "check": "regression evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "regression disposition S0-dependency",
+      "pass": true
+    },
+    {
+      "check": "regression evidence claims.json",
+      "pass": true
+    },
+    {
+      "check": "regression disposition PUBLIC-ENCODED-F",
+      "pass": true
+    },
+    {
+      "check": "regression evidence experiments/historical-rerun/exact-search-v1.json",
+      "pass": true
+    },
+    {
+      "check": "regression evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "regression disposition W2-SUBGROUP-BOUNDARY",
+      "pass": true
+    },
+    {
+      "check": "regression evidence workers/B/att-reconstruction.md",
+      "pass": true
+    },
+    {
+      "check": "regression evidence workers/B/final.md",
+      "pass": true
+    },
+    {
+      "check": "regression disposition UNIFORM-APPROX-COLLAPSE",
+      "pass": true
+    },
+    {
+      "check": "regression evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "regression evidence workers/A/entropy-budget-theorem-only-v1.md",
+      "pass": true
+    },
+    {
+      "check": "regression disposition SE-CORRELATION-F3",
+      "pass": true
+    },
+    {
+      "check": "regression evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "regression evidence experiments/historical-rerun/exact-search-v1.json",
+      "pass": true
+    },
+    {
+      "check": "regression evidence imports/regressions/01-hand-controls.md",
+      "pass": true
+    },
+    {
+      "check": "regression disposition W2-CONSTANT-COMPARISON",
+      "pass": true
+    },
+    {
+      "check": "regression evidence workers/B/att-reconstruction.md",
+      "pass": true
+    },
+    {
+      "check": "regression evidence workers/B/final.md",
+      "pass": true
+    },
+    {
+      "check": "regression disposition N02-DUAL-NUMBER",
+      "pass": true
+    },
+    {
+      "check": "regression evidence experiments/historical-rerun/interface-controls-v1.json",
+      "pass": true
+    },
+    {
+      "check": "regression evidence experiments/expansion_controls_v1.stdout.json",
+      "pass": true
+    },
+    {
+      "check": "regression disposition PAIRWISE-SE-F3",
+      "pass": true
+    },
+    {
+      "check": "regression evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "regression evidence experiments/historical-rerun/exact-search-v1.json",
+      "pass": true
+    },
+    {
+      "check": "regression evidence imports/regressions/01-hand-controls.md",
+      "pass": true
+    },
+    {
+      "check": "regression disposition N03-PV-CONDITIONING",
+      "pass": true
+    },
+    {
+      "check": "regression evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "regression disposition N03-SCAL-POSTERIOR",
+      "pass": true
+    },
+    {
+      "check": "regression evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "regression disposition RECT-ALG-1",
+      "pass": true
+    },
+    {
+      "check": "regression evidence criticism/RF1/rectangular-output.txt",
+      "pass": true
+    },
+    {
+      "check": "regression evidence experiments/historical-rerun/rectangular-control-v1.json",
+      "pass": true
+    },
+    {
+      "check": "regression evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "regression disposition SOURCE-SMALL-D",
+      "pass": true
+    },
+    {
+      "check": "regression evidence workers/B/att-reconstruction.md",
+      "pass": true
+    },
+    {
+      "check": "regression evidence criticism/RS1/report-v1.md",
+      "pass": true
+    },
+    {
+      "check": "regression disposition A-PPT-LEDGER-SCOPE",
+      "pass": true
+    },
+    {
+      "check": "regression evidence criticism/RS1/report-v1.md",
+      "pass": true
+    },
+    {
+      "check": "regression evidence coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "new control evidence workers/C/m3-law-theorem-v1.md",
+      "pass": true
+    },
+    {
+      "check": "new control evidence workers/C/exact_m3_control_v1.out.json",
+      "pass": true
+    },
+    {
+      "check": "new control evidence criticism/RF1/report-v1.md",
+      "pass": true
+    },
+    {
+      "check": "new control evidence criticism/RF1/negative-controls-v1.md",
+      "pass": true
+    },
+    {
+      "check": "new control evidence criticism/RF1/report-v1.md",
+      "pass": true
+    },
+    {
+      "check": "new control evidence criticism/RF1/negative-controls-v1.md",
+      "pass": true
+    },
+    {
+      "check": "new control evidence criticism/RF1/report-v1.md",
+      "pass": true
+    },
+    {
+      "check": "new control evidence criticism/RF1/rectangular-output.txt",
+      "pass": true
+    },
+    {
+      "check": "new control evidence criticism/RF1/rectangular_control.py",
+      "pass": true
+    },
+    {
+      "check": "new control evidence experiments/expansion_controls_v1.stdout.json",
+      "pass": true
+    },
+    {
+      "check": "new control evidence experiments/expansion_controls_v1.py",
+      "pass": true
+    },
+    {
+      "check": "new control evidence workers/B/v2-domain-objection.md",
+      "pass": true
+    },
+    {
+      "check": "new control evidence workers/B/joint-lattice-v2-theorem.md",
+      "pass": true
+    },
+    {
+      "check": "new control evidence workers/B/joint-lattice-v3-theorem.md",
+      "pass": true
+    },
+    {
+      "check": "new control evidence workers/B/jl-output-v3.json",
+      "pass": true
+    },
+    {
+      "check": "new control evidence workers/B/jl_controls_v3.py",
+      "pass": true
+    },
+    {
+      "check": "new control evidence workers/A/initial-report-v1.md",
+      "pass": true
+    },
+    {
+      "check": "new control evidence workers/A/finite_controls_v1.stdout.json",
+      "pass": true
+    },
+    {
+      "check": "frozen report RS1",
+      "pass": true
+    },
+    {
+      "check": "frozen report RF1",
+      "pass": true
+    },
+    {
+      "check": "frozen report RF1-v2",
+      "pass": true
+    },
+    {
+      "check": "frozen report RB2",
+      "pass": true
+    },
+    {
+      "check": "frozen report RD1",
+      "pass": true
+    },
+    {
+      "check": "fresh blind role",
+      "pass": true
+    },
+    {
+      "check": "blind isolation declared and frozen",
+      "pass": true
+    },
+    {
+      "check": "blind freeze receipt hash",
+      "pass": true
+    },
+    {
+      "check": "experiment stopped C-M3-control-v1",
+      "pass": true
+    },
+    {
+      "check": "experiment artifact workers/C/exact_m3_control_v1.py",
+      "pass": true
+    },
+    {
+      "check": "experiment artifact workers/C/exact_m3_control_v1.out.json",
+      "pass": true
+    },
+    {
+      "check": "experiment stopped B-FC-control-v1",
+      "pass": true
+    },
+    {
+      "check": "experiment artifact workers/B/fc_controls_v1.py",
+      "pass": true
+    },
+    {
+      "check": "experiment artifact workers/B/fc-output-v1.json",
+      "pass": true
+    },
+    {
+      "check": "experiment stopped A-finite-controls-v1",
+      "pass": true
+    },
+    {
+      "check": "experiment artifact workers/A/finite_controls_v1.py",
+      "pass": true
+    },
+    {
+      "check": "experiment artifact workers/A/finite_controls_v1.stdout.json",
+      "pass": true
+    },
+    {
+      "check": "experiment stopped EX-controls-v1",
+      "pass": true
+    },
+    {
+      "check": "experiment artifact experiments/expansion_controls_v1.py",
+      "pass": true
+    },
+    {
+      "check": "experiment artifact experiments/expansion_controls_v1.stdout.json",
+      "pass": true
+    },
+    {
+      "check": "experiment stopped B-JL-controls-v3",
+      "pass": true
+    },
+    {
+      "check": "experiment artifact workers/B/jl_controls_v3.py",
+      "pass": true
+    },
+    {
+      "check": "experiment artifact workers/B/jl-output-v3.json",
+      "pass": true
+    },
+    {
+      "check": "experiment stopped RB1-finite-control",
+      "pass": true
+    },
+    {
+      "check": "experiment artifact criticism/RB1/finite_control.py",
+      "pass": true
+    },
+    {
+      "check": "experiment artifact criticism/RB1/finite-control-output.txt",
+      "pass": true
+    },
+    {
+      "check": "experiment stopped HIST-exact-search-v1",
+      "pass": true
+    },
+    {
+      "check": "experiment artifact experiments/historical-rerun/exact-search-v1.py",
+      "pass": true
+    },
+    {
+      "check": "experiment artifact experiments/historical-rerun/exact-search-v1.json",
+      "pass": true
+    },
+    {
+      "check": "experiment artifact experiments/historical-rerun/execution-receipt.json",
+      "pass": true
+    },
+    {
+      "check": "experiment stopped HIST-rectangular-control-v1",
+      "pass": true
+    },
+    {
+      "check": "experiment artifact experiments/historical-rerun/rectangular-control-v1.py",
+      "pass": true
+    },
+    {
+      "check": "experiment artifact experiments/historical-rerun/rectangular-control-v1.json",
+      "pass": true
+    },
+    {
+      "check": "experiment artifact experiments/historical-rerun/execution-receipt.json",
+      "pass": true
+    },
+    {
+      "check": "experiment stopped HIST-interface-controls-v1",
+      "pass": true
+    },
+    {
+      "check": "experiment artifact experiments/historical-rerun/interface-controls-v1.py",
+      "pass": true
+    },
+    {
+      "check": "experiment artifact experiments/historical-rerun/interface-controls-v1.json",
+      "pass": true
+    },
+    {
+      "check": "experiment artifact experiments/historical-rerun/execution-receipt.json",
+      "pass": true
+    },
+    {
+      "check": "experiment stopped RF1-STACK-M3",
+      "pass": true
+    },
+    {
+      "check": "experiment artifact criticism/RF1/rectangular_control.py",
+      "pass": true
+    },
+    {
+      "check": "experiment artifact criticism/RF1/rectangular-output.txt",
+      "pass": true
+    },
+    {
+      "check": "experiment artifact criticism/RF1/rectangular-command.txt",
+      "pass": true
+    },
+    {
+      "check": "experiment artifact criticism/RF1/experiment-cap-preflight.json",
+      "pass": true
+    },
+    {
+      "check": "all experiment reservations released",
+      "pass": true
+    },
+    {
+      "check": "nonempty final.md",
+      "pass": true
+    },
+    {
+      "check": "local markdown link final.md -> coordinator/expansion-theorem-only-v2.md",
+      "pass": true
+    },
+    {
+      "check": "local markdown link final.md -> coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "local markdown link final.md -> parameter-table.md",
+      "pass": true
+    },
+    {
+      "check": "local markdown link final.md -> source-comparison.md",
+      "pass": true
+    },
+    {
+      "check": "local markdown link final.md -> criticism/RS1/sampler-budget-v1.md",
+      "pass": true
+    },
+    {
+      "check": "local markdown link final.md -> criticism/RS1/report-v1.md",
+      "pass": true
+    },
+    {
+      "check": "local markdown link final.md -> criticism/RF1/report-v1.md",
+      "pass": true
+    },
+    {
+      "check": "local markdown link final.md -> criticism/RF1/proof-v2-recheck-v1.md",
+      "pass": true
+    },
+    {
+      "check": "local markdown link final.md -> criticism/RB2/report-v1.md",
+      "pass": true
+    },
+    {
+      "check": "local markdown link final.md -> criticism/RB2/freeze-receipt-v1.json",
+      "pass": true
+    },
+    {
+      "check": "local markdown link final.md -> criticism/RD1/report-v1.md",
+      "pass": true
+    },
+    {
+      "check": "local markdown link final.md -> claims.json",
+      "pass": true
+    },
+    {
+      "check": "local markdown link final.md -> coordinator/review-index-v1.json",
+      "pass": true
+    },
+    {
+      "check": "local markdown link final.md -> reconciliation.md",
+      "pass": true
+    },
+    {
+      "check": "local markdown link final.md -> regressions.json",
+      "pass": true
+    },
+    {
+      "check": "local markdown link final.md -> experiments/registry.json",
+      "pass": true
+    },
+    {
+      "check": "local markdown link final.md -> workers/A/initial-report-v1.md",
+      "pass": true
+    },
+    {
+      "check": "local markdown link final.md -> workers/B/final.md",
+      "pass": true
+    },
+    {
+      "check": "local markdown link final.md -> workers/C/final.md",
+      "pass": true
+    },
+    {
+      "check": "local markdown link final.md -> goal-completed.json",
+      "pass": true
+    },
+    {
+      "check": "local markdown link final.md -> resume.md",
+      "pass": true
+    },
+    {
+      "check": "local markdown link final.md -> shutdown.json",
+      "pass": true
+    },
+    {
+      "check": "local markdown link final.md -> goal-completed.json",
+      "pass": true
+    },
+    {
+      "check": "local markdown link final.md -> shutdown.json",
+      "pass": true
+    },
+    {
+      "check": "local markdown link final.md -> coordinator/delivery-check-accepted-v1.json",
+      "pass": true
+    },
+    {
+      "check": "nonempty resume.md",
+      "pass": true
+    },
+    {
+      "check": "nonempty reconciliation.md",
+      "pass": true
+    },
+    {
+      "check": "nonempty parameter-table.md",
+      "pass": true
+    },
+    {
+      "check": "local markdown link parameter-table.md -> coordinator/expansion-theorem-only-v2.md",
+      "pass": true
+    },
+    {
+      "check": "local markdown link parameter-table.md -> coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "local markdown link parameter-table.md -> criticism/RS1/sampler-budget-v1.md",
+      "pass": true
+    },
+    {
+      "check": "local markdown link parameter-table.md -> criticism/RS1/report-v1.md",
+      "pass": true
+    },
+    {
+      "check": "nonempty source-comparison.md",
+      "pass": true
+    },
+    {
+      "check": "local markdown link source-comparison.md -> parameter-table.md",
+      "pass": true
+    },
+    {
+      "check": "local markdown link source-comparison.md -> criticism/RS1/report-v1.md",
+      "pass": true
+    },
+    {
+      "check": "nonempty coordinator/expansion-theorem-only-v2.md",
+      "pass": true
+    },
+    {
+      "check": "nonempty coordinator/expansion-proof-v2.md",
+      "pass": true
+    },
+    {
+      "check": "local markdown link coordinator/expansion-proof-v2.md -> expansion-theorem-only-v2.md",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T211919.347082Z-e271d82e/claims.json",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T211919.347082Z-e271d82e/reconciliation.md",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T211919.347082Z-e271d82e/progress.md",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T211919.347082Z-e271d82e/final.md",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T211919.347082Z-e271d82e/agents.json",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T213510.478532Z-f60ddc7d/claims.json",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T213510.478532Z-f60ddc7d/reconciliation.md",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T213510.478532Z-f60ddc7d/progress.md",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T213510.478532Z-f60ddc7d/final.md",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T213510.478532Z-f60ddc7d/agents.json",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T214323.233216Z-a432de31/claims.json",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T214323.233216Z-a432de31/reconciliation.md",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T214323.233216Z-a432de31/progress.md",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T214323.233216Z-a432de31/final.md",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T214323.233216Z-a432de31/agents.json",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T213934.960214Z-fa6a18fa/claims.json",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T213934.960214Z-fa6a18fa/reconciliation.md",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T213934.960214Z-fa6a18fa/progress.md",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T213934.960214Z-fa6a18fa/final.md",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T213934.960214Z-fa6a18fa/agents.json",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T213059.800234Z-d3d7d4f0/claims.json",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T213059.800234Z-d3d7d4f0/reconciliation.md",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T213059.800234Z-d3d7d4f0/progress.md",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T213059.800234Z-d3d7d4f0/final.md",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T213059.800234Z-d3d7d4f0/agents.json",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T212446.787095Z-d5619fda/claims.json",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T212446.787095Z-d5619fda/reconciliation.md",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T212446.787095Z-d5619fda/progress.md",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T212446.787095Z-d5619fda/final.md",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T212446.787095Z-d5619fda/agents.json",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T211443.896163Z-e506bec3/claims.json",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T211443.896163Z-e506bec3/reconciliation.md",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T211443.896163Z-e506bec3/progress.md",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T211443.896163Z-e506bec3/final.md",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T211443.896163Z-e506bec3/agents.json",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T214418.222500Z-57f9f091/claims.json",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T214418.222500Z-57f9f091/reconciliation.md",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T214418.222500Z-57f9f091/progress.md",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T214418.222500Z-57f9f091/final.md",
+      "pass": true
+    },
+    {
+      "check": "immutable snapshot 20261016T214418.222500Z-57f9f091/agents.json",
+      "pass": true
+    },
+    {
+      "check": "exact native goal objective",
+      "pass": true
+    },
+    {
+      "check": "no invented token budget",
+      "pass": true
+    },
+    {
+      "check": "configured total team ceiling four",
+      "pass": true
+    },
+    {
+      "check": "observed current team ceiling",
+      "pass": true
+    },
+    {
+      "check": "delivery within unchanged discovery envelope",
+      "pass": true
+    },
+    {
+      "check": "historical provenance recheck recorded",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

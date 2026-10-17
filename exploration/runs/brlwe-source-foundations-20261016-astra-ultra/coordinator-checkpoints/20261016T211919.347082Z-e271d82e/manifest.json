@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261016T211919.347082Z-e271d82e",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-16T21:19:19.347104+00:00",
+  "reason": "First concrete endpoint failures and EX-v1 candidate frozen; all three useful workers observed",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 1955,
+      "sha256": "d2d08cf3e1d64c9abf192953b098360172455ebe4c8dd3b1ea09d7f9ccb71620"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 1920,
+      "sha256": "84f7bbbde746cecaf7d4d981664ef5d9348ef34ca015581ba44a09a64da16e32"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 1920,
+      "sha256": "84f7bbbde746cecaf7d4d981664ef5d9348ef34ca015581ba44a09a64da16e32"
+    },
+    {
+      "path": "final.md",
+      "bytes": 1920,
+      "sha256": "84f7bbbde746cecaf7d4d981664ef5d9348ef34ca015581ba44a09a64da16e32"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 2501,
+      "sha256": "e58f603977eb2ebe2234a05510116da62faaf3ec8900c1e73fb71581ccaf931c"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

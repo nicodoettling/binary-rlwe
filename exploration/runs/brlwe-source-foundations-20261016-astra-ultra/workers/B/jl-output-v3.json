@@ -1,0 +1,357 @@
+{
+  "status": "PROVISIONAL",
+  "seed": null,
+  "exact_occupancy_checks": 1545,
+  "rank_row_controls": [
+    {
+      "q": 5,
+      "rows": 0,
+      "enumerated_amplitude_tuples": 1,
+      "rank_at_most_one_count": 1,
+      "probability": "1"
+    },
+    {
+      "q": 5,
+      "rows": 1,
+      "enumerated_amplitude_tuples": 25,
+      "rank_at_most_one_count": 25,
+      "probability": "1"
+    },
+    {
+      "q": 5,
+      "rows": 2,
+      "enumerated_amplitude_tuples": 625,
+      "rank_at_most_one_count": 145,
+      "probability": "29/125"
+    },
+    {
+      "q": 5,
+      "rows": 3,
+      "enumerated_amplitude_tuples": 15625,
+      "rank_at_most_one_count": 745,
+      "probability": "149/3125"
+    },
+    {
+      "q": 17,
+      "rows": 2,
+      "enumerated_amplitude_tuples": 83521,
+      "rank_at_most_one_count": 5185,
+      "probability": "305/4913"
+    }
+  ],
+  "fixed_space_controls": [
+    {
+      "H": [
+        1
+      ],
+      "index": 4,
+      "bounded_fixed_vectors": 81,
+      "count_bound": 81
+    },
+    {
+      "H": [
+        1,
+        3
+      ],
+      "index": 2,
+      "bounded_fixed_vectors": 9,
+      "count_bound": 9
+    },
+    {
+      "H": [
+        1,
+        5
+      ],
+      "index": 2,
+      "bounded_fixed_vectors": 9,
+      "count_bound": 9
+    },
+    {
+      "H": [
+        1,
+        7
+      ],
+      "index": 2,
+      "bounded_fixed_vectors": 9,
+      "count_bound": 9
+    },
+    {
+      "H": [
+        1,
+        3,
+        5,
+        7
+      ],
+      "index": 1,
+      "bounded_fixed_vectors": 3,
+      "count_bound": 3
+    }
+  ],
+  "short_multiplier_norm_controls": 106,
+  "uniform_pivot_controls": [
+    {
+      "support": [],
+      "dimension": 0,
+      "box_counts_B012": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "support": [
+        0
+      ],
+      "dimension": 1,
+      "box_counts_B012": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "support": [
+        1
+      ],
+      "dimension": 1,
+      "box_counts_B012": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "support": [
+        2
+      ],
+      "dimension": 1,
+      "box_counts_B012": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "support": [
+        3
+      ],
+      "dimension": 1,
+      "box_counts_B012": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "support": [
+        0,
+        1
+      ],
+      "dimension": 2,
+      "box_counts_B012": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "support": [
+        0,
+        2
+      ],
+      "dimension": 2,
+      "box_counts_B012": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "support": [
+        0,
+        3
+      ],
+      "dimension": 2,
+      "box_counts_B012": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "support": [
+        1,
+        2
+      ],
+      "dimension": 2,
+      "box_counts_B012": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "support": [
+        1,
+        3
+      ],
+      "dimension": 2,
+      "box_counts_B012": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "support": [
+        2,
+        3
+      ],
+      "dimension": 2,
+      "box_counts_B012": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "support": [
+        0,
+        1,
+        2
+      ],
+      "dimension": 3,
+      "box_counts_B012": [
+        1,
+        1,
+        33
+      ]
+    },
+    {
+      "support": [
+        0,
+        1,
+        3
+      ],
+      "dimension": 3,
+      "box_counts_B012": [
+        1,
+        1,
+        33
+      ]
+    },
+    {
+      "support": [
+        0,
+        2,
+        3
+      ],
+      "dimension": 3,
+      "box_counts_B012": [
+        1,
+        1,
+        33
+      ]
+    },
+    {
+      "support": [
+        1,
+        2,
+        3
+      ],
+      "dimension": 3,
+      "box_counts_B012": [
+        1,
+        1,
+        33
+      ]
+    },
+    {
+      "support": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "dimension": 4,
+      "box_counts_B012": [
+        1,
+        81,
+        625
+      ]
+    }
+  ],
+  "low_degree_rank_control": {
+    "field": 5,
+    "evaluation_points": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "k": 2,
+    "d": 4,
+    "tuples": 390625,
+    "deficient_count": 121825,
+    "deficient_probability": "4873/15625",
+    "bound": "1/2",
+    "scope": "Pure algebraic lemma, not a split n=4 q=5 source"
+  },
+  "public_coefficient_noise_control": {
+    "n": 2,
+    "q": 97,
+    "d": 1,
+    "r": 1,
+    "C": 1,
+    "b": 1,
+    "B": 0,
+    "roots": [
+      22,
+      75
+    ],
+    "same_T_acceptance_rational_toy": "2419/301088",
+    "redrawn_T_acceptance_rational_toy": "4029/602176",
+    "uniform_acceptance_exact": "37633/88529281",
+    "Gaussian_truncated_same_T_float": 0.032150192010251065,
+    "Gaussian_truncated_redrawn_T_float": 0.024801213735315977,
+    "Gaussian_four_coefficient_tail_bound": 2.789874305406075e-05,
+    "Gaussian_qualification": "D_1 conditioned on [-1,1] in every coefficient; probability decimals have unbounded floating rounding; displayed whole-source tail bound is analytic.",
+    "redrawn_support_counterexample": {
+      "T1_root": 22,
+      "T2_root": 75,
+      "F1": [
+        -1,
+        -1
+      ],
+      "F2": [
+        -1,
+        -1
+      ],
+      "U1_coeff_mod_q": [
+        23,
+        76
+      ],
+      "U2_coeff_mod_q": [
+        76,
+        23
+      ],
+      "A1": [
+        22,
+        75
+      ],
+      "A2": [
+        75,
+        22
+      ],
+      "multiplier_pair": [
+        1,
+        1
+      ],
+      "public_sum_zero": true,
+      "hidden_sum_nonzero": true
+    },
+    "scope": "Finite boundary control. r=o(d) does not hold; no new attack claimed."
+  },
+  "cp1_matching_probability": "21/2000",
+  "elapsed_seconds": 2.621478318993468
+}

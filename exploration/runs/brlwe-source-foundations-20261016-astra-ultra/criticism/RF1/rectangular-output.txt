@@ -1,0 +1,8 @@
+Exact rational only; no randomness, Gaussian sums, truncation, or covariance identification.
+{'dimensions': [12, 4], 'ell_squared': 4, 'b': 1, 'sigma_squared': 768, 'nonzero_cross_block_entries': 88, 'quadratic_checks': 105, 'max_rational_bits': 25}
+Theta = [['185/48', '-1/16', '0', '1/16'], ['-1/16', '185/48', '-1/16', '0'], ['0', '-1/16', '185/48', '-1/16'], ['1/16', '0', '-1/16', '185/48']]
+B positive LDL pivots = ['760', '72198/95', '27434480/36099', '72196/95', '13715712/18049', '81649633280/107445697', '30296293344/39867985', '4523776/5953', '13353216/17671', '232144787520/307245677', '304515639808/403029145', '13135488/17387']
+Theta - 3 ell^2 I/4 positive LDL pivots = ['41/48', '209/246', '68183/80256', '1663/1968']
+Marginal-only negative control: {'sigma_squared': 8, 'marginal_complement': '4 I_4', 'full_quadratic': '-12', 'block_diagonal_quadratic': '12'}
+Wrong block-diagonal exponent complement leaves cross entry: ('0', '4', '4')
+PASS; elapsed_seconds=0.039082

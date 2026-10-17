@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "run_id": "brlwe-source-foundations-20261016-astra-ultra",
+  "launch_authorized": true,
+  "authorization": "Can you prepare an launch a 5h 4 agent astra ultra tmux goal run along these line? Please launch immediately",
+  "root": "/home/nico/projects/research_projects/binaryRLWE",
+  "output_directory": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-source-foundations-20261016-astra-ultra",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "ultra",
+  "total_agents": 4,
+  "spawned_workers_max": 3,
+  "goal_mode": true,
+  "goal_objective": "Establish and critically validate a quantitatively substantive new result about the noisy hidden-ideal source underpinning coefficient-binary rank-one RLWE: an explicit computational hardness connection, an improved distinguishing algorithm or useful parameter obstruction beyond the archived methods, or a genuinely new beyond-two-sample recovery mechanism preserving the source budget, justifying an expanded source, or proving a new quantitative structural tradeoff. Routine restacking under an assumed Base_m is supporting work, not achievement. Improve on accepted A-PPT v2, state a nonempty effective asymptotic regime and exact sample/assumption scope, close all load-bearing proof and review obligations, and preserve honest partial or negative outcomes if the five-hour cap prevents achievement.",
+  "max_runtime_seconds": 18000,
+  "wrapup_before_seconds": 1200,
+  "stop_grace_seconds": 60,
+  "scheduling_reserve_seconds": 5,
+  "permission_profile": "sandbox-only",
+  "web_search": true,
+  "automatic_service_resume": false,
+  "native_continuations_within_live_cap": true,
+  "experiments": {
+    "default_timeout_seconds": 120,
+    "maximum_timeout_seconds": 300,
+    "maximum_concurrent": 2,
+    "maximum_heavy_concurrent": 1,
+    "maximum_address_space_bytes": 17179869184,
+    "aggregate_memory_cgroup_enforced": false
+  },
+  "note": "Declarative run contract, not input consumed by the generic launcher. Actual runtime and configuration evidence is in launcher-run.json, worker-status.json and the cap sidecar. No token budget was requested."
+}

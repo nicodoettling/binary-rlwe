@@ -1,0 +1,102 @@
+{
+  "status": "PROVISIONAL",
+  "seed": null,
+  "noise_for_exact_checks": "iid coefficient rational {-1:1/4,0:1/2,1:1/4}; not asserted Gaussian",
+  "exact_controls": [
+    {
+      "n": 2,
+      "q": 5,
+      "d": 1,
+      "roots": [
+        2,
+        3
+      ],
+      "supports": 2,
+      "ideal_values_per_support": 5,
+      "frequencies": 25,
+      "exact_pair_moment_checks": 625,
+      "max_marginal_character_abs_float": 0.031249999999999965,
+      "max_pair_character_abs_float": 0.031249999999999965,
+      "same_T_vs_redrawn_diagonal_gaps_float": [
+        0.0009765625000000278,
+        0.0009765625000000278,
+        0.0009765625000000278,
+        0.0009765625000000278,
+        0.0009765625000000278,
+        0.0009765625000000278,
+        0.0009765625000000278,
+        0.0009765625000000278
+      ],
+      "marginal_TV_exact": "1/25",
+      "pair_TV_exact": "31/625",
+      "same_T_vs_redrawn_TV_exact": "1/800"
+    },
+    {
+      "n": 4,
+      "q": 17,
+      "d": 1,
+      "roots": [
+        2,
+        8,
+        9,
+        15
+      ],
+      "supports": 4,
+      "ideal_values_per_support": 17,
+      "frequencies": 9,
+      "exact_pair_moment_checks": 81,
+      "max_marginal_character_abs_float": 0.017161760801722794,
+      "max_pair_character_abs_float": 0.017161760801722794,
+      "same_T_vs_redrawn_diagonal_gaps_float": [
+        2.8610229492395667e-06,
+        2.8610229492395667e-06,
+        5.945825752362577e-06,
+        0.00029452603381555087
+      ]
+    },
+    {
+      "n": 4,
+      "q": 17,
+      "d": 2,
+      "roots": [
+        2,
+        8,
+        9,
+        15
+      ],
+      "supports": 6,
+      "ideal_values_per_support": 289,
+      "frequencies": 9,
+      "exact_pair_moment_checks": 81,
+      "max_marginal_character_abs_float": 0.0057205869339075135,
+      "max_pair_character_abs_float": 0.0057205869339075135,
+      "same_T_vs_redrawn_diagonal_gaps_float": [
+        3.8146972656596945e-06,
+        3.8146972656596945e-06,
+        3.303236529118847e-06,
+        0.00016362557434195651
+      ]
+    }
+  ],
+  "exact_Gaussian_diagnostic": {
+    "n": 2,
+    "q": 5,
+    "d": 1,
+    "ell": 1,
+    "radius": 6,
+    "tail_bound_for_all_2n_coefficients": 1.6188631222776506e-50,
+    "frequency_v": [
+      1,
+      2
+    ],
+    "psi_float": 0.8090169943749473,
+    "marginal_character_bias_float": 0.40450849718747367,
+    "joint_diagonal_character_bias_float": 0.3272542485937368,
+    "same_vs_redrawn_character_gap_float": 0.1636271242968684,
+    "uniform_character_acceptance": 0.5,
+    "same_T_character_acceptance_float": 0.6636271242968684,
+    "redrawn_T_character_acceptance_float": 0.5818135621484342,
+    "qualification": "Tail bound rigorous by Gaussian integral and Z_ell>=ell; decimal computations diagnostic, binary floating rounding unbounded."
+  },
+  "elapsed_seconds": 3.039177542028483
+}

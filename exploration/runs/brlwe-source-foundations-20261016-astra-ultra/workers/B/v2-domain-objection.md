@@ -1,0 +1,3 @@
+# Preserved v2 domain objection
+
+Recorded 2026-10-16 21:26 UTC, before the v3 experiment. v2 permitted b=0 but displayed eta_F=2n ell exp(-pi b^2/ell^2)/(pi b), which is undefined there. Its generic statement therefore had an incomplete boundary definition. No asymptotic specialization used b=0. v3 narrows the domain to b>=1 and retains B>=0; scientific inequalities and asymptotic examples otherwise remain unchanged. v2 is superseded, not certified. The v3 proof also replaces the algebraic-ideal norm explanation with an elementary integer determinant proof, and explicitly handles d=1 in the symmetric-mean bound. All v2 bytes remain available.

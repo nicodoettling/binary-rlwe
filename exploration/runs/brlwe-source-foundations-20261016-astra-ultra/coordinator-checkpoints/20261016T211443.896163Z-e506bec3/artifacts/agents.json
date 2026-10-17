@@ -1,0 +1,27 @@
+{
+  "updated_at": "2026-10-16T21:14:43.863447+00:00",
+  "configured": {
+    "model": "gpt-6-astra",
+    "reasoning_effort": "ultra",
+    "total_ceiling": 4,
+    "max_workers": 3
+  },
+  "observed": {
+    "runtime_advertised_total_slots": 4,
+    "coordinator_model": "gpt-6-astra",
+    "coordinator_effort": "ultra",
+    "evidence": "worker-status.json observed fields",
+    "active_workers": 0,
+    "worker_startup_capacity": "not tested yet; useful assignments pending"
+  },
+  "agents": [
+    {
+      "id": "/root",
+      "session_id": "01a14690-1afb-7b03-a01d-09c842692662",
+      "task": "coordination and mathematical integration",
+      "status": "running",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra"
+    }
+  ]
+}

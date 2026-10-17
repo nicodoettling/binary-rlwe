@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-10-16 21:13:56 UTC",
+  "status_check": {
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "49aa5c",
+      "wall_time_seconds": 0.0000212,
+      "exit_code": 0,
+      "original_token_count": 333,
+      "output": "HEALTHY\nCap phase:        running\nWorker state:     running\nPermission:       sandbox-only\nAgents requested: 4 total (coordinator + 3 spawned)\nConfigured cap:   3 spawned threads\nAgent key support: unverified; --config capability checked only\nEffective slots:  unverified by helper; inspect coordinator/runtime evidence\nTmux session:     brlwe-source-foundations-20261016-astra-ultra (True)\nService state:    active/running\nContainment live: True; cgroup populated: True\nCodex session ID: 01a14690-1afb-7b03-a01d-09c842692662\nObserved workdir: /home/nico/projects/research_projects/binaryRLWE\nObserved model: gpt-6-astra\nObserved approval: never\nObserved sandbox: workspace-write [workdir, /tmp, $TMPDIR]\nObserved reasoning effort: ultra\nHeartbeat age:    12.2s\nCap started_at: 2026-10-16T21:13:31.461020+00:00\nCap wrapup_at: 2026-10-17T01:53:31.461020+00:00\nCap graceful_shutdown_at: 2026-10-17T02:12:26.461020+00:00\nCap scheduled_kill_at: 2026-10-17T02:13:26.461020+00:00\nCap hard_deadline_at: 2026-10-17T02:13:31.461020+00:00\nCap service: codex-cap-brlwe-source-foundations-20261016-astra--72240bce8837.service\nCap cgroup: /user.slice/user-1007.slice/user@1007.service/app.slice/codex-cap-brlwe-source-foundations-20261016-astra--72240bce8837.service\nNative goal state was not changed; process status is not goal certification.\n"
+    }
+  },
+  "service_check": {
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "c2a8d7",
+      "wall_time_seconds": 0.00001484,
+      "exit_code": 0,
+      "original_token_count": 73,
+      "output": "Restart=no\nTimeoutStopUSec=1min\nRuntimeMaxUSec=4h 58min 55s\nMainPID=246867\nControlGroup=/user.slice/user-1007.slice/user@1007.service/app.slice/codex-cap-brlwe-source-foundations-20261016-astra--72240bce8837.service\nKillMode=control-group\nSendSIGKILL=yes\nActiveState=active\nSubState=running\n"
+    }
+  }
+}

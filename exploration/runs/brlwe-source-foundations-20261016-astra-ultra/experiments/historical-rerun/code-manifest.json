@@ -1,0 +1,17 @@
+[
+  {
+    "original": "exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RF1/exact-search-v1.py",
+    "copy": "experiments/historical-rerun/exact-search-v1.py",
+    "sha256": "6a20bb60a805806edb8afe4bbaacb741c9afd9d549d4fdaefe0d2243b37b8119"
+  },
+  {
+    "original": "exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RF1/rectangular-control-v1.py",
+    "copy": "experiments/historical-rerun/rectangular-control-v1.py",
+    "sha256": "e5e9ed0875c6fd2134d3eb26c035a9cbe532693438ca2e5be105edbc1621ddc9"
+  },
+  {
+    "original": "exploration/runs/brlwe-goal-routes-20260907-astra-ultra/criticism/RF1/interface-controls-v1.py",
+    "copy": "experiments/historical-rerun/interface-controls-v1.py",
+    "sha256": "2fee329796cadff12fa72056e684c5fd7d057f835c8383951f04ec20f65d07fb"
+  }
+]

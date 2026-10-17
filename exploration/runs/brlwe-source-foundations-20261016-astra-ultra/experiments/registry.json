@@ -1,0 +1,207 @@
+{
+  "updated_at": "2026-10-16T21:37:34.648618+00:00",
+  "experiments": [
+    {
+      "id": "C-M3-control-v1",
+      "status": "completed",
+      "code": "workers/C/exact_m3_control_v1.py",
+      "results": "workers/C/exact_m3_control_v1.out.json",
+      "scope": "Exact finite n2q5 surrogate; not Gaussian/asymptotic certification"
+    },
+    {
+      "id": "B-FC-control-v1",
+      "status": "completed",
+      "code": "workers/B/fc_controls_v1.py",
+      "results": "workers/B/fc-output-v1.json",
+      "scope": "Exact finite pair moments and qualified Gaussian diagnostic"
+    },
+    {
+      "id": "A-finite-controls-v1",
+      "status": "completed",
+      "code": "workers/A/finite_controls_v1.py",
+      "results": "workers/A/finite_controls_v1.stdout.json",
+      "limits": {
+        "seconds": 30,
+        "bytes": 268435456
+      }
+    },
+    {
+      "id": "EX-controls-v1",
+      "status": "completed",
+      "code": "experiments/expansion_controls_v1.py",
+      "results": "experiments/expansion_controls_v1.stdout.json",
+      "stderr": "experiments/expansion_controls_v1.stderr.txt",
+      "command": "timeout 120s python3 -B exploration/runs/brlwe-source-foundations-20261016-astra-ultra/experiments/expansion_controls_v1.py > exploration/runs/brlwe-source-foundations-20261016-astra-ultra/experiments/expansion_controls_v1.stdout.json 2> exploration/runs/brlwe-source-foundations-20261016-astra-ultra/experiments/expansion_controls_v1.stderr.txt",
+      "exit_code": 0,
+      "limits": {
+        "seconds": 120,
+        "bytes": 536870912
+      },
+      "estimate": "83520 four-dimensional centered residues plus 625 two-dimensional seed kernels; exact integers/Fraction, expected <30s and <64MiB; cap512MiB",
+      "scope": "Algebraic norm/divisibility and adjoint, rank collision bound, exact finite retained-seed m3 tensorization, rare zero seeds, leakage/CP1/witness controls; Gaussian sums only qualified floating diagnostics"
+    },
+    {
+      "id": "B-JL-controls-v3",
+      "status": "completed",
+      "code": "workers/B/jl_controls_v3.py",
+      "results": "workers/B/jl-output-v3.json",
+      "limits": {
+        "seconds": 120,
+        "bytes": 536870912
+      },
+      "scope": "Finite exact controls; inspect preserved report for precise scope"
+    },
+    {
+      "id": "RB1-finite-control",
+      "status": "completed",
+      "code": "criticism/RB1/finite_control.py",
+      "results": "criticism/RB1/finite-control-output.txt",
+      "limits": {
+        "seconds": 120,
+        "bytes": 134217728
+      },
+      "scope": "Finite exact controls; inspect preserved report for precise scope"
+    },
+    {
+      "id": "HIST-exact-search-v1",
+      "status": "completed",
+      "code": "experiments/historical-rerun/exact-search-v1.py",
+      "results": "experiments/historical-rerun/exact-search-v1.json",
+      "receipt": "experiments/historical-rerun/execution-receipt.json",
+      "name": "exact-search-v1",
+      "command": [
+        "python3",
+        "-B",
+        "exploration/runs/brlwe-source-foundations-20261016-astra-ultra/experiments/historical-rerun/exact-search-v1.py"
+      ],
+      "timeout_seconds": 120,
+      "address_space_bytes": 536870912,
+      "elapsed_seconds": 1.8192751290043816,
+      "exit_code": 0,
+      "timeout": false
+    },
+    {
+      "id": "HIST-rectangular-control-v1",
+      "status": "completed",
+      "code": "experiments/historical-rerun/rectangular-control-v1.py",
+      "results": "experiments/historical-rerun/rectangular-control-v1.json",
+      "receipt": "experiments/historical-rerun/execution-receipt.json",
+      "name": "rectangular-control-v1",
+      "command": [
+        "python3",
+        "-B",
+        "exploration/runs/brlwe-source-foundations-20261016-astra-ultra/experiments/historical-rerun/rectangular-control-v1.py"
+      ],
+      "timeout_seconds": 120,
+      "address_space_bytes": 536870912,
+      "elapsed_seconds": 0.2654867860255763,
+      "exit_code": 0,
+      "timeout": false
+    },
+    {
+      "id": "HIST-interface-controls-v1",
+      "status": "completed",
+      "code": "experiments/historical-rerun/interface-controls-v1.py",
+      "results": "experiments/historical-rerun/interface-controls-v1.json",
+      "receipt": "experiments/historical-rerun/execution-receipt.json",
+      "name": "interface-controls-v1",
+      "command": [
+        "python3",
+        "-B",
+        "exploration/runs/brlwe-source-foundations-20261016-astra-ultra/experiments/historical-rerun/interface-controls-v1.py"
+      ],
+      "timeout_seconds": 120,
+      "address_space_bytes": 536870912,
+      "elapsed_seconds": 0.06472975300857797,
+      "exit_code": 0,
+      "timeout": false
+    },
+    {
+      "id": "RF1-STACK-M3",
+      "status": "completed",
+      "code": "criticism/RF1/rectangular_control.py",
+      "results": "criticism/RF1/rectangular-output.txt",
+      "command_file": "criticism/RF1/rectangular-command.txt",
+      "preflight": "criticism/RF1/experiment-cap-preflight.json",
+      "scope": "Exact12x4 stacked algebra and negative marginal-only completion control; no numerical Gaussian assertion",
+      "limits": {
+        "wall_seconds": 120,
+        "cpu_seconds": 110,
+        "address_space_bytes": 134217728
+      }
+    }
+  ],
+  "limits": {
+    "default_timeout_seconds": 120,
+    "maximum_timeout_seconds": 300,
+    "max_concurrent": 2,
+    "max_heavy": 1,
+    "max_address_space_bytes": 17179869184,
+    "aggregate_cgroup_memory_enforced": false
+  },
+  "reservations": [
+    {
+      "worker": "B",
+      "kind": "light",
+      "seconds": 120,
+      "memory_bytes": 536870912,
+      "status": "released",
+      "results": "workers/B/fc-output-v1.json"
+    },
+    {
+      "worker": "C",
+      "kind": "light",
+      "seconds": 30,
+      "memory_bytes": 268435456,
+      "status": "released",
+      "results": "workers/C/exact_m3_control_v1.out.json"
+    },
+    {
+      "worker": "A",
+      "kind": "light",
+      "seconds": 30,
+      "memory_bytes": 268435456,
+      "status": "released"
+    },
+    {
+      "worker": "coordinator",
+      "kind": "light",
+      "seconds": 120,
+      "memory_bytes": 536870912,
+      "status": "released"
+    },
+    {
+      "worker": "B",
+      "kind": "light",
+      "seconds": 120,
+      "memory_bytes": 536870912,
+      "status": "released",
+      "scope": "joint lattice v3"
+    },
+    {
+      "worker": "RB1",
+      "kind": "light",
+      "seconds": 120,
+      "memory_bytes": 134217728,
+      "status": "released"
+    },
+    {
+      "worker": "coordinator",
+      "kind": "light",
+      "seconds": 120,
+      "memory_bytes": 536870912,
+      "status": "released",
+      "scope": "three sequential historical reruns"
+    },
+    {
+      "worker": "RF1",
+      "kind": "light",
+      "status": "released",
+      "wall_seconds": 120,
+      "cpu_seconds": 110,
+      "address_space_bytes": 134217728,
+      "estimate": "12x4 stacked matrix; exact rational inversions; <128-bit entries; one additional negative cross-block control",
+      "result": "criticism/RF1/rectangular-output.txt"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+--- expansion-proof-v1.md
++++ expansion-proof-v2.md
+@@ -1,6 +1,6 @@
+-# EX-v1 author proof
++# Proof of the EX-v2 noisy expansion and recovery theorem
+ 
+-PROVISIONAL. The frozen statement is expansion-theorem-only-v1.md. This proof has not passed nonauthor or blind review. All computational hardness statements are conditional on the exact two-point Base2 premise at the specified new parameter family. The construction does not output the iid planted law Base_m.
++The exact frozen statement is [expansion-theorem-only-v2.md](expansion-theorem-only-v2.md). Review status and exact accepted hashes are recorded separately in the run claim ledger and reconciliation. All computational hardness statements are conditional on the exact two-point Base2 premise at the specified new parameter family. The construction does not output the iid planted law Base_m.
+ 
+ ## 1. Probability spaces and public interface
+ 
+@@ -172,4 +172,4 @@
+ 
+ ## 10. Scientific boundary
+ 
+-The candidate adds a full noisy expansion regularity argument to the inherited common-quotient lossiness method. It preserves the original source budget of two points but changes the chosen q family and target noise substantially. It neither proves Base2 from standard RLWE nor generates independent planted Base_m points. It makes no target decision, quantum/nonuniform, practical-security or literature-priority claim. All present statuses are PROVISIONAL pending falsification, primary source/parameter/complexity review, fresh blind review and final dependency reconciliation.
++The candidate adds a full noisy expansion regularity argument to the inherited common-quotient lossiness method. It preserves the original source budget of two points but changes the chosen q family and target noise substantially. It neither proves Base2 from standard RLWE nor generates independent planted Base_m points. It makes no target decision, quantum/nonuniform, practical-security or literature-priority claim. Certification, including falsification, primary source/parameter/complexity review, fresh blind review and exact dependency reconciliation, is recorded in the run ledger rather than inferred from this proof artifact.

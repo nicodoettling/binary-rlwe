@@ -1,0 +1,52 @@
+{
+  "address_space_limit_bytes": 268435456,
+  "precision": "all probabilities and ranks exact Fraction/integer; entropy displays use binary64 natural logs; asserted margins are not interval-certified",
+  "randomness": "none; exhaustive deterministic enumeration",
+  "scalar_F3_all_rank2_linear_kernels": {
+    "minimum_TV_to_zero_noise_Base2_d0_exact": "16/27",
+    "minimum_entropy_inequality_margin_numerical": 1.0014157827719699,
+    "number_checked": 6240,
+    "number_of_minimizing_maps": 144,
+    "one_minimizing_map": [
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "scalar_F3_finite_noise": {
+    "erasure_mixture_exact": true,
+    "error_law": {
+      "0": "1/2",
+      "1": "1/4",
+      "2": "1/4"
+    },
+    "source_KL_numerical": 0.040964150845534064,
+    "source_KL_upper_bound_numerical": 1.2206803207423442
+  },
+  "split_ring_F5_X2plus1": {
+    "erasure_mixture_exact": true,
+    "expected_rank_exact": "48/25",
+    "source_KL_bound_numerical": 3.347630857862929,
+    "source_KL_formula": "52/25 * ln(5)",
+    "source_KL_numerical": 3.347630857862928,
+    "source_distinct_transcripts": 14641,
+    "source_seed_outcomes": 15625,
+    "support_probabilities": {
+      "(0, 0)": "1/25",
+      "(0, 1)": "4/25",
+      "(1, 0)": "4/25",
+      "(1, 1)": "16/25"
+    }
+  },
+  "status": "PROVISIONAL finite controls only",
+  "tails": "none; zero-noise and finite ternary laws are explicit regression controls, not replacements for SC-v1 Gaussian noise"
+}

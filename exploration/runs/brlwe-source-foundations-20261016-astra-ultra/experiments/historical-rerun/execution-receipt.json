@@ -1,0 +1,45 @@
+{
+  "updated_at": "2026-10-16T21:28:35.678454+00:00",
+  "sequential": true,
+  "jobs": [
+    {
+      "name": "exact-search-v1",
+      "command": [
+        "python3",
+        "-B",
+        "exploration/runs/brlwe-source-foundations-20261016-astra-ultra/experiments/historical-rerun/exact-search-v1.py"
+      ],
+      "timeout_seconds": 120,
+      "address_space_bytes": 536870912,
+      "elapsed_seconds": 1.8192751290043816,
+      "exit_code": 0,
+      "timeout": false
+    },
+    {
+      "name": "rectangular-control-v1",
+      "command": [
+        "python3",
+        "-B",
+        "exploration/runs/brlwe-source-foundations-20261016-astra-ultra/experiments/historical-rerun/rectangular-control-v1.py"
+      ],
+      "timeout_seconds": 120,
+      "address_space_bytes": 536870912,
+      "elapsed_seconds": 0.2654867860255763,
+      "exit_code": 0,
+      "timeout": false
+    },
+    {
+      "name": "interface-controls-v1",
+      "command": [
+        "python3",
+        "-B",
+        "exploration/runs/brlwe-source-foundations-20261016-astra-ultra/experiments/historical-rerun/interface-controls-v1.py"
+      ],
+      "timeout_seconds": 120,
+      "address_space_bytes": 536870912,
+      "elapsed_seconds": 0.06472975300857797,
+      "exit_code": 0,
+      "timeout": false
+    }
+  ]
+}

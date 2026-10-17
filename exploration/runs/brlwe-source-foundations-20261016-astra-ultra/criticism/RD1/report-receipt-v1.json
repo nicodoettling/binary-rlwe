@@ -1,0 +1,19 @@
+{
+  "time_utc": "2026-10-16T21:41:36.771324+00:00",
+  "disposition": "PASS within RD1 exact-artifact and mathematical consistency scope; coordinator global acceptance separate",
+  "hashes": {
+    "report-v1.md": "fceb8afff7598a10b0791722e14927091c19d59f96f5f631df56027549e3cf36",
+    "artifact-verification-v1.json": "7c3ca753583f04e6010dc829a1704c4c798dc048dbfc5e83135a94d71c81fd4a",
+    "verified-diff-v1.txt": "26737652186b1fbd664bd4eca48f703cdb4317f2e1b1d84f0715a2c855ed4de7",
+    "verify-artifacts-v1.py": "cc6ea55d3990cb3a45e2378da278285fdbd61fa3d27454f718439200a3ff8d82",
+    "primary-check-v1.json": "dafbe64d827def93dabb87b33a402e961e65e8785fab0d806cecdcc2eb8d94cc"
+  },
+  "all_four_input_hashes_present_in_report": true,
+  "all_12_EX_nodes_addressed": true,
+  "all_43_regression_ids_addressed": true,
+  "mathematical_sections_1_to_9_byte_identical": true,
+  "no_new_mathematical_experiments": true,
+  "no_author_files_edited": true,
+  "no_RB2_material_accessed_or_contact": true,
+  "current_graph_canonical_proof_matches": true
+}

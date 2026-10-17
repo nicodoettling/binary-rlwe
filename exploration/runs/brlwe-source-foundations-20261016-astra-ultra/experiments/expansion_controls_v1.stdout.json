@@ -1,0 +1,118 @@
+{
+  "scope": "Exact finite algebra/probability controls; Gaussian calculations explicitly floating diagnostics, no asymptotic hardness evidence.",
+  "limits": {
+    "wall_seconds": 120,
+    "address_space_bytes": 536870912
+  },
+  "seed": "exhaustive; no randomness",
+  "algebra": [
+    {
+      "n": 2,
+      "q": 5,
+      "nonzero_lifts": 24,
+      "ranks": {
+        "2": 16,
+        "1": 8
+      },
+      "det_divisibility_norm_adjoint": "PASS"
+    },
+    {
+      "n": 2,
+      "q": 13,
+      "nonzero_lifts": 168,
+      "ranks": {
+        "2": 144,
+        "1": 24
+      },
+      "det_divisibility_norm_adjoint": "PASS"
+    },
+    {
+      "n": 2,
+      "q": 17,
+      "nonzero_lifts": 288,
+      "ranks": {
+        "2": 256,
+        "1": 32
+      },
+      "det_divisibility_norm_adjoint": "PASS"
+    },
+    {
+      "n": 4,
+      "q": 17,
+      "nonzero_lifts": 83520,
+      "ranks": {
+        "4": 65536,
+        "3": 16384,
+        "2": 1536,
+        "1": 64
+      },
+      "det_divisibility_norm_adjoint": "PASS"
+    }
+  ],
+  "pivots": [
+    {
+      "n": 2,
+      "q": 5,
+      "L": 2,
+      "systems": 3,
+      "max_atom_and_pivot_bound": "PASS"
+    },
+    {
+      "n": 2,
+      "q": 5,
+      "L": 3,
+      "systems": 3,
+      "max_atom_and_pivot_bound": "PASS"
+    },
+    {
+      "n": 2,
+      "q": 5,
+      "L": 5,
+      "systems": 3,
+      "max_atom_and_pivot_bound": "PASS"
+    },
+    {
+      "n": 4,
+      "q": 17,
+      "L": 2,
+      "systems": 15,
+      "max_atom_and_pivot_bound": "PASS"
+    }
+  ],
+  "finite_seed_retained": {
+    "n": 2,
+    "q": 5,
+    "L": 2,
+    "W": "independent coefficient masses (-1,0,1)=(1,2,1)/4; not Gaussian",
+    "seeds": 625,
+    "distinct_kernel_histograms": 21,
+    "avg_collision": "237/5120",
+    "independent_collision_formula": "237/5120",
+    "avg_chi2": "161/1024",
+    "retained_seed_tv_m1": "8307/62500",
+    "retained_seed_tv_m3": "3637681107/16000000000",
+    "tensorization_all_seeds": "PASS",
+    "rare_zero_seed": {
+      "probability": "1/625",
+      "tv1": "16/25",
+      "tv3": "14896/15625",
+      "zero_mass_outputs": 16
+    }
+  },
+  "probability_controls": {
+    "leakage_maps": 81,
+    "empty_fibers": "included",
+    "noisy_bit_guess": "9/16",
+    "CP1_selected_mass": "21/2000",
+    "CP1_wrong_product": "1/100",
+    "CP1_later_incidence": "21/221",
+    "actual_witness": "Two binary secrets have residual sum 1 mod3; a consistent answer is not necessarily the sampled witness."
+  },
+  "gaussian_diagnostic": {
+    "points": 140,
+    "status": "PASS binary64 diagnostic, no directed rounding",
+    "dual_cutoff": 12,
+    "omitted_dual_sum_bound": "For width>=1 and |t|<=1/2, at most 2*exp(-pi*12.5^2)/(1-exp(-25*pi)); <2e-213. Rounding error is not bounded by this tail."
+  },
+  "elapsed_seconds": 2.263783125032205
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261016T211443.896163Z-e506bec3",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-16T21:14:43.896192+00:00",
+  "reason": "Initialized current goal, frozen source contract, useful core and resume before worker launch",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 978,
+      "sha256": "f92db122b402637339000f8ca05b31213e2e7d282238a44f9b5a6ffecf2db6f8"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 1173,
+      "sha256": "e6a38bf602294dde6d2dca11843e8a828145c39309600b3b8161e6701efc5c9d"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 1173,
+      "sha256": "e6a38bf602294dde6d2dca11843e8a828145c39309600b3b8161e6701efc5c9d"
+    },
+    {
+      "path": "final.md",
+      "bytes": 1173,
+      "sha256": "e6a38bf602294dde6d2dca11843e8a828145c39309600b3b8161e6701efc5c9d"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 738,
+      "sha256": "824954db2ef7db592c1b992e97d94f4732374ade6f76e490aebc821b155e4ff9"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

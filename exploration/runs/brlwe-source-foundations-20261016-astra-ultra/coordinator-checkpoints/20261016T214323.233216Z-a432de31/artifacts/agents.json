@@ -1,0 +1,100 @@
+{
+  "updated_at": "2026-10-16T21:43:23.224978+00:00",
+  "configured": {
+    "model": "gpt-6-astra",
+    "reasoning_effort": "ultra",
+    "total_ceiling": 4,
+    "max_workers": 3
+  },
+  "observed": {
+    "runtime_advertised_total_slots": 4,
+    "coordinator_model": "gpt-6-astra",
+    "coordinator_effort": "ultra",
+    "evidence": "worker-status.json observed fields",
+    "active_workers": 0,
+    "worker_startup_capacity": "Three useful workers started and list_agents returned all four running.",
+    "observed_total_active": 1,
+    "latest_live_observation": "2026-10-16T21:43:23.224978+00:00",
+    "latest_live_ids": [
+      "/root"
+    ],
+    "observation": "list_agents reports RF1/RB2/RD1 completed; A and C completion receipts preserved earlier"
+  },
+  "agents": [
+    {
+      "id": "/root",
+      "session_id": "01a14690-1afb-7b03-a01d-09c842692662",
+      "task": "coordination and mathematical integration",
+      "status": "running",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra"
+    },
+    {
+      "id": "/root/foundations_a",
+      "task": "RS1 source/parameter/complexity nonauthor review after initial A task",
+      "status": "completed",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "model_effort_evidence": "Successful spawn_agent explicit model/effort override with fork_turns=none; runtime list_agents running. Internal worker backend telemetry not separately available.",
+      "assignment": "workers/A/assignment.md",
+      "assignment_sha256": "55502374a72090ff966612d8a7675e51605fa152ba3264e28d9c6ed20ac1859e",
+      "spawn_prompt": "workers/A/spawn-prompt.txt",
+      "review_assignment": "criticism/RS1/assignment.md",
+      "initial_output": "workers/A/initial-report-v1.md",
+      "review_report": "criticism/RS1/report-v1.md",
+      "review_report_sha256": "5776ff42544da4a067141d26905244da6de8d188b4b8a4957479aa0aeccfb1e8"
+    },
+    {
+      "id": "/root/joint_b",
+      "task": "RD1 fresh exact-artifact and complete mathematical consistency review",
+      "status": "completed",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "model_effort_evidence": "Successful spawn_agent explicit model/effort override with fork_turns=none; runtime list_agents running. Internal worker backend telemetry not separately available.",
+      "assignment": "workers/B/assignment.md",
+      "assignment_sha256": "5f3d53378002b542d7129abf27b9d878b440df68032202df613ba9f44bc03127",
+      "spawn_prompt": "workers/B/spawn-prompt.txt",
+      "review_assignment": "criticism/RD1/assignment.md"
+    },
+    {
+      "id": "/root/samples_c",
+      "task": "sample dependence",
+      "status": "completed",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "model_effort_evidence": "Successful spawn_agent explicit model/effort override with fork_turns=none; runtime list_agents running. Internal worker backend telemetry not separately available.",
+      "assignment": "workers/C/assignment.md",
+      "assignment_sha256": "08f247bcb1fb22c0741eb8a39a9c41a916b63260c34f9cc3e631975432e129ac",
+      "spawn_prompt": "workers/C/spawn-prompt.txt",
+      "final": "workers/C/final.md"
+    },
+    {
+      "id": "/root/blind_rb1",
+      "task": "RF1 nonblind full-proof review after frozen exposed-context reconstruction",
+      "status": "completed",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "model_effort_evidence": "Successful spawn_agent with explicit overrides and fork_turns=none",
+      "assignment": "criticism/RB1/assignment.md",
+      "spawn_prompt": "criticism/RB1/spawn-prompt.txt",
+      "blind_scientific_input": "criticism/RB1/input/theorem-only-v2.md",
+      "blindness": "BROKEN by list_agents output; exact incident to be preserved by reviewer",
+      "review_assignment": "criticism/RF1/assignment.md",
+      "prior_report": "criticism/RB1/blind-report-v1.md",
+      "prior_report_sha256": "91f3f07d1f5cdcd8ff0cc0500def9dcf350f95703f4d083415068393ffce7185",
+      "review_report": "criticism/RF1/report-v1.md",
+      "canonical_proof_recheck": "criticism/RF1/proof-v2-recheck-v1.md"
+    },
+    {
+      "id": "/root/blind_rb2",
+      "task": "Fresh strict theorem-only blind review",
+      "status": "completed",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "model_effort_evidence": "Successful explicit spawn_agent overrides with fork_turns=none",
+      "assignment": "criticism/RB2/assignment.md",
+      "scientific_input": "criticism/RB2/input/theorem-only-v2.md",
+      "blindness": "Pending; expressly prohibited list_agents/status/proof access"
+    }
+  ]
+}

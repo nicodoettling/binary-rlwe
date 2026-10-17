@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261016T213510.478532Z-f60ddc7d",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-16T21:35:10.478554+00:00",
+  "reason": "One primary EX candidate selected; exact12x4 control passed; full and fresh blind gates pending",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 11974,
+      "sha256": "5913ef13a881940c0a3f5cdc0d122521a068527b32f8a96f40f38047910b17c8"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 4484,
+      "sha256": "cf37a5e239bd765b4da56a6bd0fa50a9f2878c56e23d2bb3f7c75be5a898c23a"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 4484,
+      "sha256": "cf37a5e239bd765b4da56a6bd0fa50a9f2878c56e23d2bb3f7c75be5a898c23a"
+    },
+    {
+      "path": "final.md",
+      "bytes": 2134,
+      "sha256": "ffc80f869db24c0a83b3fdde7776c0f2a1cd7433103894f3f26b1df70e5fb7d3"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 4010,
+      "sha256": "594d8e5c52ed01263cd9476877c36940e9aa9c76ffb1a77e6aee0c34c4f516f4"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

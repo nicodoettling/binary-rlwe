@@ -1,0 +1,8 @@
+{
+  "status":"complete",
+  "no_active_experiments":true,
+  "experiments":[
+    {"id":"B-FC-E1","reservation":"parent granted light slot","command_file":"fc-command-v1.txt","code":"fc_controls_v1.py","output":"fc-output-v1.json","timeout_seconds":120,"address_space_bytes":536870912,"seed":null,"elapsed_seconds":3.039177542028483,"result":"pass","qualification":"787 exact rational moment comparisons; separate Gaussian truncated floating diagnostic"},
+    {"id":"B-JL-E1","reservation":"parent granted final light slot; released on completion","command_file":"jl-command-v3.txt","code":"jl_controls_v3.py","output":"jl-output-v3.json","timeout_seconds":120,"address_space_bytes":536870912,"seed":null,"elapsed_seconds":2.621478318993468,"result":"pass","qualification":"Exact occupancy, finite-field rank, ideal box, fixed-space and rational coefficient-noise controls; separate Gaussian floating diagnostic"}
+  ]
+}

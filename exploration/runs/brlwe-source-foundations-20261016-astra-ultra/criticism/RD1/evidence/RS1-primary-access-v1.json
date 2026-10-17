@@ -1,0 +1,60 @@
+{
+  "date_utc": "2026-10-16",
+  "status": "TARGETED_PRIMARY_CHECKS_NO_EXHAUSTIVE_SURVEY",
+  "items": [
+    {
+      "source": "Xylouris 2011",
+      "url": "https://www.impan.pl/shop/publication/transaction/download/product/83078",
+      "locations": [
+        "printed pages65-66",
+        "Theorem1.1"
+      ],
+      "access": "Direct web PDF text success",
+      "pdf_bytes_saved": false,
+      "scope": "Statement and applicability checked; analytic number theory proof not re-proved"
+    },
+    {
+      "source": "LPR Toolkit 2013",
+      "url": "https://sites.cc.gatech.edu/fac/cpeikert/pubs/toolkit.pdf",
+      "locations": [
+        "printed pages35-37",
+        "Theorem7.4",
+        "Corollary7.5",
+        "Section7 identity-column discussion"
+      ],
+      "access": "Direct web PDF text success",
+      "pdf_bytes_saved": false
+    },
+    {
+      "source": "Order-LWE 2018/494",
+      "url": "https://eprint.iacr.org/2018/494",
+      "pdf_url": "https://eprint.iacr.org/2018/494.pdf",
+      "locations": [
+        "Section7",
+        "Definitions7.3-7.4",
+        "Theorem7.5",
+        "Lemmas7.6-7.7",
+        "Theorem6.2"
+      ],
+      "access": "Metadata success; indexed primary text plus permitted historical extraction; direct PDF HTTP403 in initial A",
+      "initial_evidence": "../../workers/A/source-access-v1.md"
+    },
+    {
+      "source": "Brakerski-Dottling 2020/1185",
+      "url": "https://eprint.iacr.org/2020/1185",
+      "pdf_url": "https://eprint.iacr.org/2020/1185.pdf",
+      "alternate_url": "https://publications.cispa.saarland/3354/1/Entropic_Ring_LWE-2.pdf",
+      "locations": [
+        "ePrint printed page4 introduction",
+        "ePrint printed page12 Section3.1 Lemma3.5",
+        "ePrint printed page22 Theorem6.9",
+        "conference printed page15 Gaussian rerandomization discussion"
+      ],
+      "access": "Metadata success; exact primary indexed passages; direct PDF and alternate PDF reported Internal Error; local pdftotext command unavailable; no tool installation",
+      "local_pdf": "literature/2020-1185.pdf",
+      "local_pdf_sha256": "8ee650d5d05d2e7fe33657e35ff5bb9c79be6d16d8a0d8604d8278eb87aa7e46"
+    }
+  ],
+  "content_policy_interruptions": 0,
+  "access_errors_are_not_policy_interruptions": true
+}

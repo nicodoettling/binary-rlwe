@@ -1,0 +1,7 @@
+limits: wall timeout 120s externally; CPU 110s; address space 128MiB
+randomness: none; all arithmetic exact integers/Fractions
+{'n': 2, 'q': 5, 'roots': [2, 3], 'rank_counts': {0: 1, 1: 8, 2: 16}, 'min_squared_norm_by_rank': {1: 5, 2: 1}, 'high_rank_sum_L_equals_q': '16/625', 'bound': '1'}
+{'n': 4, 'q': 17, 'roots': [2, 8, 9, 15], 'rank_counts': {0: 1, 1: 64, 2: 1536, 3: 16384, 4: 65536}, 'min_squared_norm_by_rank': {1: 85, 2: 17, 3: 5, 4: 1}, 'high_rank_sum_L_equals_q': '4800512/6975757441', 'bound': '1/16'}
+{'interval_collision': {'n': 2, 'q': 13, 'L': 8, 'characters': 168, 'max_collision_by_rank': {2: '1/64', 1: '79/1024'}}}
+{'finite_leakage': {'secret_bits': 3, 'noise': {'-1': '1/4', '0': '1/2', '1': '1/4'}, 'leakage_maps': 256, 'no_leak_success': '27/64', 'maximum_one_bit_leak_success': '5/8', 'cardinality_bound': '27/32', 'maximizing_map_integer': 105}}
+PASS: all exact finite controls; elapsed_seconds=0.278162

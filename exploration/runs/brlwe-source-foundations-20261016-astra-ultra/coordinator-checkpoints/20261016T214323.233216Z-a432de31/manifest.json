@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261016T214323.233216Z-a432de31",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-16T21:43:23.233238+00:00",
+  "reason": "EX-v2 conditional theorem accepted; all proof/review gates closed, final native goal delivery pending",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 35947,
+      "sha256": "883100cf5078ea3e19ac8cf3304044d8b2f4f1ffd9a4903eeb099ae1ef98e79b"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 5230,
+      "sha256": "f6b33487b37ca5a2cd0fd68d57309dcae241b0d51fa460e06ebefb924d470c09"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 5285,
+      "sha256": "aa86606cb3e20dd7e0dedc54fa47650b7832a91d57b2f71321f4df22af878047"
+    },
+    {
+      "path": "final.md",
+      "bytes": 9387,
+      "sha256": "34f22d803817324642ffd302e8a1ef7eb9a2edf2c1a3c41d366258b080172afc"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 4624,
+      "sha256": "14457c2034856638a8c1f3b9a0b9b05503c873873cab4fc0540392b10efb0a76"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}
