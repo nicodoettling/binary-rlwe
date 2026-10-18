@@ -1,0 +1,7 @@
+# Current reconciliation
+
+Current 2026-10-17T23:22:24.957360+00:00: Foundation OPEN. BT14 found a literal atomwise-history defect; E-PAIR-v1 rejected before repair, no accepted dependent. E is repairing its v2 and rechecking root fixed-map v3 (explicit a.s. histories and out-of-J failure). F completed favorable classical composition review but quantum bounded state/gate/precision contract remains open. New ROOT-PLANTED-INFO-v1 gives a proposed actual-public information-retention bound for binary-injective ideals in a large-q window; G full/source referee active. Six accepted auxiliary/interface scopes unchanged; no goal completion.
+
+Current 2026-10-17T23:13:43.888926+00:00: Foundation OPEN. Six accepted scoped auxiliary/interfaces; clean BT13 closes C8 core and BT12 closes integral collision count. BT14 audits fractional fixed-map/pair statements; F checks exact bounded/quantum composition. Root modified-mask attempt preserves integer errors only via shifted H and exposes secret residues in the named proof view. No active experiment; current Standard3 cap/originalclock unchanged. Actual root+two workers, Astraultra; Standard configured tier. See final.md/resume.md for current self-contained scope.
+
+BT10 exposure and BT11 interruption remain preserved; neither is a clean blind certificate. BT13/BT12 complete reports sealed beforedisclosure andexacthashes checked. All new claims remain pendingtheir own gates; no inheritedacceptance throughchangedpremises. Same-modelscrutinyiscorrelated; structuralchecksarenotproofcertification.

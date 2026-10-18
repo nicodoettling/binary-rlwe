@@ -1,0 +1,332 @@
+{
+  "status": "FINITE CONTROL ONLY; theorem remains PROVISIONAL",
+  "seed": "none, exhaustive",
+  "precision": "integers and Fraction only; no floating analytic bounds tested",
+  "inputs": {
+    "single_n": 2,
+    "single_q": [
+      5,
+      13,
+      17
+    ],
+    "single_radius": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "tuple_n": 2,
+    "tuple_q": 5,
+    "tuple_k": 2,
+    "tuple_radius": 1,
+    "support_n": 4,
+    "support_q": 17
+  },
+  "records": [
+    {
+      "n": 2,
+      "q": 5,
+      "k": 1,
+      "S": 0,
+      "bad_U_count": 1,
+      "mask_count": 1,
+      "qualified_witnesses": 1,
+      "union_count": 1,
+      "exact_uniform_probability": "1/25",
+      "exact_count_upper": "8/25"
+    },
+    {
+      "n": 2,
+      "q": 5,
+      "k": 1,
+      "S": 1,
+      "bad_U_count": 1,
+      "mask_count": 5,
+      "qualified_witnesses": 5,
+      "union_count": 5,
+      "exact_uniform_probability": "1/5",
+      "exact_count_upper": "8/5"
+    },
+    {
+      "n": 2,
+      "q": 5,
+      "k": 1,
+      "S": 2,
+      "bad_U_count": 1,
+      "mask_count": 13,
+      "qualified_witnesses": 13,
+      "union_count": 13,
+      "exact_uniform_probability": "13/25",
+      "exact_count_upper": "104/25"
+    },
+    {
+      "n": 2,
+      "q": 5,
+      "k": 1,
+      "S": 3,
+      "bad_U_count": 1,
+      "mask_count": 29,
+      "qualified_witnesses": 29,
+      "union_count": 25,
+      "exact_uniform_probability": "1",
+      "exact_count_upper": "232/25"
+    },
+    {
+      "n": 2,
+      "q": 13,
+      "k": 1,
+      "S": 0,
+      "bad_U_count": 1,
+      "mask_count": 1,
+      "qualified_witnesses": 1,
+      "union_count": 1,
+      "exact_uniform_probability": "1/169",
+      "exact_count_upper": "8/169"
+    },
+    {
+      "n": 2,
+      "q": 13,
+      "k": 1,
+      "S": 1,
+      "bad_U_count": 1,
+      "mask_count": 5,
+      "qualified_witnesses": 5,
+      "union_count": 5,
+      "exact_uniform_probability": "5/169",
+      "exact_count_upper": "40/169"
+    },
+    {
+      "n": 2,
+      "q": 13,
+      "k": 1,
+      "S": 2,
+      "bad_U_count": 1,
+      "mask_count": 13,
+      "qualified_witnesses": 13,
+      "union_count": 13,
+      "exact_uniform_probability": "1/13",
+      "exact_count_upper": "8/13"
+    },
+    {
+      "n": 2,
+      "q": 13,
+      "k": 1,
+      "S": 3,
+      "bad_U_count": 1,
+      "mask_count": 29,
+      "qualified_witnesses": 29,
+      "union_count": 29,
+      "exact_uniform_probability": "29/169",
+      "exact_count_upper": "232/169"
+    },
+    {
+      "n": 2,
+      "q": 17,
+      "k": 1,
+      "S": 0,
+      "bad_U_count": 1,
+      "mask_count": 1,
+      "qualified_witnesses": 1,
+      "union_count": 1,
+      "exact_uniform_probability": "1/289",
+      "exact_count_upper": "8/289"
+    },
+    {
+      "n": 2,
+      "q": 17,
+      "k": 1,
+      "S": 1,
+      "bad_U_count": 1,
+      "mask_count": 5,
+      "qualified_witnesses": 5,
+      "union_count": 5,
+      "exact_uniform_probability": "5/289",
+      "exact_count_upper": "40/289"
+    },
+    {
+      "n": 2,
+      "q": 17,
+      "k": 1,
+      "S": 2,
+      "bad_U_count": 1,
+      "mask_count": 13,
+      "qualified_witnesses": 13,
+      "union_count": 13,
+      "exact_uniform_probability": "13/289",
+      "exact_count_upper": "104/289"
+    },
+    {
+      "n": 2,
+      "q": 17,
+      "k": 1,
+      "S": 3,
+      "bad_U_count": 1,
+      "mask_count": 29,
+      "qualified_witnesses": 29,
+      "union_count": 29,
+      "exact_uniform_probability": "29/289",
+      "exact_count_upper": "232/289"
+    },
+    {
+      "n": 2,
+      "q": 5,
+      "k": 2,
+      "stacked_S": 1,
+      "all_U_tuples": 625,
+      "all_stacked_masks": 9,
+      "checked_joint_witnesses": 5625,
+      "qualifying_witnesses": 9,
+      "union_count": 9,
+      "exact_uniform_probability": "9/625"
+    }
+  ],
+  "support_records": [
+    {
+      "support": [],
+      "image_size": 1,
+      "U_count": 1,
+      "noninjective": true
+    },
+    {
+      "support": [
+        2
+      ],
+      "image_size": 16,
+      "U_count": 16,
+      "noninjective": false
+    },
+    {
+      "support": [
+        8
+      ],
+      "image_size": 16,
+      "U_count": 16,
+      "noninjective": false
+    },
+    {
+      "support": [
+        9
+      ],
+      "image_size": 16,
+      "U_count": 16,
+      "noninjective": false
+    },
+    {
+      "support": [
+        15
+      ],
+      "image_size": 16,
+      "U_count": 16,
+      "noninjective": false
+    },
+    {
+      "support": [
+        2,
+        8
+      ],
+      "image_size": 16,
+      "U_count": 256,
+      "noninjective": false
+    },
+    {
+      "support": [
+        2,
+        9
+      ],
+      "image_size": 16,
+      "U_count": 256,
+      "noninjective": false
+    },
+    {
+      "support": [
+        2,
+        15
+      ],
+      "image_size": 16,
+      "U_count": 256,
+      "noninjective": false
+    },
+    {
+      "support": [
+        8,
+        9
+      ],
+      "image_size": 16,
+      "U_count": 256,
+      "noninjective": false
+    },
+    {
+      "support": [
+        8,
+        15
+      ],
+      "image_size": 16,
+      "U_count": 256,
+      "noninjective": false
+    },
+    {
+      "support": [
+        9,
+        15
+      ],
+      "image_size": 16,
+      "U_count": 256,
+      "noninjective": false
+    },
+    {
+      "support": [
+        2,
+        8,
+        9
+      ],
+      "image_size": 16,
+      "U_count": 4096,
+      "noninjective": false
+    },
+    {
+      "support": [
+        2,
+        8,
+        15
+      ],
+      "image_size": 16,
+      "U_count": 4096,
+      "noninjective": false
+    },
+    {
+      "support": [
+        2,
+        9,
+        15
+      ],
+      "image_size": 16,
+      "U_count": 4096,
+      "noninjective": false
+    },
+    {
+      "support": [
+        8,
+        9,
+        15
+      ],
+      "image_size": 16,
+      "U_count": 4096,
+      "noninjective": false
+    },
+    {
+      "support": [
+        2,
+        8,
+        9,
+        15
+      ],
+      "image_size": 16,
+      "U_count": 65536,
+      "noninjective": false
+    }
+  ],
+  "all_assertions_passed": true,
+  "elapsed_seconds": 0.1445740549825132,
+  "maxrss_kib": 11264,
+  "address_space_limit_bytes": 268435456
+}

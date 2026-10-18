@@ -1,0 +1,21 @@
+{
+  "experiment": {
+    "exact_pairs": 4802,
+    "exit": 0,
+    "infinite_Gaussian_or_hardness_certification": false,
+    "max_rss_kib": 12288,
+    "reservation": "RH1-FV1",
+    "status": "completed and released",
+    "wall_seconds": 0.1
+  },
+  "main_H_ALIGN_v1": "SUPPORTED",
+  "parameters_v2_lower_bounds": "SUPPORTED",
+  "parameters_v2_upper_width_inference": "REJECTED; preserved counterexample",
+  "parameters_v3_narrow_repair": "SUPPORTED",
+  "primary_source": "https://ir.cwi.nl/pub/9304/9304D.pdf",
+  "remaining_foundation": "Arbitrary-ideal standard-family connection not supplied",
+  "remaining_substitution_gaps_current_repaired_scope": [],
+  "role": "Independent NONAUTHOR H review; no acceptance authority",
+  "shifted_cosets_v2": "SUPPORTED",
+  "short_relation_v2": "SUPPORTED under explicit width/approximation/runtime scopes; no actual LLL failure claim"
+}

@@ -1,0 +1,46 @@
+{
+  "at": "2026-10-17T21:37:48.080673+00:00",
+  "manifest": [
+    {
+      "path": "coordinator/same-class-count-theorem-v1.md",
+      "sha256": "216a4e718e4aada675df0f945cb62ab6c9ab1759a5fb36d296304d827968845c",
+      "bytes": 1768
+    },
+    {
+      "path": "coordinator/same-class-count-proof-v1.md",
+      "sha256": "bf625ccfa90a819c6b36639850a4cf2ab021c865cf3e84b67bc984cb3469d733",
+      "bytes": 3215
+    },
+    {
+      "path": "workers/C/same-class-nonauthor-review-v1.md",
+      "sha256": "29b96095e4d906876c68442891a07ec1d6e594909cd009a4f9f7690f9e5bd81b",
+      "bytes": 6066
+    },
+    {
+      "path": "criticism/BT6/report-v1.md",
+      "sha256": "2cb350519c32d412ef6ba8bc441316bfdcb6543ecd6505d24129d0f6807e4148",
+      "bytes": 19015
+    },
+    {
+      "path": "criticism/BT6/freeze-receipt-v1.json",
+      "sha256": "8e2967a4fe3a289565b7feffcb9a5656774e0448fe62846d9b8aca1c62aec71c",
+      "bytes": 259
+    },
+    {
+      "path": "coordinator/same-class-source-gate-v1.md",
+      "sha256": "ea2c2382ba1a534a0b3990613c1b5ebb61b20133d6f843c6b6c43d219f68b95c",
+      "bytes": 1811
+    },
+    {
+      "path": "coordinator/same-class-regression-gate-v1.json",
+      "sha256": "e18e104c470794a09f92f1c4ca890f68fd5d667df44541485ddf83e8dad2d054",
+      "bytes": 36423
+    },
+    {
+      "path": "experiments/root_classcount_v1.stdout.json",
+      "sha256": "fd0832e93c518f8264f58ba219cc6cbebb58e329f4f2b7d1219b59c43a0b6525",
+      "bytes": 2181
+    }
+  ],
+  "status": "PASS structural exact bytes only, not proof certification"
+}

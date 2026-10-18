@@ -1,0 +1,3 @@
+Working directory: /home/nico/projects/research_projects/binaryRLWE
+timeout 10s /usr/bin/time -v -o exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RH1/RH1-FV1-resources.txt python3 exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RH1/RH1-FV1-control.py > exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RH1/RH1-FV1-stdout.json 2> exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RH1/RH1-FV1-stderr.txt
+Internal RLIMIT_AS=67108864 bytes. No randomness. Every mathematical comparison uses exact integers/Fractions. Timing/RSS are OS metadata.

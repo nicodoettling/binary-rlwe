@@ -1,0 +1,148 @@
+{
+  "parameters": {
+    "n": 2,
+    "q": 5,
+    "roots": [
+      2,
+      3
+    ]
+  },
+  "primitive_enumeration_states": 9609,
+  "principal_ideal_scaling": [
+    {
+      "canonical_norm_z_squared": 10,
+      "u_norm_squared": "1/5",
+      "v": [
+        0,
+        1
+      ],
+      "weighted_canonical_norm_squared": "2",
+      "z": [
+        -1,
+        2
+      ]
+    },
+    {
+      "canonical_norm_z_squared": 10,
+      "u_norm_squared": "1/5",
+      "v": [
+        1,
+        0
+      ],
+      "weighted_canonical_norm_squared": "2",
+      "z": [
+        2,
+        1
+      ]
+    },
+    {
+      "canonical_norm_z_squared": 20,
+      "u_norm_squared": "1/5",
+      "v": [
+        1,
+        1
+      ],
+      "weighted_canonical_norm_squared": "4",
+      "z": [
+        1,
+        3
+      ]
+    }
+  ],
+  "resources": {
+    "address_space_bytes": 268435456,
+    "maxrss_kib": 11264,
+    "precision": "integer counts, fractions.Fraction, exact fifth-root polynomial arithmetic",
+    "processes": 1,
+    "seed": null,
+    "wall_alarm_seconds": 30,
+    "wall_seconds": 0.04697969602420926
+  },
+  "results": [
+    {
+      "T": [],
+      "annihilator_matches_conjugate_Q": true,
+      "annihilator_size": 25,
+      "branch_values": [
+        {
+          "chisq": "161/64",
+          "one_tv": "16/25",
+          "two_tv": "544/625"
+        },
+        {
+          "chisq": "16/9",
+          "one_tv": "16/25",
+          "two_tv": "544/625"
+        }
+      ],
+      "retained_latent_pair_tv": "544/625",
+      "unconditional_pair_vs_product_marginal_tv": "49/2592"
+    },
+    {
+      "T": [
+        0
+      ],
+      "annihilator_matches_conjugate_Q": true,
+      "annihilator_size": 5,
+      "branch_values": [
+        {
+          "chisq": "1/64",
+          "one_tv": "1/20",
+          "two_tv": "31/400"
+        },
+        {
+          "chisq": "4/81",
+          "one_tv": "4/45",
+          "two_tv": "304/2025"
+        }
+      ],
+      "retained_latent_pair_tv": "295/2592",
+      "unconditional_pair_vs_product_marginal_tv": "25/2592"
+    },
+    {
+      "T": [
+        1
+      ],
+      "annihilator_matches_conjugate_Q": true,
+      "annihilator_size": 5,
+      "branch_values": [
+        {
+          "chisq": "1/64",
+          "one_tv": "1/20",
+          "two_tv": "31/400"
+        },
+        {
+          "chisq": "4/81",
+          "one_tv": "4/45",
+          "two_tv": "304/2025"
+        }
+      ],
+      "retained_latent_pair_tv": "295/2592",
+      "unconditional_pair_vs_product_marginal_tv": "25/2592"
+    },
+    {
+      "T": [
+        0,
+        1
+      ],
+      "annihilator_matches_conjugate_Q": true,
+      "annihilator_size": 1,
+      "branch_values": [
+        {
+          "chisq": "0",
+          "one_tv": "0",
+          "two_tv": "0"
+        },
+        {
+          "chisq": "0",
+          "one_tv": "0",
+          "two_tv": "0"
+        }
+      ],
+      "retained_latent_pair_tv": "0",
+      "unconditional_pair_vs_product_marginal_tv": "0"
+    }
+  ],
+  "scope": "Exact finite surrogate Fourier/annihilator and joint-law identities, not an infinite Gaussian theorem.",
+  "status": "EXACT_FINITE_CONTROL_ONLY"
+}

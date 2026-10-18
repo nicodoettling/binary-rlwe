@@ -1,0 +1,18 @@
+{
+  "id": "ROOT-QCOH-FV1",
+  "status": "PASS",
+  "tables": 65536,
+  "promise_checks": 983040,
+  "exact_uniform_input_square_bound_equalities": 1810,
+  "squared_error_formula": "4*mean_x Pr_c[A(x,c)!=0]",
+  "no_uniformly_good_seed": true,
+  "garbage_discard_changes_state": true,
+  "CP1_original_values_rechecked": true,
+  "precision": "exact integers/Fraction; seed none, exhaustive",
+  "limits": {
+    "wall_seconds": 30,
+    "address_space_bytes": 268435456
+  },
+  "wall_seconds": 1.3252820229972713,
+  "max_rss_kib": 10240
+}

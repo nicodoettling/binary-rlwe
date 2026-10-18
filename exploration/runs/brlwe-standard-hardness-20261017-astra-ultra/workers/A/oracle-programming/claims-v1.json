@@ -1,0 +1,13 @@
+{
+  "status": "PROVISIONAL",
+  "source_hardness": "OPEN",
+  "experiments": [],
+  "claims": [
+    {"id": "A-ORACLE-DENSITY-1", "claim": "For fixed multiplier tuples independent of uniform designated targets, any binary exact partial preimage exists with probability at most 2^n/q^(m(n-d)); polynomial fixed candidate lists pay their list size.", "scope": "Not adaptive multipliers depending on designated targets."},
+    {"id": "A-ORACLE-LAW-1", "claim": "Queries (A,a'+H) with H and A independent of fresh iid uniform a' have exactly uniform response tuples conditional A,H.", "scope": "Full uniform binary comparator additionally requires A iid uniform; adaptive ideal offsets retain the syndrome but not necessarily full uniformity."},
+    {"id": "A-ORACLE-TV-1", "claim": "Typical binary Gaussian response support yields TV(P,Q)>=1-delta-2^n((2K+1)/q)^(mn).", "scope": "Statistical support statement, not an efficient distinguisher."},
+    {"id": "A-ORACLE-RESIDUAL-1", "claim": "An approximate multiplier preimage leaves g*s in the ordinary response; for uniform source s and unit g, a single such output is exactly uniform.", "scope": "Tests depend only on public multipliers; no iid claim for multiple outputs sharing s."},
+    {"id": "A-ORACLE-PROGRAM-1", "claim": "Known-secret exact query programming either returns already known information or requires a short external representation; the single unit pivot returns a uniform dense ring coefficient.", "scope": "Unit-conditioned binary programming charges its nonunit probability and rejection cost."},
+    {"id": "A-ORACLE-SHIFT-1", "claim": "A fresh uniform affine shift of an ordinary uniform ring secret hits the binary set with exact probability 2^n/q^n; binary-output source recovery is impossible outside this event.", "scope": "Exact matching error law assumed for the favorable query; fresh uniform shifts admit conditional union bounds."}
+  ]
+}

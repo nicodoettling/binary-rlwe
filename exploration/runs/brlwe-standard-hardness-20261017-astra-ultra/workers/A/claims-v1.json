@@ -1,0 +1,11 @@
+{
+  "status": "PROVISIONAL",
+  "source_hardness": "OPEN",
+  "claims": [
+    {"id":"A-ADM","version":1,"statement":"General common-ideal source finite recovery interface with full stacked norm, exact binary-image leakage and explicit comparator.","evidence":["admissible-theorem-only-v1.md","admissible-proof-v1.md"],"dependencies":["EX-v2 completion method, generalized and not automatically accepted","full target/source fresh independence"]},
+    {"id":"A-FINITE","version":1,"statement":"Exact finite nonuniform/correlated-source control gives actual guessing 1/16 and enriched 3/32 equal to weighted image bound.","evidence":["finite_controls_v1.py","finite_controls_v1.stdout.json","experiment-record-v1.md"],"scope":"Finite coordinate-product surrogate; not Gaussian theorem certification."},
+    {"id":"A-BIN","version":1,"statement":"Union ideal support r with q^r>n^(n/2) makes multiplication image injective on coefficient-binary secrets.","evidence":["binary-image-obstruction-v1.md","finite_controls_v1.stdout.json"],"dependencies":["EX-v2 determinant/rank bound"]},
+    {"id":"A-RANGE","version":1,"statement":"Direct and EX-expanded source-width/modulus/entropy sufficient parameter ranges.","evidence":["parameter-range-v1.md"],"dependencies":["A-ADM","EX-v2 comparator"]},
+    {"id":"A-C-COMPOSITION","version":1,"statement":"C proposed width floor and binary-image injectivity obstruct a large-d escape through the same completion proof.","evidence":["binary-image-obstruction-v1.md","first-test-v1.md"],"dependencies":["A-BIN","C exact primary normalization and small-ball step pending"],"scope":"Conditional scoped obstruction, no general impossibility."}
+  ]
+}

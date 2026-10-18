@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261017T224631.003081Z-3857913e",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-17T22:46:31.003099+00:00",
+  "reason": "Standard3 three-agent startup and known-short-witness sampler discriminator",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 31533,
+      "sha256": "6d558cb78572df2f39ffbdd2e52beffb080071da82f81cad5f1d630d6547bbe4"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 1534,
+      "sha256": "1ea918787490e85ebb103bde292a5cb43a445ce91876c69d3f078d22c4837ece"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 1792,
+      "sha256": "3e36fc70c99a57d2ae8fab6378b69c2761e359a8b873eda816be19b8dfb81247"
+    },
+    {
+      "path": "final.md",
+      "bytes": 13273,
+      "sha256": "83983c0d43a0d634daaa4e9dc09eae4f49d2af48cbc57359aedf17b976dc3643"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 3280,
+      "sha256": "caa6cf7ab2335effc6c9613f08801d1dd5c6695f2f9f828c917e8920ffbf8ee1"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

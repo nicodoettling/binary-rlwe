@@ -1,0 +1,15 @@
+# USER PRIORITY UPDATE: reduce to TWO active agents total
+
+Recorded 2026-10-17T21:59:36.143094+00:00 from the real foreground conversation. This user instruction supersedes the original five-active-agent requirement. It is not an instruction from a paper or a generated research artifact.
+
+The user reports that this run has consumed about 50% of their weekly window in less than two hours, asks for gentle throttling, and explicitly selected: “Reduce to 2 active agents, keep Astra ultra (recommended)”.
+
+Apply promptly without restarting or extending the cap:
+
+1. Stop assigning new research or review work under the old five-agent policy. Reduce to at most TWO active model agents TOTAL: coordinator plus ONE worker/reviewer. All remain gpt-6-astra with ultra. The old five-agent minimum/startup mismatch rule is superseded by this explicit user update.
+2. Retain the single most useful active worker, preferably the current isolated blind reviewer until its bounded review ends. Ask the other active workers to save a short current checkpoint and return at their next message boundary; no new investigation, experiment, expanded review or long wrap-up. If necessary use your supported interrupt_agent control to end their current turns promptly. Completed/idle threads may be retained for later reuse but must not continue generating. Preserve partial artifacts and record unfinished tasks honestly.
+3. Do not expose the blind reviewer to proof/status material. Administrative stop/budget instructions do not authorize scientific disclosure. All future workers and full/source/blind reviews must run sequentially, one at a time alongside you. Preserve independence through fresh role/thread assignments where required, not concurrent reviewers. No grandchildren, external models, second services or sessions.
+4. Maintain useful progress with the original goal, audit gates and model/effort. Keep checkpoints concise; avoid reprinting whole histories. This is a concurrency throttle, not a goal pause, completion, token budget or change of scientific criteria. No periodic idle duty cycle or model downgrade was selected.
+5. Preserve original cap: discovery stops 2026-10-18T01:39:14.894509Z, workers stop by01:59:14.894509Z, hard deadline02:09:14.894509Z. No cap reset, restart, continuation after deadline or new external controller.
+6. Immediately acknowledge receipt and selected drain actions in foreground-inputs/throttle-two-agents-ack.md; when reduced, update that file and agents.json/progress.md with actual list_agents evidence showing root plus at most one running worker, actual model/effort, unfinished roles, and exact transition times. Clearly distinguish the unchanged launch-time config ceiling (four spawned slots) from the new USER-ORDERED active ceiling (one worker). Do not claim a hard backend token/rate/quota limiter.
+7. Record a fresh get_goal usage snapshot if available, with scope/caveats; do not infer the user's account-wide weekly quota from tokens. No new token budget was authorized or requested.

@@ -1,0 +1,29 @@
+{
+  "id": "G-PI-FV1",
+  "reservation": "Root approved one foreground job <=120 seconds and <=512 MiB, <=1000000 atoms; received 2026-10-17 before execution.",
+  "arithmetic": "Exact Python integers and fractions; no numerical Gaussian evaluation and no random sampling.",
+  "seed": null,
+  "ring": "Z[i]",
+  "secret": "uniform {0,1}^2",
+  "error": "independent coefficients in {-1,0,1}, with integer weights (1,2,1)/4",
+  "source": "J=3Z[i]; a=(u+iv)/3, (u,v) uniform {-1,0,1}^2, independently by sample",
+  "cases": [
+    {"q": 101, "k": 1, "planted": true, "uniform_comparator": true, "large_q_positive_control": true},
+    {"q": 101, "k": 2, "planted": true, "uniform_comparator": false, "large_q_positive_control": true},
+    {"q": 5, "k": 2, "planted": true, "uniform_comparator": true, "large_q_positive_control": false}
+  ],
+  "hidden_ideal_mixture": {
+    "q": 101,
+    "k": 1,
+    "ideals": [
+      {"d": 3, "prior": "1/3", "numerator_coefficients": [-1,0,1]},
+      {"d": 6, "prior": "2/3", "numerator_coefficients": [-2,-1,0,1,2,3]}
+    ],
+    "sampling": "Uniform representatives of each full inverse-ideal quotient; same secret and error law in both branches."
+  },
+  "cp1": "Enumerate all 32 binary oracle states and five trace types: 160 prior atoms.",
+  "estimated_joint_atoms": 624328,
+  "integer_bit_sizes": "Per-atom masses <=5 bits, each main total mass <=20 bits; posterior cross-products <=40 bits; CP1 total prior denominator 70400 is 17 bits.",
+  "estimated_peak_memory": "Under 64 MiB: stream by A; at most 324 local joint atoms per A, and a small hidden-J dictionary.",
+  "scope": "Finite-support falsification/control of public decoder, exact endpoint laws, posterior cancellation, and CP1. Not the unbounded Gaussian law, not a Gaussian tail certification, and not computational hardness. q=5 deliberately lacks the unwrapping premise."
+}

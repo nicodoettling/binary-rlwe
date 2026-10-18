@@ -1,0 +1,36 @@
+{
+  "assignment_sha256": "4c81776326a1a85d62bca59fecc51a2bc4ca73c77064a4927c6ae1efe5a8b316",
+  "followup_receipt_sha256": "302854c361370560cbed160a4c7b68a1ea94717b79902d6deddea84afc1796ed",
+  "frozen_input_matches": {
+    "packet-hashes-v2.sha256": {
+      "expected": "5878c36560e6b417ad92139c56047404c88f0a92abb8193aa58ff30d3e9325e0",
+      "match": true,
+      "sha256": "5878c36560e6b417ad92139c56047404c88f0a92abb8193aa58ff30d3e9325e0"
+    },
+    "parameters-v2.md": {
+      "expected": "454991f1d39d8fe20937cd2da3d6fe26a4f1ec686c425044c91f7b7a10b48756",
+      "match": true,
+      "sha256": "454991f1d39d8fe20937cd2da3d6fe26a4f1ec686c425044c91f7b7a10b48756"
+    },
+    "proof-v1.md": {
+      "expected": "0f2eb5103e3fb274a9ae87213555e7e530dc0b628b7d57a04804b28a7698a96a",
+      "match": true,
+      "sha256": "0f2eb5103e3fb274a9ae87213555e7e530dc0b628b7d57a04804b28a7698a96a"
+    },
+    "shifted-cosets-v2.md": {
+      "expected": "c9c4fdb79b4077347b38aa7db026f10fa71d7c4de2499d9db3403a118f53a068",
+      "match": true,
+      "sha256": "c9c4fdb79b4077347b38aa7db026f10fa71d7c4de2499d9db3403a118f53a068"
+    },
+    "short-relation-v2.md": {
+      "expected": "7e698507dbdfd191ac100946014293c09607908c35650d503ce2866ef74921f7",
+      "match": true,
+      "sha256": "7e698507dbdfd191ac100946014293c09607908c35650d503ce2866ef74921f7"
+    },
+    "theorem-only-v1.md": {
+      "expected": "e2265238d7240a1fae85fa952c7996e0ad7ec20bc8697870da18fca9b4c6be18",
+      "match": true,
+      "sha256": "e2265238d7240a1fae85fa952c7996e0ad7ec20bc8697870da18fca9b4c6be18"
+    }
+  }
+}

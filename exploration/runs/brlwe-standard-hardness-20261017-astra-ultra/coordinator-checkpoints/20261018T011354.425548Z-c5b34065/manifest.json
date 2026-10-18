@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261018T011354.425548Z-c5b34065",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-18T01:13:54.425570+00:00",
+  "reason": "RT1 completed; preserve provisional tower improvements and open foundation",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 49953,
+      "sha256": "971f0ffde5b9ae59d8b1b73a0253b92424f1856f89c7ef817da9423fe246d277"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 4953,
+      "sha256": "5273cd57da01dd81d01c82c897b6641a8d6744cb135c441284e54a68b3eb52b0"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 4947,
+      "sha256": "761d1da3f1cbe880a9a34c56eec90c46e80738a188530d752d5ac90c24e0cfa2"
+    },
+    {
+      "path": "final.md",
+      "bytes": 10471,
+      "sha256": "3419a79271e646e6bffa4209026d49b48376b356153863840c9ec51afe4391e2"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 9743,
+      "sha256": "894754fc36571a28406f74b184f9420ad4091218b552f9f88ac6ae7c15c3a2cd"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

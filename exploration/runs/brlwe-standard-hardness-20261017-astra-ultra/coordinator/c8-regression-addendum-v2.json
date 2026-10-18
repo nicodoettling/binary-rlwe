@@ -1,0 +1,64 @@
+{
+  "at": "2026-10-17T22:50:43.041406+00:00",
+  "base": "coordinator/c8-regression-gate-v1.json",
+  "base_sha256": "10f94b4ec95831f785f05fcbee8a5dc10138bf1d77ba1e96aa0d334edb08118d",
+  "registry_sha256": "b161bae1080ef01cb8374ac5bc64b172e509f7260d8c0490c55c8d6140b1fc66",
+  "entries": [
+    {
+      "id": "ROOT-FRAC-SCALE-1",
+      "exact_registry_entry_sha256": "9353e3675629e7046f731ac7a9c5f008e17d4e65a9ebd0cf140cb515e22f41fd",
+      "status": "JUSTIFIED_OUTSIDE_CORE_OR_SCOPE_RECHECK",
+      "reason": "C8 core is a fixed INTEGRAL ideal GP-to-BDD reduction; it does not use fractional-padding extraction, class-number/collision counting, binary-error switching or GPV known-witness sampling. Its own exact Gaussian/finite-query/causal hypotheses are separately reviewed; no changed-family conclusion inherits them. Missing v0-scale example is outside C8 explicit v0>=2sqrt(n)a premises.",
+      "evidence": [
+        "coordinator/c8-repair/multiplier-ohcp-theorem-v8.md"
+      ]
+    },
+    {
+      "id": "ROOT-FRAC-SMALLBALL-1",
+      "exact_registry_entry_sha256": "88dcbb57f631830d73d31d1a1250ca3636bad88c91f2a3194969cfc46f67d560",
+      "status": "JUSTIFIED_OUTSIDE_CORE_OR_SCOPE_RECHECK",
+      "reason": "C8 core is a fixed INTEGRAL ideal GP-to-BDD reduction; it does not use fractional-padding extraction, class-number/collision counting, binary-error switching or GPV known-witness sampling. Its own exact Gaussian/finite-query/causal hypotheses are separately reviewed; no changed-family conclusion inherits them. Missing v0-scale example is outside C8 explicit v0>=2sqrt(n)a premises.",
+      "evidence": [
+        "coordinator/c8-repair/multiplier-ohcp-theorem-v8.md"
+      ]
+    },
+    {
+      "id": "B-BE-1",
+      "exact_registry_entry_sha256": "b2452892bca903e25dd41370ebd19645872a1cfdfa785ecc68f39f55deacb408",
+      "status": "JUSTIFIED_OUTSIDE_CORE_OR_SCOPE_RECHECK",
+      "reason": "C8 core is a fixed INTEGRAL ideal GP-to-BDD reduction; it does not use fractional-padding extraction, class-number/collision counting, binary-error switching or GPV known-witness sampling. Its own exact Gaussian/finite-query/causal hypotheses are separately reviewed; no changed-family conclusion inherits them. Missing v0-scale example is outside C8 explicit v0>=2sqrt(n)a premises.",
+      "evidence": [
+        "coordinator/c8-repair/multiplier-ohcp-theorem-v8.md"
+      ]
+    },
+    {
+      "id": "RF3-BINCLASS-SCOPE-1",
+      "exact_registry_entry_sha256": "2ebb80090179a19f65cce9adb95b4abc3fe54e113ca259de0dd61fd0def9b54d",
+      "status": "JUSTIFIED_OUTSIDE_CORE_OR_SCOPE_RECHECK",
+      "reason": "C8 core is a fixed INTEGRAL ideal GP-to-BDD reduction; it does not use fractional-padding extraction, class-number/collision counting, binary-error switching or GPV known-witness sampling. Its own exact Gaussian/finite-query/causal hypotheses are separately reviewed; no changed-family conclusion inherits them. Missing v0-scale example is outside C8 explicit v0>=2sqrt(n)a premises.",
+      "evidence": [
+        "coordinator/c8-repair/multiplier-ohcp-theorem-v8.md"
+      ]
+    },
+    {
+      "id": "E-PAIR-TRUNCATION-1",
+      "exact_registry_entry_sha256": "d6dc7dbd11a2e07e27582df02e7ab712bde0039e10041e444bb7674e49380488",
+      "status": "JUSTIFIED_OUTSIDE_CORE_OR_SCOPE_RECHECK",
+      "reason": "C8 core is a fixed INTEGRAL ideal GP-to-BDD reduction; it does not use fractional-padding extraction, class-number/collision counting, binary-error switching or GPV known-witness sampling. Its own exact Gaussian/finite-query/causal hypotheses are separately reviewed; no changed-family conclusion inherits them. Missing v0-scale example is outside C8 explicit v0>=2sqrt(n)a premises.",
+      "evidence": [
+        "coordinator/c8-repair/multiplier-ohcp-theorem-v8.md"
+      ]
+    },
+    {
+      "id": "ROOT-COSET-NORMALIZER-1",
+      "exact_registry_entry_sha256": "f98e5e627b488fef416a2c8b04ca9b2020531a4952eb3a1498f409af6ebfcf14",
+      "status": "JUSTIFIED_OUTSIDE_CORE_OR_SCOPE_RECHECK",
+      "reason": "C8 core is a fixed INTEGRAL ideal GP-to-BDD reduction; it does not use fractional-padding extraction, class-number/collision counting, binary-error switching or GPV known-witness sampling. Its own exact Gaussian/finite-query/causal hypotheses are separately reviewed; no changed-family conclusion inherits them. Missing v0-scale example is outside C8 explicit v0>=2sqrt(n)a premises.",
+      "evidence": [
+        "coordinator/c8-repair/multiplier-ohcp-theorem-v8.md"
+      ]
+    }
+  ],
+  "total_covered": 90,
+  "blind_gate": "OPEN"
+}

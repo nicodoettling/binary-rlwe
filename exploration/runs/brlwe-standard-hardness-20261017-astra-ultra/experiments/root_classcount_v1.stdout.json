@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "seed": null,
+  "arithmetic": "exact integers and fractions",
+  "results": [
+    {
+      "n": 2,
+      "norm_cutoff": 2,
+      "exact_ideal_count": 2,
+      "real_discriminant": 1,
+      "absolute_complex_discriminant": 4,
+      "bound_numerator": 100,
+      "bound_denominator": 9,
+      "all_checks": true
+    },
+    {
+      "n": 4,
+      "norm_cutoff": 2,
+      "exact_ideal_count": 2,
+      "real_discriminant": 8,
+      "absolute_complex_discriminant": 256,
+      "bound_numerator": 2500,
+      "bound_denominator": 81,
+      "all_checks": true
+    },
+    {
+      "n": 8,
+      "norm_cutoff": 4,
+      "exact_ideal_count": 3,
+      "real_discriminant": 2048,
+      "absolute_complex_discriminant": 16777216,
+      "bound_numerator": 6250000,
+      "bound_denominator": 6561,
+      "all_checks": true
+    },
+    {
+      "n": 16,
+      "norm_cutoff": 16,
+      "exact_ideal_count": 5,
+      "real_discriminant": 2147483648,
+      "absolute_complex_discriminant": 18446744073709551616,
+      "bound_numerator": 39062500000000,
+      "bound_denominator": 43046721,
+      "all_checks": true
+    },
+    {
+      "n": 32,
+      "norm_cutoff": 256,
+      "exact_ideal_count": 41,
+      "real_discriminant": 604462909807314587353088,
+      "absolute_complex_discriminant": 1461501637330902918203684832716283019655932542976,
+      "bound_numerator": 1525878906250000000000000000,
+      "bound_denominator": 1853020188851841,
+      "all_checks": true
+    },
+    {
+      "n": 64,
+      "norm_cutoff": 65536,
+      "exact_ideal_count": 13937,
+      "real_discriminant": 3138550867693340381917894711603833208051177722232017256448,
+      "absolute_complex_discriminant": 39402006196394479212279040100143613805079739270465446667948293404245721771497210611414266254884915640806627990306816,
+      "bound_numerator": 2328306436538696289062500000000000000000000000000000000,
+      "bound_denominator": 3433683820292512484657849089281,
+      "all_checks": true
+    }
+  ],
+  "scope": "Euler-factor ideal-count bound and discriminant identities only; no class number, analytic asymptotic, or hardness certification",
+  "wall_seconds": 0.07150539598660544,
+  "maxrss_kib": 14336
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261017T220929.196467Z-56240ec4",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-17T22:09:29.196490+00:00",
+  "reason": "Same native goal resumed; verified two-slot throttle and earlier live cap; preserve partial gates",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 27651,
+      "sha256": "e45e71f551eccac3c98da10d01319c232155e5c9a2363cb9e6ebb76337bfcf10"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 3494,
+      "sha256": "f392d1d9fb9bc37784ad6464366c9270ccf0283ebcbf51988a63844f5501477f"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 1408,
+      "sha256": "54c8b1ad4459d9650a684e8a919c64a42995c3b6fc655576ac322d8d02221d1c"
+    },
+    {
+      "path": "final.md",
+      "bytes": 11866,
+      "sha256": "29dfffa49c922e8eac2516241f91df4c77bdd559fd4ba9e057ac9999b9ec8dea"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 14228,
+      "sha256": "76830a7ad163fa05b2dec086fd12c205b178cf18c9969e18ff4e1838a0a3c6ee"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

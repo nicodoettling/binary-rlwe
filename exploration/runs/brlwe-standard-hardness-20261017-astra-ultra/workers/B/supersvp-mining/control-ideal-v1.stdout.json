@@ -1,0 +1,34 @@
+{
+  "elapsed_seconds": 0.1740502530010417,
+  "exact_field_injective_mask_images": 16,
+  "input": {
+    "B": [
+      [
+        17,
+        -4
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "D": 17,
+    "h": 9,
+    "k": 5,
+    "n": 2,
+    "p": 4,
+    "q": 5,
+    "r": 12,
+    "seed": 20261017
+  },
+  "max_rss_kib": 12288,
+  "max_trapdoor_coefficient": "13",
+  "modular_noninjective_control_images": 1,
+  "nonzero_lifts": 627,
+  "precision": "exact fractions; no floating-point correctness tests",
+  "rank_event": true,
+  "residual_blocks_necessary_targets": 20,
+  "rotated_trapdoor_checks": 25,
+  "sis_lift_checks": 630,
+  "target_encodings": 25
+}

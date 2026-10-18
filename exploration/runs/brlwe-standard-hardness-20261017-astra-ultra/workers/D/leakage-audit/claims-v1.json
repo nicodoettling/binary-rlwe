@@ -1,0 +1,15 @@
+{
+  "schema":"D-leakage-audit/claims-v1",
+  "source_hardness":"OPEN",
+  "acceptance_authority":"coordinator only",
+  "claims":[
+    {"id":"D-LSW-EXACT","status":"REJECTED","statement":"Primary exact Theorem1 joint identity as displayed","evidence":"LSW-theorem1-normalizer-objection-v1.md; lsw-control-v1-output.json"},
+    {"id":"D-LSW-N","status":"REPAIRED-PENDING-RECHECK","statement":"Both normalized theta comparisons yield the repaired full-joint simulation loss","evidence":"audit-v2.md"},
+    {"id":"D-LSW-E","status":"PROVISIONAL","statement":"Designated identity blocks give the actual exact uniform comparator","evidence":"audit-v2.md"},
+    {"id":"D-LSW-C","status":"PROVISIONAL","statement":"Published scalar Condition2 forces dense-map broad noise and wrapped uniformity at a=n²","evidence":"audit-v2.md"},
+    {"id":"D-LSW-M","status":"PROVISIONAL","statement":"Sharper posterior feasibility allows anisotropy; scalar necessity fails","evidence":"audit-v2.md; lsw-control-v1-output.json"},
+    {"id":"D-R1-FIBER","status":"PROVISIONAL","statement":"Exact fiber density and smoothing for integer KR=0 with kerK=imR","evidence":"anisotropic-joint-law-v1.md"},
+    {"id":"D-R1-H","status":"PROVISIONAL","statement":"Standalone useful short surjective homogeneous K directly distinguishes ordinary RLWE","evidence":"homogeneous-short-map-obstruction-v1.md; homogeneous-oracle-scope-v1.md"},
+    {"id":"D-IDEN-CATALOG","status":"PROVISIONAL","statement":"Polynomial hidden ideal catalogs admit short-basis OR test under polynomial advice and useful geometry","evidence":"ideal-denominator-audit-v1.md"}
+  ]
+}

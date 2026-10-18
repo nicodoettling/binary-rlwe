@@ -1,0 +1,11 @@
+# Role A resume
+
+Read assignments/A-v1.md, package PLAN.md and run-config.json, launcher-run.json and its cap status, and mathematical-proof-audit skill plus both references. Read inherited theorem/proof v2 and final/reconciliation/source-comparison/parameter-table, with remaining focused read needed after truncated combined output.
+
+No new claim is certified. Frozen interface in admissible-theorem-only-v1.md and admissible-proof-v1.md permits arbitrary joint latent source (ideal, ideal points, integer masks, optional public metadata), independent of fresh binary secret and auxiliary Gaussian. Full stacked mask norm is bounded; exact binary-image cardinality is averaged on good states; comparator is full joint law with retained metadata.
+
+First reserved experiment is complete and released: finite_controls_v1.py and raw stdout/stderr; <1 s, 31 MiB. New binary-image-obstruction-v1.md proves injectivity when q^r>n^(n/2), removing C's simple large-d/exact-image escape conditional on C's width floor. parameter-range-v1.md gives direct and EX source-width windows. Need freeze first-test-v1.md and hash manifest, then support B/C composition. Cap remains original; do not reset. Source hardness remains OPEN.
+
+First-test-v1.md and hashes-v1.sha256 are frozen. high-d-loss-floor-v1.md adds exact delta_bad+beta>=(1-q^-k)^d regardless of Good; composition-checks-v1.md records B/C observations and the alternative-mask-representative qualification. Current assignment is nonauthor FULL PROOF review of D's forthcoming STAT packet, to be frozen and supplied by coordinator/D. Do not certify A's own claims in that role. No experiment reservation is active. Prepare joint-law, dual conjugation and shifted-theta controls; request permission from coordinator before any new experiment.
+
+Updated 2026-10-17T20:23:35.647277+00:00: full nonauthor D-THETA review completed and frozen in stat-review/report-v1.md, SHA256 56a2a8b2a2a561c2f7f600e920dc3743b7f90a6a0920d88b6d966e9404ae0037. Recommendation PASS within exact analytic scope, with primary-source and blind gates separate. No new experiment or author edit. A-owned constructive claims remain provisional. Current assigned review is complete; awaiting coordinator follow-up. Source hardness OPEN; original cap unchanged.

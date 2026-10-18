@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261018T000417.408958Z-3d8220b4",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-18T00:04:17.408981+00:00",
+  "reason": "Accepted exact public-information bound;115 scoped regressions; finitequantum reviews ongoing; primary goal open",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 42744,
+      "sha256": "93c980594a6e89a41174e1fe36981c3084094fc26a2ce868c10da46556131579"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 1963,
+      "sha256": "b09c422207c77177b151fdaca91771fad11e6626b9c78369b61a9399accf80d7"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 1957,
+      "sha256": "bb988e6435bf857b54c8abfaa6fce50ac95d8a3446a50d84cf563fed72c531bd"
+    },
+    {
+      "path": "final.md",
+      "bytes": 15753,
+      "sha256": "37223da93df740875ec6a8c23e327ecb88b3eb2b7fbc22dedb8325c9bb0ffee3"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 7643,
+      "sha256": "a43c65a8b52af27768bc95b5220926b520cf561382977505c08a4c65b73c1914"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

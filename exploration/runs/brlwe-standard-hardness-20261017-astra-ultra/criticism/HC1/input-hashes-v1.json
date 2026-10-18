@@ -1,0 +1,150 @@
+{
+  "coordinator/a-frac-definitions-v1.md": {
+    "expected": "29ed77d3b83a8495396b10b4bef7933e36039c397a5616aa46c77b363017515b",
+    "actual": "29ed77d3b83a8495396b10b4bef7933e36039c397a5616aa46c77b363017515b",
+    "match": true
+  },
+  "coordinator/c8-repair/multiplier-ohcp-algorithm-v2.md": {
+    "expected": "4361c90a7fa7cfe25d0ab3e8cd5c5333fb474cf1fb764375e10c29fca5102735",
+    "actual": "4361c90a7fa7cfe25d0ab3e8cd5c5333fb474cf1fb764375e10c29fca5102735",
+    "match": true
+  },
+  "coordinator/c8-repair/multiplier-ohcp-proof-v9.md": {
+    "expected": "e9b3023715a3d4ec90c474aba6945223aa376248b1fa216134964a5643fb4c5f",
+    "actual": "e9b3023715a3d4ec90c474aba6945223aa376248b1fa216134964a5643fb4c5f",
+    "match": true
+  },
+  "coordinator/c8-repair/multiplier-ohcp-theorem-v8.md": {
+    "expected": "857a62e9f4a937a80e5cb3b115c8b132abf122c16665d29b39dcb62bde86fe0a",
+    "actual": "857a62e9f4a937a80e5cb3b115c8b132abf122c16665d29b39dcb62bde86fe0a",
+    "match": true
+  },
+  "coordinator/quantum-integration/effective-parameter-v3/certificate.md": {
+    "expected": "bdc9ea7aa9ba63f59a2ed52a16ee1cdbe31334cee469364c74a1cf39fd98611d",
+    "actual": "bdc9ea7aa9ba63f59a2ed52a16ee1cdbe31334cee469364c74a1cf39fd98611d",
+    "match": true
+  },
+  "coordinator/quantum-integration/effective-parameter-v3/control.py": {
+    "expected": "6f09e6c5218075cb41fef696906b0a30cd73d5fb913228588ba5bd39a648f947",
+    "actual": "6f09e6c5218075cb41fef696906b0a30cd73d5fb913228588ba5bd39a648f947",
+    "match": true
+  },
+  "coordinator/quantum-integration/effective-parameter-v3/freeze-receipt.json": {
+    "expected": "155bfb21661feb0706c13e8b88c2a09be4d5526d9c67706bf1322dfd36f1cb7a",
+    "actual": "155bfb21661feb0706c13e8b88c2a09be4d5526d9c67706bf1322dfd36f1cb7a",
+    "match": true
+  },
+  "coordinator/quantum-integration/effective-parameter-v3/input.json": {
+    "expected": "b1dfcf29f9d972dcd2b7b411fdd261a2201121d3c28250d7d5206ad39b17b8aa",
+    "actual": "b1dfcf29f9d972dcd2b7b411fdd261a2201121d3c28250d7d5206ad39b17b8aa",
+    "match": true
+  },
+  "coordinator/quantum-integration/effective-parameter-v3/stdout.json": {
+    "expected": "464c6a248dcc27479d37a7c379e628ea727ff12a16a8bf1a7cf72506cdf9c487",
+    "actual": "464c6a248dcc27479d37a7c379e628ea727ff12a16a8bf1a7cf72506cdf9c487",
+    "match": true
+  },
+  "workers/A/fractional-composition/proof-v1.md": {
+    "expected": "f4c889a64173135b2e29cebeb8190f352b1d4de6ada77f37a3f7c4f3ec797af2",
+    "actual": "f4c889a64173135b2e29cebeb8190f352b1d4de6ada77f37a3f7c4f3ec797af2",
+    "match": true
+  },
+  "workers/A/fractional-composition/theorem-only-v1.md": {
+    "expected": "5c471744bb04c8149b0d539eaa26e1544d0ba8097b0d68ea019cabb74461b485",
+    "actual": "5c471744bb04c8149b0d539eaa26e1544d0ba8097b0d68ea019cabb74461b485",
+    "match": true
+  },
+  "workers/B/ideal-denominator/gaussian-periodic-bounded-wrapper-v1.md": {
+    "expected": "335f4a176331df262eda5c775a7d565e3c47fee6413d714957741c81b6087521",
+    "actual": "335f4a176331df262eda5c775a7d565e3c47fee6413d714957741c81b6087521",
+    "match": true
+  },
+  "workers/B/ideal-denominator/gaussian-periodic-proof-v2.md": {
+    "expected": "207a9af38eb570e2a140d88008c0f4bc363f7d3c8a72049c53bbab85798910b4",
+    "actual": "207a9af38eb570e2a140d88008c0f4bc363f7d3c8a72049c53bbab85798910b4",
+    "match": true
+  },
+  "workers/B/ideal-denominator/gaussian-periodic-theorem-v2.md": {
+    "expected": "be7f05d67fc8f2b24fc6b93321c95005f4d7f6e24bab513b2cbaf35c82aeaad7",
+    "actual": "be7f05d67fc8f2b24fc6b93321c95005f4d7f6e24bab513b2cbaf35c82aeaad7",
+    "match": true
+  },
+  "workers/B/ideal-denominator/gaussian-periodic-v2-ceiling-addendum-v1.md": {
+    "expected": "17044d83881bee69c3182ed0cdaaccf91687d4a1e173618e837350fe1ebb2e47",
+    "actual": "17044d83881bee69c3182ed0cdaaccf91687d4a1e173618e837350fe1ebb2e47",
+    "match": true
+  },
+  "workers/F/finite-quantum-integration/finite-quantum-algorithm-v2.md": {
+    "expected": "1ea3e1ab1c297773d591a3bd983ff278f31cdafcd459acd29076a3867ede2545",
+    "actual": "1ea3e1ab1c297773d591a3bd983ff278f31cdafcd459acd29076a3867ede2545",
+    "match": true
+  },
+  "workers/F/finite-quantum-integration/finite-quantum-proof-v2.md": {
+    "expected": "1430f62a7c670c682fef2cfc2b14d15f17c45e877fe3d598cc7a040cc1a69144",
+    "actual": "1430f62a7c670c682fef2cfc2b14d15f17c45e877fe3d598cc7a040cc1a69144",
+    "match": true
+  },
+  "workers/F/finite-quantum-integration/finite-quantum-theorem-only-v2.md": {
+    "expected": "ce7f5992b071f7d82e5e034a7dc323f69a85d0f4969afa0530603527bc7338e2",
+    "actual": "ce7f5992b071f7d82e5e034a7dc323f69a85d0f4969afa0530603527bc7338e2",
+    "match": true
+  },
+  "workers/F/finite-quantum-integration/integration-addendum-v2.md": {
+    "expected": "144ba40df83ab4c70f13d090c3a637a55f031fe2145dd90c06e887bf17dbd3cb",
+    "actual": "144ba40df83ab4c70f13d090c3a637a55f031fe2145dd90c06e887bf17dbd3cb",
+    "match": true
+  },
+  "workers/F/finite-quantum-integration/modulus-value-addendum-v2.md": {
+    "expected": "ed1b1b5c7605ac6fcac8d838f946218a9009f438a765685e354b477264cb54fd",
+    "actual": "ed1b1b5c7605ac6fcac8d838f946218a9009f438a765685e354b477264cb54fd",
+    "match": true
+  },
+  "workers/RF4/same-j-composition/blind-packet-hashes-v1.sha256": {
+    "actual": "86bb66ba1be2b26bd7c0d4469ce975a1affacfa88069cb42886ae9277902232c"
+  },
+  "workers/RF4/same-j-composition/blind-packet-index-v1.md": {
+    "actual": "fc48b94e745e71addc38f6a1924a97179a2bd8586f98b9a0b0ff5591c5ec8a72"
+  },
+  "workers/RF4/same-j-composition/input-hashes-v1.json": {
+    "actual": "d9d000374c498bd0f29f849cf8558e3c930c7ba88dfcb2c02e66c45db91a31d3"
+  },
+  "workers/RF4/same-j-composition/packet-hashes-v1.sha256": {
+    "actual": "3e10ebd0aad835d7c39f4684fd77aeeaa86bc8a4bbe95c46fe92b40cfce23609"
+  },
+  "workers/RF4/same-j-composition/consistency-v1.md": {
+    "actual": "0d4bc62a6b1a9b86375143447da9d761051a759658cb62098ff6d009619381e9"
+  },
+  "workers/RF4/same-j-composition/interface-statements-v1.md": {
+    "actual": "25a78ebcc36d3cd31568f12dd36ee233490509dab8684d4656002a528bb0fab8"
+  },
+  "workers/RF4/same-j-composition/packet-index-v1.md": {
+    "actual": "bcb9bd8018f46d2c2853967703c09742d20e8d061dda39b612e033af57e1e7f6"
+  },
+  "workers/RF4/same-j-composition/assignment-v1.md": {
+    "actual": "7d38b7fc6399616d0411139b09a90f59549706ffb17262af62c829272be23173"
+  },
+  "workers/RF4/same-j-composition/same-j-theorem-only-v1.md": {
+    "actual": "96b88a725cc5dc4f8c943275d3b8788fdb9e6ac108c72fe62b383af9614e5e62"
+  },
+  "workers/RF4/same-j-composition/freeze-manifest-v1.json": {
+    "actual": "ff917b85c43f1c88dcfc324981fdc8319462ee1bd66ec7cc6cb9207ff76315b3"
+  },
+  "workers/RF4/same-j-composition/same-j-proof-v1.md": {
+    "actual": "4821d28fa205d893576b496df7f328f94a4ba111f6d634fd4b338edfea8c522d"
+  },
+  "workers/RF4/same-j-composition/partial-v1.md": {
+    "actual": "9253f83a109e5423fbbdce3aa8dfe55aaafbc1fa62f78d2356acdf7eb363c275"
+  },
+  "workers/RF4/same-j-composition/same-j-specification-v1.md": {
+    "actual": "d5f1a120bf48a90c1f1fa80029dc00ee693b7df031207d15ebff0fcda6c8cb23"
+  },
+  "workers/RF4/same-j-composition/finite-witness-v1.md": {
+    "actual": "bfbda15fbf2ea4ea019cc2e30b164f12426f7d8101bb7f4f3b40f12c738e1a63"
+  },
+  "workers/RF4/same-j-composition/author-boundary-and-regressions-v1.md": {
+    "actual": "6e4ba396a4cf7b8c37aba7ad8bda21fc94b77431d55683ac6b62c6b42cbcf712"
+  },
+  "criticism/HC1/assignment-v1.md": {
+    "actual": "3c500b07a7a459ebc36f78d3630c0dfa5481b32dc53a8b378b4552ebb2b80236"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261017T213550.793078Z-af41e8ba",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-17T21:35:50.793099+00:00",
+  "reason": "C finite reconstruction frozen and computational branches updated",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 22911,
+      "sha256": "ab41b920cca04c784ce1ebb37216a8b0094c1d96cb0b145c8b5aa258143b7d44"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 4562,
+      "sha256": "4e09e4367bef9637884b02e9da91194068ce2bcfa4e0b2bd1d9cf8b2d5fc450d"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 3168,
+      "sha256": "46c95ef4884aed55a8ca2355eaec4b47d3241da911fa2cd2ce9598db6c8e73df"
+    },
+    {
+      "path": "final.md",
+      "bytes": 9973,
+      "sha256": "6e13e3e066e754a6caa4539101be5ce6a4a3ff3d0a85802a50cf390e0f3fb9eb"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 12581,
+      "sha256": "4b1ff40bdc059530f604d6b14af1eabe5b358e5e9961e52a467762d04158e028"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

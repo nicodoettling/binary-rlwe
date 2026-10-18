@@ -1,0 +1,13 @@
+# E progress
+
+2026-10-17 22:50 UTC checkpoint. Complete assignment read. Independent nonauthor NONBLIND audit of frozen fractional-smallball v1 is favorable; exact hashes and the full-proof report are in `smallball-full-proof-review-v1.md`. Separate parameter/complexity/source report is `smallball-parameter-source-review-v1.md`. No acceptance declared; coordinator owns remaining gates.
+
+The selected nonlinear mechanism was quotient collisions among m samples, with an output-dependent choice of one pair difference. A direct full-Gaussian proof gives useful success <=binom(m,2)b plus one conditional-TV charge per fresh stage; it does not apply identity as a map J->I. The proof, exact source endpoints, actual difference law, norm costs and missing source/sampler gates are frozen in `pair-extraction-theorem-proof-v1.md`. This is PROVISIONAL and independently unreviewed. At the favorable diagnostic W and low-norm H, polynomial sample caps yield negligible useful probability. The original foundation remains unresolved.
+
+Reservation E-PAIR-1 completed and released: exact 81-state/6561-pair degree2 calculation, 0.035s, 14MiB RSS, PASS. Complete records in `finite-pair-v1/`. Preserved E-NORMALIZER-1: conditioning the broad Gaussian to radius4 invalidates the full-law max-atom bound, with explicit rational useful probability above a rational upper bound on the full-law b. This is a regression for an invalid substitution, not a counterexample to either full theorem. No further experiment is reserved.
+
+Source gate: A/fractional-composition/theorem-only-v1.md assumes integral public J despite its fractional-source name. It cannot be imported onto padded fractional J. All requested work here remains within E/fractional-extraction; no goals, subprocess model sessions, external communications, Git edits or extra agents.
+
+Next discriminator belongs to coordinator: explicit simulation on J when a short f in H is supplied. E will not duplicate it. E can recheck new comments or preserve a final handoff once reports are integrated.
+
+2026-10-17 22:55 UTC follow-up. Independently reviewed coordinator known-short-witness note against the dated GPV author PDF. `known-witness-scope-review-v1.md` is favorable for its analytic/interface scope, with full retained-transcript freshness made explicit and finite implementation left open. A concrete parameterized no-produced-witness family is H=(p,X-r), for supplied split p<2^(rho n); collision exists by pigeonhole without being computed. This only avoids the GIVEN-witness premise, does not prove all short sets unavailable, and leaves standard-source/comparator and extraction gates unresolved. No new experiment run.

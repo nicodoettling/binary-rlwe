@@ -1,0 +1,178 @@
+{
+  "reservation": "C-LIFT-1",
+  "method": "exhaustive exact integer; no seed",
+  "root_laws": [
+    {
+      "p": 17,
+      "base_degree": 2,
+      "extension_degree": 4,
+      "fibers": {
+        "4": [
+          2,
+          15
+        ],
+        "13": [
+          8,
+          9
+        ]
+      },
+      "uniform_branch_denominator": 4
+    },
+    {
+      "p": 17,
+      "base_degree": 2,
+      "extension_degree": 8,
+      "fibers": {
+        "4": [
+          6,
+          7,
+          10,
+          11
+        ],
+        "13": [
+          3,
+          5,
+          12,
+          14
+        ]
+      },
+      "uniform_branch_denominator": 8
+    },
+    {
+      "p": 17,
+      "base_degree": 4,
+      "extension_degree": 8,
+      "fibers": {
+        "2": [
+          6,
+          11
+        ],
+        "8": [
+          5,
+          12
+        ],
+        "9": [
+          3,
+          14
+        ],
+        "15": [
+          7,
+          10
+        ]
+      },
+      "uniform_branch_denominator": 8
+    },
+    {
+      "p": 97,
+      "base_degree": 2,
+      "extension_degree": 4,
+      "fibers": {
+        "22": [
+          33,
+          64
+        ],
+        "75": [
+          47,
+          50
+        ]
+      },
+      "uniform_branch_denominator": 4
+    },
+    {
+      "p": 97,
+      "base_degree": 2,
+      "extension_degree": 8,
+      "fibers": {
+        "22": [
+          8,
+          18,
+          79,
+          89
+        ],
+        "75": [
+          12,
+          27,
+          70,
+          85
+        ]
+      },
+      "uniform_branch_denominator": 8
+    },
+    {
+      "p": 97,
+      "base_degree": 4,
+      "extension_degree": 8,
+      "fibers": {
+        "33": [
+          18,
+          79
+        ],
+        "47": [
+          12,
+          85
+        ],
+        "50": [
+          27,
+          70
+        ],
+        "64": [
+          8,
+          89
+        ]
+      },
+      "uniform_branch_denominator": 8
+    }
+  ],
+  "norm_controls": [
+    {
+      "p": 17,
+      "base_degree": 2,
+      "extension_degree": 4,
+      "vectors": 81,
+      "prime_membership_cases": 4,
+      "inequalities": "generic and conjugate-pair passed"
+    },
+    {
+      "p": 17,
+      "base_degree": 2,
+      "extension_degree": 8,
+      "vectors": 6561,
+      "prime_membership_cases": 3080,
+      "inequalities": "generic and conjugate-pair passed"
+    },
+    {
+      "p": 17,
+      "base_degree": 4,
+      "extension_degree": 8,
+      "vectors": 6561,
+      "prime_membership_cases": 3080,
+      "inequalities": "generic and conjugate-pair passed"
+    }
+  ],
+  "trace_counterexample": {
+    "p": 17,
+    "eta": 2,
+    "xi": 4,
+    "x": [
+      -2,
+      1,
+      0,
+      0
+    ],
+    "relative_norm": [
+      4,
+      -1
+    ],
+    "relative_trace": [
+      -4,
+      0
+    ],
+    "trace_residue": 13
+  },
+  "assertions": "passed",
+  "resources": {
+    "elapsed_seconds": 0.11648513999534771,
+    "maxrss_kib": 10240,
+    "address_space_limit_bytes": 268435456
+  }
+}

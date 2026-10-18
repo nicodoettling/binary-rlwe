@@ -1,0 +1,6 @@
+Exact coordinator follow-up:
+
+After recording B DS v2 exact recheck, return to constructive/adversarial frontier: determine whether relaxed binary guessing for ideals with index above2^n can actually widen the standard-family intersection. A-FRAC uses D p_t^n upper bound; exact quotient image entropy may be smaller for structured J. Test a concrete family, with full actual-secret guessing and source-hardness relevance, rather than another generic lemma. Controls: FPSW prime p>n^(n/2) makes binary map injective; merely one ternary relation with large support affects very few binary strings. If a sharper useful lossiness mechanism exists, send A/B exact family; otherwise freeze scoped result and identify next different mechanism. No experiment without reservation. Original cap/no-spawn/no-goal apply.
+
+Reservation D-ENTROPY-1:
+D-ENTROPY-1 authorized now: <=20s wall, <=256MiB hard address-space, at most20 fixed r8 candidates/100000states. B second light slot. Preserve exact determinant/coset outputs and resource/code/input/command records; distinguish principal public short-basis easy source from mere larger-index guessing. This family is useful for testing whether D-bound is necessary, but only hardness-compatible instances advance goal.

@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "seed": "none; exhaustive lexicographic support",
+  "rows": [
+    {
+      "n": 2,
+      "states": 8,
+      "B": 2,
+      "vmax": 1,
+      "umax": 0,
+      "per_polynomial_bound": 2,
+      "max_norm": 2,
+      "max_norm_based_divisor_bound": 2,
+      "sum_norm_based_divisor_bounds": 12,
+      "global_count_bound": 16,
+      "independent_determinant_checks": 8
+    },
+    {
+      "n": 4,
+      "states": 80,
+      "B": 16,
+      "vmax": 4,
+      "umax": 1,
+      "per_polynomial_bound": 10,
+      "max_norm": 9,
+      "max_norm_based_divisor_bound": 4,
+      "sum_norm_based_divisor_bounds": 176,
+      "global_count_bound": 800,
+      "independent_determinant_checks": 80
+    },
+    {
+      "n": 8,
+      "states": 6560,
+      "B": 4096,
+      "vmax": 12,
+      "umax": 2,
+      "per_polynomial_bound": 52,
+      "max_norm": 2401,
+      "max_norm_based_divisor_bound": 16,
+      "sum_norm_based_divisor_bounds": 26240,
+      "global_count_bound": 341120,
+      "independent_determinant_checks": 211
+    }
+  ],
+  "total_states": 6648,
+  "wall_seconds": 0.0664558460121043,
+  "max_rss_kib": 10240,
+  "precision": "exact Python integers; timing only is floating point",
+  "limits": {
+    "wall_seconds": 60,
+    "address_space_bytes": 268435456
+  },
+  "scope": "Norm and multiplicity/count controls only, not exact enumeration of all ideal classes or a hardness/asymptotic certificate"
+}

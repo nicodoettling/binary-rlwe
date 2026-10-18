@@ -1,0 +1,5 @@
+# Fractional escape scale gap, preserved before v2
+
+RF3 independently reported the following exact counterexample on2026-10-17 before repair. The standalone v1 note omitted the lower bound on v0 while asserting that q/s>=1 implies W_J>1. Set n=2,k=1,delta=1/2,v0=1/1024,q=s=w_B=3,p=5,D_H=1. Then q is coprime to pD_H, d0=24sqrt2 and W_J=1/8. The displayed standalone premises therefore do not prove the claimed width floor. The actual current C chain requires a much larger v0, but that premise must be stated rather than silently inherited into a changed fractional-ideal setting.
+
+V1 also said any ordinary Gaussian norm bound exceeds1; width alone does not justify that universal wording, especially if a discrete source collapses to zero. A specified tail radius and its actual failure allowance are required. These are defects in the standalone favorable scale diagnostic. The exact source, class, covolume, minimum-length and zero-test calculations were favorably checked separately; no new theorem is accepted. Preserve fractional-escape-test-v1.md unchanged.

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261018T005444.837690Z-ccabe87d",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-18T00:54:44.837713+00:00",
+  "reason": "Independent reports reconciled; fresh blind team active; tower endpoint test next",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 48229,
+      "sha256": "2e15c01c1c1a69d730996773e2559d1b973f80d61cfb1619ec2a1454c972cc65"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 3080,
+      "sha256": "4e09b8825d3611e3f0e39d20cab6558e42656e0f6e7bd9b3e3499561289dd7f1"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 3074,
+      "sha256": "8beef03dbde7d9f0781fc0d1eee56f689a8e13f6dbe09f4f4e28ac7cfa933a39"
+    },
+    {
+      "path": "final.md",
+      "bytes": 8598,
+      "sha256": "e368ab39e921c5679b474eb20098ba94fb1c0a368b89a9ca03e0f52342da2579"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 10030,
+      "sha256": "1dfb116fd374da5bd4d0c06455267b206a7ddd45e510f9c139ca1b9c0c7d444e"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

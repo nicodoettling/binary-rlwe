@@ -1,0 +1,17 @@
+# Role B checkpoint after source audit
+
+2026-10-17 20:37 UTC. All new mathematics remains PROVISIONAL. No computational foundation for the required small-mask source or useful binary-RLWE target was obtained; source hardness is OPEN.
+
+This supersedes report-v1's semi-adaptive-hint proof status. All other results and resource records in report-v1 remain unchanged. No immutable counterexample or version was overwritten.
+
+The first obligation was met by dense public pivot elimination using n+2 standard RLWE samples: its actual comparator is exactly uniform, its masks are the full correlated e_j−r_j e_p law, and at coefficient width n² it is O(1/n) from uniform and far from SC-v1. Full endpoints, reduction direction and costs are in first-test-v1.md. More than two input samples were allowed throughout.
+
+The constructive short partial-syndrome interface in short-syndrome-interface-v1.md remains conditional on a useful short-preimage routine. Forward sampling, programming a new trapdoor matrix, and repeating response-independent trial lists do not supply the missing routine. A's newly frozen scalar LLL/Babai analysis is independent work; A reports that its useful partial-syndrome parameter range also gives an explicit full-syndrome ordinary-RLWE distinguisher. B did not author or certify that analysis.
+
+The strongest additional public mechanism located is the semi-adaptive noisy-error-hint construction. With dense elimination matrix H and fresh designated identity blocks, public Gaussian sampling followed by C=Hb̃−ℓ+U has an exact actual uniform comparator. It aims to produce common ideal points plus iid coefficient D_ζ masks. D found an exact shifted-normalizer error in the primary reverse-Gaussian identity on which B's v1 simulation argument relied. That counterexample is preserved at ../D/leakage-audit/LSW-theorem1-normalizer-objection-v1.md. B agrees; the unqualified v1 source import is withdrawn in semiadaptive-hints-audit-status-v1.md.
+
+The new semiadaptive-hints-map-v2.md directly retains and bounds both the reverse marginal theta normalizer and the convolution theta normalizer. Its provisional claimed planted loss is 2ε/(1−ε)+δ_num, with advantage at least (1−ρ)Δ minus that loss, N=k+m samples, and polynomial Gaussian/linear-algebra cost. D is independently reviewing it. The identical numeric constant in v1 is coincidental and does not validate the original import.
+
+The parameter failure survives: the Gaussian posterior condition requires ζ>τ*||H||, while dense ratios give ||H||>=q/4 with overwhelming probability. At the verified τ*=n² ordinary-input scale the masks exceed q, so binary-target completion has no meaningful q/σ gap. PRS's arbitrary-modulus theorem does not remove the worst-case approximation dependence on q/τ. WLL's located exact leakage is one scalar value, not a full batch error oracle.
+
+One authorized exact finite experiment B-SYN-1 completed, with command/code/output/resource records in experiment-record-v1.md and syndrome_controls_v1.*; reservation released. No active job, pending computation, unauthorized write, spawned agent, native goal, external session or policy interruption. progress.md, resume.md, claims.json and references-v1.md are current. The next useful research step must change the short-response geometry or establish a different complete standard-hardness simulation; dense-norm constant improvements do not change this checkpoint's outcome.

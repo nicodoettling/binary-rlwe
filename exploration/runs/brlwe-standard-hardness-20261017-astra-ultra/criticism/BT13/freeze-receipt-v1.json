@@ -1,0 +1,31 @@
+{
+  "referee": "BT13",
+  "report": "report-v1.md",
+  "report_sha256": "155881134c294c496c7e5866138f9740490b95e8c90e1518e625551b9ad20aae",
+  "complete_bytes_sealed_before_substantive_disclosure": true,
+  "verdict": "SUPPORTED for the core pointwise finite classical BDD assertion in the declared scalar-input model; separate bridge, quantum and arbitrary-family hardness dependencies remain unaudited",
+  "assignment_sha256": "770c548574e889c9c53d042b7379f81170047b53c287db22cc198ac563991445",
+  "inputs": {
+    "input/multiplier-ohcp-theorem-v8.md": "857a62e9f4a937a80e5cb3b115c8b132abf122c16665d29b39dcb62bde86fe0a",
+    "input/multiplier-ohcp-algorithm-v2.md": "4361c90a7fa7cfe25d0ab3e8cd5c5333fb474cf1fb764375e10c29fca5102735"
+  },
+  "exposure_record": "No unauthorized scientific input exposure. Only the assignment, its two authorized frozen inputs, and coordinator logistical/reservation messages were received or read.",
+  "external_sources_audited": false,
+  "experiment": {
+    "reservation": "BT13-FV1",
+    "foreground": true,
+    "exit_status": 0,
+    "wall_seconds": 0.26,
+    "maximum_rss_kib": 11264,
+    "case_checks": 50456,
+    "artifacts_sha256": {
+      "BT13-FV1-reservation.md": "28eb2f9b96731c7801fb79df9be02f472fe425d7722b020ea5d33b93a03de987",
+      "BT13-FV1.py": "b53e93e408c0cd57c4d616719591fa2f1afa2f5bf9e9285bf80f11c90bf072c9",
+      "BT13-FV1-command.sh": "9d8254ef269af1916929cd721f821c21725076eff7844c64a0bab94b08fa8e28",
+      "BT13-FV1.stdout": "5cf6d3ae76535690f766a6d0b1088ba8fdf720244e80b145d8b872bfd735b33b",
+      "BT13-FV1.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "BT13-FV1.resources": "da5d97b3b7fa55a1aa5d07feac668394c47330d534f1e23e10164b19bc954517"
+    }
+  },
+  "immutability": "Do not modify report-v1.md after this receipt. Corrections require a new report version."
+}

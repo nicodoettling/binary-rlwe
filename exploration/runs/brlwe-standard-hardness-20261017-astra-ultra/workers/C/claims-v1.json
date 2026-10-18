@@ -1,0 +1,67 @@
+{
+  "status": "all new mathematical claims provisional",
+  "updated_at": "2026-10-17T20:31:24.219445+00:00",
+  "claims": [
+    {
+      "id": "C-END",
+      "status": "PROVISIONAL",
+      "claim": "Fresh public ideal offsets repair the erased ideal-secret RLWE endpoint exactly, including zeros, shared noise latent and full uniform comparator.",
+      "artifact": "first-test-v1.md",
+      "control": "endpoint_control_v1.record.json",
+      "remaining": "Rounded elliptical noise is not SC-v1; finite precision and hard parameters still required.",
+      "artifact_sha256": "68c746844a3b105fd237f03b31da78c6d8c9004c4efe97cf436e50b8abf200e8"
+    },
+    {
+      "id": "C-ORDER-GAP",
+      "status": "PROVISIONAL",
+      "claim": "BBPS alpha/||u||>=2w with alpha<1 is incompatible with q^d<=2^(rho n), rho<1, by ||u||>=q^(-d/n).",
+      "artifact": "first-test-v1.md",
+      "remaining": "Scoped to checked BBPS theorem; not all reductions.",
+      "artifact_sha256": "68c746844a3b105fd237f03b31da78c6d8c9004c4efe97cf436e50b8abf200e8"
+    },
+    {
+      "id": "C-NONINV",
+      "status": "PROVISIONAL-SOURCE-CHECK",
+      "claim": "Checked Jutla-Lin endpoint remains ordinary full-secret RLWE; clearing isomorphism does not produce a small ideal image.",
+      "artifact": "noninvertible-orders-test-v1.md",
+      "remaining": "Only checked statements; no exhaustive no-go claim.",
+      "artifact_sha256": "763988c824864a70888974fe0557c35fa0ebaa78f279f186bfd35218df5a9c0e"
+    },
+    {
+      "id": "C-UNI",
+      "status": "PROVISIONAL",
+      "claim": "A statistically uniform first row has negligible probability of any small-mask decomposition with noninjective binary multiplication map in the specified norm regime.",
+      "theorem": "uniform-source-obstruction-theorem-v1.md",
+      "proof": "uniform-source-obstruction-proof-v1.md",
+      "control": "uniform_control_v1.record.json",
+      "dependencies": [
+        "A-BIN determinant argument, restated in proof"
+      ],
+      "remaining": "Nonauthor full and blind review required; proof-interface obstruction only.",
+      "theorem_sha256": "651006d9a1b6d23377101405bbe6e24fab346241c897d25da96dc78c92463732",
+      "proof_sha256": "d17792a73dcc40ca632cef8632e00953adbf1c7dc73122b1ed897e6b2e9ea7df"
+    },
+    {
+      "id": "C-COS",
+      "status": "PROVISIONAL",
+      "claim": "Exact shift/smooth, uniform-phase Fourier, and ring-randomization attempts do not supply a generic worst-case decoding solver from coset decision advantage.",
+      "artifact": "direct-coset-test-v1.md",
+      "control": "coset_control_v1.record.json",
+      "remaining": "No general impossibility or quantum lower bound.",
+      "artifact_sha256": "2bdcf188ea4d94e76f8c97220684580806fb3178dc2f064c978752e3f7f18200"
+    },
+    {
+      "id": "C-FAM",
+      "status": "PROVISIONAL",
+      "claim": "Direct denominator clearing has ideal image cardinality N(Q); checked Arakelov/prime family scales exceed binary budget, and natural NTRU graph is injective on unit branches.",
+      "artifact": "ideal-family-randomization-test-v2.md",
+      "supersedes": "ideal-family-randomization-test-v1.md",
+      "controls": [
+        "uniform_control_v1.record.json",
+        "endpoint_control_v1.record.json"
+      ],
+      "remaining": "Primary/source and algebra reviews required; fixed family transformations only.",
+      "artifact_sha256": "92388b38b3dd4dae5ba3805a07047a6961f3edecc89fc9017152376dfbe61716"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+20af29016bcedca64b4cad0da407f543f1730ce32512aac9d98b568da8bbc5cd  exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/D/ideal-theta-theorem-only-v1.md
+6eda9e0b34f25f54372b19bfcdbd2cdbb30b92a9643039d063b45de8d685eb54  exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/BT2/input/theorem-only-v1.md
+4ba9148908f11b77f3c3eefc9a74064344aa50ae6df1a8dcd987591ee38b02fd  exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/BT2/input/definitions-v1.md
+--- exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/D/ideal-theta-theorem-only-v1.md
++++ exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/BT2/input/theorem-only-v1.md
+@@ -1,6 +1,5 @@
+ # D-THETA v1: statistical uniformity of rounded ideal points under an elliptical floor
+ 
+-Status: **PROVISIONAL**. This is a frozen analytic statement and scoped composition obstruction, not a computational hardness result or a general impossibility theorem.
+ 
+ Let n>=2 be a power of two, K=Q[X]/(X^n+1), R=Z[X]/(X^n+1), and q>=2 an integer. Let P be a nonzero integral R-ideal containing qR, and Q=qP^-1. Let u be a nonzero element of Q^-1. The canonical embedding σ lists all n complex embeddings and has its usual real inner-product space H; complex-conjugate entries are paired. The norm identity is ||σ(x)||²=n||coeff(x)||². The Euclidean coefficient dual of P is denoted P*.
+ 
+
+Ordinary utility error before record creation: /bin/bash: line 1: python: command not found; reran the same file-hash/diff record command with installed python3. No research computation involved.

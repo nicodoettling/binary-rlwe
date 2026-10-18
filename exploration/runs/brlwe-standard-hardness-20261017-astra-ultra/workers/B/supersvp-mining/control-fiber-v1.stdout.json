@@ -1,0 +1,67 @@
+{
+  "comparator_responses_per_A": 625,
+  "elapsed_seconds": 0.08421085495501757,
+  "fiber_size": 25,
+  "image_states": 625,
+  "input": {
+    "R": [
+      [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    ],
+    "ell": 2,
+    "g": 1,
+    "h": 3,
+    "n": 2,
+    "q": 5,
+    "seed": null
+  },
+  "joint_W_A_probability_denominator": 15625,
+  "max_rss_kib": 10240,
+  "planted_pointwise_response_checks": 15625,
+  "precision": "exact integers; joint probabilities represented by denominators",
+  "separate_block_rank_countercontrol": {
+    "each_block_image": 25,
+    "joint_image": 25,
+    "required_joint_image": 625,
+    "unreachable": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ]
+  },
+  "single_CRT_root_countercontrol_image": 5,
+  "uniform_W_states": 15625
+}

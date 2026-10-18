@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261017T232224.962642Z-267ccff3",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-17T23:22:24.962663+00:00",
+  "reason": "BT14 exact rejection beforerepair; F quantum gap; G actual plantedinformation audit",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 35989,
+      "sha256": "10ce5e8f2560640645252c3752554113d26a0693b3582466c66700e2b297b4cb"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 1552,
+      "sha256": "2cc04e1a24e228993bcab6a82c931a39c6dbc82090d66957c0f79cb6ee195536"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 1211,
+      "sha256": "10b71f20d06b14df64d29fcda7049212226f0c2ebe64036ac7c3f7a49708deae"
+    },
+    {
+      "path": "final.md",
+      "bytes": 11711,
+      "sha256": "f12508b0fc42c0f173e165b8afab488aaf2f1ece5ff23e4fc58d7991724c74b3"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 6014,
+      "sha256": "6aa3060f6b5aad621d27635df46c5f23b5833673463ec2ea4a307e55de6ed9ad"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

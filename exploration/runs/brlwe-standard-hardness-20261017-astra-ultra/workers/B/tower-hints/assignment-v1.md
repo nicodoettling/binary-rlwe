@@ -1,0 +1,5 @@
+Parent /root assignment received2026-10-17 around21:43UTC:
+
+Next constructive priority: test whether the new preimage/canonical-hint machinery helps the actual binary module-to-extension-ring packing gap. Freeze exact ring-block multiplication constraints and both response endpoints before proof: standard uniform ring secret can be a hash of O(log q) binary module coordinates, but target rank-one extension ring needs all correlated coefficient rows, not one trace equation. Prior tower failure A(Y−2)=0 and secret-dependent correction must be retained. Consider whether canonical preimage randomness supplies the missing rows without off-promise recovery queries or exponential conditioning. If it does not, isolate exact remaining algorithmic obligation and move to a different mechanism. Degree-L ideal completion is secondary unless it directly enables this connection. No new experiment without reservation.
+
+Original cap/no-spawn/no-goal/write-ownership restrictions remain. Live cap read21:43:25UTC; discovery01:39Oct18, worker stop01:59Oct18. Only B/tower-hints owned for this focused pass; earlier B files remain immutable except explicit progress/resume records.

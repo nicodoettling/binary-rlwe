@@ -1,0 +1,14 @@
+{
+  "reservation": "BT15-FV1",
+  "seed": "none: exhaustive exact rational arithmetic",
+  "input_values": [0, 1, 2, 3],
+  "random_tapes": [0, 1, 2, 3],
+  "target_bits": 1,
+  "promise_error": "1/4",
+  "off_promise_mass": "1/4",
+  "sequential_TV": "1/16",
+  "CP1_hit": "21/2000",
+  "CP1_residual": "21/221",
+  "wall_cap_seconds": 10,
+  "address_space_cap_MiB": 64
+}

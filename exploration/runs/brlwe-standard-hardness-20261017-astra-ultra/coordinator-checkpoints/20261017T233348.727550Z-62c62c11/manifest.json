@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261017T233348.727550Z-62c62c11",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-17T23:33:48.727573+00:00",
+  "reason": "G full/source passed; repaired statements in fresh blind review; F finite quantum continuation;102 regression dispositions",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 38041,
+      "sha256": "b931743a0d7e2386140fdf009c366b071658593f1177465b4a25d695192640b6"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 3362,
+      "sha256": "a57c833ef800acf482ecfae7bbf2d2511ec7b96469fc5fc00e2d39804ae3b42a"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 3021,
+      "sha256": "ba5acb07e283c6d104abc445f1dd8549120726d0ad1ce9fb6bdf6fd971e48b7a"
+    },
+    {
+      "path": "final.md",
+      "bytes": 13521,
+      "sha256": "b228513c45e59b63acbcb0459fed7ac154734edf9a6cc40221795909a068ed21"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 6527,
+      "sha256": "110fcefb5db1a42f6125b88dbbddbf5fddcfcabfa9eab76e7679b7580b108edb"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

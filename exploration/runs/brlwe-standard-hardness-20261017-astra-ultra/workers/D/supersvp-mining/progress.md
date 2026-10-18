@@ -1,0 +1,3 @@
+2026-10-17T21:26:32Z tool clock. Completed exact BT4 Section9 Hermite-integral separation recheck for BGP2 logarithmic ceiling; all estimates valid, no distribution change needed. RF2 addendum frozen with separate timestamp correction. Ring quantum and C quantum gate reviews previously frozen. Source hardness OPEN; no experiment active.
+
+2026-10-17 after21:42:34Z: C6 finite/CP1 gate explicitly OPEN pending adoption/recheck of causal reference-walk proof supplement; exact wording disposition frozen. Standard-decomposed v1 and repaired canonical v2 full review frozen; v1 unreachable-key target-law defect preserved. No experiment active. Next await root priorities or audit ring decision/search; joint-preimage correction experiment remains WAIT.

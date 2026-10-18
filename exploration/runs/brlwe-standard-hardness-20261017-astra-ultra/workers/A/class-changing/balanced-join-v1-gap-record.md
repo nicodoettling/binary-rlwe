@@ -1,0 +1,3 @@
+# Pre-review author correction
+
+V1 SHA256 60802001a26d8de73cf7582a2ad99c975b94bc39a583522f75189e0bfe7c3b19 used an arbitrary positive integer d in F before asserting that the cofactor has no new rational primes. Counterexample: F=R and d=3. The intended constructive choice is the least positive integer in F, which divides N(F), or simply d=N(F). V2 supplies this qualifier. V1 is not a complete proof of that paragraph and is superseded; original bytes are preserved. The join recurrence, inverse basis, and transfer formulas do not depend on this auxiliary paragraph. No experiment or policy event occurred.

@@ -1,0 +1,17 @@
+{
+  "reviewer": "BT8",
+  "sealed_at_utc": "2026-10-17T22:07:31.962247+00:00",
+  "report_path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/BT8/report-v1.md",
+  "report_sha256": "dc3de3784b17c11e1c7ec0266242b670312f21cb0d5245f3fefeb80b507605f8",
+  "report_bytes": 35776,
+  "inputs_sha256": {
+    "multiplier-ohcp-theorem-v7.md": "68ac0c763ebb1daa9ae4a0e8bf5d3c1fb665c130b37f36cfdb6ade0bcbcd56f2",
+    "multiplier-ohcp-algorithm-v1.md": "9fe1353d605a94cb82842626b305c018b045106daec1fd16581c8bc588f94c65"
+  },
+  "verdict": "MATHEMATICAL REDUCTION SUPPORTED; GENERAL-SCALAR FINITE SPECIFICATION QUALIFIED",
+  "substantive_disclosure_before_seal": false,
+  "author_proof_or_prior_review_read": false,
+  "ancillary_web_exposure": true,
+  "experiments_run": false,
+  "sealed_report_must_not_be_modified": true
+}

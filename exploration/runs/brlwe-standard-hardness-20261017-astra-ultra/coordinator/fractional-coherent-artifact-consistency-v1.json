@@ -1,0 +1,25 @@
+{
+  "at": "2026-10-17T23:46:16.349529+00:00",
+  "status": "PASS_STRUCTURAL_ONLY",
+  "checked_hashes": {
+    "workers/E/fractional-extraction/pair-theorem-only-v2.md": "80cd0798a135eea545bfd1a4dd2226eb7b3b47789999bfb810002c6f8aef77f3",
+    "workers/E/fractional-extraction/pair-extraction-theorem-proof-v2.md": "d299af327d6b0a9c977686ce335701fbc31ee00929adb8d9f307fbf56b4f2959",
+    "coordinator/binary-class-count/fractional-smallball-theorem-v3.md": "d5508d295102673ac44b897f30f68b6dc6ad23ac31672443f5f394f19985fd99",
+    "coordinator/binary-class-count/fractional-smallball-proof-v3.md": "ab2ed90db41f9a3a7b4af142d1e9f63b99a4ac8646d44ba380ae621b4c155b4a",
+    "workers/F/finite-quantum-integration/coherent-adapter-theorem-only-v1.md": "66d889b189b4193d0e07be3e9baa0b3ce78803ba824e9aedea7f622e9cada3cc",
+    "workers/F/finite-quantum-integration/coherent-adapter-proof-v1.md": "b7746c86d76a664899e112a31350551498315ee2f867386294fba6f0c1e1f4f7",
+    "criticism/BT15/report-v1.md": "0b58da9c810b3a31dd51f371698ce93d72a5710455a7ff804dff2d6abff63fb7",
+    "criticism/BT15/input/definitions-v1.md": "8bc7f1fb091d31dc607c3178e20fbd7ac6db4634348664341ed57c486b845f81",
+    "criticism/BT15/freeze-receipt-v1.json": "847de2c2d1ca71b90d1908d32161d02ab29519cee229a678023a48135e5f465c",
+    "coordinator/e-pair-full-review-v2.md": "06cfdeaa7244d18e1481f00aaed5cb743207bf2a64606066767e6101d1845c1b",
+    "workers/E/fractional-extraction/root-fixedmap-v3-full-source-review.md": "9d335157a45a9be3bfa5afb7cf3da6f8e3f14cd9cd71a3c20c59ed0cc42c8d70",
+    "coordinator/quantum-integration/f-qcoh-full-review-v1.md": "16e13a57efa8cae6e83a79a424ef0b31e4b06bac63676e5da681b0c5932fd208",
+    "criticism/BT14/literal-null-branch-counterexample-v1.md": "4ee6c5fcab8e8cc57d767be2842e87eb8c211a044e17c01cc1be707b0f19edc1",
+    "coordinator/binary-class-count/v2-output-domain-gap-before-v3.md": "cd435aeee40f066e115b034d03ab1dadcfcd11c6675b2dfe661edc841e9b15d4",
+    "coordinator/fractional-coherent-acceptance-v1.md": "4b35c91fe07fc3eb7224570421605c0a95dbf494fdbd9722bd0efd0f49d39487",
+    "coordinator/fractional-coherent-regression-gate-v1.json": "50406f8fcd64aa30a25ee7a3ec817123aad3ebbe9484fffafb3ca102888ab6f9"
+  },
+  "blind_input_exact_byte_copies": true,
+  "report_complete_bytes": 35842,
+  "scientific_certification_from_hashes": false
+}

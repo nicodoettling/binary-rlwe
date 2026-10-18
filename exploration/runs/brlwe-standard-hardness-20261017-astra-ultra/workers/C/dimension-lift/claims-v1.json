@@ -1,0 +1,26 @@
+{
+  "status": "PROVISIONAL",
+  "time": "2026-10-17T20:42:57.781896+00:00",
+  "source_hardness": "OPEN",
+  "files": {
+    "first-test-v1.md": "2c4c475ce230cb075478bf6ee5d8d37d014e6f71d6ff30c6cdb3f31182cd708c",
+    "linear-trace-repair-v1.md": "8ce4f78e342bbe141a5744b08df24a40056eb40b1a75d7c5e19645315fd725b1"
+  },
+  "claims": [
+    {
+      "id": "C-LIFT-LAW",
+      "claim": "Qualified uniform base prime plus uniform root lift gives exact uniform extension-prime law; GRH qualification probability asymptotic1/r.",
+      "status": "PROVISIONAL"
+    },
+    {
+      "id": "C-LIFT-NORM",
+      "claim": "Relative norm maps nonzero Qprime vector to Q with gamma^r(a/2)^((r-1)/2) HSVP factor; FPSW parameter feedback destroys index/dimension gain.",
+      "status": "PROVISIONAL"
+    },
+    {
+      "id": "C-LIFT-TRACE",
+      "claim": "A short complementary-ideal trace-dual vector repairs approximation factor to beta gamma sqrt(a), but no algorithm supplies that input in the required law.",
+      "status": "PROVISIONAL"
+    }
+  ]
+}

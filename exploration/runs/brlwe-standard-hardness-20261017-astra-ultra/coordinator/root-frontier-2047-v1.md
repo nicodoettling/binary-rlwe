@@ -1,0 +1,11 @@
+# Coordinator frontier, 17 October 2026, 20:47 UTC
+
+All new observations below are provisional. No computational foundation is established.
+
+R1 is now testing oracle-assisted homogeneous relations and binary-secret dimension expansion in cyclotomic towers. An algorithm that finds useful short homogeneous relations from public multipliers alone already distinguishes the original RLWE; the desired reduction must use the hypothesized binary recovery oracle while supplying its complete promised law. A known-secret query produces a known witness, and an independently chosen query multiplier almost never represents a fresh standard challenge by a binary secret. These are scoped failures, not a theorem excluding adaptive reductions.
+
+R2 identifies an actual fractional-denominator interpretation of ideal-NTRU, but the published average ideal family has excessive index for the current binary quotient-entropy argument and its computational theorem concerns vector search. Recovering the rational direction of its dense submodule is different from recovering a short ideal vector. C is testing recursive lifting, output existence, and possible compression with the actual distribution retained.
+
+Further R1 hypothesis to test if tower embedding fails: start from normal-form RLWE, whose secret follows the error law, and compare that secret to a coefficient-binary law using a divergence or a randomized secret transformation. A centered Gaussian of width at least a standard smoothing scale is not close to binary in product dimension; conditioning all coefficients into two values has exponential cost. A half-integer Gaussian with vanishing width approaches binary, but its error width must be independently justified by a published hardness theorem. This is only a mechanism to investigate, not an asserted reduction or established lower bound. Restricted input sample budgets and target sample budgets must remain separate.
+
+Targeted primary navigation found the 2021 Module-LWE binary-secret paper, Micciancio's 2018 binary LWE proof, and the 2024 Entropic Module-LWE paper. The latter's rank-one application and modulus-switching entropy hypotheses require exact checking before any import. A module rank requirement cannot be dropped by calling the product ring element a single secret.

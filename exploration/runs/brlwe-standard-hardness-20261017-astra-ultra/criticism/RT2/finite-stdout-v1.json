@@ -1,0 +1,3044 @@
+{
+  "status": "PASS_EXACT_FINITE_WEIGHTED_CONTROL",
+  "ambient_multipliers": 625,
+  "eligible_nonzero_multipliers_in_cube": 64,
+  "sample_support": 9,
+  "pair_count": 1152,
+  "pair_bound": 1152,
+  "full_laws": [
+    {
+      "weight": "1/2",
+      "normalizer": "2",
+      "covariance_cap": "3/8",
+      "multiplier_checks": [
+        {
+          "a": [
+            -2,
+            -2,
+            -1,
+            0
+          ],
+          "norm_a_squared": 9,
+          "moment": "27/4",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/16",
+            "(-3, 0)": "1/16",
+            "(-3, 3)": "1/16",
+            "(0, -3)": "1/16",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/16",
+            "(3, -3)": "1/16",
+            "(3, 0)": "1/16",
+            "(3, 3)": "1/16"
+          }
+        },
+        {
+          "a": [
+            -2,
+            -2,
+            2,
+            0
+          ],
+          "norm_a_squared": 12,
+          "moment": "9",
+          "zero_probability": "3/4",
+          "nonzero_input_zero_output_probability": "1/4",
+          "full_output_law": {
+            "(-6, 0)": "1/16",
+            "(0, -6)": "1/16",
+            "(0, 0)": "3/4",
+            "(0, 6)": "1/16",
+            "(6, 0)": "1/16"
+          }
+        },
+        {
+          "a": [
+            -2,
+            -1,
+            0,
+            -1
+          ],
+          "norm_a_squared": 6,
+          "moment": "9/2",
+          "zero_probability": "3/4",
+          "nonzero_input_zero_output_probability": "1/4",
+          "full_output_law": {
+            "(-3, -3)": "1/16",
+            "(-3, 3)": "1/16",
+            "(0, 0)": "3/4",
+            "(3, -3)": "1/16",
+            "(3, 3)": "1/16"
+          }
+        },
+        {
+          "a": [
+            -2,
+            -1,
+            0,
+            2
+          ],
+          "norm_a_squared": 9,
+          "moment": "27/4",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/16",
+            "(-3, 0)": "1/16",
+            "(-3, 3)": "1/16",
+            "(0, -3)": "1/16",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/16",
+            "(3, -3)": "1/16",
+            "(3, 0)": "1/16",
+            "(3, 3)": "1/16"
+          }
+        },
+        {
+          "a": [
+            -2,
+            0,
+            -2,
+            -2
+          ],
+          "norm_a_squared": 12,
+          "moment": "9",
+          "zero_probability": "3/4",
+          "nonzero_input_zero_output_probability": "1/4",
+          "full_output_law": {
+            "(-6, 0)": "1/16",
+            "(0, -6)": "1/16",
+            "(0, 0)": "3/4",
+            "(0, 6)": "1/16",
+            "(6, 0)": "1/16"
+          }
+        },
+        {
+          "a": [
+            -2,
+            0,
+            -2,
+            1
+          ],
+          "norm_a_squared": 9,
+          "moment": "27/4",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/16",
+            "(-3, 0)": "1/16",
+            "(-3, 3)": "1/16",
+            "(0, -3)": "1/16",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/16",
+            "(3, -3)": "1/16",
+            "(3, 0)": "1/16",
+            "(3, 3)": "1/16"
+          }
+        },
+        {
+          "a": [
+            -2,
+            0,
+            1,
+            -2
+          ],
+          "norm_a_squared": 9,
+          "moment": "27/4",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/16",
+            "(-3, 0)": "1/16",
+            "(-3, 3)": "1/16",
+            "(0, -3)": "1/16",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/16",
+            "(3, -3)": "1/16",
+            "(3, 0)": "1/16",
+            "(3, 3)": "1/16"
+          }
+        },
+        {
+          "a": [
+            -2,
+            0,
+            1,
+            1
+          ],
+          "norm_a_squared": 6,
+          "moment": "9/2",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, 0)": "1/8",
+            "(0, -3)": "1/8",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/8",
+            "(3, 0)": "1/8"
+          }
+        },
+        {
+          "a": [
+            -2,
+            1,
+            -1,
+            0
+          ],
+          "norm_a_squared": 6,
+          "moment": "9/2",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, 0)": "1/8",
+            "(0, -3)": "1/8",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/8",
+            "(3, 0)": "1/8"
+          }
+        },
+        {
+          "a": [
+            -2,
+            1,
+            2,
+            0
+          ],
+          "norm_a_squared": 9,
+          "moment": "27/4",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/16",
+            "(-3, 0)": "1/16",
+            "(-3, 3)": "1/16",
+            "(0, -3)": "1/16",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/16",
+            "(3, -3)": "1/16",
+            "(3, 0)": "1/16",
+            "(3, 3)": "1/16"
+          }
+        },
+        {
+          "a": [
+            -2,
+            2,
+            0,
+            -1
+          ],
+          "norm_a_squared": 9,
+          "moment": "27/4",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/16",
+            "(-3, 0)": "1/16",
+            "(-3, 3)": "1/16",
+            "(0, -3)": "1/16",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/16",
+            "(3, -3)": "1/16",
+            "(3, 0)": "1/16",
+            "(3, 3)": "1/16"
+          }
+        },
+        {
+          "a": [
+            -2,
+            2,
+            0,
+            2
+          ],
+          "norm_a_squared": 12,
+          "moment": "9",
+          "zero_probability": "3/4",
+          "nonzero_input_zero_output_probability": "1/4",
+          "full_output_law": {
+            "(-6, 0)": "1/16",
+            "(0, -6)": "1/16",
+            "(0, 0)": "3/4",
+            "(0, 6)": "1/16",
+            "(6, 0)": "1/16"
+          }
+        },
+        {
+          "a": [
+            -1,
+            -2,
+            0,
+            -2
+          ],
+          "norm_a_squared": 9,
+          "moment": "27/4",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/16",
+            "(-3, 0)": "1/16",
+            "(-3, 3)": "1/16",
+            "(0, -3)": "1/16",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/16",
+            "(3, -3)": "1/16",
+            "(3, 0)": "1/16",
+            "(3, 3)": "1/16"
+          }
+        },
+        {
+          "a": [
+            -1,
+            -2,
+            0,
+            1
+          ],
+          "norm_a_squared": 6,
+          "moment": "9/2",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, 0)": "1/8",
+            "(0, -3)": "1/8",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/8",
+            "(3, 0)": "1/8"
+          }
+        },
+        {
+          "a": [
+            -1,
+            -1,
+            -2,
+            0
+          ],
+          "norm_a_squared": 6,
+          "moment": "9/2",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, 0)": "1/8",
+            "(0, -3)": "1/8",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/8",
+            "(3, 0)": "1/8"
+          }
+        },
+        {
+          "a": [
+            -1,
+            -1,
+            1,
+            0
+          ],
+          "norm_a_squared": 3,
+          "moment": "9/4",
+          "zero_probability": "3/4",
+          "nonzero_input_zero_output_probability": "1/4",
+          "full_output_law": {
+            "(-3, 0)": "1/16",
+            "(0, -3)": "1/16",
+            "(0, 0)": "3/4",
+            "(0, 3)": "1/16",
+            "(3, 0)": "1/16"
+          }
+        },
+        {
+          "a": [
+            -1,
+            0,
+            -1,
+            -1
+          ],
+          "norm_a_squared": 3,
+          "moment": "9/4",
+          "zero_probability": "3/4",
+          "nonzero_input_zero_output_probability": "1/4",
+          "full_output_law": {
+            "(-3, 0)": "1/16",
+            "(0, -3)": "1/16",
+            "(0, 0)": "3/4",
+            "(0, 3)": "1/16",
+            "(3, 0)": "1/16"
+          }
+        },
+        {
+          "a": [
+            -1,
+            0,
+            -1,
+            2
+          ],
+          "norm_a_squared": 6,
+          "moment": "9/2",
+          "zero_probability": "3/4",
+          "nonzero_input_zero_output_probability": "1/4",
+          "full_output_law": {
+            "(-3, -3)": "1/16",
+            "(-3, 3)": "1/16",
+            "(0, 0)": "3/4",
+            "(3, -3)": "1/16",
+            "(3, 3)": "1/16"
+          }
+        },
+        {
+          "a": [
+            -1,
+            0,
+            2,
+            -1
+          ],
+          "norm_a_squared": 6,
+          "moment": "9/2",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, 0)": "1/8",
+            "(0, -3)": "1/8",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/8",
+            "(3, 0)": "1/8"
+          }
+        },
+        {
+          "a": [
+            -1,
+            0,
+            2,
+            2
+          ],
+          "norm_a_squared": 9,
+          "moment": "27/4",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/16",
+            "(-3, 0)": "1/16",
+            "(-3, 3)": "1/16",
+            "(0, -3)": "1/16",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/16",
+            "(3, -3)": "1/16",
+            "(3, 0)": "1/16",
+            "(3, 3)": "1/16"
+          }
+        },
+        {
+          "a": [
+            -1,
+            1,
+            0,
+            -2
+          ],
+          "norm_a_squared": 6,
+          "moment": "9/2",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, 0)": "1/8",
+            "(0, -3)": "1/8",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/8",
+            "(3, 0)": "1/8"
+          }
+        },
+        {
+          "a": [
+            -1,
+            1,
+            0,
+            1
+          ],
+          "norm_a_squared": 3,
+          "moment": "9/4",
+          "zero_probability": "3/4",
+          "nonzero_input_zero_output_probability": "1/4",
+          "full_output_law": {
+            "(-3, 0)": "1/16",
+            "(0, -3)": "1/16",
+            "(0, 0)": "3/4",
+            "(0, 3)": "1/16",
+            "(3, 0)": "1/16"
+          }
+        },
+        {
+          "a": [
+            -1,
+            2,
+            -2,
+            0
+          ],
+          "norm_a_squared": 9,
+          "moment": "27/4",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/16",
+            "(-3, 0)": "1/16",
+            "(-3, 3)": "1/16",
+            "(0, -3)": "1/16",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/16",
+            "(3, -3)": "1/16",
+            "(3, 0)": "1/16",
+            "(3, 3)": "1/16"
+          }
+        },
+        {
+          "a": [
+            -1,
+            2,
+            1,
+            0
+          ],
+          "norm_a_squared": 6,
+          "moment": "9/2",
+          "zero_probability": "3/4",
+          "nonzero_input_zero_output_probability": "1/4",
+          "full_output_law": {
+            "(-3, -3)": "1/16",
+            "(-3, 3)": "1/16",
+            "(0, 0)": "3/4",
+            "(3, -3)": "1/16",
+            "(3, 3)": "1/16"
+          }
+        },
+        {
+          "a": [
+            0,
+            -2,
+            -2,
+            -1
+          ],
+          "norm_a_squared": 9,
+          "moment": "27/4",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/16",
+            "(-3, 0)": "1/16",
+            "(-3, 3)": "1/16",
+            "(0, -3)": "1/16",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/16",
+            "(3, -3)": "1/16",
+            "(3, 0)": "1/16",
+            "(3, 3)": "1/16"
+          }
+        },
+        {
+          "a": [
+            0,
+            -2,
+            -2,
+            2
+          ],
+          "norm_a_squared": 12,
+          "moment": "9",
+          "zero_probability": "3/4",
+          "nonzero_input_zero_output_probability": "1/4",
+          "full_output_law": {
+            "(-6, 0)": "1/16",
+            "(0, -6)": "1/16",
+            "(0, 0)": "3/4",
+            "(0, 6)": "1/16",
+            "(6, 0)": "1/16"
+          }
+        },
+        {
+          "a": [
+            0,
+            -2,
+            1,
+            -1
+          ],
+          "norm_a_squared": 6,
+          "moment": "9/2",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, 0)": "1/8",
+            "(0, -3)": "1/8",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/8",
+            "(3, 0)": "1/8"
+          }
+        },
+        {
+          "a": [
+            0,
+            -2,
+            1,
+            2
+          ],
+          "norm_a_squared": 9,
+          "moment": "27/4",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/16",
+            "(-3, 0)": "1/16",
+            "(-3, 3)": "1/16",
+            "(0, -3)": "1/16",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/16",
+            "(3, -3)": "1/16",
+            "(3, 0)": "1/16",
+            "(3, 3)": "1/16"
+          }
+        },
+        {
+          "a": [
+            0,
+            -1,
+            -1,
+            -2
+          ],
+          "norm_a_squared": 6,
+          "moment": "9/2",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, 0)": "1/8",
+            "(0, -3)": "1/8",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/8",
+            "(3, 0)": "1/8"
+          }
+        },
+        {
+          "a": [
+            0,
+            -1,
+            -1,
+            1
+          ],
+          "norm_a_squared": 3,
+          "moment": "9/4",
+          "zero_probability": "3/4",
+          "nonzero_input_zero_output_probability": "1/4",
+          "full_output_law": {
+            "(-3, 0)": "1/16",
+            "(0, -3)": "1/16",
+            "(0, 0)": "3/4",
+            "(0, 3)": "1/16",
+            "(3, 0)": "1/16"
+          }
+        },
+        {
+          "a": [
+            0,
+            -1,
+            2,
+            -2
+          ],
+          "norm_a_squared": 9,
+          "moment": "27/4",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/16",
+            "(-3, 0)": "1/16",
+            "(-3, 3)": "1/16",
+            "(0, -3)": "1/16",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/16",
+            "(3, -3)": "1/16",
+            "(3, 0)": "1/16",
+            "(3, 3)": "1/16"
+          }
+        },
+        {
+          "a": [
+            0,
+            -1,
+            2,
+            1
+          ],
+          "norm_a_squared": 6,
+          "moment": "9/2",
+          "zero_probability": "3/4",
+          "nonzero_input_zero_output_probability": "1/4",
+          "full_output_law": {
+            "(-3, -3)": "1/16",
+            "(-3, 3)": "1/16",
+            "(0, 0)": "3/4",
+            "(3, -3)": "1/16",
+            "(3, 3)": "1/16"
+          }
+        },
+        {
+          "a": [
+            0,
+            1,
+            -2,
+            -1
+          ],
+          "norm_a_squared": 6,
+          "moment": "9/2",
+          "zero_probability": "3/4",
+          "nonzero_input_zero_output_probability": "1/4",
+          "full_output_law": {
+            "(-3, -3)": "1/16",
+            "(-3, 3)": "1/16",
+            "(0, 0)": "3/4",
+            "(3, -3)": "1/16",
+            "(3, 3)": "1/16"
+          }
+        },
+        {
+          "a": [
+            0,
+            1,
+            -2,
+            2
+          ],
+          "norm_a_squared": 9,
+          "moment": "27/4",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/16",
+            "(-3, 0)": "1/16",
+            "(-3, 3)": "1/16",
+            "(0, -3)": "1/16",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/16",
+            "(3, -3)": "1/16",
+            "(3, 0)": "1/16",
+            "(3, 3)": "1/16"
+          }
+        },
+        {
+          "a": [
+            0,
+            1,
+            1,
+            -1
+          ],
+          "norm_a_squared": 3,
+          "moment": "9/4",
+          "zero_probability": "3/4",
+          "nonzero_input_zero_output_probability": "1/4",
+          "full_output_law": {
+            "(-3, 0)": "1/16",
+            "(0, -3)": "1/16",
+            "(0, 0)": "3/4",
+            "(0, 3)": "1/16",
+            "(3, 0)": "1/16"
+          }
+        },
+        {
+          "a": [
+            0,
+            1,
+            1,
+            2
+          ],
+          "norm_a_squared": 6,
+          "moment": "9/2",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, 0)": "1/8",
+            "(0, -3)": "1/8",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/8",
+            "(3, 0)": "1/8"
+          }
+        },
+        {
+          "a": [
+            0,
+            2,
+            -1,
+            -2
+          ],
+          "norm_a_squared": 9,
+          "moment": "27/4",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/16",
+            "(-3, 0)": "1/16",
+            "(-3, 3)": "1/16",
+            "(0, -3)": "1/16",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/16",
+            "(3, -3)": "1/16",
+            "(3, 0)": "1/16",
+            "(3, 3)": "1/16"
+          }
+        },
+        {
+          "a": [
+            0,
+            2,
+            -1,
+            1
+          ],
+          "norm_a_squared": 6,
+          "moment": "9/2",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, 0)": "1/8",
+            "(0, -3)": "1/8",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/8",
+            "(3, 0)": "1/8"
+          }
+        },
+        {
+          "a": [
+            0,
+            2,
+            2,
+            -2
+          ],
+          "norm_a_squared": 12,
+          "moment": "9",
+          "zero_probability": "3/4",
+          "nonzero_input_zero_output_probability": "1/4",
+          "full_output_law": {
+            "(-6, 0)": "1/16",
+            "(0, -6)": "1/16",
+            "(0, 0)": "3/4",
+            "(0, 6)": "1/16",
+            "(6, 0)": "1/16"
+          }
+        },
+        {
+          "a": [
+            0,
+            2,
+            2,
+            1
+          ],
+          "norm_a_squared": 9,
+          "moment": "27/4",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/16",
+            "(-3, 0)": "1/16",
+            "(-3, 3)": "1/16",
+            "(0, -3)": "1/16",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/16",
+            "(3, -3)": "1/16",
+            "(3, 0)": "1/16",
+            "(3, 3)": "1/16"
+          }
+        },
+        {
+          "a": [
+            1,
+            -2,
+            -1,
+            0
+          ],
+          "norm_a_squared": 6,
+          "moment": "9/2",
+          "zero_probability": "3/4",
+          "nonzero_input_zero_output_probability": "1/4",
+          "full_output_law": {
+            "(-3, -3)": "1/16",
+            "(-3, 3)": "1/16",
+            "(0, 0)": "3/4",
+            "(3, -3)": "1/16",
+            "(3, 3)": "1/16"
+          }
+        },
+        {
+          "a": [
+            1,
+            -2,
+            2,
+            0
+          ],
+          "norm_a_squared": 9,
+          "moment": "27/4",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/16",
+            "(-3, 0)": "1/16",
+            "(-3, 3)": "1/16",
+            "(0, -3)": "1/16",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/16",
+            "(3, -3)": "1/16",
+            "(3, 0)": "1/16",
+            "(3, 3)": "1/16"
+          }
+        },
+        {
+          "a": [
+            1,
+            -1,
+            0,
+            -1
+          ],
+          "norm_a_squared": 3,
+          "moment": "9/4",
+          "zero_probability": "3/4",
+          "nonzero_input_zero_output_probability": "1/4",
+          "full_output_law": {
+            "(-3, 0)": "1/16",
+            "(0, -3)": "1/16",
+            "(0, 0)": "3/4",
+            "(0, 3)": "1/16",
+            "(3, 0)": "1/16"
+          }
+        },
+        {
+          "a": [
+            1,
+            -1,
+            0,
+            2
+          ],
+          "norm_a_squared": 6,
+          "moment": "9/2",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, 0)": "1/8",
+            "(0, -3)": "1/8",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/8",
+            "(3, 0)": "1/8"
+          }
+        },
+        {
+          "a": [
+            1,
+            0,
+            -2,
+            -2
+          ],
+          "norm_a_squared": 9,
+          "moment": "27/4",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/16",
+            "(-3, 0)": "1/16",
+            "(-3, 3)": "1/16",
+            "(0, -3)": "1/16",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/16",
+            "(3, -3)": "1/16",
+            "(3, 0)": "1/16",
+            "(3, 3)": "1/16"
+          }
+        },
+        {
+          "a": [
+            1,
+            0,
+            -2,
+            1
+          ],
+          "norm_a_squared": 6,
+          "moment": "9/2",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, 0)": "1/8",
+            "(0, -3)": "1/8",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/8",
+            "(3, 0)": "1/8"
+          }
+        },
+        {
+          "a": [
+            1,
+            0,
+            1,
+            -2
+          ],
+          "norm_a_squared": 6,
+          "moment": "9/2",
+          "zero_probability": "3/4",
+          "nonzero_input_zero_output_probability": "1/4",
+          "full_output_law": {
+            "(-3, -3)": "1/16",
+            "(-3, 3)": "1/16",
+            "(0, 0)": "3/4",
+            "(3, -3)": "1/16",
+            "(3, 3)": "1/16"
+          }
+        },
+        {
+          "a": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "norm_a_squared": 3,
+          "moment": "9/4",
+          "zero_probability": "3/4",
+          "nonzero_input_zero_output_probability": "1/4",
+          "full_output_law": {
+            "(-3, 0)": "1/16",
+            "(0, -3)": "1/16",
+            "(0, 0)": "3/4",
+            "(0, 3)": "1/16",
+            "(3, 0)": "1/16"
+          }
+        },
+        {
+          "a": [
+            1,
+            1,
+            -1,
+            0
+          ],
+          "norm_a_squared": 3,
+          "moment": "9/4",
+          "zero_probability": "3/4",
+          "nonzero_input_zero_output_probability": "1/4",
+          "full_output_law": {
+            "(-3, 0)": "1/16",
+            "(0, -3)": "1/16",
+            "(0, 0)": "3/4",
+            "(0, 3)": "1/16",
+            "(3, 0)": "1/16"
+          }
+        },
+        {
+          "a": [
+            1,
+            1,
+            2,
+            0
+          ],
+          "norm_a_squared": 6,
+          "moment": "9/2",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, 0)": "1/8",
+            "(0, -3)": "1/8",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/8",
+            "(3, 0)": "1/8"
+          }
+        },
+        {
+          "a": [
+            1,
+            2,
+            0,
+            -1
+          ],
+          "norm_a_squared": 6,
+          "moment": "9/2",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, 0)": "1/8",
+            "(0, -3)": "1/8",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/8",
+            "(3, 0)": "1/8"
+          }
+        },
+        {
+          "a": [
+            1,
+            2,
+            0,
+            2
+          ],
+          "norm_a_squared": 9,
+          "moment": "27/4",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/16",
+            "(-3, 0)": "1/16",
+            "(-3, 3)": "1/16",
+            "(0, -3)": "1/16",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/16",
+            "(3, -3)": "1/16",
+            "(3, 0)": "1/16",
+            "(3, 3)": "1/16"
+          }
+        },
+        {
+          "a": [
+            2,
+            -2,
+            0,
+            -2
+          ],
+          "norm_a_squared": 12,
+          "moment": "9",
+          "zero_probability": "3/4",
+          "nonzero_input_zero_output_probability": "1/4",
+          "full_output_law": {
+            "(-6, 0)": "1/16",
+            "(0, -6)": "1/16",
+            "(0, 0)": "3/4",
+            "(0, 6)": "1/16",
+            "(6, 0)": "1/16"
+          }
+        },
+        {
+          "a": [
+            2,
+            -2,
+            0,
+            1
+          ],
+          "norm_a_squared": 9,
+          "moment": "27/4",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/16",
+            "(-3, 0)": "1/16",
+            "(-3, 3)": "1/16",
+            "(0, -3)": "1/16",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/16",
+            "(3, -3)": "1/16",
+            "(3, 0)": "1/16",
+            "(3, 3)": "1/16"
+          }
+        },
+        {
+          "a": [
+            2,
+            -1,
+            -2,
+            0
+          ],
+          "norm_a_squared": 9,
+          "moment": "27/4",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/16",
+            "(-3, 0)": "1/16",
+            "(-3, 3)": "1/16",
+            "(0, -3)": "1/16",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/16",
+            "(3, -3)": "1/16",
+            "(3, 0)": "1/16",
+            "(3, 3)": "1/16"
+          }
+        },
+        {
+          "a": [
+            2,
+            -1,
+            1,
+            0
+          ],
+          "norm_a_squared": 6,
+          "moment": "9/2",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, 0)": "1/8",
+            "(0, -3)": "1/8",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/8",
+            "(3, 0)": "1/8"
+          }
+        },
+        {
+          "a": [
+            2,
+            0,
+            -1,
+            -1
+          ],
+          "norm_a_squared": 6,
+          "moment": "9/2",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, 0)": "1/8",
+            "(0, -3)": "1/8",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/8",
+            "(3, 0)": "1/8"
+          }
+        },
+        {
+          "a": [
+            2,
+            0,
+            -1,
+            2
+          ],
+          "norm_a_squared": 9,
+          "moment": "27/4",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/16",
+            "(-3, 0)": "1/16",
+            "(-3, 3)": "1/16",
+            "(0, -3)": "1/16",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/16",
+            "(3, -3)": "1/16",
+            "(3, 0)": "1/16",
+            "(3, 3)": "1/16"
+          }
+        },
+        {
+          "a": [
+            2,
+            0,
+            2,
+            -1
+          ],
+          "norm_a_squared": 9,
+          "moment": "27/4",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/16",
+            "(-3, 0)": "1/16",
+            "(-3, 3)": "1/16",
+            "(0, -3)": "1/16",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/16",
+            "(3, -3)": "1/16",
+            "(3, 0)": "1/16",
+            "(3, 3)": "1/16"
+          }
+        },
+        {
+          "a": [
+            2,
+            0,
+            2,
+            2
+          ],
+          "norm_a_squared": 12,
+          "moment": "9",
+          "zero_probability": "3/4",
+          "nonzero_input_zero_output_probability": "1/4",
+          "full_output_law": {
+            "(-6, 0)": "1/16",
+            "(0, -6)": "1/16",
+            "(0, 0)": "3/4",
+            "(0, 6)": "1/16",
+            "(6, 0)": "1/16"
+          }
+        },
+        {
+          "a": [
+            2,
+            1,
+            0,
+            -2
+          ],
+          "norm_a_squared": 9,
+          "moment": "27/4",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/16",
+            "(-3, 0)": "1/16",
+            "(-3, 3)": "1/16",
+            "(0, -3)": "1/16",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/16",
+            "(3, -3)": "1/16",
+            "(3, 0)": "1/16",
+            "(3, 3)": "1/16"
+          }
+        },
+        {
+          "a": [
+            2,
+            1,
+            0,
+            1
+          ],
+          "norm_a_squared": 6,
+          "moment": "9/2",
+          "zero_probability": "3/4",
+          "nonzero_input_zero_output_probability": "1/4",
+          "full_output_law": {
+            "(-3, -3)": "1/16",
+            "(-3, 3)": "1/16",
+            "(0, 0)": "3/4",
+            "(3, -3)": "1/16",
+            "(3, 3)": "1/16"
+          }
+        },
+        {
+          "a": [
+            2,
+            2,
+            -2,
+            0
+          ],
+          "norm_a_squared": 12,
+          "moment": "9",
+          "zero_probability": "3/4",
+          "nonzero_input_zero_output_probability": "1/4",
+          "full_output_law": {
+            "(-6, 0)": "1/16",
+            "(0, -6)": "1/16",
+            "(0, 0)": "3/4",
+            "(0, 6)": "1/16",
+            "(6, 0)": "1/16"
+          }
+        },
+        {
+          "a": [
+            2,
+            2,
+            1,
+            0
+          ],
+          "norm_a_squared": 9,
+          "moment": "27/4",
+          "zero_probability": "1/2",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/16",
+            "(-3, 0)": "1/16",
+            "(-3, 3)": "1/16",
+            "(0, -3)": "1/16",
+            "(0, 0)": "1/2",
+            "(0, 3)": "1/16",
+            "(3, -3)": "1/16",
+            "(3, 0)": "1/16",
+            "(3, 3)": "1/16"
+          }
+        }
+      ],
+      "adaptive_negative_control": {
+        "branches": [
+          {
+            "x": [
+              -1,
+              -1,
+              0,
+              -1
+            ],
+            "p": "1/16",
+            "a": [
+              -3,
+              3,
+              0,
+              3
+            ],
+            "y": [
+              9,
+              0
+            ]
+          },
+          {
+            "x": [
+              -1,
+              0,
+              -1,
+              1
+            ],
+            "p": "1/16",
+            "a": [
+              -3,
+              -3,
+              3,
+              0
+            ],
+            "y": [
+              9,
+              0
+            ]
+          },
+          {
+            "x": [
+              -1,
+              1,
+              1,
+              0
+            ],
+            "p": "1/16",
+            "a": [
+              -3,
+              0,
+              -3,
+              -3
+            ],
+            "y": [
+              9,
+              0
+            ]
+          },
+          {
+            "x": [
+              0,
+              -1,
+              1,
+              1
+            ],
+            "p": "1/16",
+            "a": [
+              0,
+              -3,
+              -3,
+              3
+            ],
+            "y": [
+              9,
+              0
+            ]
+          },
+          {
+            "x": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "p": "1/2",
+            "a": [
+              3,
+              0,
+              0,
+              0
+            ],
+            "y": [
+              0,
+              0
+            ]
+          },
+          {
+            "x": [
+              0,
+              1,
+              -1,
+              -1
+            ],
+            "p": "1/16",
+            "a": [
+              0,
+              3,
+              3,
+              -3
+            ],
+            "y": [
+              9,
+              0
+            ]
+          },
+          {
+            "x": [
+              1,
+              -1,
+              -1,
+              0
+            ],
+            "p": "1/16",
+            "a": [
+              3,
+              0,
+              3,
+              3
+            ],
+            "y": [
+              9,
+              0
+            ]
+          },
+          {
+            "x": [
+              1,
+              0,
+              1,
+              -1
+            ],
+            "p": "1/16",
+            "a": [
+              3,
+              3,
+              -3,
+              0
+            ],
+            "y": [
+              9,
+              0
+            ]
+          },
+          {
+            "x": [
+              1,
+              1,
+              0,
+              1
+            ],
+            "p": "1/16",
+            "a": [
+              3,
+              -3,
+              0,
+              -3
+            ],
+            "y": [
+              9,
+              0
+            ]
+          }
+        ],
+        "actual_moment": "81/2",
+        "incorrect_freshness_bound": "27/2"
+      },
+      "TV_negative_control": {
+        "eta_and_exact_TV": "1/100",
+        "remote": [
+          300,
+          0,
+          0,
+          0
+        ],
+        "reference_moment": "27/4",
+        "contaminated_moment": "3242673/400"
+      }
+    },
+    {
+      "weight": "1/4",
+      "normalizer": "9/8",
+      "covariance_cap": "1/12",
+      "multiplier_checks": [
+        {
+          "a": [
+            -2,
+            -2,
+            -1,
+            0
+          ],
+          "norm_a_squared": 9,
+          "moment": "3/2",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/72",
+            "(-3, 0)": "1/72",
+            "(-3, 3)": "1/72",
+            "(0, -3)": "1/72",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/72",
+            "(3, -3)": "1/72",
+            "(3, 0)": "1/72",
+            "(3, 3)": "1/72"
+          }
+        },
+        {
+          "a": [
+            -2,
+            -2,
+            2,
+            0
+          ],
+          "norm_a_squared": 12,
+          "moment": "2",
+          "zero_probability": "17/18",
+          "nonzero_input_zero_output_probability": "1/18",
+          "full_output_law": {
+            "(-6, 0)": "1/72",
+            "(0, -6)": "1/72",
+            "(0, 0)": "17/18",
+            "(0, 6)": "1/72",
+            "(6, 0)": "1/72"
+          }
+        },
+        {
+          "a": [
+            -2,
+            -1,
+            0,
+            -1
+          ],
+          "norm_a_squared": 6,
+          "moment": "1",
+          "zero_probability": "17/18",
+          "nonzero_input_zero_output_probability": "1/18",
+          "full_output_law": {
+            "(-3, -3)": "1/72",
+            "(-3, 3)": "1/72",
+            "(0, 0)": "17/18",
+            "(3, -3)": "1/72",
+            "(3, 3)": "1/72"
+          }
+        },
+        {
+          "a": [
+            -2,
+            -1,
+            0,
+            2
+          ],
+          "norm_a_squared": 9,
+          "moment": "3/2",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/72",
+            "(-3, 0)": "1/72",
+            "(-3, 3)": "1/72",
+            "(0, -3)": "1/72",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/72",
+            "(3, -3)": "1/72",
+            "(3, 0)": "1/72",
+            "(3, 3)": "1/72"
+          }
+        },
+        {
+          "a": [
+            -2,
+            0,
+            -2,
+            -2
+          ],
+          "norm_a_squared": 12,
+          "moment": "2",
+          "zero_probability": "17/18",
+          "nonzero_input_zero_output_probability": "1/18",
+          "full_output_law": {
+            "(-6, 0)": "1/72",
+            "(0, -6)": "1/72",
+            "(0, 0)": "17/18",
+            "(0, 6)": "1/72",
+            "(6, 0)": "1/72"
+          }
+        },
+        {
+          "a": [
+            -2,
+            0,
+            -2,
+            1
+          ],
+          "norm_a_squared": 9,
+          "moment": "3/2",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/72",
+            "(-3, 0)": "1/72",
+            "(-3, 3)": "1/72",
+            "(0, -3)": "1/72",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/72",
+            "(3, -3)": "1/72",
+            "(3, 0)": "1/72",
+            "(3, 3)": "1/72"
+          }
+        },
+        {
+          "a": [
+            -2,
+            0,
+            1,
+            -2
+          ],
+          "norm_a_squared": 9,
+          "moment": "3/2",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/72",
+            "(-3, 0)": "1/72",
+            "(-3, 3)": "1/72",
+            "(0, -3)": "1/72",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/72",
+            "(3, -3)": "1/72",
+            "(3, 0)": "1/72",
+            "(3, 3)": "1/72"
+          }
+        },
+        {
+          "a": [
+            -2,
+            0,
+            1,
+            1
+          ],
+          "norm_a_squared": 6,
+          "moment": "1",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, 0)": "1/36",
+            "(0, -3)": "1/36",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/36",
+            "(3, 0)": "1/36"
+          }
+        },
+        {
+          "a": [
+            -2,
+            1,
+            -1,
+            0
+          ],
+          "norm_a_squared": 6,
+          "moment": "1",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, 0)": "1/36",
+            "(0, -3)": "1/36",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/36",
+            "(3, 0)": "1/36"
+          }
+        },
+        {
+          "a": [
+            -2,
+            1,
+            2,
+            0
+          ],
+          "norm_a_squared": 9,
+          "moment": "3/2",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/72",
+            "(-3, 0)": "1/72",
+            "(-3, 3)": "1/72",
+            "(0, -3)": "1/72",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/72",
+            "(3, -3)": "1/72",
+            "(3, 0)": "1/72",
+            "(3, 3)": "1/72"
+          }
+        },
+        {
+          "a": [
+            -2,
+            2,
+            0,
+            -1
+          ],
+          "norm_a_squared": 9,
+          "moment": "3/2",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/72",
+            "(-3, 0)": "1/72",
+            "(-3, 3)": "1/72",
+            "(0, -3)": "1/72",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/72",
+            "(3, -3)": "1/72",
+            "(3, 0)": "1/72",
+            "(3, 3)": "1/72"
+          }
+        },
+        {
+          "a": [
+            -2,
+            2,
+            0,
+            2
+          ],
+          "norm_a_squared": 12,
+          "moment": "2",
+          "zero_probability": "17/18",
+          "nonzero_input_zero_output_probability": "1/18",
+          "full_output_law": {
+            "(-6, 0)": "1/72",
+            "(0, -6)": "1/72",
+            "(0, 0)": "17/18",
+            "(0, 6)": "1/72",
+            "(6, 0)": "1/72"
+          }
+        },
+        {
+          "a": [
+            -1,
+            -2,
+            0,
+            -2
+          ],
+          "norm_a_squared": 9,
+          "moment": "3/2",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/72",
+            "(-3, 0)": "1/72",
+            "(-3, 3)": "1/72",
+            "(0, -3)": "1/72",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/72",
+            "(3, -3)": "1/72",
+            "(3, 0)": "1/72",
+            "(3, 3)": "1/72"
+          }
+        },
+        {
+          "a": [
+            -1,
+            -2,
+            0,
+            1
+          ],
+          "norm_a_squared": 6,
+          "moment": "1",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, 0)": "1/36",
+            "(0, -3)": "1/36",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/36",
+            "(3, 0)": "1/36"
+          }
+        },
+        {
+          "a": [
+            -1,
+            -1,
+            -2,
+            0
+          ],
+          "norm_a_squared": 6,
+          "moment": "1",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, 0)": "1/36",
+            "(0, -3)": "1/36",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/36",
+            "(3, 0)": "1/36"
+          }
+        },
+        {
+          "a": [
+            -1,
+            -1,
+            1,
+            0
+          ],
+          "norm_a_squared": 3,
+          "moment": "1/2",
+          "zero_probability": "17/18",
+          "nonzero_input_zero_output_probability": "1/18",
+          "full_output_law": {
+            "(-3, 0)": "1/72",
+            "(0, -3)": "1/72",
+            "(0, 0)": "17/18",
+            "(0, 3)": "1/72",
+            "(3, 0)": "1/72"
+          }
+        },
+        {
+          "a": [
+            -1,
+            0,
+            -1,
+            -1
+          ],
+          "norm_a_squared": 3,
+          "moment": "1/2",
+          "zero_probability": "17/18",
+          "nonzero_input_zero_output_probability": "1/18",
+          "full_output_law": {
+            "(-3, 0)": "1/72",
+            "(0, -3)": "1/72",
+            "(0, 0)": "17/18",
+            "(0, 3)": "1/72",
+            "(3, 0)": "1/72"
+          }
+        },
+        {
+          "a": [
+            -1,
+            0,
+            -1,
+            2
+          ],
+          "norm_a_squared": 6,
+          "moment": "1",
+          "zero_probability": "17/18",
+          "nonzero_input_zero_output_probability": "1/18",
+          "full_output_law": {
+            "(-3, -3)": "1/72",
+            "(-3, 3)": "1/72",
+            "(0, 0)": "17/18",
+            "(3, -3)": "1/72",
+            "(3, 3)": "1/72"
+          }
+        },
+        {
+          "a": [
+            -1,
+            0,
+            2,
+            -1
+          ],
+          "norm_a_squared": 6,
+          "moment": "1",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, 0)": "1/36",
+            "(0, -3)": "1/36",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/36",
+            "(3, 0)": "1/36"
+          }
+        },
+        {
+          "a": [
+            -1,
+            0,
+            2,
+            2
+          ],
+          "norm_a_squared": 9,
+          "moment": "3/2",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/72",
+            "(-3, 0)": "1/72",
+            "(-3, 3)": "1/72",
+            "(0, -3)": "1/72",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/72",
+            "(3, -3)": "1/72",
+            "(3, 0)": "1/72",
+            "(3, 3)": "1/72"
+          }
+        },
+        {
+          "a": [
+            -1,
+            1,
+            0,
+            -2
+          ],
+          "norm_a_squared": 6,
+          "moment": "1",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, 0)": "1/36",
+            "(0, -3)": "1/36",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/36",
+            "(3, 0)": "1/36"
+          }
+        },
+        {
+          "a": [
+            -1,
+            1,
+            0,
+            1
+          ],
+          "norm_a_squared": 3,
+          "moment": "1/2",
+          "zero_probability": "17/18",
+          "nonzero_input_zero_output_probability": "1/18",
+          "full_output_law": {
+            "(-3, 0)": "1/72",
+            "(0, -3)": "1/72",
+            "(0, 0)": "17/18",
+            "(0, 3)": "1/72",
+            "(3, 0)": "1/72"
+          }
+        },
+        {
+          "a": [
+            -1,
+            2,
+            -2,
+            0
+          ],
+          "norm_a_squared": 9,
+          "moment": "3/2",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/72",
+            "(-3, 0)": "1/72",
+            "(-3, 3)": "1/72",
+            "(0, -3)": "1/72",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/72",
+            "(3, -3)": "1/72",
+            "(3, 0)": "1/72",
+            "(3, 3)": "1/72"
+          }
+        },
+        {
+          "a": [
+            -1,
+            2,
+            1,
+            0
+          ],
+          "norm_a_squared": 6,
+          "moment": "1",
+          "zero_probability": "17/18",
+          "nonzero_input_zero_output_probability": "1/18",
+          "full_output_law": {
+            "(-3, -3)": "1/72",
+            "(-3, 3)": "1/72",
+            "(0, 0)": "17/18",
+            "(3, -3)": "1/72",
+            "(3, 3)": "1/72"
+          }
+        },
+        {
+          "a": [
+            0,
+            -2,
+            -2,
+            -1
+          ],
+          "norm_a_squared": 9,
+          "moment": "3/2",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/72",
+            "(-3, 0)": "1/72",
+            "(-3, 3)": "1/72",
+            "(0, -3)": "1/72",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/72",
+            "(3, -3)": "1/72",
+            "(3, 0)": "1/72",
+            "(3, 3)": "1/72"
+          }
+        },
+        {
+          "a": [
+            0,
+            -2,
+            -2,
+            2
+          ],
+          "norm_a_squared": 12,
+          "moment": "2",
+          "zero_probability": "17/18",
+          "nonzero_input_zero_output_probability": "1/18",
+          "full_output_law": {
+            "(-6, 0)": "1/72",
+            "(0, -6)": "1/72",
+            "(0, 0)": "17/18",
+            "(0, 6)": "1/72",
+            "(6, 0)": "1/72"
+          }
+        },
+        {
+          "a": [
+            0,
+            -2,
+            1,
+            -1
+          ],
+          "norm_a_squared": 6,
+          "moment": "1",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, 0)": "1/36",
+            "(0, -3)": "1/36",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/36",
+            "(3, 0)": "1/36"
+          }
+        },
+        {
+          "a": [
+            0,
+            -2,
+            1,
+            2
+          ],
+          "norm_a_squared": 9,
+          "moment": "3/2",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/72",
+            "(-3, 0)": "1/72",
+            "(-3, 3)": "1/72",
+            "(0, -3)": "1/72",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/72",
+            "(3, -3)": "1/72",
+            "(3, 0)": "1/72",
+            "(3, 3)": "1/72"
+          }
+        },
+        {
+          "a": [
+            0,
+            -1,
+            -1,
+            -2
+          ],
+          "norm_a_squared": 6,
+          "moment": "1",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, 0)": "1/36",
+            "(0, -3)": "1/36",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/36",
+            "(3, 0)": "1/36"
+          }
+        },
+        {
+          "a": [
+            0,
+            -1,
+            -1,
+            1
+          ],
+          "norm_a_squared": 3,
+          "moment": "1/2",
+          "zero_probability": "17/18",
+          "nonzero_input_zero_output_probability": "1/18",
+          "full_output_law": {
+            "(-3, 0)": "1/72",
+            "(0, -3)": "1/72",
+            "(0, 0)": "17/18",
+            "(0, 3)": "1/72",
+            "(3, 0)": "1/72"
+          }
+        },
+        {
+          "a": [
+            0,
+            -1,
+            2,
+            -2
+          ],
+          "norm_a_squared": 9,
+          "moment": "3/2",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/72",
+            "(-3, 0)": "1/72",
+            "(-3, 3)": "1/72",
+            "(0, -3)": "1/72",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/72",
+            "(3, -3)": "1/72",
+            "(3, 0)": "1/72",
+            "(3, 3)": "1/72"
+          }
+        },
+        {
+          "a": [
+            0,
+            -1,
+            2,
+            1
+          ],
+          "norm_a_squared": 6,
+          "moment": "1",
+          "zero_probability": "17/18",
+          "nonzero_input_zero_output_probability": "1/18",
+          "full_output_law": {
+            "(-3, -3)": "1/72",
+            "(-3, 3)": "1/72",
+            "(0, 0)": "17/18",
+            "(3, -3)": "1/72",
+            "(3, 3)": "1/72"
+          }
+        },
+        {
+          "a": [
+            0,
+            1,
+            -2,
+            -1
+          ],
+          "norm_a_squared": 6,
+          "moment": "1",
+          "zero_probability": "17/18",
+          "nonzero_input_zero_output_probability": "1/18",
+          "full_output_law": {
+            "(-3, -3)": "1/72",
+            "(-3, 3)": "1/72",
+            "(0, 0)": "17/18",
+            "(3, -3)": "1/72",
+            "(3, 3)": "1/72"
+          }
+        },
+        {
+          "a": [
+            0,
+            1,
+            -2,
+            2
+          ],
+          "norm_a_squared": 9,
+          "moment": "3/2",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/72",
+            "(-3, 0)": "1/72",
+            "(-3, 3)": "1/72",
+            "(0, -3)": "1/72",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/72",
+            "(3, -3)": "1/72",
+            "(3, 0)": "1/72",
+            "(3, 3)": "1/72"
+          }
+        },
+        {
+          "a": [
+            0,
+            1,
+            1,
+            -1
+          ],
+          "norm_a_squared": 3,
+          "moment": "1/2",
+          "zero_probability": "17/18",
+          "nonzero_input_zero_output_probability": "1/18",
+          "full_output_law": {
+            "(-3, 0)": "1/72",
+            "(0, -3)": "1/72",
+            "(0, 0)": "17/18",
+            "(0, 3)": "1/72",
+            "(3, 0)": "1/72"
+          }
+        },
+        {
+          "a": [
+            0,
+            1,
+            1,
+            2
+          ],
+          "norm_a_squared": 6,
+          "moment": "1",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, 0)": "1/36",
+            "(0, -3)": "1/36",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/36",
+            "(3, 0)": "1/36"
+          }
+        },
+        {
+          "a": [
+            0,
+            2,
+            -1,
+            -2
+          ],
+          "norm_a_squared": 9,
+          "moment": "3/2",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/72",
+            "(-3, 0)": "1/72",
+            "(-3, 3)": "1/72",
+            "(0, -3)": "1/72",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/72",
+            "(3, -3)": "1/72",
+            "(3, 0)": "1/72",
+            "(3, 3)": "1/72"
+          }
+        },
+        {
+          "a": [
+            0,
+            2,
+            -1,
+            1
+          ],
+          "norm_a_squared": 6,
+          "moment": "1",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, 0)": "1/36",
+            "(0, -3)": "1/36",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/36",
+            "(3, 0)": "1/36"
+          }
+        },
+        {
+          "a": [
+            0,
+            2,
+            2,
+            -2
+          ],
+          "norm_a_squared": 12,
+          "moment": "2",
+          "zero_probability": "17/18",
+          "nonzero_input_zero_output_probability": "1/18",
+          "full_output_law": {
+            "(-6, 0)": "1/72",
+            "(0, -6)": "1/72",
+            "(0, 0)": "17/18",
+            "(0, 6)": "1/72",
+            "(6, 0)": "1/72"
+          }
+        },
+        {
+          "a": [
+            0,
+            2,
+            2,
+            1
+          ],
+          "norm_a_squared": 9,
+          "moment": "3/2",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/72",
+            "(-3, 0)": "1/72",
+            "(-3, 3)": "1/72",
+            "(0, -3)": "1/72",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/72",
+            "(3, -3)": "1/72",
+            "(3, 0)": "1/72",
+            "(3, 3)": "1/72"
+          }
+        },
+        {
+          "a": [
+            1,
+            -2,
+            -1,
+            0
+          ],
+          "norm_a_squared": 6,
+          "moment": "1",
+          "zero_probability": "17/18",
+          "nonzero_input_zero_output_probability": "1/18",
+          "full_output_law": {
+            "(-3, -3)": "1/72",
+            "(-3, 3)": "1/72",
+            "(0, 0)": "17/18",
+            "(3, -3)": "1/72",
+            "(3, 3)": "1/72"
+          }
+        },
+        {
+          "a": [
+            1,
+            -2,
+            2,
+            0
+          ],
+          "norm_a_squared": 9,
+          "moment": "3/2",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/72",
+            "(-3, 0)": "1/72",
+            "(-3, 3)": "1/72",
+            "(0, -3)": "1/72",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/72",
+            "(3, -3)": "1/72",
+            "(3, 0)": "1/72",
+            "(3, 3)": "1/72"
+          }
+        },
+        {
+          "a": [
+            1,
+            -1,
+            0,
+            -1
+          ],
+          "norm_a_squared": 3,
+          "moment": "1/2",
+          "zero_probability": "17/18",
+          "nonzero_input_zero_output_probability": "1/18",
+          "full_output_law": {
+            "(-3, 0)": "1/72",
+            "(0, -3)": "1/72",
+            "(0, 0)": "17/18",
+            "(0, 3)": "1/72",
+            "(3, 0)": "1/72"
+          }
+        },
+        {
+          "a": [
+            1,
+            -1,
+            0,
+            2
+          ],
+          "norm_a_squared": 6,
+          "moment": "1",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, 0)": "1/36",
+            "(0, -3)": "1/36",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/36",
+            "(3, 0)": "1/36"
+          }
+        },
+        {
+          "a": [
+            1,
+            0,
+            -2,
+            -2
+          ],
+          "norm_a_squared": 9,
+          "moment": "3/2",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/72",
+            "(-3, 0)": "1/72",
+            "(-3, 3)": "1/72",
+            "(0, -3)": "1/72",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/72",
+            "(3, -3)": "1/72",
+            "(3, 0)": "1/72",
+            "(3, 3)": "1/72"
+          }
+        },
+        {
+          "a": [
+            1,
+            0,
+            -2,
+            1
+          ],
+          "norm_a_squared": 6,
+          "moment": "1",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, 0)": "1/36",
+            "(0, -3)": "1/36",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/36",
+            "(3, 0)": "1/36"
+          }
+        },
+        {
+          "a": [
+            1,
+            0,
+            1,
+            -2
+          ],
+          "norm_a_squared": 6,
+          "moment": "1",
+          "zero_probability": "17/18",
+          "nonzero_input_zero_output_probability": "1/18",
+          "full_output_law": {
+            "(-3, -3)": "1/72",
+            "(-3, 3)": "1/72",
+            "(0, 0)": "17/18",
+            "(3, -3)": "1/72",
+            "(3, 3)": "1/72"
+          }
+        },
+        {
+          "a": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "norm_a_squared": 3,
+          "moment": "1/2",
+          "zero_probability": "17/18",
+          "nonzero_input_zero_output_probability": "1/18",
+          "full_output_law": {
+            "(-3, 0)": "1/72",
+            "(0, -3)": "1/72",
+            "(0, 0)": "17/18",
+            "(0, 3)": "1/72",
+            "(3, 0)": "1/72"
+          }
+        },
+        {
+          "a": [
+            1,
+            1,
+            -1,
+            0
+          ],
+          "norm_a_squared": 3,
+          "moment": "1/2",
+          "zero_probability": "17/18",
+          "nonzero_input_zero_output_probability": "1/18",
+          "full_output_law": {
+            "(-3, 0)": "1/72",
+            "(0, -3)": "1/72",
+            "(0, 0)": "17/18",
+            "(0, 3)": "1/72",
+            "(3, 0)": "1/72"
+          }
+        },
+        {
+          "a": [
+            1,
+            1,
+            2,
+            0
+          ],
+          "norm_a_squared": 6,
+          "moment": "1",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, 0)": "1/36",
+            "(0, -3)": "1/36",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/36",
+            "(3, 0)": "1/36"
+          }
+        },
+        {
+          "a": [
+            1,
+            2,
+            0,
+            -1
+          ],
+          "norm_a_squared": 6,
+          "moment": "1",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, 0)": "1/36",
+            "(0, -3)": "1/36",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/36",
+            "(3, 0)": "1/36"
+          }
+        },
+        {
+          "a": [
+            1,
+            2,
+            0,
+            2
+          ],
+          "norm_a_squared": 9,
+          "moment": "3/2",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/72",
+            "(-3, 0)": "1/72",
+            "(-3, 3)": "1/72",
+            "(0, -3)": "1/72",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/72",
+            "(3, -3)": "1/72",
+            "(3, 0)": "1/72",
+            "(3, 3)": "1/72"
+          }
+        },
+        {
+          "a": [
+            2,
+            -2,
+            0,
+            -2
+          ],
+          "norm_a_squared": 12,
+          "moment": "2",
+          "zero_probability": "17/18",
+          "nonzero_input_zero_output_probability": "1/18",
+          "full_output_law": {
+            "(-6, 0)": "1/72",
+            "(0, -6)": "1/72",
+            "(0, 0)": "17/18",
+            "(0, 6)": "1/72",
+            "(6, 0)": "1/72"
+          }
+        },
+        {
+          "a": [
+            2,
+            -2,
+            0,
+            1
+          ],
+          "norm_a_squared": 9,
+          "moment": "3/2",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/72",
+            "(-3, 0)": "1/72",
+            "(-3, 3)": "1/72",
+            "(0, -3)": "1/72",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/72",
+            "(3, -3)": "1/72",
+            "(3, 0)": "1/72",
+            "(3, 3)": "1/72"
+          }
+        },
+        {
+          "a": [
+            2,
+            -1,
+            -2,
+            0
+          ],
+          "norm_a_squared": 9,
+          "moment": "3/2",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/72",
+            "(-3, 0)": "1/72",
+            "(-3, 3)": "1/72",
+            "(0, -3)": "1/72",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/72",
+            "(3, -3)": "1/72",
+            "(3, 0)": "1/72",
+            "(3, 3)": "1/72"
+          }
+        },
+        {
+          "a": [
+            2,
+            -1,
+            1,
+            0
+          ],
+          "norm_a_squared": 6,
+          "moment": "1",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, 0)": "1/36",
+            "(0, -3)": "1/36",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/36",
+            "(3, 0)": "1/36"
+          }
+        },
+        {
+          "a": [
+            2,
+            0,
+            -1,
+            -1
+          ],
+          "norm_a_squared": 6,
+          "moment": "1",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, 0)": "1/36",
+            "(0, -3)": "1/36",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/36",
+            "(3, 0)": "1/36"
+          }
+        },
+        {
+          "a": [
+            2,
+            0,
+            -1,
+            2
+          ],
+          "norm_a_squared": 9,
+          "moment": "3/2",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/72",
+            "(-3, 0)": "1/72",
+            "(-3, 3)": "1/72",
+            "(0, -3)": "1/72",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/72",
+            "(3, -3)": "1/72",
+            "(3, 0)": "1/72",
+            "(3, 3)": "1/72"
+          }
+        },
+        {
+          "a": [
+            2,
+            0,
+            2,
+            -1
+          ],
+          "norm_a_squared": 9,
+          "moment": "3/2",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/72",
+            "(-3, 0)": "1/72",
+            "(-3, 3)": "1/72",
+            "(0, -3)": "1/72",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/72",
+            "(3, -3)": "1/72",
+            "(3, 0)": "1/72",
+            "(3, 3)": "1/72"
+          }
+        },
+        {
+          "a": [
+            2,
+            0,
+            2,
+            2
+          ],
+          "norm_a_squared": 12,
+          "moment": "2",
+          "zero_probability": "17/18",
+          "nonzero_input_zero_output_probability": "1/18",
+          "full_output_law": {
+            "(-6, 0)": "1/72",
+            "(0, -6)": "1/72",
+            "(0, 0)": "17/18",
+            "(0, 6)": "1/72",
+            "(6, 0)": "1/72"
+          }
+        },
+        {
+          "a": [
+            2,
+            1,
+            0,
+            -2
+          ],
+          "norm_a_squared": 9,
+          "moment": "3/2",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/72",
+            "(-3, 0)": "1/72",
+            "(-3, 3)": "1/72",
+            "(0, -3)": "1/72",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/72",
+            "(3, -3)": "1/72",
+            "(3, 0)": "1/72",
+            "(3, 3)": "1/72"
+          }
+        },
+        {
+          "a": [
+            2,
+            1,
+            0,
+            1
+          ],
+          "norm_a_squared": 6,
+          "moment": "1",
+          "zero_probability": "17/18",
+          "nonzero_input_zero_output_probability": "1/18",
+          "full_output_law": {
+            "(-3, -3)": "1/72",
+            "(-3, 3)": "1/72",
+            "(0, 0)": "17/18",
+            "(3, -3)": "1/72",
+            "(3, 3)": "1/72"
+          }
+        },
+        {
+          "a": [
+            2,
+            2,
+            -2,
+            0
+          ],
+          "norm_a_squared": 12,
+          "moment": "2",
+          "zero_probability": "17/18",
+          "nonzero_input_zero_output_probability": "1/18",
+          "full_output_law": {
+            "(-6, 0)": "1/72",
+            "(0, -6)": "1/72",
+            "(0, 0)": "17/18",
+            "(0, 6)": "1/72",
+            "(6, 0)": "1/72"
+          }
+        },
+        {
+          "a": [
+            2,
+            2,
+            1,
+            0
+          ],
+          "norm_a_squared": 9,
+          "moment": "3/2",
+          "zero_probability": "8/9",
+          "nonzero_input_zero_output_probability": "0",
+          "full_output_law": {
+            "(-3, -3)": "1/72",
+            "(-3, 0)": "1/72",
+            "(-3, 3)": "1/72",
+            "(0, -3)": "1/72",
+            "(0, 0)": "8/9",
+            "(0, 3)": "1/72",
+            "(3, -3)": "1/72",
+            "(3, 0)": "1/72",
+            "(3, 3)": "1/72"
+          }
+        }
+      ],
+      "adaptive_negative_control": {
+        "branches": [
+          {
+            "x": [
+              -1,
+              -1,
+              0,
+              -1
+            ],
+            "p": "1/72",
+            "a": [
+              -3,
+              3,
+              0,
+              3
+            ],
+            "y": [
+              9,
+              0
+            ]
+          },
+          {
+            "x": [
+              -1,
+              0,
+              -1,
+              1
+            ],
+            "p": "1/72",
+            "a": [
+              -3,
+              -3,
+              3,
+              0
+            ],
+            "y": [
+              9,
+              0
+            ]
+          },
+          {
+            "x": [
+              -1,
+              1,
+              1,
+              0
+            ],
+            "p": "1/72",
+            "a": [
+              -3,
+              0,
+              -3,
+              -3
+            ],
+            "y": [
+              9,
+              0
+            ]
+          },
+          {
+            "x": [
+              0,
+              -1,
+              1,
+              1
+            ],
+            "p": "1/72",
+            "a": [
+              0,
+              -3,
+              -3,
+              3
+            ],
+            "y": [
+              9,
+              0
+            ]
+          },
+          {
+            "x": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "p": "8/9",
+            "a": [
+              3,
+              0,
+              0,
+              0
+            ],
+            "y": [
+              0,
+              0
+            ]
+          },
+          {
+            "x": [
+              0,
+              1,
+              -1,
+              -1
+            ],
+            "p": "1/72",
+            "a": [
+              0,
+              3,
+              3,
+              -3
+            ],
+            "y": [
+              9,
+              0
+            ]
+          },
+          {
+            "x": [
+              1,
+              -1,
+              -1,
+              0
+            ],
+            "p": "1/72",
+            "a": [
+              3,
+              0,
+              3,
+              3
+            ],
+            "y": [
+              9,
+              0
+            ]
+          },
+          {
+            "x": [
+              1,
+              0,
+              1,
+              -1
+            ],
+            "p": "1/72",
+            "a": [
+              3,
+              3,
+              -3,
+              0
+            ],
+            "y": [
+              9,
+              0
+            ]
+          },
+          {
+            "x": [
+              1,
+              1,
+              0,
+              1
+            ],
+            "p": "1/72",
+            "a": [
+              3,
+              -3,
+              0,
+              -3
+            ],
+            "y": [
+              9,
+              0
+            ]
+          }
+        ],
+        "actual_moment": "9",
+        "incorrect_freshness_bound": "11/6"
+      },
+      "TV_negative_control": {
+        "eta_and_exact_TV": "1/100",
+        "remote": [
+          300,
+          0,
+          0,
+          0
+        ],
+        "reference_moment": "3/2",
+        "contaminated_moment": "1620297/200"
+      }
+    }
+  ],
+  "CP1": {
+    "posterior_A_b": "21/2000",
+    "posterior_C_b": "1/20",
+    "posterior_D": "879/1000",
+    "incidences": {
+      "x": "1/10",
+      "e_b": "121/2000",
+      "f_b": "21/2000"
+    },
+    "event_probability": "21/2000",
+    "rejected_product_bound": "1/100",
+    "inflated_mass": "221/2000",
+    "last_incidence": "21/221"
+  },
+  "marginal_negative_control_joint_TV": "1/2",
+  "full_Gaussian_theorem_tested": false,
+  "infinite_subspace_probability_tested": false,
+  "hardness_claim": false,
+  "wall_seconds": 0.014964153990149498,
+  "max_rss_kib": 13312
+}

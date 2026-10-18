@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-17T20:26:15.593463+00:00",
+  "goal_state": "active",
+  "goal_receipt": "goal-created.json",
+  "session_id": "01a14b7b-9e45-7b70-b46d-0bf70e17f2e2",
+  "cap": {
+    "started_at": "2026-10-17T20:09:14.894509+00:00",
+    "wrapup_at": "2026-10-18T01:39:14.894509+00:00",
+    "graceful_shutdown_at": "2026-10-18T02:08:09.894509+00:00",
+    "hard_deadline_at": "2026-10-18T02:09:14.894509+00:00"
+  },
+  "worker_stop_at": "2026-10-18T01:59:14.894509+00:00",
+  "primary_foundation_achieved": false,
+  "claims": [
+    {
+      "id": "FOUNDATION-v1",
+      "status": "OPEN",
+      "statement": "Establish and critically validate a noncircular, parameter-compatible computational hardness foundation for a noisy low-dimensional ideal source sufficient for coefficient-binary rank-one RLWE recovery hardness, from standard RLWE or Order-LWE in an explicitly verified established-hardness regime, or a precisely specified standard worst-case ideal-lattice problem. Permit a modified source when its full law and downstream composition are proved. Give exact reduction direction, advantage and sample/runtime costs, classical/quantum and uniformity model, and a nonempty effective regime with a meaningful binary-secret application. Generalized lossiness, source renaming, extra unproved nonstandard premises, scoped obstructions and rederived EX-v2 are partial progress, not completion of this computational-foundation goal. Preserve honest unresolved outcomes if the six-hour cap expires.",
+      "dependencies": [
+        "HARDNESS-EDGE-v1",
+        "BINARY-COMPOSITION-v1"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "HARDNESS-EDGE-v1",
+      "status": "OPEN",
+      "statement": "An algorithm distinguishing a usable low-dimensional source yields success on a precisely specified standard RLWE/Order-LWE or worst-case ideal-lattice problem, with explicit endpoints and resources.",
+      "dependencies": [],
+      "evidence": []
+    },
+    {
+      "id": "BINARY-COMPOSITION-v1",
+      "status": "OPEN",
+      "statement": "A nontrivial parameter-compatible coefficient-binary rank-one actual-secret recovery implication under the established foundation.",
+      "dependencies": [
+        "HARDNESS-EDGE-v1"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "INHERITED-EX-v2",
+      "status": "ACCEPTED",
+      "scope": "Only unchanged exact October conditional theorem. Base2 premise remains unproved. Not yet a foundation.",
+      "dependencies": [],
+      "evidence": [
+        "intake/baseline-manifest.json",
+        "intake/october-claims-exact.json"
+      ]
+    },
+    {
+      "id": "A-ADM-v1",
+      "status": "PROVISIONAL",
+      "statement": "Arbitrary common-ideal points, correlated bounded stacked masks and independent fresh S,G give finite recovery-to-source interface with full metadata comparator and actual binary image leakage.",
+      "dependencies": [
+        "INHERITED-EX-v2"
+      ],
+      "evidence": [
+        "workers/A/admissible-theorem-only-v1.md",
+        "workers/A/admissible-proof-v1.md",
+        "workers/A/finite_controls_v1.stdout.json"
+      ],
+      "scope": "New generalized statement not accepted by inheritance. No source hardness."
+    },
+    {
+      "id": "B-ELIM-v1",
+      "status": "PROVISIONAL",
+      "statement": "Dense unit-pivot elimination has exact uniform comparator but planted masks e_j-r_j e_p wash out to uniform whenever pivot error is a unit; at standard-width candidate the image is far from narrow Base2.",
+      "dependencies": [],
+      "evidence": [
+        "workers/B/first-test-v1.md"
+      ],
+      "scope": "Named public map with n+2 standard inputs; not a barrier to general reductions."
+    },
+    {
+      "id": "C-IDEAL-MAP-v1",
+      "status": "PROVISIONAL",
+      "statement": "Known-ideal response randomization plus rounding/erasure maps ideal-secret RLWE to public-ideal noisy uniform points with actual latent elliptical masks and exact uniform comparator.",
+      "dependencies": [],
+      "evidence": [
+        "workers/C/first-test-v1.md"
+      ],
+      "scope": "Primary parameters and advice/model retained; not narrow coefficient D_ell Base2."
+    },
+    {
+      "id": "C-ENTROPY-GAP-v1",
+      "status": "PROVISIONAL",
+      "statement": "The identified BBPS worst-case-to-ideal-modulus chain requires q^(d/n)>2w(n), w\u2192infinity, incompatible with q^d<=2^(rho n), rho<1, in the current cardinality lossiness route.",
+      "dependencies": [
+        "C-IDEAL-MAP-v1"
+      ],
+      "evidence": [
+        "workers/C/first-test-v1.md"
+      ],
+      "scope": "Specific theorem/composition parameter obstruction, not general impossibility."
+    },
+    {
+      "id": "D-APPROX-v1",
+      "status": "PROVISIONAL",
+      "statement": "Exact finite noiseless RLWE image-test channel simulates sparse source while preserving comparator only approximately, showing why exact-comparator entropy obstruction does not extend to negligible TV without extra hypotheses.",
+      "dependencies": [],
+      "evidence": [
+        "workers/D/experiments/endpoint-control-v1.stdout.json"
+      ],
+      "scope": "New finite instantiation of historical UNIFORM-APPROX-COLLAPSE. No noisy standard-hardness connection."
+    },
+    {
+      "id": "B-SYN-v1",
+      "status": "OPEN",
+      "statement": "Construct an efficient bounded partial-syndrome preimage solver using only public ordinary RLWE multipliers; exact endpoint map and conditional parameter range are written, algorithm absent.",
+      "dependencies": [
+        "A-ADM-v1"
+      ],
+      "evidence": [
+        "workers/B/short-syndrome-interface-v1.md",
+        "workers/B/syndrome_controls_v1.stdout.json"
+      ]
+    },
+    {
+      "id": "D-THETA-v1",
+      "status": "PROVISIONAL",
+      "statement": "Conditional ideal Gaussian width floor yields full retained-latent statistical uniformity after ideal offsets and coefficient rounding; whole-spectrum theta bound and short-mask representation exclusion.",
+      "dependencies": [],
+      "evidence": [
+        "workers/D/ideal-theta-theorem-only-v1.md",
+        "workers/D/ideal-theta-proof-v1.md",
+        "workers/D/experiments/theta-control-v1.stdout.json",
+        "coordinator/theta-freeze-v1.json",
+        "workers/A/stat-review/report-v1.md",
+        "criticism/RS0/report-v1.md",
+        "criticism/BT1/exposure-20261017T2024Z.md"
+      ],
+      "review_state": "A full-proof PASS recommendation and RS0 source/parameter scoped PASS frozen; BT1 reported outside-permitted-primary-source exposure and is disqualified as blind. Fresh replacement required. No acceptance yet."
+    },
+    {
+      "id": "A-BIN-v1",
+      "status": "PROVISIONAL",
+      "statement": "Union CRT support r with q^r>n^(n/2) makes multiplication image injective on binary secrets; strict gate and zero branches retained.",
+      "dependencies": [],
+      "evidence": [
+        "workers/A/binary-image-obstruction-v1.md",
+        "workers/A/finite_controls_v1.stdout.json"
+      ]
+    }
+  ],
+  "acceptance_gates": {
+    "new_full_proof": "OPEN",
+    "new_source_parameter_complexity": "OPEN",
+    "new_fresh_blind": "OPEN",
+    "regressions": "intake pending",
+    "artifact_consistency": "OPEN"
+  },
+  "next_discriminating_test": "B computational target programming; A concrete LLL/Babai short syndrome cost versus entropy; C direct coset exact endpoints then alternative mechanism. Fresh blind replacement needed after BT1 freezes."
+}

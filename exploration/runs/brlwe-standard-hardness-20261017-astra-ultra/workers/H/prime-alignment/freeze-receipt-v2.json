@@ -1,0 +1,27 @@
+{
+  "frozen_at_utc": "2026-10-18T00:36:22.366280+00:00",
+  "status": "PROVISIONAL; scope/parameter repairs REPAIRED-PENDING-RECHECK",
+  "manifest_sha256": "5878c36560e6b417ad92139c56047404c88f0a92abb8193aa58ff30d3e9325e0",
+  "current_artifacts": {
+    "theorem-only-v1.md": "e2265238d7240a1fae85fa952c7996e0ad7ec20bc8697870da18fca9b4c6be18",
+    "proof-v1.md": "0f2eb5103e3fb274a9ae87213555e7e530dc0b628b7d57a04804b28a7698a96a",
+    "parameters-v2.md": "454991f1d39d8fe20937cd2da3d6fe26a4f1ec686c425044c91f7b7a10b48756",
+    "shifted-cosets-v2.md": "c9c4fdb79b4077347b38aa7db026f10fa71d7c4de2499d9db3403a118f53a068",
+    "short-relation-v2.md": "7e698507dbdfd191ac100946014293c09607908c35650d503ce2866ef74921f7",
+    "lll-source-check-v1.md": "4968ec30259999b53c69aa4ed4a7bdbf57645124040e09bc737509af0aa8268a",
+    "finite-report-v1.md": "ae3760cb86c11ff18f117cd749fc1c6f7ffe267cf96543fed9525d6e31952dce",
+    "gaps-and-regressions-v2.md": "08aeff53fba615ddb9f25ef87967e72adf2ce23aa06df231e8409838e43cc75c",
+    "claim-graph-v2.json": "0f7f891351fa867ea210bf4430f7f129c351962f57a6f8094e263922fc82d497",
+    "report-v2.md": "2aee3ebe8c92f73e7b25e0927363f4c920449f23aae7303e32b9b38619ecad12"
+  },
+  "assignment_sha256": "32524c80a4fdce8b23f6a014ec79df3abdaed82fbadc37a0ab1f889630fb8120",
+  "superseded_relation_v1_sha256": "0d4aa1e472c3471a93d067c0a41cbe3253db540b56842b47303b50fbd2e870ca",
+  "independent_gates_remaining": [
+    "nonauthor exact proof review",
+    "primary/source and parameter review",
+    "fresh blind statement/spec review",
+    "root reconciliation"
+  ],
+  "active_experiments": 0,
+  "active_reservations": 0
+}

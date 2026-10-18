@@ -1,0 +1,262 @@
+{
+  "completed_gaussian_controls": [
+    {
+      "alignment_after_resampling_zero_interval": [
+        4.6803013222543103e-08,
+        4.6803013222543103e-08
+      ],
+      "alignment_excluding_zero_interval": [
+        2.621688183275231e-08,
+        2.621688183275231e-08
+      ],
+      "alignment_including_zero_interval": [
+        0.4398463090172228,
+        0.4398463090172228
+      ],
+      "base": "1/2",
+      "chain_finite_conditional_acceptances": [
+        0.5016184763428616,
+        0.5567106539550452,
+        0.8024738242293584,
+        0.9846163091230912,
+        0.9999389685688698,
+        0.9999999990686774
+      ],
+      "chain_finite_nonzero_mass": 4.7842594079858094e-20,
+      "chain_finite_product": 0.2206350222033785,
+      "chain_indices": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64
+      ],
+      "cutoff": 12,
+      "exact_telescope_passed": true,
+      "ideal_index_reciprocal": 0.07692307692307693,
+      "omitted_full_Z2_mass_upper": 1.1380294528364904e-50,
+      "rhoFI_interval": [
+        1.0000000596046457,
+        1.0000000596046457
+      ],
+      "rhoF_interval": [
+        2.273521544011613,
+        2.273521544011613
+      ]
+    },
+    {
+      "alignment_after_resampling_zero_interval": [
+        0.06757484769821968,
+        0.06757484770088573
+      ],
+      "alignment_excluding_zero_interval": [
+        0.06689736150509284,
+        0.0668973615077305
+      ],
+      "alignment_including_zero_interval": [
+        0.07692307693330058,
+        0.07692307693596301
+      ],
+      "base": "63/64",
+      "chain_finite_conditional_acceptances": [
+        0.5,
+        0.5000000000003543,
+        0.5,
+        0.5000000000002287,
+        0.5000000062452523,
+        0.5001117609250094
+      ],
+      "chain_finite_nonzero_mass": 0.010615635010016269,
+      "chain_finite_product": 0.015628492724132526,
+      "chain_indices": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64
+      ],
+      "cutoff": 40,
+      "exact_telescope_passed": true,
+      "ideal_index_reciprocal": 0.07692307692307693,
+      "omitted_full_Z2_mass_upper": 2.4659195149468215e-10,
+      "rhoFI_interval": [
+        7.67257733217468,
+        7.672577332421272
+      ],
+      "rhoF_interval": [
+        99.7435053047676,
+        99.74350530501418
+      ]
+    }
+  ]
+}
+{
+  "CP1_cloning": {
+    "actual_stage_survival": [
+      "3/4",
+      "13/32",
+      "53/256"
+    ],
+    "initial_support_upper_bound": "15/64",
+    "naive_independent_stage_prediction": "27/64"
+  },
+  "all_assertions_passed": true,
+  "arithmetic": "exact integers and Fractions; displayed decimals are illustrative, exact assertions use rational values",
+  "elapsed_seconds_internal": 0.16792036296101287,
+  "gaussian_mass_controls": [
+    {
+      "alignment_after_resampling_zero_interval": [
+        4.6803013222543103e-08,
+        4.6803013222543103e-08
+      ],
+      "alignment_excluding_zero_interval": [
+        2.621688183275231e-08,
+        2.621688183275231e-08
+      ],
+      "alignment_including_zero_interval": [
+        0.4398463090172228,
+        0.4398463090172228
+      ],
+      "base": "1/2",
+      "chain_finite_conditional_acceptances": [
+        0.5016184763428616,
+        0.5567106539550452,
+        0.8024738242293584,
+        0.9846163091230912,
+        0.9999389685688698,
+        0.9999999990686774
+      ],
+      "chain_finite_nonzero_mass": 4.7842594079858094e-20,
+      "chain_finite_product": 0.2206350222033785,
+      "chain_indices": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64
+      ],
+      "cutoff": 12,
+      "exact_telescope_passed": true,
+      "ideal_index_reciprocal": 0.07692307692307693,
+      "omitted_full_Z2_mass_upper": 1.1380294528364904e-50,
+      "rhoFI_interval": [
+        1.0000000596046457,
+        1.0000000596046457
+      ],
+      "rhoF_interval": [
+        2.273521544011613,
+        2.273521544011613
+      ]
+    },
+    {
+      "alignment_after_resampling_zero_interval": [
+        0.06757484769821968,
+        0.06757484770088573
+      ],
+      "alignment_excluding_zero_interval": [
+        0.06689736150509284,
+        0.0668973615077305
+      ],
+      "alignment_including_zero_interval": [
+        0.07692307693330058,
+        0.07692307693596301
+      ],
+      "base": "63/64",
+      "chain_finite_conditional_acceptances": [
+        0.5,
+        0.5000000000003543,
+        0.5,
+        0.5000000000002287,
+        0.5000000062452523,
+        0.5001117609250094
+      ],
+      "chain_finite_nonzero_mass": 0.010615635010016269,
+      "chain_finite_product": 0.015628492724132526,
+      "chain_indices": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64
+      ],
+      "cutoff": 40,
+      "exact_telescope_passed": true,
+      "ideal_index_reciprocal": 0.07692307692307693,
+      "omitted_full_Z2_mass_upper": 2.4659195149468215e-10,
+      "rhoFI_interval": [
+        7.67257733217468,
+        7.672577332421272
+      ],
+      "rhoF_interval": [
+        99.7435053047676,
+        99.74350530501418
+      ]
+    }
+  ],
+  "replacements": [
+    {
+      "Iprime_generator": [
+        "1/2",
+        "5/2"
+      ],
+      "Isecond_generator": [
+        "1",
+        "5"
+      ],
+      "Isecond_norm": 26,
+      "cofactor_generator": [
+        "1",
+        "-1"
+      ],
+      "d": 2,
+      "output_multiplier": [
+        "1",
+        "0"
+      ],
+      "x": [
+        2,
+        0
+      ]
+    },
+    {
+      "Iprime_generator": [
+        "1",
+        "0"
+      ],
+      "Isecond_generator": [
+        "1",
+        "0"
+      ],
+      "Isecond_norm": 1,
+      "cofactor_generator": [
+        "3",
+        "2"
+      ],
+      "d": 1,
+      "output_multiplier": [
+        "1",
+        "5"
+      ],
+      "x": [
+        1,
+        5
+      ]
+    }
+  ],
+  "reservation": "A-class-finite-2",
+  "skew_GS_normalizer_control": {
+    "exact_TV_exceeds_one_half": true,
+    "finite_total_variation": 0.5297938899802039,
+    "scope": "finite truncated law; no infinite-law identity asserted",
+    "theta_at_z2_one": 2.980232238774952e-08,
+    "theta_at_z2_zero": 1.0
+  }
+}

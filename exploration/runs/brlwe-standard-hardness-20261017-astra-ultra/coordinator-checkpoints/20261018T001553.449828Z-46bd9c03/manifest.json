@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261018T001553.449828Z-46bd9c03",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-18T00:15:53.449850+00:00",
+  "reason": "Quantum reviews sealed pending rootreconciliation; two parameterwitness flaws preserved andv3 frozen; H familyteststarted",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 42768,
+      "sha256": "f6426667dc84954cfbb02ef3e386b54548fd35ad14a8ffda8b7c20a600ffd3c5"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 955,
+      "sha256": "c8d11f7044519384ce7c1f79e848bcafff43e79c9abf80fd938795b6c9560d7d"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 806,
+      "sha256": "dec05d8627ff445c96529e5e3daef0aaa0b87f573eff1886d61438a82f0c7737"
+    },
+    {
+      "path": "final.md",
+      "bytes": 16637,
+      "sha256": "a0bea9e266ae80d73f42d28f698d7a72cd5569185d2bd0b860ae4f522772a20a"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 8508,
+      "sha256": "24852751128c1b67f6afaaf72d2dbe5ce1a011b2989f2ee50f28eccb223a5ae8"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

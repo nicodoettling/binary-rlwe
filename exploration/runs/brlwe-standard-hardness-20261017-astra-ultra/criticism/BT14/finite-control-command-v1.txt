@@ -1,0 +1,5 @@
+Working directory: /home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/BT14
+Reservation: BT14-FV1
+Command:
+/usr/bin/time -v -o finite-control-resources-v1.txt timeout 120s python3 finite-control-v1.py > finite-control-output-v1.json 2> finite-control-stderr-v1.txt
+Execution: foreground; no detach; standard library only; exact deterministic arithmetic; seed not applicable.

@@ -1,0 +1,1 @@
+Chronology correction, clock tool 2026-10-17 21:14:02 UTC: the defect packet and v2 repair were written before this clock reading. The defect packet header saying 21:15 UTC was an approximate timestamp written too far ahead and is not authoritative. Exact tool-call order confirms defect preservation before repair. No mathematical content or file hash is changed.

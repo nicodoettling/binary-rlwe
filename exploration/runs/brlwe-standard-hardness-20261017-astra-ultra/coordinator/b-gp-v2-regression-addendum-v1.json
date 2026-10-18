@@ -1,0 +1,78 @@
+{
+  "at": "2026-10-17T21:27:12.123961+00:00",
+  "claim": "B-GP-v2",
+  "inherited51_and_previous_current_controls": "criticism/RF2/regression-review-v1.json",
+  "additional_current_dispositions": [
+    {
+      "id": "D-THETA-RETAIN-U-v1",
+      "complete_registry_entry_sha256": "11a1bd415bce405079923150ff483a23f21ec006593fc5b67bf8b4e2079f1d84",
+      "disposition": "OUTSIDE EXACT SCOPE: Bv2 only finite equivariant periodic-to-fractional statistical map; no binary recovery, tower, OHCP, ideal-family normalization, spectral or hardness conclusion. Existing relevant conditional-law controls remain in RF2 full registry."
+    },
+    {
+      "id": "D-LSW-THETA-1",
+      "complete_registry_entry_sha256": "d7bdb2b5886d5f6bf50898df235f2a9c847fa7458ab42441b058fc08fdf3e82c",
+      "disposition": "APPLICABLE: B retained both exact theta normalizers; no exact DG reversefactorization imported."
+    },
+    {
+      "id": "C-TOWER-RELATION-1",
+      "complete_registry_entry_sha256": "44fe9f712bf2addc20bb18f38d19772b9f9a901292ffb9c23d873be33defa524",
+      "disposition": "OUTSIDE EXACT SCOPE: Bv2 only finite equivariant periodic-to-fractional statistical map; no binary recovery, tower, OHCP, ideal-family normalization, spectral or hardness conclusion. Existing relevant conditional-law controls remain in RF2 full registry."
+    },
+    {
+      "id": "D-REUSED-PIVOT-1",
+      "complete_registry_entry_sha256": "7b643b8e50d18e02cb13f7e7254b1ada8215093e56006abda2dfe458f453c748",
+      "disposition": "APPLICABLE CONDITIONAL LAW: sameJ preserved; independent per-sample kernels only conditionalJ; no pivotselection or samplercoin publication."
+    },
+    {
+      "id": "A-TOWER-LAW-1",
+      "complete_registry_entry_sha256": "a8ea51b610db2d9beb14d61f7eecd6f7092963d2df175fa037104a543d7b4ce1",
+      "disposition": "OUTSIDE EXACT SCOPE: Bv2 only finite equivariant periodic-to-fractional statistical map; no binary recovery, tower, OHCP, ideal-family normalization, spectral or hardness conclusion. Existing relevant conditional-law controls remain in RF2 full registry."
+    },
+    {
+      "id": "C-SMALL-N-EXISTENCE-1",
+      "complete_registry_entry_sha256": "243e39d4ac1e93bdd1d06d2ff92249b2c44500932b094647d341b41bf519c260",
+      "disposition": "OUTSIDE EXACT SCOPE: Bv2 only finite equivariant periodic-to-fractional statistical map; no binary recovery, tower, OHCP, ideal-family normalization, spectral or hardness conclusion. Existing relevant conditional-law controls remain in RF2 full registry."
+    },
+    {
+      "id": "D-NORMALFORM-WRAP-1",
+      "complete_registry_entry_sha256": "24f68b2dfe45c40ad73f6700c9f1870dc8106280729534066d88b89dbe1780a2",
+      "disposition": "OUTSIDE EXACT SCOPE: Bv2 only finite equivariant periodic-to-fractional statistical map; no binary recovery, tower, OHCP, ideal-family normalization, spectral or hardness conclusion. Existing relevant conditional-law controls remain in RF2 full registry."
+    },
+    {
+      "id": "B-GP-RATIONAL-ENCODING-1",
+      "complete_registry_entry_sha256": "e3a9d4ea7d1dc3db53a940caf2197e58a766ae963832031fdd8382e3ee9a114d",
+      "disposition": "APPLICABLE: v1 rejected; v2 charges all rational numerator/denominator lengths; exactceil independently rechecked."
+    },
+    {
+      "id": "C-OHCP-LOGSHIFT-1",
+      "complete_registry_entry_sha256": "6d3031baa2ed29e2691b6c6d61e957e983d35957644fdb3f71dcbfd01d793b5a",
+      "disposition": "OUTSIDE EXACT SCOPE: Bv2 only finite equivariant periodic-to-fractional statistical map; no binary recovery, tower, OHCP, ideal-family normalization, spectral or hardness conclusion. Existing relevant conditional-law controls remain in RF2 full registry."
+    },
+    {
+      "id": "ROOT-IDEAL-SUBSPACE-1",
+      "complete_registry_entry_sha256": "6ed5781a6b43f6f0a6e943ada79e25bb024711c97a53b587a51faf3a49be7a75",
+      "disposition": "OUTSIDE EXACT SCOPE: Bv2 only finite equivariant periodic-to-fractional statistical map; no binary recovery, tower, OHCP, ideal-family normalization, spectral or hardness conclusion. Existing relevant conditional-law controls remain in RF2 full registry."
+    },
+    {
+      "id": "B-SUP-RETAINED-COINS-1",
+      "complete_registry_entry_sha256": "a7881a665fac75540a07fe50c5ba96cd48850e3cca9cab49263df7b3b33e1d35",
+      "disposition": "APPLICABLE CONDITIONAL LAW: sameJ preserved; independent per-sample kernels only conditionalJ; no pivotselection or samplercoin publication."
+    },
+    {
+      "id": "C-OHCP-BOUNDED-RUNTIME-1",
+      "complete_registry_entry_sha256": "35299ee088b2f648869ae990a6e6e2b3203ae4bcfc737c4db4d258a5adfc5b2d",
+      "disposition": "APPLICABLE SCOPE: Bv2 is explicitly EXPECTED polynomial; no boundedtime composition accepted by this gate."
+    },
+    {
+      "id": "C-SUPER-CONFIDENCE-1",
+      "complete_registry_entry_sha256": "084564dd07a1d9b781dc71d6af84abc263a90d1037ea97f5e644aa600e2a3168",
+      "disposition": "OUTSIDE EXACT SCOPE: Bv2 only finite equivariant periodic-to-fractional statistical map; no binary recovery, tower, OHCP, ideal-family normalization, spectral or hardness conclusion. Existing relevant conditional-law controls remain in RF2 full registry."
+    },
+    {
+      "id": "C-QUOTIENT-CARRIES-1",
+      "complete_registry_entry_sha256": "282d0fcf85d06266de6ccacaeca8b1aac7fdb8c9c9d7f2a165c45439e3df808a",
+      "disposition": "OUTSIDE EXACT SCOPE: Bv2 only finite equivariant periodic-to-fractional statistical map; no binary recovery, tower, OHCP, ideal-family normalization, spectral or hardness conclusion. Existing relevant conditional-law controls remain in RF2 full registry."
+    }
+  ],
+  "CP1": "Conditional on complete commonJ metadata; hybrid each independently sampled map, no multiplication of marginal success."
+}

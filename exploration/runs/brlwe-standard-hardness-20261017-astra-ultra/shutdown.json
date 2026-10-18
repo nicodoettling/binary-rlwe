@@ -1,0 +1,65 @@
+{
+  "written_at": "2026-10-18T01:48:02.382245+00:00",
+  "phase": "delivery-ready after wrap-up reconciliation",
+  "primary_foundation_achieved": false,
+  "goal_state": "active unfinished",
+  "goal_thread": "01a14b7b-9e45-7b70-b46d-0bf70e17f2e2",
+  "goal_receipt": "coordinator/goal-usage-final.json",
+  "objective_exactly_matches_original_run_config": true,
+  "goal_created_paused_completed_or_budget_changed_during_reconnect": false,
+  "discovery_closed": true,
+  "discovery_boundary": "2026-10-18T01:36:14.695009Z",
+  "current_manifest": "standard3-launcher-run.json",
+  "cap_status_file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/standard3.log.brlwe-standard-hardness-20261017-standard3.cap-status.json",
+  "original_started_at": "2026-10-17T20:09:14.894509Z",
+  "effective_worker_stop_at": "2026-10-18T01:56:14.695009Z",
+  "graceful_shutdown_at": "2026-10-18T02:05:09.695009+00:00",
+  "hard_deadline_at": "2026-10-18T02:06:14.695009+00:00",
+  "actual_agents": {
+    "agents": [
+      {
+        "agent_name": "/root",
+        "agent_status": "running"
+      },
+      {
+        "agent_name": "/root/bt22_blind",
+        "agent_status": {
+          "completed": "BT22 review is complete and sealed. Claims 1\u20134 were independently reconstructed; no mathematical defect was found within the stated scope. Computational promises remain conditional.\n\n- [Complete report](/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/BT22/report-v1.md)\n- [Exposure log](/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/BT22/exposure-log-v1.md)\n- [Verified hash manifest](/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/BT22/freeze-sha256-v1.txt)\n\nSealed at 01:39:01 UTC. No acceptance or completion action taken."
+        }
+      },
+      {
+        "agent_name": "/root/rt2_weighted",
+        "agent_status": {
+          "completed": "[Exact v2 recheck complete](/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT2/exact-v2-recheck.md): no defect found; **PROVISIONAL**, no acceptance.\n\nConditional moments, joint/conditional TV, and separate success-margin requirements check out. Missing computational obligations remain unchanged.\n\n[Hash receipt](/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT2/exact-v2-hash-receipt.json) confirms all prior artifacts and frozen inputs are unchanged. No new experiment or blind-report access."
+        }
+      }
+    ]
+  },
+  "agent_list_observed_at": "2026-10-18T01:47:12.976Z",
+  "active_worker_count": 0,
+  "coordinator_state": "finishing foreground delivery; not yet observed exited",
+  "worker_interrupts_needed": false,
+  "experiments": {
+    "active_count": 0,
+    "active_reservations": [],
+    "registry": "experiments/registry.json",
+    "process_visibility": "Prior sandbox/namespaced inventory is not host-complete descendant evidence"
+  },
+  "agent_scheduled_automatic_work": [],
+  "automatic_post_cap_research_authorized": false,
+  "native_continuation_disposition": "Only reconciliation/checkpoint/shutdown inside live cap; after expiry no research or automatic resume. Native goal deliberately remains unfinished.",
+  "service_actions_taken": [],
+  "last_observed_cap_state": "running",
+  "cap_last_published_at": "2026-10-17T22:39:22.794696+00:00",
+  "last_worker_status": "running",
+  "last_worker_heartbeat": "2026-10-18T01:47:54.140828+00:00",
+  "launcher_exit_observed": false,
+  "host_descendant_cleanup_observed": false,
+  "service_tier": "Standard/default configuration evidence only; no backend billing telemetry",
+  "accepted_new_auxiliary_scopes": 14,
+  "inherited_conditional_baseline": "EX-v2 with unproved Base2",
+  "regression_ids": 151,
+  "final_report": "final.md",
+  "self_contained_resume": "resume.md",
+  "core_checkpoint": "coordinator-checkpoint.json"
+}

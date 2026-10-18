@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-17T22:29:52.882066+00:00",
+  "status": "MAIN_FROZEN_THEOREM_REVIEW_COMPLETE_FAVORABLE",
+  "theorem_sha256": "f090c6c128eb2d0fd52a9cadb2a2b67b8bdd731d84ef932aabbbdc3c74eb180a",
+  "proof_sha256": "012d77de4765194b8b22943d81773c42c59739f00e91012df8afd676ef210bfc",
+  "reviewed_inputs_unchanged": true,
+  "new_experiments": false,
+  "reports": {
+    "full-review-v1.md": "48b933879a4797286fb8cfd99bb9e23cc39c8698511c66aeb6915b3b09ea987f",
+    "source-parameter-v1.md": "f25bbcf68f0e3efa4a3056cd0d727a6a081ccd4ac0e28fb0d8efcdb0d478df58",
+    "counterexample-attempts-v1.md": "52b9821a3923e3b3db6d98d9d4f64a286810304b24e7a18ab2cb46ac1f7a7cfc",
+    "partial-v1.md": "9116d217cb918d20cfcca6137816819e5740d4fd5899ee9b398000e0985bad78"
+  },
+  "added_endpoint_note_status": "V1 standalone scale guarantee rejected; awaiting exact v2 recheck requested by coordinator."
+}

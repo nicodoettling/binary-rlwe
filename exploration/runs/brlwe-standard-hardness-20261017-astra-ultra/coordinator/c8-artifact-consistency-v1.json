@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-10-17T22:28:31.512403+00:00",
+  "claim": "C-OHCP-v8",
+  "status": "PARTIAL_STRUCTURAL_CHECK_PASS; clean blind report absent",
+  "files": {
+    "coordinator/c8-repair/multiplier-ohcp-theorem-v8.md": {
+      "bytes": 9436,
+      "sha256": "857a62e9f4a937a80e5cb3b115c8b132abf122c16665d29b39dcb62bde86fe0a"
+    },
+    "coordinator/c8-repair/multiplier-ohcp-algorithm-v2.md": {
+      "bytes": 14059,
+      "sha256": "4361c90a7fa7cfe25d0ab3e8cd5c5333fb474cf1fb764375e10c29fca5102735"
+    },
+    "coordinator/c8-repair/multiplier-ohcp-proof-v9.md": {
+      "bytes": 36793,
+      "sha256": "e9b3023715a3d4ec90c474aba6945223aa376248b1fa216134964a5643fb4c5f"
+    },
+    "coordinator/c8-repair/C8-FV1-before-repair.md": {
+      "bytes": 2515,
+      "sha256": "5650f1953f8d46fcf1ecab0b83fab26d5fc00ce169c82f77bf9c1932828fd433"
+    },
+    "coordinator/c8-repair/v6-gap-record-before-v7-v8.md": {
+      "bytes": 1565,
+      "sha256": "f572bed058ab695fcd82dd0b63ef55b6922191b3dcf8e3a2620954d3a06dc81c"
+    },
+    "workers/A/c9-review/exact-repair-review-v1.md": {
+      "bytes": 11858,
+      "sha256": "04267e9cf22695ae9311b3c762411512d2cf94815c97a7170e8455a213dd185d"
+    },
+    "coordinator/c7-source-finite-audit-v1.md": {
+      "bytes": 3511,
+      "sha256": "26d510e5b0ddcab53c3a359fcf54ac9bb26b07567503cfdc9440192e79c416b8"
+    },
+    "coordinator/c8-source-parameter-gate-v1.md": {
+      "bytes": 5236,
+      "sha256": "79edbe42acacd1969bcd2143b69b28998b0198991fb3e686acf55eb60677affd"
+    },
+    "coordinator/c8-regression-gate-v1.json": {
+      "bytes": 59561,
+      "sha256": "10f94b4ec95831f785f05fcbee8a5dc10138bf1d77ba1e96aa0d334edb08118d"
+    },
+    "criticism/BT10/report-v1.md": {
+      "bytes": 31766,
+      "sha256": "ae3aa9293a1738c838e8df9a1eebfadc6949aaacbf74f7a7ebefe16aae507b77"
+    },
+    "criticism/BT10/freeze-receipt-v1.json": {
+      "bytes": 1429,
+      "sha256": "8553e865d0a1f16e8815466fe57e0d9a03e943d2ee589d91f68c0edba8b32f85"
+    },
+    "coordinator/c8-bt10-exposure-disposition-v1.md": {
+      "bytes": 1250,
+      "sha256": "d0b60e88c17c1a500e9f41ea6bbd494fb48412ee523073a76d271808c587a131"
+    }
+  },
+  "relative_declared_companion_files_exist": true,
+  "exact_freeze_hashes_match": true,
+  "blind_gate": "OPEN: BT10 disqualified from strict blind role after disclosed outside-source exposure",
+  "meaning": "File consistency only, not mathematical proof certification. Recheck final full packet after clean blind report."
+}

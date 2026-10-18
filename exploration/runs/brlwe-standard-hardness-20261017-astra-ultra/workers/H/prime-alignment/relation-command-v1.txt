@@ -1,0 +1,4 @@
+Reservation H-REL-FV2, granted by root before execution.
+Working directory: /home/nico/projects/research_projects/binaryRLWE
+timeout 120s /usr/bin/time -v -o exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/H/prime-alignment/relation-resources-v1.txt python3 exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/H/prime-alignment/relation-controls-v1.py > exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/H/prime-alignment/relation-stdout-v1.json 2> exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/H/prime-alignment/relation-stderr-v1.txt
+Internal RLIMIT_AS=268435456 bytes. No random seed. Exact Fraction comparisons; full finite normalizers, point-pair laws, output laws and FAIL retained. Empty residue-lift support would produce an explicit failed assertion, never a zero-denominator expression.

@@ -1,0 +1,16 @@
+{
+  "id": "RT1-MOMENT-FV1",
+  "n": 2,
+  "m": 4,
+  "t": 2,
+  "I": "3R",
+  "F": ["(3,z^2+z+2)", "(3,z^2-z+2)", "S"],
+  "rho": "4/5",
+  "support": [-1,0,1],
+  "weight_bases": ["1/2", "1/4"],
+  "max_triples": 13122,
+  "timeout_seconds": 30,
+  "address_space_bytes": 134217728,
+  "seed": "none, exhaustive exact rational",
+  "reservation": "Root authorized RT1-MOMENT-FV1 before execution; foreground, not heavy"
+}

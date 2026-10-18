@@ -1,0 +1,23 @@
+{"actual_at": "2026-10-17T20:21:24.402863+00:00", "previous_snapshot_at": "2026-10-17T20:16:45.413791+00:00", "interval_seconds": 278.989072, "missed_five_minute_target": false, "lateness_seconds": 0, "note": "Actual observed times, no backdating."}
+{"recorded_at": "2026-10-17T20:26:15.593463+00:00", "prior_checkpoint_at": "2026-10-17T20:21:24.402863+00:00", "gap_seconds": 291.1906, "missed_five_minute_interval": false, "reason": "review exposure handling and assignment; actual checkpoint now"}
+{"recorded_at": "2026-10-17T20:31:20.072553+00:00", "prior_checkpoint_at": "2026-10-17T20:26:15.636085+00:00", "gap_seconds": 304.436468, "missed_five_minute_interval": true}
+{"recorded_at": "2026-10-17T20:36:24.481718+00:00", "prior_checkpoint_at": "2026-10-17T20:31:20.078181+00:00", "gap_seconds": 304.403537, "missed_five_minute_interval": true}
+{"recorded_at": "2026-10-17T20:40:42.969528+00:00", "prior_checkpoint_at": "2026-10-17T20:36:24.488137+00:00", "gap_seconds": 258.481391, "missed_five_minute_interval": false}
+{"recorded_at": "2026-10-17T21:52:51.126538+00:00", "interval_start": "2026-10-17T21:42:12.047648+00:00", "interval_end": "2026-10-17T21:47:45.429802+00:00", "seconds": 333.382154, "missed_five_minute_interval": true, "reason": "Reconciliation and C finite repair assignment; no contemporaneous checkpoint reconstructed."}
+{"recorded_at": "2026-10-17T21:56:56.315016+00:00", "interval_start": "2026-10-17T21:47:45.429802+00:00", "interval_end": "2026-10-17T21:52:51.132548+00:00", "seconds": 305.702746, "missed_five_minute_interval": true, "reason": "Continuation and worker route updates; no lost contemporaneous evidence reconstructed."}
+{"at": "2026-10-18T00:20:48.896455+00:00", "event": "missed_checkpoint_interval", "intervals": ["2026-10-18T00:09:56Z to2026-10-18T00:15:53Z", "2026-10-18T00:15:53Z to current snapshot"], "reason": "Report reading and continuation recovery exceeded five minutes. No contemporaneous evidence reconstructed."}
+{"at": "2026-10-18T00:24:11.484053+00:00", "event": "correction", "reason": "The prior record incorrectly listed00:15:53 to00:20:49 as missed; actual296seconds is within five minutes.00:09:56 to00:15:53 remains a real missed interval."}
+{"at": "2026-10-18T00:31:40.257054+00:00", "event": "missed_checkpoint_interval", "from": "2026-10-18T00:24:11.489380Z", "to": "2026-10-18T00:29:23.853754Z", "seconds": 312.364374, "reason": "Checkpoint writing completed12seconds after five-minute boundary; no evidence reconstructed."}
+{"at": "2026-10-18T00:39:30.465334+00:00", "event": "missed_checkpoint_interval", "from": "2026-10-18T00:33:23.673823+00:00", "seconds": 366.791511, "reason": "Frozenauthorpacket crossreviewhandoff; no evidence reconstructed."}
+{"at": "2026-10-18T00:51:40.038238+00:00", "previous": "2026-10-18T00:44:14.464085+00:00", "elapsed_seconds": 445.574153, "missed": true, "reason": "Continuation recovery and exact blind-input preparation; no lost contemporaneous checkpoint reconstructed"}
+{"at": "2026-10-18T00:54:44.828705+00:00", "previous": "2026-10-18T00:51:40.043344+00:00", "elapsed_seconds": 184.785361, "missed": false}
+{"at": "2026-10-18T00:59:36.475323+00:00", "previous": "2026-10-18T00:54:44.837713+00:00", "elapsed_seconds": 291.63761, "missed": false}
+{"at": "2026-10-18T01:03:03.004858+00:00", "previous": "2026-10-18T00:59:36.480632+00:00", "elapsed_seconds": 206.524226, "missed": false}
+{"at": "2026-10-18T01:08:00.495986+00:00", "previous": "2026-10-18T01:03:03.010289+00:00", "elapsed_seconds": 297.485697, "missed": false}
+{"at": "2026-10-18T01:13:54.420217+00:00", "previous": "2026-10-18T01:08:00.501402+00:00", "elapsed_seconds": 353.918815, "missed": true, "reason": "Continuation recovery and complete report intake; no lost evidence reconstructed"}
+{"at": "2026-10-18T01:19:40.774869+00:00", "previous": "2026-10-18T01:13:54.425570+00:00", "elapsed_seconds": 346.349299, "missed": true, "reason": "Compact current state and preserved historical bytes"}
+{"at": "2026-10-18T01:24:28.525715+00:00", "previous": "2026-10-18T01:19:40.780414+00:00", "elapsed_seconds": 287.745301, "missed": false}
+{"at": "2026-10-18T01:28:58.756709+00:00", "previous": "2026-10-18T01:24:28.696640+00:00", "elapsed_seconds": 270.060069, "missed": false}
+{"at": "2026-10-18T01:33:48.287768+00:00", "previous": "2026-10-18T01:28:58.761732+00:00", "elapsed_seconds": 289.526036, "missed": false}
+{"at": "2026-10-18T01:36:47.066995+00:00", "previous": "2026-10-18T01:33:48.461703+00:00", "elapsed_seconds": 178.605292, "missed": false}
+{"at": "2026-10-18T01:42:49.996417+00:00", "previous_snapshot_at": "2026-10-18T01:36:47.073512Z", "note": "Five-minute checkpoint missed during compaction/recovery; actual update now, no contemporaneous evidence reconstructed."}

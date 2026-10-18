@@ -1,0 +1,35 @@
+{
+  "worker": "BT16",
+  "state": "COMPLETE_FROZEN_BEFORE_SCIENTIFIC_DISCLOSURE",
+  "report_path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/BT16/BT16-complete-report-v1.md",
+  "report_sha256": "a1fb58816f26ec832f0f61f627668a421995b556a5cc0e0b7a19f7bd1298269d",
+  "report_bytes": 32601,
+  "sealed_utc": "2026-10-17T23:55:58.029034+00:00",
+  "input_sha256": {
+    "assignment-v1.md": "9a58f30c5816bc6f030bc2ec08042f43754bc8321d1def3a5092c9a97bd5121a",
+    "input/theorem-v1.md": "536bb0235e7ccd11563d6f731a4935822a664ae393eb5ae301dbdad89a1ac5e1",
+    "input/definitions-v1.md": "07bff1b11b2cca310a33ef267d19cb8d859dcf94a483da9c275e36d5c865c514"
+  },
+  "exposure_record": {
+    "clean_gate": true,
+    "scientific_inputs": [
+      "assignment-v1.md",
+      "input/theorem-v1.md",
+      "input/definitions-v1.md"
+    ],
+    "other_reads": "Only this worker's newly created experiment/report artifacts and administrative clock/resource output.",
+    "parent_messages_before_seal": "Administrative bounded-experiment reservation only.",
+    "forbidden_source_exposure": false,
+    "scientific_verdict_disclosed_before_seal": false
+  },
+  "experiment": {
+    "reservation": "BT16-FV1",
+    "foreground_jobs": 1,
+    "status": "completed",
+    "wall_seconds": 0.05722037999657914,
+    "max_rss_KiB": 13312
+  },
+  "immutability_protocol": "Exclusive-create receipt; report and receipt mode 0444; no later edits. Any amendment requires a new version and receipt.",
+  "formal_verification": false,
+  "same_model_scrutiny_is_correlated": true
+}

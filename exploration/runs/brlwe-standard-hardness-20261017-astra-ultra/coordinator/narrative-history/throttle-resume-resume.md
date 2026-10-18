@@ -1,0 +1,34 @@
+# PRIORITY: USER REDUCED ACTIVE TEAM TO TWO — 2026-10-17T22:02:39.697655+00:00
+
+Update 2026-10-17T22:05:57.392985+00:00: computational foundation OPEN. Exact C7/spec1/proof8 rejected for C8-FV1 final nonrational-threshold finite specification; old bytes and flaw preserved. Root coherent C8/spec2/proof9 frozen under coordinator/c8-repair; A scoped exact recheck favorable so far, fresh BT9 isolated blind running. BT8 continues isolated review of old frozen packet and has not disclosed a verdict. Current active ceiling root+A+B+BT8+BT9; C/D completed.32 bounded jobs complete,31pass/1preserved failure,noneactive.
+
+
+Before any further scheduling, read foreground-inputs/throttle-two-agents-user-update.md. The user explicitly selected coordinator + ONE worker, retaining Astra ultra and the existing cap. This supersedes the old five-agent requirement. Checkpoint and stop surplus workers promptly; no new parallel tasks. Record actual acknowledgment and reduced running-state evidence in foreground-inputs/throttle-two-agents-ack.md. The research below is preserved, but any older five-agent instruction is superseded.
+
+---
+
+# Resume: computational foundation unresolved
+
+Current update 2026-10-17T22:01:51.642250+00:00: Foundation OPEN. C7 final computable-threshold test under exact finite-specification scrutiny; full and fresh blind reviews continue. B binary-error switch/deconvolution is a new conditional edge, with standard binary-error ring hardness still absent. D sparse-vector theorem excludes the proposed sparse mechanism from the actual uniform-root ideal family in its stated regime.32 bounded jobs now completed (31pass,1preserved failure);noneactive.
+
+
+Updated 2026-10-17T21:56:56.315016+00:00. Native goal/session `01a14b7b-9e45-7b70-b46d-0bf70e17f2e2` is active, without a token budget. Original cap: start 2026-10-17T20:09:14.894509Z; discovery stops 2026-10-18T01:39:14.894509Z; workers/experiments stop by01:59:14.894509Z; graceful shutdown02:08:09.894509Z; hard deadline02:09:14.894509Z. The sidecar retains its initial running observation; launcher exit and descendant cleanup have not been observed. Independent service queries were sandbox-denied. No content-policy interruption, automatic restart or scheduled future work.
+
+Read current native goal, live cap, claims.json and this file BEFORE scheduling on every continuation. Never create another goal or reset the clock. Writes ONLY this OUTPUT. Package, literature, historical runs, root instructions and Git remain unchanged. No worker grandchildren/goals, external model sessions/messages, installs, services, detached computation or automatic restart. Astra ultra throughout; five active total actually verified, coordinator plus four workers.
+
+Current team: root integration and source/finite review; A exact full nonauthor review of C theorem7/algorithm1/proof8; B binary-error secret-switching route; D hidden-short-relation source route; fresh BT8 isolated blind review of C theorem7 plus algorithm1 ONLY. C completed handoff-v3 and released slot. BT8 thread01a14bdd-2606-7f51-abc2-d01c47c615a5 must not list agents or receive/read summaries, status, ledgers or proof directories. Hash complete report before disclosure. Permitted exact primary URL indexed text is allowed. Full plaintext assignments and actual spawn/running/thread evidence are preserved in agents.json and coordinator/runtime-events-2157-v1.json. No experiment is active; registry32 jobs,31 successes/1 failed assertion.
+
+Accepted new results: D-THETA-v1 scoped obstruction; A-FRAC-v1 conditional F1/F2; B-GP-v2 expected-time finite bridge; ROOT-SAMECLASS-v1 scoped asymptotic count. Exact original EX-v2 remains accepted conditional on unproved Base2. None is computational foundation. C theorem7/algorithm1/proof8 newly frozen and unaccepted. Prior C6 physical-Haar assertion false; proxy-only claim repaired. C6 causal proof gap repaired in root7 and now coherent8; no acceptance inheritance. B standard canonical compositionv1 undefined zero key rejected;v2 total FAIL law pending full gates. Binary uniform-secret Fourier mismatch remains.
+
+Next discriminating work: exact C full/blind/source/precision gates; B genuine ring binary-error versus ordinary-LWE theorem and exact secret/error swapping endpoints; D standard hardness of hidden sparse-relation denominator family; A prescribed class-word mechanism after review. The two selected routes remain R1 response-preserving standard maps and R2 ideal-denominator sources. A complement-block trace repair is executable but parameter-incompatible. B companion inverse would already decode module bits. These scoped failures redirect work and do not terminate the goal.
+
+Finite source GP: k independent Q_h(G_w) modulo qJ^-1 versus uniform F=hZ^n/qJ^-1, h=1/(DP), canonical widthw. B bridge uses coefficient widthw_B=w/sqrt(n), output fractional widthsqrt(w_B²+r_B²). A requires gcd(D,q)=1 and currently accepted useful windowD<=2^(rho n); D's high-index actual-lossiness generalization unaccepted. C pointwise BDD radiusdelta*w/(32nkv0); Q_* fixed polynomial BEFOREepsilon0, v0/d0 productfixed, full two normalizers and adaptive errors. Quantum consequence approximate and sameJ. Standard worst-case family transfer absent. An average ideal-family gap is not a pointwise oracle for everyJ.
+
+Check final.md for complete current outcomes and exact links. Preserve versions/counterexamples before repair and reopen dependents. Experiment limits120s default/300smax,<=2 concurrent/1heavy,<=16GiB each; reserve before run and preserve code/input/seeds/outputs/resources. Every5minutes and material result update core atomically and append history; standalone python3-B exploration.runner.resilience.snapshot(core_only=True), require no missing core. Previous missed intervals honestly recorded; never reconstruct contemporaneous evidence. Narrative history is preserved separately.
+
+Continue research until original wrap-up unless computational foundation AND binary implication pass all gates. Atwrap-up stop discovery, complete review/checkpoint only. Stop workers/experiments byworker deadline. Leave unresolved native goalunfinished; timer is not a pause or external block. Save actual shutdown.json states; do not claim launcher exit/cleanup without cap observation. No automatically scheduled work.
+
+
+## PRIORITY USER UPDATE — TWO active agents total — 2026-10-17T21:59:36.143094+00:00
+
+The user explicitly chose to reduce usage to coordinator + ONE worker, keeping Astra ultra. This supersedes the original five-agent active requirement. Read foreground-inputs/throttle-two-agents-user-update.md immediately, stop new parallel assignments, checkpoint/drain surplus workers promptly, and acknowledge with actual running-state evidence in foreground-inputs/throttle-two-agents-ack.md. Preserve the existing goal and original cap; no pause, restart, deadline extension or model downgrade.

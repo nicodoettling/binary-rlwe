@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "exhaustive": true,
+  "seed": null,
+  "cases": [
+    {
+      "n": 2,
+      "q0": 17,
+      "target_q": 5,
+      "root": 4,
+      "generator": [
+        "4/17",
+        "1/17"
+      ],
+      "absolute_norm": "1/17",
+      "coefficient_norm_squared": "1/17",
+      "target_elements": 25,
+      "order17_generator_images": 1,
+      "section_results": [
+        {
+          "centered": false,
+          "addition_cases": 289,
+          "nonzero_addition_carry_modq": 136,
+          "binary_product_cases": 68,
+          "nonzero_product_carry_modq": 32
+        },
+        {
+          "centered": true,
+          "addition_cases": 289,
+          "nonzero_addition_carry_modq": 72,
+          "binary_product_cases": 68,
+          "nonzero_product_carry_modq": 32
+        }
+      ],
+      "standard_wrap_carry": [
+        "4",
+        "1"
+      ],
+      "wrap_carry_modq": [
+        4,
+        1
+      ]
+    },
+    {
+      "n": 4,
+      "q0": 17,
+      "target_q": 5,
+      "root": 2,
+      "generator": [
+        "8/17",
+        "4/17",
+        "2/17",
+        "1/17"
+      ],
+      "absolute_norm": "1/17",
+      "coefficient_norm_squared": "5/17",
+      "target_elements": 625,
+      "order17_generator_images": 1,
+      "section_results": [
+        {
+          "centered": false,
+          "addition_cases": 289,
+          "nonzero_addition_carry_modq": 136,
+          "binary_product_cases": 272,
+          "nonzero_product_carry_modq": 218
+        },
+        {
+          "centered": true,
+          "addition_cases": 289,
+          "nonzero_addition_carry_modq": 72,
+          "binary_product_cases": 272,
+          "nonzero_product_carry_modq": 224
+        }
+      ],
+      "standard_wrap_carry": [
+        "8",
+        "4",
+        "2",
+        "1"
+      ],
+      "wrap_carry_modq": [
+        3,
+        4,
+        2,
+        1
+      ]
+    }
+  ],
+  "elapsed_seconds": 0.07936783303739503,
+  "maxrss_kib": 11264,
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]"
+}

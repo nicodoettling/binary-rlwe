@@ -1,0 +1,3 @@
+ulimit -v 131072
+/usr/bin/time -v -o finite-resources-v1.txt timeout 30s python3 -B finite-control-v1.py > finite-stdout-v1.json 2> finite-stderr-v1.txt
+Foreground cwd criticism/RT1. No descendants detached. Reserved RT1-MOMENT-FV1; exactly one execution authorized.

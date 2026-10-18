@@ -1,0 +1,28 @@
+{
+  "time": "2026-10-17T21:12:27.001083+00:00",
+  "files": {
+    "workers/B/ideal-denominator/gaussian-periodic-theorem-v1.md": {
+      "sha256": "b31f42daca7f8fd714acb38cd61bdc004f391cc4bd8a27f86649162c5e1c2804",
+      "bytes": 6949
+    },
+    "workers/B/ideal-denominator/gaussian-periodic-proof-v1.md": {
+      "sha256": "bcb505d21ec8381afa74c14ea82563199ac6d5b2d96257d540abd41ea890c745",
+      "bytes": 9981
+    },
+    "criticism/RF2/full-report-v1.md": {
+      "sha256": "35450dce4743f940e5a90a94e2a52564dd6c83c9f85c9f6ad1625db2989f7d81",
+      "bytes": 17688
+    },
+    "criticism/RS1/report-v1.md": {
+      "sha256": "152feef3d04bca1cb0c225a0c624f2eb7d808ad25c211c4b7cf016c89c6bb3fb",
+      "bytes": 5594
+    },
+    "criticism/RF2/regression-review-v1.json": {
+      "sha256": "a6267b27298929fd889e6e51ba578487fe4f5e304bf6b1ece766761d59fd1ca8",
+      "bytes": 160595
+    }
+  },
+  "status": "IDENTITY_PRECHECK_ONLY",
+  "blind_gate": "pending",
+  "scientific_proof_certified": false
+}

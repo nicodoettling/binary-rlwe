@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-17T23:07:24.416019+00:00",
+  "claim": "ROOT-BINCLASS-v1",
+  "base": "coordinator/binary-class-count/regression-gate-v1.json",
+  "base_sha256": "281d1bce2e9e8b3203a8a6da858843f10b0eee25d062d226cb149228fde3c70b",
+  "entries": [
+    {
+      "id": "BT13-FV1",
+      "exact_registry_entry_sha256": "87074fe315ee23d3c7aed9524bab6ba801a8839c98efea927f047a0e7cc76f0a",
+      "disposition": "BT13 finite sampler/BDD arithmetic belongs to separate computational interface; counting theorem uses no sampler, walk or real threshold.",
+      "evidence": "criticism/BT13/BT13-FV1.stdout"
+    },
+    {
+      "id": "BT12-FV1",
+      "exact_registry_entry_sha256": "338926669d4a157436c661836643750346551297dc882a17947681d20f1aa926",
+      "disposition": "BT12 independent finite count/positive-null posterior control applies directly; whole sealed report reconciled.",
+      "evidence": "criticism/BT12/fv1-summary.json"
+    }
+  ],
+  "total_registry_ids": 92,
+  "note": "Explicit scope audit of newly added controls; no previous acceptance broadened."
+}

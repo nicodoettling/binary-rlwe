@@ -1,0 +1,1724 @@
+{
+  "at": "2026-10-18T01:06:27.770410+00:00",
+  "previous_registry_count": 127,
+  "current_registry_count": 139,
+  "entries": [
+    {
+      "claim": "A-FRAC-v1",
+      "id": "H-LLL-BITLENGTH-1",
+      "provenance": {
+        "id": "H-LLL-BITLENGTH-1",
+        "path": "coordinator/prime-alignment/h-short-relation-bitlength-gap-before-repair.md",
+        "sha256": "e5a331410725b70a076c25d7b54a7e8fc5a1316bcbba8030e9f709e98fc272ac",
+        "description": "expOmega(sqrt n) LLL certificate is not superpolynomial in inputbits for unrestrictedlogM; m=n,log2M>=2^n givesg_n<=log2M^1/4. Scope gap saved beforev2.",
+        "disposition": "Provisional Hrelationv1 scope rejected; H-ALIGNv1 and allacceptedtheorems unaffected, none uses unrestrictedM-to-inputlength inference."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "No unrestricted input-bit-to-value or input-size approximation inference is made by this exact accepted statement. Generic finite code charges actual encodings; optional width claims retain explicit value hypotheses. New H companion rejection changes no dependency of A-FRAC-v1."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "H-REL-FV2",
+      "provenance": {
+        "id": "H-REL-FV2",
+        "path": "workers/H/prime-alignment/relation-stdout-v1.json",
+        "sha256": "4e681216483cb93afaad46fb0b80df4c0bd9b02936f49f65336c2ef481715e49",
+        "description": "Eightexactfinite laws143144pairs: Gaussreduced relationbound, actualh, retainedsource/comparatorTV, pushforwardTV, rankfailure/zeroimage. No asymptotic sampler orLLL guarantee.",
+        "disposition": "Hcompanionv2 pendingexact independentreview; source andcomparator normalizerspreserved."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. A-FRAC-v1 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "H-V0-BITLENGTH-1",
+      "provenance": {
+        "id": "H-V0-BITLENGTH-1",
+        "path": "criticism/RH1/parameter-scope-counterexample-v1.md",
+        "sha256": "c55d6e670ddeaf925bbba4df1ac014e6fe58014dba9fd14b7fb979cfbc6db92f",
+        "description": "Polynomial-time encodedscalar evaluation does not bound v0 value: v0*=2^n,d0/=2^n preservesh0/allC8gates while width*=2^n. Hparametersv2upperwidthassertionrejected; core/lowerwidthunaffected.",
+        "disposition": "Exact current independentreview/counterexample; claim-specific gates pending."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "No unrestricted input-bit-to-value or input-size approximation inference is made by this exact accepted statement. Generic finite code charges actual encodings; optional width claims retain explicit value hypotheses. New H companion rejection changes no dependency of A-FRAC-v1."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "RH1-FV1",
+      "provenance": {
+        "id": "RH1-FV1",
+        "path": "criticism/RH1/RH1-FV1-stdout.json",
+        "sha256": "1fff769a63a7906d76689467b48aa08d31db13a878ce413df0a6e21bc828e106",
+        "description": "4802exactpairs,F9residuedegree2, actualindex1/3/9, rationalrankFAIL/nonzeroimages andcomplete source/comparatorTV. PrincipalIeasycontrolonly.",
+        "disposition": "Exact current independentreview/counterexample; claim-specific gates pending."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. A-FRAC-v1 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "HC1-FV1",
+      "provenance": {
+        "id": "HC1-FV1",
+        "path": "criticism/HC1/finite-control-v1/stdout.json",
+        "sha256": "6ee5a339083c6c6186b68ad1b1f0d783a7e17a766de16bc263a2653aa5a2f02f",
+        "description": "Independent exact625 contraction/15625 causal kernelcases,92 equalmarginal unequaljoint cases; full capped comparator(6,5,5)/16 TV1/24, originalCP1 and padded one-slot dispatcher.",
+        "disposition": "Root read entire code/input/output/resource record and full HC1 reports; finite falsification only; exact theorem-specific reconciliation pending."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "Complete endpoint/conditional-TV/code controls agree with the exact scoped interfaces. The same-J composition has its own new gates; A-FRAC-v1 is not broadened by its favorable review. Capped comparator never promoted to exact uniform."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "ROOT-TOWER-FV1",
+      "provenance": {
+        "id": "ROOT-TOWER-FV1",
+        "path": "coordinator/tower-lift/stdout-v1.json",
+        "sha256": "3a92e50bad4b71b3827373c16535dad1fd2accdde7849b47e0eee7cb54436fbe",
+        "description": "19683 exact finite source/comparator cases: proper prime lift has trace projection outside originalideal; uniform quotient maps uniformlytoR/qR. Directresidue-order tables. Finite laws notinfinite Gaussian claims.",
+        "disposition": "New provisional R2 field-lift endpoint, no acceptedclaimdepends; all normalized laws and failure mass retained."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. A-FRAC-v1 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "BT19-NONPRIME-1",
+      "provenance": {
+        "id": "BT19-NONPRIME-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Zi,F=R,I=(4),X2 descends16to4 withoutalignment: primalityrequired fordescent, notprobability.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. A-FRAC-v1 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "BT19-NONSUFFICIENT-1",
+      "provenance": {
+        "id": "BT19-NONSUFFICIENT-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Zi,I=(1+i),X2 aligns butminimalintegerclearingkeepsnorm2: alignmentnecessarynotsufficient.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. A-FRAC-v1 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "BT19-SELECTION-1",
+      "provenance": {
+        "id": "BT19-SELECTION-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Six original drawsZi,I=(2+i),s128 retainatmostone; selectedsuccess>13/20 single-eventbound. Allattemptsmustbepaid.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. A-FRAC-v1 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "BT19-RETRY-1",
+      "provenance": {
+        "id": "BT19-RETRY-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Width2^-b hasnonzero retryexpectation>=exp(pi4^b)/4; finitewidthencodingnotpolynomialretrytime.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. A-FRAC-v1 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "BT18-SYMBOLIC-1",
+      "provenance": {
+        "id": "BT18-SYMBOLIC-1",
+        "path": "criticism/BT18/composition-report-v1.md",
+        "sha256": "c8179c983f5386e743ceec46a8e132118eb205f23d60c75206a8c5ab388add43",
+        "description": "Clean independentfour-interface reconstruction verifiescompleteendpointcharges,rationalradius,duality,allinputcallslotsandordinaryDGSoutput; noexperimentorupstreamreproof.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "Complete endpoint/conditional-TV/code controls agree with the exact scoped interfaces. The same-J composition has its own new gates; A-FRAC-v1 is not broadened by its favorable review. Capped comparator never promoted to exact uniform."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "RT1-MOMENT-FV1",
+      "provenance": {
+        "id": "RT1-MOMENT-FV1",
+        "path": "criticism/RT1/finite-stdout-v1.json",
+        "sha256": "19efdb0a45e366fc64eea6956f7788c7c417cc30b7b15730ae8d054768fbc041",
+        "description": "13122exact triples: product/projection containment and covariance moment identities; allnonzerofactors still projectzero withmass3/64 or20/6561. Retainedfinitecenteredlaws, notinfiniteGaussian theorem.",
+        "disposition": "Root read complete code/input/output/resources; new tower candidate only. No earlier acceptedclaim uses nonzeroproduct-implies-nonzeroprojection."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. A-FRAC-v1 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "H-LLL-BITLENGTH-1",
+      "provenance": {
+        "id": "H-LLL-BITLENGTH-1",
+        "path": "coordinator/prime-alignment/h-short-relation-bitlength-gap-before-repair.md",
+        "sha256": "e5a331410725b70a076c25d7b54a7e8fc5a1316bcbba8030e9f709e98fc272ac",
+        "description": "expOmega(sqrt n) LLL certificate is not superpolynomial in inputbits for unrestrictedlogM; m=n,log2M>=2^n givesg_n<=log2M^1/4. Scope gap saved beforev2.",
+        "disposition": "Provisional Hrelationv1 scope rejected; H-ALIGNv1 and allacceptedtheorems unaffected, none uses unrestrictedM-to-inputlength inference."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "No unrestricted input-bit-to-value or input-size approximation inference is made by this exact accepted statement. Generic finite code charges actual encodings; optional width claims retain explicit value hypotheses. New H companion rejection changes no dependency of B-GP-v2."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "H-REL-FV2",
+      "provenance": {
+        "id": "H-REL-FV2",
+        "path": "workers/H/prime-alignment/relation-stdout-v1.json",
+        "sha256": "4e681216483cb93afaad46fb0b80df4c0bd9b02936f49f65336c2ef481715e49",
+        "description": "Eightexactfinite laws143144pairs: Gaussreduced relationbound, actualh, retainedsource/comparatorTV, pushforwardTV, rankfailure/zeroimage. No asymptotic sampler orLLL guarantee.",
+        "disposition": "Hcompanionv2 pendingexact independentreview; source andcomparator normalizerspreserved."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. B-GP-v2 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "H-V0-BITLENGTH-1",
+      "provenance": {
+        "id": "H-V0-BITLENGTH-1",
+        "path": "criticism/RH1/parameter-scope-counterexample-v1.md",
+        "sha256": "c55d6e670ddeaf925bbba4df1ac014e6fe58014dba9fd14b7fb979cfbc6db92f",
+        "description": "Polynomial-time encodedscalar evaluation does not bound v0 value: v0*=2^n,d0/=2^n preservesh0/allC8gates while width*=2^n. Hparametersv2upperwidthassertionrejected; core/lowerwidthunaffected.",
+        "disposition": "Exact current independentreview/counterexample; claim-specific gates pending."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "No unrestricted input-bit-to-value or input-size approximation inference is made by this exact accepted statement. Generic finite code charges actual encodings; optional width claims retain explicit value hypotheses. New H companion rejection changes no dependency of B-GP-v2."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "RH1-FV1",
+      "provenance": {
+        "id": "RH1-FV1",
+        "path": "criticism/RH1/RH1-FV1-stdout.json",
+        "sha256": "1fff769a63a7906d76689467b48aa08d31db13a878ce413df0a6e21bc828e106",
+        "description": "4802exactpairs,F9residuedegree2, actualindex1/3/9, rationalrankFAIL/nonzeroimages andcomplete source/comparatorTV. PrincipalIeasycontrolonly.",
+        "disposition": "Exact current independentreview/counterexample; claim-specific gates pending."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. B-GP-v2 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "HC1-FV1",
+      "provenance": {
+        "id": "HC1-FV1",
+        "path": "criticism/HC1/finite-control-v1/stdout.json",
+        "sha256": "6ee5a339083c6c6186b68ad1b1f0d783a7e17a766de16bc263a2653aa5a2f02f",
+        "description": "Independent exact625 contraction/15625 causal kernelcases,92 equalmarginal unequaljoint cases; full capped comparator(6,5,5)/16 TV1/24, originalCP1 and padded one-slot dispatcher.",
+        "disposition": "Root read entire code/input/output/resource record and full HC1 reports; finite falsification only; exact theorem-specific reconciliation pending."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "Complete endpoint/conditional-TV/code controls agree with the exact scoped interfaces. The same-J composition has its own new gates; B-GP-v2 is not broadened by its favorable review. Capped comparator never promoted to exact uniform."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "ROOT-TOWER-FV1",
+      "provenance": {
+        "id": "ROOT-TOWER-FV1",
+        "path": "coordinator/tower-lift/stdout-v1.json",
+        "sha256": "3a92e50bad4b71b3827373c16535dad1fd2accdde7849b47e0eee7cb54436fbe",
+        "description": "19683 exact finite source/comparator cases: proper prime lift has trace projection outside originalideal; uniform quotient maps uniformlytoR/qR. Directresidue-order tables. Finite laws notinfinite Gaussian claims.",
+        "disposition": "New provisional R2 field-lift endpoint, no acceptedclaimdepends; all normalized laws and failure mass retained."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. B-GP-v2 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "BT19-NONPRIME-1",
+      "provenance": {
+        "id": "BT19-NONPRIME-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Zi,F=R,I=(4),X2 descends16to4 withoutalignment: primalityrequired fordescent, notprobability.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. B-GP-v2 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "BT19-NONSUFFICIENT-1",
+      "provenance": {
+        "id": "BT19-NONSUFFICIENT-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Zi,I=(1+i),X2 aligns butminimalintegerclearingkeepsnorm2: alignmentnecessarynotsufficient.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. B-GP-v2 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "BT19-SELECTION-1",
+      "provenance": {
+        "id": "BT19-SELECTION-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Six original drawsZi,I=(2+i),s128 retainatmostone; selectedsuccess>13/20 single-eventbound. Allattemptsmustbepaid.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. B-GP-v2 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "BT19-RETRY-1",
+      "provenance": {
+        "id": "BT19-RETRY-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Width2^-b hasnonzero retryexpectation>=exp(pi4^b)/4; finitewidthencodingnotpolynomialretrytime.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. B-GP-v2 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "BT18-SYMBOLIC-1",
+      "provenance": {
+        "id": "BT18-SYMBOLIC-1",
+        "path": "criticism/BT18/composition-report-v1.md",
+        "sha256": "c8179c983f5386e743ceec46a8e132118eb205f23d60c75206a8c5ab388add43",
+        "description": "Clean independentfour-interface reconstruction verifiescompleteendpointcharges,rationalradius,duality,allinputcallslotsandordinaryDGSoutput; noexperimentorupstreamreproof.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "Complete endpoint/conditional-TV/code controls agree with the exact scoped interfaces. The same-J composition has its own new gates; B-GP-v2 is not broadened by its favorable review. Capped comparator never promoted to exact uniform."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "RT1-MOMENT-FV1",
+      "provenance": {
+        "id": "RT1-MOMENT-FV1",
+        "path": "criticism/RT1/finite-stdout-v1.json",
+        "sha256": "19efdb0a45e366fc64eea6956f7788c7c417cc30b7b15730ae8d054768fbc041",
+        "description": "13122exact triples: product/projection containment and covariance moment identities; allnonzerofactors still projectzero withmass3/64 or20/6561. Retainedfinitecenteredlaws, notinfiniteGaussian theorem.",
+        "disposition": "Root read complete code/input/output/resources; new tower candidate only. No earlier acceptedclaim uses nonzeroproduct-implies-nonzeroprojection."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. B-GP-v2 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "H-LLL-BITLENGTH-1",
+      "provenance": {
+        "id": "H-LLL-BITLENGTH-1",
+        "path": "coordinator/prime-alignment/h-short-relation-bitlength-gap-before-repair.md",
+        "sha256": "e5a331410725b70a076c25d7b54a7e8fc5a1316bcbba8030e9f709e98fc272ac",
+        "description": "expOmega(sqrt n) LLL certificate is not superpolynomial in inputbits for unrestrictedlogM; m=n,log2M>=2^n givesg_n<=log2M^1/4. Scope gap saved beforev2.",
+        "disposition": "Provisional Hrelationv1 scope rejected; H-ALIGNv1 and allacceptedtheorems unaffected, none uses unrestrictedM-to-inputlength inference."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "No unrestricted input-bit-to-value or input-size approximation inference is made by this exact accepted statement. Generic finite code charges actual encodings; optional width claims retain explicit value hypotheses. New H companion rejection changes no dependency of D-THETA-v1."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "H-REL-FV2",
+      "provenance": {
+        "id": "H-REL-FV2",
+        "path": "workers/H/prime-alignment/relation-stdout-v1.json",
+        "sha256": "4e681216483cb93afaad46fb0b80df4c0bd9b02936f49f65336c2ef481715e49",
+        "description": "Eightexactfinite laws143144pairs: Gaussreduced relationbound, actualh, retainedsource/comparatorTV, pushforwardTV, rankfailure/zeroimage. No asymptotic sampler orLLL guarantee.",
+        "disposition": "Hcompanionv2 pendingexact independentreview; source andcomparator normalizerspreserved."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. D-THETA-v1 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "H-V0-BITLENGTH-1",
+      "provenance": {
+        "id": "H-V0-BITLENGTH-1",
+        "path": "criticism/RH1/parameter-scope-counterexample-v1.md",
+        "sha256": "c55d6e670ddeaf925bbba4df1ac014e6fe58014dba9fd14b7fb979cfbc6db92f",
+        "description": "Polynomial-time encodedscalar evaluation does not bound v0 value: v0*=2^n,d0/=2^n preservesh0/allC8gates while width*=2^n. Hparametersv2upperwidthassertionrejected; core/lowerwidthunaffected.",
+        "disposition": "Exact current independentreview/counterexample; claim-specific gates pending."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "No unrestricted input-bit-to-value or input-size approximation inference is made by this exact accepted statement. Generic finite code charges actual encodings; optional width claims retain explicit value hypotheses. New H companion rejection changes no dependency of D-THETA-v1."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "RH1-FV1",
+      "provenance": {
+        "id": "RH1-FV1",
+        "path": "criticism/RH1/RH1-FV1-stdout.json",
+        "sha256": "1fff769a63a7906d76689467b48aa08d31db13a878ce413df0a6e21bc828e106",
+        "description": "4802exactpairs,F9residuedegree2, actualindex1/3/9, rationalrankFAIL/nonzeroimages andcomplete source/comparatorTV. PrincipalIeasycontrolonly.",
+        "disposition": "Exact current independentreview/counterexample; claim-specific gates pending."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. D-THETA-v1 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "HC1-FV1",
+      "provenance": {
+        "id": "HC1-FV1",
+        "path": "criticism/HC1/finite-control-v1/stdout.json",
+        "sha256": "6ee5a339083c6c6186b68ad1b1f0d783a7e17a766de16bc263a2653aa5a2f02f",
+        "description": "Independent exact625 contraction/15625 causal kernelcases,92 equalmarginal unequaljoint cases; full capped comparator(6,5,5)/16 TV1/24, originalCP1 and padded one-slot dispatcher.",
+        "disposition": "Root read entire code/input/output/resource record and full HC1 reports; finite falsification only; exact theorem-specific reconciliation pending."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "Complete endpoint/conditional-TV/code controls agree with the exact scoped interfaces. The same-J composition has its own new gates; D-THETA-v1 is not broadened by its favorable review. Capped comparator never promoted to exact uniform."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "ROOT-TOWER-FV1",
+      "provenance": {
+        "id": "ROOT-TOWER-FV1",
+        "path": "coordinator/tower-lift/stdout-v1.json",
+        "sha256": "3a92e50bad4b71b3827373c16535dad1fd2accdde7849b47e0eee7cb54436fbe",
+        "description": "19683 exact finite source/comparator cases: proper prime lift has trace projection outside originalideal; uniform quotient maps uniformlytoR/qR. Directresidue-order tables. Finite laws notinfinite Gaussian claims.",
+        "disposition": "New provisional R2 field-lift endpoint, no acceptedclaimdepends; all normalized laws and failure mass retained."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. D-THETA-v1 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "BT19-NONPRIME-1",
+      "provenance": {
+        "id": "BT19-NONPRIME-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Zi,F=R,I=(4),X2 descends16to4 withoutalignment: primalityrequired fordescent, notprobability.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. D-THETA-v1 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "BT19-NONSUFFICIENT-1",
+      "provenance": {
+        "id": "BT19-NONSUFFICIENT-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Zi,I=(1+i),X2 aligns butminimalintegerclearingkeepsnorm2: alignmentnecessarynotsufficient.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. D-THETA-v1 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "BT19-SELECTION-1",
+      "provenance": {
+        "id": "BT19-SELECTION-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Six original drawsZi,I=(2+i),s128 retainatmostone; selectedsuccess>13/20 single-eventbound. Allattemptsmustbepaid.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. D-THETA-v1 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "BT19-RETRY-1",
+      "provenance": {
+        "id": "BT19-RETRY-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Width2^-b hasnonzero retryexpectation>=exp(pi4^b)/4; finitewidthencodingnotpolynomialretrytime.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. D-THETA-v1 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "BT18-SYMBOLIC-1",
+      "provenance": {
+        "id": "BT18-SYMBOLIC-1",
+        "path": "criticism/BT18/composition-report-v1.md",
+        "sha256": "c8179c983f5386e743ceec46a8e132118eb205f23d60c75206a8c5ab388add43",
+        "description": "Clean independentfour-interface reconstruction verifiescompleteendpointcharges,rationalradius,duality,allinputcallslotsandordinaryDGSoutput; noexperimentorupstreamreproof.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "Complete endpoint/conditional-TV/code controls agree with the exact scoped interfaces. The same-J composition has its own new gates; D-THETA-v1 is not broadened by its favorable review. Capped comparator never promoted to exact uniform."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "RT1-MOMENT-FV1",
+      "provenance": {
+        "id": "RT1-MOMENT-FV1",
+        "path": "criticism/RT1/finite-stdout-v1.json",
+        "sha256": "19efdb0a45e366fc64eea6956f7788c7c417cc30b7b15730ae8d054768fbc041",
+        "description": "13122exact triples: product/projection containment and covariance moment identities; allnonzerofactors still projectzero withmass3/64 or20/6561. Retainedfinitecenteredlaws, notinfiniteGaussian theorem.",
+        "disposition": "Root read complete code/input/output/resources; new tower candidate only. No earlier acceptedclaim uses nonzeroproduct-implies-nonzeroprojection."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. D-THETA-v1 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "H-LLL-BITLENGTH-1",
+      "provenance": {
+        "id": "H-LLL-BITLENGTH-1",
+        "path": "coordinator/prime-alignment/h-short-relation-bitlength-gap-before-repair.md",
+        "sha256": "e5a331410725b70a076c25d7b54a7e8fc5a1316bcbba8030e9f709e98fc272ac",
+        "description": "expOmega(sqrt n) LLL certificate is not superpolynomial in inputbits for unrestrictedlogM; m=n,log2M>=2^n givesg_n<=log2M^1/4. Scope gap saved beforev2.",
+        "disposition": "Provisional Hrelationv1 scope rejected; H-ALIGNv1 and allacceptedtheorems unaffected, none uses unrestrictedM-to-inputlength inference."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "No unrestricted input-bit-to-value or input-size approximation inference is made by this exact accepted statement. Generic finite code charges actual encodings; optional width claims retain explicit value hypotheses. New H companion rejection changes no dependency of ROOT-SAMECLASS-v1."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "H-REL-FV2",
+      "provenance": {
+        "id": "H-REL-FV2",
+        "path": "workers/H/prime-alignment/relation-stdout-v1.json",
+        "sha256": "4e681216483cb93afaad46fb0b80df4c0bd9b02936f49f65336c2ef481715e49",
+        "description": "Eightexactfinite laws143144pairs: Gaussreduced relationbound, actualh, retainedsource/comparatorTV, pushforwardTV, rankfailure/zeroimage. No asymptotic sampler orLLL guarantee.",
+        "disposition": "Hcompanionv2 pendingexact independentreview; source andcomparator normalizerspreserved."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. ROOT-SAMECLASS-v1 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "H-V0-BITLENGTH-1",
+      "provenance": {
+        "id": "H-V0-BITLENGTH-1",
+        "path": "criticism/RH1/parameter-scope-counterexample-v1.md",
+        "sha256": "c55d6e670ddeaf925bbba4df1ac014e6fe58014dba9fd14b7fb979cfbc6db92f",
+        "description": "Polynomial-time encodedscalar evaluation does not bound v0 value: v0*=2^n,d0/=2^n preservesh0/allC8gates while width*=2^n. Hparametersv2upperwidthassertionrejected; core/lowerwidthunaffected.",
+        "disposition": "Exact current independentreview/counterexample; claim-specific gates pending."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "No unrestricted input-bit-to-value or input-size approximation inference is made by this exact accepted statement. Generic finite code charges actual encodings; optional width claims retain explicit value hypotheses. New H companion rejection changes no dependency of ROOT-SAMECLASS-v1."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "RH1-FV1",
+      "provenance": {
+        "id": "RH1-FV1",
+        "path": "criticism/RH1/RH1-FV1-stdout.json",
+        "sha256": "1fff769a63a7906d76689467b48aa08d31db13a878ce413df0a6e21bc828e106",
+        "description": "4802exactpairs,F9residuedegree2, actualindex1/3/9, rationalrankFAIL/nonzeroimages andcomplete source/comparatorTV. PrincipalIeasycontrolonly.",
+        "disposition": "Exact current independentreview/counterexample; claim-specific gates pending."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. ROOT-SAMECLASS-v1 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "HC1-FV1",
+      "provenance": {
+        "id": "HC1-FV1",
+        "path": "criticism/HC1/finite-control-v1/stdout.json",
+        "sha256": "6ee5a339083c6c6186b68ad1b1f0d783a7e17a766de16bc263a2653aa5a2f02f",
+        "description": "Independent exact625 contraction/15625 causal kernelcases,92 equalmarginal unequaljoint cases; full capped comparator(6,5,5)/16 TV1/24, originalCP1 and padded one-slot dispatcher.",
+        "disposition": "Root read entire code/input/output/resource record and full HC1 reports; finite falsification only; exact theorem-specific reconciliation pending."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "Complete endpoint/conditional-TV/code controls agree with the exact scoped interfaces. The same-J composition has its own new gates; ROOT-SAMECLASS-v1 is not broadened by its favorable review. Capped comparator never promoted to exact uniform."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "ROOT-TOWER-FV1",
+      "provenance": {
+        "id": "ROOT-TOWER-FV1",
+        "path": "coordinator/tower-lift/stdout-v1.json",
+        "sha256": "3a92e50bad4b71b3827373c16535dad1fd2accdde7849b47e0eee7cb54436fbe",
+        "description": "19683 exact finite source/comparator cases: proper prime lift has trace projection outside originalideal; uniform quotient maps uniformlytoR/qR. Directresidue-order tables. Finite laws notinfinite Gaussian claims.",
+        "disposition": "New provisional R2 field-lift endpoint, no acceptedclaimdepends; all normalized laws and failure mass retained."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. ROOT-SAMECLASS-v1 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "BT19-NONPRIME-1",
+      "provenance": {
+        "id": "BT19-NONPRIME-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Zi,F=R,I=(4),X2 descends16to4 withoutalignment: primalityrequired fordescent, notprobability.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. ROOT-SAMECLASS-v1 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "BT19-NONSUFFICIENT-1",
+      "provenance": {
+        "id": "BT19-NONSUFFICIENT-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Zi,I=(1+i),X2 aligns butminimalintegerclearingkeepsnorm2: alignmentnecessarynotsufficient.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. ROOT-SAMECLASS-v1 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "BT19-SELECTION-1",
+      "provenance": {
+        "id": "BT19-SELECTION-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Six original drawsZi,I=(2+i),s128 retainatmostone; selectedsuccess>13/20 single-eventbound. Allattemptsmustbepaid.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. ROOT-SAMECLASS-v1 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "BT19-RETRY-1",
+      "provenance": {
+        "id": "BT19-RETRY-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Width2^-b hasnonzero retryexpectation>=exp(pi4^b)/4; finitewidthencodingnotpolynomialretrytime.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. ROOT-SAMECLASS-v1 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "BT18-SYMBOLIC-1",
+      "provenance": {
+        "id": "BT18-SYMBOLIC-1",
+        "path": "criticism/BT18/composition-report-v1.md",
+        "sha256": "c8179c983f5386e743ceec46a8e132118eb205f23d60c75206a8c5ab388add43",
+        "description": "Clean independentfour-interface reconstruction verifiescompleteendpointcharges,rationalradius,duality,allinputcallslotsandordinaryDGSoutput; noexperimentorupstreamreproof.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "Complete endpoint/conditional-TV/code controls agree with the exact scoped interfaces. The same-J composition has its own new gates; ROOT-SAMECLASS-v1 is not broadened by its favorable review. Capped comparator never promoted to exact uniform."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "RT1-MOMENT-FV1",
+      "provenance": {
+        "id": "RT1-MOMENT-FV1",
+        "path": "criticism/RT1/finite-stdout-v1.json",
+        "sha256": "19efdb0a45e366fc64eea6956f7788c7c417cc30b7b15730ae8d054768fbc041",
+        "description": "13122exact triples: product/projection containment and covariance moment identities; allnonzerofactors still projectzero withmass3/64 or20/6561. Retainedfinitecenteredlaws, notinfiniteGaussian theorem.",
+        "disposition": "Root read complete code/input/output/resources; new tower candidate only. No earlier acceptedclaim uses nonzeroproduct-implies-nonzeroprojection."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. ROOT-SAMECLASS-v1 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "C-OHCP-v8CORE",
+      "id": "H-LLL-BITLENGTH-1",
+      "provenance": {
+        "id": "H-LLL-BITLENGTH-1",
+        "path": "coordinator/prime-alignment/h-short-relation-bitlength-gap-before-repair.md",
+        "sha256": "e5a331410725b70a076c25d7b54a7e8fc5a1316bcbba8030e9f709e98fc272ac",
+        "description": "expOmega(sqrt n) LLL certificate is not superpolynomial in inputbits for unrestrictedlogM; m=n,log2M>=2^n givesg_n<=log2M^1/4. Scope gap saved beforev2.",
+        "disposition": "Provisional Hrelationv1 scope rejected; H-ALIGNv1 and allacceptedtheorems unaffected, none uses unrestrictedM-to-inputlength inference."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "No unrestricted input-bit-to-value or input-size approximation inference is made by this exact accepted statement. Generic finite code charges actual encodings; optional width claims retain explicit value hypotheses. New H companion rejection changes no dependency of C-OHCP-v8CORE."
+    },
+    {
+      "claim": "C-OHCP-v8CORE",
+      "id": "H-REL-FV2",
+      "provenance": {
+        "id": "H-REL-FV2",
+        "path": "workers/H/prime-alignment/relation-stdout-v1.json",
+        "sha256": "4e681216483cb93afaad46fb0b80df4c0bd9b02936f49f65336c2ef481715e49",
+        "description": "Eightexactfinite laws143144pairs: Gaussreduced relationbound, actualh, retainedsource/comparatorTV, pushforwardTV, rankfailure/zeroimage. No asymptotic sampler orLLL guarantee.",
+        "disposition": "Hcompanionv2 pendingexact independentreview; source andcomparator normalizerspreserved."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. C-OHCP-v8CORE does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "C-OHCP-v8CORE",
+      "id": "H-V0-BITLENGTH-1",
+      "provenance": {
+        "id": "H-V0-BITLENGTH-1",
+        "path": "criticism/RH1/parameter-scope-counterexample-v1.md",
+        "sha256": "c55d6e670ddeaf925bbba4df1ac014e6fe58014dba9fd14b7fb979cfbc6db92f",
+        "description": "Polynomial-time encodedscalar evaluation does not bound v0 value: v0*=2^n,d0/=2^n preservesh0/allC8gates while width*=2^n. Hparametersv2upperwidthassertionrejected; core/lowerwidthunaffected.",
+        "disposition": "Exact current independentreview/counterexample; claim-specific gates pending."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "No unrestricted input-bit-to-value or input-size approximation inference is made by this exact accepted statement. Generic finite code charges actual encodings; optional width claims retain explicit value hypotheses. New H companion rejection changes no dependency of C-OHCP-v8CORE."
+    },
+    {
+      "claim": "C-OHCP-v8CORE",
+      "id": "RH1-FV1",
+      "provenance": {
+        "id": "RH1-FV1",
+        "path": "criticism/RH1/RH1-FV1-stdout.json",
+        "sha256": "1fff769a63a7906d76689467b48aa08d31db13a878ce413df0a6e21bc828e106",
+        "description": "4802exactpairs,F9residuedegree2, actualindex1/3/9, rationalrankFAIL/nonzeroimages andcomplete source/comparatorTV. PrincipalIeasycontrolonly.",
+        "disposition": "Exact current independentreview/counterexample; claim-specific gates pending."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. C-OHCP-v8CORE does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "C-OHCP-v8CORE",
+      "id": "HC1-FV1",
+      "provenance": {
+        "id": "HC1-FV1",
+        "path": "criticism/HC1/finite-control-v1/stdout.json",
+        "sha256": "6ee5a339083c6c6186b68ad1b1f0d783a7e17a766de16bc263a2653aa5a2f02f",
+        "description": "Independent exact625 contraction/15625 causal kernelcases,92 equalmarginal unequaljoint cases; full capped comparator(6,5,5)/16 TV1/24, originalCP1 and padded one-slot dispatcher.",
+        "disposition": "Root read entire code/input/output/resource record and full HC1 reports; finite falsification only; exact theorem-specific reconciliation pending."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "Complete endpoint/conditional-TV/code controls agree with the exact scoped interfaces. The same-J composition has its own new gates; C-OHCP-v8CORE is not broadened by its favorable review. Capped comparator never promoted to exact uniform."
+    },
+    {
+      "claim": "C-OHCP-v8CORE",
+      "id": "ROOT-TOWER-FV1",
+      "provenance": {
+        "id": "ROOT-TOWER-FV1",
+        "path": "coordinator/tower-lift/stdout-v1.json",
+        "sha256": "3a92e50bad4b71b3827373c16535dad1fd2accdde7849b47e0eee7cb54436fbe",
+        "description": "19683 exact finite source/comparator cases: proper prime lift has trace projection outside originalideal; uniform quotient maps uniformlytoR/qR. Directresidue-order tables. Finite laws notinfinite Gaussian claims.",
+        "disposition": "New provisional R2 field-lift endpoint, no acceptedclaimdepends; all normalized laws and failure mass retained."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. C-OHCP-v8CORE does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "C-OHCP-v8CORE",
+      "id": "BT19-NONPRIME-1",
+      "provenance": {
+        "id": "BT19-NONPRIME-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Zi,F=R,I=(4),X2 descends16to4 withoutalignment: primalityrequired fordescent, notprobability.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. C-OHCP-v8CORE uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "C-OHCP-v8CORE",
+      "id": "BT19-NONSUFFICIENT-1",
+      "provenance": {
+        "id": "BT19-NONSUFFICIENT-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Zi,I=(1+i),X2 aligns butminimalintegerclearingkeepsnorm2: alignmentnecessarynotsufficient.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. C-OHCP-v8CORE uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "C-OHCP-v8CORE",
+      "id": "BT19-SELECTION-1",
+      "provenance": {
+        "id": "BT19-SELECTION-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Six original drawsZi,I=(2+i),s128 retainatmostone; selectedsuccess>13/20 single-eventbound. Allattemptsmustbepaid.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. C-OHCP-v8CORE uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "C-OHCP-v8CORE",
+      "id": "BT19-RETRY-1",
+      "provenance": {
+        "id": "BT19-RETRY-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Width2^-b hasnonzero retryexpectation>=exp(pi4^b)/4; finitewidthencodingnotpolynomialretrytime.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. C-OHCP-v8CORE uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "C-OHCP-v8CORE",
+      "id": "BT18-SYMBOLIC-1",
+      "provenance": {
+        "id": "BT18-SYMBOLIC-1",
+        "path": "criticism/BT18/composition-report-v1.md",
+        "sha256": "c8179c983f5386e743ceec46a8e132118eb205f23d60c75206a8c5ab388add43",
+        "description": "Clean independentfour-interface reconstruction verifiescompleteendpointcharges,rationalradius,duality,allinputcallslotsandordinaryDGSoutput; noexperimentorupstreamreproof.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "Complete endpoint/conditional-TV/code controls agree with the exact scoped interfaces. The same-J composition has its own new gates; C-OHCP-v8CORE is not broadened by its favorable review. Capped comparator never promoted to exact uniform."
+    },
+    {
+      "claim": "C-OHCP-v8CORE",
+      "id": "RT1-MOMENT-FV1",
+      "provenance": {
+        "id": "RT1-MOMENT-FV1",
+        "path": "criticism/RT1/finite-stdout-v1.json",
+        "sha256": "19efdb0a45e366fc64eea6956f7788c7c417cc30b7b15730ae8d054768fbc041",
+        "description": "13122exact triples: product/projection containment and covariance moment identities; allnonzerofactors still projectzero withmass3/64 or20/6561. Retainedfinitecenteredlaws, notinfiniteGaussian theorem.",
+        "disposition": "Root read complete code/input/output/resources; new tower candidate only. No earlier acceptedclaim uses nonzeroproduct-implies-nonzeroprojection."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. C-OHCP-v8CORE does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "H-LLL-BITLENGTH-1",
+      "provenance": {
+        "id": "H-LLL-BITLENGTH-1",
+        "path": "coordinator/prime-alignment/h-short-relation-bitlength-gap-before-repair.md",
+        "sha256": "e5a331410725b70a076c25d7b54a7e8fc5a1316bcbba8030e9f709e98fc272ac",
+        "description": "expOmega(sqrt n) LLL certificate is not superpolynomial in inputbits for unrestrictedlogM; m=n,log2M>=2^n givesg_n<=log2M^1/4. Scope gap saved beforev2.",
+        "disposition": "Provisional Hrelationv1 scope rejected; H-ALIGNv1 and allacceptedtheorems unaffected, none uses unrestrictedM-to-inputlength inference."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "No unrestricted input-bit-to-value or input-size approximation inference is made by this exact accepted statement. Generic finite code charges actual encodings; optional width claims retain explicit value hypotheses. New H companion rejection changes no dependency of ROOT-BINCLASS-v1."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "H-REL-FV2",
+      "provenance": {
+        "id": "H-REL-FV2",
+        "path": "workers/H/prime-alignment/relation-stdout-v1.json",
+        "sha256": "4e681216483cb93afaad46fb0b80df4c0bd9b02936f49f65336c2ef481715e49",
+        "description": "Eightexactfinite laws143144pairs: Gaussreduced relationbound, actualh, retainedsource/comparatorTV, pushforwardTV, rankfailure/zeroimage. No asymptotic sampler orLLL guarantee.",
+        "disposition": "Hcompanionv2 pendingexact independentreview; source andcomparator normalizerspreserved."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. ROOT-BINCLASS-v1 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "H-V0-BITLENGTH-1",
+      "provenance": {
+        "id": "H-V0-BITLENGTH-1",
+        "path": "criticism/RH1/parameter-scope-counterexample-v1.md",
+        "sha256": "c55d6e670ddeaf925bbba4df1ac014e6fe58014dba9fd14b7fb979cfbc6db92f",
+        "description": "Polynomial-time encodedscalar evaluation does not bound v0 value: v0*=2^n,d0/=2^n preservesh0/allC8gates while width*=2^n. Hparametersv2upperwidthassertionrejected; core/lowerwidthunaffected.",
+        "disposition": "Exact current independentreview/counterexample; claim-specific gates pending."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "No unrestricted input-bit-to-value or input-size approximation inference is made by this exact accepted statement. Generic finite code charges actual encodings; optional width claims retain explicit value hypotheses. New H companion rejection changes no dependency of ROOT-BINCLASS-v1."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "RH1-FV1",
+      "provenance": {
+        "id": "RH1-FV1",
+        "path": "criticism/RH1/RH1-FV1-stdout.json",
+        "sha256": "1fff769a63a7906d76689467b48aa08d31db13a878ce413df0a6e21bc828e106",
+        "description": "4802exactpairs,F9residuedegree2, actualindex1/3/9, rationalrankFAIL/nonzeroimages andcomplete source/comparatorTV. PrincipalIeasycontrolonly.",
+        "disposition": "Exact current independentreview/counterexample; claim-specific gates pending."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. ROOT-BINCLASS-v1 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "HC1-FV1",
+      "provenance": {
+        "id": "HC1-FV1",
+        "path": "criticism/HC1/finite-control-v1/stdout.json",
+        "sha256": "6ee5a339083c6c6186b68ad1b1f0d783a7e17a766de16bc263a2653aa5a2f02f",
+        "description": "Independent exact625 contraction/15625 causal kernelcases,92 equalmarginal unequaljoint cases; full capped comparator(6,5,5)/16 TV1/24, originalCP1 and padded one-slot dispatcher.",
+        "disposition": "Root read entire code/input/output/resource record and full HC1 reports; finite falsification only; exact theorem-specific reconciliation pending."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "Complete endpoint/conditional-TV/code controls agree with the exact scoped interfaces. The same-J composition has its own new gates; ROOT-BINCLASS-v1 is not broadened by its favorable review. Capped comparator never promoted to exact uniform."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "ROOT-TOWER-FV1",
+      "provenance": {
+        "id": "ROOT-TOWER-FV1",
+        "path": "coordinator/tower-lift/stdout-v1.json",
+        "sha256": "3a92e50bad4b71b3827373c16535dad1fd2accdde7849b47e0eee7cb54436fbe",
+        "description": "19683 exact finite source/comparator cases: proper prime lift has trace projection outside originalideal; uniform quotient maps uniformlytoR/qR. Directresidue-order tables. Finite laws notinfinite Gaussian claims.",
+        "disposition": "New provisional R2 field-lift endpoint, no acceptedclaimdepends; all normalized laws and failure mass retained."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. ROOT-BINCLASS-v1 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "BT19-NONPRIME-1",
+      "provenance": {
+        "id": "BT19-NONPRIME-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Zi,F=R,I=(4),X2 descends16to4 withoutalignment: primalityrequired fordescent, notprobability.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. ROOT-BINCLASS-v1 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "BT19-NONSUFFICIENT-1",
+      "provenance": {
+        "id": "BT19-NONSUFFICIENT-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Zi,I=(1+i),X2 aligns butminimalintegerclearingkeepsnorm2: alignmentnecessarynotsufficient.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. ROOT-BINCLASS-v1 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "BT19-SELECTION-1",
+      "provenance": {
+        "id": "BT19-SELECTION-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Six original drawsZi,I=(2+i),s128 retainatmostone; selectedsuccess>13/20 single-eventbound. Allattemptsmustbepaid.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. ROOT-BINCLASS-v1 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "BT19-RETRY-1",
+      "provenance": {
+        "id": "BT19-RETRY-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Width2^-b hasnonzero retryexpectation>=exp(pi4^b)/4; finitewidthencodingnotpolynomialretrytime.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. ROOT-BINCLASS-v1 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "BT18-SYMBOLIC-1",
+      "provenance": {
+        "id": "BT18-SYMBOLIC-1",
+        "path": "criticism/BT18/composition-report-v1.md",
+        "sha256": "c8179c983f5386e743ceec46a8e132118eb205f23d60c75206a8c5ab388add43",
+        "description": "Clean independentfour-interface reconstruction verifiescompleteendpointcharges,rationalradius,duality,allinputcallslotsandordinaryDGSoutput; noexperimentorupstreamreproof.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "Complete endpoint/conditional-TV/code controls agree with the exact scoped interfaces. The same-J composition has its own new gates; ROOT-BINCLASS-v1 is not broadened by its favorable review. Capped comparator never promoted to exact uniform."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "RT1-MOMENT-FV1",
+      "provenance": {
+        "id": "RT1-MOMENT-FV1",
+        "path": "criticism/RT1/finite-stdout-v1.json",
+        "sha256": "19efdb0a45e366fc64eea6956f7788c7c417cc30b7b15730ae8d054768fbc041",
+        "description": "13122exact triples: product/projection containment and covariance moment identities; allnonzerofactors still projectzero withmass3/64 or20/6561. Retainedfinitecenteredlaws, notinfiniteGaussian theorem.",
+        "disposition": "Root read complete code/input/output/resources; new tower candidate only. No earlier acceptedclaim uses nonzeroproduct-implies-nonzeroprojection."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. ROOT-BINCLASS-v1 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "H-LLL-BITLENGTH-1",
+      "provenance": {
+        "id": "H-LLL-BITLENGTH-1",
+        "path": "coordinator/prime-alignment/h-short-relation-bitlength-gap-before-repair.md",
+        "sha256": "e5a331410725b70a076c25d7b54a7e8fc5a1316bcbba8030e9f709e98fc272ac",
+        "description": "expOmega(sqrt n) LLL certificate is not superpolynomial in inputbits for unrestrictedlogM; m=n,log2M>=2^n givesg_n<=log2M^1/4. Scope gap saved beforev2.",
+        "disposition": "Provisional Hrelationv1 scope rejected; H-ALIGNv1 and allacceptedtheorems unaffected, none uses unrestrictedM-to-inputlength inference."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "No unrestricted input-bit-to-value or input-size approximation inference is made by this exact accepted statement. Generic finite code charges actual encodings; optional width claims retain explicit value hypotheses. New H companion rejection changes no dependency of E-PAIR-v2."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "H-REL-FV2",
+      "provenance": {
+        "id": "H-REL-FV2",
+        "path": "workers/H/prime-alignment/relation-stdout-v1.json",
+        "sha256": "4e681216483cb93afaad46fb0b80df4c0bd9b02936f49f65336c2ef481715e49",
+        "description": "Eightexactfinite laws143144pairs: Gaussreduced relationbound, actualh, retainedsource/comparatorTV, pushforwardTV, rankfailure/zeroimage. No asymptotic sampler orLLL guarantee.",
+        "disposition": "Hcompanionv2 pendingexact independentreview; source andcomparator normalizerspreserved."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. E-PAIR-v2 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "H-V0-BITLENGTH-1",
+      "provenance": {
+        "id": "H-V0-BITLENGTH-1",
+        "path": "criticism/RH1/parameter-scope-counterexample-v1.md",
+        "sha256": "c55d6e670ddeaf925bbba4df1ac014e6fe58014dba9fd14b7fb979cfbc6db92f",
+        "description": "Polynomial-time encodedscalar evaluation does not bound v0 value: v0*=2^n,d0/=2^n preservesh0/allC8gates while width*=2^n. Hparametersv2upperwidthassertionrejected; core/lowerwidthunaffected.",
+        "disposition": "Exact current independentreview/counterexample; claim-specific gates pending."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "No unrestricted input-bit-to-value or input-size approximation inference is made by this exact accepted statement. Generic finite code charges actual encodings; optional width claims retain explicit value hypotheses. New H companion rejection changes no dependency of E-PAIR-v2."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "RH1-FV1",
+      "provenance": {
+        "id": "RH1-FV1",
+        "path": "criticism/RH1/RH1-FV1-stdout.json",
+        "sha256": "1fff769a63a7906d76689467b48aa08d31db13a878ce413df0a6e21bc828e106",
+        "description": "4802exactpairs,F9residuedegree2, actualindex1/3/9, rationalrankFAIL/nonzeroimages andcomplete source/comparatorTV. PrincipalIeasycontrolonly.",
+        "disposition": "Exact current independentreview/counterexample; claim-specific gates pending."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. E-PAIR-v2 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "HC1-FV1",
+      "provenance": {
+        "id": "HC1-FV1",
+        "path": "criticism/HC1/finite-control-v1/stdout.json",
+        "sha256": "6ee5a339083c6c6186b68ad1b1f0d783a7e17a766de16bc263a2653aa5a2f02f",
+        "description": "Independent exact625 contraction/15625 causal kernelcases,92 equalmarginal unequaljoint cases; full capped comparator(6,5,5)/16 TV1/24, originalCP1 and padded one-slot dispatcher.",
+        "disposition": "Root read entire code/input/output/resource record and full HC1 reports; finite falsification only; exact theorem-specific reconciliation pending."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "Complete endpoint/conditional-TV/code controls agree with the exact scoped interfaces. The same-J composition has its own new gates; E-PAIR-v2 is not broadened by its favorable review. Capped comparator never promoted to exact uniform."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "ROOT-TOWER-FV1",
+      "provenance": {
+        "id": "ROOT-TOWER-FV1",
+        "path": "coordinator/tower-lift/stdout-v1.json",
+        "sha256": "3a92e50bad4b71b3827373c16535dad1fd2accdde7849b47e0eee7cb54436fbe",
+        "description": "19683 exact finite source/comparator cases: proper prime lift has trace projection outside originalideal; uniform quotient maps uniformlytoR/qR. Directresidue-order tables. Finite laws notinfinite Gaussian claims.",
+        "disposition": "New provisional R2 field-lift endpoint, no acceptedclaimdepends; all normalized laws and failure mass retained."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. E-PAIR-v2 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "BT19-NONPRIME-1",
+      "provenance": {
+        "id": "BT19-NONPRIME-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Zi,F=R,I=(4),X2 descends16to4 withoutalignment: primalityrequired fordescent, notprobability.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. E-PAIR-v2 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "BT19-NONSUFFICIENT-1",
+      "provenance": {
+        "id": "BT19-NONSUFFICIENT-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Zi,I=(1+i),X2 aligns butminimalintegerclearingkeepsnorm2: alignmentnecessarynotsufficient.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. E-PAIR-v2 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "BT19-SELECTION-1",
+      "provenance": {
+        "id": "BT19-SELECTION-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Six original drawsZi,I=(2+i),s128 retainatmostone; selectedsuccess>13/20 single-eventbound. Allattemptsmustbepaid.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. E-PAIR-v2 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "BT19-RETRY-1",
+      "provenance": {
+        "id": "BT19-RETRY-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Width2^-b hasnonzero retryexpectation>=exp(pi4^b)/4; finitewidthencodingnotpolynomialretrytime.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. E-PAIR-v2 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "BT18-SYMBOLIC-1",
+      "provenance": {
+        "id": "BT18-SYMBOLIC-1",
+        "path": "criticism/BT18/composition-report-v1.md",
+        "sha256": "c8179c983f5386e743ceec46a8e132118eb205f23d60c75206a8c5ab388add43",
+        "description": "Clean independentfour-interface reconstruction verifiescompleteendpointcharges,rationalradius,duality,allinputcallslotsandordinaryDGSoutput; noexperimentorupstreamreproof.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "Complete endpoint/conditional-TV/code controls agree with the exact scoped interfaces. The same-J composition has its own new gates; E-PAIR-v2 is not broadened by its favorable review. Capped comparator never promoted to exact uniform."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "RT1-MOMENT-FV1",
+      "provenance": {
+        "id": "RT1-MOMENT-FV1",
+        "path": "criticism/RT1/finite-stdout-v1.json",
+        "sha256": "19efdb0a45e366fc64eea6956f7788c7c417cc30b7b15730ae8d054768fbc041",
+        "description": "13122exact triples: product/projection containment and covariance moment identities; allnonzerofactors still projectzero withmass3/64 or20/6561. Retainedfinitecenteredlaws, notinfiniteGaussian theorem.",
+        "disposition": "Root read complete code/input/output/resources; new tower candidate only. No earlier acceptedclaim uses nonzeroproduct-implies-nonzeroprojection."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. E-PAIR-v2 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "H-LLL-BITLENGTH-1",
+      "provenance": {
+        "id": "H-LLL-BITLENGTH-1",
+        "path": "coordinator/prime-alignment/h-short-relation-bitlength-gap-before-repair.md",
+        "sha256": "e5a331410725b70a076c25d7b54a7e8fc5a1316bcbba8030e9f709e98fc272ac",
+        "description": "expOmega(sqrt n) LLL certificate is not superpolynomial in inputbits for unrestrictedlogM; m=n,log2M>=2^n givesg_n<=log2M^1/4. Scope gap saved beforev2.",
+        "disposition": "Provisional Hrelationv1 scope rejected; H-ALIGNv1 and allacceptedtheorems unaffected, none uses unrestrictedM-to-inputlength inference."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "No unrestricted input-bit-to-value or input-size approximation inference is made by this exact accepted statement. Generic finite code charges actual encodings; optional width claims retain explicit value hypotheses. New H companion rejection changes no dependency of ROOT-FRAC-SMALLBALL-v3."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "H-REL-FV2",
+      "provenance": {
+        "id": "H-REL-FV2",
+        "path": "workers/H/prime-alignment/relation-stdout-v1.json",
+        "sha256": "4e681216483cb93afaad46fb0b80df4c0bd9b02936f49f65336c2ef481715e49",
+        "description": "Eightexactfinite laws143144pairs: Gaussreduced relationbound, actualh, retainedsource/comparatorTV, pushforwardTV, rankfailure/zeroimage. No asymptotic sampler orLLL guarantee.",
+        "disposition": "Hcompanionv2 pendingexact independentreview; source andcomparator normalizerspreserved."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. ROOT-FRAC-SMALLBALL-v3 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "H-V0-BITLENGTH-1",
+      "provenance": {
+        "id": "H-V0-BITLENGTH-1",
+        "path": "criticism/RH1/parameter-scope-counterexample-v1.md",
+        "sha256": "c55d6e670ddeaf925bbba4df1ac014e6fe58014dba9fd14b7fb979cfbc6db92f",
+        "description": "Polynomial-time encodedscalar evaluation does not bound v0 value: v0*=2^n,d0/=2^n preservesh0/allC8gates while width*=2^n. Hparametersv2upperwidthassertionrejected; core/lowerwidthunaffected.",
+        "disposition": "Exact current independentreview/counterexample; claim-specific gates pending."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "No unrestricted input-bit-to-value or input-size approximation inference is made by this exact accepted statement. Generic finite code charges actual encodings; optional width claims retain explicit value hypotheses. New H companion rejection changes no dependency of ROOT-FRAC-SMALLBALL-v3."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "RH1-FV1",
+      "provenance": {
+        "id": "RH1-FV1",
+        "path": "criticism/RH1/RH1-FV1-stdout.json",
+        "sha256": "1fff769a63a7906d76689467b48aa08d31db13a878ce413df0a6e21bc828e106",
+        "description": "4802exactpairs,F9residuedegree2, actualindex1/3/9, rationalrankFAIL/nonzeroimages andcomplete source/comparatorTV. PrincipalIeasycontrolonly.",
+        "disposition": "Exact current independentreview/counterexample; claim-specific gates pending."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. ROOT-FRAC-SMALLBALL-v3 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "HC1-FV1",
+      "provenance": {
+        "id": "HC1-FV1",
+        "path": "criticism/HC1/finite-control-v1/stdout.json",
+        "sha256": "6ee5a339083c6c6186b68ad1b1f0d783a7e17a766de16bc263a2653aa5a2f02f",
+        "description": "Independent exact625 contraction/15625 causal kernelcases,92 equalmarginal unequaljoint cases; full capped comparator(6,5,5)/16 TV1/24, originalCP1 and padded one-slot dispatcher.",
+        "disposition": "Root read entire code/input/output/resource record and full HC1 reports; finite falsification only; exact theorem-specific reconciliation pending."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "Complete endpoint/conditional-TV/code controls agree with the exact scoped interfaces. The same-J composition has its own new gates; ROOT-FRAC-SMALLBALL-v3 is not broadened by its favorable review. Capped comparator never promoted to exact uniform."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "ROOT-TOWER-FV1",
+      "provenance": {
+        "id": "ROOT-TOWER-FV1",
+        "path": "coordinator/tower-lift/stdout-v1.json",
+        "sha256": "3a92e50bad4b71b3827373c16535dad1fd2accdde7849b47e0eee7cb54436fbe",
+        "description": "19683 exact finite source/comparator cases: proper prime lift has trace projection outside originalideal; uniform quotient maps uniformlytoR/qR. Directresidue-order tables. Finite laws notinfinite Gaussian claims.",
+        "disposition": "New provisional R2 field-lift endpoint, no acceptedclaimdepends; all normalized laws and failure mass retained."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. ROOT-FRAC-SMALLBALL-v3 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "BT19-NONPRIME-1",
+      "provenance": {
+        "id": "BT19-NONPRIME-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Zi,F=R,I=(4),X2 descends16to4 withoutalignment: primalityrequired fordescent, notprobability.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. ROOT-FRAC-SMALLBALL-v3 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "BT19-NONSUFFICIENT-1",
+      "provenance": {
+        "id": "BT19-NONSUFFICIENT-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Zi,I=(1+i),X2 aligns butminimalintegerclearingkeepsnorm2: alignmentnecessarynotsufficient.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. ROOT-FRAC-SMALLBALL-v3 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "BT19-SELECTION-1",
+      "provenance": {
+        "id": "BT19-SELECTION-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Six original drawsZi,I=(2+i),s128 retainatmostone; selectedsuccess>13/20 single-eventbound. Allattemptsmustbepaid.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. ROOT-FRAC-SMALLBALL-v3 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "BT19-RETRY-1",
+      "provenance": {
+        "id": "BT19-RETRY-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Width2^-b hasnonzero retryexpectation>=exp(pi4^b)/4; finitewidthencodingnotpolynomialretrytime.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. ROOT-FRAC-SMALLBALL-v3 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "BT18-SYMBOLIC-1",
+      "provenance": {
+        "id": "BT18-SYMBOLIC-1",
+        "path": "criticism/BT18/composition-report-v1.md",
+        "sha256": "c8179c983f5386e743ceec46a8e132118eb205f23d60c75206a8c5ab388add43",
+        "description": "Clean independentfour-interface reconstruction verifiescompleteendpointcharges,rationalradius,duality,allinputcallslotsandordinaryDGSoutput; noexperimentorupstreamreproof.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "Complete endpoint/conditional-TV/code controls agree with the exact scoped interfaces. The same-J composition has its own new gates; ROOT-FRAC-SMALLBALL-v3 is not broadened by its favorable review. Capped comparator never promoted to exact uniform."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "RT1-MOMENT-FV1",
+      "provenance": {
+        "id": "RT1-MOMENT-FV1",
+        "path": "criticism/RT1/finite-stdout-v1.json",
+        "sha256": "19efdb0a45e366fc64eea6956f7788c7c417cc30b7b15730ae8d054768fbc041",
+        "description": "13122exact triples: product/projection containment and covariance moment identities; allnonzerofactors still projectzero withmass3/64 or20/6561. Retainedfinitecenteredlaws, notinfiniteGaussian theorem.",
+        "disposition": "Root read complete code/input/output/resources; new tower candidate only. No earlier acceptedclaim uses nonzeroproduct-implies-nonzeroprojection."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. ROOT-FRAC-SMALLBALL-v3 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "H-LLL-BITLENGTH-1",
+      "provenance": {
+        "id": "H-LLL-BITLENGTH-1",
+        "path": "coordinator/prime-alignment/h-short-relation-bitlength-gap-before-repair.md",
+        "sha256": "e5a331410725b70a076c25d7b54a7e8fc5a1316bcbba8030e9f709e98fc272ac",
+        "description": "expOmega(sqrt n) LLL certificate is not superpolynomial in inputbits for unrestrictedlogM; m=n,log2M>=2^n givesg_n<=log2M^1/4. Scope gap saved beforev2.",
+        "disposition": "Provisional Hrelationv1 scope rejected; H-ALIGNv1 and allacceptedtheorems unaffected, none uses unrestrictedM-to-inputlength inference."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "No unrestricted input-bit-to-value or input-size approximation inference is made by this exact accepted statement. Generic finite code charges actual encodings; optional width claims retain explicit value hypotheses. New H companion rejection changes no dependency of F-QCOH-v1."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "H-REL-FV2",
+      "provenance": {
+        "id": "H-REL-FV2",
+        "path": "workers/H/prime-alignment/relation-stdout-v1.json",
+        "sha256": "4e681216483cb93afaad46fb0b80df4c0bd9b02936f49f65336c2ef481715e49",
+        "description": "Eightexactfinite laws143144pairs: Gaussreduced relationbound, actualh, retainedsource/comparatorTV, pushforwardTV, rankfailure/zeroimage. No asymptotic sampler orLLL guarantee.",
+        "disposition": "Hcompanionv2 pendingexact independentreview; source andcomparator normalizerspreserved."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. F-QCOH-v1 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "H-V0-BITLENGTH-1",
+      "provenance": {
+        "id": "H-V0-BITLENGTH-1",
+        "path": "criticism/RH1/parameter-scope-counterexample-v1.md",
+        "sha256": "c55d6e670ddeaf925bbba4df1ac014e6fe58014dba9fd14b7fb979cfbc6db92f",
+        "description": "Polynomial-time encodedscalar evaluation does not bound v0 value: v0*=2^n,d0/=2^n preservesh0/allC8gates while width*=2^n. Hparametersv2upperwidthassertionrejected; core/lowerwidthunaffected.",
+        "disposition": "Exact current independentreview/counterexample; claim-specific gates pending."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "No unrestricted input-bit-to-value or input-size approximation inference is made by this exact accepted statement. Generic finite code charges actual encodings; optional width claims retain explicit value hypotheses. New H companion rejection changes no dependency of F-QCOH-v1."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "RH1-FV1",
+      "provenance": {
+        "id": "RH1-FV1",
+        "path": "criticism/RH1/RH1-FV1-stdout.json",
+        "sha256": "1fff769a63a7906d76689467b48aa08d31db13a878ce413df0a6e21bc828e106",
+        "description": "4802exactpairs,F9residuedegree2, actualindex1/3/9, rationalrankFAIL/nonzeroimages andcomplete source/comparatorTV. PrincipalIeasycontrolonly.",
+        "disposition": "Exact current independentreview/counterexample; claim-specific gates pending."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. F-QCOH-v1 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "HC1-FV1",
+      "provenance": {
+        "id": "HC1-FV1",
+        "path": "criticism/HC1/finite-control-v1/stdout.json",
+        "sha256": "6ee5a339083c6c6186b68ad1b1f0d783a7e17a766de16bc263a2653aa5a2f02f",
+        "description": "Independent exact625 contraction/15625 causal kernelcases,92 equalmarginal unequaljoint cases; full capped comparator(6,5,5)/16 TV1/24, originalCP1 and padded one-slot dispatcher.",
+        "disposition": "Root read entire code/input/output/resource record and full HC1 reports; finite falsification only; exact theorem-specific reconciliation pending."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "Complete endpoint/conditional-TV/code controls agree with the exact scoped interfaces. The same-J composition has its own new gates; F-QCOH-v1 is not broadened by its favorable review. Capped comparator never promoted to exact uniform."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "ROOT-TOWER-FV1",
+      "provenance": {
+        "id": "ROOT-TOWER-FV1",
+        "path": "coordinator/tower-lift/stdout-v1.json",
+        "sha256": "3a92e50bad4b71b3827373c16535dad1fd2accdde7849b47e0eee7cb54436fbe",
+        "description": "19683 exact finite source/comparator cases: proper prime lift has trace projection outside originalideal; uniform quotient maps uniformlytoR/qR. Directresidue-order tables. Finite laws notinfinite Gaussian claims.",
+        "disposition": "New provisional R2 field-lift endpoint, no acceptedclaimdepends; all normalized laws and failure mass retained."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. F-QCOH-v1 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "BT19-NONPRIME-1",
+      "provenance": {
+        "id": "BT19-NONPRIME-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Zi,F=R,I=(4),X2 descends16to4 withoutalignment: primalityrequired fordescent, notprobability.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. F-QCOH-v1 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "BT19-NONSUFFICIENT-1",
+      "provenance": {
+        "id": "BT19-NONSUFFICIENT-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Zi,I=(1+i),X2 aligns butminimalintegerclearingkeepsnorm2: alignmentnecessarynotsufficient.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. F-QCOH-v1 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "BT19-SELECTION-1",
+      "provenance": {
+        "id": "BT19-SELECTION-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Six original drawsZi,I=(2+i),s128 retainatmostone; selectedsuccess>13/20 single-eventbound. Allattemptsmustbepaid.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. F-QCOH-v1 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "BT19-RETRY-1",
+      "provenance": {
+        "id": "BT19-RETRY-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Width2^-b hasnonzero retryexpectation>=exp(pi4^b)/4; finitewidthencodingnotpolynomialretrytime.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. F-QCOH-v1 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "BT18-SYMBOLIC-1",
+      "provenance": {
+        "id": "BT18-SYMBOLIC-1",
+        "path": "criticism/BT18/composition-report-v1.md",
+        "sha256": "c8179c983f5386e743ceec46a8e132118eb205f23d60c75206a8c5ab388add43",
+        "description": "Clean independentfour-interface reconstruction verifiescompleteendpointcharges,rationalradius,duality,allinputcallslotsandordinaryDGSoutput; noexperimentorupstreamreproof.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "Complete endpoint/conditional-TV/code controls agree with the exact scoped interfaces. The same-J composition has its own new gates; F-QCOH-v1 is not broadened by its favorable review. Capped comparator never promoted to exact uniform."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "RT1-MOMENT-FV1",
+      "provenance": {
+        "id": "RT1-MOMENT-FV1",
+        "path": "criticism/RT1/finite-stdout-v1.json",
+        "sha256": "19efdb0a45e366fc64eea6956f7788c7c417cc30b7b15730ae8d054768fbc041",
+        "description": "13122exact triples: product/projection containment and covariance moment identities; allnonzerofactors still projectzero withmass3/64 or20/6561. Retainedfinitecenteredlaws, notinfiniteGaussian theorem.",
+        "disposition": "Root read complete code/input/output/resources; new tower candidate only. No earlier acceptedclaim uses nonzeroproduct-implies-nonzeroprojection."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. F-QCOH-v1 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "H-LLL-BITLENGTH-1",
+      "provenance": {
+        "id": "H-LLL-BITLENGTH-1",
+        "path": "coordinator/prime-alignment/h-short-relation-bitlength-gap-before-repair.md",
+        "sha256": "e5a331410725b70a076c25d7b54a7e8fc5a1316bcbba8030e9f709e98fc272ac",
+        "description": "expOmega(sqrt n) LLL certificate is not superpolynomial in inputbits for unrestrictedlogM; m=n,log2M>=2^n givesg_n<=log2M^1/4. Scope gap saved beforev2.",
+        "disposition": "Provisional Hrelationv1 scope rejected; H-ALIGNv1 and allacceptedtheorems unaffected, none uses unrestrictedM-to-inputlength inference."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "No unrestricted input-bit-to-value or input-size approximation inference is made by this exact accepted statement. Generic finite code charges actual encodings; optional width claims retain explicit value hypotheses. New H companion rejection changes no dependency of ROOT-PLANTED-INFO-v1."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "H-REL-FV2",
+      "provenance": {
+        "id": "H-REL-FV2",
+        "path": "workers/H/prime-alignment/relation-stdout-v1.json",
+        "sha256": "4e681216483cb93afaad46fb0b80df4c0bd9b02936f49f65336c2ef481715e49",
+        "description": "Eightexactfinite laws143144pairs: Gaussreduced relationbound, actualh, retainedsource/comparatorTV, pushforwardTV, rankfailure/zeroimage. No asymptotic sampler orLLL guarantee.",
+        "disposition": "Hcompanionv2 pendingexact independentreview; source andcomparator normalizerspreserved."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. ROOT-PLANTED-INFO-v1 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "H-V0-BITLENGTH-1",
+      "provenance": {
+        "id": "H-V0-BITLENGTH-1",
+        "path": "criticism/RH1/parameter-scope-counterexample-v1.md",
+        "sha256": "c55d6e670ddeaf925bbba4df1ac014e6fe58014dba9fd14b7fb979cfbc6db92f",
+        "description": "Polynomial-time encodedscalar evaluation does not bound v0 value: v0*=2^n,d0/=2^n preservesh0/allC8gates while width*=2^n. Hparametersv2upperwidthassertionrejected; core/lowerwidthunaffected.",
+        "disposition": "Exact current independentreview/counterexample; claim-specific gates pending."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "No unrestricted input-bit-to-value or input-size approximation inference is made by this exact accepted statement. Generic finite code charges actual encodings; optional width claims retain explicit value hypotheses. New H companion rejection changes no dependency of ROOT-PLANTED-INFO-v1."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "RH1-FV1",
+      "provenance": {
+        "id": "RH1-FV1",
+        "path": "criticism/RH1/RH1-FV1-stdout.json",
+        "sha256": "1fff769a63a7906d76689467b48aa08d31db13a878ce413df0a6e21bc828e106",
+        "description": "4802exactpairs,F9residuedegree2, actualindex1/3/9, rationalrankFAIL/nonzeroimages andcomplete source/comparatorTV. PrincipalIeasycontrolonly.",
+        "disposition": "Exact current independentreview/counterexample; claim-specific gates pending."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. ROOT-PLANTED-INFO-v1 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "HC1-FV1",
+      "provenance": {
+        "id": "HC1-FV1",
+        "path": "criticism/HC1/finite-control-v1/stdout.json",
+        "sha256": "6ee5a339083c6c6186b68ad1b1f0d783a7e17a766de16bc263a2653aa5a2f02f",
+        "description": "Independent exact625 contraction/15625 causal kernelcases,92 equalmarginal unequaljoint cases; full capped comparator(6,5,5)/16 TV1/24, originalCP1 and padded one-slot dispatcher.",
+        "disposition": "Root read entire code/input/output/resource record and full HC1 reports; finite falsification only; exact theorem-specific reconciliation pending."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "Complete endpoint/conditional-TV/code controls agree with the exact scoped interfaces. The same-J composition has its own new gates; ROOT-PLANTED-INFO-v1 is not broadened by its favorable review. Capped comparator never promoted to exact uniform."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "ROOT-TOWER-FV1",
+      "provenance": {
+        "id": "ROOT-TOWER-FV1",
+        "path": "coordinator/tower-lift/stdout-v1.json",
+        "sha256": "3a92e50bad4b71b3827373c16535dad1fd2accdde7849b47e0eee7cb54436fbe",
+        "description": "19683 exact finite source/comparator cases: proper prime lift has trace projection outside originalideal; uniform quotient maps uniformlytoR/qR. Directresidue-order tables. Finite laws notinfinite Gaussian claims.",
+        "disposition": "New provisional R2 field-lift endpoint, no acceptedclaimdepends; all normalized laws and failure mass retained."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. ROOT-PLANTED-INFO-v1 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "BT19-NONPRIME-1",
+      "provenance": {
+        "id": "BT19-NONPRIME-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Zi,F=R,I=(4),X2 descends16to4 withoutalignment: primalityrequired fordescent, notprobability.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. ROOT-PLANTED-INFO-v1 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "BT19-NONSUFFICIENT-1",
+      "provenance": {
+        "id": "BT19-NONSUFFICIENT-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Zi,I=(1+i),X2 aligns butminimalintegerclearingkeepsnorm2: alignmentnecessarynotsufficient.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. ROOT-PLANTED-INFO-v1 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "BT19-SELECTION-1",
+      "provenance": {
+        "id": "BT19-SELECTION-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Six original drawsZi,I=(2+i),s128 retainatmostone; selectedsuccess>13/20 single-eventbound. Allattemptsmustbepaid.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. ROOT-PLANTED-INFO-v1 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "BT19-RETRY-1",
+      "provenance": {
+        "id": "BT19-RETRY-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Width2^-b hasnonzero retryexpectation>=exp(pi4^b)/4; finitewidthencodingnotpolynomialretrytime.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. ROOT-PLANTED-INFO-v1 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "BT18-SYMBOLIC-1",
+      "provenance": {
+        "id": "BT18-SYMBOLIC-1",
+        "path": "criticism/BT18/composition-report-v1.md",
+        "sha256": "c8179c983f5386e743ceec46a8e132118eb205f23d60c75206a8c5ab388add43",
+        "description": "Clean independentfour-interface reconstruction verifiescompleteendpointcharges,rationalradius,duality,allinputcallslotsandordinaryDGSoutput; noexperimentorupstreamreproof.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "Complete endpoint/conditional-TV/code controls agree with the exact scoped interfaces. The same-J composition has its own new gates; ROOT-PLANTED-INFO-v1 is not broadened by its favorable review. Capped comparator never promoted to exact uniform."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "RT1-MOMENT-FV1",
+      "provenance": {
+        "id": "RT1-MOMENT-FV1",
+        "path": "criticism/RT1/finite-stdout-v1.json",
+        "sha256": "19efdb0a45e366fc64eea6956f7788c7c417cc30b7b15730ae8d054768fbc041",
+        "description": "13122exact triples: product/projection containment and covariance moment identities; allnonzerofactors still projectzero withmass3/64 or20/6561. Retainedfinitecenteredlaws, notinfiniteGaussian theorem.",
+        "disposition": "Root read complete code/input/output/resources; new tower candidate only. No earlier acceptedclaim uses nonzeroproduct-implies-nonzeroprojection."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. ROOT-PLANTED-INFO-v1 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "id": "H-LLL-BITLENGTH-1",
+      "provenance": {
+        "id": "H-LLL-BITLENGTH-1",
+        "path": "coordinator/prime-alignment/h-short-relation-bitlength-gap-before-repair.md",
+        "sha256": "e5a331410725b70a076c25d7b54a7e8fc5a1316bcbba8030e9f709e98fc272ac",
+        "description": "expOmega(sqrt n) LLL certificate is not superpolynomial in inputbits for unrestrictedlogM; m=n,log2M>=2^n givesg_n<=log2M^1/4. Scope gap saved beforev2.",
+        "disposition": "Provisional Hrelationv1 scope rejected; H-ALIGNv1 and allacceptedtheorems unaffected, none uses unrestrictedM-to-inputlength inference."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "No unrestricted input-bit-to-value or input-size approximation inference is made by this exact accepted statement. Generic finite code charges actual encodings; optional width claims retain explicit value hypotheses. New H companion rejection changes no dependency of F-QFINITE-v2."
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "id": "H-REL-FV2",
+      "provenance": {
+        "id": "H-REL-FV2",
+        "path": "workers/H/prime-alignment/relation-stdout-v1.json",
+        "sha256": "4e681216483cb93afaad46fb0b80df4c0bd9b02936f49f65336c2ef481715e49",
+        "description": "Eightexactfinite laws143144pairs: Gaussreduced relationbound, actualh, retainedsource/comparatorTV, pushforwardTV, rankfailure/zeroimage. No asymptotic sampler orLLL guarantee.",
+        "disposition": "Hcompanionv2 pendingexact independentreview; source andcomparator normalizerspreserved."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. F-QFINITE-v2 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "id": "H-V0-BITLENGTH-1",
+      "provenance": {
+        "id": "H-V0-BITLENGTH-1",
+        "path": "criticism/RH1/parameter-scope-counterexample-v1.md",
+        "sha256": "c55d6e670ddeaf925bbba4df1ac014e6fe58014dba9fd14b7fb979cfbc6db92f",
+        "description": "Polynomial-time encodedscalar evaluation does not bound v0 value: v0*=2^n,d0/=2^n preservesh0/allC8gates while width*=2^n. Hparametersv2upperwidthassertionrejected; core/lowerwidthunaffected.",
+        "disposition": "Exact current independentreview/counterexample; claim-specific gates pending."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "No unrestricted input-bit-to-value or input-size approximation inference is made by this exact accepted statement. Generic finite code charges actual encodings; optional width claims retain explicit value hypotheses. New H companion rejection changes no dependency of F-QFINITE-v2."
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "id": "RH1-FV1",
+      "provenance": {
+        "id": "RH1-FV1",
+        "path": "criticism/RH1/RH1-FV1-stdout.json",
+        "sha256": "1fff769a63a7906d76689467b48aa08d31db13a878ce413df0a6e21bc828e106",
+        "description": "4802exactpairs,F9residuedegree2, actualindex1/3/9, rationalrankFAIL/nonzeroimages andcomplete source/comparatorTV. PrincipalIeasycontrolonly.",
+        "disposition": "Exact current independentreview/counterexample; claim-specific gates pending."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. F-QFINITE-v2 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "id": "HC1-FV1",
+      "provenance": {
+        "id": "HC1-FV1",
+        "path": "criticism/HC1/finite-control-v1/stdout.json",
+        "sha256": "6ee5a339083c6c6186b68ad1b1f0d783a7e17a766de16bc263a2653aa5a2f02f",
+        "description": "Independent exact625 contraction/15625 causal kernelcases,92 equalmarginal unequaljoint cases; full capped comparator(6,5,5)/16 TV1/24, originalCP1 and padded one-slot dispatcher.",
+        "disposition": "Root read entire code/input/output/resource record and full HC1 reports; finite falsification only; exact theorem-specific reconciliation pending."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "Complete endpoint/conditional-TV/code controls agree with the exact scoped interfaces. The same-J composition has its own new gates; F-QFINITE-v2 is not broadened by its favorable review. Capped comparator never promoted to exact uniform."
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "id": "ROOT-TOWER-FV1",
+      "provenance": {
+        "id": "ROOT-TOWER-FV1",
+        "path": "coordinator/tower-lift/stdout-v1.json",
+        "sha256": "3a92e50bad4b71b3827373c16535dad1fd2accdde7849b47e0eee7cb54436fbe",
+        "description": "19683 exact finite source/comparator cases: proper prime lift has trace projection outside originalideal; uniform quotient maps uniformlytoR/qR. Directresidue-order tables. Finite laws notinfinite Gaussian claims.",
+        "disposition": "New provisional R2 field-lift endpoint, no acceptedclaimdepends; all normalized laws and failure mass retained."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. F-QFINITE-v2 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "id": "BT19-NONPRIME-1",
+      "provenance": {
+        "id": "BT19-NONPRIME-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Zi,F=R,I=(4),X2 descends16to4 withoutalignment: primalityrequired fordescent, notprobability.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. F-QFINITE-v2 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "id": "BT19-NONSUFFICIENT-1",
+      "provenance": {
+        "id": "BT19-NONSUFFICIENT-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Zi,I=(1+i),X2 aligns butminimalintegerclearingkeepsnorm2: alignmentnecessarynotsufficient.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. F-QFINITE-v2 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "id": "BT19-SELECTION-1",
+      "provenance": {
+        "id": "BT19-SELECTION-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Six original drawsZi,I=(2+i),s128 retainatmostone; selectedsuccess>13/20 single-eventbound. Allattemptsmustbepaid.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. F-QFINITE-v2 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "id": "BT19-RETRY-1",
+      "provenance": {
+        "id": "BT19-RETRY-1",
+        "path": "criticism/BT19/report-v1.md",
+        "sha256": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+        "description": "Width2^-b hasnonzero retryexpectation>=exp(pi4^b)/4; finitewidthencodingnotpolynomialretrytime.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New alignment boundary control: prime descent necessity, all attempts, true zero normalizer and bounded-runtime restrictions remain explicit. F-QFINITE-v2 uses no nonprime descent sufficiency or free zero rejection; its frozen scope and dependencies are unchanged."
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "id": "BT18-SYMBOLIC-1",
+      "provenance": {
+        "id": "BT18-SYMBOLIC-1",
+        "path": "criticism/BT18/composition-report-v1.md",
+        "sha256": "c8179c983f5386e743ceec46a8e132118eb205f23d60c75206a8c5ab388add43",
+        "description": "Clean independentfour-interface reconstruction verifiescompleteendpointcharges,rationalradius,duality,allinputcallslotsandordinaryDGSoutput; noexperimentorupstreamreproof.",
+        "disposition": "Sealed clean blind hand-derived boundary control or composition reconstruction; exact scope retained, not newhardness."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "Complete endpoint/conditional-TV/code controls agree with the exact scoped interfaces. The same-J composition has its own new gates; F-QFINITE-v2 is not broadened by its favorable review. Capped comparator never promoted to exact uniform."
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "id": "RT1-MOMENT-FV1",
+      "provenance": {
+        "id": "RT1-MOMENT-FV1",
+        "path": "criticism/RT1/finite-stdout-v1.json",
+        "sha256": "19efdb0a45e366fc64eea6956f7788c7c417cc30b7b15730ae8d054768fbc041",
+        "description": "13122exact triples: product/projection containment and covariance moment identities; allnonzerofactors still projectzero withmass3/64 or20/6561. Retainedfinitecenteredlaws, notinfiniteGaussian theorem.",
+        "disposition": "Root read complete code/input/output/resources; new tower candidate only. No earlier acceptedclaim uses nonzeroproduct-implies-nonzeroprojection."
+      },
+      "disposition": "RECONCILED_NO_DEPENDENCY_CHANGE",
+      "reason": "New relation/tower controls retain full laws and failures. F-QFINITE-v2 does not claim an arbitrary relation, prime-factor projection or tower family transfer; same-field and fixed-map obstructions explicitly exclude these new mechanisms."
+    }
+  ],
+  "scope": "Eleven existing exact auxiliary scopes only; new mathematical results require their own gates."
+}

@@ -1,0 +1,5 @@
+# V3 to v4 correction record
+
+V3 bytes are preserved and were not certified. Independent RF2 review found no additional analytic law or normalizer defect, but two finite-runtime claims needed repair. First, B's uniform-integer rejection sampler was expected polynomial while C v3 claimed polynomial runtime. V4 caps each of at most n L_j proposals at R_j=ceil(log2(16nL_j/tau_j)) attempts, adds deterministic fallback, and charges tau_j/16 total conditional TV. Second, the incorrect global orientation need not satisfy the primary OHCP promise, so its runtime cannot be inferred from that theorem. V4 caps time, query count, logscale and query-description lengths by the imported T_H bound and aborts that orientation upon a violation. The correct orientation is unchanged. Scalar representation and basic domain restrictions are now explicit.
+
+These repairs change only the finite wrapper and theorem wording, not the exact cancellation, two normalizers, shifted radial profile, one-pair full-Haar argument, or local comparison-oracle extension. No earlier acceptance is inherited; exact v4 bytes require RF2 recheck. The standard-family hardness edge remains OPEN.

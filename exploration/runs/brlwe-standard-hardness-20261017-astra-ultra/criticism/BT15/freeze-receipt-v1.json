@@ -1,0 +1,20 @@
+{
+  "report": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/BT15/report-v1.md",
+  "report_sha256": "0b58da9c810b3a31dd51f371698ce93d72a5710455a7ff804dff2d6abff63fb7",
+  "report_bytes": 35842,
+  "sealed_at_utc": "2026-10-17T23:42:26.767653+00:00",
+  "report_status": "complete; immutable after this receipt",
+  "blind_exposure_record": [],
+  "blind_scope": "Only assignment-v1.md and the four explicitly permitted input files supplied scientific input. No proofs, C8, status, ledgers, summaries, other reports, listings, native sessions, or external retrieval were read. Self-created controls and their outputs were reviewed as expressly authorized.",
+  "administrative_messages": "Initial assignment and root reservation BT15-FV1 only; no scientific verdict or finding received.",
+  "experiment": {
+    "reservation": "BT15-FV1",
+    "exit_status": 0,
+    "wall_seconds": "0.02",
+    "peak_RSS_KiB": 12288,
+    "timeout_seconds": 10,
+    "address_space_cap_MiB": 64
+  },
+  "disclosure": "No scientific findings sent to root before hashing the complete report and creating this receipt.",
+  "limitations": "Same-model role diversity is correlated scrutiny, not formal verification."
+}

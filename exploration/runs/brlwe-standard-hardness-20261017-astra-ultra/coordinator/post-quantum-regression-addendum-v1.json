@@ -1,0 +1,2218 @@
+{
+  "at": "2026-10-18T00:28:09.931582+00:00",
+  "previous_registry_count": 110,
+  "current_registry_count": 127,
+  "entries": [
+    {
+      "claim": "D-THETA-v1",
+      "id": "BT16-FV1",
+      "provenance": {
+        "id": "BT16-FV1",
+        "path": "criticism/BT16/finite-control-stdout.txt",
+        "sha256": "ab6c8579f9c35289a368cf1bc608bc625d3a9fa1e38f4762b680535a810bc07f",
+        "description": "Exact finite module generation, actual-secret uniqueness, natural reduction, full posterior and supplied CP1 controls; k=0 boundary included.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "BT16-NATURAL-1",
+      "provenance": {
+        "id": "BT16-NATURAL-1",
+        "path": "criticism/BT16/BT16-complete-report-v1.md",
+        "sha256": "a1fb58816f26ec832f0f61f627668a421995b556a5cc0e0b7a19f7bd1298269d",
+        "description": "J=2R,q13,a=1/2 maps to7 centered-6; only multiply byJ before centered lifting recovers actual fractional source.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "BT16-POSTERIOR-1",
+      "provenance": {
+        "id": "BT16-POSTERIOR-1",
+        "path": "criticism/BT16/BT16-complete-report-v1.md",
+        "sha256": "a1fb58816f26ec832f0f61f627668a421995b556a5cc0e0b7a19f7bd1298269d",
+        "description": "Common secret posterior formula does not equate average recovery under different A marginals:55/156 versus7/20, difference1/390.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "BT16-PRIMEPOWER-1",
+      "provenance": {
+        "id": "BT16-PRIMEPOWER-1",
+        "path": "criticism/BT16/finite-control-stdout.txt",
+        "sha256": "ab6c8579f9c35289a368cf1bc608bc625d3a9fa1e38f4762b680535a810bc07f",
+        "description": "Denominator generation depends on hitting the top local layer; prime powers contributeN(P)^-k, notN(P)^(-e*k).",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "BT16-ZERO-1",
+      "provenance": {
+        "id": "BT16-ZERO-1",
+        "path": "criticism/BT16/BT16-complete-report-v1.md",
+        "sha256": "a1fb58816f26ec832f0f61f627668a421995b556a5cc0e0b7a19f7bd1298269d",
+        "description": "Allzero public multipliers have uniform secret posterior; under lifting and generation their branch cannot be a claimed success event. Sourcezero/integral branches retained.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "RF4-FV1",
+      "provenance": {
+        "id": "RF4-FV1",
+        "path": "criticism/RF4/RF4-FV1.stdout",
+        "sha256": "26240b06fb65102304e2e40d1192039e529cb6d035ee4a3f2b47184827fbd943",
+        "description": "3303 exact normalized periodization, complete retry, entangled phase-resource and originalCP1 checks;0.12s11264KiB.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "RF4-PERIOD-NEG1",
+      "provenance": {
+        "id": "RF4-PERIOD-NEG1",
+        "path": "criticism/RF4/failures-before-controls-v1.md",
+        "sha256": "181afcdcac3c0e0c2cb1bd6264afcf5f1a08c33e853f88d8d9f0e716fa328c6e",
+        "description": "Vanishing preperiodization squared tail leaves constant normalized periodization error; collision cross terms required.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "RF4-RETRY-NEG1",
+      "provenance": {
+        "id": "RF4-RETRY-NEG1",
+        "path": "criticism/RF4/failures-before-controls-v1.md",
+        "sha256": "181afcdcac3c0e0c2cb1bd6264afcf5f1a08c33e853f88d8d9f0e716fa328c6e",
+        "description": "Unequal resource acceptance1/4 and5/32 gives joint5/128, not1/16; actual normalization retained.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "RF4-ALIAS-NEG1",
+      "provenance": {
+        "id": "RF4-ALIAS-NEG1",
+        "path": "criticism/RF4/regression-review-v1.md",
+        "sha256": "7a5ad32194577964cf8cc03d6fdd21fa3ca025d7cda4b42b33fd32f7fc28c28b",
+        "description": "B=[[1,256],[0,1]],d1/8,H128 has dual separation but aliases gamma(1,0) to(1,-256); basis coordinate bound separately required.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "BT17-SYMBOLIC-1",
+      "provenance": {
+        "id": "BT17-SYMBOLIC-1",
+        "path": "criticism/BT17/blind-report-v1.md",
+        "sha256": "00d01d1afae48696b1e75cdc86d5d69ec8b998e73f0c79f9b58630dfd04ed143",
+        "description": "Clean blind independent symbolic reconstruction, exact hand control n2,B=I,d2=1/64,epsilon1/16,W25,H2^51,N2^52; no executed experiment.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "ROOT-PARAM-FV1",
+      "provenance": {
+        "id": "ROOT-PARAM-FV1",
+        "path": "coordinator/quantum-integration/effective-parameter-v1/stdout.json",
+        "sha256": "f43ef1de60028ad21e006cb70af4a2ce3abd6379447de79af82cb6fa2c0fce41",
+        "description": "Finite arithmetic ran but associated written t=288 conflicted with actual4608; rejected witness retained.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "ROOT-PARAM-T-1",
+      "provenance": {
+        "id": "ROOT-PARAM-T-1",
+        "path": "coordinator/quantum-integration/parameter-witness-v1-gap-before-v2.md",
+        "sha256": "cd74836c2cfcba23bae971a022e720cc025d790290d06016c866b9fa081f374e",
+        "description": "Written target t must equal tau2*ell=4608; repair explicitly binds both and completion inequalities.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "ROOT-PARAM-FV2",
+      "provenance": {
+        "id": "ROOT-PARAM-FV2",
+        "path": "coordinator/quantum-integration/effective-parameter-v2/stdout.json",
+        "sha256": "a7e8661362d693e583ef41ac3e382d8b6cd2886d67a44d5c1da71f68c50587ed",
+        "description": "Repaired t arithmetic passed; unspecified integer framing still invalidated literal certificate.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "ROOT-PARAM-ENC-1",
+      "provenance": {
+        "id": "ROOT-PARAM-ENC-1",
+        "path": "coordinator/quantum-integration/parameter-witness-v2-encoding-gap-before-v3.md",
+        "sha256": "b38f1a5f4e07cabc55bd262b6cba709782f3c377ed74636441b582dfd8427d5d",
+        "description": "bit_length+3 is not documented parseable framing; v3 uses explicit tagged unary-length encoding.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "ROOT-PARAM-FV3",
+      "provenance": {
+        "id": "ROOT-PARAM-FV3",
+        "path": "coordinator/quantum-integration/effective-parameter-v3/stdout.json",
+        "sha256": "464c6a248dcc27479d37a7c379e628ea727ff12a16a8bf1a7cf72506cdf9c487",
+        "description": "Exact finite nonempty parameters with complete typed encoding; no sampler/circuit/security experiment.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "RF4-PARAM-FV2",
+      "provenance": {
+        "id": "RF4-PARAM-FV2",
+        "path": "criticism/RF4/RF4-PARAM-FV2.stdout",
+        "sha256": "a47ca02eae175f8c470c6b7fb52b8aa00ae58246f13acc5d33c7a62d6ec268fb",
+        "description": "328 independent exact checks of witnessv3 using closed-form basis/adjugate and actual encode/decode;0.03s16384KiB.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "H-ALIGN-FV1",
+      "provenance": {
+        "id": "H-ALIGN-FV1",
+        "path": "workers/H/prime-alignment/finite-stdout-v1.json",
+        "sha256": "a8905bbf62c11437dd9a79bb7b8c56dec1b9f732fd9f278b35e575438a6f3fb5",
+        "description": "Eight exact finite laws,143144pairs,296packing-radius checks, normalizers andCP1; truncated laws do not certify infinite Gaussian bound.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Exact finite congruence and selection controls reinforce original normalization and counted-attempt discipline; they do not assert full Gaussian uniform residues. Accepted source/selectedpair theorems use their original infinite laws and a.s. conditional kernels; no primealignment or LLL algorithm is a dependency."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "BT16-FV1",
+      "provenance": {
+        "id": "BT16-FV1",
+        "path": "criticism/BT16/finite-control-stdout.txt",
+        "sha256": "ab6c8579f9c35289a368cf1bc608bc625d3a9fa1e38f4762b680535a810bc07f",
+        "description": "Exact finite module generation, actual-secret uniqueness, natural reduction, full posterior and supplied CP1 controls; k=0 boundary included.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "BT16-NATURAL-1",
+      "provenance": {
+        "id": "BT16-NATURAL-1",
+        "path": "criticism/BT16/BT16-complete-report-v1.md",
+        "sha256": "a1fb58816f26ec832f0f61f627668a421995b556a5cc0e0b7a19f7bd1298269d",
+        "description": "J=2R,q13,a=1/2 maps to7 centered-6; only multiply byJ before centered lifting recovers actual fractional source.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "BT16-POSTERIOR-1",
+      "provenance": {
+        "id": "BT16-POSTERIOR-1",
+        "path": "criticism/BT16/BT16-complete-report-v1.md",
+        "sha256": "a1fb58816f26ec832f0f61f627668a421995b556a5cc0e0b7a19f7bd1298269d",
+        "description": "Common secret posterior formula does not equate average recovery under different A marginals:55/156 versus7/20, difference1/390.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "BT16-PRIMEPOWER-1",
+      "provenance": {
+        "id": "BT16-PRIMEPOWER-1",
+        "path": "criticism/BT16/finite-control-stdout.txt",
+        "sha256": "ab6c8579f9c35289a368cf1bc608bc625d3a9fa1e38f4762b680535a810bc07f",
+        "description": "Denominator generation depends on hitting the top local layer; prime powers contributeN(P)^-k, notN(P)^(-e*k).",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "BT16-ZERO-1",
+      "provenance": {
+        "id": "BT16-ZERO-1",
+        "path": "criticism/BT16/BT16-complete-report-v1.md",
+        "sha256": "a1fb58816f26ec832f0f61f627668a421995b556a5cc0e0b7a19f7bd1298269d",
+        "description": "Allzero public multipliers have uniform secret posterior; under lifting and generation their branch cannot be a claimed success event. Sourcezero/integral branches retained.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "RF4-FV1",
+      "provenance": {
+        "id": "RF4-FV1",
+        "path": "criticism/RF4/RF4-FV1.stdout",
+        "sha256": "26240b06fb65102304e2e40d1192039e529cb6d035ee4a3f2b47184827fbd943",
+        "description": "3303 exact normalized periodization, complete retry, entangled phase-resource and originalCP1 checks;0.12s11264KiB.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "RF4-PERIOD-NEG1",
+      "provenance": {
+        "id": "RF4-PERIOD-NEG1",
+        "path": "criticism/RF4/failures-before-controls-v1.md",
+        "sha256": "181afcdcac3c0e0c2cb1bd6264afcf5f1a08c33e853f88d8d9f0e716fa328c6e",
+        "description": "Vanishing preperiodization squared tail leaves constant normalized periodization error; collision cross terms required.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "RF4-RETRY-NEG1",
+      "provenance": {
+        "id": "RF4-RETRY-NEG1",
+        "path": "criticism/RF4/failures-before-controls-v1.md",
+        "sha256": "181afcdcac3c0e0c2cb1bd6264afcf5f1a08c33e853f88d8d9f0e716fa328c6e",
+        "description": "Unequal resource acceptance1/4 and5/32 gives joint5/128, not1/16; actual normalization retained.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "RF4-ALIAS-NEG1",
+      "provenance": {
+        "id": "RF4-ALIAS-NEG1",
+        "path": "criticism/RF4/regression-review-v1.md",
+        "sha256": "7a5ad32194577964cf8cc03d6fdd21fa3ca025d7cda4b42b33fd32f7fc28c28b",
+        "description": "B=[[1,256],[0,1]],d1/8,H128 has dual separation but aliases gamma(1,0) to(1,-256); basis coordinate bound separately required.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "BT17-SYMBOLIC-1",
+      "provenance": {
+        "id": "BT17-SYMBOLIC-1",
+        "path": "criticism/BT17/blind-report-v1.md",
+        "sha256": "00d01d1afae48696b1e75cdc86d5d69ec8b998e73f0c79f9b58630dfd04ed143",
+        "description": "Clean blind independent symbolic reconstruction, exact hand control n2,B=I,d2=1/64,epsilon1/16,W25,H2^51,N2^52; no executed experiment.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "ROOT-PARAM-FV1",
+      "provenance": {
+        "id": "ROOT-PARAM-FV1",
+        "path": "coordinator/quantum-integration/effective-parameter-v1/stdout.json",
+        "sha256": "f43ef1de60028ad21e006cb70af4a2ce3abd6379447de79af82cb6fa2c0fce41",
+        "description": "Finite arithmetic ran but associated written t=288 conflicted with actual4608; rejected witness retained.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "ROOT-PARAM-T-1",
+      "provenance": {
+        "id": "ROOT-PARAM-T-1",
+        "path": "coordinator/quantum-integration/parameter-witness-v1-gap-before-v2.md",
+        "sha256": "cd74836c2cfcba23bae971a022e720cc025d790290d06016c866b9fa081f374e",
+        "description": "Written target t must equal tau2*ell=4608; repair explicitly binds both and completion inequalities.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "ROOT-PARAM-FV2",
+      "provenance": {
+        "id": "ROOT-PARAM-FV2",
+        "path": "coordinator/quantum-integration/effective-parameter-v2/stdout.json",
+        "sha256": "a7e8661362d693e583ef41ac3e382d8b6cd2886d67a44d5c1da71f68c50587ed",
+        "description": "Repaired t arithmetic passed; unspecified integer framing still invalidated literal certificate.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "ROOT-PARAM-ENC-1",
+      "provenance": {
+        "id": "ROOT-PARAM-ENC-1",
+        "path": "coordinator/quantum-integration/parameter-witness-v2-encoding-gap-before-v3.md",
+        "sha256": "b38f1a5f4e07cabc55bd262b6cba709782f3c377ed74636441b582dfd8427d5d",
+        "description": "bit_length+3 is not documented parseable framing; v3 uses explicit tagged unary-length encoding.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "ROOT-PARAM-FV3",
+      "provenance": {
+        "id": "ROOT-PARAM-FV3",
+        "path": "coordinator/quantum-integration/effective-parameter-v3/stdout.json",
+        "sha256": "464c6a248dcc27479d37a7c379e628ea727ff12a16a8bf1a7cf72506cdf9c487",
+        "description": "Exact finite nonempty parameters with complete typed encoding; no sampler/circuit/security experiment.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "RF4-PARAM-FV2",
+      "provenance": {
+        "id": "RF4-PARAM-FV2",
+        "path": "criticism/RF4/RF4-PARAM-FV2.stdout",
+        "sha256": "a47ca02eae175f8c470c6b7fb52b8aa00ae58246f13acc5d33c7a62d6ec268fb",
+        "description": "328 independent exact checks of witnessv3 using closed-form basis/adjugate and actual encode/decode;0.03s16384KiB.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "H-ALIGN-FV1",
+      "provenance": {
+        "id": "H-ALIGN-FV1",
+        "path": "workers/H/prime-alignment/finite-stdout-v1.json",
+        "sha256": "a8905bbf62c11437dd9a79bb7b8c56dec1b9f732fd9f278b35e575438a6f3fb5",
+        "description": "Eight exact finite laws,143144pairs,296packing-radius checks, normalizers andCP1; truncated laws do not certify infinite Gaussian bound.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Exact finite congruence and selection controls reinforce original normalization and counted-attempt discipline; they do not assert full Gaussian uniform residues. Accepted source/selectedpair theorems use their original infinite laws and a.s. conditional kernels; no primealignment or LLL algorithm is a dependency."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "BT16-FV1",
+      "provenance": {
+        "id": "BT16-FV1",
+        "path": "criticism/BT16/finite-control-stdout.txt",
+        "sha256": "ab6c8579f9c35289a368cf1bc608bc625d3a9fa1e38f4762b680535a810bc07f",
+        "description": "Exact finite module generation, actual-secret uniqueness, natural reduction, full posterior and supplied CP1 controls; k=0 boundary included.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "BT16-NATURAL-1",
+      "provenance": {
+        "id": "BT16-NATURAL-1",
+        "path": "criticism/BT16/BT16-complete-report-v1.md",
+        "sha256": "a1fb58816f26ec832f0f61f627668a421995b556a5cc0e0b7a19f7bd1298269d",
+        "description": "J=2R,q13,a=1/2 maps to7 centered-6; only multiply byJ before centered lifting recovers actual fractional source.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "BT16-POSTERIOR-1",
+      "provenance": {
+        "id": "BT16-POSTERIOR-1",
+        "path": "criticism/BT16/BT16-complete-report-v1.md",
+        "sha256": "a1fb58816f26ec832f0f61f627668a421995b556a5cc0e0b7a19f7bd1298269d",
+        "description": "Common secret posterior formula does not equate average recovery under different A marginals:55/156 versus7/20, difference1/390.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "BT16-PRIMEPOWER-1",
+      "provenance": {
+        "id": "BT16-PRIMEPOWER-1",
+        "path": "criticism/BT16/finite-control-stdout.txt",
+        "sha256": "ab6c8579f9c35289a368cf1bc608bc625d3a9fa1e38f4762b680535a810bc07f",
+        "description": "Denominator generation depends on hitting the top local layer; prime powers contributeN(P)^-k, notN(P)^(-e*k).",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "BT16-ZERO-1",
+      "provenance": {
+        "id": "BT16-ZERO-1",
+        "path": "criticism/BT16/BT16-complete-report-v1.md",
+        "sha256": "a1fb58816f26ec832f0f61f627668a421995b556a5cc0e0b7a19f7bd1298269d",
+        "description": "Allzero public multipliers have uniform secret posterior; under lifting and generation their branch cannot be a claimed success event. Sourcezero/integral branches retained.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "RF4-FV1",
+      "provenance": {
+        "id": "RF4-FV1",
+        "path": "criticism/RF4/RF4-FV1.stdout",
+        "sha256": "26240b06fb65102304e2e40d1192039e529cb6d035ee4a3f2b47184827fbd943",
+        "description": "3303 exact normalized periodization, complete retry, entangled phase-resource and originalCP1 checks;0.12s11264KiB.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "RF4-PERIOD-NEG1",
+      "provenance": {
+        "id": "RF4-PERIOD-NEG1",
+        "path": "criticism/RF4/failures-before-controls-v1.md",
+        "sha256": "181afcdcac3c0e0c2cb1bd6264afcf5f1a08c33e853f88d8d9f0e716fa328c6e",
+        "description": "Vanishing preperiodization squared tail leaves constant normalized periodization error; collision cross terms required.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "RF4-RETRY-NEG1",
+      "provenance": {
+        "id": "RF4-RETRY-NEG1",
+        "path": "criticism/RF4/failures-before-controls-v1.md",
+        "sha256": "181afcdcac3c0e0c2cb1bd6264afcf5f1a08c33e853f88d8d9f0e716fa328c6e",
+        "description": "Unequal resource acceptance1/4 and5/32 gives joint5/128, not1/16; actual normalization retained.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "RF4-ALIAS-NEG1",
+      "provenance": {
+        "id": "RF4-ALIAS-NEG1",
+        "path": "criticism/RF4/regression-review-v1.md",
+        "sha256": "7a5ad32194577964cf8cc03d6fdd21fa3ca025d7cda4b42b33fd32f7fc28c28b",
+        "description": "B=[[1,256],[0,1]],d1/8,H128 has dual separation but aliases gamma(1,0) to(1,-256); basis coordinate bound separately required.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "BT17-SYMBOLIC-1",
+      "provenance": {
+        "id": "BT17-SYMBOLIC-1",
+        "path": "criticism/BT17/blind-report-v1.md",
+        "sha256": "00d01d1afae48696b1e75cdc86d5d69ec8b998e73f0c79f9b58630dfd04ed143",
+        "description": "Clean blind independent symbolic reconstruction, exact hand control n2,B=I,d2=1/64,epsilon1/16,W25,H2^51,N2^52; no executed experiment.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "ROOT-PARAM-FV1",
+      "provenance": {
+        "id": "ROOT-PARAM-FV1",
+        "path": "coordinator/quantum-integration/effective-parameter-v1/stdout.json",
+        "sha256": "f43ef1de60028ad21e006cb70af4a2ce3abd6379447de79af82cb6fa2c0fce41",
+        "description": "Finite arithmetic ran but associated written t=288 conflicted with actual4608; rejected witness retained.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "ROOT-PARAM-T-1",
+      "provenance": {
+        "id": "ROOT-PARAM-T-1",
+        "path": "coordinator/quantum-integration/parameter-witness-v1-gap-before-v2.md",
+        "sha256": "cd74836c2cfcba23bae971a022e720cc025d790290d06016c866b9fa081f374e",
+        "description": "Written target t must equal tau2*ell=4608; repair explicitly binds both and completion inequalities.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "ROOT-PARAM-FV2",
+      "provenance": {
+        "id": "ROOT-PARAM-FV2",
+        "path": "coordinator/quantum-integration/effective-parameter-v2/stdout.json",
+        "sha256": "a7e8661362d693e583ef41ac3e382d8b6cd2886d67a44d5c1da71f68c50587ed",
+        "description": "Repaired t arithmetic passed; unspecified integer framing still invalidated literal certificate.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "ROOT-PARAM-ENC-1",
+      "provenance": {
+        "id": "ROOT-PARAM-ENC-1",
+        "path": "coordinator/quantum-integration/parameter-witness-v2-encoding-gap-before-v3.md",
+        "sha256": "b38f1a5f4e07cabc55bd262b6cba709782f3c377ed74636441b582dfd8427d5d",
+        "description": "bit_length+3 is not documented parseable framing; v3 uses explicit tagged unary-length encoding.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "ROOT-PARAM-FV3",
+      "provenance": {
+        "id": "ROOT-PARAM-FV3",
+        "path": "coordinator/quantum-integration/effective-parameter-v3/stdout.json",
+        "sha256": "464c6a248dcc27479d37a7c379e628ea727ff12a16a8bf1a7cf72506cdf9c487",
+        "description": "Exact finite nonempty parameters with complete typed encoding; no sampler/circuit/security experiment.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "RF4-PARAM-FV2",
+      "provenance": {
+        "id": "RF4-PARAM-FV2",
+        "path": "criticism/RF4/RF4-PARAM-FV2.stdout",
+        "sha256": "a47ca02eae175f8c470c6b7fb52b8aa00ae58246f13acc5d33c7a62d6ec268fb",
+        "description": "328 independent exact checks of witnessv3 using closed-form basis/adjugate and actual encode/decode;0.03s16384KiB.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "H-ALIGN-FV1",
+      "provenance": {
+        "id": "H-ALIGN-FV1",
+        "path": "workers/H/prime-alignment/finite-stdout-v1.json",
+        "sha256": "a8905bbf62c11437dd9a79bb7b8c56dec1b9f732fd9f278b35e575438a6f3fb5",
+        "description": "Eight exact finite laws,143144pairs,296packing-radius checks, normalizers andCP1; truncated laws do not certify infinite Gaussian bound.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Exact finite congruence and selection controls reinforce original normalization and counted-attempt discipline; they do not assert full Gaussian uniform residues. Accepted source/selectedpair theorems use their original infinite laws and a.s. conditional kernels; no primealignment or LLL algorithm is a dependency."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "BT16-FV1",
+      "provenance": {
+        "id": "BT16-FV1",
+        "path": "criticism/BT16/finite-control-stdout.txt",
+        "sha256": "ab6c8579f9c35289a368cf1bc608bc625d3a9fa1e38f4762b680535a810bc07f",
+        "description": "Exact finite module generation, actual-secret uniqueness, natural reduction, full posterior and supplied CP1 controls; k=0 boundary included.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "BT16-NATURAL-1",
+      "provenance": {
+        "id": "BT16-NATURAL-1",
+        "path": "criticism/BT16/BT16-complete-report-v1.md",
+        "sha256": "a1fb58816f26ec832f0f61f627668a421995b556a5cc0e0b7a19f7bd1298269d",
+        "description": "J=2R,q13,a=1/2 maps to7 centered-6; only multiply byJ before centered lifting recovers actual fractional source.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "BT16-POSTERIOR-1",
+      "provenance": {
+        "id": "BT16-POSTERIOR-1",
+        "path": "criticism/BT16/BT16-complete-report-v1.md",
+        "sha256": "a1fb58816f26ec832f0f61f627668a421995b556a5cc0e0b7a19f7bd1298269d",
+        "description": "Common secret posterior formula does not equate average recovery under different A marginals:55/156 versus7/20, difference1/390.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "BT16-PRIMEPOWER-1",
+      "provenance": {
+        "id": "BT16-PRIMEPOWER-1",
+        "path": "criticism/BT16/finite-control-stdout.txt",
+        "sha256": "ab6c8579f9c35289a368cf1bc608bc625d3a9fa1e38f4762b680535a810bc07f",
+        "description": "Denominator generation depends on hitting the top local layer; prime powers contributeN(P)^-k, notN(P)^(-e*k).",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "BT16-ZERO-1",
+      "provenance": {
+        "id": "BT16-ZERO-1",
+        "path": "criticism/BT16/BT16-complete-report-v1.md",
+        "sha256": "a1fb58816f26ec832f0f61f627668a421995b556a5cc0e0b7a19f7bd1298269d",
+        "description": "Allzero public multipliers have uniform secret posterior; under lifting and generation their branch cannot be a claimed success event. Sourcezero/integral branches retained.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "RF4-FV1",
+      "provenance": {
+        "id": "RF4-FV1",
+        "path": "criticism/RF4/RF4-FV1.stdout",
+        "sha256": "26240b06fb65102304e2e40d1192039e529cb6d035ee4a3f2b47184827fbd943",
+        "description": "3303 exact normalized periodization, complete retry, entangled phase-resource and originalCP1 checks;0.12s11264KiB.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "RF4-PERIOD-NEG1",
+      "provenance": {
+        "id": "RF4-PERIOD-NEG1",
+        "path": "criticism/RF4/failures-before-controls-v1.md",
+        "sha256": "181afcdcac3c0e0c2cb1bd6264afcf5f1a08c33e853f88d8d9f0e716fa328c6e",
+        "description": "Vanishing preperiodization squared tail leaves constant normalized periodization error; collision cross terms required.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "RF4-RETRY-NEG1",
+      "provenance": {
+        "id": "RF4-RETRY-NEG1",
+        "path": "criticism/RF4/failures-before-controls-v1.md",
+        "sha256": "181afcdcac3c0e0c2cb1bd6264afcf5f1a08c33e853f88d8d9f0e716fa328c6e",
+        "description": "Unequal resource acceptance1/4 and5/32 gives joint5/128, not1/16; actual normalization retained.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "RF4-ALIAS-NEG1",
+      "provenance": {
+        "id": "RF4-ALIAS-NEG1",
+        "path": "criticism/RF4/regression-review-v1.md",
+        "sha256": "7a5ad32194577964cf8cc03d6fdd21fa3ca025d7cda4b42b33fd32f7fc28c28b",
+        "description": "B=[[1,256],[0,1]],d1/8,H128 has dual separation but aliases gamma(1,0) to(1,-256); basis coordinate bound separately required.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "BT17-SYMBOLIC-1",
+      "provenance": {
+        "id": "BT17-SYMBOLIC-1",
+        "path": "criticism/BT17/blind-report-v1.md",
+        "sha256": "00d01d1afae48696b1e75cdc86d5d69ec8b998e73f0c79f9b58630dfd04ed143",
+        "description": "Clean blind independent symbolic reconstruction, exact hand control n2,B=I,d2=1/64,epsilon1/16,W25,H2^51,N2^52; no executed experiment.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "ROOT-PARAM-FV1",
+      "provenance": {
+        "id": "ROOT-PARAM-FV1",
+        "path": "coordinator/quantum-integration/effective-parameter-v1/stdout.json",
+        "sha256": "f43ef1de60028ad21e006cb70af4a2ce3abd6379447de79af82cb6fa2c0fce41",
+        "description": "Finite arithmetic ran but associated written t=288 conflicted with actual4608; rejected witness retained.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "ROOT-PARAM-T-1",
+      "provenance": {
+        "id": "ROOT-PARAM-T-1",
+        "path": "coordinator/quantum-integration/parameter-witness-v1-gap-before-v2.md",
+        "sha256": "cd74836c2cfcba23bae971a022e720cc025d790290d06016c866b9fa081f374e",
+        "description": "Written target t must equal tau2*ell=4608; repair explicitly binds both and completion inequalities.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "ROOT-PARAM-FV2",
+      "provenance": {
+        "id": "ROOT-PARAM-FV2",
+        "path": "coordinator/quantum-integration/effective-parameter-v2/stdout.json",
+        "sha256": "a7e8661362d693e583ef41ac3e382d8b6cd2886d67a44d5c1da71f68c50587ed",
+        "description": "Repaired t arithmetic passed; unspecified integer framing still invalidated literal certificate.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "ROOT-PARAM-ENC-1",
+      "provenance": {
+        "id": "ROOT-PARAM-ENC-1",
+        "path": "coordinator/quantum-integration/parameter-witness-v2-encoding-gap-before-v3.md",
+        "sha256": "b38f1a5f4e07cabc55bd262b6cba709782f3c377ed74636441b582dfd8427d5d",
+        "description": "bit_length+3 is not documented parseable framing; v3 uses explicit tagged unary-length encoding.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "ROOT-PARAM-FV3",
+      "provenance": {
+        "id": "ROOT-PARAM-FV3",
+        "path": "coordinator/quantum-integration/effective-parameter-v3/stdout.json",
+        "sha256": "464c6a248dcc27479d37a7c379e628ea727ff12a16a8bf1a7cf72506cdf9c487",
+        "description": "Exact finite nonempty parameters with complete typed encoding; no sampler/circuit/security experiment.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "RF4-PARAM-FV2",
+      "provenance": {
+        "id": "RF4-PARAM-FV2",
+        "path": "criticism/RF4/RF4-PARAM-FV2.stdout",
+        "sha256": "a47ca02eae175f8c470c6b7fb52b8aa00ae58246f13acc5d33c7a62d6ec268fb",
+        "description": "328 independent exact checks of witnessv3 using closed-form basis/adjugate and actual encode/decode;0.03s16384KiB.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "H-ALIGN-FV1",
+      "provenance": {
+        "id": "H-ALIGN-FV1",
+        "path": "workers/H/prime-alignment/finite-stdout-v1.json",
+        "sha256": "a8905bbf62c11437dd9a79bb7b8c56dec1b9f732fd9f278b35e575438a6f3fb5",
+        "description": "Eight exact finite laws,143144pairs,296packing-radius checks, normalizers andCP1; truncated laws do not certify infinite Gaussian bound.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Exact finite congruence and selection controls reinforce original normalization and counted-attempt discipline; they do not assert full Gaussian uniform residues. Accepted source/selectedpair theorems use their original infinite laws and a.s. conditional kernels; no primealignment or LLL algorithm is a dependency."
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "id": "BT16-FV1",
+      "provenance": {
+        "id": "BT16-FV1",
+        "path": "criticism/BT16/finite-control-stdout.txt",
+        "sha256": "ab6c8579f9c35289a368cf1bc608bc625d3a9fa1e38f4762b680535a810bc07f",
+        "description": "Exact finite module generation, actual-secret uniqueness, natural reduction, full posterior and supplied CP1 controls; k=0 boundary included.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "id": "BT16-NATURAL-1",
+      "provenance": {
+        "id": "BT16-NATURAL-1",
+        "path": "criticism/BT16/BT16-complete-report-v1.md",
+        "sha256": "a1fb58816f26ec832f0f61f627668a421995b556a5cc0e0b7a19f7bd1298269d",
+        "description": "J=2R,q13,a=1/2 maps to7 centered-6; only multiply byJ before centered lifting recovers actual fractional source.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "id": "BT16-POSTERIOR-1",
+      "provenance": {
+        "id": "BT16-POSTERIOR-1",
+        "path": "criticism/BT16/BT16-complete-report-v1.md",
+        "sha256": "a1fb58816f26ec832f0f61f627668a421995b556a5cc0e0b7a19f7bd1298269d",
+        "description": "Common secret posterior formula does not equate average recovery under different A marginals:55/156 versus7/20, difference1/390.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "id": "BT16-PRIMEPOWER-1",
+      "provenance": {
+        "id": "BT16-PRIMEPOWER-1",
+        "path": "criticism/BT16/finite-control-stdout.txt",
+        "sha256": "ab6c8579f9c35289a368cf1bc608bc625d3a9fa1e38f4762b680535a810bc07f",
+        "description": "Denominator generation depends on hitting the top local layer; prime powers contributeN(P)^-k, notN(P)^(-e*k).",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "id": "BT16-ZERO-1",
+      "provenance": {
+        "id": "BT16-ZERO-1",
+        "path": "criticism/BT16/BT16-complete-report-v1.md",
+        "sha256": "a1fb58816f26ec832f0f61f627668a421995b556a5cc0e0b7a19f7bd1298269d",
+        "description": "Allzero public multipliers have uniform secret posterior; under lifting and generation their branch cannot be a claimed success event. Sourcezero/integral branches retained.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "id": "RF4-FV1",
+      "provenance": {
+        "id": "RF4-FV1",
+        "path": "criticism/RF4/RF4-FV1.stdout",
+        "sha256": "26240b06fb65102304e2e40d1192039e529cb6d035ee4a3f2b47184827fbd943",
+        "description": "3303 exact normalized periodization, complete retry, entangled phase-resource and originalCP1 checks;0.12s11264KiB.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "id": "RF4-PERIOD-NEG1",
+      "provenance": {
+        "id": "RF4-PERIOD-NEG1",
+        "path": "criticism/RF4/failures-before-controls-v1.md",
+        "sha256": "181afcdcac3c0e0c2cb1bd6264afcf5f1a08c33e853f88d8d9f0e716fa328c6e",
+        "description": "Vanishing preperiodization squared tail leaves constant normalized periodization error; collision cross terms required.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "id": "RF4-RETRY-NEG1",
+      "provenance": {
+        "id": "RF4-RETRY-NEG1",
+        "path": "criticism/RF4/failures-before-controls-v1.md",
+        "sha256": "181afcdcac3c0e0c2cb1bd6264afcf5f1a08c33e853f88d8d9f0e716fa328c6e",
+        "description": "Unequal resource acceptance1/4 and5/32 gives joint5/128, not1/16; actual normalization retained.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "id": "RF4-ALIAS-NEG1",
+      "provenance": {
+        "id": "RF4-ALIAS-NEG1",
+        "path": "criticism/RF4/regression-review-v1.md",
+        "sha256": "7a5ad32194577964cf8cc03d6fdd21fa3ca025d7cda4b42b33fd32f7fc28c28b",
+        "description": "B=[[1,256],[0,1]],d1/8,H128 has dual separation but aliases gamma(1,0) to(1,-256); basis coordinate bound separately required.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "id": "BT17-SYMBOLIC-1",
+      "provenance": {
+        "id": "BT17-SYMBOLIC-1",
+        "path": "criticism/BT17/blind-report-v1.md",
+        "sha256": "00d01d1afae48696b1e75cdc86d5d69ec8b998e73f0c79f9b58630dfd04ed143",
+        "description": "Clean blind independent symbolic reconstruction, exact hand control n2,B=I,d2=1/64,epsilon1/16,W25,H2^51,N2^52; no executed experiment.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "id": "ROOT-PARAM-FV1",
+      "provenance": {
+        "id": "ROOT-PARAM-FV1",
+        "path": "coordinator/quantum-integration/effective-parameter-v1/stdout.json",
+        "sha256": "f43ef1de60028ad21e006cb70af4a2ce3abd6379447de79af82cb6fa2c0fce41",
+        "description": "Finite arithmetic ran but associated written t=288 conflicted with actual4608; rejected witness retained.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "id": "ROOT-PARAM-T-1",
+      "provenance": {
+        "id": "ROOT-PARAM-T-1",
+        "path": "coordinator/quantum-integration/parameter-witness-v1-gap-before-v2.md",
+        "sha256": "cd74836c2cfcba23bae971a022e720cc025d790290d06016c866b9fa081f374e",
+        "description": "Written target t must equal tau2*ell=4608; repair explicitly binds both and completion inequalities.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "id": "ROOT-PARAM-FV2",
+      "provenance": {
+        "id": "ROOT-PARAM-FV2",
+        "path": "coordinator/quantum-integration/effective-parameter-v2/stdout.json",
+        "sha256": "a7e8661362d693e583ef41ac3e382d8b6cd2886d67a44d5c1da71f68c50587ed",
+        "description": "Repaired t arithmetic passed; unspecified integer framing still invalidated literal certificate.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "id": "ROOT-PARAM-ENC-1",
+      "provenance": {
+        "id": "ROOT-PARAM-ENC-1",
+        "path": "coordinator/quantum-integration/parameter-witness-v2-encoding-gap-before-v3.md",
+        "sha256": "b38f1a5f4e07cabc55bd262b6cba709782f3c377ed74636441b582dfd8427d5d",
+        "description": "bit_length+3 is not documented parseable framing; v3 uses explicit tagged unary-length encoding.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "id": "ROOT-PARAM-FV3",
+      "provenance": {
+        "id": "ROOT-PARAM-FV3",
+        "path": "coordinator/quantum-integration/effective-parameter-v3/stdout.json",
+        "sha256": "464c6a248dcc27479d37a7c379e628ea727ff12a16a8bf1a7cf72506cdf9c487",
+        "description": "Exact finite nonempty parameters with complete typed encoding; no sampler/circuit/security experiment.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "id": "RF4-PARAM-FV2",
+      "provenance": {
+        "id": "RF4-PARAM-FV2",
+        "path": "criticism/RF4/RF4-PARAM-FV2.stdout",
+        "sha256": "a47ca02eae175f8c470c6b7fb52b8aa00ae58246f13acc5d33c7a62d6ec268fb",
+        "description": "328 independent exact checks of witnessv3 using closed-form basis/adjugate and actual encode/decode;0.03s16384KiB.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "id": "H-ALIGN-FV1",
+      "provenance": {
+        "id": "H-ALIGN-FV1",
+        "path": "workers/H/prime-alignment/finite-stdout-v1.json",
+        "sha256": "a8905bbf62c11437dd9a79bb7b8c56dec1b9f732fd9f278b35e575438a6f3fb5",
+        "description": "Eight exact finite laws,143144pairs,296packing-radius checks, normalizers andCP1; truncated laws do not certify infinite Gaussian bound.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Exact finite congruence and selection controls reinforce original normalization and counted-attempt discipline; they do not assert full Gaussian uniform residues. Accepted source/selectedpair theorems use their original infinite laws and a.s. conditional kernels; no primealignment or LLL algorithm is a dependency."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "BT16-FV1",
+      "provenance": {
+        "id": "BT16-FV1",
+        "path": "criticism/BT16/finite-control-stdout.txt",
+        "sha256": "ab6c8579f9c35289a368cf1bc608bc625d3a9fa1e38f4762b680535a810bc07f",
+        "description": "Exact finite module generation, actual-secret uniqueness, natural reduction, full posterior and supplied CP1 controls; k=0 boundary included.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "BT16-NATURAL-1",
+      "provenance": {
+        "id": "BT16-NATURAL-1",
+        "path": "criticism/BT16/BT16-complete-report-v1.md",
+        "sha256": "a1fb58816f26ec832f0f61f627668a421995b556a5cc0e0b7a19f7bd1298269d",
+        "description": "J=2R,q13,a=1/2 maps to7 centered-6; only multiply byJ before centered lifting recovers actual fractional source.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "BT16-POSTERIOR-1",
+      "provenance": {
+        "id": "BT16-POSTERIOR-1",
+        "path": "criticism/BT16/BT16-complete-report-v1.md",
+        "sha256": "a1fb58816f26ec832f0f61f627668a421995b556a5cc0e0b7a19f7bd1298269d",
+        "description": "Common secret posterior formula does not equate average recovery under different A marginals:55/156 versus7/20, difference1/390.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "BT16-PRIMEPOWER-1",
+      "provenance": {
+        "id": "BT16-PRIMEPOWER-1",
+        "path": "criticism/BT16/finite-control-stdout.txt",
+        "sha256": "ab6c8579f9c35289a368cf1bc608bc625d3a9fa1e38f4762b680535a810bc07f",
+        "description": "Denominator generation depends on hitting the top local layer; prime powers contributeN(P)^-k, notN(P)^(-e*k).",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "BT16-ZERO-1",
+      "provenance": {
+        "id": "BT16-ZERO-1",
+        "path": "criticism/BT16/BT16-complete-report-v1.md",
+        "sha256": "a1fb58816f26ec832f0f61f627668a421995b556a5cc0e0b7a19f7bd1298269d",
+        "description": "Allzero public multipliers have uniform secret posterior; under lifting and generation their branch cannot be a claimed success event. Sourcezero/integral branches retained.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "RF4-FV1",
+      "provenance": {
+        "id": "RF4-FV1",
+        "path": "criticism/RF4/RF4-FV1.stdout",
+        "sha256": "26240b06fb65102304e2e40d1192039e529cb6d035ee4a3f2b47184827fbd943",
+        "description": "3303 exact normalized periodization, complete retry, entangled phase-resource and originalCP1 checks;0.12s11264KiB.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "RF4-PERIOD-NEG1",
+      "provenance": {
+        "id": "RF4-PERIOD-NEG1",
+        "path": "criticism/RF4/failures-before-controls-v1.md",
+        "sha256": "181afcdcac3c0e0c2cb1bd6264afcf5f1a08c33e853f88d8d9f0e716fa328c6e",
+        "description": "Vanishing preperiodization squared tail leaves constant normalized periodization error; collision cross terms required.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "RF4-RETRY-NEG1",
+      "provenance": {
+        "id": "RF4-RETRY-NEG1",
+        "path": "criticism/RF4/failures-before-controls-v1.md",
+        "sha256": "181afcdcac3c0e0c2cb1bd6264afcf5f1a08c33e853f88d8d9f0e716fa328c6e",
+        "description": "Unequal resource acceptance1/4 and5/32 gives joint5/128, not1/16; actual normalization retained.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "RF4-ALIAS-NEG1",
+      "provenance": {
+        "id": "RF4-ALIAS-NEG1",
+        "path": "criticism/RF4/regression-review-v1.md",
+        "sha256": "7a5ad32194577964cf8cc03d6fdd21fa3ca025d7cda4b42b33fd32f7fc28c28b",
+        "description": "B=[[1,256],[0,1]],d1/8,H128 has dual separation but aliases gamma(1,0) to(1,-256); basis coordinate bound separately required.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "BT17-SYMBOLIC-1",
+      "provenance": {
+        "id": "BT17-SYMBOLIC-1",
+        "path": "criticism/BT17/blind-report-v1.md",
+        "sha256": "00d01d1afae48696b1e75cdc86d5d69ec8b998e73f0c79f9b58630dfd04ed143",
+        "description": "Clean blind independent symbolic reconstruction, exact hand control n2,B=I,d2=1/64,epsilon1/16,W25,H2^51,N2^52; no executed experiment.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "ROOT-PARAM-FV1",
+      "provenance": {
+        "id": "ROOT-PARAM-FV1",
+        "path": "coordinator/quantum-integration/effective-parameter-v1/stdout.json",
+        "sha256": "f43ef1de60028ad21e006cb70af4a2ce3abd6379447de79af82cb6fa2c0fce41",
+        "description": "Finite arithmetic ran but associated written t=288 conflicted with actual4608; rejected witness retained.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "ROOT-PARAM-T-1",
+      "provenance": {
+        "id": "ROOT-PARAM-T-1",
+        "path": "coordinator/quantum-integration/parameter-witness-v1-gap-before-v2.md",
+        "sha256": "cd74836c2cfcba23bae971a022e720cc025d790290d06016c866b9fa081f374e",
+        "description": "Written target t must equal tau2*ell=4608; repair explicitly binds both and completion inequalities.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "ROOT-PARAM-FV2",
+      "provenance": {
+        "id": "ROOT-PARAM-FV2",
+        "path": "coordinator/quantum-integration/effective-parameter-v2/stdout.json",
+        "sha256": "a7e8661362d693e583ef41ac3e382d8b6cd2886d67a44d5c1da71f68c50587ed",
+        "description": "Repaired t arithmetic passed; unspecified integer framing still invalidated literal certificate.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "ROOT-PARAM-ENC-1",
+      "provenance": {
+        "id": "ROOT-PARAM-ENC-1",
+        "path": "coordinator/quantum-integration/parameter-witness-v2-encoding-gap-before-v3.md",
+        "sha256": "b38f1a5f4e07cabc55bd262b6cba709782f3c377ed74636441b582dfd8427d5d",
+        "description": "bit_length+3 is not documented parseable framing; v3 uses explicit tagged unary-length encoding.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "ROOT-PARAM-FV3",
+      "provenance": {
+        "id": "ROOT-PARAM-FV3",
+        "path": "coordinator/quantum-integration/effective-parameter-v3/stdout.json",
+        "sha256": "464c6a248dcc27479d37a7c379e628ea727ff12a16a8bf1a7cf72506cdf9c487",
+        "description": "Exact finite nonempty parameters with complete typed encoding; no sampler/circuit/security experiment.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "RF4-PARAM-FV2",
+      "provenance": {
+        "id": "RF4-PARAM-FV2",
+        "path": "criticism/RF4/RF4-PARAM-FV2.stdout",
+        "sha256": "a47ca02eae175f8c470c6b7fb52b8aa00ae58246f13acc5d33c7a62d6ec268fb",
+        "description": "328 independent exact checks of witnessv3 using closed-form basis/adjugate and actual encode/decode;0.03s16384KiB.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "H-ALIGN-FV1",
+      "provenance": {
+        "id": "H-ALIGN-FV1",
+        "path": "workers/H/prime-alignment/finite-stdout-v1.json",
+        "sha256": "a8905bbf62c11437dd9a79bb7b8c56dec1b9f732fd9f278b35e575438a6f3fb5",
+        "description": "Eight exact finite laws,143144pairs,296packing-radius checks, normalizers andCP1; truncated laws do not certify infinite Gaussian bound.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Exact finite congruence and selection controls reinforce original normalization and counted-attempt discipline; they do not assert full Gaussian uniform residues. Accepted source/selectedpair theorems use their original infinite laws and a.s. conditional kernels; no primealignment or LLL algorithm is a dependency."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "BT16-FV1",
+      "provenance": {
+        "id": "BT16-FV1",
+        "path": "criticism/BT16/finite-control-stdout.txt",
+        "sha256": "ab6c8579f9c35289a368cf1bc608bc625d3a9fa1e38f4762b680535a810bc07f",
+        "description": "Exact finite module generation, actual-secret uniqueness, natural reduction, full posterior and supplied CP1 controls; k=0 boundary included.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "ROOT-PLANTED-INFO-v1 already includes this exact control in its115-ID gate. No new change."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "BT16-NATURAL-1",
+      "provenance": {
+        "id": "BT16-NATURAL-1",
+        "path": "criticism/BT16/BT16-complete-report-v1.md",
+        "sha256": "a1fb58816f26ec832f0f61f627668a421995b556a5cc0e0b7a19f7bd1298269d",
+        "description": "J=2R,q13,a=1/2 maps to7 centered-6; only multiply byJ before centered lifting recovers actual fractional source.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "ROOT-PLANTED-INFO-v1 already includes this exact control in its115-ID gate. No new change."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "BT16-POSTERIOR-1",
+      "provenance": {
+        "id": "BT16-POSTERIOR-1",
+        "path": "criticism/BT16/BT16-complete-report-v1.md",
+        "sha256": "a1fb58816f26ec832f0f61f627668a421995b556a5cc0e0b7a19f7bd1298269d",
+        "description": "Common secret posterior formula does not equate average recovery under different A marginals:55/156 versus7/20, difference1/390.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "ROOT-PLANTED-INFO-v1 already includes this exact control in its115-ID gate. No new change."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "BT16-PRIMEPOWER-1",
+      "provenance": {
+        "id": "BT16-PRIMEPOWER-1",
+        "path": "criticism/BT16/finite-control-stdout.txt",
+        "sha256": "ab6c8579f9c35289a368cf1bc608bc625d3a9fa1e38f4762b680535a810bc07f",
+        "description": "Denominator generation depends on hitting the top local layer; prime powers contributeN(P)^-k, notN(P)^(-e*k).",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "ROOT-PLANTED-INFO-v1 already includes this exact control in its115-ID gate. No new change."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "BT16-ZERO-1",
+      "provenance": {
+        "id": "BT16-ZERO-1",
+        "path": "criticism/BT16/BT16-complete-report-v1.md",
+        "sha256": "a1fb58816f26ec832f0f61f627668a421995b556a5cc0e0b7a19f7bd1298269d",
+        "description": "Allzero public multipliers have uniform secret posterior; under lifting and generation their branch cannot be a claimed success event. Sourcezero/integral branches retained.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "ROOT-PLANTED-INFO-v1 already includes this exact control in its115-ID gate. No new change."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "RF4-FV1",
+      "provenance": {
+        "id": "RF4-FV1",
+        "path": "criticism/RF4/RF4-FV1.stdout",
+        "sha256": "26240b06fb65102304e2e40d1192039e529cb6d035ee4a3f2b47184827fbd943",
+        "description": "3303 exact normalized periodization, complete retry, entangled phase-resource and originalCP1 checks;0.12s11264KiB.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "RF4-PERIOD-NEG1",
+      "provenance": {
+        "id": "RF4-PERIOD-NEG1",
+        "path": "criticism/RF4/failures-before-controls-v1.md",
+        "sha256": "181afcdcac3c0e0c2cb1bd6264afcf5f1a08c33e853f88d8d9f0e716fa328c6e",
+        "description": "Vanishing preperiodization squared tail leaves constant normalized periodization error; collision cross terms required.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "RF4-RETRY-NEG1",
+      "provenance": {
+        "id": "RF4-RETRY-NEG1",
+        "path": "criticism/RF4/failures-before-controls-v1.md",
+        "sha256": "181afcdcac3c0e0c2cb1bd6264afcf5f1a08c33e853f88d8d9f0e716fa328c6e",
+        "description": "Unequal resource acceptance1/4 and5/32 gives joint5/128, not1/16; actual normalization retained.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "RF4-ALIAS-NEG1",
+      "provenance": {
+        "id": "RF4-ALIAS-NEG1",
+        "path": "criticism/RF4/regression-review-v1.md",
+        "sha256": "7a5ad32194577964cf8cc03d6fdd21fa3ca025d7cda4b42b33fd32f7fc28c28b",
+        "description": "B=[[1,256],[0,1]],d1/8,H128 has dual separation but aliases gamma(1,0) to(1,-256); basis coordinate bound separately required.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "BT17-SYMBOLIC-1",
+      "provenance": {
+        "id": "BT17-SYMBOLIC-1",
+        "path": "criticism/BT17/blind-report-v1.md",
+        "sha256": "00d01d1afae48696b1e75cdc86d5d69ec8b998e73f0c79f9b58630dfd04ed143",
+        "description": "Clean blind independent symbolic reconstruction, exact hand control n2,B=I,d2=1/64,epsilon1/16,W25,H2^51,N2^52; no executed experiment.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "ROOT-PARAM-FV1",
+      "provenance": {
+        "id": "ROOT-PARAM-FV1",
+        "path": "coordinator/quantum-integration/effective-parameter-v1/stdout.json",
+        "sha256": "f43ef1de60028ad21e006cb70af4a2ce3abd6379447de79af82cb6fa2c0fce41",
+        "description": "Finite arithmetic ran but associated written t=288 conflicted with actual4608; rejected witness retained.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "ROOT-PARAM-T-1",
+      "provenance": {
+        "id": "ROOT-PARAM-T-1",
+        "path": "coordinator/quantum-integration/parameter-witness-v1-gap-before-v2.md",
+        "sha256": "cd74836c2cfcba23bae971a022e720cc025d790290d06016c866b9fa081f374e",
+        "description": "Written target t must equal tau2*ell=4608; repair explicitly binds both and completion inequalities.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "ROOT-PARAM-FV2",
+      "provenance": {
+        "id": "ROOT-PARAM-FV2",
+        "path": "coordinator/quantum-integration/effective-parameter-v2/stdout.json",
+        "sha256": "a7e8661362d693e583ef41ac3e382d8b6cd2886d67a44d5c1da71f68c50587ed",
+        "description": "Repaired t arithmetic passed; unspecified integer framing still invalidated literal certificate.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "ROOT-PARAM-ENC-1",
+      "provenance": {
+        "id": "ROOT-PARAM-ENC-1",
+        "path": "coordinator/quantum-integration/parameter-witness-v2-encoding-gap-before-v3.md",
+        "sha256": "b38f1a5f4e07cabc55bd262b6cba709782f3c377ed74636441b582dfd8427d5d",
+        "description": "bit_length+3 is not documented parseable framing; v3 uses explicit tagged unary-length encoding.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "ROOT-PARAM-FV3",
+      "provenance": {
+        "id": "ROOT-PARAM-FV3",
+        "path": "coordinator/quantum-integration/effective-parameter-v3/stdout.json",
+        "sha256": "464c6a248dcc27479d37a7c379e628ea727ff12a16a8bf1a7cf72506cdf9c487",
+        "description": "Exact finite nonempty parameters with complete typed encoding; no sampler/circuit/security experiment.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "RF4-PARAM-FV2",
+      "provenance": {
+        "id": "RF4-PARAM-FV2",
+        "path": "criticism/RF4/RF4-PARAM-FV2.stdout",
+        "sha256": "a47ca02eae175f8c470c6b7fb52b8aa00ae58246f13acc5d33c7a62d6ec268fb",
+        "description": "328 independent exact checks of witnessv3 using closed-form basis/adjugate and actual encode/decode;0.03s16384KiB.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "H-ALIGN-FV1",
+      "provenance": {
+        "id": "H-ALIGN-FV1",
+        "path": "workers/H/prime-alignment/finite-stdout-v1.json",
+        "sha256": "a8905bbf62c11437dd9a79bb7b8c56dec1b9f732fd9f278b35e575438a6f3fb5",
+        "description": "Eight exact finite laws,143144pairs,296packing-radius checks, normalizers andCP1; truncated laws do not certify infinite Gaussian bound.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Exact finite congruence and selection controls reinforce original normalization and counted-attempt discipline; they do not assert full Gaussian uniform residues. Accepted source/selectedpair theorems use their original infinite laws and a.s. conditional kernels; no primealignment or LLL algorithm is a dependency."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "BT16-FV1",
+      "provenance": {
+        "id": "BT16-FV1",
+        "path": "criticism/BT16/finite-control-stdout.txt",
+        "sha256": "ab6c8579f9c35289a368cf1bc608bc625d3a9fa1e38f4762b680535a810bc07f",
+        "description": "Exact finite module generation, actual-secret uniqueness, natural reduction, full posterior and supplied CP1 controls; k=0 boundary included.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "BT16-NATURAL-1",
+      "provenance": {
+        "id": "BT16-NATURAL-1",
+        "path": "criticism/BT16/BT16-complete-report-v1.md",
+        "sha256": "a1fb58816f26ec832f0f61f627668a421995b556a5cc0e0b7a19f7bd1298269d",
+        "description": "J=2R,q13,a=1/2 maps to7 centered-6; only multiply byJ before centered lifting recovers actual fractional source.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "BT16-POSTERIOR-1",
+      "provenance": {
+        "id": "BT16-POSTERIOR-1",
+        "path": "criticism/BT16/BT16-complete-report-v1.md",
+        "sha256": "a1fb58816f26ec832f0f61f627668a421995b556a5cc0e0b7a19f7bd1298269d",
+        "description": "Common secret posterior formula does not equate average recovery under different A marginals:55/156 versus7/20, difference1/390.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "BT16-PRIMEPOWER-1",
+      "provenance": {
+        "id": "BT16-PRIMEPOWER-1",
+        "path": "criticism/BT16/finite-control-stdout.txt",
+        "sha256": "ab6c8579f9c35289a368cf1bc608bc625d3a9fa1e38f4762b680535a810bc07f",
+        "description": "Denominator generation depends on hitting the top local layer; prime powers contributeN(P)^-k, notN(P)^(-e*k).",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "BT16-ZERO-1",
+      "provenance": {
+        "id": "BT16-ZERO-1",
+        "path": "criticism/BT16/BT16-complete-report-v1.md",
+        "sha256": "a1fb58816f26ec832f0f61f627668a421995b556a5cc0e0b7a19f7bd1298269d",
+        "description": "Allzero public multipliers have uniform secret posterior; under lifting and generation their branch cannot be a claimed success event. Sourcezero/integral branches retained.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "RF4-FV1",
+      "provenance": {
+        "id": "RF4-FV1",
+        "path": "criticism/RF4/RF4-FV1.stdout",
+        "sha256": "26240b06fb65102304e2e40d1192039e529cb6d035ee4a3f2b47184827fbd943",
+        "description": "3303 exact normalized periodization, complete retry, entangled phase-resource and originalCP1 checks;0.12s11264KiB.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "RF4-PERIOD-NEG1",
+      "provenance": {
+        "id": "RF4-PERIOD-NEG1",
+        "path": "criticism/RF4/failures-before-controls-v1.md",
+        "sha256": "181afcdcac3c0e0c2cb1bd6264afcf5f1a08c33e853f88d8d9f0e716fa328c6e",
+        "description": "Vanishing preperiodization squared tail leaves constant normalized periodization error; collision cross terms required.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "RF4-RETRY-NEG1",
+      "provenance": {
+        "id": "RF4-RETRY-NEG1",
+        "path": "criticism/RF4/failures-before-controls-v1.md",
+        "sha256": "181afcdcac3c0e0c2cb1bd6264afcf5f1a08c33e853f88d8d9f0e716fa328c6e",
+        "description": "Unequal resource acceptance1/4 and5/32 gives joint5/128, not1/16; actual normalization retained.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "RF4-ALIAS-NEG1",
+      "provenance": {
+        "id": "RF4-ALIAS-NEG1",
+        "path": "criticism/RF4/regression-review-v1.md",
+        "sha256": "7a5ad32194577964cf8cc03d6fdd21fa3ca025d7cda4b42b33fd32f7fc28c28b",
+        "description": "B=[[1,256],[0,1]],d1/8,H128 has dual separation but aliases gamma(1,0) to(1,-256); basis coordinate bound separately required.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "BT17-SYMBOLIC-1",
+      "provenance": {
+        "id": "BT17-SYMBOLIC-1",
+        "path": "criticism/BT17/blind-report-v1.md",
+        "sha256": "00d01d1afae48696b1e75cdc86d5d69ec8b998e73f0c79f9b58630dfd04ed143",
+        "description": "Clean blind independent symbolic reconstruction, exact hand control n2,B=I,d2=1/64,epsilon1/16,W25,H2^51,N2^52; no executed experiment.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "ROOT-PARAM-FV1",
+      "provenance": {
+        "id": "ROOT-PARAM-FV1",
+        "path": "coordinator/quantum-integration/effective-parameter-v1/stdout.json",
+        "sha256": "f43ef1de60028ad21e006cb70af4a2ce3abd6379447de79af82cb6fa2c0fce41",
+        "description": "Finite arithmetic ran but associated written t=288 conflicted with actual4608; rejected witness retained.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "ROOT-PARAM-T-1",
+      "provenance": {
+        "id": "ROOT-PARAM-T-1",
+        "path": "coordinator/quantum-integration/parameter-witness-v1-gap-before-v2.md",
+        "sha256": "cd74836c2cfcba23bae971a022e720cc025d790290d06016c866b9fa081f374e",
+        "description": "Written target t must equal tau2*ell=4608; repair explicitly binds both and completion inequalities.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "ROOT-PARAM-FV2",
+      "provenance": {
+        "id": "ROOT-PARAM-FV2",
+        "path": "coordinator/quantum-integration/effective-parameter-v2/stdout.json",
+        "sha256": "a7e8661362d693e583ef41ac3e382d8b6cd2886d67a44d5c1da71f68c50587ed",
+        "description": "Repaired t arithmetic passed; unspecified integer framing still invalidated literal certificate.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "ROOT-PARAM-ENC-1",
+      "provenance": {
+        "id": "ROOT-PARAM-ENC-1",
+        "path": "coordinator/quantum-integration/parameter-witness-v2-encoding-gap-before-v3.md",
+        "sha256": "b38f1a5f4e07cabc55bd262b6cba709782f3c377ed74636441b582dfd8427d5d",
+        "description": "bit_length+3 is not documented parseable framing; v3 uses explicit tagged unary-length encoding.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "ROOT-PARAM-FV3",
+      "provenance": {
+        "id": "ROOT-PARAM-FV3",
+        "path": "coordinator/quantum-integration/effective-parameter-v3/stdout.json",
+        "sha256": "464c6a248dcc27479d37a7c379e628ea727ff12a16a8bf1a7cf72506cdf9c487",
+        "description": "Exact finite nonempty parameters with complete typed encoding; no sampler/circuit/security experiment.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "RF4-PARAM-FV2",
+      "provenance": {
+        "id": "RF4-PARAM-FV2",
+        "path": "criticism/RF4/RF4-PARAM-FV2.stdout",
+        "sha256": "a47ca02eae175f8c470c6b7fb52b8aa00ae58246f13acc5d33c7a62d6ec268fb",
+        "description": "328 independent exact checks of witnessv3 using closed-form basis/adjugate and actual encode/decode;0.03s16384KiB.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "H-ALIGN-FV1",
+      "provenance": {
+        "id": "H-ALIGN-FV1",
+        "path": "workers/H/prime-alignment/finite-stdout-v1.json",
+        "sha256": "a8905bbf62c11437dd9a79bb7b8c56dec1b9f732fd9f278b35e575438a6f3fb5",
+        "description": "Eight exact finite laws,143144pairs,296packing-radius checks, normalizers andCP1; truncated laws do not certify infinite Gaussian bound.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Exact finite congruence and selection controls reinforce original normalization and counted-attempt discipline; they do not assert full Gaussian uniform residues. Accepted source/selectedpair theorems use their original infinite laws and a.s. conditional kernels; no primealignment or LLL algorithm is a dependency."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "BT16-FV1",
+      "provenance": {
+        "id": "BT16-FV1",
+        "path": "criticism/BT16/finite-control-stdout.txt",
+        "sha256": "ab6c8579f9c35289a368cf1bc608bc625d3a9fa1e38f4762b680535a810bc07f",
+        "description": "Exact finite module generation, actual-secret uniqueness, natural reduction, full posterior and supplied CP1 controls; k=0 boundary included.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "BT16-NATURAL-1",
+      "provenance": {
+        "id": "BT16-NATURAL-1",
+        "path": "criticism/BT16/BT16-complete-report-v1.md",
+        "sha256": "a1fb58816f26ec832f0f61f627668a421995b556a5cc0e0b7a19f7bd1298269d",
+        "description": "J=2R,q13,a=1/2 maps to7 centered-6; only multiply byJ before centered lifting recovers actual fractional source.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "BT16-POSTERIOR-1",
+      "provenance": {
+        "id": "BT16-POSTERIOR-1",
+        "path": "criticism/BT16/BT16-complete-report-v1.md",
+        "sha256": "a1fb58816f26ec832f0f61f627668a421995b556a5cc0e0b7a19f7bd1298269d",
+        "description": "Common secret posterior formula does not equate average recovery under different A marginals:55/156 versus7/20, difference1/390.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "BT16-PRIMEPOWER-1",
+      "provenance": {
+        "id": "BT16-PRIMEPOWER-1",
+        "path": "criticism/BT16/finite-control-stdout.txt",
+        "sha256": "ab6c8579f9c35289a368cf1bc608bc625d3a9fa1e38f4762b680535a810bc07f",
+        "description": "Denominator generation depends on hitting the top local layer; prime powers contributeN(P)^-k, notN(P)^(-e*k).",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "BT16-ZERO-1",
+      "provenance": {
+        "id": "BT16-ZERO-1",
+        "path": "criticism/BT16/BT16-complete-report-v1.md",
+        "sha256": "a1fb58816f26ec832f0f61f627668a421995b556a5cc0e0b7a19f7bd1298269d",
+        "description": "Allzero public multipliers have uniform secret posterior; under lifting and generation their branch cannot be a claimed success event. Sourcezero/integral branches retained.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "RF4-FV1",
+      "provenance": {
+        "id": "RF4-FV1",
+        "path": "criticism/RF4/RF4-FV1.stdout",
+        "sha256": "26240b06fb65102304e2e40d1192039e529cb6d035ee4a3f2b47184827fbd943",
+        "description": "3303 exact normalized periodization, complete retry, entangled phase-resource and originalCP1 checks;0.12s11264KiB.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "RF4-PERIOD-NEG1",
+      "provenance": {
+        "id": "RF4-PERIOD-NEG1",
+        "path": "criticism/RF4/failures-before-controls-v1.md",
+        "sha256": "181afcdcac3c0e0c2cb1bd6264afcf5f1a08c33e853f88d8d9f0e716fa328c6e",
+        "description": "Vanishing preperiodization squared tail leaves constant normalized periodization error; collision cross terms required.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "RF4-RETRY-NEG1",
+      "provenance": {
+        "id": "RF4-RETRY-NEG1",
+        "path": "criticism/RF4/failures-before-controls-v1.md",
+        "sha256": "181afcdcac3c0e0c2cb1bd6264afcf5f1a08c33e853f88d8d9f0e716fa328c6e",
+        "description": "Unequal resource acceptance1/4 and5/32 gives joint5/128, not1/16; actual normalization retained.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "RF4-ALIAS-NEG1",
+      "provenance": {
+        "id": "RF4-ALIAS-NEG1",
+        "path": "criticism/RF4/regression-review-v1.md",
+        "sha256": "7a5ad32194577964cf8cc03d6fdd21fa3ca025d7cda4b42b33fd32f7fc28c28b",
+        "description": "B=[[1,256],[0,1]],d1/8,H128 has dual separation but aliases gamma(1,0) to(1,-256); basis coordinate bound separately required.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "BT17-SYMBOLIC-1",
+      "provenance": {
+        "id": "BT17-SYMBOLIC-1",
+        "path": "criticism/BT17/blind-report-v1.md",
+        "sha256": "00d01d1afae48696b1e75cdc86d5d69ec8b998e73f0c79f9b58630dfd04ed143",
+        "description": "Clean blind independent symbolic reconstruction, exact hand control n2,B=I,d2=1/64,epsilon1/16,W25,H2^51,N2^52; no executed experiment.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "ROOT-PARAM-FV1",
+      "provenance": {
+        "id": "ROOT-PARAM-FV1",
+        "path": "coordinator/quantum-integration/effective-parameter-v1/stdout.json",
+        "sha256": "f43ef1de60028ad21e006cb70af4a2ce3abd6379447de79af82cb6fa2c0fce41",
+        "description": "Finite arithmetic ran but associated written t=288 conflicted with actual4608; rejected witness retained.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "ROOT-PARAM-T-1",
+      "provenance": {
+        "id": "ROOT-PARAM-T-1",
+        "path": "coordinator/quantum-integration/parameter-witness-v1-gap-before-v2.md",
+        "sha256": "cd74836c2cfcba23bae971a022e720cc025d790290d06016c866b9fa081f374e",
+        "description": "Written target t must equal tau2*ell=4608; repair explicitly binds both and completion inequalities.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "ROOT-PARAM-FV2",
+      "provenance": {
+        "id": "ROOT-PARAM-FV2",
+        "path": "coordinator/quantum-integration/effective-parameter-v2/stdout.json",
+        "sha256": "a7e8661362d693e583ef41ac3e382d8b6cd2886d67a44d5c1da71f68c50587ed",
+        "description": "Repaired t arithmetic passed; unspecified integer framing still invalidated literal certificate.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "ROOT-PARAM-ENC-1",
+      "provenance": {
+        "id": "ROOT-PARAM-ENC-1",
+        "path": "coordinator/quantum-integration/parameter-witness-v2-encoding-gap-before-v3.md",
+        "sha256": "b38f1a5f4e07cabc55bd262b6cba709782f3c377ed74636441b582dfd8427d5d",
+        "description": "bit_length+3 is not documented parseable framing; v3 uses explicit tagged unary-length encoding.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "ROOT-PARAM-FV3",
+      "provenance": {
+        "id": "ROOT-PARAM-FV3",
+        "path": "coordinator/quantum-integration/effective-parameter-v3/stdout.json",
+        "sha256": "464c6a248dcc27479d37a7c379e628ea727ff12a16a8bf1a7cf72506cdf9c487",
+        "description": "Exact finite nonempty parameters with complete typed encoding; no sampler/circuit/security experiment.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "RF4-PARAM-FV2",
+      "provenance": {
+        "id": "RF4-PARAM-FV2",
+        "path": "criticism/RF4/RF4-PARAM-FV2.stdout",
+        "sha256": "a47ca02eae175f8c470c6b7fb52b8aa00ae58246f13acc5d33c7a62d6ec268fb",
+        "description": "328 independent exact checks of witnessv3 using closed-form basis/adjugate and actual encode/decode;0.03s16384KiB.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "H-ALIGN-FV1",
+      "provenance": {
+        "id": "H-ALIGN-FV1",
+        "path": "workers/H/prime-alignment/finite-stdout-v1.json",
+        "sha256": "a8905bbf62c11437dd9a79bb7b8c56dec1b9f732fd9f278b35e575438a6f3fb5",
+        "description": "Eight exact finite laws,143144pairs,296packing-radius checks, normalizers andCP1; truncated laws do not certify infinite Gaussian bound.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Exact finite congruence and selection controls reinforce original normalization and counted-attempt discipline; they do not assert full Gaussian uniform residues. Accepted source/selectedpair theorems use their original infinite laws and a.s. conditional kernels; no primealignment or LLL algorithm is a dependency."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "BT16-FV1",
+      "provenance": {
+        "id": "BT16-FV1",
+        "path": "criticism/BT16/finite-control-stdout.txt",
+        "sha256": "ab6c8579f9c35289a368cf1bc608bc625d3a9fa1e38f4762b680535a810bc07f",
+        "description": "Exact finite module generation, actual-secret uniqueness, natural reduction, full posterior and supplied CP1 controls; k=0 boundary included.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "BT16-NATURAL-1",
+      "provenance": {
+        "id": "BT16-NATURAL-1",
+        "path": "criticism/BT16/BT16-complete-report-v1.md",
+        "sha256": "a1fb58816f26ec832f0f61f627668a421995b556a5cc0e0b7a19f7bd1298269d",
+        "description": "J=2R,q13,a=1/2 maps to7 centered-6; only multiply byJ before centered lifting recovers actual fractional source.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "BT16-POSTERIOR-1",
+      "provenance": {
+        "id": "BT16-POSTERIOR-1",
+        "path": "criticism/BT16/BT16-complete-report-v1.md",
+        "sha256": "a1fb58816f26ec832f0f61f627668a421995b556a5cc0e0b7a19f7bd1298269d",
+        "description": "Common secret posterior formula does not equate average recovery under different A marginals:55/156 versus7/20, difference1/390.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "BT16-PRIMEPOWER-1",
+      "provenance": {
+        "id": "BT16-PRIMEPOWER-1",
+        "path": "criticism/BT16/finite-control-stdout.txt",
+        "sha256": "ab6c8579f9c35289a368cf1bc608bc625d3a9fa1e38f4762b680535a810bc07f",
+        "description": "Denominator generation depends on hitting the top local layer; prime powers contributeN(P)^-k, notN(P)^(-e*k).",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "BT16-ZERO-1",
+      "provenance": {
+        "id": "BT16-ZERO-1",
+        "path": "criticism/BT16/BT16-complete-report-v1.md",
+        "sha256": "a1fb58816f26ec832f0f61f627668a421995b556a5cc0e0b7a19f7bd1298269d",
+        "description": "Allzero public multipliers have uniform secret posterior; under lifting and generation their branch cannot be a claimed success event. Sourcezero/integral branches retained.",
+        "disposition": "ROOT-PLANTED-INFO exact full/source/blind proof and finite controls; scope in coordinator/planted-information/regression-gate-v1.json"
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No new inference of equal average guessing across different A laws, binary injectivity at low index, top-layer primepower probability, or centered lifting of a fractional residue is made. A-FRAC uses full natural quotient wrapper and planted guessing upper bound; the other accepted scopes do not use this new information-theorem proof. Their frozen statements remain unchanged."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "RF4-FV1",
+      "provenance": {
+        "id": "RF4-FV1",
+        "path": "criticism/RF4/RF4-FV1.stdout",
+        "sha256": "26240b06fb65102304e2e40d1192039e529cb6d035ee4a3f2b47184827fbd943",
+        "description": "3303 exact normalized periodization, complete retry, entangled phase-resource and originalCP1 checks;0.12s11264KiB.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "RF4-PERIOD-NEG1",
+      "provenance": {
+        "id": "RF4-PERIOD-NEG1",
+        "path": "criticism/RF4/failures-before-controls-v1.md",
+        "sha256": "181afcdcac3c0e0c2cb1bd6264afcf5f1a08c33e853f88d8d9f0e716fa328c6e",
+        "description": "Vanishing preperiodization squared tail leaves constant normalized periodization error; collision cross terms required.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "RF4-RETRY-NEG1",
+      "provenance": {
+        "id": "RF4-RETRY-NEG1",
+        "path": "criticism/RF4/failures-before-controls-v1.md",
+        "sha256": "181afcdcac3c0e0c2cb1bd6264afcf5f1a08c33e853f88d8d9f0e716fa328c6e",
+        "description": "Unequal resource acceptance1/4 and5/32 gives joint5/128, not1/16; actual normalization retained.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "RF4-ALIAS-NEG1",
+      "provenance": {
+        "id": "RF4-ALIAS-NEG1",
+        "path": "criticism/RF4/regression-review-v1.md",
+        "sha256": "7a5ad32194577964cf8cc03d6fdd21fa3ca025d7cda4b42b33fd32f7fc28c28b",
+        "description": "B=[[1,256],[0,1]],d1/8,H128 has dual separation but aliases gamma(1,0) to(1,-256); basis coordinate bound separately required.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "BT17-SYMBOLIC-1",
+      "provenance": {
+        "id": "BT17-SYMBOLIC-1",
+        "path": "criticism/BT17/blind-report-v1.md",
+        "sha256": "00d01d1afae48696b1e75cdc86d5d69ec8b998e73f0c79f9b58630dfd04ed143",
+        "description": "Clean blind independent symbolic reconstruction, exact hand control n2,B=I,d2=1/64,epsilon1/16,W25,H2^51,N2^52; no executed experiment.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Finite Fourier periodization/alias/phase-resource controls concern the separate F-QFINITE theorem. F-QCOH only supplies clean coherentXOR from an actual bounded circuit and pays2sqrt(p); it asserts neither periodization nor QFT coordinate decoding. Earlier source/classcount/extraction scopes do not call this quantum implementation. Their accepted statements are unchanged; the complete composition receives new gates."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "ROOT-PARAM-FV1",
+      "provenance": {
+        "id": "ROOT-PARAM-FV1",
+        "path": "coordinator/quantum-integration/effective-parameter-v1/stdout.json",
+        "sha256": "f43ef1de60028ad21e006cb70af4a2ce3abd6379447de79af82cb6fa2c0fce41",
+        "description": "Finite arithmetic ran but associated written t=288 conflicted with actual4608; rejected witness retained.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "ROOT-PARAM-T-1",
+      "provenance": {
+        "id": "ROOT-PARAM-T-1",
+        "path": "coordinator/quantum-integration/parameter-witness-v1-gap-before-v2.md",
+        "sha256": "cd74836c2cfcba23bae971a022e720cc025d790290d06016c866b9fa081f374e",
+        "description": "Written target t must equal tau2*ell=4608; repair explicitly binds both and completion inequalities.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "ROOT-PARAM-FV2",
+      "provenance": {
+        "id": "ROOT-PARAM-FV2",
+        "path": "coordinator/quantum-integration/effective-parameter-v2/stdout.json",
+        "sha256": "a7e8661362d693e583ef41ac3e382d8b6cd2886d67a44d5c1da71f68c50587ed",
+        "description": "Repaired t arithmetic passed; unspecified integer framing still invalidated literal certificate.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "ROOT-PARAM-ENC-1",
+      "provenance": {
+        "id": "ROOT-PARAM-ENC-1",
+        "path": "coordinator/quantum-integration/parameter-witness-v2-encoding-gap-before-v3.md",
+        "sha256": "b38f1a5f4e07cabc55bd262b6cba709782f3c377ed74636441b582dfd8427d5d",
+        "description": "bit_length+3 is not documented parseable framing; v3 uses explicit tagged unary-length encoding.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "ROOT-PARAM-FV3",
+      "provenance": {
+        "id": "ROOT-PARAM-FV3",
+        "path": "coordinator/quantum-integration/effective-parameter-v3/stdout.json",
+        "sha256": "464c6a248dcc27479d37a7c379e628ea727ff12a16a8bf1a7cf72506cdf9c487",
+        "description": "Exact finite nonempty parameters with complete typed encoding; no sampler/circuit/security experiment.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "RF4-PARAM-FV2",
+      "provenance": {
+        "id": "RF4-PARAM-FV2",
+        "path": "criticism/RF4/RF4-PARAM-FV2.stdout",
+        "sha256": "a47ca02eae175f8c470c6b7fb52b8aa00ae58246f13acc5d33c7a62d6ec268fb",
+        "description": "328 independent exact checks of witnessv3 using closed-form basis/adjugate and actual encode/decode;0.03s16384KiB.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "No accepted theorem depends on the finite parameter certificate. The wrong t and unspecified framing reject witnessv1/v2 only. A-FRAC uses explicit variable t and its sigma inequality; B/C8 count input rational encodings; F-QCOH takes actual bounded circuitS. Correct witnessv3 separately rechecked. No premise or theorem bound changed."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "H-ALIGN-FV1",
+      "provenance": {
+        "id": "H-ALIGN-FV1",
+        "path": "workers/H/prime-alignment/finite-stdout-v1.json",
+        "sha256": "a8905bbf62c11437dd9a79bb7b8c56dec1b9f732fd9f278b35e575438a6f3fb5",
+        "description": "Eight exact finite laws,143144pairs,296packing-radius checks, normalizers andCP1; truncated laws do not certify infinite Gaussian bound.",
+        "disposition": "Retained with exact provenance; claim-specific gate required."
+      },
+      "disposition": "RECONCILED_SCOPED_NO_DEPENDENCY_CHANGE",
+      "reason": "Exact finite congruence and selection controls reinforce original normalization and counted-attempt discipline; they do not assert full Gaussian uniform residues. Accepted source/selectedpair theorems use their original infinite laws and a.s. conditional kernels; no primealignment or LLL algorithm is a dependency."
+    }
+  ],
+  "scope": "17 later controls assessed against all10 prioracceptedscopes; not a blanket proofcertificate or acceptance of new composition."
+}

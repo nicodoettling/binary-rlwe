@@ -1,0 +1,1168 @@
+{
+  "at": "2026-10-18T01:46:57.990118+00:00",
+  "scope": "Structural links/hashes/dependency-status only, not proof certification",
+  "checks": [
+    {
+      "claim": "INHERITED-EX-v2",
+      "evidence": "intake/baseline-manifest.json",
+      "pass": true
+    },
+    {
+      "claim": "INHERITED-EX-v2",
+      "evidence": "intake/october-claims-exact.json",
+      "pass": true
+    },
+    {
+      "claim": "D-THETA-v1",
+      "evidence": "workers/D/ideal-theta-theorem-only-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "D-THETA-v1",
+      "evidence": "workers/D/ideal-theta-proof-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "D-THETA-v1",
+      "evidence": "workers/D/experiments/theta-control-v1.stdout.json",
+      "pass": true
+    },
+    {
+      "claim": "D-THETA-v1",
+      "evidence": "coordinator/theta-freeze-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "D-THETA-v1",
+      "evidence": "workers/A/stat-review/report-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "D-THETA-v1",
+      "evidence": "criticism/RS0/report-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "D-THETA-v1",
+      "evidence": "criticism/BT1/exposure-20261017T2024Z.md",
+      "pass": true
+    },
+    {
+      "claim": "D-THETA-v1",
+      "evidence": "workers/A/stat-review/bt2-notation-recheck-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "D-THETA-v1",
+      "evidence": "criticism/RS0/definitions-recheck-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "D-THETA-v1",
+      "evidence": "criticism/BT2/report-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "D-THETA-v1",
+      "evidence": "criticism/BT2/freeze-receipt-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "D-THETA-v1",
+      "evidence": "coordinator/theta-artifact-consistency-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "D-THETA-v1",
+      "evidence": "experiments/root_cp1_v1.stdout.json",
+      "pass": true
+    },
+    {
+      "claim": "D-THETA-v1",
+      "hash_field": "exact_theorem_sha256",
+      "matches": [
+        "workers/D/ideal-theta-theorem-only-v1.md"
+      ],
+      "pass": true
+    },
+    {
+      "claim": "D-THETA-v1",
+      "hash_field": "exact_proof_sha256",
+      "matches": [
+        "workers/D/ideal-theta-proof-v1.md"
+      ],
+      "pass": true
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "evidence": "workers/A/fractional-composition/theorem-only-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "evidence": "workers/A/fractional-composition/proof-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "evidence": "coordinator/a-frac-definitions-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "evidence": "criticism/RF2/full-report-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "evidence": "criticism/RF2/a-definitions-recheck-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "evidence": "criticism/RS1/report-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "evidence": "criticism/BT3/report-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "evidence": "criticism/BT3/freeze-receipt-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "evidence": "criticism/RF2/regression-review-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "evidence": "coordinator/a-frac-artifact-consistency-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "evidence": "workers/A/fractional-composition/finite-controls-report-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "hash_field": "exact_theorem_sha256",
+      "matches": [
+        "workers/A/fractional-composition/theorem-only-v1.md"
+      ],
+      "pass": true
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "hash_field": "exact_proof_sha256",
+      "matches": [
+        "workers/A/fractional-composition/proof-v1.md"
+      ],
+      "pass": true
+    },
+    {
+      "claim": "B-GP-v2",
+      "evidence": "workers/B/ideal-denominator/gaussian-periodic-theorem-v2.md",
+      "pass": true
+    },
+    {
+      "claim": "B-GP-v2",
+      "evidence": "workers/B/ideal-denominator/gaussian-periodic-proof-v2.md",
+      "pass": true
+    },
+    {
+      "claim": "B-GP-v2",
+      "evidence": "criticism/RF2/b-v2-encoding-recheck-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "B-GP-v2",
+      "evidence": "criticism/BT5/report-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "B-GP-v2",
+      "evidence": "criticism/BT5/freeze-receipt-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "B-GP-v2",
+      "evidence": "criticism/RS1/b-v2-recheck-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "B-GP-v2",
+      "evidence": "criticism/RF2/b-v2-log-ceiling-recheck-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "B-GP-v2",
+      "evidence": "coordinator/b-gp-v2-regression-addendum-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "B-GP-v2",
+      "evidence": "coordinator/b-gp-v2-artifact-consistency-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "B-GP-v2",
+      "hash_field": "exact_theorem_sha256",
+      "matches": [
+        "workers/B/ideal-denominator/gaussian-periodic-theorem-v2.md"
+      ],
+      "pass": true
+    },
+    {
+      "claim": "B-GP-v2",
+      "hash_field": "exact_proof_sha256",
+      "matches": [
+        "workers/B/ideal-denominator/gaussian-periodic-proof-v2.md"
+      ],
+      "pass": true
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "evidence": "coordinator/same-class-count-theorem-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "evidence": "coordinator/same-class-count-proof-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "evidence": "workers/C/same-class-nonauthor-review-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "evidence": "criticism/BT6/report-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "evidence": "criticism/BT6/freeze-receipt-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "evidence": "coordinator/same-class-source-gate-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "evidence": "coordinator/same-class-regression-gate-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "evidence": "experiments/root_classcount_v1.stdout.json",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "evidence": "coordinator/same-class-artifact-consistency-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "hash_field": "exact_theorem_sha256",
+      "matches": [
+        "coordinator/same-class-count-theorem-v1.md"
+      ],
+      "pass": true
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "hash_field": "exact_proof_sha256",
+      "matches": [
+        "coordinator/same-class-count-proof-v1.md"
+      ],
+      "pass": true
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "evidence": "coordinator/c8-repair/multiplier-ohcp-algorithm-v2.md",
+      "pass": true
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "evidence": "coordinator/c8-repair/multiplier-ohcp-proof-v9.md",
+      "pass": true
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "evidence": "coordinator/c8-repair/multiplier-ohcp-theorem-v8.md",
+      "pass": true
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "evidence": "workers/A/c9-review/exact-repair-review-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "evidence": "criticism/BT10/report-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "evidence": "criticism/BT10/freeze-receipt-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "evidence": "coordinator/c8-bt10-exposure-disposition-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "evidence": "coordinator/c8-source-parameter-gate-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "evidence": "coordinator/c8-regression-gate-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "evidence": "coordinator/c8-artifact-consistency-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "evidence": "criticism/BT13/report-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "evidence": "criticism/BT13/freeze-receipt-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "evidence": "coordinator/c8-acceptance-reconciliation-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "evidence": "coordinator/c8-artifact-consistency-v2.json",
+      "pass": true
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "evidence": "coordinator/c8-regression-addendum-v2.json",
+      "pass": true
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "hash_field": "exact_theorem_sha256",
+      "matches": [
+        "coordinator/c8-repair/multiplier-ohcp-theorem-v8.md"
+      ],
+      "pass": true
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "hash_field": "exact_proof_sha256",
+      "matches": [
+        "coordinator/c8-repair/multiplier-ohcp-proof-v9.md"
+      ],
+      "pass": true
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "dependency": "ROOT-SAMECLASS-v1",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "evidence": "coordinator/binary-class-count/theorem-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "evidence": "coordinator/binary-class-count/proof-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "evidence": "coordinator/binary-class-count/experiments/control-v1.stdout.json",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "evidence": "criticism/RF3/full-review-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "evidence": "criticism/RF3/source-parameter-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "evidence": "criticism/RF3/completion-receipt-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "evidence": "coordinator/binary-class-count/regression-gate-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "evidence": "criticism/BT12/report-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "evidence": "criticism/BT12/freeze-receipt-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "evidence": "coordinator/binary-class-count/regression-gate-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "evidence": "coordinator/binary-class-count/regression-addendum-v2.json",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "evidence": "coordinator/binary-class-count/acceptance-reconciliation-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "evidence": "coordinator/binary-class-count/artifact-consistency-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "hash_field": "exact_theorem_sha256",
+      "matches": [
+        "coordinator/binary-class-count/theorem-v1.md"
+      ],
+      "pass": true
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "hash_field": "exact_proof_sha256",
+      "matches": [
+        "coordinator/binary-class-count/proof-v1.md"
+      ],
+      "pass": true
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "evidence": "coordinator/planted-information/theorem-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "evidence": "coordinator/planted-information/proof-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "evidence": "workers/G/planted-information-review/full-proof-review-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "evidence": "workers/G/planted-information-review/source-parameter-review-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "evidence": "workers/G/planted-information-review/finite-control-v1.stdout.json",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "evidence": "criticism/BT16/BT16-complete-report-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "evidence": "criticism/BT16/BT16-freeze-receipt-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "evidence": "coordinator/planted-information/acceptance-reconciliation-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "evidence": "coordinator/planted-information/regression-gate-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "evidence": "coordinator/planted-information/artifact-consistency-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "hash_field": "exact_theorem_sha256",
+      "matches": [
+        "coordinator/planted-information/theorem-v1.md"
+      ],
+      "pass": true
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "hash_field": "exact_proof_sha256",
+      "matches": [
+        "coordinator/planted-information/proof-v1.md"
+      ],
+      "pass": true
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "evidence": "workers/E/fractional-extraction/pair-theorem-only-v2.md",
+      "pass": true
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "evidence": "workers/E/fractional-extraction/pair-extraction-theorem-proof-v2.md",
+      "pass": true
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "evidence": "coordinator/e-pair-full-review-v2.md",
+      "pass": true
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "evidence": "criticism/BT15/report-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "evidence": "criticism/BT15/freeze-receipt-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "evidence": "coordinator/fractional-coherent-acceptance-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "evidence": "coordinator/fractional-coherent-regression-gate-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "evidence": "coordinator/fractional-coherent-artifact-consistency-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "evidence": "coordinator/binary-class-count/fractional-smallball-theorem-v3.md",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "evidence": "coordinator/binary-class-count/fractional-smallball-proof-v3.md",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "evidence": "workers/E/fractional-extraction/root-fixedmap-v3-full-source-review.md",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "evidence": "criticism/BT15/report-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "evidence": "criticism/BT15/freeze-receipt-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "evidence": "coordinator/fractional-coherent-acceptance-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "evidence": "coordinator/fractional-coherent-regression-gate-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "evidence": "coordinator/fractional-coherent-artifact-consistency-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "evidence": "workers/F/finite-quantum-integration/coherent-adapter-theorem-only-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "evidence": "workers/F/finite-quantum-integration/coherent-adapter-proof-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "evidence": "coordinator/quantum-integration/f-qcoh-full-review-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "evidence": "criticism/BT15/input/definitions-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "evidence": "criticism/BT15/report-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "evidence": "criticism/BT15/freeze-receipt-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "evidence": "coordinator/fractional-coherent-acceptance-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "evidence": "coordinator/fractional-coherent-regression-gate-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "evidence": "coordinator/fractional-coherent-artifact-consistency-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "dependency": "F-QCOH-v1",
+      "pass": true
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "evidence": "workers/F/finite-quantum-integration/finite-quantum-theorem-only-v2.md",
+      "pass": true
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "evidence": "workers/F/finite-quantum-integration/finite-quantum-algorithm-v2.md",
+      "pass": true
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "evidence": "workers/F/finite-quantum-integration/finite-quantum-proof-v2.md",
+      "pass": true
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "evidence": "criticism/BT17/assignment-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "evidence": "criticism/RF4/assignment-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "evidence": "criticism/RF4/full-proof-report-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "evidence": "criticism/RF4/source-parameter-complexity-report-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "evidence": "criticism/BT17/blind-report-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "evidence": "criticism/BT17/freeze-receipt-v1.sha256",
+      "pass": true
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "evidence": "coordinator/quantum-integration/f-qfinite-acceptance-reconciliation-v2.md",
+      "pass": true
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "evidence": "coordinator/quantum-integration/f-qfinite-regression-gate-v2.json",
+      "pass": true
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "evidence": "coordinator/quantum-integration/f-qfinite-artifact-consistency-v2.json",
+      "pass": true
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "hash_field": "exact_theorem_sha256",
+      "matches": [
+        "workers/F/finite-quantum-integration/finite-quantum-theorem-only-v2.md"
+      ],
+      "pass": true
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "hash_field": "exact_proof_sha256",
+      "matches": [
+        "workers/F/finite-quantum-integration/finite-quantum-proof-v2.md"
+      ],
+      "pass": true
+    },
+    {
+      "claim": "H-ALIGN-v1",
+      "evidence": "workers/H/prime-alignment/theorem-only-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "H-ALIGN-v1",
+      "evidence": "workers/H/prime-alignment/proof-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "H-ALIGN-v1",
+      "evidence": "workers/H/prime-alignment/finite-stdout-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "H-ALIGN-v1",
+      "evidence": "coordinator/alignment-acceptance-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "H-ALIGN-v1",
+      "evidence": "coordinator/alignment-regression-gate-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "H-ALIGN-v1",
+      "evidence": "coordinator/samej-alignment-artifact-gate-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "RF4-SAMEJ-v1",
+      "dependency": "A-FRAC-v1",
+      "pass": true
+    },
+    {
+      "claim": "RF4-SAMEJ-v1",
+      "dependency": "B-GP-v2",
+      "pass": true
+    },
+    {
+      "claim": "RF4-SAMEJ-v1",
+      "dependency": "C-OHCP-v8",
+      "pass": true
+    },
+    {
+      "claim": "RF4-SAMEJ-v1",
+      "dependency": "F-QFINITE-v2",
+      "pass": true
+    },
+    {
+      "claim": "RF4-SAMEJ-v1",
+      "evidence": "workers/RF4/same-j-composition/same-j-theorem-only-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "RF4-SAMEJ-v1",
+      "evidence": "workers/RF4/same-j-composition/same-j-proof-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "RF4-SAMEJ-v1",
+      "evidence": "workers/RF4/same-j-composition/interface-statements-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "RF4-SAMEJ-v1",
+      "evidence": "workers/RF4/same-j-composition/freeze-manifest-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "RF4-SAMEJ-v1",
+      "evidence": "coordinator/samej-acceptance-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "RF4-SAMEJ-v1",
+      "evidence": "coordinator/samej-regression-gate-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "RF4-SAMEJ-v1",
+      "evidence": "coordinator/samej-alignment-artifact-gate-v1.json",
+      "pass": true
+    },
+    {
+      "claim": "RF4-SAMEJ-v1",
+      "hash_field": "exact_theorem_sha256",
+      "matches": [
+        "workers/RF4/same-j-composition/same-j-theorem-only-v1.md"
+      ],
+      "pass": true
+    },
+    {
+      "claim": "RF4-SAMEJ-v1",
+      "hash_field": "exact_proof_sha256",
+      "matches": [
+        "workers/RF4/same-j-composition/same-j-proof-v1.md"
+      ],
+      "pass": true
+    },
+    {
+      "claim": "RT1-WEIGHTED-v2",
+      "evidence": "coordinator/tower-lift/weighted-v2/theorem-only-v2.md",
+      "pass": true
+    },
+    {
+      "claim": "RT1-WEIGHTED-v2",
+      "evidence": "coordinator/tower-lift/weighted-v2/proof-clarification-v2.md",
+      "pass": true
+    },
+    {
+      "claim": "RT1-WEIGHTED-v2",
+      "evidence": "criticism/RT1/weighted-trace-bridge-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "RT1-WEIGHTED-v2",
+      "evidence": "criticism/RT2/full-review-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "RT1-WEIGHTED-v2",
+      "evidence": "criticism/RT2/source-complexity-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "RT1-WEIGHTED-v2",
+      "evidence": "criticism/RT2/exact-v2-recheck.md",
+      "pass": true
+    },
+    {
+      "claim": "RT1-WEIGHTED-v2",
+      "evidence": "criticism/BT22/report-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "RT1-WEIGHTED-v2",
+      "evidence": "criticism/BT22/exposure-log-v1.md",
+      "pass": true
+    },
+    {
+      "claim": "RT1-WEIGHTED-v2",
+      "evidence": "coordinator/tower-lift/weighted-acceptance-v2.md",
+      "pass": true
+    },
+    {
+      "claim": "RT1-WEIGHTED-v2",
+      "evidence": "coordinator/tower-lift/weighted-regression-gate-v3.json",
+      "pass": true
+    },
+    {
+      "claim": "RT1-WEIGHTED-v2",
+      "evidence": "coordinator/tower-lift/weighted-artifact-gate-v2.json",
+      "pass": true
+    },
+    {
+      "claim": "RT1-WEIGHTED-v2",
+      "hash_field": "exact_theorem_sha256",
+      "matches": [
+        "coordinator/tower-lift/weighted-v2/theorem-only-v2.md"
+      ],
+      "pass": true
+    },
+    {
+      "document": "final.md",
+      "link": "workers/RF4/same-j-composition/same-j-theorem-only-v1.md",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "final.md",
+      "link": "workers/RF4/same-j-composition/same-j-proof-v1.md",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "final.md",
+      "link": "workers/RF4/same-j-composition/same-j-specification-v1.md",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "final.md",
+      "link": "workers/RF4/same-j-composition/interface-statements-v1.md",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "final.md",
+      "link": "coordinator/c8-acceptance-reconciliation-v1.md",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "final.md",
+      "link": "workers/F/finite-quantum-integration/finite-quantum-theorem-only-v2.md",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "final.md",
+      "link": "coordinator/samej-acceptance-v1.md",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "final.md",
+      "link": "criticism/HC1/full-proof-report-v1.md",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "final.md",
+      "link": "criticism/HC1/source-parameter-complexity-report-v1.md",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "final.md",
+      "link": "criticism/BT18/composition-report-v1.md",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "final.md",
+      "link": "coordinator/tower-lift/post-weighted-regression-addendum-v3.json",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "final.md",
+      "link": "claims.json",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "final.md",
+      "link": "workers/H/prime-alignment/theorem-only-v1.md",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "final.md",
+      "link": "coordinator/alignment-acceptance-v1.md",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "final.md",
+      "link": "criticism/BT19/report-v1.md",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "final.md",
+      "link": "workers/B/supersvp-mining/standard-canonical-composition-v2.md",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "final.md",
+      "link": "workers/B/binary-error-switch/sample-budget-and-direction-v1.md",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "final.md",
+      "link": "workers/B/binary-error-switch/primary-source-intersection-v1.md",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "final.md",
+      "link": "criticism/RT1/moment-improvement-v1.md",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "final.md",
+      "link": "criticism/RT1/weighted-trace-bridge-v1.md",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "final.md",
+      "link": "coordinator/tower-lift/weighted-v2/theorem-only-v2.md",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "final.md",
+      "link": "criticism/RT2/exact-v2-recheck.md",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "final.md",
+      "link": "criticism/BT22/report-v1.md",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "final.md",
+      "link": "coordinator/tower-lift/weighted-acceptance-v2.md",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "final.md",
+      "link": "coordinator/tower-lift/primary/FPSW23-parameter-intersection-v1.md",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "final.md",
+      "link": "coordinator/quantum-integration/effective-parameter-v3/certificate.md",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "final.md",
+      "link": "experiments/registry.json",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "final.md",
+      "link": "resume.md",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "final.md",
+      "link": "reconciliation.md",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "final.md",
+      "link": "reduction-attempts.md",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "final.md",
+      "link": "shutdown.json",
+      "pass": true,
+      "pending": true
+    },
+    {
+      "document": "coordinator/tower-lift/weighted-acceptance-v2.md",
+      "link": "weighted-v2/theorem-only-v2.md",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "coordinator/tower-lift/weighted-acceptance-v2.md",
+      "link": "../../criticism/RT1/weighted-trace-bridge-v1.md",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "coordinator/tower-lift/weighted-acceptance-v2.md",
+      "link": "../../criticism/RT1/moment-improvement-v1.md",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "coordinator/tower-lift/weighted-acceptance-v2.md",
+      "link": "weighted-v2/proof-clarification-v2.md",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "coordinator/tower-lift/weighted-acceptance-v2.md",
+      "link": "../../criticism/RT2/full-review-v1.md",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "coordinator/tower-lift/weighted-acceptance-v2.md",
+      "link": "../../criticism/RT2/source-complexity-v1.md",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "coordinator/tower-lift/weighted-acceptance-v2.md",
+      "link": "../../criticism/RT2/dependency-disposition-v1.md",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "coordinator/tower-lift/weighted-acceptance-v2.md",
+      "link": "../../criticism/RT2/exact-v2-recheck.md",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "coordinator/tower-lift/weighted-acceptance-v2.md",
+      "link": "../../criticism/BT22/report-v1.md",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "coordinator/tower-lift/weighted-acceptance-v2.md",
+      "link": "../../criticism/BT22/exposure-log-v1.md",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "coordinator/tower-lift/weighted-acceptance-v2.md",
+      "link": "weighted-regression-gate-v3.json",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "coordinator/tower-lift/weighted-acceptance-v2.md",
+      "link": "weighted-artifact-gate-v2.json",
+      "pass": true,
+      "pending": false
+    },
+    {
+      "document": "coordinator/tower-lift/weighted-acceptance-v2.md",
+      "link": "weighted-v2/rejection-before-repair-v1.md",
+      "pass": true,
+      "pending": false
+    }
+  ],
+  "errors": []
+}

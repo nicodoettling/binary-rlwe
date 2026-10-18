@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261017T210257.675884Z-55fa9cb6",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-17T21:02:57.675909+00:00",
+  "reason": "C OHCP exact-version rejection and repaired chain review; seventeen completed controls; user literature intake",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 14493,
+      "sha256": "4f37cb3ba4582c569ae3c6ff224e609bd3048768b2da9fc9ad4027c7b676eac2"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 5455,
+      "sha256": "91d36ec2462b886219d0337b58a8851b3a6daacab54ca039d5eb354ddfb9991a"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 4483,
+      "sha256": "2691984eeedefbb3296df0e309a0c4c7d8459ed60a9635b34fa01027f8407b32"
+    },
+    {
+      "path": "final.md",
+      "bytes": 6554,
+      "sha256": "4607e98ff8966344b8d337237ded003baff2f1071a4e8c3950833ef6dfcef641"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 12251,
+      "sha256": "0ebb8d910f6018920649091a6010e15fbb8ea560779dabf20d7484eb407bde6d"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

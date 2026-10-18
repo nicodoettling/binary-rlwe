@@ -1,0 +1,333 @@
+{
+  "status": "FINITE CONTROL ONLY; scoped statements remain PROVISIONAL",
+  "seed": "none; exhaustive",
+  "inputs": {
+    "n": 2,
+    "q": 17,
+    "box": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        16
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        16
+      ],
+      [
+        16,
+        0
+      ],
+      [
+        16,
+        1
+      ],
+      [
+        16,
+        16
+      ]
+    ],
+    "far_target": [
+      8,
+      0
+    ],
+    "roots": [
+      4,
+      13
+    ]
+  },
+  "near_far": {
+    "near_acceptance": "1",
+    "far_acceptance": "1",
+    "uniform_acceptance": "18/289",
+    "advantage": "271/289"
+  },
+  "phase": [
+    {
+      "predicate": "one_box",
+      "uniform_acceptance": "9/289",
+      "exact_nonzero_frequency_probability": "10080/83521",
+      "parseval_formula": "10080/83521",
+      "cyclotomic_reduced_numerator": [
+        10080,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "normalization_denominator": 83521
+    },
+    {
+      "predicate": "two_boxes",
+      "uniform_acceptance": "18/289",
+      "exact_nonzero_frequency_probability": "19512/83521",
+      "parseval_formula": "19512/83521",
+      "cyclotomic_reduced_numerator": [
+        19512,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "normalization_denominator": 83521
+    }
+  ],
+  "multiplication_laws": [
+    {
+      "T": [],
+      "target": [
+        0,
+        0
+      ],
+      "target_CRT_support": [],
+      "output_ideal_size": 1,
+      "expected_union_support": [],
+      "uniform_full_comparator": false,
+      "all_scalar_offset_pairs": 289
+    },
+    {
+      "T": [],
+      "target": [
+        8,
+        0
+      ],
+      "target_CRT_support": [
+        4,
+        13
+      ],
+      "output_ideal_size": 289,
+      "expected_union_support": [
+        4,
+        13
+      ],
+      "uniform_full_comparator": true,
+      "all_scalar_offset_pairs": 289
+    },
+    {
+      "T": [],
+      "target": [
+        4,
+        1
+      ],
+      "target_CRT_support": [
+        4
+      ],
+      "output_ideal_size": 17,
+      "expected_union_support": [
+        4
+      ],
+      "uniform_full_comparator": false,
+      "all_scalar_offset_pairs": 289
+    },
+    {
+      "T": [
+        4
+      ],
+      "target": [
+        0,
+        0
+      ],
+      "target_CRT_support": [],
+      "output_ideal_size": 17,
+      "expected_union_support": [
+        4
+      ],
+      "uniform_full_comparator": false,
+      "all_scalar_offset_pairs": 4913
+    },
+    {
+      "T": [
+        4
+      ],
+      "target": [
+        8,
+        0
+      ],
+      "target_CRT_support": [
+        4,
+        13
+      ],
+      "output_ideal_size": 289,
+      "expected_union_support": [
+        4,
+        13
+      ],
+      "uniform_full_comparator": true,
+      "all_scalar_offset_pairs": 4913
+    },
+    {
+      "T": [
+        4
+      ],
+      "target": [
+        4,
+        1
+      ],
+      "target_CRT_support": [
+        4
+      ],
+      "output_ideal_size": 17,
+      "expected_union_support": [
+        4
+      ],
+      "uniform_full_comparator": false,
+      "all_scalar_offset_pairs": 4913
+    },
+    {
+      "T": [
+        13
+      ],
+      "target": [
+        0,
+        0
+      ],
+      "target_CRT_support": [],
+      "output_ideal_size": 17,
+      "expected_union_support": [
+        13
+      ],
+      "uniform_full_comparator": false,
+      "all_scalar_offset_pairs": 4913
+    },
+    {
+      "T": [
+        13
+      ],
+      "target": [
+        8,
+        0
+      ],
+      "target_CRT_support": [
+        4,
+        13
+      ],
+      "output_ideal_size": 289,
+      "expected_union_support": [
+        4,
+        13
+      ],
+      "uniform_full_comparator": true,
+      "all_scalar_offset_pairs": 4913
+    },
+    {
+      "T": [
+        13
+      ],
+      "target": [
+        4,
+        1
+      ],
+      "target_CRT_support": [
+        4
+      ],
+      "output_ideal_size": 289,
+      "expected_union_support": [
+        4,
+        13
+      ],
+      "uniform_full_comparator": true,
+      "all_scalar_offset_pairs": 4913
+    },
+    {
+      "T": [
+        4,
+        13
+      ],
+      "target": [
+        0,
+        0
+      ],
+      "target_CRT_support": [],
+      "output_ideal_size": 289,
+      "expected_union_support": [
+        4,
+        13
+      ],
+      "uniform_full_comparator": true,
+      "all_scalar_offset_pairs": 83521
+    },
+    {
+      "T": [
+        4,
+        13
+      ],
+      "target": [
+        8,
+        0
+      ],
+      "target_CRT_support": [
+        4,
+        13
+      ],
+      "output_ideal_size": 289,
+      "expected_union_support": [
+        4,
+        13
+      ],
+      "uniform_full_comparator": true,
+      "all_scalar_offset_pairs": 83521
+    },
+    {
+      "T": [
+        4,
+        13
+      ],
+      "target": [
+        4,
+        1
+      ],
+      "target_CRT_support": [
+        4
+      ],
+      "output_ideal_size": 289,
+      "expected_union_support": [
+        4,
+        13
+      ],
+      "uniform_full_comparator": true,
+      "all_scalar_offset_pairs": 83521
+    }
+  ],
+  "precision": "unbounded integers, fractions, exact cyclotomic polynomial arithmetic",
+  "all_assertions_passed": true,
+  "elapsed_seconds": 0.1968790499959141,
+  "maxrss_kib": 11264,
+  "address_space_limit_bytes": 268435456
+}

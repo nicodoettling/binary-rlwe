@@ -1,0 +1,25 @@
+{
+  "W_states": 83521,
+  "elapsed_seconds": 0.15070125501370057,
+  "fiber_size_for_each_nonzero_z": 289,
+  "image_size_for_each_nonzero_z": 289,
+  "input": {
+    "U": "identity2",
+    "k": 2,
+    "n": 1,
+    "q": 17,
+    "r": 2,
+    "scope": "scalar-base algebra surrogate; not n>=2 hardness family",
+    "seed": null
+  },
+  "max_rss_kib": 10240,
+  "nonzero_binary_z_rows": 3,
+  "precision": "exact integer counts",
+  "product_orientation_checks": 83521,
+  "rank2_matrix_count": 78336,
+  "structured_residual_count": 289,
+  "structured_residual_probability": "1/289",
+  "zero_binary_z_probability": "1/4",
+  "zero_residual_count": 1,
+  "zero_residual_probability": "1/83521"
+}

@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-18T00:13:37.489681+00:00",
+  "version": 3,
+  "files": {
+    "stdout.json": "464c6a248dcc27479d37a7c379e628ea727ff12a16a8bf1a7cf72506cdf9c487",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "control.py": "6f09e6c5218075cb41fef696906b0a30cd73d5fb913228588ba5bd39a648f947",
+    "input.json": "b1dfcf29f9d972dcd2b7b411fdd261a2201121d3c28250d7d5206ad39b17b8aa",
+    "resources.json": "51b0a62db765f69809623aaa4abe8c1ca799523b38cb70a32f34eff5562a16c5",
+    "certificate.md": "bdc9ea7aa9ba63f59a2ed52a16ee1cdbe31334cee469364c74a1cf39fd98611d",
+    "command.sh": "d56d674cf7a35f4f167ee7e1c9aed07e073b59be27822573b87b778695bcebb1"
+  },
+  "resources": {
+    "exit_status": "passed",
+    "wall_seconds": 0.01448167598573491,
+    "max_rss_KiB": 13312,
+    "address_space_bytes": 268435456,
+    "wall_limit_seconds": 30
+  },
+  "status": "exact rerunpassed; independent RF4 recheck pending"
+}

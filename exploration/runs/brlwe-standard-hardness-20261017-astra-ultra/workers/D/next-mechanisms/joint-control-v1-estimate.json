@@ -1,0 +1,9 @@
+{
+  "max_residue_states": 50,
+  "steps": 4,
+  "choices_per_step": 13,
+  "max_transitions": 2600,
+  "wall_limit_seconds": 20,
+  "address_space_limit_bytes": 268435456,
+  "one_process": true
+}

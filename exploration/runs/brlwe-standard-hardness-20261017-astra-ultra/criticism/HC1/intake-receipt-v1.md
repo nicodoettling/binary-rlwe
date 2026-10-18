@@ -1,0 +1,13 @@
+# HC1 intake and authorization receipt
+
+Role: independent NONAUTHOR full-proof and source/parameter/complexity review of RF4 same-J composition. Assignment preserved in place, SHA256 3c500b07a7a459ebc36f78d3630c0dfa5481b32dc53a8b378b4552ebb2b80236. Original assignment read completely before scientific work. No model, configuration, service, goal, or agent changes.
+
+Parent followup received verbatim:
+
+> Start independent NONAUTHOR composition review under the full exact assignment already saved at /home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/HC1/assignment-v1.md. Read it in full before scientific work; preserve those bytes/hash and this followup receipt. It is self-contained and freezes exact theorem/proof hashes, all allowed inputs, full laws, obligations and deadlines. Same gpt-6-astra ultra thread; no spawn/goals or config/tier changes. Own only criticism/HC1; no author edits, other reports/BT directories/ledgers/status/list_agents. Read live cap administratively. Partial00:45,target00:55UTC; discovery01:36:14.695009Z,workerstop01:56:14.695009Z,graceful02:05:09.695009Z,hard02:06:14.695009Z. Audit complete RF4 same-J composition with both endpoints, code/cost and suppliedq/pointwise premise; separate full and source reports, preserve defects before repair. No experiment without reservation. Root is integrating; RF4 independently reviews your frozen H packet. Send findings root only.
+
+Live cap was read administratively at intake and again during review: active/running; its original discovery/stop/graceful/hard deadlines are those above. No service action occurred. The stored status timestamp is the launch timestamp, so this is a read of the cap record, not an independent service probe.
+
+HC1-FV1 reservation: one foreground exact-rational control process, <=30 seconds/256 MiB, <=20,000 kernel cases on five-point grid, 16 capped-sampling outcomes, original CP-1 and one-slot dispatch semantic control. Granted by root before execution. Actual exit0, wall0.39s, maxRSS10,240KiB; released to root. No experiment remains active.
+
+A subsequent narrow parent authorization temporarily permitted only the separate H author parameter repair. The exact RH1 parameter-scope objection was explicitly authorized for reading. This concerned H parameters-v2, not RF4's composition; parameters-v3 and a versioned receipt were written in the H directory, and HC1 then resumed. No RF4 author file was edited and no RF4 reviewer report or BT directory was read. This exception does not make HC1 an author of the reviewed RF4 composition.

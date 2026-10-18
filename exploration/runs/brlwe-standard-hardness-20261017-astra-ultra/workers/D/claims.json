@@ -1,0 +1,14 @@
+{
+  "schema_version":1,
+  "source_hardness":"OPEN",
+  "claims":[
+    {"id":"D-PRIOR-ENTROPY-AUDIT-v1","status":"PROVISIONAL","statement":"Prior A-H3 appears valid only in its stated exact-comparator/statistical-simulation/input-budget scope; no general more-sample barrier is inferred.","evidence":["first-test-v1.md"]},
+    {"id":"D-CS-v1","status":"PROVISIONAL","statement":"Pointwise comparator density yields an entropy penalty; noiseless RLWE gives explicit approximate-comparator and higher-input-budget scope controls.","evidence":["channel-scope-theorem-only-v1.md","channel-scope-proof-v1.md","first-test-provenance-addendum-v1.md"],"regressions":["UNIFORM-APPROX-COLLAPSE","A-ERASURE-RANKMIX","CP-1"]},
+    {"id":"D-THETA-ALG-v1","status":"PROVISIONAL","statement":"For power-of-two cyclotomics, coefficient annihilator qP* equals conjugate Q; multiplication by conjugate u injects it into R.","evidence":["ideal-theta-proof-v1.md","ideal-theta-control-report-v1.md"]},
+    {"id":"D-THETA-STAT-v1","status":"PROVISIONAL","statement":"The stated ideal-point plus rounded elliptical Gaussian law is k delta_n(c)-close to iid uniform retaining the shared ellipse and public parameters.","dependencies":["D-THETA-ALG-v1"],"evidence":["ideal-theta-theorem-only-v1.md","ideal-theta-proof-v1.md"],"regressions":["C02-CHAR","PAIRWISE-SE-F3","CP-1","EX-PUBLIC-TAPE"]},
+    {"id":"D-THETA-BBPS-v1","status":"PROVISIONAL","statement":"Definition3.6's deterministic width floor and Theorem3.7's ratio condition make the specific C endpoint statistically uniform for polynomially many outputs.","dependencies":["D-THETA-STAT-v1"],"external_hypotheses":["BBPS Definition3.6 exact canonical Gaussian convention","BBPS Theorem3.7 displayed width condition"],"evidence":["ideal-theta-primary-conventions-v1.md"]},
+    {"id":"D-THETA-BOX-v1","status":"PROVISIONAL","statement":"Statistical uniformity and counting exclude high-probability bounded-mask common sparse-ideal representations in the displayed range, even permitting a different common support.","dependencies":["D-THETA-STAT-v1"],"evidence":["ideal-theta-theorem-only-v1.md","ideal-theta-proof-v1.md"]},
+    {"id":"D-B-SYN-ENDPOINT-v1","status":"PROVISIONAL","statement":"B's designated-response short-syndrome endpoint is direction-correct; successful T follows its success posterior, and an efficient short preimage algorithm remains missing.","evidence":["final.md"]}
+  ],
+  "certification":"No new claim accepted by author. Nonauthor and blind review remain open."
+}

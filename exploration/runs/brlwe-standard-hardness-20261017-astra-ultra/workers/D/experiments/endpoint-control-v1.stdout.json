@@ -1,0 +1,71 @@
+{
+  "approximate_comparator_control": {
+    "asymptotic_gamma": "[q^(1-k)(1-q^-k)+q^(-2k)]^n",
+    "comparator_output": "(1-gamma) Uniform + gamma Base2",
+    "comparator_tv": "2108304/244140625",
+    "planted_membership_probability": "1",
+    "planted_output": "exact fixed-d noisy Base2 finite surrogate",
+    "source": "noiseless uniform-secret two-sample RLWE",
+    "uniform_membership_probability": "14641/390625"
+  },
+  "erasure": {
+    "exact_mixture_identity": true,
+    "finite_noise_tv_to_uniform": "1521/15625",
+    "mixture_weights": [
+      "1/25",
+      "8/25",
+      "16/25"
+    ],
+    "noiseless_tv_to_uniform": "5184/15625",
+    "secret_rank_counts": {
+      "0": 1,
+      "1": 8,
+      "2": 16
+    },
+    "tv_to_fixed_d_noisy_base": "507/3125",
+    "upper_bound_nonunit_probability": "9/25"
+  },
+  "input_rank": {
+    "counts": {
+      "0": 1,
+      "1": 48,
+      "2": 576
+    },
+    "formula": "n(1-q^-k)=48/25",
+    "mean": "48/25"
+  },
+  "noise": "Independent uniform {0,1} coefficients, explicitly not D_ell",
+  "noise_dependence": {
+    "crt_joint_support": 4,
+    "crt_product_support": 16,
+    "tv_joint_to_product_of_marginals": "3/4"
+  },
+  "parameters": {
+    "d": 1,
+    "k": 2,
+    "m": 2,
+    "n": 2,
+    "q": 5,
+    "roots": [
+      2,
+      3
+    ]
+  },
+  "primitive_enumeration_states": 448044,
+  "projection": {
+    "failed_selected_unit_probability": "1/5",
+    "planted_uniform_endpoint_tv": "117/2000",
+    "uniform_endpoint_is_fixed_d_noisy_base": true,
+    "uniform_endpoint_tv_to_uniform_ring_pair": "144/625"
+  },
+  "resources": {
+    "enforced_address_space_bytes": 536870912,
+    "enforced_wall_alarm_seconds": 60,
+    "exact_arithmetic": "integer counts and fractions.Fraction",
+    "maxrss_kib": 12288,
+    "processes": 1,
+    "random_seed": "none; exhaustive",
+    "wall_seconds": 0.1856662500067614
+  },
+  "status": "EXACT_FINITE_CONTROL_ONLY"
+}

@@ -1,0 +1,14 @@
+Exact finite quotient controls; these do not truncate or certify Gaussian laws.
+{"m": 2, "k": 0, "tuples": 1, "nongenerating": 1, "failure": "1", "union_bound_chi": "1", "all_generating_tuples_unique_for_all_binary_secrets": true}
+{"m": 2, "k": 1, "tuples": 4, "nongenerating": 2, "failure": "1/2", "union_bound_chi": "1/2", "all_generating_tuples_unique_for_all_binary_secrets": true}
+{"m": 2, "k": 2, "tuples": 16, "nongenerating": 4, "failure": "1/4", "union_bound_chi": "1/4", "all_generating_tuples_unique_for_all_binary_secrets": true}
+{"m": 3, "k": 0, "tuples": 1, "nongenerating": 1, "failure": "1", "union_bound_chi": "1", "all_generating_tuples_unique_for_all_binary_secrets": true}
+{"m": 3, "k": 1, "tuples": 9, "nongenerating": 1, "failure": "1/9", "union_bound_chi": "1/9", "all_generating_tuples_unique_for_all_binary_secrets": true}
+{"m": 3, "k": 2, "tuples": 81, "nongenerating": 1, "failure": "1/81", "union_bound_chi": "1/81", "all_generating_tuples_unique_for_all_binary_secrets": true}
+{"m": 5, "k": 0, "tuples": 1, "nongenerating": 1, "failure": "1", "union_bound_chi": "2", "all_generating_tuples_unique_for_all_binary_secrets": true}
+{"m": 5, "k": 1, "tuples": 25, "nongenerating": 9, "failure": "9/25", "union_bound_chi": "2/5", "all_generating_tuples_unique_for_all_binary_secrets": true}
+{"m": 5, "k": 2, "tuples": 625, "nongenerating": 49, "failure": "49/625", "union_bound_chi": "2/25", "all_generating_tuples_unique_for_all_binary_secrets": true}
+{"natural_reduction_control": "a=1/2, J=2R, q=13", "natural_residue": 7, "direct_centered_residue": -6, "multiplied_centered_lift": 1, "recovered_rational": "1/2", "centered_interval": [-6, 6]}
+{"CP1": "one exact realization of the supplied inequalities", "table": [21, 200, 200, 1579], "joint": "21/2000", "conditionals": ["21/221", "21/221"]}
+{"finite_channel_control": "arbitrary positive rational row/noise laws, not Gaussian", "public_pairs": 625, "secrets": 4, "family_weights": ["1/3", "2/3", "0"], "total_mass": "1", "all_joint_posteriors_factor": true, "guess_with_J": "55/156", "guess_without_J": "55/156", "uniform_comparator_guess": "7/20"}
+ALL EXACT ASSERTIONS PASSED

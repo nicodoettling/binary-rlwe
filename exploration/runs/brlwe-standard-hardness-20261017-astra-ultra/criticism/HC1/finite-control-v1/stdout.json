@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "precision": "exact rational, no truncated Gaussian/theta law",
+  "kernel_cases": 625,
+  "adaptive_cases": 15625,
+  "equal_marginals_different_joint_cases": 92,
+  "endpoint_controls": [
+    {
+      "error_each": "0",
+      "gap": "1"
+    },
+    {
+      "error_each": "1/4",
+      "gap": "1/2"
+    },
+    {
+      "error_each": "1/2",
+      "gap": "0"
+    }
+  ],
+  "capped_uniform_counts": [
+    6,
+    5,
+    5
+  ],
+  "capped_uniform_normalizer": 16,
+  "capped_uniform_TV": "1/24",
+  "cap_failure": "1/16",
+  "CP1": {
+    "selected_mass": "21/2000",
+    "later_posterior": "21/221",
+    "status": "invalid product shortcut rejected"
+  },
+  "dispatcher_cases": [
+    {
+      "branch": 0,
+      "coin": 0,
+      "calls": 1,
+      "output": 0
+    },
+    {
+      "branch": 0,
+      "coin": 1,
+      "calls": 1,
+      "output": 1
+    },
+    {
+      "branch": 1,
+      "coin": 0,
+      "calls": 1,
+      "output": 1
+    },
+    {
+      "branch": 1,
+      "coin": 1,
+      "calls": 1,
+      "output": 0
+    },
+    {
+      "branch": 2,
+      "coin": 0,
+      "calls": 1,
+      "output": 7
+    },
+    {
+      "branch": 2,
+      "coin": 1,
+      "calls": 1,
+      "output": 7
+    }
+  ]
+}

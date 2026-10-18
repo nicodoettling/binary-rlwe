@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-17T23:07:24.416019+00:00",
+  "claim": "C-OHCP-v8",
+  "base": "coordinator/c8-regression-addendum-v2.json",
+  "base_sha256": "ed423d6f1abcd69b74eeb71a670a1d2f0c145a99ae5f9c2e8e92a1e5ef379acd",
+  "entries": [
+    {
+      "id": "BT13-FV1",
+      "exact_registry_entry_sha256": "87074fe315ee23d3c7aed9524bab6ba801a8839c98efea927f047a0e7cc76f0a",
+      "disposition": "BT13 finite arithmetic directly checks current verifier and causal-walk components; full report supplies the universal reconstruction.",
+      "evidence": "criticism/BT13/BT13-FV1.stdout"
+    },
+    {
+      "id": "BT12-FV1",
+      "exact_registry_entry_sha256": "338926669d4a157436c661836643750346551297dc882a17947681d20f1aa926",
+      "disposition": "BT12 integral ideal divisor and posterior counts are not used by the fixed-ideal GP-to-BDD reduction; no class transfer or binary support claim is in the accepted core.",
+      "evidence": "criticism/BT12/fv1-summary.json"
+    }
+  ],
+  "total_registry_ids": 92,
+  "note": "Explicit scope audit of newly added controls; no previous acceptance broadened."
+}

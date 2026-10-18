@@ -1,0 +1,38 @@
+{
+  "status": "PROVISIONAL",
+  "time": "2026-10-17T20:37:22.803589+00:00",
+  "source_hardness": "OPEN",
+  "packet_sha256": "47ba489e18c7840ce619b2c8f3654f352ea73e9bbc8f73b0989e360f125df237",
+  "claims": [
+    {
+      "id": "C-LOW-COS",
+      "statement": "Finite coset Markov kernel charges log2|Nf|, not entropy of an unbounded Gaussian kernel output.",
+      "status": "PROVISIONAL",
+      "review": "none"
+    },
+    {
+      "id": "C-LOW-CLEAR",
+      "statement": "A known small annihilator of R/fR and a bounded rational quotient give an efficient short-lift source distinguisher; covers ramified powers times arbitrary hidden units.",
+      "status": "PROVISIONAL",
+      "review": "none"
+    },
+    {
+      "id": "C-LOW-TCC",
+      "statement": "Published inverse-controlled Gaussian denominator branch has |Nf| root at least gamma/C, excluding binary coset budget at statistically uniform widths.",
+      "status": "PROVISIONAL",
+      "review": "primary extracted hypotheses checked; constant kept symbolic"
+    },
+    {
+      "id": "C-LOW-NTRU",
+      "statement": "Every NTRU denominator within FPSW theorem short threshold belongs to sampled a, hence norm at least N(a), too large in actual worst-case-supported family.",
+      "status": "PROVISIONAL",
+      "review": "primary Theorem6.2 proof and Corollary5.4 checked"
+    },
+    {
+      "id": "C-LOW-ARA",
+      "statement": "Clearing actual rounded inverse ideal Q^-1 requires integral f in Q, hence norm at least NQ.",
+      "status": "PROVISIONAL",
+      "review": "own deduction on previously primary-checked family"
+    }
+  ]
+}

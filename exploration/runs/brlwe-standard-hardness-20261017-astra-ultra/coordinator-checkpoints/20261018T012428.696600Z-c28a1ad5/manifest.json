@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261018T012428.696600Z-c28a1ad5",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-18T01:24:28.696640+00:00",
+  "reason": "Preserve BT20 seal defect, fresh BT21 gate and explicit complementary multiplier endpoint",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 51269,
+      "sha256": "3c4a186ec640da0e783930b7655e2f146911f850ce1218ce91b19d86b2462320"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 3430,
+      "sha256": "5bc96716bcc847e63fabbe73ab0c49d772da5cbe52af6988dcb2959017b3ab5d"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 2612,
+      "sha256": "fce950e043f6a1258970d11518279f4baac6f075dd99da39a3b28a3c42922ba7"
+    },
+    {
+      "path": "final.md",
+      "bytes": 10150,
+      "sha256": "3a7d798e969b26b3b67fbb30a0d7fcf69fc8dd13a07bdee01b6f393a112b709c"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 10104,
+      "sha256": "b4757b524d24f4cf8da9174db9a0d26d21f46eef38194fbe781300480424b8be"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261017T203624.488114Z-5cef34ea",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-17T20:36:24.488137+00:00",
+  "reason": "accept exact scoped theta obstruction and redirect to two computational routes",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 10623,
+      "sha256": "d01f44e35a121e00f74da789357a40114165ed5abf2b5cf18a671e27adf7de73"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 2143,
+      "sha256": "0a3e7abaaa10bb67b7c550d11164f7817431a7e24a49051c832cc847f6e20f8e"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 1171,
+      "sha256": "1aef2b0721fa578a479ee6a2afd69a073f6e7d1e7dea9a9ee10adc2334f940b3"
+    },
+    {
+      "path": "final.md",
+      "bytes": 3242,
+      "sha256": "87e0e737ced26a8c7274ba21ecd7faf1e38b7dcb9967363fb176d6430da9f49c"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 11052,
+      "sha256": "1a7242a03422eceff40c2cb9505b192c36a0c639b7cab44cae072166d5a09b0d"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

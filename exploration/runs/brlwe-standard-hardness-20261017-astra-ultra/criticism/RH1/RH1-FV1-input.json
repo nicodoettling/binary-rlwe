@@ -1,0 +1,18 @@
+{
+  "reservation": "RH1-FV1",
+  "ring": "Z[i]",
+  "F": "R",
+  "I": "(3)",
+  "residue_field_order": 9,
+  "residue_characteristic": 3,
+  "residue_degree": 2,
+  "coordinate_cutoff": 3,
+  "weight_bases": [[1, 2], [1, 4]],
+  "sample_count": 2,
+  "max_pairs": 5000,
+  "randomness": "none",
+  "precision": "exact Python integers and Fractions",
+  "wall_limit_seconds": 10,
+  "memory_limit_bytes": 67108864,
+  "scope": "finite normalized Gaussian-weight laws; no infinite-lattice or hardness claim"
+}

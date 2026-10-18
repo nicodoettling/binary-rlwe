@@ -1,0 +1,3 @@
+Reservation B-BE-1: root authorized <=30s wall, <=256MiB address space; deterministic exact <=430k endpoint states. No seed. Cwd=/home/nico/projects/research_projects/binaryRLWE.
+timeout 30s python3 exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/B/binary-error-switch/control-v1.py > exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/B/binary-error-switch/control-v1.stdout.json 2> exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/B/binary-error-switch/control-v1.stderr.txt
+Hard RLIMIT_AS=256MiB and CPU=25s are set inside the script. Exact parameters and inputs are in code; numerical receipt uses float wall time only.

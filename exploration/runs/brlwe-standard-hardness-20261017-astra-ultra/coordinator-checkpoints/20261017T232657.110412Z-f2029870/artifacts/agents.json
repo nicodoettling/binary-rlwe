@@ -1,0 +1,174 @@
+{
+  "updated_at": "2026-10-17T23:26:56.786711+00:00",
+  "session_id": "01a14b7b-9e45-7b70-b46d-0bf70e17f2e2",
+  "primary_foundation": "OPEN",
+  "requested_total_agents": 3,
+  "active_total_ceiling": 3,
+  "active_worker_ceiling": 2,
+  "runtime_advertised_total_slots": 3,
+  "model": "gpt-6-astra",
+  "reasoning_effort": "ultra",
+  "service_tier": {
+    "wrapper": "/home/nico/projects/research_projects/binaryRLWE/exploration/standard-hardness-20261017/codex-standard-speed.sh",
+    "sha256": "cd440cc8f5af684c49396bf0b2a61db354bb40e16e45a97d219d4612f9072976",
+    "configured_override": "service_tier=\"default\"",
+    "scope": "Read wrapper and manifest command. This is run-local configuration evidence, not backend billing telemetry; raw tokens are not weekly quota accounting."
+  },
+  "live_manifest": "standard3-launcher-run.json",
+  "live_cap_status_file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/standard3.log.brlwe-standard-hardness-20261017-standard3.cap-status.json",
+  "effective_deadlines": {
+    "original_started_at": "2026-10-17T20:09:14.894509+00:00",
+    "wrapup_at": "2026-10-18T01:36:14.695009+00:00",
+    "worker_stop_at": "2026-10-18T01:56:14.695009+00:00",
+    "graceful_shutdown_at": "2026-10-18T02:05:09.695009+00:00",
+    "hard_deadline_at": "2026-10-18T02:06:14.695009+00:00"
+  },
+  "current_observed_team": {
+    "agents": [
+      {
+        "agent_name": "/root",
+        "agent_status": "running"
+      },
+      {
+        "agent_name": "/root/e_fractional",
+        "agent_status": "running"
+      },
+      {
+        "agent_name": "/root/g_information",
+        "agent_status": "running"
+      }
+    ]
+  },
+  "runtime_verification": "coordinator/standard3-runtime-verification.json",
+  "historical_agents_snapshot": "coordinator/narrative-history/20261017T224107Z-agents.json",
+  "unfinished_roles": [
+    "pair-v2 and fixed-map-v3 exact review gates",
+    "actual-public planted-information full/source/blind gates",
+    "finite quantum integration",
+    "standard arbitrary-ideal family bridge"
+  ],
+  "experiments": "G-PI-FV1 completed exit0 reported3.66s14MiB; no active job reservation",
+  "workers": [
+    {
+      "task_name": "/root/bt13_blind",
+      "thread_id": "01a14c07-94d5-7621-97ad-7f592392d06f",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none",
+      "assignment": "criticism/BT13/assignment-v1.md",
+      "assignment_sha256": "770c548574e889c9c53d042b7379f81170047b53c287db22cc198ac563991445",
+      "actual_spawn_response": {
+        "task_name": "/root/bt13_blind"
+      }
+    },
+    {
+      "task_name": "/root/e_fractional",
+      "thread_id": "01a14c07-d2a6-7c02-ad6d-f8522398015e",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none",
+      "assignment": "workers/E/fractional-extraction/assignment-v1.md",
+      "assignment_sha256": "b0cd6d24ef0f1690ec78c67c59ed9ee3fa8c2fab8cfe276fc52614d40ed844bd",
+      "actual_spawn_response": {
+        "task_name": "/root/e_fractional"
+      }
+    }
+  ],
+  "capacity_verified": "Three total observed running, matching runtime advertised slots and user ceiling",
+  "next_test": "Close exact repairs; test actual-public information retention and inspect finite quantum construction",
+  "current_observed_agents": [
+    {
+      "agent_name": "/root",
+      "agent_status": "running"
+    },
+    {
+      "agent_name": "/root/e_fractional",
+      "agent_status": "running"
+    },
+    {
+      "agent_name": "/root/g_information",
+      "agent_status": "running"
+    }
+  ],
+  "current_activity_note": "Actual root+E+G running verified; F and BT14 completed",
+  "workers_history": [
+    {
+      "task_name": "/root/bt13_blind",
+      "thread_id": "01a14c07-94d5-7621-97ad-7f592392d06f",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none",
+      "assignment": "criticism/BT13/assignment-v1.md",
+      "assignment_sha256": "770c548574e889c9c53d042b7379f81170047b53c287db22cc198ac563991445",
+      "actual_spawn_response": {
+        "task_name": "/root/bt13_blind"
+      }
+    },
+    {
+      "task_name": "/root/e_fractional",
+      "thread_id": "01a14c07-d2a6-7c02-ad6d-f8522398015e",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none",
+      "assignment": "workers/E/fractional-extraction/assignment-v1.md",
+      "assignment_sha256": "b0cd6d24ef0f1690ec78c67c59ed9ee3fa8c2fab8cfe276fc52614d40ed844bd",
+      "actual_spawn_response": {
+        "task_name": "/root/e_fractional"
+      }
+    },
+    {
+      "task_name": "/root/bt12_blind",
+      "thread_id": "01a14c15-9780-7c12-942e-872c319a1bbf",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none",
+      "assignment": "criticism/BT12/assignment-v3.md",
+      "assignment_sha256": "04a811fd562d5db55f66b41d6f6989a783f728be88a41b56692a99a3e84c920a",
+      "actual_spawn_response": {
+        "task_name": "/root/bt12_blind"
+      }
+    },
+    {
+      "task_name": "/root/f_integration",
+      "thread_id": "01a14c18-44bf-7ad0-a450-0197bebc26a3",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none",
+      "assignment": "workers/F/finite-quantum-integration/assignment-v1.md",
+      "assignment_sha256": "7293c99118c1ac50c4ccd15c3404be9975cabbc9169e62a85b43c4b5c9a15dba",
+      "actual_spawn_response": {
+        "task_name": "/root/f_integration"
+      }
+    },
+    {
+      "task_name": "/root/bt14_blind",
+      "thread_id": "01a14c1d-86d4-7731-9bf5-55946f375b45",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none",
+      "assignment": "criticism/BT14/assignment-v1.md",
+      "assignment_sha256": "41b6e777078af8ab1dfcdde2350a3b047d717570a74ac1edef2f6d2a5efaa126",
+      "actual_spawn_response": {
+        "task_name": "/root/bt14_blind"
+      }
+    }
+  ],
+  "workers_current": [
+    {
+      "task_name": "/root/e_fractional",
+      "thread_id": "01a14c07-d2a6-7c02-ad6d-f8522398015e",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none",
+      "role": "pair-v2 author; root fixed-map-v3 independent exact recheck"
+    },
+    {
+      "task_name": "/root/g_information",
+      "thread_id": "01a14c2b-73b0-7452-9bea-5c408474e880",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none",
+      "role": "root planted-information independent full/source reviewer"
+    }
+  ]
+}

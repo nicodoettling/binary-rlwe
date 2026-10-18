@@ -1,0 +1,13 @@
+{
+  "reservation":"A-class-finite-1",
+  "limits":{"wall_seconds":30,"address_space_MiB":256},
+  "estimate":{"wall_seconds":10,"memory_MiB":64},
+  "ring":"Gaussian integers",
+  "F":[1,1],"I":[3,2],"replacement_samples":[[2,0],[1,5]],
+  "Gaussian_weight_bases":["1/2","63/64"],"cutoffs":[12,40],
+  "chain":"(1+i)^j, j=0..6",
+  "CP1":{"initial_space":"Z/8","particles":2,"constraints":[2,4,8],"resample":"with replacement from survivors"},
+  "skew_basis":[[13,0],[-5,1]],
+  "randomness":"none",
+  "tail_bound":"2*b^((R+1)^2)/(1-b^(2R+3)); 2D outside mass <=2*theta_inside*tail+tail^2"
+}

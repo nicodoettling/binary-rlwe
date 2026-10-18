@@ -1,0 +1,4 @@
+Reservation C-OHCP-1 from coordinator. Estimate: <1 second wall, <32 MiB RSS; cap30 seconds wall,256 MiB address space. One local job, no parallel C jobs.
+Exact command from repository root:
+timeout 30s python3 exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/C/periodic-hardness/ohcp-control-v1.py > exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/C/periodic-hardness/ohcp-control-v1.stdout.json 2> exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/C/periodic-hardness/ohcp-control-v1.stderr.txt
+The noncoprime q17/Jnorm17 branch is a standalone torus control only. Coprime branches q5/Jnorm17 and q17/Jnorm41 are chain-compatible.

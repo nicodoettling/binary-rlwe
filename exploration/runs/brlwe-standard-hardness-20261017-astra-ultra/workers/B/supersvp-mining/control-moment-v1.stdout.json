@@ -1,0 +1,45 @@
+{
+  "elapsed_seconds": 0.033402845030650496,
+  "false_general_matrix_bound": "1/25",
+  "input": {
+    "coefficient_law": "uniform {-1,0,1}",
+    "m_values": [
+      1,
+      2
+    ],
+    "n": 2,
+    "q": 5,
+    "seed": null
+  },
+  "joint_key_x_checks": 46800,
+  "max_rss_kib": 11264,
+  "precision": "exact fractions and integers",
+  "rows": [
+    {
+      "averaged_kernel_energy": "25/9",
+      "bound_K1": "49/9",
+      "bound_K2": "81",
+      "conditioned_key_states": 16,
+      "m": 1,
+      "moment_q": "11/3",
+      "moment_q2": "211/3",
+      "tail_probability": "4/9",
+      "weighted_tail": "4/9",
+      "x_states": 9
+    },
+    {
+      "averaged_kernel_energy": "725/729",
+      "bound_K1": "169/81",
+      "bound_K2": "121/9",
+      "conditioned_key_states": 576,
+      "m": 2,
+      "moment_q": "35/27",
+      "moment_q2": "235/27",
+      "tail_probability": "16/27",
+      "weighted_tail": "16/27",
+      "x_states": 81
+    }
+  ],
+  "transpose_conjugation_checks": 625,
+  "zero_divisor_countercontrol_probability": "1/6"
+}

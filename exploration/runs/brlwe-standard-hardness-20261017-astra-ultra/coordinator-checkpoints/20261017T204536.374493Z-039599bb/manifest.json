@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261017T204536.374493Z-039599bb",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-17T20:45:36.374517+00:00",
+  "reason": "Anisotropic joint endpoints and recursive lifting checkpoint",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 10666,
+      "sha256": "c98f0a09fccd87803639b4c9862a22473436a052fe943897bdb8a85cdd68ac16"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 3235,
+      "sha256": "72072c992dd1e65181f43ce641ebd4337153fca22009149655bad21643771871"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 2263,
+      "sha256": "f28e6708a5bfe0ac11ebbb501fec2502353e86172b4c1f075014042a3f8d2bec"
+    },
+    {
+      "path": "final.md",
+      "bytes": 4334,
+      "sha256": "81f9825d790625441d0f2427b2f96309a5e5ac7ef85a301cd91729b9ad408a9c"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 11464,
+      "sha256": "5fccbf33b501247f32db5d166ec6af3748a8d0e8a50d87e09777b4ab1f4b600e"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

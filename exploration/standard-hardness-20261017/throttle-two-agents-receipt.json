@@ -1,0 +1,38 @@
+{
+  "requested_at": "2026-10-17T21:59:36.143094+00:00",
+  "authorized_by": "User selected Reduce to 2 active agents, keep Astra ultra (recommended)",
+  "requested_active_total": 2,
+  "requested_active_workers": 1,
+  "model": "gpt-6-astra",
+  "reasoning_effort": "ultra",
+  "deadline_unchanged": false,
+  "native_goal_pause_requested": false,
+  "delivery_method": "controlled stop and same-thread capped resume after file steering remained unacknowledged",
+  "status": "APPLIED_AND_RUNTIME_VERIFIED",
+  "resume_sha256_before_append": "426d5d340b9fb7ccc0314b2676feeffed4937f034691ef11d90416f453ca55aa",
+  "resume_pointer_verified": true,
+  "instruction_file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/foreground-inputs/throttle-two-agents-user-update.md",
+  "acknowledgment_file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/foreground-inputs/throttle-two-agents-ack.md",
+  "mechanism": "two runtime slots total and coordinator scheduling ceiling; not a backend quota limiter",
+  "priority_header_added_at": "2026-10-17T22:02:39.697655+00:00",
+  "resume_body_preserved_sha256": "6848d95a3ce8b509338223414e7d6475df09125ed0b90e03feb17a2bbfb23f63",
+  "initial_cooperative_attempt": {
+    "delivery_method": "priority append to mandatory resume checkpoint",
+    "status": "PENDING_COORDINATOR_ACK_AND_DRAIN",
+    "launch_time_worker_ceiling_unchanged": 4,
+    "mechanism": "cooperative active-concurrency ceiling, not backend quota limiter"
+  },
+  "verified_at": "2026-10-17T22:10:15.323889+00:00",
+  "configured_spawned_worker_ceiling": 1,
+  "runtime_advertised_total_slots": 2,
+  "initial_resumed_running_agents": [
+    "/root"
+  ],
+  "original_deadline_preserved_as_upper_bound": true,
+  "original_hard_deadline": "2026-10-18T02:09:14.894509+00:00",
+  "effective_hard_deadline": "2026-10-18T02:07:14.421959+00:00",
+  "live_manifest": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/throttle-resume-launcher-run.json",
+  "same_native_goal_thread": "01a14b7b-9e45-7b70-b46d-0bf70e17f2e2",
+  "native_goal_status": "active",
+  "verification_file": "/home/nico/projects/research_projects/binaryRLWE/exploration/standard-hardness-20261017/throttle-resume-verification.json"
+}

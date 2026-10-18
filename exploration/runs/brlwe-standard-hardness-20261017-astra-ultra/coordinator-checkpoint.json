@@ -1,0 +1,38 @@
+{
+  "directory": "coordinator-checkpoints/20261018T014802.519360Z-ad7abbbb",
+  "schema_version": 1,
+  "snapshot_id": "20261018T014802.519360Z-ad7abbbb",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-18T01:48:02.519397+00:00",
+  "reason": "Final delivery checkpoint: original goal unfinished, 14 scoped auxiliaries, all workers completed, no experiments or automatic research",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 55995,
+      "sha256": "f6a744b5015a7e055417fa5cea5b2b3257b07e4b5de3d1c50c9236f528352336"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 5962,
+      "sha256": "886cd416c3acc50b0464b208047fe4f23a3df85acb4ec45e776004a417e20ab5"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 2962,
+      "sha256": "45650af32b8dbb365e0b177301ae56c313da44df59cf737d13e2acb373c95495"
+    },
+    {
+      "path": "final.md",
+      "bytes": 12116,
+      "sha256": "70edfa9e2f2add37ac246499669681786a0aa67896bc7e14a469623e9602884a"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 14130,
+      "sha256": "ea09a3ce0b7d74f836fa3840a2c3027eef4bdf7445de775b541201b710439013"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

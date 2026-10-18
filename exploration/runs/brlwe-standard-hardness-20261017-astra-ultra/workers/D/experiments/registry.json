@@ -1,0 +1,9 @@
+{
+  "schema_version":1,
+  "jobs":[
+    {"id":"D-ENDPOINT-1","reservation":"initial assignment LIGHT","status":"COMPLETED","code":"endpoint-control-v1.py","input":"endpoint-control-v1.input.json","estimate_and_command":"endpoint-control-v1.estimate.md","stdout":"endpoint-control-v1.stdout.json","stderr":"endpoint-control-v1.stderr.txt","exit_code":0,"wall_cap_seconds":60,"address_space_cap_bytes":536870912,"states":448044,"reported_wall_seconds":0.1856662500067614,"peak_rss_kib":12288,"processes":1,"scope":"exact finite endpoint/rank/noise controls only"},
+    {"id":"D-THETA-1","reservation":"coordinator explicit second LIGHT","status":"COMPLETED","code":"theta-control-v1.py","input":"theta-control-v1.input.json","estimate_and_command":"theta-control-v1.estimate.md","stdout":"theta-control-v1.stdout.json","stderr":"theta-control-v1.stderr.txt","exit_code":0,"wall_cap_seconds":30,"address_space_cap_bytes":268435456,"states":9609,"reported_wall_seconds":0.04697969602420926,"peak_rss_kib":11264,"processes":1,"scope":"exact finite annihilator/Parseval/shared-latent/principal-ideal controls only"}
+  ],
+  "active_jobs":[],
+  "no_third_experiment_authorized":true
+}

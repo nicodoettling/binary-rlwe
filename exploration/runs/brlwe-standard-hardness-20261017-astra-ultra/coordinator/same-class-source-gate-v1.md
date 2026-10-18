@@ -1,0 +1,9 @@
+# Same-class count: primary-source, parameter and complexity gate
+
+Coordinator source review, 2026-10-17T21:37:48.080673+00:00. Exact unchanged theorem SHA256216a4e718e4aada675df0f945cb62ab6c9ab1759a5fb36d296304d827968845c; proof bf625ccfa90a819c6b36639850a4cf2ab021c865cf3e84b67bc984cb3469d733.
+
+[Tsfasman–Vladut, arXiv math/0205129v1](https://arxiv.org/pdf/math/0205129), printed page8, states the classical Brauer–Siegel limit for asymptotically bad normal families without GRH. The same page defines the limit as log(h Reg)/g; page2 defines g=log(sqrt(abs(discriminant))). Example2.1 on page17 checks that degree/log(sqrt(discriminant)) tending to zero gives an asymptotically bad family. Thus the readable primary statement is exactly the unchanged import used here. Theorem7.3 for good towers is not used. The degraded glyph in the earlier Lepisto scan remains recorded, not retroactively claimed visually read.
+
+Both K_n and its maximal real subfield are abelian/normal, their degrees grow and the explicit degree/discriminant ratios tend to zero. No conditional analytic theorem, GRH, h_real=1 claim or efficient ideal-class sampler is imported. The output is an asymptotic fraction bound for fixed c; no effective threshold or finite security parameter is claimed. There is no reduction runtime, advantage or sample count because this is a deterministic feasibility obstruction to same-class integral normalization, not a hardness reduction. All constants in the exponent are independently reconstructed by C and sealed BT6.
+
+Source gate PASS within these exact limits. The same-model reviews are correlated scrutiny. This separate source gate closes BT6's documentary limitation without changing its sealed report or enlarging its source access. No mathematical premises or theorem bytes changed.

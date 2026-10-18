@@ -1,0 +1,144 @@
+{
+  "result": "PASS",
+  "deterministic": true,
+  "case_checks": 50456,
+  "threshold_endpoint_cases": 8020,
+  "largest_loop_integer_bits": 599,
+  "parameter_rows": [
+    {
+      "n": 2,
+      "kappa": 31,
+      "Q_bits": 502,
+      "C": 452991
+    },
+    {
+      "n": 2,
+      "kappa": 64,
+      "Q_bits": 506,
+      "C": 528264
+    },
+    {
+      "n": 2,
+      "kappa": 128,
+      "Q_bits": 513,
+      "C": 669448
+    },
+    {
+      "n": 2,
+      "kappa": 256,
+      "Q_bits": 524,
+      "C": 948936
+    },
+    {
+      "n": 2,
+      "kappa": 1024,
+      "Q_bits": 556,
+      "C": 2742984
+    },
+    {
+      "n": 2,
+      "kappa": 4096,
+      "Q_bits": 597,
+      "C": 10658376
+    },
+    {
+      "n": 4,
+      "kappa": 31,
+      "Q_bits": 503,
+      "C": 452991
+    },
+    {
+      "n": 4,
+      "kappa": 64,
+      "Q_bits": 507,
+      "C": 528264
+    },
+    {
+      "n": 4,
+      "kappa": 128,
+      "Q_bits": 514,
+      "C": 669448
+    },
+    {
+      "n": 4,
+      "kappa": 256,
+      "Q_bits": 525,
+      "C": 948936
+    },
+    {
+      "n": 4,
+      "kappa": 1024,
+      "Q_bits": 557,
+      "C": 2742984
+    },
+    {
+      "n": 4,
+      "kappa": 4096,
+      "Q_bits": 598,
+      "C": 10658376
+    },
+    {
+      "n": 8,
+      "kappa": 31,
+      "Q_bits": 504,
+      "C": 452991
+    },
+    {
+      "n": 8,
+      "kappa": 64,
+      "Q_bits": 508,
+      "C": 528264
+    },
+    {
+      "n": 8,
+      "kappa": 128,
+      "Q_bits": 515,
+      "C": 669448
+    },
+    {
+      "n": 8,
+      "kappa": 256,
+      "Q_bits": 526,
+      "C": 948936
+    },
+    {
+      "n": 8,
+      "kappa": 1024,
+      "Q_bits": 558,
+      "C": 2742984
+    },
+    {
+      "n": 8,
+      "kappa": 4096,
+      "Q_bits": 599,
+      "C": 10658376
+    }
+  ],
+  "normalizer_rows": [
+    {
+      "a": 1,
+      "max_normalized_error": 0.08643481121330798,
+      "poisson_bound": 0.08643481121330802
+    },
+    {
+      "a": 2,
+      "max_normalized_error": 6.974684712446333e-06,
+      "poisson_bound": 6.974684712417995e-06
+    },
+    {
+      "a": 3,
+      "max_normalized_error": 1.0511591597150982e-12,
+      "poisson_bound": 1.0510970352012909e-12
+    },
+    {
+      "a": 4,
+      "max_normalized_error": 0.0,
+      "poisson_bound": 2.958069231923577e-22
+    },
+    {
+      "a": 8,
+      "max_normalized_error": 0.0,
+      "poisson_bound": 9.570692211882099e-88
+    }
+  ]
+}

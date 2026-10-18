@@ -1,0 +1,1 @@
+timeout 30s python3 exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/B/supersvp-mining/control-fiber-v1.py > exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/B/supersvp-mining/control-fiber-v1.stdout.json 2> exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/B/supersvp-mining/control-fiber-v1.stderr.txt

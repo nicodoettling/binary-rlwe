@@ -1,0 +1,246 @@
+{
+  "at": "2026-10-18T01:44:27.707642+00:00",
+  "claim": "RT1-WEIGHTED-v2",
+  "scope": "Separate structural integrity check only, not mathematical certification",
+  "blind_report_sealed_before_disclosure": true,
+  "seal_time": "2026-10-18T01:39:01.568626Z",
+  "blind_exposure_disposition": "Clean frozen theorem-only; root fully read complete report and exposure log after sealing",
+  "exact_blind_input_copy": true,
+  "checks": [
+    {
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/BT22/report-v1.md",
+      "expected": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+      "actual": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+      "pass": true
+    },
+    {
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/BT22/exposure-log-v1.md",
+      "expected": "52c19491bbc09672de1b82393771bd6d6299d54f5524940e18c1abab93040e64",
+      "actual": "52c19491bbc09672de1b82393771bd6d6299d54f5524940e18c1abab93040e64",
+      "pass": true
+    },
+    {
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/BT22/assignment-v1.md",
+      "expected": "75e8ebaa61f63bc5832be48c4c4dea97ffe9fe6d741e6d518b0a03a8969e42fc",
+      "actual": "75e8ebaa61f63bc5832be48c4c4dea97ffe9fe6d741e6d518b0a03a8969e42fc",
+      "pass": true
+    },
+    {
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/BT22/input/theorem-only-v2.md",
+      "expected": "1345e18aec9ecd74517ba400b03b66f70819dfe327710110d54c2924076e44bf",
+      "actual": "1345e18aec9ecd74517ba400b03b66f70819dfe327710110d54c2924076e44bf",
+      "pass": true
+    },
+    {
+      "path": "criticism/RT2/assignment-preserved-v1.md",
+      "expected": "a454135dc5d80628b4e94d949d086a188c5e224950447b89c56a4ce5a4900814",
+      "actual": "a454135dc5d80628b4e94d949d086a188c5e224950447b89c56a4ce5a4900814",
+      "pass": true
+    },
+    {
+      "path": "criticism/RT2/assignment-v1.md",
+      "expected": "a454135dc5d80628b4e94d949d086a188c5e224950447b89c56a4ce5a4900814",
+      "actual": "a454135dc5d80628b4e94d949d086a188c5e224950447b89c56a4ce5a4900814",
+      "pass": true
+    },
+    {
+      "path": "criticism/RT2/checkpoint-v1.md",
+      "expected": "6ae96cbfece70ee75616d454d0821a97ff4e01ee98a076d59f3702af25763c34",
+      "actual": "6ae96cbfece70ee75616d454d0821a97ff4e01ee98a076d59f3702af25763c34",
+      "pass": true
+    },
+    {
+      "path": "criticism/RT2/dependency-disposition-v1.md",
+      "expected": "cb42952d845a6976445dfcd221caa1051bc5006c84ce0dd0ab242f1e135046d0",
+      "actual": "cb42952d845a6976445dfcd221caa1051bc5006c84ce0dd0ab242f1e135046d0",
+      "pass": true
+    },
+    {
+      "path": "criticism/RT2/finite-command-v1.txt",
+      "expected": "9f3afa87c2ad76770ef8cd249d03b48db18a7da37a74bcaf3b7b76df9f359c4d",
+      "actual": "9f3afa87c2ad76770ef8cd249d03b48db18a7da37a74bcaf3b7b76df9f359c4d",
+      "pass": true
+    },
+    {
+      "path": "criticism/RT2/finite-control-v1.py",
+      "expected": "ed86d8bac078273dd6dbf9c9a60388edd2325367f0f37eabdffdfec3391051cc",
+      "actual": "ed86d8bac078273dd6dbf9c9a60388edd2325367f0f37eabdffdfec3391051cc",
+      "pass": true
+    },
+    {
+      "path": "criticism/RT2/finite-input-v1.json",
+      "expected": "a7660532104d0f3b3daf65ecb12eeba01ac1bd08e63ff4697fbbcd6e60899246",
+      "actual": "a7660532104d0f3b3daf65ecb12eeba01ac1bd08e63ff4697fbbcd6e60899246",
+      "pass": true
+    },
+    {
+      "path": "criticism/RT2/finite-resources-v1.txt",
+      "expected": "8885b95015948ac288862fdb9b12e6aad65e1c9d8d41273ba5896f69b9e2fc34",
+      "actual": "8885b95015948ac288862fdb9b12e6aad65e1c9d8d41273ba5896f69b9e2fc34",
+      "pass": true
+    },
+    {
+      "path": "criticism/RT2/finite-stderr-v1.txt",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "pass": true
+    },
+    {
+      "path": "criticism/RT2/finite-stdout-v1.json",
+      "expected": "0f119e71f93ff7a32f25904eb1bfa08f9f2c0c6848c5e2b8e69c88882a75cb3c",
+      "actual": "0f119e71f93ff7a32f25904eb1bfa08f9f2c0c6848c5e2b8e69c88882a75cb3c",
+      "pass": true
+    },
+    {
+      "path": "criticism/RT2/finite-summary-v1.md",
+      "expected": "80f79d1ac4a9a65cff5656a66527e6739e2232f62606c69213284faae7c3f6a1",
+      "actual": "80f79d1ac4a9a65cff5656a66527e6739e2232f62606c69213284faae7c3f6a1",
+      "pass": true
+    },
+    {
+      "path": "criticism/RT2/full-review-v1.md",
+      "expected": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+      "actual": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+      "pass": true
+    },
+    {
+      "path": "criticism/RT2/input-integrity-check-v1.json",
+      "expected": "892efe8cd397c21273718ff3e18e3547a7db0bdb7576409056fcc715b525d298",
+      "actual": "892efe8cd397c21273718ff3e18e3547a7db0bdb7576409056fcc715b525d298",
+      "pass": true
+    },
+    {
+      "path": "criticism/RT2/input-manifest-v1.json",
+      "expected": "df8e90c3c4c07f80e817fa3719242de690fd349e4feb0b1986669a41d62b5755",
+      "actual": "df8e90c3c4c07f80e817fa3719242de690fd349e4feb0b1986669a41d62b5755",
+      "pass": true
+    },
+    {
+      "path": "criticism/RT2/launch-message-v1.txt",
+      "expected": "a27d1200db403371175ca13cf0e87aa16edfec5aa75384aac7790a9f27adbefd",
+      "actual": "a27d1200db403371175ca13cf0e87aa16edfec5aa75384aac7790a9f27adbefd",
+      "pass": true
+    },
+    {
+      "path": "criticism/RT2/source-complexity-v1.md",
+      "expected": "047f35d7408c85b6119e3a2a8113d2e38da5fb81ebe08b8425d94ea835d9bfae",
+      "actual": "047f35d7408c85b6119e3a2a8113d2e38da5fb81ebe08b8425d94ea835d9bfae",
+      "pass": true
+    },
+    {
+      "path": "criticism/RT2/recheck-assignment-v2.md",
+      "expected": "4886e6c59c1760b5381f62cdcf86615774b4fffa900b9fe3d768dcc01a5877bf",
+      "actual": "4886e6c59c1760b5381f62cdcf86615774b4fffa900b9fe3d768dcc01a5877bf",
+      "pass": true
+    },
+    {
+      "path": "coordinator/tower-lift/weighted-v2/theorem-only-v2.md",
+      "expected": "1345e18aec9ecd74517ba400b03b66f70819dfe327710110d54c2924076e44bf",
+      "actual": "1345e18aec9ecd74517ba400b03b66f70819dfe327710110d54c2924076e44bf",
+      "pass": true
+    },
+    {
+      "path": "coordinator/tower-lift/weighted-v2/proof-clarification-v2.md",
+      "expected": "d40d202d15a1c495619f88dd719ed0855a26e100bf9fb134def24afbd8cf32bd",
+      "actual": "d40d202d15a1c495619f88dd719ed0855a26e100bf9fb134def24afbd8cf32bd",
+      "pass": true
+    },
+    {
+      "path": "criticism/BT20/input/theorem-only-v1.md",
+      "expected": "e0e35ca128eea4879bff7d6ddaa685116991077bf4cb83d0ee57f16e8b487b0b",
+      "actual": "e0e35ca128eea4879bff7d6ddaa685116991077bf4cb83d0ee57f16e8b487b0b",
+      "pass": true
+    },
+    {
+      "path": "criticism/RT1/weighted-trace-bridge-v1.md",
+      "expected": "6e2eb437a3588ce19b48e9d2cada77785f671133c7a977ed6e0ceebf22982857",
+      "actual": "6e2eb437a3588ce19b48e9d2cada77785f671133c7a977ed6e0ceebf22982857",
+      "pass": true
+    },
+    {
+      "path": "criticism/RT1/moment-improvement-v1.md",
+      "expected": "52c71c77591837a31c8e7d0c849d4c782e3237e1b464bb1eaf6d12dc8795df00",
+      "actual": "52c71c77591837a31c8e7d0c849d4c782e3237e1b464bb1eaf6d12dc8795df00",
+      "pass": true
+    },
+    {
+      "path": "coordinator/tower-lift/product-transfer-v1.md",
+      "expected": "2a6f71cee0699e9df2e3b39b27b243b9e2100b1d0ac56f576980a066cd2eb754",
+      "actual": "2a6f71cee0699e9df2e3b39b27b243b9e2100b1d0ac56f576980a066cd2eb754",
+      "pass": true
+    },
+    {
+      "path": "criticism/RT2/full-review-v1.md",
+      "expected": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+      "actual": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+      "pass": true
+    },
+    {
+      "path": "criticism/RT2/source-complexity-v1.md",
+      "expected": "047f35d7408c85b6119e3a2a8113d2e38da5fb81ebe08b8425d94ea835d9bfae",
+      "actual": "047f35d7408c85b6119e3a2a8113d2e38da5fb81ebe08b8425d94ea835d9bfae",
+      "pass": true
+    },
+    {
+      "path": "criticism/RT2/dependency-disposition-v1.md",
+      "expected": "cb42952d845a6976445dfcd221caa1051bc5006c84ce0dd0ab242f1e135046d0",
+      "actual": "cb42952d845a6976445dfcd221caa1051bc5006c84ce0dd0ab242f1e135046d0",
+      "pass": true
+    },
+    {
+      "path": "criticism/RT2/finite-control-v1.py",
+      "expected": "ed86d8bac078273dd6dbf9c9a60388edd2325367f0f37eabdffdfec3391051cc",
+      "actual": "ed86d8bac078273dd6dbf9c9a60388edd2325367f0f37eabdffdfec3391051cc",
+      "pass": true
+    },
+    {
+      "path": "criticism/RT2/finite-input-v1.json",
+      "expected": "a7660532104d0f3b3daf65ecb12eeba01ac1bd08e63ff4697fbbcd6e60899246",
+      "actual": "a7660532104d0f3b3daf65ecb12eeba01ac1bd08e63ff4697fbbcd6e60899246",
+      "pass": true
+    },
+    {
+      "path": "criticism/RT2/finite-stdout-v1.json",
+      "expected": "0f119e71f93ff7a32f25904eb1bfa08f9f2c0c6848c5e2b8e69c88882a75cb3c",
+      "actual": "0f119e71f93ff7a32f25904eb1bfa08f9f2c0c6848c5e2b8e69c88882a75cb3c",
+      "pass": true
+    },
+    {
+      "path": "standard3-launcher-run.json",
+      "expected": "cf1c5e10751214dc7f5f70cdd7266ed02e47c2c7dcba83276ef03e5646f4b189",
+      "actual": "cf1c5e10751214dc7f5f70cdd7266ed02e47c2c7dcba83276ef03e5646f4b189",
+      "pass": true
+    },
+    {
+      "path": "standard3.log.brlwe-standard-hardness-20261017-standard3.cap-status.json",
+      "expected": "d5b6d8fac218d0fdbe55678f297b96d05a7bd662eb4789d173847236fe59ccc9",
+      "actual": "d5b6d8fac218d0fdbe55678f297b96d05a7bd662eb4789d173847236fe59ccc9",
+      "pass": true
+    },
+    {
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/tower-lift/weighted-v2/theorem-only-v2.md",
+      "expected": "1345e18aec9ecd74517ba400b03b66f70819dfe327710110d54c2924076e44bf",
+      "actual": "1345e18aec9ecd74517ba400b03b66f70819dfe327710110d54c2924076e44bf",
+      "pass": true
+    },
+    {
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/tower-lift/weighted-v2/proof-clarification-v2.md",
+      "expected": "d40d202d15a1c495619f88dd719ed0855a26e100bf9fb134def24afbd8cf32bd",
+      "actual": "d40d202d15a1c495619f88dd719ed0855a26e100bf9fb134def24afbd8cf32bd",
+      "pass": true
+    },
+    {
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT2/exact-v2-recheck.md",
+      "expected": "08e87cdce886230b5a94d02c747e6a4809dfcd8ee8b9793c924bcb1652ee3194",
+      "actual": "08e87cdce886230b5a94d02c747e6a4809dfcd8ee8b9793c924bcb1652ee3194",
+      "pass": true
+    },
+    {
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT2/exact-v2-hash-receipt.json",
+      "expected": "defeb41ddde9c6f404b658dda23b26d6fed3618b3b6819656861bd275c0711ce",
+      "actual": "defeb41ddde9c6f404b658dda23b26d6fed3618b3b6819656861bd275c0711ce",
+      "pass": true
+    }
+  ],
+  "all_pass": true
+}

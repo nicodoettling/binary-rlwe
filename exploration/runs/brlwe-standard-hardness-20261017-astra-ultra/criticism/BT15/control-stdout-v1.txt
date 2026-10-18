@@ -1,0 +1,9 @@
+{"control": "CP1", "excess": "1/2000", "hit": "21/2000", "proposed_product": "1/100", "residual": "21/221", "residual_gap": "11/2210"}
+{"control": "pointwise_no_common_good_tape", "error2": "1", "input_norm2": "8", "theorem_bound2": "1"}
+{"control": "target_reference_entanglement", "error2": "1/2", "input_norm2": "25", "theorem_bound2": "1"}
+{"control": "off_promise", "error2": "7/4", "p": "1/4", "sharper_bound2": "7/4", "tau": "1/4", "theorem_bound2": "2"}
+{"control": "p_zero", "error2": "0"}
+{"control": "p_one", "error2": "4"}
+{"Boolean_gates": "6", "actual_total": "27", "claimed_upper_bound": "29", "control": "reversible_counts", "exhaustive_basis_cases": "32", "forward_elementary": "11", "qubits_excluding_reference": "11"}
+{"control": "predictable_attempts_additive_TV", "iid_three_draw_collision": "5/8", "per_stage_TV": "1/16", "success": "179/256", "union_bound": "7/8"}
+ALL_EXACT_CONTROLS_PASS

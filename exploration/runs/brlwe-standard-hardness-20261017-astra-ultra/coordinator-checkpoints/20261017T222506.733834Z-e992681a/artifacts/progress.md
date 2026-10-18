@@ -1,0 +1,7 @@
+# Current progress
+
+Updated 2026-10-17T22:25:06.725291+00:00. Computational foundation NOT achieved. Same native goal01a14b7b-9e45-7b70-b46d-0bf70e17f2e2 remains active, no token budget. TWO active total verified: root and RF3, Astra ultra. LIVE manifest throttle-resume-launcher-run.json. Original start20:09:14.894509Z. Effective discovery stop01:37:14.421959Z, worker stop01:57:14.421959Z, graceful02:06:09.421959Z, hard02:07:14.421959Z on2026-10-18.
+
+Four accepted auxiliary/scoped results and inherited EX-v2 unchanged. C8/spec2/proof9 has A full exact PASS and BT10 favorable reconstruction, but BT10 disclosed incidental scientific search exposure outside its allowed set; strict blind gate is replaced, not closed. C7 remains rejected at C8-FV1. New ROOT-BINCLASS-v1 finite count is provisional and under RF3 full/source review. It concerns ANY integral representative with a binary collision, not just bounded norm; fractional ideals remain outside scope. Root order-padding v2 is a provisional map-specific calculation with its v1 gap preserved.34 bounded jobs completed:33successful and1preserved failed assertion; noneactive.
+
+Next: RF3 checks the collision-class count while root reconciles C8 source/regression gates and tests fractional-ideal scaling as a possible family transfer. After RF3, use one fresh local-input-only blind reviewer for the appropriate frozen packet. No standard source-family edge or binary hardness conclusion follows yet.

@@ -1,0 +1,44 @@
+{
+  "at": "2026-10-17T23:48:32.217771+00:00",
+  "previous_count": 104,
+  "current_count": 110,
+  "new_dispositions": [
+    {
+      "id": "FQ-COND-1",
+      "pair_and_fixed_map": "No postselected Gaussian sampler is claimed; full reference normalizer and a.s. conditional TV must be supplied before each attempt. These controls reinforce, not weaken, that explicit premise. No quantum phase or modular-prime construction occurs.",
+      "generic_coherent_adapter": "No Gaussian/phase preparation or postselection occurs in the generic compute-copy-uncompute unitary. Its full output/reference comparison and actual finite circuit cost remain valid; these are separate obligations for the unaccepted quantum DGS application.",
+      "C8_and_BINCLASS": "Accepted C8 core is classical pointwise GP-to-BDD with finite explicit scalar routines; BINCLASS is integral ideal counting. Neither asserts quantum state preparation or a modulus-value theorem. FQ-MODULUS leaves coprimality/suppliedq assumptions unchanged."
+    },
+    {
+      "id": "FQ-NORM-1",
+      "pair_and_fixed_map": "No postselected Gaussian sampler is claimed; full reference normalizer and a.s. conditional TV must be supplied before each attempt. These controls reinforce, not weaken, that explicit premise. No quantum phase or modular-prime construction occurs.",
+      "generic_coherent_adapter": "No Gaussian/phase preparation or postselection occurs in the generic compute-copy-uncompute unitary. Its full output/reference comparison and actual finite circuit cost remain valid; these are separate obligations for the unaccepted quantum DGS application.",
+      "C8_and_BINCLASS": "Accepted C8 core is classical pointwise GP-to-BDD with finite explicit scalar routines; BINCLASS is integral ideal counting. Neither asserts quantum state preparation or a modulus-value theorem. FQ-MODULUS leaves coprimality/suppliedq assumptions unchanged."
+    },
+    {
+      "id": "FQ-PERIOD-1",
+      "pair_and_fixed_map": "No postselected Gaussian sampler is claimed; full reference normalizer and a.s. conditional TV must be supplied before each attempt. These controls reinforce, not weaken, that explicit premise. No quantum phase or modular-prime construction occurs.",
+      "generic_coherent_adapter": "No Gaussian/phase preparation or postselection occurs in the generic compute-copy-uncompute unitary. Its full output/reference comparison and actual finite circuit cost remain valid; these are separate obligations for the unaccepted quantum DGS application.",
+      "C8_and_BINCLASS": "Accepted C8 core is classical pointwise GP-to-BDD with finite explicit scalar routines; BINCLASS is integral ideal counting. Neither asserts quantum state preparation or a modulus-value theorem. FQ-MODULUS leaves coprimality/suppliedq assumptions unchanged."
+    },
+    {
+      "id": "FQ-RETRY-1",
+      "pair_and_fixed_map": "No postselected Gaussian sampler is claimed; full reference normalizer and a.s. conditional TV must be supplied before each attempt. These controls reinforce, not weaken, that explicit premise. No quantum phase or modular-prime construction occurs.",
+      "generic_coherent_adapter": "No Gaussian/phase preparation or postselection occurs in the generic compute-copy-uncompute unitary. Its full output/reference comparison and actual finite circuit cost remain valid; these are separate obligations for the unaccepted quantum DGS application.",
+      "C8_and_BINCLASS": "Accepted C8 core is classical pointwise GP-to-BDD with finite explicit scalar routines; BINCLASS is integral ideal counting. Neither asserts quantum state preparation or a modulus-value theorem. FQ-MODULUS leaves coprimality/suppliedq assumptions unchanged."
+    },
+    {
+      "id": "FQ-MODULUS-1",
+      "pair_and_fixed_map": "No postselected Gaussian sampler is claimed; full reference normalizer and a.s. conditional TV must be supplied before each attempt. These controls reinforce, not weaken, that explicit premise. No quantum phase or modular-prime construction occurs.",
+      "generic_coherent_adapter": "No Gaussian/phase preparation or postselection occurs in the generic compute-copy-uncompute unitary. Its full output/reference comparison and actual finite circuit cost remain valid; these are separate obligations for the unaccepted quantum DGS application.",
+      "C8_and_BINCLASS": "Accepted C8 core is classical pointwise GP-to-BDD with finite explicit scalar routines; BINCLASS is integral ideal counting. Neither asserts quantum state preparation or a modulus-value theorem. FQ-MODULUS leaves coprimality/suppliedq assumptions unchanged."
+    },
+    {
+      "id": "F-QFINITE-FV1",
+      "pair_and_fixed_map": "No postselected Gaussian sampler is claimed; full reference normalizer and a.s. conditional TV must be supplied before each attempt. These controls reinforce, not weaken, that explicit premise. No quantum phase or modular-prime construction occurs.",
+      "generic_coherent_adapter": "No Gaussian/phase preparation or postselection occurs in the generic compute-copy-uncompute unitary. Its full output/reference comparison and actual finite circuit cost remain valid; these are separate obligations for the unaccepted quantum DGS application.",
+      "C8_and_BINCLASS": "Accepted C8 core is classical pointwise GP-to-BDD with finite explicit scalar routines; BINCLASS is integral ideal counting. Neither asserts quantum state preparation or a modulus-value theorem. FQ-MODULUS leaves coprimality/suppliedq assumptions unchanged."
+    }
+  ],
+  "note": "Per-claim scope addendum; original frozen acceptance gate bytes preserved."
+}

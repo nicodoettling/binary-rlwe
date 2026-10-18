@@ -1,0 +1,3 @@
+ulimit -v 262144
+/usr/bin/time -v -o resources.txt timeout 30s python3 control.py > stdout.json 2> stderr.txt
+Execution cwd: criticism/HC1/finite-control-v1. One foreground process; reservation HC1-FV1.

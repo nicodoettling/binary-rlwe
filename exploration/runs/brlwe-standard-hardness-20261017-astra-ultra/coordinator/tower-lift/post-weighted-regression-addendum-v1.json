@@ -1,0 +1,1192 @@
+{
+  "at": "2026-10-18T01:28:41.588484+00:00",
+  "previous_count": 139,
+  "current_count": 146,
+  "accepted_auxiliary_count": 13,
+  "entries": [
+    {
+      "claim": "D-THETA-v1",
+      "id": "RT2-WEIGHTED-FV1",
+      "provenance": {
+        "id": "RT2-WEIGHTED-FV1",
+        "path": "criticism/RT2/finite-stdout-v1.json",
+        "sha256": "0f119e71f93ff7a32f25904eb1bfa08f9f2c0c6848c5e2b8e69c88882a75cb3c",
+        "description": "1152 exact weighted pairs,625 multiplier-module cases; sample-dependent a violates fresh-moment formula, TV does not bound moments, CP1 and zero branches retained. Exact finite laws only.",
+        "disposition": "No accepted theorem permits adaptive fresh-sample multiplier or moment transfer through bare TV; complete new-gate dispositions pending."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen D-THETA-v1 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "BT20-VACUITY-1",
+      "provenance": {
+        "id": "BT20-VACUITY-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "n=m4,J=(3,z\u00b2+z+2),rho7/8,a1,W8,h1/4: all parameters constant but declared failure certificate is1; nonvacuity separate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen D-THETA-v1 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "BT20-RETRY-MARGIN-1",
+      "provenance": {
+        "id": "BT20-RETRY-MARGIN-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W16,h1/2-2^-b: declared success bound2^-b despite polynomial numeric size; positive bound alone does not certify polynomial expected repetition.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen D-THETA-v1 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "BT20-WIDTHVALUE-1",
+      "provenance": {
+        "id": "BT20-WIDTHVALUE-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W2^b,h1/4: polynomial width encoding does not give polynomial-value approximation certificate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen D-THETA-v1 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "RT2-NC1",
+      "provenance": {
+        "id": "RT2-NC1",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Sample-dependent complementary multiplier, exact actual81/2>fresh-bound27/2 and9>11/6.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen D-THETA-v1 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "RT2-NC2",
+      "provenance": {
+        "id": "RT2-NC2",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "TV1/100 contamination at legal remote ideal point makes moment arbitrarily large; only bounded events transfer.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen D-THETA-v1 does not assert an implemented unbounded second moment from TV alone; its event/distribution/state comparisons remain within the original proved norm/error metrics."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "RT2-NC3",
+      "provenance": {
+        "id": "RT2-NC3",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Common fair bit has exact uniform marginals but jointTV1/2 from product; no restored independence.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen D-THETA-v1 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "RT2-WEIGHTED-FV1",
+      "provenance": {
+        "id": "RT2-WEIGHTED-FV1",
+        "path": "criticism/RT2/finite-stdout-v1.json",
+        "sha256": "0f119e71f93ff7a32f25904eb1bfa08f9f2c0c6848c5e2b8e69c88882a75cb3c",
+        "description": "1152 exact weighted pairs,625 multiplier-module cases; sample-dependent a violates fresh-moment formula, TV does not bound moments, CP1 and zero branches retained. Exact finite laws only.",
+        "disposition": "No accepted theorem permits adaptive fresh-sample multiplier or moment transfer through bare TV; complete new-gate dispositions pending."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen A-FRAC-v1 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "BT20-VACUITY-1",
+      "provenance": {
+        "id": "BT20-VACUITY-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "n=m4,J=(3,z\u00b2+z+2),rho7/8,a1,W8,h1/4: all parameters constant but declared failure certificate is1; nonvacuity separate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen A-FRAC-v1 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "BT20-RETRY-MARGIN-1",
+      "provenance": {
+        "id": "BT20-RETRY-MARGIN-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W16,h1/2-2^-b: declared success bound2^-b despite polynomial numeric size; positive bound alone does not certify polynomial expected repetition.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen A-FRAC-v1 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "BT20-WIDTHVALUE-1",
+      "provenance": {
+        "id": "BT20-WIDTHVALUE-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W2^b,h1/4: polynomial width encoding does not give polynomial-value approximation certificate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen A-FRAC-v1 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "RT2-NC1",
+      "provenance": {
+        "id": "RT2-NC1",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Sample-dependent complementary multiplier, exact actual81/2>fresh-bound27/2 and9>11/6.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen A-FRAC-v1 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "RT2-NC2",
+      "provenance": {
+        "id": "RT2-NC2",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "TV1/100 contamination at legal remote ideal point makes moment arbitrarily large; only bounded events transfer.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen A-FRAC-v1 does not assert an implemented unbounded second moment from TV alone; its event/distribution/state comparisons remain within the original proved norm/error metrics."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "RT2-NC3",
+      "provenance": {
+        "id": "RT2-NC3",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Common fair bit has exact uniform marginals but jointTV1/2 from product; no restored independence.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen A-FRAC-v1 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "RT2-WEIGHTED-FV1",
+      "provenance": {
+        "id": "RT2-WEIGHTED-FV1",
+        "path": "criticism/RT2/finite-stdout-v1.json",
+        "sha256": "0f119e71f93ff7a32f25904eb1bfa08f9f2c0c6848c5e2b8e69c88882a75cb3c",
+        "description": "1152 exact weighted pairs,625 multiplier-module cases; sample-dependent a violates fresh-moment formula, TV does not bound moments, CP1 and zero branches retained. Exact finite laws only.",
+        "disposition": "No accepted theorem permits adaptive fresh-sample multiplier or moment transfer through bare TV; complete new-gate dispositions pending."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen B-GP-v2 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "BT20-VACUITY-1",
+      "provenance": {
+        "id": "BT20-VACUITY-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "n=m4,J=(3,z\u00b2+z+2),rho7/8,a1,W8,h1/4: all parameters constant but declared failure certificate is1; nonvacuity separate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen B-GP-v2 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "BT20-RETRY-MARGIN-1",
+      "provenance": {
+        "id": "BT20-RETRY-MARGIN-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W16,h1/2-2^-b: declared success bound2^-b despite polynomial numeric size; positive bound alone does not certify polynomial expected repetition.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen B-GP-v2 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "BT20-WIDTHVALUE-1",
+      "provenance": {
+        "id": "BT20-WIDTHVALUE-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W2^b,h1/4: polynomial width encoding does not give polynomial-value approximation certificate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen B-GP-v2 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "RT2-NC1",
+      "provenance": {
+        "id": "RT2-NC1",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Sample-dependent complementary multiplier, exact actual81/2>fresh-bound27/2 and9>11/6.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen B-GP-v2 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "RT2-NC2",
+      "provenance": {
+        "id": "RT2-NC2",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "TV1/100 contamination at legal remote ideal point makes moment arbitrarily large; only bounded events transfer.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen B-GP-v2 does not assert an implemented unbounded second moment from TV alone; its event/distribution/state comparisons remain within the original proved norm/error metrics."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "RT2-NC3",
+      "provenance": {
+        "id": "RT2-NC3",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Common fair bit has exact uniform marginals but jointTV1/2 from product; no restored independence.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen B-GP-v2 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "RT2-WEIGHTED-FV1",
+      "provenance": {
+        "id": "RT2-WEIGHTED-FV1",
+        "path": "criticism/RT2/finite-stdout-v1.json",
+        "sha256": "0f119e71f93ff7a32f25904eb1bfa08f9f2c0c6848c5e2b8e69c88882a75cb3c",
+        "description": "1152 exact weighted pairs,625 multiplier-module cases; sample-dependent a violates fresh-moment formula, TV does not bound moments, CP1 and zero branches retained. Exact finite laws only.",
+        "disposition": "No accepted theorem permits adaptive fresh-sample multiplier or moment transfer through bare TV; complete new-gate dispositions pending."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen ROOT-SAMECLASS-v1 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "BT20-VACUITY-1",
+      "provenance": {
+        "id": "BT20-VACUITY-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "n=m4,J=(3,z\u00b2+z+2),rho7/8,a1,W8,h1/4: all parameters constant but declared failure certificate is1; nonvacuity separate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen ROOT-SAMECLASS-v1 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "BT20-RETRY-MARGIN-1",
+      "provenance": {
+        "id": "BT20-RETRY-MARGIN-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W16,h1/2-2^-b: declared success bound2^-b despite polynomial numeric size; positive bound alone does not certify polynomial expected repetition.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen ROOT-SAMECLASS-v1 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "BT20-WIDTHVALUE-1",
+      "provenance": {
+        "id": "BT20-WIDTHVALUE-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W2^b,h1/4: polynomial width encoding does not give polynomial-value approximation certificate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen ROOT-SAMECLASS-v1 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "RT2-NC1",
+      "provenance": {
+        "id": "RT2-NC1",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Sample-dependent complementary multiplier, exact actual81/2>fresh-bound27/2 and9>11/6.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen ROOT-SAMECLASS-v1 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "RT2-NC2",
+      "provenance": {
+        "id": "RT2-NC2",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "TV1/100 contamination at legal remote ideal point makes moment arbitrarily large; only bounded events transfer.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen ROOT-SAMECLASS-v1 does not assert an implemented unbounded second moment from TV alone; its event/distribution/state comparisons remain within the original proved norm/error metrics."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "RT2-NC3",
+      "provenance": {
+        "id": "RT2-NC3",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Common fair bit has exact uniform marginals but jointTV1/2 from product; no restored independence.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen ROOT-SAMECLASS-v1 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "id": "RT2-WEIGHTED-FV1",
+      "provenance": {
+        "id": "RT2-WEIGHTED-FV1",
+        "path": "criticism/RT2/finite-stdout-v1.json",
+        "sha256": "0f119e71f93ff7a32f25904eb1bfa08f9f2c0c6848c5e2b8e69c88882a75cb3c",
+        "description": "1152 exact weighted pairs,625 multiplier-module cases; sample-dependent a violates fresh-moment formula, TV does not bound moments, CP1 and zero branches retained. Exact finite laws only.",
+        "disposition": "No accepted theorem permits adaptive fresh-sample multiplier or moment transfer through bare TV; complete new-gate dispositions pending."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen C-OHCP-v8 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "id": "BT20-VACUITY-1",
+      "provenance": {
+        "id": "BT20-VACUITY-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "n=m4,J=(3,z\u00b2+z+2),rho7/8,a1,W8,h1/4: all parameters constant but declared failure certificate is1; nonvacuity separate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen C-OHCP-v8 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "id": "BT20-RETRY-MARGIN-1",
+      "provenance": {
+        "id": "BT20-RETRY-MARGIN-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W16,h1/2-2^-b: declared success bound2^-b despite polynomial numeric size; positive bound alone does not certify polynomial expected repetition.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen C-OHCP-v8 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "id": "BT20-WIDTHVALUE-1",
+      "provenance": {
+        "id": "BT20-WIDTHVALUE-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W2^b,h1/4: polynomial width encoding does not give polynomial-value approximation certificate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen C-OHCP-v8 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "id": "RT2-NC1",
+      "provenance": {
+        "id": "RT2-NC1",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Sample-dependent complementary multiplier, exact actual81/2>fresh-bound27/2 and9>11/6.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen C-OHCP-v8 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "id": "RT2-NC2",
+      "provenance": {
+        "id": "RT2-NC2",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "TV1/100 contamination at legal remote ideal point makes moment arbitrarily large; only bounded events transfer.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen C-OHCP-v8 does not assert an implemented unbounded second moment from TV alone; its event/distribution/state comparisons remain within the original proved norm/error metrics."
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "id": "RT2-NC3",
+      "provenance": {
+        "id": "RT2-NC3",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Common fair bit has exact uniform marginals but jointTV1/2 from product; no restored independence.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen C-OHCP-v8 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "RT2-WEIGHTED-FV1",
+      "provenance": {
+        "id": "RT2-WEIGHTED-FV1",
+        "path": "criticism/RT2/finite-stdout-v1.json",
+        "sha256": "0f119e71f93ff7a32f25904eb1bfa08f9f2c0c6848c5e2b8e69c88882a75cb3c",
+        "description": "1152 exact weighted pairs,625 multiplier-module cases; sample-dependent a violates fresh-moment formula, TV does not bound moments, CP1 and zero branches retained. Exact finite laws only.",
+        "disposition": "No accepted theorem permits adaptive fresh-sample multiplier or moment transfer through bare TV; complete new-gate dispositions pending."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen ROOT-BINCLASS-v1 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "BT20-VACUITY-1",
+      "provenance": {
+        "id": "BT20-VACUITY-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "n=m4,J=(3,z\u00b2+z+2),rho7/8,a1,W8,h1/4: all parameters constant but declared failure certificate is1; nonvacuity separate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen ROOT-BINCLASS-v1 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "BT20-RETRY-MARGIN-1",
+      "provenance": {
+        "id": "BT20-RETRY-MARGIN-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W16,h1/2-2^-b: declared success bound2^-b despite polynomial numeric size; positive bound alone does not certify polynomial expected repetition.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen ROOT-BINCLASS-v1 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "BT20-WIDTHVALUE-1",
+      "provenance": {
+        "id": "BT20-WIDTHVALUE-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W2^b,h1/4: polynomial width encoding does not give polynomial-value approximation certificate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen ROOT-BINCLASS-v1 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "RT2-NC1",
+      "provenance": {
+        "id": "RT2-NC1",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Sample-dependent complementary multiplier, exact actual81/2>fresh-bound27/2 and9>11/6.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen ROOT-BINCLASS-v1 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "RT2-NC2",
+      "provenance": {
+        "id": "RT2-NC2",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "TV1/100 contamination at legal remote ideal point makes moment arbitrarily large; only bounded events transfer.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen ROOT-BINCLASS-v1 does not assert an implemented unbounded second moment from TV alone; its event/distribution/state comparisons remain within the original proved norm/error metrics."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "RT2-NC3",
+      "provenance": {
+        "id": "RT2-NC3",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Common fair bit has exact uniform marginals but jointTV1/2 from product; no restored independence.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen ROOT-BINCLASS-v1 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "RT2-WEIGHTED-FV1",
+      "provenance": {
+        "id": "RT2-WEIGHTED-FV1",
+        "path": "criticism/RT2/finite-stdout-v1.json",
+        "sha256": "0f119e71f93ff7a32f25904eb1bfa08f9f2c0c6848c5e2b8e69c88882a75cb3c",
+        "description": "1152 exact weighted pairs,625 multiplier-module cases; sample-dependent a violates fresh-moment formula, TV does not bound moments, CP1 and zero branches retained. Exact finite laws only.",
+        "disposition": "No accepted theorem permits adaptive fresh-sample multiplier or moment transfer through bare TV; complete new-gate dispositions pending."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen ROOT-PLANTED-INFO-v1 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "BT20-VACUITY-1",
+      "provenance": {
+        "id": "BT20-VACUITY-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "n=m4,J=(3,z\u00b2+z+2),rho7/8,a1,W8,h1/4: all parameters constant but declared failure certificate is1; nonvacuity separate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen ROOT-PLANTED-INFO-v1 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "BT20-RETRY-MARGIN-1",
+      "provenance": {
+        "id": "BT20-RETRY-MARGIN-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W16,h1/2-2^-b: declared success bound2^-b despite polynomial numeric size; positive bound alone does not certify polynomial expected repetition.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen ROOT-PLANTED-INFO-v1 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "BT20-WIDTHVALUE-1",
+      "provenance": {
+        "id": "BT20-WIDTHVALUE-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W2^b,h1/4: polynomial width encoding does not give polynomial-value approximation certificate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen ROOT-PLANTED-INFO-v1 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "RT2-NC1",
+      "provenance": {
+        "id": "RT2-NC1",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Sample-dependent complementary multiplier, exact actual81/2>fresh-bound27/2 and9>11/6.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen ROOT-PLANTED-INFO-v1 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "RT2-NC2",
+      "provenance": {
+        "id": "RT2-NC2",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "TV1/100 contamination at legal remote ideal point makes moment arbitrarily large; only bounded events transfer.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen ROOT-PLANTED-INFO-v1 does not assert an implemented unbounded second moment from TV alone; its event/distribution/state comparisons remain within the original proved norm/error metrics."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "RT2-NC3",
+      "provenance": {
+        "id": "RT2-NC3",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Common fair bit has exact uniform marginals but jointTV1/2 from product; no restored independence.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen ROOT-PLANTED-INFO-v1 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "RT2-WEIGHTED-FV1",
+      "provenance": {
+        "id": "RT2-WEIGHTED-FV1",
+        "path": "criticism/RT2/finite-stdout-v1.json",
+        "sha256": "0f119e71f93ff7a32f25904eb1bfa08f9f2c0c6848c5e2b8e69c88882a75cb3c",
+        "description": "1152 exact weighted pairs,625 multiplier-module cases; sample-dependent a violates fresh-moment formula, TV does not bound moments, CP1 and zero branches retained. Exact finite laws only.",
+        "disposition": "No accepted theorem permits adaptive fresh-sample multiplier or moment transfer through bare TV; complete new-gate dispositions pending."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen E-PAIR-v2 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "BT20-VACUITY-1",
+      "provenance": {
+        "id": "BT20-VACUITY-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "n=m4,J=(3,z\u00b2+z+2),rho7/8,a1,W8,h1/4: all parameters constant but declared failure certificate is1; nonvacuity separate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen E-PAIR-v2 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "BT20-RETRY-MARGIN-1",
+      "provenance": {
+        "id": "BT20-RETRY-MARGIN-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W16,h1/2-2^-b: declared success bound2^-b despite polynomial numeric size; positive bound alone does not certify polynomial expected repetition.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen E-PAIR-v2 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "BT20-WIDTHVALUE-1",
+      "provenance": {
+        "id": "BT20-WIDTHVALUE-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W2^b,h1/4: polynomial width encoding does not give polynomial-value approximation certificate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen E-PAIR-v2 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "RT2-NC1",
+      "provenance": {
+        "id": "RT2-NC1",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Sample-dependent complementary multiplier, exact actual81/2>fresh-bound27/2 and9>11/6.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen E-PAIR-v2 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "RT2-NC2",
+      "provenance": {
+        "id": "RT2-NC2",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "TV1/100 contamination at legal remote ideal point makes moment arbitrarily large; only bounded events transfer.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen E-PAIR-v2 does not assert an implemented unbounded second moment from TV alone; its event/distribution/state comparisons remain within the original proved norm/error metrics."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "RT2-NC3",
+      "provenance": {
+        "id": "RT2-NC3",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Common fair bit has exact uniform marginals but jointTV1/2 from product; no restored independence.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen E-PAIR-v2 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "RT2-WEIGHTED-FV1",
+      "provenance": {
+        "id": "RT2-WEIGHTED-FV1",
+        "path": "criticism/RT2/finite-stdout-v1.json",
+        "sha256": "0f119e71f93ff7a32f25904eb1bfa08f9f2c0c6848c5e2b8e69c88882a75cb3c",
+        "description": "1152 exact weighted pairs,625 multiplier-module cases; sample-dependent a violates fresh-moment formula, TV does not bound moments, CP1 and zero branches retained. Exact finite laws only.",
+        "disposition": "No accepted theorem permits adaptive fresh-sample multiplier or moment transfer through bare TV; complete new-gate dispositions pending."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen ROOT-FRAC-SMALLBALL-v3 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "BT20-VACUITY-1",
+      "provenance": {
+        "id": "BT20-VACUITY-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "n=m4,J=(3,z\u00b2+z+2),rho7/8,a1,W8,h1/4: all parameters constant but declared failure certificate is1; nonvacuity separate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen ROOT-FRAC-SMALLBALL-v3 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "BT20-RETRY-MARGIN-1",
+      "provenance": {
+        "id": "BT20-RETRY-MARGIN-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W16,h1/2-2^-b: declared success bound2^-b despite polynomial numeric size; positive bound alone does not certify polynomial expected repetition.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen ROOT-FRAC-SMALLBALL-v3 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "BT20-WIDTHVALUE-1",
+      "provenance": {
+        "id": "BT20-WIDTHVALUE-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W2^b,h1/4: polynomial width encoding does not give polynomial-value approximation certificate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen ROOT-FRAC-SMALLBALL-v3 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "RT2-NC1",
+      "provenance": {
+        "id": "RT2-NC1",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Sample-dependent complementary multiplier, exact actual81/2>fresh-bound27/2 and9>11/6.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen ROOT-FRAC-SMALLBALL-v3 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "RT2-NC2",
+      "provenance": {
+        "id": "RT2-NC2",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "TV1/100 contamination at legal remote ideal point makes moment arbitrarily large; only bounded events transfer.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen ROOT-FRAC-SMALLBALL-v3 does not assert an implemented unbounded second moment from TV alone; its event/distribution/state comparisons remain within the original proved norm/error metrics."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "RT2-NC3",
+      "provenance": {
+        "id": "RT2-NC3",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Common fair bit has exact uniform marginals but jointTV1/2 from product; no restored independence.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen ROOT-FRAC-SMALLBALL-v3 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "RT2-WEIGHTED-FV1",
+      "provenance": {
+        "id": "RT2-WEIGHTED-FV1",
+        "path": "criticism/RT2/finite-stdout-v1.json",
+        "sha256": "0f119e71f93ff7a32f25904eb1bfa08f9f2c0c6848c5e2b8e69c88882a75cb3c",
+        "description": "1152 exact weighted pairs,625 multiplier-module cases; sample-dependent a violates fresh-moment formula, TV does not bound moments, CP1 and zero branches retained. Exact finite laws only.",
+        "disposition": "No accepted theorem permits adaptive fresh-sample multiplier or moment transfer through bare TV; complete new-gate dispositions pending."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen F-QCOH-v1 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "BT20-VACUITY-1",
+      "provenance": {
+        "id": "BT20-VACUITY-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "n=m4,J=(3,z\u00b2+z+2),rho7/8,a1,W8,h1/4: all parameters constant but declared failure certificate is1; nonvacuity separate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen F-QCOH-v1 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "BT20-RETRY-MARGIN-1",
+      "provenance": {
+        "id": "BT20-RETRY-MARGIN-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W16,h1/2-2^-b: declared success bound2^-b despite polynomial numeric size; positive bound alone does not certify polynomial expected repetition.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen F-QCOH-v1 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "BT20-WIDTHVALUE-1",
+      "provenance": {
+        "id": "BT20-WIDTHVALUE-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W2^b,h1/4: polynomial width encoding does not give polynomial-value approximation certificate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen F-QCOH-v1 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "RT2-NC1",
+      "provenance": {
+        "id": "RT2-NC1",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Sample-dependent complementary multiplier, exact actual81/2>fresh-bound27/2 and9>11/6.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen F-QCOH-v1 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "RT2-NC2",
+      "provenance": {
+        "id": "RT2-NC2",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "TV1/100 contamination at legal remote ideal point makes moment arbitrarily large; only bounded events transfer.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen F-QCOH-v1 does not assert an implemented unbounded second moment from TV alone; its event/distribution/state comparisons remain within the original proved norm/error metrics."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "RT2-NC3",
+      "provenance": {
+        "id": "RT2-NC3",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Common fair bit has exact uniform marginals but jointTV1/2 from product; no restored independence.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen F-QCOH-v1 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "id": "RT2-WEIGHTED-FV1",
+      "provenance": {
+        "id": "RT2-WEIGHTED-FV1",
+        "path": "criticism/RT2/finite-stdout-v1.json",
+        "sha256": "0f119e71f93ff7a32f25904eb1bfa08f9f2c0c6848c5e2b8e69c88882a75cb3c",
+        "description": "1152 exact weighted pairs,625 multiplier-module cases; sample-dependent a violates fresh-moment formula, TV does not bound moments, CP1 and zero branches retained. Exact finite laws only.",
+        "disposition": "No accepted theorem permits adaptive fresh-sample multiplier or moment transfer through bare TV; complete new-gate dispositions pending."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen F-QFINITE-v2 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "id": "BT20-VACUITY-1",
+      "provenance": {
+        "id": "BT20-VACUITY-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "n=m4,J=(3,z\u00b2+z+2),rho7/8,a1,W8,h1/4: all parameters constant but declared failure certificate is1; nonvacuity separate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen F-QFINITE-v2 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "id": "BT20-RETRY-MARGIN-1",
+      "provenance": {
+        "id": "BT20-RETRY-MARGIN-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W16,h1/2-2^-b: declared success bound2^-b despite polynomial numeric size; positive bound alone does not certify polynomial expected repetition.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen F-QFINITE-v2 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "id": "BT20-WIDTHVALUE-1",
+      "provenance": {
+        "id": "BT20-WIDTHVALUE-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W2^b,h1/4: polynomial width encoding does not give polynomial-value approximation certificate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen F-QFINITE-v2 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "id": "RT2-NC1",
+      "provenance": {
+        "id": "RT2-NC1",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Sample-dependent complementary multiplier, exact actual81/2>fresh-bound27/2 and9>11/6.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen F-QFINITE-v2 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "id": "RT2-NC2",
+      "provenance": {
+        "id": "RT2-NC2",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "TV1/100 contamination at legal remote ideal point makes moment arbitrarily large; only bounded events transfer.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen F-QFINITE-v2 does not assert an implemented unbounded second moment from TV alone; its event/distribution/state comparisons remain within the original proved norm/error metrics."
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "id": "RT2-NC3",
+      "provenance": {
+        "id": "RT2-NC3",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Common fair bit has exact uniform marginals but jointTV1/2 from product; no restored independence.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen F-QFINITE-v2 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "H-ALIGN-v1",
+      "id": "RT2-WEIGHTED-FV1",
+      "provenance": {
+        "id": "RT2-WEIGHTED-FV1",
+        "path": "criticism/RT2/finite-stdout-v1.json",
+        "sha256": "0f119e71f93ff7a32f25904eb1bfa08f9f2c0c6848c5e2b8e69c88882a75cb3c",
+        "description": "1152 exact weighted pairs,625 multiplier-module cases; sample-dependent a violates fresh-moment formula, TV does not bound moments, CP1 and zero branches retained. Exact finite laws only.",
+        "disposition": "No accepted theorem permits adaptive fresh-sample multiplier or moment transfer through bare TV; complete new-gate dispositions pending."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen H-ALIGN-v1 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "H-ALIGN-v1",
+      "id": "BT20-VACUITY-1",
+      "provenance": {
+        "id": "BT20-VACUITY-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "n=m4,J=(3,z\u00b2+z+2),rho7/8,a1,W8,h1/4: all parameters constant but declared failure certificate is1; nonvacuity separate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen H-ALIGN-v1 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "H-ALIGN-v1",
+      "id": "BT20-RETRY-MARGIN-1",
+      "provenance": {
+        "id": "BT20-RETRY-MARGIN-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W16,h1/2-2^-b: declared success bound2^-b despite polynomial numeric size; positive bound alone does not certify polynomial expected repetition.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen H-ALIGN-v1 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "H-ALIGN-v1",
+      "id": "BT20-WIDTHVALUE-1",
+      "provenance": {
+        "id": "BT20-WIDTHVALUE-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W2^b,h1/4: polynomial width encoding does not give polynomial-value approximation certificate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen H-ALIGN-v1 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "H-ALIGN-v1",
+      "id": "RT2-NC1",
+      "provenance": {
+        "id": "RT2-NC1",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Sample-dependent complementary multiplier, exact actual81/2>fresh-bound27/2 and9>11/6.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen H-ALIGN-v1 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "H-ALIGN-v1",
+      "id": "RT2-NC2",
+      "provenance": {
+        "id": "RT2-NC2",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "TV1/100 contamination at legal remote ideal point makes moment arbitrarily large; only bounded events transfer.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen H-ALIGN-v1 does not assert an implemented unbounded second moment from TV alone; its event/distribution/state comparisons remain within the original proved norm/error metrics."
+    },
+    {
+      "claim": "H-ALIGN-v1",
+      "id": "RT2-NC3",
+      "provenance": {
+        "id": "RT2-NC3",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Common fair bit has exact uniform marginals but jointTV1/2 from product; no restored independence.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen H-ALIGN-v1 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "RF4-SAMEJ-v1",
+      "id": "RT2-WEIGHTED-FV1",
+      "provenance": {
+        "id": "RT2-WEIGHTED-FV1",
+        "path": "criticism/RT2/finite-stdout-v1.json",
+        "sha256": "0f119e71f93ff7a32f25904eb1bfa08f9f2c0c6848c5e2b8e69c88882a75cb3c",
+        "description": "1152 exact weighted pairs,625 multiplier-module cases; sample-dependent a violates fresh-moment formula, TV does not bound moments, CP1 and zero branches retained. Exact finite laws only.",
+        "disposition": "No accepted theorem permits adaptive fresh-sample multiplier or moment transfer through bare TV; complete new-gate dispositions pending."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen RF4-SAMEJ-v1 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "RF4-SAMEJ-v1",
+      "id": "BT20-VACUITY-1",
+      "provenance": {
+        "id": "BT20-VACUITY-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "n=m4,J=(3,z\u00b2+z+2),rho7/8,a1,W8,h1/4: all parameters constant but declared failure certificate is1; nonvacuity separate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen RF4-SAMEJ-v1 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "RF4-SAMEJ-v1",
+      "id": "BT20-RETRY-MARGIN-1",
+      "provenance": {
+        "id": "BT20-RETRY-MARGIN-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W16,h1/2-2^-b: declared success bound2^-b despite polynomial numeric size; positive bound alone does not certify polynomial expected repetition.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen RF4-SAMEJ-v1 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "RF4-SAMEJ-v1",
+      "id": "BT20-WIDTHVALUE-1",
+      "provenance": {
+        "id": "BT20-WIDTHVALUE-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W2^b,h1/4: polynomial width encoding does not give polynomial-value approximation certificate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen RF4-SAMEJ-v1 retains explicit parameter/value, probability and execution hypotheses; positive success is not promoted to polynomial retry cost. New conditional-weighted certificate examples do not alter its exact theorem or dependency."
+    },
+    {
+      "claim": "RF4-SAMEJ-v1",
+      "id": "RT2-NC1",
+      "provenance": {
+        "id": "RT2-NC1",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Sample-dependent complementary multiplier, exact actual81/2>fresh-bound27/2 and9>11/6.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen RF4-SAMEJ-v1 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    },
+    {
+      "claim": "RF4-SAMEJ-v1",
+      "id": "RT2-NC2",
+      "provenance": {
+        "id": "RT2-NC2",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "TV1/100 contamination at legal remote ideal point makes moment arbitrarily large; only bounded events transfer.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen RF4-SAMEJ-v1 does not assert an implemented unbounded second moment from TV alone; its event/distribution/state comparisons remain within the original proved norm/error metrics."
+    },
+    {
+      "claim": "RF4-SAMEJ-v1",
+      "id": "RT2-NC3",
+      "provenance": {
+        "id": "RT2-NC3",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Common fair bit has exact uniform marginals but jointTV1/2 from product; no restored independence.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "Frozen RF4-SAMEJ-v1 retains its own complete joint/conditional laws and independent fresh randomness; no new sample-dependent weighted multiplier/product step is used. The new controls change no dependency or scope."
+    }
+  ],
+  "scope": "Seven new controls against each of thirteen existing exact scopes; no new acceptance"
+}

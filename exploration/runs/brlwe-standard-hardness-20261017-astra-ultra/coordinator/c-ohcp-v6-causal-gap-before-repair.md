@@ -1,0 +1,5 @@
+# C6 causal-proof gate before repair
+
+Recorded 2026-10-17T21:42:54.855128+00:00. Exact old proof SHA9c57cf10adf32b88a931ebf0cccec0a7705502f78640b71d1743e05954e29b76. D disposition SHA769b661345c6a6fde04dc0878212cf9a6fee738bc269e09d15219f9c59196416 identifies a missing causal filtration/reference process at line124. No explicit false conditional inequality has been shown, but the abbreviated future-correctness wording is not sufficient for the mandatory CP1 gate. Therefore original proof v6 remains UNACCEPTED/INCOMPLETE for this gate. The exact theorem has no changed mathematical premises or constants. Its fresh blind review continues without disclosure.
+
+Repair plan: a versioned full proof replaces the abbreviated walk success paragraph with the causal corrected-decision process, per-history progress/Azuma, and first-failure coupling. D supplied that completion; a different reviewer must check the completion and its integration. The repair is not accepted by inheritance. All original bytes, finite controls and counterexamples are preserved. No primary-paper error is asserted.

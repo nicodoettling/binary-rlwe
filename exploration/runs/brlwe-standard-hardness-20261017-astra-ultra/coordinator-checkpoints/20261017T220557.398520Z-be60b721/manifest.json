@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261017T220557.398520Z-be60b721",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-17T22:05:57.398542+00:00",
+  "reason": "Preserve C7 finite rejection and frozen rational repair with separate reviews",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 27127,
+      "sha256": "9b546c0e115edb750a5516e0b496f4591fa708ac31561003465f8e91ff856cc6"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 3043,
+      "sha256": "afa56ea13faa0394fb858b212230792d82dc5159cbe9548cc310d825f1db984b"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 2323,
+      "sha256": "75eecf846a64ed50e87ca1a819027918fa335b586cccdc56261d35fe4e71500c"
+    },
+    {
+      "path": "final.md",
+      "bytes": 11415,
+      "sha256": "8f6eb28be8d2b21d5ea9f22457277978580c92dabab76df80780dca5f42853d2"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 13591,
+      "sha256": "ce5ecf597b1bc3d740c70d97a4f1e9d2611c999c50a0686829b45b74629d567d"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

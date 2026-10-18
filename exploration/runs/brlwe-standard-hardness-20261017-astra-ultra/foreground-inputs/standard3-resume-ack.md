@@ -1,0 +1,13 @@
+# Same-goal Standard-speed, three-agent continuation acknowledged
+
+Observed 2026-10-17T22:41:07.810518+00:00. Native goal01a14b7b-9e45-7b70-b46d-0bf70e17f2e2 remains active with the unchanged original objective and no token budget. No new goal, pause, service, clock or configuration change was made. Fresh receipt: coordinator/standard3-goal-usage.json.
+
+Actual collaboration.list_agents returned root running only. Runtime advertises3 total slots; user ceiling3, at most2 workers. No inherited worker handle required interruption. Worker startup still needs actual spawn/running evidence. Current worker status and session turn context show gpt-6-astra and ultra. The foreground-owned wrapper explicitly passes service_tier="default"; this verifies configured Standard speed, not backend billing. No priority/fast override is introduced.
+
+LIVE manifest standard3-launcher-run.json; cap status /home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/standard3.log.brlwe-standard-hardness-20261017-standard3.cap-status.json. Original scientific start 2026-10-17T20:09:14.894509+00:00. Effective discovery stop 2026-10-18T01:36:14.695009+00:00; worker/experiment stop 2026-10-18T01:56:14.695009+00:00; graceful 2026-10-18T02:05:09.695009+00:00; hard 2026-10-18T02:06:14.695009+00:00. These are the earlier boundaries, never a new research budget.
+
+BT11 has only its assignment/input files and no sealed report or experiment output. Its worker handle is absent after the authorized stop; preserve the interrupted work and replace with a fresh local-input-only blind reviewer. A reserved-but-not-started job is not a running experiment. RF3 full/source integral-count and narrow fractional-v2 checks are preserved. Four auxiliary claims remain accepted; C8, integral collision count and new fractional small-ball candidate still need their own gates. Foundation remains OPEN. Next roles: clean C8 blind reconstruction and independent fractional-extraction review/constructive test; queued integral-count blind remains separate.
+
+Scientific writes remain in OUTPUT. Package/literature/configuration/history are preserved. All previous live pointers and team counts are historical. Evidence is in coordinator/standard3-runtime-verification.json; no launcher-exit or descendant-cleanup claim follows from this acknowledgment.
+
+Startup verified 2026-10-17T22:42:57.304435+00:00: actual successful BT13 and E spawn responses and root+two running list saved in runtime verification. Thread identities {'/root/bt13_blind': '01a14c07-94d5-7621-97ad-7f592392d06f', '/root/e_fractional': '01a14c07-d2a6-7c02-ad6d-f8522398015e'}. This demonstrates three-total capacity; no excess worker.

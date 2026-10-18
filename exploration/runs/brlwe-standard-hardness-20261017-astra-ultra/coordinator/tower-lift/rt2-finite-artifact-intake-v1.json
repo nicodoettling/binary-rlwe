@@ -1,0 +1,65 @@
+{
+  "at": "2026-10-18T01:21:08.815366+00:00",
+  "scope": "Read complete code and input/resources; parsed every preserved output law, exact normalization checks; not rerun or full-Gaussian certification",
+  "stdout_sha256": "0f119e71f93ff7a32f25904eb1bfa08f9f2c0c6848c5e2b8e69c88882a75cb3c",
+  "summaries": [
+    {
+      "weight": "1/2",
+      "normalizer": "2",
+      "covariance": "3/8",
+      "rows": 64,
+      "zero_projection_nonzero_input_count": 24,
+      "adaptive": {
+        "actual_moment": "81/2",
+        "incorrect_freshness_bound": "27/2"
+      },
+      "TV": {
+        "eta_and_exact_TV": "1/100",
+        "remote": [
+          300,
+          0,
+          0,
+          0
+        ],
+        "reference_moment": "27/4",
+        "contaminated_moment": "3242673/400"
+      }
+    },
+    {
+      "weight": "1/4",
+      "normalizer": "9/8",
+      "covariance": "1/12",
+      "rows": 64,
+      "zero_projection_nonzero_input_count": 24,
+      "adaptive": {
+        "actual_moment": "9",
+        "incorrect_freshness_bound": "11/6"
+      },
+      "TV": {
+        "eta_and_exact_TV": "1/100",
+        "remote": [
+          300,
+          0,
+          0,
+          0
+        ],
+        "reference_moment": "3/2",
+        "contaminated_moment": "1620297/200"
+      }
+    }
+  ],
+  "CP1": {
+    "posterior_A_b": "21/2000",
+    "posterior_C_b": "1/20",
+    "posterior_D": "879/1000",
+    "incidences": {
+      "x": "1/10",
+      "e_b": "121/2000",
+      "f_b": "21/2000"
+    },
+    "event_probability": "21/2000",
+    "rejected_product_bound": "1/100",
+    "inflated_mass": "221/2000",
+    "last_incidence": "21/221"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "prepared_at": "2026-10-17T22:07:35.893917+00:00",
+  "same_thread": "01a14b7b-9e45-7b70-b46d-0bf70e17f2e2",
+  "new_total_agents": 2,
+  "model": "gpt-6-astra",
+  "reasoning_effort": "ultra",
+  "original_hard_deadline": "2026-10-18T02:09:14.894509+00:00",
+  "checkpoint": {
+    "directory": "coordinator-checkpoints/20261017T220735.893141Z-c576ca17",
+    "schema_version": 1,
+    "snapshot_id": "20261017T220735.893141Z-c576ca17",
+    "kind": "foreground-throttle-prestop",
+    "created_at": "2026-10-17T22:07:35.893167+00:00",
+    "reason": "User authorized reducing active concurrency from five to two while preserving original deadline; snapshot before possible controlled same-goal reconnect.",
+    "artifacts": [
+      {
+        "path": "claims.json",
+        "bytes": 27127,
+        "sha256": "9b546c0e115edb750a5516e0b496f4591fa708ac31561003465f8e91ff856cc6"
+      },
+      {
+        "path": "reconciliation.md",
+        "bytes": 3043,
+        "sha256": "afa56ea13faa0394fb858b212230792d82dc5159cbe9548cc310d825f1db984b"
+      },
+      {
+        "path": "progress.md",
+        "bytes": 2323,
+        "sha256": "75eecf846a64ed50e87ca1a819027918fa335b586cccdc56261d35fe4e71500c"
+      },
+      {
+        "path": "final.md",
+        "bytes": 11415,
+        "sha256": "8f6eb28be8d2b21d5ea9f22457277978580c92dabab76df80780dca5f42853d2"
+      },
+      {
+        "path": "agents.json",
+        "bytes": 13591,
+        "sha256": "ce5ecf597b1bc3d740c70d97a4f1e9d2611c999c50a0686829b45b74629d567d"
+      }
+    ],
+    "missing_core_artifacts": [],
+    "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+    "scientific_progress_verified": false
+  },
+  "instruction_file": "/home/nico/projects/research_projects/binaryRLWE/exploration/standard-hardness-20261017/THROTTLE_RESUME_PROMPT.md",
+  "status": "PREPARED_NOT_STOPPED"
+}

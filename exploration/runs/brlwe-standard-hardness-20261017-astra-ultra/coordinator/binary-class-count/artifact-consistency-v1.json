@@ -1,0 +1,52 @@
+{
+  "at": "2026-10-17T23:07:24.416019+00:00",
+  "status": "STRUCTURAL_CONSISTENCY_PASS",
+  "files": {
+    "coordinator/binary-class-count/theorem-v1.md": {
+      "bytes": 2564,
+      "sha256": "f090c6c128eb2d0fd52a9cadb2a2b67b8bdd731d84ef932aabbbdc3c74eb180a"
+    },
+    "coordinator/binary-class-count/proof-v1.md": {
+      "bytes": 4325,
+      "sha256": "012d77de4765194b8b22943d81773c42c59739f00e91012df8afd676ef210bfc"
+    },
+    "coordinator/same-class-count-proof-v1.md": {
+      "bytes": 3215,
+      "sha256": "bf625ccfa90a819c6b36639850a4cf2ab021c865cf3e84b67bc984cb3469d733"
+    },
+    "criticism/RF3/full-review-v1.md": {
+      "bytes": 15027,
+      "sha256": "48b933879a4797286fb8cfd99bb9e23cc39c8698511c66aeb6915b3b09ea987f"
+    },
+    "criticism/RF3/source-parameter-v1.md": {
+      "bytes": 7314,
+      "sha256": "f25bbcf68f0e3efa4a3056cd0d727a6a081ccd4ac0e28fb0d8efcdb0d478df58"
+    },
+    "criticism/RF3/completion-receipt-v1.json": {
+      "bytes": 1301,
+      "sha256": "f32287722c6262e9300c8e5cd2919ffba29c5dd1addfe34539cf21b8f94bbb47"
+    },
+    "criticism/BT12/report-v1.md": {
+      "bytes": 18611,
+      "sha256": "eb38e96cf758ba19cb03e0c3fafb64edcd59ae8b8a09c8713277b75bb82291bb"
+    },
+    "criticism/BT12/freeze-receipt-v1.json": {
+      "bytes": 1689,
+      "sha256": "f9ef0e455eb2b6b2ec1624c31528d9c4edfcdaf072645e9864f3a41f2da16a16"
+    },
+    "coordinator/binary-class-count/regression-gate-v1.json": {
+      "bytes": 61430,
+      "sha256": "281d1bce2e9e8b3203a8a6da858843f10b0eee25d062d226cb149228fde3c70b"
+    },
+    "coordinator/binary-class-count/regression-addendum-v2.json": {
+      "bytes": 1056,
+      "sha256": "cb9f5eb22dabf0b87e67c55c057d0c2c2cb1d6b3f94798781a598de369dae5a1"
+    },
+    "coordinator/binary-class-count/acceptance-reconciliation-v1.md": {
+      "bytes": 3121,
+      "sha256": "a89abc4192992e859149bc599a5df16877348b1ea1dfa237cd4b63df151a4083"
+    }
+  },
+  "complete_blind_receipt_experiment_hashes_match": true,
+  "meaning": "File consistency only, not proof certification."
+}

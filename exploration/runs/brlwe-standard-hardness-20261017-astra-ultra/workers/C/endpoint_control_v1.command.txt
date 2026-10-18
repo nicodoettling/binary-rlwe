@@ -1,0 +1,1 @@
+timeout --signal=TERM --kill-after=2s 30s python3 exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/C/endpoint_control_v1.py > exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/C/endpoint_control_v1.stdout.json 2> exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/C/endpoint_control_v1.stderr.txt

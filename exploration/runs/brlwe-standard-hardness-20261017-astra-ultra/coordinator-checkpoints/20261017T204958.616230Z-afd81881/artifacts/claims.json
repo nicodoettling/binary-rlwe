@@ -1,0 +1,244 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-17T20:49:58.610514+00:00",
+  "goal_state": "active",
+  "goal_receipt": "goal-created.json",
+  "session_id": "01a14b7b-9e45-7b70-b46d-0bf70e17f2e2",
+  "cap": {
+    "started_at": "2026-10-17T20:09:14.894509+00:00",
+    "wrapup_at": "2026-10-18T01:39:14.894509+00:00",
+    "graceful_shutdown_at": "2026-10-18T02:08:09.894509+00:00",
+    "hard_deadline_at": "2026-10-18T02:09:14.894509+00:00"
+  },
+  "worker_stop_at": "2026-10-18T01:59:14.894509+00:00",
+  "primary_foundation_achieved": false,
+  "claims": [
+    {
+      "id": "FOUNDATION-v1",
+      "status": "OPEN",
+      "statement": "Establish and critically validate a noncircular, parameter-compatible computational hardness foundation for a noisy low-dimensional ideal source sufficient for coefficient-binary rank-one RLWE recovery hardness, from standard RLWE or Order-LWE in an explicitly verified established-hardness regime, or a precisely specified standard worst-case ideal-lattice problem. Permit a modified source when its full law and downstream composition are proved. Give exact reduction direction, advantage and sample/runtime costs, classical/quantum and uniformity model, and a nonempty effective regime with a meaningful binary-secret application. Generalized lossiness, source renaming, extra unproved nonstandard premises, scoped obstructions and rederived EX-v2 are partial progress, not completion of this computational-foundation goal. Preserve honest unresolved outcomes if the six-hour cap expires.",
+      "dependencies": [
+        "HARDNESS-EDGE-v1",
+        "BINARY-COMPOSITION-v1"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "HARDNESS-EDGE-v1",
+      "status": "OPEN",
+      "statement": "An algorithm distinguishing a usable low-dimensional source yields success on a precisely specified standard RLWE/Order-LWE or worst-case ideal-lattice problem, with explicit endpoints and resources.",
+      "dependencies": [],
+      "evidence": []
+    },
+    {
+      "id": "BINARY-COMPOSITION-v1",
+      "status": "OPEN",
+      "statement": "A nontrivial parameter-compatible coefficient-binary rank-one actual-secret recovery implication under the established foundation.",
+      "dependencies": [
+        "HARDNESS-EDGE-v1"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "INHERITED-EX-v2",
+      "status": "ACCEPTED",
+      "scope": "Only unchanged exact October conditional theorem. Base2 premise remains unproved. Not yet a foundation.",
+      "dependencies": [],
+      "evidence": [
+        "intake/baseline-manifest.json",
+        "intake/october-claims-exact.json"
+      ]
+    },
+    {
+      "id": "A-ADM-v1",
+      "status": "PROVISIONAL",
+      "statement": "Arbitrary common-ideal points, correlated bounded stacked masks and independent fresh S,G give finite recovery-to-source interface with full metadata comparator and actual binary image leakage.",
+      "dependencies": [
+        "INHERITED-EX-v2"
+      ],
+      "evidence": [
+        "workers/A/admissible-theorem-only-v1.md",
+        "workers/A/admissible-proof-v1.md",
+        "workers/A/finite_controls_v1.stdout.json"
+      ],
+      "scope": "New generalized statement not accepted by inheritance. No source hardness."
+    },
+    {
+      "id": "B-ELIM-v1",
+      "status": "PROVISIONAL",
+      "statement": "Dense unit-pivot elimination has exact uniform comparator but planted masks e_j-r_j e_p wash out to uniform whenever pivot error is a unit; at standard-width candidate the image is far from narrow Base2.",
+      "dependencies": [],
+      "evidence": [
+        "workers/B/first-test-v1.md"
+      ],
+      "scope": "Named public map with n+2 standard inputs; not a barrier to general reductions."
+    },
+    {
+      "id": "C-IDEAL-MAP-v1",
+      "status": "PROVISIONAL",
+      "statement": "Known-ideal response randomization plus rounding/erasure maps ideal-secret RLWE to public-ideal noisy uniform points with actual latent elliptical masks and exact uniform comparator.",
+      "dependencies": [],
+      "evidence": [
+        "workers/C/first-test-v1.md"
+      ],
+      "scope": "Primary parameters and advice/model retained; not narrow coefficient D_ell Base2."
+    },
+    {
+      "id": "C-ENTROPY-GAP-v1",
+      "status": "PROVISIONAL",
+      "statement": "The identified BBPS worst-case-to-ideal-modulus chain requires q^(d/n)>2w(n), w\u2192infinity, incompatible with q^d<=2^(rho n), rho<1, in the current cardinality lossiness route.",
+      "dependencies": [
+        "C-IDEAL-MAP-v1"
+      ],
+      "evidence": [
+        "workers/C/first-test-v1.md"
+      ],
+      "scope": "Specific theorem/composition parameter obstruction, not general impossibility."
+    },
+    {
+      "id": "D-APPROX-v1",
+      "status": "PROVISIONAL",
+      "statement": "Exact finite noiseless RLWE image-test channel simulates sparse source while preserving comparator only approximately, showing why exact-comparator entropy obstruction does not extend to negligible TV without extra hypotheses.",
+      "dependencies": [],
+      "evidence": [
+        "workers/D/experiments/endpoint-control-v1.stdout.json"
+      ],
+      "scope": "New finite instantiation of historical UNIFORM-APPROX-COLLAPSE. No noisy standard-hardness connection."
+    },
+    {
+      "id": "B-SYN-v1",
+      "status": "OPEN",
+      "statement": "Construct an efficient bounded partial-syndrome preimage solver using only public ordinary RLWE multipliers; exact endpoint map and conditional parameter range are written, algorithm absent.",
+      "dependencies": [
+        "A-ADM-v1"
+      ],
+      "evidence": [
+        "workers/B/short-syndrome-interface-v1.md",
+        "workers/B/syndrome_controls_v1.stdout.json"
+      ]
+    },
+    {
+      "id": "D-THETA-v1",
+      "status": "ACCEPTED_SCOPED_OBSTRUCTION",
+      "statement": "Conditional ideal Gaussian width floor yields full retained-latent statistical uniformity after ideal offsets and coefficient rounding; whole-spectrum theta bound and short-mask representation exclusion.",
+      "dependencies": [],
+      "evidence": [
+        "workers/D/ideal-theta-theorem-only-v1.md",
+        "workers/D/ideal-theta-proof-v1.md",
+        "workers/D/experiments/theta-control-v1.stdout.json",
+        "coordinator/theta-freeze-v1.json",
+        "workers/A/stat-review/report-v1.md",
+        "criticism/RS0/report-v1.md",
+        "criticism/BT1/exposure-20261017T2024Z.md",
+        "workers/A/stat-review/bt2-notation-recheck-v1.md",
+        "criticism/RS0/definitions-recheck-v1.md",
+        "criticism/BT2/report-v1.md",
+        "criticism/BT2/freeze-receipt-v1.json",
+        "coordinator/theta-artifact-consistency-v1.json",
+        "experiments/root_cp1_v1.stdout.json"
+      ],
+      "review_state": "Closed exact full-proof/source/blind/regression/artifact gates for analytic statement with canonical-infinity notation supplement. No source-hardness conclusion.",
+      "accepted_at": "2026-10-17T20:36:24.481718+00:00",
+      "exact_theorem_sha256": "20af29016bcedca64b4cad0da407f543f1730ce32512aac9d98b568da8bbc5cd",
+      "exact_proof_sha256": "c712507363792b3e4a525ab672800e5e01fdd7d489ac2a0d56dbb0bd8b0c0e60",
+      "explicit_definition_supplement": "criticism/BT2/input/definitions-v1.md",
+      "scope": "Only rounded Gaussian ideal-offset endpoint under explicit coordinatewise width floor; covers fixed or alternative small common ideals/short masks. Not original RLWE, all public transforms, general source impossibility or computational foundation."
+    },
+    {
+      "id": "A-BIN-v1",
+      "status": "PROVISIONAL",
+      "statement": "Union CRT support r with q^r>n^(n/2) makes multiplication image injective on binary secrets; strict gate and zero branches retained.",
+      "dependencies": [],
+      "evidence": [
+        "workers/A/binary-image-obstruction-v1.md",
+        "workers/A/finite_controls_v1.stdout.json"
+      ]
+    },
+    {
+      "id": "B-LSW-v1",
+      "status": "SUPERSEDED_UNACCEPTED",
+      "statement": "Executable semi-adaptive noisy-error leakage map has exact uniform comparator and claimed Gaussian ideal-source endpoint, but published reverse-factorization normalizers require fresh checking; existing width condition unusable.",
+      "dependencies": [],
+      "evidence": [
+        "workers/B/semiadaptive-hints-map-v1.md",
+        "workers/D/leakage-audit/LSW-theorem1-normalizer-objection-v1.md"
+      ],
+      "repair": "workers/B/semiadaptive-hints-map-v2.md",
+      "repair_status": "PROVISIONAL_PENDING_EXACT_RECHECK"
+    },
+    {
+      "id": "A-SYN-LLL-v1",
+      "status": "PROVISIONAL",
+      "statement": "Concrete scalar LLL/Babai partial-syndrome certificate and entropy/noise incompatibility; related full-syndrome ordinary RLWE attack in sufficient regimes.",
+      "dependencies": [],
+      "evidence": [
+        "workers/A/syndrome-algorithms/scalar-theorem-v1.md",
+        "workers/A/syndrome-algorithms/scalar-proof-v1.md",
+        "workers/A/syndrome-algorithms/first-result-v1.md"
+      ]
+    },
+    {
+      "id": "C-FAM-v2",
+      "status": "PROVISIONAL",
+      "statement": "Checked Arakelov/prime-ideal families have excessive ideal norm or injective binary image for named transformations; exact corrected cyclotomic tower graph condition.",
+      "dependencies": [],
+      "evidence": [
+        "workers/C/ideal-family-randomization-test-v2.md",
+        "workers/C/tower-correction-v1-to-v2.md"
+      ],
+      "supersedes": "C-FAM-v1 unaccepted illustrative tower used incorrect relation; preserved"
+    },
+    {
+      "id": "ROOT-BINAFF-v1",
+      "status": "PROVISIONAL",
+      "statement": "Exact affine uniform-binary law preservation at odd prime q forces signed permutations; scalar ring multiplication permits only signed monomials.",
+      "dependencies": [],
+      "evidence": [
+        "coordinator/binary-affine-law-v1.md"
+      ],
+      "scope": "Exact affine transformations only; no general reduction barrier."
+    },
+    {
+      "id": "C-LIFT-v1",
+      "status": "PROVISIONAL",
+      "statement": "Prime dimension lifting and recursive trace/norm transfer lose approximation factors; fixed small coefficient norm typically absent in the checked prime-ideal family.",
+      "dependencies": [],
+      "evidence": [
+        "workers/C/dimension-lift/first-test-v1.md",
+        "workers/C/dimension-lift/linear-trace-repair-v1.md",
+        "workers/C/dimension-lift/quadratic-recursion-and-samplers-v1.md",
+        "workers/C/dimension-lift/conditioning-and-binary-packing-v1.md"
+      ],
+      "scope": "Named lift/actual ideal family only; finite N8 positive case retained."
+    },
+    {
+      "id": "B-IDEN-v1",
+      "status": "PROVISIONAL",
+      "statement": "Explicit fractional-ideal denominator sampler and completion endpoints; public short-basis attack; actual IdealToNTRU denominator identity does not supply low-index decision hardness.",
+      "dependencies": [],
+      "evidence": [
+        "workers/B/ideal-denominator/first-test-v1.md"
+      ],
+      "scope": "New candidate and scoped failures, no computational source assumption imported."
+    }
+  ],
+  "acceptance_gates": {
+    "new_full_proof": "OPEN",
+    "new_source_parameter_complexity": "OPEN",
+    "new_fresh_blind": "OPEN",
+    "regressions": "D-THETA-v1 all51 exact inherited entries disposed; ROOT-CP1-1 reconstructed original160 atoms; other provisional claims not certified",
+    "artifact_consistency": "OPEN",
+    "D-THETA-v1": {
+      "full_proof": "PASS exact A report plus definition recheck",
+      "source_parameter_complexity": "PASS scoped RS0 plus definition recheck",
+      "fresh_blind": "PASS exact BT2 report, no exposure",
+      "regressions": "51 scoped dispositions; ROOT-CP1-1 and D finite controls",
+      "artifact_consistency": "PASS separately; no proof certification from hashes"
+    }
+  },
+  "next_discriminating_test": "R1 tower/gadget full-response repair and exact binary-law randomization; R2 published periodic-noise/BDD computational edge with low-index parameters.",
+  "selected_computational_routes": [
+    "R1: response-preserving standard-RLWE transformations with short relations or justified noisy leakage",
+    "R2: low-index denominator/coset source from verified ideal-lattice/NTRU families"
+  ]
+}

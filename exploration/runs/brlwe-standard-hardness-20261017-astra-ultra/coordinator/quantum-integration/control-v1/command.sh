@@ -1,0 +1,1 @@
+timeout 30s python3 -B exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/quantum-integration/control-v1/check.py > exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/quantum-integration/control-v1/stdout.json 2> exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/quantum-integration/control-v1/stderr.txt

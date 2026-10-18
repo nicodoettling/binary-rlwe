@@ -1,0 +1,952 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-18T01:28:58.756709+00:00",
+  "goal_state": "active",
+  "goal_receipt": "goal-created.json",
+  "session_id": "01a14b7b-9e45-7b70-b46d-0bf70e17f2e2",
+  "cap": {
+    "started_at": "2026-10-17T20:09:14.894509+00:00",
+    "wrapup_at": "2026-10-18T01:39:14.894509+00:00",
+    "graceful_shutdown_at": "2026-10-18T02:08:09.894509+00:00",
+    "hard_deadline_at": "2026-10-18T02:09:14.894509+00:00"
+  },
+  "worker_stop_at": "2026-10-18T01:59:14.894509+00:00",
+  "primary_foundation_achieved": false,
+  "claims": [
+    {
+      "id": "FOUNDATION-v1",
+      "status": "OPEN",
+      "statement": "Establish and critically validate a noncircular, parameter-compatible computational hardness foundation for a noisy low-dimensional ideal source sufficient for coefficient-binary rank-one RLWE recovery hardness, from standard RLWE or Order-LWE in an explicitly verified established-hardness regime, or a precisely specified standard worst-case ideal-lattice problem. Permit a modified source when its full law and downstream composition are proved. Give exact reduction direction, advantage and sample/runtime costs, classical/quantum and uniformity model, and a nonempty effective regime with a meaningful binary-secret application. Generalized lossiness, source renaming, extra unproved nonstandard premises, scoped obstructions and rederived EX-v2 are partial progress, not completion of this computational-foundation goal. Preserve honest unresolved outcomes if the six-hour cap expires.",
+      "dependencies": [
+        "HARDNESS-EDGE-v1",
+        "BINARY-COMPOSITION-v1"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "HARDNESS-EDGE-v1",
+      "status": "OPEN",
+      "statement": "An algorithm distinguishing a usable low-dimensional source yields success on a precisely specified standard RLWE/Order-LWE or worst-case ideal-lattice problem, with explicit endpoints and resources.",
+      "dependencies": [],
+      "evidence": []
+    },
+    {
+      "id": "BINARY-COMPOSITION-v1",
+      "status": "OPEN",
+      "statement": "A nontrivial parameter-compatible coefficient-binary rank-one actual-secret recovery implication under the established foundation.",
+      "dependencies": [
+        "HARDNESS-EDGE-v1"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "INHERITED-EX-v2",
+      "status": "ACCEPTED",
+      "scope": "Only unchanged exact October conditional theorem. Base2 premise remains unproved. Not yet a foundation.",
+      "dependencies": [],
+      "evidence": [
+        "intake/baseline-manifest.json",
+        "intake/october-claims-exact.json"
+      ]
+    },
+    {
+      "id": "A-ADM-v1",
+      "status": "PROVISIONAL",
+      "statement": "Arbitrary common-ideal points, correlated bounded stacked masks and independent fresh S,G give finite recovery-to-source interface with full metadata comparator and actual binary image leakage.",
+      "dependencies": [
+        "INHERITED-EX-v2"
+      ],
+      "evidence": [
+        "workers/A/admissible-theorem-only-v1.md",
+        "workers/A/admissible-proof-v1.md",
+        "workers/A/finite_controls_v1.stdout.json"
+      ],
+      "scope": "New generalized statement not accepted by inheritance. No source hardness."
+    },
+    {
+      "id": "B-ELIM-v1",
+      "status": "PROVISIONAL",
+      "statement": "Dense unit-pivot elimination has exact uniform comparator but planted masks e_j-r_j e_p wash out to uniform whenever pivot error is a unit; at standard-width candidate the image is far from narrow Base2.",
+      "dependencies": [],
+      "evidence": [
+        "workers/B/first-test-v1.md"
+      ],
+      "scope": "Named public map with n+2 standard inputs; not a barrier to general reductions."
+    },
+    {
+      "id": "C-IDEAL-MAP-v1",
+      "status": "PROVISIONAL",
+      "statement": "Known-ideal response randomization plus rounding/erasure maps ideal-secret RLWE to public-ideal noisy uniform points with actual latent elliptical masks and exact uniform comparator.",
+      "dependencies": [],
+      "evidence": [
+        "workers/C/first-test-v1.md"
+      ],
+      "scope": "Primary parameters and advice/model retained; not narrow coefficient D_ell Base2."
+    },
+    {
+      "id": "C-ENTROPY-GAP-v1",
+      "status": "PROVISIONAL",
+      "statement": "The identified BBPS worst-case-to-ideal-modulus chain requires q^(d/n)>2w(n), w\u2192infinity, incompatible with q^d<=2^(rho n), rho<1, in the current cardinality lossiness route.",
+      "dependencies": [
+        "C-IDEAL-MAP-v1"
+      ],
+      "evidence": [
+        "workers/C/first-test-v1.md"
+      ],
+      "scope": "Specific theorem/composition parameter obstruction, not general impossibility."
+    },
+    {
+      "id": "D-APPROX-v1",
+      "status": "PROVISIONAL",
+      "statement": "Exact finite noiseless RLWE image-test channel simulates sparse source while preserving comparator only approximately, showing why exact-comparator entropy obstruction does not extend to negligible TV without extra hypotheses.",
+      "dependencies": [],
+      "evidence": [
+        "workers/D/experiments/endpoint-control-v1.stdout.json"
+      ],
+      "scope": "New finite instantiation of historical UNIFORM-APPROX-COLLAPSE. No noisy standard-hardness connection."
+    },
+    {
+      "id": "B-SYN-v1",
+      "status": "OPEN",
+      "statement": "Construct an efficient bounded partial-syndrome preimage solver using only public ordinary RLWE multipliers; exact endpoint map and conditional parameter range are written, algorithm absent.",
+      "dependencies": [
+        "A-ADM-v1"
+      ],
+      "evidence": [
+        "workers/B/short-syndrome-interface-v1.md",
+        "workers/B/syndrome_controls_v1.stdout.json"
+      ]
+    },
+    {
+      "id": "D-THETA-v1",
+      "status": "ACCEPTED_SCOPED_OBSTRUCTION",
+      "statement": "Conditional ideal Gaussian width floor yields full retained-latent statistical uniformity after ideal offsets and coefficient rounding; whole-spectrum theta bound and short-mask representation exclusion.",
+      "dependencies": [],
+      "evidence": [
+        "workers/D/ideal-theta-theorem-only-v1.md",
+        "workers/D/ideal-theta-proof-v1.md",
+        "workers/D/experiments/theta-control-v1.stdout.json",
+        "coordinator/theta-freeze-v1.json",
+        "workers/A/stat-review/report-v1.md",
+        "criticism/RS0/report-v1.md",
+        "criticism/BT1/exposure-20261017T2024Z.md",
+        "workers/A/stat-review/bt2-notation-recheck-v1.md",
+        "criticism/RS0/definitions-recheck-v1.md",
+        "criticism/BT2/report-v1.md",
+        "criticism/BT2/freeze-receipt-v1.json",
+        "coordinator/theta-artifact-consistency-v1.json",
+        "experiments/root_cp1_v1.stdout.json"
+      ],
+      "review_state": "Closed exact full-proof/source/blind/regression/artifact gates for analytic statement with canonical-infinity notation supplement. No source-hardness conclusion.",
+      "accepted_at": "2026-10-17T20:36:24.481718+00:00",
+      "exact_theorem_sha256": "20af29016bcedca64b4cad0da407f543f1730ce32512aac9d98b568da8bbc5cd",
+      "exact_proof_sha256": "c712507363792b3e4a525ab672800e5e01fdd7d489ac2a0d56dbb0bd8b0c0e60",
+      "explicit_definition_supplement": "criticism/BT2/input/definitions-v1.md",
+      "scope": "Only rounded Gaussian ideal-offset endpoint under explicit coordinatewise width floor; covers fixed or alternative small common ideals/short masks. Not original RLWE, all public transforms, general source impossibility or computational foundation.",
+      "latest_regression_addendum": "coordinator/tower-lift/post-weighted-regression-addendum-v1.json",
+      "current_registry_count": 146
+    },
+    {
+      "id": "A-BIN-v1",
+      "status": "PROVISIONAL",
+      "statement": "Union CRT support r with q^r>n^(n/2) makes multiplication image injective on binary secrets; strict gate and zero branches retained.",
+      "dependencies": [],
+      "evidence": [
+        "workers/A/binary-image-obstruction-v1.md",
+        "workers/A/finite_controls_v1.stdout.json"
+      ]
+    },
+    {
+      "id": "B-LSW-v1",
+      "status": "SUPERSEDED_UNACCEPTED",
+      "statement": "Executable semi-adaptive noisy-error leakage map has exact uniform comparator and claimed Gaussian ideal-source endpoint, but published reverse-factorization normalizers require fresh checking; existing width condition unusable.",
+      "dependencies": [],
+      "evidence": [
+        "workers/B/semiadaptive-hints-map-v1.md",
+        "workers/D/leakage-audit/LSW-theorem1-normalizer-objection-v1.md"
+      ],
+      "repair": "workers/B/semiadaptive-hints-map-v2.md",
+      "repair_status": "PROVISIONAL_PENDING_EXACT_RECHECK"
+    },
+    {
+      "id": "A-SYN-LLL-v1",
+      "status": "PROVISIONAL",
+      "statement": "Concrete scalar LLL/Babai partial-syndrome certificate and entropy/noise incompatibility; related full-syndrome ordinary RLWE attack in sufficient regimes.",
+      "dependencies": [],
+      "evidence": [
+        "workers/A/syndrome-algorithms/scalar-theorem-v1.md",
+        "workers/A/syndrome-algorithms/scalar-proof-v1.md",
+        "workers/A/syndrome-algorithms/first-result-v1.md"
+      ]
+    },
+    {
+      "id": "C-FAM-v2",
+      "status": "PROVISIONAL",
+      "statement": "Checked Arakelov/prime-ideal families have excessive ideal norm or injective binary image for named transformations; exact corrected cyclotomic tower graph condition.",
+      "dependencies": [],
+      "evidence": [
+        "workers/C/ideal-family-randomization-test-v2.md",
+        "workers/C/tower-correction-v1-to-v2.md"
+      ],
+      "supersedes": "C-FAM-v1 unaccepted illustrative tower used incorrect relation; preserved"
+    },
+    {
+      "id": "ROOT-BINAFF-v1",
+      "status": "PROVISIONAL",
+      "statement": "Exact affine uniform-binary law preservation at odd prime q forces signed permutations; scalar ring multiplication permits only signed monomials.",
+      "dependencies": [],
+      "evidence": [
+        "coordinator/binary-affine-law-v1.md"
+      ],
+      "scope": "Exact affine transformations only; no general reduction barrier."
+    },
+    {
+      "id": "C-LIFT-v1",
+      "status": "PROVISIONAL",
+      "statement": "Prime dimension lifting and recursive trace/norm transfer lose approximation factors; fixed small coefficient norm typically absent in the checked prime-ideal family.",
+      "dependencies": [],
+      "evidence": [
+        "workers/C/dimension-lift/first-test-v1.md",
+        "workers/C/dimension-lift/linear-trace-repair-v1.md",
+        "workers/C/dimension-lift/quadratic-recursion-and-samplers-v1.md",
+        "workers/C/dimension-lift/conditioning-and-binary-packing-v1.md"
+      ],
+      "scope": "Named lift/actual ideal family only; finite N8 positive case retained."
+    },
+    {
+      "id": "B-IDEN-v1",
+      "status": "PROVISIONAL",
+      "statement": "Explicit fractional-ideal denominator sampler and completion endpoints; public short-basis attack; actual IdealToNTRU denominator identity does not supply low-index decision hardness.",
+      "dependencies": [],
+      "evidence": [
+        "workers/B/ideal-denominator/first-test-v1.md"
+      ],
+      "scope": "New candidate and scoped failures, no computational source assumption imported."
+    },
+    {
+      "id": "B-GP-v1",
+      "status": "REJECTED_LITERAL_COMPLEXITY_SCOPE",
+      "statement": "Finite equivariant Gaussian-periodic-to-fractional-source public map with exact comparator.",
+      "dependencies": [],
+      "evidence": [
+        "workers/B/ideal-denominator/gaussian-periodic-theorem-v1.md",
+        "workers/B/ideal-denominator/gaussian-periodic-proof-v1.md",
+        "criticism/BT4/report-v1.md",
+        "criticism/BT4/freeze-receipt-v1.json"
+      ],
+      "scope": "New conditional chain, no standard hardness import or goal completion.",
+      "reason": "BT4 proves endpoints but arbitrary rational parameter encoding lengths omitted from runtime variables; optional Gen sampling must be conditional on supplied J. Coherent v2 requested."
+    },
+    {
+      "id": "A-FRAC-v1",
+      "status": "ACCEPTED_CONDITIONAL_ANALYTIC",
+      "statement": "Pointwise binary-recovery-to-fractional-source distinguisher with proof-only ideal Gaussian and automatic basis existence.",
+      "dependencies": [],
+      "evidence": [
+        "workers/A/fractional-composition/theorem-only-v1.md",
+        "workers/A/fractional-composition/proof-v1.md",
+        "coordinator/a-frac-definitions-v1.md",
+        "criticism/RF2/full-report-v1.md",
+        "criticism/RF2/a-definitions-recheck-v1.md",
+        "criticism/RS1/report-v1.md",
+        "criticism/BT3/report-v1.md",
+        "criticism/BT3/freeze-receipt-v1.json",
+        "criticism/RF2/regression-review-v1.json",
+        "coordinator/a-frac-artifact-consistency-v1.json",
+        "workers/A/fractional-composition/finite-controls-report-v1.md"
+      ],
+      "scope": "F1/F2 with explicit notation supplement; F3 only formal conditional composition, its bridge premise separately gated. No source hardness or computational foundation.",
+      "accepted_at": "2026-10-17T21:09:00.717115+00:00",
+      "exact_theorem_sha256": "5c471744bb04c8149b0d539eaa26e1544d0ba8097b0d68ea019cabb74461b485",
+      "exact_proof_sha256": "f4c889a64173135b2e29cebeb8190f352b1d4de6ada77f37a3f7c4f3ec797af2",
+      "latest_regression_addendum": "coordinator/tower-lift/post-weighted-regression-addendum-v1.json",
+      "current_registry_count": 146
+    },
+    {
+      "id": "C-OHCP-v1",
+      "status": "REJECTED_EXACT_PROOF_GAP",
+      "statement": "Multiplicative hidden-center construction intended to solve BDD on each fixed eligible qJ^-1 from periodic Gaussian decision.",
+      "dependencies": [],
+      "evidence": [
+        "workers/C/periodic-hardness/multiplier-ohcp-theorem-v1.md",
+        "workers/C/periodic-hardness/multiplier-ohcp-proof-v1.md",
+        "criticism/RF2/partial-v1.md"
+      ],
+      "scope": "New conditional chain, no standard hardness import or goal completion.",
+      "reason": "Actual OHCP starting-profile decay does not follow from the v1 separate scale bounds; see author gap record and RF2 partial-v1. Repair v2 requires fresh exact-byte review."
+    },
+    {
+      "id": "C-OHCP-v2",
+      "status": "SUPERSEDED_UNACCEPTED",
+      "statement": "Shifted-center multiplicative OHCP repair; finite query and precision obligations remain.",
+      "dependencies": [
+        "B-GP-v1",
+        "A-FRAC-v1"
+      ],
+      "evidence": [
+        "workers/C/periodic-hardness/multiplier-ohcp-theorem-v2.md",
+        "workers/C/periodic-hardness/multiplier-ohcp-proof-v2.md"
+      ],
+      "scope": "Bounded-index ideals only, not standard unrestricted worst-case foundation.",
+      "repair": "workers/C/periodic-hardness/multiplier-ohcp-theorem-v4.md"
+    },
+    {
+      "id": "C-OHCP-v4",
+      "status": "SUPERSEDED_UNACCEPTED",
+      "statement": "Finite periodic Gaussian decision to same-ideal BDD with local OHCP comparison, two global signs, bounded implementation and explicit adaptive error budget.",
+      "dependencies": [],
+      "evidence": [
+        "workers/C/periodic-hardness/multiplier-ohcp-theorem-v4.md",
+        "workers/C/periodic-hardness/multiplier-ohcp-proof-v4.md"
+      ],
+      "scope": "Pointwise ideal family; no standard family normalization. Imported polynomial OHCP bound left symbolic as published.",
+      "repair": "workers/C/periodic-hardness/multiplier-ohcp-theorem-v5.md"
+    },
+    {
+      "id": "B-GP-v2",
+      "statement": "Finite equivariant Gaussian-periodic bridge with full rational-encoding runtime and conditional-on-J generation scope",
+      "status": "ACCEPTED_CONDITIONAL_FINITE_BRIDGE",
+      "dependencies": [],
+      "evidence": [
+        "workers/B/ideal-denominator/gaussian-periodic-theorem-v2.md",
+        "workers/B/ideal-denominator/gaussian-periodic-proof-v2.md",
+        "criticism/RF2/b-v2-encoding-recheck-v1.md",
+        "criticism/BT5/report-v1.md",
+        "criticism/BT5/freeze-receipt-v1.json",
+        "criticism/RS1/b-v2-recheck-v1.md",
+        "criticism/RF2/b-v2-log-ceiling-recheck-v1.md",
+        "coordinator/b-gp-v2-regression-addendum-v1.json",
+        "coordinator/b-gp-v2-artifact-consistency-v1.json"
+      ],
+      "scope": "Pointwise/fullcommonJ finite statistical bridge, exact comparator and EXPECTED polynomial runtime only. No computational hardness, no boundedcomposition or C finiteprimary contract accepted.",
+      "accepted_at": "2026-10-17T21:27:12.123961+00:00",
+      "exact_theorem_sha256": "be7f05d67fc8f2b24fc6b93321c95005f4d7f6e24bab513b2cbaf35c82aeaad7",
+      "exact_proof_sha256": "207a9af38eb570e2a140d88008c0f4bc363f7d3c8a72049c53bbab85798910b4",
+      "latest_regression_addendum": "coordinator/tower-lift/post-weighted-regression-addendum-v1.json",
+      "current_registry_count": 146
+    },
+    {
+      "id": "C-OHCP-v5",
+      "statement": "Finite same-ideal BDD reduction with bounded OHCP wrapper and full scalar encoding costs",
+      "status": "SUPERSEDED_UNACCEPTED",
+      "dependencies": [],
+      "evidence": [
+        "workers/C/periodic-hardness/multiplier-ohcp-theorem-v5.md",
+        "workers/C/periodic-hardness/multiplier-ohcp-proof-v5.md",
+        "criticism/RF2/c-v5-full-review-v1.md"
+      ],
+      "scope": "Not a standard computational foundation; restricted family or analytic conditional result only.",
+      "repair": "workers/C/periodic-hardness/multiplier-ohcp-theorem-v6.md"
+    },
+    {
+      "id": "B-SUP-IR-v1",
+      "statement": "Natural ideal inclusion supplies a provisional restricted ideal-to-ring succinct SIS one-vector edge",
+      "status": "PROVISIONAL_PENDING_EXACT_REVIEW",
+      "dependencies": [],
+      "evidence": [
+        "workers/B/supersvp-mining/ideal-ring-sis-theorem-v1.md",
+        "workers/B/supersvp-mining/ideal-ring-sis-proof-v1.md"
+      ],
+      "scope": "Not a standard computational foundation; restricted family or analytic conditional result only."
+    },
+    {
+      "id": "ROOT-SAMECLASS-v1",
+      "status": "ACCEPTED_SCOPED_OBSTRUCTION",
+      "statement": "Most power-two cyclotomic ideal classes lack integral representatives of normexp(O(n)); only same-class scaling normalization is excluded",
+      "dependencies": [],
+      "evidence": [
+        "coordinator/same-class-count-theorem-v1.md",
+        "coordinator/same-class-count-proof-v1.md",
+        "workers/C/same-class-nonauthor-review-v1.md",
+        "criticism/BT6/report-v1.md",
+        "criticism/BT6/freeze-receipt-v1.json",
+        "coordinator/same-class-source-gate-v1.md",
+        "coordinator/same-class-regression-gate-v1.json",
+        "experiments/root_classcount_v1.stdout.json",
+        "coordinator/same-class-artifact-consistency-v1.json"
+      ],
+      "scope": "Fixed c, asymptotic n, same field and ordinary ideal class, integral representative required. No effective threshold, class-changing barrier, restricted-family hardness or goal completion.",
+      "accepted_at": "2026-10-17T21:37:48.080673+00:00",
+      "exact_theorem_sha256": "216a4e718e4aada675df0f945cb62ab6c9ab1759a5fb36d296304d827968845c",
+      "exact_proof_sha256": "bf625ccfa90a819c6b36639850a4cf2ab021c865cf3e84b67bc984cb3469d733",
+      "latest_regression_addendum": "coordinator/tower-lift/post-weighted-regression-addendum-v1.json",
+      "current_registry_count": 146
+    },
+    {
+      "id": "B-SUP-Q-v1",
+      "status": "PROVISIONAL_PENDING_REVIEW",
+      "statement": "Uniform-secret ring quantum search-to-SIS candidate with CRT moment corrections",
+      "dependencies": [],
+      "evidence": [
+        "workers/B/supersvp-mining/ring-quantum-theorem-v1.md",
+        "workers/B/supersvp-mining/ring-quantum-proof-v1.md"
+      ],
+      "scope": "Partial only, not standard foundation or binary application."
+    },
+    {
+      "id": "B-STD-DECOMP-v1",
+      "statement": "Standard RLWE full-row affinefiber simulator to decomposedlaw with rankloss; secret/error unchanged",
+      "status": "PROVISIONAL_PENDING_GATES",
+      "dependencies": [],
+      "evidence": [
+        "workers/B/supersvp-mining/standard-rlwe-decomposed-theorem-v1.md",
+        "workers/B/supersvp-mining/standard-rlwe-decomposed-proof-v1.md"
+      ],
+      "scope": "Partial standarduniformsecretedge or conditionalcomposition; no binaryfoundation."
+    },
+    {
+      "id": "B-BOUNDED-COMP-v1",
+      "statement": "Bounded fractional-completion/finitebridge wrapper, extra endpointcutoffcharges, samefixedpointwiseGPadvantage",
+      "status": "PROVISIONAL_PENDING_GATES",
+      "dependencies": [],
+      "evidence": [
+        "workers/B/ideal-denominator/gaussian-periodic-bounded-wrapper-v1.md",
+        "workers/B/ideal-denominator/fractional-bounded-composition-v1.md",
+        "criticism/RF2/b-bounded-composition-review-v1.md"
+      ],
+      "scope": "Partial standarduniformsecretedge or conditionalcomposition; no binaryfoundation."
+    },
+    {
+      "id": "C-OHCP-v6",
+      "status": "UNACCEPTED_REPAIR_REQUIRED",
+      "statement": "Explicit bounded finite OHCP reconstruction replaces symbolic primary finite-bit contract",
+      "dependencies": [],
+      "evidence": [
+        "workers/C/periodic-hardness/multiplier-ohcp-theorem-v6.md",
+        "workers/C/periodic-hardness/multiplier-ohcp-proof-v6.md",
+        "criticism/BT7/report-v1.md",
+        "criticism/BT7/physical-endpoint-counterexample-v1.md",
+        "coordinator/c-ohcp-v6-causal-gap-before-repair.md",
+        "coordinator/multiplier-ohcp-proof-v7.md",
+        "workers/A/c7-review/exact-byte-review-v1.md"
+      ],
+      "scope": "Same-ideal BDD only; standard family transfer absent.",
+      "reason": "BT7 finite algorithm definitions/source access insufficient for blind gate; literal physical Haar endpoint false though continuous proxy correct. Original proof v6 missing causal filtration; proof v7 repair separately checked by A. Coherent theorem/spec/proof repair requested."
+    },
+    {
+      "id": "C-OHCP-v7",
+      "status": "REJECTED_FINITE_SPECIFICATION_GAP",
+      "statement": "Explicit bounded finite same-ideal BDD reduction with standalone algorithm definitions and continuous-proxy-only Haar endpoint",
+      "dependencies": [],
+      "evidence": [
+        "workers/C/periodic-hardness/multiplier-ohcp-theorem-v7.md",
+        "workers/C/periodic-hardness/multiplier-ohcp-algorithm-v1.md",
+        "workers/C/periodic-hardness/multiplier-ohcp-proof-v8.md",
+        "workers/A/c8-review/full-proof-review-v1.md",
+        "workers/A/c8-review/finite-verification-gap-before-repair-v1.md"
+      ],
+      "scope": "No standard family transfer or computational-foundation conclusion.",
+      "reason": "C8-FV1 exact final rational upper bound versus computable-real2d0 had no bounded comparison rule. No BDD mathematical counterexample; exact algorithm specification rejected."
+    },
+    {
+      "id": "B-BE-SWITCH-v1",
+      "statement": "Binary-error uniform-secret RLWE to exact binary-secret/Gaussian-error target up to exponentially small Bernoulli-deconvolution loss",
+      "status": "PROVISIONAL_PENDING_GATES",
+      "dependencies": [],
+      "evidence": [
+        "workers/B/binary-error-switch/switch-gaussianize-theorem-v1.md",
+        "workers/B/binary-error-switch/switch-gaussianize-proof-v1.md"
+      ],
+      "scope": "Requires binary-error ring hardness, unproved; explicit input sample count and sigma-value runtime."
+    },
+    {
+      "id": "D-SPARSE-CRT-v1",
+      "statement": "Uniform d-root CRT ideal overwhelmingly lacks weightO(logn) ternary vectors in the stated d regime",
+      "status": "PROVISIONAL_PENDING_GATES",
+      "dependencies": [],
+      "evidence": [
+        "workers/D/short-relation-source/uniform-crt-sparse-obstruction-v1.md"
+      ],
+      "scope": "Specific random-root family only, no computational hardness or global barrier."
+    },
+    {
+      "id": "C-OHCP-v8",
+      "status": "ACCEPTED_CONDITIONAL_COMPUTATIONAL_INTERFACE",
+      "statement": "Same-ideal bounded BDD reduction with explicit rational final verification threshold",
+      "dependencies": [],
+      "evidence": [
+        "coordinator/c8-repair/multiplier-ohcp-algorithm-v2.md",
+        "coordinator/c8-repair/multiplier-ohcp-proof-v9.md",
+        "coordinator/c8-repair/multiplier-ohcp-theorem-v8.md",
+        "workers/A/c9-review/exact-repair-review-v1.md",
+        "criticism/BT10/report-v1.md",
+        "criticism/BT10/freeze-receipt-v1.json",
+        "coordinator/c8-bt10-exposure-disposition-v1.md",
+        "coordinator/c8-source-parameter-gate-v1.md",
+        "coordinator/c8-regression-gate-v1.json",
+        "coordinator/c8-artifact-consistency-v1.json",
+        "criticism/BT13/report-v1.md",
+        "criticism/BT13/freeze-receipt-v1.json",
+        "coordinator/c8-acceptance-reconciliation-v1.md",
+        "coordinator/c8-artifact-consistency-v2.json",
+        "coordinator/c8-regression-addendum-v2.json"
+      ],
+      "scope": "Only core bounded finite pointwise classical GP-to-BDD interface for same integralJ, declared scalar-input model. External B composition, coherent quantum use and standard-family connection excluded.",
+      "reason": "Exact full/source/cleanblind/regression/artifact gates reconciled separately.",
+      "accepted_at": "2026-10-17T23:03:45.374160+00:00",
+      "exact_theorem_sha256": "857a62e9f4a937a80e5cb3b115c8b132abf122c16665d29b39dcb62bde86fe0a",
+      "exact_algorithm_sha256": "4361c90a7fa7cfe25d0ab3e8cd5c5333fb474cf1fb764375e10c29fca5102735",
+      "exact_proof_sha256": "e9b3023715a3d4ec90c474aba6945223aa376248b1fa216134964a5643fb4c5f",
+      "latest_regression_addendum": "coordinator/tower-lift/post-weighted-regression-addendum-v1.json",
+      "current_registry_count": 146
+    },
+    {
+      "id": "ROOT-ORDER-PADDING-v2",
+      "status": "PROVISIONAL_SCOPED_CALCULATION",
+      "statement": "Scalar mask rescaling with full R-ideal closure preserves binary support overlap only with integral transported multiplier in the fixed coefficient-integral pairing.",
+      "dependencies": [],
+      "evidence": [
+        "coordinator/order-padding/scalar-rescaling-test-v2.md",
+        "coordinator/order-padding/primal-response-lattice-gap-before-v2.md"
+      ],
+      "scope": "Named scalar order/padding interface only; not a standard hardness edge or general Order-LWE barrier."
+    },
+    {
+      "id": "ROOT-BINCLASS-v1",
+      "status": "ACCEPTED_SCOPED_OBSTRUCTION",
+      "statement": "At most(3^n-1)(1+(n/2)log2n)2^floor(log_(2n+1)(n^(n/2))) ordinary classes admit an integral representative with a coefficient-binary collision.",
+      "dependencies": [
+        "ROOT-SAMECLASS-v1"
+      ],
+      "evidence": [
+        "coordinator/binary-class-count/theorem-v1.md",
+        "coordinator/binary-class-count/proof-v1.md",
+        "coordinator/binary-class-count/experiments/control-v1.stdout.json",
+        "criticism/RF3/full-review-v1.md",
+        "criticism/RF3/source-parameter-v1.md",
+        "criticism/RF3/completion-receipt-v1.json",
+        "coordinator/binary-class-count/regression-gate-v1.json",
+        "criticism/BT12/report-v1.md",
+        "criticism/BT12/freeze-receipt-v1.json",
+        "coordinator/binary-class-count/regression-gate-v1.json",
+        "coordinator/binary-class-count/regression-addendum-v2.json",
+        "coordinator/binary-class-count/acceptance-reconciliation-v1.md",
+        "coordinator/binary-class-count/artifact-consistency-v1.json"
+      ],
+      "scope": "Integral representatives and exact proof-only G+S; posterior a.s., fixed binary basis. Fractional/class-changing/field-changing/approximate or computational-only interfaces excluded. No standard hardness.",
+      "accepted_at": "2026-10-17T23:07:24.416019+00:00",
+      "exact_theorem_sha256": "f090c6c128eb2d0fd52a9cadb2a2b67b8bdd731d84ef932aabbbdc3c74eb180a",
+      "exact_proof_sha256": "012d77de4765194b8b22943d81773c42c59739f00e91012df8afd676ef210bfc",
+      "latest_regression_addendum": "coordinator/tower-lift/post-weighted-regression-addendum-v1.json",
+      "current_registry_count": 146
+    },
+    {
+      "id": "ROOT-FRAC-PADDING-v2",
+      "status": "PROVISIONAL_NARROW_FULL_RECHECK_PASS",
+      "statement": "Fractional J=P H/p preserves H binary collisions but narrow inverse Gaussian can collapse to zero; specified direct-clearing radius is trivial under explicit chain lower bounds.",
+      "dependencies": [],
+      "evidence": [
+        "coordinator/binary-class-count/fractional-escape-test-v2.md",
+        "coordinator/binary-class-count/fractional-scale-gap-before-v2.md",
+        "criticism/RF3/fractional-endpoint-recheck-v2.md"
+      ],
+      "scope": "Named endpoint/zero-test/direct-radius map only; hypothetical chain extension and unquantified short-generator remark uncertified; no general obstruction."
+    },
+    {
+      "id": "ROOT-FRAC-SMALLBALL-v1",
+      "status": "SUPERSEDED_V3_CONDITIONAL_OUTPUT_QUALIFICATIONS_PENDING",
+      "statement": "For J=IH/c and spherical D_(J,W), every fixed nonzero ring-linear map to I with fixed I-translate has small-ball probability <=D_H((1+2gamma)/W)^n at radius gamma*c.",
+      "dependencies": [],
+      "evidence": [
+        "coordinator/binary-class-count/fractional-smallball-theorem-v1.md",
+        "coordinator/binary-class-count/fractional-smallball-proof-v1.md",
+        "coordinator/binary-class-count/smallball-control/control-v1.stdout.json",
+        "workers/E/fractional-extraction/smallball-full-proof-review-v1.md",
+        "workers/E/fractional-extraction/smallball-parameter-source-review-v1.md",
+        "criticism/BT14/complete-report-v1.md"
+      ],
+      "scope": "Named fractional padding and fixed-before-fresh-sample maps; E full/source favorable, blind/regression/artifact remain. No source hardness or fractional A/B/C extension."
+    },
+    {
+      "id": "E-PAIR-v1",
+      "status": "REJECTED_UNQUALIFIED_HISTORY_ATOMS",
+      "statement": "Any output-dependent pair selector from m fresh fractional Gaussian samples has useful short I-difference probability <=binom(m,2)b+sum_{j>=2}eta_j.",
+      "dependencies": [],
+      "evidence": [
+        "workers/E/fractional-extraction/pair-extraction-theorem-proof-v1.md",
+        "workers/E/fractional-extraction/finite-pair-v1/report.md",
+        "coordinator/e-pair-full-review-v1.md",
+        "workers/E/fractional-extraction/pair-theorem-only-v1.md",
+        "criticism/BT14/complete-report-v1.md",
+        "criticism/BT14/literal-null-branch-counterexample-v1.md",
+        "coordinator/binary-class-count/bt14-history-gap-before-repair.md"
+      ],
+      "scope": "Pair differences only; exact theta modulation retained, no source-to-sampler edge or arbitrary nonlinear obstruction.",
+      "reason": "Clean BT14 preserved vacuous positive-mass-atom premise under nonatomic retained state; v2regularconditional repair needed. Independent-list mathematics survives but exactversion not accepted."
+    },
+    {
+      "id": "ROOT-MASK-RESIDUE-v1",
+      "status": "PROVISIONAL_SCOPED_TEST",
+      "statement": "Completing exact integer target errors with a mask outsideJ forces shifted H supports; exposing unwrapped multipliers,Y,H reveals a_i S modR and defeats lossiness whenever the effective denominator ideal is binary-injective.",
+      "dependencies": [],
+      "evidence": [
+        "coordinator/continuous-mask/integer-error-residue-test-v1.md",
+        "coordinator/continuous-mask/control-v1.stdout.json"
+      ],
+      "scope": "Named proof exposure only; Gaussian-generator probability and actual public transcript not asserted."
+    },
+    {
+      "id": "ROOT-PLANTED-INFO-v1",
+      "status": "ACCEPTED_SCOPED_INFORMATION_BOUND",
+      "statement": "Binary-injective integral ideals in the explicit q-unwrapping regime retain actual-secret information in the public planted wrapper; coset generation loss and hidden-J posterior equality explicit.",
+      "dependencies": [],
+      "evidence": [
+        "coordinator/planted-information/theorem-v1.md",
+        "coordinator/planted-information/proof-v1.md",
+        "workers/G/planted-information-review/full-proof-review-v1.md",
+        "workers/G/planted-information-review/source-parameter-review-v1.md",
+        "workers/G/planted-information-review/finite-control-v1.stdout.json",
+        "criticism/BT16/BT16-complete-report-v1.md",
+        "criticism/BT16/BT16-freeze-receipt-v1.json",
+        "coordinator/planted-information/acceptance-reconciliation-v1.md",
+        "coordinator/planted-information/regression-gate-v1.json",
+        "coordinator/planted-information/artifact-consistency-v1.json"
+      ],
+      "scope": "Exact binaryinjective integralJ information bound underq>2tau sqrt(n)L(ns+sigma); no PPTattack/comparatorvalue/hardness. Commonchannel fullposterior equality with/withoutJ. All115 regressions disposed.",
+      "accepted_at": "2026-10-18T00:04:17.401568+00:00",
+      "exact_theorem_sha256": "536bb0235e7ccd11563d6f731a4935822a664ae393eb5ae301dbdad89a1ac5e1",
+      "exact_proof_sha256": "57a314f1f9c4671194b4943b20873b5ad1e8f8c5043cb6308ae89b8605177eb4",
+      "latest_regression_addendum": "coordinator/tower-lift/post-weighted-regression-addendum-v1.json",
+      "current_registry_count": 146
+    },
+    {
+      "id": "E-PAIR-v2",
+      "status": "ACCEPTED_SCOPED_AUXILIARY",
+      "statement": "Fractional pair extraction with a.s. regular conditional TV, arbitrary first sample and predictable attempts",
+      "dependencies": [],
+      "evidence": [
+        "workers/E/fractional-extraction/pair-theorem-only-v2.md",
+        "workers/E/fractional-extraction/pair-extraction-theorem-proof-v2.md",
+        "coordinator/e-pair-full-review-v2.md",
+        "criticism/BT15/report-v1.md",
+        "criticism/BT15/freeze-receipt-v1.json",
+        "coordinator/fractional-coherent-acceptance-v1.md",
+        "coordinator/fractional-coherent-regression-gate-v1.json",
+        "coordinator/fractional-coherent-artifact-consistency-v1.json"
+      ],
+      "scope": "Named auxiliary statement only; no computational-foundation completion.",
+      "accepted_at": "2026-10-17T23:46:16.349529+00:00",
+      "review_state": "Closed full/source/cleanBT15/regression/separateartifact gates; exact scope in acceptance reconciliation",
+      "latest_regression_addendum": "coordinator/tower-lift/post-weighted-regression-addendum-v1.json",
+      "current_registry_count": 146
+    },
+    {
+      "id": "ROOT-FRAC-SMALLBALL-v3",
+      "status": "ACCEPTED_SCOPED_AUXILIARY",
+      "statement": "Fixed-before-fresh fractional linear extraction; a.s. histories and defined failure outsideJ",
+      "dependencies": [],
+      "evidence": [
+        "coordinator/binary-class-count/fractional-smallball-theorem-v3.md",
+        "coordinator/binary-class-count/fractional-smallball-proof-v3.md",
+        "workers/E/fractional-extraction/root-fixedmap-v3-full-source-review.md",
+        "criticism/BT15/report-v1.md",
+        "criticism/BT15/freeze-receipt-v1.json",
+        "coordinator/fractional-coherent-acceptance-v1.md",
+        "coordinator/fractional-coherent-regression-gate-v1.json",
+        "coordinator/fractional-coherent-artifact-consistency-v1.json"
+      ],
+      "scope": "Named auxiliary statement only; no computational-foundation completion.",
+      "accepted_at": "2026-10-17T23:46:16.349529+00:00",
+      "review_state": "Closed full/source/cleanBT15/regression/separateartifact gates; exact scope in acceptance reconciliation",
+      "latest_regression_addendum": "coordinator/tower-lift/post-weighted-regression-addendum-v1.json",
+      "current_registry_count": 146
+    },
+    {
+      "id": "F-QCOH-v1",
+      "status": "ACCEPTED_SCOPED_AUXILIARY",
+      "statement": "Bounded randomized program to approximate clean quantum XOR oracle with2sqrt(p+tau) error",
+      "dependencies": [],
+      "evidence": [
+        "workers/F/finite-quantum-integration/coherent-adapter-theorem-only-v1.md",
+        "workers/F/finite-quantum-integration/coherent-adapter-proof-v1.md",
+        "coordinator/quantum-integration/f-qcoh-full-review-v1.md",
+        "criticism/BT15/input/definitions-v1.md",
+        "criticism/BT15/report-v1.md",
+        "criticism/BT15/freeze-receipt-v1.json",
+        "coordinator/fractional-coherent-acceptance-v1.md",
+        "coordinator/fractional-coherent-regression-gate-v1.json",
+        "coordinator/fractional-coherent-artifact-consistency-v1.json"
+      ],
+      "scope": "Generic finite executable-program adapter ONLY, explicitp,tau in[0,1]; actual circuit/dispatch costS and retainedwork. C8 substitution conditional; no quantumDGS/family foundation.",
+      "accepted_at": "2026-10-17T23:46:16.349529+00:00",
+      "review_state": "Closed full/source/cleanBT15/regression/separateartifact gates; exact scope in acceptance reconciliation",
+      "latest_regression_addendum": "coordinator/tower-lift/post-weighted-regression-addendum-v1.json",
+      "current_registry_count": 146
+    },
+    {
+      "id": "F-QFINITE-v2",
+      "status": "ACCEPTED_SCOPED_AUXILIARY",
+      "statement": "Explicit bounded fixed-gate quantum ordinary DGS from pointwise bounded BDD for rational L, with complete finite schedules",
+      "dependencies": [
+        "F-QCOH-v1"
+      ],
+      "evidence": [
+        "workers/F/finite-quantum-integration/finite-quantum-theorem-only-v2.md",
+        "workers/F/finite-quantum-integration/finite-quantum-algorithm-v2.md",
+        "workers/F/finite-quantum-integration/finite-quantum-proof-v2.md",
+        "criticism/BT17/assignment-v1.md",
+        "criticism/RF4/assignment-v1.md",
+        "criticism/RF4/full-proof-report-v1.md",
+        "criticism/RF4/source-parameter-complexity-report-v1.md",
+        "criticism/BT17/blind-report-v1.md",
+        "criticism/BT17/freeze-receipt-v1.sha256",
+        "coordinator/quantum-integration/f-qfinite-acceptance-reconciliation-v2.md",
+        "coordinator/quantum-integration/f-qfinite-regression-gate-v2.json",
+        "coordinator/quantum-integration/f-qfinite-artifact-consistency-v2.json"
+      ],
+      "scope": "Generic finite rational-lattice pointwise boundedBDD-to-ordinaryDGS theorem; conditional algebraic sameJ specialization. Full binarycomposition and arbitraryidealfamily foundation are separate OPEN gates.",
+      "accepted_at": "2026-10-18T00:24:11.484053+00:00",
+      "exact_theorem_sha256": "ce7f5992b071f7d82e5e034a7dc323f69a85d0f4969afa0530603527bc7338e2",
+      "exact_proof_sha256": "1430f62a7c670c682fef2cfc2b14d15f17c45e877fe3d598cc7a040cc1a69144",
+      "latest_regression_addendum": "coordinator/tower-lift/post-weighted-regression-addendum-v1.json",
+      "current_registry_count": 146
+    },
+    {
+      "id": "H-ALIGN-v1",
+      "status": "ACCEPTED_SCOPED_AUXILIARY",
+      "statement": "Allwidth primeideal replacement alignment bound min(1,2/M+(32n/s)^n), original zero-inclusive law and full adaptive attempts",
+      "dependencies": [],
+      "evidence": [
+        "workers/H/prime-alignment/theorem-only-v1.md",
+        "workers/H/prime-alignment/proof-v1.md",
+        "workers/H/prime-alignment/finite-stdout-v1.json",
+        "coordinator/alignment-acceptance-v1.md",
+        "coordinator/alignment-regression-gate-v1.json",
+        "coordinator/samej-alignment-artifact-gate-v1.json"
+      ],
+      "scope": "Exact main scoped theorem accepted through independent full/source, clean blind,139 regression dispositions and separate artifact gate. MainT1-T5 only; companions and general family/combination obstruction excluded.",
+      "accepted_at": "2026-10-18T01:08:00.495986+00:00",
+      "latest_regression_addendum": "coordinator/tower-lift/post-weighted-regression-addendum-v1.json",
+      "current_registry_count": 146
+    },
+    {
+      "id": "H-LLL-v1",
+      "status": "REJECTED_UNQUALIFIED_INPUTSIZE_SCOPE",
+      "statement": "The LLL worstcase certificate is superpolynomial for everyM>2^(rho n)",
+      "dependencies": [],
+      "evidence": [
+        "coordinator/prime-alignment/h-short-relation-v1-before-scope-repair.md",
+        "coordinator/prime-alignment/h-short-relation-bitlength-gap-before-repair.md"
+      ],
+      "scope": "Rejected input-size overreach retained. V2 corrects dimension approximation versus input-bit runtime; independently rechecked, blind open."
+    },
+    {
+      "id": "RF4-SAMEJ-v1",
+      "status": "ACCEPTED_SCOPED_AUXILIARY",
+      "statement": "Complete pointwise classicalbinaryRec tofinite quantumordinaryDGS on SAMEsupplied eligibleintegralJ, explicitfixedlaws, bothboundedendpointcharges andactualcompiledcode costs",
+      "dependencies": [
+        "A-FRAC-v1",
+        "B-GP-v2",
+        "C-OHCP-v8CORE",
+        "F-QFINITE-v2"
+      ],
+      "evidence": [
+        "workers/RF4/same-j-composition/same-j-theorem-only-v1.md",
+        "workers/RF4/same-j-composition/same-j-proof-v1.md",
+        "workers/RF4/same-j-composition/interface-statements-v1.md",
+        "workers/RF4/same-j-composition/freeze-manifest-v1.json",
+        "coordinator/samej-acceptance-v1.md",
+        "coordinator/samej-regression-gate-v1.json",
+        "coordinator/samej-alignment-artifact-gate-v1.json"
+      ],
+      "scope": "Exact main scoped theorem accepted through independent full/source, clean blind,139 regression dispositions and separate artifact gate. Same supplied eligibleJ only; arbitraryideal foundation remains open.",
+      "exact_theorem_sha256": "96b88a725cc5dc4f8c943275d3b8788fdb9e6ac108c72fe62b383af9614e5e62",
+      "exact_proof_sha256": "4821d28fa205d893576b496df7f328f94a4ba111f6d634fd4b338edfea8c522d",
+      "accepted_at": "2026-10-18T01:08:00.495986+00:00",
+      "latest_regression_addendum": "coordinator/tower-lift/post-weighted-regression-addendum-v1.json",
+      "current_registry_count": 146
+    },
+    {
+      "id": "H-LLL-v2",
+      "status": "NONAUTHOR_RECHECK_FAVORABLE_BLIND_OPEN",
+      "statement": "LLL relationcertificate and fullretainedsource/comparator laws; explicit poly(n) approximation versus fullbitruntime",
+      "dependencies": [],
+      "evidence": [
+        "workers/H/prime-alignment/short-relation-v2.md",
+        "workers/H/prime-alignment/parameters-v2.md",
+        "workers/H/prime-alignment/shifted-cosets-v2.md",
+        "workers/H/prime-alignment/freeze-receipt-v2.json"
+      ],
+      "scope": "Corrected dimension approximation versus full input-bit runtime. RH1 supports conditional certificate statement, not actual LLL failure. parameters-v3 magnitude qualification separate."
+    },
+    {
+      "id": "H-PARAM-v2",
+      "status": "REJECTED_NARROW_UPPER_WIDTH_ASSERTION",
+      "statement": "Polynomialvalueq and polynomialtime finite scalarparameters implypolynomialabsoluteDGSwidth",
+      "dependencies": [],
+      "evidence": [
+        "workers/H/prime-alignment/parameters-v2.md",
+        "criticism/RH1/parameter-scope-counterexample-v1.md"
+      ],
+      "scope": "Rejected narrow polynomial-bit-to-value inference retained. W1-W3/main bound unchanged; v3 explicitly adds value premise, independent recheck favorable, blind open."
+    },
+    {
+      "id": "H-PARAM-v3",
+      "status": "NONAUTHOR_RECHECK_FAVORABLE_BLIND_OPEN",
+      "statement": "Corrected explicit numerical magnitude premise or polynomial-value schedule for DGS width",
+      "dependencies": [],
+      "evidence": [
+        "workers/H/prime-alignment/parameters-v3.md",
+        "criticism/RH1/parameter-v3-recheck-v1.md"
+      ],
+      "scope": "Narrow v2 repair only; no general hardness. Lower-width formulas unchanged."
+    },
+    {
+      "id": "ROOT-TOWER-v1",
+      "status": "NONAUTHOR_FAVORABLE_BLIND_OPEN",
+      "statement": "Exact prime-lift trace endpoints and conditional product transfer with factor-count budget",
+      "evidence": [
+        "coordinator/tower-lift/endpoint-test-v1.md",
+        "coordinator/tower-lift/product-transfer-v1.md",
+        "criticism/RT1/non-author-review-v1.md"
+      ],
+      "scope": "Supplied eligible factor cover and joint sampler law; no polynomial useful-radius or family algorithm established"
+    },
+    {
+      "id": "RT1-MOMENT-v1",
+      "status": "PROVISIONAL",
+      "statement": "Independent product Gaussian moment certificate and its growing-norm limitation",
+      "evidence": [
+        "criticism/RT1/moment-improvement-v1.md"
+      ],
+      "scope": "Original product reference law; no actual-output lower bound or TV-approximate moment assertion"
+    },
+    {
+      "id": "RT1-WEIGHTED-v1",
+      "status": "UNDER_FULL_SOURCE_AND_BLIND_REVIEW",
+      "statement": "Normalized-trace multiplier module and conditional short-complement transfer",
+      "evidence": [
+        "criticism/RT1/weighted-trace-bridge-v1.md",
+        "criticism/BT20/input/theorem-only-v1.md"
+      ],
+      "scope": "Short complementary multiplier supplied at charged cost; no algorithm to compute it or standard hardness"
+    }
+  ],
+  "acceptance_gates": {
+    "new_full_proof": "OPEN",
+    "new_source_parameter_complexity": "OPEN",
+    "new_fresh_blind": "OPEN",
+    "regressions": "D-THETA-v1 all51 exact inherited entries disposed; ROOT-CP1-1 reconstructed original160 atoms; other provisional claims not certified",
+    "artifact_consistency": "OPEN",
+    "D-THETA-v1": {
+      "full_proof": "PASS exact A report plus definition recheck",
+      "source_parameter_complexity": "PASS scoped RS0 plus definition recheck",
+      "fresh_blind": "PASS exact BT2 report, no exposure",
+      "regressions": "139 IDs: prior exactgate plus coordinator/post-alignment-regression-addendum-v1.json; unchanged premise/scope",
+      "artifact_consistency": "PASS separately; no proof certification from hashes"
+    },
+    "A-FRAC-v1": {
+      "full_proof": "PASS RF2 exact full report plus notation recheck",
+      "source_parameter_complexity": "PASS scoped RS1",
+      "fresh_blind": "PASS BT3 reconstructed F1/F2 and formalF3; sealed before disclosure",
+      "regressions": "139 IDs: prior exactgate plus coordinator/post-alignment-regression-addendum-v1.json; unchanged premise/scope",
+      "artifact_consistency": "PASS separately; hashes not proof certification"
+    },
+    "B-GP-v1": {
+      "full_proof": "RF2 conditional recommendation; inspect exact report",
+      "source_parameter_complexity": "WITHDRAWN literal v1 runtime; repaired v2 separately reviewed",
+      "blind": "OPEN",
+      "regressions": "RF2 per-ID dispositions frozen; inspect exact report",
+      "artifact": "OPEN",
+      "fresh_blind": "BT4 endpoints PASS but literal rational-encoding complexity defect; v2 requested"
+    },
+    "B-GP-v2": {
+      "full_proof": "PASS RF2 full plus exact encoding/logceil rechecks",
+      "source_parameter_complexity": "PASS RS1 v2 recheck plus explicit exactceil separation",
+      "fresh_blind": "PASS sealed BT5 reconstruction; minor ceilingqualification closed by independent BT4proof and RF2 exactrecheck",
+      "regressions": "139 IDs: prior exactgate plus coordinator/post-alignment-regression-addendum-v1.json; unchanged premise/scope",
+      "artifact_consistency": "PASS separate exactbytecheck; notproofcertification"
+    },
+    "C-OHCP-v5": {
+      "full_proof": "RF2/c-v5-full-review-v1 favorable",
+      "source_parameter_complexity": "RS2 favorable narrowed: primary real-domain OHCP finite-bit contract remains OPEN after BT5 limitation",
+      "fresh_blind": "BT5 analytic reconstruction favorable CONDITIONAL on finite T_H; primary internal bit contract unverified",
+      "artifact_consistency": "OPEN"
+    },
+    "ROOT-SAMECLASS-v1": {
+      "full_proof": "PASS C exact full review",
+      "source_parameter_complexity": "PASS coordinator readable primary plus C independent check",
+      "fresh_blind": "PASS sealed BT6; documentary limitation closed separately without changing report",
+      "regressions": "139 IDs: prior exactgate plus coordinator/post-alignment-regression-addendum-v1.json; unchanged premise/scope",
+      "artifact_consistency": "PASS separately, hashes are not proof certification"
+    },
+    "C-OHCP-v8": {
+      "full_proof": "PASS exact A recheck",
+      "source_parameter_complexity": "PASS scoped reconciliation in coordinator/c8-source-parameter-gate-v1.md, independent A full/diff recheck; external composition/quantum excluded",
+      "fresh_blind": "PASS sealed clean BT13 independent reconstruction; no unauthorized input exposure",
+      "regressions": "139 IDs: prior exactgate plus coordinator/post-alignment-regression-addendum-v1.json; unchanged premise/scope",
+      "artifact_consistency": "PASS separate v2 exactbyte check; not proof certification"
+    },
+    "ROOT-BINCLASS-v1": {
+      "full_proof": "PASS exact RF3",
+      "source_parameter_complexity": "PASS RF3, exact accepted analytic dependency",
+      "fresh_blind": "PASS sealed clean BT12, analytic premise supplied",
+      "regressions": "139 IDs: prior exactgate plus coordinator/post-alignment-regression-addendum-v1.json; unchanged premise/scope",
+      "artifact_consistency": "PASS separately; hashes not mathematical certification"
+    },
+    "E-PAIR-v2": {
+      "full_proof": "PASS exact nonauthor full review",
+      "source_parameter_complexity": "PASS explicit elementary/supplied-law scope; external application excluded",
+      "fresh_blind": "PASS clean sealedBT15 fullreconstruction",
+      "regressions": "139 IDs: prior exactgate plus coordinator/post-alignment-regression-addendum-v1.json; unchanged premise/scope",
+      "artifact_consistency": "PASS separately; notproofcertification"
+    },
+    "ROOT-FRAC-SMALLBALL-v3": {
+      "full_proof": "PASS exact nonauthor full review",
+      "source_parameter_complexity": "PASS explicit elementary/supplied-law scope; external application excluded",
+      "fresh_blind": "PASS clean sealedBT15 fullreconstruction",
+      "regressions": "139 IDs: prior exactgate plus coordinator/post-alignment-regression-addendum-v1.json; unchanged premise/scope",
+      "artifact_consistency": "PASS separately; notproofcertification"
+    },
+    "F-QCOH-v1": {
+      "full_proof": "PASS exact nonauthor full review",
+      "source_parameter_complexity": "PASS explicit elementary/supplied-law scope; external application excluded",
+      "fresh_blind": "PASS clean sealedBT15 fullreconstruction",
+      "regressions": "139 IDs: prior exactgate plus coordinator/post-alignment-regression-addendum-v1.json; unchanged premise/scope",
+      "artifact_consistency": "PASS separately; notproofcertification"
+    },
+    "ROOT-PLANTED-INFO-v1": {
+      "full_proof": "PASS G complete exact report",
+      "source_parameter_complexity": "PASS G separate exact report, information-only scope",
+      "fresh_blind": "PASS sealed cleanBT16 complete reconstruction",
+      "regressions": "139 IDs: prior exactgate plus coordinator/post-alignment-regression-addendum-v1.json; unchanged premise/scope",
+      "artifact_consistency": "PASS separately, not proof certification"
+    },
+    "F-QFINITE-v2": {
+      "full_proof": "PASS exactRF4 androot complete read",
+      "source_parameter_complexity": "PASS exactRF4; actualcompiled execution qualification retained",
+      "fresh_blind": "PASS clean sealedBT17 complete independent reconstruction",
+      "regressions": "139 IDs: prior exactgate plus coordinator/post-alignment-regression-addendum-v1.json; unchanged premise/scope",
+      "artifact_consistency": "PASS77 exactbytechecks separately; notproofcertification"
+    },
+    "H-ALIGN-v1": {
+      "full_proof": "PASS exact RH1, root coauthor pass not counted",
+      "source_parameter_complexity": "PASS separately exact nonauthor report",
+      "fresh_blind": "PASS clean sealed BT19 mathematicalbody exact",
+      "regressions": "PASS139 exact provenance entries; see dedicated gate",
+      "artifact_consistency": "PASS111 separate hashchecks; notproofcertification"
+    },
+    "RF4-SAMEJ-v1": {
+      "full_proof": "PASS exact HC1",
+      "source_parameter_complexity": "PASS separately exact nonauthor report",
+      "fresh_blind": "PASS clean sealed BT18",
+      "regressions": "PASS139 exact provenance entries; see dedicated gate",
+      "artifact_consistency": "PASS111 separate hashchecks; notproofcertification"
+    }
+  },
+  "next_discriminating_test": "RT1 tower product/weighted-trace exact family and radius bridge; arbitraryideal coverage and efficient short complement remain missing.",
+  "selected_computational_routes": [
+    "R1: response-preserving standard-RLWE transformations with short relations or justified noisy leakage",
+    "R2: low-index denominator/coset source from verified ideal-lattice/NTRU families"
+  ],
+  "live_manifest": "standard3-launcher-run.json",
+  "effective_deadlines": {
+    "wrapup_at": "2026-10-18T01:36:14.695009Z",
+    "worker_stop_at": "2026-10-18T01:56:14.695009Z",
+    "graceful_shutdown_at": "2026-10-18T02:05:09.695009Z",
+    "hard_deadline_at": "2026-10-18T02:06:14.695009Z"
+  },
+  "active_total_ceiling": 3,
+  "current_summary": "Foundation OPEN. Thirteen accepted auxiliary scopes;146 exact regression IDs reconciled against their scopes. RT2 full/source and finite control completed; BT21 fresh sealed review pending. No active experiment. Root+BT21 active, ceiling3. Explicit public-complement test does not improve public-vector certificate.",
+  "cap_provenance_note": "cap/worker_stop_at fields preserve original launcher limits; effective_deadlines and LIVE manifest are authoritative earlier limits."
+}

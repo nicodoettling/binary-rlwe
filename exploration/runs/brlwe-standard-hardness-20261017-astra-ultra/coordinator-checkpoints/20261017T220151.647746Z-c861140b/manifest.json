@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261017T220151.647746Z-c861140b",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-17T22:01:51.647768+00:00",
+  "reason": "Binary-error conditional edge and new sparse-family obstruction; C finite threshold pending",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 26294,
+      "sha256": "9d2bcd244ed36b02ae01ff5c73c011264d09761b1c49089dee7f1b025c5fe74f"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 2504,
+      "sha256": "c0f13550c1994915c42f5a081c435be01051495926ff4ac4d821147df0ef8245"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 1784,
+      "sha256": "221405a389a9ecc436f197fcd9b0835a275559e4eb597f19bce8f9c5683c3061"
+    },
+    {
+      "path": "final.md",
+      "bytes": 10876,
+      "sha256": "80b9f1383cf3fcaf7d75f10843e4b624cc2597b5f7de0063a88750a060f2bf5d"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 13529,
+      "sha256": "496d8972de82da7d7cd5af264e40c4a97409e5cddc1782bf94c6606c8df0d84e"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

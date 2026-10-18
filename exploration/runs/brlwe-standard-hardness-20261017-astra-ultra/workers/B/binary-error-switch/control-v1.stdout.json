@@ -1,0 +1,49 @@
+{
+  "deconvolution": {
+    "K": 8,
+    "additive_comparator_exact": true,
+    "base": "3/4",
+    "delta": "211878445930329939548633427131415809/562248086790315540464147608343760780545",
+    "exact_convolution": true,
+    "exact_normalizer": true,
+    "exact_positive": true,
+    "omit_normalizer_countercontrol": true,
+    "parity_after_convolution": 0,
+    "tv": "27693000438693983218227125942322037898378937908072807164758055010768660651/105334594282837921074091965031280344469827142724028203015073779403371619287040"
+  },
+  "enumerated_endpoint_states": 426500,
+  "max_rss_kib": 11264,
+  "precision": "exact integers and fractions.Fraction; no floating arithmetic in identities",
+  "ring_n2": {
+    "M": 1,
+    "comparator_atoms": 625,
+    "comparator_exact": true,
+    "comparator_states": 250000,
+    "n": 2,
+    "planted_exact": true,
+    "planted_states": 160000,
+    "q": 5,
+    "target_joint_atoms": 400,
+    "uniform_fiber": 400,
+    "unit_probability": "16/25",
+    "units": 16,
+    "zero_secret_included": true
+  },
+  "scalar_shared_secret": {
+    "M": 2,
+    "comparator_atoms": 625,
+    "comparator_exact": true,
+    "comparator_states": 12500,
+    "n": 1,
+    "planted_exact": true,
+    "planted_states": 4000,
+    "q": 5,
+    "target_joint_atoms": 200,
+    "uniform_fiber": 20,
+    "unit_probability": "4/5",
+    "units": 4,
+    "zero_secret_included": true
+  },
+  "seed": null,
+  "wall_seconds": 0.8485697159776464
+}

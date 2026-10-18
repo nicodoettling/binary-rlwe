@@ -1,0 +1,18 @@
+{
+  "dimensions": [
+    2,
+    4,
+    8
+  ],
+  "coefficient_alphabet": [
+    -1,
+    0,
+    1
+  ],
+  "exclude_zero": true,
+  "seed": null,
+  "determinant_crosscheck": "all n<=4; every31st nonzero vector n8",
+  "estimated_states": 6648,
+  "timeout_seconds": 60,
+  "address_space_bytes": 268435456
+}

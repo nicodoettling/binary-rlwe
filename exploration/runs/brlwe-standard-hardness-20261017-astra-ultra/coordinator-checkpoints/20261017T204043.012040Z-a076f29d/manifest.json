@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261017T204043.012040Z-a076f29d",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-17T20:40:43.012076+00:00",
+  "reason": "new oracle, anisotropic and ideal-denominator mechanisms; exact task receipts",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 10655,
+      "sha256": "deae231481290d6cfcb84575e1bcfe6f8d3f41514afe85bb499b11f3e39b153d"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 2684,
+      "sha256": "df43884b40933dc678fbc2792029388c53a73c85cffdb4a3637b95a3f29f7ba7"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 1712,
+      "sha256": "97789d4fbdbb2279050a3526bf8fa87e888a38116906f835655a98444221747a"
+    },
+    {
+      "path": "final.md",
+      "bytes": 3783,
+      "sha256": "d37ae21fef515ac0a56fbe243a84e151448977e9cfbe19878d5f90eeaa150efc"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 11135,
+      "sha256": "061252b070e0dcaa5c94920b0ebbd891e84ee66d5e03bf25b2aef2b8d3d2e99b"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261018T005936.480610Z-8af67237",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-18T00:59:36.480632+00:00",
+  "reason": "Sealed BT19 gate and exact tower endpoint; provisional constructive product transfer",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 48263,
+      "sha256": "9454495acc90a94dbbf67555f735e4b56db573ec0e6a989c6fee211f9ccddc38"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 3594,
+      "sha256": "d57593848daa7951bdcd5fec3ce3ec02768df44029f3e80ee08b6932b4d4f882"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 3588,
+      "sha256": "10acb2c7b32a4b50b6fab25ffbfcc2792ce88cb03112b68124d8a8c655dc97cf"
+    },
+    {
+      "path": "final.md",
+      "bytes": 9112,
+      "sha256": "43e7806b2c52644065f9ed76bd4a4c1626c23237ab46f233d430e62551e588ca"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 9929,
+      "sha256": "4a7d799efcbb7fe6ed83aa9f258d746d04b6e6642e497c136aa949cf1947a3ea"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

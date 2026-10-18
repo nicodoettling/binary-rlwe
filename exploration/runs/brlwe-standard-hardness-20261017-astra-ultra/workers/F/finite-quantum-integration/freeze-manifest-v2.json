@@ -1,0 +1,82 @@
+{
+  "created_at": "2026-10-17T23:56:27.328455+00:00",
+  "author_role": "F nonblind reviewer of existing chain; author of new finite quantum construction, not its accepting referee",
+  "status": "PROVISIONAL_UNACCEPTED finite same-J theorem/proof; standard-family foundation OPEN",
+  "assignment_sha256_verified": "dec8cbf6d354921ab297ddaef35d7b7b89ddb8a3a952d1b9d1383c105942481f",
+  "v1_preservation": "packet-hashes-v1.sha256 fully verified OK before v2 freeze; all v1 bytes unchanged",
+  "input_sha256": {
+    "assignment-v2.md": "dec8cbf6d354921ab297ddaef35d7b7b89ddb8a3a952d1b9d1383c105942481f",
+    "freeze-manifest-v1.json": "3ccb5ce6b8bbdad910c17fc147e858f2ace9b707d8a402e6dba706bd2c01671f",
+    "packet-hashes-v1.sha256": "6014d98db2e73f40dba17215dc71ea6747d3242a879a7edf6f2fe4e003fc75e6",
+    "integration-ledger-v1.md": "950419c62ea716ae699edeb31a09d6ea13d1f81fc09c02e60f75876c1e619988",
+    "coherent-adapter-theorem-only-v1.md": "66d889b189b4193d0e07be3e9baa0b3ce78803ba824e9aedea7f622e9cada3cc",
+    "coherent-adapter-proof-v1.md": "b7746c86d76a664899e112a31350551498315ee2f867386294fba6f0c1e1f4f7",
+    "primary-source-check-v1.md": "4305d9a180ab76d62a50716aeec236fbcf3fb91e3e402abf2f73a210f72a2b27",
+    "workers/A/fractional-composition/polynomial-modulus-existence-v1.md": "e96f46d05a36ddae1c9662c4befe0637bf50cc09d58865a6a581cae4162fe272",
+    "standard3.log.brlwe-standard-hardness-20261017-standard3.cap-status.json": "d5b6d8fac218d0fdbe55678f297b96d05a7bd662eb4789d173847236fe59ccc9"
+  },
+  "output_sha256": {
+    "partial-v2.md": "c7bb2f6ce4ba6bcc5b67f7fa9067b27e11261fc1f73f9290f8598ad20ce72356",
+    "finite-quantum-theorem-only-v2.md": "ce7f5992b071f7d82e5e034a7dc323f69a85d0f4969afa0530603527bc7338e2",
+    "finite-quantum-algorithm-v2.md": "1ea3e1ab1c297773d591a3bd983ff278f31cdafcd459acd29076a3867ede2545",
+    "finite-quantum-proof-v2.md": "1430f62a7c670c682fef2cfc2b14d15f17c45e877fe3d598cc7a040cc1a69144",
+    "integration-addendum-v2.md": "144ba40df83ab4c70f13d090c3a637a55f031fe2145dd90c06e887bf17dbd3cb",
+    "modulus-value-addendum-v2.md": "ed1b1b5c7605ac6fcac8d838f946218a9009f438a765685e354b477264cb54fd",
+    "finite-quantum-failures-before-v2.md": "9dde12451721b934735b9808e54fb2af1e1229e561f19d04edb65f47993a2752",
+    "finite-experiment-report-v2.md": "140ccdc371e2448630ae9692418545ece348f00322a6556d108387cc3604263a",
+    "F-QFINITE-FV1-reservation.md": "3419b85c339abe8bae27edce1153ddcbc1f9908f07f6128051b599c3b1ba8c2a",
+    "F-QFINITE-FV1-input.json": "b3f4982027f51aa3592210c5ea647256b5f60e8cddbb1410b3d1098bbc91736a",
+    "F-QFINITE-FV1.py": "c14cf82ab10ac42f3e6a8571e72a6e227bc8b33b79efd4b2882286a8cc6616f6",
+    "F-QFINITE-FV1-command.sh": "e380b7d5e5797a3db2a3b75bcef4882dbfd71b41cb7f0aef1fb2a198ff0d9964",
+    "F-QFINITE-FV1.stdout": "7a2e0e7b22a255c89602bd35dfe8502ba22c0fb59ed25e3f26104dc3fdb62599",
+    "F-QFINITE-FV1.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "F-QFINITE-FV1.resources": "e9bac96578a18d4b17ce0a6f6d966ba9d54accd2b0c1caf03d082f86249bc64b",
+    "packet-index-v2.md": "fb2846c659439edc7001fccee82421d083752ca7f2160ef9b3a45d2298218722"
+  },
+  "generic_adapter_status_provenance": "Root direct message reports fresh review acceptance only for p,tau in [0,1], actual Boolean/dispatch circuit including retained work, and executable forward/inverse counts; blind work not accessed",
+  "finite_gate_model": [
+    "X",
+    "H",
+    "S=diag(1,i)",
+    "CNOT",
+    "Toffoli",
+    "computational-basis measurement",
+    "reset",
+    "bounded classical feedforward"
+  ],
+  "new_result": "Concrete finite Gaussian/phase-resource preparation, uniform coset normalization, one coherent decoder, finite QFT, centered dual alias decode; explicit error and fixed polynomial gate bound",
+  "same_ideal_endpoint": "L=qJ^-1; Gamma=conjugate(J)/q; ordinary DGS on the same J at coefficient width nq/(sqrt(2)d0)",
+  "experiment": {
+    "reservation": "F-QFINITE-FV1",
+    "runs": 1,
+    "status": "PASS",
+    "exact_checks": 9288,
+    "wall_seconds": 0.18,
+    "max_rss_kib": 12288,
+    "exit_code": 0,
+    "bounds": {
+      "seconds": 120,
+      "address_space_mib": 256,
+      "n_max": 3,
+      "aux_bits_max": 6,
+      "cases_max": 200000
+    },
+    "scope": "Finite algebra and complete conditional/retry laws only; no Gaussian analytic or full-circuit certification",
+    "all_records_preserved": true
+  },
+  "source_limits": {
+    "existing_quantum_sources": "Exact versions and access limits retained in primary-source-check-v1.md",
+    "Xylouris": "arXiv:0906.2749v1, 2009-06-15; primary abstract checked, analytic proof not re-proved; absolute C not numerically specified"
+  },
+  "effective_deadlines": {
+    "discovery_stop": "2026-10-18T01:36:14.695009Z",
+    "worker_stop": "2026-10-18T01:56:14.695009Z",
+    "graceful": "2026-10-18T02:05:09.695009Z",
+    "hard": "2026-10-18T02:06:14.695009Z"
+  },
+  "remaining_gates": [
+    "Independent nonauthor review of exact new theorem/algorithm/proof",
+    "Fresh independent review as required by coordinator",
+    "Standard-family connection and full binary standard-hardness implication"
+  ]
+}

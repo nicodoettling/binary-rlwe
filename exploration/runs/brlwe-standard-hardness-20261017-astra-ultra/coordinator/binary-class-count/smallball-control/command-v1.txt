@@ -1,0 +1,3 @@
+timeout 30s python3 -B control-v1.py > control-v1.stdout.json 2> control-v1.stderr.txt
+Working directory: /home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/binary-class-count/smallball-control
+The code also enforces 30s alarm and 256MiB address-space limit. Two light reservations maximum, no heavy job. No installations or detached computation.

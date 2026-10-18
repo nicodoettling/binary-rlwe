@@ -1,0 +1,22 @@
+{
+  "codex_pid": 361359,
+  "codex_session_id": "01a14b7b-9e45-7b70-b46d-0bf70e17f2e2",
+  "ended_at": "2026-10-18T01:48:14.247960+00:00",
+  "exit_code": 0,
+  "heartbeat_at": "2026-10-18T01:48:14.247965+00:00",
+  "observed": {
+    "approval": "never",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "ultra",
+    "sandbox": "workspace-write [workdir, /tmp, $TMPDIR]",
+    "session_id": "01a14b7b-9e45-7b70-b46d-0bf70e17f2e2",
+    "workdir": "/home/nico/projects/research_projects/binaryRLWE"
+  },
+  "schema_version": 2,
+  "signal": null,
+  "started_at": "2026-10-17T22:39:22.795750+00:00",
+  "state": "completed",
+  "tmux_session": "brlwe-standard-hardness-20261017-standard3",
+  "updated_at": "2026-10-18T01:48:14.247975+00:00",
+  "worker_pid": 361197
+}

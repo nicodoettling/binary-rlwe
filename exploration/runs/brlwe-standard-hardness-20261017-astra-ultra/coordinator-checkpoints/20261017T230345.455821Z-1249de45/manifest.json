@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261017T230345.455821Z-1249de45",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-17T23:03:45.455857+00:00",
+  "reason": "C8 finite core acceptance after clean blind; recycle to F integration; BT12 running",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 33204,
+      "sha256": "f4e6466b42faa277378d5b5dba002ed1f8b2a9a888ab3819ec772b8e3cae7727"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 2999,
+      "sha256": "d8e52f476c50f1346b1196590e000edc5288e61c85359a0f19ba1763123e4830"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 3257,
+      "sha256": "7e7b1a3327c7c9de15d125ba0e973ceff1d5ee63e9f628ecc5f59be399549c53"
+    },
+    {
+      "path": "final.md",
+      "bytes": 14738,
+      "sha256": "8431fb51575bc74d5d949d54da7ecc82b30e76b66737a2142f0b92c0f8a9474b"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 5425,
+      "sha256": "afd17e26fae0f5737d52b43162a6b5ccbd8e518cc41cfd49954e80efb1a5153d"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

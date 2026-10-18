@@ -1,0 +1,26 @@
+{
+  "captured_at": "2026-10-17T21:04:50.985505+00:00",
+  "source": "/home/nico/.codex/sessions/2026/10/17/rollout-2026-10-17T20-09-15-01a14b7b-9e45-7b70-b46d-0bf70e17f2e2.jsonl",
+  "events": [
+    {
+      "timestamp": "2026-10-17T21:03:34.103Z",
+      "ordinal": 1740,
+      "type": "response_item",
+      "payload": {
+        "type": "function_call_output",
+        "id": "fco_01a14bad-58d6-7461-883e-67d5842a4200",
+        "call_id": "call_0d13bb4edb7e4597a3e3d9e162770693",
+        "output": "{\"task_name\":\"/root/bt3_blind\"}",
+        "internal_chat_message_metadata_passthrough": {
+          "turn_id": "01a14b7b-a0d9-76a1-b50b-1656f7dd6720",
+          "create_time": 1792271014.1029692
+        }
+      },
+      "metadata": {
+        "client_authored": false,
+        "fallback_token_limit_override": 12000
+      }
+    }
+  ],
+  "note": "Actual own-session tool events; no transport decryption attempted."
+}

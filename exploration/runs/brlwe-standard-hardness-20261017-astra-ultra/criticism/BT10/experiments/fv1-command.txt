@@ -1,0 +1,3 @@
+/usr/bin/time -v -o fv1-resource.txt timeout --signal=TERM --kill-after=2s 60s python3 fv1.py > fv1-stdout.txt 2> fv1-stderr.txt
+
+Coordinator reservation: BT10-FV1, one foreground light job, 60-second wall cap, 512 MiB address-space cap enforced in fv1.py. No external numerical packages, installations, child agents, or separate jobs. Working directory is this experiments directory. Input parameters and exact examples are embedded in fv1.py.

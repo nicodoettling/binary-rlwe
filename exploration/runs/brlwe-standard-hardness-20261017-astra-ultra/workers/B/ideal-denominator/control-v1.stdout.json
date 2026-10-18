@@ -1,0 +1,212 @@
+{
+  "experiment": "B-IDEN-1",
+  "status": "all exact assertions passed",
+  "input": {
+    "n": 4,
+    "p": 41,
+    "q": 17,
+    "roots": [
+      3,
+      14,
+      27,
+      38
+    ],
+    "probe_box": [
+      -1,
+      0,
+      1
+    ],
+    "randomness": "none"
+  },
+  "identity_cases": 160,
+  "denominator_probes": 12960,
+  "comparators_enumerated": 334084,
+  "reports": [
+    {
+      "root": 3,
+      "basis_rows": [
+        [
+          41,
+          0,
+          0,
+          0
+        ],
+        [
+          -3,
+          1,
+          0,
+          0
+        ],
+        [
+          -9,
+          0,
+          1,
+          0
+        ],
+        [
+          -27,
+          0,
+          0,
+          1
+        ]
+      ],
+      "inverse_generator": [
+        "27/41",
+        "9/41",
+        "3/41",
+        "1/41"
+      ],
+      "nonzero_cosets_checked": 40,
+      "binary_image_size": 16,
+      "uniform_image_size": 83521,
+      "box_counts": {
+        "0": 1,
+        "1": 81,
+        "2": 625,
+        "4": 6561,
+        "8": 83521
+      }
+    },
+    {
+      "root": 14,
+      "basis_rows": [
+        [
+          41,
+          0,
+          0,
+          0
+        ],
+        [
+          -14,
+          1,
+          0,
+          0
+        ],
+        [
+          -32,
+          0,
+          1,
+          0
+        ],
+        [
+          -38,
+          0,
+          0,
+          1
+        ]
+      ],
+      "inverse_generator": [
+        "38/41",
+        "32/41",
+        "14/41",
+        "1/41"
+      ],
+      "nonzero_cosets_checked": 40,
+      "binary_image_size": 16,
+      "uniform_image_size": 83521,
+      "box_counts": {
+        "0": 1,
+        "1": 81,
+        "2": 625,
+        "4": 6561,
+        "8": 83521
+      }
+    },
+    {
+      "root": 27,
+      "basis_rows": [
+        [
+          41,
+          0,
+          0,
+          0
+        ],
+        [
+          -27,
+          1,
+          0,
+          0
+        ],
+        [
+          -32,
+          0,
+          1,
+          0
+        ],
+        [
+          -3,
+          0,
+          0,
+          1
+        ]
+      ],
+      "inverse_generator": [
+        "3/41",
+        "32/41",
+        "27/41",
+        "1/41"
+      ],
+      "nonzero_cosets_checked": 40,
+      "binary_image_size": 16,
+      "uniform_image_size": 83521,
+      "box_counts": {
+        "0": 1,
+        "1": 81,
+        "2": 625,
+        "4": 6561,
+        "8": 83521
+      }
+    },
+    {
+      "root": 38,
+      "basis_rows": [
+        [
+          41,
+          0,
+          0,
+          0
+        ],
+        [
+          -38,
+          1,
+          0,
+          0
+        ],
+        [
+          -9,
+          0,
+          1,
+          0
+        ],
+        [
+          -14,
+          0,
+          0,
+          1
+        ]
+      ],
+      "inverse_generator": [
+        "14/41",
+        "9/41",
+        "38/41",
+        "1/41"
+      ],
+      "nonzero_cosets_checked": 40,
+      "binary_image_size": 16,
+      "uniform_image_size": 83521,
+      "box_counts": {
+        "0": 1,
+        "1": 81,
+        "2": 625,
+        "4": 6561,
+        "8": 83521
+      }
+    }
+  ],
+  "resources": {
+    "elapsed_monotonic_seconds": 1.2531652550096624,
+    "maxrss_KiB": 25036,
+    "address_space_limit_bytes": 268435456,
+    "cpu_limit_seconds": 30
+  }
+}

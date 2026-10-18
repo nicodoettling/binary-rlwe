@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261018T000956.089656Z-59a426db",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-18T00:09:56.089678+00:00",
+  "reason": "Exact finite parameter witness and root quantum proof pass; independent reviews active; foundation unresolved",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 42757,
+      "sha256": "473faa7abf08bfd76ad8fec33a36f01789089f59dee809e0f3ab38276b5a4844"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 2331,
+      "sha256": "f2e319984dfe61333e77baa0fcc92974b7586a427bea9b506109fc2bc34a8031"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 2325,
+      "sha256": "e817dc9cce4b423e186589fd1512944da6d3baa27583e38a482a19da61923154"
+    },
+    {
+      "path": "final.md",
+      "bytes": 16121,
+      "sha256": "d9c4afb20d8a36fb64f4fc3bb9ca9d475268b5fb94f5e393204b199bd5e49fb1"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 7613,
+      "sha256": "7f28016885c21b697f4f3a1672ee7916d0f6e4ee0e5af12a99b14b85b30ab9eb"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

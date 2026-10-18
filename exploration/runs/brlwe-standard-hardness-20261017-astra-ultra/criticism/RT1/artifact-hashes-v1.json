@@ -1,0 +1,58 @@
+{
+  "frozen_at": "2026-10-18T01:11:41.641961+00:00",
+  "reviewer": "RT1 independent NONAUTHOR for root frozen v1; AUTHOR only for two separate provisional lemmas",
+  "acceptance_authority": false,
+  "blind_reports_read": false,
+  "original_discovery_stop": "2026-10-18T01:36:14.695009Z",
+  "original_worker_stop": "2026-10-18T01:56:14.695009Z",
+  "experiment_reservation": "RT1-MOMENT-FV1",
+  "experiment_executions": 1,
+  "experiment_release_sent": true,
+  "author_input_freeze_sha256": "3fe7d7cb505a70ea825679971cbd172fd6b21ad163f50fe9cab3518a523571d9",
+  "files": {
+    "non-author-review-v1.md": {
+      "sha256": "87c605e9b097f195e3813feaa9d31ff1f2498b0b42d5e4153c55cd470ae92638",
+      "bytes": 16773
+    },
+    "preserved-failures-v1.md": {
+      "sha256": "1d628ba7655d77cf13677e57a28f48895d5bd0f68ff9c5c7aaf3562f764e2c3b",
+      "bytes": 3188
+    },
+    "moment-improvement-v1.md": {
+      "sha256": "52c71c77591837a31c8e7d0c849d4c782e3237e1b464bb1eaf6d12dc8795df00",
+      "bytes": 6835
+    },
+    "weighted-trace-bridge-v1.md": {
+      "sha256": "6e2eb437a3588ce19b48e9d2cada77785f671133c7a977ed6e0ceebf22982857",
+      "bytes": 5859
+    },
+    "checkpoint-v1.md": {
+      "sha256": "735d5664393c03658960964706bf3a644d6ae45e50bae54d8d5f92b4981ac6a3",
+      "bytes": 2612
+    },
+    "finite-control-v1.py": {
+      "sha256": "8587245bd106d331d6a626ab5896872b2648e100305efc47cb58dcae36c76167",
+      "bytes": 3809
+    },
+    "finite-input-v1.json": {
+      "sha256": "fc66e9617c668281e0a720076b0b1bbf55a1993d1fda5c604f5d9a021cf0eb0e",
+      "bytes": 410
+    },
+    "finite-command-v1.txt": {
+      "sha256": "852a1415a6813c8d57874ba78a64cf1a766efb281854405f87075af8442dd971",
+      "bytes": 267
+    },
+    "finite-stdout-v1.json": {
+      "sha256": "19efdb0a45e366fc64eea6956f7788c7c417cc30b7b15730ae8d054768fbc041",
+      "bytes": 4704
+    },
+    "finite-stderr-v1.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "finite-resources-v1.txt": {
+      "sha256": "27738bbc9c2774b3ae2b5a151a38655b0c9296ba7b47b4bf3cb3e0aa2c70de6b",
+      "bytes": 759
+    }
+  }
+}

@@ -1,0 +1,17 @@
+# C theorem7/spec1/proof8: coordinator source and finite-complexity audit v1
+
+Status: NOT ACCEPTED. This independent source/parameter audit does not substitute for A full proof or BT8 blind review. The final acceptance threshold for a general computable d0 is currently under exact finite-specification scrutiny. No old version inherits acceptance.
+
+Primary access: direct PRS PDF access failed earlier; targeted exact-author-URL indexed primary text succeeded for printed pages12 and14 on2026-10-17. URL https://web.eecs.umich.edu/~cpeikert/pubs/rlwe-anyring.pdf. The source supplies the weighted suffix maximum and log-uniform coordinate guided walk. Its comparison requires current radius no greater than the initial center radius and both tested radii above its cutoff. Its polynomial real-oracle statement does not itself specify the finite scalar samplers in this run. Current finite counts are independently conservative new bounds, not published numerical constants. BRST is supplemental; no unexamined exact-real implementation theorem is imported.
+
+Independent parameter checks on the current full proof:
+
+* The corrected reference radius is nonincreasing from its actual initial value |z*|/3, not merely bounded by1. Thus the current shifted profile starts no later than its guaranteed initial excursion; this supplies the OCP maximizer premise. Trial points need not inherit that excursion, because the NO comparison uses monotonicity and YES uses the current point's excursion.
+* The proxy uses the same coefficient-rounding kernel as the spherical finite GP and uniform comparator. Haar rounds to exactly uniform F because hZ^n contains L. Neither the multiplier nor latent ideal basis is appended to A's input.
+* The dual minimum is bounded by the field norm at EVERY nonzero dual vector. The shell estimate controls the whole Fourier series. It applies only to the continuous proxy; the preserved rational-displacement physical counterexample is compatible with fixed epsilon0 approximation.
+* Kappa and Q_* are chosen before epsilon0 and v0. h0=v0d0 is fixed independently, eliminating an otherwise circular numerical budget. Full scalar encodings/evaluation costs enter complexity, and wrong-orientation A calls have the same finite loop caps.
+* Every new physical sample has one global counter across coordinates and orientations. Fixed intrinsic theta discrepancies cost2kQ_*epsilon0/(1-epsilon0), while numerical tau_c is summable. These are different charges; the fixed advantage of the outer GP distinguisher is not multiplied by Q_*.
+* UniformCap fails with probability at most2^-R per proposal. Scalar's finite proposal cap, approximate normalized weights and tail are separate losses. Its integer output, including fallback, preserves exact cancellation moduloL. CDF inversion is a position coupling; GridGaussian is an actual finite-output TV coupling. Confusing those would be false.
+* Grid support may be exponentially large in numerical value but only its binary length is enumerated by search. Constant-bit Up avoids exact transcendental ceilings. The final residual comparison must obey the same finite arithmetic discipline; a rational threshold or explicit bounded sign rule is still required if d0 is nonrational.
+
+No experiment certifies the asymptotic theorem or its hardness. Existing CP1 control and finite C profile/transcript controls test named logical failure modes; they do not execute these enormous conservative loops. Artifact hash consistency is a separate gate.

@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "overall": "No computational foundation established; source hardness OPEN",
+  "claims": [
+    {
+      "id": "B-LSW-v2",
+      "status": "PROVISIONAL",
+      "statement": "A new proof retaining both shifted normalizers gives the public semi-adaptive map planted loss at most 2epsilon/(1-epsilon)+precision under the explicit smoothing parameters, with exact actual uniform comparator; the dense noise failure remains.",
+      "evidence": ["semiadaptive-hints-map-v2.md"],
+      "limits": "Independent audit pending; original imported exact identity remains rejected. No useful source hardness established."
+    },
+    {
+      "id": "B-LSW-v1",
+      "status": "REQUIRES_CORRECTION",
+      "statement": "The explicit semi-adaptive reverse-Gaussian public map has exact iid uniform comparator; its claimed planted loss requires an extra shifted-normalizer charge after D's counterexample to the imported exact identity. The dense noise obstruction is unchanged.",
+      "evidence": ["semiadaptive-hints-map-v1.md", "semiadaptive-hints-audit-status-v1.md"],
+      "limits": "Original planted loss withdrawn; separately versioned normalization repair and independent review required."
+    },
+    {
+      "id": "B-PRS-v1",
+      "status": "PROVISIONAL",
+      "statement": "PRS Cor7.3 removes the polynomial modulus restriction while retaining the noise-ratio contribution to the worst-case approximation factor.",
+      "evidence": ["large-modulus-primary-v1.md"],
+      "limits": "Primary indexed statement checked; no full imported proof audit or hardness claim for an exponential factor."
+    },
+    {
+      "id": "B-WLL-v1",
+      "status": "PROVISIONAL",
+      "statement": "The located WLL2024 exact-leakage interface exposes one scalar value, not k separately exposed ring-valued hints; its guessing step loses q.",
+      "evidence": ["exact-linear-hints-scope-v1.md"],
+      "limits": "Scope check only; no impossibility for other exact-leakage results."
+    },
+    {
+      "id": "B-ELIM-v1",
+      "status": "PROVISIONAL",
+      "statement": "Dense public pivot elimination has exact uniform comparator and broad correlated planted masks; at tau=n\u00b2 its output is o(1)-close to uniform and 1-o(1) from SC-v1 in the specified family.",
+      "evidence": [
+        "first-test-v1.md",
+        "syndrome_controls_v1.stdout.json"
+      ],
+      "limits": "Named map only; no general reduction impossibility."
+    },
+    {
+      "id": "B-SYN-END-v1",
+      "status": "PROVISIONAL",
+      "statement": "Given a public short partial-syndrome routine using multipliers only, designated response coefficients one preserve full iid uniform comparator and fresh ideal pads give the stated full planted source law.",
+      "evidence": [
+        "short-syndrome-interface-v1.md",
+        "syndrome_controls_v1.stdout.json"
+      ],
+      "limits": "Efficient Syn is OPEN; no new source assumption is asserted."
+    },
+    {
+      "id": "B-SYN-ALG",
+      "status": "OPEN",
+      "statement": "Construct efficient short preimages for polynomially many external ordinary-RLWE multipliers modulo a small ideal quotient in a compatible source/target regime.",
+      "evidence": [
+        "short-syndrome-interface-v1.md",
+        "programming-failures-v1.md"
+      ],
+      "limits": "Forward regularity, new-matrix trapdoors and dense elimination do not supply the algorithm."
+    },
+    {
+      "id": "B-PROGRAM-v1",
+      "status": "PROVISIONAL",
+      "statement": "The named forward-target and gadget-response programming attempts have the explicit extra error or comparator collapse recorded.",
+      "evidence": [
+        "programming-failures-v1.md"
+      ],
+      "limits": "No general barrier, hardness consequence or priority claim."
+    },
+    {
+      "id": "B-PRIMARY-v1",
+      "status": "PROVISIONAL",
+      "statement": "LPR2013 Theorem2.22 and Lemma2.23 give a compatible quantum-established rounded-continuous ordinary input regime for the dense elimination failure, with primal coefficient width sqrt(n) times dual canonical width.",
+      "evidence": [
+        "first-test-v1.md"
+      ],
+      "limits": "Imported theorem hypotheses checked; no classical worst-case theorem or exact-D_tau equivalence asserted."
+    },
+    {
+      "id": "B-HINT-v1",
+      "status": "PROVISIONAL",
+      "statement": "BKMS2022 published hints are prior-fixed and noisy; the named adaptive dense-error cancellation is outside the interface, and dense coefficients force large hint noise under its sufficient theorem.",
+      "evidence": [
+        "extended-hints-check-v1.md"
+      ],
+      "limits": "No general extended-RLWE impossibility; no extra assumption imported."
+    },
+    {
+      "id": "B-REJECT-v1",
+      "status": "PROVISIONAL",
+      "statement": "A response-independent list of M preimages covers at most M/q^(n-d) of a uniform external syndrome; J target samples gain at most J by union bound.",
+      "evidence": [
+        "rejection-syndrome-v1.md"
+      ],
+      "limits": "Does not bound adaptive algebraic preimage algorithms."
+    }
+  ]
+}

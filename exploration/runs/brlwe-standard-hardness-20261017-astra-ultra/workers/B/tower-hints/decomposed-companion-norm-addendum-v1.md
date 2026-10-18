@@ -1,0 +1,3 @@
+# Explicit product norm in the optional nilpotent construction
+
+This clarifies, without changing, decomposed-companion-test-v1.md Section2. Its algebra N=H(M-G), GH=I and(M-G)H=0 gives N²=0 and inverse I-N moduloq. A small norm of H ALONE does not imply a small norm of N, because M-G may have dense coefficients of scaleq. The algorithmic requirement is the actual integer norm of the chosen N lift (and resulting inverse), in addition to all congruences. No useful bound on N is supplied by the packet. Root was explicitly informed of this qualification with the packet hash. All missing sampler and source-hardness boundaries remain unchanged.

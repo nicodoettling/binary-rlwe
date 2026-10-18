@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261017T212712.131387Z-fceb71aa",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-17T21:27:12.131409+00:00",
+  "reason": "BGPv2 scoped acceptance with exactceil recheck and separate artifact gate",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 21280,
+      "sha256": "a57e8e44f8b55dc3403111d3c7c41c30d86fe8639296f650d302e54e6112427c"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 3695,
+      "sha256": "f6429ff48473ac3bdedc12d40e966660afd604e22abb6d9926d06831a3975047"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 2301,
+      "sha256": "d9735591b3ad539e6ffe1794879d4b1b2f60c74856afaa97dd700834af03ad2d"
+    },
+    {
+      "path": "final.md",
+      "bytes": 9106,
+      "sha256": "f0ff9c95e5a174bff2c895ebcb81ff773fd6d704f853bdb4e6082af9cf697764"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 12579,
+      "sha256": "c52a57da089551210ac76071c64b064500ec3ac19ce011099e5456d9faab87bf"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-10-17T23:11:53.461755+00:00",
+  "role": "F independent NONBLIND reviewer of existing A/B/C chain; author of separate new coherent adapter",
+  "scope": "same supplied integral J only",
+  "verdict": "classical composition supported; new coherent adapter unaccepted; fully explicit finite primary quantum gate OPEN; standard-family foundation OPEN",
+  "experiments": "none; finite regressions are unexecuted hand calculations",
+  "input_sha256": {
+    "workers/F/finite-quantum-integration/assignment-v1.md": "7293c99118c1ac50c4ccd15c3404be9975cabbc9169e62a85b43c4b5c9a15dba",
+    "workers/A/fractional-composition/theorem-only-v1.md": "5c471744bb04c8149b0d539eaa26e1544d0ba8097b0d68ea019cabb74461b485",
+    "workers/A/fractional-composition/proof-v1.md": "f4c889a64173135b2e29cebeb8190f352b1d4de6ada77f37a3f7c4f3ec797af2",
+    "coordinator/a-frac-definitions-v1.md": "29ed77d3b83a8495396b10b4bef7933e36039c397a5616aa46c77b363017515b",
+    "workers/A/fractional-composition/parameter-and-finite-bridge-v1.md": "b7d7e0d89e84fb7ed0ea164cdec10055db0e5c3dde1309a44f2359b288132b0d",
+    "workers/A/fractional-composition/polynomial-modulus-existence-v1.md": "e96f46d05a36ddae1c9662c4befe0637bf50cc09d58865a6a581cae4162fe272",
+    "workers/B/ideal-denominator/gaussian-periodic-theorem-v2.md": "be7f05d67fc8f2b24fc6b93321c95005f4d7f6e24bab513b2cbaf35c82aeaad7",
+    "workers/B/ideal-denominator/gaussian-periodic-proof-v2.md": "207a9af38eb570e2a140d88008c0f4bc363f7d3c8a72049c53bbab85798910b4",
+    "workers/B/ideal-denominator/gaussian-periodic-v2-ceiling-addendum-v1.md": "17044d83881bee69c3182ed0cdaaccf91687d4a1e173618e837350fe1ebb2e47",
+    "workers/B/ideal-denominator/gaussian-periodic-bounded-wrapper-v1.md": "335f4a176331df262eda5c775a7d565e3c47fee6413d714957741c81b6087521",
+    "workers/B/ideal-denominator/fractional-bounded-composition-v1.md": "6ff55f5926ae639deb30985f009a3898a2da05e1accab4682e022c258122f225",
+    "criticism/RF2/b-bounded-composition-review-v1.md": "2d54a59538816e9a3503a8a680e00b451c5ac448dbccb6c1394c13f70753f29b",
+    "coordinator/c8-repair/multiplier-ohcp-theorem-v8.md": "857a62e9f4a937a80e5cb3b115c8b132abf122c16665d29b39dcb62bde86fe0a",
+    "coordinator/c8-repair/multiplier-ohcp-algorithm-v2.md": "4361c90a7fa7cfe25d0ab3e8cd5c5333fb474cf1fb764375e10c29fca5102735",
+    "coordinator/c8-repair/multiplier-ohcp-proof-v9.md": "e9b3023715a3d4ec90c474aba6945223aa376248b1fa216134964a5643fb4c5f",
+    "workers/C/periodic-hardness/standard-family-boundary-v1.md": "03807646de14e5d05aafa63aa4149d0d8fadd70a9a692959121f65056294ee12",
+    "workers/C/periodic-hardness/primary-endpoints-v1.md": "5090ff5be0e17ccb4796e2661f9a31b555ad863b9d861b73c7481f81e43a90cc",
+    "coordinator/c8-source-parameter-gate-v1.md": "79edbe42acacd1969bcd2143b69b28998b0198991fb3e686acf55eb60677affd",
+    "criticism/BT13/report-v1.md": "155881134c294c496c7e5866138f9740490b95e8c90e1518e625551b9ad20aae",
+    "claims.json": "428f4f18f25eb63db93d8a6f99f97902af1adb92bcc14864ea1e6ea6a5d14e3f",
+    "standard3-launcher-run.json": "cf1c5e10751214dc7f5f70cdd7266ed02e47c2c7dcba83276ef03e5646f4b189",
+    "standard3.log.brlwe-standard-hardness-20261017-standard3.cap-status.json": "d5b6d8fac218d0fdbe55678f297b96d05a7bd662eb4789d173847236fe59ccc9"
+  },
+  "output_sha256": {
+    "integration-ledger-v1.md": "950419c62ea716ae699edeb31a09d6ea13d1f81fc09c02e60f75876c1e619988",
+    "primary-source-check-v1.md": "4305d9a180ab76d62a50716aeec236fbcf3fb91e3e402abf2f73a210f72a2b27",
+    "coherent-adapter-theorem-only-v1.md": "66d889b189b4193d0e07be3e9baa0b3ce78803ba824e9aedea7f622e9cada3cc",
+    "coherent-adapter-proof-v1.md": "b7746c86d76a664899e112a31350551498315ee2f867386294fba6f0c1e1f4f7",
+    "partial-v1.md": "e1f338facc15892a8a537ca8be9767dc32b8c63c40b2bce66ba5c36654222fcf"
+  },
+  "primary_sources": [
+    {
+      "url": "https://sites.cc.gatech.edu/fac/cpeikert/pubs/ideal-lwe.pdf",
+      "version": "2013-06-25",
+      "pages": "22-23, Lemma4.4; 15, definitions"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2005.09595",
+      "version": "v2, identifier2020-10-24, cover2020-10-27",
+      "pages": "8 and11, Definitions2.14-2.15/Lemma3.4"
+    },
+    {
+      "url": "https://cims.nyu.edu/~regev/papers/qcrypto.pdf",
+      "version": "2009-05-02",
+      "pages": "24-28, Lemmas3.12/3.14 and Claim3.13"
+    }
+  ],
+  "source_access": "Direct web PDF text retrieved; screenshots unavailable; no binary PDF hash claimed",
+  "review_gates": {
+    "existing_classical_composition": "F favorable nonblind review only; coordinator owns status",
+    "F-QCOH-v1": "PROVISIONAL_UNACCEPTED; nonauthor/source/freshblind gates pending",
+    "finite_quantum_primary": "OPEN exact obligation in integration-ledger Section7",
+    "standard_family": "OPEN"
+  },
+  "effective_deadlines": {
+    "original_started_at": "2026-10-17T20:09:14.894509+00:00",
+    "wrapup_at": "2026-10-18T01:36:14.695009+00:00",
+    "worker_stop_at": "2026-10-18T01:56:14.695009+00:00",
+    "graceful_shutdown_at": "2026-10-18T02:05:09.695009+00:00",
+    "hard_deadline_at": "2026-10-18T02:06:14.695009+00:00"
+  }
+}

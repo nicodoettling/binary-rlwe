@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-18T01:37:45.244491+00:00",
+  "cap_state": "running",
+  "cgroup_file": "/sys/fs/cgroup/user.slice/user-1007.slice/user@1007.service/app.slice/codex-cap-brlwe-standard-hardness-20261017-standar-fd6a991cdd92.service/cgroup.procs",
+  "observed_processes": [
+    {
+      "pid": 1,
+      "comm": "codex",
+      "ppid": 0,
+      "state": "S (sleeping)",
+      "is_this_inventory_process": false
+    },
+    {
+      "pid": 2,
+      "comm": "bash",
+      "ppid": 1,
+      "state": "S (sleeping)",
+      "is_this_inventory_process": false
+    },
+    {
+      "pid": 3,
+      "comm": "python3",
+      "ppid": 2,
+      "state": "R (running)",
+      "is_this_inventory_process": true
+    }
+  ],
+  "scope": "Read-only process names and parent/state evidence; no killing/service action. Persistent launcher/runtime processes are not experiments. Descendant cleanup not claimed.",
+  "visibility_limitation": "Sandbox/namespaced process observation only; not a complete host or service-descendant inventory. Does not establish launcher exit or descendant cleanup."
+}

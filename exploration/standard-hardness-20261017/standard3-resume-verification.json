@@ -1,0 +1,117 @@
+{
+  "verified_at": "2026-10-17T22:39:53.641656+00:00",
+  "status": "HEALTHY_THREE_RUNNING_VERIFIED",
+  "actual_codex_pid": 361359,
+  "actual_codex_argv": [
+    "/home/nico/.codex/packages/standalone/releases/0.160.0-x86_64-unknown-linux-musl/bin/codex",
+    "-c",
+    "service_tier=\"default\"",
+    "--search",
+    "exec",
+    "--sandbox",
+    "workspace-write",
+    "-c",
+    "approval_policy=\"never\"",
+    "--color",
+    "never",
+    "-C",
+    "/home/nico/projects/research_projects/binaryRLWE",
+    "--model",
+    "gpt-6-astra",
+    "-c",
+    "model_reasoning_effort=\"ultra\"",
+    "-c",
+    "agents.enabled=true",
+    "-c",
+    "agents.max_concurrent_threads_per_session=2",
+    "resume",
+    "01a14b7b-9e45-7b70-b46d-0bf70e17f2e2",
+    "-"
+  ],
+  "actual_codex_cgroup": "0::/user.slice/user-1007.slice/user@1007.service/app.slice/codex-cap-brlwe-standard-hardness-20261017-standar-fd6a991cdd92.service\n",
+  "observed": {
+    "approval": "never",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "ultra",
+    "sandbox": "workspace-write [workdir, /tmp, $TMPDIR]",
+    "session_id": "01a14b7b-9e45-7b70-b46d-0bf70e17f2e2",
+    "workdir": "/home/nico/projects/research_projects/binaryRLWE"
+  },
+  "configured_total_agents": 3,
+  "configured_spawned_ceiling": 2,
+  "service_tier_config_verified": "default",
+  "backend_billing_tier_not_observed": true,
+  "wrapper_sha256": "cd440cc8f5af684c49396bf0b2a61db354bb40e16e45a97d219d4612f9072976",
+  "same_goal_thread": "01a14b7b-9e45-7b70-b46d-0bf70e17f2e2",
+  "status_stdout": "HEALTHY\nCap phase:        running\nWorker state:     running\nPermission:       sandbox-only\nAgents requested: 3 total (coordinator + 2 spawned)\nConfigured cap:   2 spawned threads\nAgent key support: unverified; --config capability checked only\nEffective slots:  unverified by helper; inspect coordinator/runtime evidence\nTmux session:     brlwe-standard-hardness-20261017-standard3 (True)\nService state:    active/running\nContainment live: True; cgroup populated: True\nCodex session ID: 01a14b7b-9e45-7b70-b46d-0bf70e17f2e2\nObserved workdir: /home/nico/projects/research_projects/binaryRLWE\nObserved model: gpt-6-astra\nObserved approval: never\nObserved sandbox: workspace-write [workdir, /tmp, $TMPDIR]\nObserved reasoning effort: ultra\nHeartbeat age:    0.8s\nCap started_at: 2026-10-17T22:39:22.695009+00:00\nCap wrapup_at: 2026-10-18T01:36:14.695009+00:00\nCap graceful_shutdown_at: 2026-10-18T02:05:09.695009+00:00\nCap scheduled_kill_at: 2026-10-18T02:06:09.695009+00:00\nCap hard_deadline_at: 2026-10-18T02:06:14.695009+00:00\nCap service: codex-cap-brlwe-standard-hardness-20261017-standar-fd6a991cdd92.service\nCap cgroup: /user.slice/user-1007.slice/user@1007.service/app.slice/codex-cap-brlwe-standard-hardness-20261017-standar-fd6a991cdd92.service\nNative goal state was not changed; process status is not goal certification.\n",
+  "service_properties": "Restart=no\nTimeoutStopUSec=1min\nRuntimeMaxUSec=3h 25min 47s\nKillMode=control-group\nSendSIGKILL=yes\nActiveState=active\nSubState=running\n",
+  "effective_deadlines": {
+    "started_at": "2026-10-17T22:39:22.695009+00:00",
+    "wrapup_at": "2026-10-18T01:36:14.695009+00:00",
+    "graceful_shutdown_at": "2026-10-18T02:05:09.695009+00:00",
+    "hard_deadline_at": "2026-10-18T02:06:14.695009+00:00"
+  },
+  "runtime_advertised_total_slots": 3,
+  "coordinator_acknowledged": true,
+  "native_goal_status": "active",
+  "collaboration_events": [
+    {
+      "at": "2026-10-17T22:39:42.613Z",
+      "name": "list_agents",
+      "call_id": "call_a155a30372a74dbbb2630683a835dcf2",
+      "returned_at": "2026-10-17T22:39:43.194Z",
+      "output": "{\"agents\":[{\"agent_name\":\"/root\",\"agent_status\":\"running\"}]}"
+    },
+    {
+      "at": "2026-10-17T22:42:07.692Z",
+      "name": "spawn_agent",
+      "call_id": "call_92cddb9daf9748b2816bb4f552bbed3f",
+      "args": {
+        "task_name": "bt13_blind",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "returned_at": "2026-10-17T22:42:07.773Z",
+      "output": "{\"task_name\":\"/root/bt13_blind\"}"
+    },
+    {
+      "at": "2026-10-17T22:42:23.514Z",
+      "name": "spawn_agent",
+      "call_id": "call_691ea7dcc9594a09a223ca78a8ebd2ef",
+      "args": {
+        "task_name": "e_fractional",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "returned_at": "2026-10-17T22:42:23.601Z",
+      "output": "{\"task_name\":\"/root/e_fractional\"}"
+    },
+    {
+      "at": "2026-10-17T22:42:30.018Z",
+      "name": "list_agents",
+      "call_id": "call_a6433969ac8b44728e11040577e1fa00",
+      "returned_at": "2026-10-17T22:42:30.037Z",
+      "output": "{\"agents\":[{\"agent_name\":\"/root\",\"agent_status\":\"running\"},{\"agent_name\":\"/root/bt13_blind\",\"agent_status\":\"running\"},{\"agent_name\":\"/root/e_fractional\",\"agent_status\":\"running\"}]}"
+    }
+  ],
+  "latest_actual_agent_list": {
+    "agents": [
+      {
+        "agent_name": "/root",
+        "agent_status": "running"
+      },
+      {
+        "agent_name": "/root/bt13_blind",
+        "agent_status": "running"
+      },
+      {
+        "agent_name": "/root/e_fractional",
+        "agent_status": "running"
+      }
+    ]
+  },
+  "observed_running_count": 3,
+  "runtime_updated_at": "2026-10-17T22:42:36.461327+00:00"
+}

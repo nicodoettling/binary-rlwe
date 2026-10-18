@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261017T223005.543861Z-4e16da26",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-17T22:30:05.543885+00:00",
+  "reason": "Preserve independent fractional-scale counterexample before repair and current exact review gates",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 30719,
+      "sha256": "fa98a4adf0459b9213313f99c1ce5617af0bef9769ee67fb615f2a72b3c1378b"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 2701,
+      "sha256": "a9f4d9dad716d82a13cb39b1e4157ad6520742847220e2fe3b677e0202add64f"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 2119,
+      "sha256": "994753ea277cf713da5493fea9543d27c257b673d29e77367c84a9ef8f89f0c0"
+    },
+    {
+      "path": "final.md",
+      "bytes": 11654,
+      "sha256": "6c4cc88e9b5406974feff90bc321e3b6107721936d01c487a87145d1633f869d"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 14336,
+      "sha256": "a388de1496805d54a4e5d2d90ae2725b4fdcf5d9eebf5d76cb54805d08ce657f"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

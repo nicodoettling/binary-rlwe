@@ -1,0 +1,9 @@
+# Current progress
+
+Current 2026-10-17T22:46:30.997481+00:00: Standard3 actual root+BT13+E running verified, Astra ultra, configured default tier. LIVE standard3-launcher-run.json; discovery01:36:14.695009Z, workerstop01:56:14.695009Z,graceful02:05:09.695009Z,hard02:06:14.695009Z on2026-10-18. BT13 clean blind reconstruction ongoing. E independently checks fractional small-ball and pair-collision extraction. Root primary GPV reading yields a provisional known-short-witness sampler diagnostic; existence alone is not an executable witness. Computational foundation remains OPEN.
+
+Current 2026-10-17T22:41:07.810518+00:00. Computational foundation NOT achieved. Goal01a14b7b-9e45-7b70-b46d-0bf70e17f2e2 active unchanged, no token budget. LIVE manifest standard3-launcher-run.json. Root gpt-6-astra ultra; run-local configured service_tier="default", no billing telemetry. Runtime3 slots, user3 active total, <=2 workers; actual list root only after reconnect. All workers explicit Astra ultra fork-none, no grandchildren/goals/external sessions.
+
+Original start 2026-10-17T20:09:14.894509+00:00. Discovery stop 2026-10-18T01:36:14.695009+00:00; worker/experiment stop 2026-10-18T01:56:14.695009+00:00; graceful 2026-10-18T02:05:09.695009+00:00; hard 2026-10-18T02:06:14.695009+00:00. Read current goal, cap, claims and this resume before scheduling. No service/clock restart or automatic post-cap work. Current service stop is an authorized operational change, not a policy interruption or proof outcome.
+
+Foundation OPEN. Four accepted auxiliary results unchanged. BT11 interrupted without sealed report; clean replacement and independent fractional extraction review are next. New small-ball candidate passes exact finite control but is unaccepted. Full scope and next tests: resume.md.

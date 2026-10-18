@@ -1,0 +1,66 @@
+{
+  "created_at": "2026-10-17T20:34:38.712565+00:00",
+  "scope": "Separate structural artifact consistency only; not mathematical certification",
+  "claim": "D-THETA-v1 with canonical-infinity notation supplement",
+  "exact_hash_checks": [
+    {
+      "path": "workers/D/ideal-theta-theorem-only-v1.md",
+      "expected": "20af29016bcedca64b4cad0da407f543f1730ce32512aac9d98b568da8bbc5cd",
+      "actual": "20af29016bcedca64b4cad0da407f543f1730ce32512aac9d98b568da8bbc5cd",
+      "matches": true
+    },
+    {
+      "path": "workers/D/ideal-theta-proof-v1.md",
+      "expected": "c712507363792b3e4a525ab672800e5e01fdd7d489ac2a0d56dbb0bd8b0c0e60",
+      "actual": "c712507363792b3e4a525ab672800e5e01fdd7d489ac2a0d56dbb0bd8b0c0e60",
+      "matches": true
+    },
+    {
+      "path": "workers/A/stat-review/report-v1.md",
+      "expected": "56a2a8b2a2a561c2f7f600e920dc3743b7f90a6a0920d88b6d966e9404ae0037",
+      "actual": "56a2a8b2a2a561c2f7f600e920dc3743b7f90a6a0920d88b6d966e9404ae0037",
+      "matches": true
+    },
+    {
+      "path": "workers/A/stat-review/bt2-notation-recheck-v1.md",
+      "expected": "7f78e2fb67a583b6b6c82483795ceeedcee4bdc93d0e966edd54273cd397702a",
+      "actual": "7f78e2fb67a583b6b6c82483795ceeedcee4bdc93d0e966edd54273cd397702a",
+      "matches": true
+    },
+    {
+      "path": "criticism/RS0/report-v1.md",
+      "expected": "0dcebfeb9d53b0a49e1044a178df5cedb9d76abef52e96d8ce8012a5f6c722ba",
+      "actual": "0dcebfeb9d53b0a49e1044a178df5cedb9d76abef52e96d8ce8012a5f6c722ba",
+      "matches": true
+    },
+    {
+      "path": "criticism/BT2/report-v1.md",
+      "expected": "83a64152339806ad997c95b17cb9d089b734c0728099cc7deb26a23eaac97f26",
+      "actual": "83a64152339806ad997c95b17cb9d089b734c0728099cc7deb26a23eaac97f26",
+      "matches": true
+    },
+    {
+      "path": "criticism/BT2/input/theorem-only-v1.md",
+      "expected": "6eda9e0b34f25f54372b19bfcdbd2cdbb30b92a9643039d063b45de8d685eb54",
+      "actual": "6eda9e0b34f25f54372b19bfcdbd2cdbb30b92a9643039d063b45de8d685eb54",
+      "matches": true
+    },
+    {
+      "path": "criticism/BT2/input/definitions-v1.md",
+      "expected": "4ba9148908f11b77f3c3eefc9a74064344aa50ae6df1a8dcd987591ee38b02fd",
+      "actual": "4ba9148908f11b77f3c3eefc9a74064344aa50ae6df1a8dcd987591ee38b02fd",
+      "matches": true
+    }
+  ],
+  "blind_statement_difference": "Only the nonmathematical Status line removed; surrounding blank line preserved. Explicit norm supplement separately hashed.",
+  "regression_records": 51,
+  "missing_evidence_links": [],
+  "blind_freeze_before_substantive_disclosure": "Observed path/hash message before substantive final; receipt20:32:33.602086Z",
+  "review_bytes_match": true,
+  "prior_checker_failure": {
+    "observed": "AssertionError before any report written",
+    "cause": "Checker expected deletion of status line plus following blank line; exact input removed only status line",
+    "repair": "Direct diff inspected and checker now requires exact actual transformation; no mathematical artifact changed"
+  },
+  "mathematical_verdict": "Not supplied by artifact check"
+}

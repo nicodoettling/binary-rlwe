@@ -1,0 +1,17 @@
+Current reduction-direction graph, updated 2026-10-17T21:42:11.996639+00:00. An arrow below means GIVEN the left algorithm, CONSTRUCT the right algorithm. Computational foundation OPEN.
+
+| Given algorithm | Constructed algorithm | Endpoints, cost and loss | Status/boundary |
+|---|---|---|---|
+| Binary actual-secret Rec, success epsilon | Pointwise FG(J^-1,s) distinguisher | One Rec call, k source points; advantage>=epsilon-tail-D p_t^n-eta-2delta_wrap | A-FRAC-v1 accepted conditional analytic; D<=2^(rho n),rho<1 |
+| FG distinguisher delta | GP_P finite periodic Gaussian distinguisher | Same k; planted bridge TV Delta_B; exact uniform comparator; advantage>=delta-Delta_B | B-GP-v2 accepted expected-polynomial bridge; bounded wrapper adds2eta plus finite target-noise charges |
+| Pointwise GP_P distinguisher delta | BDD(qJ^-1,d0) | k samples per query; at mostQ_* calls; success>=1-(n/2)e^-kappa-zeta; full conditional simulation/coupling | C-OHCP-v6 provisional; full review causal completion and fresh blind pending |
+| BDD on qJ^-1 | Approximate quantum DGS on J | Coefficient width n q/(sqrt2 d0), TV<=delta_prim+2Q_D sqrt(eta) | Same J; no arbitrary-ideal family transfer |
+| Decomposed ring distinguisher | Standard RLWE distinguisher | Full-row affine fibers preserve BOTH responses; M=L²g inputs; rankbad rho<=n(q^(Lg)-1)mu_R^h; advantage>=delta-2rho-2precision | Provisional; same secret and errors; uniform remains uniform |
+| Canonical hinted distinguisher | Standard RLWE distinguisher | Compose full-row fibers, triangular key map, canonical resampled hints, Gaussian completion; both endpoint losses displayed in B standard-canonical-composition-v1 | Provisional uniform-secret standard edge, not binary/FG hardness |
+| Uniform-secret ring recovery with canonical metadata | Ring SIS solver | Quantum Fourier kernel; corrected CRT moments K1,K2 and conditional rank alpha0; success lower bound in ring-quantum-theorem-v1 | Provisional; binary secret loses Fourier orthogonality, filter postselection has exponentially small kernel mass |
+| Ring SIS solver under canonical law | Short nonzero vector in supplied ideal J | Natural J/qJ inclusion, explicit residual/trapdoor and private lift Q; success delta-Delta-beta_zero-beta_tail; norm<=gamma H | Provisional; basis floor and ideal family remain explicit |
+| Wide decomposed uniform-secret decision | Uniform-secret search | CRT hybrid, actual wrong-guess full-rank mask, Galois moves, amplification on disjoint blocks; nq guesses at polynomial-valueq | New B provisional; binary only yields selected input-dependent CRT coordinate so far |
+
+Missing goal edges: standard arbitrary-ideal input to eligible bounded-index J with useful controlled transfer; OR a standard RLWE solver obtained from the binary recovery/source distinguisher. Neither standard-looking syntax nor a source-to-source sampler establishes these edges. The accepted same-class count excludes only principal scaling; A now tests class-changing saturation and coupled constraints. D joint-quotient hints have changed public law unless hidden from Rec; short simultaneous preimage sampling remains open.
+
+Exact earlier graph/failed routes preserved in coordinator/narrative-history/2141-reduction-attempts.md. Accepted D-THETA and same-class count are scoped obstructions, not computational arrows. Rejected versions and all counterexamples remain preserved.

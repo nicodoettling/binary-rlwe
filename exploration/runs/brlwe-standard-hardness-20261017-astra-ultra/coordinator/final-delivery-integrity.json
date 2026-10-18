@@ -1,0 +1,45 @@
+{
+  "at": "2026-10-18T01:48:02.382245+00:00",
+  "not_proof_certification": true,
+  "files": [
+    {
+      "path": "final.md",
+      "sha256": "70edfa9e2f2add37ac246499669681786a0aa67896bc7e14a469623e9602884a"
+    },
+    {
+      "path": "resume.md",
+      "sha256": "a461e5d853a05c5b55265dd5cee4e5f46e4cdb9e1331e9bff50fd454512eb606"
+    },
+    {
+      "path": "claims.json",
+      "sha256": "f6a744b5015a7e055417fa5cea5b2b3257b07e4b5de3d1c50c9236f528352336"
+    },
+    {
+      "path": "reconciliation.md",
+      "sha256": "886cd416c3acc50b0464b208047fe4f23a3df85acb4ec45e776004a417e20ab5"
+    },
+    {
+      "path": "progress.md",
+      "sha256": "45650af32b8dbb365e0b177301ae56c313da44df59cf737d13e2acb373c95495"
+    },
+    {
+      "path": "agents.json",
+      "sha256": "ea09a3ce0b7d74f836fa3840a2c3027eef4bdf7445de775b541201b710439013"
+    },
+    {
+      "path": "regressions.json",
+      "sha256": "336b87bca0333d43f0e4f47234fae457c26c57c00a24b73c811749968535c1bd"
+    },
+    {
+      "path": "shutdown.json",
+      "sha256": "9bbcde1b76360c21221e7b1c2dcdf100e8e636b029caa945ccda139dcd7ef333"
+    },
+    {
+      "path": "coordinator-checkpoint.json",
+      "sha256": "ac1b4bb3c697a5ce2629d0afb32f80e20d0b831c0fdb058586baa778acdba242"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "artifact_checks": 212,
+  "all_structural_checks_pass": true
+}

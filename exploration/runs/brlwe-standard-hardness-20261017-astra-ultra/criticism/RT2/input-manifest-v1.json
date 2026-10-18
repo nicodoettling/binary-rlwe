@@ -1,0 +1,92 @@
+{
+  "frozen_at": "2026-10-18T01:17:46.003871+00:00",
+  "role": "NONAUTHOR full-proof/source/parameter/complexity reviewer",
+  "blind_outputs_read": false,
+  "files": [
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT2/assignment-v1.md",
+      "sha256": "a454135dc5d80628b4e94d949d086a188c5e224950447b89c56a4ce5a4900814",
+      "bytes": 2631
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/BT20/input/theorem-only-v1.md",
+      "sha256": "e0e35ca128eea4879bff7d6ddaa685116991077bf4cb83d0ee57f16e8b487b0b",
+      "bytes": 2924
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT1/weighted-trace-bridge-v1.md",
+      "sha256": "6e2eb437a3588ce19b48e9d2cada77785f671133c7a977ed6e0ceebf22982857",
+      "bytes": 5859
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT1/moment-improvement-v1.md",
+      "sha256": "52c71c77591837a31c8e7d0c849d4c782e3237e1b464bb1eaf6d12dc8795df00",
+      "bytes": 6835
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/tower-lift/product-transfer-v1.md",
+      "sha256": "2a6f71cee0699e9df2e3b39b27b243b9e2100b1d0ac56f576980a066cd2eb754",
+      "bytes": 6208
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT1/finite-control-v1.py",
+      "sha256": "8587245bd106d331d6a626ab5896872b2648e100305efc47cb58dcae36c76167",
+      "bytes": 3809
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT1/finite-input-v1.json",
+      "sha256": "fc66e9617c668281e0a720076b0b1bbf55a1993d1fda5c604f5d9a021cf0eb0e",
+      "bytes": 410
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT1/finite-stdout-v1.json",
+      "sha256": "19efdb0a45e366fc64eea6956f7788c7c417cc30b7b15730ae8d054768fbc041",
+      "bytes": 4704
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT1/finite-resources-v1.txt",
+      "sha256": "27738bbc9c2774b3ae2b5a151a38655b0c9296ba7b47b4bf3cb3e0aa2c70de6b",
+      "bytes": 759
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT1/finite-command-v1.txt",
+      "sha256": "852a1415a6813c8d57874ba78a64cf1a766efb281854405f87075af8442dd971",
+      "bytes": 267
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT1/preserved-failures-v1.md",
+      "sha256": "1d628ba7655d77cf13677e57a28f48895d5bd0f68ff9c5c7aaf3562f764e2c3b",
+      "bytes": 3188
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT1/author-input-freeze-v1.json",
+      "sha256": "3fe7d7cb505a70ea825679971cbd172fd6b21ad163f50fe9cab3518a523571d9",
+      "bytes": 980
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/SKILL.md",
+      "sha256": "9350ffeb5aebe0b126710786586f94ef5d990be35b8b9defc8004136dae40318",
+      "bytes": 4484
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/references/audit-protocol.md",
+      "sha256": "2d076ba631c340d71f6259757c6207dbe230872810e9bad3188b215f46d095f4",
+      "bytes": 8480
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/references/probability-regressions.md",
+      "sha256": "ad7eecf93ed02e5b2957243a9bbb2cac8e8eeeb991971f4d77d0818cd04a4fa4",
+      "bytes": 6814
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/standard3-launcher-run.json",
+      "sha256": "cf1c5e10751214dc7f5f70cdd7266ed02e47c2c7dcba83276ef03e5646f4b189",
+      "bytes": 4527
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/standard3.log.brlwe-standard-hardness-20261017-standard3.cap-status.json",
+      "sha256": "d5b6d8fac218d0fdbe55678f297b96d05a7bd662eb4789d173847236fe59ccc9",
+      "bytes": 3027
+    }
+  ]
+}

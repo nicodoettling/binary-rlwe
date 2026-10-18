@@ -1,0 +1,37 @@
+{
+  "time": "2026-10-17T20:48:19.269784+00:00",
+  "status": "PROVISIONAL",
+  "source_hardness": "OPEN",
+  "files": {
+    "first-test-v1.md": "2c4c475ce230cb075478bf6ee5d8d37d014e6f71d6ff30c6cdb3f31182cd708c",
+    "linear-trace-repair-v1.md": "8ce4f78e342bbe141a5744b08df24a40056eb40b1a75d7c5e19645315fd725b1",
+    "quadratic-recursion-and-samplers-v1.md": "0e3a472775f3e3a9e86242458781845a89e63209ea3e338e3cfd7cfe7852b1a0",
+    "conditioning-and-binary-packing-v1.md": "98f6c2f3e462f58ff449c01765543b95d925597c19ba3e9f710d77bf199db70a"
+  },
+  "new_claims": [
+    {
+      "id": "C-QUAD-REC",
+      "statement": "Repeated quadratic trace bounds reproduce product-width cost; conjugate outputs equal relative norm.",
+      "status": "PROVISIONAL"
+    },
+    {
+      "id": "C-QUAD-EXIST",
+      "statement": "Exact count of ideals containing coefficient-short vectors bounds conditional-family probability; constant factor unavailable for almost all intended lifted ideals.",
+      "status": "PROVISIONAL"
+    },
+    {
+      "id": "C-QUAD-GAUSS",
+      "statement": "Canonical smoothing at least sqrt(N log(2/eps)/pi), and bounded canonical Gaussian nonzero output probability exponentially small.",
+      "status": "PROVISIONAL"
+    },
+    {
+      "id": "C-LIFT-PACK",
+      "statement": "Direct binary digit packing preserves base-multiplier products but not full extension multiplier/response law; a field-retraction condition rules out the stated one-projection interface.",
+      "status": "PROVISIONAL"
+    }
+  ],
+  "experiments": [
+    "C-LIFT-1 released",
+    "C-QUAD-1 released"
+  ]
+}

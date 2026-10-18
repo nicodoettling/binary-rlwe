@@ -1,0 +1,26 @@
+HEALTHY
+Cap phase:        running
+Worker state:     running
+Permission:       sandbox-only
+Agents requested: 5 total (coordinator + 4 spawned)
+Configured cap:   4 spawned threads
+Agent key support: unverified; --config capability checked only
+Effective slots:  unverified by helper; inspect coordinator/runtime evidence
+Tmux session:     brlwe-standard-hardness-20261017-astra-ultra (True)
+Service state:    active/running
+Containment live: True; cgroup populated: True
+Codex session ID: 01a14b7b-9e45-7b70-b46d-0bf70e17f2e2
+Observed workdir: /home/nico/projects/research_projects/binaryRLWE
+Observed model: gpt-6-astra
+Observed approval: never
+Observed sandbox: workspace-write [workdir, /tmp, $TMPDIR]
+Observed reasoning effort: ultra
+Heartbeat age:    9.7s
+Cap started_at: 2026-10-17T20:09:14.894509+00:00
+Cap wrapup_at: 2026-10-18T01:39:14.894509+00:00
+Cap graceful_shutdown_at: 2026-10-18T02:08:09.894509+00:00
+Cap scheduled_kill_at: 2026-10-18T02:09:09.894509+00:00
+Cap hard_deadline_at: 2026-10-18T02:09:14.894509+00:00
+Cap service: codex-cap-brlwe-standard-hardness-20261017-astra-u-0d13c36f8a40.service
+Cap cgroup: /user.slice/user-1007.slice/user@1007.service/app.slice/codex-cap-brlwe-standard-hardness-20261017-astra-u-0d13c36f8a40.service
+Native goal state was not changed; process status is not goal certification.

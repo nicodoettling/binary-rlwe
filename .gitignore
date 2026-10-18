@@ -5,7 +5,7 @@ __pycache__/
 .DS_Store
 
 # Raw launcher transcripts; research artifacts and evidence snapshots are tracked.
-/exploration/runs/*/run.log
+/exploration/runs/*/*.log
 /exploration/incidents/*-client.log
 
 # Locally compiled experiment; retain its source and recorded results.

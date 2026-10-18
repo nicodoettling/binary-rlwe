@@ -1,0 +1,80 @@
+{
+  "verified_at": "2026-10-17T22:10:15.323889+00:00",
+  "status_returncode": 0,
+  "status_stdout": "HEALTHY\nCap phase:        running\nWorker state:     running\nPermission:       sandbox-only\nAgents requested: 2 total (coordinator + 1 spawned)\nConfigured cap:   1 spawned threads\nAgent key support: unverified; --config capability checked only\nEffective slots:  unverified by helper; inspect coordinator/runtime evidence\nTmux session:     brlwe-standard-hardness-20261017-throttle2 (True)\nService state:    active/running\nContainment live: True; cgroup populated: True\nCodex session ID: 01a14b7b-9e45-7b70-b46d-0bf70e17f2e2\nObserved workdir: /home/nico/projects/research_projects/binaryRLWE\nObserved model: gpt-6-astra\nObserved approval: never\nObserved sandbox: workspace-write [workdir, /tmp, $TMPDIR]\nObserved reasoning effort: ultra\nHeartbeat age:    8.8s\nCap started_at: 2026-10-17T22:08:21.421959+00:00\nCap wrapup_at: 2026-10-18T01:37:14.421959+00:00\nCap graceful_shutdown_at: 2026-10-18T02:06:09.421959+00:00\nCap scheduled_kill_at: 2026-10-18T02:07:09.421959+00:00\nCap hard_deadline_at: 2026-10-18T02:07:14.421959+00:00\nCap service: codex-cap-brlwe-standard-hardness-20261017-throttl-a1f12347731a.service\nCap cgroup: /user.slice/user-1007.slice/user@1007.service/app.slice/codex-cap-brlwe-standard-hardness-20261017-throttl-a1f12347731a.service\nNative goal state was not changed; process status is not goal certification.\n",
+  "status_stderr": "",
+  "services": {
+    "original": {
+      "service": "codex-cap-brlwe-standard-hardness-20261017-astra-u-0d13c36f8a40.service",
+      "returncode": 0,
+      "properties": {
+        "Restart": "no",
+        "TimeoutStopUSec": "1min",
+        "RuntimeMaxUSec": "5h 58min 55s",
+        "ControlGroup": "",
+        "KillMode": "control-group",
+        "SendSIGKILL": "yes",
+        "ActiveState": "failed",
+        "SubState": "failed"
+      },
+      "stderr": ""
+    },
+    "resumed": {
+      "service": "codex-cap-brlwe-standard-hardness-20261017-throttl-a1f12347731a.service",
+      "returncode": 0,
+      "properties": {
+        "Restart": "no",
+        "TimeoutStopUSec": "1min",
+        "RuntimeMaxUSec": "3h 57min 48s",
+        "ControlGroup": "/user.slice/user-1007.slice/user@1007.service/app.slice/codex-cap-brlwe-standard-hardness-20261017-throttl-a1f12347731a.service",
+        "KillMode": "control-group",
+        "SendSIGKILL": "yes",
+        "ActiveState": "active",
+        "SubState": "running"
+      },
+      "stderr": ""
+    }
+  },
+  "runtime_evidence": {
+    "recorded_at": "2026-10-17T22:09:29.190161+00:00",
+    "user_active_total_ceiling": 2,
+    "runtime_advertised_total_slots": 2,
+    "actual_list_response": {
+      "agents": [
+        {
+          "agent_name": "/root",
+          "agent_status": "running"
+        }
+      ]
+    },
+    "actual_interrupt_responses": [],
+    "reason_no_interrupt": "No inherited worker handle appeared in actual list; no extra live worker observed.",
+    "model_runtime_evidence": {
+      "rollout": "/home/nico/.codex/sessions/2026/10/17/rollout-2026-10-17T20-09-15-01a14b7b-9e45-7b70-b46d-0bf70e17f2e2.jsonl",
+      "turn_context_timestamp": "2026-10-17T22:08:23.208Z",
+      "model": "gpt-6-astra",
+      "effort": "ultra",
+      "turn_id": "01a14be8-acc0-7ec0-a37e-44f8744604e0"
+    },
+    "native_goal_receipt": "coordinator/throttle-goal-usage.json",
+    "effective_deadlines": {
+      "original_started_at": "2026-10-17T20:09:14.894509+00:00",
+      "wrapup_at": "2026-10-18T01:37:14.421959+00:00",
+      "worker_stop_at": "2026-10-18T01:57:14.421959+00:00",
+      "graceful_shutdown_at": "2026-10-18T02:06:09.421959+00:00",
+      "hard_deadline_at": "2026-10-18T02:07:14.421959+00:00",
+      "worker_stop_derivation": "Earlier of original01:59:14.894509 and resumed hard deadline minus10minutes."
+    },
+    "live_manifest": "throttle-resume-launcher-run.json",
+    "live_cap_status_file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/throttle-resume.log.brlwe-standard-hardness-20261017-throttle2.cap-status.json",
+    "quota_scope": "Raw native goal tokens are not account-wide weekly quota accounting. No token budget added."
+  },
+  "goal_status": "active",
+  "goal_thread": "01a14b7b-9e45-7b70-b46d-0bf70e17f2e2",
+  "evidence_sha256": {
+    "coordinator/throttle-runtime-verification.json": "052eff03764b524a3d96bfc1e52119347ce2eb312c38e3ea36a623cea8bc914e",
+    "coordinator/throttle-goal-usage.json": "e228527bc05fc93ee7d75b794db65b0c2e23936f82dbd6a5004ca75faf1d74a2",
+    "foreground-inputs/throttle-two-agents-ack.md": "03f3d3b6be2dd3df0f3c48ea2ba701f86d5eafced16a29f9f79908caa0975360"
+  },
+  "weekly_quota_saving_not_measured": true
+}

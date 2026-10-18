@@ -1,0 +1,17 @@
+{
+  "schema": "bt1-report-freeze-v1",
+  "frozen_at_utc": "2026-10-17T20:27:54.533245+00:00",
+  "report_path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/BT1/report-v1.md",
+  "report_sha256": "da3a6274c288ab8b04ab116b95f98557c055fbdb53c98d15c7d56498a2aae367",
+  "report_bytes": 28131,
+  "report_lines": 603,
+  "input_path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/BT1/input/theorem-only-v1.md",
+  "input_sha256": "6eda9e0b34f25f54372b19bfcdbd2cdbb30b92a9643039d063b45de8d685eb54",
+  "frozen": true,
+  "filesystem_mode": "0444",
+  "blind_status": "NON-BLIND: accidental external search-snippet exposure reported to coordinator",
+  "exposure_record": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/BT1/exposure-20261017T2024Z.md",
+  "substantive_result_disclosed_before_freeze": false,
+  "mathematical_experiments_run": false,
+  "project_proof_or_status_exposure": false
+}

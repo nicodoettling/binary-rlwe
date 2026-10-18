@@ -1,0 +1,20 @@
+{
+  "reservation": "C-QUAD-1",
+  "exit_code": 0,
+  "limits": {
+    "wall_seconds": 30,
+    "address_space_bytes": 268435456
+  },
+  "resources": {
+    "elapsed_seconds": 0.022273651033174247,
+    "maxrss_kib": 11264,
+    "address_space_limit_bytes": 268435456
+  },
+  "files": {
+    "quad-control-v1.py": "0cbfeeb1c74bb410eac7423d86d8b7ab3c127ff700221ebf6d337aaa833cc3a5",
+    "quad-control-v1.command.txt": "9ddbd032338e8fe52493a6b905c219f49055e231fed807f57716956dc0ee66cd",
+    "quad-control-v1.stdout.json": "898baa398333cfe54a3facc617818fbb2f5e5f45da7e2e24bf3a574f631991ed",
+    "quad-control-v1.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "result": "all assertions passed; reservation released; N8 finite family all has radius2 vectors, preserved as positive existence control, not contradicted by asymptotic bound"
+}

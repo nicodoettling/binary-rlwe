@@ -1,0 +1,49 @@
+{
+  "address_space_limit_bytes": 536870912,
+  "checks": 1636,
+  "max_rss_kib": 11264,
+  "parameter_results": [
+    {
+      "QH_bits": 501,
+      "T": 199794688000000,
+      "kappa": 32
+    },
+    {
+      "QH_bits": 505,
+      "T": 294395904000000,
+      "kappa": 64
+    },
+    {
+      "QH_bits": 512,
+      "T": 564600832000000,
+      "kappa": 128
+    },
+    {
+      "QH_bits": 523,
+      "T": 1517101056000000,
+      "kappa": 256
+    },
+    {
+      "QH_bits": 555,
+      "T": 29340278784000000,
+      "kappa": 1024
+    },
+    {
+      "QH_bits": 624,
+      "T": 16979328000000000000,
+      "kappa": 10000
+    }
+  ],
+  "quotient_example": {
+    "D": 5,
+    "J": "(2+i)",
+    "P": 3,
+    "n": 2,
+    "order": 180,
+    "q": 2
+  },
+  "scope": "Exact finite component tests only; no complete reduction simulation or Gaussian numerical integration.",
+  "status": "PASS",
+  "uniform_branch_cases": 27,
+  "wall_seconds": 0.025878095999360085
+}

@@ -1,0 +1,25 @@
+{
+  "recorded_at": "2026-10-17T20:59:18.476335+00:00",
+  "user_requested": true,
+  "delivery_method": "append pointer to resume checkpoint required on native continuations",
+  "delivery_status": "ACKNOWLEDGED_AND_ASSIGNED",
+  "resume_sha256_before_append": "e10cc31ba77f14f210717d746c068fe3eeabc5e0e3c25aaf74ba3c2dccb3de6d",
+  "resume_pointer_present_after_append": true,
+  "original_cap_unchanged": true,
+  "source_pdf": "/home/nico/projects/research_projects/binaryRLWE/literature/2026-2443.pdf",
+  "source_pdf_sha256": "cce6dc039dcecc0eaad5a17768f4cba81b8a6360100eb3a8c878896fc2d770e3",
+  "source_pages": 81,
+  "steering_file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/foreground-inputs/2026-2443-user-steering.md",
+  "acknowledgment_file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/foreground-inputs/2026-2443-ack.md",
+  "current_intake": "2026-2443-intake-v2.md",
+  "intake_v1_sha256": "2761693f2df7c26108b04fb50b68ca7f7d22b9954f21898e75105c36c492128b",
+  "intake_v2_sha256": "7908c82a05521064343228b52ccbcbdcd288f21d257df88fab44eec3cc807fc9",
+  "acknowledgment_observed_at": "2026-10-17T21:06:44.068897+00:00",
+  "acknowledgment_sha256": "bfddb2de4edd1037e3f97006996a7208f401ebf8ba4c9024a04a35b0d2973bcd",
+  "acknowledged_at_as_reported": "approximately 2026-10-17 21:03 UTC",
+  "assignments_observed": [
+    "B ring-compatible extraction and triangular transformations",
+    "C dual-lattice SuperSVP connection after current obligations",
+    "D independent assumption and parameter audit after RF2 review"
+  ]
+}

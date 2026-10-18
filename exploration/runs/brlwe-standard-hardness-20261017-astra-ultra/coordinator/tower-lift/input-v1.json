@@ -1,0 +1,22 @@
+{
+  "id": "ROOT-TOWER-FV1",
+  "n": 2,
+  "m": 8,
+  "p": 17,
+  "root": 3,
+  "q": 3,
+  "support": [
+    -1,
+    0,
+    1
+  ],
+  "weight_bases": [
+    "1/2",
+    "1/4"
+  ],
+  "max_cases": 20000,
+  "timeout_seconds": 30,
+  "address_space_bytes": 134217728,
+  "seed": "none, exhaustive exact rational",
+  "estimate": "2*3^8 weighted support checks plus3^8 uniform quotient representatives; small integers and fractions; <128MiB, estimated<2s. No infinite Gaussian or hardness certification."
+}

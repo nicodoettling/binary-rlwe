@@ -1,0 +1,21 @@
+{
+  "id": "C-ENDPOINT-1",
+  "status": "COMPLETE",
+  "recorded_at": "2026-10-17T20:17:58.346526+00:00",
+  "reservation": "Coordinator granted light slot before execution",
+  "wall_limit_seconds": 30,
+  "address_space_limit_bytes": 268435456,
+  "elapsed_seconds": 0.08500504493713379,
+  "maxrss_kib": 12288,
+  "exit_code": 0,
+  "stderr_empty": true,
+  "randomness": "none; exhaustive",
+  "precision": "exact Python integers and Fraction",
+  "scope": "finite algebraic control, not Gaussian or hardness certification",
+  "files": {
+    "endpoint_control_v1.py": "867d7ad56b55e2ef1bb684efeb1ec878597aba5b4677b68db1f4a2dd4a5b571b",
+    "endpoint_control_v1.command.txt": "e442b7d4532a0181b27661012ee69be03215d4b8d77a10f24ca33f4256ac7cf2",
+    "endpoint_control_v1.stdout.json": "2fb42e4bdd9e856a2b0febde3cd2074d4fcc1b65ecf50a204c740c16784fcfba",
+    "endpoint_control_v1.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "actual_elapsed_seconds": 0.07720002101268619,
+  "actual_max_rss_kib": 11264,
+  "adaptive_collision_optima": {
+    "m=2,initial=-1": {
+      "states": 9,
+      "success": "0",
+      "union_bound": "1/4"
+    },
+    "m=2,initial=0": {
+      "states": 8,
+      "success": "1/4",
+      "union_bound": "1/4"
+    },
+    "m=3,initial=-1": {
+      "states": 37,
+      "success": "1/4",
+      "union_bound": "5/8"
+    },
+    "m=3,initial=0": {
+      "states": 29,
+      "success": "17/32",
+      "union_bound": "5/8"
+    },
+    "m=4,initial=-1": {
+      "states": 93,
+      "success": "17/32",
+      "union_bound": "1"
+    },
+    "m=4,initial=0": {
+      "states": 64,
+      "success": "49/64",
+      "union_bound": "1"
+    }
+  },
+  "candidate_conditional_laws": 57,
+  "conditional_tv_bound": "1/8",
+  "enumerated_transition_checks": 72424,
+  "full_list_selection": {
+    "2": {
+      "including_zero": "1/4",
+      "union_bound": "1/4",
+      "useful": "1/8"
+    },
+    "3": {
+      "including_zero": "5/8",
+      "union_bound": "3/4",
+      "useful": "21/64"
+    }
+  },
+  "future_equality_conditioning": {
+    "conditional_tv_from_fresh": "7/8",
+    "conditioning_mass": "1/8"
+  },
+  "largest_stage_event_masses": {
+    "1": "1/4",
+    "2": "3/8"
+  },
+  "marginal_only_collision_counterexample": {
+    "false_bound": "1/8",
+    "success": "1"
+  },
+  "marginal_only_useful_counterexample": {
+    "false_bound": "1/4",
+    "success": "1"
+  },
+  "null_restrictions": 1,
+  "positive_restrictions": 255,
+  "precision": "fractions.Fraction, exact rational arithmetic",
+  "reservation": "BT14-FV1",
+  "resource_limits": {
+    "address_space_bytes": 536870912,
+    "cpu_seconds": 120,
+    "wall_seconds": 120
+  },
+  "scope": "Exact finite controls only; no infinite Gaussian certification",
+  "seed": "none: exhaustive deterministic enumeration",
+  "status": "all exact assertions passed",
+  "support_sizes": [
+    8,
+    8
+  ],
+  "zero_mass_transitions_skipped": 4760
+}

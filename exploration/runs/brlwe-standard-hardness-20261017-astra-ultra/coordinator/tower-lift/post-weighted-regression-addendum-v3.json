@@ -1,0 +1,2237 @@
+{
+  "at": "2026-10-18T01:44:27.707642+00:00",
+  "previous_count": 139,
+  "current_count": 151,
+  "prior_addenda": [
+    "coordinator/tower-lift/post-weighted-regression-addendum-v1.json",
+    "coordinator/tower-lift/post-weighted-regression-addendum-v2.json"
+  ],
+  "entries": [
+    {
+      "claim": "INHERITED-EX-v2",
+      "id": "RT2-WEIGHTED-FV1",
+      "provenance": {
+        "id": "RT2-WEIGHTED-FV1",
+        "path": "criticism/RT2/finite-stdout-v1.json",
+        "sha256": "0f119e71f93ff7a32f25904eb1bfa08f9f2c0c6848c5e2b8e69c88882a75cb3c",
+        "description": "1152 exact weighted pairs,625 multiplier-module cases; sample-dependent a violates fresh-moment formula, TV does not bound moments, CP1 and zero branches retained. Exact finite laws only.",
+        "disposition": "No accepted theorem permits adaptive fresh-sample multiplier or moment transfer through bare TV; complete new-gate dispositions pending."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "INHERITED-EX-v2",
+      "id": "BT20-VACUITY-1",
+      "provenance": {
+        "id": "BT20-VACUITY-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "n=m4,J=(3,z\u00b2+z+2),rho7/8,a1,W8,h1/4: all parameters constant but declared failure certificate is1; nonvacuity separate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "INHERITED-EX-v2",
+      "id": "BT20-RETRY-MARGIN-1",
+      "provenance": {
+        "id": "BT20-RETRY-MARGIN-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W16,h1/2-2^-b: declared success bound2^-b despite polynomial numeric size; positive bound alone does not certify polynomial expected repetition.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "INHERITED-EX-v2",
+      "id": "BT20-WIDTHVALUE-1",
+      "provenance": {
+        "id": "BT20-WIDTHVALUE-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W2^b,h1/4: polynomial width encoding does not give polynomial-value approximation certificate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "INHERITED-EX-v2",
+      "id": "RT2-NC1",
+      "provenance": {
+        "id": "RT2-NC1",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Sample-dependent complementary multiplier, exact actual81/2>fresh-bound27/2 and9>11/6.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "INHERITED-EX-v2",
+      "id": "RT2-NC2",
+      "provenance": {
+        "id": "RT2-NC2",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "TV1/100 contamination at legal remote ideal point makes moment arbitrarily large; only bounded events transfer.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "INHERITED-EX-v2",
+      "id": "RT2-NC3",
+      "provenance": {
+        "id": "RT2-NC3",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Common fair bit has exact uniform marginals but jointTV1/2 from product; no restored independence.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "INHERITED-EX-v2",
+      "id": "BT21-VACUITY-1",
+      "provenance": {
+        "id": "BT21-VACUITY-1",
+        "path": "criticism/BT21/report-v1.md",
+        "sha256": "083a1b0e2143e35ab8e9c00ce977650a50d522e2d732c1681780b49d3b728e03d",
+        "description": "Independent norm9 prime,n=m4,W8,h1/2,rho7/8 gives zero stated success lower bound despite constant numeric parameters; not actual failure lower bound.",
+        "disposition": "Clean sealed blind exact symbolic control. V1 compact wording ambiguity preserved; v2 states separate success and conditional moment assumptions explicitly."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "INHERITED-EX-v2",
+      "id": "BT21-ADAPTIVE-MULTIPLIER-1",
+      "provenance": {
+        "id": "BT21-ADAPTIVE-MULTIPLIER-1",
+        "path": "criticism/BT21/report-v1.md",
+        "sha256": "083a1b0e2143e35ab8e9c00ce977650a50d522e2d732c1681780b49d3b728e03d",
+        "description": "For each finite high-mass subset of J choose integral-scaled gamma/x in C with Pi(gamma)=0; exact X marginal can projectzero near surely under correlated multiplier. Freshness/joint premise essential.",
+        "disposition": "Clean sealed blind exact symbolic control. V1 compact wording ambiguity preserved; v2 states separate success and conditional moment assumptions explicitly."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "INHERITED-EX-v2",
+      "id": "BT22-TV-MOMENT-1",
+      "provenance": {
+        "id": "BT22-TV-MOMENT-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Section6: eta contamination by remote ideal point preserves TV bound but makes the projected moment unbounded.",
+        "disposition": "V2 transfers only full failure events; exact moment applies only to independent exact Gaussian reference.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "INHERITED-EX-v2",
+      "id": "BT22-JOINT-MULTIPLIER-1",
+      "provenance": {
+        "id": "BT22-JOINT-MULTIPLIER-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Section6: finite high-mass set admits correlated bounded complementary multipliers in trace kernels; exact X marginal still gives near-certain zero output. n2,m4,norm9 factorization gives an admissible instance.",
+        "disposition": "V2 requires fixed independent multiplier, pointwise conditional TV or complete joint TV; marginal-only extension rejected.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "INHERITED-EX-v2",
+      "id": "BT22-MARGIN-WIDTH-1",
+      "provenance": {
+        "id": "BT22-MARGIN-WIDTH-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Sections6-8: W=4sqrt(m) makes displayed guarantee vacuous; positive margin need not be inverse polynomial; polynomial width bit length does not imply polynomial approximation value.",
+        "disposition": "V2 expressly separates numeric certificate, positive success, amplification margin and represented execution costs.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "RT2-WEIGHTED-FV1",
+      "provenance": {
+        "id": "RT2-WEIGHTED-FV1",
+        "path": "criticism/RT2/finite-stdout-v1.json",
+        "sha256": "0f119e71f93ff7a32f25904eb1bfa08f9f2c0c6848c5e2b8e69c88882a75cb3c",
+        "description": "1152 exact weighted pairs,625 multiplier-module cases; sample-dependent a violates fresh-moment formula, TV does not bound moments, CP1 and zero branches retained. Exact finite laws only.",
+        "disposition": "No accepted theorem permits adaptive fresh-sample multiplier or moment transfer through bare TV; complete new-gate dispositions pending."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "BT20-VACUITY-1",
+      "provenance": {
+        "id": "BT20-VACUITY-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "n=m4,J=(3,z\u00b2+z+2),rho7/8,a1,W8,h1/4: all parameters constant but declared failure certificate is1; nonvacuity separate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "BT20-RETRY-MARGIN-1",
+      "provenance": {
+        "id": "BT20-RETRY-MARGIN-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W16,h1/2-2^-b: declared success bound2^-b despite polynomial numeric size; positive bound alone does not certify polynomial expected repetition.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "BT20-WIDTHVALUE-1",
+      "provenance": {
+        "id": "BT20-WIDTHVALUE-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W2^b,h1/4: polynomial width encoding does not give polynomial-value approximation certificate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "RT2-NC1",
+      "provenance": {
+        "id": "RT2-NC1",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Sample-dependent complementary multiplier, exact actual81/2>fresh-bound27/2 and9>11/6.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "RT2-NC2",
+      "provenance": {
+        "id": "RT2-NC2",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "TV1/100 contamination at legal remote ideal point makes moment arbitrarily large; only bounded events transfer.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "RT2-NC3",
+      "provenance": {
+        "id": "RT2-NC3",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Common fair bit has exact uniform marginals but jointTV1/2 from product; no restored independence.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "BT21-VACUITY-1",
+      "provenance": {
+        "id": "BT21-VACUITY-1",
+        "path": "criticism/BT21/report-v1.md",
+        "sha256": "083a1b0e2143e35ab8e9c00ce977650a50d522e2d732c1681780b49d3b728e03d",
+        "description": "Independent norm9 prime,n=m4,W8,h1/2,rho7/8 gives zero stated success lower bound despite constant numeric parameters; not actual failure lower bound.",
+        "disposition": "Clean sealed blind exact symbolic control. V1 compact wording ambiguity preserved; v2 states separate success and conditional moment assumptions explicitly."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "BT21-ADAPTIVE-MULTIPLIER-1",
+      "provenance": {
+        "id": "BT21-ADAPTIVE-MULTIPLIER-1",
+        "path": "criticism/BT21/report-v1.md",
+        "sha256": "083a1b0e2143e35ab8e9c00ce977650a50d522e2d732c1681780b49d3b728e03d",
+        "description": "For each finite high-mass subset of J choose integral-scaled gamma/x in C with Pi(gamma)=0; exact X marginal can projectzero near surely under correlated multiplier. Freshness/joint premise essential.",
+        "disposition": "Clean sealed blind exact symbolic control. V1 compact wording ambiguity preserved; v2 states separate success and conditional moment assumptions explicitly."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "BT22-TV-MOMENT-1",
+      "provenance": {
+        "id": "BT22-TV-MOMENT-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Section6: eta contamination by remote ideal point preserves TV bound but makes the projected moment unbounded.",
+        "disposition": "V2 transfers only full failure events; exact moment applies only to independent exact Gaussian reference.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "BT22-JOINT-MULTIPLIER-1",
+      "provenance": {
+        "id": "BT22-JOINT-MULTIPLIER-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Section6: finite high-mass set admits correlated bounded complementary multipliers in trace kernels; exact X marginal still gives near-certain zero output. n2,m4,norm9 factorization gives an admissible instance.",
+        "disposition": "V2 requires fixed independent multiplier, pointwise conditional TV or complete joint TV; marginal-only extension rejected.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "D-THETA-v1",
+      "id": "BT22-MARGIN-WIDTH-1",
+      "provenance": {
+        "id": "BT22-MARGIN-WIDTH-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Sections6-8: W=4sqrt(m) makes displayed guarantee vacuous; positive margin need not be inverse polynomial; polynomial width bit length does not imply polynomial approximation value.",
+        "disposition": "V2 expressly separates numeric certificate, positive success, amplification margin and represented execution costs.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "RT2-WEIGHTED-FV1",
+      "provenance": {
+        "id": "RT2-WEIGHTED-FV1",
+        "path": "criticism/RT2/finite-stdout-v1.json",
+        "sha256": "0f119e71f93ff7a32f25904eb1bfa08f9f2c0c6848c5e2b8e69c88882a75cb3c",
+        "description": "1152 exact weighted pairs,625 multiplier-module cases; sample-dependent a violates fresh-moment formula, TV does not bound moments, CP1 and zero branches retained. Exact finite laws only.",
+        "disposition": "No accepted theorem permits adaptive fresh-sample multiplier or moment transfer through bare TV; complete new-gate dispositions pending."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "BT20-VACUITY-1",
+      "provenance": {
+        "id": "BT20-VACUITY-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "n=m4,J=(3,z\u00b2+z+2),rho7/8,a1,W8,h1/4: all parameters constant but declared failure certificate is1; nonvacuity separate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "BT20-RETRY-MARGIN-1",
+      "provenance": {
+        "id": "BT20-RETRY-MARGIN-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W16,h1/2-2^-b: declared success bound2^-b despite polynomial numeric size; positive bound alone does not certify polynomial expected repetition.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "BT20-WIDTHVALUE-1",
+      "provenance": {
+        "id": "BT20-WIDTHVALUE-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W2^b,h1/4: polynomial width encoding does not give polynomial-value approximation certificate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "RT2-NC1",
+      "provenance": {
+        "id": "RT2-NC1",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Sample-dependent complementary multiplier, exact actual81/2>fresh-bound27/2 and9>11/6.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "RT2-NC2",
+      "provenance": {
+        "id": "RT2-NC2",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "TV1/100 contamination at legal remote ideal point makes moment arbitrarily large; only bounded events transfer.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "RT2-NC3",
+      "provenance": {
+        "id": "RT2-NC3",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Common fair bit has exact uniform marginals but jointTV1/2 from product; no restored independence.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "BT21-VACUITY-1",
+      "provenance": {
+        "id": "BT21-VACUITY-1",
+        "path": "criticism/BT21/report-v1.md",
+        "sha256": "083a1b0e2143e35ab8e9c00ce977650a50d522e2d732c1681780b49d3b728e03d",
+        "description": "Independent norm9 prime,n=m4,W8,h1/2,rho7/8 gives zero stated success lower bound despite constant numeric parameters; not actual failure lower bound.",
+        "disposition": "Clean sealed blind exact symbolic control. V1 compact wording ambiguity preserved; v2 states separate success and conditional moment assumptions explicitly."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "BT21-ADAPTIVE-MULTIPLIER-1",
+      "provenance": {
+        "id": "BT21-ADAPTIVE-MULTIPLIER-1",
+        "path": "criticism/BT21/report-v1.md",
+        "sha256": "083a1b0e2143e35ab8e9c00ce977650a50d522e2d732c1681780b49d3b728e03d",
+        "description": "For each finite high-mass subset of J choose integral-scaled gamma/x in C with Pi(gamma)=0; exact X marginal can projectzero near surely under correlated multiplier. Freshness/joint premise essential.",
+        "disposition": "Clean sealed blind exact symbolic control. V1 compact wording ambiguity preserved; v2 states separate success and conditional moment assumptions explicitly."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "BT22-TV-MOMENT-1",
+      "provenance": {
+        "id": "BT22-TV-MOMENT-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Section6: eta contamination by remote ideal point preserves TV bound but makes the projected moment unbounded.",
+        "disposition": "V2 transfers only full failure events; exact moment applies only to independent exact Gaussian reference.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "BT22-JOINT-MULTIPLIER-1",
+      "provenance": {
+        "id": "BT22-JOINT-MULTIPLIER-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Section6: finite high-mass set admits correlated bounded complementary multipliers in trace kernels; exact X marginal still gives near-certain zero output. n2,m4,norm9 factorization gives an admissible instance.",
+        "disposition": "V2 requires fixed independent multiplier, pointwise conditional TV or complete joint TV; marginal-only extension rejected.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "id": "BT22-MARGIN-WIDTH-1",
+      "provenance": {
+        "id": "BT22-MARGIN-WIDTH-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Sections6-8: W=4sqrt(m) makes displayed guarantee vacuous; positive margin need not be inverse polynomial; polynomial width bit length does not imply polynomial approximation value.",
+        "disposition": "V2 expressly separates numeric certificate, positive success, amplification margin and represented execution costs.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "RT2-WEIGHTED-FV1",
+      "provenance": {
+        "id": "RT2-WEIGHTED-FV1",
+        "path": "criticism/RT2/finite-stdout-v1.json",
+        "sha256": "0f119e71f93ff7a32f25904eb1bfa08f9f2c0c6848c5e2b8e69c88882a75cb3c",
+        "description": "1152 exact weighted pairs,625 multiplier-module cases; sample-dependent a violates fresh-moment formula, TV does not bound moments, CP1 and zero branches retained. Exact finite laws only.",
+        "disposition": "No accepted theorem permits adaptive fresh-sample multiplier or moment transfer through bare TV; complete new-gate dispositions pending."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "BT20-VACUITY-1",
+      "provenance": {
+        "id": "BT20-VACUITY-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "n=m4,J=(3,z\u00b2+z+2),rho7/8,a1,W8,h1/4: all parameters constant but declared failure certificate is1; nonvacuity separate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "BT20-RETRY-MARGIN-1",
+      "provenance": {
+        "id": "BT20-RETRY-MARGIN-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W16,h1/2-2^-b: declared success bound2^-b despite polynomial numeric size; positive bound alone does not certify polynomial expected repetition.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "BT20-WIDTHVALUE-1",
+      "provenance": {
+        "id": "BT20-WIDTHVALUE-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W2^b,h1/4: polynomial width encoding does not give polynomial-value approximation certificate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "RT2-NC1",
+      "provenance": {
+        "id": "RT2-NC1",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Sample-dependent complementary multiplier, exact actual81/2>fresh-bound27/2 and9>11/6.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "RT2-NC2",
+      "provenance": {
+        "id": "RT2-NC2",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "TV1/100 contamination at legal remote ideal point makes moment arbitrarily large; only bounded events transfer.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "RT2-NC3",
+      "provenance": {
+        "id": "RT2-NC3",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Common fair bit has exact uniform marginals but jointTV1/2 from product; no restored independence.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "BT21-VACUITY-1",
+      "provenance": {
+        "id": "BT21-VACUITY-1",
+        "path": "criticism/BT21/report-v1.md",
+        "sha256": "083a1b0e2143e35ab8e9c00ce977650a50d522e2d732c1681780b49d3b728e03d",
+        "description": "Independent norm9 prime,n=m4,W8,h1/2,rho7/8 gives zero stated success lower bound despite constant numeric parameters; not actual failure lower bound.",
+        "disposition": "Clean sealed blind exact symbolic control. V1 compact wording ambiguity preserved; v2 states separate success and conditional moment assumptions explicitly."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "BT21-ADAPTIVE-MULTIPLIER-1",
+      "provenance": {
+        "id": "BT21-ADAPTIVE-MULTIPLIER-1",
+        "path": "criticism/BT21/report-v1.md",
+        "sha256": "083a1b0e2143e35ab8e9c00ce977650a50d522e2d732c1681780b49d3b728e03d",
+        "description": "For each finite high-mass subset of J choose integral-scaled gamma/x in C with Pi(gamma)=0; exact X marginal can projectzero near surely under correlated multiplier. Freshness/joint premise essential.",
+        "disposition": "Clean sealed blind exact symbolic control. V1 compact wording ambiguity preserved; v2 states separate success and conditional moment assumptions explicitly."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "BT22-TV-MOMENT-1",
+      "provenance": {
+        "id": "BT22-TV-MOMENT-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Section6: eta contamination by remote ideal point preserves TV bound but makes the projected moment unbounded.",
+        "disposition": "V2 transfers only full failure events; exact moment applies only to independent exact Gaussian reference.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "BT22-JOINT-MULTIPLIER-1",
+      "provenance": {
+        "id": "BT22-JOINT-MULTIPLIER-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Section6: finite high-mass set admits correlated bounded complementary multipliers in trace kernels; exact X marginal still gives near-certain zero output. n2,m4,norm9 factorization gives an admissible instance.",
+        "disposition": "V2 requires fixed independent multiplier, pointwise conditional TV or complete joint TV; marginal-only extension rejected.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "B-GP-v2",
+      "id": "BT22-MARGIN-WIDTH-1",
+      "provenance": {
+        "id": "BT22-MARGIN-WIDTH-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Sections6-8: W=4sqrt(m) makes displayed guarantee vacuous; positive margin need not be inverse polynomial; polynomial width bit length does not imply polynomial approximation value.",
+        "disposition": "V2 expressly separates numeric certificate, positive success, amplification margin and represented execution costs.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "RT2-WEIGHTED-FV1",
+      "provenance": {
+        "id": "RT2-WEIGHTED-FV1",
+        "path": "criticism/RT2/finite-stdout-v1.json",
+        "sha256": "0f119e71f93ff7a32f25904eb1bfa08f9f2c0c6848c5e2b8e69c88882a75cb3c",
+        "description": "1152 exact weighted pairs,625 multiplier-module cases; sample-dependent a violates fresh-moment formula, TV does not bound moments, CP1 and zero branches retained. Exact finite laws only.",
+        "disposition": "No accepted theorem permits adaptive fresh-sample multiplier or moment transfer through bare TV; complete new-gate dispositions pending."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "BT20-VACUITY-1",
+      "provenance": {
+        "id": "BT20-VACUITY-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "n=m4,J=(3,z\u00b2+z+2),rho7/8,a1,W8,h1/4: all parameters constant but declared failure certificate is1; nonvacuity separate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "BT20-RETRY-MARGIN-1",
+      "provenance": {
+        "id": "BT20-RETRY-MARGIN-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W16,h1/2-2^-b: declared success bound2^-b despite polynomial numeric size; positive bound alone does not certify polynomial expected repetition.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "BT20-WIDTHVALUE-1",
+      "provenance": {
+        "id": "BT20-WIDTHVALUE-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W2^b,h1/4: polynomial width encoding does not give polynomial-value approximation certificate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "RT2-NC1",
+      "provenance": {
+        "id": "RT2-NC1",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Sample-dependent complementary multiplier, exact actual81/2>fresh-bound27/2 and9>11/6.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "RT2-NC2",
+      "provenance": {
+        "id": "RT2-NC2",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "TV1/100 contamination at legal remote ideal point makes moment arbitrarily large; only bounded events transfer.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "RT2-NC3",
+      "provenance": {
+        "id": "RT2-NC3",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Common fair bit has exact uniform marginals but jointTV1/2 from product; no restored independence.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "BT21-VACUITY-1",
+      "provenance": {
+        "id": "BT21-VACUITY-1",
+        "path": "criticism/BT21/report-v1.md",
+        "sha256": "083a1b0e2143e35ab8e9c00ce977650a50d522e2d732c1681780b49d3b728e03d",
+        "description": "Independent norm9 prime,n=m4,W8,h1/2,rho7/8 gives zero stated success lower bound despite constant numeric parameters; not actual failure lower bound.",
+        "disposition": "Clean sealed blind exact symbolic control. V1 compact wording ambiguity preserved; v2 states separate success and conditional moment assumptions explicitly."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "BT21-ADAPTIVE-MULTIPLIER-1",
+      "provenance": {
+        "id": "BT21-ADAPTIVE-MULTIPLIER-1",
+        "path": "criticism/BT21/report-v1.md",
+        "sha256": "083a1b0e2143e35ab8e9c00ce977650a50d522e2d732c1681780b49d3b728e03d",
+        "description": "For each finite high-mass subset of J choose integral-scaled gamma/x in C with Pi(gamma)=0; exact X marginal can projectzero near surely under correlated multiplier. Freshness/joint premise essential.",
+        "disposition": "Clean sealed blind exact symbolic control. V1 compact wording ambiguity preserved; v2 states separate success and conditional moment assumptions explicitly."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "BT22-TV-MOMENT-1",
+      "provenance": {
+        "id": "BT22-TV-MOMENT-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Section6: eta contamination by remote ideal point preserves TV bound but makes the projected moment unbounded.",
+        "disposition": "V2 transfers only full failure events; exact moment applies only to independent exact Gaussian reference.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "BT22-JOINT-MULTIPLIER-1",
+      "provenance": {
+        "id": "BT22-JOINT-MULTIPLIER-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Section6: finite high-mass set admits correlated bounded complementary multipliers in trace kernels; exact X marginal still gives near-certain zero output. n2,m4,norm9 factorization gives an admissible instance.",
+        "disposition": "V2 requires fixed independent multiplier, pointwise conditional TV or complete joint TV; marginal-only extension rejected.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-SAMECLASS-v1",
+      "id": "BT22-MARGIN-WIDTH-1",
+      "provenance": {
+        "id": "BT22-MARGIN-WIDTH-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Sections6-8: W=4sqrt(m) makes displayed guarantee vacuous; positive margin need not be inverse polynomial; polynomial width bit length does not imply polynomial approximation value.",
+        "disposition": "V2 expressly separates numeric certificate, positive success, amplification margin and represented execution costs.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "id": "RT2-WEIGHTED-FV1",
+      "provenance": {
+        "id": "RT2-WEIGHTED-FV1",
+        "path": "criticism/RT2/finite-stdout-v1.json",
+        "sha256": "0f119e71f93ff7a32f25904eb1bfa08f9f2c0c6848c5e2b8e69c88882a75cb3c",
+        "description": "1152 exact weighted pairs,625 multiplier-module cases; sample-dependent a violates fresh-moment formula, TV does not bound moments, CP1 and zero branches retained. Exact finite laws only.",
+        "disposition": "No accepted theorem permits adaptive fresh-sample multiplier or moment transfer through bare TV; complete new-gate dispositions pending."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "id": "BT20-VACUITY-1",
+      "provenance": {
+        "id": "BT20-VACUITY-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "n=m4,J=(3,z\u00b2+z+2),rho7/8,a1,W8,h1/4: all parameters constant but declared failure certificate is1; nonvacuity separate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "id": "BT20-RETRY-MARGIN-1",
+      "provenance": {
+        "id": "BT20-RETRY-MARGIN-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W16,h1/2-2^-b: declared success bound2^-b despite polynomial numeric size; positive bound alone does not certify polynomial expected repetition.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "id": "BT20-WIDTHVALUE-1",
+      "provenance": {
+        "id": "BT20-WIDTHVALUE-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W2^b,h1/4: polynomial width encoding does not give polynomial-value approximation certificate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "id": "RT2-NC1",
+      "provenance": {
+        "id": "RT2-NC1",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Sample-dependent complementary multiplier, exact actual81/2>fresh-bound27/2 and9>11/6.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "id": "RT2-NC2",
+      "provenance": {
+        "id": "RT2-NC2",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "TV1/100 contamination at legal remote ideal point makes moment arbitrarily large; only bounded events transfer.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "id": "RT2-NC3",
+      "provenance": {
+        "id": "RT2-NC3",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Common fair bit has exact uniform marginals but jointTV1/2 from product; no restored independence.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "id": "BT21-VACUITY-1",
+      "provenance": {
+        "id": "BT21-VACUITY-1",
+        "path": "criticism/BT21/report-v1.md",
+        "sha256": "083a1b0e2143e35ab8e9c00ce977650a50d522e2d732c1681780b49d3b728e03d",
+        "description": "Independent norm9 prime,n=m4,W8,h1/2,rho7/8 gives zero stated success lower bound despite constant numeric parameters; not actual failure lower bound.",
+        "disposition": "Clean sealed blind exact symbolic control. V1 compact wording ambiguity preserved; v2 states separate success and conditional moment assumptions explicitly."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "id": "BT21-ADAPTIVE-MULTIPLIER-1",
+      "provenance": {
+        "id": "BT21-ADAPTIVE-MULTIPLIER-1",
+        "path": "criticism/BT21/report-v1.md",
+        "sha256": "083a1b0e2143e35ab8e9c00ce977650a50d522e2d732c1681780b49d3b728e03d",
+        "description": "For each finite high-mass subset of J choose integral-scaled gamma/x in C with Pi(gamma)=0; exact X marginal can projectzero near surely under correlated multiplier. Freshness/joint premise essential.",
+        "disposition": "Clean sealed blind exact symbolic control. V1 compact wording ambiguity preserved; v2 states separate success and conditional moment assumptions explicitly."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "id": "BT22-TV-MOMENT-1",
+      "provenance": {
+        "id": "BT22-TV-MOMENT-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Section6: eta contamination by remote ideal point preserves TV bound but makes the projected moment unbounded.",
+        "disposition": "V2 transfers only full failure events; exact moment applies only to independent exact Gaussian reference.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "id": "BT22-JOINT-MULTIPLIER-1",
+      "provenance": {
+        "id": "BT22-JOINT-MULTIPLIER-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Section6: finite high-mass set admits correlated bounded complementary multipliers in trace kernels; exact X marginal still gives near-certain zero output. n2,m4,norm9 factorization gives an admissible instance.",
+        "disposition": "V2 requires fixed independent multiplier, pointwise conditional TV or complete joint TV; marginal-only extension rejected.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "id": "BT22-MARGIN-WIDTH-1",
+      "provenance": {
+        "id": "BT22-MARGIN-WIDTH-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Sections6-8: W=4sqrt(m) makes displayed guarantee vacuous; positive margin need not be inverse polynomial; polynomial width bit length does not imply polynomial approximation value.",
+        "disposition": "V2 expressly separates numeric certificate, positive success, amplification margin and represented execution costs.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "RT2-WEIGHTED-FV1",
+      "provenance": {
+        "id": "RT2-WEIGHTED-FV1",
+        "path": "criticism/RT2/finite-stdout-v1.json",
+        "sha256": "0f119e71f93ff7a32f25904eb1bfa08f9f2c0c6848c5e2b8e69c88882a75cb3c",
+        "description": "1152 exact weighted pairs,625 multiplier-module cases; sample-dependent a violates fresh-moment formula, TV does not bound moments, CP1 and zero branches retained. Exact finite laws only.",
+        "disposition": "No accepted theorem permits adaptive fresh-sample multiplier or moment transfer through bare TV; complete new-gate dispositions pending."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "BT20-VACUITY-1",
+      "provenance": {
+        "id": "BT20-VACUITY-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "n=m4,J=(3,z\u00b2+z+2),rho7/8,a1,W8,h1/4: all parameters constant but declared failure certificate is1; nonvacuity separate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "BT20-RETRY-MARGIN-1",
+      "provenance": {
+        "id": "BT20-RETRY-MARGIN-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W16,h1/2-2^-b: declared success bound2^-b despite polynomial numeric size; positive bound alone does not certify polynomial expected repetition.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "BT20-WIDTHVALUE-1",
+      "provenance": {
+        "id": "BT20-WIDTHVALUE-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W2^b,h1/4: polynomial width encoding does not give polynomial-value approximation certificate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "RT2-NC1",
+      "provenance": {
+        "id": "RT2-NC1",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Sample-dependent complementary multiplier, exact actual81/2>fresh-bound27/2 and9>11/6.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "RT2-NC2",
+      "provenance": {
+        "id": "RT2-NC2",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "TV1/100 contamination at legal remote ideal point makes moment arbitrarily large; only bounded events transfer.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "RT2-NC3",
+      "provenance": {
+        "id": "RT2-NC3",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Common fair bit has exact uniform marginals but jointTV1/2 from product; no restored independence.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "BT21-VACUITY-1",
+      "provenance": {
+        "id": "BT21-VACUITY-1",
+        "path": "criticism/BT21/report-v1.md",
+        "sha256": "083a1b0e2143e35ab8e9c00ce977650a50d522e2d732c1681780b49d3b728e03d",
+        "description": "Independent norm9 prime,n=m4,W8,h1/2,rho7/8 gives zero stated success lower bound despite constant numeric parameters; not actual failure lower bound.",
+        "disposition": "Clean sealed blind exact symbolic control. V1 compact wording ambiguity preserved; v2 states separate success and conditional moment assumptions explicitly."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "BT21-ADAPTIVE-MULTIPLIER-1",
+      "provenance": {
+        "id": "BT21-ADAPTIVE-MULTIPLIER-1",
+        "path": "criticism/BT21/report-v1.md",
+        "sha256": "083a1b0e2143e35ab8e9c00ce977650a50d522e2d732c1681780b49d3b728e03d",
+        "description": "For each finite high-mass subset of J choose integral-scaled gamma/x in C with Pi(gamma)=0; exact X marginal can projectzero near surely under correlated multiplier. Freshness/joint premise essential.",
+        "disposition": "Clean sealed blind exact symbolic control. V1 compact wording ambiguity preserved; v2 states separate success and conditional moment assumptions explicitly."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "BT22-TV-MOMENT-1",
+      "provenance": {
+        "id": "BT22-TV-MOMENT-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Section6: eta contamination by remote ideal point preserves TV bound but makes the projected moment unbounded.",
+        "disposition": "V2 transfers only full failure events; exact moment applies only to independent exact Gaussian reference.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "BT22-JOINT-MULTIPLIER-1",
+      "provenance": {
+        "id": "BT22-JOINT-MULTIPLIER-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Section6: finite high-mass set admits correlated bounded complementary multipliers in trace kernels; exact X marginal still gives near-certain zero output. n2,m4,norm9 factorization gives an admissible instance.",
+        "disposition": "V2 requires fixed independent multiplier, pointwise conditional TV or complete joint TV; marginal-only extension rejected.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-BINCLASS-v1",
+      "id": "BT22-MARGIN-WIDTH-1",
+      "provenance": {
+        "id": "BT22-MARGIN-WIDTH-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Sections6-8: W=4sqrt(m) makes displayed guarantee vacuous; positive margin need not be inverse polynomial; polynomial width bit length does not imply polynomial approximation value.",
+        "disposition": "V2 expressly separates numeric certificate, positive success, amplification margin and represented execution costs.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "RT2-WEIGHTED-FV1",
+      "provenance": {
+        "id": "RT2-WEIGHTED-FV1",
+        "path": "criticism/RT2/finite-stdout-v1.json",
+        "sha256": "0f119e71f93ff7a32f25904eb1bfa08f9f2c0c6848c5e2b8e69c88882a75cb3c",
+        "description": "1152 exact weighted pairs,625 multiplier-module cases; sample-dependent a violates fresh-moment formula, TV does not bound moments, CP1 and zero branches retained. Exact finite laws only.",
+        "disposition": "No accepted theorem permits adaptive fresh-sample multiplier or moment transfer through bare TV; complete new-gate dispositions pending."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "BT20-VACUITY-1",
+      "provenance": {
+        "id": "BT20-VACUITY-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "n=m4,J=(3,z\u00b2+z+2),rho7/8,a1,W8,h1/4: all parameters constant but declared failure certificate is1; nonvacuity separate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "BT20-RETRY-MARGIN-1",
+      "provenance": {
+        "id": "BT20-RETRY-MARGIN-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W16,h1/2-2^-b: declared success bound2^-b despite polynomial numeric size; positive bound alone does not certify polynomial expected repetition.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "BT20-WIDTHVALUE-1",
+      "provenance": {
+        "id": "BT20-WIDTHVALUE-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W2^b,h1/4: polynomial width encoding does not give polynomial-value approximation certificate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "RT2-NC1",
+      "provenance": {
+        "id": "RT2-NC1",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Sample-dependent complementary multiplier, exact actual81/2>fresh-bound27/2 and9>11/6.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "RT2-NC2",
+      "provenance": {
+        "id": "RT2-NC2",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "TV1/100 contamination at legal remote ideal point makes moment arbitrarily large; only bounded events transfer.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "RT2-NC3",
+      "provenance": {
+        "id": "RT2-NC3",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Common fair bit has exact uniform marginals but jointTV1/2 from product; no restored independence.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "BT21-VACUITY-1",
+      "provenance": {
+        "id": "BT21-VACUITY-1",
+        "path": "criticism/BT21/report-v1.md",
+        "sha256": "083a1b0e2143e35ab8e9c00ce977650a50d522e2d732c1681780b49d3b728e03d",
+        "description": "Independent norm9 prime,n=m4,W8,h1/2,rho7/8 gives zero stated success lower bound despite constant numeric parameters; not actual failure lower bound.",
+        "disposition": "Clean sealed blind exact symbolic control. V1 compact wording ambiguity preserved; v2 states separate success and conditional moment assumptions explicitly."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "BT21-ADAPTIVE-MULTIPLIER-1",
+      "provenance": {
+        "id": "BT21-ADAPTIVE-MULTIPLIER-1",
+        "path": "criticism/BT21/report-v1.md",
+        "sha256": "083a1b0e2143e35ab8e9c00ce977650a50d522e2d732c1681780b49d3b728e03d",
+        "description": "For each finite high-mass subset of J choose integral-scaled gamma/x in C with Pi(gamma)=0; exact X marginal can projectzero near surely under correlated multiplier. Freshness/joint premise essential.",
+        "disposition": "Clean sealed blind exact symbolic control. V1 compact wording ambiguity preserved; v2 states separate success and conditional moment assumptions explicitly."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "BT22-TV-MOMENT-1",
+      "provenance": {
+        "id": "BT22-TV-MOMENT-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Section6: eta contamination by remote ideal point preserves TV bound but makes the projected moment unbounded.",
+        "disposition": "V2 transfers only full failure events; exact moment applies only to independent exact Gaussian reference.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "BT22-JOINT-MULTIPLIER-1",
+      "provenance": {
+        "id": "BT22-JOINT-MULTIPLIER-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Section6: finite high-mass set admits correlated bounded complementary multipliers in trace kernels; exact X marginal still gives near-certain zero output. n2,m4,norm9 factorization gives an admissible instance.",
+        "disposition": "V2 requires fixed independent multiplier, pointwise conditional TV or complete joint TV; marginal-only extension rejected.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-PLANTED-INFO-v1",
+      "id": "BT22-MARGIN-WIDTH-1",
+      "provenance": {
+        "id": "BT22-MARGIN-WIDTH-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Sections6-8: W=4sqrt(m) makes displayed guarantee vacuous; positive margin need not be inverse polynomial; polynomial width bit length does not imply polynomial approximation value.",
+        "disposition": "V2 expressly separates numeric certificate, positive success, amplification margin and represented execution costs.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "RT2-WEIGHTED-FV1",
+      "provenance": {
+        "id": "RT2-WEIGHTED-FV1",
+        "path": "criticism/RT2/finite-stdout-v1.json",
+        "sha256": "0f119e71f93ff7a32f25904eb1bfa08f9f2c0c6848c5e2b8e69c88882a75cb3c",
+        "description": "1152 exact weighted pairs,625 multiplier-module cases; sample-dependent a violates fresh-moment formula, TV does not bound moments, CP1 and zero branches retained. Exact finite laws only.",
+        "disposition": "No accepted theorem permits adaptive fresh-sample multiplier or moment transfer through bare TV; complete new-gate dispositions pending."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "BT20-VACUITY-1",
+      "provenance": {
+        "id": "BT20-VACUITY-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "n=m4,J=(3,z\u00b2+z+2),rho7/8,a1,W8,h1/4: all parameters constant but declared failure certificate is1; nonvacuity separate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "BT20-RETRY-MARGIN-1",
+      "provenance": {
+        "id": "BT20-RETRY-MARGIN-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W16,h1/2-2^-b: declared success bound2^-b despite polynomial numeric size; positive bound alone does not certify polynomial expected repetition.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "BT20-WIDTHVALUE-1",
+      "provenance": {
+        "id": "BT20-WIDTHVALUE-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W2^b,h1/4: polynomial width encoding does not give polynomial-value approximation certificate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "RT2-NC1",
+      "provenance": {
+        "id": "RT2-NC1",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Sample-dependent complementary multiplier, exact actual81/2>fresh-bound27/2 and9>11/6.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "RT2-NC2",
+      "provenance": {
+        "id": "RT2-NC2",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "TV1/100 contamination at legal remote ideal point makes moment arbitrarily large; only bounded events transfer.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "RT2-NC3",
+      "provenance": {
+        "id": "RT2-NC3",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Common fair bit has exact uniform marginals but jointTV1/2 from product; no restored independence.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "BT21-VACUITY-1",
+      "provenance": {
+        "id": "BT21-VACUITY-1",
+        "path": "criticism/BT21/report-v1.md",
+        "sha256": "083a1b0e2143e35ab8e9c00ce977650a50d522e2d732c1681780b49d3b728e03d",
+        "description": "Independent norm9 prime,n=m4,W8,h1/2,rho7/8 gives zero stated success lower bound despite constant numeric parameters; not actual failure lower bound.",
+        "disposition": "Clean sealed blind exact symbolic control. V1 compact wording ambiguity preserved; v2 states separate success and conditional moment assumptions explicitly."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "BT21-ADAPTIVE-MULTIPLIER-1",
+      "provenance": {
+        "id": "BT21-ADAPTIVE-MULTIPLIER-1",
+        "path": "criticism/BT21/report-v1.md",
+        "sha256": "083a1b0e2143e35ab8e9c00ce977650a50d522e2d732c1681780b49d3b728e03d",
+        "description": "For each finite high-mass subset of J choose integral-scaled gamma/x in C with Pi(gamma)=0; exact X marginal can projectzero near surely under correlated multiplier. Freshness/joint premise essential.",
+        "disposition": "Clean sealed blind exact symbolic control. V1 compact wording ambiguity preserved; v2 states separate success and conditional moment assumptions explicitly."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "BT22-TV-MOMENT-1",
+      "provenance": {
+        "id": "BT22-TV-MOMENT-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Section6: eta contamination by remote ideal point preserves TV bound but makes the projected moment unbounded.",
+        "disposition": "V2 transfers only full failure events; exact moment applies only to independent exact Gaussian reference.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "BT22-JOINT-MULTIPLIER-1",
+      "provenance": {
+        "id": "BT22-JOINT-MULTIPLIER-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Section6: finite high-mass set admits correlated bounded complementary multipliers in trace kernels; exact X marginal still gives near-certain zero output. n2,m4,norm9 factorization gives an admissible instance.",
+        "disposition": "V2 requires fixed independent multiplier, pointwise conditional TV or complete joint TV; marginal-only extension rejected.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "E-PAIR-v2",
+      "id": "BT22-MARGIN-WIDTH-1",
+      "provenance": {
+        "id": "BT22-MARGIN-WIDTH-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Sections6-8: W=4sqrt(m) makes displayed guarantee vacuous; positive margin need not be inverse polynomial; polynomial width bit length does not imply polynomial approximation value.",
+        "disposition": "V2 expressly separates numeric certificate, positive success, amplification margin and represented execution costs.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "RT2-WEIGHTED-FV1",
+      "provenance": {
+        "id": "RT2-WEIGHTED-FV1",
+        "path": "criticism/RT2/finite-stdout-v1.json",
+        "sha256": "0f119e71f93ff7a32f25904eb1bfa08f9f2c0c6848c5e2b8e69c88882a75cb3c",
+        "description": "1152 exact weighted pairs,625 multiplier-module cases; sample-dependent a violates fresh-moment formula, TV does not bound moments, CP1 and zero branches retained. Exact finite laws only.",
+        "disposition": "No accepted theorem permits adaptive fresh-sample multiplier or moment transfer through bare TV; complete new-gate dispositions pending."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "BT20-VACUITY-1",
+      "provenance": {
+        "id": "BT20-VACUITY-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "n=m4,J=(3,z\u00b2+z+2),rho7/8,a1,W8,h1/4: all parameters constant but declared failure certificate is1; nonvacuity separate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "BT20-RETRY-MARGIN-1",
+      "provenance": {
+        "id": "BT20-RETRY-MARGIN-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W16,h1/2-2^-b: declared success bound2^-b despite polynomial numeric size; positive bound alone does not certify polynomial expected repetition.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "BT20-WIDTHVALUE-1",
+      "provenance": {
+        "id": "BT20-WIDTHVALUE-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W2^b,h1/4: polynomial width encoding does not give polynomial-value approximation certificate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "RT2-NC1",
+      "provenance": {
+        "id": "RT2-NC1",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Sample-dependent complementary multiplier, exact actual81/2>fresh-bound27/2 and9>11/6.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "RT2-NC2",
+      "provenance": {
+        "id": "RT2-NC2",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "TV1/100 contamination at legal remote ideal point makes moment arbitrarily large; only bounded events transfer.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "RT2-NC3",
+      "provenance": {
+        "id": "RT2-NC3",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Common fair bit has exact uniform marginals but jointTV1/2 from product; no restored independence.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "BT21-VACUITY-1",
+      "provenance": {
+        "id": "BT21-VACUITY-1",
+        "path": "criticism/BT21/report-v1.md",
+        "sha256": "083a1b0e2143e35ab8e9c00ce977650a50d522e2d732c1681780b49d3b728e03d",
+        "description": "Independent norm9 prime,n=m4,W8,h1/2,rho7/8 gives zero stated success lower bound despite constant numeric parameters; not actual failure lower bound.",
+        "disposition": "Clean sealed blind exact symbolic control. V1 compact wording ambiguity preserved; v2 states separate success and conditional moment assumptions explicitly."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "BT21-ADAPTIVE-MULTIPLIER-1",
+      "provenance": {
+        "id": "BT21-ADAPTIVE-MULTIPLIER-1",
+        "path": "criticism/BT21/report-v1.md",
+        "sha256": "083a1b0e2143e35ab8e9c00ce977650a50d522e2d732c1681780b49d3b728e03d",
+        "description": "For each finite high-mass subset of J choose integral-scaled gamma/x in C with Pi(gamma)=0; exact X marginal can projectzero near surely under correlated multiplier. Freshness/joint premise essential.",
+        "disposition": "Clean sealed blind exact symbolic control. V1 compact wording ambiguity preserved; v2 states separate success and conditional moment assumptions explicitly."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "BT22-TV-MOMENT-1",
+      "provenance": {
+        "id": "BT22-TV-MOMENT-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Section6: eta contamination by remote ideal point preserves TV bound but makes the projected moment unbounded.",
+        "disposition": "V2 transfers only full failure events; exact moment applies only to independent exact Gaussian reference.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "BT22-JOINT-MULTIPLIER-1",
+      "provenance": {
+        "id": "BT22-JOINT-MULTIPLIER-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Section6: finite high-mass set admits correlated bounded complementary multipliers in trace kernels; exact X marginal still gives near-certain zero output. n2,m4,norm9 factorization gives an admissible instance.",
+        "disposition": "V2 requires fixed independent multiplier, pointwise conditional TV or complete joint TV; marginal-only extension rejected.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "ROOT-FRAC-SMALLBALL-v3",
+      "id": "BT22-MARGIN-WIDTH-1",
+      "provenance": {
+        "id": "BT22-MARGIN-WIDTH-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Sections6-8: W=4sqrt(m) makes displayed guarantee vacuous; positive margin need not be inverse polynomial; polynomial width bit length does not imply polynomial approximation value.",
+        "disposition": "V2 expressly separates numeric certificate, positive success, amplification margin and represented execution costs.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "RT2-WEIGHTED-FV1",
+      "provenance": {
+        "id": "RT2-WEIGHTED-FV1",
+        "path": "criticism/RT2/finite-stdout-v1.json",
+        "sha256": "0f119e71f93ff7a32f25904eb1bfa08f9f2c0c6848c5e2b8e69c88882a75cb3c",
+        "description": "1152 exact weighted pairs,625 multiplier-module cases; sample-dependent a violates fresh-moment formula, TV does not bound moments, CP1 and zero branches retained. Exact finite laws only.",
+        "disposition": "No accepted theorem permits adaptive fresh-sample multiplier or moment transfer through bare TV; complete new-gate dispositions pending."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "BT20-VACUITY-1",
+      "provenance": {
+        "id": "BT20-VACUITY-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "n=m4,J=(3,z\u00b2+z+2),rho7/8,a1,W8,h1/4: all parameters constant but declared failure certificate is1; nonvacuity separate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "BT20-RETRY-MARGIN-1",
+      "provenance": {
+        "id": "BT20-RETRY-MARGIN-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W16,h1/2-2^-b: declared success bound2^-b despite polynomial numeric size; positive bound alone does not certify polynomial expected repetition.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "BT20-WIDTHVALUE-1",
+      "provenance": {
+        "id": "BT20-WIDTHVALUE-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W2^b,h1/4: polynomial width encoding does not give polynomial-value approximation certificate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "RT2-NC1",
+      "provenance": {
+        "id": "RT2-NC1",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Sample-dependent complementary multiplier, exact actual81/2>fresh-bound27/2 and9>11/6.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "RT2-NC2",
+      "provenance": {
+        "id": "RT2-NC2",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "TV1/100 contamination at legal remote ideal point makes moment arbitrarily large; only bounded events transfer.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "RT2-NC3",
+      "provenance": {
+        "id": "RT2-NC3",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Common fair bit has exact uniform marginals but jointTV1/2 from product; no restored independence.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "BT21-VACUITY-1",
+      "provenance": {
+        "id": "BT21-VACUITY-1",
+        "path": "criticism/BT21/report-v1.md",
+        "sha256": "083a1b0e2143e35ab8e9c00ce977650a50d522e2d732c1681780b49d3b728e03d",
+        "description": "Independent norm9 prime,n=m4,W8,h1/2,rho7/8 gives zero stated success lower bound despite constant numeric parameters; not actual failure lower bound.",
+        "disposition": "Clean sealed blind exact symbolic control. V1 compact wording ambiguity preserved; v2 states separate success and conditional moment assumptions explicitly."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "BT21-ADAPTIVE-MULTIPLIER-1",
+      "provenance": {
+        "id": "BT21-ADAPTIVE-MULTIPLIER-1",
+        "path": "criticism/BT21/report-v1.md",
+        "sha256": "083a1b0e2143e35ab8e9c00ce977650a50d522e2d732c1681780b49d3b728e03d",
+        "description": "For each finite high-mass subset of J choose integral-scaled gamma/x in C with Pi(gamma)=0; exact X marginal can projectzero near surely under correlated multiplier. Freshness/joint premise essential.",
+        "disposition": "Clean sealed blind exact symbolic control. V1 compact wording ambiguity preserved; v2 states separate success and conditional moment assumptions explicitly."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "BT22-TV-MOMENT-1",
+      "provenance": {
+        "id": "BT22-TV-MOMENT-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Section6: eta contamination by remote ideal point preserves TV bound but makes the projected moment unbounded.",
+        "disposition": "V2 transfers only full failure events; exact moment applies only to independent exact Gaussian reference.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "BT22-JOINT-MULTIPLIER-1",
+      "provenance": {
+        "id": "BT22-JOINT-MULTIPLIER-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Section6: finite high-mass set admits correlated bounded complementary multipliers in trace kernels; exact X marginal still gives near-certain zero output. n2,m4,norm9 factorization gives an admissible instance.",
+        "disposition": "V2 requires fixed independent multiplier, pointwise conditional TV or complete joint TV; marginal-only extension rejected.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "F-QCOH-v1",
+      "id": "BT22-MARGIN-WIDTH-1",
+      "provenance": {
+        "id": "BT22-MARGIN-WIDTH-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Sections6-8: W=4sqrt(m) makes displayed guarantee vacuous; positive margin need not be inverse polynomial; polynomial width bit length does not imply polynomial approximation value.",
+        "disposition": "V2 expressly separates numeric certificate, positive success, amplification margin and represented execution costs.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "id": "RT2-WEIGHTED-FV1",
+      "provenance": {
+        "id": "RT2-WEIGHTED-FV1",
+        "path": "criticism/RT2/finite-stdout-v1.json",
+        "sha256": "0f119e71f93ff7a32f25904eb1bfa08f9f2c0c6848c5e2b8e69c88882a75cb3c",
+        "description": "1152 exact weighted pairs,625 multiplier-module cases; sample-dependent a violates fresh-moment formula, TV does not bound moments, CP1 and zero branches retained. Exact finite laws only.",
+        "disposition": "No accepted theorem permits adaptive fresh-sample multiplier or moment transfer through bare TV; complete new-gate dispositions pending."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "id": "BT20-VACUITY-1",
+      "provenance": {
+        "id": "BT20-VACUITY-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "n=m4,J=(3,z\u00b2+z+2),rho7/8,a1,W8,h1/4: all parameters constant but declared failure certificate is1; nonvacuity separate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "id": "BT20-RETRY-MARGIN-1",
+      "provenance": {
+        "id": "BT20-RETRY-MARGIN-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W16,h1/2-2^-b: declared success bound2^-b despite polynomial numeric size; positive bound alone does not certify polynomial expected repetition.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "id": "BT20-WIDTHVALUE-1",
+      "provenance": {
+        "id": "BT20-WIDTHVALUE-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W2^b,h1/4: polynomial width encoding does not give polynomial-value approximation certificate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "id": "RT2-NC1",
+      "provenance": {
+        "id": "RT2-NC1",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Sample-dependent complementary multiplier, exact actual81/2>fresh-bound27/2 and9>11/6.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "id": "RT2-NC2",
+      "provenance": {
+        "id": "RT2-NC2",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "TV1/100 contamination at legal remote ideal point makes moment arbitrarily large; only bounded events transfer.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "id": "RT2-NC3",
+      "provenance": {
+        "id": "RT2-NC3",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Common fair bit has exact uniform marginals but jointTV1/2 from product; no restored independence.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "id": "BT21-VACUITY-1",
+      "provenance": {
+        "id": "BT21-VACUITY-1",
+        "path": "criticism/BT21/report-v1.md",
+        "sha256": "083a1b0e2143e35ab8e9c00ce977650a50d522e2d732c1681780b49d3b728e03d",
+        "description": "Independent norm9 prime,n=m4,W8,h1/2,rho7/8 gives zero stated success lower bound despite constant numeric parameters; not actual failure lower bound.",
+        "disposition": "Clean sealed blind exact symbolic control. V1 compact wording ambiguity preserved; v2 states separate success and conditional moment assumptions explicitly."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "id": "BT21-ADAPTIVE-MULTIPLIER-1",
+      "provenance": {
+        "id": "BT21-ADAPTIVE-MULTIPLIER-1",
+        "path": "criticism/BT21/report-v1.md",
+        "sha256": "083a1b0e2143e35ab8e9c00ce977650a50d522e2d732c1681780b49d3b728e03d",
+        "description": "For each finite high-mass subset of J choose integral-scaled gamma/x in C with Pi(gamma)=0; exact X marginal can projectzero near surely under correlated multiplier. Freshness/joint premise essential.",
+        "disposition": "Clean sealed blind exact symbolic control. V1 compact wording ambiguity preserved; v2 states separate success and conditional moment assumptions explicitly."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "id": "BT22-TV-MOMENT-1",
+      "provenance": {
+        "id": "BT22-TV-MOMENT-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Section6: eta contamination by remote ideal point preserves TV bound but makes the projected moment unbounded.",
+        "disposition": "V2 transfers only full failure events; exact moment applies only to independent exact Gaussian reference.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "id": "BT22-JOINT-MULTIPLIER-1",
+      "provenance": {
+        "id": "BT22-JOINT-MULTIPLIER-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Section6: finite high-mass set admits correlated bounded complementary multipliers in trace kernels; exact X marginal still gives near-certain zero output. n2,m4,norm9 factorization gives an admissible instance.",
+        "disposition": "V2 requires fixed independent multiplier, pointwise conditional TV or complete joint TV; marginal-only extension rejected.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "F-QFINITE-v2",
+      "id": "BT22-MARGIN-WIDTH-1",
+      "provenance": {
+        "id": "BT22-MARGIN-WIDTH-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Sections6-8: W=4sqrt(m) makes displayed guarantee vacuous; positive margin need not be inverse polynomial; polynomial width bit length does not imply polynomial approximation value.",
+        "disposition": "V2 expressly separates numeric certificate, positive success, amplification margin and represented execution costs.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "H-ALIGN-v1",
+      "id": "RT2-WEIGHTED-FV1",
+      "provenance": {
+        "id": "RT2-WEIGHTED-FV1",
+        "path": "criticism/RT2/finite-stdout-v1.json",
+        "sha256": "0f119e71f93ff7a32f25904eb1bfa08f9f2c0c6848c5e2b8e69c88882a75cb3c",
+        "description": "1152 exact weighted pairs,625 multiplier-module cases; sample-dependent a violates fresh-moment formula, TV does not bound moments, CP1 and zero branches retained. Exact finite laws only.",
+        "disposition": "No accepted theorem permits adaptive fresh-sample multiplier or moment transfer through bare TV; complete new-gate dispositions pending."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "H-ALIGN-v1",
+      "id": "BT20-VACUITY-1",
+      "provenance": {
+        "id": "BT20-VACUITY-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "n=m4,J=(3,z\u00b2+z+2),rho7/8,a1,W8,h1/4: all parameters constant but declared failure certificate is1; nonvacuity separate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "H-ALIGN-v1",
+      "id": "BT20-RETRY-MARGIN-1",
+      "provenance": {
+        "id": "BT20-RETRY-MARGIN-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W16,h1/2-2^-b: declared success bound2^-b despite polynomial numeric size; positive bound alone does not certify polynomial expected repetition.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "H-ALIGN-v1",
+      "id": "BT20-WIDTHVALUE-1",
+      "provenance": {
+        "id": "BT20-WIDTHVALUE-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W2^b,h1/4: polynomial width encoding does not give polynomial-value approximation certificate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "H-ALIGN-v1",
+      "id": "RT2-NC1",
+      "provenance": {
+        "id": "RT2-NC1",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Sample-dependent complementary multiplier, exact actual81/2>fresh-bound27/2 and9>11/6.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "H-ALIGN-v1",
+      "id": "RT2-NC2",
+      "provenance": {
+        "id": "RT2-NC2",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "TV1/100 contamination at legal remote ideal point makes moment arbitrarily large; only bounded events transfer.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "H-ALIGN-v1",
+      "id": "RT2-NC3",
+      "provenance": {
+        "id": "RT2-NC3",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Common fair bit has exact uniform marginals but jointTV1/2 from product; no restored independence.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "H-ALIGN-v1",
+      "id": "BT21-VACUITY-1",
+      "provenance": {
+        "id": "BT21-VACUITY-1",
+        "path": "criticism/BT21/report-v1.md",
+        "sha256": "083a1b0e2143e35ab8e9c00ce977650a50d522e2d732c1681780b49d3b728e03d",
+        "description": "Independent norm9 prime,n=m4,W8,h1/2,rho7/8 gives zero stated success lower bound despite constant numeric parameters; not actual failure lower bound.",
+        "disposition": "Clean sealed blind exact symbolic control. V1 compact wording ambiguity preserved; v2 states separate success and conditional moment assumptions explicitly."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "H-ALIGN-v1",
+      "id": "BT21-ADAPTIVE-MULTIPLIER-1",
+      "provenance": {
+        "id": "BT21-ADAPTIVE-MULTIPLIER-1",
+        "path": "criticism/BT21/report-v1.md",
+        "sha256": "083a1b0e2143e35ab8e9c00ce977650a50d522e2d732c1681780b49d3b728e03d",
+        "description": "For each finite high-mass subset of J choose integral-scaled gamma/x in C with Pi(gamma)=0; exact X marginal can projectzero near surely under correlated multiplier. Freshness/joint premise essential.",
+        "disposition": "Clean sealed blind exact symbolic control. V1 compact wording ambiguity preserved; v2 states separate success and conditional moment assumptions explicitly."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "H-ALIGN-v1",
+      "id": "BT22-TV-MOMENT-1",
+      "provenance": {
+        "id": "BT22-TV-MOMENT-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Section6: eta contamination by remote ideal point preserves TV bound but makes the projected moment unbounded.",
+        "disposition": "V2 transfers only full failure events; exact moment applies only to independent exact Gaussian reference.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "H-ALIGN-v1",
+      "id": "BT22-JOINT-MULTIPLIER-1",
+      "provenance": {
+        "id": "BT22-JOINT-MULTIPLIER-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Section6: finite high-mass set admits correlated bounded complementary multipliers in trace kernels; exact X marginal still gives near-certain zero output. n2,m4,norm9 factorization gives an admissible instance.",
+        "disposition": "V2 requires fixed independent multiplier, pointwise conditional TV or complete joint TV; marginal-only extension rejected.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "H-ALIGN-v1",
+      "id": "BT22-MARGIN-WIDTH-1",
+      "provenance": {
+        "id": "BT22-MARGIN-WIDTH-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Sections6-8: W=4sqrt(m) makes displayed guarantee vacuous; positive margin need not be inverse polynomial; polynomial width bit length does not imply polynomial approximation value.",
+        "disposition": "V2 expressly separates numeric certificate, positive success, amplification margin and represented execution costs.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "RF4-SAMEJ-v1",
+      "id": "RT2-WEIGHTED-FV1",
+      "provenance": {
+        "id": "RT2-WEIGHTED-FV1",
+        "path": "criticism/RT2/finite-stdout-v1.json",
+        "sha256": "0f119e71f93ff7a32f25904eb1bfa08f9f2c0c6848c5e2b8e69c88882a75cb3c",
+        "description": "1152 exact weighted pairs,625 multiplier-module cases; sample-dependent a violates fresh-moment formula, TV does not bound moments, CP1 and zero branches retained. Exact finite laws only.",
+        "disposition": "No accepted theorem permits adaptive fresh-sample multiplier or moment transfer through bare TV; complete new-gate dispositions pending."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "RF4-SAMEJ-v1",
+      "id": "BT20-VACUITY-1",
+      "provenance": {
+        "id": "BT20-VACUITY-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "n=m4,J=(3,z\u00b2+z+2),rho7/8,a1,W8,h1/4: all parameters constant but declared failure certificate is1; nonvacuity separate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "RF4-SAMEJ-v1",
+      "id": "BT20-RETRY-MARGIN-1",
+      "provenance": {
+        "id": "BT20-RETRY-MARGIN-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W16,h1/2-2^-b: declared success bound2^-b despite polynomial numeric size; positive bound alone does not certify polynomial expected repetition.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "RF4-SAMEJ-v1",
+      "id": "BT20-WIDTHVALUE-1",
+      "provenance": {
+        "id": "BT20-WIDTHVALUE-1",
+        "path": "criticism/BT20/report-v1.md",
+        "sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+        "description": "Same ideal,W2^b,h1/4: polynomial width encoding does not give polynomial-value approximation certificate.",
+        "disposition": "Supporting theorem-only hand control preserved; BT20 premature assessment disqualifies strict sealed blind gate. Frozen weighted statement keeps separate success/value conditions."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "RF4-SAMEJ-v1",
+      "id": "RT2-NC1",
+      "provenance": {
+        "id": "RT2-NC1",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Sample-dependent complementary multiplier, exact actual81/2>fresh-bound27/2 and9>11/6.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "RF4-SAMEJ-v1",
+      "id": "RT2-NC2",
+      "provenance": {
+        "id": "RT2-NC2",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "TV1/100 contamination at legal remote ideal point makes moment arbitrarily large; only bounded events transfer.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "RF4-SAMEJ-v1",
+      "id": "RT2-NC3",
+      "provenance": {
+        "id": "RT2-NC3",
+        "path": "criticism/RT2/full-review-v1.md",
+        "sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+        "description": "Common fair bit has exact uniform marginals but jointTV1/2 from product; no restored independence.",
+        "disposition": "Rejected extension, not the frozen weighted theorem. Exact code/laws in RT2-WEIGHTED-FV1."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "RF4-SAMEJ-v1",
+      "id": "BT21-VACUITY-1",
+      "provenance": {
+        "id": "BT21-VACUITY-1",
+        "path": "criticism/BT21/report-v1.md",
+        "sha256": "083a1b0e2143e35ab8e9c00ce977650a50d522e2d732c1681780b49d3b728e03d",
+        "description": "Independent norm9 prime,n=m4,W8,h1/2,rho7/8 gives zero stated success lower bound despite constant numeric parameters; not actual failure lower bound.",
+        "disposition": "Clean sealed blind exact symbolic control. V1 compact wording ambiguity preserved; v2 states separate success and conditional moment assumptions explicitly."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "RF4-SAMEJ-v1",
+      "id": "BT21-ADAPTIVE-MULTIPLIER-1",
+      "provenance": {
+        "id": "BT21-ADAPTIVE-MULTIPLIER-1",
+        "path": "criticism/BT21/report-v1.md",
+        "sha256": "083a1b0e2143e35ab8e9c00ce977650a50d522e2d732c1681780b49d3b728e03d",
+        "description": "For each finite high-mass subset of J choose integral-scaled gamma/x in C with Pi(gamma)=0; exact X marginal can projectzero near surely under correlated multiplier. Freshness/joint premise essential.",
+        "disposition": "Clean sealed blind exact symbolic control. V1 compact wording ambiguity preserved; v2 states separate success and conditional moment assumptions explicitly."
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "RF4-SAMEJ-v1",
+      "id": "BT22-TV-MOMENT-1",
+      "provenance": {
+        "id": "BT22-TV-MOMENT-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Section6: eta contamination by remote ideal point preserves TV bound but makes the projected moment unbounded.",
+        "disposition": "V2 transfers only full failure events; exact moment applies only to independent exact Gaussian reference.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "RF4-SAMEJ-v1",
+      "id": "BT22-JOINT-MULTIPLIER-1",
+      "provenance": {
+        "id": "BT22-JOINT-MULTIPLIER-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Section6: finite high-mass set admits correlated bounded complementary multipliers in trace kernels; exact X marginal still gives near-certain zero output. n2,m4,norm9 factorization gives an admissible instance.",
+        "disposition": "V2 requires fixed independent multiplier, pointwise conditional TV or complete joint TV; marginal-only extension rejected.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    },
+    {
+      "claim": "RF4-SAMEJ-v1",
+      "id": "BT22-MARGIN-WIDTH-1",
+      "provenance": {
+        "id": "BT22-MARGIN-WIDTH-1",
+        "path": "criticism/BT22/report-v1.md",
+        "sha256": "4adc063144310a62784ea050c8dc27f45e1e0c9063e2eaf6ecf3e4eb446a99a5",
+        "description": "Sections6-8: W=4sqrt(m) makes displayed guarantee vacuous; positive margin need not be inverse polynomial; polynomial width bit length does not imply polynomial approximation value.",
+        "disposition": "V2 expressly separates numeric certificate, positive success, amplification margin and represented execution costs.",
+        "method": "Sealed blind symbolic boundary control; no new experiment or expanded claim"
+      },
+      "disposition": "NO_DEPENDENCY_CHANGE",
+      "reason": "This exact accepted scope does not infer Gaussian/joint independence from marginal law, transfer unbounded moments through TV, supply a sample-dependent complementary multiplier, or infer efficient success and numeric width from parameter bit lengths. Its frozen full-law/conditioning and charged finite-cost premises remain unchanged. Weighted theorem and its rejected compact version are not dependencies. New finite/symbolic controls are preserved in their stated scope."
+    }
+  ]
+}

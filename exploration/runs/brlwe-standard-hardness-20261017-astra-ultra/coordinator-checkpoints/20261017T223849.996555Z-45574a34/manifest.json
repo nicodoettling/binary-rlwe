@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261017T223849.996555Z-45574a34",
+  "kind": "foreground-standard3-prestop",
+  "created_at": "2026-10-17T22:38:49.996580+00:00",
+  "reason": "User requested Standard-speed restart and three agents, same goal within existing deadline",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 31627,
+      "sha256": "30cbf9c8b749390f225de714af4716f250d26ce4fab75297ac2451b119f81bc9"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 3756,
+      "sha256": "40bd3020f9b62e6d0fa29a5471aba1e4555f65efd4d3fbdb66b34acc4f34af6b"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 3174,
+      "sha256": "248279414f362c294250d80bdfb4d34654829318b827de2b767a13292829b7ec"
+    },
+    {
+      "path": "final.md",
+      "bytes": 12709,
+      "sha256": "685194cd91d3025ddedccf4c3a23e358fc9d81c4792eb4a9ad05b03c87444b25"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 14179,
+      "sha256": "4ab5ac795d41a7527ff4832528506a37a5dcab0bf145c1f31c79df4f18f3ff61"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

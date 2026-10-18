@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261017T214212.047648Z-aa2eb279",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-17T21:42:12.047678+00:00",
+  "reason": "Current reduction graph and runtime/experiment records reconciled",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 24109,
+      "sha256": "e41433fed1688fdc0e0ceee65eb3e66855f770c7a9671f926c68d3316f4955ea"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 5303,
+      "sha256": "a2c2794a06e323ac42d5370f96de7ae953c7e54f5699dd519fd27c7feadf2c34"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 3909,
+      "sha256": "48faf1cfc38c448e111e14dc25dcd7d13320ba7742b8f87a7f94917eec457aa2"
+    },
+    {
+      "path": "final.md",
+      "bytes": 10714,
+      "sha256": "fc0f9f94289b7965dc7d17bc003e775a8d25e2f00c5ac1bdb0618ea238e964f4"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 12615,
+      "sha256": "8c7a04bd4629749bc23ea03a2cbef4ddabb00a9d56cbd1c8259d5cc2f3f3310e"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261017T210900.722865Z-28b400be",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-17T21:09:00.722887+00:00",
+  "reason": "Accepted exact conditional A-FRAC analytic theorem; B fresh blind and SuperSVP controls continue",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 15998,
+      "sha256": "af8e1accad47efd19ac6d13d31ec5e8e963db49af9a3e813c5571a7e0ef68e8e"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 6474,
+      "sha256": "cf8a29fe0e784a562e4ed5bc78d5b8d3d17659602808fdf0d11f9c55eddb8103"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 5502,
+      "sha256": "84ad3b8c09a260a1c6e6cb89706e5fc114ef879c891ed3310419d39ce47753fb"
+    },
+    {
+      "path": "final.md",
+      "bytes": 7573,
+      "sha256": "a48ec2ff9dca1cb3afe9f65451c212051ff5a05036bc23b4b84b2f3ecc672807"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 12386,
+      "sha256": "4f91b6799966138a88ed748ccb13d49f0bc3e6bbad89224f740e35fc9eff9381"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

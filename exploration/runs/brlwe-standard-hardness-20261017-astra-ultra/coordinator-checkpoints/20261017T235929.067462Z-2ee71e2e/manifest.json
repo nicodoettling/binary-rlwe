@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261017T235929.067462Z-2ee71e2e",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-17T23:59:29.067483+00:00",
+  "reason": "BT16 sealed favorable; F finite quantum v2 frozen; actual BT17+RF4 review team started",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 41738,
+      "sha256": "b330d430ed7e93d65cbec1aae4af6781e2d86862903a4a1ac189354393e49f7f"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 1559,
+      "sha256": "b5a57e55164c1cfb3cb22208383ff8f13d3757246257617a55f8dc68ee89ccb8"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 1553,
+      "sha256": "f83cd8b1781542c39298e7972c3ca725bfe34c90f1772f21a52814725d62160e"
+    },
+    {
+      "path": "final.md",
+      "bytes": 15349,
+      "sha256": "0dad9e894c227fec892fe778aca80c2d1ae9e634523d249a166376190fae6307"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 7617,
+      "sha256": "8ab805803662a57982dfb449853f0c7c0490c01b9cf449b89009b43e9cca1238"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

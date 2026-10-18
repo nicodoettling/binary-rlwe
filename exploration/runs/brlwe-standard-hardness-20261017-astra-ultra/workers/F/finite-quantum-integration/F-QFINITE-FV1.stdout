@@ -1,0 +1,45 @@
+{
+  "reservation": "F-QFINITE-FV1",
+  "status": "PASS",
+  "total_exact_checks": 9288,
+  "counts": {
+    "real_filter_amplitude": 67,
+    "real_filter_normalization": 1488,
+    "bounded_retry_full_law": 7440,
+    "complex_counts_nonnegative": 40,
+    "complex_amplitude_error": 40,
+    "phase_preparation_success": 8,
+    "phase_normalization_fidelity": 8,
+    "teleport_success_branch": 30,
+    "teleport_final_clifford": 10,
+    "controlled_phase_decomposition": 40,
+    "coset_conditional_normalizer": 53,
+    "coset_full_joint_reconstruction": 53,
+    "coset_marginal_normalization": 6,
+    "rare_branch_counterexample": 4,
+    "normalizer_counterexample": 1
+  },
+  "rare_branch_counterexamples": [
+    {
+      "eta": "1/4",
+      "conditional_bad_branch_trace_distance": "1",
+      "joint_purification_error_squared": "1/2"
+    },
+    {
+      "eta": "1/16",
+      "conditional_bad_branch_trace_distance": "1",
+      "joint_purification_error_squared": "1/8"
+    },
+    {
+      "eta": "1/64",
+      "conditional_bad_branch_trace_distance": "1",
+      "joint_purification_error_squared": "1/32"
+    },
+    {
+      "eta": "1/256",
+      "conditional_bad_branch_trace_distance": "1",
+      "joint_purification_error_squared": "1/128"
+    }
+  ],
+  "scope": "Finite algebra/conditioning controls only; no Gaussian transcendental estimate, complete circuit, or asymptotic theorem certified."
+}

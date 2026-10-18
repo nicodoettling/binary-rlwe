@@ -1,0 +1,24 @@
+{
+  "counts": {
+    "CP1_key_acceptance": 1,
+    "CP1_posterior_A": 2,
+    "CP1_posterior_C": 2,
+    "CP1_reject_marginal_product": 1,
+    "CP1_selected_residual": 2,
+    "CP1_strict_lightness": 2,
+    "entangled_adaptive_exact_channel": 48,
+    "entangled_imperfect_channel_hermitian": 96,
+    "entangled_imperfect_complete_channel_trace": 96,
+    "negative_control_collision_paid": 3,
+    "normalized_overlap_inequality": 1350,
+    "periodization_exact_cross_terms": 1456,
+    "retry_complete_law": 48,
+    "retry_state_independent_of_count": 192,
+    "small_tail_does_not_control_periodization": 3,
+    "unequal_success_negative_control": 1
+  },
+  "scope": "Finite algebra, complete conditional/retry laws and original CP-1 only; no Gaussian transcendental or full huge circuit execution.",
+  "seed": null,
+  "status": "PASS",
+  "total_exact_checks": 3303
+}

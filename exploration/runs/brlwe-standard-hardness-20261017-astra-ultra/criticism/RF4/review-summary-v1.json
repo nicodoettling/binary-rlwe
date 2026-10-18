@@ -1,0 +1,54 @@
+{
+  "role": "RF4 independent NONBLIND",
+  "main_verdict": "SUPPORTED recommendation; coordinator acceptance not granted",
+  "main_inputs": {
+    "theorem": "ce7f5992b071f7d82e5e034a7dc323f69a85d0f4969afa0530603527bc7338e2",
+    "algorithm": "1ea3e1ab1c297773d591a3bd983ff278f31cdafcd459acd29076a3867ede2545",
+    "proof": "1430f62a7c670c682fef2cfc2b14d15f17c45e877fe3d598cc7a040cc1a69144"
+  },
+  "standalone_mathematical_gaps_found": [],
+  "interpretation_notes": [
+    "Measured label expression is its retained-record purification.",
+    "Numerical gate bound measures actual compiled-circuit execution, not arbitrary host compiler serialization."
+  ],
+  "same_J_composition": "SUPPORTED with unchanged exact A/B-bounded/C8 contracts and both endpoint charges",
+  "parameter_witness_v3": "SUPPORTED after preserved t and binary-framing corrections",
+  "experiments": [
+    {
+      "id": "RF4-FV1",
+      "status": "PASS",
+      "exact_checks": 3303,
+      "exit_code": 0,
+      "wall_seconds": 0.12,
+      "max_rss_kib": 11264
+    },
+    {
+      "id": "RF4-PARAM-FV2",
+      "status": "PASS",
+      "exact_assertions": 328,
+      "exit_code": 0,
+      "wall_seconds": 0.03,
+      "max_rss_kib": 16384
+    }
+  ],
+  "frozen_hash_checks": {
+    "count": 37,
+    "match": true
+  },
+  "still_open": [
+    "Standard arbitrary-ideal family connection and complete binary standard-hardness foundation."
+  ],
+  "not_claimed": [
+    "Blind referee acceptance.",
+    "Execution or emission of enormous quantum circuit.",
+    "Security of n=16 witness.",
+    "Independence as statistical confirmation."
+  ],
+  "reports": [
+    "full-proof-report-v1.md",
+    "source-parameter-complexity-report-v1.md",
+    "regression-review-v1.md",
+    "artifact-consistency-v1.md",
+    "parameter-witness-review-v3.md"
+  ]
+}

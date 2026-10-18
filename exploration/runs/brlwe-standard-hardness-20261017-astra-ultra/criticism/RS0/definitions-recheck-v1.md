@@ -1,0 +1,3 @@
+# RS0 exact notation-supplement recheck
+
+The explicit definitions file criticism/BT2/input/definitions-v1.md (SHA256 4ba9148908f11b77f3c3eefc9a74064344aa50ae6df1a8dcd987591ee38b02fd) states that the BBPS paragraph uses the canonical embedding infinity norm. This matches the convention used in my frozen source/parameter review and the retrieved primary family. It does not change its scoped PASS recommendation. The coefficient infinity norm remains explicit for small masks. No new mathematical premise or standard-hardness conclusion is certified here. Original report and theorem/proof bytes are unchanged. This is a source/notation recheck, separate from the structural artifact check and full/blind proof reviews.

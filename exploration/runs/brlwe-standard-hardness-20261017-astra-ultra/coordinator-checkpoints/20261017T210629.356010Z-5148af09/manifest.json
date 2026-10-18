@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261017T210629.356010Z-5148af09",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-17T21:06:29.356032+00:00",
+  "reason": "Full conditional A/B reviews, SuperSVP assignments and bounded CRT control reservation",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 15093,
+      "sha256": "04fb266a2488635388e95ee9153750f993002487ecaa09d0aba894b88ec13b81"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 5986,
+      "sha256": "2d098edb2806f2a50db2d068f0e2a11585e3800d34549c663cd155bd34ae5257"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 5014,
+      "sha256": "3c6271814010e1596ed262865a3001395108c4824effc677183974310feeceda"
+    },
+    {
+      "path": "final.md",
+      "bytes": 7085,
+      "sha256": "345988c4c6f2f92559b16a0fe9c10b7a8817ebf1973864726fcbf2544808db4d"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 12347,
+      "sha256": "d39d0e2b5854af5e0db887af1bfafe90d87654bf43087bcacae2c7978dfb5587"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

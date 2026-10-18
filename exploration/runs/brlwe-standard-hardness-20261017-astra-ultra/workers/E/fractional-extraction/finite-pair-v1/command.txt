@@ -1,0 +1,4 @@
+Reservation: E-PAIR-1, coordinator approval in collaboration message 2026-10-17.
+Working directory: /home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/E/fractional-extraction/finite-pair-v1
+timeout 30s python3 -B check.py > stdout.json 2> stderr.txt
+The script enforces a 30s alarm and 256MiB address-space limit. No installation, external process or detached job. Exact deterministic 81-state/6561-pair calculation. SHA256 and resource outputs preserved.

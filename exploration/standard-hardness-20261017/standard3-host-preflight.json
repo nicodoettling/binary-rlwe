@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-10-17T22:38:57.461466+00:00",
+  "wrapper": "/home/nico/projects/research_projects/binaryRLWE/exploration/standard-hardness-20261017/codex-standard-speed.sh",
+  "sandbox_preflight": {
+    "bwrap_path": "/usr/bin/bwrap",
+    "bwrap_version": "bubblewrap 0.9.0",
+    "bwrap_uid": 0,
+    "bwrap_gid": 999,
+    "bwrap_group": "codex-bwrap",
+    "bwrap_mode": "0750",
+    "gate_group": "codex-bwrap",
+    "gate_gid": 999,
+    "current_group_ids": [
+      100,
+      999,
+      1002,
+      1007
+    ],
+    "tmux_server_pids": [
+      348555
+    ],
+    "codex_sandbox_exit": 0
+  }
+}

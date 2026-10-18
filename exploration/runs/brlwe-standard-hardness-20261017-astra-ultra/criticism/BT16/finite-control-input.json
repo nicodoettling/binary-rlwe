@@ -1,0 +1,8 @@
+{
+  "mode": "exhaustive_exact_no_seed",
+  "moduli": [2, 3, 5],
+  "sample_counts": [0, 1, 2],
+  "cp1_table": [21, 200, 200, 1579],
+  "posterior_modulus": 5,
+  "reservation": "BT16-FV1: one foreground job, 120 seconds, 256 MiB"
+}

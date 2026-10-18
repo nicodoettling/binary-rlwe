@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "exact_assertions": 328,
+  "source_certificate_sha256": "bdc9ea7aa9ba63f59a2ed52a16ee1cdbe31334cee469364c74a1cf39fd98611d",
+  "repaired_t": 4608,
+  "tau2": 512,
+  "source_gap": "1/32",
+  "Qstar_bits": 600,
+  "d0": "81/67108864",
+  "B_len": 859028,
+  "A_eval": 863357,
+  "G0_bits": 1627,
+  "quantum_parameters": {
+    "W": 64,
+    "H_log2": 179,
+    "N_log2": 267,
+    "signed_coordinate_bits": 2823,
+    "m": 45168,
+    "p_g": 100,
+    "p_ph": 123,
+    "R_g": 16777216,
+    "R_ph": 7872,
+    "M_ph": 379503424
+  },
+  "TV_upper": "3145745/549755813888",
+  "seed": null,
+  "arithmetic": "exact integers/fractions; actual binary encoding/decoding",
+  "independent_method": "closed-form evaluation-ideal dual and adjugate; no author Gaussian elimination executed",
+  "scope": "finite conditional parameter compatibility only; no Rec, BDD walk or quantum circuit executed"
+}

@@ -1,0 +1,9 @@
+Current continuation is workers/D/next-mechanisms/resume.md. Follow exact assignment-v1.md there; all prior reviews frozen.
+
+2026-10-17T21:40Z: Exact C6 full review and all51 regression addendum frozen. Explicit finite gate survives with causal corrected-walk martingale proof completion; no future-success conditioning. Source hardness remains OPEN. Next read B standard-RLWE decomposition/composition. No experiment active; D correction remains WAIT; cap read21:39.
+
+2026-10-17 after21:42:34Z: C6 finite/CP1 gate explicitly OPEN pending adoption/recheck of causal reference-walk proof supplement; exact wording disposition frozen. Standard-decomposed v1 and repaired canonical v2 full review frozen; v1 unreachable-key target-law defect preserved. No experiment active. Next await root priorities or audit ring decision/search; joint-preimage correction experiment remains WAIT.
+
+2026-10-17T21:49:55Z: D-ENTROPY-1 completed/released; exact r8 norm2176 and248 binary cosets. Frozen fixed-block-theorem-proof-v1.md fe29ee58bf91aee2739298f44f72f08ec3b72a9dbf7a3ea6e31dd67faec9124d proves exponential actual-secret lossiness at D>2^n, but public F gives efficient source test. Next analyze sparse growing-support relations using conditional Gaussian cosets, without multiplying unconditioned success estimates. No experiment active; no new reservation. C6 proof gate awaits explicit causal supplement; standard composition v2 and DS v2 reviewed. Original cap unchanged.
+
+After21:51:29Z: relaxed-guessing assignment complete and checkpoint-v1 frozen. Concrete high-index exponential guessing established provisionally; explicit source easy; sparse hidden-generator extension remains nonstandard and norm-restricted. No experiment active. All latest hashes and C6 CP1 open proof gate are in the checkpoint. Ready for independent review or a new coordinator task; no goal completion claimed.

@@ -1,0 +1,7 @@
+# B-SUP-5 exact two-row and normalizer control
+
+Status: finite control, not proof certification. Root authorized30s/256MiB. Completed and released at21:39:48UTC; no random seed, exhaustive integer/rational arithmetic. Code control-two-row-v1.py SHA2562d5442158082eb9e94562fb457d318c3ca3276b59ecee23106e926ddd4e36214. Original stdout control-two-row-v1.stdout.json SHA256cefcd0c79250b1c16d9f908b42aa85d840ebc9c4889025f0c3628bdc0153ed7f. Command preserved in control-two-row-v1.command.txt; stderr empty. Exit0, elapsed0.005064202s, maximum RSS11264KiB,30s CPU/wall and256MiB address-space caps.
+
+n2,q5,m1, two independent ring key rows:625 keys times9 ternary source elements,5625 joint evaluations. Average chi-square equals2000/27 exactly, matching the projected-collision identity with coefficient(q²-1)^|S|; bound K2=80. Single-root collision probabilities are17/81 and full collision1/9. Thus replacing(q-1) by(q²-1) for two retained ring rows passes this finite check.
+
+Separate shared-R control uses coefficient weights1,2,1 on{-1,0,1}. Enumerating729 triples (R,V1,V2) with V1+R=0,V2+R=1 gives conditional total weight60 and actual normalizer15/1024. The proposed R-prior times product of its two syndrome masses, divided by that actual expectation, matches every conditional R probability. Omitting the reweighting changes this marginal by TV17/40. This explicitly falsifies an unqualified independent-R replacement; the theorem requires and charges pointwise coset flatness.

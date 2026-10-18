@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261017T235231.002356Z-9de4a1ae",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-17T23:52:31.002392+00:00",
+  "reason": "Actual three-agent evidence; BT16 experiment complete; nine auxiliary scopes and unresolved same-goal foundation",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 40948,
+      "sha256": "f692355fc593e890c4e5e45a7db178c22c28621f0f0ba80aa47621dfc8770e10"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 1162,
+      "sha256": "acfb958d6bc2aa9e3f21479f9c9b5dd44aeb741c834e52f0eeb433bd1f989cb6"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 1156,
+      "sha256": "7858f59013b79bcc3d0c968384cb9010d7a12f9667e5e211a2f4d4675c834582"
+    },
+    {
+      "path": "final.md",
+      "bytes": 14952,
+      "sha256": "3483a3784aa871c14543733ed9b88d28a056a30ec796497dd3dd36ee0132462e"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 7664,
+      "sha256": "6e756d08f7eaab67dd02c3d46fbbfc30fb3d410e5e750ff9870965fd6e2f7c17"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

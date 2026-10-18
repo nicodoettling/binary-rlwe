@@ -1,0 +1,29 @@
+[
+  {
+    "label": "theorem",
+    "old": "workers/C/periodic-hardness/multiplier-ohcp-theorem-v7.md",
+    "old_sha256": "68ac0c763ebb1daa9ae4a0e8bf5d3c1fb665c130b37f36cfdb6ade0bcbcd56f2",
+    "new": "coordinator/c8-repair/multiplier-ohcp-theorem-v8.md",
+    "new_sha256": "857a62e9f4a937a80e5cb3b115c8b132abf122c16665d29b39dcb62bde86fe0a",
+    "diff": "theorem-exact-diff-v1.patch",
+    "diff_sha256": "3cfd064aa6c32c54f2253b9da58c9b2a1f308c98304b2813e2e4a1e3591d1c25"
+  },
+  {
+    "label": "algorithm",
+    "old": "workers/C/periodic-hardness/multiplier-ohcp-algorithm-v1.md",
+    "old_sha256": "9fe1353d605a94cb82842626b305c018b045106daec1fd16581c8bc588f94c65",
+    "new": "coordinator/c8-repair/multiplier-ohcp-algorithm-v2.md",
+    "new_sha256": "4361c90a7fa7cfe25d0ab3e8cd5c5333fb474cf1fb764375e10c29fca5102735",
+    "diff": "algorithm-exact-diff-v1.patch",
+    "diff_sha256": "c4e957e2f581d595ffffccdb6065d1e578c16b03472c36043567d1570294285d"
+  },
+  {
+    "label": "proof",
+    "old": "workers/C/periodic-hardness/multiplier-ohcp-proof-v8.md",
+    "old_sha256": "508fba4aff482971a65a48e17730454c91f4f18fce35155899a00486a4bd4dd0",
+    "new": "coordinator/c8-repair/multiplier-ohcp-proof-v9.md",
+    "new_sha256": "e9b3023715a3d4ec90c474aba6945223aa376248b1fa216134964a5643fb4c5f",
+    "diff": "proof-exact-diff-v1.patch",
+    "diff_sha256": "211f3ebe6277c4b209e43ace689f1aec4dbc5190abcf058ca050ea1f8619c424"
+  }
+]

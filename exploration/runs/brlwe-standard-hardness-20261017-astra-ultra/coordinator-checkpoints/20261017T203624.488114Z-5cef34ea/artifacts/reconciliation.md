@@ -1,0 +1,11 @@
+# Current reconciliation
+
+Updated 2026-10-17T20:36:24.481718+00:00. Session/native goal 01a14b7b-9e45-7b70-b46d-0bf70e17f2e2 is active; no token budget. Service start2026-10-17T20:09:14.894509Z; wrap-up2026-10-18T01:39:14.894509Z; worker stop01:59:14.894509Z; graceful02:08:09.894509Z; hard02:09:14.894509Z. The service sidecar reports running; independent systemd/tmux health query is sandbox-denied, not a policy interruption. No launcher exit or cleanup observed. No automatic work scheduled.
+
+Computational foundation OPEN. D-THETA-v1 accepted only as scoped analytic obstruction, after A full proof and notation recheck; RS0 primary-source/parameter and notation recheck; fresh BT2 independent blind proof; all51 inherited regression dispositions and exact ROOT-CP1-1 reconstruction; separate artifact consistency. All exact hashes in claims.json and coordinator/theta-artifact-consistency-v1.json. No dependency on provisional A-ADM or C-UNI. BBPS publication attribution is verified by RS0, not blind BT2.
+
+BT1 outside-source snippet exposure is preserved in criticism/BT1/exposure-20261017T2024Z.md. Its report is nonblind and never used to close blind gate. BT2 read only frozen theorem, explicit definitions, generic audit references and cap; report hash83a64152339806ad997c95b17cb9d089b734c0728099cc7deb26a23eaac97f26 frozen before disclosure. Same-model role diversity is correlated scrutiny.
+
+B-LSW-v1 remains provisional with normalizer recheck required. D's exact scalar theta-normalizer objection was saved before repair; sufficient smoothing may make an approximate version valid, but constants cannot be inherited unexamined. C-FAM-v1's illustrative tower relation was wrong; v2 and correction preserved, neither accepted. A-ADM, A-BIN, A-SYN-LLL, C-UNI and remaining candidate maps are provisional, not dependencies of D-THETA.
+
+Historical narrative before this update is preserved in coordinator/narrative-history/ and immutable core snapshots. Goal not completed, paused or externally blocked. Next tests: R1 precise leakage simulation and covariance; R2 low-index denominator public endpoint and actual hardness theorem.

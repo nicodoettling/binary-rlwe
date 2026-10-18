@@ -1,0 +1,5 @@
+# Resume C8 full review
+
+Read assignment-v1.md. The authoritative triple is C/periodic-hardness theorem-v7, algorithm-v1, proof-v8, hashes in assignment. Root asks FULL nonauthor review, partial22:10/full22:20 UTC. No experiments without reservation; do not read upcoming blind materials. C7 scoped causal review was PASS but no full certification is inherited. Class-changing work is frozen and should resume only if useful after this gate.
+
+At22:01 full-proof-review-v1.md is complete. Exact triple is REJECTED as a complete bounded finite algorithm only at C8-FV1: Section 8 does not define a rational threshold when d0 is a general computable real. Analytic and sampler estimates pass this nonauthor review. Root agreed the defect must be preserved before repair. finite-verification-gap-before-repair-v1.md and full report are immutable; new repair requires new hashes and a separate recheck. Own only workers/A/c8-review during this assignment. No new experiment has run. Class-word work may resume only after this report is delivered and only if useful under root's last steering about short-word existence versus constructive membership.

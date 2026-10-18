@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261017T212646.296291Z-652f4564",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-17T21:26:46.296314+00:00",
+  "reason": "BT5 limited verdict reconciled, finiteOHCP source gate open, BT6 spawned,23jobscomplete",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 20436,
+      "sha256": "01b91de60a3bcd6589e46f63538f72023c9cc48b00bb378985cf701f5f94006d"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 3380,
+      "sha256": "2ed0d142b95132133f57b15aa44a39498aee134a86525b78c5a81c45743996e7"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 1986,
+      "sha256": "c11090b7cfd23350ebf5b54eac4a8026e87b524a45e7bfc8b8f47870bca61471"
+    },
+    {
+      "path": "final.md",
+      "bytes": 8791,
+      "sha256": "840afb348f3b85e8eedbda4edd1fd42148cb32ad02e0b63b39b1355dcf0ad7e7"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 12579,
+      "sha256": "fe59dd413941c187a948e240ab17aec2f42f88453d5c2ff2c60adb81c4c26caf"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

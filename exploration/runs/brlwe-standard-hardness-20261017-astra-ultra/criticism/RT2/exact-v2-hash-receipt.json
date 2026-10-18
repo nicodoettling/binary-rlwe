@@ -1,0 +1,228 @@
+{
+  "at": "2026-10-18T01:35:28.490470+00:00",
+  "target_sha256_verified": "1345e18aec9ecd74517ba400b03b66f70819dfe327710110d54c2924076e44bf",
+  "prior_artifacts_all_unchanged": true,
+  "prior_artifact_count": 16,
+  "prior_artifact_checks": [
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT2/assignment-preserved-v1.md",
+      "prior_sha256": "a454135dc5d80628b4e94d949d086a188c5e224950447b89c56a4ce5a4900814",
+      "current_sha256": "a454135dc5d80628b4e94d949d086a188c5e224950447b89c56a4ce5a4900814",
+      "unchanged": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT2/assignment-v1.md",
+      "prior_sha256": "a454135dc5d80628b4e94d949d086a188c5e224950447b89c56a4ce5a4900814",
+      "current_sha256": "a454135dc5d80628b4e94d949d086a188c5e224950447b89c56a4ce5a4900814",
+      "unchanged": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT2/checkpoint-v1.md",
+      "prior_sha256": "6ae96cbfece70ee75616d454d0821a97ff4e01ee98a076d59f3702af25763c34",
+      "current_sha256": "6ae96cbfece70ee75616d454d0821a97ff4e01ee98a076d59f3702af25763c34",
+      "unchanged": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT2/dependency-disposition-v1.md",
+      "prior_sha256": "cb42952d845a6976445dfcd221caa1051bc5006c84ce0dd0ab242f1e135046d0",
+      "current_sha256": "cb42952d845a6976445dfcd221caa1051bc5006c84ce0dd0ab242f1e135046d0",
+      "unchanged": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT2/finite-command-v1.txt",
+      "prior_sha256": "9f3afa87c2ad76770ef8cd249d03b48db18a7da37a74bcaf3b7b76df9f359c4d",
+      "current_sha256": "9f3afa87c2ad76770ef8cd249d03b48db18a7da37a74bcaf3b7b76df9f359c4d",
+      "unchanged": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT2/finite-control-v1.py",
+      "prior_sha256": "ed86d8bac078273dd6dbf9c9a60388edd2325367f0f37eabdffdfec3391051cc",
+      "current_sha256": "ed86d8bac078273dd6dbf9c9a60388edd2325367f0f37eabdffdfec3391051cc",
+      "unchanged": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT2/finite-input-v1.json",
+      "prior_sha256": "a7660532104d0f3b3daf65ecb12eeba01ac1bd08e63ff4697fbbcd6e60899246",
+      "current_sha256": "a7660532104d0f3b3daf65ecb12eeba01ac1bd08e63ff4697fbbcd6e60899246",
+      "unchanged": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT2/finite-resources-v1.txt",
+      "prior_sha256": "8885b95015948ac288862fdb9b12e6aad65e1c9d8d41273ba5896f69b9e2fc34",
+      "current_sha256": "8885b95015948ac288862fdb9b12e6aad65e1c9d8d41273ba5896f69b9e2fc34",
+      "unchanged": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT2/finite-stderr-v1.txt",
+      "prior_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "current_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT2/finite-stdout-v1.json",
+      "prior_sha256": "0f119e71f93ff7a32f25904eb1bfa08f9f2c0c6848c5e2b8e69c88882a75cb3c",
+      "current_sha256": "0f119e71f93ff7a32f25904eb1bfa08f9f2c0c6848c5e2b8e69c88882a75cb3c",
+      "unchanged": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT2/finite-summary-v1.md",
+      "prior_sha256": "80f79d1ac4a9a65cff5656a66527e6739e2232f62606c69213284faae7c3f6a1",
+      "current_sha256": "80f79d1ac4a9a65cff5656a66527e6739e2232f62606c69213284faae7c3f6a1",
+      "unchanged": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT2/full-review-v1.md",
+      "prior_sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+      "current_sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+      "unchanged": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT2/input-integrity-check-v1.json",
+      "prior_sha256": "892efe8cd397c21273718ff3e18e3547a7db0bdb7576409056fcc715b525d298",
+      "current_sha256": "892efe8cd397c21273718ff3e18e3547a7db0bdb7576409056fcc715b525d298",
+      "unchanged": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT2/input-manifest-v1.json",
+      "prior_sha256": "df8e90c3c4c07f80e817fa3719242de690fd349e4feb0b1986669a41d62b5755",
+      "current_sha256": "df8e90c3c4c07f80e817fa3719242de690fd349e4feb0b1986669a41d62b5755",
+      "unchanged": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT2/launch-message-v1.txt",
+      "prior_sha256": "a27d1200db403371175ca13cf0e87aa16edfec5aa75384aac7790a9f27adbefd",
+      "current_sha256": "a27d1200db403371175ca13cf0e87aa16edfec5aa75384aac7790a9f27adbefd",
+      "unchanged": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT2/source-complexity-v1.md",
+      "prior_sha256": "047f35d7408c85b6119e3a2a8113d2e38da5fb81ebe08b8425d94ea835d9bfae",
+      "current_sha256": "047f35d7408c85b6119e3a2a8113d2e38da5fb81ebe08b8425d94ea835d9bfae",
+      "unchanged": true
+    }
+  ],
+  "recheck_inputs_all_unchanged": true,
+  "recheck_input_checks": [
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT2/recheck-assignment-v2.md",
+      "frozen_sha256": "4886e6c59c1760b5381f62cdcf86615774b4fffa900b9fe3d768dcc01a5877bf",
+      "current_sha256": "4886e6c59c1760b5381f62cdcf86615774b4fffa900b9fe3d768dcc01a5877bf",
+      "unchanged": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/tower-lift/weighted-v2/theorem-only-v2.md",
+      "frozen_sha256": "1345e18aec9ecd74517ba400b03b66f70819dfe327710110d54c2924076e44bf",
+      "current_sha256": "1345e18aec9ecd74517ba400b03b66f70819dfe327710110d54c2924076e44bf",
+      "unchanged": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/tower-lift/weighted-v2/proof-clarification-v2.md",
+      "frozen_sha256": "d40d202d15a1c495619f88dd719ed0855a26e100bf9fb134def24afbd8cf32bd",
+      "current_sha256": "d40d202d15a1c495619f88dd719ed0855a26e100bf9fb134def24afbd8cf32bd",
+      "unchanged": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/BT20/input/theorem-only-v1.md",
+      "frozen_sha256": "e0e35ca128eea4879bff7d6ddaa685116991077bf4cb83d0ee57f16e8b487b0b",
+      "current_sha256": "e0e35ca128eea4879bff7d6ddaa685116991077bf4cb83d0ee57f16e8b487b0b",
+      "unchanged": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT1/weighted-trace-bridge-v1.md",
+      "frozen_sha256": "6e2eb437a3588ce19b48e9d2cada77785f671133c7a977ed6e0ceebf22982857",
+      "current_sha256": "6e2eb437a3588ce19b48e9d2cada77785f671133c7a977ed6e0ceebf22982857",
+      "unchanged": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT1/moment-improvement-v1.md",
+      "frozen_sha256": "52c71c77591837a31c8e7d0c849d4c782e3237e1b464bb1eaf6d12dc8795df00",
+      "current_sha256": "52c71c77591837a31c8e7d0c849d4c782e3237e1b464bb1eaf6d12dc8795df00",
+      "unchanged": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/tower-lift/product-transfer-v1.md",
+      "frozen_sha256": "2a6f71cee0699e9df2e3b39b27b243b9e2100b1d0ac56f576980a066cd2eb754",
+      "current_sha256": "2a6f71cee0699e9df2e3b39b27b243b9e2100b1d0ac56f576980a066cd2eb754",
+      "unchanged": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT2/full-review-v1.md",
+      "frozen_sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+      "current_sha256": "ca176ee024e6863a0bdf31f17051dd804f8e43091006ec4975de53b74dcec801",
+      "unchanged": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT2/source-complexity-v1.md",
+      "frozen_sha256": "047f35d7408c85b6119e3a2a8113d2e38da5fb81ebe08b8425d94ea835d9bfae",
+      "current_sha256": "047f35d7408c85b6119e3a2a8113d2e38da5fb81ebe08b8425d94ea835d9bfae",
+      "unchanged": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT2/dependency-disposition-v1.md",
+      "frozen_sha256": "cb42952d845a6976445dfcd221caa1051bc5006c84ce0dd0ab242f1e135046d0",
+      "current_sha256": "cb42952d845a6976445dfcd221caa1051bc5006c84ce0dd0ab242f1e135046d0",
+      "unchanged": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT2/finite-control-v1.py",
+      "frozen_sha256": "ed86d8bac078273dd6dbf9c9a60388edd2325367f0f37eabdffdfec3391051cc",
+      "current_sha256": "ed86d8bac078273dd6dbf9c9a60388edd2325367f0f37eabdffdfec3391051cc",
+      "unchanged": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT2/finite-input-v1.json",
+      "frozen_sha256": "a7660532104d0f3b3daf65ecb12eeba01ac1bd08e63ff4697fbbcd6e60899246",
+      "current_sha256": "a7660532104d0f3b3daf65ecb12eeba01ac1bd08e63ff4697fbbcd6e60899246",
+      "unchanged": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT2/finite-stdout-v1.json",
+      "frozen_sha256": "0f119e71f93ff7a32f25904eb1bfa08f9f2c0c6848c5e2b8e69c88882a75cb3c",
+      "current_sha256": "0f119e71f93ff7a32f25904eb1bfa08f9f2c0c6848c5e2b8e69c88882a75cb3c",
+      "unchanged": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/standard3-launcher-run.json",
+      "frozen_sha256": "cf1c5e10751214dc7f5f70cdd7266ed02e47c2c7dcba83276ef03e5646f4b189",
+      "current_sha256": "cf1c5e10751214dc7f5f70cdd7266ed02e47c2c7dcba83276ef03e5646f4b189",
+      "unchanged": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/standard3.log.brlwe-standard-hardness-20261017-standard3.cap-status.json",
+      "frozen_sha256": "d5b6d8fac218d0fdbe55678f297b96d05a7bd662eb4789d173847236fe59ccc9",
+      "current_sha256": "d5b6d8fac218d0fdbe55678f297b96d05a7bd662eb4789d173847236fe59ccc9",
+      "unchanged": true
+    }
+  ],
+  "new_output_files": [
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT2/recheck-assignment-v2.md",
+      "sha256": "4886e6c59c1760b5381f62cdcf86615774b4fffa900b9fe3d768dcc01a5877bf",
+      "bytes": 1209
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT2/recheck-assignment-preserved-v2.md",
+      "sha256": "4886e6c59c1760b5381f62cdcf86615774b4fffa900b9fe3d768dcc01a5877bf",
+      "bytes": 1209
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT2/recheck-input-manifest-v2.json",
+      "sha256": "a580aa34fb421744f40bfc424dc0e622b072fbe0c535a744ed4ce43c0b1cfc84",
+      "bytes": 4458
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT2/statement-diff-v2.patch",
+      "sha256": "38baffd448a18c5a14f68b0f86675b7ec8fc59eb7f8fad432c538d842e860502",
+      "bytes": 5484
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT2/exact-v2-recheck.md",
+      "sha256": "08e87cdce886230b5a94d02c747e6a4809dfcd8ee8b9793c924bcb1652ee3194",
+      "bytes": 9356
+    }
+  ],
+  "new_experiment": false,
+  "blind_or_rejection_files_read": false,
+  "acceptance_issued": false,
+  "receipt_self_excluded": true
+}

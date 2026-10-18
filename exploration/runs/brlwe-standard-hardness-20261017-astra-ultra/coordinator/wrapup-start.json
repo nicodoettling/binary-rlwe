@@ -1,0 +1,20 @@
+{
+  "at": "2026-10-18T01:36:47.066995+00:00",
+  "phase": "wrapup",
+  "discovery_closed": true,
+  "effective_discovery_cutoff": "2026-10-18T01:36:14.695009+00:00",
+  "cap_state_observed": "running",
+  "cap_updated_at": "2026-10-17T22:39:22.794696+00:00",
+  "worker_stop_at": "2026-10-18T01:56:14.695009Z",
+  "graceful_shutdown_at": "2026-10-18T02:05:09.695009+00:00",
+  "hard_deadline_at": "2026-10-18T02:06:14.695009+00:00",
+  "primary_foundation_achieved": false,
+  "native_goal": "active unfinished; no mutation",
+  "allowed_remaining": [
+    "finish existing frozen BT22 review",
+    "reconcile exact review and artifacts",
+    "checkpoint",
+    "orderly delivery/shutdown"
+  ],
+  "new_research_or_experiments_authorized": false
+}

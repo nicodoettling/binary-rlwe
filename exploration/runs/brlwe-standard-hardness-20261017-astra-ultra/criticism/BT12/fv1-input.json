@@ -1,0 +1,19 @@
+{
+  "reservation": "BT12-FV1",
+  "dimensions": [2, 4, 8],
+  "coefficients": [-1, 0, 1],
+  "enumeration": "itertools.product in lexicographic order, including the zero vector once per dimension",
+  "total_vectors": 6651,
+  "approved_amendment": "Coordinator approved <=552 deterministic posterior pairs: J=3R, two noise points, binary secrets for n=2,4,8, with zero-mass branches. The exact count is 552 pairs.",
+  "random_seed": null,
+  "deterministic": true,
+  "wall_time_limit_seconds": 120,
+  "address_space_limit_bytes": 536870912,
+  "preflight_estimate": {
+    "largest_matrix": "8 by 8 integer entries in {-1,0,1}",
+    "determinant_minor_bound": "For k<=8, every k by k minor has absolute determinant at most k^(k/2)<=4096; Bareiss products fit far below 64 bits, and Python uses arbitrary precision integers.",
+    "recursive_norm_working_bound": "At most three tower steps; a deliberately loose 256-bit coefficient allowance exceeds the direct arithmetic growth estimate.",
+    "memory": "Streaming enumeration and output; expected less than 32 MiB, with a hard 512 MiB address-space cap.",
+    "time": "6651 matrices of size at most 8; expected well below 120 seconds."
+  }
+}

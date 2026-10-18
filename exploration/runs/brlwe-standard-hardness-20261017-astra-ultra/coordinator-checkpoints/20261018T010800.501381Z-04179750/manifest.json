@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261018T010800.501381Z-04179750",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-18T01:08:00.501402+00:00",
+  "reason": "Accept exact sameJ composition and main allwidth alignment through closed scoped gates",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 49641,
+      "sha256": "9c22f8186152b889ba9e34b562e28dce35e403af81c15f7ac1aa384b47bfa7d6"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 4539,
+      "sha256": "7f36315325ce841cf8560abad8ce05fa9fcb74c9d1b85fc94dd2a22b0a8cafbf"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 4533,
+      "sha256": "d27f9d543adf2e794f996d6e4101b540564e2d95f8303f6c4b7d6a7036861d47"
+    },
+    {
+      "path": "final.md",
+      "bytes": 10057,
+      "sha256": "f3d27ffc757c36e9a36b32844dbce897e34db82a2e22aa8b7a5bddbbe5d1454a"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 9965,
+      "sha256": "511e1d86a0208a61325a03781f6130ee2c0242d1a3a1834702cea0e5b73aebdd"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

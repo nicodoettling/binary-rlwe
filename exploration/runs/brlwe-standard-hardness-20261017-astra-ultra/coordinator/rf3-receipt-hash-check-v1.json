@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-17T22:34:33.415386+00:00",
+  "checks": {
+    "full-review-v1.md": true,
+    "source-parameter-v1.md": true,
+    "counterexample-attempts-v1.md": true,
+    "partial-v1.md": true,
+    "fractional-endpoint-objections-v1.md": true,
+    "fractional-endpoint-review-v1.md": true,
+    "fractional-endpoint-recheck-v2.md": true
+  },
+  "scope": "Structural only; root read full/source and repaired fractional recheck, remaining targeted reports retained."
+}

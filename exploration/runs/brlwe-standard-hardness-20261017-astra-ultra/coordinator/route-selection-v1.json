@@ -1,0 +1,33 @@
+{
+  "selected_at": "2026-10-17T20:36:24.481718+00:00",
+  "latest_selection_at": "2026-10-17T21:24:14.894509+00:00",
+  "routes": [
+    "R1: response-preserving standard-RLWE transformations with short relations or justified noisy leakage",
+    "R2: low-index denominator/coset source from verified ideal-lattice/NTRU families"
+  ],
+  "basis": "Actual endpoint/noise/entropy calculations from all four first tests; early selection, no requirement to wait75minutes",
+  "deferred": [
+    {
+      "route": "Dense pivot alone",
+      "reason": "Comparator exact, planted broad/correlated error washes out"
+    },
+    {
+      "route": "BBPS erase+ideal-offset",
+      "reason": "Accepted D-THETA scoped statistical-uniformity obstruction under actual published floor"
+    },
+    {
+      "route": "Direct generic coset D to BDD/Fourier",
+      "reason": "Far-query comparator unspecified and sparse phase mass loses advantage; exact C counterexamples"
+    },
+    {
+      "route": "Direct Arakelov/prime-family ideal source",
+      "reason": "Named family norm gives too-large quotient/binary injection; provisional endpoint calculations"
+    },
+    {
+      "route": "Ring tower packing",
+      "reason": "Historical R16 missing responses; corrected graph condition h\u00b2=X does not supply arbitrary public ring map"
+    }
+  ],
+  "goal_remains": "ACTIVE_UNRESOLVED",
+  "route_change_rule": "Evidence-driven alternatives within two current computational routes; scoped obstruction is redirect, not completion"
+}

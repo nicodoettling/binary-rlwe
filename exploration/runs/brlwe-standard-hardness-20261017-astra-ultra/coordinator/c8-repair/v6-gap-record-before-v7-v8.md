@@ -1,0 +1,7 @@
+# Before-repair record: C6/BT7 and causal proof gap
+
+Recorded2026-10-17 at21:48UTC before creating repaired theorem/specification/proof bytes. All C6 originals remain immutable. Exact BT7 report and counterexample are copied byte-for-byte in bt7-preserved/; the original blind report was sealed before unblinding. The report does not refute the BDD conclusion. It blocks standalone finite certification because the theorem-only input omitted full algorithms, and it refutes an unqualified PHYSICAL-query exact-Haar-limit reading. Rational displacements can retain persistent nonzero characters even as discrete multiplier width grows; the positive exact Haar limit belongs only to the continuous proxy. The physical query is uniformly close to that proxy with fixed nonzero error, which suffices for the intended coupling proof but does not imply an exact limit.
+
+Separately, proof v6 did not write the filtration/reference process needed for its progress estimate. No literal false future-conditioned inequality is attributed to its wording, but the finite/CP1 gate is incomplete. Root's proof v7 adopts D's causal corrected-decision reference walk and first-failure coupling, independently exact-byte checked by A. The repaired proof v8 must retain this argument; old proof v6 does not inherit acceptance.
+
+The forthcoming theorem v7 will explicitly bind standalone algorithm definitions, state the continuous-proxy endpoint qualification, and reference full proof v8. Changes are not certified by this author's repair. No standard source-hardness claim follows.

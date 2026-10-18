@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261017T221425.747637Z-aeb4d891",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-17T22:14:25.747655+00:00",
+  "reason": "Same goal continuation verified two active agents; reconciled current summaries and exact C8 gate state",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 27602,
+      "sha256": "e2f855172415d3a8f61639883b25bceb9e78a5afed7c337d3d4d70d0b619fccd"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 1940,
+      "sha256": "6ffeacb01b922e900a514a48f2589d56da6fff52b11d34fae95c1d0130781192"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 1332,
+      "sha256": "51531f3933670dd74431cbf7ea4fb04c266fcef887b2c6bc33decad466950a2b"
+    },
+    {
+      "path": "final.md",
+      "bytes": 10613,
+      "sha256": "893b25d6fa923287a3813e7ed5353c09a2b0a737d3bae62126b37ed6a1e84515"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 13797,
+      "sha256": "258209186dcabe84fb28ac60abce85ef4872042c458e7cf2a2e75ef4a5e9564e"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

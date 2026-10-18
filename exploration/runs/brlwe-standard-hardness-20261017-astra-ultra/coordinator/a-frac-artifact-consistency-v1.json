@@ -1,0 +1,69 @@
+{
+  "time": "2026-10-17T21:08:20.002169+00:00",
+  "status": "PASS_STRUCTURAL_ONLY",
+  "artifacts": [
+    {
+      "path": "workers/A/fractional-composition/theorem-only-v1.md",
+      "sha256": "5c471744bb04c8149b0d539eaa26e1544d0ba8097b0d68ea019cabb74461b485",
+      "expected": "5c471744bb04c8149b0d539eaa26e1544d0ba8097b0d68ea019cabb74461b485",
+      "matches": true,
+      "bytes": 4322
+    },
+    {
+      "path": "workers/A/fractional-composition/proof-v1.md",
+      "sha256": "f4c889a64173135b2e29cebeb8190f352b1d4de6ada77f37a3f7c4f3ec797af2",
+      "expected": "f4c889a64173135b2e29cebeb8190f352b1d4de6ada77f37a3f7c4f3ec797af2",
+      "matches": true,
+      "bytes": 10092
+    },
+    {
+      "path": "criticism/BT3/report-v1.md",
+      "sha256": "2996c17124311f7887ff6e5aa03e7590b285d877a76bd605726390ea90c64f8c",
+      "expected": "2996c17124311f7887ff6e5aa03e7590b285d877a76bd605726390ea90c64f8c",
+      "matches": true,
+      "bytes": 17301
+    },
+    {
+      "path": "criticism/RF2/full-report-v1.md",
+      "sha256": "35450dce4743f940e5a90a94e2a52564dd6c83c9f85c9f6ad1625db2989f7d81",
+      "expected": "35450dce4743f940e5a90a94e2a52564dd6c83c9f85c9f6ad1625db2989f7d81",
+      "matches": true,
+      "bytes": 17688
+    },
+    {
+      "path": "criticism/RF2/regression-review-v1.json",
+      "sha256": "a6267b27298929fd889e6e51ba578487fe4f5e304bf6b1ece766761d59fd1ca8",
+      "expected": "a6267b27298929fd889e6e51ba578487fe4f5e304bf6b1ece766761d59fd1ca8",
+      "matches": true,
+      "bytes": 160595
+    },
+    {
+      "path": "criticism/RS1/report-v1.md",
+      "sha256": "152feef3d04bca1cb0c225a0c624f2eb7d808ad25c211c4b7cf016c89c6bb3fb",
+      "bytes": 5594
+    },
+    {
+      "path": "coordinator/a-frac-definitions-v1.md",
+      "sha256": "29ed77d3b83a8495396b10b4bef7933e36039c397a5616aa46c77b363017515b",
+      "bytes": 654
+    },
+    {
+      "path": "workers/A/fractional-composition/finite-controls-report-v1.md",
+      "sha256": "506e630685073a969712a8a2652e9d8607ea0927a1e31f4ac55ea2f314663879",
+      "bytes": 3079
+    },
+    {
+      "path": "criticism/BT3/freeze-receipt-v1.json",
+      "sha256": "c7fbe753f21dc91dca77b127fdae80e98cc68222097f82a1e0ce3038021bcc78",
+      "bytes": 416
+    },
+    {
+      "path": "experiments/root_cp1_v1.stdout.json",
+      "sha256": "547404eb96866bf7c087182f2f350a723e25d4722e9e51a87b1a51d2e2077cdc",
+      "bytes": 1186
+    }
+  ],
+  "blind_report_hashed_before_disclosure": true,
+  "scientific_proof_certified_by_this_check": false,
+  "scope": "File identity and existence only; independent review gates are separate."
+}

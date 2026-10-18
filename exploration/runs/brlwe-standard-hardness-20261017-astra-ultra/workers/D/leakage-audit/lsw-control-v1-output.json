@@ -1,0 +1,163 @@
+{
+  "schema": "D-LSW-1/v1",
+  "status": "all_exact_assertions_passed",
+  "normalizer_witness": {
+    "cut": 12,
+    "even_partial": "12544509456864915010444657449387512496652289/11150372599265311570767859136324180752990208",
+    "odd_partial": "1334420371871617937163159119310356481/1329227995784915872903807060280344576",
+    "common_tail_upper": "1/374144416369117997243815424483403668950873542754304",
+    "true_PY1_over_PY0_interval": [
+      "250403960197537484017105958524728173835724957679616/561231848543471146250021060716803156494921779642369",
+      "751211880592612452051317875574184521507174873038850/1683695545630413438750063182150409469484765338927103"
+    ],
+    "claimed_ratio": "1/2",
+    "certified_strict_counterexample": true
+  },
+  "reweighting": {
+    "cases": 756,
+    "epsilon": "1/4",
+    "max_TV": "1/8",
+    "bound": "1/3"
+  },
+  "matrix_controls": [
+    {
+      "label": "full",
+      "Theta": [
+        [
+          "27/13",
+          "3/13",
+          "4/13"
+        ],
+        [
+          "3/13",
+          "35/13",
+          "12/13"
+        ],
+        [
+          "4/13",
+          "12/13",
+          "42/13"
+        ]
+      ],
+      "Theta_minus_I_principal_minors": [
+        "14/13",
+        "22/13",
+        "29/13",
+        "23/13",
+        "30/13",
+        "38/13",
+        "3"
+      ],
+      "D_opt": [
+        [
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "residual_V": [
+        [
+          "40",
+          "48"
+        ],
+        [
+          "48",
+          "68"
+        ]
+      ],
+      "floor_principal_minors": [
+        "30",
+        "51",
+        "234"
+      ],
+      "square_identity": true
+    },
+    {
+      "label": "pivot",
+      "Theta": [
+        [
+          "2",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "4"
+        ]
+      ],
+      "Theta_minus_I_principal_minors": [
+        "1",
+        "3",
+        "3",
+        "3",
+        "3",
+        "9",
+        "9"
+      ],
+      "D_opt": [
+        [
+          "-3/2"
+        ],
+        [
+          "-2"
+        ]
+      ],
+      "residual_V": [
+        [
+          "40",
+          "48"
+        ],
+        [
+          "48",
+          "68"
+        ]
+      ],
+      "floor_principal_minors": [
+        "30",
+        "51",
+        "234"
+      ],
+      "square_identity": true
+    }
+  ],
+  "anisotropic_scope_countercontrol": {
+    "HHt": [
+      [
+        "10",
+        "12"
+      ],
+      [
+        "12",
+        "17"
+      ]
+    ],
+    "HHt_eigenvalues": [
+      1,
+      26
+    ],
+    "full_F_eigenvalues": [
+      4,
+      104
+    ],
+    "posterior_feasible": true,
+    "published_scalar_necessary_relaxation_satisfied": false
+  },
+  "CP1": {
+    "joint": "21/2000",
+    "naive_product": "1/100",
+    "second_conditional": "21/221"
+  },
+  "primitive_states": 801,
+  "wall_seconds": 0.010332723963074386,
+  "max_rss_kib": 11264,
+  "scope": "Exact finite controls and rigorous scalar tails; no security or unrestricted theorem certification."
+}

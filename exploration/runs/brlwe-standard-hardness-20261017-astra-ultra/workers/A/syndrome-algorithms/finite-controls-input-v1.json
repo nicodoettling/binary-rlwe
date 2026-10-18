@@ -1,0 +1,11 @@
+{
+  "reservation": "A-syn-finite-1",
+  "wall_seconds": 30,
+  "address_space_mib": 256,
+  "seed": 202610172035,
+  "collision_cases": [[5, 1, 2, 1], [3, 2, 3, 1]],
+  "nearest_plane": {"q": 5, "r": 2, "D": 3, "matrices": 64, "box_B": 1},
+  "determinant_negative_control": {"q": 101, "A": [[1, 0]], "target": 50},
+  "comparator": {"q": 5, "n": 2, "m": 2, "D": 3},
+  "interpretation": "Exact finite algebra controls only; no asymptotic theorem certification and no computational hardness evidence."
+}

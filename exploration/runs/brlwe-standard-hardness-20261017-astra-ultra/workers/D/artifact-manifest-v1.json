@@ -1,0 +1,126 @@
+{
+  "frozen_at": "2026-10-17T20:21:36.897415+00:00",
+  "status": "PROVISIONAL; assignment ended at coordinator request",
+  "files": [
+    {
+      "path": "channel-scope-proof-v1.md",
+      "sha256": "dd54ef4d882130d968025f36b21b427732d2712d4b9d59a7483f0add001b095b",
+      "bytes": 4588
+    },
+    {
+      "path": "channel-scope-theorem-only-v1.md",
+      "sha256": "9c1d5235c55c47acb2c3bafd98dac148fa9df76391596a2e9c9c366acd4f276c",
+      "bytes": 2166
+    },
+    {
+      "path": "claims.json",
+      "sha256": "9399c37b64cc4835bb5ed128fdc48bb01a71a22484decea36068f3a7713c9daa",
+      "bytes": 2525
+    },
+    {
+      "path": "experiments/endpoint-control-v1.estimate.md",
+      "sha256": "dd17d255f5216c053ffdc1d8c5c5ce78ee8c15923b85fd0791d8f65765d31265",
+      "bytes": 1790
+    },
+    {
+      "path": "experiments/endpoint-control-v1.input.json",
+      "sha256": "9d2d4c9944f4a5832c9923eec13a6b4c12a0989ae4824e4f50cc119d67086089",
+      "bytes": 232
+    },
+    {
+      "path": "experiments/endpoint-control-v1.py",
+      "sha256": "5be23f4dac47b35003d545a3f59690cbe81e3242006ae24f355ddb39b3211384",
+      "bytes": 5861
+    },
+    {
+      "path": "experiments/endpoint-control-v1.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "experiments/endpoint-control-v1.stdout.json",
+      "sha256": "509d8d64132e11f2e98d20a5c45a903fcea8a4e4a98c6ddc7c2cfcb67f50ce4a",
+      "bytes": 1895
+    },
+    {
+      "path": "experiments/registry.json",
+      "sha256": "84b9d319510f7f3e5c1d49c8b9fe914872687e9abe02eb9c37a3f4b11a7f2044",
+      "bytes": 1176
+    },
+    {
+      "path": "experiments/theta-control-v1.estimate.md",
+      "sha256": "67a5ccfd5b922b71e2752818f6662f58ea6e550787ea78f8d21c6ec7cf9b9e98",
+      "bytes": 1540
+    },
+    {
+      "path": "experiments/theta-control-v1.input.json",
+      "sha256": "1f4ab88399af3f762fd57ca2cf2243a92247ba8ee6fe4ec27a38d093043b6408",
+      "bytes": 323
+    },
+    {
+      "path": "experiments/theta-control-v1.py",
+      "sha256": "a3fe34718f373c9ea70ea8361f5439fc5478f9498f9871329db0ef53b97b923e",
+      "bytes": 4909
+    },
+    {
+      "path": "experiments/theta-control-v1.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "experiments/theta-control-v1.stdout.json",
+      "sha256": "19b3a68b8b7e80c2018b741740d46d01041b8b06463f5c32faa6934a0ec452d6",
+      "bytes": 3117
+    },
+    {
+      "path": "final.md",
+      "sha256": "1aa370f47dc4dbd54e92060468b08082cdcae6094b421caa8521960b43b3434b",
+      "bytes": 4323
+    },
+    {
+      "path": "first-test-provenance-addendum-v1.md",
+      "sha256": "ccbd2573b24f426fbd346f9aa98d0dbcfbc5607b1d8a5c20070487593c703171",
+      "bytes": 712
+    },
+    {
+      "path": "first-test-v1.md",
+      "sha256": "a46c19520f9ad85c2bb478799d8d067d79068b8f0b88be3f04bc2118eea12186",
+      "bytes": 10945
+    },
+    {
+      "path": "ideal-theta-control-report-v1.md",
+      "sha256": "9a6f8f7e7c8654d281c506246448bf6559e180d43044e597311a0a2838c6c4f5",
+      "bytes": 2467
+    },
+    {
+      "path": "ideal-theta-primary-conventions-v1.md",
+      "sha256": "14946fc68802ee79dee9c726e23eabbeb434753a86c73c523dacf0e8a732575e",
+      "bytes": 3786
+    },
+    {
+      "path": "ideal-theta-proof-v1.md",
+      "sha256": "c712507363792b3e4a525ab672800e5e01fdd7d489ac2a0d56dbb0bd8b0c0e60",
+      "bytes": 7801
+    },
+    {
+      "path": "ideal-theta-theorem-only-v1.md",
+      "sha256": "20af29016bcedca64b4cad0da407f543f1730ce32512aac9d98b568da8bbc5cd",
+      "bytes": 3375
+    },
+    {
+      "path": "progress.md",
+      "sha256": "b47613dda563a6f0795b5ea4036ba537e42b08eb9f37bdb7f95074ac0eee7ac5",
+      "bytes": 1744
+    },
+    {
+      "path": "references.json",
+      "sha256": "0f4a507e32474a353c96425db95f18c8eeca659637c685daca12b2c6d79db200",
+      "bytes": 4081
+    },
+    {
+      "path": "resume.md",
+      "sha256": "468fcc15f3a5b93180fc2d4dcfeb26b2eb2118f77292a3c3d850595b66ee3afa",
+      "bytes": 1853
+    }
+  ]
+}

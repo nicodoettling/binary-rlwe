@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261017T213143.063352Z-efb24cd0",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-17T21:31:43.063373+00:00",
+  "reason": "Standarddecomposed edge, class-changing assignment, BT6 disposition, jointpreimage test",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 22389,
+      "sha256": "63821604603346be18a7ad6393102762b270d1734860f0e7d0ad10188e4d2652"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 4056,
+      "sha256": "5707e50348ddaf9144ea45c91c05fb125e3fd236b7c2f0297f52a1e04b18b6b2"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 2662,
+      "sha256": "9ad6a2e3c67508447608c9450b7b535990cdf8c28de2cae7bda6c8ce2be7a7fe"
+    },
+    {
+      "path": "final.md",
+      "bytes": 9467,
+      "sha256": "4d8446ed51055a658ae6fcc15ca2d3fcc84bbca0c8e4d0aeda513acf91e7da11"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 12658,
+      "sha256": "d7250e132c78914cd3ab9127431e337745d3a6edaa3c85e38d9eef42c914366a"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

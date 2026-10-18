@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-17T22:30:40.091053+00:00",
+  "status": "RF3_ASSIGNMENT_COMPLETE",
+  "main_theorem": "Favorable full-proof and source/parameter recommendation; no repair. Project gates remain coordinator-owned.",
+  "fractional_v1": "Standalone scale guarantee rejected; exact counterexample preserved.",
+  "fractional_v2": "Explicit repaired scale and chosen radius pass narrow recheck; hypothetical chain extension remains unproved; FEP-3 is not certified.",
+  "original_inputs_unchanged": true,
+  "exact_v1_to_v2_diff_verified": true,
+  "new_experiments": false,
+  "reports": {
+    "full-review-v1.md": "48b933879a4797286fb8cfd99bb9e23cc39c8698511c66aeb6915b3b09ea987f",
+    "source-parameter-v1.md": "f25bbcf68f0e3efa4a3056cd0d727a6a081ccd4ac0e28fb0d8efcdb0d478df58",
+    "counterexample-attempts-v1.md": "52b9821a3923e3b3db6d98d9d4f64a286810304b24e7a18ab2cb46ac1f7a7cfc",
+    "partial-v1.md": "9116d217cb918d20cfcca6137816819e5740d4fd5899ee9b398000e0985bad78",
+    "fractional-endpoint-objections-v1.md": "3b79ed8a1a10ca58f118bd4d7e477667d197fe48693aaad88bdce1c6b1614679",
+    "fractional-endpoint-review-v1.md": "40043783e892e3d0a743beb8f71b4aa52c0012a8cd3e1c652dc8810f1783620d",
+    "fractional-endpoint-recheck-v2.md": "b718a68b922f045c23dece1c1482bcdb216a8adfbece48101a9fec719d34f59b"
+  }
+}

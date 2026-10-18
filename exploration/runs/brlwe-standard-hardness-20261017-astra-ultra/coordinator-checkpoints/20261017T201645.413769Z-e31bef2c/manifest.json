@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261017T201645.413769Z-e31bef2c",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-17T20:16:45.413791+00:00",
+  "reason": "First explicit endpoint failures and admissible interface integrated, foundation still open",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 5670,
+      "sha256": "0bd4fc1d3aa2d127fbf76354d0457b13d4d5e76f1963019b6db6493a76bca6bc"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 3165,
+      "sha256": "2411ae8dd839f7bee17cfa2e08fa9e1283e204929de03648cfeedf9069ce4c0d"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 4625,
+      "sha256": "bad37f222dbb527eb5bd430f24767462d3f07b29d742fb2b7f6dac469ffb7c84"
+    },
+    {
+      "path": "final.md",
+      "bytes": 3021,
+      "sha256": "58afda7c9d30ad5bcb8c090673a90c67690241f6b72246927ebc6391b961b12d"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 8747,
+      "sha256": "e9d9d07b348af89388949ff1c7b0dae2285809af31280df53fc805ae958ed69e"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

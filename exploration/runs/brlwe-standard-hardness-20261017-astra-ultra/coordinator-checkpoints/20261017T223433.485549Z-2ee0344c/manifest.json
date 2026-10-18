@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261017T223433.485549Z-2ee0344c",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-17T22:34:33.485575+00:00",
+  "reason": "RF3 completion verified; sole clean blind BT11 launched; fractional scale scope preserved",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 30911,
+      "sha256": "feeb7eea6a2014ac8bc065133d6b3b5cf016447e2503b2d5df754d9d79e93a69"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 3193,
+      "sha256": "0b8721747226c5401a5afd871ee1ffdca28bf90c8969283f47955e9fd21af001"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 2611,
+      "sha256": "53db84b71e328246d4becb78c6ec979cf712d315b89a74316dbaa1acd25d19e2"
+    },
+    {
+      "path": "final.md",
+      "bytes": 12146,
+      "sha256": "4d4dd54a9e247956188e454e489e61728ea54038490498c0e5e4821719ffab80"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 14139,
+      "sha256": "86077f2422ab1afd740cf865829c00b7ada3258d3976894ac6493eb92d53fc0d"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

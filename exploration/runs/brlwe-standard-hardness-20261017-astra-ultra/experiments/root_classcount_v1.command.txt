@@ -1,0 +1,1 @@
+timeout --signal=TERM --kill-after=1s 30s python3 -B exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/experiments/root_classcount_v1.py

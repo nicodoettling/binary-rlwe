@@ -1,0 +1,3 @@
+Reservation RT2-WEIGHTED-FV1, root approved before execution. Foreground only, one execution, 30 seconds, address space <=256MiB. Code checks actual pair count against 11250 before loop.
+Working directory: /home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/RT2
+/usr/bin/time -v -o finite-resources-v1.txt timeout 30s python3 -B finite-control-v1.py > finite-stdout-v1.json 2> finite-stderr-v1.txt

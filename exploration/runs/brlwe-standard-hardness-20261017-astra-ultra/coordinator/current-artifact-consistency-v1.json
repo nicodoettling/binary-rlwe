@@ -1,0 +1,805 @@
+{
+  "at": "2026-10-18T01:29:48.713167+00:00",
+  "scope": "Structural path/hash/dependency-link check ONLY; no mathematical certification",
+  "entries": [
+    {
+      "id": "INHERITED-EX-v2",
+      "dependencies": [],
+      "all_dependencies_resolve": true,
+      "evidence": [
+        {
+          "path": "intake/baseline-manifest.json",
+          "exists": true,
+          "sha256": "c8a46348e39c3a45e61aa2e75efc991bcd8b51aac4d844c1c0417c8eb84152c5"
+        },
+        {
+          "path": "intake/october-claims-exact.json",
+          "exists": true,
+          "sha256": "191e3c30fcc98535f221024c5a80552177bb6faa07a2285d38a85b4a2cce3fe5"
+        }
+      ],
+      "all_evidence_exists": true
+    },
+    {
+      "id": "D-THETA-v1",
+      "dependencies": [],
+      "all_dependencies_resolve": true,
+      "evidence": [
+        {
+          "path": "workers/D/ideal-theta-theorem-only-v1.md",
+          "exists": true,
+          "sha256": "20af29016bcedca64b4cad0da407f543f1730ce32512aac9d98b568da8bbc5cd"
+        },
+        {
+          "path": "workers/D/ideal-theta-proof-v1.md",
+          "exists": true,
+          "sha256": "c712507363792b3e4a525ab672800e5e01fdd7d489ac2a0d56dbb0bd8b0c0e60"
+        },
+        {
+          "path": "workers/D/experiments/theta-control-v1.stdout.json",
+          "exists": true,
+          "sha256": "19b3a68b8b7e80c2018b741740d46d01041b8b06463f5c32faa6934a0ec452d6"
+        },
+        {
+          "path": "coordinator/theta-freeze-v1.json",
+          "exists": true,
+          "sha256": "4654275a72fff85b39e2de4894655b7d27103a080c7b804c1d334224dfefa027"
+        },
+        {
+          "path": "workers/A/stat-review/report-v1.md",
+          "exists": true,
+          "sha256": "56a2a8b2a2a561c2f7f600e920dc3743b7f90a6a0920d88b6d966e9404ae0037"
+        },
+        {
+          "path": "criticism/RS0/report-v1.md",
+          "exists": true,
+          "sha256": "0dcebfeb9d53b0a49e1044a178df5cedb9d76abef52e96d8ce8012a5f6c722ba"
+        },
+        {
+          "path": "criticism/BT1/exposure-20261017T2024Z.md",
+          "exists": true,
+          "sha256": "40ec18c46bbe3e8166dbd8ef2233f2002fb5e800c4bb24b40d7971d8964991e4"
+        },
+        {
+          "path": "workers/A/stat-review/bt2-notation-recheck-v1.md",
+          "exists": true,
+          "sha256": "7f78e2fb67a583b6b6c82483795ceeedcee4bdc93d0e966edd54273cd397702a"
+        },
+        {
+          "path": "criticism/RS0/definitions-recheck-v1.md",
+          "exists": true,
+          "sha256": "5bb0206dcd9f5fcda315112b81470f98ea096408d9df72fe7aced4d22f33a66e"
+        },
+        {
+          "path": "criticism/BT2/report-v1.md",
+          "exists": true,
+          "sha256": "83a64152339806ad997c95b17cb9d089b734c0728099cc7deb26a23eaac97f26"
+        },
+        {
+          "path": "criticism/BT2/freeze-receipt-v1.json",
+          "exists": true,
+          "sha256": "e2a3d22e92d8ee19674f212bf0124d676190316d82cbd5e55879c4ad6ea8b37f"
+        },
+        {
+          "path": "coordinator/theta-artifact-consistency-v1.json",
+          "exists": true,
+          "sha256": "f102652b86ea59d4a70d8c81c6094c8fae0c0ad3bc18ddfb1ac7f10c7e709200"
+        },
+        {
+          "path": "experiments/root_cp1_v1.stdout.json",
+          "exists": true,
+          "sha256": "547404eb96866bf7c087182f2f350a723e25d4722e9e51a87b1a51d2e2077cdc"
+        }
+      ],
+      "all_evidence_exists": true,
+      "exact_theorem_sha256_matches_evidence": true,
+      "exact_proof_sha256_matches_evidence": true
+    },
+    {
+      "id": "A-FRAC-v1",
+      "dependencies": [],
+      "all_dependencies_resolve": true,
+      "evidence": [
+        {
+          "path": "workers/A/fractional-composition/theorem-only-v1.md",
+          "exists": true,
+          "sha256": "5c471744bb04c8149b0d539eaa26e1544d0ba8097b0d68ea019cabb74461b485"
+        },
+        {
+          "path": "workers/A/fractional-composition/proof-v1.md",
+          "exists": true,
+          "sha256": "f4c889a64173135b2e29cebeb8190f352b1d4de6ada77f37a3f7c4f3ec797af2"
+        },
+        {
+          "path": "coordinator/a-frac-definitions-v1.md",
+          "exists": true,
+          "sha256": "29ed77d3b83a8495396b10b4bef7933e36039c397a5616aa46c77b363017515b"
+        },
+        {
+          "path": "criticism/RF2/full-report-v1.md",
+          "exists": true,
+          "sha256": "35450dce4743f940e5a90a94e2a52564dd6c83c9f85c9f6ad1625db2989f7d81"
+        },
+        {
+          "path": "criticism/RF2/a-definitions-recheck-v1.md",
+          "exists": true,
+          "sha256": "e23f7fa68c407f30bfbbae02e7fe61d5c81bf93a6e5558dc2e8bc2070720868b"
+        },
+        {
+          "path": "criticism/RS1/report-v1.md",
+          "exists": true,
+          "sha256": "152feef3d04bca1cb0c225a0c624f2eb7d808ad25c211c4b7cf016c89c6bb3fb"
+        },
+        {
+          "path": "criticism/BT3/report-v1.md",
+          "exists": true,
+          "sha256": "2996c17124311f7887ff6e5aa03e7590b285d877a76bd605726390ea90c64f8c"
+        },
+        {
+          "path": "criticism/BT3/freeze-receipt-v1.json",
+          "exists": true,
+          "sha256": "c7fbe753f21dc91dca77b127fdae80e98cc68222097f82a1e0ce3038021bcc78"
+        },
+        {
+          "path": "criticism/RF2/regression-review-v1.json",
+          "exists": true,
+          "sha256": "a6267b27298929fd889e6e51ba578487fe4f5e304bf6b1ece766761d59fd1ca8"
+        },
+        {
+          "path": "coordinator/a-frac-artifact-consistency-v1.json",
+          "exists": true,
+          "sha256": "8e1a13898fb1be2108ce82e18f4b3153396f0770be4e8fcf716a914174cd2065"
+        },
+        {
+          "path": "workers/A/fractional-composition/finite-controls-report-v1.md",
+          "exists": true,
+          "sha256": "506e630685073a969712a8a2652e9d8607ea0927a1e31f4ac55ea2f314663879"
+        }
+      ],
+      "all_evidence_exists": true,
+      "exact_theorem_sha256_matches_evidence": true,
+      "exact_proof_sha256_matches_evidence": true
+    },
+    {
+      "id": "B-GP-v2",
+      "dependencies": [],
+      "all_dependencies_resolve": true,
+      "evidence": [
+        {
+          "path": "workers/B/ideal-denominator/gaussian-periodic-theorem-v2.md",
+          "exists": true,
+          "sha256": "be7f05d67fc8f2b24fc6b93321c95005f4d7f6e24bab513b2cbaf35c82aeaad7"
+        },
+        {
+          "path": "workers/B/ideal-denominator/gaussian-periodic-proof-v2.md",
+          "exists": true,
+          "sha256": "207a9af38eb570e2a140d88008c0f4bc363f7d3c8a72049c53bbab85798910b4"
+        },
+        {
+          "path": "criticism/RF2/b-v2-encoding-recheck-v1.md",
+          "exists": true,
+          "sha256": "12c7966e604388729c1e81cae31f08a062f217b9314b0fad1ef158fb2f81e320"
+        },
+        {
+          "path": "criticism/BT5/report-v1.md",
+          "exists": true,
+          "sha256": "55eada217a335986e63b9fbabc3d618f1e4c3966f5bd6f5de029423b452e07bf"
+        },
+        {
+          "path": "criticism/BT5/freeze-receipt-v1.json",
+          "exists": true,
+          "sha256": "c5bb9c014966ce2f7ce4b920ee4a3368fe9e2335705b4bc692674e90889c0515"
+        },
+        {
+          "path": "criticism/RS1/b-v2-recheck-v1.md",
+          "exists": true,
+          "sha256": "210ea7dd508149fb77dbedae15f157983c8af73462e965f2abbd449a65e2e5b3"
+        },
+        {
+          "path": "criticism/RF2/b-v2-log-ceiling-recheck-v1.md",
+          "exists": true,
+          "sha256": "e41bd2eeec4fe4a1e1a7f426199a9d6b2e7f6a89006520a9967997bad8da6e7f"
+        },
+        {
+          "path": "coordinator/b-gp-v2-regression-addendum-v1.json",
+          "exists": true,
+          "sha256": "83a7d2aed21cf5687bdbf0465a93d03edad45df18b78e4df404680822ab16aea"
+        },
+        {
+          "path": "coordinator/b-gp-v2-artifact-consistency-v1.json",
+          "exists": true,
+          "sha256": "7598a11b576ebcdbd2a8c087cdcd48860d88a710aa36a5e574183e5c680d5beb"
+        }
+      ],
+      "all_evidence_exists": true,
+      "exact_theorem_sha256_matches_evidence": true,
+      "exact_proof_sha256_matches_evidence": true
+    },
+    {
+      "id": "ROOT-SAMECLASS-v1",
+      "dependencies": [],
+      "all_dependencies_resolve": true,
+      "evidence": [
+        {
+          "path": "coordinator/same-class-count-theorem-v1.md",
+          "exists": true,
+          "sha256": "216a4e718e4aada675df0f945cb62ab6c9ab1759a5fb36d296304d827968845c"
+        },
+        {
+          "path": "coordinator/same-class-count-proof-v1.md",
+          "exists": true,
+          "sha256": "bf625ccfa90a819c6b36639850a4cf2ab021c865cf3e84b67bc984cb3469d733"
+        },
+        {
+          "path": "workers/C/same-class-nonauthor-review-v1.md",
+          "exists": true,
+          "sha256": "29b96095e4d906876c68442891a07ec1d6e594909cd009a4f9f7690f9e5bd81b"
+        },
+        {
+          "path": "criticism/BT6/report-v1.md",
+          "exists": true,
+          "sha256": "2cb350519c32d412ef6ba8bc441316bfdcb6543ecd6505d24129d0f6807e4148"
+        },
+        {
+          "path": "criticism/BT6/freeze-receipt-v1.json",
+          "exists": true,
+          "sha256": "8e2967a4fe3a289565b7feffcb9a5656774e0448fe62846d9b8aca1c62aec71c"
+        },
+        {
+          "path": "coordinator/same-class-source-gate-v1.md",
+          "exists": true,
+          "sha256": "ea2c2382ba1a534a0b3990613c1b5ebb61b20133d6f843c6b6c43d219f68b95c"
+        },
+        {
+          "path": "coordinator/same-class-regression-gate-v1.json",
+          "exists": true,
+          "sha256": "e18e104c470794a09f92f1c4ca890f68fd5d667df44541485ddf83e8dad2d054"
+        },
+        {
+          "path": "experiments/root_classcount_v1.stdout.json",
+          "exists": true,
+          "sha256": "fd0832e93c518f8264f58ba219cc6cbebb58e329f4f2b7d1219b59c43a0b6525"
+        },
+        {
+          "path": "coordinator/same-class-artifact-consistency-v1.json",
+          "exists": true,
+          "sha256": "0c8da422e4185e3c97c0f50f100e0bb3d12af678df64cd43f1e20af87af5ebd0"
+        }
+      ],
+      "all_evidence_exists": true,
+      "exact_theorem_sha256_matches_evidence": true,
+      "exact_proof_sha256_matches_evidence": true
+    },
+    {
+      "id": "C-OHCP-v8",
+      "dependencies": [],
+      "all_dependencies_resolve": true,
+      "evidence": [
+        {
+          "path": "coordinator/c8-repair/multiplier-ohcp-algorithm-v2.md",
+          "exists": true,
+          "sha256": "4361c90a7fa7cfe25d0ab3e8cd5c5333fb474cf1fb764375e10c29fca5102735"
+        },
+        {
+          "path": "coordinator/c8-repair/multiplier-ohcp-proof-v9.md",
+          "exists": true,
+          "sha256": "e9b3023715a3d4ec90c474aba6945223aa376248b1fa216134964a5643fb4c5f"
+        },
+        {
+          "path": "coordinator/c8-repair/multiplier-ohcp-theorem-v8.md",
+          "exists": true,
+          "sha256": "857a62e9f4a937a80e5cb3b115c8b132abf122c16665d29b39dcb62bde86fe0a"
+        },
+        {
+          "path": "workers/A/c9-review/exact-repair-review-v1.md",
+          "exists": true,
+          "sha256": "04267e9cf22695ae9311b3c762411512d2cf94815c97a7170e8455a213dd185d"
+        },
+        {
+          "path": "criticism/BT10/report-v1.md",
+          "exists": true,
+          "sha256": "ae3aa9293a1738c838e8df9a1eebfadc6949aaacbf74f7a7ebefe16aae507b77"
+        },
+        {
+          "path": "criticism/BT10/freeze-receipt-v1.json",
+          "exists": true,
+          "sha256": "8553e865d0a1f16e8815466fe57e0d9a03e943d2ee589d91f68c0edba8b32f85"
+        },
+        {
+          "path": "coordinator/c8-bt10-exposure-disposition-v1.md",
+          "exists": true,
+          "sha256": "d0b60e88c17c1a500e9f41ea6bbd494fb48412ee523073a76d271808c587a131"
+        },
+        {
+          "path": "coordinator/c8-source-parameter-gate-v1.md",
+          "exists": true,
+          "sha256": "79edbe42acacd1969bcd2143b69b28998b0198991fb3e686acf55eb60677affd"
+        },
+        {
+          "path": "coordinator/c8-regression-gate-v1.json",
+          "exists": true,
+          "sha256": "10f94b4ec95831f785f05fcbee8a5dc10138bf1d77ba1e96aa0d334edb08118d"
+        },
+        {
+          "path": "coordinator/c8-artifact-consistency-v1.json",
+          "exists": true,
+          "sha256": "16d919fd92e270e23813ecd0b723dec0c248f8ab33eb5c43df31ab649ea3f0c0"
+        },
+        {
+          "path": "criticism/BT13/report-v1.md",
+          "exists": true,
+          "sha256": "155881134c294c496c7e5866138f9740490b95e8c90e1518e625551b9ad20aae"
+        },
+        {
+          "path": "criticism/BT13/freeze-receipt-v1.json",
+          "exists": true,
+          "sha256": "4d5623dbea37cc147f7135db1ed1a6a8433067da5398392f75c71e3207ba9f47"
+        },
+        {
+          "path": "coordinator/c8-acceptance-reconciliation-v1.md",
+          "exists": true,
+          "sha256": "cf13fbc6f98de392a360697fd5da0a03d5b1fbf9c78d21375ee981b4d03eaf64"
+        },
+        {
+          "path": "coordinator/c8-artifact-consistency-v2.json",
+          "exists": true,
+          "sha256": "2c1700766acbb565df49e8b3a8a68761d3f2c6d5bc6e9a7c36ea7e0d6c677a14"
+        },
+        {
+          "path": "coordinator/c8-regression-addendum-v2.json",
+          "exists": true,
+          "sha256": "ed423d6f1abcd69b74eeb71a670a1d2f0c145a99ae5f9c2e8e92a1e5ef379acd"
+        }
+      ],
+      "all_evidence_exists": true,
+      "exact_theorem_sha256_matches_evidence": true,
+      "exact_proof_sha256_matches_evidence": true
+    },
+    {
+      "id": "ROOT-BINCLASS-v1",
+      "dependencies": [
+        "ROOT-SAMECLASS-v1"
+      ],
+      "all_dependencies_resolve": true,
+      "evidence": [
+        {
+          "path": "coordinator/binary-class-count/theorem-v1.md",
+          "exists": true,
+          "sha256": "f090c6c128eb2d0fd52a9cadb2a2b67b8bdd731d84ef932aabbbdc3c74eb180a"
+        },
+        {
+          "path": "coordinator/binary-class-count/proof-v1.md",
+          "exists": true,
+          "sha256": "012d77de4765194b8b22943d81773c42c59739f00e91012df8afd676ef210bfc"
+        },
+        {
+          "path": "coordinator/binary-class-count/experiments/control-v1.stdout.json",
+          "exists": true,
+          "sha256": "c5fb0c6d09ec12cbb402e1f620ff4d4f8c560f6de4a52317f1209c0567f30464"
+        },
+        {
+          "path": "criticism/RF3/full-review-v1.md",
+          "exists": true,
+          "sha256": "48b933879a4797286fb8cfd99bb9e23cc39c8698511c66aeb6915b3b09ea987f"
+        },
+        {
+          "path": "criticism/RF3/source-parameter-v1.md",
+          "exists": true,
+          "sha256": "f25bbcf68f0e3efa4a3056cd0d727a6a081ccd4ac0e28fb0d8efcdb0d478df58"
+        },
+        {
+          "path": "criticism/RF3/completion-receipt-v1.json",
+          "exists": true,
+          "sha256": "f32287722c6262e9300c8e5cd2919ffba29c5dd1addfe34539cf21b8f94bbb47"
+        },
+        {
+          "path": "coordinator/binary-class-count/regression-gate-v1.json",
+          "exists": true,
+          "sha256": "281d1bce2e9e8b3203a8a6da858843f10b0eee25d062d226cb149228fde3c70b"
+        },
+        {
+          "path": "criticism/BT12/report-v1.md",
+          "exists": true,
+          "sha256": "eb38e96cf758ba19cb03e0c3fafb64edcd59ae8b8a09c8713277b75bb82291bb"
+        },
+        {
+          "path": "criticism/BT12/freeze-receipt-v1.json",
+          "exists": true,
+          "sha256": "f9ef0e455eb2b6b2ec1624c31528d9c4edfcdaf072645e9864f3a41f2da16a16"
+        },
+        {
+          "path": "coordinator/binary-class-count/regression-gate-v1.json",
+          "exists": true,
+          "sha256": "281d1bce2e9e8b3203a8a6da858843f10b0eee25d062d226cb149228fde3c70b"
+        },
+        {
+          "path": "coordinator/binary-class-count/regression-addendum-v2.json",
+          "exists": true,
+          "sha256": "cb9f5eb22dabf0b87e67c55c057d0c2c2cb1d6b3f94798781a598de369dae5a1"
+        },
+        {
+          "path": "coordinator/binary-class-count/acceptance-reconciliation-v1.md",
+          "exists": true,
+          "sha256": "a89abc4192992e859149bc599a5df16877348b1ea1dfa237cd4b63df151a4083"
+        },
+        {
+          "path": "coordinator/binary-class-count/artifact-consistency-v1.json",
+          "exists": true,
+          "sha256": "73df9bc0704084d2806205d64c59086a186547515787add374923a007fe52d17"
+        }
+      ],
+      "all_evidence_exists": true,
+      "exact_theorem_sha256_matches_evidence": true,
+      "exact_proof_sha256_matches_evidence": true
+    },
+    {
+      "id": "ROOT-PLANTED-INFO-v1",
+      "dependencies": [],
+      "all_dependencies_resolve": true,
+      "evidence": [
+        {
+          "path": "coordinator/planted-information/theorem-v1.md",
+          "exists": true,
+          "sha256": "536bb0235e7ccd11563d6f731a4935822a664ae393eb5ae301dbdad89a1ac5e1"
+        },
+        {
+          "path": "coordinator/planted-information/proof-v1.md",
+          "exists": true,
+          "sha256": "57a314f1f9c4671194b4943b20873b5ad1e8f8c5043cb6308ae89b8605177eb4"
+        },
+        {
+          "path": "workers/G/planted-information-review/full-proof-review-v1.md",
+          "exists": true,
+          "sha256": "4c681c2a0ef3d4c29a8aa393a8eb5593a0162b50291bf50450ca5a2f7743996d"
+        },
+        {
+          "path": "workers/G/planted-information-review/source-parameter-review-v1.md",
+          "exists": true,
+          "sha256": "3cb130c3434a34124d67ba3afe08fba4db4707bcd8c88e7082db43e522191284"
+        },
+        {
+          "path": "workers/G/planted-information-review/finite-control-v1.stdout.json",
+          "exists": true,
+          "sha256": "5a8a2e6787993e54e9ac4898cf71086a4f3fa00fee7849968ca24f1fac3eeffd"
+        },
+        {
+          "path": "criticism/BT16/BT16-complete-report-v1.md",
+          "exists": true,
+          "sha256": "a1fb58816f26ec832f0f61f627668a421995b556a5cc0e0b7a19f7bd1298269d"
+        },
+        {
+          "path": "criticism/BT16/BT16-freeze-receipt-v1.json",
+          "exists": true,
+          "sha256": "ced76bc586c7a659e8628a0c7df56a399974d0d1e19a5e17b6a27fe3fc38913f"
+        },
+        {
+          "path": "coordinator/planted-information/acceptance-reconciliation-v1.md",
+          "exists": true,
+          "sha256": "e06e14f2ffd788822d5a7abc889c991bd6af7995115280c8fb7f2bc9b845232e"
+        },
+        {
+          "path": "coordinator/planted-information/regression-gate-v1.json",
+          "exists": true,
+          "sha256": "da0466b8084322cf1fc1519df5a42200eeef43a1e0fa4243c6f4fca574470f12"
+        },
+        {
+          "path": "coordinator/planted-information/artifact-consistency-v1.json",
+          "exists": true,
+          "sha256": "febe9391b2ff9755b0506631847cc0c8937dcb95bb8bd11f11f4a2eef8878683"
+        }
+      ],
+      "all_evidence_exists": true,
+      "exact_theorem_sha256_matches_evidence": true,
+      "exact_proof_sha256_matches_evidence": true
+    },
+    {
+      "id": "E-PAIR-v2",
+      "dependencies": [],
+      "all_dependencies_resolve": true,
+      "evidence": [
+        {
+          "path": "workers/E/fractional-extraction/pair-theorem-only-v2.md",
+          "exists": true,
+          "sha256": "80cd0798a135eea545bfd1a4dd2226eb7b3b47789999bfb810002c6f8aef77f3"
+        },
+        {
+          "path": "workers/E/fractional-extraction/pair-extraction-theorem-proof-v2.md",
+          "exists": true,
+          "sha256": "d299af327d6b0a9c977686ce335701fbc31ee00929adb8d9f307fbf56b4f2959"
+        },
+        {
+          "path": "coordinator/e-pair-full-review-v2.md",
+          "exists": true,
+          "sha256": "06cfdeaa7244d18e1481f00aaed5cb743207bf2a64606066767e6101d1845c1b"
+        },
+        {
+          "path": "criticism/BT15/report-v1.md",
+          "exists": true,
+          "sha256": "0b58da9c810b3a31dd51f371698ce93d72a5710455a7ff804dff2d6abff63fb7"
+        },
+        {
+          "path": "criticism/BT15/freeze-receipt-v1.json",
+          "exists": true,
+          "sha256": "847de2c2d1ca71b90d1908d32161d02ab29519cee229a678023a48135e5f465c"
+        },
+        {
+          "path": "coordinator/fractional-coherent-acceptance-v1.md",
+          "exists": true,
+          "sha256": "4b35c91fe07fc3eb7224570421605c0a95dbf494fdbd9722bd0efd0f49d39487"
+        },
+        {
+          "path": "coordinator/fractional-coherent-regression-gate-v1.json",
+          "exists": true,
+          "sha256": "50406f8fcd64aa30a25ee7a3ec817123aad3ebbe9484fffafb3ca102888ab6f9"
+        },
+        {
+          "path": "coordinator/fractional-coherent-artifact-consistency-v1.json",
+          "exists": true,
+          "sha256": "8fb57bdf6d69b0b4f93fb7661a0ab9b44a9207f4f07fa5bd0fc4daf99963ca50"
+        }
+      ],
+      "all_evidence_exists": true
+    },
+    {
+      "id": "ROOT-FRAC-SMALLBALL-v3",
+      "dependencies": [],
+      "all_dependencies_resolve": true,
+      "evidence": [
+        {
+          "path": "coordinator/binary-class-count/fractional-smallball-theorem-v3.md",
+          "exists": true,
+          "sha256": "d5508d295102673ac44b897f30f68b6dc6ad23ac31672443f5f394f19985fd99"
+        },
+        {
+          "path": "coordinator/binary-class-count/fractional-smallball-proof-v3.md",
+          "exists": true,
+          "sha256": "ab2ed90db41f9a3a7b4af142d1e9f63b99a4ac8646d44ba380ae621b4c155b4a"
+        },
+        {
+          "path": "workers/E/fractional-extraction/root-fixedmap-v3-full-source-review.md",
+          "exists": true,
+          "sha256": "9d335157a45a9be3bfa5afb7cf3da6f8e3f14cd9cd71a3c20c59ed0cc42c8d70"
+        },
+        {
+          "path": "criticism/BT15/report-v1.md",
+          "exists": true,
+          "sha256": "0b58da9c810b3a31dd51f371698ce93d72a5710455a7ff804dff2d6abff63fb7"
+        },
+        {
+          "path": "criticism/BT15/freeze-receipt-v1.json",
+          "exists": true,
+          "sha256": "847de2c2d1ca71b90d1908d32161d02ab29519cee229a678023a48135e5f465c"
+        },
+        {
+          "path": "coordinator/fractional-coherent-acceptance-v1.md",
+          "exists": true,
+          "sha256": "4b35c91fe07fc3eb7224570421605c0a95dbf494fdbd9722bd0efd0f49d39487"
+        },
+        {
+          "path": "coordinator/fractional-coherent-regression-gate-v1.json",
+          "exists": true,
+          "sha256": "50406f8fcd64aa30a25ee7a3ec817123aad3ebbe9484fffafb3ca102888ab6f9"
+        },
+        {
+          "path": "coordinator/fractional-coherent-artifact-consistency-v1.json",
+          "exists": true,
+          "sha256": "8fb57bdf6d69b0b4f93fb7661a0ab9b44a9207f4f07fa5bd0fc4daf99963ca50"
+        }
+      ],
+      "all_evidence_exists": true
+    },
+    {
+      "id": "F-QCOH-v1",
+      "dependencies": [],
+      "all_dependencies_resolve": true,
+      "evidence": [
+        {
+          "path": "workers/F/finite-quantum-integration/coherent-adapter-theorem-only-v1.md",
+          "exists": true,
+          "sha256": "66d889b189b4193d0e07be3e9baa0b3ce78803ba824e9aedea7f622e9cada3cc"
+        },
+        {
+          "path": "workers/F/finite-quantum-integration/coherent-adapter-proof-v1.md",
+          "exists": true,
+          "sha256": "b7746c86d76a664899e112a31350551498315ee2f867386294fba6f0c1e1f4f7"
+        },
+        {
+          "path": "coordinator/quantum-integration/f-qcoh-full-review-v1.md",
+          "exists": true,
+          "sha256": "16e13a57efa8cae6e83a79a424ef0b31e4b06bac63676e5da681b0c5932fd208"
+        },
+        {
+          "path": "criticism/BT15/input/definitions-v1.md",
+          "exists": true,
+          "sha256": "8bc7f1fb091d31dc607c3178e20fbd7ac6db4634348664341ed57c486b845f81"
+        },
+        {
+          "path": "criticism/BT15/report-v1.md",
+          "exists": true,
+          "sha256": "0b58da9c810b3a31dd51f371698ce93d72a5710455a7ff804dff2d6abff63fb7"
+        },
+        {
+          "path": "criticism/BT15/freeze-receipt-v1.json",
+          "exists": true,
+          "sha256": "847de2c2d1ca71b90d1908d32161d02ab29519cee229a678023a48135e5f465c"
+        },
+        {
+          "path": "coordinator/fractional-coherent-acceptance-v1.md",
+          "exists": true,
+          "sha256": "4b35c91fe07fc3eb7224570421605c0a95dbf494fdbd9722bd0efd0f49d39487"
+        },
+        {
+          "path": "coordinator/fractional-coherent-regression-gate-v1.json",
+          "exists": true,
+          "sha256": "50406f8fcd64aa30a25ee7a3ec817123aad3ebbe9484fffafb3ca102888ab6f9"
+        },
+        {
+          "path": "coordinator/fractional-coherent-artifact-consistency-v1.json",
+          "exists": true,
+          "sha256": "8fb57bdf6d69b0b4f93fb7661a0ab9b44a9207f4f07fa5bd0fc4daf99963ca50"
+        }
+      ],
+      "all_evidence_exists": true
+    },
+    {
+      "id": "F-QFINITE-v2",
+      "dependencies": [
+        "F-QCOH-v1"
+      ],
+      "all_dependencies_resolve": true,
+      "evidence": [
+        {
+          "path": "workers/F/finite-quantum-integration/finite-quantum-theorem-only-v2.md",
+          "exists": true,
+          "sha256": "ce7f5992b071f7d82e5e034a7dc323f69a85d0f4969afa0530603527bc7338e2"
+        },
+        {
+          "path": "workers/F/finite-quantum-integration/finite-quantum-algorithm-v2.md",
+          "exists": true,
+          "sha256": "1ea3e1ab1c297773d591a3bd983ff278f31cdafcd459acd29076a3867ede2545"
+        },
+        {
+          "path": "workers/F/finite-quantum-integration/finite-quantum-proof-v2.md",
+          "exists": true,
+          "sha256": "1430f62a7c670c682fef2cfc2b14d15f17c45e877fe3d598cc7a040cc1a69144"
+        },
+        {
+          "path": "criticism/BT17/assignment-v1.md",
+          "exists": true,
+          "sha256": "36f5495dfe46cc3d4d655e7ca9b0d1ebe859fda29dbd290b6d39ed64302596e3"
+        },
+        {
+          "path": "criticism/RF4/assignment-v1.md",
+          "exists": true,
+          "sha256": "99d43cef3c7081acc0d73e8db8e2d92f29c0dd0dc9dc1417f7a20e7130cead0c"
+        },
+        {
+          "path": "criticism/RF4/full-proof-report-v1.md",
+          "exists": true,
+          "sha256": "e22ca6820e4e1db074a6d08f46589648468b6ea3f9578ffeb3b92bf3512ae2e0"
+        },
+        {
+          "path": "criticism/RF4/source-parameter-complexity-report-v1.md",
+          "exists": true,
+          "sha256": "ad9b06ad5e3b632b793d95282bb3922e08ae7ec487d14615867b5637783b0172"
+        },
+        {
+          "path": "criticism/BT17/blind-report-v1.md",
+          "exists": true,
+          "sha256": "00d01d1afae48696b1e75cdc86d5d69ec8b998e73f0c79f9b58630dfd04ed143"
+        },
+        {
+          "path": "criticism/BT17/freeze-receipt-v1.sha256",
+          "exists": true,
+          "sha256": "71b7c1ad5ce5336bdf3364fc52758ebb3b7b7fee3e87a9d7afe16fc810efc532"
+        },
+        {
+          "path": "coordinator/quantum-integration/f-qfinite-acceptance-reconciliation-v2.md",
+          "exists": true,
+          "sha256": "d58d584e9c25d2e8eb281821c117f1222c7a0608e4bd8ddd09fd55e05cb71cdf"
+        },
+        {
+          "path": "coordinator/quantum-integration/f-qfinite-regression-gate-v2.json",
+          "exists": true,
+          "sha256": "7b0ff7292cbe8ab58024a9a82688e60da7355a83bdf1d31df5aa9cb052afce79"
+        },
+        {
+          "path": "coordinator/quantum-integration/f-qfinite-artifact-consistency-v2.json",
+          "exists": true,
+          "sha256": "f5d12ec758e90871ac7875ece3885c07e8018893b6813bffafec0e4402e0fc74"
+        }
+      ],
+      "all_evidence_exists": true,
+      "exact_theorem_sha256_matches_evidence": true,
+      "exact_proof_sha256_matches_evidence": true
+    },
+    {
+      "id": "H-ALIGN-v1",
+      "dependencies": [],
+      "all_dependencies_resolve": true,
+      "evidence": [
+        {
+          "path": "workers/H/prime-alignment/theorem-only-v1.md",
+          "exists": true,
+          "sha256": "e2265238d7240a1fae85fa952c7996e0ad7ec20bc8697870da18fca9b4c6be18"
+        },
+        {
+          "path": "workers/H/prime-alignment/proof-v1.md",
+          "exists": true,
+          "sha256": "0f2eb5103e3fb274a9ae87213555e7e530dc0b628b7d57a04804b28a7698a96a"
+        },
+        {
+          "path": "workers/H/prime-alignment/finite-stdout-v1.json",
+          "exists": true,
+          "sha256": "a8905bbf62c11437dd9a79bb7b8c56dec1b9f732fd9f278b35e575438a6f3fb5"
+        },
+        {
+          "path": "coordinator/alignment-acceptance-v1.md",
+          "exists": true,
+          "sha256": "2aa7ff75558eb4a3e93a6e59b2f46c799c7598d64be0b3f21b5754383bee5ee2"
+        },
+        {
+          "path": "coordinator/alignment-regression-gate-v1.json",
+          "exists": true,
+          "sha256": "586f2b7d9932ffcaa251a8ea52984fcb802a8ccf3cdf09674a0178b6555caf89"
+        },
+        {
+          "path": "coordinator/samej-alignment-artifact-gate-v1.json",
+          "exists": true,
+          "sha256": "e038cf4c27f371d8510eff46717a6e1c10fe1b51a7f0b3dd2bb8e85252f0c3e7"
+        }
+      ],
+      "all_evidence_exists": true
+    },
+    {
+      "id": "RF4-SAMEJ-v1",
+      "dependencies": [
+        "A-FRAC-v1",
+        "B-GP-v2",
+        "C-OHCP-v8",
+        "F-QFINITE-v2"
+      ],
+      "all_dependencies_resolve": true,
+      "evidence": [
+        {
+          "path": "workers/RF4/same-j-composition/same-j-theorem-only-v1.md",
+          "exists": true,
+          "sha256": "96b88a725cc5dc4f8c943275d3b8788fdb9e6ac108c72fe62b383af9614e5e62"
+        },
+        {
+          "path": "workers/RF4/same-j-composition/same-j-proof-v1.md",
+          "exists": true,
+          "sha256": "4821d28fa205d893576b496df7f328f94a4ba111f6d634fd4b338edfea8c522d"
+        },
+        {
+          "path": "workers/RF4/same-j-composition/interface-statements-v1.md",
+          "exists": true,
+          "sha256": "25a78ebcc36d3cd31568f12dd36ee233490509dab8684d4656002a528bb0fab8"
+        },
+        {
+          "path": "workers/RF4/same-j-composition/freeze-manifest-v1.json",
+          "exists": true,
+          "sha256": "ff917b85c43f1c88dcfc324981fdc8319462ee1bd66ec7cc6cb9207ff76315b3"
+        },
+        {
+          "path": "coordinator/samej-acceptance-v1.md",
+          "exists": true,
+          "sha256": "4f8bf169b65070cbe82d9227db7f2411f4d6f35d1d9187511621b13d44541418"
+        },
+        {
+          "path": "coordinator/samej-regression-gate-v1.json",
+          "exists": true,
+          "sha256": "98068aadcb98d09782866a89d6ba9a6f5b3c880b565af25c692bd9a303e57bc3"
+        },
+        {
+          "path": "coordinator/samej-alignment-artifact-gate-v1.json",
+          "exists": true,
+          "sha256": "e038cf4c27f371d8510eff46717a6e1c10fe1b51a7f0b3dd2bb8e85252f0c3e7"
+        }
+      ],
+      "all_evidence_exists": true,
+      "exact_theorem_sha256_matches_evidence": true,
+      "exact_proof_sha256_matches_evidence": true
+    }
+  ]
+}

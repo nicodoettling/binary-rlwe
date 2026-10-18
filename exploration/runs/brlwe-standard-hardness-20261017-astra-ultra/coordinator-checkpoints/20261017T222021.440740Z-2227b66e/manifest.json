@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261017T222021.440740Z-2227b66e",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-17T22:20:21.440764+00:00",
+  "reason": "Preserve scoped order-pairing repair and exact next family test; BT10 experiment released",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 28691,
+      "sha256": "e8d138576f9a599f77aa4342bb6f30557f39ba55206e74e0c84a3b05792307db"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 2610,
+      "sha256": "6332ab2cfc41a3a67c0a0e5af8f0059a14baf938138ef096a6b5b16b32a13b66"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 2002,
+      "sha256": "326f2d568648f17b47baee16358e8d2af316c0516d25b4275ca154d4b40a4de6"
+    },
+    {
+      "path": "final.md",
+      "bytes": 11283,
+      "sha256": "da13687e18424b003ddb339f95aed21ffbe3d4f695888a53410be91ebd96c3d0"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 13728,
+      "sha256": "1b4b6ffade458dcf2609f332ed982586f5df76ce2606cdad8d33c05c8b18747c"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

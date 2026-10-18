@@ -1,0 +1,34 @@
+# Continue the same research goal at Standard speed, three agents total
+
+The user requested a controlled restart at the correct service tier after removing an unintended global priority setting, then explicitly requested THREE agents for this relaunch. This supersedes every historical two-agent or five-agent instruction. Continue the SAME native goal thread `01a14b7b-9e45-7b70-b46d-0bf70e17f2e2`; do not create a new goal, pause it, add a token budget, or reset its research clock. Preserve the original computational-foundation objective and all scientific review requirements. Stopping the previous service was an authorized operational change, not a policy interruption or proof outcome.
+
+## Runtime and authorization
+
+- Root: `/home/nico/projects/research_projects/binaryRLWE`.
+- OUTPUT: `exploration/runs/brlwe-standard-hardness-20261017-astra-ultra`.
+- Current manifest: OUTPUT/`standard3-launcher-run.json`; current worker status: OUTPUT/`standard3-worker-status.json`; log: OUTPUT/`standard3.log`. Read the cap sidecar identified by that manifest, not historical sidecars.
+- Three active agents TOTAL: coordinator plus at most two workers. All use `gpt-6-astra`, reasoning `ultra`. Worker overrides require `fork_turns="none"`. No grandchildren or extra external sessions. Do not invent tasks just to fill slots.
+- Standard service tier is explicitly selected by the foreground's run-local executable wrapper, with CLI override `service_tier="default"`. Do not enable fast/priority/ultrafast, modify configuration, or change model/effort. Reasoning ultra and service speed are independent settings. Do not infer backend billing from model labels or raw tokens.
+- Preserve sandbox-only: workspace-write, approval never. No installs, external communications, commits/pushes, services, detached work, or automatic restart.
+- Scientific writes remain confined to OUTPUT. Preserve package, literature, Git, old transcripts and frozen artifacts. Foreground owns launch/configuration files.
+
+The original run began 2026-10-17T20:09:14.894509Z. Before this reconnect the hard deadline was 2026-10-18T02:07:14.421959Z; the new cap is funded ONLY from remaining time and may end slightly earlier for launch reserve. Use the EARLIER of the prior boundaries and the new cap: discovery stop no later than01:37:14.421959Z; worker/experiment stop no later than01:57:14.421959Z or ten minutes before the new hard deadline, whichever is earlier. The service handles graceful shutdown externally. A reconnect is not a fresh six-hour authorization. If the cap expires unfinished, preserve that state honestly.
+
+## Immediate recovery and verification
+
+1. Read `get_goal`, actual `list_agents`, OUTPUT/resume.md, progress.md, claims.json, reconciliation.md, and current manifest/cap. Preserve actual objective/status; do not mark complete for auxiliary results. Historical operational counts and manifest pointers are superseded by this instruction.
+2. No worker should remain live from the stopped service. Inspect actual state; interrupt any unexpected inherited excess, preserve its files, and keep active total <=3. Record observed runtime capacity separately from configured flags. If fewer slots are available, proceed within capacity and record the mismatch without creating sessions.
+3. Save OUTPUT/`foreground-inputs/standard3-resume-ack.md`, OUTPUT/`coordinator/standard3-runtime-verification.json`, and a fresh OUTPUT/`coordinator/standard3-goal-usage.json`. Include actual list/spawn/interrupt receipts, effective deadlines, same-goal identity, and observed model/effort. Record service-tier verification only to the extent supported by actual evidence; a wrapper/config flag is configuration evidence, not server billing telemetry.
+4. Update live monitoring pointers and ceilings in agents.json, progress.md and resume.md, preserving historical narratives. Take an atomic core checkpoint. Resume useful unfinished work with at most two workers and record actual startup receipts.
+
+## Scientific continuation
+
+Read current artifacts first: they may be newer than this instruction. The computational foundation is OPEN. Accepted auxiliary claims before this reconnect were A-FRAC-v1, B-GP-v2, D-THETA-v1 and ROOT-SAMECLASS-v1; inherited EX-v2 still assumes unproved Base2. The original scientific objective and success criteria are in `exploration/standard-hardness-20261017/PLAN.md` and the native goal, unchanged apart from operational count/speed/deadline.
+
+At the last foreground observation, root and BT11 were active. RF3 completed favorable full/source review of the new integral binary-collision class count, and a narrow fractional-v2 scale/radius recheck. These are not fully accepted. C8/spec2/proof9 still needs a clean independent blind gate: BT10 was exposed to outside scientific search and is not a clean blind gate. Preserve all objections and superseded versions. Inspect BT11's artifacts before choosing whether to continue or replace its interrupted assignment. A replacement blind reviewer must receive ONLY its frozen theorem/specification and allowed inputs, without proofs, claim status, ledgers, other reports or external retrieval, until its report is sealed. Do not transfer exposed histories to blind reviewers.
+
+The strongest current chain keeps the same ideal J: binary recovery -> fractional-source decision -> finite periodic Gaussian decision -> BDD on qJ^-1 -> quantum Gaussian sampling on J. The first two bridges are accepted separately; finite/quantum integration and an arbitrary-ideal-to-eligible-family connection remain separate obligations. Root was examining fractional scaling to escape the integral-class obstruction. Preserve direction, exact secret/error laws, pointwise versus average-family scope, representations, parameters, query costs and bounded runtime. The new paper's ring transports remain conditional/provisional; uniform-secret arguments do not automatically handle binary secrets.
+
+Use the extra worker for useful independent review or the strongest concrete remaining family bridge. Preserve author/reviewer independence. Do not multiply speculative branches or rederive already rejected routes without a stated new ingredient. Follow the existing mathematical audit protocol; accepted local controls are not asymptotic hardness proofs.
+
+Maintain five-minute atomic core snapshots and append-only claim history. Existing experimental restrictions persist: default120s/max300s per job, <=2 concurrent jobs/one heavy, <=16GiB per job, preserved inputs/code/seeds/output/resource receipts. No experiment was active at the last observation; verify before scheduling. At wrap-up stop discovery, reconcile exact claims/reviews, preserve honest unresolved conclusions, and stop workers by the earlier boundary. Do not infer process cleanup or goal completion from a launcher message.

@@ -1,0 +1,75 @@
+{
+  "checked_at": "2026-10-17T20:09:34.053993+00:00",
+  "authorized": true,
+  "session_id": "01a14b7b-9e45-7b70-b46d-0bf70e17f2e2",
+  "tmux_session": "brlwe-standard-hardness-20261017-astra-ultra",
+  "run_file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/launcher-run.json",
+  "observed": {
+    "approval": "never",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "ultra",
+    "sandbox": "workspace-write [workdir, /tmp, $TMPDIR]",
+    "session_id": "01a14b7b-9e45-7b70-b46d-0bf70e17f2e2",
+    "workdir": "/home/nico/projects/research_projects/binaryRLWE"
+  },
+  "configured_agents": {
+    "config_key_support": "unverified",
+    "config_overrides": [
+      "agents.enabled=true",
+      "agents.max_concurrent_threads_per_session=4"
+    ],
+    "configured_agents_enabled": true,
+    "configured_max_spawned_threads": 4,
+    "effective_capacity": "unverified",
+    "requested_spawned_agents": 4,
+    "requested_total_agents": 5,
+    "verification_note": "CLI --config availability is checked, not recognition/application of these keys. Verify the coordinator's reported slots and worker startup; configuration does not override backend or managed limits."
+  },
+  "service": "codex-cap-brlwe-standard-hardness-20261017-astra-u-0d13c36f8a40.service",
+  "service_properties": {
+    "Restart": "no",
+    "TimeoutStopUSec": "1min",
+    "RuntimeMaxUSec": "5h 58min 55s",
+    "MainPID": "304892",
+    "ControlGroup": "/user.slice/user-1007.slice/user@1007.service/app.slice/codex-cap-brlwe-standard-hardness-20261017-astra-u-0d13c36f8a40.service",
+    "KillMode": "control-group",
+    "SendSIGKILL": "yes",
+    "ActiveState": "active",
+    "SubState": "running"
+  },
+  "process_containment": {
+    "worker_pid": {
+      "pid": 304892,
+      "cgroup": "0::/user.slice/user-1007.slice/user@1007.service/app.slice/codex-cap-brlwe-standard-hardness-20261017-astra-u-0d13c36f8a40.service",
+      "in_expected_service": true
+    },
+    "codex_pid": {
+      "pid": 305040,
+      "cgroup": "0::/user.slice/user-1007.slice/user@1007.service/app.slice/codex-cap-brlwe-standard-hardness-20261017-astra-u-0d13c36f8a40.service",
+      "in_expected_service": true
+    }
+  },
+  "timing": {
+    "started_at": {
+      "utc": "2026-10-17T20:09:14.894509+00:00",
+      "berlin": "2026-10-17T22:09:14.894509+02:00"
+    },
+    "wrapup_at": {
+      "utc": "2026-10-18T01:39:14.894509+00:00",
+      "berlin": "2026-10-18T03:39:14.894509+02:00"
+    },
+    "graceful_shutdown_at": {
+      "utc": "2026-10-18T02:08:09.894509+00:00",
+      "berlin": "2026-10-18T04:08:09.894509+02:00"
+    },
+    "hard_deadline_at": {
+      "utc": "2026-10-18T02:09:14.894509+00:00",
+      "berlin": "2026-10-18T04:09:14.894509+02:00"
+    }
+  },
+  "native_goal_observed": true,
+  "four_workers_observed": true,
+  "verification_pending": null,
+  "startup_verified_at": "2026-10-17T20:13:25.340598+00:00",
+  "runtime_verification": "runtime-startup-verification.json"
+}

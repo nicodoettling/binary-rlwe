@@ -1,0 +1,86 @@
+{
+  "references": [
+    {
+      "id": "BBPS",
+      "title": "Order-LWE and the Hardness of Ring-LWE with Entropic Secrets",
+      "url": "https://eprint.iacr.org/2018/494.pdf",
+      "locations": [
+        "Definition3.6",
+        "Theorem3.7",
+        "Theorems6.2,6.3",
+        "Corollary6.4",
+        "Definitions7.3,7.4",
+        "Theorem7.5",
+        "Lemma7.7"
+      ],
+      "access": "indexed primary PDF passages; direct403; shellDNS failure; no local PDF hash"
+    },
+    {
+      "id": "JL",
+      "title": "Ring-LWE Hardness Based on Non-invertible Ideals",
+      "url": "https://eprint.iacr.org/2023/1839.pdf",
+      "locations": [
+        "Theorem5.1",
+        "Definitions5.1\u20135.3",
+        "Lemma5.7"
+      ],
+      "access": "indexed primary PDF passages; direct open failed; no local PDF hash"
+    },
+    {
+      "id": "PEIKERT2008",
+      "title": "Public-Key Cryptosystems from the Worst-Case Shortest Vector Problem",
+      "url": "https://drops.dagstuhl.de/storage/16dagstuhl-seminar-proceedings/dsp-vol08491/DagSemProc.08491.4/DagSemProc.08491.4.pdf",
+      "locations": [
+        "Theorem3.1",
+        "Proposition3.2"
+      ],
+      "access": "primary PDF web extraction"
+    },
+    {
+      "id": "BDPW2020",
+      "title": "Random Self-reducibility of Ideal-SVP via Arakelov Random Walks",
+      "url": "https://ir.cwi.nl/pub/30072/30072.pdf",
+      "locations": [
+        "ERH and h+ assumptions",
+        "Algorithm1",
+        "Lemma4.1",
+        "Theorems4.4,4.5"
+      ],
+      "access": "primary proceedings PDF web extraction"
+    },
+    {
+      "id": "FPSW2023",
+      "title": "Ideal-SVP is Hard for Small-Norm Uniform Prime Ideals",
+      "url": "https://perso.jfelderhoff.fr/work/papers/FPSW23.pdf",
+      "locations": [
+        "Corollaries5.3,5.4",
+        "Definition6.1",
+        "Theorem6.2",
+        "Corollary6.3",
+        "LemmaC.8"
+      ],
+      "access": "primary author PDF web extraction; c0 exact numeric typography not resolved or used; density cost taken from explicit success loss"
+    },
+    {
+      "id": "GENTRY2009",
+      "title": "A Fully Homomorphic Encryption Scheme (thesis)",
+      "url": "https://crypto.stanford.edu/craig/craig-thesis.pdf",
+      "locations": [
+        "Definition16.2.1",
+        "Definition16.3.1",
+        "Theorems16.3.4,16.3.5",
+        "Section17.3"
+      ],
+      "access": "primary author PDF web extraction"
+    },
+    {
+      "id": "BPTW2025-NAV",
+      "title": "Average hardness of SIVP for module lattices of fixed rank",
+      "url": "https://koendeboer.com/publication/wcac/worstcaseaveragecase.pdf",
+      "locations": [
+        "Introduction and bibliography only"
+      ],
+      "access": "primary author PDF used only to navigate to earlier ideal-family theorems; no theorem imported"
+    }
+  ]
+}

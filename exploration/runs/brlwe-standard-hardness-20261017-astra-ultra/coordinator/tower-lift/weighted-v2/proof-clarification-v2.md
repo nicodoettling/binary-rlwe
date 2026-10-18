@@ -1,0 +1,9 @@
+# Exact clarification supplement for weighted specification v2
+
+The full proof is the unchanged RT1 weighted-trace-bridge-v1.md, with its covariance derivation in RT1 moment-improvement-v1.md and full line-mass derivation reconstructed in RT2 full-review-v1.md. This v2 changes no algebraic or numerical inequality. It removes two possible overreadings of the compact v1 specification, preserved by BT21 before this repair.
+
+For random multiplier U, condition on U=a before drawing X; every proof step applies pointwise. Integrating the exact moment inequality places E||U||^2 on its right side. For implemented conditional laws use the pointwise event comparison and average; alternatively apply TV to the complete joint event. A marginal law alone is not enough. A separate bad-multiplier event is charged by a union bound. These are ordinary conditioning/TV identities, with full normalizers and all zero/off-ideal branches unchanged.
+
+For fixed valid a, Markov and the subspace union bound still give failure <=min(1,eta+4sqrt(m)/W+h). Its positivity is exactly a separate numerical condition. The approximation expression is polynomial under the stated numeric value bounds regardless of whether this probability certificate is vacuous. No polynomial repetition cost is inferred from a positive but exponentially small margin. No new amplified algorithm or source theorem is asserted.
+
+The original v1 author proof's computational-existence boundary is retained. The root product proof's perpendicular-wording error has a separate exact parallel-coordinate erratum; the correct full identity is reproduced independently by RT2. Weighted v2 depends on those proved covariance/subspace ingredients, not on the full product-transfer theorem. All upstream binary/quantum sampler and family algorithms remain separate conditional inputs, not newly verified imports.

@@ -1,0 +1,93 @@
+{
+  "at": "2026-10-18T00:04:17.401568+00:00",
+  "claim": "ROOT-PLANTED-INFO-v1",
+  "artifacts": [
+    {
+      "path": "coordinator/planted-information/theorem-v1.md",
+      "sha256": "536bb0235e7ccd11563d6f731a4935822a664ae393eb5ae301dbdad89a1ac5e1",
+      "bytes": 3023,
+      "expected_match": true
+    },
+    {
+      "path": "coordinator/planted-information/proof-v1.md",
+      "sha256": "57a314f1f9c4671194b4943b20873b5ad1e8f8c5043cb6308ae89b8605177eb4",
+      "bytes": 6107,
+      "expected_match": true
+    },
+    {
+      "path": "workers/G/planted-information-review/full-proof-review-v1.md",
+      "sha256": "4c681c2a0ef3d4c29a8aa393a8eb5593a0162b50291bf50450ca5a2f7743996d",
+      "bytes": 15804,
+      "expected_match": true
+    },
+    {
+      "path": "workers/G/planted-information-review/source-parameter-review-v1.md",
+      "sha256": "3cb130c3434a34124d67ba3afe08fba4db4707bcd8c88e7082db43e522191284",
+      "bytes": 11279,
+      "expected_match": true
+    },
+    {
+      "path": "criticism/BT16/BT16-complete-report-v1.md",
+      "sha256": "a1fb58816f26ec832f0f61f627668a421995b556a5cc0e0b7a19f7bd1298269d",
+      "bytes": 32601,
+      "expected_match": true
+    },
+    {
+      "path": "criticism/BT16/BT16-freeze-receipt-v1.json",
+      "sha256": "ced76bc586c7a659e8628a0c7df56a399974d0d1e19a5e17b6a27fe3fc38913f",
+      "bytes": 1613,
+      "expected_match": true
+    },
+    {
+      "path": "criticism/BT16/finite-control.py",
+      "sha256": "8375499abe766bf5b07c6770c0f36892b1e6dc03bce27b0b4d1fde08317fbd31",
+      "bytes": 6325,
+      "expected_match": true
+    },
+    {
+      "path": "criticism/BT16/finite-control-stdout.txt",
+      "sha256": "ab6c8579f9c35289a368cf1bc608bc625d3a9fa1e38f4762b680535a810bc07f",
+      "bytes": 2157,
+      "expected_match": true
+    }
+  ],
+  "blind_input_byte_identity": true,
+  "complete_blind_report_bytes": 32601,
+  "complete_report_read": "Root read0:23000 and22000:end after seal, including all findings and limitations",
+  "clean_gate_receipt": {
+    "worker": "BT16",
+    "state": "COMPLETE_FROZEN_BEFORE_SCIENTIFIC_DISCLOSURE",
+    "report_path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/criticism/BT16/BT16-complete-report-v1.md",
+    "report_sha256": "a1fb58816f26ec832f0f61f627668a421995b556a5cc0e0b7a19f7bd1298269d",
+    "report_bytes": 32601,
+    "sealed_utc": "2026-10-17T23:55:58.029034+00:00",
+    "input_sha256": {
+      "assignment-v1.md": "9a58f30c5816bc6f030bc2ec08042f43754bc8321d1def3a5092c9a97bd5121a",
+      "input/theorem-v1.md": "536bb0235e7ccd11563d6f731a4935822a664ae393eb5ae301dbdad89a1ac5e1",
+      "input/definitions-v1.md": "07bff1b11b2cca310a33ef267d19cb8d859dcf94a483da9c275e36d5c865c514"
+    },
+    "exposure_record": {
+      "clean_gate": true,
+      "scientific_inputs": [
+        "assignment-v1.md",
+        "input/theorem-v1.md",
+        "input/definitions-v1.md"
+      ],
+      "other_reads": "Only this worker's newly created experiment/report artifacts and administrative clock/resource output.",
+      "parent_messages_before_seal": "Administrative bounded-experiment reservation only.",
+      "forbidden_source_exposure": false,
+      "scientific_verdict_disclosed_before_seal": false
+    },
+    "experiment": {
+      "reservation": "BT16-FV1",
+      "foreground_jobs": 1,
+      "status": "completed",
+      "wall_seconds": 0.05722037999657914,
+      "max_rss_KiB": 13312
+    },
+    "immutability_protocol": "Exclusive-create receipt; report and receipt mode 0444; no later edits. Any amendment requires a new version and receipt.",
+    "formal_verification": false,
+    "same_model_scrutiny_is_correlated": true
+  },
+  "scope": "Structural byte/link consistency ONLY; mathematical acceptance rests on separately read full proofs and reports."
+}

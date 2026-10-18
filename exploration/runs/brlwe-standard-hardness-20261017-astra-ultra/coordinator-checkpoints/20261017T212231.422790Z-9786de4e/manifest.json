@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261017T212231.422790Z-9786de4e",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-17T21:22:31.422812+00:00",
+  "reason": "Source review reconciliation, ringquantum candidate, sameclass count,22finitejobs",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 20177,
+      "sha256": "6030f9543a546ce4bd4aeb7600068b2047b3de1d841e84cd9cf0e401efcdbae5"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 3112,
+      "sha256": "f48a3b03656ea16894133754bac62e56e8b38f3d332d78d442c10ab1fdc0b268"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 1716,
+      "sha256": "50c7ac5c78d8e40c0be01b37ad44bad66dc20edf243972b5ec6d90b988b5e37e"
+    },
+    {
+      "path": "final.md",
+      "bytes": 8521,
+      "sha256": "463bcdfff2b83ecc2a8dd5dcca9082045827742fd568216ebfe500e3d5181794"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 12563,
+      "sha256": "71f4d0f92036f6e1ce0484963034355ae2e9e3eb0085ac05401d84aa6b170f0f"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

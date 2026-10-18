@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261018T002049.274083Z-5021e74c",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-18T00:20:49.274123+00:00",
+  "reason": "Read full quantum reviews; recover actual H identity and completed RF4; preserve open foundation",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 42732,
+      "sha256": "62c7c9b8b5e2ca034d0cdf324bd79d39c1e7ae1e1988a19584f176d9002f1417"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 1396,
+      "sha256": "59b2b62d9d10311bd12b885356026250882e0a102d066b00ff5a85280ef3f2a8"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 1247,
+      "sha256": "7172d48a53905ceb8fd292e8f8c03ec19a5b1c5a73d9ec61d525214241cd0745"
+    },
+    {
+      "path": "final.md",
+      "bytes": 17078,
+      "sha256": "f76fab99b0879d88876a8faf5d7887435ec1642ef6d092734304915134428d4e"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 10267,
+      "sha256": "d7590a65aff76d09e438b72ca25b9219a3598dff8d08aa8712c90445bd899d2d"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

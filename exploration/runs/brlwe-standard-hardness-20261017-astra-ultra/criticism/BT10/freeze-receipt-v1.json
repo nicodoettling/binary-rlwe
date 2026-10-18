@@ -1,0 +1,23 @@
+{
+  "experiment_artifact_sha256": {
+    "experiments/fv1-command.txt": "e7bef7ec66f60112e3b072caf5fa3e6ec085b1f7a47503e473fdbb80ce725c80",
+    "experiments/fv1-resource.txt": "cbeaa54446a933c5a202b735782d979b8d79ca44ddfcf35964e4126b2d6c439b",
+    "experiments/fv1-stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/fv1-stdout.txt": "99a8420beaba46a5268f2f4ab8faae79914bc607f354a580db31d9dcd2a754aa",
+    "experiments/fv1.py": "3059f8cd59662dc0ec9a74f0a74dd5421a07c5fc3df6a1691fb8d90971289ca1"
+  },
+  "immutable_report_rule": "Do not modify report-v1.md after this receipt; use a separately versioned correction.",
+  "report": "report-v1.md",
+  "report_bytes": 31766,
+  "report_complete_before_seal": true,
+  "report_sha256": "ae3aa9293a1738c838e8df9a1eebfadc6949aaacbf74f7a7ebefe16aae507b77",
+  "role": "BT10 fresh blind referee",
+  "scientific_input_sha256": {
+    "input/multiplier-ohcp-algorithm-v2.md": "4361c90a7fa7cfe25d0ab3e8cd5c5333fb474cf1fb764375e10c29fca5102735",
+    "input/multiplier-ohcp-theorem-v8.md": "857a62e9f4a937a80e5cb3b115c8b132abf122c16665d29b39dcb62bde86fe0a"
+  },
+  "sealed_at_utc": "2026-10-17T22:22:35.844981+00:00",
+  "substantive_disclosure_before_seal": false,
+  "verdict": "ACCEPT core finite pointwise BDD assertion; separate bridge, author proof, coherent quantum implementation, and arbitrary-family hardness are not certified.",
+  "version": 1
+}

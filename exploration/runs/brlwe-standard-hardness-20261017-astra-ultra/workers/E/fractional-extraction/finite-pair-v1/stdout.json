@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "reservation": "E-PAIR-1",
+  "states": 81,
+  "ordered_pairs": 6561,
+  "seed": null,
+  "exact_record_sha256": "e2fb27f684ccbbfc81de53dd9a2496d8a665c61b47f1d43ca5e464710f103d10",
+  "pstar_approx": 0.012507152540396544,
+  "pair_short_including_zero_approx": 0.04398098254095677,
+  "pair_zero_approx": 0.01234648321732406,
+  "pair_short_nonzero_approx": 0.03163449932363271,
+  "finite_maxatom_bound_approx": 0.1125643728635689,
+  "truncation_wrong_full_bound_upper": "5/341",
+  "truncation_wrong_bound_refuted": true,
+  "quotient_order": 25,
+  "quotient_labels_seen": 25,
+  "uniform_source_states": 289,
+  "max_fraction_bits": 1298,
+  "wall_seconds": 0.034656591014936566,
+  "max_rss_kib": 14336,
+  "scope": "Exact finite conditional-law regression and pair-count audit, not a counterexample to full Gaussian theorem or hardness evidence."
+}

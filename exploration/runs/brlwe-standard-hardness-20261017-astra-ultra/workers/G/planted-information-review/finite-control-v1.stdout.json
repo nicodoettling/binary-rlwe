@@ -1,0 +1,134 @@
+{
+  "CP1": {
+    "accepted_mass": "10/11",
+    "cause": "Selected support and Bayes normalization; local residuality does not imply a product bound.",
+    "gamma_squared": "1/100",
+    "old_product_claim": "REJECTED",
+    "p_e0": "121/2000",
+    "p_f0": "21/2000",
+    "p_x": "1/10",
+    "prior_joint_atoms": 160,
+    "second_residual_incidence": "21/221",
+    "two_stage_event": "21/2000"
+  },
+  "cases": [
+    {
+      "decoder_failure_and_good_denominator": "0",
+      "decoder_success": "11/12",
+      "denominator_failure": "1/9",
+      "endpoint": "planted",
+      "first_small_q_failure": null,
+      "interpretation": "positive large-q control",
+      "joint_atoms": 324,
+      "k": 1,
+      "likelihood_inversion": "PASS",
+      "p_guess_actual_S": "11/12",
+      "public_transcripts": 297,
+      "q": 101,
+      "total_integer_weight": 576,
+      "unwrapping_failure": "0"
+    },
+    {
+      "endpoint": "uniform comparator",
+      "joint_atoms": 367236,
+      "k": 1,
+      "likelihood_inversion": "PASS",
+      "p_guess_actual_S": "163095/163216",
+      "public_transcripts": 366865,
+      "q": 101,
+      "total_integer_weight": 652864
+    },
+    {
+      "decoder_failure_and_good_denominator": "0",
+      "decoder_success": "107/108",
+      "denominator_failure": "1/81",
+      "endpoint": "planted",
+      "first_small_q_failure": null,
+      "interpretation": "positive large-q control",
+      "joint_atoms": 26244,
+      "k": 2,
+      "likelihood_inversion": "PASS",
+      "p_guess_actual_S": "107/108",
+      "public_transcripts": 26001,
+      "q": 101,
+      "total_integer_weight": 82944,
+      "unwrapping_failure": "0"
+    },
+    {
+      "decoder_failure_and_good_denominator": "475/576",
+      "decoder_success": "47/288",
+      "denominator_failure": "1/81",
+      "endpoint": "planted",
+      "first_small_q_failure": {
+        "A": [
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "B": [
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "actual_S": [
+          0,
+          0
+        ],
+        "candidate_indices": [
+          2
+        ],
+        "integer_weight": 1,
+        "unwrapping_holds": false
+      },
+      "interpretation": "negative unwrapping-premise control; not a theorem counterexample",
+      "joint_atoms": 26244,
+      "k": 2,
+      "likelihood_inversion": "PASS",
+      "p_guess_actual_S": "1511/1728",
+      "public_transcripts": 21513,
+      "q": 5,
+      "total_integer_weight": 82944,
+      "unwrapping_failure": "1445/1728"
+    },
+    {
+      "endpoint": "uniform comparator",
+      "joint_atoms": 202500,
+      "k": 2,
+      "likelihood_inversion": "PASS",
+      "p_guess_actual_S": "35613/40000",
+      "public_transcripts": 167521,
+      "q": 5,
+      "total_integer_weight": 640000
+    }
+  ],
+  "elapsed_seconds": 3.640183884999715,
+  "failures": [],
+  "hidden_ideal_mixture": {
+    "joint_atoms": 1620,
+    "p_guess_with_J": "103/108",
+    "p_guess_without_J": "103/108",
+    "positive_A_B_cells": 1257,
+    "positive_J_A_B_cells": 1554,
+    "posterior_vector_cross_product_checks": "PASS",
+    "shared_J_A_B_cells": 594,
+    "shared_nonzero_A_J_A_B_cells": 576,
+    "total_integer_weight": 3456,
+    "zero_mass_policy": "No posterior asserted on absent cells."
+  },
+  "id": "G-PI-FV1",
+  "joint_atoms_total": 624328,
+  "max_rss_kib": 14336,
+  "precision": "Exact arbitrary-precision integers and rational reporting.",
+  "scope": "Finite-support falsification/control of public decoder, exact endpoint laws, posterior cancellation, and CP1. Not the unbounded Gaussian law, not a Gaussian tail certification, and not computational hardness. q=5 deliberately lacks the unwrapping premise.",
+  "status": "PASS"
+}

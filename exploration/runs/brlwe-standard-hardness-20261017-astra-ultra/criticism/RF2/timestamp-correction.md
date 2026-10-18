@@ -1,0 +1,1 @@
+The 21:05Z label in frozen partial-v1.md and the previous progress/resume entries was a mistaken estimated time. Direct clock tool read immediately after those actions was 2026-10-17 21:01:34 UTC. The frozen mathematical bytes are preserved; chronology is exact-v1 partial before reading C v2. The absolute cap has not changed.

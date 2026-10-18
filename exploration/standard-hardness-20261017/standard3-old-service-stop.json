@@ -1,0 +1,15 @@
+{
+  "requested_at": "2026-10-17T22:39:09.569994+00:00",
+  "reason": "User-authorized same-goal restart at Standard service tier with three agents",
+  "service": "codex-cap-brlwe-standard-hardness-20261017-throttl-a1f12347731a.service",
+  "stop_returncode": 0,
+  "stderr": "",
+  "native_goal_status_not_modified": true,
+  "properties_after_stop": {
+    "ControlGroup": "",
+    "ActiveState": "failed",
+    "SubState": "failed"
+  },
+  "old_cgroup_populated": false,
+  "verified_at": "2026-10-17T22:39:10.585893+00:00"
+}

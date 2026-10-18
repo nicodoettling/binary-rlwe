@@ -1,0 +1,89 @@
+{
+  "H_weights": "(100/101)^(8||h||^2), h in Z^2",
+  "all_assertions_passed": true,
+  "arithmetic": "exact Fraction identities; IEEE754 outward intervals checked against exact rational starting weights",
+  "convolution": {
+    "G_points": 313,
+    "P_mass_in_box": [
+      0.9999999999997994,
+      1.0000000000002345
+    ],
+    "Q_mass_in_box": [
+      0.9999999999998517,
+      1.0000000000001725
+    ],
+    "TV_interval_with_truncation": [
+      1.5117154013217176e-07,
+      1.5117178485698292e-07
+    ],
+    "output_points": 2401,
+    "theorem_eta_conservative_upper_interval": [
+      9.870437788328984e-06,
+      9.870437788328987e-06
+    ]
+  },
+  "elapsed_seconds_internal": 0.4818805569666438,
+  "exact_square_completion_checks": 1225,
+  "ideal_guessing": {
+    "actual_guessing_interval_with_tail": [
+      0.7105754922518921,
+      0.7105754922520218
+    ],
+    "bound_with_index": [
+      0.8421407706803636,
+      0.8421407706803679
+    ],
+    "gaussian_truncation_TV_upper": 8.482170244235802e-21,
+    "incorrect_bound_without_index": [
+      0.42107038534018193,
+      0.42107038534018376
+    ],
+    "kind": "ideal_parity",
+    "missing_mass_upper": 4.78223974293725e-20,
+    "normalizer_inside": [
+      5.637990756183066,
+      5.637990756183348
+    ],
+    "normalizer_ratio_interval": [
+      1.9999998375388723,
+      1.999999837538991
+    ]
+  },
+  "nonideal_guessing": {
+    "actual_guessing_interval_with_tail": [
+      0.6488993645705944,
+      0.6488993645706859
+    ],
+    "bound_with_index": [
+      0.8421407706803636,
+      0.8421407706803679
+    ],
+    "gaussian_truncation_TV_upper": 8.479754120893026e-21,
+    "incorrect_bound_without_index": [
+      0.42107038534018193,
+      0.42107038534018376
+    ],
+    "kind": "nonideal_2Z_times_Z",
+    "missing_mass_upper": 4.78223974293725e-20,
+    "normalizer_inside": [
+      5.639597180246566,
+      5.639597180246871
+    ],
+    "normalizer_ratio_interval": [
+      1.9994301429732184,
+      1.9994301429733448
+    ]
+  },
+  "parameters": {
+    "D": 2,
+    "Ecut": 24,
+    "Gcut": 12,
+    "Hcut": 36,
+    "n": 2,
+    "tau2_squared": 2
+  },
+  "reservation": "A-frac-finite-1",
+  "source_weights": "(100/101)^(28||g||^2), g in J",
+  "tail_method": "2*b^(a(R+1)^2)/(1-b^(a(2R+3))) per coordinate, then full product-union bound",
+  "target_weights": "(100/101)^(7||e||^2), e in Z^2"
+}

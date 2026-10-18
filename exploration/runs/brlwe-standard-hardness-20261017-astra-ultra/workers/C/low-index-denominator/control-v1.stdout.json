@@ -1,0 +1,273 @@
+{
+  "reservation": "C-LOWINDEX-1",
+  "method": "exhaustive exact Fraction/integer; no randomness",
+  "n": 4,
+  "q": 17,
+  "denominator_cases": [
+    {
+      "r": 0,
+      "unit_exponent": -2,
+      "absolute_norm": "1",
+      "small_lift_cases": 8
+    },
+    {
+      "r": 0,
+      "unit_exponent": -1,
+      "absolute_norm": "1",
+      "small_lift_cases": 16
+    },
+    {
+      "r": 0,
+      "unit_exponent": 0,
+      "absolute_norm": "1",
+      "small_lift_cases": 16
+    },
+    {
+      "r": 0,
+      "unit_exponent": 1,
+      "absolute_norm": "1",
+      "small_lift_cases": 16
+    },
+    {
+      "r": 0,
+      "unit_exponent": 2,
+      "absolute_norm": "1",
+      "small_lift_cases": 13
+    },
+    {
+      "r": 1,
+      "unit_exponent": -2,
+      "absolute_norm": "2",
+      "small_lift_cases": 16
+    },
+    {
+      "r": 1,
+      "unit_exponent": -1,
+      "absolute_norm": "2",
+      "small_lift_cases": 16
+    },
+    {
+      "r": 1,
+      "unit_exponent": 0,
+      "absolute_norm": "2",
+      "small_lift_cases": 16
+    },
+    {
+      "r": 1,
+      "unit_exponent": 1,
+      "absolute_norm": "2",
+      "small_lift_cases": 16
+    },
+    {
+      "r": 1,
+      "unit_exponent": 2,
+      "absolute_norm": "2",
+      "small_lift_cases": 11
+    },
+    {
+      "r": 2,
+      "unit_exponent": -2,
+      "absolute_norm": "4",
+      "small_lift_cases": 16
+    },
+    {
+      "r": 2,
+      "unit_exponent": -1,
+      "absolute_norm": "4",
+      "small_lift_cases": 16
+    },
+    {
+      "r": 2,
+      "unit_exponent": 0,
+      "absolute_norm": "4",
+      "small_lift_cases": 16
+    },
+    {
+      "r": 2,
+      "unit_exponent": 1,
+      "absolute_norm": "4",
+      "small_lift_cases": 16
+    },
+    {
+      "r": 2,
+      "unit_exponent": 2,
+      "absolute_norm": "4",
+      "small_lift_cases": 6
+    },
+    {
+      "r": 3,
+      "unit_exponent": -2,
+      "absolute_norm": "8",
+      "small_lift_cases": 16
+    },
+    {
+      "r": 3,
+      "unit_exponent": -1,
+      "absolute_norm": "8",
+      "small_lift_cases": 16
+    },
+    {
+      "r": 3,
+      "unit_exponent": 0,
+      "absolute_norm": "8",
+      "small_lift_cases": 16
+    },
+    {
+      "r": 3,
+      "unit_exponent": 1,
+      "absolute_norm": "8",
+      "small_lift_cases": 13
+    },
+    {
+      "r": 3,
+      "unit_exponent": 2,
+      "absolute_norm": "8",
+      "small_lift_cases": 3
+    },
+    {
+      "r": 4,
+      "unit_exponent": -2,
+      "absolute_norm": "16",
+      "small_lift_cases": 16
+    },
+    {
+      "r": 4,
+      "unit_exponent": -1,
+      "absolute_norm": "16",
+      "small_lift_cases": 16
+    },
+    {
+      "r": 4,
+      "unit_exponent": 0,
+      "absolute_norm": "16",
+      "small_lift_cases": 16
+    },
+    {
+      "r": 4,
+      "unit_exponent": 1,
+      "absolute_norm": "16",
+      "small_lift_cases": 11
+    },
+    {
+      "r": 4,
+      "unit_exponent": 2,
+      "absolute_norm": "16",
+      "small_lift_cases": 3
+    }
+  ],
+  "ratio_cases": 400,
+  "negative_rounding_examples": [
+    {
+      "f": [
+        "1",
+        "1",
+        "0",
+        "0"
+      ],
+      "z": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rational": [
+        "1/2",
+        "-1/2",
+        "1/2",
+        "-1/2"
+      ],
+      "modular": [
+        9,
+        8,
+        9,
+        8
+      ],
+      "naive_round": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "centered_twice": [
+        1,
+        -1,
+        1,
+        -1
+      ]
+    }
+  ],
+  "uniform_boxes": [
+    {
+      "m": 1,
+      "B": 0,
+      "count": 1,
+      "denominator": 83521
+    },
+    {
+      "m": 1,
+      "B": 1,
+      "count": 81,
+      "denominator": 83521
+    },
+    {
+      "m": 1,
+      "B": 2,
+      "count": 625,
+      "denominator": 83521
+    },
+    {
+      "m": 1,
+      "B": 4,
+      "count": 6561,
+      "denominator": 83521
+    },
+    {
+      "m": 1,
+      "B": 8,
+      "count": 83521,
+      "denominator": 83521
+    },
+    {
+      "m": 2,
+      "B": 0,
+      "count": 1,
+      "denominator": 83521
+    },
+    {
+      "m": 2,
+      "B": 1,
+      "count": 81,
+      "denominator": 83521
+    },
+    {
+      "m": 2,
+      "B": 2,
+      "count": 625,
+      "denominator": 83521
+    },
+    {
+      "m": 2,
+      "B": 4,
+      "count": 6561,
+      "denominator": 83521
+    },
+    {
+      "m": 2,
+      "B": 8,
+      "count": 83521,
+      "denominator": 83521
+    }
+  ],
+  "coset_guessing_probabilities": {
+    "base": "9/16",
+    "coset": "3/4",
+    "augmented": "3/4",
+    "output": "35/48"
+  },
+  "assertions": "passed",
+  "resources": {
+    "elapsed_seconds": 0.27594979997957125,
+    "maxrss_kib": 11264,
+    "address_space_limit_bytes": 268435456
+  }
+}

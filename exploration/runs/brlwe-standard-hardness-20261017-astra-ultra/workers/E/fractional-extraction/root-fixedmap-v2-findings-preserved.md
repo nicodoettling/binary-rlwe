@@ -1,0 +1,11 @@
+# E nonauthor findings on exact root fixed-map v2
+
+Reviewed exact theorem SHA256 `b8c23070502817ae7cc70d9408e5e58fda60139132b702ff383cc2999a7b32e3` and proof SHA256 `32b11c579a9f8909144a29886d74d4784f516a0594ac50e0f2052ca2bcfe1bdd` in full. Status: ANALYTIC/CONDITIONAL ARGUMENT FAVORABLE; APPROXIMATE-OUTPUT INTERFACE NEEDS SPECIFICATION. No acceptance recommended for the underspecified exact output interface. These bytes remain unchanged and are superseded for further review by root v3.
+
+The geometry, centered Poisson normalizer, map injectivity, constants, zero inclusion and causal union are sound. The appended v2 qualification explicitly imposes almost-sure regular conditional TV on standard Borel histories, rather than a condition only on positive-probability atoms. It supplies a valid full conditional proof, even though the legacy body still says 'every branch' and the heading still calls itself v1. Those phrases should not be used to replace the explicit a.s. premise with an atomwise one.
+
+A separate domain omission was found during the full review, before root v3: T is declared only on J, but a TV-approximate sample law may assign positive mass outside J. No ambient/totalization was selected. For example, n=2, I=H=J=Z[i], c=1, T the identity on J, y=0, and Q=(9/10)D_(J,10)+(1/10)delta_(sqrt(2),0) have TV(Q,D)=1/10 on the coefficient plane. The displayed T(X) is undefined with probability1/10 under its declared domain. This is a concrete undefined-output fixture, not a numerical violation after defining an output rule.
+
+Any measurable output rule agreeing with T(x)+y on J obeys the same additive TV bound for its success event, so a simple repair exists. Returning failure outside J, with failure excluded from norm-success, makes the event a measurable subset of J and preserves the original constants. This finding was sent to the coordinator before repair and is also preserved in `coordinator/binary-class-count/v2-output-domain-gap-before-v3.md`. Root v3 selects that rule and must be checked in full; this report does not inherit acceptance into it.
+
+No new numerical experiment was launched. The gap is a direct exact mixture calculation. It is distinct from BT14's nonatomic-history counterexample, which attacks the literal E pair v1 premise rather than root v2's explicit a.s. conditional formulation.

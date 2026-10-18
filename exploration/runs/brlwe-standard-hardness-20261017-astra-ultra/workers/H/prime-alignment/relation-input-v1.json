@@ -1,0 +1,17 @@
+{
+  "reservation": "H-REL-FV2",
+  "finite_law_input": "finite-input-v1.json",
+  "dimension": 2,
+  "sample_count": 2,
+  "relation_algorithm": "Exact two-dimensional Gauss reduction, a stronger special case satisfying the stated 3/4-LLL norm bound",
+  "rank_failure": "Preserved as the literal FAIL output",
+  "comparator": "Independent uniform residues followed by independent finite Gaussian-weight conditional lifts",
+  "zero_mass_coset_policy": "Assert every residue has positive lift mass for these declared finite supports; otherwise stop and report failure, do not divide by zero or resample",
+  "random_seed": null,
+  "precision": "Exact arbitrary-precision integers and Fraction probabilities",
+  "max_laws": 8,
+  "max_points_per_law": 169,
+  "max_pairs_per_law": 28561,
+  "timeout_seconds": 120,
+  "memory_limit_bytes": 268435456
+}

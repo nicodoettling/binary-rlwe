@@ -1,0 +1,25 @@
+{
+  "referee": "BT12",
+  "report": "report-v1.md",
+  "report_sha256": "eb38e96cf758ba19cb03e0c3fafb64edcd59ae8b8a09c8713277b75bb82291bb",
+  "assignment": "assignment-v3.md",
+  "assignment_sha256": "04a811fd562d5db55f66b41d6f6989a783f728be88a41b56692a99a3e84c920a",
+  "sole_scientific_input": "input/theorem-v1.md",
+  "sole_scientific_input_sha256": "f090c6c128eb2d0fd52a9cadb2a2b67b8bdd731d84ef932aabbbdc3c74eb180a",
+  "complete_report_sealed_before_substantive_disclosure": true,
+  "report_immutable": true,
+  "correction_policy": "A correction requires a new report version and a new receipt; never modify report-v1.md.",
+  "exposure_record": "No accidental or unauthorized exposure; no outside scientific files or sources read.",
+  "source_scope": "The analytic lower bound is a supplied premise; its external proof and source status were not audited.",
+  "experiment_reservation": "BT12-FV1 with approved posterior amendment",
+  "experiment_artifact_sha256": {
+    "fv1.py": "14387218eb66c150ae36342e7cd4036a4555970ac2e0e40452dcaa0fb87e4eb8",
+    "fv1-input.json": "012e8004aa69b5ab3ac78199da08d81ab354823ec8329239a2645659e7108eb1",
+    "fv1-command.sh": "4d3b4ddd3893e6b9aec672504d2b365bb4ac725a8a64c3fef72281eb4ecfd584",
+    "fv1-cases.jsonl": "eacf038748233e34d1328cfb4437fb4b86e934ab51cedb4659b2fc410ede0ccc",
+    "fv1-stdout.txt": "e8f56310ca2f08dbb5a190bbd7fc5ada6008bab5a16896e14651cdca5454f06d",
+    "fv1-stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "fv1-summary.json": "157fa8c92d79e91f46af8472459019de8651a8780747692f50c2cda6b7df07cf",
+    "fv1-resources.json": "fe3beb30c3434ab3b5cdcf8535c870e11c86887310301e2c8ea3c209fd82b5f3"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261017T233805.358177Z-b93f293b",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-17T23:38:05.358215+00:00",
+  "reason": "Verified BT15/F runtime and concluded bounded modular-wrap parameter test; foundation stillopen",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 38047,
+      "sha256": "c4c899457df508218ef99f0d85a55f141b91d36aefe2937c724b199db738d3af"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 3973,
+      "sha256": "febf298b0c462258597a8216a8a95e22d7ae957d22378859e114bac98d156105"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 3632,
+      "sha256": "2f55fcf9dc31a98d47a46e7bd79e06c3e6ad64b23b9b242ae141e5310f70dca6"
+    },
+    {
+      "path": "final.md",
+      "bytes": 14132,
+      "sha256": "fc2f23d6e45d925e42c2d14a5a5006f70bd5ba5f412a00039d81867b9e95fc34"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 7273,
+      "sha256": "3b40ee60cb96aec28a755e1953ffe6167860c439eec90e33d2227b232aebfa26"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

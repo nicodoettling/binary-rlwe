@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261017T214745.429802Z-d4dc06c5",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-17T21:47:45.429823+00:00",
+  "reason": "Blind physical-endpoint counterexample preserved and coherent repair assigned",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 24676,
+      "sha256": "4ba604b5bf21d62c7e7eaab0765383250eb7c8b499b1477ca71ec89d14386fc7"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 6014,
+      "sha256": "b9b75f4ea0eec3df4d265ff28e24c1e42d889ab265e8cc9f001aec3caf08d3f1"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 4620,
+      "sha256": "ec00cafbf91ae1b064671e7b145f81c37c538ad700ad20094fd76e27442eb82b"
+    },
+    {
+      "path": "final.md",
+      "bytes": 11425,
+      "sha256": "d2e76f43d3f866b41065069c7d4fe352d057b302ca127bee6d5cf2bbd6d83a7a"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 12608,
+      "sha256": "12866cf5e7a9e01ed1e1837765e26a597b1768ab192fc21b5fd19a92bfa85fe5"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261017T205838.655857Z-564cd51a",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-17T20:58:38.655877+00:00",
+  "reason": "First full constructive restricted-family chain frozen for nonauthor review",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 13739,
+      "sha256": "5a91e0b83c8abda8c02b90c7eba0c11ca461e6ab684dd66520b5413f349439bc"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 4965,
+      "sha256": "1cb08d21d00327e16139148ba731bcb8203e5e0ec1cf55e82b99b3cb5bd9e91d"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 3993,
+      "sha256": "192f9c915c8a171e5b31454a86b9fdc4506a9f7fb6fb4d1b61a382b50dd978b1"
+    },
+    {
+      "path": "final.md",
+      "bytes": 6064,
+      "sha256": "63d4ff64c85a75a05ea5e7d9b5c774319586550d683dc38fa9ca7be49acb136b"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 12085,
+      "sha256": "a00a1d26452ac51c43031e5e06012181200b8f6c8769a5e6401a6069223e21f1"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

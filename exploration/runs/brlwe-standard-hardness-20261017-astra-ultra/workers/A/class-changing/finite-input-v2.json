@@ -1,0 +1,10 @@
+{
+  "reservation":"A-class-finite-2",
+  "limits":{"wall_seconds":30,"address_space_MiB":256},
+  "estimate":{"wall_seconds":10,"memory_MiB":64},
+  "inherits_cases":"finite-input-v1.json",
+  "repair":"Replace false exact straddling check by rational 1e-6 closeness enclosure; preserve both normalizers and explicit nonzero conditioning",
+  "pre_repair_record":"finite-v1-failure-record.md",
+  "all_numerical_assertions":"exact Fraction comparisons",
+  "randomness":"none"
+}

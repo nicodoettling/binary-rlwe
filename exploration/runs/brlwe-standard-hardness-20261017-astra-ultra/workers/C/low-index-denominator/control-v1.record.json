@@ -1,0 +1,20 @@
+{
+  "reservation": "C-LOWINDEX-1",
+  "limits": {
+    "wall_seconds": 30,
+    "address_space_bytes": 268435456
+  },
+  "exit_code": 0,
+  "resources": {
+    "elapsed_seconds": 0.27594979997957125,
+    "maxrss_kib": 11264,
+    "address_space_limit_bytes": 268435456
+  },
+  "files": {
+    "control-v1.py": "78ec5d98fcae3f0c0cff45868b9afc923b1e803a0d9715ef824c07835a883f11",
+    "control-v1.command.txt": "124848c2a875d7b1bcfafbd54e3b7c117397627071038e7cdcabf6bf3dd802f0",
+    "control-v1.stdout.json": "4c67e7ee2f30a63764a8d67415955247cec5cf6b46a1dae7bb7634739ebbb1a7",
+    "control-v1.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "result": "all assertions passed; reservation released; finite control does not certify asymptotics"
+}

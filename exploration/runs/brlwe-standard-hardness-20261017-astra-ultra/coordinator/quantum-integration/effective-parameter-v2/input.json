@@ -1,0 +1,16 @@
+{
+  "dimension": 16,
+  "samples": 16,
+  "rho": "1/2",
+  "recovery_success_lower_bound": "1/16",
+  "source_gap": "1/32",
+  "target_modulus": 18446744069414584321,
+  "ideal_norm": 97,
+  "kappa": 4096,
+  "v0": 1024,
+  "finite_quantum_allowance": "2^-40",
+  "wall_seconds": 30,
+  "address_space_bytes": 268435456,
+  "mode": "exact deterministic arithmetic, no random seed",
+  "estimate": "16x16 rational Gaussian elimination, integers below10000bits; no BDD/Rec/quantum circuit execution; expected<2s,<64MiB"
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261017T205429.213573Z-eaef786d",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-17T20:54:29.213595+00:00",
+  "reason": "Positive conditional periodic bridge and hidden-center query selected",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 12279,
+      "sha256": "7eaf982f44a75f341af19419fb0363a63b4d34f9b3e386f0ea7b25561515fd9c"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 4365,
+      "sha256": "6bfa53859348d03875bf7ee815f0044c6dc095d8e8406cb835133f417e254e06"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 3393,
+      "sha256": "337caaf84e7fd880f72ccf445594f8dd121843c45df02b1348c2d0c6636c0e53"
+    },
+    {
+      "path": "final.md",
+      "bytes": 5464,
+      "sha256": "90d79697970fa3ad0bbc66fb065f3ac515b2b00593d9ce22f75c54f0d93137a7"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 12132,
+      "sha256": "31ffb1f37d02d8fe83d9ca4a109864e1cefecad3ff8677fa7e44a194d6d87bea"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

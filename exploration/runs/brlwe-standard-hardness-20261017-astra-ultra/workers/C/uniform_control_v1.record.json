@@ -1,0 +1,18 @@
+{
+  "reservation": "C-UNI-1",
+  "granted_wall_seconds": 30,
+  "granted_address_space_bytes": 268435456,
+  "exit_code": 0,
+  "resources": {
+    "elapsed_seconds": 0.1445740549825132,
+    "maxrss_kib": 11264,
+    "address_space_limit_bytes": 268435456
+  },
+  "files": {
+    "uniform_control_v1.py": "50db85bd30475362422b5b54727455930253b042260020eb1b135f2eab94e808",
+    "uniform_control_v1.command.txt": "72e3ba77705e56ad8d196db975c3319649db5b643d05a9e3e6bf5051b325fad3",
+    "uniform_control_v1.stdout.json": "a01dbfa6a33bfbfcd2f02aed44ea71254bd70f3e816a371ee52da64d70863f41",
+    "uniform_control_v1.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "result": "all assertions passed; exact finite count/control only; theorem provisional"
+}

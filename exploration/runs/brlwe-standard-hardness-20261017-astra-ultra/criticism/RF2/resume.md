@@ -1,0 +1,3 @@
+Read c-v5-full-review-v1.md and c-v5-regression-addendum-v1.json. Root owns acceptance and fresh blind C review. Await B Gaussian-periodic v2 encoding/conditional-Gen repair for quick exact-byte check. Resume workers/D/supersvp-mining after that; first partial already frozen. No contact isolated blind reviewers; no experiments without reservation. Cap unchanged.
+
+2026-10-17T21:40Z: Exact C6 full review and all51 regression addendum frozen. Explicit finite gate survives with causal corrected-walk martingale proof completion; no future-success conditioning. Source hardness remains OPEN. Next read B standard-RLWE decomposition/composition. No experiment active; D correction remains WAIT; cap read21:39.

@@ -1,0 +1,3 @@
+# Exact v1 parameter gap and v2 repair
+
+D independently found that the example in restricted-ideal-supersvp-v1.md Section4 sets zeta=exp(-kappa), while C-OHCP-v5 requires kappa>=log(8n/zeta). Substitution gives kappa>=kappa+log(8n), impossible. V1's example is rejected as written; its bytes are preserved. This is a parameter inconsistency in the example, not a defect in C-OHCP-v5 or the exact scale identities. V2 chooses zeta=exp(-kappa/2) and kappa>=2log(8n). Then log(1/epsilon0)=Theta(kappa)+O(logQ_*), so a=O(sqrt(kappa)) and the displayed R_out polynomial asymptotic remains valid. Quantum coherent error remains negligible. V2 requires fresh scoped review; no prior acceptance is inherited.

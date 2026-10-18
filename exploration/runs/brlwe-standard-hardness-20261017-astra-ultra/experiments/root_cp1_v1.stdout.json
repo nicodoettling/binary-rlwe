@@ -1,0 +1,34 @@
+{
+  "model": "All32 independent binary oracle tables crossed with5 exact trace branches; condition vk=1 explicitly",
+  "input_atoms": 160,
+  "retained_atoms": 128,
+  "normalizer": "10/11",
+  "posterior": {
+    "A0": "21/2000",
+    "A1": "21/2000",
+    "C0": "1/20",
+    "C1": "1/20",
+    "D": "879/1000"
+  },
+  "incidences": {
+    "x": "1/10",
+    "e0": "121/2000",
+    "e1": "121/2000",
+    "f0": "21/2000",
+    "f1": "21/2000"
+  },
+  "first_selected_hit": "221/2000",
+  "matching_both_hits": "21/2000",
+  "false_product": "1/100",
+  "later_conditional": "21/221",
+  "result": "REJECT_OLD_PRODUCT",
+  "failure": "Selection removes support; cached-prefix Bayes renormalization changes branch mass. Latent cache-hit status is not observed filtration.",
+  "theta_scope": "D-THETA conditions on original ellipse before observations and uses complete iid pair law there; its uniform comparator counting is genuinely product. No selected-stage lightness product.",
+  "precision": "exact Fraction and integer enumeration; seed none",
+  "resources": {
+    "wall_seconds": 0.0006719289813190699,
+    "maxrss_kib": 10240,
+    "wall_limit_seconds": 30,
+    "address_space_bytes": 268435456
+  }
+}

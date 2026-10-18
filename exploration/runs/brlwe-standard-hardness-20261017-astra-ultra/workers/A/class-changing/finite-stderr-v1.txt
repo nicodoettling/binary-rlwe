@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/A/class-changing/finite-controls-v1.py", line 73, in <module>
+    assert gaussians[1]['alignment_including_zero_interval'][0]<1/13<gaussians[1]['alignment_including_zero_interval'][1]+1e-9
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

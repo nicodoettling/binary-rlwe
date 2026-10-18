@@ -1,0 +1,19 @@
+Current wrap-up checkpoint 2026-10-18T01:42:49.996417+00:00: Foundation NOT achieved. RT2 and BT22 completed; exact weighted-v2 acceptance reconciliation pending. No active worker or experiment. No new discovery or assignments.
+
+WRAP-UP 2026-10-18T01:36:47.066995+00:00: Discovery CLOSED. Foundation NOT achieved; goal active and unfinished. Only existing frozen review, reconciliation, checkpoints and shutdown remain. RT2 exact-v2 recheck completed; BT22 clean blind is sole active worker. No active experiments.
+
+Updated 2026-10-18T01:24:28.525715+00:00. The computational foundation has **NOT** been achieved. The original native goal remains active and unfinished. Thirteen exact auxiliary scopes are accepted; inherited EX-v2 still assumes unproved Base2. No standard RLWE/Order-LWE or arbitrary-ideal worst-case hardness foundation for the original binary-secret problem has been established.
+
+Current workers are BT21 (replacement clean blind weighted-trace review; exact identity in agents.json) and RT2 (independent full/source weighted-trace review, thread01a14c94-5b63-7b32-887b-641c04c74c2f). RT2 target01:30UTC; BT21 target01:32UTC. BT21 may read only its assignment and theorem-only input, not proofs/status/ledgers/reviews/list_agents or outside retrieval until report hash sealing. Do not disclose RT2 findings to it. RT2-WEIGHTED-FV1 completed exit0:1152 weighted pairs,625 module checks,0.04s/13312KiB. No experiment active. BT20 report is supporting only after a premature pre-seal assessment; preserve its exact report/log and seal-disposition.
+
+Accepted latest gates: samej-acceptance-v1.md and alignment-acceptance-v1.md under coordinator. Root completed RT1 report/control intake and targeted FPSW23 parameter inspection. No direct published-family import found. Next test is the effective complementary multiplier; its conditional theorem is under independent review.
+
+Same goal/session: 01a14b7b-9e45-7b70-b46d-0bf70e17f2e2. Original start2026-10-17T20:09:14.894509Z. LIVE standard3-launcher-run.json, standard3-worker-status.json and standard3.log; use the manifest's cap sidecar. Effective discovery stop2026-10-18T01:36:14.695009Z; workers/experiments stop01:56:14.695009Z; graceful02:05:09.695009Z; hard02:06:14.695009Z. No reset, new goal, token budget, pause, service restart or automatic post-cap work. Three active total ceiling, root plus at most two workers, Astra ultra/fork-none; Standard default is wrapper/configuration evidence, not billing telemetry. Cap last observed running; launcher exit and descendant cleanup have not been observed.
+
+Historical chronology: claim-history.jsonl and coordinator/narrative-history; no lost checkpoint evidence reconstructed.
+
+Current checkpoint 2026-10-18T01:24:28.525715+00:00: BT21 clean gate pending; RT2 full/source completed. Three new BT20 scope controls and RT2 finite control imported (146 exact IDs total). Explicit public complementary multiplier test gives no improvement over the already public vector p; source and comparator endpoint laws retained in coordinator/tower-lift/explicit-complement-test-v1.md. No new acceptance.
+
+Checkpoint 2026-10-18T01:28:58.756709+00:00: Foundation OPEN. Thirteen accepted auxiliary scopes;146 exact regression IDs reconciled against their scopes. RT2 full/source and finite control completed; BT21 fresh sealed review pending. No active experiment. Root+BT21 active, ceiling3. Explicit public-complement test does not improve public-vector certificate.
+
+Current 2026-10-18T01:33:48.287768+00:00: Foundation OPEN; thirteen accepted auxiliary scopes. Weighted compact v1 rejected for ambiguous random-moment/nonvacuity wording, no accepted dependent. V2 explicit clarification frozen, RT2 exact full/source recheck and fresh BT22 blind active.148 regression IDs retained; last two dispositions pending integration. No active experiment. Discovery stops01:36:14.695009Z.

@@ -1,0 +1,3 @@
+C-v5 fresh exact-byte finite gate review frozen; no remaining defect found within the declared primary OHCP/scalar model. Full report and all51 C-specific regression addendum ready for coordinator, no acceptance authority. B revised encoding/conditional-Gen packet awaits exact-byte recheck. Then resume SuperSVP first pass due21:45Z. No experiment active.
+
+2026-10-17T21:40Z: Exact C6 full review and all51 regression addendum frozen. Explicit finite gate survives with causal corrected-walk martingale proof completion; no future-success conditioning. Source hardness remains OPEN. Next read B standard-RLWE decomposition/composition. No experiment active; D correction remains WAIT; cap read21:39.

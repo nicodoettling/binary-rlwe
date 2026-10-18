@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-18T01:22:37.138463+00:00",
+  "review": "BT20",
+  "report_sha256": "c0cea7122fee9f5e6a029f1599b222768e2e85c526bb525ff9023ccbb7a2bf27",
+  "exposure_log_sha256": "7346303208d65fe6497b8663d3654d9419f41cef330a1d605ab84cac6916f974",
+  "observed_error": "Reviewer self-reported pre-seal commentary: The ideal identity and lattice bounds reconstruct cleanly so far",
+  "outside_input_exposure": "None reported; only frozen assignment and theorem read",
+  "disposition": "Retain as supporting reconstruction, do not use as clean strict sealed gate. Fresh BT21 on exact same specification, no history transfer."
+}

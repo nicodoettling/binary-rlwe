@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-18T00:12:51.512021+00:00",
+  "version": 2,
+  "files": {
+    "stdout.json": "a7e8661362d693e583ef41ac3e382d8b6cd2886d67a44d5c1da71f68c50587ed",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "control.py": "c7e1f08e4231857b58b3887d078c2171af580881e7c5d011c35ce801686459d7",
+    "input.json": "b1dfcf29f9d972dcd2b7b411fdd261a2201121d3c28250d7d5206ad39b17b8aa",
+    "resources.json": "dd46eb377a830d45ee11c86ffc09951c3f570c0a50279b11b1953648ce759a55",
+    "certificate.md": "dbd865ffcfc55b46c3eb2bf7de5c9a4f3d8e1d3458d428fa5a8eb3c2f02e336a",
+    "command.sh": "d56d674cf7a35f4f167ee7e1c9aed07e073b59be27822573b87b778695bcebb1"
+  },
+  "resources": {
+    "exit_status": "passed",
+    "wall_seconds": 0.014563295000698417,
+    "max_rss_KiB": 13312,
+    "address_space_bytes": 268435456,
+    "wall_limit_seconds": 30
+  },
+  "status": "exact rerun passed; RF4 recheck pending; main quantum review independent"
+}

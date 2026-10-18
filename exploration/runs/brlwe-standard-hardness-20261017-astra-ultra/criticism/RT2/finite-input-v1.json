@@ -1,0 +1,18 @@
+{
+  "id": "RT2-WEIGHTED-FV1",
+  "reservation": "Root reservation granted 2026-10-18 before execution; sole active experiment; no rerun without reason",
+  "n": 2,
+  "m": 4,
+  "t": 2,
+  "I": "3R, an odd prime ideal in Z[i]",
+  "J": "(3,z^2+z+2)",
+  "C": "(3,z^2-z+2)",
+  "multiplier_coordinates": [-2,-1,0,1,2],
+  "sample_coordinates": [-1,0,1],
+  "weights": ["1/2","1/4"],
+  "maximum_pairs": 11250,
+  "timeout_seconds": 30,
+  "address_space_bytes": 268435456,
+  "finite_laws_are_full_gaussians": false,
+  "negative_controls": ["sample-dependent complementary multiplier", "TV contamination and moments", "marginals versus joint law", "CP-1 cached-prefix branch inflation"]
+}

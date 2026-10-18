@@ -1,0 +1,11 @@
+# RT2 checkpoint v1
+
+Recorded before the requested 2026-10-18 01:23 UTC partial checkpoint. RT2 is a nonauthor full-proof/source/parameter/complexity reviewer. The complete assignment and actual input hashes are preserved in `assignment-preserved-v1.md` and `input-manifest-v1.json`. No BT20 report or blind output has been read. No external retrieval was used.
+
+The frozen weighted theorem's algebra, full centered Gaussian moment bound, and full-law nonzero argument have been reconstructed without finding a mathematical counterexample. This is not coordinator acceptance. The short complementary multiplier remains an additional computational input; neither Minkowski existence nor ideal membership arithmetic provides its polynomial-time construction.
+
+Reserved experiment RT2-WEIGHTED-FV1 completed once in the foreground: exit 0, 0.04 seconds elapsed, 13,312 KiB maximum RSS, empty stderr, under the 30-second/256-MiB reservation. Its actual support was 64 nonzero complementary multipliers and nine sample points, giving 1,152 weighted pairs across two rational schedules, plus 625 exact checks of the multiplier-module converse. All finite moment/membership identities passed. Twenty-four multipliers in each schedule have nonzero-input/zero-output branches, which remain in the output laws. Full Gaussian and infinite-subspace claims are explicitly outside this finite test.
+
+New preserved negative control: with the same finite ideal law, choose a(X)=3 conjugate(X) when X is nonzero and a(0)=3. All multipliers are nonzero and in C. At weight 1/2, E||Pi(a(X)X)||^2=81/2, while the invalid fresh-sample expression n c E||a(X)||^2 is 27/2. At weight 1/4 these are 9 and 11/6. Thus removing independence is concretely invalid. TV-contamination, marginal-versus-joint, and CP-1 controls also reproduce the rejected implications. These failures are preserved before any proposed relaxation or repair.
+
+The source/complexity report will explicitly separate: finite postprocessing; the conditional same-J sampling interface; the absent multiplier algorithm; polynomial parameter values versus polynomial bit lengths; and positive success versus an inverse-polynomial success margin needed for efficient amplification.

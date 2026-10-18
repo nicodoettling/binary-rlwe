@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261018T014625.552085Z-00ba8dce",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-18T01:46:25.552124+00:00",
+  "reason": "Closed frozen weighted-v2 exact review gates; compact final/resume/reconciliation; all workers completed",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 55880,
+      "sha256": "e4d708ab077669025848af04b299f5868d43359868acc29b8b3e4f6ca3623d60"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 5629,
+      "sha256": "eb09369a607fbb2b58cbdc9a7cc52c90a5643d4bd88dde4d6de36ec6e8a4fe84"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 2629,
+      "sha256": "fcc74176e37dfbdb15839a67ce6a578ec754046e20800b9545ec5699f63ce5aa"
+    },
+    {
+      "path": "final.md",
+      "bytes": 11783,
+      "sha256": "4f7e80b17560ca19c9a5a048ce670366f1c0c86fe6ee2cc3c8ddbf944806ebe0"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 12176,
+      "sha256": "62c6c11374bfa3456d77926554b6bfd1958a9eff80fd39b9c16013ea7f752d61"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

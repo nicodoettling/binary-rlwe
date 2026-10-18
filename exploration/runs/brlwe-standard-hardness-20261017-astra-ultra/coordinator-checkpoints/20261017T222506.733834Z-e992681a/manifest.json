@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261017T222506.733834Z-e992681a",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-17T22:25:06.733855+00:00",
+  "reason": "Preserve binary-collision count/control and RF3 runtime; apply strict BT10 exposure rule",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 29677,
+      "sha256": "063e4d398a811fd44fb44fdfc1e328807877e2edec41b3d0ffc4bbd98050f31b"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 2045,
+      "sha256": "042e39776afee9f7b08dc648ef04f633693abe90fe555e8e143bdadc862a856a"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 1463,
+      "sha256": "a4e381e34cf189b384d812911cad77b73e44ef45b44ee7b50fd034a428f016d8"
+    },
+    {
+      "path": "final.md",
+      "bytes": 11288,
+      "sha256": "ac8ad50a539f4051ba10c856a319be0033de11607ac60b0cf9698e8f38a77a9e"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 14308,
+      "sha256": "21be3093aa3f96fad24982cf235efce05a323ba05176b5e62b6818ea5533379a"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

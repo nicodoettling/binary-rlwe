@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "run_id": "brlwe-standard-hardness-20261017-astra-ultra",
+  "launch_authorized": true,
+  "authorization": "Sounds good. Can you design a 6h 5 agent goal run and launch immediately?",
+  "model_preference_source": "Persisting user preference from preceding Astra ultra runs; announced at preparation.",
+  "root": "/home/nico/projects/research_projects/binaryRLWE",
+  "output_directory": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "ultra",
+  "total_agents": 5,
+  "spawned_workers_max": 4,
+  "goal_mode": true,
+  "goal_objective": "Establish and critically validate a noncircular, parameter-compatible computational hardness foundation for a noisy low-dimensional ideal source sufficient for coefficient-binary rank-one RLWE recovery hardness, from standard RLWE or Order-LWE in an explicitly verified established-hardness regime, or a precisely specified standard worst-case ideal-lattice problem. Permit a modified source when its full law and downstream composition are proved. Give exact reduction direction, advantage and sample/runtime costs, classical/quantum and uniformity model, and a nonempty effective regime with a meaningful binary-secret application. Generalized lossiness, source renaming, extra unproved nonstandard premises, scoped obstructions and rederived EX-v2 are partial progress, not completion of this computational-foundation goal. Preserve honest unresolved outcomes if the six-hour cap expires.",
+  "max_runtime_seconds": 21600,
+  "wrapup_before_seconds": 1800,
+  "worker_stop_before_seconds": 600,
+  "stop_grace_seconds": 60,
+  "scheduling_reserve_seconds": 5,
+  "permission_profile": "sandbox-only",
+  "web_search": true,
+  "automatic_service_resume": false,
+  "native_continuations_within_live_cap": true,
+  "experiments": {
+    "default_timeout_seconds": 120,
+    "maximum_timeout_seconds": 300,
+    "maximum_concurrent": 2,
+    "maximum_heavy_concurrent": 1,
+    "maximum_address_space_bytes": 17179869184,
+    "aggregate_memory_cgroup_enforced": false
+  },
+  "note": "Declarative scientific and operational contract, not input consumed by the generic helper. Actual deadlines and runtime evidence are in the launcher manifest, worker status and cap sidecar. No token budget was requested."
+}

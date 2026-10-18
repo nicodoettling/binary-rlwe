@@ -1,0 +1,270 @@
+{
+  "updated_at": "2026-10-17T20:49:58.610514+00:00",
+  "goal": {
+    "goal": {
+      "threadId": "01a14b7b-9e45-7b70-b46d-0bf70e17f2e2",
+      "objective": "Establish and critically validate a noncircular, parameter-compatible computational hardness foundation for a noisy low-dimensional ideal source sufficient for coefficient-binary rank-one RLWE recovery hardness, from standard RLWE or Order-LWE in an explicitly verified established-hardness regime, or a precisely specified standard worst-case ideal-lattice problem. Permit a modified source when its full law and downstream composition are proved. Give exact reduction direction, advantage and sample/runtime costs, classical/quantum and uniformity model, and a nonempty effective regime with a meaningful binary-secret application. Generalized lossiness, source renaming, extra unproved nonstandard premises, scoped obstructions and rederived EX-v2 are partial progress, not completion of this computational-foundation goal. Preserve honest unresolved outcomes if the six-hour cap expires.",
+      "status": "active",
+      "tokensUsed": 0,
+      "timeUsedSeconds": 0,
+      "createdAt": 1792267777,
+      "updatedAt": 1792267777
+    },
+    "remainingTokens": null,
+    "completionBudgetReport": null
+  },
+  "cap": {
+    "adapter_pid": 304884,
+    "adapter_sha256": "38da39407b00102cc9967b2315a45bf52457c194abc3c443f2f6abb32fca11c7",
+    "cap_seconds": 21600,
+    "cgroup": "/user.slice/user-1007.slice/user@1007.service/app.slice/codex-cap-brlwe-standard-hardness-20261017-astra-u-0d13c36f8a40.service",
+    "clock": "systemd service activation / CLOCK_MONOTONIC",
+    "environment_names": [
+      "CODEX_HOME",
+      "HOME",
+      "LOGNAME",
+      "PATH",
+      "SSH_AUTH_SOCK",
+      "USER",
+      "XDG_RUNTIME_DIR"
+    ],
+    "graceful_shutdown_at": "2026-10-18T02:08:09.894509+00:00",
+    "hard_deadline_at": "2026-10-18T02:09:14.894509+00:00",
+    "installed_helper": "/home/nico/.codex/skills/codex-tmux-runner/scripts/v2/codex_tmux.py",
+    "installed_helper_sha256": "da7051a58b565b13b1d7955bdc433f987c37c53c64473861bd26a12df2dd9a53",
+    "native_goal_state": "not modified; process status is not goal certification",
+    "runtime_max_seconds": 21535,
+    "scheduled_kill_at": "2026-10-18T02:09:09.894509+00:00",
+    "scheduling_reserve_seconds": 5,
+    "schema_version": 1,
+    "service": "codex-cap-brlwe-standard-hardness-20261017-astra-u-0d13c36f8a40.service",
+    "service_properties": {
+      "ActiveEnterTimestampMonotonic": "362672292795",
+      "ActiveState": "active",
+      "ControlGroup": "/user.slice/user-1007.slice/user@1007.service/app.slice/codex-cap-brlwe-standard-hardness-20261017-astra-u-0d13c36f8a40.service",
+      "ExecMainCode": "0",
+      "ExecMainStatus": "0",
+      "FinalKillSignal": "9",
+      "KillMode": "control-group",
+      "KillSignal": "15",
+      "LoadState": "loaded",
+      "MainPID": "304892",
+      "Restart": "no",
+      "Result": "success",
+      "RuntimeMaxUSec": "5h 58min 55s",
+      "RuntimeRandomizedExtraUSec": "0",
+      "SendSIGKILL": "yes",
+      "SubState": "running",
+      "TimeoutStopUSec": "1min",
+      "WorkingDirectory": "/home/nico/projects/research_projects/binaryRLWE"
+    },
+    "service_sandbox_preflight": {
+      "bwrap_gid": 999,
+      "bwrap_group": "codex-bwrap",
+      "bwrap_mode": "0750",
+      "bwrap_path": "/usr/bin/bwrap",
+      "bwrap_uid": 0,
+      "bwrap_version": "bubblewrap 0.9.0",
+      "codex_sandbox_exit": 0,
+      "current_group_ids": [
+        100,
+        999,
+        1002,
+        1007
+      ],
+      "gate_gid": 999,
+      "gate_group": "codex-bwrap",
+      "tmux_server_pids": [
+        304883
+      ]
+    },
+    "service_worker_pid": 304892,
+    "started_at": "2026-10-17T20:09:14.894509+00:00",
+    "started_monotonic": 362672.292795,
+    "state": "running",
+    "status_file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/run.log.brlwe-standard-hardness-20261017-astra-ultra.cap-status.json",
+    "stop_grace_seconds": 60,
+    "systemctl": "/usr/bin/systemctl",
+    "systemd_run": "/usr/bin/systemd-run",
+    "tmux_session": "brlwe-standard-hardness-20261017-astra-ultra",
+    "updated_at": "2026-10-17T20:09:14.988342+00:00",
+    "wrapup_at": "2026-10-18T01:39:14.894509+00:00",
+    "wrapup_before_seconds": 1800,
+    "wrapup_mode": "metadata-only; agent-managed, no automatic instruction",
+    "wrapup_seconds": 19800
+  },
+  "worker_stop_at": "2026-10-18T01:59:14.894509+00:00",
+  "route_selection_at": "2026-10-17T21:24:14.894509+00:00",
+  "requested_total_agents": 5,
+  "runtime_advertised_total_slots": 5,
+  "configured_worker_ceiling": 4,
+  "observed_workers": [
+    {
+      "role": "A",
+      "task_name": "/root/a_source",
+      "assignment": "assignments/A-v1.md",
+      "assignment_sha256": "e740ec5dbb2d4ac3161de46c112d857d9faca1be93e197edd4690454d59f7585",
+      "spawned_at": "2026-10-17T20:11:31.938Z",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none",
+      "actual_spawn_response": "{\"task_name\":\"/root/a_source\"}",
+      "status_observed": "running",
+      "status_evidence": "collaboration.list_agents 2026-10-17T20:11:59.600Z",
+      "current_assignment": "assignments/A-v2.md",
+      "current_role": "short-syndrome constructive compatibility"
+    },
+    {
+      "role": "B",
+      "task_name": "/root/b_rlwe",
+      "assignment": "assignments/B-v1.md",
+      "assignment_sha256": "3c21eecc013af9e0298354de8c40cc8f535d448c4f4d29250f8b9d95b6ac6ef7",
+      "spawned_at": "2026-10-17T20:11:39.719Z",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none",
+      "actual_spawn_response": "{\"task_name\":\"/root/b_rlwe\"}",
+      "status_observed": "running",
+      "status_evidence": "collaboration.list_agents 2026-10-17T20:11:59.600Z"
+    },
+    {
+      "role": "C",
+      "task_name": "/root/c_ideal",
+      "assignment": "assignments/C-v1.md",
+      "assignment_sha256": "34e44f4cab82376012e36e6c1f691df7c028f7c2624bd3f20a00d131103e0c0f",
+      "spawned_at": "2026-10-17T20:11:45.053Z",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none",
+      "actual_spawn_response": "{\"task_name\":\"/root/c_ideal\"}",
+      "status_observed": "running",
+      "status_evidence": "collaboration.list_agents 2026-10-17T20:11:59.600Z"
+    },
+    {
+      "role": "D",
+      "task_name": "/root/d_adversarial",
+      "assignment": "assignments/D-v1.md",
+      "assignment_sha256": "53172ae30f8c2c6efae4084ca4d7791b42d3fd7da6d31200e0d7599c5fcc050e",
+      "spawned_at": "2026-10-17T20:11:54.608Z",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none",
+      "actual_spawn_response": "{\"task_name\":\"/root/d_adversarial\"}",
+      "status_observed": "resumed running per followup response",
+      "status_evidence": "collaboration.list_agents 2026-10-17T20:11:59.600Z",
+      "completed_evidence": "D final response and list_agents absence; immutable worker manifest",
+      "current_role": "LSW leakage map independent audit"
+    }
+  ],
+  "capacity_status": "VERIFIED: four successful worker spawns and all five total agents observed running",
+  "actual_model_effort": {
+    "approval": "never",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "ultra",
+    "sandbox": "workspace-write [workdir, /tmp, $TMPDIR]",
+    "session_id": "01a14b7b-9e45-7b70-b46d-0bf70e17f2e2",
+    "workdir": "/home/nico/projects/research_projects/binaryRLWE"
+  },
+  "primary_foundation": "OPEN",
+  "next_test": "R1 recovery-oracle programming and anisotropic leakage joint endpoints; R2 nonprincipal ideal denominators and prime dimension-lift self-consistency.",
+  "actual_list_agents_response": {
+    "agents": [
+      {
+        "agent_name": "/root",
+        "agent_status": "running"
+      },
+      {
+        "agent_name": "/root/a_source",
+        "agent_status": "running"
+      },
+      {
+        "agent_name": "/root/b_rlwe",
+        "agent_status": "running"
+      },
+      {
+        "agent_name": "/root/c_ideal",
+        "agent_status": "running"
+      },
+      {
+        "agent_name": "/root/d_adversarial",
+        "agent_status": "running"
+      }
+    ]
+  },
+  "effective_total_capacity_at_least": 5,
+  "service_live_query": "UNKNOWN: helper status cannot connect systemd bus or tmux socket under sandbox (Operation not permitted); not a content-policy error",
+  "local_cgroup_evidence": {
+    "proc_self_cgroup": "0::/user.slice/user-1007.slice/user@1007.service/app.slice/codex-cap-brlwe-standard-hardness-20261017-astra-u-0d13c36f8a40.service\n",
+    "expected_cgroup_populated": true
+  },
+  "last_worker_messages": {
+    "A": "A-ADM/A-BIN provisional; now full proof reviewer D-THETA",
+    "B": "short-syndrome endpoints tested; target-programming algorithm absent",
+    "C": "BBPS endpoint too wide; noninvertible ideal theorem retains full q^n endpoint; direct coset route next",
+    "D": "theta theorem/proof/control frozen; handoff before slot recycling"
+  },
+  "current_running_evidence": {
+    "observed_at": "2026-10-17T20:31:20.072553+00:00",
+    "actual_list_agents_response": {
+      "agents": [
+        {
+          "agent_name": "/root",
+          "agent_status": "running"
+        },
+        {
+          "agent_name": "/root/a_source",
+          "agent_status": "running"
+        },
+        {
+          "agent_name": "/root/b_rlwe",
+          "agent_status": "running"
+        },
+        {
+          "agent_name": "/root/bt2_blind",
+          "agent_status": "running"
+        },
+        {
+          "agent_name": "/root/c_ideal",
+          "agent_status": "running"
+        }
+      ]
+    }
+  },
+  "blind_review_history": [
+    {
+      "task_name": "/root/bt1_blind",
+      "assignment": "assignments/BT1-v1.md",
+      "receipt_events": "coordinator/recycled-agent-events-v1.json",
+      "status": "completed, nonblind",
+      "report": "criticism/BT1/report-v1.md",
+      "report_sha256": "da3a6274c288ab8b04ab116b95f98557c055fbdb53c98d15c7d56498a2aae367"
+    }
+  ],
+  "blind_review": {
+    "task_name": "/root/bt2_blind",
+    "assignment": "assignments/BT2-v1.md",
+    "spawn_model": "gpt-6-astra",
+    "reasoning_effort": "ultra",
+    "fork_turns": "none",
+    "actual_spawn_response": "{\"task_name\":\"/root/bt2_blind\"}",
+    "status": "completed; strict blind PASS, no exposure, report frozen before disclosure",
+    "input_theorem": "criticism/BT2/input/theorem-only-v1.md",
+    "explicit_definitions": "criticism/BT2/input/definitions-v1.md",
+    "report": "criticism/BT2/report-v1.md"
+  },
+  "current_role_evidence": {
+    "A": "Scalar LLL finite job completed, next algorithm mechanism",
+    "B": "Semi-adaptive leakage exact endpoints; normalizer recheck requested",
+    "C": "Low-index denominator/coset source; one finite job authorized",
+    "D": "Resumed leakage audit; primary normalizer objection frozen",
+    "BT2": "completed blind review"
+  },
+  "continuation_receipts": "coordinator/recycled-runtime-events-v2.json",
+  "continuation_assignments": "assignments/continuation-transcription-v1.json",
+  "current_assignments_summary": {
+    "A": "Tower/gadget binary expansion full endpoints",
+    "B": "Known-ideal Gaussian residue/BDD endpoints",
+    "C": "Published periodic-noise/ideal lattice hardness",
+    "D": "Independent tower and binary-module source audit"
+  }
+}

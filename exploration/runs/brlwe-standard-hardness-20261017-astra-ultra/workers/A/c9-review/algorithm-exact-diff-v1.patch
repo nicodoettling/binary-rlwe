@@ -1,0 +1,25 @@
+--- workers/C/periodic-hardness/multiplier-ohcp-algorithm-v1.md
++++ coordinator/c8-repair/multiplier-ohcp-algorithm-v2.md
+@@ -1,6 +1,6 @@
+-# Standalone finite algorithm definitions for theorem v7
++# Standalone finite algorithm definitions for theorem v8
+ 
+-DEFINITIONS ONLY. This is part of the theorem input, suitable for a blind reviewer without the author proof. No correctness argument is imported by this specification. The companion theorem fixes R,J,D,q,P,k,w,delta,zeta,kappa,K,T_walk,Lambda_walk,C,Lambda_cmp,M,Delta,G,N,Q_H,Q_*,epsilon0,a,v0,d0 and h=1/(DP). Its target is denoted T_bdd here, to distinguish it from the walk length. All random choices mentioned below are mutually fresh, conditional on the complete previous execution. Every call to the given bounded randomized algorithm A uses independent fresh private coins. Internal multiplier, Gaussian, empirical, and walk coins are not published to A.
++DEFINITIONS ONLY. Version2 changes only the final verification threshold to a specified rational value; all prior algorithm definitions and loop bounds are retained. This is part of the theorem input, suitable for a blind reviewer without the author proof. No correctness argument is imported by this specification. The companion theorem fixes R,J,D,q,P,k,w,delta,zeta,kappa,K,T_walk,Lambda_walk,C,Lambda_cmp,M,Delta,G,N,Q_H,Q_*,epsilon0,a,v0,d0 and h=1/(DP). Its target is denoted T_bdd here, to distinguish it from the walk length. All random choices mentioned below are mutually fresh, conditional on the complete previous execution. Every call to the given bounded randomized algorithm A uses independent fresh private coins. Internal multiplier, Gaussian, empirical, and walk coins are not published to A.
+ 
+ ## 0. Encodings, elementary arithmetic, and deterministic conventions
+ 
+@@ -117,4 +117,12 @@
+ 
+ Run Section7 for every n/2 conjugate pair with bsign=0, then for every pair with bsign=1. Do not choose signs per coordinate. For one orientation's complete set of outputs form the conjugate-symmetric canonical estimate ehat_j=d0(zhat_j-2). Convert it to coefficient coordinates with a certified rational approximation whose coefficient error is at most q/(64D). Round T_bdd-minus-this-estimate coefficientwise to the grid(q/D)Z using the deterministic nearest convention. Call the resulting rational vector lambda_hat.
+ 
+-Check exact membership lambda_hat in L. If it fails, discard the candidate. Otherwise evaluate each canonical modulus of T_bdd-lambda_hat with a certified interval of width at most d0/8; accept only if every upper endpoint is at most2d0. Evaluate to the fixed required precision and make this rational upper-bound test; no equality decision on a real norm is required. Return the first accepted complete candidate in orientation order. If neither is accepted, return FAILURE. There are at most two complete candidates and at most Q_*=nQ_H total calls to A. All loops and bit budgets are bounded even without the GP distinguishing promise or the BDD promise. This definition supplies no quantum access or algorithm; coherent use is a separate downstream question.
++Check exact membership lambda_hat in L. If it fails, discard the candidate. Before any residual comparisons set
++
++    p_test=max(0,Up(log2(64/d0))+2), eps_test=2^(-p_test).
++
++Evaluate d0 to a rational c_test with absolute error at most eps_test, using its certified scalar evaluation routine. Define the rational numbers
++
++    d_lower=c_test-eps_test, threshold_test=3c_test/2.
++
++This is a fixed precision computation, not an adaptive sign or equality test. Its definitions ensure eps_test<=d0/256 and d_lower>0. Evaluate each canonical modulus of T_bdd-lambda_hat to a certified rational interval of width at most d_lower/8. Accept only when every rational upper endpoint is at most the rational threshold_test, by exact rational comparison. The precision target d_lower/8 and final threshold are both rational; no exact comparison against d0, 2d0, or an unspecified computable real is performed. The same finite operations apply on off-promise targets and all answer transcripts. Full scalar evaluation and output-bit costs are included as in Section0. Return the first accepted complete candidate in orientation order. If neither is accepted, return FAILURE. There are at most two complete candidates and at most Q_*=nQ_H total calls to A. All loops and bit budgets are bounded even without the GP distinguishing promise or the BDD promise. This definition supplies no quantum access or algorithm; coherent use is a separate downstream question.

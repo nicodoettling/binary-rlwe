@@ -1,0 +1,2630 @@
+{
+  "status": "PROVISIONAL full standard-source composition review; v1 canonical target defective, v2 repair reviewed; no acceptance authority",
+  "claim_scope": "B-STD-decomposed-v1 + B-STD-canonical-v2",
+  "registry_path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/regressions.json",
+  "registry_sha256": "e6fb467b280467676feac32060c0d1ebaed1e216972758cc9aa67e4ac522bd47",
+  "inherited_registry_path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-source-foundations-20261016-astra-ultra/regressions.json",
+  "inherited_registry_sha256": "5312613cfa00415cf0e6eafa5e9b8ac242a9b30e1e6b1916fa427c69fd2abc6c",
+  "canonical_entry_hash_convention": "UTF8 JSON sort_keys=True,separators comma/colon,ensure_ascii=False of complete entry at stated JSON pointer",
+  "imported_count": 51,
+  "imported_dispositions": [
+    {
+      "id": "R01",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "NONUSE",
+      "reason": "No binomial ideal sampler; source multipliers are full ordinary uniform ring elements.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/0",
+      "exact_registry_entry": {
+        "id": "R01",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "R01",
+          "historical_entry": {
+            "id": "R01",
+            "exact_record": "| R01 | Binomial ideal masks have blocks scalar times known geometric vectors. Enumerating a and a scalar in F_q costs polynomial time; false positive <= L q (|E|/q)^L, for coefficient-small E. | candidates/C01.md; candidates/C01/calculations.md. Retire that sampler, not arbitrary rich supports. |",
+            "expected_outcome": "Binomial ideal masks have blocks scalar times known geometric vectors. Enumerating a and a scalar in F_q costs polynomial time; false positive <= L q (|E|/q)^L, for coefficient-small E.",
+            "provenance": "candidates/C01.md; candidates/C01/calculations.md. Retire that sampler, not arbitrary rich supports.",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "metadata_correction": "Parsed spaced table delimiters without splitting mathematical | symbols; exact_record retained unchanged.",
+            "intake_disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet",
+            "current_handling": "Binomial structured mask family stays retired; all new laws use the exact uniform d-subset source.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| R01; R09; R10; C01-ATT | Binomial-support decoders, strict norm/injection thresholds, Lucas occupancy, and residual boxes filling all centered residues remain valid warnings for their old claims. No structured-support pseudorandomness, strict norm uniqueness, full quotient occupancy or residual-box distinguisher is asserted here. Inapplicable to the proof, retained as source-premise limitations. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "RETAINED_NOT_USED",
+        "scope_reason": "No binomial/structured support sampler: T is uniform over all d-subsets. Historical attack remains valid for its retired sampler.",
+        "new_evidence": [
+          "coordinator/source-contract-v1.md"
+        ],
+        "source_parameter_review": {
+          "status": "RETAINED_NOT_USED",
+          "scope_reason": "No structured-support sampler, entropy-only extractor, field-rank-to-Boolean-fiber argument, residual verification, signed Renyi transfer, statistical-source-uniformity claim, moment analogy, subgroup coverage guarantee, or optimized attack-constant improvement is used. Historical counterexamples remain valid in their stated scopes.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8"
+      },
+      "entry_sha256": "226a87d692c11c915fb6736dc3cb7ddc2a6c584e7e20617104f1d9b6afe6089e"
+    },
+    {
+      "id": "R02",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "CHECKED",
+      "reason": "Local construction coins depend only on supplied multipliers; source secret/errors remain independent of construction. No latent completion tape is public.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/1",
+      "exact_registry_entry": {
+        "id": "R02",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "R02",
+          "historical_entry": {
+            "id": "R02",
+            "exact_record": "| R02 | Coins C=G, H=E-FG make conditional independence vacuous for arbitrarily large F. | criticism/C01/additive-obstruction.md. Require conditional G law to survive and distinguish public from latent correctness. |",
+            "expected_outcome": "Coins C=G, H=E-FG make conditional independence vacuous for arbitrarily large F.",
+            "provenance": "criticism/C01/additive-obstruction.md. Require conditional G law to survive and distinguish public from latent correctness.",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "intake_disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet",
+            "current_handling": "No hidden G or challenger coins enter a public algorithm; H is a conditional proof kernel independent of later S,G.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| R02: C=G, H=E-FG | Exact hand substitution gives N=E while G becomes deterministic conditional C. REJECT the weakened conditional-independence rule. Current C independent of G and fixed conditional G law exclude it; PASS. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "CHECKED_CURRENT_EX_V2",
+        "scope_reason": "Latent C is independent of S,G before conditioning; H is sampled from a positive complement independent of S,G given C. The MG+H comparison integrates H out before adjoining S. C=G cheat violates this law.",
+        "new_evidence": [
+          "coordinator/expansion-proof-v2.md",
+          "experiments/historical-rerun/exact-search-v1.json"
+        ],
+        "source_parameter_review": {
+          "status": "SCOPED_PASS",
+          "scope_reason": "The latent reveal bounds guessing from above and does not manufacture a public distinguisher. Full-law noise comparison integrates H out before the independent endpoint. No inverse projection or efficient decoder follows from latent knowledge.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8",
+        "proof_section_references": [
+          {
+            "file": "coordinator/expansion-proof-v2.md",
+            "section": 7
+          }
+        ]
+      },
+      "entry_sha256": "be11714d01aff5d1d413af31c8b6e0d109451484582095b07f5058681792caa9"
+    },
+    {
+      "id": "R03",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "CHECKED",
+      "reason": "Full affine fibers and full retained joint laws are proved; shared R/W correlations are not replaced by products of marginals.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/2",
+      "exact_registry_entry": {
+        "id": "R03",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "R03",
+          "historical_entry": {
+            "id": "R03",
+            "exact_record": "| R03 | A1=A2 uniform has exactly uniform marginals and distinguishable pair. | criticism/C02/checks-and-regressions.md J1. Joint pair assumption mandatory. |",
+            "expected_outcome": "A1=A2 uniform has exactly uniform marginals and distinguishable pair.",
+            "provenance": "criticism/C02/checks-and-regressions.md J1. Joint pair assumption mandatory.",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "intake_disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet",
+            "current_handling": "Every comparator and simulation is a full joint pair law; diagonal-uniform counterexample retained.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| R03, R04, R05; C03-HC5; PAIRWISE-SE-F3; SE-CORRELATION-F3 | Exact shared-G/common-K F3 TV=2/3; all pair marginals of F,S,E are product but full TV=2/3; correlated-secret target TV=2/9. For the Gaussian sign control, odd q makes nonzero r and -r distinct, giving guessing 1-W(0)/2 with the sign tape and 1/2 without it. Current target and noise comparison specify the full product law; PASS. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "CHECKED_CURRENT_EX_V2",
+        "scope_reason": "Full target independence and full retained-seed law are explicit. Exact F3 controls retain joint TV2/3 despite pairwise independence and target gap2/9 under correlated S,E. Gaussian sign control still leaks with its sign tape; no marginal-only Gaussian inference is used.",
+        "new_evidence": [
+          "coordinator/expansion-proof-v2.md",
+          "experiments/historical-rerun/exact-search-v1.json",
+          "imports/regressions/01-hand-controls.md"
+        ],
+        "source_parameter_review": {
+          "status": "SCOPED_PASS",
+          "scope_reason": "EX-v2 explicitly retains zero ideal coordinates, the exact conditional source law and full target product law, and actual expansion dependence. No active-unit conditioning or marginal-to-joint inference is imported. The full regularity inequality itself remains a mathematical-review gate.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8",
+        "proof_section_references": [
+          {
+            "file": "coordinator/expansion-proof-v2.md",
+            "section": 1
+          }
+        ]
+      },
+      "entry_sha256": "30146fa5ca916be33d16e9eb5708e7789faad4f01dfcbe20a933302b661753c4"
+    },
+    {
+      "id": "R04",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "CHECKED",
+      "reason": "Full N-dimensional convolution is completed with its actual theta normalizer; scalar marginal covariance matching is not used.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/3",
+      "exact_registry_entry": {
+        "id": "R04",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "R04",
+          "historical_entry": {
+            "id": "R04",
+            "exact_record": "| R04 | E1=Z, E2=(-1)^(S xor T)Z, S,T fair, Z Gaussian: all conditional error marginals Gaussian, but p_guess(S|E1,E2,T)=1-W(0)/2 versus 1/2 without T. | Same, C2. Product Gaussian target cannot be inferred from marginals. |",
+            "expected_outcome": "E1=Z, E2=(-1)^(S xor T)Z, S,T fair, Z Gaussian: all conditional error marginals Gaussian, but p_guess(S|E1,E2,T)=1-W(0)/2 versus 1/2 without T.",
+            "provenance": "Same, C2. Product Gaussian target cannot be inferred from marginals.",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "metadata_correction": "Parsed spaced table delimiters without splitting mathematical | symbols; exact_record retained unchanged.",
+            "intake_disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet",
+            "current_handling": "Gaussian marginals do not determine the joint law; full product/conditional kernels required.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| R03, R04, R05; C03-HC5; PAIRWISE-SE-F3; SE-CORRELATION-F3 | Exact shared-G/common-K F3 TV=2/3; all pair marginals of F,S,E are product but full TV=2/3; correlated-secret target TV=2/9. For the Gaussian sign control, odd q makes nonzero r and -r distinct, giving guessing 1-W(0)/2 with the sign tape and 1/2 without it. Current target and noise comparison specify the full product law; PASS. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "CHECKED_CURRENT_EX_V2",
+        "scope_reason": "Full target independence and full retained-seed law are explicit. Exact F3 controls retain joint TV2/3 despite pairwise independence and target gap2/9 under correlated S,E. Gaussian sign control still leaks with its sign tape; no marginal-only Gaussian inference is used.",
+        "new_evidence": [
+          "coordinator/expansion-proof-v2.md",
+          "experiments/historical-rerun/exact-search-v1.json",
+          "imports/regressions/01-hand-controls.md"
+        ],
+        "source_parameter_review": {
+          "status": "SCOPED_PASS",
+          "scope_reason": "EX-v2 explicitly retains zero ideal coordinates, the exact conditional source law and full target product law, and actual expansion dependence. No active-unit conditioning or marginal-to-joint inference is imported. The full regularity inequality itself remains a mathematical-review gate.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8",
+        "proof_section_references": [
+          {
+            "file": "coordinator/expansion-proof-v2.md",
+            "section": 1
+          }
+        ]
+      },
+      "entry_sha256": "45b2c6edebc4534f3df7973d1d0854f676eb41916088146bf10b688249cda676"
+    },
+    {
+      "id": "R05",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "CHECKED",
+      "reason": "Source response/error tuple and sampler coins use the declared joint independence; pairwise independence is not substituted.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/4",
+      "exact_registry_entry": {
+        "id": "R05",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "R05",
+          "historical_entry": {
+            "id": "R05",
+            "exact_record": "| R05 | S,T fair, E=S xor T, A=0: pairwise independence does not give full conditional kernel. | Same, C1. |",
+            "expected_outcome": "S,T fair, E=S xor T, A=0: pairwise independence does not give full conditional kernel.",
+            "provenance": "Same, C1.",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "intake_disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet",
+            "current_handling": "Pairwise independence insufficient; repaired OBS requires the full joint product law and passes new triple-correlation control.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| R03, R04, R05; C03-HC5; PAIRWISE-SE-F3; SE-CORRELATION-F3 | Exact shared-G/common-K F3 TV=2/3; all pair marginals of F,S,E are product but full TV=2/3; correlated-secret target TV=2/9. For the Gaussian sign control, odd q makes nonzero r and -r distinct, giving guessing 1-W(0)/2 with the sign tape and 1/2 without it. Current target and noise comparison specify the full product law; PASS. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "CHECKED_CURRENT_EX_V2",
+        "scope_reason": "Full target independence and full retained-seed law are explicit. Exact F3 controls retain joint TV2/3 despite pairwise independence and target gap2/9 under correlated S,E. Gaussian sign control still leaks with its sign tape; no marginal-only Gaussian inference is used.",
+        "new_evidence": [
+          "coordinator/expansion-proof-v2.md",
+          "experiments/historical-rerun/exact-search-v1.json",
+          "imports/regressions/01-hand-controls.md"
+        ],
+        "source_parameter_review": {
+          "status": "SCOPED_PASS",
+          "scope_reason": "EX-v2 explicitly retains zero ideal coordinates, the exact conditional source law and full target product law, and actual expansion dependence. No active-unit conditioning or marginal-to-joint inference is imported. The full regularity inequality itself remains a mathematical-review gate.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8",
+        "proof_section_references": [
+          {
+            "file": "coordinator/expansion-proof-v2.md",
+            "section": 1
+          }
+        ]
+      },
+      "entry_sha256": "08e566f9dd40bec04507cc5acb20e47d810e237521fe78a9f7ac8accb3413ea1"
+    },
+    {
+      "id": "R06",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "CHECKED",
+      "reason": "Extraction uses the exact ring CRT chi-square identity and projected collision bounds, not entropy alone.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/5",
+      "exact_registry_entry": {
+        "id": "R06",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "R06",
+          "historical_entry": {
+            "id": "R06",
+            "exact_record": "| R06 | q=3 half-dimensional quotient family omits one of nine outputs per four bits; TV tends to one despite entropy budget. | scouts/S04.md and experiment_e02.json. Outside reference growing-q regime; entropy alone insufficient. |",
+            "expected_outcome": "q=3 half-dimensional quotient family omits one of nine outputs per four bits; TV tends to one despite entropy budget.",
+            "provenance": "scouts/S04.md and experiment_e02.json. Outside reference growing-q regime; entropy alone insufficient.",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "intake_disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet",
+            "current_handling": "Fixed-q entropy counterexample retained outside A2 growing-q gates; no entropy-only extraction theorem inferred.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| R06, R07 | Entropy-only extraction and field-kernel-to-Boolean-fiber shortcuts remain rejected. Current quotient lemma uses only cardinality, allowing arbitrary fibers; noisy-bit loss is computed directly. Exhaustive new leakage controls cover the relevant replacement; PASS. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "RETAINED_NOT_USED",
+        "scope_reason": "No entropy-only quotient extraction or field-rank-to-Boolean-fiber inference: arbitrary quotient fibers are handled by cardinality times exact noisy-bit guessing.",
+        "new_evidence": [
+          "coordinator/expansion-proof-v2.md",
+          "experiments/historical-rerun/exact-search-v1.json"
+        ],
+        "source_parameter_review": {
+          "status": "RETAINED_NOT_USED",
+          "scope_reason": "No structured-support sampler, entropy-only extractor, field-rank-to-Boolean-fiber argument, residual verification, signed Renyi transfer, statistical-source-uniformity claim, moment analogy, subgroup coverage guarantee, or optimized attack-constant improvement is used. Historical counterexamples remain valid in their stated scopes.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8",
+        "proof_section_references": [
+          {
+            "file": "coordinator/expansion-proof-v2.md",
+            "section": 7
+          }
+        ]
+      },
+      "entry_sha256": "4f2dfdda3dc55b348b409de24846d3fa2b4d5437b6d3b514d2f1e5b7c392dbbb"
+    },
+    {
+      "id": "R07",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "NONUSE",
+      "reason": "No field-rank-to-Boolean-fiber inference; the secret law is unchanged.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/6",
+      "exact_registry_entry": {
+        "id": "R07",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "R07",
+          "historical_entry": {
+            "id": "R07",
+            "exact_record": "| R07 | Field kernel dimension can coexist with no nonzero ternary kernel vector; Boolean lossiness requires actual fibers. | scouts/S05.md. |",
+            "expected_outcome": "Field kernel dimension can coexist with no nonzero ternary kernel vector; Boolean lossiness requires actual fibers.",
+            "provenance": "scouts/S05.md.",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "intake_disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet",
+            "current_handling": "Field kernel dimension is not Boolean lossiness; no such implication imported.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| R06, R07 | Entropy-only extraction and field-kernel-to-Boolean-fiber shortcuts remain rejected. Current quotient lemma uses only cardinality, allowing arbitrary fibers; noisy-bit loss is computed directly. Exhaustive new leakage controls cover the relevant replacement; PASS. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "RETAINED_NOT_USED",
+        "scope_reason": "No entropy-only quotient extraction or field-rank-to-Boolean-fiber inference: arbitrary quotient fibers are handled by cardinality times exact noisy-bit guessing.",
+        "new_evidence": [
+          "coordinator/expansion-proof-v2.md",
+          "experiments/historical-rerun/exact-search-v1.json"
+        ],
+        "source_parameter_review": {
+          "status": "RETAINED_NOT_USED",
+          "scope_reason": "No structured-support sampler, entropy-only extractor, field-rank-to-Boolean-fiber argument, residual verification, signed Renyi transfer, statistical-source-uniformity claim, moment analogy, subgroup coverage guarantee, or optimized attack-constant improvement is used. Historical counterexamples remain valid in their stated scopes.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8",
+        "proof_section_references": [
+          {
+            "file": "coordinator/expansion-proof-v2.md",
+            "section": 7
+          }
+        ]
+      },
+      "entry_sha256": "66b7c761a0dacc2164526314f341c807a6bb149e44c068b275cc8eef70ab2314"
+    },
+    {
+      "id": "R08",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "CHECKED",
+      "reason": "Conditional R1 resampling is a proof kernel. The executable map uses public decomposition and its own X.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/7",
+      "exact_registry_entry": {
+        "id": "R08",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "R08",
+          "historical_entry": {
+            "id": "R08",
+            "exact_record": "| R08 | A secret-dependent precursor can nearly reveal S while the public degraded transcript retains substantial entropy (fixed A=1 control). | criticism/C02/checks-and-regressions.md; E04. Precursor recovery is not public attack. |",
+            "expected_outcome": "A secret-dependent precursor can nearly reveal S while the public degraded transcript retains substantial entropy (fixed A=1 control).",
+            "provenance": "criticism/C02/checks-and-regressions.md; E04. Precursor recovery is not public attack.",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "intake_disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet",
+            "current_handling": "Latent/public distinction enforced by explicit public witnesses or separately declared stronger sampler capability.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| R08; C02-LATENT-PUBLIC; PUBLIC-ENCODED-F | F5 control independently gives latent TV=1/2 and public TV=0. Reverse projection lower bounds remain rejected. Current latent reveal is solely a guessing upper bound; whether public projection can preserve encoded F is irrelevant to that direction; PASS. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "CHECKED_CURRENT_EX_V2",
+        "scope_reason": "Exact latent TV1/2 versus public TV0 remains a counterexample to reverse projection. EX reveals more only to upper-bound guessing; no efficient public decoder or reverse TV lower bound is inferred.",
+        "new_evidence": [
+          "experiments/historical-rerun/exact-search-v1.json",
+          "coordinator/expansion-proof-v2.md"
+        ],
+        "source_parameter_review": {
+          "status": "SCOPED_PASS",
+          "scope_reason": "The latent reveal bounds guessing from above and does not manufacture a public distinguisher. Full-law noise comparison integrates H out before the independent endpoint. No inverse projection or efficient decoder follows from latent knowledge.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8",
+        "proof_section_references": [
+          {
+            "file": "coordinator/expansion-proof-v2.md",
+            "section": 7
+          }
+        ]
+      },
+      "entry_sha256": "8b581c3d5a7dc69c7f60897f93692b4dd60d455e90d791c9a7e372da8f37ca72"
+    },
+    {
+      "id": "R09",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "NONUSE",
+      "reason": "No strict norm-uniqueness or quotient occupancy claim is used.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/8",
+      "exact_registry_entry": {
+        "id": "R09",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "R09",
+          "historical_entry": {
+            "id": "R09",
+            "exact_record": "| R09 | Strict injection thresholds cannot include equality: n=2,f=1+X has colliding binary 0 and 1+X. Lucas quotient occupancy is index minus one at n=4,8,16, missing (2,1), not full. | Same I1 and E05. No all-degree occupancy claim. |",
+            "expected_outcome": "Strict injection thresholds cannot include equality: n=2,f=1+X has colliding binary 0 and 1+X. Lucas quotient occupancy is index minus one at n=4,8,16, missing (2,1), not full.",
+            "provenance": "Same I1 and E05. No all-degree occupancy claim.",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "intake_disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet",
+            "current_handling": "Strict norm and rounding inequalities retained; equality and Lucas-occupancy shortcuts not revived.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| R01; R09; R10; C01-ATT | Binomial-support decoders, strict norm/injection thresholds, Lucas occupancy, and residual boxes filling all centered residues remain valid warnings for their old claims. No structured-support pseudorandomness, strict norm uniqueness, full quotient occupancy or residual-box distinguisher is asserted here. Inapplicable to the proof, retained as source-premise limitations. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "RETAINED_NOT_USED",
+        "scope_reason": "No Boolean injection/equality or Lucas-occupancy claim. EX uses an unconditional integer determinant lower bound, not a strict binary injection threshold. B strict-gate work remains a separate unaccepted reserve.",
+        "new_evidence": [
+          "coordinator/expansion-proof-v2.md"
+        ],
+        "source_parameter_review": {
+          "status": "RETAINED_NOT_USED",
+          "scope_reason": "No structured-support sampler, entropy-only extractor, field-rank-to-Boolean-fiber argument, residual verification, signed Renyi transfer, statistical-source-uniformity claim, moment analogy, subgroup coverage guarantee, or optimized attack-constant improvement is used. Historical counterexamples remain valid in their stated scopes.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8",
+        "proof_section_references": [
+          {
+            "file": "coordinator/expansion-proof-v2.md",
+            "section": 2
+          }
+        ]
+      },
+      "entry_sha256": "adb6205a9ef243668f0bae0016733bd0b1962ebf45a7887c0ee86d4740f231e0"
+    },
+    {
+      "id": "R10",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "SCOPE_LIMIT",
+      "reason": "The new uniform-secret hinted law is distinct from the low-index source and original binary target.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/9",
+      "exact_registry_entry": {
+        "id": "R10",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "R10",
+          "historical_entry": {
+            "id": "R10",
+            "exact_record": "| R10 | No-wrap alone can give uniform acceptance 1 when residual box spans all centered residues. Known denominator or short numerator tests still attack enumerably structured families. | Same D1; scouts/S12.md. |",
+            "expected_outcome": "No-wrap alone can give uniform acceptance 1 when residual box spans all centered residues. Known denominator or short numerator tests still attack enumerably structured families.",
+            "provenance": "Same D1; scouts/S12.md.",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "intake_disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet",
+            "current_handling": "Uniform acceptance counted explicitly and capped at1; no-wrap alone never supplies a small false-positive probability.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| R01; R09; R10; C01-ATT | Binomial-support decoders, strict norm/injection thresholds, Lucas occupancy, and residual boxes filling all centered residues remain valid warnings for their old claims. No structured-support pseudorandomness, strict norm uniqueness, full quotient occupancy or residual-box distinguisher is asserted here. Inapplicable to the proof, retained as source-premise limitations. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "RETAINED_NOT_USED",
+        "scope_reason": "No residual-box acceptance test or no-wrap-to-small-false-positive shortcut in EX. Equality is against the actual sampled witness.",
+        "new_evidence": [
+          "coordinator/expansion-proof-v2.md"
+        ],
+        "source_parameter_review": {
+          "status": "RETAINED_NOT_USED",
+          "scope_reason": "No structured-support sampler, entropy-only extractor, field-rank-to-Boolean-fiber argument, residual verification, signed Renyi transfer, statistical-source-uniformity claim, moment analogy, subgroup coverage guarantee, or optimized attack-constant improvement is used. Historical counterexamples remain valid in their stated scopes.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8",
+        "proof_section_references": [
+          {
+            "file": "coordinator/expansion-proof-v2.md",
+            "section": 1
+          }
+        ]
+      },
+      "entry_sha256": "3261246079708ef23e83a49177e8114f126995257afe7858db375bf714c87ee8"
+    },
+    {
+      "id": "R11",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "CHECKED",
+      "reason": "Rank, tail, noise, hint and finite errors are additive endpoint charges; no good-event success product.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/10",
+      "exact_registry_entry": {
+        "id": "R11",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "R11",
+          "historical_entry": {
+            "id": "R11",
+            "exact_record": "| R11 | Half A=0, half A=I noiseless model is sometimes lossy but average recovery ~1/2. | Same H1. Mild/sometimes hardness cannot become negligible average success silently. |",
+            "expected_outcome": "Half A=0, half A=I noiseless model is sometimes lossy but average recovery ~1/2.",
+            "provenance": "Same H1. Mild/sometimes hardness cannot become negligible average success silently.",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "intake_disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet",
+            "current_handling": "Sometimes lossiness does not imply negligible average recovery; conditional sampler guarantees and bad-source losses stated.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| R11; C03-HC6 success/bad-error correlation | The two-atom model success=bad-error makes multiplication by good-error probability false. Current proof pays a union/TV subtraction once. The half-zero/half-identity model remains a rejection of sometimes-lossy-to-negligible-average reasoning; current source loss bounds average guessing directly; PASS. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "CHECKED_CURRENT_EX_V2",
+        "scope_reason": "Bad-mask success can equal one; its probability is added once. The information bound is pointwise for every good latent state, not merely sometimes-lossy. CP1 separately reproduced.",
+        "new_evidence": [
+          "coordinator/expansion-proof-v2.md",
+          "experiments/historical-rerun/exact-search-v1.json"
+        ],
+        "source_parameter_review": {
+          "status": "SCOPED_PASS",
+          "scope_reason": "The bad-mask branch is additive. Products condition on the original seed or all nonpivot coordinates before observations, with independent remaining coordinates. No selected-stage product or prior ratio law after observing outputs is invoked. CP-1 joint probability 21/2000 remains larger than 1/100.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8",
+        "proof_section_references": [
+          {
+            "file": "coordinator/expansion-proof-v2.md",
+            "section": 6
+          }
+        ]
+      },
+      "entry_sha256": "09daffa566edf66c2a7b8fd1ef3456ad2c04a70a2e3683fa2783d9f6f891fb40"
+    },
+    {
+      "id": "R12",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "NONUSE",
+      "reason": "No recovery-verification hardness inference is needed in this decision simulation.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/11",
+      "exact_registry_entry": {
+        "id": "R12",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "R12",
+          "historical_entry": {
+            "id": "R12",
+            "exact_record": "| R12 | At n=1,q=3,a1=a2=1,t=1, binary (1,0),(0,1) are both verified preimages; verification does not identify original planted witness. | candidates/C03/transport.md. |",
+            "expected_outcome": "At n=1,q=3,a1=a2=1,t=1, binary (1,0),(0,1) are both verified preimages; verification does not identify original planted witness.",
+            "provenance": "candidates/C03/transport.md.",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "intake_disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet",
+            "current_handling": "Verification identifies the actual F only under proved strict uniqueness; autocorrelation test otherwise counts all possible valid witnesses.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| R12 exact witness vs residual | Author-code rerun and new zero-ideal controls show residual checking can accept every transcript while exact sampled-witness success differs. Current B_m compares to its own S; PASS. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "CHECKED_CURRENT_EX_V2",
+        "scope_reason": "Actual secret S is retained through joint-law TV and compared for equality. Multiple verified preimages remain distinct outcomes; finite witness controls reject residual verification as recovery.",
+        "new_evidence": [
+          "experiments/expansion_controls_v1.stdout.json",
+          "experiments/historical-rerun/interface-controls-v1.json",
+          "coordinator/expansion-proof-v2.md"
+        ],
+        "source_parameter_review": {
+          "status": "SCOPED_PASS",
+          "scope_reason": "The test checks actual sampled S; the common-ideal construction uses one shared Y and one q^d cardinality charge, not independent auxiliary views for every sample.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8",
+        "proof_section_references": [
+          {
+            "file": "coordinator/expansion-proof-v2.md",
+            "section": 7
+          }
+        ]
+      },
+      "entry_sha256": "f64d01d7fff94d5f8830dc53edc2d6f43a2e4b46443e4c70bdf4b741c4214df4"
+    },
+    {
+      "id": "R13",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "NONUSE",
+      "reason": "No signed Renyi transfer; only exact couplings and TV comparisons.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/12",
+      "exact_registry_entry": {
+        "id": "R13",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "R13",
+          "historical_entry": {
+            "id": "R13",
+            "exact_record": "| R13 | Renyi event transfer Q(F)>=P(F)^2/M2(P||Q) requires this orientation; it does not transfer signed decision advantage. | candidates/C03/transport.md; criticism/C03/mathematical-checks.md. |",
+            "expected_outcome": "Renyi event transfer Q(F)>=P(F)^2/M2(P||Q) requires this orientation; it does not transfer signed decision advantage.",
+            "provenance": "candidates/C03/transport.md; criticism/C03/mathematical-checks.md.",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "metadata_correction": "Restored parsed fields truncated by the || in the exact original record, which was retained unchanged.",
+            "intake_disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet",
+            "current_handling": "Positive-event search/acceptance transfers only; no signed decision advantage transported by Renyi or conditioning.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| R13; C03-HC4 Renyi orientation | Positive-event change of measure does not preserve a signed difference. Current proof uses a single absolute acceptance gap with no Renyi transfer; PASS by explicit nonuse. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "RETAINED_NOT_USED",
+        "scope_reason": "No signed Renyi transport. The reduction uses one absolute difference of acceptance probabilities and ordinary TV contraction. Historical event-versus-signed-gap counterexample retained.",
+        "new_evidence": [
+          "coordinator/expansion-proof-v2.md"
+        ],
+        "source_parameter_review": {
+          "status": "RETAINED_NOT_USED",
+          "scope_reason": "No structured-support sampler, entropy-only extractor, field-rank-to-Boolean-fiber argument, residual verification, signed Renyi transfer, statistical-source-uniformity claim, moment analogy, subgroup coverage guarantee, or optimized attack-constant improvement is used. Historical counterexamples remain valid in their stated scopes.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8",
+        "proof_section_references": [
+          {
+            "file": "coordinator/expansion-proof-v2.md",
+            "section": 7
+          }
+        ]
+      },
+      "entry_sha256": "ad0414374709774e0f84cc558babdf776aafbf0856abd7902e301db46a462e5b"
+    },
+    {
+      "id": "R14",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "CHECKED",
+      "reason": "Zero and nonunits remain sampled. Surjectivity is tested on the complete public R map, with failure explicitly paid.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/13",
+      "exact_registry_entry": {
+        "id": "R14",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "R14",
+          "historical_entry": {
+            "id": "R14",
+            "exact_record": "| R14 | Uniform ideal U has bad active-unit probability 1-(1-1/q)^d, nonnegligible for polynomial q; conditioning changes the exact source. | candidates/C01.md. |",
+            "expected_outcome": "Uniform ideal U has bad active-unit probability 1-(1-1/q)^d, nonnegligible for polynomial q; conditioning changes the exact source.",
+            "provenance": "candidates/C01.md.",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "intake_disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet",
+            "current_handling": "Active-conditioning delta_act and image defect eta_iso are distinct exact nonnegligible quantities; no silent source replacement.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| R14; N02-DUAL-NUMBER | Zero ideal multipliers included throughout; new primitive enumeration reproduces TV 9/32, and planted guessing 17/32 respects the cardinality bound. No active-unit conditioning, rank defect or eta_iso is invoked; PASS. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "CHECKED_CURRENT_EX_V2",
+        "scope_reason": "Zero ideal coordinates and zero seeds are retained. Rank strata are counted exactly, with no active-unit conditioning. Fresh dual-number control reproduces9/32 endpoint TV and17/32 planted guessing.",
+        "new_evidence": [
+          "experiments/historical-rerun/interface-controls-v1.json",
+          "experiments/expansion_controls_v1.stdout.json"
+        ],
+        "source_parameter_review": {
+          "status": "SCOPED_PASS",
+          "scope_reason": "EX-v2 explicitly retains zero ideal coordinates, the exact conditional source law and full target product law, and actual expansion dependence. No active-unit conditioning or marginal-to-joint inference is imported. The full regularity inequality itself remains a mathematical-review gate.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8"
+      },
+      "entry_sha256": "0bdb179d3ba22b34b4f8441fc1598add0fe4da97f4eaa706d7e54f47a8884b7e"
+    },
+    {
+      "id": "R15",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "CHECKED",
+      "reason": "Rotations define coefficient expansion only; they are not sampled as independent hint columns.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/14",
+      "exact_registry_entry": {
+        "id": "R15",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "R15",
+          "historical_entry": {
+            "id": "R15",
+            "exact_record": "| R15 | Repeated added noise, rotations, independent secrets, or common V_i=U_i K do not supply independent samples sharing S. | BRIDGE_CONTRACT; prior reconciliation; C03 transport. |",
+            "expected_outcome": "Repeated added noise, rotations, independent secrets, or common V_i=U_i K do not supply independent samples sharing S.",
+            "provenance": "BRIDGE_CONTRACT; prior reconciliation; C03 transport.",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "intake_disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet",
+            "current_handling": "m=1 only; common-K and shared-secret multiple-sample gates not opened; repeated hypothetical public sampler calls are not source challenges.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| R15; C03-HC5 common K; C03-HC7 separate Y | Common K gives three diagonal points instead of nine independent points in F3, TV 2/3. Current source genuinely supplies the two multipliers; correlated completion handles the shared G only inside the proof. It does not convert common K to independent ideal points, expand a source, or reveal several separately noised Y values; PASS. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "CHECKED_CURRENT_EX_V2",
+        "scope_reason": "EX does not claim independent planted ideal points. Comparator independence follows from a quantitative full retained-seed theorem and fresh local coins conditional on the seed; common-K/rotation shortcuts remain false.",
+        "new_evidence": [
+          "coordinator/expansion-proof-v2.md",
+          "workers/C/exact_m3_control_v1.out.json",
+          "experiments/expansion_controls_v1.stdout.json"
+        ],
+        "source_parameter_review": {
+          "status": "SCOPED_PASS",
+          "scope_reason": "EX-v2 explicitly retains zero ideal coordinates, the exact conditional source law and full target product law, and actual expansion dependence. No active-unit conditioning or marginal-to-joint inference is imported. The full regularity inequality itself remains a mathematical-review gate.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8",
+        "proof_section_references": [
+          {
+            "file": "coordinator/expansion-proof-v2.md",
+            "section": 5
+          }
+        ]
+      },
+      "entry_sha256": "e963c35cbad347bc68570a156eaa176b39f4f02ff9806c3990771869763cd5ac"
+    },
+    {
+      "id": "R16",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "SCOPE_LIMIT",
+      "reason": "No original binary-source uniformity/security statement follows from this auxiliary extraction.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/15",
+      "exact_registry_entry": {
+        "id": "R16",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "R16",
+          "historical_entry": {
+            "id": "R16",
+            "exact_record": "| R16 | Statistical planted-to-uniform claim fails by existential binary-residual-box test; posterior transport may need hard sampling; tower packing requires unavailable correlated responses. | rejected-or-deferred.md; scouts/S01–S03. Computational and statistical assertions distinct. |",
+            "expected_outcome": "Statistical planted-to-uniform claim fails by existential binary-residual-box test; posterior transport may need hard sampling; tower packing requires unavailable correlated responses.",
+            "provenance": "rejected-or-deferred.md; scouts/S01–S03. Computational and statistical assertions distinct.",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "intake_disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet",
+            "current_handling": "Statistical planting, hidden-posterior efficiency and tower simulation shortcuts remain retired; no general map impossibility inferred.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| R16; R17; C02-CHAR | Statistical source pseudorandomness, posterior transport, tower packing, independent-matrix moments, symmetry-orbit hardness, QCSD masking and fixed-character-to-pseudorandomness arguments are absent. Base_2 indistinguishability is computational and expressly assumed. No verdict about those retired methods is reused. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "RETAINED_NOT_USED",
+        "scope_reason": "No statistical Base2 pseudorandomness, hidden posterior sampler or correlated-response oracle is asserted. Source hardness stays a computational premise; auxiliary H is proof-only.",
+        "new_evidence": [
+          "coordinator/expansion-theorem-only-v2.md"
+        ],
+        "source_parameter_review": {
+          "status": "RETAINED_NOT_USED",
+          "scope_reason": "No structured-support sampler, entropy-only extractor, field-rank-to-Boolean-fiber argument, residual verification, signed Renyi transfer, statistical-source-uniformity claim, moment analogy, subgroup coverage guarantee, or optimized attack-constant improvement is used. Historical counterexamples remain valid in their stated scopes.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8"
+      },
+      "entry_sha256": "4c112e86df3ec8d426dc89c54341b5a702147220041d1011684a962459705375"
+    },
+    {
+      "id": "R17",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "NONUSE",
+      "reason": "No moment or Fourier-speedup analogy replaces a reduction.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/16",
+      "exact_registry_entry": {
+        "id": "R17",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "R17",
+          "historical_entry": {
+            "id": "R17",
+            "exact_record": "| R17 | Independent-matrix moments fail at three-point ring-commutativity terms; public exact symmetries have tiny orbits; QCSD F2 masking loses planted recoverability and odd-q carries; sparse Fourier support gives no general quantum speedup. | rejected-or-deferred.md; scouts/S07–S11. Do not revive these mechanisms by renaming. |",
+            "expected_outcome": "Independent-matrix moments fail at three-point ring-commutativity terms; public exact symmetries have tiny orbits; QCSD F2 masking loses planted recoverability and odd-q carries; sparse Fourier support gives no general quantum speedup.",
+            "provenance": "rejected-or-deferred.md; scouts/S07–S11. Do not revive these mechanisms by renaming.",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "intake_disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet",
+            "current_handling": "Independent-matrix, tiny-symmetry, coding-surrogate and sparse-Fourier shortcuts remain retired; no new use.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| R16; R17; C02-CHAR | Statistical source pseudorandomness, posterior transport, tower packing, independent-matrix moments, symmetry-orbit hardness, QCSD masking and fixed-character-to-pseudorandomness arguments are absent. Base_2 indistinguishability is computational and expressly assumed. No verdict about those retired methods is reused. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "RETAINED_NOT_USED",
+        "scope_reason": "No independent-matrix moment analogy, symmetry-orbit sampler, QCSD carry substitution, or quantum speedup. EX uses exact ring multiplication characters and full Parseval sum.",
+        "new_evidence": [
+          "coordinator/expansion-proof-v2.md"
+        ],
+        "source_parameter_review": {
+          "status": "RETAINED_NOT_USED",
+          "scope_reason": "No structured-support sampler, entropy-only extractor, field-rank-to-Boolean-fiber argument, residual verification, signed Renyi transfer, statistical-source-uniformity claim, moment analogy, subgroup coverage guarantee, or optimized attack-constant improvement is used. Historical counterexamples remain valid in their stated scopes.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8",
+        "proof_section_references": [
+          {
+            "file": "coordinator/expansion-proof-v2.md",
+            "section": 2
+          }
+        ]
+      },
+      "entry_sha256": "139766a9ac5737359b37c825782d57c0fb19b0176ed40c15b102f06f9382b1d2"
+    },
+    {
+      "id": "R18",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "CHECKED_CP1",
+      "reason": "All kernel comparisons hold conditionally on retained public state. Rank events are paid, not multiplied by marginal successes.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/17",
+      "exact_registry_entry": {
+        "id": "R18",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "R18",
+          "historical_entry": {
+            "id": "R18",
+            "exact_record": "| R18 | CP-1 cached-prefix regression has event probability .0105 > .01 despite residual per-stage marginal bounds. | mathematical-proof-audit probability-regressions.md. Applicable if multiplying selected-stage probabilities; not a blanket objection to fixed independent coefficient products. |",
+            "expected_outcome": "CP-1 cached-prefix regression has event probability .0105 > .01 despite residual per-stage marginal bounds.",
+            "provenance": "mathematical-proof-audit probability-regressions.md. Applicable if multiplying selected-stage probabilities; not a blanket objection to fixed independent coefficient products.",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "intake_disposition": "IMPORTED; must be addressed by any applicable new claim; no rerun yet",
+            "current_handling": "CP-1 reproduced at21/2000>1/100; exact chain rule, pointwise conditional bounds or fixed-input independent calls replace illicit marginal products.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| R18/CP-1; C03-HC6 | Independently recomputed normalizer 10/11, posterior A_b=21/2000,C_b=1/20,D=879/1000; incidences 1/10,121/2000,21/2000. Selected event 21/2000>1/100, later 21/221<1/10. Support restriction and renormalization, including latent cached information, invalidate the old product. Current fixed-coordinate products have full unconditioned product laws and no adaptive filtration/cache branch; PASS. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "CHECKED_CURRENT_EX_V2",
+        "scope_reason": "Fresh exact reproduction: normalizer10/11; posterior A_b21/2000,C_b1/20,D879/1000; selected21/2000>1/100; later21/221<1/10. Support restriction and normalization invalidate the old product. EX products are under original independent seeds, or pointwise after fixing nonpivot coordinates, or conditional on the original seed before output; no selected adaptive branch or latent cache test.",
+        "new_evidence": [
+          "experiments/historical-rerun/exact-search-v1.json",
+          "experiments/expansion_controls_v1.stdout.json",
+          "coordinator/expansion-proof-v2.md"
+        ],
+        "source_parameter_review": {
+          "status": "SCOPED_PASS",
+          "scope_reason": "The bad-mask branch is additive. Products condition on the original seed or all nonpivot coordinates before observations, with independent remaining coordinates. No selected-stage product or prior ratio law after observing outputs is invoked. CP-1 joint probability 21/2000 remains larger than 1/100.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8",
+        "proof_section_references": [
+          {
+            "file": "coordinator/expansion-proof-v2.md",
+            "section": 3
+          }
+        ]
+      },
+      "entry_sha256": "3ffcb76ce67c28f613cfba5a76707669a5cb9111d3d70eaaa9149762490cdefc"
+    },
+    {
+      "id": "C03-HC1",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "CHECKED",
+      "reason": "All smoothing epsilons are in (0,1); actual normalizers have positive explicit lower bounds.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/18",
+      "exact_registry_entry": {
+        "id": "C03-HC1",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "C03-HC1",
+          "historical_entry": {
+            "id": "C03-HC1",
+            "evidence": "imports/regressions/01-hand-controls.md",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "intake_disposition": "IMPORTED complete exact hand control; applicable scope retained",
+            "current_handling": "NC1 negative-denominator control retained with both v2 guards.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| NC1-v1; C03-HC1 | M=0,tau=1/3,sigma=1 has true TV=0 but delta>82/63>1, so the old ratio is negative. REJECT old guardless formula; current piecewise bound returns one; PASS. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "CHECKED_CURRENT_EX_V2",
+        "scope_reason": "The old delta/(1-delta) can be negative when delta>1; exact lower bound82/63 reproduced. EX expressly uses eta=1 when Delta>=1.",
+        "new_evidence": [
+          "experiments/historical-rerun/exact-search-v1.json",
+          "coordinator/expansion-proof-v2.md"
+        ],
+        "source_parameter_review": {
+          "status": "MATH_REVIEW_REQUIRED",
+          "scope_reason": "EX explicitly guards Delta<1, retains the full rectangular complement and its normalization, and distinguishes exponent matrix from covariance. These obligations are not accepted by this scoped review; they remain for the independent mathematical review. No old global proof certificate is inherited.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8",
+        "proof_section_references": [
+          {
+            "file": "coordinator/expansion-proof-v2.md",
+            "section": 7
+          }
+        ]
+      },
+      "entry_sha256": "620bbc09914dba0a2965cca2ca75884d6321568b64002a3773beb9e4947aa9bf"
+    },
+    {
+      "id": "C03-HC2",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "CHECKED",
+      "reason": "Posterior P=(C^-1+F^-1)^-1 is a full positive matrix and its normalization is retained.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/19",
+      "exact_registry_entry": {
+        "id": "C03-HC2",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "C03-HC2",
+          "historical_entry": {
+            "id": "C03-HC2",
+            "evidence": "imports/regressions/01-hand-controls.md",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "intake_disposition": "IMPORTED complete exact hand control; applicable scope retained",
+            "current_handling": "Adaptive H_seq normalizer differs from D_B; exact chain-rule entropy and paid full-path likelihood ratio used.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| C03-HC2: H_seq | M=(1,1)^t,tau=1,sigma^2=3 gives parity-dependent second normalizers. Exact Poisson odd terms make Z_(3/2)(0)-Z_(3/2)(1/2)>0; numerical reproduction gives 0.0440089584. REJECT exact H_seq=D_B. Current H is proof-only exact D_B; PASS. Positive scalar complements alone would also miss a negative stacked eigenvalue; current full B guard excludes that. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "CHECKED_CURRENT_EX_V2",
+        "scope_reason": "H is the full positive discrete Gaussian complement, not sequential conditionals or separately completed blocks. Fresh exact12x4 identities retain cross-blocks and explicitly reject positive-marginal/negative-joint shortcut; historical parity-dependent normalizer remains unequal.",
+        "new_evidence": [
+          "criticism/RF1/rectangular-output.txt",
+          "experiments/historical-rerun/rectangular-control-v1.json",
+          "coordinator/expansion-proof-v2.md"
+        ],
+        "source_parameter_review": {
+          "status": "MATH_REVIEW_REQUIRED",
+          "scope_reason": "EX explicitly guards Delta<1, retains the full rectangular complement and its normalization, and distinguishes exponent matrix from covariance. These obligations are not accepted by this scoped review; they remain for the independent mathematical review. No old global proof certificate is inherited.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8",
+        "proof_section_references": [
+          {
+            "file": "coordinator/expansion-proof-v2.md",
+            "section": 7
+          }
+        ]
+      },
+      "entry_sha256": "ec5d581087a1adb03365b8090c6be1fca1a8da732112ea8d76bba7f23ea6b563"
+    },
+    {
+      "id": "C03-HC3",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "CHECKED",
+      "reason": "Width-square parameters are not asserted to equal exact discrete covariance matrices.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/20",
+      "exact_registry_entry": {
+        "id": "C03-HC3",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "C03-HC3",
+          "historical_entry": {
+            "id": "C03-HC3",
+            "evidence": "imports/regressions/01-hand-controls.md",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "intake_disposition": "IMPORTED complete exact hand control; applicable scope retained",
+            "current_handling": "Discrete moments differ from covariance B/(2pi); Poisson correction, sequential ratio and wrapping losses explicit.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| C03-HC3 | Discrete covariance need not be B/(2pi); at small scalar width variance is asymptotic to 2exp(-pi/t^2). No covariance identity is used. Current proof uses exact quadratic mass and normalizers; PASS. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "CHECKED_CURRENT_EX_V2",
+        "scope_reason": "Exponent matrix is not claimed to equal discrete covariance. Proof uses exact quadratic masses, normalized Poisson sums and uniform theta ratio; binary64 diagnostics are not interval certificates.",
+        "new_evidence": [
+          "coordinator/expansion-proof-v2.md",
+          "experiments/historical-rerun/rectangular-control-v1.json"
+        ],
+        "source_parameter_review": {
+          "status": "MATH_REVIEW_REQUIRED",
+          "scope_reason": "EX explicitly guards Delta<1, retains the full rectangular complement and its normalization, and distinguishes exponent matrix from covariance. These obligations are not accepted by this scoped review; they remain for the independent mathematical review. No old global proof certificate is inherited.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8",
+        "proof_section_references": [
+          {
+            "file": "coordinator/expansion-proof-v2.md",
+            "section": 7
+          }
+        ]
+      },
+      "entry_sha256": "f2d71c17eb57ab83350a6cb07b36a4571aa3a2489ec8e690a1cff97c75ceb5d6"
+    },
+    {
+      "id": "C03-HC4",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "CHECKED",
+      "reason": "Every executable map is a positive sampling kernel; no signed exact Gaussian deconvolution.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/21",
+      "exact_registry_entry": {
+        "id": "C03-HC4",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "C03-HC4",
+          "historical_entry": {
+            "id": "C03-HC4",
+            "evidence": "imports/regressions/01-hand-controls.md",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "intake_disposition": "IMPORTED complete exact hand control; applicable scope retained",
+            "current_handling": "Signed inverse and actual wrapped Gaussian deconvolution failures retained; Fourier ratios do not certify a probability kernel.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| C03-HC4 | The exact rational signed inverse has entries -1/20 despite positive Fourier ratios; reproduced. The archived wrapped-Gaussian residue inequalities force t2>=7.11e-5 while t2<2e-7, so fixed narrow exact deconvolution fails. Current statement supplies a positive D_B law, sufficient PSD/smoothing hypotheses and an approximation loss; it does not assert arbitrary exact wrapped deconvolution; PASS. |",
+            "| R13; C03-HC4 Renyi orientation | Positive-event change of measure does not preserve a signed difference. Current proof uses a single absolute acceptance gap with no Renyi transfer; PASS by explicit nonuse. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "CHECKED_CURRENT_EX_V2",
+        "scope_reason": "Exact signed inverse with negative entries-1/20 is reproduced. The wrapped narrow deconvolution failure remains excluded: EX defines a positive joint D_B under strict PSD and pays smoothing loss, not arbitrary exact deconvolution.",
+        "new_evidence": [
+          "experiments/historical-rerun/exact-search-v1.json",
+          "imports/regressions/01-hand-controls.md",
+          "coordinator/expansion-proof-v2.md"
+        ],
+        "source_parameter_review": {
+          "status": "MATH_REVIEW_REQUIRED",
+          "scope_reason": "EX explicitly guards Delta<1, retains the full rectangular complement and its normalization, and distinguishes exponent matrix from covariance. These obligations are not accepted by this scoped review; they remain for the independent mathematical review. No old global proof certificate is inherited.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8",
+        "proof_section_references": [
+          {
+            "file": "coordinator/expansion-proof-v2.md",
+            "section": 7
+          }
+        ]
+      },
+      "entry_sha256": "ac9c43d03af1dd4411b378b6610f9d27a1f8d944f860c7d0d4e613b38a4ccd8a"
+    },
+    {
+      "id": "C03-HC5",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "CHECKED",
+      "reason": "Noise comparison is uniform conditional on X,R and the shared secret remains independent.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/22",
+      "exact_registry_entry": {
+        "id": "C03-HC5",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "C03-HC5",
+          "historical_entry": {
+            "id": "C03-HC5",
+            "evidence": "imports/regressions/01-hand-controls.md",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "intake_disposition": "IMPORTED complete exact hand control; applicable scope retained",
+            "current_handling": "Joint error leakage remains a counterexample to Gaussian-marginal and pairwise-law arguments.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| R03, R04, R05; C03-HC5; PAIRWISE-SE-F3; SE-CORRELATION-F3 | Exact shared-G/common-K F3 TV=2/3; all pair marginals of F,S,E are product but full TV=2/3; correlated-secret target TV=2/9. For the Gaussian sign control, odd q makes nonzero r and -r distinct, giving guessing 1-W(0)/2 with the sign tape and 1/2 without it. Current target and noise comparison specify the full product law; PASS. |",
+            "| R15; C03-HC5 common K; C03-HC7 separate Y | Common K gives three diagonal points instead of nine independent points in F3, TV 2/3. Current source genuinely supplies the two multipliers; correlated completion handles the shared G only inside the proof. It does not convert common K to independent ideal points, expand a source, or reveal several separately noised Y values; PASS. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "CHECKED_CURRENT_EX_V2",
+        "scope_reason": "Full target independence and full retained-seed law are explicit. Exact F3 controls retain joint TV2/3 despite pairwise independence and target gap2/9 under correlated S,E. Gaussian sign control still leaks with its sign tape; no marginal-only Gaussian inference is used.",
+        "new_evidence": [
+          "coordinator/expansion-proof-v2.md",
+          "experiments/historical-rerun/exact-search-v1.json",
+          "imports/regressions/01-hand-controls.md"
+        ],
+        "source_parameter_review": {
+          "status": "SCOPED_PASS",
+          "scope_reason": "EX-v2 explicitly retains zero ideal coordinates, the exact conditional source law and full target product law, and actual expansion dependence. No active-unit conditioning or marginal-to-joint inference is imported. The full regularity inequality itself remains a mathematical-review gate.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8",
+        "proof_section_references": [
+          {
+            "file": "coordinator/expansion-proof-v2.md",
+            "section": 1
+          }
+        ]
+      },
+      "entry_sha256": "dc8961322d96d111a7d9c8736b119607ac26baea8019497a934e6d6a1e9761ca"
+    },
+    {
+      "id": "C03-HC6",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "CHECKED_CP1",
+      "reason": "Failure and approximation losses are summed after conditional comparisons; no unproved success/bad-event independence.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/23",
+      "exact_registry_entry": {
+        "id": "C03-HC6",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "C03-HC6",
+          "historical_entry": {
+            "id": "C03-HC6",
+            "evidence": "imports/regressions/01-hand-controls.md",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "intake_disposition": "IMPORTED complete exact hand control; applicable scope retained",
+            "current_handling": "Common-K dependence and success/bad-noise correlation retained; no unsupported event independence.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| R11; C03-HC6 success/bad-error correlation | The two-atom model success=bad-error makes multiplication by good-error probability false. Current proof pays a union/TV subtraction once. The half-zero/half-identity model remains a rejection of sometimes-lossy-to-negligible-average reasoning; current source loss bounds average guessing directly; PASS. |",
+            "| R18/CP-1; C03-HC6 | Independently recomputed normalizer 10/11, posterior A_b=21/2000,C_b=1/20,D=879/1000; incidences 1/10,121/2000,21/2000. Selected event 21/2000>1/100, later 21/221<1/10. Support restriction and renormalization, including latent cached information, invalidate the old product. Current fixed-coordinate products have full unconditioned product laws and no adaptive filtration/cache branch; PASS. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "CHECKED_CURRENT_EX_V2",
+        "scope_reason": "Bad-mask success can equal one; its probability is added once. The information bound is pointwise for every good latent state, not merely sometimes-lossy. CP1 separately reproduced.",
+        "new_evidence": [
+          "coordinator/expansion-proof-v2.md",
+          "experiments/historical-rerun/exact-search-v1.json"
+        ],
+        "source_parameter_review": {
+          "status": "SCOPED_PASS",
+          "scope_reason": "The bad-mask branch is additive. Products condition on the original seed or all nonpivot coordinates before observations, with independent remaining coordinates. No selected-stage product or prior ratio law after observing outputs is invoked. CP-1 joint probability 21/2000 remains larger than 1/100.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8",
+        "proof_section_references": [
+          {
+            "file": "coordinator/expansion-proof-v2.md",
+            "section": 6
+          }
+        ]
+      },
+      "entry_sha256": "d07a0e126f46b1e7645a2fc65440e7dbd232e29290099bebe4045b55b40f6631"
+    },
+    {
+      "id": "C03-HC7",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "NONUSE",
+      "reason": "No repeated S+G disclosure or uncharged changing auxiliary Gaussian scale.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/24",
+      "exact_registry_entry": {
+        "id": "C03-HC7",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "C03-HC7",
+          "historical_entry": {
+            "id": "C03-HC7",
+            "evidence": "imports/regressions/01-hand-controls.md",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "intake_disposition": "IMPORTED complete exact hand control; applicable scope retained",
+            "current_handling": "Separate-Y A1/A2 scales remain distinct; multiple-sample development deferred.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| R15; C03-HC5 common K; C03-HC7 separate Y | Common K gives three diagonal points instead of nine independent points in F3, TV 2/3. Current source genuinely supplies the two multipliers; correlated completion handles the shared G only inside the proof. It does not convert common K to independent ideal points, expand a source, or reveal several separately noised Y values; PASS. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "CHECKED_CURRENT_EX_V2",
+        "scope_reason": "One shared auxiliary G and one Y=S+G serve all m rows. No separate independent noisy secret views are revealed, and quotient cardinality is charged once.",
+        "new_evidence": [
+          "coordinator/expansion-proof-v2.md",
+          "criticism/RF1/rectangular-output.txt"
+        ],
+        "source_parameter_review": {
+          "status": "SCOPED_PASS",
+          "scope_reason": "The test checks actual sampled S; the common-ideal construction uses one shared Y and one q^d cardinality charge, not independent auxiliary views for every sample.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8",
+        "proof_section_references": [
+          {
+            "file": "coordinator/expansion-proof-v2.md",
+            "section": 7
+          }
+        ]
+      },
+      "entry_sha256": "d237bade8d84a87056bfe92729270af6c73b3401ab568ed6cc76ac43fbcfe306"
+    },
+    {
+      "id": "C02-LATENT-PUBLIC",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "CHECKED",
+      "reason": "The canonical hint depends only on final A,W; original R,X and transported witness are discarded before extraction is invoked.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/25",
+      "exact_registry_entry": {
+        "id": "C02-LATENT-PUBLIC",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "C02-LATENT-PUBLIC",
+          "historical_entry": {
+            "id": "C02-LATENT-PUBLIC",
+            "scope": "F5 latent/public mismatch",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "intake_disposition": "IMPORTED with full source reports",
+            "current_handling": "Exact F5 latent TV1/2 with publicTV0 reproduced; public lower bounds use explicit tests.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| R08; C02-LATENT-PUBLIC; PUBLIC-ENCODED-F | F5 control independently gives latent TV=1/2 and public TV=0. Reverse projection lower bounds remain rejected. Current latent reveal is solely a guessing upper bound; whether public projection can preserve encoded F is irrelevant to that direction; PASS. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "CHECKED_CURRENT_EX_V2",
+        "scope_reason": "Exact latent TV1/2 versus public TV0 remains a counterexample to reverse projection. EX reveals more only to upper-bound guessing; no efficient public decoder or reverse TV lower bound is inferred.",
+        "new_evidence": [
+          "experiments/historical-rerun/exact-search-v1.json",
+          "coordinator/expansion-proof-v2.md"
+        ],
+        "source_parameter_review": {
+          "status": "SCOPED_PASS",
+          "scope_reason": "The latent reveal bounds guessing from above and does not manufacture a public distinguisher. Full-law noise comparison integrates H out before the independent endpoint. No inverse projection or efficient decoder follows from latent knowledge.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8",
+        "proof_section_references": [
+          {
+            "file": "coordinator/expansion-proof-v2.md",
+            "section": 7
+          }
+        ]
+      },
+      "entry_sha256": "36ca83e669acbb6758555a9b7554c53907b144c408652351be6c456bad700c6f"
+    },
+    {
+      "id": "C02-CHAR",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "CHECKED",
+      "reason": "CRT extraction sums every nonempty support and all its characters; a single-character estimate is insufficient.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/26",
+      "exact_registry_entry": {
+        "id": "C02-CHAR",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "C02-CHAR",
+          "historical_entry": {
+            "id": "C02-CHAR",
+            "scope": "statistically sparse support despite negligible fixed-character bias",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "intake_disposition": "IMPORTED with full source reports",
+            "current_handling": "Negligible character bias does not establish pseudorandomness or large support; no such inference.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| R16; R17; C02-CHAR | Statistical source pseudorandomness, posterior transport, tower packing, independent-matrix moments, symmetry-orbit hardness, QCSD masking and fixed-character-to-pseudorandomness arguments are absent. Base_2 indistinguishability is computational and expressly assumed. No verdict about those retired methods is reused. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "CHECKED_CURRENT_EX_V2",
+        "scope_reason": "Negligible fixed-character bias does not prove statistical closeness. EX sums every nonzero character square and bounds expected full chi-square before deriving retained-seed TV.",
+        "new_evidence": [
+          "coordinator/expansion-proof-v2.md",
+          "experiments/expansion_controls_v1.stdout.json"
+        ],
+        "source_parameter_review": {
+          "status": "RETAINED_NOT_USED",
+          "scope_reason": "No structured-support sampler, entropy-only extractor, field-rank-to-Boolean-fiber argument, residual verification, signed Renyi transfer, statistical-source-uniformity claim, moment analogy, subgroup coverage guarantee, or optimized attack-constant improvement is used. Historical counterexamples remain valid in their stated scopes.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8",
+        "proof_section_references": [
+          {
+            "file": "coordinator/expansion-proof-v2.md",
+            "section": 5
+          }
+        ]
+      },
+      "entry_sha256": "6fda1c54f62e72e8495f088969709410da15e1c108d2bf0e74b5c0fdfc37db04"
+    },
+    {
+      "id": "C01-ATT",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "SCOPE_LIMIT",
+      "reason": "No failed-attack security inference; only the exact auxiliary reduction is reviewed.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/27",
+      "exact_registry_entry": {
+        "id": "C01-ATT",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "C01-ATT",
+          "historical_entry": {
+            "id": "C01-ATT",
+            "scope": "n=2 q=17 strict dual rounding and n=8 orbit/root controls",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "intake_disposition": "IMPORTED with full source reports",
+            "current_handling": "Deterministic exact-SVP solver, strict dual rounding and public-root inputs retained; structural final review pending.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| R01; R09; R10; C01-ATT | Binomial-support decoders, strict norm/injection thresholds, Lucas occupancy, and residual boxes filling all centered residues remain valid warnings for their old claims. No structured-support pseudorandomness, strict norm uniqueness, full quotient occupancy or residual-box distinguisher is asserted here. Inapplicable to the proof, retained as source-premise limitations. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "CHECKED_CURRENT_EX_V2",
+        "scope_reason": "Preserve reviewed exact-version ATT: strict q^(1-d/r)>2n ell², public roots or polynomial enumeration, optimized r nextpower2>=2d, exp(O(d)) cost. d=1 and O(logn) insecure; selected d/logn tends infinity but no hardness proof follows.",
+        "new_evidence": [
+          "workers/B/att-reconstruction.md",
+          "criticism/RS1/report-v1.md"
+        ],
+        "source_parameter_review": {
+          "status": "SCOPED_PASS_WITH_QUALIFICATION",
+          "scope_reason": "The q128 old-support substitution remains rejected. EX ties d to K and uses distinct upper/lower prime bounds. Source hardness is still an assumption; small d is attacked. ATT strict inequality, root input, and exp(O(d)) scope are retained. See report-v1 sections4 and6.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8"
+      },
+      "entry_sha256": "be68486cea47059c6a6756efe119f56e9c5bc54be13f5f4baefee1c4abe219c9"
+    },
+    {
+      "id": "CP-1",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "CHECKED_CP1",
+      "reason": "Source S/errors are independent of A and local coins at input; transformed errors are compared jointly conditional on all construction state. No binary guessing premise is imported.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/28",
+      "exact_registry_entry": {
+        "id": "CP-1",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "CP-1",
+          "historical_entry": {
+            "id": "CP-1",
+            "scope": "cached-prefix .0105>.01",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "intake_disposition": "IMPORTED with full source reports",
+            "current_handling": "Cached-prefix posterior and21/2000 selected event reproduced exactly; shortcut remains rejected.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| R18/CP-1; C03-HC6 | Independently recomputed normalizer 10/11, posterior A_b=21/2000,C_b=1/20,D=879/1000; incidences 1/10,121/2000,21/2000. Selected event 21/2000>1/100, later 21/221<1/10. Support restriction and renormalization, including latent cached information, invalidate the old product. Current fixed-coordinate products have full unconditioned product laws and no adaptive filtration/cache branch; PASS. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "CHECKED_CURRENT_EX_V2",
+        "scope_reason": "Fresh exact reproduction: normalizer10/11; posterior A_b21/2000,C_b1/20,D879/1000; selected21/2000>1/100; later21/221<1/10. Support restriction and normalization invalidate the old product. EX products are under original independent seeds, or pointwise after fixing nonpivot coordinates, or conditional on the original seed before output; no selected adaptive branch or latent cache test.",
+        "new_evidence": [
+          "experiments/historical-rerun/exact-search-v1.json",
+          "experiments/expansion_controls_v1.stdout.json",
+          "coordinator/expansion-proof-v2.md"
+        ],
+        "source_parameter_review": {
+          "status": "SCOPED_PASS",
+          "scope_reason": "The bad-mask branch is additive. Products condition on the original seed or all nonpivot coordinates before observations, with independent remaining coordinates. No selected-stage product or prior ratio law after observing outputs is invoked. CP-1 joint probability 21/2000 remains larger than 1/100.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8",
+        "proof_section_references": [
+          {
+            "file": "coordinator/expansion-proof-v2.md",
+            "section": 3
+          }
+        ]
+      },
+      "entry_sha256": "70aabb127880c46f0951867d0e78047c6e0d05ea42da2b4c15f9fd69d6190c73"
+    },
+    {
+      "id": "NC1-v1",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "CHECKED",
+      "reason": "Continuous discretization and lattice convolution retain their actual normalizer expectations.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/29",
+      "exact_registry_entry": {
+        "id": "NC1-v1",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "NC1-v1",
+          "historical_entry": {
+            "id": "NC1-v1",
+            "scope": "negative denominator counterexample",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "intake_disposition": "IMPORTED with full source reports",
+            "current_handling": "Old negative denominator remains rejected; guarded v2 used.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| NC1-v1; C03-HC1 | M=0,tau=1/3,sigma=1 has true TV=0 but delta>82/63>1, so the old ratio is negative. REJECT old guardless formula; current piecewise bound returns one; PASS. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "CHECKED_CURRENT_EX_V2",
+        "scope_reason": "The old delta/(1-delta) can be negative when delta>1; exact lower bound82/63 reproduced. EX expressly uses eta=1 when Delta>=1.",
+        "new_evidence": [
+          "experiments/historical-rerun/exact-search-v1.json",
+          "coordinator/expansion-proof-v2.md"
+        ],
+        "source_parameter_review": {
+          "status": "MATH_REVIEW_REQUIRED",
+          "scope_reason": "EX explicitly guards Delta<1, retains the full rectangular complement and its normalization, and distinguishes exponent matrix from covariance. These obligations are not accepted by this scoped review; they remain for the independent mathematical review. No old global proof certificate is inherited.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8",
+        "proof_section_references": [
+          {
+            "file": "coordinator/expansion-proof-v2.md",
+            "section": 7
+          }
+        ]
+      },
+      "entry_sha256": "26510f8d4ae053faaac185b8d83a0c56c678ced3bf3d9755d122368b910a6f58"
+    },
+    {
+      "id": "S0-dependency",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "SCOPE_LIMIT",
+      "reason": "Standard input is matched to LPR2.22/2.23 with explicit samples/errors; binary and low-index family edges remain separate and OPEN.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/30",
+      "exact_registry_entry": {
+        "id": "S0-dependency",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "S0-dependency",
+          "historical_entry": {
+            "id": "S0-dependency",
+            "scope": "AN v2 is mandatory for instantiated negligible-loss conclusion",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "intake_disposition": "IMPORTED with full source reports",
+            "current_handling": "S0 retains AN v2; no global analytic/import certification.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| S0-dependency | No historical AN/NC1 acceptance is inherited. A1-FINITE depends on the newly checked witness, bit and rectangular lemmas; A1-PARAM additionally depends on the fresh prime check; PASS for this explicit graph. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "CHECKED_CURRENT_EX_V2",
+        "scope_reason": "No general AN or old completion acceptance inherited: current graph explicitly includes algebra, regularity, masks, full completion, guessing, prime, parameters and bounded implementation. External Base2 premise is separate and unproved.",
+        "new_evidence": [
+          "claims.json"
+        ],
+        "source_parameter_review": {
+          "status": "MATH_REVIEW_REQUIRED",
+          "scope_reason": "EX explicitly guards Delta<1, retains the full rectangular complement and its normalization, and distinguishes exponent matrix from covariance. These obligations are not accepted by this scoped review; they remain for the independent mathematical review. No old global proof certificate is inherited.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8"
+      },
+      "entry_sha256": "885917fd33a8907ab5c066c207cdc5178406bf67f6c93a50697442076e2eea39"
+    },
+    {
+      "id": "PUBLIC-ENCODED-F",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "CHECKED",
+      "reason": "Entire W and canonical T are retained in the output comparison; no reverse projection-TV argument.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/31",
+      "exact_registry_entry": {
+        "id": "PUBLIC-ENCODED-F",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "PUBLIC-ENCODED-F",
+          "historical_entry": {
+            "id": "PUBLIC-ENCODED-F",
+            "scope": "Projection preserves latent TV when F is explicitly encoded in A; does not supply efficient A2 decoding",
+            "evidence": "experiments/coordinator_controls_v1.json",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "intake_disposition": "Exact toy check passed; complements C02 latent projection erasure",
+            "current_handling": "Exact toy shows projection can preserve information if F encoded; no efficient A2 decoder inferred.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| R08; C02-LATENT-PUBLIC; PUBLIC-ENCODED-F | F5 control independently gives latent TV=1/2 and public TV=0. Reverse projection lower bounds remain rejected. Current latent reveal is solely a guessing upper bound; whether public projection can preserve encoded F is irrelevant to that direction; PASS. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "CHECKED_CURRENT_EX_V2",
+        "scope_reason": "Exact latent TV1/2 versus public TV0 remains a counterexample to reverse projection. EX reveals more only to upper-bound guessing; no efficient public decoder or reverse TV lower bound is inferred.",
+        "new_evidence": [
+          "experiments/historical-rerun/exact-search-v1.json",
+          "coordinator/expansion-proof-v2.md"
+        ],
+        "source_parameter_review": {
+          "status": "SCOPED_PASS",
+          "scope_reason": "The latent reveal bounds guessing from above and does not manufacture a public distinguisher. Full-law noise comparison integrates H out before the independent endpoint. No inverse projection or efficient decoder follows from latent knowledge.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8",
+        "proof_section_references": [
+          {
+            "file": "coordinator/expansion-proof-v2.md",
+            "section": 7
+          }
+        ]
+      },
+      "entry_sha256": "5fed2a8b201dfb97740897a481e6cb976a05929ba7cbe5328c080f5ab9d10162"
+    },
+    {
+      "id": "W2-SUBGROUP-BOUNDARY",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "CHECKED",
+      "reason": "Rootwise rank is required at every root for standard simulation; no subgroup-coverage assumption.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/32",
+      "exact_registry_entry": {
+        "id": "W2-SUBGROUP-BOUNDARY",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "W2-SUBGROUP-BOUNDARY",
+          "historical_entry": {
+            "id": "W2-SUBGROUP-BOUNDARY",
+            "exact_model": "n=8,d=2, all subgroup partitions with index<=2; coverage is 1",
+            "evidence": "workstreams/W2/data/subgroup_controls.json",
+            "expected_outcome": "Reject a finite all-subgroup negligible-coverage claim without asymptotic hypotheses rmax=o(d), d>>log^2 n",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "intake_disposition": "New worker exact evidence integrated; proof check pending",
+            "current_handling": "Finite full-coverage n8,d2 control independently confirmed; asymptotic method gate essential.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| W2-SUBGROUP-BOUNDARY; W2-CONSTANT-COMPARISON | No all-subgroup coverage bound or comparative attack-runtime improvement appears in the frozen theorem. Their n=8,d=2 coverage-one boundary and optimized-constant qualification are inapplicable to this proof, retained for source-security work. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "RETAINED_NOT_USED",
+        "scope_reason": "EX makes no all-subgroup coverage claim or attack-runtime improvement. Historical n8,d2 coverage-one boundary and optimized-constant qualification remain live for B, whose new theorem is unaccepted.",
+        "new_evidence": [
+          "workers/B/att-reconstruction.md",
+          "workers/B/final.md"
+        ],
+        "source_parameter_review": {
+          "status": "RETAINED_NOT_USED",
+          "scope_reason": "No structured-support sampler, entropy-only extractor, field-rank-to-Boolean-fiber argument, residual verification, signed Renyi transfer, statistical-source-uniformity claim, moment analogy, subgroup coverage guarantee, or optimized attack-constant improvement is used. Historical counterexamples remain valid in their stated scopes.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8"
+      },
+      "entry_sha256": "bc6c3c9332699f2d701121d2ba780005f0c23e4f14053286126c836680c57a8c"
+    },
+    {
+      "id": "UNIFORM-APPROX-COLLAPSE",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "CHECKED",
+      "reason": "Response comparator is exactly uniform conditional on actual keys, but full canonical-key comparator has its explicit statistical error budget.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/33",
+      "exact_registry_entry": {
+        "id": "UNIFORM-APPROX-COLLAPSE",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "UNIFORM-APPROX-COLLAPSE",
+          "historical_entry": {
+            "id": "UNIFORM-APPROX-COLLAPSE",
+            "scope": "A map collapsing an exponentially sparse planted support can preserve uniform input approximately while reducing planted entropy",
+            "evidence": "inputs/frozen/W1-draft-v1-note.md",
+            "expected_outcome": "Reject extension of exact-uniform-preserving entropy no-go to mere negligible-TV comparator preservation",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "intake_disposition": "Exact author control received; fresh review pending",
+            "current_handling": "Fresh N01 review confirms failure of entropy-no-go extension to approximate uniform preservation.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| UNIFORM-APPROX-COLLAPSE | No exact-uniform entropy no-go is extended to approximate preservation. The source-test uniform endpoint is exactly the target by its explicit sampler. Inapplicable to the present argument. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "CHECKED_CURRENT_EX_V2",
+        "scope_reason": "No exact-uniform-preserving entropy no-go is extended to approximate uniformity. EX intentionally pays full-law delta_exp; initial A entropy claim is not a dependency.",
+        "new_evidence": [
+          "coordinator/expansion-proof-v2.md",
+          "workers/A/entropy-budget-theorem-only-v1.md"
+        ],
+        "source_parameter_review": {
+          "status": "SCOPED_PASS",
+          "scope_reason": "EX uses approximate full-joint comparator preservation and explicitly pays delta_exp. It does not extend an exact-uniform-preserving entropy obstruction to this case. Initial A author claims are separate and are not dependencies.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8",
+        "proof_section_references": [
+          {
+            "file": "coordinator/expansion-proof-v2.md",
+            "section": 5
+          }
+        ]
+      },
+      "entry_sha256": "5c0df8d2fbad95af0c8ed1ae5e5c7d538932bfac0b7a1bdde76edf751352c1c4"
+    },
+    {
+      "id": "SE-CORRELATION-F3",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "NONUSE",
+      "reason": "No secret-error switching or normal form; source secret law is preserved.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/34",
+      "exact_registry_entry": {
+        "id": "SE-CORRELATION-F3",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "SE-CORRELATION-F3",
+          "historical_entry": {
+            "id": "SE-CORRELATION-F3",
+            "exact_model": "R=F3,J=0,I=R,U=1,F uniformR,V uniformR,S uniformR,E=-S,G uniformR,H uniformR; other listed variables independent; eta_N=eta_X=eta_iso=0.",
+            "expected_outcome": "Reject literal general bridge if joint S/E independence is omitted: source uniform, target (a,(a-1)S) has TV 2/9 from uniform.",
+            "evidence": "criticism/B01/partial.md",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "intake_disposition": "New blind counterexample integrated before repair",
+            "current_handling": "Literal B01 A1/A2 REJECTED with exact target advantage2/9; separate full-law repair freshly rechecked.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| R03, R04, R05; C03-HC5; PAIRWISE-SE-F3; SE-CORRELATION-F3 | Exact shared-G/common-K F3 TV=2/3; all pair marginals of F,S,E are product but full TV=2/3; correlated-secret target TV=2/9. For the Gaussian sign control, odd q makes nonzero r and -r distinct, giving guessing 1-W(0)/2 with the sign tape and 1/2 without it. Current target and noise comparison specify the full product law; PASS. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "CHECKED_CURRENT_EX_V2",
+        "scope_reason": "Full target independence and full retained-seed law are explicit. Exact F3 controls retain joint TV2/3 despite pairwise independence and target gap2/9 under correlated S,E. Gaussian sign control still leaks with its sign tape; no marginal-only Gaussian inference is used.",
+        "new_evidence": [
+          "coordinator/expansion-proof-v2.md",
+          "experiments/historical-rerun/exact-search-v1.json",
+          "imports/regressions/01-hand-controls.md"
+        ],
+        "source_parameter_review": {
+          "status": "SCOPED_PASS",
+          "scope_reason": "EX-v2 explicitly retains zero ideal coordinates, the exact conditional source law and full target product law, and actual expansion dependence. No active-unit conditioning or marginal-to-joint inference is imported. The full regularity inequality itself remains a mathematical-review gate.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8",
+        "proof_section_references": [
+          {
+            "file": "coordinator/expansion-proof-v2.md",
+            "section": 1
+          }
+        ]
+      },
+      "entry_sha256": "56ca0abfc1839da5af53f9aa9566b326d289c765d503209dbf5ad32ab9a9a548"
+    },
+    {
+      "id": "W2-CONSTANT-COMPARISON",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "NONUSE",
+      "reason": "No optimized attack-constant improvement.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/35",
+      "exact_registry_entry": {
+        "id": "W2-CONSTANT-COMPARISON",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "W2-CONSTANT-COMPARISON",
+          "historical_entry": {
+            "id": "W2-CONSTANT-COMPARISON",
+            "exact_model": "At c=1, original deterministic strict gate follows for r>=a d with any fixed a>2 eventually. The archived C0=8 is sufficient, not optimal.",
+            "expected_outcome": "Do not claim a runtime improvement over optimized deterministic ATT solely from random example a=3; retain hidden-constant and exp(O(d)) scope.",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "intake_disposition": "Coordinator review observation, to be checked by W2 nonauthor referee",
+            "current_handling": "N03 confirms a3 compares with archivedC0=8, not optimized deterministic a>2 atc1; final wording qualified.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| W2-SUBGROUP-BOUNDARY; W2-CONSTANT-COMPARISON | No all-subgroup coverage bound or comparative attack-runtime improvement appears in the frozen theorem. Their n=8,d=2 coverage-one boundary and optimized-constant qualification are inapplicable to this proof, retained for source-security work. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "RETAINED_NOT_USED",
+        "scope_reason": "EX makes no all-subgroup coverage claim or attack-runtime improvement. Historical n8,d2 coverage-one boundary and optimized-constant qualification remain live for B, whose new theorem is unaccepted.",
+        "new_evidence": [
+          "workers/B/att-reconstruction.md",
+          "workers/B/final.md"
+        ],
+        "source_parameter_review": {
+          "status": "RETAINED_NOT_USED",
+          "scope_reason": "No structured-support sampler, entropy-only extractor, field-rank-to-Boolean-fiber argument, residual verification, signed Renyi transfer, statistical-source-uniformity claim, moment analogy, subgroup coverage guarantee, or optimized attack-constant improvement is used. Historical counterexamples remain valid in their stated scopes.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8"
+      },
+      "entry_sha256": "8761183163836fdd5f16d2c545dfd1f4a7d95eef22577f6297e9e02524d7b362"
+    },
+    {
+      "id": "N02-DUAL-NUMBER",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "CHECKED",
+      "reason": "Dual response multiplication by n gives coefficient width sqrt(n) times the original canonical width; degree/modulus remain unchanged.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/36",
+      "exact_registry_entry": {
+        "id": "N02-DUAL-NUMBER",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "N02-DUAL-NUMBER",
+          "historical_entry": {
+            "id": "N02-DUAL-NUMBER",
+            "exact_model": "R=F2[t]/(t^2), J uniform {0,(t)}, U,V uniform Ann(J), F=H=E=0, S,G uniformR independently; full product law.",
+            "expected_outcome": "Public endpoint TV equals eta_iso=9/32; nonzero nonunit t induces a quotient isomorphism when J=(t).",
+            "evidence": "criticism/N02/hand-controls.md",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "intake_disposition": "Fresh nonauthor hand control; final report pending",
+            "current_handling": "Fresh exact-proof recheck positive control TV=eta_iso9/32 covers hidden quotient variation, zero U and nonunit quotient isomorphism.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| R14; N02-DUAL-NUMBER | Zero ideal multipliers included throughout; new primitive enumeration reproduces TV 9/32, and planted guessing 17/32 respects the cardinality bound. No active-unit conditioning, rank defect or eta_iso is invoked; PASS. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "CHECKED_CURRENT_EX_V2",
+        "scope_reason": "Zero ideal coordinates and zero seeds are retained. Rank strata are counted exactly, with no active-unit conditioning. Fresh dual-number control reproduces9/32 endpoint TV and17/32 planted guessing.",
+        "new_evidence": [
+          "experiments/historical-rerun/interface-controls-v1.json",
+          "experiments/expansion_controls_v1.stdout.json"
+        ],
+        "source_parameter_review": {
+          "status": "SCOPED_PASS",
+          "scope_reason": "EX-v2 explicitly retains zero ideal coordinates, the exact conditional source law and full target product law, and actual expansion dependence. No active-unit conditioning or marginal-to-joint inference is imported. The full regularity inequality itself remains a mathematical-review gate.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8"
+      },
+      "entry_sha256": "3109cf84be97eda16b5d970f9aaa991fce40716fb1ae72dbe294dbb03b5184a0"
+    },
+    {
+      "id": "PAIRWISE-SE-F3",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "CHECKED",
+      "reason": "Secret/error independence is full joint input independence, not pairwise-only independence.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/37",
+      "exact_registry_entry": {
+        "id": "PAIRWISE-SE-F3",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "PAIRWISE-SE-F3",
+          "historical_entry": {
+            "id": "PAIRWISE-SE-F3",
+            "exact_model": "F,S independent uniformF3, E=-F-S; all pairwise marginals independent but joint product law fails.",
+            "expected_outcome": "Reject a repair asserting only pairwise independence; full product-kernel premise is required.",
+            "evidence": "criticism/N02/hand-controls.md",
+            "disposition": "RETAINED_AND_RECONCILED within stated claim scopes; no global proof certificate",
+            "intake_disposition": "New targeted counterexample preserved",
+            "current_handling": "New F3 full-triple dependence control refutes a pairwise-only repair; actual complete product law excludes it.",
+            "review_evidence": [
+              "criticism/N01/review-v1.md §8",
+              "criticism/N02/review-v1.md final table",
+              "reconciliation.md"
+            ]
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| R03, R04, R05; C03-HC5; PAIRWISE-SE-F3; SE-CORRELATION-F3 | Exact shared-G/common-K F3 TV=2/3; all pair marginals of F,S,E are product but full TV=2/3; correlated-secret target TV=2/9. For the Gaussian sign control, odd q makes nonzero r and -r distinct, giving guessing 1-W(0)/2 with the sign tape and 1/2 without it. Current target and noise comparison specify the full product law; PASS. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "CHECKED_CURRENT_EX_V2",
+        "scope_reason": "Full target independence and full retained-seed law are explicit. Exact F3 controls retain joint TV2/3 despite pairwise independence and target gap2/9 under correlated S,E. Gaussian sign control still leaks with its sign tape; no marginal-only Gaussian inference is used.",
+        "new_evidence": [
+          "coordinator/expansion-proof-v2.md",
+          "experiments/historical-rerun/exact-search-v1.json",
+          "imports/regressions/01-hand-controls.md"
+        ],
+        "source_parameter_review": {
+          "status": "SCOPED_PASS",
+          "scope_reason": "EX-v2 explicitly retains zero ideal coordinates, the exact conditional source law and full target product law, and actual expansion dependence. No active-unit conditioning or marginal-to-joint inference is imported. The full regularity inequality itself remains a mathematical-review gate.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8",
+        "proof_section_references": [
+          {
+            "file": "coordinator/expansion-proof-v2.md",
+            "section": 1
+          }
+        ]
+      },
+      "entry_sha256": "d4d5396edc36f2fdb06e5c8481d91c79391d774bcfed3908177dc5993b4137f0"
+    },
+    {
+      "id": "N03-PV-CONDITIONING",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "CHECKED",
+      "reason": "Full-R rank conditioning is removed with rho; no active ideal or postselected-key advantage transfer.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/38",
+      "exact_registry_entry": {
+        "id": "N03-PV-CONDITIONING",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "N03-PV-CONDITIONING",
+          "historical_entry": {
+            "id": "N03-PV-CONDITIONING",
+            "exact_model": "n2,q17,d1 with specified nonuniform finite F prior; active Rec success3/4, raw-fill13/17 >=(16/17)*(3/4)=12/17. Separate Bernoulli3/4 vs1/4 mixture erases active signed gap.",
+            "evidence": "criticism/N03/controls-v1.json",
+            "disposition": "RECONCILED: positive-event search transfer valid, decision transfer shortcut rejected."
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| N03-PV-CONDITIONING; N03-SCAL-POSTERIOR | No active-PV search transfer or prior law of ratios after conditioning on public data is used. The current only selected event is the mask box, whose conditional law is written explicitly. Their decision-cancellation and fixed-ratio posterior controls are inapplicable to the new chain. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "RETAINED_NOT_USED",
+        "scope_reason": "No prior law of active ratios after seeing public outputs. Good depends only on source/expansion latents, and all uniform-seed Fourier averages precede observation. No signed gap or active-PV conditioning transfer.",
+        "new_evidence": [
+          "coordinator/expansion-proof-v2.md"
+        ],
+        "source_parameter_review": {
+          "status": "SCOPED_PASS",
+          "scope_reason": "The bad-mask branch is additive. Products condition on the original seed or all nonpivot coordinates before observations, with independent remaining coordinates. No selected-stage product or prior ratio law after observing outputs is invoked. CP-1 joint probability 21/2000 remains larger than 1/100.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8",
+        "proof_section_references": [
+          {
+            "file": "coordinator/expansion-proof-v2.md",
+            "section": 3
+          },
+          {
+            "file": "coordinator/expansion-proof-v2.md",
+            "section": 6
+          }
+        ]
+      },
+      "entry_sha256": "b07a671e19da1020bc34bbf7b90d966a2aa7f7a4b24f753c86817dc95bbb8077"
+    },
+    {
+      "id": "N03-SCAL-POSTERIOR",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "CHECKED",
+      "reason": "R1 is reconstructed from its actual conditional posterior; Gaussian factors are divided by actual normalizers.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/39",
+      "exact_registry_entry": {
+        "id": "N03-SCAL-POSTERIOR",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "N03-SCAL-POSTERIOR",
+          "historical_entry": {
+            "id": "N03-SCAL-POSTERIOR",
+            "exact_model": "q3,d2,U=(1,1),F=H=0; prior V/U iid uniform, conditioning on publicC=(0,0) fixes ratios=(0,0).",
+            "evidence": "criticism/N03/review-v1.md §5",
+            "disposition": "RECONCILED: conditional ratio law uses retainedT,U,F,H before V/publicC; maximum-and-union bound handles adaptive choice."
+          },
+          "current_evidence": "criticism/RF1/report-v1.md section8",
+          "current_application_rows": [
+            "| N03-PV-CONDITIONING; N03-SCAL-POSTERIOR | No active-PV search transfer or prior law of ratios after conditioning on public data is used. The current only selected event is the mask box, whose conditional law is written explicitly. Their decision-cancellation and fixed-ratio posterior controls are inapplicable to the new chain. |"
+          ],
+          "status": "RECONCILED_APPLICABILITY"
+        },
+        "current_status": "RETAINED_NOT_USED",
+        "scope_reason": "No prior law of active ratios after seeing public outputs. Good depends only on source/expansion latents, and all uniform-seed Fourier averages precede observation. No signed gap or active-PV conditioning transfer.",
+        "new_evidence": [
+          "coordinator/expansion-proof-v2.md"
+        ],
+        "source_parameter_review": {
+          "status": "SCOPED_PASS",
+          "scope_reason": "The bad-mask branch is additive. Products condition on the original seed or all nonpivot coordinates before observations, with independent remaining coordinates. No selected-stage product or prior ratio law after observing outputs is invoked. CP-1 joint probability 21/2000 remains larger than 1/100.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8",
+        "proof_section_references": [
+          {
+            "file": "coordinator/expansion-proof-v2.md",
+            "section": 3
+          },
+          {
+            "file": "coordinator/expansion-proof-v2.md",
+            "section": 6
+          }
+        ]
+      },
+      "entry_sha256": "8c31d1acc698679e9682ef0f873be0deeb44757f05c7ee8399a6bfff074b36f8"
+    },
+    {
+      "id": "RECT-ALG-1",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "CHECKED",
+      "reason": "Rectangular full-row fiber dimensions and stacked gadget identity checked; individual-block ranks cannot replace full rank.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/40",
+      "exact_registry_entry": {
+        "id": "RECT-ALG-1",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "RECT-ALG-1",
+          "evidence": "experiments/rectangular-identities-v1.json",
+          "claim": "NC-RECT v1",
+          "expected": "three rectangular identities hold, including zero/singular M; unguarded NC1 v1 rejected",
+          "result": "pass finite exact tests; not Gaussian/asymptotic certification"
+        },
+        "current_status": "CHECKED_CURRENT_EX_V2",
+        "scope_reason": "H is the full positive discrete Gaussian complement, not sequential conditionals or separately completed blocks. Fresh exact12x4 identities retain cross-blocks and explicitly reject positive-marginal/negative-joint shortcut; historical parity-dependent normalizer remains unequal.",
+        "new_evidence": [
+          "criticism/RF1/rectangular-output.txt",
+          "experiments/historical-rerun/rectangular-control-v1.json",
+          "coordinator/expansion-proof-v2.md"
+        ],
+        "source_parameter_review": {
+          "status": "MATH_REVIEW_REQUIRED",
+          "scope_reason": "EX explicitly guards Delta<1, retains the full rectangular complement and its normalization, and distinguishes exponent matrix from covariance. These obligations are not accepted by this scoped review; they remain for the independent mathematical review. No old global proof certificate is inherited.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8",
+        "proof_section_references": [
+          {
+            "file": "coordinator/expansion-proof-v2.md",
+            "section": 7
+          }
+        ]
+      },
+      "entry_sha256": "1bb4734c01913d9f1398a2b4513185b042d83ddb379ae1c84439bce8890d5907"
+    },
+    {
+      "id": "SOURCE-SMALL-D",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "SCOPE_LIMIT",
+      "reason": "No ideal-index hardness asserted; no inference from D=1 or other easy source endpoints.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/41",
+      "exact_registry_entry": {
+        "id": "SOURCE-SMALL-D",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "SOURCE-SMALL-D",
+          "claim": "SOURCE-2 plausibility range",
+          "evidence": "criticism/RS1/report-v1.md",
+          "expected": "d=1 allows enumeration of n*q ideal points and source distinguishability; finite conditional theorem survives, all-d source plausibility rejected",
+          "status": "EXACT_HAND_COUNTEREXAMPLE_REVIEWED",
+          "independent_evidence": "criticism/RF1/source-d1-limitation-v1.md"
+        },
+        "current_status": "CHECKED_CURRENT_EX_V2",
+        "scope_reason": "Preserve reviewed exact-version ATT: strict q^(1-d/r)>2n ell², public roots or polynomial enumeration, optimized r nextpower2>=2d, exp(O(d)) cost. d=1 and O(logn) insecure; selected d/logn tends infinity but no hardness proof follows.",
+        "new_evidence": [
+          "workers/B/att-reconstruction.md",
+          "criticism/RS1/report-v1.md"
+        ],
+        "source_parameter_review": {
+          "status": "SCOPED_PASS_WITH_QUALIFICATION",
+          "scope_reason": "The q128 old-support substitution remains rejected. EX ties d to K and uses distinct upper/lower prime bounds. Source hardness is still an assumption; small d is attacked. ATT strict inequality, root input, and exp(O(d)) scope are retained. See report-v1 sections4 and6.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8"
+      },
+      "entry_sha256": "da5da40793505796db7bbce281cb1ed4a87a133198c4922f05acee7dc1f2b0de"
+    },
+    {
+      "id": "A-PPT-LEDGER-SCOPE",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "CHECKED",
+      "reason": "All dimensions, full scalar encodings and finite precision counted; strict runtime requires bounded primitive implementations with charged delta_impl.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/entries/42",
+      "exact_registry_entry": {
+        "id": "A-PPT-LEDGER-SCOPE",
+        "provenance_registry": "imports/brlwe-goal-routes-20260907-astra-ultra/regressions.json",
+        "exact_imported_entry": {
+          "id": "A-PPT-LEDGER-SCOPE",
+          "rejected_version": 1,
+          "repair_version": 2,
+          "status": "REPAIR_RECHECK_PASSED",
+          "evidence": "coordinator/A-PPT-ledger-v1-scope-defect.md",
+          "repair": "coordinator/A-PPT-ledger-v2.json",
+          "fresh_referee": "criticism/RP1/report-v1.md",
+          "targeted_exact_search": "criticism/RP1/parameter-search-v2.json"
+        },
+        "current_status": "CHECKED_CURRENT_EX_V2",
+        "scope_reason": "Old q=P(1,2n^128),d=n/(64ell) entropy clause remains false. New K-dependent d<=n/(24Kell) explicitly yields d log2 q<=n/4; fixed-h changed q premise is stated.",
+        "new_evidence": [
+          "criticism/RS1/report-v1.md",
+          "coordinator/expansion-proof-v2.md"
+        ],
+        "source_parameter_review": {
+          "status": "SCOPED_PASS_WITH_QUALIFICATION",
+          "scope_reason": "The q128 old-support substitution remains rejected. EX ties d to K and uses distinct upper/lower prime bounds. Source hardness is still an assumption; small d is attacked. ATT strict inequality, root input, and exp(O(d)) scope are retained. See report-v1 sections4 and6.",
+          "evidence": "criticism/RS1/report-v1.md",
+          "classification": "criticism/RS1/regression-review-v1.json"
+        },
+        "full_proof_review": "criticism/RF1/report-v1.md section8",
+        "proof_section_references": [
+          {
+            "file": "coordinator/expansion-proof-v2.md",
+            "section": 8
+          }
+        ]
+      },
+      "entry_sha256": "76d354937f17527646b9315924be5703c75772adef3862642d1169b237908a85"
+    },
+    {
+      "id": "EX-PURE-MIX-ZERO",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "NONUSE",
+      "reason": "No pure-mixture seed dilution.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/new_entries/0",
+      "exact_registry_entry": {
+        "id": "EX-PURE-MIX-ZERO",
+        "statement": "With no additive term, both uniform seed values vanish at a fixed CRT root with probabilityq^-2, forcing allm outputs zero there; independent uniform outputs have probabilityq^-m.",
+        "expected": "Reject negligible-TV pure ideal-preserving two-seed expansion form>=3 at polynomialq, including hidden mixing tapes.",
+        "evidence": [
+          "workers/C/m3-law-theorem-v1.md",
+          "workers/C/exact_m3_control_v1.out.json",
+          "criticism/RF1/report-v1.md"
+        ],
+        "scope_reason": "Actual EX includes fresh coefficient W and proves a different full law.",
+        "current_status": "CHECKED_EXPECTED_OBSTRUCTION"
+      },
+      "entry_sha256": "3acc5889ec50571a1d7d6013640112f334106e9b487a9c52368fa548aa735e5b"
+    },
+    {
+      "id": "EX-PUBLIC-TAPE",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "CHECKED",
+      "reason": "Fiber coins, original R and X, and temporary trapdoor are absent from final view; the declared canonical T is retained.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/new_entries/1",
+      "exact_registry_entry": {
+        "id": "EX-PUBLIC-TAPE",
+        "statement": "Conditioned on pair and all local mixing/noise coins, allC are deterministic; TV from fresh independent uniformZ is1-q^(-mn).",
+        "expected": "Reject appending expansion coins to the regularity comparator.",
+        "evidence": [
+          "criticism/RF1/negative-controls-v1.md",
+          "criticism/RF1/report-v1.md"
+        ],
+        "scope_reason": "The theorem retains seedA but not its local expansion coins; proof-side disclosure is only a planted guessing upper bound.",
+        "current_status": "CHECKED_EXPECTED_OBSTRUCTION"
+      },
+      "entry_sha256": "7fe0fe868460b003db36c5483f51d5c6d9e9b21476c2cfe9882c82b39cee31a5"
+    },
+    {
+      "id": "EX-APPENDED-H",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "CHECKED",
+      "reason": "No latent error-completion Gaussian is appended to a purported independent target noise.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/new_entries/2",
+      "exact_registry_entry": {
+        "id": "EX-APPENDED-H",
+        "statement": "H uniformF3,G=0,M=0 givesE=H marginally uniform, but(H,E) isTV2/3 from(H,U) withindependentU.",
+        "expected": "Reject retaining H through a marginal noise comparison.",
+        "evidence": [
+          "criticism/RF1/negative-controls-v1.md",
+          "criticism/RF1/report-v1.md"
+        ],
+        "scope_reason": "EX integratesH out, retainslatentC andindependentS, then disclosesH only in completed experiment.",
+        "current_status": "CHECKED_EXPECTED_OBSTRUCTION"
+      },
+      "entry_sha256": "8cbda03b571234f49001ee7be74937f4310e4c2ee88263f965b6204518b8a29f"
+    },
+    {
+      "id": "EX-M3-CROSSBLOCK",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "CHECKED",
+      "reason": "Full concatenated affine map and full N-dimensional error transform preserve cross-block correlations.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/new_entries/3",
+      "exact_registry_entry": {
+        "id": "EX-M3-CROSSBLOCK",
+        "statement": "n4,m3,ell²4,Mj=I4,sigma²8: every marginal complement4I ispositive, butfullquadraticvalue on(e1,e1,e1)is-12.",
+        "expected": "Reject separate-block positive-complement shortcut. Valid12x4 test retains88 nonzero cross-blockentries and exactquadidentities.",
+        "evidence": [
+          "criticism/RF1/rectangular-output.txt",
+          "criticism/RF1/rectangular_control.py"
+        ],
+        "scope_reason": "EX uses full stackednorm and B>=3sigma²I/4.",
+        "current_status": "EXECUTED_EXPECTED_OBSTRUCTION"
+      },
+      "entry_sha256": "00d977c110f6832e616a2b7351a2f9be0a70420dde9f465da5c9721382fbf70a"
+    },
+    {
+      "id": "EX-RETAINED-M3",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "CHECKED",
+      "reason": "Shared W/R state is retained until explicitly discarded; extraction is never applied with original source tape retained.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/new_entries/4",
+      "exact_registry_entry": {
+        "id": "EX-RETAINED-M3",
+        "statement": "Exactn2q5L2 finite ternary-W surrogate averages all625seedkernels, withallzero seedmass1/625; per-seedproductTVbound checked form3.",
+        "expected": "Retain zero-output masses, distinguish conditionalseedindependence fromunconditionalindependence.",
+        "evidence": [
+          "experiments/expansion_controls_v1.stdout.json",
+          "experiments/expansion_controls_v1.py"
+        ],
+        "scope_reason": "Surrogate finite-law falsification only, not Gaussian/asymptotic certification.",
+        "current_status": "EXECUTED_PASS_FINITE_SCOPE"
+      },
+      "entry_sha256": "42b19ef837200dad7780f8eb25c793750660e5c59d02b74030fa4c3081afc829"
+    },
+    {
+      "id": "B-JL-BZERO",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "CHECKED",
+      "reason": "Widths sigma_R>=2,tau>0 and smoothing parameters have valid positive domains; v1 empty canonical fibers are separately rejected/repaired in v2.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/new_entries/5",
+      "exact_registry_entry": {
+        "id": "B-JL-BZERO",
+        "statement": "B-JL theoremv2 permitsb=0 while itstail expression dividesbyb.",
+        "expected": "Rejectv2 domain; v3 narrowsb>=1 before furtherproofreview.",
+        "evidence": [
+          "workers/B/v2-domain-objection.md",
+          "workers/B/joint-lattice-v2-theorem.md",
+          "workers/B/joint-lattice-v3-theorem.md"
+        ],
+        "scope_reason": "B reserve remainsREPAIRED-PENDING-RECHECK andisnotEXdependency.",
+        "current_status": "COUNTEREXAMPLE_SAVED_REPAIR_UNACCEPTED"
+      },
+      "entry_sha256": "01729fd0358d477dc0a78f18365f70544ab9425df682a25e1888ae08f3abd39c"
+    },
+    {
+      "id": "B-JL-REDRAW-T",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "CHECKED",
+      "reason": "One sampled R and the full supplied A are used consistently; bad rank emits failure rather than redrawing challenge rows.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/new_entries/6",
+      "exact_registry_entry": {
+        "id": "B-JL-REDRAW-T",
+        "statement": "n2q97,F1=F2=(-1,-1),U1=(23,76),U2=(76,23),A1=(22,75),A2=(75,22),h1=h2=1:publicsumzero buthiddensum(2,2);supportroots22and75 differ.",
+        "expected": "Reject applying common-T publicnorm gate to independentlyredrawn supports.",
+        "evidence": [
+          "workers/B/jl-output-v3.json",
+          "workers/B/jl_controls_v3.py"
+        ],
+        "scope_reason": "ExactsourceEXandB useonecommonT. Btheoremstillunaccepted.",
+        "current_status": "EXECUTED_EXPECTED_OBSTRUCTION"
+      },
+      "entry_sha256": "ff832088f8de0c22d97652b1798ef5a50ba5a4785eeaa833508aff3ccadbffef"
+    },
+    {
+      "id": "A-ERASURE-RANKMIX",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "status": "NONUSE",
+      "reason": "Ordinary multipliers are retained and solved against full affine fibers; no multiplier erasure claim.",
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ],
+      "registry_json_pointer": "/inherited_exact_registry/new_entries/7",
+      "exact_registry_entry": {
+        "id": "A-ERASURE-RANKMIX",
+        "statement": "Erasing ordinaryRLWE multipliers yields support-rankmixtureweight binom(n,t)(q-1)^t/q^n, notselectedfixedsmall d; itsdistance to uniformatmostn/q.",
+        "expected": "Reject claimed fixed-dBase2 hardnessreduction bysimpleerasure.",
+        "evidence": [
+          "workers/A/initial-report-v1.md",
+          "workers/A/finite_controls_v1.stdout.json"
+        ],
+        "scope_reason": "No suchreductionusedinEX; Base2 remainsassumed. InitialAfullclaimisprovisional.",
+        "current_status": "NEGATIVE_ENDPOINT_SAVED"
+      },
+      "entry_sha256": "570f05c53a409aa619dc09b14b670c92b078ecddcd1598cbe9310c0e0bccc131"
+    }
+  ],
+  "new_dispositions": [
+    {
+      "id": "D-STD-UNREACHABLE-1",
+      "status": "REJECT_V1_REPAIRED_V2",
+      "reason": "All-zero A,W has empty gadget fiber. Exact v2 sets T=FAIL retaining A,W,b, with no key conditioning.",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ]
+    },
+    {
+      "id": "B-SUP4-JOINT-RANK",
+      "status": "CHECKED",
+      "reason": "Author exact control falsifies blockwise and single-root rank shortcuts; full proof requires complete rootwise rank.",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ]
+    },
+    {
+      "id": "D-STD-GAUSSIAN-NORMALIZER",
+      "status": "CHECKED",
+      "reason": "Inverse rounding theta factor and convolution posterior theta factor are both divided by their actual expectations.",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ]
+    },
+    {
+      "id": "D-STD-SECRET-PRESERVATION",
+      "status": "SCOPE_LIMIT",
+      "reason": "Uniform-secret standard hardness supplies only uniform-secret hinted hardness; no binary or fractional source conclusion.",
+      "claim_scope": [
+        "B-STD-decomposed-v1 + B-STD-canonical-v2"
+      ],
+      "evidence": [
+        "workers/D/supersvp-mining/standard-source-full-review-v1.md"
+      ]
+    }
+  ],
+  "input_hashes": {
+    "decomposed_theorem": "b82435a83a5b4babc6289f351864d49adfd9d18adbdad6469b91596aff24fe32",
+    "decomposed_proof": "4d7c0d537eaa95a982454d91eb349073243bf0cede4a67ea5568ed7a4cc19318",
+    "canonical_v2": "9a168be29fd5fbf020b253980ace92aac178105d8f7f8bc4b98883713a4ed860"
+  }
+}

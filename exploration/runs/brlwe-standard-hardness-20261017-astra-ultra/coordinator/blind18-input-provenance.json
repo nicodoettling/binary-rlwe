@@ -1,0 +1,27 @@
+{
+  "at": "2026-10-18T00:42:35.272068+00:00",
+  "files": {
+    "same-j-theorem-only-v1.md": {
+      "source": "workers/RF4/same-j-composition/same-j-theorem-only-v1.md",
+      "sha256": "96b88a725cc5dc4f8c943275d3b8788fdb9e6ac108c72fe62b383af9614e5e62",
+      "copy": "exactbytes"
+    },
+    "interface-statements-v1.md": {
+      "source": "workers/RF4/same-j-composition/interface-statements-v1.md",
+      "sha256": "25a78ebcc36d3cd31568f12dd36ee233490509dab8684d4656002a528bb0fab8",
+      "copy": "exactbytes"
+    },
+    "same-j-specification-v1.md": {
+      "source": "workers/RF4/same-j-composition/same-j-specification-v1.md",
+      "sha256": "d5f1a120bf48a90c1f1fa80029dc00ee693b7df031207d15ebff0fcda6c8cb23",
+      "copy": "exactbytes"
+    },
+    "ideal-alignment-theorem-v1.md": {
+      "source": "workers/H/prime-alignment/theorem-only-v1.md",
+      "source_sha256": "e2265238d7240a1fae85fa952c7996e0ad7ec20bc8697870da18fca9b4c6be18",
+      "sha256": "79faea39031aa47a5c5727191558d3b32c600437172415aa90232d9727f94f2b",
+      "copy": "Title replaced, administrative review-status paragraph removed; complete mathematical body starting Fix a power of two preserved byte-for-byte."
+    }
+  },
+  "scope": "Preparation only; no reviewer assigned or gate claimed. Blind will receive only these mathematicalfiles, not this status/provenance record."
+}

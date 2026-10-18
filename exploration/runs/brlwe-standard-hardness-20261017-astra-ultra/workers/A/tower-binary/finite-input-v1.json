@@ -1,0 +1,10 @@
+{
+  "reservation": "A-tower-finite-1",
+  "authorized_limits": {"wall_seconds": 30, "address_space_MiB": 256},
+  "estimated_resources": {"wall_seconds": 10, "peak_MiB": 32},
+  "purpose": "Exact finite falsification controls for cyclotomic tower products, radix defect, annihilator exception, digit lift, and odd-prime affine cube preservation",
+  "cases": {"tower_q": [17, 41], "tower_n": 2, "tower_r": 2, "affine_q": [3, 5], "affine_dimension": 2, "digit_lift": [2, 8, 97]},
+  "dependencies": "Python 3 standard library only",
+  "randomness": "none",
+  "limitations": "Finite controls do not prove asymptotic claims or certify a reduction"
+}

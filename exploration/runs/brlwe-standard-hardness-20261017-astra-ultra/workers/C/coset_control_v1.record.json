@@ -1,0 +1,20 @@
+{
+  "reservation": "C-COSET-1",
+  "limits": {
+    "wall_seconds": 30,
+    "address_space_bytes": 268435456
+  },
+  "exit_code": 0,
+  "resources": {
+    "elapsed_seconds": 0.1968790499959141,
+    "maxrss_kib": 11264,
+    "address_space_limit_bytes": 268435456
+  },
+  "files": {
+    "coset_control_v1.py": "710b8be319e119d681bb9466f703378db803619143a27ce908079351b90747ff",
+    "coset_control_v1.command.txt": "71b8f7e0e8f0490d9fd5a048197e6acc558b5558d93695edaf8c934a6432299a",
+    "coset_control_v1.stdout.json": "404b9aa75193268f5bccefc43bc58f5b55c09ce8d791407d8af4a68f6f1f3ce9",
+    "coset_control_v1.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "result": "all assertions passed; release reservation; no asymptotic certification"
+}

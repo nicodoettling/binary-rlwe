@@ -1,0 +1,187 @@
+{
+  "packet_status": "REPAIRED-PENDING-RECHECK",
+  "acceptance": "No H claim has passed the required independent nonauthor/source/fresh-blind gates.",
+  "claims": [
+    {
+      "id": "H-A1",
+      "statement": "Coefficient ideal duality and determinant-root minimum lengths",
+      "dependencies": [
+        "power-of-two ideal algebra",
+        "Parseval",
+        "AM-GM"
+      ],
+      "status": "PROVISIONAL",
+      "evidence": "proof-v1.md section1"
+    },
+    {
+      "id": "H-A2",
+      "statement": "All-width disjoint-ball theta estimate with constant4sqrt(n)",
+      "dependencies": [
+        "volume packing",
+        "nonnegative layer-cake integration"
+      ],
+      "status": "PROVISIONAL",
+      "evidence": "proof-v1.md section2"
+    },
+    {
+      "id": "H-A3",
+      "statement": "Sufficient dual smoothing threshold4sqrt(n)N(FI)^(1/n)",
+      "dependencies": [
+        "H-A1",
+        "H-A2",
+        "Poisson summation"
+      ],
+      "status": "PROVISIONAL",
+      "evidence": "proof-v1.md section3"
+    },
+    {
+      "id": "H-A4",
+      "statement": "Original nonzero alignment <=min(1,2/M+(32n/s)^n) and necessary descent event",
+      "dependencies": [
+        "H-A1",
+        "H-A2",
+        "H-A3",
+        "exact denominator clearing"
+      ],
+      "status": "PROVISIONAL",
+      "evidence": "theorem-only-v1.md T1; proof-v1.md section4"
+    },
+    {
+      "id": "H-A5",
+      "statement": "Almost-sure complete-history, arbitrary-selection and TV accounting",
+      "dependencies": [
+        "H-A4",
+        "declared fresh conditional kernel"
+      ],
+      "status": "PROVISIONAL",
+      "evidence": "theorem-only-v1.md T2-T5; proof-v1.md sections5-6",
+      "regressions": [
+        "CP-1",
+        "H-ZERO-1",
+        "H-SELECT-1"
+      ]
+    },
+    {
+      "id": "H-A6",
+      "statement": "Actual A/B/C concrete parameters imply s_J>=512n^2",
+      "dependencies": [
+        "A concrete parameter packet",
+        "C8 theorem8/spec2/proof9 explicit v0 floor",
+        "assignment conditional DGS width"
+      ],
+      "status": "REPAIRED-PENDING-RECHECK",
+      "evidence": "parameters-v2.md",
+      "scope": "Finite coherent implementation remains a separate dependency."
+    },
+    {
+      "id": "H-C1",
+      "statement": "Every quotient atom obeys the all-width bound",
+      "dependencies": [
+        "H-A1",
+        "H-A2",
+        "H-A3",
+        "F/FI=R/I"
+      ],
+      "status": "PROVISIONAL",
+      "evidence": "shifted-cosets-v2.md C1-C2"
+    },
+    {
+      "id": "H-C2",
+      "statement": "Full residue/conditional-lift comparator and optional smoothing TV",
+      "dependencies": [
+        "exact coset normalizers",
+        "Poisson summation"
+      ],
+      "status": "PROVISIONAL",
+      "evidence": "shifted-cosets-v2.md C3-C6",
+      "regressions": [
+        "H-UNIFORM-1",
+        "H-LIFT-1"
+      ]
+    },
+    {
+      "id": "H-R1",
+      "statement": "Executable integer relation lattice has index h=|image|<=M and LLL coefficient bound2^((m-1)/4)h^(1/m)",
+      "dependencies": [
+        "HNF/SNF",
+        "LLL primary section1"
+      ],
+      "status": "PROVISIONAL",
+      "evidence": "short-relation-v2.md sections1-2; lll-source-check-v1.md",
+      "regressions": [
+        "H-INDEX-1"
+      ]
+    },
+    {
+      "id": "H-R2",
+      "statement": "For m<=n and wide s, original iid sample rank failure <=4m sqrt(n)/s",
+      "dependencies": [
+        "Minkowski short ideal rotation existence",
+        "uniform shifted scalar theta lower bound",
+        "complete prior sample history"
+      ],
+      "status": "PROVISIONAL",
+      "evidence": "short-relation-v2.md section3"
+    },
+    {
+      "id": "H-R3",
+      "statement": "Nonzero image and relative norm/distortion certificate G_A",
+      "dependencies": [
+        "H-R1",
+        "H-R2",
+        "original Gaussian coordinate tails",
+        "H-A1"
+      ],
+      "status": "PROVISIONAL",
+      "evidence": "short-relation-v2.md section4"
+    },
+    {
+      "id": "H-R4",
+      "statement": "Worst-case h=M LLL certificate is not polynomial in n on excluded fixed-rho family; encoded-input conclusion only if log M<=poly(n); m>n requires avoiding exact output kernel",
+      "dependencies": [
+        "H-R3",
+        "elementary parameter minimization"
+      ],
+      "status": "REPAIRED-PENDING-RECHECK",
+      "evidence": "short-relation-v2.md sections5-7",
+      "regressions": [
+        "H-IMAGEZERO-1",
+        "H-RINGZERO-1",
+        "H-LLL-1",
+        "H-BITS-1"
+      ]
+    },
+    {
+      "id": "H-OPEN-REL",
+      "statement": "Efficient original-law nonzero short-image relation with poly(n) approximation and polynomial full-bit runtime at actual s=poly(n)",
+      "dependencies": [
+        "new algorithm or additional theorem required"
+      ],
+      "status": "OPEN",
+      "evidence": "short-relation-v2.md final target"
+    },
+    {
+      "id": "H-OPEN-FOUNDATION",
+      "statement": "Standard arbitrary-ideal family transfer",
+      "dependencies": [
+        "H-OPEN-REL or another valid mechanism",
+        "separate finite quantum interface"
+      ],
+      "status": "OPEN",
+      "evidence": "Assignment scope; no closure claimed"
+    }
+  ],
+  "finite_controls": [
+    {
+      "reservation": "H-ALIGN-FV1",
+      "status": "PASS_FINITE_SCOPE_ONLY",
+      "artifact": "finite-stdout-v1.json"
+    },
+    {
+      "reservation": "H-REL-FV2",
+      "status": "PASS_FINITE_SCOPE_ONLY",
+      "artifact": "relation-stdout-v1.json"
+    }
+  ],
+  "repair": "H-R4 approximation-factor/input-bit scope corrected in v2; H-A6 rebound to exact current C8 packet. Original H-ALIGNv1 probability theorem unchanged."
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261017T213748.087626Z-28ac96b1",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-17T21:37:48.087649+00:00",
+  "reason": "Exact same-class scoped obstruction accepted; computational goal remains open",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 24123,
+      "sha256": "b9166006b9b6f2e8efa19f1649309bb28b8789c120236e68148891eedd06fda5"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 4855,
+      "sha256": "0b5bbcbd6b761fd930d1346003427c504723f261cdf888a0c2429a238808d1c9"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 3461,
+      "sha256": "b5976895cf9d57f41fe61f50c05c8a768e6c244cf32398afeee49fb1dedd5139"
+    },
+    {
+      "path": "final.md",
+      "bytes": 10266,
+      "sha256": "047606abfe4cbf77b4c26ac719d95fe33c5dec005f65b6482fae30208a1c6d35"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 12581,
+      "sha256": "4b1ff40bdc059530f604d6b14af1eabe5b358e5e9961e52a467762d04158e028"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

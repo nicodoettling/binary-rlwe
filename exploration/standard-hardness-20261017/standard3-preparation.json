@@ -1,0 +1,88 @@
+{
+  "prepared_at": "2026-10-17T22:38:50.024920+00:00",
+  "status": "PREPARED_BEFORE_STOP",
+  "same_thread": "01a14b7b-9e45-7b70-b46d-0bf70e17f2e2",
+  "requested_total_agents": 3,
+  "model": "gpt-6-astra",
+  "reasoning_effort": "ultra",
+  "configured_service_tier": "default",
+  "prior_hard_deadline": "2026-10-18T02:07:14.421959+00:00",
+  "checkpoint": {
+    "directory": "coordinator-checkpoints/20261017T223849.996555Z-45574a34",
+    "schema_version": 1,
+    "snapshot_id": "20261017T223849.996555Z-45574a34",
+    "kind": "foreground-standard3-prestop",
+    "created_at": "2026-10-17T22:38:49.996580+00:00",
+    "reason": "User requested Standard-speed restart and three agents, same goal within existing deadline",
+    "artifacts": [
+      {
+        "path": "claims.json",
+        "bytes": 31627,
+        "sha256": "30cbf9c8b749390f225de714af4716f250d26ce4fab75297ac2451b119f81bc9"
+      },
+      {
+        "path": "reconciliation.md",
+        "bytes": 3756,
+        "sha256": "40bd3020f9b62e6d0fa29a5471aba1e4555f65efd4d3fbdb66b34acc4f34af6b"
+      },
+      {
+        "path": "progress.md",
+        "bytes": 3174,
+        "sha256": "248279414f362c294250d80bdfb4d34654829318b827de2b767a13292829b7ec"
+      },
+      {
+        "path": "final.md",
+        "bytes": 12709,
+        "sha256": "685194cd91d3025ddedccf4c3a23e358fc9d81c4792eb4a9ad05b03c87444b25"
+      },
+      {
+        "path": "agents.json",
+        "bytes": 14179,
+        "sha256": "4ab5ac795d41a7527ff4832528506a37a5dcab0bf145c1f31c79df4f18f3ff61"
+      }
+    ],
+    "missing_core_artifacts": [],
+    "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+    "scientific_progress_verified": false
+  },
+  "wrapper": "/home/nico/projects/research_projects/binaryRLWE/exploration/standard-hardness-20261017/codex-standard-speed.sh",
+  "wrapper_sha256": "cd440cc8f5af684c49396bf0b2a61db354bb40e16e45a97d219d4612f9072976",
+  "noninference_cli_probe_exit": 0,
+  "catalog": {
+    "slug": "gpt-6-astra",
+    "service_tiers": [
+      {
+        "id": "priority",
+        "name": "Fast",
+        "description": "2x speed, increased usage"
+      }
+    ],
+    "supported_reasoning_levels": [
+      {
+        "effort": "low",
+        "description": "Fast responses with lighter reasoning"
+      },
+      {
+        "effort": "medium",
+        "description": "Balances speed and reasoning depth for everyday tasks"
+      },
+      {
+        "effort": "high",
+        "description": "Greater reasoning depth for complex problems"
+      },
+      {
+        "effort": "xhigh",
+        "description": "Extra high reasoning depth for complex problems"
+      },
+      {
+        "effort": "max",
+        "description": "Maximum reasoning depth for the hardest problems"
+      },
+      {
+        "effort": "ultra",
+        "description": "Maximum reasoning with automatic task delegation"
+      }
+    ]
+  },
+  "configuration_evidence_not_billing_telemetry": true
+}

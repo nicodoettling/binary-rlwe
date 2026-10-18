@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261017T202124.408967Z-563991da",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-17T20:21:24.408990+00:00",
+  "reason": "Four first tests delivered; short-syndrome and known-ideal routes remain open; theta obstruction review begins",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 7185,
+      "sha256": "7e51fe3952c9b83d33d621528e2f387a5f7b6f50b582f47d205166491a0b72ef"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 3914,
+      "sha256": "b8d77a7324da613e52b09ab44f90af036226930d9ebe4810e3a86f70c57bc7c5"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 5374,
+      "sha256": "8837b1cea24c79ca14ef1912fd1280f33f8343e1962de049b1557229ee1a2edd"
+    },
+    {
+      "path": "final.md",
+      "bytes": 3770,
+      "sha256": "87da9b061e1effad145c0033dc256839ce80e5d059b530d0be4d089537d3f457"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 8767,
+      "sha256": "1c0d04323cf8c384d0ef722e87be402e068d2b3273bf8ff530aac566b3de763b"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

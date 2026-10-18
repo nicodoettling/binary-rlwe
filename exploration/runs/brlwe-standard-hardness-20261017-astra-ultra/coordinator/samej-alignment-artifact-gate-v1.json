@@ -1,0 +1,675 @@
+{
+  "at": "2026-10-18T01:02:27.620058+00:00",
+  "checks": [
+    {
+      "path": "criticism/HC1/artifact-consistency-v1.md",
+      "expected": "89e1871cc7d26d1c00c961eba8db018c25d7745ccc9462c43089a193db24e15b",
+      "actual": "89e1871cc7d26d1c00c961eba8db018c25d7745ccc9462c43089a193db24e15b",
+      "match": true
+    },
+    {
+      "path": "criticism/HC1/assignment-v1.md",
+      "expected": "3c500b07a7a459ebc36f78d3630c0dfa5481b32dc53a8b378b4552ebb2b80236",
+      "actual": "3c500b07a7a459ebc36f78d3630c0dfa5481b32dc53a8b378b4552ebb2b80236",
+      "match": true
+    },
+    {
+      "path": "criticism/HC1/assignment-v1.sha256",
+      "expected": "b124d333f87972838aab44fa582961744b53dd725c9e9798f7cf0df284523c58",
+      "actual": "b124d333f87972838aab44fa582961744b53dd725c9e9798f7cf0df284523c58",
+      "match": true
+    },
+    {
+      "path": "criticism/HC1/finite-control-v1/command.txt",
+      "expected": "77e0105b41cc56ed85620d10516d0538deaab6cf4a11be1e94093d213315f20c",
+      "actual": "77e0105b41cc56ed85620d10516d0538deaab6cf4a11be1e94093d213315f20c",
+      "match": true
+    },
+    {
+      "path": "criticism/HC1/finite-control-v1/control.py",
+      "expected": "f6384205ac73cf6b783870877fb527540e20d1cd16def8bf9171d8bbc2f92395",
+      "actual": "f6384205ac73cf6b783870877fb527540e20d1cd16def8bf9171d8bbc2f92395",
+      "match": true
+    },
+    {
+      "path": "criticism/HC1/finite-control-v1/input.json",
+      "expected": "01f341db2d0bbcb852f4e73dc4cf7367015307d8cdf4f95777a2f2380244adcd",
+      "actual": "01f341db2d0bbcb852f4e73dc4cf7367015307d8cdf4f95777a2f2380244adcd",
+      "match": true
+    },
+    {
+      "path": "criticism/HC1/finite-control-v1/resources.txt",
+      "expected": "6113ac3da3a772fa253e4f2631b9c3c0a8888b6c9e1e0bd85841dc0e369f8ceb",
+      "actual": "6113ac3da3a772fa253e4f2631b9c3c0a8888b6c9e1e0bd85841dc0e369f8ceb",
+      "match": true
+    },
+    {
+      "path": "criticism/HC1/finite-control-v1/stderr.txt",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "match": true
+    },
+    {
+      "path": "criticism/HC1/finite-control-v1/stdout.json",
+      "expected": "6ee5a339083c6c6186b68ad1b1f0d783a7e17a766de16bc263a2653aa5a2f02f",
+      "actual": "6ee5a339083c6c6186b68ad1b1f0d783a7e17a766de16bc263a2653aa5a2f02f",
+      "match": true
+    },
+    {
+      "path": "criticism/HC1/full-proof-report-v1.md",
+      "expected": "df26a1ce5dc54e9b84329f3ddd6f2c97b4cee363a2a7252b0470f952894ab412",
+      "actual": "df26a1ce5dc54e9b84329f3ddd6f2c97b4cee363a2a7252b0470f952894ab412",
+      "match": true
+    },
+    {
+      "path": "criticism/HC1/input-hashes-v1.json",
+      "expected": "5e2633250c0d1dae908269379d5a97dfbb92e3bd9a3ed13c37ff93bf1c080631",
+      "actual": "5e2633250c0d1dae908269379d5a97dfbb92e3bd9a3ed13c37ff93bf1c080631",
+      "match": true
+    },
+    {
+      "path": "criticism/HC1/intake-receipt-v1.md",
+      "expected": "574151c7108feec391d88964e88769bc914c6c0b4bd23bbaa94baf3f6177bdc9",
+      "actual": "574151c7108feec391d88964e88769bc914c6c0b4bd23bbaa94baf3f6177bdc9",
+      "match": true
+    },
+    {
+      "path": "criticism/HC1/objections-before-repair.md",
+      "expected": "10fda3c03aa4f8445c9d87e7aa697c97af5783ca652619e934653f6ea95a34e5",
+      "actual": "10fda3c03aa4f8445c9d87e7aa697c97af5783ca652619e934653f6ea95a34e5",
+      "match": true
+    },
+    {
+      "path": "criticism/HC1/partial-v1.md",
+      "expected": "95ba58eaf5795855fb6090a5eaba12a349c00dde6ef7ef303f088114f4e905c8",
+      "actual": "95ba58eaf5795855fb6090a5eaba12a349c00dde6ef7ef303f088114f4e905c8",
+      "match": true
+    },
+    {
+      "path": "criticism/HC1/report-index-v1.md",
+      "expected": "d2d8901d54beaef8a4a323057696ae934df6299c19f4de4031fcfe11bbe18842",
+      "actual": "d2d8901d54beaef8a4a323057696ae934df6299c19f4de4031fcfe11bbe18842",
+      "match": true
+    },
+    {
+      "path": "criticism/HC1/source-parameter-complexity-report-v1.md",
+      "expected": "bc89e1847fbc07bbbb76c4356312c9f34b06a88fd9271be405f2994895bc11aa",
+      "actual": "bc89e1847fbc07bbbb76c4356312c9f34b06a88fd9271be405f2994895bc11aa",
+      "match": true
+    },
+    {
+      "path": "criticism/RH1/RH1-FV1-command.txt",
+      "expected": "1d7654a879424510c14e65ab60e40070a4419a2a15e685bc1196c14a11fc1a3f",
+      "actual": "1d7654a879424510c14e65ab60e40070a4419a2a15e685bc1196c14a11fc1a3f",
+      "match": true
+    },
+    {
+      "path": "criticism/RH1/RH1-FV1-control.py",
+      "expected": "d086f8933fecc045b1b07f97c719067037f81460efc564691d5fd9a217620d08",
+      "actual": "d086f8933fecc045b1b07f97c719067037f81460efc564691d5fd9a217620d08",
+      "match": true
+    },
+    {
+      "path": "criticism/RH1/RH1-FV1-input.json",
+      "expected": "49ef88dae80dfae2f3a61788d6926944472a43aceb1a8d4289ad23f0da11c8b0",
+      "actual": "49ef88dae80dfae2f3a61788d6926944472a43aceb1a8d4289ad23f0da11c8b0",
+      "match": true
+    },
+    {
+      "path": "criticism/RH1/RH1-FV1-reservation.md",
+      "expected": "ba236c565a72a48772e76b398a8ab231f732ab88588e4ad8be70deec0a5662df",
+      "actual": "ba236c565a72a48772e76b398a8ab231f732ab88588e4ad8be70deec0a5662df",
+      "match": true
+    },
+    {
+      "path": "criticism/RH1/RH1-FV1-resources.txt",
+      "expected": "bb7ad1aeef4d965484a22c2a326dc9b6cc522d4d82ee0af31d781098f4f846ab",
+      "actual": "bb7ad1aeef4d965484a22c2a326dc9b6cc522d4d82ee0af31d781098f4f846ab",
+      "match": true
+    },
+    {
+      "path": "criticism/RH1/RH1-FV1-stderr.txt",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "match": true
+    },
+    {
+      "path": "criticism/RH1/RH1-FV1-stdout.json",
+      "expected": "1fff769a63a7906d76689467b48aa08d31db13a878ce413df0a6e21bc828e106",
+      "actual": "1fff769a63a7906d76689467b48aa08d31db13a878ce413df0a6e21bc828e106",
+      "match": true
+    },
+    {
+      "path": "criticism/RH1/artifact-consistency-v1.md",
+      "expected": "474830df0c2a8acc744c99a65595fa5c71f5067a7b8e158c9505627acb25125c",
+      "actual": "474830df0c2a8acc744c99a65595fa5c71f5067a7b8e158c9505627acb25125c",
+      "match": true
+    },
+    {
+      "path": "criticism/RH1/assignment-v1.md",
+      "expected": "4c81776326a1a85d62bca59fecc51a2bc4ca73c77064a4927c6ae1efe5a8b316",
+      "actual": "4c81776326a1a85d62bca59fecc51a2bc4ca73c77064a4927c6ae1efe5a8b316",
+      "match": true
+    },
+    {
+      "path": "criticism/RH1/finite-control-report-v1.md",
+      "expected": "bd9960b7f7bc1b0d5bb6cb01e02388f244a97e8c504acc8e854878b0854d6f7e",
+      "actual": "bd9960b7f7bc1b0d5bb6cb01e02388f244a97e8c504acc8e854878b0854d6f7e",
+      "match": true
+    },
+    {
+      "path": "criticism/RH1/followup-receipt-v1.md",
+      "expected": "302854c361370560cbed160a4c7b68a1ea94717b79902d6deddea84afc1796ed",
+      "actual": "302854c361370560cbed160a4c7b68a1ea94717b79902d6deddea84afc1796ed",
+      "match": true
+    },
+    {
+      "path": "criticism/RH1/full-proof-report-v1.md",
+      "expected": "817870001fe750ecde337b0cb65d7e39efc5b4383a68d28779202a5d5fba888f",
+      "actual": "817870001fe750ecde337b0cb65d7e39efc5b4383a68d28779202a5d5fba888f",
+      "match": true
+    },
+    {
+      "path": "criticism/RH1/input-hashes-v1.json",
+      "expected": "8bf5088b4d42b0c0e43642bdcbbfc3ed319bbdf0366511a78a8211b6d2daf31c",
+      "actual": "8bf5088b4d42b0c0e43642bdcbbfc3ed319bbdf0366511a78a8211b6d2daf31c",
+      "match": true
+    },
+    {
+      "path": "criticism/RH1/intake-hashes-v1.json",
+      "expected": "3fe8fa587fdedb815156d1656891141e2161e1a7628a0238cc503e7e57c0ef4c",
+      "actual": "3fe8fa587fdedb815156d1656891141e2161e1a7628a0238cc503e7e57c0ef4c",
+      "match": true
+    },
+    {
+      "path": "criticism/RH1/packet-index-v1.md",
+      "expected": "6ce1474994e04f3c3b4cb61e4d4a630b5d3424f8e42b61456ea8a80a89d7c7f4",
+      "actual": "6ce1474994e04f3c3b4cb61e4d4a630b5d3424f8e42b61456ea8a80a89d7c7f4",
+      "match": true
+    },
+    {
+      "path": "criticism/RH1/parameter-scope-counterexample-v1.md",
+      "expected": "c55d6e670ddeaf925bbba4df1ac014e6fe58014dba9fd14b7fb979cfbc6db92f",
+      "actual": "c55d6e670ddeaf925bbba4df1ac014e6fe58014dba9fd14b7fb979cfbc6db92f",
+      "match": true
+    },
+    {
+      "path": "criticism/RH1/parameter-v3-recheck-v1.md",
+      "expected": "0e3e1150288d9228ad6e45279f2c41ef2d8b8a66a3ee59e3c04b27009dac4734",
+      "actual": "0e3e1150288d9228ad6e45279f2c41ef2d8b8a66a3ee59e3c04b27009dac4734",
+      "match": true
+    },
+    {
+      "path": "criticism/RH1/partial-v1.md",
+      "expected": "2f8e40f93ada9311f2f88b8ceda91ac256169289ef97825d2c2a2a608054f756",
+      "actual": "2f8e40f93ada9311f2f88b8ceda91ac256169289ef97825d2c2a2a608054f756",
+      "match": true
+    },
+    {
+      "path": "criticism/RH1/primary-source-receipt-v1.md",
+      "expected": "86b8325da1cf1eb2a44a8444ebca0d5d89f59165c5698d6c8aade500233a7c99",
+      "actual": "86b8325da1cf1eb2a44a8444ebca0d5d89f59165c5698d6c8aade500233a7c99",
+      "match": true
+    },
+    {
+      "path": "criticism/RH1/regression-review-v1.md",
+      "expected": "4d2bc08daf6dd0f1b2695f07c9cf348534386e81a0b56785fef1bff6a8a6aeed",
+      "actual": "4d2bc08daf6dd0f1b2695f07c9cf348534386e81a0b56785fef1bff6a8a6aeed",
+      "match": true
+    },
+    {
+      "path": "criticism/RH1/review-summary-v1.json",
+      "expected": "b9667ebfe15a448fe0bc9c32c2ae213186fdcc1aef2c5a1af99342dd07518783",
+      "actual": "b9667ebfe15a448fe0bc9c32c2ae213186fdcc1aef2c5a1af99342dd07518783",
+      "match": true
+    },
+    {
+      "path": "criticism/RH1/source-parameter-complexity-report-v1.md",
+      "expected": "9e3baaf1eda7dcba9d01a9268d6f648e76b4f2547b09e859c9978bffbb5aa39a",
+      "actual": "9e3baaf1eda7dcba9d01a9268d6f648e76b4f2547b09e859c9978bffbb5aa39a",
+      "match": true
+    },
+    {
+      "path": "coordinator/c8-repair/multiplier-ohcp-algorithm-v2.md",
+      "expected": "4361c90a7fa7cfe25d0ab3e8cd5c5333fb474cf1fb764375e10c29fca5102735",
+      "actual": "4361c90a7fa7cfe25d0ab3e8cd5c5333fb474cf1fb764375e10c29fca5102735",
+      "match": true
+    },
+    {
+      "path": "coordinator/c8-repair/multiplier-ohcp-proof-v9.md",
+      "expected": "e9b3023715a3d4ec90c474aba6945223aa376248b1fa216134964a5643fb4c5f",
+      "actual": "e9b3023715a3d4ec90c474aba6945223aa376248b1fa216134964a5643fb4c5f",
+      "match": true
+    },
+    {
+      "path": "coordinator/c8-repair/multiplier-ohcp-theorem-v8.md",
+      "expected": "857a62e9f4a937a80e5cb3b115c8b132abf122c16665d29b39dcb62bde86fe0a",
+      "actual": "857a62e9f4a937a80e5cb3b115c8b132abf122c16665d29b39dcb62bde86fe0a",
+      "match": true
+    },
+    {
+      "path": "workers/A/class-changing/replacement-step-v1.md",
+      "expected": "2b63914b668abc8a874c708f9c29a8f4d34f9d7337503d160df17343c9b0401c",
+      "actual": "2b63914b668abc8a874c708f9c29a8f4d34f9d7337503d160df17343c9b0401c",
+      "match": true
+    },
+    {
+      "path": "workers/A/fractional-composition/parameter-and-finite-bridge-v1.md",
+      "expected": "b7d7e0d89e84fb7ed0ea164cdec10055db0e5c3dde1309a44f2359b288132b0d",
+      "actual": "b7d7e0d89e84fb7ed0ea164cdec10055db0e5c3dde1309a44f2359b288132b0d",
+      "match": true
+    },
+    {
+      "path": "workers/F/finite-quantum-integration/finite-quantum-theorem-only-v2.md",
+      "expected": "ce7f5992b071f7d82e5e034a7dc323f69a85d0f4969afa0530603527bc7338e2",
+      "actual": "ce7f5992b071f7d82e5e034a7dc323f69a85d0f4969afa0530603527bc7338e2",
+      "match": true
+    },
+    {
+      "path": "workers/H/prime-alignment/assignment-v1.md",
+      "expected": "32524c80a4fdce8b23f6a014ec79df3abdaed82fbadc37a0ab1f889630fb8120",
+      "actual": "32524c80a4fdce8b23f6a014ec79df3abdaed82fbadc37a0ab1f889630fb8120",
+      "match": true
+    },
+    {
+      "path": "workers/H/prime-alignment/bitlength-gap-before-repair-v1.md",
+      "expected": "e5a331410725b70a076c25d7b54a7e8fc5a1316bcbba8030e9f709e98fc272ac",
+      "actual": "e5a331410725b70a076c25d7b54a7e8fc5a1316bcbba8030e9f709e98fc272ac",
+      "match": true
+    },
+    {
+      "path": "workers/H/prime-alignment/finite-command-v1.txt",
+      "expected": "daf7e1a6070a46fbbadbe189048942a6f31ba3eadd2347c5a342937ce71f97f3",
+      "actual": "daf7e1a6070a46fbbadbe189048942a6f31ba3eadd2347c5a342937ce71f97f3",
+      "match": true
+    },
+    {
+      "path": "workers/H/prime-alignment/finite-controls-v1.py",
+      "expected": "7cdab797b376664006c64ae01e36efd447aafa59150e77a03eab9e33dd198beb",
+      "actual": "7cdab797b376664006c64ae01e36efd447aafa59150e77a03eab9e33dd198beb",
+      "match": true
+    },
+    {
+      "path": "workers/H/prime-alignment/finite-input-v1.json",
+      "expected": "ad372cabbe3beeaf179f35bb731d8f79e5d21eb5f27c72123488411136866ea1",
+      "actual": "ad372cabbe3beeaf179f35bb731d8f79e5d21eb5f27c72123488411136866ea1",
+      "match": true
+    },
+    {
+      "path": "workers/H/prime-alignment/finite-report-v1.md",
+      "expected": "ae3760cb86c11ff18f117cd749fc1c6f7ffe267cf96543fed9525d6e31952dce",
+      "actual": "ae3760cb86c11ff18f117cd749fc1c6f7ffe267cf96543fed9525d6e31952dce",
+      "match": true
+    },
+    {
+      "path": "workers/H/prime-alignment/finite-resources-v1.txt",
+      "expected": "061437303c44f075adb3a3aaf349fa869f4d51bbe8f5efd248afb4c3e1edbf7e",
+      "actual": "061437303c44f075adb3a3aaf349fa869f4d51bbe8f5efd248afb4c3e1edbf7e",
+      "match": true
+    },
+    {
+      "path": "workers/H/prime-alignment/finite-stderr-v1.txt",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "match": true
+    },
+    {
+      "path": "workers/H/prime-alignment/finite-stdout-v1.json",
+      "expected": "a8905bbf62c11437dd9a79bb7b8c56dec1b9f732fd9f278b35e575438a6f3fb5",
+      "actual": "a8905bbf62c11437dd9a79bb7b8c56dec1b9f732fd9f278b35e575438a6f3fb5",
+      "match": true
+    },
+    {
+      "path": "workers/H/prime-alignment/freeze-receipt-v2.json",
+      "expected": "ff68a4da307ba2c473890173a9f8fcc1cfef54c518bf3c44249797865694e9e0",
+      "actual": "ff68a4da307ba2c473890173a9f8fcc1cfef54c518bf3c44249797865694e9e0",
+      "match": true
+    },
+    {
+      "path": "workers/H/prime-alignment/freeze-receipt-v3.json",
+      "expected": "b61217a5e695d9a1db20c937182a4ab4705f9308d85605fe0fc331ff90944def",
+      "actual": "b61217a5e695d9a1db20c937182a4ab4705f9308d85605fe0fc331ff90944def",
+      "match": true
+    },
+    {
+      "path": "workers/H/prime-alignment/gaps-and-regressions-v2.md",
+      "expected": "08aeff53fba615ddb9f25ef87967e72adf2ce23aa06df231e8409838e43cc75c",
+      "actual": "08aeff53fba615ddb9f25ef87967e72adf2ce23aa06df231e8409838e43cc75c",
+      "match": true
+    },
+    {
+      "path": "workers/H/prime-alignment/lll-source-check-v1.md",
+      "expected": "4968ec30259999b53c69aa4ed4a7bdbf57645124040e09bc737509af0aa8268a",
+      "actual": "4968ec30259999b53c69aa4ed4a7bdbf57645124040e09bc737509af0aa8268a",
+      "match": true
+    },
+    {
+      "path": "workers/H/prime-alignment/packet-hashes-v2.sha256",
+      "expected": "5878c36560e6b417ad92139c56047404c88f0a92abb8193aa58ff30d3e9325e0",
+      "actual": "5878c36560e6b417ad92139c56047404c88f0a92abb8193aa58ff30d3e9325e0",
+      "match": true
+    },
+    {
+      "path": "workers/H/prime-alignment/parameter-recheck-pointer-v3.md",
+      "expected": "ad1df2204d76ff94a48d0a0d5d0422f0cb1fb1ec884ac2e4e9b2a92080a78016",
+      "actual": "ad1df2204d76ff94a48d0a0d5d0422f0cb1fb1ec884ac2e4e9b2a92080a78016",
+      "match": true
+    },
+    {
+      "path": "workers/H/prime-alignment/parameters-v2.md",
+      "expected": "454991f1d39d8fe20937cd2da3d6fe26a4f1ec686c425044c91f7b7a10b48756",
+      "actual": "454991f1d39d8fe20937cd2da3d6fe26a4f1ec686c425044c91f7b7a10b48756",
+      "match": true
+    },
+    {
+      "path": "workers/H/prime-alignment/parameters-v3.md",
+      "expected": "c7174507a45e93a6a42f392b3ee82f3ab10c3235295c62230b521d8a8ab388fa",
+      "actual": "c7174507a45e93a6a42f392b3ee82f3ab10c3235295c62230b521d8a8ab388fa",
+      "match": true
+    },
+    {
+      "path": "workers/H/prime-alignment/proof-v1.md",
+      "expected": "0f2eb5103e3fb274a9ae87213555e7e530dc0b628b7d57a04804b28a7698a96a",
+      "actual": "0f2eb5103e3fb274a9ae87213555e7e530dc0b628b7d57a04804b28a7698a96a",
+      "match": true
+    },
+    {
+      "path": "workers/H/prime-alignment/relation-command-v1.txt",
+      "expected": "3e7663a9eb9d3886a42cddd5478153e07e823d3b30b9db965113867e30c80a69",
+      "actual": "3e7663a9eb9d3886a42cddd5478153e07e823d3b30b9db965113867e30c80a69",
+      "match": true
+    },
+    {
+      "path": "workers/H/prime-alignment/relation-controls-v1.py",
+      "expected": "a0f6e14016d4032e8976fba64b542817ec57c181c0634a09ea7298dc3c0b1f4f",
+      "actual": "a0f6e14016d4032e8976fba64b542817ec57c181c0634a09ea7298dc3c0b1f4f",
+      "match": true
+    },
+    {
+      "path": "workers/H/prime-alignment/relation-input-v1.json",
+      "expected": "de32c0f1c5fc4a81cbd0dc21ff576b14da3e3d7539e9802e6081c3d3c2865ea0",
+      "actual": "de32c0f1c5fc4a81cbd0dc21ff576b14da3e3d7539e9802e6081c3d3c2865ea0",
+      "match": true
+    },
+    {
+      "path": "workers/H/prime-alignment/relation-resources-v1.txt",
+      "expected": "ec48aab10cb35ea53984e0a6bc6375c7c04eaf5c856eb856ce60657685a58df0",
+      "actual": "ec48aab10cb35ea53984e0a6bc6375c7c04eaf5c856eb856ce60657685a58df0",
+      "match": true
+    },
+    {
+      "path": "workers/H/prime-alignment/relation-stderr-v1.txt",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "match": true
+    },
+    {
+      "path": "workers/H/prime-alignment/relation-stdout-v1.json",
+      "expected": "4e681216483cb93afaad46fb0b80df4c0bd9b02936f49f65336c2ef481715e49",
+      "actual": "4e681216483cb93afaad46fb0b80df4c0bd9b02936f49f65336c2ef481715e49",
+      "match": true
+    },
+    {
+      "path": "workers/H/prime-alignment/report-v2.md",
+      "expected": "2aee3ebe8c92f73e7b25e0927363f4c920449f23aae7303e32b9b38619ecad12",
+      "actual": "2aee3ebe8c92f73e7b25e0927363f4c920449f23aae7303e32b9b38619ecad12",
+      "match": true
+    },
+    {
+      "path": "workers/H/prime-alignment/shifted-cosets-v2.md",
+      "expected": "c9c4fdb79b4077347b38aa7db026f10fa71d7c4de2499d9db3403a118f53a068",
+      "actual": "c9c4fdb79b4077347b38aa7db026f10fa71d7c4de2499d9db3403a118f53a068",
+      "match": true
+    },
+    {
+      "path": "workers/H/prime-alignment/short-relation-v2.md",
+      "expected": "7e698507dbdfd191ac100946014293c09607908c35650d503ce2866ef74921f7",
+      "actual": "7e698507dbdfd191ac100946014293c09607908c35650d503ce2866ef74921f7",
+      "match": true
+    },
+    {
+      "path": "workers/H/prime-alignment/theorem-only-v1.md",
+      "expected": "e2265238d7240a1fae85fa952c7996e0ad7ec20bc8697870da18fca9b4c6be18",
+      "actual": "e2265238d7240a1fae85fa952c7996e0ad7ec20bc8697870da18fca9b4c6be18",
+      "match": true
+    },
+    {
+      "path": "workers/RF4/same-j-composition/assignment-v1.md",
+      "expected": "7d38b7fc6399616d0411139b09a90f59549706ffb17262af62c829272be23173",
+      "actual": "7d38b7fc6399616d0411139b09a90f59549706ffb17262af62c829272be23173",
+      "match": true
+    },
+    {
+      "path": "workers/RF4/same-j-composition/author-boundary-and-regressions-v1.md",
+      "expected": "6e4ba396a4cf7b8c37aba7ad8bda21fc94b77431d55683ac6b62c6b42cbcf712",
+      "actual": "6e4ba396a4cf7b8c37aba7ad8bda21fc94b77431d55683ac6b62c6b42cbcf712",
+      "match": true
+    },
+    {
+      "path": "workers/RF4/same-j-composition/blind-packet-hashes-v1.sha256",
+      "expected": "86bb66ba1be2b26bd7c0d4469ce975a1affacfa88069cb42886ae9277902232c",
+      "actual": "86bb66ba1be2b26bd7c0d4469ce975a1affacfa88069cb42886ae9277902232c",
+      "match": true
+    },
+    {
+      "path": "workers/RF4/same-j-composition/blind-packet-index-v1.md",
+      "expected": "fc48b94e745e71addc38f6a1924a97179a2bd8586f98b9a0b0ff5591c5ec8a72",
+      "actual": "fc48b94e745e71addc38f6a1924a97179a2bd8586f98b9a0b0ff5591c5ec8a72",
+      "match": true
+    },
+    {
+      "path": "workers/RF4/same-j-composition/consistency-v1.md",
+      "expected": "0d4bc62a6b1a9b86375143447da9d761051a759658cb62098ff6d009619381e9",
+      "actual": "0d4bc62a6b1a9b86375143447da9d761051a759658cb62098ff6d009619381e9",
+      "match": true
+    },
+    {
+      "path": "workers/RF4/same-j-composition/finite-witness-v1.md",
+      "expected": "bfbda15fbf2ea4ea019cc2e30b164f12426f7d8101bb7f4f3b40f12c738e1a63",
+      "actual": "bfbda15fbf2ea4ea019cc2e30b164f12426f7d8101bb7f4f3b40f12c738e1a63",
+      "match": true
+    },
+    {
+      "path": "workers/RF4/same-j-composition/input-hashes-v1.json",
+      "expected": "d9d000374c498bd0f29f849cf8558e3c930c7ba88dfcb2c02e66c45db91a31d3",
+      "actual": "d9d000374c498bd0f29f849cf8558e3c930c7ba88dfcb2c02e66c45db91a31d3",
+      "match": true
+    },
+    {
+      "path": "workers/RF4/same-j-composition/interface-statements-v1.md",
+      "expected": "25a78ebcc36d3cd31568f12dd36ee233490509dab8684d4656002a528bb0fab8",
+      "actual": "25a78ebcc36d3cd31568f12dd36ee233490509dab8684d4656002a528bb0fab8",
+      "match": true
+    },
+    {
+      "path": "workers/RF4/same-j-composition/packet-index-v1.md",
+      "expected": "bcb9bd8018f46d2c2853967703c09742d20e8d061dda39b612e033af57e1e7f6",
+      "actual": "bcb9bd8018f46d2c2853967703c09742d20e8d061dda39b612e033af57e1e7f6",
+      "match": true
+    },
+    {
+      "path": "workers/RF4/same-j-composition/partial-v1.md",
+      "expected": "9253f83a109e5423fbbdce3aa8dfe55aaafbc1fa62f78d2356acdf7eb363c275",
+      "actual": "9253f83a109e5423fbbdce3aa8dfe55aaafbc1fa62f78d2356acdf7eb363c275",
+      "match": true
+    },
+    {
+      "path": "workers/RF4/same-j-composition/same-j-proof-v1.md",
+      "expected": "4821d28fa205d893576b496df7f328f94a4ba111f6d634fd4b338edfea8c522d",
+      "actual": "4821d28fa205d893576b496df7f328f94a4ba111f6d634fd4b338edfea8c522d",
+      "match": true
+    },
+    {
+      "path": "workers/RF4/same-j-composition/same-j-specification-v1.md",
+      "expected": "d5f1a120bf48a90c1f1fa80029dc00ee693b7df031207d15ebff0fcda6c8cb23",
+      "actual": "d5f1a120bf48a90c1f1fa80029dc00ee693b7df031207d15ebff0fcda6c8cb23",
+      "match": true
+    },
+    {
+      "path": "workers/RF4/same-j-composition/same-j-theorem-only-v1.md",
+      "expected": "96b88a725cc5dc4f8c943275d3b8788fdb9e6ac108c72fe62b383af9614e5e62",
+      "actual": "96b88a725cc5dc4f8c943275d3b8788fdb9e6ac108c72fe62b383af9614e5e62",
+      "match": true
+    },
+    {
+      "path": "coordinator/a-frac-definitions-v1.md",
+      "expected": "29ed77d3b83a8495396b10b4bef7933e36039c397a5616aa46c77b363017515b",
+      "actual": "29ed77d3b83a8495396b10b4bef7933e36039c397a5616aa46c77b363017515b",
+      "match": true
+    },
+    {
+      "path": "coordinator/c8-repair/multiplier-ohcp-algorithm-v2.md",
+      "expected": "4361c90a7fa7cfe25d0ab3e8cd5c5333fb474cf1fb764375e10c29fca5102735",
+      "actual": "4361c90a7fa7cfe25d0ab3e8cd5c5333fb474cf1fb764375e10c29fca5102735",
+      "match": true
+    },
+    {
+      "path": "coordinator/c8-repair/multiplier-ohcp-proof-v9.md",
+      "expected": "e9b3023715a3d4ec90c474aba6945223aa376248b1fa216134964a5643fb4c5f",
+      "actual": "e9b3023715a3d4ec90c474aba6945223aa376248b1fa216134964a5643fb4c5f",
+      "match": true
+    },
+    {
+      "path": "coordinator/c8-repair/multiplier-ohcp-theorem-v8.md",
+      "expected": "857a62e9f4a937a80e5cb3b115c8b132abf122c16665d29b39dcb62bde86fe0a",
+      "actual": "857a62e9f4a937a80e5cb3b115c8b132abf122c16665d29b39dcb62bde86fe0a",
+      "match": true
+    },
+    {
+      "path": "coordinator/quantum-integration/effective-parameter-v3/certificate.md",
+      "expected": "bdc9ea7aa9ba63f59a2ed52a16ee1cdbe31334cee469364c74a1cf39fd98611d",
+      "actual": "bdc9ea7aa9ba63f59a2ed52a16ee1cdbe31334cee469364c74a1cf39fd98611d",
+      "match": true
+    },
+    {
+      "path": "coordinator/quantum-integration/effective-parameter-v3/control.py",
+      "expected": "6f09e6c5218075cb41fef696906b0a30cd73d5fb913228588ba5bd39a648f947",
+      "actual": "6f09e6c5218075cb41fef696906b0a30cd73d5fb913228588ba5bd39a648f947",
+      "match": true
+    },
+    {
+      "path": "coordinator/quantum-integration/effective-parameter-v3/freeze-receipt.json",
+      "expected": "155bfb21661feb0706c13e8b88c2a09be4d5526d9c67706bf1322dfd36f1cb7a",
+      "actual": "155bfb21661feb0706c13e8b88c2a09be4d5526d9c67706bf1322dfd36f1cb7a",
+      "match": true
+    },
+    {
+      "path": "coordinator/quantum-integration/effective-parameter-v3/input.json",
+      "expected": "b1dfcf29f9d972dcd2b7b411fdd261a2201121d3c28250d7d5206ad39b17b8aa",
+      "actual": "b1dfcf29f9d972dcd2b7b411fdd261a2201121d3c28250d7d5206ad39b17b8aa",
+      "match": true
+    },
+    {
+      "path": "coordinator/quantum-integration/effective-parameter-v3/stdout.json",
+      "expected": "464c6a248dcc27479d37a7c379e628ea727ff12a16a8bf1a7cf72506cdf9c487",
+      "actual": "464c6a248dcc27479d37a7c379e628ea727ff12a16a8bf1a7cf72506cdf9c487",
+      "match": true
+    },
+    {
+      "path": "workers/A/fractional-composition/proof-v1.md",
+      "expected": "f4c889a64173135b2e29cebeb8190f352b1d4de6ada77f37a3f7c4f3ec797af2",
+      "actual": "f4c889a64173135b2e29cebeb8190f352b1d4de6ada77f37a3f7c4f3ec797af2",
+      "match": true
+    },
+    {
+      "path": "workers/A/fractional-composition/theorem-only-v1.md",
+      "expected": "5c471744bb04c8149b0d539eaa26e1544d0ba8097b0d68ea019cabb74461b485",
+      "actual": "5c471744bb04c8149b0d539eaa26e1544d0ba8097b0d68ea019cabb74461b485",
+      "match": true
+    },
+    {
+      "path": "workers/B/ideal-denominator/gaussian-periodic-bounded-wrapper-v1.md",
+      "expected": "335f4a176331df262eda5c775a7d565e3c47fee6413d714957741c81b6087521",
+      "actual": "335f4a176331df262eda5c775a7d565e3c47fee6413d714957741c81b6087521",
+      "match": true
+    },
+    {
+      "path": "workers/B/ideal-denominator/gaussian-periodic-proof-v2.md",
+      "expected": "207a9af38eb570e2a140d88008c0f4bc363f7d3c8a72049c53bbab85798910b4",
+      "actual": "207a9af38eb570e2a140d88008c0f4bc363f7d3c8a72049c53bbab85798910b4",
+      "match": true
+    },
+    {
+      "path": "workers/B/ideal-denominator/gaussian-periodic-theorem-v2.md",
+      "expected": "be7f05d67fc8f2b24fc6b93321c95005f4d7f6e24bab513b2cbaf35c82aeaad7",
+      "actual": "be7f05d67fc8f2b24fc6b93321c95005f4d7f6e24bab513b2cbaf35c82aeaad7",
+      "match": true
+    },
+    {
+      "path": "workers/B/ideal-denominator/gaussian-periodic-v2-ceiling-addendum-v1.md",
+      "expected": "17044d83881bee69c3182ed0cdaaccf91687d4a1e173618e837350fe1ebb2e47",
+      "actual": "17044d83881bee69c3182ed0cdaaccf91687d4a1e173618e837350fe1ebb2e47",
+      "match": true
+    },
+    {
+      "path": "workers/F/finite-quantum-integration/finite-quantum-algorithm-v2.md",
+      "expected": "1ea3e1ab1c297773d591a3bd983ff278f31cdafcd459acd29076a3867ede2545",
+      "actual": "1ea3e1ab1c297773d591a3bd983ff278f31cdafcd459acd29076a3867ede2545",
+      "match": true
+    },
+    {
+      "path": "workers/F/finite-quantum-integration/finite-quantum-proof-v2.md",
+      "expected": "1430f62a7c670c682fef2cfc2b14d15f17c45e877fe3d598cc7a040cc1a69144",
+      "actual": "1430f62a7c670c682fef2cfc2b14d15f17c45e877fe3d598cc7a040cc1a69144",
+      "match": true
+    },
+    {
+      "path": "workers/F/finite-quantum-integration/finite-quantum-theorem-only-v2.md",
+      "expected": "ce7f5992b071f7d82e5e034a7dc323f69a85d0f4969afa0530603527bc7338e2",
+      "actual": "ce7f5992b071f7d82e5e034a7dc323f69a85d0f4969afa0530603527bc7338e2",
+      "match": true
+    },
+    {
+      "path": "workers/F/finite-quantum-integration/integration-addendum-v2.md",
+      "expected": "144ba40df83ab4c70f13d090c3a637a55f031fe2145dd90c06e887bf17dbd3cb",
+      "actual": "144ba40df83ab4c70f13d090c3a637a55f031fe2145dd90c06e887bf17dbd3cb",
+      "match": true
+    },
+    {
+      "path": "workers/F/finite-quantum-integration/modulus-value-addendum-v2.md",
+      "expected": "ed1b1b5c7605ac6fcac8d838f946218a9009f438a765685e354b477264cb54fd",
+      "actual": "ed1b1b5c7605ac6fcac8d838f946218a9009f438a765685e354b477264cb54fd",
+      "match": true
+    },
+    {
+      "path": "criticism/BT18/composition-report-v1.md",
+      "expected": "c8179c983f5386e743ceec46a8e132118eb205f23d60c75206a8c5ab388add43",
+      "actual": "c8179c983f5386e743ceec46a8e132118eb205f23d60c75206a8c5ab388add43",
+      "match": true
+    },
+    {
+      "path": "criticism/BT18/exposure-log-v1.md",
+      "expected": "acc833d872dc6d8c5db6e3f7b6671e5dd501b59d6e9ef5f21916fc2935f51dd1",
+      "actual": "acc833d872dc6d8c5db6e3f7b6671e5dd501b59d6e9ef5f21916fc2935f51dd1",
+      "match": true
+    },
+    {
+      "path": "criticism/BT19/report-v1.md",
+      "expected": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+      "actual": "20def92309945570aaad0059a61b4f1b39bdcc23775b6521cec616d235c1d106",
+      "match": true
+    },
+    {
+      "path": "criticism/BT19/exposure-log-v1.md",
+      "expected": "16005168960720470b6acc9a8a3d45a85782f72bd9361c68ba376c84ef2dd58e",
+      "actual": "16005168960720470b6acc9a8a3d45a85782f72bd9361c68ba376c84ef2dd58e",
+      "match": true
+    },
+    {
+      "path": "workers/H/prime-alignment/theorem-only-v1.md",
+      "expected": "e2265238d7240a1fae85fa952c7996e0ad7ec20bc8697870da18fca9b4c6be18",
+      "actual": "e2265238d7240a1fae85fa952c7996e0ad7ec20bc8697870da18fca9b4c6be18",
+      "match": true
+    },
+    {
+      "path": "workers/H/prime-alignment/proof-v1.md",
+      "expected": "0f2eb5103e3fb274a9ae87213555e7e530dc0b628b7d57a04804b28a7698a96a",
+      "actual": "0f2eb5103e3fb274a9ae87213555e7e530dc0b628b7d57a04804b28a7698a96a",
+      "match": true
+    }
+  ],
+  "count": 111,
+  "all_match": true,
+  "blind_body_copy": "BT18exactbytes; BT19complete mathematicalbodyexact, administrativeheaderexcluded",
+  "scope": "Structuralidentity only; mathematicalreconciliationseparate."
+}

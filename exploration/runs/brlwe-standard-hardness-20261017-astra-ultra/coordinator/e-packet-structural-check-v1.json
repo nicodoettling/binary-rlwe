@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-17T22:51:16.167230+00:00",
+  "checks": {
+    "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/E/fractional-extraction/assignment-v1.md": true,
+    "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/E/fractional-extraction/smallball-full-proof-review-v1.md": true,
+    "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/E/fractional-extraction/smallball-parameter-source-review-v1.md": true,
+    "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/E/fractional-extraction/pair-extraction-theorem-proof-v1.md": true,
+    "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/E/fractional-extraction/finite-pair-v1/check.py": true,
+    "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/E/fractional-extraction/finite-pair-v1/input.json": true,
+    "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/E/fractional-extraction/finite-pair-v1/stdout.json": true,
+    "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/E/fractional-extraction/finite-pair-v1/stderr.txt": true
+  },
+  "scope": "Exact byte consistency only; root independently read reports and full pair argument, no blind gate."
+}

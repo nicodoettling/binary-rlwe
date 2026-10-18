@@ -1,0 +1,4 @@
+Reservation H-ALIGN-FV1, granted by root before execution.
+Working directory: /home/nico/projects/research_projects/binaryRLWE
+timeout 120s /usr/bin/time -v -o exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/H/prime-alignment/finite-resources-v1.txt python3 exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/H/prime-alignment/finite-controls-v1.py > exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/H/prime-alignment/finite-stdout-v1.json 2> exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/H/prime-alignment/finite-stderr-v1.txt
+Internal RLIMIT_AS=268435456 bytes. Deterministic exhaustive enumeration; no seed and no floating-point mathematical assertions. A monotone wall clock and OS RSS are metadata only.

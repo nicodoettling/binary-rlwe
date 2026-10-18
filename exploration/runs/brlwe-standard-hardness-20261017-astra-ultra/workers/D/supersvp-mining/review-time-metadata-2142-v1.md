@@ -1,0 +1,1 @@
+Authoritative tool clock after the two wording/definition records was2026-10-17T21:42:18Z. Their draft headings21:43Z and21:44Z were premature rounded estimates, not actual freeze clocks. Preserve mathematical bytes/hashes; use this tool-clock metadata. The standard-source full review began after the confirmed21:42:34Z tool clock.

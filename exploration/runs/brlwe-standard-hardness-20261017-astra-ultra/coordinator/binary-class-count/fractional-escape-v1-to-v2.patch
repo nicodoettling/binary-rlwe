@@ -1,0 +1,24 @@
+--- fractional-escape-test-v1.md
++++ fractional-escape-test-v2.md
+@@ -1,6 +1,6 @@
+-# Fractional-ideal escape and its scale, first test v1
++# Fractional-ideal escape and its scale, first test v2
+ 
+-PROVISIONAL new R2 endpoint test. The frozen integral binary-collision theorem intentionally does not cover fractional ideals. This file tests one genuine escape; it does not extend that theorem by assertion and does not import the integral-only A/C theorems onto changed lattices.
++PROVISIONAL revised R2 endpoint test. The standalone v1 scale gap is preserved in fractional-scale-gap-before-v2.md; v2 adds explicit parameters and a specified radius, without changing the source law. The frozen integral binary-collision theorem intentionally does not cover fractional ideals. This file tests one genuine escape; it does not extend that theorem by assertion and does not import the integral-only A/C theorems onto changed lattices.
+ 
+ For any integral ideal I and known nonzero a in I, the fractional representative J=a^-1 I contains1. It therefore has binary collisions and the same ordinary ideal class as I. Thus the integral-class conclusion would be FALSE if its word integral were deleted. But J^-1=a I^-1 is integral: a belongs to I, so every a b with b in I^-1 is in R. A narrow Gaussian on this multiplier lattice has short ordinary integer representatives and no hidden denominator. This is an explicit endpoint issue, not a proof that all fractional representatives fail.
+ 
+@@ -31,7 +31,11 @@
+ 
+     W_J=n q/(sqrt2 d0),   d0=delta sqrt(n) w_B/(32 n k v0),   w_B<=s.
+ 
+-This extension is not accepted here. It would give W_J>= (32/sqrt2)n^(3/2)k v0 q/(delta s). To turn an output x in J into a vector of P by the available direct integral map, output p x in P H contained in P. A certified radius B_J for J becomes p B_J for P. In the desired q/s>=1 regime the displayed W_J and any ordinary Gaussian norm bound B_J are already larger than1, so the certified P radius is at least p. The public integer p itself lies in P and has coefficient norm p. Therefore this direct transfer provides only an already trivial search guarantee in that regime. It does not prove that the sampler never outputs a much shorter vector, and it does not rule out a different extraction algorithm.
++This extension is not accepted here. For this favorable scale diagnostic impose explicitly n>=2, k>=1,0<delta<=1,a>=1,v0>=2sqrt(n)*a, and q/s>=1. These are the relevant lower-bound conditions from the current chain, now stated rather than imported silently. The formulas give W_J>= (32/sqrt2)n^(3/2)k v0 q/(delta s)>=32sqrt2 n^2>1.
++
++Use the specific coordinate-tail radius B_J=W_J sqrt(n) L_tail for a chosen L_tail>=1. For an exact centered discrete Gaussian on J at coefficient width W_J, the translated Gaussian-sum maximum implies E exp(t X_i)<=exp(t^2 W_J^2/(4pi)); Chernoff and a union bound give Pr[||X||_2>B_J]<=2n exp(-pi L_tail^2). Any sampler TV error is additionally subtracted. This is the actual certified radius being discussed, not a universal claim about all possible radius bounds. Nonzero-output success is a separate obligation; zero collapse is not waived.
++
++To turn an output x in J into a vector of P by the available direct integral map, output p x in P H contained in P. The specified radius becomes p B_J>p. The public integer p itself lies in P and has coefficient norm p. Thus the search guarantee certified by this tail bound and direct clearing map is already met by a public vector. This does not prove that the sampler never outputs a much shorter vector or that a sharper extraction/radius analysis is impossible. The limited diagnosis is that these particular certified bounds do not establish a nontrivial worst-case application.
+ 
+ If H is principal with a supplied short generator f, the relation f in H contained in J also supplies a short known source test via fA in R. Choosing a hard-looking H without such advice is not a hardness foundation by itself. The candidate has exposed two separate requirements: avoid Gaussian zero collapse and extract a useful vector of the original P without paying the full rational clearing factor. Neither is solved by its exact class/containment identities.
+ 

@@ -1,0 +1,3 @@
+cd /home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/A/class-changing
+ulimit -v 262144
+/usr/bin/time -v -o finite-resources-v2.txt timeout 30s python3 finite-controls-v2.py > finite-stdout-v2.json.txt 2> finite-stderr-v2.txt

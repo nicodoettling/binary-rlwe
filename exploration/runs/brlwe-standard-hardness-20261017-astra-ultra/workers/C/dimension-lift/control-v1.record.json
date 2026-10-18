@@ -1,0 +1,20 @@
+{
+  "reservation": "C-LIFT-1",
+  "exit_code": 0,
+  "limits": {
+    "wall_seconds": 30,
+    "address_space_bytes": 268435456
+  },
+  "resources": {
+    "elapsed_seconds": 0.11648513999534771,
+    "maxrss_kib": 10240,
+    "address_space_limit_bytes": 268435456
+  },
+  "files": {
+    "control-v1.py": "614974f78fd4cdf38cf60183d5da3154c3d82aed54adf6719f9dff0d19aa6367",
+    "control-v1.command.txt": "4a272a82ee390a3908329127faf20034839363b875638243ddfff19bea503b3e",
+    "control-v1.stdout.json": "b999e612cca382956623b5e55095e7e553bb39481705efd9c8859e2be4d2a11d",
+    "control-v1.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "result": "all assertions passed; reservation released; no analytic-GRH or asymptotic certification"
+}

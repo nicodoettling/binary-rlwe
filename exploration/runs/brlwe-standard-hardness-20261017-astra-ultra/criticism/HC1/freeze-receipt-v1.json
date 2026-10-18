@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-18T00:49:55.058029+00:00",
+  "role": "independent nonauthor composition review",
+  "verdict": "FAVORABLE conditional composition; not acceptance/certification",
+  "reviewed_inputs": {
+    "same-j-theorem-only-v1.md": "96b88a725cc5dc4f8c943275d3b8788fdb9e6ac108c72fe62b383af9614e5e62",
+    "same-j-proof-v1.md": "4821d28fa205d893576b496df7f328f94a4ba111f6d634fd4b338edfea8c522d",
+    "freeze-manifest-v1.json": "ff917b85c43f1c88dcfc324981fdc8319462ee1bd66ec7cc6cb9207ff76315b3"
+  },
+  "files": {
+    "artifact-consistency-v1.md": "89e1871cc7d26d1c00c961eba8db018c25d7745ccc9462c43089a193db24e15b",
+    "assignment-v1.md": "3c500b07a7a459ebc36f78d3630c0dfa5481b32dc53a8b378b4552ebb2b80236",
+    "assignment-v1.sha256": "b124d333f87972838aab44fa582961744b53dd725c9e9798f7cf0df284523c58",
+    "finite-control-v1/command.txt": "77e0105b41cc56ed85620d10516d0538deaab6cf4a11be1e94093d213315f20c",
+    "finite-control-v1/control.py": "f6384205ac73cf6b783870877fb527540e20d1cd16def8bf9171d8bbc2f92395",
+    "finite-control-v1/input.json": "01f341db2d0bbcb852f4e73dc4cf7367015307d8cdf4f95777a2f2380244adcd",
+    "finite-control-v1/resources.txt": "6113ac3da3a772fa253e4f2631b9c3c0a8888b6c9e1e0bd85841dc0e369f8ceb",
+    "finite-control-v1/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "finite-control-v1/stdout.json": "6ee5a339083c6c6186b68ad1b1f0d783a7e17a766de16bc263a2653aa5a2f02f",
+    "full-proof-report-v1.md": "df26a1ce5dc54e9b84329f3ddd6f2c97b4cee363a2a7252b0470f952894ab412",
+    "input-hashes-v1.json": "5e2633250c0d1dae908269379d5a97dfbb92e3bd9a3ed13c37ff93bf1c080631",
+    "intake-receipt-v1.md": "574151c7108feec391d88964e88769bc914c6c0b4bd23bbaa94baf3f6177bdc9",
+    "objections-before-repair.md": "10fda3c03aa4f8445c9d87e7aa697c97af5783ca652619e934653f6ea95a34e5",
+    "partial-v1.md": "95ba58eaf5795855fb6090a5eaba12a349c00dde6ef7ef303f088114f4e905c8",
+    "report-index-v1.md": "d2d8901d54beaef8a4a323057696ae934df6299c19f4de4031fcfe11bbe18842",
+    "source-parameter-complexity-report-v1.md": "bc89e1847fbc07bbbb76c4356312c9f34b06a88fd9271be405f2994895bc11aa"
+  },
+  "experiment_active": false,
+  "reservation_active": false
+}

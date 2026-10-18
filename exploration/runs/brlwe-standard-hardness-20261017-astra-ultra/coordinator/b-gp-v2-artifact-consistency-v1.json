@@ -1,0 +1,63 @@
+{
+  "at": "2026-10-17T21:27:12.123961+00:00",
+  "files": [
+    {
+      "path": "workers/B/ideal-denominator/gaussian-periodic-theorem-v2.md",
+      "sha256": "be7f05d67fc8f2b24fc6b93321c95005f4d7f6e24bab513b2cbaf35c82aeaad7",
+      "bytes": 8081
+    },
+    {
+      "path": "workers/B/ideal-denominator/gaussian-periodic-proof-v2.md",
+      "sha256": "207a9af38eb570e2a140d88008c0f4bc363f7d3c8a72049c53bbab85798910b4",
+      "bytes": 11567
+    },
+    {
+      "path": "criticism/BT5/report-v1.md",
+      "sha256": "55eada217a335986e63b9fbabc3d618f1e4c3966f5bd6f5de029423b452e07bf",
+      "bytes": 28383
+    },
+    {
+      "path": "criticism/RF2/b-v2-encoding-recheck-v1.md",
+      "sha256": "12c7966e604388729c1e81cae31f08a062f217b9314b0fad1ef158fb2f81e320",
+      "bytes": 2982
+    },
+    {
+      "path": "criticism/RF2/b-v2-log-ceiling-recheck-v1.md",
+      "sha256": "e41bd2eeec4fe4a1e1a7f426199a9d6b2e7f6a89006520a9967997bad8da6e7f",
+      "bytes": 4322
+    },
+    {
+      "path": "criticism/RF2/full-report-v1.md",
+      "sha256": "35450dce4743f940e5a90a94e2a52564dd6c83c9f85c9f6ad1625db2989f7d81",
+      "bytes": 17688
+    },
+    {
+      "path": "criticism/RS1/b-v2-recheck-v1.md",
+      "sha256": "210ea7dd508149fb77dbedae15f157983c8af73462e965f2abbd449a65e2e5b3",
+      "bytes": 2058
+    },
+    {
+      "path": "criticism/BT5/freeze-receipt-v1.json",
+      "sha256": "c5bb9c014966ce2f7ce4b920ee4a3368fe9e2335705b4bc692674e90889c0515",
+      "bytes": 389
+    },
+    {
+      "path": "criticism/RF2/regression-review-v1.json",
+      "sha256": "a6267b27298929fd889e6e51ba578487fe4f5e304bf6b1ece766761d59fd1ca8",
+      "bytes": 160595
+    },
+    {
+      "path": "criticism/BT4/report-v1.md",
+      "sha256": "e2ef724b22e7db12b94f500d42d522b3fd2ecbfd4c8d0905f5dfbc0716f1c610",
+      "bytes": 23862
+    },
+    {
+      "path": "workers/B/ideal-denominator/gaussian-periodic-v2-ceiling-addendum-v1.md",
+      "sha256": "17044d83881bee69c3182ed0cdaaccf91687d4a1e173618e837350fe1ebb2e47",
+      "bytes": 2515
+    }
+  ],
+  "expected_hashes_match": true,
+  "report_sealed_before_disclosure": true,
+  "note": "Separate structural/link/exact-byte check only; does not certify proof correctness."
+}

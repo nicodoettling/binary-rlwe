@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261017T232853.427369Z-a84f3777",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-17T23:28:53.427392+00:00",
+  "reason": "New exact repaired pair and fixed-map versions; quantum adapter finite control underway",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 37576,
+      "sha256": "8873e88aaf27246024404abdc262eec10e7cdfafb5e33a25ddb9e5ff6921e8d7"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 2646,
+      "sha256": "d327fa3e2425159be3e95c297cedcd363928af997020752d26587e3bf112d3a9"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 2305,
+      "sha256": "e5ca5e61f1c73cf9b5b3d680399f3182db2857ae72fae443dd42f42e5a755e9a"
+    },
+    {
+      "path": "final.md",
+      "bytes": 12805,
+      "sha256": "058b130b3cd21aa516a87dcf277e2dc69c5ae6cb6466a87dada11966ddb4cd3a"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 6533,
+      "sha256": "1ddd288de520c95c345dafec0211c2b5f0b8ec83e10fb1d9dedded0eb695037c"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

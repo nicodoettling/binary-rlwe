@@ -1,0 +1,10 @@
+{
+  "source": "/home/nico/.codex/skills/mathematical-proof-audit/references/probability-regressions.md section4",
+  "states": 160,
+  "dimension": "5binary oracle values,5traces",
+  "estimated_wall_seconds": 1,
+  "estimated_memory_mib": 16,
+  "command": "timeout 30s python3 -B experiments/root_cp1_v1.py > experiments/root_cp1_v1.stdout.json 2> experiments/root_cp1_v1.stderr.txt",
+  "seed": null,
+  "precision": "Fraction exact"
+}

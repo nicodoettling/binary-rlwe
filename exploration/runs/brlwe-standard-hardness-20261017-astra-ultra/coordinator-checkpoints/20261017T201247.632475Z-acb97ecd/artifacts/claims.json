@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-17T20:12:47.619130+00:00",
+  "goal_state": "active",
+  "goal_receipt": "goal-created.json",
+  "session_id": "01a14b7b-9e45-7b70-b46d-0bf70e17f2e2",
+  "cap": {
+    "started_at": "2026-10-17T20:09:14.894509+00:00",
+    "wrapup_at": "2026-10-18T01:39:14.894509+00:00",
+    "graceful_shutdown_at": "2026-10-18T02:08:09.894509+00:00",
+    "hard_deadline_at": "2026-10-18T02:09:14.894509+00:00"
+  },
+  "worker_stop_at": "2026-10-18T01:59:14.894509+00:00",
+  "primary_foundation_achieved": false,
+  "claims": [
+    {
+      "id": "FOUNDATION-v1",
+      "status": "OPEN",
+      "statement": "Establish and critically validate a noncircular, parameter-compatible computational hardness foundation for a noisy low-dimensional ideal source sufficient for coefficient-binary rank-one RLWE recovery hardness, from standard RLWE or Order-LWE in an explicitly verified established-hardness regime, or a precisely specified standard worst-case ideal-lattice problem. Permit a modified source when its full law and downstream composition are proved. Give exact reduction direction, advantage and sample/runtime costs, classical/quantum and uniformity model, and a nonempty effective regime with a meaningful binary-secret application. Generalized lossiness, source renaming, extra unproved nonstandard premises, scoped obstructions and rederived EX-v2 are partial progress, not completion of this computational-foundation goal. Preserve honest unresolved outcomes if the six-hour cap expires.",
+      "dependencies": [
+        "HARDNESS-EDGE-v1",
+        "BINARY-COMPOSITION-v1"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "HARDNESS-EDGE-v1",
+      "status": "OPEN",
+      "statement": "An algorithm distinguishing a usable low-dimensional source yields success on a precisely specified standard RLWE/Order-LWE or worst-case ideal-lattice problem, with explicit endpoints and resources.",
+      "dependencies": [],
+      "evidence": []
+    },
+    {
+      "id": "BINARY-COMPOSITION-v1",
+      "status": "OPEN",
+      "statement": "A nontrivial parameter-compatible coefficient-binary rank-one actual-secret recovery implication under the established foundation.",
+      "dependencies": [
+        "HARDNESS-EDGE-v1"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "INHERITED-EX-v2",
+      "status": "ACCEPTED",
+      "scope": "Only unchanged exact October conditional theorem. Base2 premise remains unproved. Not yet a foundation.",
+      "dependencies": [],
+      "evidence": [
+        "intake/baseline-manifest.json",
+        "intake/october-claims-exact.json"
+      ]
+    }
+  ],
+  "acceptance_gates": {
+    "new_full_proof": "OPEN",
+    "new_source_parameter_complexity": "OPEN",
+    "new_fresh_blind": "OPEN",
+    "regressions": "intake pending",
+    "artifact_consistency": "OPEN"
+  },
+  "next_discriminating_test": "Compute B/C standard-hardness planted and comparator endpoints, with A parameter interface and D finite falsification."
+}

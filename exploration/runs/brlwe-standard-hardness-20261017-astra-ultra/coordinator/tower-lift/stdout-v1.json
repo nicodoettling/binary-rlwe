@@ -1,0 +1,549 @@
+{
+  "status": "PASS_FINITE_ENDPOINT_CONTROL",
+  "cases": 19683,
+  "trace_counterexample": {
+    "X": [
+      -3,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Pi_X": [
+      -3,
+      0
+    ],
+    "in_J": true,
+    "in_I": false
+  },
+  "roots_above_I": [
+    3,
+    5,
+    12,
+    14
+  ],
+  "uniform_comparator_projection_counts": {
+    "(0, 0)": 729,
+    "(0, 1)": 729,
+    "(0, 2)": 729,
+    "(1, 0)": 729,
+    "(1, 1)": 729,
+    "(1, 2)": 729,
+    "(2, 0)": 729,
+    "(2, 1)": 729,
+    "(2, 2)": 729
+  },
+  "finite_source_laws": [
+    {
+      "weight": "1/2",
+      "original_support_points": 385,
+      "normalizer": "241/16",
+      "full_projection_law": {
+        "(-1, -1)": "15/241",
+        "(-1, 0)": "30/241",
+        "(-1, 1)": "15/241",
+        "(0, -1)": "30/241",
+        "(0, 0)": "61/241",
+        "(0, 1)": "30/241",
+        "(1, -1)": "15/241",
+        "(1, 0)": "30/241",
+        "(1, 1)": "15/241"
+      },
+      "outside_I": "180/241",
+      "inside_I_normalizer": "61/241",
+      "TV_to_zero_rejection_conditioned_law": "180/241",
+      "expected_attempts_if_exact_finite_law_retried": "241/61"
+    },
+    {
+      "weight": "1/4",
+      "original_support_points": 385,
+      "normalizer": "7921/4096",
+      "full_projection_law": {
+        "(-1, -1)": "705/31684",
+        "(-1, 0)": "515/7921",
+        "(-1, 1)": "705/31684",
+        "(0, -1)": "515/7921",
+        "(0, 0)": "5156/7921",
+        "(0, 1)": "515/7921",
+        "(1, -1)": "705/31684",
+        "(1, 0)": "515/7921",
+        "(1, 1)": "705/31684"
+      },
+      "outside_I": "2765/7921",
+      "inside_I_normalizer": "5156/7921",
+      "TV_to_zero_rejection_conditioned_law": "2765/7921",
+      "expected_attempts_if_exact_finite_law_retried": "7921/5156"
+    }
+  ],
+  "order_table": [
+    {
+      "p": 3,
+      "conductor": 4,
+      "degree": 2,
+      "residue_degree": 2
+    },
+    {
+      "p": 3,
+      "conductor": 8,
+      "degree": 4,
+      "residue_degree": 2
+    },
+    {
+      "p": 3,
+      "conductor": 16,
+      "degree": 8,
+      "residue_degree": 4
+    },
+    {
+      "p": 3,
+      "conductor": 32,
+      "degree": 16,
+      "residue_degree": 8
+    },
+    {
+      "p": 3,
+      "conductor": 64,
+      "degree": 32,
+      "residue_degree": 16
+    },
+    {
+      "p": 3,
+      "conductor": 128,
+      "degree": 64,
+      "residue_degree": 32
+    },
+    {
+      "p": 3,
+      "conductor": 256,
+      "degree": 128,
+      "residue_degree": 64
+    },
+    {
+      "p": 3,
+      "conductor": 512,
+      "degree": 256,
+      "residue_degree": 128
+    },
+    {
+      "p": 3,
+      "conductor": 1024,
+      "degree": 512,
+      "residue_degree": 256
+    },
+    {
+      "p": 3,
+      "conductor": 2048,
+      "degree": 1024,
+      "residue_degree": 512
+    },
+    {
+      "p": 3,
+      "conductor": 4096,
+      "degree": 2048,
+      "residue_degree": 1024
+    },
+    {
+      "p": 5,
+      "conductor": 4,
+      "degree": 2,
+      "residue_degree": 1
+    },
+    {
+      "p": 5,
+      "conductor": 8,
+      "degree": 4,
+      "residue_degree": 2
+    },
+    {
+      "p": 5,
+      "conductor": 16,
+      "degree": 8,
+      "residue_degree": 4
+    },
+    {
+      "p": 5,
+      "conductor": 32,
+      "degree": 16,
+      "residue_degree": 8
+    },
+    {
+      "p": 5,
+      "conductor": 64,
+      "degree": 32,
+      "residue_degree": 16
+    },
+    {
+      "p": 5,
+      "conductor": 128,
+      "degree": 64,
+      "residue_degree": 32
+    },
+    {
+      "p": 5,
+      "conductor": 256,
+      "degree": 128,
+      "residue_degree": 64
+    },
+    {
+      "p": 5,
+      "conductor": 512,
+      "degree": 256,
+      "residue_degree": 128
+    },
+    {
+      "p": 5,
+      "conductor": 1024,
+      "degree": 512,
+      "residue_degree": 256
+    },
+    {
+      "p": 5,
+      "conductor": 2048,
+      "degree": 1024,
+      "residue_degree": 512
+    },
+    {
+      "p": 5,
+      "conductor": 4096,
+      "degree": 2048,
+      "residue_degree": 1024
+    },
+    {
+      "p": 7,
+      "conductor": 4,
+      "degree": 2,
+      "residue_degree": 2
+    },
+    {
+      "p": 7,
+      "conductor": 8,
+      "degree": 4,
+      "residue_degree": 2
+    },
+    {
+      "p": 7,
+      "conductor": 16,
+      "degree": 8,
+      "residue_degree": 2
+    },
+    {
+      "p": 7,
+      "conductor": 32,
+      "degree": 16,
+      "residue_degree": 4
+    },
+    {
+      "p": 7,
+      "conductor": 64,
+      "degree": 32,
+      "residue_degree": 8
+    },
+    {
+      "p": 7,
+      "conductor": 128,
+      "degree": 64,
+      "residue_degree": 16
+    },
+    {
+      "p": 7,
+      "conductor": 256,
+      "degree": 128,
+      "residue_degree": 32
+    },
+    {
+      "p": 7,
+      "conductor": 512,
+      "degree": 256,
+      "residue_degree": 64
+    },
+    {
+      "p": 7,
+      "conductor": 1024,
+      "degree": 512,
+      "residue_degree": 128
+    },
+    {
+      "p": 7,
+      "conductor": 2048,
+      "degree": 1024,
+      "residue_degree": 256
+    },
+    {
+      "p": 7,
+      "conductor": 4096,
+      "degree": 2048,
+      "residue_degree": 512
+    },
+    {
+      "p": 17,
+      "conductor": 4,
+      "degree": 2,
+      "residue_degree": 1
+    },
+    {
+      "p": 17,
+      "conductor": 8,
+      "degree": 4,
+      "residue_degree": 1
+    },
+    {
+      "p": 17,
+      "conductor": 16,
+      "degree": 8,
+      "residue_degree": 1
+    },
+    {
+      "p": 17,
+      "conductor": 32,
+      "degree": 16,
+      "residue_degree": 2
+    },
+    {
+      "p": 17,
+      "conductor": 64,
+      "degree": 32,
+      "residue_degree": 4
+    },
+    {
+      "p": 17,
+      "conductor": 128,
+      "degree": 64,
+      "residue_degree": 8
+    },
+    {
+      "p": 17,
+      "conductor": 256,
+      "degree": 128,
+      "residue_degree": 16
+    },
+    {
+      "p": 17,
+      "conductor": 512,
+      "degree": 256,
+      "residue_degree": 32
+    },
+    {
+      "p": 17,
+      "conductor": 1024,
+      "degree": 512,
+      "residue_degree": 64
+    },
+    {
+      "p": 17,
+      "conductor": 2048,
+      "degree": 1024,
+      "residue_degree": 128
+    },
+    {
+      "p": 17,
+      "conductor": 4096,
+      "degree": 2048,
+      "residue_degree": 256
+    },
+    {
+      "p": 41,
+      "conductor": 4,
+      "degree": 2,
+      "residue_degree": 1
+    },
+    {
+      "p": 41,
+      "conductor": 8,
+      "degree": 4,
+      "residue_degree": 1
+    },
+    {
+      "p": 41,
+      "conductor": 16,
+      "degree": 8,
+      "residue_degree": 2
+    },
+    {
+      "p": 41,
+      "conductor": 32,
+      "degree": 16,
+      "residue_degree": 4
+    },
+    {
+      "p": 41,
+      "conductor": 64,
+      "degree": 32,
+      "residue_degree": 8
+    },
+    {
+      "p": 41,
+      "conductor": 128,
+      "degree": 64,
+      "residue_degree": 16
+    },
+    {
+      "p": 41,
+      "conductor": 256,
+      "degree": 128,
+      "residue_degree": 32
+    },
+    {
+      "p": 41,
+      "conductor": 512,
+      "degree": 256,
+      "residue_degree": 64
+    },
+    {
+      "p": 41,
+      "conductor": 1024,
+      "degree": 512,
+      "residue_degree": 128
+    },
+    {
+      "p": 41,
+      "conductor": 2048,
+      "degree": 1024,
+      "residue_degree": 256
+    },
+    {
+      "p": 41,
+      "conductor": 4096,
+      "degree": 2048,
+      "residue_degree": 512
+    },
+    {
+      "p": 97,
+      "conductor": 4,
+      "degree": 2,
+      "residue_degree": 1
+    },
+    {
+      "p": 97,
+      "conductor": 8,
+      "degree": 4,
+      "residue_degree": 1
+    },
+    {
+      "p": 97,
+      "conductor": 16,
+      "degree": 8,
+      "residue_degree": 1
+    },
+    {
+      "p": 97,
+      "conductor": 32,
+      "degree": 16,
+      "residue_degree": 1
+    },
+    {
+      "p": 97,
+      "conductor": 64,
+      "degree": 32,
+      "residue_degree": 2
+    },
+    {
+      "p": 97,
+      "conductor": 128,
+      "degree": 64,
+      "residue_degree": 4
+    },
+    {
+      "p": 97,
+      "conductor": 256,
+      "degree": 128,
+      "residue_degree": 8
+    },
+    {
+      "p": 97,
+      "conductor": 512,
+      "degree": 256,
+      "residue_degree": 16
+    },
+    {
+      "p": 97,
+      "conductor": 1024,
+      "degree": 512,
+      "residue_degree": 32
+    },
+    {
+      "p": 97,
+      "conductor": 2048,
+      "degree": 1024,
+      "residue_degree": 64
+    },
+    {
+      "p": 97,
+      "conductor": 4096,
+      "degree": 2048,
+      "residue_degree": 128
+    },
+    {
+      "p": 257,
+      "conductor": 4,
+      "degree": 2,
+      "residue_degree": 1
+    },
+    {
+      "p": 257,
+      "conductor": 8,
+      "degree": 4,
+      "residue_degree": 1
+    },
+    {
+      "p": 257,
+      "conductor": 16,
+      "degree": 8,
+      "residue_degree": 1
+    },
+    {
+      "p": 257,
+      "conductor": 32,
+      "degree": 16,
+      "residue_degree": 1
+    },
+    {
+      "p": 257,
+      "conductor": 64,
+      "degree": 32,
+      "residue_degree": 1
+    },
+    {
+      "p": 257,
+      "conductor": 128,
+      "degree": 64,
+      "residue_degree": 1
+    },
+    {
+      "p": 257,
+      "conductor": 256,
+      "degree": 128,
+      "residue_degree": 1
+    },
+    {
+      "p": 257,
+      "conductor": 512,
+      "degree": 256,
+      "residue_degree": 2
+    },
+    {
+      "p": 257,
+      "conductor": 1024,
+      "degree": 512,
+      "residue_degree": 4
+    },
+    {
+      "p": 257,
+      "conductor": 2048,
+      "degree": 1024,
+      "residue_degree": 8
+    },
+    {
+      "p": 257,
+      "conductor": 4096,
+      "degree": 2048,
+      "residue_degree": 16
+    }
+  ],
+  "full_Gaussian_claim": false,
+  "hardness_claim": false,
+  "wall_seconds": 0.027291689009871334,
+  "max_rss_kib": 12288
+}

@@ -1,0 +1,14 @@
+{
+  "reservation": "A-frac-finite-1",
+  "authorized_limits": {"wall_seconds":30,"address_space_MiB":256},
+  "estimate": {"wall_seconds":15,"peak_MiB":64},
+  "ring": "Z[X]/(X^2+1)",
+  "ideal": "J=(1+X), parity lattice index2",
+  "fractional_multiplier": ["1/2","1/2"],
+  "Gaussian_base": "100/101",
+  "Gaussian_exponents": {"G":28,"H":8,"target":7,"posterior":32},
+  "truncation": {"G":12,"output":24,"H_normalizer":36},
+  "negative_control": "Dropping D from the guessing bound; nonideal lattice 2Z times Z",
+  "randomness": "none",
+  "certification_scope": "Exact algebra; outward-rounded finite sums and analytic rational tail bounds; no source-hardness experiment"
+}

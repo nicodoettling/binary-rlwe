@@ -1,0 +1,5 @@
+# Resume C9
+
+Read assignment-v1.md. Own only workers/A/c9-review for this task. Root-owned coordinator/c8-repair theorem-v8 / algorithm-v2 / proof-v9 hashes verified against freeze manifest. Original C8 defect and report are immutable. Review full exact diff and final rational test, then current dependencies/regressions; partial22:15/full22:25 UTC. No blind access, no goals/spawns, no experiment without reservation, original cap unchanged.
+
+At22:06 exact-repair-review-v1.md is complete: PASS for the current conditional pointwise classical BDD theorem/algorithm/proof. C8-FV1 resolved by the explicitly rational final test. All current hashes verified again with sha256sum -c; complete old/new diffs saved. New p_test gives eps<=d0/256, positive d_lower, and threshold in[765d0/512,771d0/512]. Existing parameter promises give an explicit finite precision bound. Old/new deterministic boundary regressions and current full dependency dispositions are in the report. No experiment was run. Deliver report/hash to root, then stop this review task; no separate quantum or standard-family acceptance is implied.

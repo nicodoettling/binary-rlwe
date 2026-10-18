@@ -1,0 +1,3 @@
+ulimit -v 131072
+/usr/bin/time -v -o resources-v1.txt timeout 30s python3 -B control-v1.py > stdout-v1.json 2> stderr-v1.txt
+Foreground cwd coordinator/tower-lift. No descendants detached.

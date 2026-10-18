@@ -1,0 +1,316 @@
+{
+  "at": "2026-10-18T00:23:13.360806+00:00",
+  "scope": "Structural exactbyte check only, NOT proof certification",
+  "checked": [
+    {
+      "path": "workers/F/finite-quantum-integration/integration-ledger-v1.md",
+      "sha256": "950419c62ea716ae699edeb31a09d6ea13d1f81fc09c02e60f75876c1e619988"
+    },
+    {
+      "path": "workers/F/finite-quantum-integration/primary-source-check-v1.md",
+      "sha256": "4305d9a180ab76d62a50716aeec236fbcf3fb91e3e402abf2f73a210f72a2b27"
+    },
+    {
+      "path": "workers/F/finite-quantum-integration/coherent-adapter-theorem-only-v1.md",
+      "sha256": "66d889b189b4193d0e07be3e9baa0b3ce78803ba824e9aedea7f622e9cada3cc"
+    },
+    {
+      "path": "workers/F/finite-quantum-integration/coherent-adapter-proof-v1.md",
+      "sha256": "b7746c86d76a664899e112a31350551498315ee2f867386294fba6f0c1e1f4f7"
+    },
+    {
+      "path": "workers/F/finite-quantum-integration/partial-v1.md",
+      "sha256": "e1f338facc15892a8a537ca8be9767dc32b8c63c40b2bce66ba5c36654222fcf"
+    },
+    {
+      "path": "workers/F/finite-quantum-integration/freeze-manifest-v1.json",
+      "sha256": "3ccb5ce6b8bbdad910c17fc147e858f2ace9b707d8a402e6dba706bd2c01671f"
+    },
+    {
+      "path": "workers/F/finite-quantum-integration/partial-v2.md",
+      "sha256": "c7bb2f6ce4ba6bcc5b67f7fa9067b27e11261fc1f73f9290f8598ad20ce72356"
+    },
+    {
+      "path": "workers/F/finite-quantum-integration/finite-quantum-theorem-only-v2.md",
+      "sha256": "ce7f5992b071f7d82e5e034a7dc323f69a85d0f4969afa0530603527bc7338e2"
+    },
+    {
+      "path": "workers/F/finite-quantum-integration/finite-quantum-algorithm-v2.md",
+      "sha256": "1ea3e1ab1c297773d591a3bd983ff278f31cdafcd459acd29076a3867ede2545"
+    },
+    {
+      "path": "workers/F/finite-quantum-integration/finite-quantum-proof-v2.md",
+      "sha256": "1430f62a7c670c682fef2cfc2b14d15f17c45e877fe3d598cc7a040cc1a69144"
+    },
+    {
+      "path": "workers/F/finite-quantum-integration/integration-addendum-v2.md",
+      "sha256": "144ba40df83ab4c70f13d090c3a637a55f031fe2145dd90c06e887bf17dbd3cb"
+    },
+    {
+      "path": "workers/F/finite-quantum-integration/modulus-value-addendum-v2.md",
+      "sha256": "ed1b1b5c7605ac6fcac8d838f946218a9009f438a765685e354b477264cb54fd"
+    },
+    {
+      "path": "workers/F/finite-quantum-integration/finite-quantum-failures-before-v2.md",
+      "sha256": "9dde12451721b934735b9808e54fb2af1e1229e561f19d04edb65f47993a2752"
+    },
+    {
+      "path": "workers/F/finite-quantum-integration/finite-experiment-report-v2.md",
+      "sha256": "140ccdc371e2448630ae9692418545ece348f00322a6556d108387cc3604263a"
+    },
+    {
+      "path": "workers/F/finite-quantum-integration/F-QFINITE-FV1-reservation.md",
+      "sha256": "3419b85c339abe8bae27edce1153ddcbc1f9908f07f6128051b599c3b1ba8c2a"
+    },
+    {
+      "path": "workers/F/finite-quantum-integration/F-QFINITE-FV1-input.json",
+      "sha256": "b3f4982027f51aa3592210c5ea647256b5f60e8cddbb1410b3d1098bbc91736a"
+    },
+    {
+      "path": "workers/F/finite-quantum-integration/F-QFINITE-FV1.py",
+      "sha256": "c14cf82ab10ac42f3e6a8571e72a6e227bc8b33b79efd4b2882286a8cc6616f6"
+    },
+    {
+      "path": "workers/F/finite-quantum-integration/F-QFINITE-FV1-command.sh",
+      "sha256": "e380b7d5e5797a3db2a3b75bcef4882dbfd71b41cb7f0aef1fb2a198ff0d9964"
+    },
+    {
+      "path": "workers/F/finite-quantum-integration/F-QFINITE-FV1.stdout",
+      "sha256": "7a2e0e7b22a255c89602bd35dfe8502ba22c0fb59ed25e3f26104dc3fdb62599"
+    },
+    {
+      "path": "workers/F/finite-quantum-integration/F-QFINITE-FV1.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "workers/F/finite-quantum-integration/F-QFINITE-FV1.resources",
+      "sha256": "e9bac96578a18d4b17ce0a6f6d966ba9d54accd2b0c1caf03d082f86249bc64b"
+    },
+    {
+      "path": "workers/F/finite-quantum-integration/packet-index-v2.md",
+      "sha256": "fb2846c659439edc7001fccee82421d083752ca7f2160ef9b3a45d2298218722"
+    },
+    {
+      "path": "workers/F/finite-quantum-integration/freeze-manifest-v2.json",
+      "sha256": "7887f7a47463d210f6ab6a350ba64325ce7269ca5132c5bfb164aae8a7c684ba"
+    },
+    {
+      "path": "workers/A/fractional-composition/theorem-only-v1.md",
+      "sha256": "5c471744bb04c8149b0d539eaa26e1544d0ba8097b0d68ea019cabb74461b485"
+    },
+    {
+      "path": "workers/A/fractional-composition/proof-v1.md",
+      "sha256": "f4c889a64173135b2e29cebeb8190f352b1d4de6ada77f37a3f7c4f3ec797af2"
+    },
+    {
+      "path": "coordinator/a-frac-definitions-v1.md",
+      "sha256": "29ed77d3b83a8495396b10b4bef7933e36039c397a5616aa46c77b363017515b"
+    },
+    {
+      "path": "workers/A/fractional-composition/parameter-and-finite-bridge-v1.md",
+      "sha256": "b7d7e0d89e84fb7ed0ea164cdec10055db0e5c3dde1309a44f2359b288132b0d"
+    },
+    {
+      "path": "workers/A/fractional-composition/polynomial-modulus-existence-v1.md",
+      "sha256": "e96f46d05a36ddae1c9662c4befe0637bf50cc09d58865a6a581cae4162fe272"
+    },
+    {
+      "path": "workers/B/ideal-denominator/gaussian-periodic-theorem-v2.md",
+      "sha256": "be7f05d67fc8f2b24fc6b93321c95005f4d7f6e24bab513b2cbaf35c82aeaad7"
+    },
+    {
+      "path": "workers/B/ideal-denominator/gaussian-periodic-proof-v2.md",
+      "sha256": "207a9af38eb570e2a140d88008c0f4bc363f7d3c8a72049c53bbab85798910b4"
+    },
+    {
+      "path": "workers/B/ideal-denominator/gaussian-periodic-v2-ceiling-addendum-v1.md",
+      "sha256": "17044d83881bee69c3182ed0cdaaccf91687d4a1e173618e837350fe1ebb2e47"
+    },
+    {
+      "path": "workers/B/ideal-denominator/gaussian-periodic-bounded-wrapper-v1.md",
+      "sha256": "335f4a176331df262eda5c775a7d565e3c47fee6413d714957741c81b6087521"
+    },
+    {
+      "path": "workers/B/ideal-denominator/fractional-bounded-composition-v1.md",
+      "sha256": "6ff55f5926ae639deb30985f009a3898a2da05e1accab4682e022c258122f225"
+    },
+    {
+      "path": "coordinator/c8-repair/multiplier-ohcp-theorem-v8.md",
+      "sha256": "857a62e9f4a937a80e5cb3b115c8b132abf122c16665d29b39dcb62bde86fe0a"
+    },
+    {
+      "path": "coordinator/c8-repair/multiplier-ohcp-algorithm-v2.md",
+      "sha256": "4361c90a7fa7cfe25d0ab3e8cd5c5333fb474cf1fb764375e10c29fca5102735"
+    },
+    {
+      "path": "coordinator/c8-repair/multiplier-ohcp-proof-v9.md",
+      "sha256": "e9b3023715a3d4ec90c474aba6945223aa376248b1fa216134964a5643fb4c5f"
+    },
+    {
+      "path": "criticism/RF4/assignment-v1.md",
+      "sha256": "99d43cef3c7081acc0d73e8db8e2d92f29c0dd0dc9dc1417f7a20e7130cead0c"
+    },
+    {
+      "path": "criticism/RF4/regression-review-v1.md",
+      "sha256": "7a5ad32194577964cf8cc03d6fdd21fa3ca025d7cda4b42b33fd32f7fc28c28b"
+    },
+    {
+      "path": "criticism/RF4/source-parameter-complexity-report-v1.md",
+      "sha256": "ad9b06ad5e3b632b793d95282bb3922e08ae7ec487d14615867b5637783b0172"
+    },
+    {
+      "path": "criticism/RF4/failures-before-controls-v1.md",
+      "sha256": "181afcdcac3c0e0c2cb1bd6264afcf5f1a08c33e853f88d8d9f0e716fa328c6e"
+    },
+    {
+      "path": "criticism/RF4/parameter-witness-read-v1-certificate.md",
+      "sha256": "116464ae6ff5651361a48cc950113b7b67a855e243634b5a512e99b9d8c02eee"
+    },
+    {
+      "path": "criticism/RF4/RF4-PARAM-FV2-command.sh",
+      "sha256": "5b6f012152fb11947329e616332d72a967ed2f3431c88afab38c90f66f8fadd5"
+    },
+    {
+      "path": "criticism/RF4/full-proof-report-v1.md",
+      "sha256": "e22ca6820e4e1db074a6d08f46589648468b6ea3f9578ffeb3b92bf3512ae2e0"
+    },
+    {
+      "path": "criticism/RF4/RF4-PARAM-FV2.py",
+      "sha256": "a430cac197a32c3efa15b3248b9c71189d59915dcae5169940d7cf3b41646b10"
+    },
+    {
+      "path": "criticism/RF4/parameter-witness-read-hashes-v1.json",
+      "sha256": "40c9f94ac5aab80e284e18bfbb21571d89d4877961125c9c829db689f56a60b8"
+    },
+    {
+      "path": "criticism/RF4/parameter-witness-review-v3.md",
+      "sha256": "5314d5f93a7433b5b650101c82a64cc950f23056497cdb95aa6e958149ea0c2f"
+    },
+    {
+      "path": "criticism/RF4/packet-index-v1.md",
+      "sha256": "7f0a2a73b02f56e0ba5f13264f9293e0c3879535c279cd9ea36126e160ae3345"
+    },
+    {
+      "path": "criticism/RF4/RF4-PARAM-FV2-input.json",
+      "sha256": "6d2dbeee0677873ac77e8983cd8226d64458046438b6ee5dd1fcebf05443a8b3"
+    },
+    {
+      "path": "criticism/RF4/regressions-read-snapshot-v1.json",
+      "sha256": "f42243ccb78ea26be4cbedad12c638cfff055e5961d8f3872bc3431fc4caa370"
+    },
+    {
+      "path": "criticism/RF4/RF4-PARAM-FV2.resources",
+      "sha256": "d27e6a04515c30c96cff2b0eceb015ff648dd67b4e3d536ac353dd46f929b17f"
+    },
+    {
+      "path": "criticism/RF4/review-summary-v1.json",
+      "sha256": "f1b483754a97531bd9230dd3996907af7d5dc526bafa6d1f8705f72b42c2c20a"
+    },
+    {
+      "path": "criticism/RF4/RF4-FV1-command.sh",
+      "sha256": "2633a494145e4d375d3b1fd92408ef837856fae87425efd2e73b2442e302e30b"
+    },
+    {
+      "path": "criticism/RF4/RF4-PARAM-FV2.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "criticism/RF4/parameter-witness-read-v1-input.json",
+      "sha256": "b1dfcf29f9d972dcd2b7b411fdd261a2201121d3c28250d7d5206ad39b17b8aa"
+    },
+    {
+      "path": "criticism/RF4/assignment-v1.md",
+      "sha256": "99d43cef3c7081acc0d73e8db8e2d92f29c0dd0dc9dc1417f7a20e7130cead0c"
+    },
+    {
+      "path": "criticism/RF4/parameter-witness-encoding-observation-v1.md",
+      "sha256": "f24b745459e714ec3539916c3a51637cb98bd95561dff622e2e4d2d15e9bd4b8"
+    },
+    {
+      "path": "criticism/RF4/RF4-PARAM-FV2-reservation.md",
+      "sha256": "b05b51d794a5758a1444cd4a6387264f52bd6b4f9a45f47f1ed8c750569b4b3f"
+    },
+    {
+      "path": "criticism/RF4/artifact-audit-v1.py",
+      "sha256": "da8ba5740236a368f95ae4f9bc564f2737b6d26aaf1df75358fc7b586070b775"
+    },
+    {
+      "path": "criticism/RF4/partial-v1.md",
+      "sha256": "0b11721b71eb70d0ef03fdc38ead0b06c7418621675612130190af5ae17aa757"
+    },
+    {
+      "path": "criticism/RF4/parameter-witness-gap-before-recheck-v1.md",
+      "sha256": "809b42c422f704cdd381bcdee0692e3000c631b1c9326cc931b228746f49527a"
+    },
+    {
+      "path": "criticism/RF4/RF4-FV1-input.json",
+      "sha256": "51f8dd83f0a0123a13212d5375443f6fe17a9d8fce97f2847334084b1fcf0555"
+    },
+    {
+      "path": "criticism/RF4/RF4-FV1.py",
+      "sha256": "3df0eddb58cddc69ec9da7618897cb317cb32c272b0622f455cbc65b71a837ae"
+    },
+    {
+      "path": "criticism/RF4/parameter-witness-read-v1-stdout.json",
+      "sha256": "f43ef1de60028ad21e006cb70af4a2ce3abd6379447de79af82cb6fa2c0fce41"
+    },
+    {
+      "path": "criticism/RF4/parameter-witness-read-v1-resources.json",
+      "sha256": "2c40136f9c75a0815f0188d81a143b6fdc4e2e07a9eb48b2412a31330d9b96e1"
+    },
+    {
+      "path": "criticism/RF4/RF4-FV1-reservation.md",
+      "sha256": "6233e7d09a8918b0459fcd82f806894a0f7a53f36afdd61f89d58a943ee4e547"
+    },
+    {
+      "path": "criticism/RF4/RF4-FV1.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "criticism/RF4/RF4-FV1.resources",
+      "sha256": "00997c000349aae1abb2c575df9725b89919a4d3e7491a998858e4ad4d81efb3"
+    },
+    {
+      "path": "criticism/RF4/RF4-FV1.stdout",
+      "sha256": "26240b06fb65102304e2e40d1192039e529cb6d035ee4a3f2b47184827fbd943"
+    },
+    {
+      "path": "criticism/RF4/parameter-witness-read-v1-control.py",
+      "sha256": "8445543d0d9f154802fcb18f42238b7389944da0504cc55d1e7fa45e40b7c430"
+    },
+    {
+      "path": "criticism/RF4/RF4-PARAM-FV2.stdout",
+      "sha256": "a47ca02eae175f8c470c6b7fb52b8aa00ae58246f13acc5d33c7a62d6ec268fb"
+    },
+    {
+      "path": "criticism/BT17/blind-report-v1.md",
+      "sha256": "00d01d1afae48696b1e75cdc86d5d69ec8b998e73f0c79f9b58630dfd04ed143"
+    },
+    {
+      "path": "criticism/BT17/exposure-record-v1.md",
+      "sha256": "819170062ec0e53b77c252af1f09a78b541f6bbde59cdf119ea3aaf45077e605"
+    },
+    {
+      "path": "criticism/BT17/input-hashes-v1.sha256",
+      "sha256": "5509f5fd8f3e35b2ce2174e4181b1309ae55c6087f7fece38c637ad8e519fc16"
+    },
+    {
+      "path": "criticism/BT17/freeze-receipt-v1.sha256",
+      "sha256": "71b7c1ad5ce5336bdf3364fc52758ebb3b7b7fee3e87a9d7afe16fc810efc532"
+    },
+    {
+      "path": "criticism/RF4/packet-hashes-v1.sha256",
+      "sha256": "b57ae318cd11584c69ac9a59547e8c7d14d8c5b18e36a203b58be2b8d70cd46b"
+    },
+    {
+      "path": "coordinator/quantum-integration/f-qfinite-full-review-v2.md",
+      "sha256": "84fe1128314780b66bf058a08b84eff4c0a1ab564f9ae4acccecd6ed7f51dc76"
+    },
+    {
+      "path": "coordinator/quantum-integration/f-qfinite-regression-gate-v2.json",
+      "sha256": "7b0ff7292cbe8ab58024a9a82688e60da7355a83bdf1d31df5aa9cb052afce79"
+    }
+  ],
+  "all_match": true,
+  "blind": "BT17 full report hash matches pre-disclosure receipt; exposure record clean; complete report read by root."
+}

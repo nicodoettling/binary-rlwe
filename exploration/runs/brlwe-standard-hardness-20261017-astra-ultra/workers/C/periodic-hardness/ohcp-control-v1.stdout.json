@@ -1,0 +1,100 @@
+{
+  "reservation": "C-OHCP-1",
+  "method": "exhaustive exact integer/Fraction/Q(sqrt2) comparisons; no random seed",
+  "dimension": 4,
+  "coefficient_box": [
+    -2,
+    2
+  ],
+  "ideal_controls": [
+    {
+      "ideal_norm": 1,
+      "root": 0,
+      "q": 17,
+      "gcd": 1,
+      "chain_compatible": true,
+      "nonzero_box_members": 624,
+      "minimum_absolute_norm": 1,
+      "exact_weighted_norm_inequalities": 1872
+    },
+    {
+      "ideal_norm": 17,
+      "root": 2,
+      "q": 17,
+      "gcd": 17,
+      "chain_compatible": false,
+      "nonzero_box_members": 32,
+      "minimum_absolute_norm": 17,
+      "exact_weighted_norm_inequalities": 96
+    },
+    {
+      "ideal_norm": 17,
+      "root": 2,
+      "q": 5,
+      "gcd": 1,
+      "chain_compatible": true,
+      "nonzero_box_members": 32,
+      "minimum_absolute_norm": 17,
+      "exact_weighted_norm_inequalities": 96
+    },
+    {
+      "ideal_norm": 41,
+      "root": 3,
+      "q": 17,
+      "gcd": 1,
+      "chain_compatible": true,
+      "nonzero_box_members": 16,
+      "minimum_absolute_norm": 41,
+      "exact_weighted_norm_inequalities": 48
+    }
+  ],
+  "shift_controls": [
+    {
+      "p": 17,
+      "q": 17,
+      "r_cases": 81,
+      "lambda_numerators": [
+        8,
+        4,
+        2,
+        1
+      ],
+      "denominator": 17,
+      "includes_zero_negative_nonunits": true
+    },
+    {
+      "p": 17,
+      "q": 5,
+      "r_cases": 81,
+      "lambda_numerators": [
+        8,
+        4,
+        2,
+        1
+      ],
+      "denominator": 17,
+      "includes_zero_negative_nonunits": true
+    },
+    {
+      "p": 41,
+      "q": 17,
+      "r_cases": 81,
+      "lambda_numerators": [
+        27,
+        9,
+        3,
+        1
+      ],
+      "denominator": 41,
+      "includes_zero_negative_nonunits": true
+    }
+  ],
+  "completion_identity_cases": 108,
+  "tail": "finite exhaustive algebraic control; no numerical Gaussian truncation or unproved tail estimate",
+  "assertions": "passed",
+  "resources": {
+    "elapsed_seconds": 0.040858793014194816,
+    "maxrss_kib": 11264,
+    "address_space_limit_bytes": 268435456
+  }
+}

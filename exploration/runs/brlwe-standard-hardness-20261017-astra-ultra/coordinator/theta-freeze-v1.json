@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-17T20:21:00.729874+00:00",
+  "theorem": "workers/D/ideal-theta-theorem-only-v1.md",
+  "theorem_sha256": "20af29016bcedca64b4cad0da407f543f1730ce32512aac9d98b568da8bbc5cd",
+  "proof": "workers/D/ideal-theta-proof-v1.md",
+  "proof_sha256": "c712507363792b3e4a525ab672800e5e01fdd7d489ac2a0d56dbb0bd8b0c0e60",
+  "blind_theorem": "criticism/BT1/input/theorem-only-v1.md",
+  "blind_theorem_sha256": "6eda9e0b34f25f54372b19bfcdbd2cdbb30b92a9643039d063b45de8d685eb54",
+  "blind_difference": "Only the nonmathematical Status paragraph was removed; all mathematical bytes retained in order.",
+  "blind_review_not_started": true
+}

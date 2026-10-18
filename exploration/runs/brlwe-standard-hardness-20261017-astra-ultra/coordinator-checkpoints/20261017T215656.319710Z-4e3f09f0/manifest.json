@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261017T215656.319710Z-4e3f09f0",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-17T21:56:56.319735+00:00",
+  "reason": "Reconcile current narratives and freeze C7 standalone exact review state",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 25322,
+      "sha256": "b5d516686f32443e8f615b12d00ffe248aa378c7b8a60ed40d9f44ff6998a945"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 2005,
+      "sha256": "066b17dd43b3d8240839d048e7cd532c7ebc696348831a63c36a568b4339038d"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 1285,
+      "sha256": "506eed815b21a111456503050a2e85a982312ee3821bf7e491abd24ec06daa32"
+    },
+    {
+      "path": "final.md",
+      "bytes": 10373,
+      "sha256": "745a8ae98e2d90e24fbe96a570bde88e9ba7e0597e99ca237796cfbdb4a2346b"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 13529,
+      "sha256": "e5896707e310a82f814f9a98ca5f1a04843fcce94201299a74ab09e3adba345f"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

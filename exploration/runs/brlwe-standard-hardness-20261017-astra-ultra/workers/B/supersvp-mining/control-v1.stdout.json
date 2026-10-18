@@ -1,0 +1,79 @@
+{
+  "all_checks_passed": true,
+  "annihilator_count": 5,
+  "elapsed_seconds": 0.07124558504438028,
+  "extraction": [
+    {
+      "chi2": "280/81",
+      "chi2_upper": "40/9",
+      "exact_crt_formula": "280/81",
+      "false_product_of_means": "123760/6561",
+      "h": 1,
+      "joint_tv_one": "88/125",
+      "joint_tv_two": "14128/15625",
+      "keys": 25,
+      "sources_per_key": 9,
+      "two_output_chi2": "247664/6561"
+    },
+    {
+      "chi2": "3608/6561",
+      "chi2_upper": "88/81",
+      "exact_crt_formula": "3608/6561",
+      "false_product_of_means": "60361840/43046721",
+      "h": 2,
+      "joint_tv_one": "275288/1265625",
+      "joint_tv_two": "84869488/284765625",
+      "keys": 625,
+      "sources_per_key": 81,
+      "two_output_chi2": "50024144/14348907"
+    }
+  ],
+  "false_two_universal_collision": "1/25",
+  "hash_evaluations": 50850,
+  "max_rss_kib": 11264,
+  "n": 2,
+  "precision": "exact Python integers and Fraction; floats only in resource timing",
+  "projection_collisions": {
+    "1": "17/81",
+    "2": "17/81",
+    "3": "1/9"
+  },
+  "q": 5,
+  "retained_source_graph_advantage_one": "24/25",
+  "retained_source_graph_advantage_two": "624/625",
+  "roots": [
+    2,
+    3
+  ],
+  "seed": null,
+  "selected_zero_key_tv": "24/25",
+  "source": "iid uniform coefficient ternary",
+  "transported_trapdoor_product": [
+    [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ]
+  ],
+  "triangular_bijection_points": 5625,
+  "zero_divisor": [
+    3,
+    1
+  ],
+  "zero_divisor_collision": "1/5"
+}
