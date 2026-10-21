@@ -1,0 +1,9 @@
+# Nonauthor B review assignment receipt
+
+Received from root after A's first-test packet, 2026-10-21 05:58 UTC:
+
+> Please now perform NONAUTHOR full-proof/source/parameter/complexity review of B-CUBE-THETA-v1. Read workers/B/theorem-only-v1.md, proof-v1.md, exact-test-v1.py/output/resources, concrete-family-v1.md and downstream-compatibility-v1.md. Historical exact A-FRAC/same-J/C8 statements and acceptance records are allowed. Main gate target is cube-image/full-observation theorem; separately assess the norm289 example and changed-premise composition, preserving those as distinct scopes if review incomplete. Write only workers/A/b-review/. Freeze exact input hashes, full report and source/complexity disposition; do not issue acceptance or read blind directories. Recheck zero/metadata/normalizers, proof-only geometry, explicit efficient source test, polynomial bit/value distinction and all current regression relevance. Return by06:14UTC if feasible so the programme gate can use actual findings. No further experiments without reservation.
+
+Eleven exact B input files were copied into `input-v1/` and hashed in `input-hashes-v1.sha256` before the substantive review. This is a nonauthor review, not a blind review. No blind directories, prompts, reports or agent state have been read. Historical accepted exact interfaces and their public acceptance records are allowed dependencies; old provisional banners are interpreted through those records. The reviewer first opened obsolete C8 theorem-v7 while locating the file, then explicitly read the current coordinator/c8-repair theorem-v8 and current acceptance record. No finding relies on the rejected v7 final-threshold rule.
+
+No new final acceptance is issued by this reviewer. Root retains reconciliation authority. A separate finite family recurrence test was requested from root and will be run only if reserved.

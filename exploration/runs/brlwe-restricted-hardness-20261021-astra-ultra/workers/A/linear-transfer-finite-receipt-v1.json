@@ -1,0 +1,22 @@
+{
+  "experiment_id": "A-LIN-FV1",
+  "reservation": "Root reserved at 2026-10-21 05:54 UTC; released after successful bounded execution",
+  "command_file": "linear-transfer-finite-command-v1.txt",
+  "input_file": "linear-transfer-finite-input-v1.json",
+  "code_file": "linear-transfer-finite-v1.py",
+  "stdout_file": "linear-transfer-finite-stdout-v1.json",
+  "stderr_file": "linear-transfer-finite-stderr-v1.txt",
+  "resources_file": "linear-transfer-finite-resources-v1.txt",
+  "exit_code": 0,
+  "stderr_empty": true,
+  "elapsed_seconds_gnu_time": 0.18,
+  "max_rss_kib": 12288,
+  "limits": {"wall_seconds": 120, "cpu_seconds": 110, "address_space_bytes": 268435456},
+  "precision": "exact integer; no floats",
+  "randomness": "none; seeds are deterministic case indices",
+  "tail_truncation": "none; explicit finite sources, expressly not discrete Gaussians",
+  "map_checks": 86,
+  "semilinear_component_checks": 240,
+  "uniform_quotient_inputs": 13747,
+  "scope": "Finite identities, containment, norm certificate, direct target extraction, uniform image fibers and retained finite-source zero mass only; not infinite-Gaussian or asymptotic certification"
+}

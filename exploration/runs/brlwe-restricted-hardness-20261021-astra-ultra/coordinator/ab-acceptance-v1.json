@@ -1,0 +1,43 @@
+{
+  "at": "2026-10-21T06:29:20.118945+00:00",
+  "claims": {
+    "M2-TRANSFER-v1": {
+      "theorem": "workers/A/linear-transfer-theorem-v1.md",
+      "proof": "workers/A/linear-transfer-proof-v1.md",
+      "full_review": "coordinator/reviews-A/full-proof-review-v1.md",
+      "source_review": "coordinator/reviews-A/source-complexity-review-v1.md",
+      "scope": "Exact deterministic decomposition of supplied integral linear T:S->R with T(J) subset I, prime I/J, ordinary coefficient norms. No effective T construction, rational/nonlinear/adaptive extension, Gaussian law transfer or hardness theorem.",
+      "sha256": {
+        "theorem": "0e6357f15a990b9b98abec66470cb105be146664641a1d6daf66d0861ca3d18b",
+        "proof": "5d917465a7a02265b555a5760cd2755e0a6de6d870cb43396bbffccac449fcd6",
+        "full_review": "53df329516e12265ce5650578620b8c9c53d716a0d6fa95a0c6646b582c7afc4",
+        "source_review": "9209dd1e65ea3607db3863c7c9df2dfc1510406ea2545bb2ed4615088a441d3d"
+      },
+      "blind_review": "criticism/FBR1/report-v1.md",
+      "blind_report_sha256": "8f1cc5e9d8b96acb0a74ba5f10e26b330565f4cae372bd2825fa8012e4ef50fe",
+      "blind_exposure": "criticism/FBR1/exposure-log-v1.md",
+      "regression_gate": "coordinator/regression-gate-v2.json",
+      "accepted_at": "2026-10-21T06:29:20.118945+00:00"
+    },
+    "M3-ENTROPY-v1": {
+      "theorem": "workers/B/theorem-only-v1.md",
+      "proof": "workers/B/proof-v1.md",
+      "full_review": "workers/A/b-review/full-report-v1.md",
+      "source_review": "workers/A/b-review/source-complexity-v1.md",
+      "scope": "Exact full unwrapped binary-plus-independent-ideal-Gaussian guessing bound T1/T2 and proof-only collision geometry. No efficient C_J/collision computation, explicit-family hardness, or changed-premise same-J composition.",
+      "sha256": {
+        "theorem": "6e71289b7e9979ad169d1008d2e40f2cdb3f09f1bd7a29b48e41c90431e6becd",
+        "proof": "0b67d511c9bfc43f5a7fdbc51102f983471a1095bd0612efcd66ee82395c6fab",
+        "full_review": "dc4dda3de164397004444bf32d405e6d46f59fbfb9a1b8925394c318b1ee9ba3",
+        "source_review": "de7e3bb333091439aed1fb263b4cfdb0338c213bb281a7ac2a117cbb687415e0"
+      },
+      "blind_review": "criticism/FBR1/report-v1.md",
+      "blind_report_sha256": "8f1cc5e9d8b96acb0a74ba5f10e26b330565f4cae372bd2825fa8012e4ef50fe",
+      "blind_exposure": "criticism/FBR1/exposure-log-v1.md",
+      "regression_gate": "coordinator/regression-gate-v2.json",
+      "accepted_at": "2026-10-21T06:29:20.118945+00:00"
+    }
+  },
+  "same_model_limitation": "Correlated scrutiny, not statistical independence or formal verification",
+  "foundation_achieved": false
+}

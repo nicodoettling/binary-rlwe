@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-21T06:51:26.044052+00:00",
+  "work_package_status": "complete diagnostic delivery; early close after scoped tests and reviews",
+  "computational_foundation_achieved": false,
+  "native_goal_status": "active unfinished",
+  "native_goal_receipt": "coordinator/goal-usage-final.json",
+  "objective_preserved": true,
+  "worker_state": {
+    "observed_running_workers": 0,
+    "last_actual_list_at": "2026-10-21T06:44:03.593Z",
+    "actual_list_response": {
+      "agents": [
+        {
+          "agent_name": "/root",
+          "agent_status": "running"
+        },
+        {
+          "agent_name": "/root/restricted_fbr2",
+          "agent_status": {
+            "completed": "Sealed at **2026-10-21 06:40:14 UTC**, before disclosing findings.\n\n**Verdict: no blocking defect found.** All five parts admit an independent reconstruction under their explicit promises. The report supplies a bounded scalar bit sampler, complete normalizer/error analysis, polynomial bit-length bounds, the short-element basis construction, family arithmetic, and adaptive classical composition.\n\nOne proof detail merits attention: `W > 4n\u221an` alone does not establish the family\u2019s `W > 12n` requirement at `n=4`; the stronger stated parameter bounds establish it easily.\n\nArtifacts:\n\n- [Full report](./exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/criticism/FBR2/report-v1.txt)\n- [Exposure log](./exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/criticism/FBR2/exposure-v1.txt)\n- [Seal with complete input and artifact hashes](./exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/criticism/FBR2/seal-v1.json)\n\nReport SHA-256: `28949fb406a8d39a40e71ce18acdf849db91efff7cec3e99ac46c522b7ca1442`.\n\nThe three-file read boundary remained intact. No experiments, external retrieval, children, goals, or settings operations occurred. Same-model review remains correlated and is not formal verification."
+          }
+        },
+        {
+          "agent_name": "/root/restricted_rfr2",
+          "agent_status": {
+            "completed": "RFR2 review is frozen. The repaired prime/congruence prerequisite closes the preserved defect; no remaining load-bearing flaw was found in theorem-v2/proof-v3. No worker ACCEPT issued.\n\n- [Full report](/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/criticism/RFR2/report-v1.md)\n- [Source and complexity review](/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/criticism/RFR2/source-complexity-v1.md)\n- [Seal and input hashes](/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/criticism/RFR2/seal-v1.json)\n\nThe optional remaining-family audit passes mathematically; its old dependency label needs reconciliation. No experiments launched or FBR2 findings exposed."
+          }
+        }
+      ]
+    },
+    "all_five_worker_roles_returned": true
+  },
+  "experiments": {
+    "completed": 6,
+    "active_reservations": [],
+    "registry": "experiments/registry.json"
+  },
+  "external_service": {
+    "cap_status_file": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/run.log.brlwe-restricted-hardness-20261021-astra-ultra.cap-status.json",
+    "reported_state": "running",
+    "sidecar_updated_at": "2026-10-21T05:34:44.978082+00:00",
+    "read_at": "2026-10-21T06:51:26.044052+00:00",
+    "external_cleanup_observed": false,
+    "launcher_exit_observed": false,
+    "coordinator_process_exit_observed": false
+  },
+  "deadlines": {
+    "start": "2026-10-21T05:34:44.878177+00:00",
+    "decision": "2026-10-21T06:19:44.878177+00:00",
+    "discovery_stop": "2026-10-21T07:49:44.878177+00:00",
+    "worker_experiment_stop": "2026-10-21T08:19:44.878177+00:00",
+    "final_checkpoint": "2026-10-21T08:29:44.878177+00:00",
+    "graceful": "2026-10-21T08:33:39.878177+00:00",
+    "hard": "2026-10-21T08:34:44.878177+00:00"
+  },
+  "automatic_successor_scheduled": false,
+  "scheduled_owned_work": [],
+  "no_restart_or_goal_pause_requested": true,
+  "usage_delta": "coordinator/goal-usage-delta.json",
+  "final_native_token_delta_at_receipt": 958817
+}

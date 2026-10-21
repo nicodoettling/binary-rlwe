@@ -1,0 +1,5 @@
+Recorded 2026-10-21T06:24:05.382015+00:00, before repair. Clean FBR1 report SHA2568f1cc5e9d8b96acb0a74ba5f10e26b330565f4cae372bd2825fa8012e4ef50fe was verified before reading.
+
+Theorem-only-v1 omits an explicit prime/coprime requirement from its displayed same-J parameter assumptions. n4,k=chi=delta=1,ell3,sigma20736,q82944 satisfies all those displayed numerical constraints but3 dividesq. The inherited exact RF4 same-J theorem requires primeq congruent1mod2n, so this is an underspecified self-contained statement/packet, not a counterexample to that inherited theorem or to classical DGS simulation. The phrase rest of same-J hypotheses is insufficient for blind certification.
+
+Reject theorem-only-v1 as the standalone version to accept. Preserve every prior byte and report. The repair must state primeq and its congruence explicitly, update the proof cross-reference, obtain fresh exact full/source and fresh blind review, and recheck arithmetic controls. No accepted new dependent exists. A/B main theorems do not depend on this modulus clause and remain independently reviewable.

@@ -1,0 +1,39 @@
+{
+  "status": "PROVISIONAL",
+  "original_computational_foundation": "OPEN",
+  "claims": [
+    {
+      "id": "B-CUBE-THETA-v1",
+      "statement": "Exact cube-image lower bound and Gaussian-envelope upper bound for full unwrapped binary guessing, for every full-rank subgroup of Z^n and every positive t,r.",
+      "status": "PROVISIONAL",
+      "dependencies": ["actual joint Gaussian guessing identity", "Poisson centered theta maximum and monotone centered theta ratio"],
+      "evidence": ["theorem-only-v1.md", "proof-v1.md", "exact-test-v1-output.json"],
+      "regressions": ["regression-dispositions-v1.md", "B-FV1"],
+      "downstream": ["B-COLLISION-GEOMETRY-v1", "B-17-BLOCK-v1", "B-CUBE-COMPAT-v1"]
+    },
+    {
+      "id": "B-COLLISION-GEOMETRY-v1",
+      "statement": "A binary collision in an integral power-two cyclotomic ideal yields a nonzero ternary element, norm root at most sqrt(n), and an existential basis of operator norm at most n^2.",
+      "status": "PROVISIONAL",
+      "dependencies": ["A-FRAC primitive-flag basis construction", "cyclotomic Parseval and field multiplication"],
+      "evidence": ["theorem-only-v1.md", "proof-v1.md"],
+      "scope": "No efficient collision finder or basis constructor without the witness is supplied."
+    },
+    {
+      "id": "B-17-BLOCK-v1",
+      "statement": "Norm289 degree-eight principal ideal has176 binary images; orthogonal lifts give exponential full-observation lossiness above index2^n, while public source and delivered DGS are easy.",
+      "status": "PROVISIONAL",
+      "dependencies": ["B-CUBE-THETA-v1", "B-FV1 exact cube count", "A-FRAC actual Gaussian MGF", "M1 classical sampler for delivered-DGS statement"],
+      "evidence": ["concrete-family-v1.md", "exact-test-v1-output.json"],
+      "scope": "Information-only control; not a standard-hardness family."
+    },
+    {
+      "id": "B-CUBE-COMPAT-v1",
+      "statement": "Candidate replacement of same-J index-based beta by cube-image beta preserves the stated A/B/C/finite-quantum parameter and endpoint ledger when its positive-gap premise holds.",
+      "status": "PROVISIONAL",
+      "dependencies": ["B-CUBE-THETA-v1", "B-COLLISION-GEOMETRY-v1", "unchanged RF4-SAMEJ-v1 exact interfaces"],
+      "evidence": ["downstream-compatibility-v1.md"],
+      "scope": "No accepted extension of RF4-SAMEJ-v1 or standard computational foundation is declared."
+    }
+  ]
+}

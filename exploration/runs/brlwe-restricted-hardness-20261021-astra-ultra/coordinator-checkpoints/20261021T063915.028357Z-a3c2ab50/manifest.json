@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261021T063915.028357Z-a3c2ab50",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-21T06:39:15.028379+00:00",
+  "reason": "RFR2 complete; clean FBR2 sealing; no active experiments",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 30008,
+      "sha256": "51b3d38ee281a21521343da78e7023bc6f91851eeebe0d9ab816347dbc4a67a4"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 2470,
+      "sha256": "572f2062ad5f6362ff842f534112446c2a643b94d01800ea72d035e63715a12d"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 2917,
+      "sha256": "8601909ca2ca7fdbcd4e104fa1ad9030979a2ed7331e299df27df5ec735df475"
+    },
+    {
+      "path": "final.md",
+      "bytes": 2559,
+      "sha256": "d7222a51edb058ed94f2c7950178002958929221770b73a163af84472d947917"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 1948,
+      "sha256": "8e4c9b9f27b226a0185df2b37cf2a51c3723c73921a28dd3e8254f343b89cc0d"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

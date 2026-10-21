@@ -1,0 +1,297 @@
+FBR2 BLIND REFEREE REPORT, VERSION 1
+Target: “M1 classical simulation criterion, v2”
+
+VERDICT
+
+I found no blocking mathematical defect in the supplied theorem. Under its stated input, width, ideal, and conditional-reference promises, all five numbered parts admit the reconstruction below. In particular, the finite bit implementation can be supplied without enumerating an interval whose numerical size is proportional to the Gaussian width. The stated exponential-index example is valid. These are sufficient simulation criteria and do not establish a hardness theorem.
+
+This is an independent, blind, same-model review, not formal verification. I used only assignment-v1.md, input/theorem-v2.md, and input/definitions-v1.md, and elementary reasoning explicitly developed here. I did not read a supplied proof, another review, a status file, a project history, or an external scientific source. No computational experiment was performed. The exposure record and seal identify the exact inputs and the administrative operations.
+
+1. SCOPE AND QUANTIFIERS
+
+The basis is nonsingular, its columns generate the indicated lattice, and the norm is the Euclidean norm in the original coefficient coordinates. In part (1), s is the positive square root of the rational input s². The condition on the maximum Gram–Schmidt length is a promise; the relevant squared quantities can also be compared using exact rational arithmetic. The exponential inequality defining an admissible u is a sufficient numerical promise, not an instruction to decide exact equality between transcendental expressions.
+
+The construction below does not need a numerical approximation of u. It needs the rational squared scalar widths obtained from the basis and s², the error budget, and the theorem's promise that those widths satisfy the required inequality. This also explains why a running-time bound need not depend on the numerical size of u. All running-time claims are in the full binary input length. Widths and interval endpoints may have exponentially large numerical magnitude while having polynomial binary length.
+
+“All-input bounded” is understood to require a worst-case bound on runtime and consumed random bits, including unfavorable coins. The implementation below has fixed rejection caps and a global zero fallback. If a parsed input fails basic domain checks or has a scalar width below 1, it can return zero immediately; the approximation claim concerns the promised inputs. A rational lattice causes no additional issue: integer coordinates in a rational basis still identify its points uniquely, and zero is a lattice point.
+
+Part (4) is applied with the rational squared width W² represented as an input, as its last running-time sentence specifies. It does not assert an algorithm for unencoded arbitrary real parameters. Part (5) requires uniform full-conditional guarantees at every relevant complete history; marginal guarantees alone would not meet the statement.
+
+2. ONE-DIMENSIONAL NORMALIZERS
+
+For r >= 1 and any real c, put
+
+  Z(r,c) = sum_{z in Z} exp(-pi (z-c)²/r²).
+
+Poisson summation, which is an allowed premise, gives
+
+  Z(r,c)/r = 1 + 2 sum_{m>=1} exp(-pi r² m²) cos(2pi m c).
+
+If a=exp(-pi r²), then m² >= 1+3(m-1) for m>=1. Consequently
+
+  |Z(r,c)/r - 1| <= 2a/(1-a³) <= 4a.
+
+The last bound uses r>=1. It is uniform in the center c; it is not a statement about an average center. In particular, Z(r,c)>=r/2 for r>=1. The much sharper lower bound obtainable at r=1 is unnecessary here.
+
+3. THE IDEAL SEQUENTIAL SAMPLER AND ITS FULL NORMALIZERS
+
+Let b_1,...,b_n be the ordered columns of B, and let b_i* be their Gram–Schmidt vectors. Write
+
+  mu_{j,i} = <b_j,b_i*> / ||b_i*||²,
+  r_i² = s²/||b_i*||².
+
+Sample the integer coordinates in descending order, n,n-1,...,1. Given the later coordinates, the scalar center is
+
+  c_i = -sum_{j>i} mu_{j,i} z_j.
+
+The ideal sequential procedure draws z_i with probability proportional to exp(-pi(z_i-c_i)²/r_i²). Its final point is x=Bz. The orthogonal decomposition gives the exact identity
+
+  ||Bz||²/s² = sum_i (z_i-c_i)²/r_i².
+
+Let theta=4 exp(-pi u²). Since r_i>=u>=1, every conditional normalizer has the form
+
+  Z(r_i,c_i)=r_i(1+epsilon_i(c_i)),  |epsilon_i(c_i)|<=theta.
+
+With C=product_i r_i and d(x)=product_i (1+epsilon_i(c_i)), the full point probability of this sequential procedure is therefore
+
+  P(x) = exp(-pi||x||²/s²)/(C d(x)),
+  (1-theta)^n <= d(x) <= (1+theta)^n.
+
+This calculation retains all center-dependent normalizers. It does not falsely identify a sequential scalar conditional with the corresponding conditional of the exact multivariate discrete Gaussian. Summing the last exact point-probability identity yields
+
+  (1-theta)^n <= rho_s(J)/C <= (1+theta)^n.
+
+Thus the likelihood ratio P(x)/D_(J,s)(x) lies between beta^(-1) and beta, where
+
+  beta = ((1+theta)/(1-theta))^n.
+
+The promised theta<=eta/(32n), eta<=1/4, imply theta<1/2 and
+
+  log beta <= 4n theta <= eta/8 <= 1/32.
+
+Using exp(t)-1<=2t for 0<=t<=1 gives
+
+  TV(P,D_(J,s)) <= beta-1 <= 8n theta <= eta/4.
+
+The loose TV bound is sufficient. It leaves substantial room for finite scalar approximation and cap failures.
+
+4. A FINITE, BOUNDED SCALAR BIT SAMPLER
+
+Here is a self-contained construction for rational c, rational r²>=1, and a rational scalar error allocation 0<zeta<=1. It avoids a hidden dependence on the numerical number of integers in a Gaussian interval.
+
+Choose
+
+  T = ceil(log_2(64/zeta)),
+  m = floor(c),
+  M = ceil(r T)+1,
+  A = {m-M,...,m+M},
+  N = 2M+1,
+  delta_w = zeta/[64(2T+5)].
+
+T and M can be found by integer and rational comparisons, including comparisons of squared quantities; no transcendental equality decision is required. We have T>=6 and
+
+  N <= r(2T+5).
+
+Let w_z=exp(-pi(z-c)²/r²). For omitted points, monotonicity and an integral bound give
+
+  sum_{z outside A} w_z
+    <= 2 exp(-pi M²/r²) + 2 integral_M^infinity exp(-pi t²/r²) dt
+    <= 3r exp(-pi T²).
+
+Here integral_T^infinity exp(-pi y²)dy <= exp(-pi T²)/(2pi T). Since Z(r,c)>=r/2, the truncation TV is at most
+
+  6 exp(-pi T²) <= 6 * 2^(-T) <= 6zeta/64.
+
+Also Z_A=sum_{z in A} w_z >= r/3. This follows from Z>=r/2, the displayed tail bound, and T>=6.
+
+For a proposed z in A, compute a dyadic a_z in [0,1] with
+
+  |a_z-w_z| <= delta_w.
+
+One common dyadic precision is chosen for all z at this scalar call. It depends on zeta and T, not the numerical value of r. The total unnormalized perturbation is bounded by
+
+  E = sum_{z in A} |a_z-w_z| <= N delta_w <= r zeta/64.
+
+Write A_w=sum a_z. Then A_w>=r/4, and the accepted law Q(z)=a_z/A_w satisfies
+
+  TV(Q, w_z/Z_A) <= E/Z_A <= 3zeta/64.
+
+This normalized-law inequality follows directly by adding and subtracting a_z/Z_A and using |A_w-Z_A|<=E; it does not assume identical normalizers.
+
+Let b=ceil(log_2 N). In one trial, draw b fair bits to obtain V uniform on {0,...,2^b-1}. If V>=N, this trial fails. Otherwise take z=m-M+V and accept using the dyadic probability a_z, implemented by a fixed number of fresh fair bits. No internal unbounded rejection loop is used. The probability of acceptance in a trial is
+
+  A_w/2^b >= 1/[8(2T+5)].
+
+Run exactly at most
+
+  K = 8(2T+5)T
+
+trials, stopping at the first success. The probability of no success is at most
+
+  exp(-T) <= 2^(-T) <= zeta/64.
+
+Conditional on success before the cap, the accepted value has exactly the same Q law as a single successful trial. If the cap is reached, return a failure flag to the lattice algorithm. Combining truncation, weight approximation, and this flag, the scalar coupling defect relative to exact D_(Z,r,c) is at most
+
+  (6+3+1)zeta/64 < zeta.
+
+The global lattice algorithm immediately outputs the lattice point zero on any scalar failure flag. It does not substitute an integer zero at that coordinate and continue to an unspecified nonzero fallback. The former convention satisfies the theorem's stated fallback law.
+
+5. FINITE PRECISION WITHOUT AN UNSTATED SAMPLING ORACLE
+
+The dyadic weights just used are computable in polynomial bit time by elementary series. For z in A,
+
+  0 <= (z-c)²/r² <= (T+3)².
+
+Thus the exponent's numerical magnitude is polynomial in T, even when r or c is numerically enormous.
+
+For completeness, pi can be approximated using
+
+  pi = 4(arctan(1/2)+arctan(1/3)).
+
+The addition formula gives this identity because the tangent of the positive sum is 1 and the sum lies in (0,pi/2). The integrated finite geometric series for 1/(1+x²) gives the alternating arctangent series and a geometrically decreasing remainder at 1/2 and 1/3. O(p) terms therefore suffice for p binary digits, with rational intermediates of polynomial bit length.
+
+Approximate pi sufficiently accurately that its error multiplied by (T+3)² is at most delta_w/4. A positive rational approximation can be selected. On nonnegative arguments, exp(-x) has derivative of magnitude at most 1, so this introduces at most delta_w/4 error in the weight.
+
+To approximate exp(-x) at a nonnegative rational x<=A_0, where A_0 is an integer O((T+3)²), use its Taylor polynomial at zero. For an even remainder order 2d, Taylor's theorem bounds the absolute remainder by x^(2d)/(2d)!. The last d factors of (2d)! are at least d, so this is at most (A_0²/d)^d. Taking d>=2A_0² and d at least the requested binary accuracy makes this bound at most 2^(-d). The number of terms and every numerator and denominator length are polynomial in T, the target precision, and the rational input lengths. Cancellation in the alternating polynomial does not invalidate exact rational arithmetic or this absolute-error bound.
+
+Finally round to a common dyadic grid and clamp to [0,1]. Choose the series and rounding budgets to sum to at most delta_w. Clamping cannot increase distance from the true weight in [0,1]. The acceptance probability is now an exactly implementable dyadic number. No exact Bernoulli trial with a transcendental parameter, exact continuous Gaussian sampler, real-arithmetic oracle, or external numerical theorem has been assumed.
+
+6. VECTOR IMPLEMENTATION, BIT LENGTHS, AND TOTAL ERROR
+
+Set zeta=eta/(4n) in every scalar call. Rational Gram–Schmidt quantities are computed by exact linear algebra. Standard determinant bounds for rational matrices show their binary lengths are polynomial in the basis encoding; alternatively these bounds follow by clearing denominators and using the determinant formula for the projections.
+
+The scalar centers remain of polynomial binary length. To see this directly, all mu_{j,i} have fixed polynomial-size rational encodings. Each generated coordinate obeys
+
+  |z_i| <= |c_i| + r_i T + 3,
+  |c_i| <= sum_{j>i} |mu_{j,i}| |z_j|.
+
+Taking binary lengths increases the largest later-coordinate length by only a polynomial-size coefficient bound plus O(log n) at each of the n descending steps. There is no exponential growth in binary length. Products and sums of the n fixed-denominator rationals also have polynomial length. The r_i and the proposal endpoints have polynomial binary length because r_i² is rational with polynomial input length.
+
+Each call uses K=O(T²) trials and a polynomial number of random bits and rational bit operations per trial. Since T=O(log(n/eta)), the total is polynomial in n, the complete basis/s²/eta encoding, and log(1/eta). A large numerical radius contributes its binary length to the cost; the algorithm does not enumerate A or sum its weights in its execution. A_w, Z_A, and E above are quantities used in the proof only.
+
+At every actual complete scalar history, the preceding construction has the same uniform error bound. Couple it to the ideal sequential sampler until the first mismatch or failure. The chance of such an event is at most n zeta<=eta/4. If a failure occurs, output zero as specified. The ideal sequential law was within eta/4 of D_(J,s), so the final implemented law has
+
+  TV(output,D_(J,s)) <= eta/2 <= eta.
+
+The unused factor of two is harmless slack. This proves part (1), including rational lattices, bounded runtime, random-bit caps, finite precision, conditional centers, complete normalizers, and the final fallback law. It is a statement about classical output distributions only.
+
+7. UPPER-TRIANGULAR COLUMN HNF
+
+Compute an upper-triangular column HNF basis H of the original integer lattice, using column operations and retaining the original ambient coordinates. Its first i columns span the first i coordinate directions over the reals. Therefore its ith Gram–Schmidt vector is H_ii times the ith standard coordinate vector, and its ith Gram–Schmidt length is H_ii, with positive diagonal convention.
+
+If e Z^n is contained in J, there is an integer matrix C such that e I=H C. Because H^(-1)eI is upper triangular, its ith diagonal entry is e/H_ii. Integrality gives H_ii | e for every i, hence h<=e.
+
+The least positive such e is the exponent of Z^n/J, equivalently the largest Smith invariant. The permitted polynomial-bit HNF/SNF algorithms compute H and e. The Smith calculation is used for the group exponent; it is not used to replace the Euclidean coordinate system by a generally nonorthogonal Smith transformation.
+
+Applying part (1) with maximum Gram–Schmidt length h proves the s>=h u criterion. The weaker s>=e u criterion follows. No bound on the numerical determinant is needed for this calculation. The warning about triangular orientation in the supplied statement is correct and necessary.
+
+8. SHORT ELEMENT FROM BINARY COLLISIONS
+
+Let D=[R:J], and let h0=ceil(log_2(D+1))<=n. There are at least D+1 distinct binary coefficient vectors supported in the first h0 positions. Reducing any D+1 of them modulo J gives two equal residues because the quotient has exactly D elements. Their difference f is nonzero, belongs to J, has coefficients in {-1,0,1}, is supported in those positions, and obeys
+
+  ||f||² <= h0.
+
+An ordinary integer basis permits polynomial-bit canonical reduction, for example using an HNF representative. Store the residues in a dictionary or sort them to find a collision. There are D+1 reductions; even an elementary polynomial-overhead implementation is polynomial time when the numerical D is polynomial in the input size. Neither the collision argument nor the bit encoding makes enumeration polynomial when D is exponential. The theorem states this distinction explicitly.
+
+9. TURNING f INTO A BASIS WITH SMALL GRAM–SCHMIDT LENGTHS
+
+The needed basis lemma can be proved constructively without assuming an unmentioned ideal sampler.
+
+Because n is a power of two, X^n+1 is irreducible over Q. Here is the elementary argument. After replacing X by X+1, its leading coefficient is 1, its constant coefficient is 2, and every intermediate coefficient is even: modulo 2, repeated squaring gives (X+1)^n=X^n+1. A rational factorization of this monic integer polynomial would give a factorization into monic integer polynomials after clearing denominators and dividing contents. The elementary content fact used here follows by reducing modulo any prime: a product of two nonzero polynomials over a field is nonzero, so a prime cannot divide every coefficient of a product of primitive integer polynomials. Reducing a nontrivial monic integer factorization modulo 2 would make both factors positive-degree powers of X. Both constant terms would then be even, contradicting the constant term 2. This proves the needed irreducibility without an additional cyclotomic premise. Thus nonzero f is invertible in Q[X]/(X^n+1).
+
+Let F be the n by n integer matrix with columns
+
+  f, Xf, ..., X^(n-1)f
+
+in coefficient coordinates modulo X^n+1. These are linearly independent, belong to J because J is an ideal, and each has norm exactly ||f|| because multiplication by X is a signed coordinate permutation. Hence F generates the full sublattice fR contained in J, and every Gram–Schmidt length of F is at most ||f||.
+
+Let B_J be the given ordinary basis of J, put Q=F^(-1)B_J, and let K=Q Z^n. Then Z^n is contained in K. Choose a positive integer m clearing the denominators of Q. The lattice mK is an integer lattice containing m Z^n. Compute its upper-triangular column HNF basis T. By the diagonal-divisibility argument from section 7,
+
+  T_ii | m,  so  0<T_ii/m<=1.
+
+Now
+
+  B_new = F T/m
+
+is a basis of J. Although this expression uses rational arithmetic, the final columns are integer lattice vectors; indeed T=mQ U for an integer unimodular U, so B_new=B_J U.
+
+Right multiplication by an invertible upper-triangular matrix preserves every prefix column span. The ith Gram–Schmidt length of F T/m is therefore exactly (T_ii/m) times the ith Gram–Schmidt length of F. It follows that
+
+  max_i ||b_new,i*|| <= ||f||.
+
+All matrices, common denominators, inverses, and HNF outputs have polynomial binary length in the supplied basis and f, and the allowed algorithms compute them in polynomial bit time. This proves the basis-construction assertion in part (3). For a supplied f, its encoding and acquisition cost must be charged, as the theorem states. The argument would fail for an arbitrary nonideal lattice or a reducible quotient ring; those are excluded by the hypotheses.
+
+Applying part (1) gives s>=||f||u, and hence the claimed s>=sqrt(h0)u sufficient condition.
+
+10. NUMERICAL WIDTH AND ERROR CHECKS
+
+Substitution of d0 gives the exact stated identity
+
+  nq/(sqrt(2)d0)
+    = 64n²k chi q/(sqrt(2)delta ell²)
+    = 32sqrt(2)n²k chi q/(delta ell²).
+
+For eta=2^(-4n) and u=4n, the required exponential inequality is equivalent to
+
+  16pi n² >= (4n+7)log 2 + log n.
+
+For n>=2, the right side is at most 5n+7, while the left side is greater than 48n². Thus the inequality holds with ample strict slack.
+
+Also q>=n sigma implies
+
+  W >= 256sqrt(2)n^5 k chi ceil(sqrt(kn)) ell²/delta.
+
+Here k>=1, chi>=1, ceil(sqrt(kn))>=1, delta<=1, and ell>=2. In particular W>4n sqrt(n) for every n>=2. Consequently, when h0<=n, W>=4n sqrt(h0), so the short-basis criterion applies at the stated eta. If D is polynomial numerically, the preceding collision preprocessing is polynomial. If an ordinary basis has h<=W/(4n), its HNF basis instead gives the same conclusion directly, including the sufficient subcase e<=W/(4n).
+
+These calculations do not change the inherited width or the ideal J. The implementation's complexity depends on the encoded W². They give no arbitrary-precision conclusion at a fixed width once the width/error promise ceases to hold.
+
+11. THE EXPONENTIAL-INDEX FAMILY
+
+Write n=4m and t=X^m. Over F_3,
+
+  (t²+t-1)(t²-t-1) = t^4-3t²+1 = t^4+1.
+
+Thus the monic g=X^(n/2)+X^(n/4)-1 divides X^n+1 modulo 3 and has degree n/2. It follows directly that
+
+  R/(3,g) is isomorphic to F_3[X]/(g mod 3),
+
+whose cardinality is 3^(n/2). Hence N(J)=3^(n/2). The quotient is a nonzero F_3-vector space, so its additive exponent is exactly 3. Therefore e=3 and part (2) gives h<=3.
+
+The eligibility bound follows from the exact integer comparison 3^5=243<256=2^8:
+
+  3^(n/2) <= 2^(4n/5).
+
+Also 3^(n/2)+1<=2^n for the stated n>=4, so h0<=n if that separate eligibility condition is used. This can be seen from 3^a+1<=4^a for every integer a>=1, with a=n/2.
+
+Since W/(4n)>sqrt(n)>=2 for n>=4, this last coarse inequality alone would not prove W/(4n)>=3 at n=4. The actual width lower bound from section 10 does prove it by a very large margin: W>=256sqrt(2)n^5 ell²>12n. Thus the family is simulated by the e=3 criterion throughout the stated parameter range. This is a check of the full numerical bound, not an objection to the statement.
+
+Finally, an odd prime q congruent to 1 modulo 2n cannot equal 3 when n>=4, so gcd(q,3)=1. Neither irreducibility of g modulo 3 nor primality of J was used or is necessary.
+
+12. ADAPTIVE CLASSICAL COMPOSITION
+
+At each history, compare the reference oracle kernel to the simulator kernel for the query selected by that same history. Under a uniform full-conditional TV bound eta_j, couple their next outputs with disagreement probability at most eta_j whenever their histories still agree. Use the same algorithmic coins while the transcripts agree, and fresh oracle-simulation coins as specified. The union bound gives transcript disagreement probability at most sum_j eta_j and hence the same TV bound, capped at 1. A stopping algorithm with at most L queries can be padded with identical dummy responses to express the same argument at a fixed length.
+
+For an implemented restricted sampler whose full conditional law is within alpha_j of the same reference kernel, the pointwise triangle inequality gives distance at most eta_j+alpha_j to the chosen simulator kernel. The identical coupling/hybrid argument gives sum_j(eta_j+alpha_j), capped at 1.
+
+These arguments use bounds at every complete history on which a comparison is needed. A one-call unconditional marginal statement does not provide them, especially with shared coins, correlations, or conditioning. If budgets depend on history, they must be interpreted as suitable uniform upper bounds (or replaced by a separately justified pathwise/expected-budget formulation). The theorem uses stated per-call bounds and explicitly demands the full-conditional/reference promise, which is sufficient.
+
+There is no coherent or quantum-channel implementation in this reconstruction. Classical TV control of sampled outputs does not establish coherent access, a diamond-norm channel bound, or correctness under postselection without an appropriate additional conditional argument. The theorem explicitly restricts its claim accordingly.
+
+13. ADVERSARIAL CHECKS AND REMAINING LIMITS
+
+The following possible failure points were checked explicitly:
+
+* Dropping the scalar center-dependent normalizers would invalidate a naive exactness argument. Sections 2–3 retain them and prove the required approximate law.
+* An interval-enumeration sampler would have unacceptable dependence on numerical width. Sections 4–6 use random binary indices and evaluate only proposed points.
+* An unlimited rejection loop would fail the all-input bound. Section 4 gives a deterministic cap and its quantitative failure law.
+* Substituting a scalar zero on failure would not make the final fallback the lattice zero. The construction instead aborts the entire lattice draw.
+* Floating-point centers with uncontrolled precision are unnecessary: centers and squared widths are rational and handled exactly; only bounded exponential weights are approximated with a specified absolute error.
+* Smith normal form can change Euclidean coordinates. Section 7 uses it only to compute e; the small Gram–Schmidt basis is an upper-triangular column HNF in the original coordinates.
+* Independent short vectors in a sublattice do not by themselves form a basis of J. Section 9 supplies the upper-triangular overlattice construction.
+* Enumeration for an exponential index is exponential. The theorem limits the polynomial-time enumeration claim to polynomial numerical D; the displayed exponential family is handled by its exponent e=3.
+* The coarse inequality W>4n sqrt(n) alone is insufficient to infer W>12n at n=4. The stronger explicit lower bound verifies that needed fact for the family.
+* Marginal oracle closeness is insufficient for adaptive composition. The supplied full-conditional promise is precisely what the proof uses.
+
+I found no counterexample or missing essential scientific premise after these checks. The auxiliary finite-precision algorithms and basis lemma were reconstructed above rather than imported as unnamed results. The review does not certify arbitrary ideal-family transfers, large-HNF-diagonal cases without a usable short basis, binary-secret hardness, or any lower bound. The theorem also makes none of those claims.
+
+END OF REPORT VERSION 1

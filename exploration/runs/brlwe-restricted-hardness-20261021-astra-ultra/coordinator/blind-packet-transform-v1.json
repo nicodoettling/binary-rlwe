@@ -1,0 +1,46 @@
+{
+  "at": "2026-10-21T06:07:17.758290+00:00",
+  "purpose": "Remove status/reviewer metadata; preserve mathematical assertions. Background module identity made self-contained.",
+  "files": [
+    {
+      "source": "coordinator/M1/theorem-only-v1.md",
+      "source_sha256": "320164e4e692ce801f2fde10a3deb7279629b9ff467bf4a155aa0828bba11845",
+      "blind_input": "criticism/FBR1/input/M1-statement-v1.md",
+      "blind_sha256": "4e21066d0ba5266384b5c493877ad95a41b65b49cc75d6136f243e299af7d5bf",
+      "literal_replacements": [
+        [
+          "Status PROVISIONAL. ",
+          ""
+        ]
+      ]
+    },
+    {
+      "source": "workers/A/linear-transfer-theorem-v1.md",
+      "source_sha256": "0e6357f15a990b9b98abec66470cb105be146664641a1d6daf66d0861ca3d18b",
+      "blind_input": "criticism/FBR1/input/A-statement-v1.md",
+      "blind_sha256": "ac3117ca1e9c2126422df06cd1983a2368e0c58d2eda073e22108f1f7b5a7ba8",
+      "literal_replacements": [
+        [
+          "Frozen 2026-10-21 05:50 UTC. PROVISIONAL. This statement concerns exact integral linear maps, not all possible family transfers. It is new author work pending nonauthor, source, blind and regression gates. No computational-hardness conclusion is asserted.",
+          "This statement concerns exact integral linear maps, not all possible family transfers. No computational-hardness conclusion is asserted."
+        ],
+        [
+          "The accepted RT1-WEIGHTED-v2 Claim 1 may be used for the exact module identity.",
+          "The elementary module identity {a in Frac(S): Pi(aJ) subset I}=IS J^-1 may be used as background."
+        ]
+      ]
+    },
+    {
+      "source": "workers/B/theorem-only-v1.md",
+      "source_sha256": "6e71289b7e9979ad169d1008d2e40f2cdb3f09f1bd7a29b48e41c90431e6becd",
+      "blind_input": "criticism/FBR1/input/B-statement-v1.md",
+      "blind_sha256": "d146b96e287e885ad05255a00f2afbde8ce926bf03c9ffa85d2cc8fe37576c91",
+      "literal_replacements": [
+        [
+          "Frozen candidate, 2026-10-21. Status PROVISIONAL. ",
+          ""
+        ]
+      ]
+    }
+  ]
+}

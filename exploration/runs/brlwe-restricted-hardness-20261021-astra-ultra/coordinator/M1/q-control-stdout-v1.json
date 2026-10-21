@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "arithmetic": "exact integers and fractions",
+  "seed": null,
+  "rejected_displayed_premises": {
+    "n": 4,
+    "k": 1,
+    "chi": 1,
+    "delta": 1,
+    "ell": 3,
+    "sigma": 20736,
+    "q": 82944,
+    "gcd_q_3": 3
+  },
+  "positive_cases": [
+    {
+      "n": 2,
+      "ell": 2,
+      "sigma": 1024,
+      "q": 2053,
+      "candidates": 2,
+      "W_squared": "8631928832",
+      "coprime3": true
+    },
+    {
+      "n": 4,
+      "ell": 3,
+      "sigma": 20736,
+      "q": 83009,
+      "candidates": 9,
+      "W_squared": "3612603360739328/81",
+      "coprime3": true
+    },
+    {
+      "n": 8,
+      "ell": 4,
+      "sigma": 393216,
+      "q": 3145841,
+      "candidates": 8,
+      "W_squared": "324282469491703808",
+      "coprime3": true
+    },
+    {
+      "n": 16,
+      "ell": 5,
+      "sigma": 5120000,
+      "q": 81920353,
+      "candidates": 12,
+      "W_squared": "900727688042916035428352/625",
+      "coprime3": true
+    }
+  ],
+  "scope": "Finite prerequisite and width controls only; no full recovery-gap witness or asymptotic hardness claim"
+}

@@ -1,0 +1,47 @@
+{
+  "updated_at": "2026-10-21T05:39:02.536146+00:00",
+  "ceiling_total": 3,
+  "observed_running_total": 3,
+  "actual_list_response": {
+    "agents": [
+      {
+        "agent_name": "/root",
+        "agent_status": "running"
+      },
+      {
+        "agent_name": "/root/restricted_a_transfer",
+        "agent_status": "running"
+      },
+      {
+        "agent_name": "/root/restricted_b_entropy",
+        "agent_status": "running"
+      }
+    ]
+  },
+  "thread_ids": {
+    "/root/restricted_a_transfer": "01a15cf7-c203-77c3-a140-9ec5dec4050d",
+    "/root/restricted_b_entropy": "01a15cf7-da11-79f1-bf63-149e86a606be"
+  },
+  "model": "gpt-6-astra",
+  "reasoning_effort": "ultra",
+  "tier": "default configuration",
+  "roles": {
+    "root": "M1 sampling usefulness and integration",
+    "restricted_a_transfer": "M2 effective transfer",
+    "restricted_b_entropy": "M3 entropy enlargement"
+  },
+  "assignments": [
+    "workers/A/assignment-v1.md",
+    "workers/B/assignment-v1.md"
+  ],
+  "runtime_receipt": "coordinator/runtime-verification.json",
+  "deadlines": {
+    "start": "2026-10-21T05:34:44.878177+00:00",
+    "decision": "2026-10-21T06:19:44.878177+00:00",
+    "discovery_stop": "2026-10-21T07:49:44.878177+00:00",
+    "worker_experiment_stop": "2026-10-21T08:19:44.878177+00:00",
+    "final_checkpoint": "2026-10-21T08:29:44.878177+00:00",
+    "graceful": "2026-10-21T08:33:39.878177+00:00",
+    "hard": "2026-10-21T08:34:44.878177+00:00"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "K_squared_control": 40960,
+  "actual_vertices": 256,
+  "algorithm": "Y^2=5Y-1 recurrence modulo 17",
+  "arithmetic": "exact integer and rational",
+  "cp1_event": "21/2000",
+  "cp1_false_product": "1/100",
+  "cube_image": 176,
+  "fiber_histogram": {
+    "1": 112,
+    "2": 48,
+    "3": 16
+  },
+  "g_residue": [
+    0,
+    0
+  ],
+  "gaussian_sampling_or_hardness_claim": false,
+  "powers": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      16,
+      5
+    ],
+    [
+      12,
+      7
+    ],
+    [
+      10,
+      13
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      10,
+      5
+    ],
+    [
+      12,
+      1
+    ]
+  ],
+  "q_numeric_lower_control": 3145728,
+  "randomness": "none",
+  "roots": [
+    10,
+    12
+  ],
+  "status": "PASS"
+}

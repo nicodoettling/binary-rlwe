@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261021T062030.897242Z-091daaba",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-21T06:20:30.897276+00:00",
+  "reason": "45-minute evidence-based gate and concise core frontier; no active experiments",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 27856,
+      "sha256": "1d9df3a58110615d2c77c6a74abed971f53947daf31a0e29795e1011fb934ad5"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 1304,
+      "sha256": "1136584537820299d1e7dfdc147966676006f336525b845f15d10c8ab1b0e568"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 1316,
+      "sha256": "fd1767eb097d02085d036838da9ea075c936ec191a96d8c5808a89fcea7df407"
+    },
+    {
+      "path": "final.md",
+      "bytes": 1393,
+      "sha256": "15f0f4a78952bde48bb45f960f47f6301a7bb2f962e3a4b3103b62445747829a"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 2076,
+      "sha256": "518b3aab88721e80624f8c50c6b0dc9fe3f3b042dc8ad23da33eee38aff1595b"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

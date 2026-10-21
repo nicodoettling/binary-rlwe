@@ -1,0 +1,779 @@
+{
+  "arithmetic": "exact integer",
+  "component_checks": 240,
+  "gaussian_or_asymptotic_claim": false,
+  "map_checks": 86,
+  "randomness": "none; deterministic input generation",
+  "results": [
+    {
+      "case": {
+        "comparator_q": 3,
+        "m": 8,
+        "n": 2,
+        "p": 17,
+        "seeds": 34,
+        "source_factor": [
+          -3,
+          1
+        ],
+        "target_factor": [
+          -13,
+          1
+        ]
+      },
+      "component_checks": 68,
+      "controls": [
+        {
+          "T_frobenius_squared": 238,
+          "complement_components": 1,
+          "direct_target_components": 1,
+          "nonzero_components": 2,
+          "seed": 0
+        },
+        {
+          "T_frobenius_squared": 133,
+          "complement_components": 1,
+          "direct_target_components": 1,
+          "nonzero_components": 2,
+          "seed": 1
+        },
+        {
+          "T_frobenius_squared": 223,
+          "complement_components": 1,
+          "direct_target_components": 1,
+          "nonzero_components": 2,
+          "seed": 2
+        },
+        {
+          "T_frobenius_squared": 187,
+          "complement_components": 1,
+          "direct_target_components": 1,
+          "nonzero_components": 2,
+          "seed": 3
+        },
+        {
+          "T_frobenius_squared": 264,
+          "complement_components": 1,
+          "direct_target_components": 1,
+          "nonzero_components": 2,
+          "seed": 4
+        },
+        {
+          "T_frobenius_squared": 147,
+          "complement_components": 1,
+          "direct_target_components": 1,
+          "nonzero_components": 2,
+          "seed": 5
+        },
+        {
+          "T_frobenius_squared": 153,
+          "complement_components": 1,
+          "direct_target_components": 1,
+          "nonzero_components": 2,
+          "seed": 6
+        },
+        {
+          "T_frobenius_squared": 318,
+          "complement_components": 1,
+          "direct_target_components": 1,
+          "nonzero_components": 2,
+          "seed": 7
+        },
+        {
+          "T_frobenius_squared": 282,
+          "complement_components": 1,
+          "direct_target_components": 1,
+          "nonzero_components": 2,
+          "seed": 8
+        },
+        {
+          "T_frobenius_squared": 179,
+          "complement_components": 1,
+          "direct_target_components": 1,
+          "nonzero_components": 2,
+          "seed": 9
+        },
+        {
+          "T_frobenius_squared": 187,
+          "complement_components": 1,
+          "direct_target_components": 1,
+          "nonzero_components": 2,
+          "seed": 10
+        },
+        {
+          "T_frobenius_squared": 148,
+          "complement_components": 1,
+          "direct_target_components": 1,
+          "nonzero_components": 2,
+          "seed": 11
+        },
+        {
+          "T_frobenius_squared": 176,
+          "complement_components": 1,
+          "direct_target_components": 1,
+          "nonzero_components": 2,
+          "seed": 12
+        },
+        {
+          "T_frobenius_squared": 153,
+          "complement_components": 1,
+          "direct_target_components": 1,
+          "nonzero_components": 2,
+          "seed": 13
+        },
+        {
+          "T_frobenius_squared": 228,
+          "complement_components": 1,
+          "direct_target_components": 1,
+          "nonzero_components": 2,
+          "seed": 14
+        },
+        {
+          "T_frobenius_squared": 176,
+          "complement_components": 1,
+          "direct_target_components": 1,
+          "nonzero_components": 2,
+          "seed": 15
+        },
+        {
+          "T_frobenius_squared": 203,
+          "complement_components": 1,
+          "direct_target_components": 1,
+          "nonzero_components": 2,
+          "seed": 16
+        },
+        {
+          "T_frobenius_squared": 272,
+          "complement_components": 1,
+          "direct_target_components": 1,
+          "nonzero_components": 2,
+          "seed": 17
+        },
+        {
+          "T_frobenius_squared": 202,
+          "complement_components": 1,
+          "direct_target_components": 1,
+          "nonzero_components": 2,
+          "seed": 18
+        },
+        {
+          "T_frobenius_squared": 239,
+          "complement_components": 1,
+          "direct_target_components": 1,
+          "nonzero_components": 2,
+          "seed": 19
+        },
+        {
+          "T_frobenius_squared": 238,
+          "complement_components": 1,
+          "direct_target_components": 1,
+          "nonzero_components": 2,
+          "seed": 20
+        },
+        {
+          "T_frobenius_squared": 240,
+          "complement_components": 1,
+          "direct_target_components": 1,
+          "nonzero_components": 2,
+          "seed": 21
+        },
+        {
+          "T_frobenius_squared": 291,
+          "complement_components": 1,
+          "direct_target_components": 1,
+          "nonzero_components": 2,
+          "seed": 22
+        },
+        {
+          "T_frobenius_squared": 210,
+          "complement_components": 1,
+          "direct_target_components": 1,
+          "nonzero_components": 2,
+          "seed": 23
+        },
+        {
+          "T_frobenius_squared": 238,
+          "complement_components": 1,
+          "direct_target_components": 1,
+          "nonzero_components": 2,
+          "seed": 24
+        },
+        {
+          "T_frobenius_squared": 375,
+          "complement_components": 1,
+          "direct_target_components": 1,
+          "nonzero_components": 2,
+          "seed": 25
+        },
+        {
+          "T_frobenius_squared": 251,
+          "complement_components": 1,
+          "direct_target_components": 1,
+          "nonzero_components": 2,
+          "seed": 26
+        },
+        {
+          "T_frobenius_squared": 272,
+          "complement_components": 1,
+          "direct_target_components": 1,
+          "nonzero_components": 2,
+          "seed": 27
+        },
+        {
+          "T_frobenius_squared": 303,
+          "complement_components": 1,
+          "direct_target_components": 1,
+          "nonzero_components": 2,
+          "seed": 28
+        },
+        {
+          "T_frobenius_squared": 168,
+          "complement_components": 1,
+          "direct_target_components": 1,
+          "nonzero_components": 2,
+          "seed": 29
+        },
+        {
+          "T_frobenius_squared": 183,
+          "complement_components": 1,
+          "direct_target_components": 1,
+          "nonzero_components": 2,
+          "seed": 30
+        },
+        {
+          "T_frobenius_squared": 204,
+          "complement_components": 1,
+          "direct_target_components": 1,
+          "nonzero_components": 2,
+          "seed": 31
+        },
+        {
+          "T_frobenius_squared": 242,
+          "complement_components": 1,
+          "direct_target_components": 1,
+          "nonzero_components": 2,
+          "seed": 32
+        },
+        {
+          "T_frobenius_squared": 280,
+          "complement_components": 1,
+          "direct_target_components": 1,
+          "nonzero_components": 2,
+          "seed": 33
+        }
+      ],
+      "endpoint_matrix": [
+        [
+          0,
+          -8,
+          -5,
+          4,
+          -4,
+          5,
+          8,
+          0
+        ],
+        [
+          0,
+          -2,
+          3,
+          1,
+          -1,
+          -3,
+          2,
+          0
+        ]
+      ],
+      "finite_output_support_size": 567,
+      "finite_source_atoms_before_collisions": 2187,
+      "finite_source_is_gaussian": false,
+      "finite_source_weight": 16384,
+      "finite_zero_weight_retained": 174,
+      "map_checks": 34,
+      "uniform_domain_size": 6561,
+      "uniform_fiber_multiplicity": 729,
+      "uniform_image_size": 9
+    },
+    {
+      "case": {
+        "comparator_q": 3,
+        "m": 8,
+        "n": 4,
+        "p": 17,
+        "seeds": 34,
+        "source_factor": [
+          -3,
+          1
+        ],
+        "target_factor": [
+          -9,
+          1
+        ]
+      },
+      "component_checks": 136,
+      "controls": [
+        {
+          "T_frobenius_squared": 324,
+          "complement_components": 1,
+          "direct_target_components": 3,
+          "nonzero_components": 4,
+          "seed": 0
+        },
+        {
+          "T_frobenius_squared": 371,
+          "complement_components": 1,
+          "direct_target_components": 3,
+          "nonzero_components": 4,
+          "seed": 1
+        },
+        {
+          "T_frobenius_squared": 203,
+          "complement_components": 1,
+          "direct_target_components": 3,
+          "nonzero_components": 4,
+          "seed": 2
+        },
+        {
+          "T_frobenius_squared": 431,
+          "complement_components": 1,
+          "direct_target_components": 3,
+          "nonzero_components": 4,
+          "seed": 3
+        },
+        {
+          "T_frobenius_squared": 279,
+          "complement_components": 1,
+          "direct_target_components": 3,
+          "nonzero_components": 4,
+          "seed": 4
+        },
+        {
+          "T_frobenius_squared": 304,
+          "complement_components": 1,
+          "direct_target_components": 3,
+          "nonzero_components": 4,
+          "seed": 5
+        },
+        {
+          "T_frobenius_squared": 342,
+          "complement_components": 1,
+          "direct_target_components": 3,
+          "nonzero_components": 4,
+          "seed": 6
+        },
+        {
+          "T_frobenius_squared": 135,
+          "complement_components": 1,
+          "direct_target_components": 3,
+          "nonzero_components": 4,
+          "seed": 7
+        },
+        {
+          "T_frobenius_squared": 200,
+          "complement_components": 1,
+          "direct_target_components": 3,
+          "nonzero_components": 4,
+          "seed": 8
+        },
+        {
+          "T_frobenius_squared": 318,
+          "complement_components": 1,
+          "direct_target_components": 3,
+          "nonzero_components": 4,
+          "seed": 9
+        },
+        {
+          "T_frobenius_squared": 269,
+          "complement_components": 1,
+          "direct_target_components": 3,
+          "nonzero_components": 4,
+          "seed": 10
+        },
+        {
+          "T_frobenius_squared": 300,
+          "complement_components": 1,
+          "direct_target_components": 3,
+          "nonzero_components": 4,
+          "seed": 11
+        },
+        {
+          "T_frobenius_squared": 307,
+          "complement_components": 1,
+          "direct_target_components": 3,
+          "nonzero_components": 4,
+          "seed": 12
+        },
+        {
+          "T_frobenius_squared": 346,
+          "complement_components": 1,
+          "direct_target_components": 3,
+          "nonzero_components": 4,
+          "seed": 13
+        },
+        {
+          "T_frobenius_squared": 303,
+          "complement_components": 1,
+          "direct_target_components": 3,
+          "nonzero_components": 4,
+          "seed": 14
+        },
+        {
+          "T_frobenius_squared": 318,
+          "complement_components": 1,
+          "direct_target_components": 3,
+          "nonzero_components": 4,
+          "seed": 15
+        },
+        {
+          "T_frobenius_squared": 246,
+          "complement_components": 1,
+          "direct_target_components": 3,
+          "nonzero_components": 4,
+          "seed": 16
+        },
+        {
+          "T_frobenius_squared": 328,
+          "complement_components": 1,
+          "direct_target_components": 3,
+          "nonzero_components": 4,
+          "seed": 17
+        },
+        {
+          "T_frobenius_squared": 270,
+          "complement_components": 1,
+          "direct_target_components": 3,
+          "nonzero_components": 4,
+          "seed": 18
+        },
+        {
+          "T_frobenius_squared": 208,
+          "complement_components": 1,
+          "direct_target_components": 3,
+          "nonzero_components": 4,
+          "seed": 19
+        },
+        {
+          "T_frobenius_squared": 180,
+          "complement_components": 1,
+          "direct_target_components": 3,
+          "nonzero_components": 4,
+          "seed": 20
+        },
+        {
+          "T_frobenius_squared": 233,
+          "complement_components": 1,
+          "direct_target_components": 3,
+          "nonzero_components": 4,
+          "seed": 21
+        },
+        {
+          "T_frobenius_squared": 232,
+          "complement_components": 1,
+          "direct_target_components": 3,
+          "nonzero_components": 4,
+          "seed": 22
+        },
+        {
+          "T_frobenius_squared": 242,
+          "complement_components": 1,
+          "direct_target_components": 3,
+          "nonzero_components": 4,
+          "seed": 23
+        },
+        {
+          "T_frobenius_squared": 183,
+          "complement_components": 1,
+          "direct_target_components": 3,
+          "nonzero_components": 4,
+          "seed": 24
+        },
+        {
+          "T_frobenius_squared": 206,
+          "complement_components": 1,
+          "direct_target_components": 3,
+          "nonzero_components": 4,
+          "seed": 25
+        },
+        {
+          "T_frobenius_squared": 381,
+          "complement_components": 1,
+          "direct_target_components": 3,
+          "nonzero_components": 4,
+          "seed": 26
+        },
+        {
+          "T_frobenius_squared": 269,
+          "complement_components": 1,
+          "direct_target_components": 3,
+          "nonzero_components": 4,
+          "seed": 27
+        },
+        {
+          "T_frobenius_squared": 214,
+          "complement_components": 1,
+          "direct_target_components": 3,
+          "nonzero_components": 4,
+          "seed": 28
+        },
+        {
+          "T_frobenius_squared": 265,
+          "complement_components": 1,
+          "direct_target_components": 3,
+          "nonzero_components": 4,
+          "seed": 29
+        },
+        {
+          "T_frobenius_squared": 306,
+          "complement_components": 1,
+          "direct_target_components": 3,
+          "nonzero_components": 4,
+          "seed": 30
+        },
+        {
+          "T_frobenius_squared": 293,
+          "complement_components": 1,
+          "direct_target_components": 3,
+          "nonzero_components": 4,
+          "seed": 31
+        },
+        {
+          "T_frobenius_squared": 295,
+          "complement_components": 1,
+          "direct_target_components": 3,
+          "nonzero_components": 4,
+          "seed": 32
+        },
+        {
+          "T_frobenius_squared": 350,
+          "complement_components": 1,
+          "direct_target_components": 3,
+          "nonzero_components": 4,
+          "seed": 33
+        }
+      ],
+      "endpoint_matrix": [
+        [
+          -7,
+          -1,
+          7,
+          -4,
+          -4,
+          -1,
+          -7,
+          -7
+        ],
+        [
+          0,
+          -2,
+          3,
+          1,
+          -1,
+          -3,
+          2,
+          0
+        ],
+        [
+          3,
+          1,
+          -1,
+          -3,
+          2,
+          0,
+          -2,
+          3
+        ],
+        [
+          -1,
+          -3,
+          2,
+          0,
+          -2,
+          3,
+          1,
+          -1
+        ]
+      ],
+      "finite_output_support_size": 2187,
+      "finite_source_atoms_before_collisions": 2187,
+      "finite_source_is_gaussian": false,
+      "finite_source_weight": 16384,
+      "finite_zero_weight_retained": 128,
+      "map_checks": 34,
+      "uniform_domain_size": 6561,
+      "uniform_fiber_multiplicity": 81,
+      "uniform_image_size": 81
+    },
+    {
+      "case": {
+        "comparator_q": 5,
+        "m": 4,
+        "n": 2,
+        "p": 3,
+        "seeds": 18,
+        "source_factor": [
+          2,
+          1,
+          1
+        ],
+        "target_factor": [
+          1,
+          0,
+          1
+        ]
+      },
+      "component_checks": 36,
+      "controls": [
+        {
+          "T_frobenius_squared": 6,
+          "complement_components": 2,
+          "direct_target_components": 0,
+          "nonzero_components": 2,
+          "seed": 0
+        },
+        {
+          "T_frobenius_squared": 6,
+          "complement_components": 2,
+          "direct_target_components": 0,
+          "nonzero_components": 2,
+          "seed": 1
+        },
+        {
+          "T_frobenius_squared": 6,
+          "complement_components": 2,
+          "direct_target_components": 0,
+          "nonzero_components": 2,
+          "seed": 2
+        },
+        {
+          "T_frobenius_squared": 6,
+          "complement_components": 2,
+          "direct_target_components": 0,
+          "nonzero_components": 2,
+          "seed": 3
+        },
+        {
+          "T_frobenius_squared": 6,
+          "complement_components": 2,
+          "direct_target_components": 0,
+          "nonzero_components": 2,
+          "seed": 4
+        },
+        {
+          "T_frobenius_squared": 6,
+          "complement_components": 2,
+          "direct_target_components": 0,
+          "nonzero_components": 2,
+          "seed": 5
+        },
+        {
+          "T_frobenius_squared": 6,
+          "complement_components": 2,
+          "direct_target_components": 0,
+          "nonzero_components": 2,
+          "seed": 6
+        },
+        {
+          "T_frobenius_squared": 6,
+          "complement_components": 2,
+          "direct_target_components": 0,
+          "nonzero_components": 2,
+          "seed": 7
+        },
+        {
+          "T_frobenius_squared": 6,
+          "complement_components": 2,
+          "direct_target_components": 0,
+          "nonzero_components": 2,
+          "seed": 8
+        },
+        {
+          "T_frobenius_squared": 6,
+          "complement_components": 2,
+          "direct_target_components": 0,
+          "nonzero_components": 2,
+          "seed": 9
+        },
+        {
+          "T_frobenius_squared": 6,
+          "complement_components": 2,
+          "direct_target_components": 0,
+          "nonzero_components": 2,
+          "seed": 10
+        },
+        {
+          "T_frobenius_squared": 6,
+          "complement_components": 2,
+          "direct_target_components": 0,
+          "nonzero_components": 2,
+          "seed": 11
+        },
+        {
+          "T_frobenius_squared": 6,
+          "complement_components": 2,
+          "direct_target_components": 0,
+          "nonzero_components": 2,
+          "seed": 12
+        },
+        {
+          "T_frobenius_squared": 6,
+          "complement_components": 2,
+          "direct_target_components": 0,
+          "nonzero_components": 2,
+          "seed": 13
+        },
+        {
+          "T_frobenius_squared": 6,
+          "complement_components": 2,
+          "direct_target_components": 0,
+          "nonzero_components": 2,
+          "seed": 14
+        },
+        {
+          "T_frobenius_squared": 6,
+          "complement_components": 2,
+          "direct_target_components": 0,
+          "nonzero_components": 2,
+          "seed": 15
+        },
+        {
+          "T_frobenius_squared": 6,
+          "complement_components": 2,
+          "direct_target_components": 0,
+          "nonzero_components": 2,
+          "seed": 16
+        },
+        {
+          "T_frobenius_squared": 6,
+          "complement_components": 2,
+          "direct_target_components": 0,
+          "nonzero_components": 2,
+          "seed": 17
+        }
+      ],
+      "endpoint_matrix": [
+        [
+          0,
+          -1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          -1
+        ]
+      ],
+      "finite_output_support_size": 3,
+      "finite_source_atoms_before_collisions": 9,
+      "finite_source_is_gaussian": false,
+      "finite_source_weight": 16,
+      "finite_zero_weight_retained": 8,
+      "map_checks": 18,
+      "uniform_domain_size": 625,
+      "uniform_fiber_multiplicity": 25,
+      "uniform_image_size": 25
+    }
+  ],
+  "status": "PASS"
+}

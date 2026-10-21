@@ -1,0 +1,20 @@
+{
+  "experiment_id": "A-BFAM-FV1",
+  "root_reservation": "2026-10-21 06:05:51 UTC; execution completed and reservation released",
+  "code": "reviewer-family-v1.py",
+  "command": "reviewer-family-command-v1.txt",
+  "inputs": "fixed explicitly in original code; all256 binary vertices; recurrence Y^2=5Y-1 modulo17",
+  "stdout": "reviewer-family-stdout-v1.json",
+  "stderr": "reviewer-family-stderr-v1.txt",
+  "resources": "reviewer-family-resources-v1.txt",
+  "exit_code": 0,
+  "stderr_empty": true,
+  "elapsed_seconds": 0.02,
+  "max_rss_kib": 10240,
+  "limits": {"wall_seconds": 30, "cpu_seconds": 20, "address_space_bytes": 134217728},
+  "randomness": "none",
+  "precision": "exact integer/rational, no floats",
+  "tail": "not applicable; exact finite cube enumeration",
+  "result": {"cube_image": 176, "singletons": 112, "doubletons": 48, "tripletons": 16},
+  "scope": "Independent arithmetic implementation verifies the named family count and source-test threshold control; no Gaussian sampling or hardness conclusion"
+}

@@ -1,0 +1,22 @@
+{
+  "artifact_sha256": {
+    "exposure-log-v1.md": "4b3ddd5f2e28eb2510da60b383e4d5df7d7bf440960816ece492be527f8f478e",
+    "report-v1.md": "8f1cc5e9d8b96acb0a74ba5f10e26b330565f4cae372bd2825fa8012e4ef50fe"
+  },
+  "assignment_sha256": "4e0a113b3a10af1360b8687c017a1dd468d8d6b49d694e671878487966469eac",
+  "blind_exposure_status": "clean: only assignment, four allowed scientific inputs, own new work, and administrative clock/tool metadata",
+  "experiments_run": false,
+  "hash_algorithm": "SHA256",
+  "input_sha256": {
+    "input/A-statement-v1.md": "ac3117ca1e9c2126422df06cd1983a2368e0c58d2eda073e22108f1f7b5a7ba8",
+    "input/B-statement-v1.md": "d146b96e287e885ad05255a00f2afbde8ce926bf03c9ffa85d2cc8fe37576c91",
+    "input/M1-statement-v1.md": "4e21066d0ba5266384b5c493877ad95a41b65b49cc75d6136f243e299af7d5bf",
+    "input/definitions-v1.md": "45636918ca0c107c64d8eb2cc15fd783043fd3bc61bed116122f661a8c64a775"
+  },
+  "limitations": "Same-model correlated scrutiny; not formal verification.",
+  "owned_directory": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/criticism/FBR1",
+  "reviewer": "FBR1",
+  "scientific_findings_disclosed_before_seal": false,
+  "sealed_utc": "2026-10-21T06:21:24.636634+00:00",
+  "version": 1
+}

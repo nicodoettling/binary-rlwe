@@ -1,0 +1,13 @@
+{
+  "goal": {
+    "threadId": "01a14b7b-9e45-7b70-b46d-0bf70e17f2e2",
+    "objective": "Establish and critically validate a noncircular, parameter-compatible computational hardness foundation for a noisy low-dimensional ideal source sufficient for coefficient-binary rank-one RLWE recovery hardness, from standard RLWE or Order-LWE in an explicitly verified established-hardness regime, or a precisely specified standard worst-case ideal-lattice problem. Permit a modified source when its full law and downstream composition are proved. Give exact reduction direction, advantage and sample/runtime costs, classical/quantum and uniformity model, and a nonempty effective regime with a meaningful binary-secret application. Generalized lossiness, source renaming, extra unproved nonstandard premises, scoped obstructions and rederived EX-v2 are partial progress, not completion of this computational-foundation goal. Preserve honest unresolved outcomes if the six-hour cap expires.",
+    "status": "active",
+    "tokensUsed": 13547733,
+    "timeUsedSeconds": 24663,
+    "createdAt": 1792267777,
+    "updatedAt": 1792565337
+  },
+  "remainingTokens": null,
+  "completionBudgetReport": null
+}

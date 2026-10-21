@@ -1,0 +1,31 @@
+FBR2 EXPOSURE AND TOOL LOG, VERSION 1
+
+Boundary: only assignment-v1.md, input/theorem-v2.md, and input/definitions-v1.md in the owned FBR2 directory were permitted scientific/administrative file inputs. Newly written own work may be read. No other project/status/proof/review/history file was opened. No external scientific retrieval, search, experiment, settings inspection, goal operation, child agent, or live-agent listing was used.
+
+Native conversation exposure: the platform/developer configuration, environment context, and the parent task message were visible. The parent message designated this as a fresh BLIND review, specified the three allowed files, restricted writes to FBR2, prohibited external retrieval, children, goals, and settings, and required sealing before findings. It contained no proposed proof or scientific finding. No further parent scientific message was received before this seal. Requested configuration was gpt-6-astra, ultra, Standard/default; no independent model/settings inspection was attempted. Same-model review is correlated and is not formal verification.
+
+Chronological deliberate tool/read record:
+
+1. functions.exec -> tools.exec_command: cat the absolute FBR2/assignment-v1.md path. This was the first file read.
+2. functions.exec -> Promise.allSettled of three calls: tools.exec_command cat FBR2/input/theorem-v2.md; tools.exec_command cat FBR2/input/definitions-v1.md; tools.clock__curr_time. All three returned successfully. The UTC clock returned 2026-10-21 06:25:27 UTC. These were the only scientific input reads before report drafting.
+3. collaboration.send_message to /root: administrative acknowledgment of the read boundary and 06:43 UTC report target. No findings were disclosed.
+4. functions.exec -> tools.clock__curr_time: returned 2026-10-21 06:29:33 UTC.
+5. functions.exec -> tools.clock__curr_time: returned 2026-10-21 06:32:18 UTC.
+6. collaboration.send_message to /root: administrative progress report that drafting was underway, no experiments or retrieval had been used, and sealing remained expected before 06:43 UTC. No findings were disclosed.
+7. functions.exec -> tools.apply_patch: created the full owned report-v1.txt. No existing project file was read or modified.
+8. functions.exec -> tools.clock__curr_time and then tools.apply_patch: clock returned 2026-10-21 06:38:06 UTC; the own report's irreducibility paragraph was expanded into a self-contained elementary argument. The original pre-amendment draft is preserved exactly as report-draft-v1.txt by operation 10 below. The sealed report is the expanded version.
+9. collaboration.send_message to /root: administrative notice that sealing was underway and findings would follow the seal. No findings were disclosed.
+10. functions.exec -> tools.exec_command running a foreground Python administrative script. It read only the newly written own report-v1.txt, reconstructed and exclusively created report-draft-v1.txt by reversing the one known paragraph amendment, and exclusively created this exposure-v1.txt log. This was preservation and documentation, not an experiment. It did not inspect directory listings or any other files.
+11. Planned final sealing operation, included in this log before execution: functions.exec -> tools.exec_command running a foreground Python administrative script. It reads bytes of exactly assignment-v1.md, input/theorem-v2.md, input/definitions-v1.md, report-v1.txt, report-draft-v1.txt, and exposure-v1.txt in FBR2; computes SHA-256 and byte lengths; obtains actual UTC from the system clock; and exclusively creates seal-v1.json. It prints only the resulting seal metadata. Successful completion of that operation is evidenced by seal-v1.json. The log is not altered after sealing. Findings are disclosed to /root only after the tool reports successful seal creation.
+
+Complete deliberate file-read inventory:
+- FBR2/assignment-v1.md: initial administrative read and final hashing read.
+- FBR2/input/theorem-v2.md: initial scientific read and final hashing read.
+- FBR2/input/definitions-v1.md: initial scientific read and final hashing read.
+- FBR2/report-v1.txt: own draft amendment, own draft-preservation read, final hashing read.
+- FBR2/report-draft-v1.txt: final hashing read of own preserved draft.
+- FBR2/exposure-v1.txt: final hashing read of own log.
+
+Owned writes: report-v1.txt, preserved report-draft-v1.txt, exposure-v1.txt, and seal-v1.json. No writes outside FBR2. No experimental code, experiment command, data scan, network access, detached process, or long-running process was launched. Thus the experiment-reservation requirement was not triggered.
+
+No boundary breach or accidental scientific exposure was observed. No scientific findings were sent in progress messages. This log records the pre-disclosure exposure boundary; the subsequent report handoff itself is intentionally outside that boundary.

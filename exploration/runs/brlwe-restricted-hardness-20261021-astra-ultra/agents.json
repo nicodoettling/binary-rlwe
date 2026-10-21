@@ -1,0 +1,61 @@
+{
+  "updated_at": "2026-10-21T06:48:57.792528+00:00",
+  "ceiling_total": 3,
+  "observed_running_total": 1,
+  "actual_list_response": {
+    "agents": [
+      {
+        "agent_name": "/root",
+        "agent_status": "running"
+      },
+      {
+        "agent_name": "/root/restricted_fbr2",
+        "agent_status": {
+          "completed": "Sealed at **2026-10-21 06:40:14 UTC**, before disclosing findings.\n\n**Verdict: no blocking defect found.** All five parts admit an independent reconstruction under their explicit promises. The report supplies a bounded scalar bit sampler, complete normalizer/error analysis, polynomial bit-length bounds, the short-element basis construction, family arithmetic, and adaptive classical composition.\n\nOne proof detail merits attention: `W > 4n\u221an` alone does not establish the family\u2019s `W > 12n` requirement at `n=4`; the stronger stated parameter bounds establish it easily.\n\nArtifacts:\n\n- [Full report](./exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/criticism/FBR2/report-v1.txt)\n- [Exposure log](./exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/criticism/FBR2/exposure-v1.txt)\n- [Seal with complete input and artifact hashes](./exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/criticism/FBR2/seal-v1.json)\n\nReport SHA-256: `28949fb406a8d39a40e71ce18acdf849db91efff7cec3e99ac46c522b7ca1442`.\n\nThe three-file read boundary remained intact. No experiments, external retrieval, children, goals, or settings operations occurred. Same-model review remains correlated and is not formal verification."
+        }
+      },
+      {
+        "agent_name": "/root/restricted_rfr2",
+        "agent_status": {
+          "completed": "RFR2 review is frozen. The repaired prime/congruence prerequisite closes the preserved defect; no remaining load-bearing flaw was found in theorem-v2/proof-v3. No worker ACCEPT issued.\n\n- [Full report](/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/criticism/RFR2/report-v1.md)\n- [Source and complexity review](/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/criticism/RFR2/source-complexity-v1.md)\n- [Seal and input hashes](/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/criticism/RFR2/seal-v1.json)\n\nThe optional remaining-family audit passes mathematically; its old dependency label needs reconciliation. No experiments launched or FBR2 findings exposed."
+        }
+      }
+    ]
+  },
+  "thread_ids": {
+    "/root/restricted_a_transfer": "01a15cf7-c203-77c3-a140-9ec5dec4050d",
+    "/root/restricted_b_entropy": "01a15cf7-da11-79f1-bf63-149e86a606be",
+    "/root/restricted_fbr1": "01a15d13-1a4a-7f53-85bf-21988aaefae9",
+    "/root/restricted_fbr2": "01a15d22-b456-77b0-b8cb-c98281fc374f",
+    "/root/restricted_rfr2": "01a15d22-eea4-76e2-af8d-02603689b1b2"
+  },
+  "model": "gpt-6-astra",
+  "reasoning_effort": "ultra",
+  "tier": "default configuration",
+  "roles": {
+    "/root/restricted_a_transfer": "completed; final response received, no active assignment",
+    "/root/restricted_b_entropy": "completed; final response received, no active assignment",
+    "/root/restricted_fbr1": "completed; final response received, no active assignment",
+    "/root/restricted_fbr2": "completed; final response received, no active assignment",
+    "/root/restricted_rfr2": "completed; final response received, no active assignment"
+  },
+  "assignments": [
+    "workers/A/assignment-v1.md",
+    "workers/B/assignment-v1.md",
+    "criticism/FBR1/assignment-v1.md",
+    "criticism/FBR2/assignment-v1.md",
+    "criticism/RFR2/assignment-v1.md"
+  ],
+  "runtime_receipt": "coordinator/runtime-verification.json",
+  "deadlines": {
+    "start": "2026-10-21T05:34:44.878177+00:00",
+    "decision": "2026-10-21T06:19:44.878177+00:00",
+    "discovery_stop": "2026-10-21T07:49:44.878177+00:00",
+    "worker_experiment_stop": "2026-10-21T08:19:44.878177+00:00",
+    "final_checkpoint": "2026-10-21T08:29:44.878177+00:00",
+    "graceful": "2026-10-21T08:33:39.878177+00:00",
+    "hard": "2026-10-21T08:34:44.878177+00:00"
+  },
+  "observation_note": "Final list shows root running and the last two reviewers completed; earlier workers completed and retired. No active worker assignment.",
+  "peak_observed_total": 3
+}

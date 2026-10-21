@@ -1,0 +1,41 @@
+{
+  "artifact_sha256": {
+    "exposure-log-v1.md": "d90e2a3a313b8f380c887e6f1673d99e563325d95574314614b333704b3dad31",
+    "input-hashes-v1.sha256": "a850a46d831f6b2b83e1666b81e6327f50a13ff96c5cd5cbe34d0276ba444a3c",
+    "report-v1.md": "a6838a3ccc95c0b2efb4c49042c0acda4ac0f967a698d12bcfcfa023d5879e14",
+    "source-complexity-v1.md": "b0f2af320e775d9ff08508fb878fc01ce90341bb81a3f65459690a14cfa7132e"
+  },
+  "blind_reviewer_exposed": false,
+  "exact_version_disposition": "Prime-modulus prerequisite defect resolved; no remaining load-bearing defect found in theorem-only-v2/proof-v3. Referee disposition for coordinator reconciliation; no worker ACCEPT.",
+  "experiments_run_by_reviewer": false,
+  "hash_algorithm": "SHA256",
+  "input_sha256": {
+    "../brlwe-standard-hardness-20261017-astra-ultra/workers/RF4/same-j-composition/same-j-theorem-only-v1.md": "96b88a725cc5dc4f8c943275d3b8788fdb9e6ac108c72fe62b383af9614e5e62",
+    "coordinator/M1/fallback-issue-before-repair-v1.md": "1c9695e3a64a06a661ee2ef5f48adc66e5fab3b9a09c938a041573f72e4169f0",
+    "coordinator/M1/finite-summary-v1.md": "82f51963737d1094d280941baaeae63010d2b17e0cac9b02d3ba3ca69a2c91ff",
+    "coordinator/M1/proof-v2.md": "829d79b9aa0c162ac213605659f780791b14dc311ab145def9cbf4a8b8d95ebc",
+    "coordinator/M1/proof-v3.md": "ec71050187e534f853548a510252c2af7faa9318fe1b554c114173a6724a4bc7",
+    "coordinator/M1/q-control-input-v1.json": "5f8866d1db1cf7884cf706ffbf39a51f6b4cd40c3c8b220103e5df1144fa9e7e",
+    "coordinator/M1/q-control-resources-v1.txt": "a0eb8886d5a825b5fcdaefd6f1d97e0dac4f11175f58fc221f6d66e27997942d",
+    "coordinator/M1/q-control-stdout-v1.json": "8f269b67852851a48f9beae1552f6e67ba588be79cab1552dcf43175b00c7add",
+    "coordinator/M1/q-control-tool-receipt-v1.json": "53680ad281345d93690ca83f8cd5d3ed10673c3030cd1e73ad4c65c98b1381d6",
+    "coordinator/M1/q-control-v1.py": "6841c56b47da7939da58568a70e06c4da45c969b42f3fe53cd5a210e836402d2",
+    "coordinator/M1/q-prerequisite-defect-before-repair-v1.md": "62116cdd725ca569651fb19337258bfc32d83b717484a564fb10460116fdd7f9",
+    "coordinator/M1/remaining-family-v1.md": "175fbcd2ec5e4e8ea372fa74f83b12b8c7984d3eb327d5da449dcaa62706de6a",
+    "coordinator/M1/source-access-v1.md": "c139eb034d207062653099eeb39a9ffad6301e1120acaa217c14255b6f94de5a",
+    "coordinator/M1/theorem-only-v1.md": "320164e4e692ce801f2fde10a3deb7279629b9ff467bf4a155aa0828bba11845",
+    "coordinator/M1/theorem-only-v2.md": "4deb0d8091f33578a1c08614ae1a2330af998d1bdbe290722434ca990622152b",
+    "criticism/FBR1/report-v1.md": "8f1cc5e9d8b96acb0a74ba5f10e26b330565f4cae372bd2825fa8012e4ef50fe",
+    "criticism/FBR1/seal-v1.json": "00fc5b65a88a5770eeb39281ad7734c127890ecaff4de56f0079481972099f3f",
+    "criticism/RFR2/assignment-v1.md": "d11445191a79430088b441bdb509985a06f2280a54f677034c978edf68af29d1",
+    "workers/B/m1-review/fallback-clarification-v1.md": "ff353fb672001d4b81da1dc46b7a7e6c9bccacda8ac878d77f8015b1b4980f06",
+    "workers/B/m1-review/report-v1.md": "2c86bd3c7cda75a8f2f06a7dc7b4d670d3e3398d53433936458276a4acb55995",
+    "workers/B/m1-review/report-v2-recheck.md": "359e4995cb44d3c30cec1509cfaf1f094158c6b1f2cb7b8eb84c1744cbc8e5ef",
+    "workers/B/m1-review/source-review-v1.md": "64dbec7d0da1ef13e6dba9be60228b19d64bb676519a795bacee08db34f70424"
+  },
+  "limitations": "Same-model correlated scrutiny; not formal verification; SIAM abstract inspected, full paper not inspected.",
+  "owned_directory": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/criticism/RFR2",
+  "reviewer": "RFR2",
+  "sealed_utc": "2026-10-21T06:34:41.231833+00:00",
+  "version": 1
+}

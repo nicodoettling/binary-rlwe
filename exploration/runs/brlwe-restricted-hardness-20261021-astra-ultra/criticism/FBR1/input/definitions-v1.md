@@ -1,0 +1,3 @@
+Background and conventions
+
+TV is half the l1 distance for countable laws, equivalently supremum event difference. An ordinary DGS sample has probability proportional to exp(-pi||x||²/s²), not squared-amplitude width s. All lattices are full rank, norms are in the stated coefficient coordinates, and bit complexity counts complete binary encodings. Standard finite-dimensional linear algebra, Poisson summation for Gaussians, polynomial bit algorithms for integer Hermite/Smith normal forms with multiplier matrices, and ordinary ideal arithmetic in the stated cyclotomic rings may be used. No external retrieval is permitted. The three statements stand separately; no downstream computational hardness or family-transfer theorem is asserted.

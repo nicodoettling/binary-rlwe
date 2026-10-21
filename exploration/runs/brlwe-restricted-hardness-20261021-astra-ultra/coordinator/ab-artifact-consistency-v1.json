@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-21T06:29:20.118945+00:00",
+  "kind": "separate structural artifact consistency, not proof certification",
+  "blind_seal": "criticism/FBR1/seal-v1.json",
+  "regression_gate": "coordinator/regression-gate-v2.json",
+  "checks": [
+    {
+      "claim": "M2-TRANSFER-v1",
+      "all_files_nonempty": true,
+      "hashes": {
+        "theorem": "0e6357f15a990b9b98abec66470cb105be146664641a1d6daf66d0861ca3d18b",
+        "proof": "5d917465a7a02265b555a5760cd2755e0a6de6d870cb43396bbffccac449fcd6",
+        "full_review": "53df329516e12265ce5650578620b8c9c53d716a0d6fa95a0c6646b582c7afc4",
+        "source_review": "9209dd1e65ea3607db3863c7c9df2dfc1510406ea2545bb2ed4615088a441d3d"
+      },
+      "blind_input_matches": true
+    },
+    {
+      "claim": "M3-ENTROPY-v1",
+      "all_files_nonempty": true,
+      "hashes": {
+        "theorem": "6e71289b7e9979ad169d1008d2e40f2cdb3f09f1bd7a29b48e41c90431e6becd",
+        "proof": "0b67d511c9bfc43f5a7fdbc51102f983471a1095bd0612efcd66ee82395c6fab",
+        "full_review": "dc4dda3de164397004444bf32d405e6d46f59fbfb9a1b8925394c318b1ee9ba3",
+        "source_review": "de7e3bb333091439aed1fb263b4cfdb0338c213bb281a7ac2a117cbb687415e0"
+      },
+      "blind_input_matches": true
+    }
+  ]
+}

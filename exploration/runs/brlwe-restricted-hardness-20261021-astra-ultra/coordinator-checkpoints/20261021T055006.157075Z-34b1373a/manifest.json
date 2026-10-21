@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261021T055006.157075Z-34b1373a",
+  "kind": "capped-goal-coordinator",
+  "created_at": "2026-10-21T05:50:06.157099+00:00",
+  "reason": "First concrete sampling and full-observation candidates; B finite test completed, no acceptance",
+  "artifacts": [
+    {
+      "path": "claims.json",
+      "bytes": 27239,
+      "sha256": "e5a7ea345a0503f293fb8be2ae61d2a098d78843a38d972e2a9f12408abfdb69"
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 1516,
+      "sha256": "5e2f7bd0e628f8fa05d8d1fc944530a7dfabd998cc0c3220b5d44449850d5b74"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 1516,
+      "sha256": "5e2f7bd0e628f8fa05d8d1fc944530a7dfabd998cc0c3220b5d44449850d5b74"
+    },
+    {
+      "path": "final.md",
+      "bytes": 1516,
+      "sha256": "5e2f7bd0e628f8fa05d8d1fc944530a7dfabd998cc0c3220b5d44449850d5b74"
+    },
+    {
+      "path": "agents.json",
+      "bytes": 1452,
+      "sha256": "80afcbaee17b949bc5a066bc0c711e03a5fa90391a42b8ffbbc1809d1b34e797"
+    }
+  ],
+  "missing_core_artifacts": [],
+  "consistency": "stable_file_set_during_copy; scientific_coherence_not_verified",
+  "scientific_progress_verified": false
+}

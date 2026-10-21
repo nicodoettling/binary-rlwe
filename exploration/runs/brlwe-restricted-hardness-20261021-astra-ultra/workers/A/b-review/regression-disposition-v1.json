@@ -1,0 +1,925 @@
+{
+  "schema": 1,
+  "registry_path": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+  "registry_sha256_at_review": "f4950ef0b029f08bbe02f30275cd5b677b23283b9d272eee8cde18cda13b2e8e",
+  "inherited_count": 151,
+  "main_claim": "B-CUBE-THETA-v1",
+  "scope": "No final acceptance; core lemma, explicit family and changed-premise composition remain distinct",
+  "categories": {
+    "PUBLIC_SOURCE_AND_ZERO": 17,
+    "FULL_JOINT_LAW": 35,
+    "EXACT_CUBE_AND_GEOMETRY": 8,
+    "RETAINED_OUTSIDE_NEW_CLAIMS": 32,
+    "NORMALIZERS_AND_TAILS": 14,
+    "BIT_VALUE_AND_PARAMETERS": 19,
+    "UNCHANGED_FINITE_INTERFACES": 26
+  },
+  "entries": [
+    {
+      "id": "R01",
+      "category": "PUBLIC_SOURCE_AND_ZERO",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Explicit source test multiplies by public F before centered lifting and counts the entire uniform comparator, including zero/nonunits. The exact threshold count is capped byq. No retries, active conditioning, recovered-witness substitution or off-domain map is used. Planted observations are unwrapped only in the proof."
+    },
+    {
+      "id": "R02",
+      "category": "FULL_JOINT_LAW",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The full independent (S,G) law is explicit before revelation; guessing uses the actual S. No selected marginal product, reverse TV lower bound or retained H in the independent-noise comparison. CP1 remains21/2000>1/100. Downstream H is exposed only after integrating it out of the comparison."
+    },
+    {
+      "id": "R03",
+      "category": "FULL_JOINT_LAW",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The full independent (S,G) law is explicit before revelation; guessing uses the actual S. No selected marginal product, reverse TV lower bound or retained H in the independent-noise comparison. CP1 remains21/2000>1/100. Downstream H is exposed only after integrating it out of the comparison."
+    },
+    {
+      "id": "R04",
+      "category": "FULL_JOINT_LAW",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The full independent (S,G) law is explicit before revelation; guessing uses the actual S. No selected marginal product, reverse TV lower bound or retained H in the independent-noise comparison. CP1 remains21/2000>1/100. Downstream H is exposed only after integrating it out of the comparison."
+    },
+    {
+      "id": "R05",
+      "category": "FULL_JOINT_LAW",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The full independent (S,G) law is explicit before revelation; guessing uses the actual S. No selected marginal product, reverse TV lower bound or retained H in the independent-noise comparison. CP1 remains21/2000>1/100. Downstream H is exposed only after integrating it out of the comparison."
+    },
+    {
+      "id": "R06",
+      "category": "EXACT_CUBE_AND_GEOMETRY",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Actual occupied binary fibers are counted, not inferred from field rank or entropy alone. Collision is the strict C_J<2^n event; the ternary norm bound permits equality. The norm289 family is an exact easy-source example, not a hard distribution or finite-to-asymptotic inference."
+    },
+    {
+      "id": "R07",
+      "category": "EXACT_CUBE_AND_GEOMETRY",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Actual occupied binary fibers are counted, not inferred from field rank or entropy alone. Collision is the strict C_J<2^n event; the ternary norm bound permits equality. The norm289 family is an exact easy-source example, not a hard distribution or finite-to-asymptotic inference."
+    },
+    {
+      "id": "R08",
+      "category": "FULL_JOINT_LAW",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The full independent (S,G) law is explicit before revelation; guessing uses the actual S. No selected marginal product, reverse TV lower bound or retained H in the independent-noise comparison. CP1 remains21/2000>1/100. Downstream H is exposed only after integrating it out of the comparison."
+    },
+    {
+      "id": "R09",
+      "category": "EXACT_CUBE_AND_GEOMETRY",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Actual occupied binary fibers are counted, not inferred from field rank or entropy alone. Collision is the strict C_J<2^n event; the ternary norm bound permits equality. The norm289 family is an exact easy-source example, not a hard distribution or finite-to-asymptotic inference."
+    },
+    {
+      "id": "R10",
+      "category": "PUBLIC_SOURCE_AND_ZERO",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Explicit source test multiplies by public F before centered lifting and counts the entire uniform comparator, including zero/nonunits. The exact threshold count is capped byq. No retries, active conditioning, recovered-witness substitution or off-domain map is used. Planted observations are unwrapped only in the proof."
+    },
+    {
+      "id": "R11",
+      "category": "FULL_JOINT_LAW",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The full independent (S,G) law is explicit before revelation; guessing uses the actual S. No selected marginal product, reverse TV lower bound or retained H in the independent-noise comparison. CP1 remains21/2000>1/100. Downstream H is exposed only after integrating it out of the comparison."
+    },
+    {
+      "id": "R12",
+      "category": "FULL_JOINT_LAW",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The full independent (S,G) law is explicit before revelation; guessing uses the actual S. No selected marginal product, reverse TV lower bound or retained H in the independent-noise comparison. CP1 remains21/2000>1/100. Downstream H is exposed only after integrating it out of the comparison."
+    },
+    {
+      "id": "R13",
+      "category": "RETAINED_OUTSIDE_NEW_CLAIMS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Retained on its historical route. The new claims assert no structured-source pseudorandomness, signed Renyi gap transport, ideal-subspace conversion, order pairing, tower/trace transfer, class-word descent, binary-error switch, denominator-generation solver or generic hardness implication. No old counterexample is invalidated or relabelled as passed by this review."
+    },
+    {
+      "id": "R14",
+      "category": "PUBLIC_SOURCE_AND_ZERO",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Explicit source test multiplies by public F before centered lifting and counts the entire uniform comparator, including zero/nonunits. The exact threshold count is capped byq. No retries, active conditioning, recovered-witness substitution or off-domain map is used. Planted observations are unwrapped only in the proof."
+    },
+    {
+      "id": "R15",
+      "category": "FULL_JOINT_LAW",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The full independent (S,G) law is explicit before revelation; guessing uses the actual S. No selected marginal product, reverse TV lower bound or retained H in the independent-noise comparison. CP1 remains21/2000>1/100. Downstream H is exposed only after integrating it out of the comparison."
+    },
+    {
+      "id": "R16",
+      "category": "RETAINED_OUTSIDE_NEW_CLAIMS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Retained on its historical route. The new claims assert no structured-source pseudorandomness, signed Renyi gap transport, ideal-subspace conversion, order pairing, tower/trace transfer, class-word descent, binary-error switch, denominator-generation solver or generic hardness implication. No old counterexample is invalidated or relabelled as passed by this review."
+    },
+    {
+      "id": "R17",
+      "category": "RETAINED_OUTSIDE_NEW_CLAIMS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Retained on its historical route. The new claims assert no structured-source pseudorandomness, signed Renyi gap transport, ideal-subspace conversion, order pairing, tower/trace transfer, class-word descent, binary-error switch, denominator-generation solver or generic hardness implication. No old counterexample is invalidated or relabelled as passed by this review."
+    },
+    {
+      "id": "R18",
+      "category": "FULL_JOINT_LAW",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The full independent (S,G) law is explicit before revelation; guessing uses the actual S. No selected marginal product, reverse TV lower bound or retained H in the independent-noise comparison. CP1 remains21/2000>1/100. Downstream H is exposed only after integrating it out of the comparison."
+    },
+    {
+      "id": "C03-HC1",
+      "category": "NORMALIZERS_AND_TAILS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "T1 uses exact centered theta maximum and monotone dual-theta ratio, retaining rho_t(J). No covariance equality or exact deconvolution is asserted. The finite Gaussian truncation retains its normalizer and pays a valid raw-tail upper bound; only bounded guessing events transfer through TV. Downstream rectangular completion/Delta guard is unchanged."
+    },
+    {
+      "id": "C03-HC2",
+      "category": "NORMALIZERS_AND_TAILS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "T1 uses exact centered theta maximum and monotone dual-theta ratio, retaining rho_t(J). No covariance equality or exact deconvolution is asserted. The finite Gaussian truncation retains its normalizer and pays a valid raw-tail upper bound; only bounded guessing events transfer through TV. Downstream rectangular completion/Delta guard is unchanged."
+    },
+    {
+      "id": "C03-HC3",
+      "category": "NORMALIZERS_AND_TAILS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "T1 uses exact centered theta maximum and monotone dual-theta ratio, retaining rho_t(J). No covariance equality or exact deconvolution is asserted. The finite Gaussian truncation retains its normalizer and pays a valid raw-tail upper bound; only bounded guessing events transfer through TV. Downstream rectangular completion/Delta guard is unchanged."
+    },
+    {
+      "id": "C03-HC4",
+      "category": "NORMALIZERS_AND_TAILS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "T1 uses exact centered theta maximum and monotone dual-theta ratio, retaining rho_t(J). No covariance equality or exact deconvolution is asserted. The finite Gaussian truncation retains its normalizer and pays a valid raw-tail upper bound; only bounded guessing events transfer through TV. Downstream rectangular completion/Delta guard is unchanged."
+    },
+    {
+      "id": "C03-HC5",
+      "category": "FULL_JOINT_LAW",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The full independent (S,G) law is explicit before revelation; guessing uses the actual S. No selected marginal product, reverse TV lower bound or retained H in the independent-noise comparison. CP1 remains21/2000>1/100. Downstream H is exposed only after integrating it out of the comparison."
+    },
+    {
+      "id": "C03-HC6",
+      "category": "FULL_JOINT_LAW",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The full independent (S,G) law is explicit before revelation; guessing uses the actual S. No selected marginal product, reverse TV lower bound or retained H in the independent-noise comparison. CP1 remains21/2000>1/100. Downstream H is exposed only after integrating it out of the comparison."
+    },
+    {
+      "id": "C03-HC7",
+      "category": "FULL_JOINT_LAW",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The full independent (S,G) law is explicit before revelation; guessing uses the actual S. No selected marginal product, reverse TV lower bound or retained H in the independent-noise comparison. CP1 remains21/2000>1/100. Downstream H is exposed only after integrating it out of the comparison."
+    },
+    {
+      "id": "C02-LATENT-PUBLIC",
+      "category": "FULL_JOINT_LAW",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The full independent (S,G) law is explicit before revelation; guessing uses the actual S. No selected marginal product, reverse TV lower bound or retained H in the independent-noise comparison. CP1 remains21/2000>1/100. Downstream H is exposed only after integrating it out of the comparison."
+    },
+    {
+      "id": "C02-CHAR",
+      "category": "RETAINED_OUTSIDE_NEW_CLAIMS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Retained on its historical route. The new claims assert no structured-source pseudorandomness, signed Renyi gap transport, ideal-subspace conversion, order pairing, tower/trace transfer, class-word descent, binary-error switch, denominator-generation solver or generic hardness implication. No old counterexample is invalidated or relabelled as passed by this review."
+    },
+    {
+      "id": "C01-ATT",
+      "category": "PUBLIC_SOURCE_AND_ZERO",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Explicit source test multiplies by public F before centered lifting and counts the entire uniform comparator, including zero/nonunits. The exact threshold count is capped byq. No retries, active conditioning, recovered-witness substitution or off-domain map is used. Planted observations are unwrapped only in the proof."
+    },
+    {
+      "id": "CP-1",
+      "category": "FULL_JOINT_LAW",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The full independent (S,G) law is explicit before revelation; guessing uses the actual S. No selected marginal product, reverse TV lower bound or retained H in the independent-noise comparison. CP1 remains21/2000>1/100. Downstream H is exposed only after integrating it out of the comparison."
+    },
+    {
+      "id": "NC1-v1",
+      "category": "NORMALIZERS_AND_TAILS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "T1 uses exact centered theta maximum and monotone dual-theta ratio, retaining rho_t(J). No covariance equality or exact deconvolution is asserted. The finite Gaussian truncation retains its normalizer and pays a valid raw-tail upper bound; only bounded guessing events transfer through TV. Downstream rectangular completion/Delta guard is unchanged."
+    },
+    {
+      "id": "S0-dependency",
+      "category": "RETAINED_OUTSIDE_NEW_CLAIMS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Retained on its historical route. The new claims assert no structured-source pseudorandomness, signed Renyi gap transport, ideal-subspace conversion, order pairing, tower/trace transfer, class-word descent, binary-error switch, denominator-generation solver or generic hardness implication. No old counterexample is invalidated or relabelled as passed by this review."
+    },
+    {
+      "id": "PUBLIC-ENCODED-F",
+      "category": "FULL_JOINT_LAW",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The full independent (S,G) law is explicit before revelation; guessing uses the actual S. No selected marginal product, reverse TV lower bound or retained H in the independent-noise comparison. CP1 remains21/2000>1/100. Downstream H is exposed only after integrating it out of the comparison."
+    },
+    {
+      "id": "W2-SUBGROUP-BOUNDARY",
+      "category": "RETAINED_OUTSIDE_NEW_CLAIMS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Retained on its historical route. The new claims assert no structured-source pseudorandomness, signed Renyi gap transport, ideal-subspace conversion, order pairing, tower/trace transfer, class-word descent, binary-error switch, denominator-generation solver or generic hardness implication. No old counterexample is invalidated or relabelled as passed by this review."
+    },
+    {
+      "id": "UNIFORM-APPROX-COLLAPSE",
+      "category": "RETAINED_OUTSIDE_NEW_CLAIMS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Retained on its historical route. The new claims assert no structured-source pseudorandomness, signed Renyi gap transport, ideal-subspace conversion, order pairing, tower/trace transfer, class-word descent, binary-error switch, denominator-generation solver or generic hardness implication. No old counterexample is invalidated or relabelled as passed by this review."
+    },
+    {
+      "id": "SE-CORRELATION-F3",
+      "category": "FULL_JOINT_LAW",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The full independent (S,G) law is explicit before revelation; guessing uses the actual S. No selected marginal product, reverse TV lower bound or retained H in the independent-noise comparison. CP1 remains21/2000>1/100. Downstream H is exposed only after integrating it out of the comparison."
+    },
+    {
+      "id": "W2-CONSTANT-COMPARISON",
+      "category": "RETAINED_OUTSIDE_NEW_CLAIMS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Retained on its historical route. The new claims assert no structured-source pseudorandomness, signed Renyi gap transport, ideal-subspace conversion, order pairing, tower/trace transfer, class-word descent, binary-error switch, denominator-generation solver or generic hardness implication. No old counterexample is invalidated or relabelled as passed by this review."
+    },
+    {
+      "id": "N02-DUAL-NUMBER",
+      "category": "PUBLIC_SOURCE_AND_ZERO",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Explicit source test multiplies by public F before centered lifting and counts the entire uniform comparator, including zero/nonunits. The exact threshold count is capped byq. No retries, active conditioning, recovered-witness substitution or off-domain map is used. Planted observations are unwrapped only in the proof."
+    },
+    {
+      "id": "PAIRWISE-SE-F3",
+      "category": "FULL_JOINT_LAW",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The full independent (S,G) law is explicit before revelation; guessing uses the actual S. No selected marginal product, reverse TV lower bound or retained H in the independent-noise comparison. CP1 remains21/2000>1/100. Downstream H is exposed only after integrating it out of the comparison."
+    },
+    {
+      "id": "N03-PV-CONDITIONING",
+      "category": "FULL_JOINT_LAW",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The full independent (S,G) law is explicit before revelation; guessing uses the actual S. No selected marginal product, reverse TV lower bound or retained H in the independent-noise comparison. CP1 remains21/2000>1/100. Downstream H is exposed only after integrating it out of the comparison."
+    },
+    {
+      "id": "N03-SCAL-POSTERIOR",
+      "category": "FULL_JOINT_LAW",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The full independent (S,G) law is explicit before revelation; guessing uses the actual S. No selected marginal product, reverse TV lower bound or retained H in the independent-noise comparison. CP1 remains21/2000>1/100. Downstream H is exposed only after integrating it out of the comparison."
+    },
+    {
+      "id": "RECT-ALG-1",
+      "category": "NORMALIZERS_AND_TAILS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "T1 uses exact centered theta maximum and monotone dual-theta ratio, retaining rho_t(J). No covariance equality or exact deconvolution is asserted. The finite Gaussian truncation retains its normalizer and pays a valid raw-tail upper bound; only bounded guessing events transfer through TV. Downstream rectangular completion/Delta guard is unchanged."
+    },
+    {
+      "id": "SOURCE-SMALL-D",
+      "category": "PUBLIC_SOURCE_AND_ZERO",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Explicit source test multiplies by public F before centered lifting and counts the entire uniform comparator, including zero/nonunits. The exact threshold count is capped byq. No retries, active conditioning, recovered-witness substitution or off-domain map is used. Planted observations are unwrapped only in the proof."
+    },
+    {
+      "id": "A-PPT-LEDGER-SCOPE",
+      "category": "BIT_VALUE_AND_PARAMETERS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The actual t_A=2n^2 ell and frozen target sigma are retained. logD=O(nlogn) is only a bit bound. Numerical q,chi,delta control output width and are not replaced by their encoding lengths. No positive-margin amplification or new rational framing is asserted; the exact old finite representation remains a separate unchanged dependency."
+    },
+    {
+      "id": "EX-PURE-MIX-ZERO",
+      "category": "PUBLIC_SOURCE_AND_ZERO",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Explicit source test multiplies by public F before centered lifting and counts the entire uniform comparator, including zero/nonunits. The exact threshold count is capped byq. No retries, active conditioning, recovered-witness substitution or off-domain map is used. Planted observations are unwrapped only in the proof."
+    },
+    {
+      "id": "EX-PUBLIC-TAPE",
+      "category": "FULL_JOINT_LAW",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The full independent (S,G) law is explicit before revelation; guessing uses the actual S. No selected marginal product, reverse TV lower bound or retained H in the independent-noise comparison. CP1 remains21/2000>1/100. Downstream H is exposed only after integrating it out of the comparison."
+    },
+    {
+      "id": "EX-APPENDED-H",
+      "category": "FULL_JOINT_LAW",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The full independent (S,G) law is explicit before revelation; guessing uses the actual S. No selected marginal product, reverse TV lower bound or retained H in the independent-noise comparison. CP1 remains21/2000>1/100. Downstream H is exposed only after integrating it out of the comparison."
+    },
+    {
+      "id": "EX-M3-CROSSBLOCK",
+      "category": "NORMALIZERS_AND_TAILS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "T1 uses exact centered theta maximum and monotone dual-theta ratio, retaining rho_t(J). No covariance equality or exact deconvolution is asserted. The finite Gaussian truncation retains its normalizer and pays a valid raw-tail upper bound; only bounded guessing events transfer through TV. Downstream rectangular completion/Delta guard is unchanged."
+    },
+    {
+      "id": "EX-RETAINED-M3",
+      "category": "FULL_JOINT_LAW",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The full independent (S,G) law is explicit before revelation; guessing uses the actual S. No selected marginal product, reverse TV lower bound or retained H in the independent-noise comparison. CP1 remains21/2000>1/100. Downstream H is exposed only after integrating it out of the comparison."
+    },
+    {
+      "id": "B-JL-BZERO",
+      "category": "PUBLIC_SOURCE_AND_ZERO",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Explicit source test multiplies by public F before centered lifting and counts the entire uniform comparator, including zero/nonunits. The exact threshold count is capped byq. No retries, active conditioning, recovered-witness substitution or off-domain map is used. Planted observations are unwrapped only in the proof."
+    },
+    {
+      "id": "B-JL-REDRAW-T",
+      "category": "PUBLIC_SOURCE_AND_ZERO",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Explicit source test multiplies by public F before centered lifting and counts the entire uniform comparator, including zero/nonunits. The exact threshold count is capped byq. No retries, active conditioning, recovered-witness substitution or off-domain map is used. Planted observations are unwrapped only in the proof."
+    },
+    {
+      "id": "A-ERASURE-RANKMIX",
+      "category": "PUBLIC_SOURCE_AND_ZERO",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Explicit source test multiplies by public F before centered lifting and counts the entire uniform comparator, including zero/nonunits. The exact threshold count is capped byq. No retries, active conditioning, recovered-witness substitution or off-domain map is used. Planted observations are unwrapped only in the proof."
+    },
+    {
+      "id": "D-THETA-RETAIN-U-v1",
+      "category": "FULL_JOINT_LAW",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The full independent (S,G) law is explicit before revelation; guessing uses the actual S. No selected marginal product, reverse TV lower bound or retained H in the independent-noise comparison. CP1 remains21/2000>1/100. Downstream H is exposed only after integrating it out of the comparison."
+    },
+    {
+      "id": "D-LSW-THETA-1",
+      "category": "NORMALIZERS_AND_TAILS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "T1 uses exact centered theta maximum and monotone dual-theta ratio, retaining rho_t(J). No covariance equality or exact deconvolution is asserted. The finite Gaussian truncation retains its normalizer and pays a valid raw-tail upper bound; only bounded guessing events transfer through TV. Downstream rectangular completion/Delta guard is unchanged."
+    },
+    {
+      "id": "C-TOWER-RELATION-1",
+      "category": "RETAINED_OUTSIDE_NEW_CLAIMS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Retained on its historical route. The new claims assert no structured-source pseudorandomness, signed Renyi gap transport, ideal-subspace conversion, order pairing, tower/trace transfer, class-word descent, binary-error switch, denominator-generation solver or generic hardness implication. No old counterexample is invalidated or relabelled as passed by this review."
+    },
+    {
+      "id": "D-REUSED-PIVOT-1",
+      "category": "FULL_JOINT_LAW",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The full independent (S,G) law is explicit before revelation; guessing uses the actual S. No selected marginal product, reverse TV lower bound or retained H in the independent-noise comparison. CP1 remains21/2000>1/100. Downstream H is exposed only after integrating it out of the comparison."
+    },
+    {
+      "id": "A-TOWER-LAW-1",
+      "category": "RETAINED_OUTSIDE_NEW_CLAIMS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Retained on its historical route. The new claims assert no structured-source pseudorandomness, signed Renyi gap transport, ideal-subspace conversion, order pairing, tower/trace transfer, class-word descent, binary-error switch, denominator-generation solver or generic hardness implication. No old counterexample is invalidated or relabelled as passed by this review."
+    },
+    {
+      "id": "C-SMALL-N-EXISTENCE-1",
+      "category": "EXACT_CUBE_AND_GEOMETRY",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Actual occupied binary fibers are counted, not inferred from field rank or entropy alone. Collision is the strict C_J<2^n event; the ternary norm bound permits equality. The norm289 family is an exact easy-source example, not a hard distribution or finite-to-asymptotic inference."
+    },
+    {
+      "id": "D-NORMALFORM-WRAP-1",
+      "category": "PUBLIC_SOURCE_AND_ZERO",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Explicit source test multiplies by public F before centered lifting and counts the entire uniform comparator, including zero/nonunits. The exact threshold count is capped byq. No retries, active conditioning, recovered-witness substitution or off-domain map is used. Planted observations are unwrapped only in the proof."
+    },
+    {
+      "id": "B-GP-RATIONAL-ENCODING-1",
+      "category": "BIT_VALUE_AND_PARAMETERS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The actual t_A=2n^2 ell and frozen target sigma are retained. logD=O(nlogn) is only a bit bound. Numerical q,chi,delta control output width and are not replaced by their encoding lengths. No positive-margin amplification or new rational framing is asserted; the exact old finite representation remains a separate unchanged dependency."
+    },
+    {
+      "id": "C-OHCP-LOGSHIFT-1",
+      "category": "UNCHANGED_FINITE_INTERFACES",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Outside the new theta proof. The changed-premise audit uses current accepted C8-v8 and exact same-J interfaces with all caps, conditional errors, actual physical/proxy distinction, rational verifier, coherent code, periodization and full-state charges unchanged. This review does not re-certify those implementations or automatically accept a changed composition."
+    },
+    {
+      "id": "ROOT-IDEAL-SUBSPACE-1",
+      "category": "RETAINED_OUTSIDE_NEW_CLAIMS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Retained on its historical route. The new claims assert no structured-source pseudorandomness, signed Renyi gap transport, ideal-subspace conversion, order pairing, tower/trace transfer, class-word descent, binary-error switch, denominator-generation solver or generic hardness implication. No old counterexample is invalidated or relabelled as passed by this review."
+    },
+    {
+      "id": "B-SUP-RETAINED-COINS-1",
+      "category": "RETAINED_OUTSIDE_NEW_CLAIMS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Retained on its historical route. The new claims assert no structured-source pseudorandomness, signed Renyi gap transport, ideal-subspace conversion, order pairing, tower/trace transfer, class-word descent, binary-error switch, denominator-generation solver or generic hardness implication. No old counterexample is invalidated or relabelled as passed by this review."
+    },
+    {
+      "id": "C-OHCP-BOUNDED-RUNTIME-1",
+      "category": "UNCHANGED_FINITE_INTERFACES",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Outside the new theta proof. The changed-premise audit uses current accepted C8-v8 and exact same-J interfaces with all caps, conditional errors, actual physical/proxy distinction, rational verifier, coherent code, periodization and full-state charges unchanged. This review does not re-certify those implementations or automatically accept a changed composition."
+    },
+    {
+      "id": "C-SUPER-CONFIDENCE-1",
+      "category": "BIT_VALUE_AND_PARAMETERS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The actual t_A=2n^2 ell and frozen target sigma are retained. logD=O(nlogn) is only a bit bound. Numerical q,chi,delta control output width and are not replaced by their encoding lengths. No positive-margin amplification or new rational framing is asserted; the exact old finite representation remains a separate unchanged dependency."
+    },
+    {
+      "id": "C-QUOTIENT-CARRIES-1",
+      "category": "UNCHANGED_FINITE_INTERFACES",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Outside the new theta proof. The changed-premise audit uses current accepted C8-v8 and exact same-J interfaces with all caps, conditional errors, actual physical/proxy distinction, rational verifier, coherent code, periodization and full-state charges unchanged. This review does not re-certify those implementations or automatically accept a changed composition."
+    },
+    {
+      "id": "C-PHYSICAL-HAAR-1",
+      "category": "UNCHANGED_FINITE_INTERFACES",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Outside the new theta proof. The changed-premise audit uses current accepted C8-v8 and exact same-J interfaces with all caps, conditional errors, actual physical/proxy distinction, rational verifier, coherent code, periodization and full-state charges unchanged. This review does not re-certify those implementations or automatically accept a changed composition."
+    },
+    {
+      "id": "C-CAUSAL-WALK-1",
+      "category": "UNCHANGED_FINITE_INTERFACES",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Outside the new theta proof. The changed-premise audit uses current accepted C8-v8 and exact same-J interfaces with all caps, conditional errors, actual physical/proxy distinction, rational verifier, coherent code, periodization and full-state charges unchanged. This review does not re-certify those implementations or automatically accept a changed composition."
+    },
+    {
+      "id": "B-CANONICAL-FAIL-1",
+      "category": "PUBLIC_SOURCE_AND_ZERO",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Explicit source test multiplies by public F before centered lifting and counts the entire uniform comparator, including zero/nonunits. The exact threshold count is capped byq. No retries, active conditioning, recovered-witness substitution or off-domain map is used. Planted observations are unwrapped only in the proof."
+    },
+    {
+      "id": "B-RANK-FIBER-1",
+      "category": "RETAINED_OUTSIDE_NEW_CLAIMS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Retained on its historical route. The new claims assert no structured-source pseudorandomness, signed Renyi gap transport, ideal-subspace conversion, order pairing, tower/trace transfer, class-word descent, binary-error switch, denominator-generation solver or generic hardness implication. No old counterexample is invalidated or relabelled as passed by this review."
+    },
+    {
+      "id": "B-TWO-ROW-NORMALIZER-1",
+      "category": "NORMALIZERS_AND_TAILS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "T1 uses exact centered theta maximum and monotone dual-theta ratio, retaining rho_t(J). No covariance equality or exact deconvolution is asserted. The finite Gaussian truncation retains its normalizer and pays a valid raw-tail upper bound; only bounded guessing events transfer through TV. Downstream rectangular completion/Delta guard is unchanged."
+    },
+    {
+      "id": "B-TOWER-WASHOUT-1",
+      "category": "RETAINED_OUTSIDE_NEW_CLAIMS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Retained on its historical route. The new claims assert no structured-source pseudorandomness, signed Renyi gap transport, ideal-subspace conversion, order pairing, tower/trace transfer, class-word descent, binary-error switch, denominator-generation solver or generic hardness implication. No old counterexample is invalidated or relabelled as passed by this review."
+    },
+    {
+      "id": "B-BINARY-FOURIER-1",
+      "category": "FULL_JOINT_LAW",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The full independent (S,G) law is explicit before revelation; guessing uses the actual S. No selected marginal product, reverse TV lower bound or retained H in the independent-noise comparison. CP1 remains21/2000>1/100. Downstream H is exposed only after integrating it out of the comparison."
+    },
+    {
+      "id": "A-CLASS-ASSERTION-1",
+      "category": "RETAINED_OUTSIDE_NEW_CLAIMS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Retained on its historical route. The new claims assert no structured-source pseudorandomness, signed Renyi gap transport, ideal-subspace conversion, order pairing, tower/trace transfer, class-word descent, binary-error switch, denominator-generation solver or generic hardness implication. No old counterexample is invalidated or relabelled as passed by this review."
+    },
+    {
+      "id": "A-COFACTOR-1",
+      "category": "RETAINED_OUTSIDE_NEW_CLAIMS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Retained on its historical route. The new claims assert no structured-source pseudorandomness, signed Renyi gap transport, ideal-subspace conversion, order pairing, tower/trace transfer, class-word descent, binary-error switch, denominator-generation solver or generic hardness implication. No old counterexample is invalidated or relabelled as passed by this review."
+    },
+    {
+      "id": "A-CLASS-CP1-1",
+      "category": "FULL_JOINT_LAW",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The full independent (S,G) law is explicit before revelation; guessing uses the actual S. No selected marginal product, reverse TV lower bound or retained H in the independent-noise comparison. CP1 remains21/2000>1/100. Downstream H is exposed only after integrating it out of the comparison."
+    },
+    {
+      "id": "D-HIGHINDEX-GUESS-1",
+      "category": "EXACT_CUBE_AND_GEOMETRY",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Actual occupied binary fibers are counted, not inferred from field rank or entropy alone. Collision is the strict C_J<2^n event; the ternary norm bound permits equality. The norm289 family is an exact easy-source example, not a hard distribution or finite-to-asymptotic inference."
+    },
+    {
+      "id": "A-TRACE-PARAM-1",
+      "category": "RETAINED_OUTSIDE_NEW_CLAIMS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Retained on its historical route. The new claims assert no structured-source pseudorandomness, signed Renyi gap transport, ideal-subspace conversion, order pairing, tower/trace transfer, class-word descent, binary-error switch, denominator-generation solver or generic hardness implication. No old counterexample is invalidated or relabelled as passed by this review."
+    },
+    {
+      "id": "A-CLASSRING-PADDING-1",
+      "category": "RETAINED_OUTSIDE_NEW_CLAIMS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Retained on its historical route. The new claims assert no structured-source pseudorandomness, signed Renyi gap transport, ideal-subspace conversion, order pairing, tower/trace transfer, class-word descent, binary-error switch, denominator-generation solver or generic hardness implication. No old counterexample is invalidated or relabelled as passed by this review."
+    },
+    {
+      "id": "B-COMPANION-INVERSE-1",
+      "category": "RETAINED_OUTSIDE_NEW_CLAIMS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Retained on its historical route. The new claims assert no structured-source pseudorandomness, signed Renyi gap transport, ideal-subspace conversion, order pairing, tower/trace transfer, class-word descent, binary-error switch, denominator-generation solver or generic hardness implication. No old counterexample is invalidated or relabelled as passed by this review."
+    },
+    {
+      "id": "C8-FV1",
+      "category": "UNCHANGED_FINITE_INTERFACES",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Outside the new theta proof. The changed-premise audit uses current accepted C8-v8 and exact same-J interfaces with all caps, conditional errors, actual physical/proxy distinction, rational verifier, coherent code, periodization and full-state charges unchanged. This review does not re-certify those implementations or automatically accept a changed composition."
+    },
+    {
+      "id": "ROOT-ORDER-PAIRING-1",
+      "category": "RETAINED_OUTSIDE_NEW_CLAIMS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Retained on its historical route. The new claims assert no structured-source pseudorandomness, signed Renyi gap transport, ideal-subspace conversion, order pairing, tower/trace transfer, class-word descent, binary-error switch, denominator-generation solver or generic hardness implication. No old counterexample is invalidated or relabelled as passed by this review."
+    },
+    {
+      "id": "ROOT-ORDER-SCALE-1",
+      "category": "RETAINED_OUTSIDE_NEW_CLAIMS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Retained on its historical route. The new claims assert no structured-source pseudorandomness, signed Renyi gap transport, ideal-subspace conversion, order pairing, tower/trace transfer, class-word descent, binary-error switch, denominator-generation solver or generic hardness implication. No old counterexample is invalidated or relabelled as passed by this review."
+    },
+    {
+      "id": "ROOT-BINCLASS-1",
+      "category": "EXACT_CUBE_AND_GEOMETRY",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Actual occupied binary fibers are counted, not inferred from field rank or entropy alone. Collision is the strict C_J<2^n event; the ternary norm bound permits equality. The norm289 family is an exact easy-source example, not a hard distribution or finite-to-asymptotic inference."
+    },
+    {
+      "id": "BT10-FV1",
+      "category": "UNCHANGED_FINITE_INTERFACES",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Outside the new theta proof. The changed-premise audit uses current accepted C8-v8 and exact same-J interfaces with all caps, conditional errors, actual physical/proxy distinction, rational verifier, coherent code, periodization and full-state charges unchanged. This review does not re-certify those implementations or automatically accept a changed composition."
+    },
+    {
+      "id": "ROOT-FRAC-SCALE-1",
+      "category": "BIT_VALUE_AND_PARAMETERS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The actual t_A=2n^2 ell and frozen target sigma are retained. logD=O(nlogn) is only a bit bound. Numerical q,chi,delta control output width and are not replaced by their encoding lengths. No positive-margin amplification or new rational framing is asserted; the exact old finite representation remains a separate unchanged dependency."
+    },
+    {
+      "id": "ROOT-FRAC-SMALLBALL-1",
+      "category": "RETAINED_OUTSIDE_NEW_CLAIMS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Retained on its historical route. The new claims assert no structured-source pseudorandomness, signed Renyi gap transport, ideal-subspace conversion, order pairing, tower/trace transfer, class-word descent, binary-error switch, denominator-generation solver or generic hardness implication. No old counterexample is invalidated or relabelled as passed by this review."
+    },
+    {
+      "id": "B-BE-1",
+      "category": "RETAINED_OUTSIDE_NEW_CLAIMS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Retained on its historical route. The new claims assert no structured-source pseudorandomness, signed Renyi gap transport, ideal-subspace conversion, order pairing, tower/trace transfer, class-word descent, binary-error switch, denominator-generation solver or generic hardness implication. No old counterexample is invalidated or relabelled as passed by this review."
+    },
+    {
+      "id": "RF3-BINCLASS-SCOPE-1",
+      "category": "EXACT_CUBE_AND_GEOMETRY",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Actual occupied binary fibers are counted, not inferred from field rank or entropy alone. Collision is the strict C_J<2^n event; the ternary norm bound permits equality. The norm289 family is an exact easy-source example, not a hard distribution or finite-to-asymptotic inference."
+    },
+    {
+      "id": "E-PAIR-TRUNCATION-1",
+      "category": "NORMALIZERS_AND_TAILS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "T1 uses exact centered theta maximum and monotone dual-theta ratio, retaining rho_t(J). No covariance equality or exact deconvolution is asserted. The finite Gaussian truncation retains its normalizer and pays a valid raw-tail upper bound; only bounded guessing events transfer through TV. Downstream rectangular completion/Delta guard is unchanged."
+    },
+    {
+      "id": "ROOT-COSET-NORMALIZER-1",
+      "category": "NORMALIZERS_AND_TAILS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "T1 uses exact centered theta maximum and monotone dual-theta ratio, retaining rho_t(J). No covariance equality or exact deconvolution is asserted. The finite Gaussian truncation retains its normalizer and pays a valid raw-tail upper bound; only bounded guessing events transfer through TV. Downstream rectangular completion/Delta guard is unchanged."
+    },
+    {
+      "id": "BT13-FV1",
+      "category": "UNCHANGED_FINITE_INTERFACES",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Outside the new theta proof. The changed-premise audit uses current accepted C8-v8 and exact same-J interfaces with all caps, conditional errors, actual physical/proxy distinction, rational verifier, coherent code, periodization and full-state charges unchanged. This review does not re-certify those implementations or automatically accept a changed composition."
+    },
+    {
+      "id": "BT12-FV1",
+      "category": "EXACT_CUBE_AND_GEOMETRY",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Actual occupied binary fibers are counted, not inferred from field rank or entropy alone. Collision is the strict C_J<2^n event; the ternary norm bound permits equality. The norm289 family is an exact easy-source example, not a hard distribution or finite-to-asymptotic inference."
+    },
+    {
+      "id": "ROOT-MASK-RESIDUE-1",
+      "category": "FULL_JOINT_LAW",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The full independent (S,G) law is explicit before revelation; guessing uses the actual S. No selected marginal product, reverse TV lower bound or retained H in the independent-noise comparison. CP1 remains21/2000>1/100. Downstream H is exposed only after integrating it out of the comparison."
+    },
+    {
+      "id": "BT14-HISTORY-ATOM-1",
+      "category": "FULL_JOINT_LAW",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The full independent (S,G) law is explicit before revelation; guessing uses the actual S. No selected marginal product, reverse TV lower bound or retained H in the independent-noise comparison. CP1 remains21/2000>1/100. Downstream H is exposed only after integrating it out of the comparison."
+    },
+    {
+      "id": "BT14-FV1",
+      "category": "FULL_JOINT_LAW",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The full independent (S,G) law is explicit before revelation; guessing uses the actual S. No selected marginal product, reverse TV lower bound or retained H in the independent-noise comparison. CP1 remains21/2000>1/100. Downstream H is exposed only after integrating it out of the comparison."
+    },
+    {
+      "id": "FQ-R1",
+      "category": "UNCHANGED_FINITE_INTERFACES",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Outside the new theta proof. The changed-premise audit uses current accepted C8-v8 and exact same-J interfaces with all caps, conditional errors, actual physical/proxy distinction, rational verifier, coherent code, periodization and full-state charges unchanged. This review does not re-certify those implementations or automatically accept a changed composition."
+    },
+    {
+      "id": "FQ-R2",
+      "category": "UNCHANGED_FINITE_INTERFACES",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Outside the new theta proof. The changed-premise audit uses current accepted C8-v8 and exact same-J interfaces with all caps, conditional errors, actual physical/proxy distinction, rational verifier, coherent code, periodization and full-state charges unchanged. This review does not re-certify those implementations or automatically accept a changed composition."
+    },
+    {
+      "id": "FQ-R3",
+      "category": "UNCHANGED_FINITE_INTERFACES",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Outside the new theta proof. The changed-premise audit uses current accepted C8-v8 and exact same-J interfaces with all caps, conditional errors, actual physical/proxy distinction, rational verifier, coherent code, periodization and full-state charges unchanged. This review does not re-certify those implementations or automatically accept a changed composition."
+    },
+    {
+      "id": "FQ-R4",
+      "category": "UNCHANGED_FINITE_INTERFACES",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Outside the new theta proof. The changed-premise audit uses current accepted C8-v8 and exact same-J interfaces with all caps, conditional errors, actual physical/proxy distinction, rational verifier, coherent code, periodization and full-state charges unchanged. This review does not re-certify those implementations or automatically accept a changed composition."
+    },
+    {
+      "id": "ROOT-QCOH-FV1",
+      "category": "UNCHANGED_FINITE_INTERFACES",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Outside the new theta proof. The changed-premise audit uses current accepted C8-v8 and exact same-J interfaces with all caps, conditional errors, actual physical/proxy distinction, rational verifier, coherent code, periodization and full-state charges unchanged. This review does not re-certify those implementations or automatically accept a changed composition."
+    },
+    {
+      "id": "G-PI-FV1",
+      "category": "RETAINED_OUTSIDE_NEW_CLAIMS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Retained on its historical route. The new claims assert no structured-source pseudorandomness, signed Renyi gap transport, ideal-subspace conversion, order pairing, tower/trace transfer, class-word descent, binary-error switch, denominator-generation solver or generic hardness implication. No old counterexample is invalidated or relabelled as passed by this review."
+    },
+    {
+      "id": "ROOT-FRAC-DOMAIN-2",
+      "category": "PUBLIC_SOURCE_AND_ZERO",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Explicit source test multiplies by public F before centered lifting and counts the entire uniform comparator, including zero/nonunits. The exact threshold count is capped byq. No retries, active conditioning, recovered-witness substitution or off-domain map is used. Planted observations are unwrapped only in the proof."
+    },
+    {
+      "id": "ROOT-WRAP-FV1",
+      "category": "RETAINED_OUTSIDE_NEW_CLAIMS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Retained on its historical route. The new claims assert no structured-source pseudorandomness, signed Renyi gap transport, ideal-subspace conversion, order pairing, tower/trace transfer, class-word descent, binary-error switch, denominator-generation solver or generic hardness implication. No old counterexample is invalidated or relabelled as passed by this review."
+    },
+    {
+      "id": "BT15-FV1",
+      "category": "UNCHANGED_FINITE_INTERFACES",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Outside the new theta proof. The changed-premise audit uses current accepted C8-v8 and exact same-J interfaces with all caps, conditional errors, actual physical/proxy distinction, rational verifier, coherent code, periodization and full-state charges unchanged. This review does not re-certify those implementations or automatically accept a changed composition."
+    },
+    {
+      "id": "FQ-COND-1",
+      "category": "UNCHANGED_FINITE_INTERFACES",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Outside the new theta proof. The changed-premise audit uses current accepted C8-v8 and exact same-J interfaces with all caps, conditional errors, actual physical/proxy distinction, rational verifier, coherent code, periodization and full-state charges unchanged. This review does not re-certify those implementations or automatically accept a changed composition."
+    },
+    {
+      "id": "FQ-NORM-1",
+      "category": "UNCHANGED_FINITE_INTERFACES",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Outside the new theta proof. The changed-premise audit uses current accepted C8-v8 and exact same-J interfaces with all caps, conditional errors, actual physical/proxy distinction, rational verifier, coherent code, periodization and full-state charges unchanged. This review does not re-certify those implementations or automatically accept a changed composition."
+    },
+    {
+      "id": "FQ-PERIOD-1",
+      "category": "UNCHANGED_FINITE_INTERFACES",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Outside the new theta proof. The changed-premise audit uses current accepted C8-v8 and exact same-J interfaces with all caps, conditional errors, actual physical/proxy distinction, rational verifier, coherent code, periodization and full-state charges unchanged. This review does not re-certify those implementations or automatically accept a changed composition."
+    },
+    {
+      "id": "FQ-RETRY-1",
+      "category": "UNCHANGED_FINITE_INTERFACES",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Outside the new theta proof. The changed-premise audit uses current accepted C8-v8 and exact same-J interfaces with all caps, conditional errors, actual physical/proxy distinction, rational verifier, coherent code, periodization and full-state charges unchanged. This review does not re-certify those implementations or automatically accept a changed composition."
+    },
+    {
+      "id": "FQ-MODULUS-1",
+      "category": "BIT_VALUE_AND_PARAMETERS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The actual t_A=2n^2 ell and frozen target sigma are retained. logD=O(nlogn) is only a bit bound. Numerical q,chi,delta control output width and are not replaced by their encoding lengths. No positive-margin amplification or new rational framing is asserted; the exact old finite representation remains a separate unchanged dependency."
+    },
+    {
+      "id": "F-QFINITE-FV1",
+      "category": "UNCHANGED_FINITE_INTERFACES",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Outside the new theta proof. The changed-premise audit uses current accepted C8-v8 and exact same-J interfaces with all caps, conditional errors, actual physical/proxy distinction, rational verifier, coherent code, periodization and full-state charges unchanged. This review does not re-certify those implementations or automatically accept a changed composition."
+    },
+    {
+      "id": "BT16-FV1",
+      "category": "RETAINED_OUTSIDE_NEW_CLAIMS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Retained on its historical route. The new claims assert no structured-source pseudorandomness, signed Renyi gap transport, ideal-subspace conversion, order pairing, tower/trace transfer, class-word descent, binary-error switch, denominator-generation solver or generic hardness implication. No old counterexample is invalidated or relabelled as passed by this review."
+    },
+    {
+      "id": "BT16-NATURAL-1",
+      "category": "PUBLIC_SOURCE_AND_ZERO",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Explicit source test multiplies by public F before centered lifting and counts the entire uniform comparator, including zero/nonunits. The exact threshold count is capped byq. No retries, active conditioning, recovered-witness substitution or off-domain map is used. Planted observations are unwrapped only in the proof."
+    },
+    {
+      "id": "BT16-POSTERIOR-1",
+      "category": "FULL_JOINT_LAW",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The full independent (S,G) law is explicit before revelation; guessing uses the actual S. No selected marginal product, reverse TV lower bound or retained H in the independent-noise comparison. CP1 remains21/2000>1/100. Downstream H is exposed only after integrating it out of the comparison."
+    },
+    {
+      "id": "BT16-PRIMEPOWER-1",
+      "category": "RETAINED_OUTSIDE_NEW_CLAIMS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Retained on its historical route. The new claims assert no structured-source pseudorandomness, signed Renyi gap transport, ideal-subspace conversion, order pairing, tower/trace transfer, class-word descent, binary-error switch, denominator-generation solver or generic hardness implication. No old counterexample is invalidated or relabelled as passed by this review."
+    },
+    {
+      "id": "BT16-ZERO-1",
+      "category": "PUBLIC_SOURCE_AND_ZERO",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Explicit source test multiplies by public F before centered lifting and counts the entire uniform comparator, including zero/nonunits. The exact threshold count is capped byq. No retries, active conditioning, recovered-witness substitution or off-domain map is used. Planted observations are unwrapped only in the proof."
+    },
+    {
+      "id": "RF4-FV1",
+      "category": "UNCHANGED_FINITE_INTERFACES",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Outside the new theta proof. The changed-premise audit uses current accepted C8-v8 and exact same-J interfaces with all caps, conditional errors, actual physical/proxy distinction, rational verifier, coherent code, periodization and full-state charges unchanged. This review does not re-certify those implementations or automatically accept a changed composition."
+    },
+    {
+      "id": "RF4-PERIOD-NEG1",
+      "category": "UNCHANGED_FINITE_INTERFACES",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Outside the new theta proof. The changed-premise audit uses current accepted C8-v8 and exact same-J interfaces with all caps, conditional errors, actual physical/proxy distinction, rational verifier, coherent code, periodization and full-state charges unchanged. This review does not re-certify those implementations or automatically accept a changed composition."
+    },
+    {
+      "id": "RF4-RETRY-NEG1",
+      "category": "UNCHANGED_FINITE_INTERFACES",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Outside the new theta proof. The changed-premise audit uses current accepted C8-v8 and exact same-J interfaces with all caps, conditional errors, actual physical/proxy distinction, rational verifier, coherent code, periodization and full-state charges unchanged. This review does not re-certify those implementations or automatically accept a changed composition."
+    },
+    {
+      "id": "RF4-ALIAS-NEG1",
+      "category": "UNCHANGED_FINITE_INTERFACES",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Outside the new theta proof. The changed-premise audit uses current accepted C8-v8 and exact same-J interfaces with all caps, conditional errors, actual physical/proxy distinction, rational verifier, coherent code, periodization and full-state charges unchanged. This review does not re-certify those implementations or automatically accept a changed composition."
+    },
+    {
+      "id": "BT17-SYMBOLIC-1",
+      "category": "UNCHANGED_FINITE_INTERFACES",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Outside the new theta proof. The changed-premise audit uses current accepted C8-v8 and exact same-J interfaces with all caps, conditional errors, actual physical/proxy distinction, rational verifier, coherent code, periodization and full-state charges unchanged. This review does not re-certify those implementations or automatically accept a changed composition."
+    },
+    {
+      "id": "ROOT-PARAM-FV1",
+      "category": "BIT_VALUE_AND_PARAMETERS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The actual t_A=2n^2 ell and frozen target sigma are retained. logD=O(nlogn) is only a bit bound. Numerical q,chi,delta control output width and are not replaced by their encoding lengths. No positive-margin amplification or new rational framing is asserted; the exact old finite representation remains a separate unchanged dependency."
+    },
+    {
+      "id": "ROOT-PARAM-T-1",
+      "category": "BIT_VALUE_AND_PARAMETERS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The actual t_A=2n^2 ell and frozen target sigma are retained. logD=O(nlogn) is only a bit bound. Numerical q,chi,delta control output width and are not replaced by their encoding lengths. No positive-margin amplification or new rational framing is asserted; the exact old finite representation remains a separate unchanged dependency."
+    },
+    {
+      "id": "ROOT-PARAM-FV2",
+      "category": "BIT_VALUE_AND_PARAMETERS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The actual t_A=2n^2 ell and frozen target sigma are retained. logD=O(nlogn) is only a bit bound. Numerical q,chi,delta control output width and are not replaced by their encoding lengths. No positive-margin amplification or new rational framing is asserted; the exact old finite representation remains a separate unchanged dependency."
+    },
+    {
+      "id": "ROOT-PARAM-ENC-1",
+      "category": "BIT_VALUE_AND_PARAMETERS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The actual t_A=2n^2 ell and frozen target sigma are retained. logD=O(nlogn) is only a bit bound. Numerical q,chi,delta control output width and are not replaced by their encoding lengths. No positive-margin amplification or new rational framing is asserted; the exact old finite representation remains a separate unchanged dependency."
+    },
+    {
+      "id": "ROOT-PARAM-FV3",
+      "category": "BIT_VALUE_AND_PARAMETERS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The actual t_A=2n^2 ell and frozen target sigma are retained. logD=O(nlogn) is only a bit bound. Numerical q,chi,delta control output width and are not replaced by their encoding lengths. No positive-margin amplification or new rational framing is asserted; the exact old finite representation remains a separate unchanged dependency."
+    },
+    {
+      "id": "RF4-PARAM-FV2",
+      "category": "BIT_VALUE_AND_PARAMETERS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The actual t_A=2n^2 ell and frozen target sigma are retained. logD=O(nlogn) is only a bit bound. Numerical q,chi,delta control output width and are not replaced by their encoding lengths. No positive-margin amplification or new rational framing is asserted; the exact old finite representation remains a separate unchanged dependency."
+    },
+    {
+      "id": "H-ALIGN-FV1",
+      "category": "NORMALIZERS_AND_TAILS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "T1 uses exact centered theta maximum and monotone dual-theta ratio, retaining rho_t(J). No covariance equality or exact deconvolution is asserted. The finite Gaussian truncation retains its normalizer and pays a valid raw-tail upper bound; only bounded guessing events transfer through TV. Downstream rectangular completion/Delta guard is unchanged."
+    },
+    {
+      "id": "H-LLL-BITLENGTH-1",
+      "category": "BIT_VALUE_AND_PARAMETERS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The actual t_A=2n^2 ell and frozen target sigma are retained. logD=O(nlogn) is only a bit bound. Numerical q,chi,delta control output width and are not replaced by their encoding lengths. No positive-margin amplification or new rational framing is asserted; the exact old finite representation remains a separate unchanged dependency."
+    },
+    {
+      "id": "H-REL-FV2",
+      "category": "RETAINED_OUTSIDE_NEW_CLAIMS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Retained on its historical route. The new claims assert no structured-source pseudorandomness, signed Renyi gap transport, ideal-subspace conversion, order pairing, tower/trace transfer, class-word descent, binary-error switch, denominator-generation solver or generic hardness implication. No old counterexample is invalidated or relabelled as passed by this review."
+    },
+    {
+      "id": "H-V0-BITLENGTH-1",
+      "category": "BIT_VALUE_AND_PARAMETERS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The actual t_A=2n^2 ell and frozen target sigma are retained. logD=O(nlogn) is only a bit bound. Numerical q,chi,delta control output width and are not replaced by their encoding lengths. No positive-margin amplification or new rational framing is asserted; the exact old finite representation remains a separate unchanged dependency."
+    },
+    {
+      "id": "RH1-FV1",
+      "category": "RETAINED_OUTSIDE_NEW_CLAIMS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Retained on its historical route. The new claims assert no structured-source pseudorandomness, signed Renyi gap transport, ideal-subspace conversion, order pairing, tower/trace transfer, class-word descent, binary-error switch, denominator-generation solver or generic hardness implication. No old counterexample is invalidated or relabelled as passed by this review."
+    },
+    {
+      "id": "HC1-FV1",
+      "category": "UNCHANGED_FINITE_INTERFACES",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Outside the new theta proof. The changed-premise audit uses current accepted C8-v8 and exact same-J interfaces with all caps, conditional errors, actual physical/proxy distinction, rational verifier, coherent code, periodization and full-state charges unchanged. This review does not re-certify those implementations or automatically accept a changed composition."
+    },
+    {
+      "id": "ROOT-TOWER-FV1",
+      "category": "RETAINED_OUTSIDE_NEW_CLAIMS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Retained on its historical route. The new claims assert no structured-source pseudorandomness, signed Renyi gap transport, ideal-subspace conversion, order pairing, tower/trace transfer, class-word descent, binary-error switch, denominator-generation solver or generic hardness implication. No old counterexample is invalidated or relabelled as passed by this review."
+    },
+    {
+      "id": "BT19-NONPRIME-1",
+      "category": "RETAINED_OUTSIDE_NEW_CLAIMS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Retained on its historical route. The new claims assert no structured-source pseudorandomness, signed Renyi gap transport, ideal-subspace conversion, order pairing, tower/trace transfer, class-word descent, binary-error switch, denominator-generation solver or generic hardness implication. No old counterexample is invalidated or relabelled as passed by this review."
+    },
+    {
+      "id": "BT19-NONSUFFICIENT-1",
+      "category": "RETAINED_OUTSIDE_NEW_CLAIMS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Retained on its historical route. The new claims assert no structured-source pseudorandomness, signed Renyi gap transport, ideal-subspace conversion, order pairing, tower/trace transfer, class-word descent, binary-error switch, denominator-generation solver or generic hardness implication. No old counterexample is invalidated or relabelled as passed by this review."
+    },
+    {
+      "id": "BT19-SELECTION-1",
+      "category": "FULL_JOINT_LAW",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The full independent (S,G) law is explicit before revelation; guessing uses the actual S. No selected marginal product, reverse TV lower bound or retained H in the independent-noise comparison. CP1 remains21/2000>1/100. Downstream H is exposed only after integrating it out of the comparison."
+    },
+    {
+      "id": "BT19-RETRY-1",
+      "category": "BIT_VALUE_AND_PARAMETERS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The actual t_A=2n^2 ell and frozen target sigma are retained. logD=O(nlogn) is only a bit bound. Numerical q,chi,delta control output width and are not replaced by their encoding lengths. No positive-margin amplification or new rational framing is asserted; the exact old finite representation remains a separate unchanged dependency."
+    },
+    {
+      "id": "BT18-SYMBOLIC-1",
+      "category": "UNCHANGED_FINITE_INTERFACES",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Outside the new theta proof. The changed-premise audit uses current accepted C8-v8 and exact same-J interfaces with all caps, conditional errors, actual physical/proxy distinction, rational verifier, coherent code, periodization and full-state charges unchanged. This review does not re-certify those implementations or automatically accept a changed composition."
+    },
+    {
+      "id": "RT1-MOMENT-FV1",
+      "category": "PUBLIC_SOURCE_AND_ZERO",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Explicit source test multiplies by public F before centered lifting and counts the entire uniform comparator, including zero/nonunits. The exact threshold count is capped byq. No retries, active conditioning, recovered-witness substitution or off-domain map is used. Planted observations are unwrapped only in the proof."
+    },
+    {
+      "id": "RT2-WEIGHTED-FV1",
+      "category": "PUBLIC_SOURCE_AND_ZERO",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "Explicit source test multiplies by public F before centered lifting and counts the entire uniform comparator, including zero/nonunits. The exact threshold count is capped byq. No retries, active conditioning, recovered-witness substitution or off-domain map is used. Planted observations are unwrapped only in the proof."
+    },
+    {
+      "id": "BT20-VACUITY-1",
+      "category": "BIT_VALUE_AND_PARAMETERS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The actual t_A=2n^2 ell and frozen target sigma are retained. logD=O(nlogn) is only a bit bound. Numerical q,chi,delta control output width and are not replaced by their encoding lengths. No positive-margin amplification or new rational framing is asserted; the exact old finite representation remains a separate unchanged dependency."
+    },
+    {
+      "id": "BT20-RETRY-MARGIN-1",
+      "category": "BIT_VALUE_AND_PARAMETERS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The actual t_A=2n^2 ell and frozen target sigma are retained. logD=O(nlogn) is only a bit bound. Numerical q,chi,delta control output width and are not replaced by their encoding lengths. No positive-margin amplification or new rational framing is asserted; the exact old finite representation remains a separate unchanged dependency."
+    },
+    {
+      "id": "BT20-WIDTHVALUE-1",
+      "category": "BIT_VALUE_AND_PARAMETERS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The actual t_A=2n^2 ell and frozen target sigma are retained. logD=O(nlogn) is only a bit bound. Numerical q,chi,delta control output width and are not replaced by their encoding lengths. No positive-margin amplification or new rational framing is asserted; the exact old finite representation remains a separate unchanged dependency."
+    },
+    {
+      "id": "RT2-NC1",
+      "category": "FULL_JOINT_LAW",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The full independent (S,G) law is explicit before revelation; guessing uses the actual S. No selected marginal product, reverse TV lower bound or retained H in the independent-noise comparison. CP1 remains21/2000>1/100. Downstream H is exposed only after integrating it out of the comparison."
+    },
+    {
+      "id": "RT2-NC2",
+      "category": "NORMALIZERS_AND_TAILS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "T1 uses exact centered theta maximum and monotone dual-theta ratio, retaining rho_t(J). No covariance equality or exact deconvolution is asserted. The finite Gaussian truncation retains its normalizer and pays a valid raw-tail upper bound; only bounded guessing events transfer through TV. Downstream rectangular completion/Delta guard is unchanged."
+    },
+    {
+      "id": "RT2-NC3",
+      "category": "FULL_JOINT_LAW",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The full independent (S,G) law is explicit before revelation; guessing uses the actual S. No selected marginal product, reverse TV lower bound or retained H in the independent-noise comparison. CP1 remains21/2000>1/100. Downstream H is exposed only after integrating it out of the comparison."
+    },
+    {
+      "id": "BT21-VACUITY-1",
+      "category": "BIT_VALUE_AND_PARAMETERS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The actual t_A=2n^2 ell and frozen target sigma are retained. logD=O(nlogn) is only a bit bound. Numerical q,chi,delta control output width and are not replaced by their encoding lengths. No positive-margin amplification or new rational framing is asserted; the exact old finite representation remains a separate unchanged dependency."
+    },
+    {
+      "id": "BT21-ADAPTIVE-MULTIPLIER-1",
+      "category": "FULL_JOINT_LAW",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The full independent (S,G) law is explicit before revelation; guessing uses the actual S. No selected marginal product, reverse TV lower bound or retained H in the independent-noise comparison. CP1 remains21/2000>1/100. Downstream H is exposed only after integrating it out of the comparison."
+    },
+    {
+      "id": "BT22-TV-MOMENT-1",
+      "category": "NORMALIZERS_AND_TAILS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "T1 uses exact centered theta maximum and monotone dual-theta ratio, retaining rho_t(J). No covariance equality or exact deconvolution is asserted. The finite Gaussian truncation retains its normalizer and pays a valid raw-tail upper bound; only bounded guessing events transfer through TV. Downstream rectangular completion/Delta guard is unchanged."
+    },
+    {
+      "id": "BT22-JOINT-MULTIPLIER-1",
+      "category": "FULL_JOINT_LAW",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The full independent (S,G) law is explicit before revelation; guessing uses the actual S. No selected marginal product, reverse TV lower bound or retained H in the independent-noise comparison. CP1 remains21/2000>1/100. Downstream H is exposed only after integrating it out of the comparison."
+    },
+    {
+      "id": "BT22-MARGIN-WIDTH-1",
+      "category": "BIT_VALUE_AND_PARAMETERS",
+      "disposition": "SCOPED_NONAUTHOR_REVIEW_ONLY",
+      "reason": "The actual t_A=2n^2 ell and frozen target sigma are retained. logD=O(nlogn) is only a bit bound. Numerical q,chi,delta control output width and are not replaced by their encoding lengths. No positive-margin amplification or new rational framing is asserted; the exact old finite representation remains a separate unchanged dependency."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-21T06:43:58.728596+00:00",
+  "claim": "M1-USEFUL-v2",
+  "status": "ACCEPTED_SCOPED_ALGORITHM",
+  "theorem": "coordinator/M1/theorem-only-v2.md",
+  "theorem_sha256": "4deb0d8091f33578a1c08614ae1a2330af998d1bdbe290722434ca990622152b",
+  "proof": "coordinator/M1/proof-v3.md",
+  "proof_sha256": "ec71050187e534f853548a510252c2af7faa9318fe1b554c114173a6724a4bc7",
+  "full_review": "criticism/RFR2/report-v1.md",
+  "source_review": "criticism/RFR2/source-complexity-v1.md",
+  "blind_review": "criticism/FBR2/report-v1.txt",
+  "blind_seal": "criticism/FBR2/seal-v1.json",
+  "regressions": "coordinator/regression-gate-v3.json",
+  "artifact_check": "coordinator/m1-artifact-consistency-v2.json",
+  "scope": "All-input bounded ordinary classical DGS from an effective basis satisfying the stated GS/width/error promise; HNF/exponent and numerical-polynomial-index criteria at exact inherited W. Complete conditional classical transcript losses only. No coherent oracle replacement, arbitrary-accuracy extension, large-HNF hardness or binary computational foundation.",
+  "rejections_preserved": [
+    "coordinator/M1/fallback-issue-before-repair-v1.md",
+    "coordinator/M1/q-prerequisite-defect-before-repair-v1.md"
+  ],
+  "foundation_achieved": false,
+  "same_model_review": "Correlated scrutiny; not formal verification"
+}

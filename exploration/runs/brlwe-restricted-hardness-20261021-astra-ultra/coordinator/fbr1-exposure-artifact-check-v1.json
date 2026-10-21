@@ -1,0 +1,82 @@
+{
+  "at": "2026-10-21T06:34:58.651118+00:00",
+  "sealed_report_sha256": "8f1cc5e9d8b96acb0a74ba5f10e26b330565f4cae372bd2825fa8012e4ef50fe",
+  "actual_function_call_metadata": [
+    {
+      "at": "2026-10-21T06:08:23.355Z",
+      "kind": "custom_tool_call",
+      "name": "exec",
+      "nested_tools": [
+        "exec_command"
+      ]
+    },
+    {
+      "at": "2026-10-21T06:08:28.562Z",
+      "kind": "custom_tool_call",
+      "name": "exec",
+      "nested_tools": [
+        "clock__curr_time",
+        "exec_command"
+      ]
+    },
+    {
+      "at": "2026-10-21T06:13:16.346Z",
+      "kind": "custom_tool_call",
+      "name": "exec",
+      "nested_tools": [
+        "clock__curr_time"
+      ]
+    },
+    {
+      "at": "2026-10-21T06:15:38.645Z",
+      "kind": "custom_tool_call",
+      "name": "exec",
+      "nested_tools": [
+        "clock__curr_time",
+        "exec_command"
+      ]
+    },
+    {
+      "at": "2026-10-21T06:19:22.755Z",
+      "kind": "custom_tool_call",
+      "name": "exec",
+      "nested_tools": [
+        "apply_patch"
+      ]
+    },
+    {
+      "at": "2026-10-21T06:19:28.889Z",
+      "kind": "custom_tool_call",
+      "name": "exec",
+      "nested_tools": [
+        "clock__curr_time",
+        "exec_command"
+      ]
+    },
+    {
+      "at": "2026-10-21T06:21:04.805Z",
+      "kind": "custom_tool_call",
+      "name": "exec",
+      "nested_tools": [
+        "apply_patch",
+        "clock__curr_time"
+      ]
+    },
+    {
+      "at": "2026-10-21T06:21:24.551Z",
+      "kind": "custom_tool_call",
+      "name": "exec",
+      "nested_tools": [
+        "exec_command"
+      ]
+    },
+    {
+      "at": "2026-10-21T06:21:41.026Z",
+      "kind": "function_call",
+      "name": "send_message",
+      "nested_tools": []
+    }
+  ],
+  "scope": "Corroborating tool identifiers plus sealed exposure log; not an OS file-access trace or mathematical certification",
+  "metadata_coverage": "Both function_call and custom_tool_call records; no scientific analysis or unsealed output consumed"
+}

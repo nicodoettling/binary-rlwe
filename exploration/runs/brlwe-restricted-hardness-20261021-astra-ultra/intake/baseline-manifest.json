@@ -1,0 +1,51 @@
+{
+  "at": "2026-10-21T05:38:09.561261+00:00",
+  "files": [
+    {
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/final.md",
+      "sha256": "70edfa9e2f2add37ac246499669681786a0aa67896bc7e14a469623e9602884a"
+    },
+    {
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/reconciliation.md",
+      "sha256": "886cd416c3acc50b0464b208047fe4f23a3df85acb4ec45e776004a417e20ab5"
+    },
+    {
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/claims.json",
+      "sha256": "f6a744b5015a7e055417fa5cea5b2b3257b07e4b5de3d1c50c9236f528352336"
+    },
+    {
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/regressions.json",
+      "sha256": "336b87bca0333d43f0e4f47234fae457c26c57c00a24b73c811749968535c1bd"
+    },
+    {
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/RF4/same-j-composition/same-j-theorem-only-v1.md",
+      "sha256": "96b88a725cc5dc4f8c943275d3b8788fdb9e6ac108c72fe62b383af9614e5e62"
+    },
+    {
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/RF4/same-j-composition/same-j-proof-v1.md",
+      "sha256": "4821d28fa205d893576b496df7f328f94a4ba111f6d634fd4b338edfea8c522d"
+    },
+    {
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/samej-acceptance-v1.md",
+      "sha256": "4f8bf169b65070cbe82d9227db7f2411f4d6f35d1d9187511621b13d44541418"
+    },
+    {
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/tower-lift/weighted-v2/theorem-only-v2.md",
+      "sha256": "1345e18aec9ecd74517ba400b03b66f70819dfe327710110d54c2924076e44bf"
+    },
+    {
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/tower-lift/weighted-acceptance-v2.md",
+      "sha256": "3b1edac3c7403dade2c40c866565ef1abdc503559c6e309d3a877cefa45f8f57"
+    },
+    {
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/A/class-changing/small-index-simulation-v1.md",
+      "sha256": "b80dfabb0e41238b16dcae753a7d53f91f11815fbfb25e8ba58c7e2d7ce4c666"
+    },
+    {
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/D/relaxed-guessing/fixed-block-theorem-proof-v1.md",
+      "sha256": "fe29ee58bf91aee2739298f44f72f08ec3b72a9dbf7a3ea6e31dd67faec9124d"
+    }
+  ],
+  "plan_sha256": "46682dc5d0b39e7aacdc1551a01aa2974ff9cfed2a854ea4460532eb862821c3",
+  "note": "Small-index and relaxed-guessing packets provisional; inherited exact acceptance not recertified."
+}

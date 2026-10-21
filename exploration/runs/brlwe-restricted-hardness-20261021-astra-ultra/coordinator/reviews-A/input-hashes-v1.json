@@ -1,0 +1,34 @@
+{
+  "at": "2026-10-21T06:01:07.656179+00:00",
+  "role": "root nonauthor full/source reviewer of A algebraic theorem",
+  "files": [
+    {
+      "path": "workers/A/linear-transfer-theorem-v1.md",
+      "sha256": "0e6357f15a990b9b98abec66470cb105be146664641a1d6daf66d0861ca3d18b"
+    },
+    {
+      "path": "workers/A/linear-transfer-proof-v1.md",
+      "sha256": "5d917465a7a02265b555a5760cd2755e0a6de6d870cb43396bbffccac449fcd6"
+    },
+    {
+      "path": "workers/A/source-and-regression-scope-v1.md",
+      "sha256": "6ae890c71fe0fc7a25b886365b4fd82f29d9793bf31a1c6085b43fd903a27e52"
+    },
+    {
+      "path": "workers/A/linear-transfer-finite-v1.py",
+      "sha256": "cbd545ac0dea7268e307643b6f72c8769245a9adb41ae32425a4538904b61b83"
+    },
+    {
+      "path": "workers/A/linear-transfer-finite-input-v1.json",
+      "sha256": "5b83f7707b52473c4bb71a3ce2b920d001b38890e032dcb767e2acd8493fff79"
+    },
+    {
+      "path": "workers/A/linear-transfer-finite-stdout-v1.json",
+      "sha256": "022c31296f3444a867f1db7240245bfecd09d3b6b7f5c5975cb79cb0fb083f2f"
+    },
+    {
+      "path": "workers/A/linear-transfer-finite-resources-v1.txt",
+      "sha256": "c7dbcab0c03de5ffe727aae3dbf2fa7e3e2a46107cd412d378faeb4b8375dc68"
+    }
+  ]
+}

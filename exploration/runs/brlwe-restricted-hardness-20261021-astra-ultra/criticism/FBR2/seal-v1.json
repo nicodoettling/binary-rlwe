@@ -1,0 +1,38 @@
+{
+  "algorithm": "SHA-256",
+  "certification_scope": "Independent blind same-model mathematical review; not formal verification.",
+  "created_utc": "2026-10-21T06:40:14.923445+00:00",
+  "experiments_performed": false,
+  "exposure_boundary_intact": true,
+  "files": {
+    "assignment-v1.md": {
+      "bytes": 2007,
+      "sha256": "416224b6128efc6a2aa60252fee3d6a53f4e81018ab0045f45652258fc58afe0"
+    },
+    "exposure-v1.txt": {
+      "bytes": 4888,
+      "sha256": "032dfbb532f68c814afab2dd47a6fc93d426a64ad78ad878d3dec53a7f3bc636"
+    },
+    "input/definitions-v1.md": {
+      "bytes": 446,
+      "sha256": "e2adce9bad52286a6598aa293ce0e4f6600343906589d922e5d4e6905da8ab18"
+    },
+    "input/theorem-v2.md": {
+      "bytes": 4785,
+      "sha256": "6dc93069fbc00a2a862e1118044b99efa62fac88833d93376f07e5385e09806a"
+    },
+    "report-draft-v1.txt": {
+      "bytes": 23035,
+      "sha256": "d0c26bc80644b4dba78e9773c4a73e668307d8257c7246e40390db964d977d70"
+    },
+    "report-v1.txt": {
+      "bytes": 23723,
+      "sha256": "28949fb406a8d39a40e71ce18acdf849db91efff7cec3e99ac46c522b7ca1442"
+    }
+  },
+  "report_complete": true,
+  "reviewer": "FBR2",
+  "root": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/criticism/FBR2",
+  "scientific_findings_disclosed_before_seal": false,
+  "seal_version": 1
+}

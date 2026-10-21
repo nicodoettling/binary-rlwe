@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-21T06:36:51.348305+00:00",
+  "old": "remaining-family-v1.md",
+  "old_sha256": "175fbcd2ec5e4e8ea372fa74f83b12b8c7984d3eb327d5da449dcaa62706de6a",
+  "new": "remaining-family-v2.md",
+  "new_sha256": "4b1ef0225c685d974c8a3cd5818b26c2721a4991297892889b7b86c07ca35e19",
+  "literal_replacement": [
+    "M1-USEFUL-v1 exact theorem/proof-v2",
+    "M1-USEFUL-v2 exact theorem-v2/proof-v3"
+  ],
+  "meaning": "Dependency-label correction only; mathematical content unchanged. Optional audit reviewed separately in RFR2 report section7, not a new main hardness theorem."
+}

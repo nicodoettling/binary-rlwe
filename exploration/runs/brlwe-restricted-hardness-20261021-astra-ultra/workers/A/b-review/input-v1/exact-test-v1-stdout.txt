@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "gaussian_cases": 40,
+  "ternary_representatives": 304,
+  "high_index_count": 152,
+  "best": [
+    {
+      "f": [
+        -1,
+        -1,
+        -1,
+        -1,
+        0,
+        -1,
+        1,
+        -1
+      ],
+      "norm": 289,
+      "cube_image": 176,
+      "fiber_histogram": {
+        "1": 96,
+        "2": 80
+      },
+      "additive_exponent": 17,
+      "coefficient_squared_norm": 7,
+      "public_multiplication_l1_bound": 7
+    },
+    {
+      "f": [
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        -1,
+        1,
+        0
+      ],
+      "norm": 289,
+      "cube_image": 176,
+      "fiber_histogram": {
+        "1": 96,
+        "2": 80
+      },
+      "additive_exponent": 17,
+      "coefficient_squared_norm": 7,
+      "public_multiplication_l1_bound": 7
+    },
+    {
+      "f": [
+        -1,
+        -1,
+        -1,
+        1,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "norm": 289,
+      "cube_image": 176,
+      "fiber_histogram": {
+        "1": 112,
+        "2": 48,
+        "3": 16
+      },
+      "additive_exponent": 17,
+      "coefficient_squared_norm": 5,
+      "public_multiplication_l1_bound": 5
+    }
+  ],
+  "tail_bound": 3.766453976357672e-29,
+  "elapsed_seconds": 0.45852043898776174,
+  "ru_maxrss_kib": 19456
+}

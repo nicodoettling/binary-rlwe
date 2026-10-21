@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "claim": "linear-transfer-theorem-v1; exact integral semilinear decomposition",
+  "randomness": "none; deterministic arithmetic progression seeds are indices only",
+  "cases": [
+    {"n": 2, "m": 8, "p": 17, "source_factor": [-3, 1], "target_factor": [-13, 1], "seeds": 34, "comparator_q": 3},
+    {"n": 4, "m": 8, "p": 17, "source_factor": [-3, 1], "target_factor": [-9, 1], "seeds": 34, "comparator_q": 3},
+    {"n": 2, "m": 4, "p": 3, "source_factor": [2, 1, 1], "target_factor": [1, 0, 1], "seeds": 18, "comparator_q": 5}
+  ],
+  "precision": "exact integer; no floating point or Gaussian approximation",
+  "tails": "not applicable; finite support explicitly specified",
+  "limits": {"wall_seconds": 120, "cpu_seconds": 110, "address_space_bytes": 268435456}
+}

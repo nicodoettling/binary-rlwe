@@ -1,0 +1,3 @@
+{
+  "command": "/usr/bin/time -v -o exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/coordinator/M1/q-control-resources-v1.txt timeout --kill-after=2s 20s prlimit --as=134217728 --cpu=18 -- python3 -I exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/coordinator/M1/q-control-v1.py > exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/coordinator/M1/q-control-stdout-v1.json 2> exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/coordinator/M1/q-control-stderr-v1.txt"
+}

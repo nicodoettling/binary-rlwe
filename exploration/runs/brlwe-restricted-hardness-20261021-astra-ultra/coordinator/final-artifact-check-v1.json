@@ -1,0 +1,73 @@
+{
+  "at": "2026-10-21T06:51:26.044052+00:00",
+  "meaning": "Structural artifact consistency only, separate from proof certification",
+  "local_links_resolve": true,
+  "accepted_current_main_claims": [
+    "M1-USEFUL-v2",
+    "M2-TRANSFER-v1",
+    "M3-ENTROPY-v1"
+  ],
+  "all_accepted_theorem_proof_hashes_match": true,
+  "inherited_regression_count": 151,
+  "new_regression_count": 13,
+  "current_regression_gate_count": 164,
+  "completed_experiments": 6,
+  "active_experiments": 0,
+  "observed_active_workers": 0,
+  "goal_active_unfinished": true,
+  "objective_unchanged": true,
+  "files": [
+    {
+      "path": "final.md",
+      "sha256": "b67f289e23b1f9011c04e59bb4443384992cbf74c47c9a14b73513e884d398f4"
+    },
+    {
+      "path": "resume.md",
+      "sha256": "568e7a06eb954f3a191eff7d94ac080684c7dc5baf128f81f333dc7d99522b5d"
+    },
+    {
+      "path": "claims.json",
+      "sha256": "33b00b3a90242401927c2e150c5c5a3b318e20162182227b432ece978205cf49"
+    },
+    {
+      "path": "reconciliation.md",
+      "sha256": "3855a2a4a2ace328e2dcaf79bb0dcf8705e8c5a1841450538e12c3b7f281524b"
+    },
+    {
+      "path": "regressions.json",
+      "sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c"
+    },
+    {
+      "path": "reduction-attempts.md",
+      "sha256": "b7e0d9a4ed65aecb27f7228cde5b2e593d4e242692a64723a2f33d80bf0a0c88"
+    },
+    {
+      "path": "programme-decisions.md",
+      "sha256": "a4b3ba7d5e2fb94470873bc59fd71c6748034f20726254e1e97f2a4784a1c47a"
+    },
+    {
+      "path": "progress.md",
+      "sha256": "e84122b7a09cdcf6bb33ef50e33df0a2a43e1ab0cb80b51928e613c59a5b5b06"
+    },
+    {
+      "path": "agents.json",
+      "sha256": "bed016e5f93c7246ab20d095e3dece5660e01b3fa5f774fad27c5cf3ee08ff84"
+    },
+    {
+      "path": "experiments/registry.json",
+      "sha256": "305494f1155b9c22830ace0609a25288285f5b361a603ea519e0ed848ef6a75b"
+    },
+    {
+      "path": "shutdown.json",
+      "sha256": "1a498a392249f99a7c1a7154750dc67510fc9013ce5b776bb2d9b977773d951a"
+    },
+    {
+      "path": "coordinator/goal-usage-final.json",
+      "sha256": "bf7d8ccf075351ebbc616c5409fff0fe24c8839730429ecae8383239fcc85408"
+    },
+    {
+      "path": "coordinator/goal-usage-delta.json",
+      "sha256": "8efa514b13348edb4ffee3303e9799654f9d07bc86909f87acb011dc310214fd"
+    }
+  ]
+}

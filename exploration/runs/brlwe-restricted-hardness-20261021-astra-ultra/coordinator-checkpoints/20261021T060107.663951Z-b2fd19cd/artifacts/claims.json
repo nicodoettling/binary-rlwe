@@ -1,0 +1,497 @@
+{
+  "updated_at": "2026-10-21T06:01:07.656179+00:00",
+  "native_goal": "01a14b7b-9e45-7b70-b46d-0bf70e17f2e2",
+  "primary_foundation_achieved": false,
+  "inherited_claims": [
+    {
+      "id": "INHERITED-EX-v2",
+      "status": "INHERITED_SCOPED_ACCEPTANCE",
+      "exact_historical_record": {
+        "id": "INHERITED-EX-v2",
+        "status": "ACCEPTED",
+        "scope": "Only unchanged exact October conditional theorem. Base2 premise remains unproved. Not yet a foundation.",
+        "dependencies": [],
+        "evidence": [
+          "intake/baseline-manifest.json",
+          "intake/october-claims-exact.json"
+        ],
+        "current_registry_count": 151,
+        "latest_regression_addendum": "coordinator/tower-lift/post-weighted-regression-addendum-v3.json"
+      },
+      "authoritative_ledger": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/claims.json"
+    },
+    {
+      "id": "D-THETA-v1",
+      "status": "INHERITED_SCOPED_ACCEPTANCE",
+      "exact_historical_record": {
+        "id": "D-THETA-v1",
+        "status": "ACCEPTED_SCOPED_OBSTRUCTION",
+        "statement": "Conditional ideal Gaussian width floor yields full retained-latent statistical uniformity after ideal offsets and coefficient rounding; whole-spectrum theta bound and short-mask representation exclusion.",
+        "dependencies": [],
+        "evidence": [
+          "workers/D/ideal-theta-theorem-only-v1.md",
+          "workers/D/ideal-theta-proof-v1.md",
+          "workers/D/experiments/theta-control-v1.stdout.json",
+          "coordinator/theta-freeze-v1.json",
+          "workers/A/stat-review/report-v1.md",
+          "criticism/RS0/report-v1.md",
+          "criticism/BT1/exposure-20261017T2024Z.md",
+          "workers/A/stat-review/bt2-notation-recheck-v1.md",
+          "criticism/RS0/definitions-recheck-v1.md",
+          "criticism/BT2/report-v1.md",
+          "criticism/BT2/freeze-receipt-v1.json",
+          "coordinator/theta-artifact-consistency-v1.json",
+          "experiments/root_cp1_v1.stdout.json"
+        ],
+        "review_state": "Closed exact full-proof/source/blind/regression/artifact gates for analytic statement with canonical-infinity notation supplement. No source-hardness conclusion.",
+        "accepted_at": "2026-10-17T20:36:24.481718+00:00",
+        "exact_theorem_sha256": "20af29016bcedca64b4cad0da407f543f1730ce32512aac9d98b568da8bbc5cd",
+        "exact_proof_sha256": "c712507363792b3e4a525ab672800e5e01fdd7d489ac2a0d56dbb0bd8b0c0e60",
+        "explicit_definition_supplement": "criticism/BT2/input/definitions-v1.md",
+        "scope": "Only rounded Gaussian ideal-offset endpoint under explicit coordinatewise width floor; covers fixed or alternative small common ideals/short masks. Not original RLWE, all public transforms, general source impossibility or computational foundation.",
+        "latest_regression_addendum": "coordinator/tower-lift/post-weighted-regression-addendum-v3.json",
+        "current_registry_count": 151
+      },
+      "authoritative_ledger": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/claims.json"
+    },
+    {
+      "id": "A-FRAC-v1",
+      "status": "INHERITED_SCOPED_ACCEPTANCE",
+      "exact_historical_record": {
+        "id": "A-FRAC-v1",
+        "status": "ACCEPTED_CONDITIONAL_ANALYTIC",
+        "statement": "Pointwise binary-recovery-to-fractional-source distinguisher with proof-only ideal Gaussian and automatic basis existence.",
+        "dependencies": [],
+        "evidence": [
+          "workers/A/fractional-composition/theorem-only-v1.md",
+          "workers/A/fractional-composition/proof-v1.md",
+          "coordinator/a-frac-definitions-v1.md",
+          "criticism/RF2/full-report-v1.md",
+          "criticism/RF2/a-definitions-recheck-v1.md",
+          "criticism/RS1/report-v1.md",
+          "criticism/BT3/report-v1.md",
+          "criticism/BT3/freeze-receipt-v1.json",
+          "criticism/RF2/regression-review-v1.json",
+          "coordinator/a-frac-artifact-consistency-v1.json",
+          "workers/A/fractional-composition/finite-controls-report-v1.md"
+        ],
+        "scope": "F1/F2 with explicit notation supplement; F3 only formal conditional composition, its bridge premise separately gated. No source hardness or computational foundation.",
+        "accepted_at": "2026-10-17T21:09:00.717115+00:00",
+        "exact_theorem_sha256": "5c471744bb04c8149b0d539eaa26e1544d0ba8097b0d68ea019cabb74461b485",
+        "exact_proof_sha256": "f4c889a64173135b2e29cebeb8190f352b1d4de6ada77f37a3f7c4f3ec797af2",
+        "latest_regression_addendum": "coordinator/tower-lift/post-weighted-regression-addendum-v3.json",
+        "current_registry_count": 151
+      },
+      "authoritative_ledger": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/claims.json"
+    },
+    {
+      "id": "B-GP-v2",
+      "status": "INHERITED_SCOPED_ACCEPTANCE",
+      "exact_historical_record": {
+        "id": "B-GP-v2",
+        "statement": "Finite equivariant Gaussian-periodic bridge with full rational-encoding runtime and conditional-on-J generation scope",
+        "status": "ACCEPTED_CONDITIONAL_FINITE_BRIDGE",
+        "dependencies": [],
+        "evidence": [
+          "workers/B/ideal-denominator/gaussian-periodic-theorem-v2.md",
+          "workers/B/ideal-denominator/gaussian-periodic-proof-v2.md",
+          "criticism/RF2/b-v2-encoding-recheck-v1.md",
+          "criticism/BT5/report-v1.md",
+          "criticism/BT5/freeze-receipt-v1.json",
+          "criticism/RS1/b-v2-recheck-v1.md",
+          "criticism/RF2/b-v2-log-ceiling-recheck-v1.md",
+          "coordinator/b-gp-v2-regression-addendum-v1.json",
+          "coordinator/b-gp-v2-artifact-consistency-v1.json"
+        ],
+        "scope": "Pointwise/fullcommonJ finite statistical bridge, exact comparator and EXPECTED polynomial runtime only. No computational hardness, no boundedcomposition or C finiteprimary contract accepted.",
+        "accepted_at": "2026-10-17T21:27:12.123961+00:00",
+        "exact_theorem_sha256": "be7f05d67fc8f2b24fc6b93321c95005f4d7f6e24bab513b2cbaf35c82aeaad7",
+        "exact_proof_sha256": "207a9af38eb570e2a140d88008c0f4bc363f7d3c8a72049c53bbab85798910b4",
+        "latest_regression_addendum": "coordinator/tower-lift/post-weighted-regression-addendum-v3.json",
+        "current_registry_count": 151
+      },
+      "authoritative_ledger": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/claims.json"
+    },
+    {
+      "id": "ROOT-SAMECLASS-v1",
+      "status": "INHERITED_SCOPED_ACCEPTANCE",
+      "exact_historical_record": {
+        "id": "ROOT-SAMECLASS-v1",
+        "status": "ACCEPTED_SCOPED_OBSTRUCTION",
+        "statement": "Most power-two cyclotomic ideal classes lack integral representatives of normexp(O(n)); only same-class scaling normalization is excluded",
+        "dependencies": [],
+        "evidence": [
+          "coordinator/same-class-count-theorem-v1.md",
+          "coordinator/same-class-count-proof-v1.md",
+          "workers/C/same-class-nonauthor-review-v1.md",
+          "criticism/BT6/report-v1.md",
+          "criticism/BT6/freeze-receipt-v1.json",
+          "coordinator/same-class-source-gate-v1.md",
+          "coordinator/same-class-regression-gate-v1.json",
+          "experiments/root_classcount_v1.stdout.json",
+          "coordinator/same-class-artifact-consistency-v1.json"
+        ],
+        "scope": "Fixed c, asymptotic n, same field and ordinary ideal class, integral representative required. No effective threshold, class-changing barrier, restricted-family hardness or goal completion.",
+        "accepted_at": "2026-10-17T21:37:48.080673+00:00",
+        "exact_theorem_sha256": "216a4e718e4aada675df0f945cb62ab6c9ab1759a5fb36d296304d827968845c",
+        "exact_proof_sha256": "bf625ccfa90a819c6b36639850a4cf2ab021c865cf3e84b67bc984cb3469d733",
+        "latest_regression_addendum": "coordinator/tower-lift/post-weighted-regression-addendum-v3.json",
+        "current_registry_count": 151
+      },
+      "authoritative_ledger": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/claims.json"
+    },
+    {
+      "id": "C-OHCP-v8",
+      "status": "INHERITED_SCOPED_ACCEPTANCE",
+      "exact_historical_record": {
+        "id": "C-OHCP-v8",
+        "status": "ACCEPTED_CONDITIONAL_COMPUTATIONAL_INTERFACE",
+        "statement": "Same-ideal bounded BDD reduction with explicit rational final verification threshold",
+        "dependencies": [],
+        "evidence": [
+          "coordinator/c8-repair/multiplier-ohcp-algorithm-v2.md",
+          "coordinator/c8-repair/multiplier-ohcp-proof-v9.md",
+          "coordinator/c8-repair/multiplier-ohcp-theorem-v8.md",
+          "workers/A/c9-review/exact-repair-review-v1.md",
+          "criticism/BT10/report-v1.md",
+          "criticism/BT10/freeze-receipt-v1.json",
+          "coordinator/c8-bt10-exposure-disposition-v1.md",
+          "coordinator/c8-source-parameter-gate-v1.md",
+          "coordinator/c8-regression-gate-v1.json",
+          "coordinator/c8-artifact-consistency-v1.json",
+          "criticism/BT13/report-v1.md",
+          "criticism/BT13/freeze-receipt-v1.json",
+          "coordinator/c8-acceptance-reconciliation-v1.md",
+          "coordinator/c8-artifact-consistency-v2.json",
+          "coordinator/c8-regression-addendum-v2.json"
+        ],
+        "scope": "Only core bounded finite pointwise classical GP-to-BDD interface for same integralJ, declared scalar-input model. External B composition, coherent quantum use and standard-family connection excluded.",
+        "reason": "Exact full/source/cleanblind/regression/artifact gates reconciled separately.",
+        "accepted_at": "2026-10-17T23:03:45.374160+00:00",
+        "exact_theorem_sha256": "857a62e9f4a937a80e5cb3b115c8b132abf122c16665d29b39dcb62bde86fe0a",
+        "exact_algorithm_sha256": "4361c90a7fa7cfe25d0ab3e8cd5c5333fb474cf1fb764375e10c29fca5102735",
+        "exact_proof_sha256": "e9b3023715a3d4ec90c474aba6945223aa376248b1fa216134964a5643fb4c5f",
+        "latest_regression_addendum": "coordinator/tower-lift/post-weighted-regression-addendum-v3.json",
+        "current_registry_count": 151,
+        "display_aliases": [
+          "C-OHCP-v8CORE"
+        ],
+        "alias_note": "CORE denotes the accepted scope of this exact theorem8/spec2/proof9 claim, not another mathematical version."
+      },
+      "authoritative_ledger": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/claims.json"
+    },
+    {
+      "id": "ROOT-BINCLASS-v1",
+      "status": "INHERITED_SCOPED_ACCEPTANCE",
+      "exact_historical_record": {
+        "id": "ROOT-BINCLASS-v1",
+        "status": "ACCEPTED_SCOPED_OBSTRUCTION",
+        "statement": "At most(3^n-1)(1+(n/2)log2n)2^floor(log_(2n+1)(n^(n/2))) ordinary classes admit an integral representative with a coefficient-binary collision.",
+        "dependencies": [
+          "ROOT-SAMECLASS-v1"
+        ],
+        "evidence": [
+          "coordinator/binary-class-count/theorem-v1.md",
+          "coordinator/binary-class-count/proof-v1.md",
+          "coordinator/binary-class-count/experiments/control-v1.stdout.json",
+          "criticism/RF3/full-review-v1.md",
+          "criticism/RF3/source-parameter-v1.md",
+          "criticism/RF3/completion-receipt-v1.json",
+          "coordinator/binary-class-count/regression-gate-v1.json",
+          "criticism/BT12/report-v1.md",
+          "criticism/BT12/freeze-receipt-v1.json",
+          "coordinator/binary-class-count/regression-gate-v1.json",
+          "coordinator/binary-class-count/regression-addendum-v2.json",
+          "coordinator/binary-class-count/acceptance-reconciliation-v1.md",
+          "coordinator/binary-class-count/artifact-consistency-v1.json"
+        ],
+        "scope": "Integral representatives and exact proof-only G+S; posterior a.s., fixed binary basis. Fractional/class-changing/field-changing/approximate or computational-only interfaces excluded. No standard hardness.",
+        "accepted_at": "2026-10-17T23:07:24.416019+00:00",
+        "exact_theorem_sha256": "f090c6c128eb2d0fd52a9cadb2a2b67b8bdd731d84ef932aabbbdc3c74eb180a",
+        "exact_proof_sha256": "012d77de4765194b8b22943d81773c42c59739f00e91012df8afd676ef210bfc",
+        "latest_regression_addendum": "coordinator/tower-lift/post-weighted-regression-addendum-v3.json",
+        "current_registry_count": 151
+      },
+      "authoritative_ledger": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/claims.json"
+    },
+    {
+      "id": "ROOT-PLANTED-INFO-v1",
+      "status": "INHERITED_SCOPED_ACCEPTANCE",
+      "exact_historical_record": {
+        "id": "ROOT-PLANTED-INFO-v1",
+        "status": "ACCEPTED_SCOPED_INFORMATION_BOUND",
+        "statement": "Binary-injective integral ideals in the explicit q-unwrapping regime retain actual-secret information in the public planted wrapper; coset generation loss and hidden-J posterior equality explicit.",
+        "dependencies": [],
+        "evidence": [
+          "coordinator/planted-information/theorem-v1.md",
+          "coordinator/planted-information/proof-v1.md",
+          "workers/G/planted-information-review/full-proof-review-v1.md",
+          "workers/G/planted-information-review/source-parameter-review-v1.md",
+          "workers/G/planted-information-review/finite-control-v1.stdout.json",
+          "criticism/BT16/BT16-complete-report-v1.md",
+          "criticism/BT16/BT16-freeze-receipt-v1.json",
+          "coordinator/planted-information/acceptance-reconciliation-v1.md",
+          "coordinator/planted-information/regression-gate-v1.json",
+          "coordinator/planted-information/artifact-consistency-v1.json"
+        ],
+        "scope": "Exact binaryinjective integralJ information bound underq>2tau sqrt(n)L(ns+sigma); no PPTattack/comparatorvalue/hardness. Commonchannel fullposterior equality with/withoutJ. All115 regressions disposed.",
+        "accepted_at": "2026-10-18T00:04:17.401568+00:00",
+        "exact_theorem_sha256": "536bb0235e7ccd11563d6f731a4935822a664ae393eb5ae301dbdad89a1ac5e1",
+        "exact_proof_sha256": "57a314f1f9c4671194b4943b20873b5ad1e8f8c5043cb6308ae89b8605177eb4",
+        "latest_regression_addendum": "coordinator/tower-lift/post-weighted-regression-addendum-v3.json",
+        "current_registry_count": 151
+      },
+      "authoritative_ledger": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/claims.json"
+    },
+    {
+      "id": "E-PAIR-v2",
+      "status": "INHERITED_SCOPED_ACCEPTANCE",
+      "exact_historical_record": {
+        "id": "E-PAIR-v2",
+        "status": "ACCEPTED_SCOPED_AUXILIARY",
+        "statement": "Fractional pair extraction with a.s. regular conditional TV, arbitrary first sample and predictable attempts",
+        "dependencies": [],
+        "evidence": [
+          "workers/E/fractional-extraction/pair-theorem-only-v2.md",
+          "workers/E/fractional-extraction/pair-extraction-theorem-proof-v2.md",
+          "coordinator/e-pair-full-review-v2.md",
+          "criticism/BT15/report-v1.md",
+          "criticism/BT15/freeze-receipt-v1.json",
+          "coordinator/fractional-coherent-acceptance-v1.md",
+          "coordinator/fractional-coherent-regression-gate-v1.json",
+          "coordinator/fractional-coherent-artifact-consistency-v1.json"
+        ],
+        "scope": "Named auxiliary statement only; no computational-foundation completion.",
+        "accepted_at": "2026-10-17T23:46:16.349529+00:00",
+        "review_state": "Closed full/source/cleanBT15/regression/separateartifact gates; exact scope in acceptance reconciliation",
+        "latest_regression_addendum": "coordinator/tower-lift/post-weighted-regression-addendum-v3.json",
+        "current_registry_count": 151
+      },
+      "authoritative_ledger": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/claims.json"
+    },
+    {
+      "id": "ROOT-FRAC-SMALLBALL-v3",
+      "status": "INHERITED_SCOPED_ACCEPTANCE",
+      "exact_historical_record": {
+        "id": "ROOT-FRAC-SMALLBALL-v3",
+        "status": "ACCEPTED_SCOPED_AUXILIARY",
+        "statement": "Fixed-before-fresh fractional linear extraction; a.s. histories and defined failure outsideJ",
+        "dependencies": [],
+        "evidence": [
+          "coordinator/binary-class-count/fractional-smallball-theorem-v3.md",
+          "coordinator/binary-class-count/fractional-smallball-proof-v3.md",
+          "workers/E/fractional-extraction/root-fixedmap-v3-full-source-review.md",
+          "criticism/BT15/report-v1.md",
+          "criticism/BT15/freeze-receipt-v1.json",
+          "coordinator/fractional-coherent-acceptance-v1.md",
+          "coordinator/fractional-coherent-regression-gate-v1.json",
+          "coordinator/fractional-coherent-artifact-consistency-v1.json"
+        ],
+        "scope": "Named auxiliary statement only; no computational-foundation completion.",
+        "accepted_at": "2026-10-17T23:46:16.349529+00:00",
+        "review_state": "Closed full/source/cleanBT15/regression/separateartifact gates; exact scope in acceptance reconciliation",
+        "latest_regression_addendum": "coordinator/tower-lift/post-weighted-regression-addendum-v3.json",
+        "current_registry_count": 151
+      },
+      "authoritative_ledger": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/claims.json"
+    },
+    {
+      "id": "F-QCOH-v1",
+      "status": "INHERITED_SCOPED_ACCEPTANCE",
+      "exact_historical_record": {
+        "id": "F-QCOH-v1",
+        "status": "ACCEPTED_SCOPED_AUXILIARY",
+        "statement": "Bounded randomized program to approximate clean quantum XOR oracle with2sqrt(p+tau) error",
+        "dependencies": [],
+        "evidence": [
+          "workers/F/finite-quantum-integration/coherent-adapter-theorem-only-v1.md",
+          "workers/F/finite-quantum-integration/coherent-adapter-proof-v1.md",
+          "coordinator/quantum-integration/f-qcoh-full-review-v1.md",
+          "criticism/BT15/input/definitions-v1.md",
+          "criticism/BT15/report-v1.md",
+          "criticism/BT15/freeze-receipt-v1.json",
+          "coordinator/fractional-coherent-acceptance-v1.md",
+          "coordinator/fractional-coherent-regression-gate-v1.json",
+          "coordinator/fractional-coherent-artifact-consistency-v1.json"
+        ],
+        "scope": "Generic finite executable-program adapter ONLY, explicitp,tau in[0,1]; actual circuit/dispatch costS and retainedwork. C8 substitution conditional; no quantumDGS/family foundation.",
+        "accepted_at": "2026-10-17T23:46:16.349529+00:00",
+        "review_state": "Closed full/source/cleanBT15/regression/separateartifact gates; exact scope in acceptance reconciliation",
+        "latest_regression_addendum": "coordinator/tower-lift/post-weighted-regression-addendum-v3.json",
+        "current_registry_count": 151
+      },
+      "authoritative_ledger": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/claims.json"
+    },
+    {
+      "id": "F-QFINITE-v2",
+      "status": "INHERITED_SCOPED_ACCEPTANCE",
+      "exact_historical_record": {
+        "id": "F-QFINITE-v2",
+        "status": "ACCEPTED_SCOPED_AUXILIARY",
+        "statement": "Explicit bounded fixed-gate quantum ordinary DGS from pointwise bounded BDD for rational L, with complete finite schedules",
+        "dependencies": [
+          "F-QCOH-v1"
+        ],
+        "evidence": [
+          "workers/F/finite-quantum-integration/finite-quantum-theorem-only-v2.md",
+          "workers/F/finite-quantum-integration/finite-quantum-algorithm-v2.md",
+          "workers/F/finite-quantum-integration/finite-quantum-proof-v2.md",
+          "criticism/BT17/assignment-v1.md",
+          "criticism/RF4/assignment-v1.md",
+          "criticism/RF4/full-proof-report-v1.md",
+          "criticism/RF4/source-parameter-complexity-report-v1.md",
+          "criticism/BT17/blind-report-v1.md",
+          "criticism/BT17/freeze-receipt-v1.sha256",
+          "coordinator/quantum-integration/f-qfinite-acceptance-reconciliation-v2.md",
+          "coordinator/quantum-integration/f-qfinite-regression-gate-v2.json",
+          "coordinator/quantum-integration/f-qfinite-artifact-consistency-v2.json"
+        ],
+        "scope": "Generic finite rational-lattice pointwise boundedBDD-to-ordinaryDGS theorem; conditional algebraic sameJ specialization. Full binarycomposition and arbitraryidealfamily foundation are separate OPEN gates.",
+        "accepted_at": "2026-10-18T00:24:11.484053+00:00",
+        "exact_theorem_sha256": "ce7f5992b071f7d82e5e034a7dc323f69a85d0f4969afa0530603527bc7338e2",
+        "exact_proof_sha256": "1430f62a7c670c682fef2cfc2b14d15f17c45e877fe3d598cc7a040cc1a69144",
+        "latest_regression_addendum": "coordinator/tower-lift/post-weighted-regression-addendum-v3.json",
+        "current_registry_count": 151,
+        "downstream_current_status": "Full binary-to-sameJ composition subsequently accepted as RF4-SAMEJ-v1; arbitrary ideal foundation remains OPEN. Original acceptance scope is unchanged."
+      },
+      "authoritative_ledger": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/claims.json"
+    },
+    {
+      "id": "H-ALIGN-v1",
+      "status": "INHERITED_SCOPED_ACCEPTANCE",
+      "exact_historical_record": {
+        "id": "H-ALIGN-v1",
+        "status": "ACCEPTED_SCOPED_AUXILIARY",
+        "statement": "Allwidth primeideal replacement alignment bound min(1,2/M+(32n/s)^n), original zero-inclusive law and full adaptive attempts",
+        "dependencies": [],
+        "evidence": [
+          "workers/H/prime-alignment/theorem-only-v1.md",
+          "workers/H/prime-alignment/proof-v1.md",
+          "workers/H/prime-alignment/finite-stdout-v1.json",
+          "coordinator/alignment-acceptance-v1.md",
+          "coordinator/alignment-regression-gate-v1.json",
+          "coordinator/samej-alignment-artifact-gate-v1.json"
+        ],
+        "scope": "Exact main scoped theorem accepted through independent full/source, clean blind,139 regression dispositions and separate artifact gate. MainT1-T5 only; companions and general family/combination obstruction excluded.",
+        "accepted_at": "2026-10-18T01:08:00.495986+00:00",
+        "latest_regression_addendum": "coordinator/tower-lift/post-weighted-regression-addendum-v3.json",
+        "current_registry_count": 151
+      },
+      "authoritative_ledger": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/claims.json"
+    },
+    {
+      "id": "RF4-SAMEJ-v1",
+      "status": "INHERITED_SCOPED_ACCEPTANCE",
+      "exact_historical_record": {
+        "id": "RF4-SAMEJ-v1",
+        "status": "ACCEPTED_SCOPED_AUXILIARY",
+        "statement": "Complete pointwise classicalbinaryRec tofinite quantumordinaryDGS on SAMEsupplied eligibleintegralJ, explicitfixedlaws, bothboundedendpointcharges andactualcompiledcode costs",
+        "dependencies": [
+          "A-FRAC-v1",
+          "B-GP-v2",
+          "C-OHCP-v8",
+          "F-QFINITE-v2"
+        ],
+        "evidence": [
+          "workers/RF4/same-j-composition/same-j-theorem-only-v1.md",
+          "workers/RF4/same-j-composition/same-j-proof-v1.md",
+          "workers/RF4/same-j-composition/interface-statements-v1.md",
+          "workers/RF4/same-j-composition/freeze-manifest-v1.json",
+          "coordinator/samej-acceptance-v1.md",
+          "coordinator/samej-regression-gate-v1.json",
+          "coordinator/samej-alignment-artifact-gate-v1.json"
+        ],
+        "scope": "Exact main scoped theorem accepted through independent full/source, clean blind,139 regression dispositions and separate artifact gate. Same supplied eligibleJ only; arbitraryideal foundation remains open.",
+        "exact_theorem_sha256": "96b88a725cc5dc4f8c943275d3b8788fdb9e6ac108c72fe62b383af9614e5e62",
+        "exact_proof_sha256": "4821d28fa205d893576b496df7f328f94a4ba111f6d634fd4b338edfea8c522d",
+        "accepted_at": "2026-10-18T01:08:00.495986+00:00",
+        "latest_regression_addendum": "coordinator/tower-lift/post-weighted-regression-addendum-v3.json",
+        "current_registry_count": 151
+      },
+      "authoritative_ledger": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/claims.json"
+    },
+    {
+      "id": "RT1-WEIGHTED-v2",
+      "status": "INHERITED_SCOPED_ACCEPTANCE",
+      "exact_historical_record": {
+        "id": "RT1-WEIGHTED-v2",
+        "status": "ACCEPTED_SCOPED_AUXILIARY",
+        "statement": "Conditional weighted trace with exact complementary module, explicit random conditioning and separate success margin",
+        "dependencies": [],
+        "evidence": [
+          "coordinator/tower-lift/weighted-v2/theorem-only-v2.md",
+          "coordinator/tower-lift/weighted-v2/proof-clarification-v2.md",
+          "criticism/RT1/weighted-trace-bridge-v1.md",
+          "criticism/RT2/full-review-v1.md",
+          "criticism/RT2/source-complexity-v1.md",
+          "criticism/RT2/exact-v2-recheck.md",
+          "criticism/BT22/report-v1.md",
+          "criticism/BT22/exposure-log-v1.md",
+          "coordinator/tower-lift/weighted-acceptance-v2.md",
+          "coordinator/tower-lift/weighted-regression-gate-v3.json",
+          "coordinator/tower-lift/weighted-artifact-gate-v2.json"
+        ],
+        "exact_theorem_sha256": "1345e18aec9ecd74517ba400b03b66f70819dfe327710110d54c2924076e44bf",
+        "scope": "Supplied short multiplier and full-law source; no standard family, effective multiplier or amplified solver supplied",
+        "accepted_at": "2026-10-18T01:44:27.707642+00:00",
+        "current_registry_count": 151,
+        "review_state": "Closed exact full/source, clean sealed BT22, 151 regression dispositions, separate artifact gate. No computational construction asserted."
+      },
+      "authoritative_ledger": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/claims.json"
+    }
+  ],
+  "claims": [
+    {
+      "id": "M1-USEFUL-v1",
+      "status": "REPAIRED-PENDING-RECHECK",
+      "statement": "Bounded classical DGS simulation from HNF diagonals/additive exponent or effectively found short collision, at actual delivered width",
+      "owner": "root",
+      "dependencies": [
+        "RF4-SAMEJ-v1"
+      ],
+      "evidence": [
+        "coordinator/M1/theorem-only-v1.md",
+        "coordinator/M1/proof-v2.md",
+        "coordinator/M1/fallback-issue-before-repair-v1.md"
+      ]
+    },
+    {
+      "id": "M2-TRANSFER-v1",
+      "status": "PROVISIONAL",
+      "statement": "Exact integral linear-map transfer already yields a short complementary multiplier or target-ideal vector; no effective map construction",
+      "owner": "A",
+      "dependencies": [
+        "RF4-SAMEJ-v1",
+        "RT1-WEIGHTED-v2"
+      ],
+      "evidence": [
+        "workers/A/linear-transfer-theorem-v1.md",
+        "workers/A/linear-transfer-proof-v1.md",
+        "coordinator/reviews-A/full-proof-review-v1.md",
+        "coordinator/reviews-A/source-complexity-review-v1.md"
+      ]
+    },
+    {
+      "id": "M3-ENTROPY-v1",
+      "status": "PROVISIONAL",
+      "statement": "Full-observation Gaussian guessing bounded by exact binary quotient image times explicit theta envelope",
+      "owner": "B",
+      "dependencies": [
+        "A-FRAC-v1"
+      ],
+      "evidence": [
+        "workers/B/theorem-only-v1.md",
+        "workers/B/proof-v1.md"
+      ]
+    }
+  ],
+  "effective_deadlines": {
+    "start": "2026-10-21T05:34:44.878177+00:00",
+    "decision": "2026-10-21T06:19:44.878177+00:00",
+    "discovery_stop": "2026-10-21T07:49:44.878177+00:00",
+    "worker_experiment_stop": "2026-10-21T08:19:44.878177+00:00",
+    "final_checkpoint": "2026-10-21T08:29:44.878177+00:00",
+    "graceful": "2026-10-21T08:33:39.878177+00:00",
+    "hard": "2026-10-21T08:34:44.878177+00:00"
+  }
+}

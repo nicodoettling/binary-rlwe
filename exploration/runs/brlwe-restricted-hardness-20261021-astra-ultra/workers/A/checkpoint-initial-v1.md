@@ -1,0 +1,13 @@
+# Worker A checkpoint
+
+2026-10-21 05:44 UTC. Assignment `assignment-v1.md` was read in full and is unchanged. Mathematical-proof-audit skill and both mandatory references were read. Current package PLAN, exact accepted RF4-SAMEJ-v1 theorem/acceptance, exact accepted RT1-WEIGHTED-v2 theorem/acceptance, old tower endpoint, public complementary-polynomial calculation, FPSW23 parameter-intersection note, and the old block-product/saturation calculations were read.
+
+Status: active, all new findings PROVISIONAL. Original standard-hardness foundation remains OPEN. No experiments have been executed; no reservations are pending. Writes are confined to this directory. Cap sidecar reports discovery stop 07:49:44.878177 UTC, worker stop 08:19:44.878177 UTC, hard deadline 08:34:44.878177 UTC. Root supplied the worker stop. No model/tier/session changes or child agents.
+
+First concrete construction: form the integral complement C=IS J^-1 and run ordinary delta=3/4 LLL on its ordinary basis. The deterministic first-vector certificate is ||a|| <= 2^((m-1)/4) A/D^(1/m), A=N(I)^(1/n). This is an effective candidate but its weighted-trace certificate remains exponential in m. It is not a new LLL theorem and is not a lower bound on the vector actually returned. The old H LLL source check already verifies the underlying standard algorithm and determinant bound; applying that algorithm to the named complement is the scoped test.
+
+The exact two output laws will be frozen in `lll-complement-test-v1.md`: the planted fiber sum of the full D_(J,W) law under Pi(a·), and the uniform comparator on the actual image lattice modulo q, retaining metadata and all failure mass. Conditional weighted trace supplies the event bound; it is not being reproved.
+
+Nearest predecessors: old explicit-complement-test-v1.md (public p/cofactor polynomial); workers/A/class-changing/complement-block-trace-test-v1.md (eligible sibling blocks plus multiplicative product bound); composite-saturation-step-v1.md (full ideal saturation, with multiplicative certified growth). No novelty claimed for these routes. Root reports a potentially stronger classical simulation from the additive annihilator/HNF diagonals. A prime J above p has additive annihilator exactly p, so this test must distinguish small numerical p from large p.
+
+Next action: finish the full LLL degree/width/radius/success/query/bit certificate and exact enumeration alternative, then test whether short sibling products followed by full saturation provide any new controlled complement basis bound. If no new bound emerges, freeze the narrow complement-HSVP gap and return the branch as stopped rather than relabeling the conditional weighted theorem as hardness.

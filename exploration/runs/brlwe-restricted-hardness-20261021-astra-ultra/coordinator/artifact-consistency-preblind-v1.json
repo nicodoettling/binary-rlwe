@@ -1,0 +1,238 @@
+{
+  "at": "2026-10-21T06:16:55.163978+00:00",
+  "checks": [
+    {
+      "kind": "historical_frozen_input",
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/final.md",
+      "sha256": "70edfa9e2f2add37ac246499669681786a0aa67896bc7e14a469623e9602884a",
+      "matches": true
+    },
+    {
+      "kind": "historical_frozen_input",
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/reconciliation.md",
+      "sha256": "886cd416c3acc50b0464b208047fe4f23a3df85acb4ec45e776004a417e20ab5",
+      "matches": true
+    },
+    {
+      "kind": "historical_frozen_input",
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/claims.json",
+      "sha256": "f6a744b5015a7e055417fa5cea5b2b3257b07e4b5de3d1c50c9236f528352336",
+      "matches": true
+    },
+    {
+      "kind": "historical_frozen_input",
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/regressions.json",
+      "sha256": "336b87bca0333d43f0e4f47234fae457c26c57c00a24b73c811749968535c1bd",
+      "matches": true
+    },
+    {
+      "kind": "historical_frozen_input",
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/RF4/same-j-composition/same-j-theorem-only-v1.md",
+      "sha256": "96b88a725cc5dc4f8c943275d3b8788fdb9e6ac108c72fe62b383af9614e5e62",
+      "matches": true
+    },
+    {
+      "kind": "historical_frozen_input",
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/RF4/same-j-composition/same-j-proof-v1.md",
+      "sha256": "4821d28fa205d893576b496df7f328f94a4ba111f6d634fd4b338edfea8c522d",
+      "matches": true
+    },
+    {
+      "kind": "historical_frozen_input",
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/samej-acceptance-v1.md",
+      "sha256": "4f8bf169b65070cbe82d9227db7f2411f4d6f35d1d9187511621b13d44541418",
+      "matches": true
+    },
+    {
+      "kind": "historical_frozen_input",
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/tower-lift/weighted-v2/theorem-only-v2.md",
+      "sha256": "1345e18aec9ecd74517ba400b03b66f70819dfe327710110d54c2924076e44bf",
+      "matches": true
+    },
+    {
+      "kind": "historical_frozen_input",
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/tower-lift/weighted-acceptance-v2.md",
+      "sha256": "3b1edac3c7403dade2c40c866565ef1abdc503559c6e309d3a877cefa45f8f57",
+      "matches": true
+    },
+    {
+      "kind": "historical_frozen_input",
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/A/class-changing/small-index-simulation-v1.md",
+      "sha256": "b80dfabb0e41238b16dcae753a7d53f91f11815fbfb25e8ba58c7e2d7ce4c666",
+      "matches": true
+    },
+    {
+      "kind": "historical_frozen_input",
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/D/relaxed-guessing/fixed-block-theorem-proof-v1.md",
+      "sha256": "fe29ee58bf91aee2739298f44f72f08ec3b72a9dbf7a3ea6e31dd67faec9124d",
+      "matches": true
+    },
+    {
+      "kind": "plan_read_only",
+      "path": "exploration/restricted-hardness-20261021/PLAN.md",
+      "matches": true
+    },
+    {
+      "kind": "blind_packet_math_preserving_transform",
+      "path": "criticism/FBR1/input/M1-statement-v1.md",
+      "source_matches": true,
+      "matches": true
+    },
+    {
+      "kind": "blind_packet_math_preserving_transform",
+      "path": "criticism/FBR1/input/A-statement-v1.md",
+      "source_matches": true,
+      "matches": true
+    },
+    {
+      "kind": "blind_packet_math_preserving_transform",
+      "path": "criticism/FBR1/input/B-statement-v1.md",
+      "source_matches": true,
+      "matches": true
+    },
+    {
+      "kind": "new_regression_provenance",
+      "path": "coordinator/M1/finite-output-v1.json",
+      "matches": true
+    },
+    {
+      "kind": "new_regression_provenance",
+      "path": "coordinator/M1/finite-output-v1.json",
+      "matches": true
+    },
+    {
+      "kind": "new_regression_provenance",
+      "path": "workers/B/exact-test-v1-output.json",
+      "matches": true
+    },
+    {
+      "kind": "new_regression_provenance",
+      "path": "coordinator/M1/fallback-issue-before-repair-v1.md",
+      "matches": true
+    },
+    {
+      "kind": "new_regression_provenance",
+      "path": "workers/A/linear-transfer-finite-stdout-v1.json",
+      "matches": true
+    },
+    {
+      "kind": "new_regression_provenance",
+      "path": "workers/A/source-and-regression-scope-v1.md",
+      "matches": true
+    },
+    {
+      "kind": "new_regression_provenance",
+      "path": "workers/B/exact-test-v1-output.json",
+      "matches": true
+    },
+    {
+      "kind": "new_regression_provenance",
+      "path": "workers/B/m1-review/repair-control-v1-output.json",
+      "matches": true
+    },
+    {
+      "kind": "new_regression_provenance",
+      "path": "workers/A/b-review/reviewer-family-stdout-v1.json",
+      "matches": true
+    },
+    {
+      "kind": "reserved_experiment_code",
+      "id": "B-FV1",
+      "matches": true
+    },
+    {
+      "kind": "reserved_experiment_code",
+      "id": "M1-FV1",
+      "matches": true
+    },
+    {
+      "kind": "reserved_experiment_code",
+      "id": "A-LIN-FV1",
+      "matches": true
+    },
+    {
+      "kind": "reserved_experiment_code",
+      "id": "B-M1-FV1",
+      "matches": true
+    },
+    {
+      "kind": "reserved_experiment_code",
+      "id": "A-BFAM-FV1",
+      "matches": true
+    }
+  ],
+  "files": [
+    {
+      "path": "coordinator/M1/theorem-only-v1.md",
+      "sha256": "320164e4e692ce801f2fde10a3deb7279629b9ff467bf4a155aa0828bba11845",
+      "bytes": 4750
+    },
+    {
+      "path": "coordinator/M1/proof-v2.md",
+      "sha256": "829d79b9aa0c162ac213605659f780791b14dc311ab145def9cbf4a8b8d95ebc",
+      "bytes": 8978
+    },
+    {
+      "path": "workers/B/m1-review/report-v1.md",
+      "sha256": "2c86bd3c7cda75a8f2f06a7dc7b4d670d3e3398d53433936458276a4acb55995",
+      "bytes": 10264
+    },
+    {
+      "path": "workers/B/m1-review/report-v2-recheck.md",
+      "sha256": "359e4995cb44d3c30cec1509cfaf1f094158c6b1f2cb7b8eb84c1744cbc8e5ef",
+      "bytes": 3515
+    },
+    {
+      "path": "workers/B/m1-review/source-review-v1.md",
+      "sha256": "64dbec7d0da1ef13e6dba9be60228b19d64bb676519a795bacee08db34f70424",
+      "bytes": 1432
+    },
+    {
+      "path": "workers/A/linear-transfer-theorem-v1.md",
+      "sha256": "0e6357f15a990b9b98abec66470cb105be146664641a1d6daf66d0861ca3d18b",
+      "bytes": 3291
+    },
+    {
+      "path": "workers/A/linear-transfer-proof-v1.md",
+      "sha256": "5d917465a7a02265b555a5760cd2755e0a6de6d870cb43396bbffccac449fcd6",
+      "bytes": 5210
+    },
+    {
+      "path": "coordinator/reviews-A/full-proof-review-v1.md",
+      "sha256": "53df329516e12265ce5650578620b8c9c53d716a0d6fa95a0c6646b582c7afc4",
+      "bytes": 3634
+    },
+    {
+      "path": "coordinator/reviews-A/source-complexity-review-v1.md",
+      "sha256": "9209dd1e65ea3607db3863c7c9df2dfc1510406ea2545bb2ed4615088a441d3d",
+      "bytes": 2375
+    },
+    {
+      "path": "workers/B/theorem-only-v1.md",
+      "sha256": "6e71289b7e9979ad169d1008d2e40f2cdb3f09f1bd7a29b48e41c90431e6becd",
+      "bytes": 1990
+    },
+    {
+      "path": "workers/B/proof-v1.md",
+      "sha256": "0b67d511c9bfc43f5a7fdbc51102f983471a1095bd0612efcd66ee82395c6fab",
+      "bytes": 4986
+    },
+    {
+      "path": "workers/A/b-review/full-report-v1.md",
+      "sha256": "dc4dda3de164397004444bf32d405e6d46f59fbfb9a1b8925394c318b1ee9ba3",
+      "bytes": 11154
+    },
+    {
+      "path": "workers/A/b-review/source-complexity-v1.md",
+      "sha256": "de7e3bb333091439aed1fb263b4cfdb0338c213bb281a7ac2a117cbb687415e0",
+      "bytes": 3777
+    },
+    {
+      "path": "coordinator/regression-gate-v1.json",
+      "sha256": "f3efa6c8924e49492c0e654ce1b534aa4418c8316e9e0a1419985bda064953f2",
+      "bytes": 226830
+    }
+  ],
+  "passed": true,
+  "meaning": "Structural hash/path consistency only, not mathematical certification; clean blind gate remains pending"
+}

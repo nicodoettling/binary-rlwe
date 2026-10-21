@@ -1,0 +1,21 @@
+{
+  "id": "M1-FV1",
+  "claim": "M1-USEFUL-v1",
+  "owner": "root",
+  "state": "reserved",
+  "at": "2026-10-21T05:51:25.084972+00:00",
+  "deterministic": true,
+  "dimensions": "80 exact lattice laws on box[-10,10]^2; triangular ideal bases dimensions4,8,16;160 CP1 atoms",
+  "bit_size_estimate": 8192,
+  "estimated_wall_seconds": 20,
+  "estimated_rss_mib": 64,
+  "wall_limit_seconds": 120,
+  "cpu_limit_seconds": 110,
+  "address_space_bytes": 536870912,
+  "heavy": false,
+  "code": "coordinator/M1/finite-control-v1.py",
+  "code_sha256": "ee4fb86eebd41bf417c198ace32b49e5927449563db5486cf6af1658ad2a7195",
+  "input": "constants frozen in code; all rational bases1/2,15/16",
+  "precision": "Exact fractions, finite normalized support; no truncation-to-infinite claim",
+  "command": "/usr/bin/time -v -o exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/coordinator/M1/finite-resources-v1.txt timeout --kill-after=2s 120s prlimit --as=536870912 --cpu=110 -- python3 -I exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/coordinator/M1/finite-control-v1.py"
+}

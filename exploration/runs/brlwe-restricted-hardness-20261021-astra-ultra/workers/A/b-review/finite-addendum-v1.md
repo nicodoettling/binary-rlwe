@@ -1,0 +1,9 @@
+# Independent family recurrence control and final review receipt
+
+The reserved reviewer experiment A-BFAM-FV1 completed successfully: exit0, stderr empty,0.02s wall,10,240KiB RSS under30s wall/20s CPU/128MiB address-space limits. Root reserved it at06:05:51UTC and was notified of release immediately after its complete output/resources were read. Code, fixed inputs, exact command, full output, resource record and receipt are preserved here.
+
+The reviewer implementation does not import the author's determinant or inverse-lattice code. It reduces each of the256 binary degree-eight polynomials using Y^2=5Y-1 modulo17, obtaining exactly176 residues with histogram112 singleton,48 double and16 triple fibers. It independently checks that g reduces to zero, that10 and12 are the two quadratic roots and satisfy Y^8=-1, that the displayed source threshold fits strictly inside the centered range at the minimum n=8,k=1 schedule, and the original CP1 strict rational inequalities. This confirms the finite fiber count in the exact reviewed concrete-family-v1.
+
+The full nonauthor report is `full-report-v1.md`; the separate source/complexity disposition is `source-complexity-v1.md`. `regression-disposition-v1.json` gives a scoped disposition for all151 inherited registry IDs, retaining exact IDs and the registry hash. These dispositions are not new global acceptance or reruns of unrelated historical experiments. Core theta theorem, explicit norm289 family and changed-premise downstream audit are explicitly separated in the report.
+
+No blocking defect was found within those stated scopes. The main theta theorem can proceed to root's remaining fresh-blind and exact-version reconciliation gates. The extended composition remains a distinct candidate with a changed dependency and does not inherit final acceptance. All exact B input hashes were rechecked successfully before this receipt. No blind materials were accessed.

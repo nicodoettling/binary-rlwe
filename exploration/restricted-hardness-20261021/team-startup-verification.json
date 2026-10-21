@@ -1,0 +1,42 @@
+{
+  "verified_at": "2026-10-21T05:39:44.985226+00:00",
+  "source": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/coordinator/runtime-verification.json",
+  "source_sha256": "b3db8c55992875eab8e7c9f32480b3de108447f2351f67f749292a29517eda43",
+  "requested_total": 3,
+  "configured_workers": 2,
+  "runtime_advertised_total": 3,
+  "observed_running_total": 3,
+  "actual_agents": {
+    "agents": [
+      {
+        "agent_name": "/root",
+        "agent_status": "running"
+      },
+      {
+        "agent_name": "/root/restricted_a_transfer",
+        "agent_status": "running"
+      },
+      {
+        "agent_name": "/root/restricted_b_entropy",
+        "agent_status": "running"
+      }
+    ]
+  },
+  "spawns": [
+    {
+      "task_name": "restricted_a_transfer",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none"
+    },
+    {
+      "task_name": "restricted_b_entropy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none"
+    }
+  ],
+  "all_worker_models_and_efforts_match": true,
+  "tier": "root actual argv explicitly default; workers inherit per verified runner/CLI contract; backend billing telemetry unavailable",
+  "goal": "same original active unfinished goal, verified by coordinator/goal-usage-start.json"
+}

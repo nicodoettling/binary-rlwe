@@ -1,0 +1,59 @@
+{
+  "at": "2026-10-21T06:43:58.728596+00:00",
+  "files": [
+    {
+      "path": "coordinator/M1/theorem-only-v2.md",
+      "sha256": "4deb0d8091f33578a1c08614ae1a2330af998d1bdbe290722434ca990622152b",
+      "bytes": 4805
+    },
+    {
+      "path": "coordinator/M1/proof-v3.md",
+      "sha256": "ec71050187e534f853548a510252c2af7faa9318fe1b554c114173a6724a4bc7",
+      "bytes": 9430
+    },
+    {
+      "path": "criticism/RFR2/report-v1.md",
+      "sha256": "a6838a3ccc95c0b2efb4c49042c0acda4ac0f967a698d12bcfcfa023d5879e14",
+      "bytes": 15344
+    },
+    {
+      "path": "criticism/RFR2/source-complexity-v1.md",
+      "sha256": "b0f2af320e775d9ff08508fb878fc01ce90341bb81a3f65459690a14cfa7132e",
+      "bytes": 6110
+    },
+    {
+      "path": "criticism/RFR2/seal-v1.json",
+      "sha256": "96d85ac0070a4d2aecdc4c98cefc4416f336fe6f2b779500cb11b0b3a86b7fe5",
+      "bytes": 3666
+    },
+    {
+      "path": "criticism/FBR2/report-v1.txt",
+      "sha256": "28949fb406a8d39a40e71ce18acdf849db91efff7cec3e99ac46c522b7ca1442",
+      "bytes": 23723
+    },
+    {
+      "path": "criticism/FBR2/exposure-v1.txt",
+      "sha256": "032dfbb532f68c814afab2dd47a6fc93d426a64ad78ad878d3dec53a7f3bc636",
+      "bytes": 4888
+    },
+    {
+      "path": "criticism/FBR2/seal-v1.json",
+      "sha256": "527b45cbee1b90d898f7a1fafd8a6c99619b99f675481a98018e6422b257de3b",
+      "bytes": 1369
+    },
+    {
+      "path": "coordinator/regression-gate-v3.json",
+      "sha256": "26e645c4b342d59760aebac47ab2653406d3eebce35c047d70b9baf76ab87764",
+      "bytes": 230974
+    },
+    {
+      "path": "coordinator/M1/q-control-stdout-v1.json",
+      "sha256": "8f269b67852851a48f9beae1552f6e67ba588be79cab1552dcf43175b00c7add",
+      "bytes": 1082
+    }
+  ],
+  "input_seal_checks_passed": true,
+  "blind_transform_matches": true,
+  "meaning": "Separate structural consistency only; mathematical verdict rests on full/source and independent blind reconstructions.",
+  "draft_caveat": "FBR2 report-draft-v1.txt is explicitly reconstructed by its author and is not treated as contemporaneous evidence. The complete final sealed report is the blind-gate artifact."
+}

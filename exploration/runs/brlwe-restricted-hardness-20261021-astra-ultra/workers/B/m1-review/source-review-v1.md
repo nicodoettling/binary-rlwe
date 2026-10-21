@@ -1,0 +1,7 @@
+# M1 primary-source and runtime import review
+
+Nonauthor worker B, 2026-10-21. Independently opened the SIAM publisher page for Kannan and Bachem, *Polynomial Algorithms for Computing the Smith and Hermite Normal Forms of an Integer Matrix*, SIAM Journal on Computing8(4),499–507 (1979), DOI10.1137/0208040: https://epubs.siam.org/doi/10.1137/0208040.
+
+The publisher abstract explicitly supports the precise imported facts: polynomially many arithmetic operations, polynomial intermediate binary digit lengths, and computation of multiplier matrices producing Hermite and Smith forms. These facts suffice for M1's normal-form existence/bit-complexity use. I did not inspect full paper text or claim a particular implementation's complexity; the page offers full text through access options. The previously reported failed GPV retrievals are not used as sources. M1 reconstructs the Gaussian sampling law and finite scalar implementation directly.
+
+Source scope is therefore appropriate for the stated import, with no unverified short-basis or Gaussian oracle result substituted. Full encoded matrix/scalar inputs, rational inversion, denominator clearing and integer normal forms all remain charged. Fixed certified pi/exponential evaluation can use rational Taylor/range-reduction algorithms with polynomial requested precision; the exponents in M1's acceptance probabilities are O(K^2), independent of numerical Gaussian width.
