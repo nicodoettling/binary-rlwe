@@ -1,0 +1,42 @@
+{
+  "reviewer": "BLIND2",
+  "review_mode": "Independent statement-only reconstruction, sealed before expanded exposure",
+  "overall": "Quantitative mathematical reduction locally accepted conditional on declared inherited interfaces; FIXED full-text wording clarification remains",
+  "claims": {
+    "SFUNC-v2": {"status": "ACCEPTED", "scope": "Exact information-theoretic statement"},
+    "DD2-AM1-SNF-v1": {"status": "ACCEPTED", "scope": "Fixed partition and distinct listed primes, including optional ideal refinement"},
+    "DD1-EXTRACT-v1": {"status": "ACCEPTED", "scope": "Specified shared-secret and bounded-code model, finite field caps included"},
+    "MR-v1": {"status": "ACCEPTED", "scope": "Both full endpoint laws, with a stronger reconstructed planted bound"},
+    "DD2-PRIMES-v1": {"status": "ACCEPTED", "scope": "Conditional on the verified primary effective Linnik statement, numerical polynomial runtime"},
+    "AM-MAIN-v3": {"status": "ACCEPTED", "scope": "Conditional on exact inherited B-GP-v2, C-OHCP-v8CORE and A-FRAC completion, true supplied guards"},
+    "FIXED-MAIN-v1-quantitative-reduction": {"status": "ACCEPTED", "scope": "Same inherited scope, actual all-input D0 code access and TV comparison of rounded laws"},
+    "FIXED-MAIN-v1-full-text": {"status": "PROVISIONAL", "scope": "Clarify final sentence so it does not assert exact physical target-law simulation"},
+    "FIXED-exact-physical-target-call-reading": {"status": "REJECTED", "scope": "Deterministic rounded public distributions need not be uniform; actual calls are only statistically compared to the target law"}
+  },
+  "finite_evidence": {
+    "scientific_runs": 1,
+    "root_slot_authorized": true,
+    "all_checks_passed": true,
+    "exit_status": 0,
+    "wall_seconds": 1.52,
+    "maximum_rss_kib": 16384,
+    "rounding_cases": 55664,
+    "hybrid_laws": 1000,
+    "ternary_vectors": 6560,
+    "CP1": "Exact hand reconstruction rejects invalid product bound"
+  },
+  "remaining_global_gates": [
+    "Preserve the exact inherited-interface scope",
+    "Clarify FIXED final sentence's target-promise versus actual-call distinction",
+    "Reconcile current author material only after this independent report is sealed",
+    "Coordinator historical-regression, dependency and final-artifact checks"
+  ],
+  "not_certified": [
+    "Fresh proof of C8",
+    "Unrestricted worst-case ideal hardness",
+    "Hardness of the restricted ideal family",
+    "Practical security or practical parameter sizes",
+    "Quantum or standard DGS composition",
+    "Statistical independence of same-model review agreement"
+  ]
+}

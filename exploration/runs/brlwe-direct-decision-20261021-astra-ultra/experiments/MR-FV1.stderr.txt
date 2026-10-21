@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/experiments/modround_finite_v1.py", line 72, in <module>
+    'TV_fraction_sha256':hashlib.sha256(str(tv).encode()).hexdigest(),
+                                        ^^^^^^^
+  File "/usr/lib/python3.12/fractions.py", line 415, in __str__
+    return '%s/%s' % (self._numerator, self._denominator)
+                      ^^^^^^^^^^^^^^^
+ValueError: Exceeds the limit (4300 digits) for integer string conversion; use sys.set_int_max_str_digits() to increase the limit

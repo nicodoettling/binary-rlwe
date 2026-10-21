@@ -1,0 +1,13 @@
+# DD-TARGET-v1: frozen run objective and interfaces
+
+The mathematical objective is OPEN. This file freezes the intended target, not an asserted theorem.
+
+For n>=2 a power of two, R=Z[X]/(X^n+1), and explicitly represented q, sigma and k polynomial in the security parameter where required, the target Boolean algorithm receives k samples with one shared uniform S in {0,1}^n. In the planted world A_i are independent uniform in R/qR and B_i=A_i S+E_i, with all kn coefficients of E independent D_(Z,sigma). In the comparator A has exactly the same joint law and metadata, and all B_i are independent uniform R/qR, independent of A. Its signed gap is delta_D=E[D(A,AS+E)]-E[D(A,U)], with |delta_D|>=epsilon. Fresh random tapes are used at each execution. Any supplied ideal metadata is identical in both worlds; its premise must be pointwise for that ideal. An ordinary black-box decision service and bounded executable code are different access models.
+
+Desired output: a quantitatively useful algorithm for ideal decoding, directly or through a fully specified intermediate oracle obtained from this binary decision promise. The decoder must specify ideal family, basis/other supplied inputs, target and radius, norm convention, success, all-input resources, and a nonempty asymptotic parameter regime. A supplied ideal Gaussian sampler or short basis must remain visible and cannot be assumed from an ordinary basis. If coherent use is needed, full bounded executable code is necessary. Standard unrestricted worst-case hardness is a separate OPEN obligation.
+
+The inherited eligible family is integral J with N(J)<=2^(rho n), rho<1, gcd(N(J),q)=1, and explicit odd prime q congruent 1 modulo 2n where the inherited same-J theorem is invoked. Its actual-secret recovery bound and periodic-Gaussian/BDD machinery are accepted only at the historical exact versions and verdicts. They do not supply the binary decision bridge.
+
+DD1 compares Delta_D(P) with the same P, metadata and batch grouping in both terms. DD2 must preserve a fresh binary secret shared across each whole batch, exact public laws, and justified discrete error laws. DD3 seeks a weaker intermediate with an explicit constructive transfer from the above oracle. Unknown translated cubes, marginal-only laws, uncharged conditionings, latent proof samplers exposed as public inputs, and silent continuous-to-discrete conversions are excluded.
+
+All new main claims require frozen exact versions, full nonauthor proof/source/complexity review, fresh blind statement-only review, finite-support falsification and normalizer/support audit. A conditional result cannot establish its unproved premises. Same-model review is correlated scrutiny.

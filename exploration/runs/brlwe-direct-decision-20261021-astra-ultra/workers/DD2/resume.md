@@ -1,0 +1,3 @@
+# DD2 resume / stopped handoff
+
+Updated 2026-10-21T12:59:19.833875+00:00. DD2 work is complete for the current assignment, at root request to free a fresh review slot. Read `final.md` and `am-main-v2-source-complexity-review.md` first. No subprocess, experiment or descendant remains. Do not restart DD2 discovery without a new root assignment. All component and main claims remain provisional pending exact-version complete nonauthor and fresh blind review. The all164-ID compact registry is scoped, not a whole-main acceptance. Original cap must be reread on any resumed work; no deadline reset is authorized. Discovery cutoff15:04, delivery15:54, workers stop16:04, final checkpoint16:14, graceful16:17:55.281989, hard16:19:00.281989 UTC on2026-10-21.

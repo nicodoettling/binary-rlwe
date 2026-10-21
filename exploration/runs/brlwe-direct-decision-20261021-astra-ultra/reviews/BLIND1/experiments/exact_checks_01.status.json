@@ -1,0 +1,17 @@
+{
+  "ended_at": "2026-10-21T13:08:53.455078+00:00",
+  "returncode": 0,
+  "timed_out": false,
+  "wall_seconds": 0.9676819400629029,
+  "user_cpu_seconds": 0.9279879999999999,
+  "system_cpu_seconds": 0.010902,
+  "maxrss_kib": 12288,
+  "address_space_cap_bytes": 536870912,
+  "cpu_cap_seconds": 110,
+  "wall_cap_seconds": 120,
+  "code_sha256": "3ab454cb0bc89cb691fdc820d3910823921d3689753bfce752e5fb717caad495",
+  "outputs": {
+    "exact_checks_01.stdout": "e684689e882cfc31a9ba6adbcfbf4c6f5f0cbab2ed486fc12ef9a9115ff951f8",
+    "exact_checks_01.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

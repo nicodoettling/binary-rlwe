@@ -1,0 +1,58 @@
+{
+  "clock": {
+    "checked_at": "2026-10-21T13:51:47.734503+00:00",
+    "elapsed_seconds": 5567.452514,
+    "phase": "discovery",
+    "cap_state": "running",
+    "cap_updated_at": "2026-10-21T12:19:00.377452+00:00",
+    "actual_start": "2026-10-21T12:19:00.281989+00:00",
+    "graceful_shutdown_at": "2026-10-21T16:17:55.281989+00:00",
+    "hard_deadline_at": "2026-10-21T16:19:00.281989+00:00"
+  },
+  "full2_v2_seal": "reviews/FULL2/seal-v2.json",
+  "seal_sha256": "8bfc1990c2be060e1c29ade21aac2c8bd3948f40ab03196fb3ed39e8da18b1f7",
+  "checks": [
+    {
+      "path": "followup-assignment-v2.txt",
+      "matches": true
+    },
+    {
+      "path": "read-register-v2.json",
+      "matches": true
+    },
+    {
+      "path": "pre-recheck-seal-verification-v2.json",
+      "matches": true
+    },
+    {
+      "path": "exact-main-diff-v2.patch",
+      "matches": true
+    },
+    {
+      "path": "input-manifest-v2.json",
+      "matches": true
+    },
+    {
+      "path": "exact-v2-recheck.md",
+      "matches": true
+    },
+    {
+      "path": "regression-dispositions-v2.json",
+      "matches": true
+    },
+    {
+      "path": "verdict-v2.json",
+      "matches": true
+    },
+    {
+      "path": "exposure-log-v2.md",
+      "matches": true
+    },
+    {
+      "path": "artifact-check-v2.json",
+      "matches": true
+    }
+  ],
+  "blind_v2_statement_equals_author_with_only_status_line_removed": true,
+  "prior_integrity_note": "v1 check removed a whole paragraph plus blank separator, producing only a blank-line mismatch. Direct diff was read and shows the only removed text is the one PROVISIONAL status line. This exact transform retains blank lines. No scientific mismatch."
+}

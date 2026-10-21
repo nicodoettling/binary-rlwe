@@ -1,0 +1,1763 @@
+Pseudorandomness of Ring-LWE for Any Ring and Modulus
+
+Chris Peikert∗
+Oded Regev†
+Noah Stephens-Davidowitz‡
+
+June 4, 2020
+
+Abstract
+
+We give a polynomial-time quantum reduction from worst-case (ideal) lattice problems directly to the
+decision version of (Ring-)LWE. This extends to decision all the worst-case hardness results that were
+previously known for the search version, for the same or even better parameters and with no algebraic
+restrictions on the modulus or number field. Indeed, our reduction is the first that works for decision
+Ring-LWE with any number field and any modulus.
+
+∗Computer Science and Engineering, University of Michigan. Email: cpeikert@umich.edu. This material is based upon
+work supported by the National Science Foundation under CAREER Award CCF-1054495 and CNS-1606362, the Alfred P. Sloan
+Foundation, and by a Google Research Award. The views expressed are those of the authors and do not necessarily reflect the official
+policy or position of the National Science Foundation, the Sloan Foundation, or Google.
+†Courant Institute of Mathematical Sciences, New York University. Supported by the Simons Collaboration on Algorithms and
+Geometry and by the National Science Foundation (NSF) under Grant No. CCF-1320188.
+‡Courant Institute of Mathematical Sciences, New York University. Email: noahsd@gmail.com. Supported by the National
+Science Foundation (NSF) under Grant No. CCF-1320188, and the Defense Advanced Research Projects Agency (DARPA) and
+Army Research Office (ARO) under Contract No. W911NF-15-C-0236. Part of this work was done while visiting the first author at
+the University of Michigan.
+
+
+1
+Introduction
+
+In recent years, Learning With Errors (LWE) [Reg05] and its more compact variant Ring-LWE [LPR10] have
+served as foundations for a wide variety of lattice-based cryptographic constructions (e.g., [PW08, GPV08,
+SS11, BV11, BGV12, GVW13, GSW13, Pei14, ADPS16, BCD+16]). Informally, for a dimension n and
+integer modulus q, LWE is concerned with “noisy” linear equations bi = ⟨ai, s⟩/q + ei for a secret s ∈ Zn
+q
+and public vectors ai ∈ Zn
+q , all uniformly random and independent. The error terms ei are drawn from some
+known distribution, usually a Gaussian of width α ≪ 1, called the error rate. Similarly, Ring-LWE deals
+with noisy ring products bi = ai · s/q + ei for a secret s ∈ R∨/qR∨ and public ai ∈ R/qR, where R is
+usually taken to be the ring of algebraic integers in a number field K, and R∨ ⊂ K is the “dual” ideal of R.
+Here the error terms ei are drawn from an appropriate n-dimensional (usually Gaussian) distribution, with an
+analogous notion of error rate.
+The average-case search (Ring-)LWE problem is to find the secret, given many noisy equations as
+described above. For cryptographic purposes, however, one usually relies on hardness of the decision
+problem, which is to distinguish such equations from uniformly random ones, i.e., where the bi are uniform
+and independent of everything else. In other words, one wants (Ring-)LWE samples to be pseudorandom.
+A main attraction of these problems is their provable hardness assuming the intractability of worst-case
+lattice problems. Ring-LWE is particularly attractive for its efficiency and compactness, but many of its
+instantiations still lack such hardness theorems, as we now detail.
+
+Hardness of Ring-LWE.
+There is a large disparity between known hardness theorems for search and
+decision Ring-LWE. Following the original template of [Reg05] for plain LWE, prior work [LPR10] gives
+a sequence of two main reductions. The first is a (quantum) reduction from worst-case problems like the
+approximate Shortest Independent Vectors Problem (SIVP) on ideal lattices in a given ring to search Ring-
+LWE over that same ring [LPR10, Section 4].1 The second is a (classical) reduction from search to decision
+for Ring-LWE [LPR10, Section 5]. However, the first reduction is much more general: it applies to any
+number field and any modulus that is not too small (relative to the error rate), whereas the search-to-decision
+reduction works only for prime moduli that “split well” and cyclotomic number fields, or more generally,
+Galois fields (see [EHL14]).2 The splitting condition can be waived via an additional “modulus switching”
+reduction [LS15] (which builds on a technique from [Pei09, BV11, BLP+13]), at the cost of somewhat
+increasing the error rate. However, the restriction to Galois number fields—a rather narrow class—seems
+unavoidable using prior techniques.
+There are a few reasons why one might wish to use Ring-LWE over non-Galois number fields. For
+one, the algebraic structure of Galois fields, or cyclotomics in particular, might conceivably be used to
+attack worst-case ideal-lattice problems like approximate SIVP, or Ring-LWE itself. Most cryptographic
+constructions based on Ring-LWE use inverse-polynomial (or inverse-quasipolynomial) error rates, which
+correspond to polynomial worst-case approximation factors for ideal-lattice problems. For such parameters,
+no known algorithm significantly outperforms those for plain LWE or SIVP on general lattices. However, a
+series of recent works [CGS14, BS16, CDPR16, CDW17] has yielded polynomial-time quantum algorithms
+that (under plausible heuristics) obtain subexponential exp( �O(√n)) approximation factors for SIVP in prime-
+power cyclotomics. These algorithms are not known to apply to any nontrivial instantiations of Ring-LWE,
+
+1An interesting alternative approach to deriving hardness of search Ring-LWE was given in [SSTX09], independently of [LPR10].
+However, as explained in [LPR10, Section 1.4], this approach leads to weaker hardness results.
+2An algebraic field extension K/L of degree n is Galois if there are n automorphisms of K that fix L pointwise.
+
+1
+
+
+however. (Indeed, it is unknown whether Ring-LWE reduces to even the exact version of SIVP on ideal
+lattices in the same ring.)
+A second reason to consider alternative rings is that there are families of number fields for which the
+worst-case reduction to search Ring-LWE delivers better approximation factors than for cyclotomics [Roq67,
+PR07, LPR10]—as small as ω(√log n), versus small polynomial factors—which suggests stronger hardness
+for cryptographic applications. However, decision Ring-LWE for such fields was not previously supported by
+any hardness theorems.
+
+Hardness of plain LWE.
+There is a less-pronounced gap between the known hardness of search and
+decision for plain LWE, but the state of the art is still unsatisfactory. For search, there is a quantum reduction
+(from worst-case SIVP on general lattices) that works for any large enough modulus, and obtains the
+best known parameters [Reg05]. For decision, however, there are various specialized and incomparable
+reductions [Reg05, Pei09, ACPS09, MM11, MP12, BLP+13], which either impose some number-theoretic
+constraints on the modulus, or incur some significant loss in the LWE parameters. For example, the modulus-
+switching reduction from [BLP+13] increases the error rate, which ultimately yields a weaker worst-case
+approximation factor than for the corresponding search LWE problem.
+
+1.1
+Contributions
+
+Our main contribution is a polynomial-time quantum reduction from worst-case (ideal) lattice problems
+directly to decision (Ring-)LWE. This yields a conceptually simpler hardness proof for (Ring-)LWE, and
+avoids the need for search-to-decision reductions. More specifically, we extend to decision all worst-case
+hardness results that were previously known for search, for the same or even better parameters and with no
+algebraic restrictions on the modulus or number field. In particular, our reduction works for any modulus in the
+plain LWE setting (Theorem 5.1), and for any modulus and any number field in the ring setting (Theorem 6.2).
+Our results also appear to be sufficiently general to adapt to “module” lattices and LWE [BGV12, LS15].3
+
+Finally, our techniques apply entirely to the classical (non-quantum) part of the iterative quantum reduction
+from [Reg05], and can therefore also be applied to the alternative classical reduction for LWE from [Pei09].
+Our second contribution, which may be of independent interest, is a random self-reduction for bounded-
+distance decoding (BDD) with Gaussian error. (See Section 3.) This ultimately yields a �Θ(n1/4)-factor
+improvement in the Ring-LWE error size versus the result of [LPR10, Section 5] (for non-spherical error).
+
+1.2
+Which Number Fields To Use?
+
+Our reduction says that decision Ring-LWE with any large enough modulus (and appropriate error distribution)
+is supported by a worst-case hardness guarantee, where the approximation factor is determined solely by the
+error rate. This applies to any fixed choice of number field, but it gives no guidance about which number
+fields are preferable for security. Apart from trivial reductions (e.g., from a number field to an extension), it is
+an open question whether there is any formal connection between different number fields for worst-case ideal
+lattice problems (like SIVP) or Ring-LWE. It is also unclear what properties of number fields may affect the
+complexity of such problems.
+We do note, however, that the geometry of the dual ideal R∨ affects the error rates that can be usefully
+employed in cryptographic applications. These typically need error of rate α to be decodable relative to the
+
+3Module-LWE interpolates between the plain and ring variants, providing a smooth tradeoff between the efficiency and
+compactness of Ring-LWE and the potential additional security of plain LWE.
+
+2
+
+
+dual ideal R∨, which is usually ensured by taking α to be somewhat smaller than the minimum distance
+λ1(R∨). As α decreases, worst-case hardness theorems give weaker guarantees (i.e., larger approximation
+factors), and known attacks on Ring-LWE become more efficient. Therefore, a smaller λ1(R∨) corresponds to
+worse parameters and thereby appears to provide less security. (A similar phenomenon arises for rings having
+large “expansion factors.” See, e.g., [LM06, Gen09].) Cyclotomic fields have relatively large λ1(R∨) (and
+correspondingly small expansion factors), which is one of the reasons that they are often used in applications.
+
+1.3
+Techniques
+
+Here we describe the main new techniques used in our reduction. (See Section 2 for the relevant definitions.)
+Except where noted, we focus our discussion on plain LWE and general lattices.
+
+Staring at the black box.
+A part of Regev’s original reduction for LWE [Reg05] transforms an instance
+of Bounded Distance Decoding (BDD, the problem of finding the closest lattice vector to a target t that is
+guaranteed to be rather close to a lattice L) into LWE samples whose secret corresponds to the closest lattice
+vector v ∈ L to x, and whose error rate α is (proportional to) dist(t, L) = ∥t − v∥ (see Lemma 5.3). Regev
+showed that, as long as dist(t, L) is small enough, a suitable oracle for search LWE will find the secret,
+which allows for the recovery of v.
+In contrast, our reduction uses an oracle for decision LWE for a particular error rate �α, and works by
+incrementally moving t towards the closest lattice vector v by carefully measuring the behavior of the oracle.
+To accomplish this, we consider p(α), the probability that the oracle accepts when given LWE samples
+with error rate α. Notice that we can closely approximate p(dist(t, L)) for any t ∈ Rn by repeatedly
+invoking the oracle on LWE samples generated from t and measuring the oracle’s acceptance probability.
+Our goal is to use this to detect when a point t′ is “significantly closer” to the lattice than t is (more precisely,
+dist(t′, L) ≤ (1 − 1/ poly(n)) dist(t, L)). This allows us to solve BDD by repeatedly perturbing t to a new
+point t′, testing whether the new point is significantly closer to the lattice, and if so setting t = t′. (A similar
+idea is used in [LLM06], in a different context.)
+To see how we can use the oracle to detect when we have moved closer to the lattice, suppose for the
+moment that its acceptance probability p(α) is a monotonically decreasing function of the error rate α, and
+assume also that it decreases noticeably around α = dist(t, L). In this case, p(dist(t′, L)) will be noticeably
+larger than p(dist(t, L)) if and only if t′ is significantly closer to the lattice than t is, and we can easily detect
+this by approximating p(dist(t′, L)) and p(dist(t, L)).
+
+Looking for change in all the wrong places.
+Let us now drop the assumption that p decreases noticeably
+around α = dist(t, L), but still assume that it is monotonically decreasing. We now need to deal with
+the possibility that p(α) may be nearly constant for all α ≈ dist(t, L). In this case, |p(dist(t′, L)) −
+p(dist(t, L))| will be negligible for any small perturbation t′ of t. As a result, we cannot hope to tell whether
+we have moved closer to the lattice by examining p(dist(t′, L)) and p(dist(t, L)) alone.
+In order to overcome this, recall that by hypothesis, for a particular error rate �α the difference between p(�α)
+and, say, p(√n) is noticeable, because LWE samples with error rate √n are essentially uniform. Therefore,
+even though p(α) could be constant for α ∈ [0, �α], it must decrease noticeably somewhere beyond �α. As a
+first attempt to exploit this property, we can add some extra error to the LWE samples obtained from t and t′.
+More precisely, if (ai, bi) are LWE samples with error rate α, then adding independent Gaussians of width β
+to the bi yields samples with error rate
+�
+
+α2 + β2. This lets us approximate p(
+�
+
+dist(t, L)2 + β2) for any t
+and β ≥ 0, which is quite useful. Indeed, we can use this to search for a region where p decreases noticeably:
+
+3
+
+
+given t and a small perturbation t′, we can approximate p(
+�
+
+dist(t, L)2 + β2) and p(
+�
+
+dist(t′, L)2 + β2)
+for various values of β. If dist(t, L) − dist(t′, L) is sufficiently large, then we will recognize this when we
+use a value of β for which p decreases noticeably around parameter
+�
+
+dist(t, L)2 + β2.
+
+Be fruitful and multiply.
+Unfortunately, the above technique stops working once t becomes too close
+to the lattice. To see this, suppose that p(α) is constant for all α ≤ �α, and that dist(t, L) ≪ �α. Then
+we may not be able to distinguish between p(
+�
+
+dist(t, L)2 + β2) and p(
+�
+
+dist(t′, L)2 + β2) for any small
+perturbation t′ of t and any β ≥ 0. For small β ≲ �α the two values are nearly identical by assumption, and
+for large β ≳ �α the extra error of width β “drowns out” the original error of width dist(t, L) or dist(t′, L).
+Although it is possible to salvage the technique, we choose to follow a different path, mainly because
+we know how to extend it to the ring setting. Instead of increasing the error additively and working with
+p(
+�
+
+dist(t, L)2 + β2), we increase the error multiplicatively and work with the function p(r dist(t, L)) for
+r ≥ 1, i.e., we approximate p(r dist(t, L)) and p(r dist(t′, L)) for many different values of r. As long as
+dist(t, L)/ dist(t′, L) − 1 is non-negligible, we can find an r ≥ 1 such that p(r dist(t′, L)) is significantly
+larger than p(r dist(t, L)). So, at least when p(α) is monotone, we can use this to recognize when t′ is
+significantly closer to the lattice than t is.
+Of course, in order to implement this idea, we need to generate LWE samples whose error rate is
+α = r dist(t, L) for any desired r ≥ 1. Fortunately, the original reduction in [Reg05] already allows for this:
+in addition to a BDD target t and lattice L, the reduction also takes samples from a discrete Gaussian of some
+width r over the dual lattice L∗; the error rate of the resulting LWE samples is (proportional to) r dist(t, L).
+Regev takes r to be as small as possible to minimize this error rate, but since we wish to increase the error
+rate multiplicatively, we use larger values of r as well. (Intuitively, sampling from the discrete Gaussian
+becomes easier as r increases.)
+
+In need of monotony.
+The above discussion relied on the simplifying assumption that our oracle’s ac-
+ceptance probability p(α) is monotonically decreasing in the error rate α. We now describe how to drop
+this assumption. The idea is to use our ability to approximate p(r dist(t, L)) for any r ≥ 1 to allow us to
+approximate a new monotonic function P(dist(t, L)).
+There are many possible choices for P; we use
+
+P(α) := max
+r≥1 (1 + log r)(p(rα) − p∞) .
+
+(Here p∞ := limα→∞ p(α), which is well approximated by, say, p(√n).) Clearly, P(α) is monotonically
+decreasing. Furthermore, it is easy to see that P(α) decreases noticeably in the neighborhood of any α ≤ �α.
+In Lemma 4.2, we show how to efficiently approximate P(dist(t, L)) well enough to recognize when t′ is
+significantly closer to the lattice than t.
+
+Putting a ring on it.
+The above ideas exploit the fact that Regev’s reduction converts a BDD instance
+(L, t) into plain-LWE samples whose error rate α ≥ 0 is proportional to dist(t, L). The reduction to (search)
+Ring-LWE due to [LPR10] uses a variant of this procedure that works on ideal lattices. More specifically, it
+converts a BDD instance (I, t) for some ideal I into Ring-LWE samples, but the resulting error distribution is
+specified by a vector of error rates, not just a scalar. (See Lemma 6.8.) The error rate αi in the ith coordinate
+is proportional to |σi(v − t)|, where v ∈ I is the closest ideal element to t, and σi is the ith ring embedding
+from the ring into the complex numbers. (See Section 2.3.1 for details.) In general, a decision oracle’s
+acceptance probability can depend on the vector (αi) of error parameters in complicated ways, so that it is
+
+4
+
+
+not immediately clear how to use the oracle to detect when a perturbation t′ is significantly closer to the ideal
+than t is.
+To adapt our reduction to the ring setting, we therefore work with each embedding separately, vary-
+ing σi(t) while holding σj(t) fixed for all j ̸= i, and eventually finding every σi(v) and hence v itself. More
+specifically: starting from t with z = σi(t), we repeatedly:
+
+1. slightly perturb t in the ith embedding to t′ with z′ = σi(t′);
+
+2. use the reduction from [LPR10] to approximate our oracle’s acceptance probabilities for error rates
+αi = r|σi(v) − z| and α′
+i = r|σi(v) − z′| for various values of r ≥ 1 (and αj = α′
+j = |σj(v − t)| for
+all j ̸= i); and
+
+3. use this information to detect if |σi(v) − z′| is significantly smaller than |σi(v) − z|, setting t = t′ if so.
+
+Note that in order for the above procedure to work, error with parameter αi = r|σi(v)−z| (and essentially
+any other parameters αj for j ̸= i) must be close to uniform modulo R∨ for large enough r. Fortunately, this
+is indeed the case, as shown in Lemma 6.9. We also emphasize that the search for each σi(v) starts from the
+same initial target t, and varies only one embedding σi(t), for the following reason. We know that our oracle
+has noticeable distinguishing advantage on Ring-LWE samples having error parameters αj = |σj(v − t)|,
+but we have no additional guarantees about its advantage for other parameters. It is therefore important that
+we not “lose hold” of the oracle’s advantage as we vary the parameters, i.e., that when t′ is closer to the
+ideal than t is, we can always find some r ≥ 1 such that our oracle still has noticeable advantage on samples
+having error parameter α′
+i = r|σi(v) − σi(t′)| (and α′
+j = αj for all j ̸= i).
+
+Tighter parameters via average-case BDD.
+As mentioned above, the approximation factor achieved by
+our reduction for Ring-LWE is tighter than the one from [LPR10] by a factor of �Θ(n1/4). We achieve this
+by giving a natural random self-reduction for BDD, showing that the ability to solve BDD with even small
+non-negligible probability for Gaussian-distributed offset vectors implies the ability to solve it with high
+probability for offset vectors that are distributed according to a slightly narrower Gaussian. (See Section 3.)
+A morally similar reduction appears in [LPR10], but is lossier (and messier) because it solves worst-case
+BDD, as opposed to solving it with high probability for Gaussian-distributed error.
+At a technical level, the proof relies on an elegant theorem due to Borell [Bor85], which says that the “least-
+correlated” functions under Gaussian error are indicators of half-spaces. This theorem is used extensively in
+the study of the hardness of approximation and the analysis of boolean functions (see, e.g., [O’D14, Section
+11.3]), but to our knowledge, this is its first application in the study of computational problems on lattices.
+
+Acknowledgments.
+We thank Parhat Abla, Jacob Alperin-Sheriff, Daniela Becker, Katharina Boudgoust,
+and Min Jae Song for helpful comments.
+
+2
+Preliminaries
+
+Throughout this work we assume for simplicity that for computational purposes, real numbers are specified
+with sufficiently high precision.
+For any real r > 0, define the Gaussian function ρr : R → R+ of parameter (or width) r as ρr(x) =
+exp(−π(x/r)2), and the continuous Gaussian probability distribution Dr to have density function ρr(x)/r.
+
+Lemma 2.1 ([Reg05, Claim 2.2]). For 0 < α < β, the statistical distance between Dα and Dβ is at most
+10(β/α − 1).
+
+5
+
+
+2.1
+Learning with Errors
+
+Here we recall the Learning With Errors (LWE) distribution and decision problem. We specialize to
+continuous Gaussian error Dα, which will be the main case of interest in this work. Let n and q be positive
+integers, and let α > 0 be an error rate. The quotient ring of integers modulo q is denoted Zq := Z/qZ. The
+quotient group of reals modulo the integers is denoted T := R/Z.
+
+Definition 2.2. For s ∈ Zn
+q , the LWE distribution As,α over Zn
+q × T is sampled by independently choosing
+uniformly random a ∈ Zn
+q and e ← Dα, and outputting (a, b = ⟨a, s⟩/q + e mod Z).
+
+Definition 2.3. For an integer q = q(n) ≥ 2 and error parameter α = α(n) > 0, the average-case decision
+problem LWEq,α is to distinguish between independent samples over Zn
+q × T, drawn from either: (1) the
+LWE distribution As,α(n) for some uniformly random s ← Zn
+q (which is fixed for all samples), or (2) the
+uniform distribution.
+
+For simplicity, the number of samples m = m(n) provided in the input is usually left as an unspecified
+polynomial that may even depend on the algorithm. The advantage of an algorithm for the above problem is
+the (absolute value of) the difference between its acceptance probabilities on the two types of inputs.
+
+2.2
+Lattices and Gaussians
+
+The space H.
+When dealing with number fields and algebraic number theory, we work with a certain linear
+subspace H ⊆ Rs1 × C2s2 for some integers s1, s2 ≥ 0 where n = s1 + 2s2, defined as
+
+H = {(x1, . . . , xn) : xs1+s2+i = xs1+i, for 1 ≤ i ≤ s2} ⊆ Cn.
+(2.1)
+
+One can verify that H, with the induced inner product from Cn, is isomorphic to Rn as a real inner product
+space.
+
+Lattices.
+For our purposes, a lattice is a full-rank discrete additive subgroup L ⊂ H. Any lattice is
+generated as the set of all integer linear combinations of some (non-unique) n linearly independent basis
+vectors B = {b1, . . . , bn}, as L = L(B) = {�n
+i=1 zibi : zi ∈ Z}. The minimum distance of L is
+λ1(L) := min0̸=v∈L∥v∥, the length of a shortest nonzero lattice vector. More generally, for 1 ≤ i ≤ n, the
+ith successive minimum of L is
+
+λi(L) := inf{r : L has i linearly independent vectors of length at most r} .
+
+The dual lattice of a lattice L ⊂ H is defined as L∗ := {x ∈ H : ⟨L, x⟩ ⊆ Z}.
+
+Gaussians.
+We generalize Dr to axis-aligned elliptical Gaussian distributions over the space H ⊂ Rs1 ×
+C2s2. Define G = {r ∈ (R+)n : rs1+s2+i = rs1+i, for 1 ≤ i ≤ s2}; note this has symmetry mirroring that
+of H. For consistency with prior works, we sometimes use r ∈ R+ as shorthand for the all-rs vector r1 ∈ G.
+For r ∈ G, the elliptical Gaussian distribution Dr over H is defined to have density function proportional to
+
+ρr(x) := exp
+�
+−π
+
+n
+�
+
+i=1
+|xi/ri|2�
+.
+(2.2)
+
+6
+
+
+This can be seen as essentially a product distribution of s1 real and 2s2 complex Gaussians, modulo the
+conjugate symmetry of H, where the ith real Gaussian has parameter ri, and the ith and (s2 + i)th complex
+Gaussians have parameter rs1+i/
+√
+
+2, and are complex conjugates.
+We recall a generalization of the lattice smoothing parameter [MR04] to elliptical Gaussians. In contrast
+to [MR04], where the smoothing parameter is defined to be a real number, here we capture a more general
+condition that makes an elliptical Gaussian “smooth” with respect to the lattice. Observe that the notation
+is consistent with the partial ordering on G defined by r′ ≥ r if r′
+i ≥ ri for all i. We sometimes omit the
+subscript ε when it is an unspecified negligible function in n.
+
+Definition 2.4 (Smoothing Condition). For a lattice L ⊂ H, real ε > 0 and r ∈ G, we write r ≥ ηε(L) if
+ρ1/r(L∗ \ {0}) ≤ ε, where 1/r = (1/r1, . . . , 1/rn).
+
+The following lemma justifies the name “smoothing parameter,” and is an immediate generalization
+of [MR04, Lemma 4.1] to elliptical Gaussians.
+
+Lemma 2.5. For any lattice L ⊂ H, real ε > 0, and r ≥ ηε(L), the statistical distance between Dr mod L
+and the uniform distribution over H/L is at most ε/2.
+
+The following is an immediate implication of [Ban93, Lemma 1.5].
+
+Lemma 2.6. For any lattice L ⊂ H and c ≥ 1, we have c√n/λ1(L∗) ≥ ηε(L) where ε = exp(−c2n).
+
+The following standard fact can be found, e.g., in [Reg05, Claim 2.13].
+
+Claim 2.7. For any lattice L ⊂ H and ε ∈ (0, 1), we have ηε(L) ≥
+�
+
+log(1/ε)/π/λ1(L∗).
+
+Proof. Let s :=
+�
+
+log(1/ε)/π/λ1(L∗). Then,
+
+ρ1/s(L∗) ≥ 1 + e−πs2λ1(L∗)2 = 1 + ε .
+
+For a lattice L and r ∈ G, the discrete Gaussian probability distribution DL,r is defined to have support L,
+and has mass function DL,r(x) := ρr(x)/ρr(L) for x ∈ L.
+
+Computational problems.
+In the following computational problems, a lattice L is represented by an
+arbitrary basis B, and a lattice coset e+L is represented by its distinguished representative e = (e+L)∩P(B),
+where P(B) := B · [− 1
+
+2, 1
+
+2)n is the fundamental parallelepiped of B.
+
+Definition 2.8 (Gap Shortest Vector Problem). For an approximation factor γ = γ(n) ≥ 1, the GapSVPγ
+is: given a lattice L and length d > 0, output YES if λ1(L) ≤ d and NO if λ1(L) > γd.
+
+Definition 2.9 (Shortest Independent Vectors Problem). For an approximation factor γ = γ(n) ≥ 1, the
+SIVPγ is: given a lattice L, output n linearly independent lattice vectors of length at most γ(n) · λn(L).
+
+Definition 2.10 (Discrete Gaussian Sampling). For a function γ that maps lattices to nonnegative reals,
+the DGSγ problem is: given a lattice L and a parameter r ≥ γ(L), output an independent sample from a
+distribution that is within negligible statistical distance of DL,r.
+
+Definition 2.11 (Bounded Distance Decoding). For a function δ that maps lattices to nonnegative reals, the
+BDDδ problem is: given a lattice L ⊂ H, a distance bound d ≤ δ(L), and a coset e + L where ∥e∥ ≤ d,
+output e.
+
+7
+
+
+Lemma 2.12 ([LLL82, Bab85]). There is an efficient algorithm that solves BDDδ for δ(L) = 2−n/2·λ1(L).
+
+Finally, we define a new average-case problem, which is essentially BDD where the offset is drawn from
+a Gaussian.
+
+Definition 2.13 (Gaussian Decoding Problem). For a lattice L ⊂ H and a Gaussian parameter g > 0, the
+GDPL,g problem is: given a coset e + L where e ∈ H was drawn from Dg, find e.
+
+2.3
+Algebraic Number Theory
+
+Here we briefly review the requisite concepts and notation from algebraic number theory. Our presentation is
+an abridged version of [LPR10, Section 2.3]; see that work and references therein for many more details.
+
+2.3.1
+Number Fields and Their Geometry
+
+A number field is a field extension K = Q(ζ) obtained by adjoining an element ζ to the rationals Q, where ζ
+satisfies the relation f(ζ) = 0 for some irreducible polynomial f(x) ∈ Q[x], called the minimal polynomial
+of ζ, which is monic without loss of generality. The degree n of the number field is the degree of f.
+A number field K = Q(ζ) of degree n has exactly n ring embeddings (i.e., injective ring homomorphisms)
+σi : K → C. Each embedding sends ζ to one of the roots of its minimal polynomial f; the embedding is
+said to be real if that root is real (in which case the image of the embedding is contained in R), otherwise it
+is complex. Because the roots of f come in conjugate pairs, so too do the complex embeddings. We let s1
+and s2 respectively be the number of real embeddings and pairs of complex embeddings, so n = s1 + 2s2,
+with σi for 1 ≤ i ≤ s1 being the real embeddings and σs1+s2+i = σs1+i for 1 ≤ i ≤ s2 being the conjugate
+pairs of complex embeddings.
+The (field) norm (or algebraic norm) of an element a ∈ K can be defined as N(a) := �n
+i=1 σi(a); clearly,
+the norm is multiplicative. Similarly, the trace can be defined as Tr(a) = �n
+i=1 σi(a). The field norm and
+trace of a number field element is always rationals.
+The canonical embedding σ: K → H, where H ⊂ Rs1 × C2s2 is as defined in Section 2.2 above, is
+defined as σ(a) = (σ1(a), . . . , σn(a)). Observe that this is a ring homomorphism from K to H, where
+multiplication and addition in the latter are both component-wise. We define norms and other geometric
+quantities on K simply by identifying field elements a ∈ K with their canonical embeddings σ(a) ∈ H, e.g.,
+the ℓ2 norm is ∥a∥2 := ∥σ(a)∥2 = (�n
+i=1|σi(a)|2)1/2 and the ℓ∞ norm is ∥a∥∞ = maxi|σi(a)|.
+The canonical embedding also allows us to view Gaussian distributions Dr over H (for r ∈ G), or their
+discrete analogues over a lattice L ⊂ H, as distributions over K. Formally, the continuous distribution Dr is
+actually over the field tensor product KR = K ⊗Q R, which is in bijective correspondence with H via the
+natural extension of σ.
+
+2.3.2
+Ring of Integers and Ideals
+
+An algebraic integer is an algebraic number whose minimal polynomial over the rationals has integer
+coefficients. For a number field K, we denote its subset of algebraic integers by OK. This set forms a ring
+(under the addition and multiplication operations of K), called the ring of integers of the number field. The
+norm of any algebraic integer is a rational integer, i.e., in Z.
+An (integral) ideal I ⊆ OK is a nontrivial additive subgroup that is also closed under multiplication
+by OK, i.e., r · a ∈ I for any r ∈ OK and a ∈ I. Any ideal I is a free Z-module of rank n, i.e., it is the set
+of all Z-linear combinations of some basis {b1, . . . , bn} ⊂ I of linearly independent (over Z) elements bi.
+
+8
+
+
+The norm of an ideal I is its index as a subgroup of OK, i.e., N(I) := |OK/I|. The product IJ of two
+ideals I, J is the set of all sums of terms xy for x ∈ I, y ∈ J . The norm for ideals is consistent with the
+norm for field elements, in that N(aOK) = |N(a)| for any a ∈ OK, and N(IJ ) = N(I) N(J ).
+A fractional ideal I ⊂ K is a set such that dI ⊆ OK is an integral ideal for some d ∈ OK. Its norm is
+defined as N(I) := N(dI)/|N(d)|. The set of fractional ideals forms a group under multiplication, and the
+norm is clearly multiplicative on this group.
+
+2.3.3
+Ideal Lattices and Duality
+
+Under the canonical embedding σ, any fractional ideal I ⊂ K yields a lattice L = σ(I) ⊂ H, which is called
+an ideal lattice. Recalling that I has a Z-basis B = {b1, . . . , bn}, we see that B = {σ(b1), . . . , σ(bn)} ⊂ L
+is a basis of L. We often identify an ideal with its embedded lattice, and refer to the minimum distance λ1(I)
+of an ideal, etc. The (absolute) discriminant ∆K of a number field K is the squared volume of the ring of
+integers lattice σ(OK), i.e., ∆K = |det(Tr(bi · bj))| where {b1, . . . , bn} is any Z-basis of OK.
+For any fractional ideal I ⊂ K, its dual ideal is defined as I∨ := {a ∈ K : Tr(xI) ⊆ Z}. Observe that
+because Tr(ab) = �n
+i=1 σi(a)σi(b) = ⟨σ(a), σ(b)⟩, dual ideals and dual lattices are related by σ(I∨) =
+
+σ(I)∗. An important canonical fractional ideal in a number field K is the codifferent ideal O∨
+K, i.e., the dual
+ideal of the ring of integers. This ideal has norm N(O∨
+K) = ∆−1
+K , and provides a link between dual and
+inverse ideals: I∨ = I−1 · O∨
+K for any fractional ideal I ⊂ K.
+All of the computational problems on lattices defined in Section 2.2 can be specialized by restricting
+them to (fractional) ideal lattices in a number field K. We refer to these specialized problems by prefixing
+them by K, e.g., K-GDPI,r, K-DGSγ, etc.
+
+2.4
+Ring-LWE
+
+Let K be a number field with ring of integers R = OK. Recall that R∨ is the (fractional) codifferent ideal
+of K, and let T = KR/R∨. Let q ≥ 2 be a (rational) integer modulus, and for any fractional ideal I of K, let
+Iq = I/qI.
+
+Definition 2.14 (Ring-LWE Distribution). For s ∈ R∨
+q and an error distribution ψ over KR, the R-LWE
+distribution As,ψ over Rq × T is sampled by independently choosing a uniformly random a ← Rq and an
+error term e ← ψ, and outputting (a, b = (a · s)/q + e mod R∨).
+
+Definition 2.15 (Ring-LWE, Average-Case Decision). Let Υ be a distribution over a family of error dis-
+tributions, each over KR. The average-case Ring-LWE decision problem, denoted R-LWEq,Υ, is to dis-
+tinguish (with non-negligible advantage) between independent samples from As,ψ for a random choice of
+(s, ψ) ← U(R∨
+q ) × Υ, and the same number of uniformly random and independent samples from Rq × T.
+
+2.5
+Probability
+
+Lemma 2.16 (Chernoff-Hoeffding bound [Hoe63]). Let X1, . . . , XN be independent and identically dis-
+tributed random variables with 0 ≤ Xi ≤ 1 and X := E[Xi]. Then, for any s > 0
+
+Pr
+����NX −
+�
+Xi
+��� ≥ s
+�
+≤ 2 exp(−s2/N) .
+
+We will also need the following slight strengthening of Lemma 2.16. See, e.g., [AS16, Theorem 7.2.1].
+
+9
+
+
+Lemma 2.17. Let X1, . . . , XN ∈ {0, 1} be boolean random variables with Pr[Xi = 1 | X1 = x1, . . . , Xi−1 =
+xi−1] ≥ p for all 1 ≤ i ≤ N, all x1, . . . , xi−1 ∈ {0, 1}, and some 0 < p < 1. Then, for any s > 0,
+
+Pr
+�
+Np −
+�
+Xi ≥ s
+�
+≤ exp(−s2/(2N)) .
+
+3
+Random Self-Reduction for GDP
+
+Our goal in this section is to prove Proposition 3.3, a random self-reduction for GDP, showing that the ability
+to solve GDP even with some small non-negligible probability over the offset vector implies the ability to
+solve GDP for a slightly smaller parameter with all but negligible probability.
+The proof is based on the following theorem by Borell [Bor85]. It says that the functions that are “least
+correlated” under Gaussian error are indicators of two opposing half-spaces. We let Dn = Dn
+1 be the
+Gaussian distribution D1 in n-dimensional space. Let Φ−1 : (0, 1) → R denote the inverse of the cumulative
+distribution function of the normal distribution D1 (and notice that Φ−1(µ) < 0 for µ < 1/2).
+
+Theorem 3.1 ([Bor85]; see also [O’D14, Exercise 11.26]). Let f, g: Rn → [0, 1] be two functions and let
+µ := Ex∼Dn[f(x)], ν := Ex∼Dn[g(x)]. Then, for any δ > 0,
+
+E
+x,z∼Dn[f(x)g(δx + (1 − δ2)1/2z)] ≥
+Pr
+x,z∼D1[x ≤ Φ−1(µ) and δx + (1 − δ2)1/2z ≥ −Φ−1(ν)] .
+
+Corollary 3.2. Let δ = δ(n) be any o(1) function, and let g: Rn → [0, 1] have expectation ν :=
+Ex∼Dn[g(x)] ≥ 1/ poly(n). Assume x is chosen according to Dn. Then, there exists a c > 0 such
+that with all but negligible probability (over the choice of x), it holds that
+
+E
+z∼Dn[g(δx + (1 − δ2)1/2z)] > n−c .
+(3.1)
+
+Proof. Let f : Rn → {0, 1} be the indicator function of the points for which Equation (3.1) does not hold,
+and denote its expectation by µ := Ex∼Dn[f(x)]. Then, clearly
+
+E
+x,z∼Dn[f(x)g(δx + (1 − δ2)1/2z)] ≤ µ · n−c .
+
+By Theorem 3.1, we get that
+
+Pr
+x,z∼D1[x ≤ Φ−1(µ) and δx + (1 − δ2)1/2z ≥ −Φ−1(ν)] ≤ µ · n−c ,
+
+or equivalently,
+
+E
+x∼D1
+�
+Pr
+z∼D1[δx + (1 − δ2)1/2z ≥ −Φ−1(ν)] | x ≤ Φ−1(µ)
+�
+≤ n−c .
+
+By Markov’s inequality, with probability at least 1/2 over the choice of x conditioned on x ≤ Φ−1(µ),
+
+Pr
+z∼D1[δx + (1 − δ2)1/2z ≥ −Φ−1(ν)] ≤ 2n−c ,
+
+but since δ = o(1), and assuming c is large enough, this implies that x ≤ −ω(√log n). As a result,
+Φ−1(µ) ≤ −ω(√log n) which in turn implies that µ is negligible, as desired.
+
+10
+
+
+(a) The probability function pO(t) of an oracle O with a
+horizontal line at p∞ := limt→∞ pO(t) = 1/10.
+
+(b) The probability functions pO−0.3(t) and pO−0.2(t) of
+two different shifts of O.
+
+Figure 1
+
+Proposition 3.3. Assume we are given access to an oracle that solves GDPL,r with some non-negligible
+probability over the choice of the coset. Then we can efficiently solve GDPL,δr with all but negligible
+probability, where δ = δ(n) is any o(1) function.
+
+Proof. Assume without loss of generality that r = 1. Given an input coset x + L, the algorithm repeats the
+following a polynomial number of times. It chooses a vector z from Dr′, where r′ := (1 − δ2)1/2r, and calls
+the oracle with z + x + L. At the end it returns the shortest solution among all the oracle responses, minus z.
+Correctness follows from Corollary 3.2, where we take g to be the acceptance probability of the oracle.
+
+4
+Finding Your (Oracle’s) Center
+
+For a (randomized) oracle O: S → {0, 1} with some domain S, let pO(t) = Pr[O(t) = 1] for any t ∈ S.
+Usually, O will be clear from context, so we often omit the subscript and simply write p(t). If S = R, then
+for any s ∈ R, let Os : R≥0 → {0, 1} be the “suffix” oracle Os(t) = O(s + t). (See Figure 1.) We wish to
+show that, if O has certain properties, then we can tell the difference between suffix oracles having sufficiently
+different shifts. (In our only application, Proposition 4.4, the shift s corresponds to log ∥z∗ − z∥, where
+z∗ ∈ Rk is some unknown target vector and we choose z ∈ Rk. We did not try to optimize the parameters.)
+
+Definition 4.1 (Oracle Comparison Problem). For error parameter ε ≥ 0 and r > 0, (ε, r)-OCP is a
+promise problem defined as follows. Given access to two (randomized) oracles Os1 and Os2 for some
+unknown shifts s1, s2 ∈ [−r, r] and some underlying oracle O: R → {0, 1}, the goal is to output YES if
+s2 ≤ s1 − ε and NO if s2 > s1. (If neither is the case, then any output is considered correct.)
+
+Lemma 4.2. There is a poly(κ)-time algorithm that takes as input some confidence parameter κ ≥ 200 and
+solves (1/κ, κ)-OCP except with probability at most exp(−κ), provided that the oracle O and the two shifts
+s1, s2 corresponding to the instance of OCP satisfy the following conditions. There exists a p∞ ∈ [0, 1] and
+t∗ ≥ s1 such that
+
+1. p(t∗) − p∞ ≥ 1/κ;
+
+2. |p(t) − p∞| ≤ 2 exp(−t/κ) for all t; and
+
+3. p(t) is κ-Lipschitz.
+
+11
+
+
+(Here, p(t) is the acceptance probability of the oracle on input t, as above.) Furthermore, each of the
+algorithm’s oracle calls takes the form Osj(i∆) for some ∆ < 1 that depends only on κ and integer
+0 ≤ i ≤ poly(κ), j ∈ {1, 2}.
+
+Proof. The high-level idea behind the algorithm is to work with the function
+
+h(s) := max
+t≥0 (1 + t)|p(s + t) − p∞| .
+(4.1)
+
+(Since p is continuous and converges rapidly to p∞, this maximum is in fact achieved.) Intuitively, h is a
+weighted measure of the “distance from s to the next peak in the function p.”
+Notice that we have defined h(s) so that it is monotonically non-increasing. Therefore, in the NO case
+when s2 > s1, we must have h(s2) − h(s1) ≤ 0. On the other hand, it is clear that h(s2) − h(s1) must be
+non-negative in the YES case when s2 ≤ s1 − 1/κ, and we claim that in fact h(s2) − h(s1) ≥ 1/ poly(κ) in
+this case.
+To that end, let
+�t(s) := argmax
+t≥0
+(1 + t)|p(s + t) − p∞|
+
+be a value of t achieving the maximum in Equation (4.1). (If there are multiple such values of t, we can take,
+e.g., the smallest.) Suppose we are in the YES case so that −κ ≤ s2 ≤ s1 − 1/κ ≤ t∗ − 1/κ. Then
+
+h(s2) = max
+t≥0 (1+t)|p(s2 +t)−p∞| ≥ (1+�t(s1)+s1 −s2)|p(s1 +�t(s1))−p∞| =
+�
+1+ s1 − s2
+
+1 + �t(s1)
+
+�
+h(s1) .
+
+Since s1 ≤ t∗, it follows from Item 1 that h(s1) ≥ 1/κ. Furthermore, by Item 2, we must have �t(s1) <
+100κ log κ, since otherwise h(s1) would be much smaller than 1/κ. It follows that
+
+h(s2) − h(s1) > 1
+
+κ2 ·
+1
+
+1 + 100κ log κ ≥ 1/ poly(κ) .
+
+Therefore, a sufficiently good approximation to h(s1) and h(s2) can be used to solve OCP. Specifically,
+suppose we have an algorithm with oracle access to Os for (unknown) s ≥ −κ that takes as input λ, κ and
+outputs h such that
+|h − h(s)| ≤ 1/λ ,
+(4.2)
+
+except with probability at most exp(−κ)/2 (in time poly(κ, λ)). The above argument shows that, by taking
+λ = poly(κ), such an algorithm can be used to solve (1/κ, κ)-OCP. So, it remains to show that such an
+algorithm exists.
+On input λ, κ ≥ 200, the algorithm behaves as follows. For each i = 0, . . . , T := ⌊tmax/∆⌋, it calls Os
+repeatedly, N times, on input i∆, and sets pi to be the fraction of times that the oracle outputs 1 on this input.
+The algorithm then outputs
+
+h := max
+i (1 + i∆)|pi − pT | ,
+(4.3)
+
+which is meant to be an approximation to h(s). The parameters N ≤ poly(κ, λ), tmax ≤ poly(κ, λ), and
+∆ ≥ 1/ poly(κ, λ) will be chosen below.
+Clearly, as long as N, tmax, and 1/∆ are polynomial in κ and λ, the above algorithm is efficient. So, we
+need only show that h satisfies Equation (4.2). Indeed, by the Chernoff-Hoeffding bound (Lemma 2.16), we
+have
+|pi − p(s + i∆)| ≤
+1
+
+100λtmax
+
+12
+
+
+for all i, j except with probability at most 10T exp(−N/(1002λ2t2
+max)). Taking N := ⌈5002t2
+maxκλ2 log T⌉ ≤
+poly(κ, λ) is sufficient to make this failure probability less than exp(−κ)/2. Next, we need to “fill in the
+gaps” in order to compare the maximum over a continuous set in Equation (4.1) with the maximum over a
+discrete set in Equation (4.3). Indeed, by Item 3, we have
+
+|p(t + χ∆) − p(t)| ≤ κ∆
+
+for all t and all χ ∈ [0, 1]. Taking ∆ := 1/(100κλtmax) ≥ 1/ poly(κ, λ) implies that this is at most
+1/(100λtmax). Finally, we need to argue that p(s + T∆) is a good approximation to p∞. This follows from
+Item 2, which says that
+
+|p(s + T∆) − p∞| ≤ 2 exp(−(s + tmax − ∆)/κ) ≤ 10 exp(−tmax/κ) ,
+
+where the last inequality uses the fact that s ≥ −κ (and ∆ < 1). Taking tmax := 100κ log(κλ) ≤ poly(κ, λ)
+implies that this too is at most 1/(100λtmax).
+Combining the above bounds, we have
+
+��(pi − pT ) − (p(s + (i + χ)∆) − p∞)
+�� ≤
+1
+
+25λtmax
+
+for all i and all χ ∈ [0, 1]. Applying this to qi := (1 + i∆)|pi − pT | and q(t) := (1 + t)|p(s + t) − p∞|, we
+see that
+|qi − q((i + χ)∆)| ≤ (2 + tmax)|pi − p(s + (i + χ)∆)| + ∆ ≤
+1
+
+10λ
+(4.4)
+
+for all i and χ ∈ [0, 1]. Finally, we apply Equation (4.4) to the definitions of h (Equation (4.1)) and h
+(Equation (4.3)) to see that
+
+|h − h(s)| ≤
+��� max
+i
+qi −
+max
+i,χ
+(i+χ)∆≤tmax
+q((i + χ)∆)
+��� + max
+t≥tmax q(t) ≤ max
+i,χ |qi − q((i + χ)∆)| +
+1
+
+10λ ≤ 1
+
+λ ,
+
+as needed.
+
+Definition 4.3 (Oracle Hidden Center Problem). For any parameters ε, δ ∈ [0, 1) and β ≥ 1, the (ε, δ, β)-
+OHCP is an approximate search problem defined as follows. An instance consists of a scale parameter
+d > 0 and (randomized) oracle O: Rk × R≥0 → {0, 1} whose acceptance probability on input (z, t) for
+∥z − z∗∥ ≤ βd is p(t + log ∥z − z∗∥) for some (unknown) “hidden center” z∗ ∈ Rk with δd ≤ ∥z∗∥ ≤ d
+and (unknown) function p. (I.e., for such z, its acceptance probability depends only on t + log ∥z − z∗∥.)
+The goal is to output some z ∈ Rk such that ∥z − z∗∥ ≤ εd.
+
+Proposition 4.4. There is a poly(κ, k)-time algorithm that takes as input a confidence parameter κ ≥
+20 log(k+1) (and the scale parameter d > 0) and solves (exp(−κ), exp(−κ), 1+1/κ)-OHCP in dimension
+k except with probability exp(−κ), provided that the oracle O corresponding to the OHCP instance satisfies
+the following conditions. For some p∞ ∈ [0, 1] and s∗ ≥ 0,
+
+1. p(s∗) − p∞ ≥ 1/κ;
+
+2. |p(s) − p∞| ≤ 2 exp(−s/κ) for any s; and
+
+3. p(s) is κ-Lipschitz in s,
+
+13
+
+
+Figure 2: A depiction of an instance of OHCP in R2. The goal is to find a good approximation to z∗ using
+oracle calls O(z, t).
+
+where p(s) is the acceptance probability of O on input (0, s). Furthermore, each of the algorithm’s oracle
+calls takes the form O(·, i∆) for some ∆ < 1 that depends only on κ and k and 0 ≤ i ≤ poly(κ, k).
+
+Proof. We may assume that d = 1, since the problem is invariant under scaling. The idea behind the
+algorithm is to take a “guided random walk” towards the center z∗.
+To that end, we first claim that Lemma 4.2 yields an algorithm with the following behavior. The
+algorithm takes as input confidence parameters κ, λ ≥ 100, runs in time poly(κ, λ), and has oracle access
+to O1 := O(x1, ·) and O2 := O(x2, ·) for some x1, x2 ∈ Rk satisfying exp(−λ) ≤ ∥xi − z∗∥ ≤ 1 + 1/κ
+and ∥x1 − z∗∥ ≤ ∥z∗∥. If ∥x1 − z∗∥ ≤ ∥x2 − z∗∥, then it must output NO except with probability at most
+exp(−λ). If log ∥x2 − z∗∥ ≤ log ∥x1 − z∗∥ − 1/λ, then it must output YES except with probability at most
+exp(−λ). Below, we will use such an algorithm to “guide our random walk” towards z∗.
+To achieve this, our algorithm simply runs the procedure from Lemma 4.2 with oracles O1 := O(x1, ·)
+and O2 := O(x2, ·) and confidence parameter κ + λ. It then simply outputs the response of this procedure.
+To see that this works, let O∗(·) := O(0, ·). Notice that our two oracles O1 and O2 correspond exactly
+to O∗
+s1−log ∥z∗∥ and O∗
+s2−log ∥z∗∥, where si := log ∥xi − z∗∥. I.e., O(xi, ·) is a shift of O∗ by si − log ∥z∗∥.
+Since s1, s2 ∈ [−λ, log(1 + 1/κ)] by assumption, it follows that si − log ∥z∗∥ ∈ [−λ − κ, λ + κ], so that
+this is a valid instance of (1/λ, λ + κ)-OCP. Furthermore, setting t∗ := s∗ ≥ 0 ≥ s1 − log ∥z∗∥, we see that
+the conditions on O in Items 1, 2, and 3 correspond exactly to the corresponding conditions on O∗ needed
+to apply Lemma 4.2. It follows that this algorithm correctly distinguishes the case s1 ≤ s2 from the case
+s2 ≤ s1 − 1/λ except with probability at most exp(−λ), as needed.
+We now show how to use the procedure described above to solve OHCP. On input κ ≥ 20 log(k + 1),
+our OHCP algorithm first sets z0 = 0. It then does the following for i = 0, . . . , T. It samples a coordinate
+j ∈ {1, . . . , k}, x ∈ [0, 1], and σ ∈ {±1} uniformly at random. Let vi := σ exp(−2κx)ej/
+√
+
+κ2k. The
+algorithm then runs the procedure described above on input κ, λ with x1 := zi and x2 := zi + vi. If the
+subprocedure outputs YES, then it sets zi+1 = zi + vi. Otherwise, it sets zi+1 = zi. Finally, it outputs zT+1.
+The parameters T, λ ≤ poly(κ, k) will be chosen below.
+Clearly, as long as T, λ ≤ poly(κ, k), the algorithm runs in time poly(κ, k), as needed. Let si,1 :=
+log ∥zi − z∗∥ and si,2 := log ∥zi + vi − z∗∥. To prove correctness, we show that (1) the subprocedure
+answers correctly (i.e., outputs YES whenever si,2 ≤ si,1 −1/λ and NO whenever si,1 ≤ si,2) for all i except
+with probability at most exp(−κ)/2; and (2) if this holds then sT+1 := log ∥zT+1 − z∗∥ ≤ −κ except with
+probability at most exp(−κ)/2. The result then follows by union bound.
+
+14
+
+
+To prove (1), we prove by induction on i that, except with probability at most δi := 10i exp(−λ/2),
+(a) the subprocedure answers correctly for all i′ < i; and (b) si,j ∈ [−λ, log(1 + 1/κ)] and si,1 ≤ log ∥z∗∥.
+Setting
+λ := 10κk2 log T ≤ poly(κ, k) ,
+
+we see that δT+1 ≤ exp(−κ)/2. (We could have taken λ to be a bit smaller for this part of the argument, but
+this larger value will be necessary later.)
+The claim is trivial for i = 0. Let i > 0 and suppose for induction that the statement holds for i − 1. So,
+we have si−1,j ∈ [−λ, log(1 + 1/κ)], si−1,1 ≤ log ∥z∗∥, and that the subprocedure answers correctly up to
+and including step i − 1 except with probability exp(−λ) + δi−1 (where we have used the correctness of
+the subprocedure). In particular, it must output NO if si−1,1 ≤ si−1,2, which implies that we always have
+si,1 ≤ si−1,1 ≤ log ∥z∗∥. Furthermore, by triangle inequality, we have that exp(si,2) ≤ exp(si,1) + ∥vi∥ ≤
+1 + 1/κ, as needed.
+To see that si,j ≥ −λ except with probability at most exp(−λ/2), first notice that since we must have
+either si,1 = si−1,1 or si,1 = si−1,2, we immediately have that si,1 ≥ min{si−1,1, si−1,2} ≥ −λ. Recall
+that si,2 = log ∥zi + vi − z∗∥, where vi = σ exp(−2κx)ej/
+√
+
+κ2k for uniformly random x ∈ [0, 1] and
+σ ∈ {±1}. If si,2 < −λ, then by triangle inequality we must have
+
+∥zi − z∗∥ − exp(−λ) ≤ ∥vi∥ ≤ ∥zi − z∗∥ + exp(−λ) .
+(4.5)
+
+If ∥zi − z∗∥ ≤ 10 exp(−λ/2), then Equation (4.5) simply cannot hold, since ∥vi∥ ≥ exp(−2κ)/
+√
+
+κ2k >
+11 exp(−λ/2). On the other hand, if ∥zi − z∗∥ ≥ 10 exp(−λ/2), then since log ∥vi∥ is uniform in an
+interval of length 2κ, the probability that Equation (4.5) holds is at most
+
+log(∥zi − z∗∥ + exp(−λ)) − log(∥zi − z∗∥ − exp(−λ))
+
+2κ
+≤
+exp(−λ)
+
+κ(∥zi − z∗∥ − exp(−λ)) ≤ exp(−λ/2) ,
+
+as needed.
+Finally, we prove that sT+1 ≤ −κ except with probability at most exp(−κ)/2, conditioned on the
+subprocedure always answering correctly (i.e., we prove (2) above). Notice that, since the subprocedure
+always answers correctly, we must have si+1,1 ≤ si,1 for all i.
+In particular, if si,1 = log ∥zi − z∗∥ ≤ −κ for some i, then we must have sT+1 ≤ si,1 ≤ −κ, and we are
+done. Otherwise, let y := z∗ − zi, and note that there exists some coordinate j such that |yj| ≥ ∥y∥/
+√
+
+k ≥
+exp(−κ)/
+√
+
+k. We also have |yj| ≤ ∥y∥ ≤ 1. So, with probability at least log 2/(4κk) ≥ 1/(10κk), the
+algorithm will select the coordinate j, σ = sign(yj), and x ∈ [− log |yj|/(2κ), − log(|yj|/2)/(2κ)]. If this
+happens, then
+
+∥zi + vi − z∗∥2 ≤ (1 − 1/(2
+√
+
+κ2k))2y2
+j +
+�
+
+j′̸=j
+y2
+k ≤ ∥y∥2 · (1 − 1/(2κk3/2)) .
+
+In particular,
+
+si,2 := log ∥zi + vi − z∗∥ ≤ log ∥zi − z∗∥ + log(1 − 1/(2κk3/2))/2 ≤ si,1 − 1/λ .
+
+By assumption, the subprocedure always outputs YES in this case, so that in this case we have si+1,1 =
+si,2 ≤ si,1 − 1/(10κk3/2). We conclude that either si,1 ≤ −κ or
+
+Pr
+�
+si,1 − si+1,1 ≥
+1
+
+10κk3/2
+
+�
+≥
+1
+
+10κk .
+
+15
+
+
+Let Xi ∈ {0, 1} be the random variable such that Xi = 1 if and only if either (1) si,1 − si+1,1 ≥
+1/(4κk3/2) or (2) si,1 ≤ −κ. From the above, we have that Pr[Xi = 1 | X0 = x0, . . . , Xi−1 = xi−1] ≥
+1/(10κk) for all x0, . . . , xi−1 ∈ {0, 1}. Then, by Lemma 2.17, it follows that � Xi ≥ T/(10κk) − 10
+√
+
+κT
+except with probability at most exp(−κ)/2. Setting T := 2000κ3k4 ≤ poly(κ, k) gives � Xi ≥ 10κ2k3/2.
+It follows that there must exist some i such that
+
+si,1 ≤ − max{κ, 10κ2k3/2/(4κk3/2) − 1/κ} ≤ −κ .
+
+(In particular, either condition (2) above is satisfied for some i or condition (1) must be satisfied for at least
+10κ2k3/2 different values of i.) Since si,1 is non-increasing in i, we conclude that sT+1 ≤ −κ except with
+probability at most exp(−κ)/2, as needed.
+
+5
+Hardness of Plain LWE
+
+Before we present our main result, a worst-case to average-case reduction for Ring-LWE for any ring, we
+show how to use the same technique to derive a worst-case to average-case reduction for plain LWE. This
+reduction is significantly simpler and illustrates most of the new ideas necessary for the ring case. In particular,
+we prove the following result, which is identical to [Reg05, Theorem 3.1], except that we reduce to decision
+LWE, rather than search.
+
+Theorem 5.1. Let α = α(n) ∈ (0, 1), and let q = q(n) be an integer such that αq ≥ 2√n. There
+is a polynomial-time quantum reduction from DGSγ to (average-case, decision) LWEq,α, where γ :=
+√
+
+2nη(L)/α.
+
+Using known reductions (see, e.g., [Reg05, Section 3.3]), we immediately derive the following corollary.
+
+Corollary 5.2. Let α = α(n) ∈ (0, 1), and let q = q(n) be an integer such that αq ≥ 2√n. Then, there is
+a polynomial-time quantum reduction from SIVPγ′ and GapSVPγ′ to (average-case, decision) LWEq,α for
+some γ′ = �O(n/α).
+
+The high-level structure of the proof of Theorem 5.1 is nearly identical to that of the corresponding
+statement in [Reg05]. In particular, [Reg05] shows (1) a quantum reduction from DGS√
+
+n/2/d to BDDd
+over L∗ for d < λ1(L∗)/2; and (2) a classical reduction that allows us to solve BDDd over L∗ using
+discrete Gaussian samples over L with parameter r ≥
+√
+
+2qη(L) together with a search LWEq,α oracle, with
+d := αq/(
+√
+
+2r). By combining these two steps, we can use an LWEq,α oracle to convert discrete Gaussian
+samples with parameter γ to samples with parameter γ′, where
+
+γ′ := max{
+√
+
+2nη(L)/α, √nγ/(αq)} .
+
+The full reduction is obtained by starting with very large Gaussian samples (which we can sample efficiently)
+and then repeatedly running this procedure to lower the parameter.
+The main difference between our reduction and that of [Reg05] is that we use a novel classical reduction
+from BDD to decision LWE, rather than search LWE. (See Lemma 5.4.) Like [Reg05], we also require access
+to discrete Gaussian samples to achieve this. But, while this part of Regev’s reduction uses samples with a
+single parameter r, we require samples with many parameters r′ ≥ r. (Recall from Section 1.3 that we vary
+this parameter in order to obtain LWE samples with a variety of errors.) Regev’s quantum reduction allows
+for this, so this is a nonissue.
+In Lemma 5.4, we show our modified classical reduction. We will need the following lemma from [Reg05],
+which shows how to convert discrete Gaussian samples together with a BDD instance into LWE samples.
+
+16
+
+
+Lemma 5.3. There is an efficient algorithm that takes as input an integer q ≥ 2, a lattice L ⊂ Rn, a coset
+x + L∗, bound d ≥ ∥x∥, a parameter r ≥
+√
+
+2q · η(L), and samples from DL,r. It outputs samples that are
+within negligible statistical distance of LWE samples with a uniformly random secret s ∈ Zn
+q and squared
+error rate (r′)2 := (r∥x∥/q)2 + (rd/q)2.
+
+With this, we can present our modified classical reduction.
+
+Lemma 5.4. There exists a probabilistic polynomial-time (classical) algorithm with access to an oracle that
+solves LWEq,α that takes as input a number α ∈ (0, 1) and an integer q ≥ 2, a lattice L ⊂ Rn, a parameter
+r ≥
+√
+
+2q · η(L), and poly(n) samples from the discrete Gaussian distribution DL,ri for poly(n) parameters
+ri ≥ r, solves BDDL∗,d for d := αq/(
+√
+
+2r).
+
+Proof. Let d′ := (1 − 1/(2n)) · d. By [LM09, Corollary 2], it suffices to solve BDDL∗,d′.
+Let κ = poly(n) with κ ≥ 100n2ℓ be such that the advantage of our LWEq,α oracle is at least 1/κ, where
+ℓ ≥ 1 is the number of samples required by the oracle.
+The reduction takes as input an integer q ≥ 2, a lattice L ⊂ Rn, a parameter r ≥
+√
+
+2q · η(L), samples
+from DL,ri for 1 ≤ i ≤ poly(n), and a coset x + L∗ where ∥x∥ ≤ d′. The goal is to recover x. Without
+loss of generality, we may assume that ∥x∥ ≥ exp(−n)λ1(L∗) ≥ (q/r) · exp(−n/2) (where the second
+inequality follows from Lemma 2.6), since otherwise we can find x efficiently using Lemma 2.12.
+The reduction uses its LWE oracle to simulate an oracle O such that the probability that O(z, t) outputs 1
+depends only on exp(t)∥z − x∥. In other words, O is an oracle with a “hidden center” x as in our definition
+of OHCP (Definition 4.3). We will then use Proposition 4.4 to find good approximations to x, which will
+allow us to recover x.
+On input (z, t), the oracle O uses fresh samples from DL,exp(t)r. It then runs the transformation from
+Lemma 5.3 on these samples, the coset x − z + L∗, parameter r, and distance bound d (not d′). Let Az,t be
+the resulting samples. Then O calls the LWE oracle on Az,t and outputs 1 if and only if it accepts.
+Using the oracle O, the reduction runs the procedure from Proposition 4.4 with confidence parameter κ
+and distance bound d′ (not d), receiving as output some approximation z to the oracle’s “center.” Finally, the
+reduction runs Babai’s algorithm (Lemma 2.12) on the coset x − z + L∗, receiving as output �z ∈ x − z + L∗,
+and returns �z + z as its own output.
+The running time is clear. We first assume that z is a valid solution to (exp(−κ), exp(−κ), 1 + 1/κ)-
+OHCP with “hidden center” x and show that the reduction outputs the correct answer in this case. By
+definition, we have
+∥z − x∥ ≤ exp(−κ)d ≤ α exp(−κ)/η(L) ≤ 2−nλ1(L∗) ,
+
+where the last inequality follows from Claim 2.7. So, the procedure from Lemma 2.12 will output exactly
+�z = x − z. Therefore, the reduction returns the correct answer, x = �z + z.
+It remains to show that (1) the oracle O represents a valid instance of (exp(−κ), exp(−κ), 1 + 1/κ)-
+OHCP with “hidden center” x; and (2) the oracle additionally satisfies the requirements needed to apply
+Proposition 4.4.
+To prove validity, we simply observe that Lemma 5.3 implies that the distribution of Az,t depends only on
+exp(t)∥z − x∥ (up to negligible statistical distance), provided that ∥z − x∥ ≤ (1 + 1/κ)d′ ≤ d. Furthermore,
+by assumption ∥x∥ ≥ exp(−n)d ≥ exp(−κ)d′. Therefore, O, κ, and d′ correspond to a valid instance of
+(exp(−κ), exp(−κ), 1 + 1/κ)-OHCP with “hidden center” x, as needed.
+It remains to show that O satisfies the requirements from Proposition 4.4. We write p(t) for the probability
+that O outputs 1 on input (0, t), and p∞ for the probability that our LWE oracle outputs 1 on uniformly
+random input. Again by Lemma 5.3, we have that A0,t is statistically close to LWE samples with error rate
+
+17
+
+
+(r/q) ·
+�
+
+exp(2t)∥x∥2 + d2. In particular, the error rate is α when t = log(d/∥x∥) ≥ 0, and it follows that
+p(s) − p∞ ≥ 1/κ, i.e., Item 1 holds. For Item 2, notice that by Lemma 2.5, Lemma 2.6, and the union bound,
+the distribution of A0,t is within statistical distance
+
+min{1, 2ℓ exp(− exp(t − n))} ≤ 2 exp(−t/κ)
+
+of the uniform distribution. It follows that |p(t) − p(∞)| ≤ 2 exp(−t/κ), as needed. Finally, for Item 3,
+notice that by Lemma 2.1 the distributions of A0,t1 and A0,t2 are within statistical distance
+
+min
+�
+1, 10ℓ(exp(|t1 − t2|) − 1)
+�
+≤ κ|t1 − t2|
+
+of each other, where we have applied the union bound over the ℓ samples in A�z,tj. Therefore, p(t) is
+κ-Lipschitz in t, as needed.
+
+6
+Main Theorem
+
+Throughout this section, let K be a number field having s1 real embeddings and s2 pairs of complex
+embeddings, with n = s1 + 2s2, and denote its ring of integers by R = OK.
+We now define the distribution Υα over error distributions that we will use in our reduction. We note that
+this distribution is slightly different than the one used in [LPR10], and is in particular narrower by a factor of
+essentially n1/4.
+
+Definition 6.1. Fix an arbitrary f(n) = ω(√log n). For α > 0, a distribution sampled from Υα is an
+elliptical Gaussian Dr, where r ∈ G is sampled as follows: for i = 1, . . . , s1, sample xi ← D1 and set
+r2
+i = α2(x2
+i + f2(n))/2. For i = s1 + 1, . . . , s1 + s2, sample xi, yi ← D1/
+√
+
+2 and set r2
+i = r2
+i+s2 =
+α2(x2
+i + y2
+i + f2(n))/2.
+
+Equivalently, r2
+i is distributed as a shifted chi-squared distribution for real embeddings, and a shifted
+chi-squared distribution with two degrees of freedom for complex embeddings. The following is the main
+result of the paper.
+
+Theorem 6.2. Let K be an arbitrary number field of degree n and R = OK. Let α = α(n) ∈ (0, 1), and let
+q = q(n) ≥ 2 be an integer such that αq ≥ 2 · ω(1). There is a polynomial-time quantum reduction from
+K-DGSγ to (average-case, decision) R-LWEq,Υα for any
+
+γ = max
+�
+η(I) ·
+√
+
+2/α · ω(1),
+√
+
+2n/λ1(I∨)
+�
+.
+(6.1)
+
+Using the easy inequality η(I) > ω(√log n)/λ1(I∨) (Claim 2.7) we get that as long as α <
+�
+
+log n/n
+(which is typically the case in applications), the first term in the maximum in Equation (6.1) dominates. Using
+known reductions (see, e.g., [Reg05, Section 3.3]), we immediately derive the following corollary.
+
+Corollary 6.3. Let K be an arbitrary number field of degree n and R = OK. Let α = α(n) ∈ (0, 1), and
+let q = q(n) ≥ 2 be an integer such that αq ≥ ω(1). There is a polynomial-time quantum reduction from
+K-SIVPγ to (average-case, decision) R-LWEq,Υα for any
+
+γ = max
+�
+ω(√n/α) · η(I)/λn(I),
+√
+
+2n/(λ1(I∨)λn(I))
+�
+
+≤ max
+�
+ω(
+�
+
+n log n/α),
+√
+
+2n
+�
+.
+
+18
+
+
+We remark that for the families of number fields in [Roq67, PR07], λ1(I∨)λn(I) = Θ(n) and
+η(I)/λn(I) = Θ(1/√n) for any ideal I. So, in this special case, we obtain a worst-case approxima-
+tion factor of γ = ω(1/α). Furthermore, these number fields can potentially allow for applications with
+constant α, in which case the worst-case approximation factor is essentially constant.
+We now proceed to describe the the high-level structure of the proof of Theorem 6.2, which is nearly
+identical to that of the corresponding statement in [LPR10, Theorem 4.1] (which in turn is very similar to
+the proof in [Reg05]). As in Section 5, the most significant difference is that we use a direct reduction to
+the average-case Ring-LWE decision problem in our classical step, Lemma 6.6. Furthermore, we again
+require discrete Gaussian samples with various different parameters, but unlike in Section 5, we now need
+non-spherical parameters, as follows.
+
+Definition 6.4. For r > 0, ζ > 0, and T ≥ 1, define Wr,ζ,T as the set of cardinality (s1 + s2) · (T + 1)
+containing for each i = 1, . . . , s1 + s2 and j = 0, . . . , T the vector ri,j ∈ G which is equal to r in all
+coordinates except in the ith, and the (i + s2)th if i > s1, where it is equal to r · (1 + ζ)j.
+
+The reduction works by repeated applications of the following iterative step.
+
+Lemma 6.5. There exists an efficient quantum algorithm that given an oracle that solves R-LWEq,Υα on
+input a number α ∈ (0, 1) and an integer q ≥ 2, a fractional ideal I ⊂ K, a number r ≥
+√
+
+2q · η(I) such
+that r′ := r·ω(1)/(αq) >
+√
+
+2n/λ1(I∨), polynomially many samples from the discrete Gaussian distribution
+DI,r for each r ∈ Wr,ζ,T (for some ζ = 1/ poly(n) and T = poly(n)), and a vector r′ ∈ G where r′ ≥ r′,
+outputs an independent sample from DI,r′.
+
+Theorem 6.2 follows easily from this iterative step, as we now sketch. We start with a very large value of r,
+say r ≥ 22nλn(I), so that samples from DI,r for each r ∈ Wr,ζ,T can be generated classically (see [Reg05,
+Lemma 3.2]). Then, given those samples, we apply the algorithm of Lemma 6.5 a polynomial number of
+times with various values of r′ (using the same samples) to obtain a polynomial number of samples from DI,r
+for each r ∈ Wr′,ζ,T where r′ := r ·ω(1)/(αq) ≤ r/2. Repeating this, we obtain samples from progressively
+narrower and narrower distributions, until we get samples with the desired Gaussian parameter s ≥ γ. Note
+that the γ given in (6.1) corresponds to values of r, r′ satisfying the hypotheses of Lemma 6.5.
+The iterative step given by Lemma 6.5 is obtained by combining two reductions, described next in
+Lemmas 6.6 and 6.7. The first, whose proof is given in Section 6.1, is a reduction from GDP to (average-case,
+decision) R-LWE, which uses Gaussian samples. This is the main novel component in our paper.
+
+Lemma 6.6. There exists a probabilistic polynomial-time (classical) algorithm that given an oracle that
+solves R-LWEq,Υα and input a number α ∈ (0, 1) and an integer q ≥ 2 together with its factorization, a
+fractional ideal I in K, a parameter r ≥
+√
+
+2q · η(I), and polynomially many samples from the discrete
+Gaussian distribution DI,r for each r ∈ Wr,ζ,T (for some ζ = 1/ poly(n) and T = poly(n)), solves
+GDPI∨,g for any g = o(1) · αq/(
+√
+
+2r).
+
+The second part is quantum, and is a very slight extension of [Reg05, Lemma 3.14].
+
+Lemma 6.7. There is an efficient quantum algorithm that, given any n-dimensional lattice L, a real g <
+λ1(L∗)/(2
+√
+
+2n), a vector r ≥ 1, and an oracle that solves GDPL∗,g (with all but negligible probability),
+outputs an independent sample from DL,r/(2g).
+
+Proof. The case r = 1 is precisely [LPR10, Lemma 4.4] (which is essentially [Reg05, Lemma 3.14]). We
+solve the general case by reducing to this special case by rescaling coordinates. Namely, we apply the special
+
+19
+
+
+case to the lattice R−1L and g where R = diag(r), and obtain as output a sample from DR−1L,1/(2g), which
+by left-multiplying by R gives us the desired sample from DL,r/(2g). The special case also requires an oracle
+that solves GDPRL∗,g. We construct such an oracle from our given GDPL∗,g oracle O in the following way:
+on input a coset z + RL∗ where z ← Dg, sample a point y from Dr′g where r′ := (1 − r−2)1/2, then call O
+with the coset y + R−1z + L∗ and return its output multiplied by R. It is easy to check that the input to O is
+properly distributed, and that our oracle works as needed.
+
+6.1
+Proof of Lemma 6.6
+
+In this section we prove Lemma 6.6, providing a reduction from GDP on any ideal lattice in any number
+field to a corresponding Ring-LWE decision problem. (The reduction uses discrete Gaussian samples
+over the dual ideal.) We adopt the notation from Section 2.3 for the ring embeddings σi : K → C for
+i = 1, . . . , n = s1 + 2s2, the (fractional) codifferent ideal R∨ ⊂ K, and the discriminant ∆K of the number
+field K.
+As our starting point, the following restatement and slight generalization of [LPR10, Lemma 4.7]
+describes a transformation from an instance of BDD on an ideal lattice to Ring-LWE samples, which uses
+discrete Gaussian samples over the dual ideal. The generalization considers samples from an elliptical discrete
+Gaussian, rather than just a spherical one. The proof is nearly identical, except that in [LPR10, Lemma 4.8],
+one needs to replace the use of [Reg05, Claim 3.9] with the more general [Pei10, Theorem 3.1] in order to
+analyze the sum of an elliptical discrete Gaussian and a continuous Gaussian. (In addition, for convenience
+the lemma says that the Ring-LWE secret is uniformly random; this is achieved using the standard technique
+of randomizing the secret. See, e.g., [Reg10, Lemma 3.2].)
+
+Lemma 6.8. There is an efficient algorithm that takes as input an integer q ≥ 2 with known factorization, a
+fractional ideal I∨ ⊂ K, a coset e + I∨ and bound d ≥ ∥e∥∞ = maxi|σi(e)|, a parameter r ≥
+√
+
+2q · η(I),
+and samples from DI,r for some r ≥ r. It outputs samples that are within negligible statistical distance of
+the Ring-LWE distribution As,r′ for a uniformly random s ∈ R∨
+q , where the coordinates of r′ are given by
+(r′
+i)2 := (ri|σi(e)|/q)2 + (rd/q)2.
+
+In particular, notice that if we sample a coset e + I∨ as in GDPI∨,g with g := αq/(
+√
+
+2r) and then apply
+Lemma 6.8 with d := αqf(n)/(
+√
+
+2r), then the distribution of the resulting error rate r′ is distributed exactly
+Υα, as defined in Definition 6.1. This is the reason that we work with Υα.
+We will also use the following lemma, which says that any elliptical Gaussian whose parameters’ product
+is sufficiently large is “smooth” modulo an ideal.
+
+Lemma 6.9. For any fractional ideal I ⊂ K and r ∈ G where
+
+c :=
+� n
+�
+
+i=1
+ri
+�1/n
+· (N(I) · ∆K)−1/n ≥ 1,
+(6.2)
+
+we have r ≥ ηε(I) for ε = exp(−c2n).
+
+Our particular case of interest is I = R∨, where N(I) · ∆K = 1 and so c = (�
+i ri)1/n.
+
+Proof. Let R = diag(r) and L = R−1 · σ(I), so L∗ = R · σ(I)∗ and any nonzero w ∈ L∗ has the form
+R · σ(w) for some nonzero w ∈ I∨. By the inequality between the arithmetic and geometric means and the
+
+20
+
+
+fact that �
+i|σi(w)| = |N(w)| ≥ N(I∨) = (N(I) · ∆K)−1, we have
+
+∥w∥2 =
+�
+
+i
+r2
+i · |σi(w)|2 ≥ n
+
+��
+
+i
+r2
+i · |σi(w)|2
+�1/n
+≥ c2n ,
+
+so λ1(L∗) ≥ c√n. Lemma 2.6 then implies that 1 ≥ ηε(L), or equivalently, r ≥ ηε(I).
+
+Proof of Lemma 6.6. If α ≤ exp(−n), then with high probability the coset representative e from the GDP
+instance will satisfy
+∥σ(e)∥ ≤ √ng ≤ α√n/η(I) ≤ 2−nλ1(I∨) ,
+
+where the last inequality follows from Claim 2.7. In this case, the problem can be solved efficiently using
+Babai’s algorithm (Lemma 2.12). So, we may assume that α > exp(−n). Furthermore, by Proposition 3.3,
+it suffices to solve GDPI∨,g′ with non-negligible probability, where g′ := αq/(
+√
+
+2r). Finally, we let
+κ = poly(n) with κ ≥ 100n2ℓ be such that the advantage of our R-LWEq,Υα oracle is at least 2/κ, where
+ℓ ≥ 1 is the number of samples required by the oracle.
+The reduction takes as input an integer q ≥ 2 with known factorization, a fractional ideal I ⊂ K, a
+parameter r ≥
+√
+
+2q ·η(I), samples from the distributions DI,r for each r ∈ Wr,ζ,T = {ri,j} (Definition 6.4),
+and a coset e + I∨ where e ← Dg′. The goal is to recover e. The reduction will use its R-LWE oracle
+to simulate oracles Oi : R × R≥0 → {0, 1} for 1 ≤ i ≤ s1 and Oi : C × R≥0 for s1 < i ≤ s1 + s2 such
+that the probability that Oi(z, t) outputs 1 depends only on exp(t)|z − σi(e)| (for z ∈ C with |z − σi(e)|
+sufficiently small). In other words, Oi is an oracle with a “hidden center” σi(e) as in our definition of OHCP
+(Definition 4.3), with k = 1 for 1 ≤ i ≤ s1 and k = 2 for s1 < i ≤ s1 + s2. (Here, we assume that the
+oracles corresponding to complex embeddings implicitly identify z ∈ R2 with z ∈ C in the natural way.) We
+will then use Proposition 4.4 to find good approximations to σi(e) for each i, which will allow us to recover e.
+For this purpose, for 1 ≤ i ≤ s1 define ki : R → KR as ki(z) = σ−1(z · ei), and for s1 < i ≤ s1 + s2
+define ki : C → KR as ki(z) = σ−1(z · ei + z · ei+s2), where ei ∈ Rs1 × C2s2 has 1 in the ith coordinate
+and 0 elsewhere. On input (z, t), the oracle Oi uses fresh samples from DI,ri,j, where (1 + ζ)j = exp(t). It
+then runs the transformation from Lemma 6.8 on these samples, the coset e − ki(z) + I∨, parameter r, and
+distance bound d := f(n)g′ = f(n)αq/(
+√
+
+2r) for some f(n) = ω(√log n) with f(n) ≤ n. Let Ai,z,t be
+the resulting samples. Then Oi calls the LWE oracle on Ai,z,t and outputs 1 if and only if it accepts.
+Using the oracles Oi, the reduction runs the procedure from Proposition 4.4 for each i = 1, . . . , s1 + s2,
+with oracle Oi, confidence parameter κ, and distance bound d′ := d/(1 + 1/κ), receiving as output some
+approximation zi to the oracle’s “center.” Finally, the reduction runs Babai’s algorithm (Lemma 2.12) on the
+coset e − � ki(zi) + I∨, receiving as output �e ∈ K, and returns �e + � ki(zi) as its own output.
+The running time is clear. We first assume that the zi are valid solutions to (exp(−κ), exp(−κ), 1+1/κ)-
+OHCP with “hidden center” σi(e) and show that the reduction outputs the correct answer in this case. Since
+the zi are valid solutions, by definition we have
+
+|zi − σi(e)| ≤ exp(−κ)d′ ≤ exp(−κ)αqf(n)/(
+√
+
+2r) ≤ exp(−κ)f(n)/η(I) ≤ 2−nλ1(I∨)/√n ,
+
+where the last inequality follows from Claim 2.7. So, ∥e − � ki(zi)∥ ≤ 2−nλ1(I∨), and the procedure from
+Lemma 2.12 will therefore output exactly �e = e − � ki(zi). Therefore, the reduction returns the correct
+answer, e = �e + � ki(zi).
+It remains to show that, with non-negligible probability over the choice of e, for all i: (1) Oi represents
+valid instances of (exp(−κ), exp(−κ), 1 + 1/κ)-OHCP with “hidden center” σi(e); and (2) Oi satisfies the
+requirements needed to apply Proposition 4.4.
+
+21
+
+
+To prove validity, we first observe that Lemma 6.8 implies that the distribution of Ai,z,t depends only on
+exp(t)|z − σi(e)| (up to negligible statistical distance, provided that |z − σi(e)| ≤ (1 + 1/κ)d′ = d). And,
+since e was drawn from Dg′ and d′ = ω(√log n) · g′, we have
+
+exp(−κ)d′ ≤ exp(−n)g′ ≤ |σi(e)| ≤ d′
+(6.3)
+
+for all i except with negligible probability. Therefore, Oi, κ, and d′ correspond to a valid instance of
+(exp(−κ), exp(−κ), 1 + 1/κ)-OHCP with “hidden center” σi(e), except with negligible probability.
+We now analyze the oracles Oi. We write pi(z, t) for the probability that Oi outputs 1 on input (z, t)
+and p∞ for the probability that our R-LWE oracle outputs 1 on uniformly random input. Notice that
+pi(0, 0) = pj(0, 0) for all i, j, and pi(0, 0) − p∞ is exactly the advantage that our R-LWE oracle has against
+the error rate that we get from applying Lemma 6.8 to e+I∨ with the parameters chosen above. Furthermore,
+recall that when e is sampled as in GDPI∨,g′, the resulting error rate is distributed exactly as Υα. Since our
+oracle has advantage 2/κ against this distribution of error rate, by a standard Markov argument, we may
+assume that pi(0, 0) − p∞ ≥ 1/κ, which must hold with non-negligible probability.
+We can now show that all of the items necessary to apply Proposition 4.4 hold, which will complete the
+proof. Indeed, we have already shown that pi(0, 0)−p∞ ≥ 1/κ, which implies Item 1. By Lemma 6.8, we see
+that Ai,0,t is within negligible statistical distance of As,r′
+i with (r′
+i,i)2 = exp(2t) · (r|σi(e)|/q)2 + (rd/q)2 ≥
+exp(2t) · (r|σi(e)|/q)2 and (r′
+i,j)2 = (r|σj(e)|/q)2 + (rd/q)2 ≥ (r|σj(e)|/q)2 for j ̸= i. Then, for Item 2,
+notice that by Lemma 6.9, Lemma 2.5, and the union bound, for t ≥ κ/10 ≥ 10n2ℓ, the distribution of Ai,0,t
+is within statistical distance
+
+ℓ exp
+�
+− n
+�
+
+j
+(r′
+i,j)2/n�
+≤ ℓ exp
+�
+− n exp(2t/n) · (r/q)2 ·
+�
+
+j
+|σj(e)|2/n�
+
+≤ ℓ exp
+�
+− n exp(2t/n − 4n − 1)
+�
+
+≤ 2 exp(−t/κ)
+
+of the uniform distribution. Here, we have used Equation (6.3), which tells us that |σj(e)| ≥ exp(−n)g′ =
+exp(−n)αq/(
+√
+
+2r) > exp(−2n − 1/2)q/r, as well as the fact that exp(2t/n − 4n − 1) ≫ t/(κn) +
+log(ℓ/2)/n. It follows that |pi(0, t) − p∞| ≤ 2 exp(−t/κ), which implies Item 2. Finally, for Item 3, notice
+that by Lemma 2.1 the distributions of Ai,z,t1 and Ai,z,t2 are within statistical distance
+
+min
+�
+1, 10ℓ(exp(|t1 − t2|) − 1)
+�
+≤ κ|t1 − t2|
+
+of each other, where we have applied the union bound over the ℓ samples in Ai,z,tj. Therefore, pi(z, t) must
+be κ-Lipschitz in t, as needed.
+
+7
+Spherical Error
+
+The goal of this section is to extend the main theorem, Theorem 6.2, to the case of spherical Gaussian
+error (see Corollary 7.3). This would follow easily from Lemma 7.2, showing how to reduce LWE with
+non-spherical error into LWE with spherical error, with a loss in approximation factor depending on the
+number of samples used by the latter. The lemma is very similar to [LPR10, Lemma 5.16], and is included
+here for completeness. We start with the following claim from [LPR10].
+
+Claim 7.1. Let r1, . . . , rn ∈ R+ and s1, . . . , sn ∈ R+ be such that for all i, |si/ri − 1| <
+�
+
+log n/n. Then
+any set A ⊆ Rn whose measure under the Gaussian distribution Dr1 × · · · × Drn is non-negligible, also has
+non-negligible measure under Ds1 × · · · × Dsn.
+
+22
+
+
+In the lemma below, we use R-LWE with a fixed error distribution, as opposed to a distribution over error
+distributions as in Definition 2.15.
+
+Lemma 7.2 (Worst-case to average-case with spherical error). There is a randomized polynomial-time
+algorithm that given any α > 0 and ℓ ≥ 1, as well as an oracle that solves R-LWEq,Dξ given only ℓ samples,
+where ξ = α(nℓ/ log(nℓ))1/4, solves R-LWEq,Dr for any (possibly unknown) r satisfying that all ri are in
+[0, α].
+
+Proof. For e1, . . . , eℓ ∈ T, consider the transformation mapping ℓ samples (ai, bi)ℓ
+i=1 to (ai, bi + ei)ℓ
+i=1.
+Then it is easy to see that for all s ∈ R∨
+q , ψ, r′, if we sample from (As,ψ)ℓ (i.e., ℓ independent samples
+from As,ψ) and apply this transformation with e1, . . . , eℓ chosen independently from Dr′, then the output
+distribution (averaged over the choice of e1, . . . , eℓ) is (As,ψ+Dr′)ℓ.
+The reduction repeats the following a polynomial number of times. Choose e1, . . . , eℓ independently from
+Dξ. Then estimate the acceptance probability of the oracle on the following two input distributions: the first
+is obtained by applying the above transformation with e1, . . . , eℓ to our input samples (each time with fresh
+inputs); the second is the uniform distribution (Rq × T)ℓ. If in any of these polynomial number of attempts
+a non-negligible difference is observed between the two acceptance probabilities, output “non-uniform”
+(accept); otherwise output “uniform” (reject).
+Notice that if our input distribution is uniform, then in each of the attempts, the two distributions on
+which we estimate the oracle’s acceptance probability are exactly the same, hence we output “uniform”
+with overwhelming probability. So assume that our input distribution is As,Dr for a uniform s and some r
+satisfying that all ri are in [0, α]. Let B(e1, . . . , eℓ) be the distribution on ℓ pairs that our reduction uses as
+input to the oracle. Define the vector r′ with coordinates r′2
+j = ξ2 − r2
+j so that Dr + Dr′ = Dξ. By our
+observation above, the average of B(e1, . . . , eℓ) over e1, . . . , eℓ chosen independently from Dr′ is (As,Dξ)ℓ.
+Let S be the set of all tuples (e1, . . . , eℓ) for which the oracle has a non-negligible difference in acceptance
+probability on B(e1, . . . , eℓ) and on the uniform distribution. By assumption and a Markov argument, with
+non-negligible probability over the choice of s, the measure of S under (Dr′)ℓ is non-negligible. Since
+
+1 ≤
+ξ
+�
+
+ξ2 − r2
+i
+≤
+ξ
+�
+
+ξ2 − α2 ≤ 1 +
+
+�
+
+log(nℓ)
+
+nℓ
+,
+
+it follows from Claim 7.1 that the measure of S under (Dξ)ℓ is also non-negligible, and we are done.
+
+Recalling the definition of Υα from Definition 6.1 and noting that with high probability all the coordinates
+of its error rate r are at most α · ω(√log n), we immediately obtain the following hardness result for
+average-case, decision Ring-LWE with spherical error.
+
+Corollary 7.3. With notation as in Theorem 6.2, there is a polynomial-time quantum reduction from K-DGSγ
+to the (average-case, decision) problem of solving R-LWEq,Dξ using ℓ samples, where
+
+γ = max
+�
+η(I) · (
+√
+
+2/ξ) · (nℓ/ log(nℓ))1/4 · ω(
+�
+
+log n),
+√
+
+2n/λ1(I∨)
+�
+,
+
+as long as ξq ≥ ω(√log n) · (nℓ/ log(nℓ))1/4.
+
+23
+
+
+References
+
+[ACPS09] B. Applebaum, D. Cash, C. Peikert, and A. Sahai. Fast cryptographic primitives and circular-
+secure encryption based on hard learning problems. In CRYPTO, pages 595–618. 2009.
+
+[ADPS16] E. Alkim, L. Ducas, T. P¨oppelmann, and P. Schwabe. Post-quantum key exchange - a new hope.
+In USENIX Security Symposium, pages 327–343. 2016.
+
+[AS16]
+N. Alon and J. H. Spencer. The Probabilistic Method. Fourth edition, 2016. ISBN 978-1-119-
+06195-3.
+
+[Bab85]
+L. Babai. On Lov´asz’ lattice reduction and the nearest lattice point problem. Combinatorica,
+6(1):1–13, 1986. Preliminary version in STACS 1985.
+
+[Ban93]
+W. Banaszczyk. New bounds in some transference theorems in the geometry of numbers.
+Mathematische Annalen, 296(4):625–635, 1993.
+
+[BCD+16] J. W. Bos, C. Costello, L. Ducas, I. Mironov, M. Naehrig, V. Nikolaenko, A. Raghunathan, and
+D. Stebila. Frodo: Take off the ring! practical, quantum-secure key exchange from LWE. In
+CCS, pages 1006–1018. 2016.
+
+[BGV12]
+Z. Brakerski, C. Gentry, and V. Vaikuntanathan. (Leveled) fully homomorphic encryption without
+bootstrapping. TOCT, 6(3):13, 2014. Preliminary version in ITCS 2012.
+
+[BLP+13] Z. Brakerski, A. Langlois, C. Peikert, O. Regev, and D. Stehl´e. Classical hardness of learning
+with errors. In STOC, pages 575–584. 2013.
+
+[Bor85]
+C. Borell. Geometric bounds on the Ornstein-Uhlenbeck velocity process. Z. Wahrsch. Verw.
+Gebiete, 70(1):1–13, 1985.
+
+[BS16]
+J. Biasse and F. Song. Efficient quantum algorithms for computing class groups and solving the
+principal ideal problem in arbitrary degree number fields. In SODA, pages 893–902. 2016.
+
+[BV11]
+Z. Brakerski and V. Vaikuntanathan. Efficient fully homomorphic encryption from (standard)
+LWE. SIAM J. Comput., 43(2):831–871, 2014. Preliminary version in FOCS 2011.
+
+[CDPR16] R. Cramer, L. Ducas, C. Peikert, and O. Regev. Recovering short generators of principal ideals
+in cyclotomic rings. In EUROCRYPT, pages 559–585. 2016.
+
+[CDW17]
+R. Cramer, L. Ducas, and B. Wesolowski. Short Stickelberger class relations and application to
+Ideal-SVP. In EUROCRYPT. 2017. To appear.
+
+[CGS14]
+P. Campbell, M. Groves, and D. Shepherd. Soliloquy: a cautionary tale. ETSI 2nd Quantum-Safe
+Crypto Workshop, 2014. Available at http://docbox.etsi.org/Workshop/2014/
+201410_CRYPTO/S07_Systems_and_Attacks/S07_Groves_Annex.pdf.
+
+[EHL14]
+K. Eisentr¨ager, S. Hallgren, and K. E. Lauter. Weak instances of PLWE. In SAC, pages 183–194.
+2014.
+
+[Gen09]
+C. Gentry. Fully homomorphic encryption using ideal lattices. In STOC, pages 169–178. 2009.
+
+24
+
+
+[GPV08]
+C. Gentry, C. Peikert, and V. Vaikuntanathan. Trapdoors for hard lattices and new cryptographic
+constructions. In STOC, pages 197–206. 2008.
+
+[GSW13]
+C. Gentry, A. Sahai, and B. Waters. Homomorphic encryption from learning with errors:
+Conceptually-simpler, asymptotically-faster, attribute-based. In CRYPTO, pages 75–92. 2013.
+
+[GVW13]
+S. Gorbunov, V. Vaikuntanathan, and H. Wee. Attribute-based encryption for circuits. In STOC,
+pages 545–554. 2013.
+
+[Hoe63]
+W. Hoeffding. Probability inequalities for sums of bounded random variables. Journal of the
+American Statistical Association, 58:13–30, 1963.
+
+[LLL82]
+A. K. Lenstra, H. W. Lenstra, Jr., and L. Lov´asz. Factoring polynomials with rational coefficients.
+Mathematische Annalen, 261(4):515–534, December 1982.
+
+[LLM06]
+Y.-K. Liu, V. Lyubashevsky, and D. Micciancio. On bounded distance decoding for general
+lattices. In APPROX-RANDOM, pages 450–461. 2006.
+
+[LM06]
+V. Lyubashevsky and D. Micciancio. Generalized compact knapsacks are collision resistant. In
+ICALP (2), pages 144–155. 2006.
+
+[LM09]
+V. Lyubashevsky and D. Micciancio. On bounded distance decoding, unique shortest vectors,
+and the minimum distance problem. In CRYPTO, pages 577–594. 2009.
+
+[LPR10]
+V. Lyubashevsky, C. Peikert, and O. Regev. On ideal lattices and learning with errors over rings.
+Journal of the ACM, 60(6):43:1–43:35, November 2013. Preliminary version in Eurocrypt 2010.
+
+[LS15]
+A. Langlois and D. Stehl´e. Worst-case to average-case reductions for module lattices. Designs,
+Codes and Cryptography, 75(3):565–599, 2015.
+
+[MM11]
+D. Micciancio and P. Mol. Pseudorandom knapsacks and the sample complexity of LWE
+search-to-decision reductions. In CRYPTO, pages 465–484. 2011.
+
+[MP12]
+D. Micciancio and C. Peikert. Trapdoors for lattices: Simpler, tighter, faster, smaller. In
+EUROCRYPT, pages 700–718. 2012.
+
+[MR04]
+D. Micciancio and O. Regev. Worst-case to average-case reductions based on Gaussian measures.
+SIAM J. Comput., 37(1):267–302, 2007. Preliminary version in FOCS 2004.
+
+[O’D14]
+R. O’Donnell. Analysis of Boolean functions. Cambridge University Press, New York, 2014.
+
+[Pei09]
+C. Peikert. Public-key cryptosystems from the worst-case shortest vector problem. In STOC,
+pages 333–342. 2009.
+
+[Pei10]
+C. Peikert. An efficient and parallel Gaussian sampler for lattices. In CRYPTO, pages 80–97.
+2010.
+
+[Pei14]
+C. Peikert. Lattice cryptography for the Internet. In PQCrypto, pages 197–219. 2014.
+
+[PR07]
+C. Peikert and A. Rosen. Lattices that admit logarithmic worst-case to average-case connection
+factors. In STOC, pages 478–487. 2007.
+
+25
+
+
+[PW08]
+C. Peikert and B. Waters. Lossy trapdoor functions and their applications. SIAM J. Comput.,
+40(6):1803–1844, 2011. Preliminary version in STOC 2008.
+
+[Reg05]
+O. Regev. On lattices, learning with errors, random linear codes, and cryptography. J. ACM,
+56(6):1–40, 2009. Preliminary version in STOC 2005.
+
+[Reg10]
+O. Regev. The learning with errors problem (invited survey). In IEEE Conference on Computa-
+tional Complexity, pages 191–204. 2010.
+
+[Roq67]
+P. Roquette. On class field towers. In J. W. S. Cassels and A. Fr¨ohlich, editors, Algebraic Number
+Theory, pages 231–249. Academic Press, 1967.
+
+[SS11]
+D. Stehl´e and R. Steinfeld. Making NTRU as secure as worst-case problems over ideal lattices.
+In EUROCRYPT, pages 27–47. 2011.
+
+[SSTX09] D. Stehl´e, R. Steinfeld, K. Tanaka, and K. Xagawa. Efficient public key encryption based on
+ideal lattices. In ASIACRYPT, pages 617–635. 2009.
+
+26
+
+

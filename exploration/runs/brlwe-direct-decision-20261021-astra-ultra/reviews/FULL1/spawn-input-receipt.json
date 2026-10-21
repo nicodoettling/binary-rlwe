@@ -1,0 +1,12 @@
+{
+  "source": "run.log",
+  "captured_at": "2026-10-21T12:56:26.086583+00:00",
+  "exact_matching_records": [],
+  "spawn_result": {
+    "task_name": "/root/full1"
+  },
+  "requested_model": "gpt-6-astra",
+  "requested_reasoning_effort": "ultra",
+  "fork_turns": "none",
+  "service_tier": "inherits explicit launcher default; no spawn parameter supported"
+}

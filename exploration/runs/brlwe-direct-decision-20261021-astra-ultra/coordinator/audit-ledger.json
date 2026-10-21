@@ -1,0 +1,77 @@
+{
+  "events": [
+    {
+      "event": "Startup target freeze and exact 164-ID regression import",
+      "claims": [
+        "DD-TARGET-v1"
+      ],
+      "status": "OPEN",
+      "evidence": [
+        "coordinator/target-v1.md",
+        "coordinator/goal-start-receipts.json",
+        "regressions.json"
+      ]
+    },
+    {
+      "at": "2026-10-21T12:51:13.519266+00:00",
+      "event": "Frozen averaged-modulus main candidate with independent master list, selected-root extraction, exact functional norm bound, full inherited source/BDD charges",
+      "claim": "AM-MAIN-v1",
+      "status": "PROVISIONAL",
+      "evidence": [
+        "coordinator/am-main-theorem-v1.md",
+        "coordinator/am-main-proof-v1.md"
+      ],
+      "remaining": [
+        "Finite-support SFUNC control",
+        "Nonauthor full/source/complexity review",
+        "Fresh sealed blind review",
+        "Exact all-regression scope reconciliation"
+      ]
+    },
+    {
+      "event": "AM-v2 polynomial-value sentence rejected; SFUNC optimum clarified",
+      "evidence": [
+        "reviews/FULL1/seal-v1.json",
+        "reviews/BLIND1/seal-v1.json"
+      ],
+      "status": "PRESERVED_PRIOR_FINDINGS"
+    },
+    {
+      "event": "New MR and variable-width AM-v3, FIXED-v1 independently reviewed",
+      "evidence": [
+        "reviews/FULL2/seal-v1.json",
+        "reviews/BLIND2/seal-manifest.json"
+      ],
+      "status": "CORE_PASS_LITERAL_QUERY_LAW_REJECTED"
+    },
+    {
+      "event": "Exact FIXED-v2 repair and optional note rechecked",
+      "evidence": [
+        "reviews/FULL2/seal-v2.json",
+        "reviews/BLIND2/followup-v2-seal-manifest.json"
+      ],
+      "status": "PASS_WITH_EXPLICIT_SCOPE"
+    },
+    {
+      "event": "Coordinator exact-version acceptance",
+      "at": "2026-10-21T13:53:30.098921+00:00",
+      "evidence": [
+        "coordinator/acceptance-v1.json",
+        "regressions.json"
+      ],
+      "status": "ACCEPTED_WITH_EXPLICIT_SCOPE"
+    },
+    {
+      "event": "Delivery consistency PASS; exact aliases added; positive early-achievement certificate and native goal completion saved",
+      "at": "2026-10-21T14:01:01.585249+00:00",
+      "evidence": [
+        "reviews/FULL2/delivery-check-seal-v1.json",
+        "coordinator/early-achievement-certificate.json",
+        "coordinator/goal-completion-receipt.json",
+        "coordinator/native-usage-delta.json",
+        "coordinator/shutdown-observation.json"
+      ],
+      "status": "DELIVERED_GOAL_COMPLETE_CLEANUP_NOT_OBSERVED"
+    }
+  ]
+}

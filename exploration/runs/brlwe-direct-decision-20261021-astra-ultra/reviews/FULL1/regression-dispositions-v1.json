@@ -1,0 +1,2434 @@
+{
+  "time_utc": "2026-10-21T13:19:07.338169+00:00",
+  "baseline_registry_sha256": "f579b18f1e316258bc484428c129c172281b9acf7d150446f068a1890c613bee",
+  "inherited_count": 164,
+  "dd1_new_count": 7,
+  "full1_new_count": 7,
+  "total_count": 178,
+  "read_scope": "Entire inherited ID/description index imported; exact original entries retained by source hash/pointer. Applicable mechanisms checked in the full proof; no wholesale rerun of all historical jobs claimed.",
+  "entries": [
+    {
+      "id": "R01",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/0",
+      "entry_sha256": "226a87d692c11c915fb6736dc3cb7ddc2a6c584e7e20617104f1d9b6afe6089e",
+      "original_description": "No binomial/structured support sampler: T is uniform over all d-subsets. Historical attack remains valid for its retired sampler.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "R02",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/1",
+      "entry_sha256": "be11714d01aff5d1d413af31c8b6e0d109451484582095b07f5058681792caa9",
+      "original_description": "Latent C is independent of S,G before conditioning; H is sampled from a positive complement independent of S,G given C. The MG+H comparison integrates H out before adjoining S. C=G cheat violates this law.",
+      "full1_disposition": "CONDITIONAL_FULL_LAW",
+      "full1_reason": "The full proof retains actual S, all samples and metadata; A-FRAC compares normalized whole laws with H integrated out before the independent-error endpoint and only reveals H under its independent conditional construction. GP retains both reweighting normalizers. The source information bound applies to arbitrary extractor postprocessing; uniform-source concentration is not reused there. See full report Sections3,4,6,7.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "R03",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/2",
+      "entry_sha256": "30146fa5ca916be33d16e9eb5708e7789faad4f01dfcbe20a933302b661753c4",
+      "original_description": "Full target independence and full retained-seed law are explicit. Exact F3 controls retain joint TV2/3 despite pairwise independence and target gap2/9 under correlated S,E. Gaussian sign control still leaks with its sign tape; no marginal-only Gaussian inference is used.",
+      "full1_disposition": "CONDITIONAL_FULL_LAW",
+      "full1_reason": "The full proof retains actual S, all samples and metadata; A-FRAC compares normalized whole laws with H integrated out before the independent-error endpoint and only reveals H under its independent conditional construction. GP retains both reweighting normalizers. The source information bound applies to arbitrary extractor postprocessing; uniform-source concentration is not reused there. See full report Sections3,4,6,7.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "R04",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/3",
+      "entry_sha256": "45b2c6edebc4534f3df7973d1d0854f676eb41916088146bf10b688249cda676",
+      "original_description": "Full target independence and full retained-seed law are explicit. Exact F3 controls retain joint TV2/3 despite pairwise independence and target gap2/9 under correlated S,E. Gaussian sign control still leaks with its sign tape; no marginal-only Gaussian inference is used.",
+      "full1_disposition": "CONDITIONAL_FULL_LAW",
+      "full1_reason": "The full proof retains actual S, all samples and metadata; A-FRAC compares normalized whole laws with H integrated out before the independent-error endpoint and only reveals H under its independent conditional construction. GP retains both reweighting normalizers. The source information bound applies to arbitrary extractor postprocessing; uniform-source concentration is not reused there. See full report Sections3,4,6,7.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "R05",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/4",
+      "entry_sha256": "08e566f9dd40bec04507cc5acb20e47d810e237521fe78a9f7ac8accb3413ea1",
+      "original_description": "Full target independence and full retained-seed law are explicit. Exact F3 controls retain joint TV2/3 despite pairwise independence and target gap2/9 under correlated S,E. Gaussian sign control still leaks with its sign tape; no marginal-only Gaussian inference is used.",
+      "full1_disposition": "CONDITIONAL_FULL_LAW",
+      "full1_reason": "The full proof retains actual S, all samples and metadata; A-FRAC compares normalized whole laws with H integrated out before the independent-error endpoint and only reveals H under its independent conditional construction. GP retains both reweighting normalizers. The source information bound applies to arbitrary extractor postprocessing; uniform-source concentration is not reused there. See full report Sections3,4,6,7.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "R06",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/5",
+      "entry_sha256": "4f2dfdda3dc55b348b409de24846d3fa2b4d5437b6d3b514d2f1e5b7c392dbbb",
+      "original_description": "No entropy-only quotient extraction or field-rank-to-Boolean-fiber inference: arbitrary quotient fibers are handled by cardinality times exact noisy-bit guessing.",
+      "full1_disposition": "ARITHMETIC_FIBERS",
+      "full1_reason": "The selected-function argument uses exact fiber cardinalities and complete root collisions; no field-rank-to-Boolean-fiber shortcut, fixed-character-to-TV implication, or zero/unit conditioning occurs. Every modular root costs a norm factor and one diagonal term is retained. FULL1-FV1 independently checked6648 ternary norms and15 partitions.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "R07",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/6",
+      "entry_sha256": "66b7c761a0dacc2164526314f341c807a6bb149e44c068b275cc8eef70ab2314",
+      "original_description": "No entropy-only quotient extraction or field-rank-to-Boolean-fiber inference: arbitrary quotient fibers are handled by cardinality times exact noisy-bit guessing.",
+      "full1_disposition": "ARITHMETIC_FIBERS",
+      "full1_reason": "The selected-function argument uses exact fiber cardinalities and complete root collisions; no field-rank-to-Boolean-fiber shortcut, fixed-character-to-TV implication, or zero/unit conditioning occurs. Every modular root costs a norm factor and one diagonal term is retained. FULL1-FV1 independently checked6648 ternary norms and15 partitions.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "R08",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/7",
+      "entry_sha256": "8b581c3d5a7dc69c7f60897f93692b4dd60d455e90d791c9a7e372da8f37ca72",
+      "original_description": "Exact latent TV1/2 versus public TV0 remains a counterexample to reverse projection. EX reveals more only to upper-bound guessing; no efficient public decoder or reverse TV lower bound is inferred.",
+      "full1_disposition": "CONDITIONAL_FULL_LAW",
+      "full1_reason": "The full proof retains actual S, all samples and metadata; A-FRAC compares normalized whole laws with H integrated out before the independent-error endpoint and only reveals H under its independent conditional construction. GP retains both reweighting normalizers. The source information bound applies to arbitrary extractor postprocessing; uniform-source concentration is not reused there. See full report Sections3,4,6,7.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "R09",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/8",
+      "entry_sha256": "adb6205a9ef243668f0bae0016733bd0b1962ebf45a7887c0ee86d4740f231e0",
+      "original_description": "No Boolean injection/equality or Lucas-occupancy claim. EX uses an unconditional integer determinant lower bound, not a strict binary injection threshold. B strict-gate work remains a separate unaccepted reserve.",
+      "full1_disposition": "ARITHMETIC_FIBERS",
+      "full1_reason": "The selected-function argument uses exact fiber cardinalities and complete root collisions; no field-rank-to-Boolean-fiber shortcut, fixed-character-to-TV implication, or zero/unit conditioning occurs. Every modular root costs a norm factor and one diagonal term is retained. FULL1-FV1 independently checked6648 ternary norms and15 partitions.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "R10",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/9",
+      "entry_sha256": "3261246079708ef23e83a49177e8114f126995257afe7858db375bf714c87ee8",
+      "original_description": "No residual-box acceptance test or no-wrap-to-small-false-positive shortcut in EX. Equality is against the actual sampled witness.",
+      "full1_disposition": "EXACT_VERIFIER",
+      "full1_reason": "The selected root is verified against the actual sampled S inside the wrapper. Final ideal decoding uses exact membership and rational coefficient squared distance with a norm-derived unique-radius promise; no residual-box criterion is mistaken for actual secret recovery.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "R11",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/10",
+      "entry_sha256": "09daffa566edf66c2a7b8fd1ef3456ad2c04a70a2e3683fa2783d9f6f891fb40",
+      "original_description": "Bad-mask success can equal one; its probability is added once. The information bound is pointwise for every good latent state, not merely sometimes-lossy. CP1 separately reproduced.",
+      "full1_disposition": "CONDITIONAL_FULL_LAW",
+      "full1_reason": "The full proof retains actual S, all samples and metadata; A-FRAC compares normalized whole laws with H integrated out before the independent-error endpoint and only reveals H under its independent conditional construction. GP retains both reweighting normalizers. The source information bound applies to arbitrary extractor postprocessing; uniform-source concentration is not reused there. See full report Sections3,4,6,7.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "R12",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/11",
+      "entry_sha256": "f64d01d7fff94d5f8830dc53edc2d6f43a2e4b46443e4c70bdf4b741c4214df4",
+      "original_description": "Actual secret S is retained through joint-law TV and compared for equality. Multiple verified preimages remain distinct outcomes; finite witness controls reject residual verification as recovery.",
+      "full1_disposition": "CONDITIONAL_FULL_LAW",
+      "full1_reason": "The full proof retains actual S, all samples and metadata; A-FRAC compares normalized whole laws with H integrated out before the independent-error endpoint and only reveals H under its independent conditional construction. GP retains both reweighting normalizers. The source information bound applies to arbitrary extractor postprocessing; uniform-source concentration is not reused there. See full report Sections3,4,6,7.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "R13",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/12",
+      "entry_sha256": "ad0414374709774e0f84cc558babdf776aafbf0856abd7902e301db46a462e5b",
+      "original_description": "No signed Renyi transport. The reduction uses one absolute difference of acceptance probabilities and ordinary TV contraction. Historical event-versus-signed-gap counterexample retained.",
+      "full1_disposition": "CONDITIONAL_FULL_LAW",
+      "full1_reason": "The full proof retains actual S, all samples and metadata; A-FRAC compares normalized whole laws with H integrated out before the independent-error endpoint and only reveals H under its independent conditional construction. GP retains both reweighting normalizers. The source information bound applies to arbitrary extractor postprocessing; uniform-source concentration is not reused there. See full report Sections3,4,6,7.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "R14",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/13",
+      "entry_sha256": "0bdb179d3ba22b34b4f8441fc1598add0fe4da97f4eaa706d7e54f47a8884b7e",
+      "original_description": "Zero ideal coordinates and zero seeds are retained. Rank strata are counted exactly, with no active-unit conditioning. Fresh dual-number control reproduces9/32 endpoint TV and17/32 planted guessing.",
+      "full1_disposition": "ARITHMETIC_FIBERS",
+      "full1_reason": "The selected-function argument uses exact fiber cardinalities and complete root collisions; no field-rank-to-Boolean-fiber shortcut, fixed-character-to-TV implication, or zero/unit conditioning occurs. Every modular root costs a norm factor and one diagonal term is retained. FULL1-FV1 independently checked6648 ternary norms and15 partitions.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "R15",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/14",
+      "entry_sha256": "e963c35cbad347bc68570a156eaa176b39f4f02ff9806c3990771869763cd5ac",
+      "original_description": "EX does not claim independent planted ideal points. Comparator independence follows from a quantitative full retained-seed theorem and fresh local coins conditional on the seed; common-K/rotation shortcuts remain false.",
+      "full1_disposition": "CONDITIONAL_FULL_LAW",
+      "full1_reason": "The full proof retains actual S, all samples and metadata; A-FRAC compares normalized whole laws with H integrated out before the independent-error endpoint and only reveals H under its independent conditional construction. GP retains both reweighting normalizers. The source information bound applies to arbitrary extractor postprocessing; uniform-source concentration is not reused there. See full report Sections3,4,6,7.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "R16",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/15",
+      "entry_sha256": "4c112e86df3ec8d426dc89c54341b5a702147220041d1011684a962459705375",
+      "original_description": "No statistical Base2 pseudorandomness, hidden posterior sampler or correlated-response oracle is asserted. Source hardness stays a computational premise; auxiliary H is proof-only.",
+      "full1_disposition": "VALUE_AND_SCOPE",
+      "full1_reason": "The theorem asserts restricted conditional decoding only, not source hardness. Finite G-AM and uniqueness remain premises; main widths/counts are independently substituted. Polynomial-value q follows from effective Linnik and distinct classes; the asymptotic radius statement uses chi=a, not arbitrary encodable chi. A numerical parameter regime is distinct from an actual efficient oracle premise; epsilon0=1/c=0 is explicitly flagged by FULL1.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "R17",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/16",
+      "entry_sha256": "139766a9ac5737359b37c825782d57c0fb19b0176ed40c15b102f06f9382b1d2",
+      "original_description": "No independent-matrix moment analogy, symmetry-orbit sampler, QCSD carry substitution, or quantum speedup. EX uses exact ring multiplication characters and full Parseval sum.",
+      "full1_disposition": "ARITHMETIC_FIBERS",
+      "full1_reason": "The selected-function argument uses exact fiber cardinalities and complete root collisions; no field-rank-to-Boolean-fiber shortcut, fixed-character-to-TV implication, or zero/unit conditioning occurs. Every modular root costs a norm factor and one diagonal term is retained. FULL1-FV1 independently checked6648 ternary norms and15 partitions.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "R18",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/17",
+      "entry_sha256": "3ffcb76ce67c28f613cfba5a76707669a5cb9111d3d70eaaa9149762490cdefc",
+      "original_description": "Fresh exact reproduction: normalizer10/11; posterior A_b21/2000,C_b1/20,D879/1000; selected21/2000>1/100; later21/221<1/10. Support restriction and normalization invalidate the old product. EX products are under original independent seeds, or pointwise after fixing nonpivot coordinates, or conditional on the original seed before output; no selected adaptive branch or latent cache test.",
+      "full1_disposition": "CP1_CAUSAL",
+      "full1_reason": "Original CP-1 was freshly reconstructed from all160 atoms, rejecting21/2000<=1/100 and retaining21/221<1/10. Extractor uses complete-transcript conditioning on a separate bank; C8 uses a causal corrected process and conditional first-disagreement bounds; outer q loop uses a single fixed good run. No marginal product or future-success conditioning is used.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "C03-HC1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/18",
+      "entry_sha256": "620bbc09914dba0a2965cca2ca75884d6321568b64002a3773beb9e4947aa9bf",
+      "original_description": "The old delta/(1-delta) can be negative when delta>1; exact lower bound82/63 reproduced. EX expressly uses eta=1 when Delta>=1.",
+      "full1_disposition": "NORMALIZER_BRANCH",
+      "full1_reason": "Main eta_A is explicitly capped at1 and equals1 when Delta_A>=1; no negative Delta/(1-Delta) is used. The exact normalizer range is checked before applying the fraction.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "C03-HC2",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/19",
+      "entry_sha256": "ec5d581087a1adb03365b8090c6be1fca1a8da732112ea8d76bba7f23ea6b563",
+      "original_description": "H is the full positive discrete Gaussian complement, not sequential conditionals or separately completed blocks. Fresh exact12x4 identities retain cross-blocks and explicitly reject positive-marginal/negative-joint shortcut; historical parity-dependent normalizer remains unequal.",
+      "full1_disposition": "CONDITIONAL_FULL_LAW",
+      "full1_reason": "The full proof retains actual S, all samples and metadata; A-FRAC compares normalized whole laws with H integrated out before the independent-error endpoint and only reveals H under its independent conditional construction. GP retains both reweighting normalizers. The source information bound applies to arbitrary extractor postprocessing; uniform-source concentration is not reused there. See full report Sections3,4,6,7.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "C03-HC3",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/20",
+      "entry_sha256": "f2d71c17eb57ab83350a6cb07b36a4571aa3a2489ec8e690a1cff97c75ceb5d6",
+      "original_description": "Exponent matrix is not claimed to equal discrete covariance. Proof uses exact quadratic masses, normalized Poisson sums and uniform theta ratio; binary64 diagnostics are not interval certificates.",
+      "full1_disposition": "CONDITIONAL_FULL_LAW",
+      "full1_reason": "The full proof retains actual S, all samples and metadata; A-FRAC compares normalized whole laws with H integrated out before the independent-error endpoint and only reveals H under its independent conditional construction. GP retains both reweighting normalizers. The source information bound applies to arbitrary extractor postprocessing; uniform-source concentration is not reused there. See full report Sections3,4,6,7.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "C03-HC4",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/21",
+      "entry_sha256": "ac9c43d03af1dd4411b378b6610f9d27a1f8d944f860c7d0d4e613b38a4ccd8a",
+      "original_description": "Exact signed inverse with negative entries-1/20 is reproduced. The wrapped narrow deconvolution failure remains excluded: EX defines a positive joint D_B under strict PSD and pays smoothing loss, not arbitrary exact deconvolution.",
+      "full1_disposition": "CONDITIONAL_FULL_LAW",
+      "full1_reason": "The full proof retains actual S, all samples and metadata; A-FRAC compares normalized whole laws with H integrated out before the independent-error endpoint and only reveals H under its independent conditional construction. GP retains both reweighting normalizers. The source information bound applies to arbitrary extractor postprocessing; uniform-source concentration is not reused there. See full report Sections3,4,6,7.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "C03-HC5",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/22",
+      "entry_sha256": "dc8961322d96d111a7d9c8736b119607ac26baea8019497a934e6d6a1e9761ca",
+      "original_description": "Full target independence and full retained-seed law are explicit. Exact F3 controls retain joint TV2/3 despite pairwise independence and target gap2/9 under correlated S,E. Gaussian sign control still leaks with its sign tape; no marginal-only Gaussian inference is used.",
+      "full1_disposition": "CONDITIONAL_FULL_LAW",
+      "full1_reason": "The full proof retains actual S, all samples and metadata; A-FRAC compares normalized whole laws with H integrated out before the independent-error endpoint and only reveals H under its independent conditional construction. GP retains both reweighting normalizers. The source information bound applies to arbitrary extractor postprocessing; uniform-source concentration is not reused there. See full report Sections3,4,6,7.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "C03-HC6",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/23",
+      "entry_sha256": "d07a0e126f46b1e7645a2fc65440e7dbd232e29290099bebe4045b55b40f6631",
+      "original_description": "Bad-mask success can equal one; its probability is added once. The information bound is pointwise for every good latent state, not merely sometimes-lossy. CP1 separately reproduced.",
+      "full1_disposition": "CONDITIONAL_FULL_LAW",
+      "full1_reason": "The full proof retains actual S, all samples and metadata; A-FRAC compares normalized whole laws with H integrated out before the independent-error endpoint and only reveals H under its independent conditional construction. GP retains both reweighting normalizers. The source information bound applies to arbitrary extractor postprocessing; uniform-source concentration is not reused there. See full report Sections3,4,6,7.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "C03-HC7",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/24",
+      "entry_sha256": "d237bade8d84a87056bfe92729270af6c73b3401ab568ed6cc76ac43fbcfe306",
+      "original_description": "One shared auxiliary G and one Y=S+G serve all m rows. No separate independent noisy secret views are revealed, and quotient cardinality is charged once.",
+      "full1_disposition": "CONDITIONAL_FULL_LAW",
+      "full1_reason": "The full proof retains actual S, all samples and metadata; A-FRAC compares normalized whole laws with H integrated out before the independent-error endpoint and only reveals H under its independent conditional construction. GP retains both reweighting normalizers. The source information bound applies to arbitrary extractor postprocessing; uniform-source concentration is not reused there. See full report Sections3,4,6,7.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "C02-LATENT-PUBLIC",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/25",
+      "entry_sha256": "36ca83e669acbb6758555a9b7554c53907b144c408652351be6c456bad700c6f",
+      "original_description": "Exact latent TV1/2 versus public TV0 remains a counterexample to reverse projection. EX reveals more only to upper-bound guessing; no efficient public decoder or reverse TV lower bound is inferred.",
+      "full1_disposition": "CONDITIONAL_FULL_LAW",
+      "full1_reason": "The full proof retains actual S, all samples and metadata; A-FRAC compares normalized whole laws with H integrated out before the independent-error endpoint and only reveals H under its independent conditional construction. GP retains both reweighting normalizers. The source information bound applies to arbitrary extractor postprocessing; uniform-source concentration is not reused there. See full report Sections3,4,6,7.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "C02-CHAR",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/26",
+      "entry_sha256": "6fda1c54f62e72e8495f088969709410da15e1c108d2bf0e74b5c0fdfc37db04",
+      "original_description": "Negligible fixed-character bias does not prove statistical closeness. EX sums every nonzero character square and bounds expected full chi-square before deriving retained-seed TV.",
+      "full1_disposition": "ARITHMETIC_FIBERS",
+      "full1_reason": "The selected-function argument uses exact fiber cardinalities and complete root collisions; no field-rank-to-Boolean-fiber shortcut, fixed-character-to-TV implication, or zero/unit conditioning occurs. Every modular root costs a norm factor and one diagonal term is retained. FULL1-FV1 independently checked6648 ternary norms and15 partitions.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "C01-ATT",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/27",
+      "entry_sha256": "be68486cea47059c6a6756efe119f56e9c5bc54be13f5f4baefee1c4abe219c9",
+      "original_description": "Preserve reviewed exact-version ATT: strict q^(1-d/r)>2n ell\u00b2, public roots or polynomial enumeration, optimized r nextpower2>=2d, exp(O(d)) cost. d=1 and O(logn) insecure; selected d/logn tends infinity but no hardness proof follows.",
+      "full1_disposition": "VALUE_AND_SCOPE",
+      "full1_reason": "The theorem asserts restricted conditional decoding only, not source hardness. Finite G-AM and uniqueness remain premises; main widths/counts are independently substituted. Polynomial-value q follows from effective Linnik and distinct classes; the asymptotic radius statement uses chi=a, not arbitrary encodable chi. A numerical parameter regime is distinct from an actual efficient oracle premise; epsilon0=1/c=0 is explicitly flagged by FULL1.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "CP-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/28",
+      "entry_sha256": "70aabb127880c46f0951867d0e78047c6e0d05ea42da2b4c15f9fd69d6190c73",
+      "original_description": "Fresh exact reproduction: normalizer10/11; posterior A_b21/2000,C_b1/20,D879/1000; selected21/2000>1/100; later21/221<1/10. Support restriction and normalization invalidate the old product. EX products are under original independent seeds, or pointwise after fixing nonpivot coordinates, or conditional on the original seed before output; no selected adaptive branch or latent cache test.",
+      "full1_disposition": "CP1_CAUSAL",
+      "full1_reason": "Original CP-1 was freshly reconstructed from all160 atoms, rejecting21/2000<=1/100 and retaining21/221<1/10. Extractor uses complete-transcript conditioning on a separate bank; C8 uses a causal corrected process and conditional first-disagreement bounds; outer q loop uses a single fixed good run. No marginal product or future-success conditioning is used.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "NC1-v1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/29",
+      "entry_sha256": "26510f8d4ae053faaac185b8d83a0c56c678ced3bf3d9755d122368b910a6f58",
+      "original_description": "The old delta/(1-delta) can be negative when delta>1; exact lower bound82/63 reproduced. EX expressly uses eta=1 when Delta>=1.",
+      "full1_disposition": "NORMALIZER_BRANCH",
+      "full1_reason": "Main eta_A is explicitly capped at1 and equals1 when Delta_A>=1; no negative Delta/(1-Delta) is used. The exact normalizer range is checked before applying the fraction.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "S0-dependency",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/30",
+      "entry_sha256": "885917fd33a8907ab5c066c207cdc5178406bf67f6c93a50697442076e2eea39",
+      "original_description": "No general AN or old completion acceptance inherited: current graph explicitly includes algebra, regularity, masks, full completion, guessing, prime, parameters and bounded implementation. External Base2 premise is separate and unproved.",
+      "full1_disposition": "VALUE_AND_SCOPE",
+      "full1_reason": "The theorem asserts restricted conditional decoding only, not source hardness. Finite G-AM and uniqueness remain premises; main widths/counts are independently substituted. Polynomial-value q follows from effective Linnik and distinct classes; the asymptotic radius statement uses chi=a, not arbitrary encodable chi. A numerical parameter regime is distinct from an actual efficient oracle premise; epsilon0=1/c=0 is explicitly flagged by FULL1.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "PUBLIC-ENCODED-F",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/31",
+      "entry_sha256": "5fed2a8b201dfb97740897a481e6cb976a05929ba7cbe5328c080f5ab9d10162",
+      "original_description": "Exact latent TV1/2 versus public TV0 remains a counterexample to reverse projection. EX reveals more only to upper-bound guessing; no efficient public decoder or reverse TV lower bound is inferred.",
+      "full1_disposition": "CONDITIONAL_FULL_LAW",
+      "full1_reason": "The full proof retains actual S, all samples and metadata; A-FRAC compares normalized whole laws with H integrated out before the independent-error endpoint and only reveals H under its independent conditional construction. GP retains both reweighting normalizers. The source information bound applies to arbitrary extractor postprocessing; uniform-source concentration is not reused there. See full report Sections3,4,6,7.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "W2-SUBGROUP-BOUNDARY",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/32",
+      "entry_sha256": "bc6c3c9332699f2d701121d2ba780005f0c23e4f14053286126c836680c57a8c",
+      "original_description": "EX makes no all-subgroup coverage claim or attack-runtime improvement. Historical n8,d2 coverage-one boundary and optimized-constant qualification remain live for B, whose new theorem is unaccepted.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "UNIFORM-APPROX-COLLAPSE",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/33",
+      "entry_sha256": "5c0df8d2fbad95af0c8ed1ae5e5c7d538932bfac0b7a1bdde76edf751352c1c4",
+      "original_description": "No exact-uniform-preserving entropy no-go is extended to approximate uniformity. EX intentionally pays full-law delta_exp; initial A entropy claim is not a dependency.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "SE-CORRELATION-F3",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/34",
+      "entry_sha256": "56ca0abfc1839da5af53f9aa9566b326d289c765d503209dbf5ad32ab9a9a548",
+      "original_description": "Full target independence and full retained-seed law are explicit. Exact F3 controls retain joint TV2/3 despite pairwise independence and target gap2/9 under correlated S,E. Gaussian sign control still leaks with its sign tape; no marginal-only Gaussian inference is used.",
+      "full1_disposition": "CONDITIONAL_FULL_LAW",
+      "full1_reason": "The full proof retains actual S, all samples and metadata; A-FRAC compares normalized whole laws with H integrated out before the independent-error endpoint and only reveals H under its independent conditional construction. GP retains both reweighting normalizers. The source information bound applies to arbitrary extractor postprocessing; uniform-source concentration is not reused there. See full report Sections3,4,6,7.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "W2-CONSTANT-COMPARISON",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/35",
+      "entry_sha256": "8761183163836fdd5f16d2c545dfd1f4a7d95eef22577f6297e9e02524d7b362",
+      "original_description": "EX makes no all-subgroup coverage claim or attack-runtime improvement. Historical n8,d2 coverage-one boundary and optimized-constant qualification remain live for B, whose new theorem is unaccepted.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "N02-DUAL-NUMBER",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/36",
+      "entry_sha256": "3109cf84be97eda16b5d970f9aaa991fce40716fb1ae72dbe294dbb03b5184a0",
+      "original_description": "Zero ideal coordinates and zero seeds are retained. Rank strata are counted exactly, with no active-unit conditioning. Fresh dual-number control reproduces9/32 endpoint TV and17/32 planted guessing.",
+      "full1_disposition": "ARITHMETIC_FIBERS",
+      "full1_reason": "The selected-function argument uses exact fiber cardinalities and complete root collisions; no field-rank-to-Boolean-fiber shortcut, fixed-character-to-TV implication, or zero/unit conditioning occurs. Every modular root costs a norm factor and one diagonal term is retained. FULL1-FV1 independently checked6648 ternary norms and15 partitions.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "PAIRWISE-SE-F3",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/37",
+      "entry_sha256": "d4d5396edc36f2fdb06e5c8481d91c79391d774bcfed3908177dc5993b4137f0",
+      "original_description": "Full target independence and full retained-seed law are explicit. Exact F3 controls retain joint TV2/3 despite pairwise independence and target gap2/9 under correlated S,E. Gaussian sign control still leaks with its sign tape; no marginal-only Gaussian inference is used.",
+      "full1_disposition": "CONDITIONAL_FULL_LAW",
+      "full1_reason": "The full proof retains actual S, all samples and metadata; A-FRAC compares normalized whole laws with H integrated out before the independent-error endpoint and only reveals H under its independent conditional construction. GP retains both reweighting normalizers. The source information bound applies to arbitrary extractor postprocessing; uniform-source concentration is not reused there. See full report Sections3,4,6,7.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "N03-PV-CONDITIONING",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/38",
+      "entry_sha256": "b07a671e19da1020bc34bbf7b90d966a2aa7f7a4b24f753c86817dc95bbb8077",
+      "original_description": "No prior law of active ratios after seeing public outputs. Good depends only on source/expansion latents, and all uniform-seed Fourier averages precede observation. No signed gap or active-PV conditioning transfer.",
+      "full1_disposition": "CONDITIONAL_FULL_LAW",
+      "full1_reason": "The full proof retains actual S, all samples and metadata; A-FRAC compares normalized whole laws with H integrated out before the independent-error endpoint and only reveals H under its independent conditional construction. GP retains both reweighting normalizers. The source information bound applies to arbitrary extractor postprocessing; uniform-source concentration is not reused there. See full report Sections3,4,6,7.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "N03-SCAL-POSTERIOR",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/39",
+      "entry_sha256": "8c31d1acc698679e9682ef0f873be0deeb44757f05c7ee8399a6bfff074b36f8",
+      "original_description": "No prior law of active ratios after seeing public outputs. Good depends only on source/expansion latents, and all uniform-seed Fourier averages precede observation. No signed gap or active-PV conditioning transfer.",
+      "full1_disposition": "CONDITIONAL_FULL_LAW",
+      "full1_reason": "The full proof retains actual S, all samples and metadata; A-FRAC compares normalized whole laws with H integrated out before the independent-error endpoint and only reveals H under its independent conditional construction. GP retains both reweighting normalizers. The source information bound applies to arbitrary extractor postprocessing; uniform-source concentration is not reused there. See full report Sections3,4,6,7.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "RECT-ALG-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/40",
+      "entry_sha256": "1bb4734c01913d9f1398a2b4513185b042d83ddb379ae1c84439bce8890d5907",
+      "original_description": "H is the full positive discrete Gaussian complement, not sequential conditionals or separately completed blocks. Fresh exact12x4 identities retain cross-blocks and explicitly reject positive-marginal/negative-joint shortcut; historical parity-dependent normalizer remains unequal.",
+      "full1_disposition": "CONDITIONAL_FULL_LAW",
+      "full1_reason": "The full proof retains actual S, all samples and metadata; A-FRAC compares normalized whole laws with H integrated out before the independent-error endpoint and only reveals H under its independent conditional construction. GP retains both reweighting normalizers. The source information bound applies to arbitrary extractor postprocessing; uniform-source concentration is not reused there. See full report Sections3,4,6,7.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "SOURCE-SMALL-D",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/41",
+      "entry_sha256": "da5da40793505796db7bbce281cb1ed4a87a133198c4922f05acee7dc1f2b0de",
+      "original_description": "Preserve reviewed exact-version ATT: strict q^(1-d/r)>2n ell\u00b2, public roots or polynomial enumeration, optimized r nextpower2>=2d, exp(O(d)) cost. d=1 and O(logn) insecure; selected d/logn tends infinity but no hardness proof follows.",
+      "full1_disposition": "VALUE_AND_SCOPE",
+      "full1_reason": "The theorem asserts restricted conditional decoding only, not source hardness. Finite G-AM and uniqueness remain premises; main widths/counts are independently substituted. Polynomial-value q follows from effective Linnik and distinct classes; the asymptotic radius statement uses chi=a, not arbitrary encodable chi. A numerical parameter regime is distinct from an actual efficient oracle premise; epsilon0=1/c=0 is explicitly flagged by FULL1.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "A-PPT-LEDGER-SCOPE",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/42",
+      "entry_sha256": "76d354937f17527646b9315924be5703c75772adef3862642d1169b237908a85",
+      "original_description": "Old q=P(1,2n^128),d=n/(64ell) entropy clause remains false. New K-dependent d<=n/(24Kell) explicitly yields d log2 q<=n/4; fixed-h changed q premise is stated.",
+      "full1_disposition": "VALUE_AND_SCOPE",
+      "full1_reason": "The theorem asserts restricted conditional decoding only, not source hardness. Finite G-AM and uniqueness remain premises; main widths/counts are independently substituted. Polynomial-value q follows from effective Linnik and distinct classes; the asymptotic radius statement uses chi=a, not arbitrary encodable chi. A numerical parameter regime is distinct from an actual efficient oracle premise; epsilon0=1/c=0 is explicitly flagged by FULL1.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "EX-PURE-MIX-ZERO",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/43",
+      "entry_sha256": "3acc5889ec50571a1d7d6013640112f334106e9b487a9c52368fa548aa735e5b",
+      "original_description": "Actual EX includes fresh coefficient W and proves a different full law.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "EX-PUBLIC-TAPE",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/44",
+      "entry_sha256": "7fe0fe868460b003db36c5483f51d5c6d9e9b21476c2cfe9882c82b39cee31a5",
+      "original_description": "The theorem retains seedA but not its local expansion coins; proof-side disclosure is only a planted guessing upper bound.",
+      "full1_disposition": "CONDITIONAL_FULL_LAW",
+      "full1_reason": "The full proof retains actual S, all samples and metadata; A-FRAC compares normalized whole laws with H integrated out before the independent-error endpoint and only reveals H under its independent conditional construction. GP retains both reweighting normalizers. The source information bound applies to arbitrary extractor postprocessing; uniform-source concentration is not reused there. See full report Sections3,4,6,7.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "EX-APPENDED-H",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/45",
+      "entry_sha256": "8cbda03b571234f49001ee7be74937f4310e4c2ee88263f965b6204518b8a29f",
+      "original_description": "EX integratesH out, retainslatentC andindependentS, then disclosesH only in completed experiment.",
+      "full1_disposition": "CONDITIONAL_FULL_LAW",
+      "full1_reason": "The full proof retains actual S, all samples and metadata; A-FRAC compares normalized whole laws with H integrated out before the independent-error endpoint and only reveals H under its independent conditional construction. GP retains both reweighting normalizers. The source information bound applies to arbitrary extractor postprocessing; uniform-source concentration is not reused there. See full report Sections3,4,6,7.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "EX-M3-CROSSBLOCK",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/46",
+      "entry_sha256": "00d977c110f6832e616a2b7351a2f9be0a70420dde9f465da5c9721382fbf70a",
+      "original_description": "EX uses full stackednorm and B>=3sigma\u00b2I/4.",
+      "full1_disposition": "CONDITIONAL_FULL_LAW",
+      "full1_reason": "The full proof retains actual S, all samples and metadata; A-FRAC compares normalized whole laws with H integrated out before the independent-error endpoint and only reveals H under its independent conditional construction. GP retains both reweighting normalizers. The source information bound applies to arbitrary extractor postprocessing; uniform-source concentration is not reused there. See full report Sections3,4,6,7.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "EX-RETAINED-M3",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/47",
+      "entry_sha256": "42b19ef837200dad7780f8eb25c793750660e5c59d02b74030fa4c3081afc829",
+      "original_description": "Surrogate finite-law falsification only, not Gaussian/asymptotic certification.",
+      "full1_disposition": "CONDITIONAL_FULL_LAW",
+      "full1_reason": "The full proof retains actual S, all samples and metadata; A-FRAC compares normalized whole laws with H integrated out before the independent-error endpoint and only reveals H under its independent conditional construction. GP retains both reweighting normalizers. The source information bound applies to arbitrary extractor postprocessing; uniform-source concentration is not reused there. See full report Sections3,4,6,7.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "B-JL-BZERO",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/48",
+      "entry_sha256": "01729fd0358d477dc0a78f18365f70544ab9425df682a25e1888ae08f3abd39c",
+      "original_description": "B reserve remainsREPAIRED-PENDING-RECHECK andisnotEXdependency.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "B-JL-REDRAW-T",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/49",
+      "entry_sha256": "ff832088f8de0c22d97652b1798ef5a50ba5a4785eeaa833508aff3ccadbffef",
+      "original_description": "ExactsourceEXandB useonecommonT. Btheoremstillunaccepted.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "A-ERASURE-RANKMIX",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/50",
+      "entry_sha256": "570f05c53a409aa619dc09b14b670c92b078ecddcd1598cbe9310c0e0bccc131",
+      "original_description": "No suchreductionusedinEX; Base2 remainsassumed. InitialAfullclaimisprovisional.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "D-THETA-RETAIN-U-v1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/51",
+      "entry_sha256": "11a1bd415bce405079923150ff483a23f21ec006593fc5b67bf8b4e2079f1d84",
+      "original_description": "Exact historical entry retained at pointer.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "D-LSW-THETA-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/52",
+      "entry_sha256": "d7bdb2b5886d5f6bf50898df235f2a9c847fa7458ab42441b058fc08fdf3e82c",
+      "original_description": "Exact historical entry retained at pointer.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "C-TOWER-RELATION-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/53",
+      "entry_sha256": "572add178b59cf90521e832d04735c8324497d88d4e18d1a676dfcecd4c8e372",
+      "original_description": "Exact historical entry retained at pointer.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "D-REUSED-PIVOT-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/54",
+      "entry_sha256": "7b643b8e50d18e02cb13f7e7254b1ada8215093e56006abda2dfe458f453c748",
+      "original_description": "Exact historical entry retained at pointer.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "A-TOWER-LAW-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/55",
+      "entry_sha256": "5f9ee02f5fdc5fea0b43d46e6a44dfd979bd8e372b90b711215bde2312de2425",
+      "original_description": "Exact historical entry retained at pointer.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "C-SMALL-N-EXISTENCE-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/56",
+      "entry_sha256": "243e39d4ac1e93bdd1d06d2ff92249b2c44500932b094647d341b41bf519c260",
+      "original_description": "Exact historical entry retained at pointer.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "D-NORMALFORM-WRAP-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/57",
+      "entry_sha256": "24f68b2dfe45c40ad73f6700c9f1870dc8106280729534066d88b89dbe1780a2",
+      "original_description": "Exact historical entry retained at pointer.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "B-GP-RATIONAL-ENCODING-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/58",
+      "entry_sha256": "1f801a5418d319691807e82699d95e72fb6bdb944df135227d1ebc172d1a8552",
+      "original_description": "Arbitrary rational magnitudes do not bound encoding lengths; r\u00b1 near2 change exact samplerN.",
+      "full1_disposition": "BOUNDED_SAMPLERS",
+      "full1_reason": "Full rational encodings and certified costs are charged; original B-GP exact ceiling was read with its addendum. Odd-order uniform draws have explicit finite caps with both endpoint charges. Scalar fallbacks need only be valid local values, not a globally zero final output. C8 uses its repaired rational threshold and fixed wrong-orientation loops; main adds exact rational r^2 verification.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "C-OHCP-LOGSHIFT-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/59",
+      "entry_sha256": "6d3031baa2ed29e2691b6c6d61e957e983d35957644fdb3f71dcbfd01d793b5a",
+      "original_description": "Tiny hidden center breaks v1 claimed starting-profile decay under separate confidence bounds.",
+      "full1_disposition": "C8_ANALYTIC",
+      "full1_reason": "Exact current C8 theorem8/spec2/proof9 was independently re-read. Shift2 covers zero/tiny centers; zeta and kappa satisfy the compatible displayed inequality; multipliers remain integral for cancellation. Haar convergence is claimed only for the continuous proxy, with uniform charged physical comparison. No prior exposed review or old rejected version supplies acceptance.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "ROOT-IDEAL-SUBSPACE-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/60",
+      "entry_sha256": "6ed5781a6b43f6f0a6e943ada79e25bb024711c97a53b587a51faf3a49be7a75",
+      "original_description": "General matrix kernel is ideal with exact probability binom(N,m)/GaussianBinomial(N,m;q), not automatically by small quotient.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "B-SUP-RETAINED-COINS-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/61",
+      "entry_sha256": "a7881a665fac75540a07fe50c5ba96cd48850e3cca9cab49263df7b3b33e1d35",
+      "original_description": "Retained source graph and shared-key product countercontrols; exact CRT formula and triangular bijection tested.",
+      "full1_disposition": "CONDITIONAL_FULL_LAW",
+      "full1_reason": "The full proof retains actual S, all samples and metadata; A-FRAC compares normalized whole laws with H integrated out before the independent-error endpoint and only reveals H under its independent conditional construction. GP retains both reweighting normalizers. The source information bound applies to arbitrary extractor postprocessing; uniform-source concentration is not reused there. See full report Sections3,4,6,7.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "C-OHCP-BOUNDED-RUNTIME-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/62",
+      "entry_sha256": "35299ee088b2f648869ae990a6e6e2b3203ae4bcfc737c4db4d258a5adfc5b2d",
+      "original_description": "Unbounded uniform-integer retries and unpromised wrong sign need finite caps.",
+      "full1_disposition": "BOUNDED_SAMPLERS",
+      "full1_reason": "Full rational encodings and certified costs are charged; original B-GP exact ceiling was read with its addendum. Odd-order uniform draws have explicit finite caps with both endpoint charges. Scalar fallbacks need only be valid local values, not a globally zero final output. C8 uses its repaired rational threshold and fixed wrong-orientation loops; main adds exact rational r^2 verification.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "C-SUPER-CONFIDENCE-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/63",
+      "entry_sha256": "084564dd07a1d9b781dc71d6af84abc263a90d1037ea97f5e644aa600e2a3168",
+      "original_description": "zeta=exp(-kappa) contradicts kappa>=log(8n/zeta); use compatible independent budget.",
+      "full1_disposition": "C8_ANALYTIC",
+      "full1_reason": "Exact current C8 theorem8/spec2/proof9 was independently re-read. Shift2 covers zero/tiny centers; zeta and kappa satisfy the compatible displayed inequality; multipliers remain integral for cancellation. Haar convergence is claimed only for the continuous proxy, with uniform charged physical comparison. No prior exposed review or old rejected version supplies acceptance.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "C-QUOTIENT-CARRIES-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/64",
+      "entry_sha256": "282d0fcf85d06266de6ccacaeca8b1aac7fdb8c9c9d7f2a165c45439e3df808a",
+      "original_description": "Coprime finitequotient cannot additivelyembed inRq; residualcarries survive sections.",
+      "full1_disposition": "C8_ANALYTIC",
+      "full1_reason": "Exact current C8 theorem8/spec2/proof9 was independently re-read. Shift2 covers zero/tiny centers; zeta and kappa satisfy the compatible displayed inequality; multipliers remain integral for cancellation. Haar convergence is claimed only for the continuous proxy, with uniform charged physical comparison. No prior exposed review or old rejected version supplies acceptance.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "C-PHYSICAL-HAAR-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/65",
+      "entry_sha256": "4991616853a8cf54b4176b1476678cd67e85175fb1b38bdc9335d88c957711fe",
+      "original_description": "Rational displacement preserves a nonzero discrete-multiplier character at every selected width; continuous proxy Haar limit cannot be assigned to physical query.",
+      "full1_disposition": "C8_ANALYTIC",
+      "full1_reason": "Exact current C8 theorem8/spec2/proof9 was independently re-read. Shift2 covers zero/tiny centers; zeta and kappa satisfy the compatible displayed inequality; multipliers remain integral for cancellation. Haar convergence is claimed only for the continuous proxy, with uniform charged physical comparison. No prior exposed review or old rejected version supplies acceptance.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "C-CAUSAL-WALK-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/66",
+      "entry_sha256": "4f096e73d85d7aa28cd9f4ccf02e01398e7d9e624caaae19a3682abc5a5cba16",
+      "original_description": "Future all-correct conditioning does not justify conditional step progress. Require explicit adapted corrected walk, independent fresh proposals, martingale and first-disagreement coupling.",
+      "full1_disposition": "CP1_CAUSAL",
+      "full1_reason": "Original CP-1 was freshly reconstructed from all160 atoms, rejecting21/2000<=1/100 and retaining21/221<1/10. Extractor uses complete-transcript conditioning on a separate bank; C8 uses a causal corrected process and conditional first-disagreement bounds; outer q loop uses a single fixed good run. No marginal product or future-success conditioning is used.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "B-CANONICAL-FAIL-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/67",
+      "entry_sha256": "065f5fb9aca68ce66c9727ecf12d3d4b77f4ab3ad25e899bfd1c0d623554c8fb",
+      "original_description": "Canonical hint law undefined on unreachable public keys, including zero key; total common FAIL kernel required without favorable conditioning.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "B-RANK-FIBER-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/68",
+      "entry_sha256": "f336e31382ca540bbad0cdb346cb6b271d6553a2b64754f0d0b3706e5aec1799",
+      "original_description": "Full concatenated ring matrix must have full column rank at every CRT root; separate block rank does not imply exact affine-fiber simulator.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "B-TWO-ROW-NORMALIZER-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/69",
+      "entry_sha256": "310ae895559a12b8e73e70c52e69bcb5f5ef69274e4f2e9cce506f6f4d6b9326",
+      "original_description": "Two-row ring hash CRT moments and shared-R posterior normalizers checked exactly; dropping coset normalizer changes joint law.",
+      "full1_disposition": "CONDITIONAL_FULL_LAW",
+      "full1_reason": "The full proof retains actual S, all samples and metadata; A-FRAC compares normalized whole laws with H integrated out before the independent-error endpoint and only reveals H under its independent conditional construction. GP retains both reweighting normalizers. The source information bound applies to arbitrary extractor postprocessing; uniform-source concentration is not reused there. See full report Sections3,4,6,7.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "B-TOWER-WASHOUT-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/70",
+      "entry_sha256": "9dafc5b3e119ffcb86b9e8ae36d6beb6cbd9e75027cb6c52ee0cc1c4584816fc",
+      "original_description": "Augmented hint residual ZWU can uniformize every planted response block; constraining W to circulant is a rare event, not free conditioning.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "B-BINARY-FOURIER-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/71",
+      "entry_sha256": "6a7a4302f895acdbb43bb549d5c0e950bf00c9c4d330098d87453c2ec872db06",
+      "original_description": "Uniform-secret orthogonality cannot be inherited by binary secrets; repeated postselection does not increase total accepted kernel mass.",
+      "full1_disposition": "ARITHMETIC_FIBERS",
+      "full1_reason": "The selected-function argument uses exact fiber cardinalities and complete root collisions; no field-rank-to-Boolean-fiber shortcut, fixed-character-to-TV implication, or zero/unit conditioning occurs. Every modular root costs a norm factor and one diagonal term is retained. FULL1-FV1 independently checked6648 ternary norms and15 partitions.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "A-CLASS-ASSERTION-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/72",
+      "entry_sha256": "f460761ea448dc1779e71513362811c1744cc57977b5c1fa8cda7954d29b6af4",
+      "original_description": "Original assertion that broad discrete-Gaussian modular alignment is exactly1/13 failed; approximation with theta error retained; original stderr/code preserved.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "A-COFACTOR-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/73",
+      "entry_sha256": "72f250379d77fdd968f1acc9c845d658c800d4d7fc625c396363b09acf38846f",
+      "original_description": "Cofactor lower bound needs the actual minimal clearing integer; naive product vector is not a lower bound for a saturated full-ideal basis.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "A-CLASS-CP1-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/74",
+      "entry_sha256": "9cf476c0ad3abc121e2d6c62246794e8e0f9128e58c21fcc38ebb9aa10e129db",
+      "original_description": "Adaptive alignment/control branches and skew normalizers checked on full finite law; repairs do not erase failed assertion.",
+      "full1_disposition": "CP1_CAUSAL",
+      "full1_reason": "Original CP-1 was freshly reconstructed from all160 atoms, rejecting21/2000<=1/100 and retaining21/221<1/10. Extractor uses complete-transcript conditioning on a separate bank; C8 uses a causal corrected process and conditional first-disagreement bounds; outer q loop uses a single fixed good run. No marginal product or future-success conditioning is used.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "D-HIGHINDEX-GUESS-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/75",
+      "entry_sha256": "3289b33a326645c93f36364f46afa8d03147ac6de120a2918e78f7f485da98bf",
+      "original_description": "Index2176 in degree8 but248 binary cosets; determinant upper bound is sufficient, not necessary, for actual-secret lossiness. Known generator makes source easy.",
+      "full1_disposition": "VALUE_AND_SCOPE",
+      "full1_reason": "The theorem asserts restricted conditional decoding only, not source hardness. Finite G-AM and uniqueness remain premises; main widths/counts are independently substituted. Polynomial-value q follows from effective Linnik and distinct classes; the asymptotic radius statement uses chi=a, not arbitrary encodable chi. A numerical parameter regime is distinct from an actual efficient oracle premise; epsilon0=1/c=0 is explicitly flagged by FULL1.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "A-TRACE-PARAM-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/76",
+      "entry_sha256": "d784338f79a160c4c0b6b7261443681ba66516917fa83d7cc999b3151c5ebc70",
+      "original_description": "Executable eligible-block trace-dual construction has incompatible actual block-capacity and imported prime-family parameter inequalities; no unproved advice silently supplied.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "A-CLASSRING-PADDING-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/77",
+      "entry_sha256": "105594de15779b5b08f660e3ab130c56ee9f13cb2f8c9becd37e00f6b313202b",
+      "original_description": "Cyclic relation ring is not automatically negacyclic;5-torsion quotient in power-two negacyclic degreeN requires index>=5^(N/2)>2^N.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "B-COMPANION-INVERSE-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/78",
+      "entry_sha256": "8d4e243a23def88e1fc1521255dca64fd8f4f344ce8b7d87330da973b6e27e87",
+      "original_description": "Short inverse useful enough for Gaussian tower transport already directly decodes gadget module bits; full-rank source forbids the simple nilpotent RD=0 repair.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "C8-FV1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/79",
+      "entry_sha256": "c309960c5f20520fdbf99734e2fafa125e484f275edd1b252fe925af3d89f92d",
+      "original_description": "Exact comparison against a computable-real final threshold lacks a bounded rule; rational-threshold repair separately frozen.",
+      "full1_disposition": "BOUNDED_SAMPLERS",
+      "full1_reason": "Full rational encodings and certified costs are charged; original B-GP exact ceiling was read with its addendum. Odd-order uniform draws have explicit finite caps with both endpoint charges. Scalar fallbacks need only be valid local values, not a globally zero final output. C8 uses its repaired rational threshold and fixed wrong-orientation loops; main adds exact rational r^2 verification.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "ROOT-ORDER-PAIRING-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/80",
+      "entry_sha256": "4c5da3ca236a65e7c336ce4c26427a9fc8e72ef88620854e8a593405d0faa0ac",
+      "original_description": "Order-dual pairing and coefficient-integral response pairing differ; extra public/error scaling cannot be omitted.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "ROOT-ORDER-SCALE-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/81",
+      "entry_sha256": "9b33d75b4725481c0db50d2d8c5b304c7f9f00dc4ec2b67650b8d59105270acf",
+      "original_description": "Exact four-scale support/colon controls preserve both integer and noninteger cases; no all-orders obstruction.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "ROOT-BINCLASS-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/82",
+      "entry_sha256": "fc57f0575965971a7d32774a3814f0d006012e87c87eb55075c19e2d13b103d4",
+      "original_description": "6648 exact ternary norm/divisor multiplicity controls; ramified2 retained; finite count only.",
+      "full1_disposition": "ARITHMETIC_FIBERS",
+      "full1_reason": "The selected-function argument uses exact fiber cardinalities and complete root collisions; no field-rank-to-Boolean-fiber shortcut, fixed-character-to-TV implication, or zero/unit conditioning occurs. Every modular root costs a norm factor and one diagonal term is retained. FULL1-FV1 independently checked6648 ternary norms and15 partitions.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "BT10-FV1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/83",
+      "entry_sha256": "7fac3b779fa423710ddf7b190c52283991dd7722ecad69cdea062d670c51e0a7",
+      "original_description": "1636 exact component controls; full loops not simulated; sealed supporting review has outside-source exposure.",
+      "full1_disposition": "C8_ANALYTIC",
+      "full1_reason": "Exact current C8 theorem8/spec2/proof9 was independently re-read. Shift2 covers zero/tiny centers; zeta and kappa satisfy the compatible displayed inequality; multipliers remain integral for cancellation. Haar convergence is claimed only for the continuous proxy, with uniform charged physical comparison. No prior exposed review or old rejected version supplies acceptance.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "ROOT-FRAC-SCALE-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/84",
+      "entry_sha256": "9353e3675629e7046f731ac7a9c5f008e17d4e65a9ebd0cf140cb515e22f41fd",
+      "original_description": "q/s>=1 alone with n2,k1,delta1/2,v0=1/1024 yields W_J=1/8; actual chain v0 floor and specified radius must be explicit.",
+      "full1_disposition": "VALUE_AND_SCOPE",
+      "full1_reason": "The theorem asserts restricted conditional decoding only, not source hardness. Finite G-AM and uniqueness remain premises; main widths/counts are independently substituted. Polynomial-value q follows from effective Linnik and distinct classes; the asymptotic radius statement uses chi=a, not arbitrary encodable chi. A numerical parameter regime is distinct from an actual efficient oracle premise; epsilon0=1/c=0 is explicitly flagged by FULL1.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "ROOT-FRAC-SMALLBALL-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/85",
+      "entry_sha256": "88dcbb57f631830d73d31d1a1250ca3636bad88c91f2a3194969cfc46f67d560",
+      "original_description": "Exact65x65 degree2 Gaussian conditional model,48 nonzero ring-linear multipliers, rational small-ball probability bound and narrow zero-control. No universal proof from finite test.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "B-BE-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/86",
+      "entry_sha256": "b2452892bca903e25dd41370ebd19645872a1cfdfa785ecc68f39f55deacb408",
+      "original_description": "426500 exact endpoint states for binary-error switching; positive Bernoulli deconvolution and retained normalizer. Source hardness unproved.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "RF3-BINCLASS-SCOPE-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/87",
+      "entry_sha256": "2ebb80090179a19f65cce9adb95b4abc3fe54e113ca259de0dd61fd0def9b54d",
+      "original_description": "Exact ramified2, oddprime equality, full-embedding, high-index, small-n, fractional escape and disjoint-coset posterior hand controls.",
+      "full1_disposition": "ARITHMETIC_FIBERS",
+      "full1_reason": "The selected-function argument uses exact fiber cardinalities and complete root collisions; no field-rank-to-Boolean-fiber shortcut, fixed-character-to-TV implication, or zero/unit conditioning occurs. Every modular root costs a norm factor and one diagonal term is retained. FULL1-FV1 independently checked6648 ternary norms and15 partitions.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "E-PAIR-TRUNCATION-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/88",
+      "entry_sha256": "d6dc7dbd11a2e07e27582df02e7ab712bde0039e10041e444bb7674e49380488",
+      "original_description": "81-state conditional Gaussian pair probability exceeds full-Gaussian bound because truncation changes normalizer; valid finite max-atom count retained. Not a theorem counterexample.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "ROOT-COSET-NORMALIZER-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/89",
+      "entry_sha256": "f98e5e627b488fef416a2c8b04ca9b2020531a4952eb3a1498f409af6ebfcf14",
+      "original_description": "Five-point exact coset control has TV1/34 under uniform coset selection versus global Gaussian weights; no exact-uniform-coset shortcut.",
+      "full1_disposition": "CONDITIONAL_FULL_LAW",
+      "full1_reason": "The full proof retains actual S, all samples and metadata; A-FRAC compares normalized whole laws with H integrated out before the independent-error endpoint and only reveals H under its independent conditional construction. GP retains both reweighting normalizers. The source information bound applies to arbitrary extractor postprocessing; uniform-source concentration is not reused there. See full report Sections3,4,6,7.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "BT13-FV1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/90",
+      "entry_sha256": "87074fe315ee23d3c7aed9524bab6ba801a8839c98efea927f047a0e7cc76f0a",
+      "original_description": "50456 finite arithmetic predicates including8020 rational verifier endpoint cases, geometric progress and budget checks. Float scalar-normalizer sweep is numerical only. No full huge walk or asymptotic hardness experiment.",
+      "full1_disposition": "C8_ANALYTIC",
+      "full1_reason": "Exact current C8 theorem8/spec2/proof9 was independently re-read. Shift2 covers zero/tiny centers; zeta and kappa satisfy the compatible displayed inequality; multipliers remain integral for cancellation. Haar convergence is claimed only for the continuous proxy, with uniform charged physical comparison. No prior exposed review or old rejected version supplies acceptance.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "BT12-FV1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/91",
+      "entry_sha256": "338926669d4a157436c661836643750346551297dc882a17947681d20f1aa926",
+      "original_description": "Exhaustive6651 ternary vectors n2,4,8 with independent exact resultant/determinant norms, divisor envelope,552 posterior pairs including zero-mass branches. No class enumeration or analytic/hardness certification.",
+      "full1_disposition": "ARITHMETIC_FIBERS",
+      "full1_reason": "The selected-function argument uses exact fiber cardinalities and complete root collisions; no field-rank-to-Boolean-fiber shortcut, fixed-character-to-TV implication, or zero/unit conditioning occurs. Every modular root costs a norm factor and one diagonal term is retained. FULL1-FV1 independently checked6648 ternary norms and15 partitions.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "ROOT-MASK-RESIDUE-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/92",
+      "entry_sha256": "8ed6930348054d1601c702a46fcbd9fe28f33c426a93dbfb7ba3ec9aa7e5c8c4",
+      "original_description": "144 exact atoms: mask outsideJ gives pguess(Y)=9/16, but integer-error-compatible H exposure reveals S with certainty through fractional residues. No public attack or global continuous-mask barrier.",
+      "full1_disposition": "CONDITIONAL_FULL_LAW",
+      "full1_reason": "The full proof retains actual S, all samples and metadata; A-FRAC compares normalized whole laws with H integrated out before the independent-error endpoint and only reveals H under its independent conditional construction. GP retains both reweighting normalizers. The source information bound applies to arbitrary extractor postprocessing; uniform-source concentration is not reused there. See full report Sections3,4,6,7.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "BT14-HISTORY-ATOM-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/93",
+      "entry_sha256": "a007235bf58f14e0244683cbb6eba7ac5c4397474fe7c4612549a82048bc9cac",
+      "original_description": "Nonatomic retained private state makes positive-mass-atom conditional premise vacuous; usefulsuccess1 versus9/100.",
+      "full1_disposition": "CP1_CAUSAL",
+      "full1_reason": "Original CP-1 was freshly reconstructed from all160 atoms, rejecting21/2000<=1/100 and retaining21/221<1/10. Extractor uses complete-transcript conditioning on a separate bank; C8 uses a causal corrected process and conditional first-disagreement bounds; outer q loop uses a single fixed good run. No marginal product or future-success conditioning is used.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "BT14-FV1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/94",
+      "entry_sha256": "cea780137fbcf30d5cd0b186fcb092b5a0fb5aac14889ed9d873c4227dd418b5",
+      "original_description": "72424 exact adaptive transitions; conditionalTV union,selectedpairs,zero-mass branches, truncation and marginal/future-conditioning controls.",
+      "full1_disposition": "CP1_CAUSAL",
+      "full1_reason": "Original CP-1 was freshly reconstructed from all160 atoms, rejecting21/2000<=1/100 and retaining21/221<1/10. Extractor uses complete-transcript conditioning on a separate bank; C8 uses a causal corrected process and conditional first-disagreement bounds; outer q loop uses a single fixed good run. No marginal product or future-success conditioning is used.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "FQ-R1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/95",
+      "entry_sha256": "7267241f360956d4fbf9a003aa790928638710dea95d95a47cba225c10fdcde0",
+      "original_description": "Pointwise randomized correctness does not imply one universally correct tape; finite hand fixture.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "FQ-R2",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/96",
+      "entry_sha256": "2909033f5346077d832ee73779b6d4c5ed7f841bfba0ca649b57682f061131e4",
+      "original_description": "Coherent vector error can equal2sqrt(p), not O(p); finite hand fixture.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "FQ-R3",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/97",
+      "entry_sha256": "05497d600ae4dd241150b8042a6ae9578683b4a26a473c4395b7cf2221c0734f",
+      "original_description": "Discarding copied garbage dephases a superposition even with zero answer error.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "FQ-R4",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/98",
+      "entry_sha256": "bc70602622386da69632b30bd68bbe3d327eb24c770908336f73759560df9573",
+      "original_description": "Off-promise query mass must be paid separately; classical correctness there is unrestricted.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "ROOT-QCOH-FV1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/99",
+      "entry_sha256": "abe5601af5c2e1b3f57c77b4c61df56959bc7fb40b8bd830524748afc05a573e",
+      "original_description": "65536 truth tables,983040 promised-subset exact Walsh checks; supports generic coherent adapter only.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "G-PI-FV1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/100",
+      "entry_sha256": "5ffe47882767e95e804c3f69c5b915263be60870e877eb9f94577fca39a5d9c8",
+      "original_description": "624328 exact prior atoms: actual-public decoder, both enumerated endpoints, hidden-ideal full posterior, small-q negative lift and originalCP1.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "ROOT-FRAC-DOMAIN-2",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/101",
+      "entry_sha256": "cccca92e9285db48b6389891f5a0aea7c46085c610c9b144cd04b8e4e82addf7",
+      "original_description": "Approximate samples can leave J where T:J->I is undefined; v3 explicitly returns failure there.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "ROOT-WRAP-FV1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/102",
+      "entry_sha256": "b8a1868ae970e18dae92658b7b645720b052c71f610da856fcb0964c4b3488d5",
+      "original_description": "243 degree2 principal-ideal full endpoint numerical controls; unit error scaling preserves modular TV. Float64 exploration, no asymptotic or rigorous interval claim.",
+      "full1_disposition": "NATURAL_REDUCTION",
+      "full1_reason": "The map v/D to vD^-1 modq is exact natural fractional reduction; no coefficient rounding or unjustified centered lift is used. Zero public values and zero source variables are retained. The Gaussian bound is an upper bound on all outcomes, not conditioned on nonzero generation.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "BT15-FV1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/103",
+      "entry_sha256": "a6f977fd4d1d4cc9c3f8e2f6fc5600f15b82fa0f27a0c1c369ec928cadfe7be1",
+      "original_description": "Exact conditionalTV/predictable attempts, entangled coherent adapter, p0/p1, off-promise, no good seed and concrete reversible six-gate program;10s64MiB reservation,exit0.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "FQ-COND-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/104",
+      "entry_sha256": "4c271a1143eca5ce83adef0aec88476513fff65e45ec1aa69d75eff32a2cc12d",
+      "original_description": "Rare selected conditional state can be orthogonal despite small averaged error; compare complete joint state and separately justify exact coset branches.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "FQ-NORM-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/105",
+      "entry_sha256": "207c935dd4a2f55e354f4475a31261fd0e72bf7ffa16f2b87141a8f04fce8ad9",
+      "original_description": "Postselected amplitude(1,1/2) has squared normalized masses4/5,1/5; retain success probability5/8.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "FQ-PERIOD-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/106",
+      "entry_sha256": "42b00bf7244b7c48265404843737157cb1d1569fbc4042e0e5dc4cf932e5d35a",
+      "original_description": "Unnormalized L1 fine-grid tails cannot be divided by Gaussian squared norm to certify normalized state error; cross-coset overlap must be controlled.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "FQ-RETRY-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/107",
+      "entry_sha256": "cb5453268b1f045b6cf69960578b12bc9f9aa072b8b6e08c14eeb59155b13dd3",
+      "original_description": "Input/phase-dependent filter acceptance requires fresh complete attempts and actual selected normalization; resource states before unknown data.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "FQ-MODULUS-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/108",
+      "entry_sha256": "9ae71c97ebff575d217497bb5c16010a2a51914ba4723cfc07959943197229e4",
+      "original_description": "Factorial prime construction has polynomial bit length, not value; no polynomial approximation-factor conclusion follows.",
+      "full1_disposition": "VALUE_AND_SCOPE",
+      "full1_reason": "The theorem asserts restricted conditional decoding only, not source hardness. Finite G-AM and uniqueness remain premises; main widths/counts are independently substituted. Polynomial-value q follows from effective Linnik and distinct classes; the asymptotic radius statement uses chi=a, not arbitrary encodable chi. A numerical parameter regime is distinct from an actual efficient oracle premise; epsilon0=1/c=0 is explicitly flagged by FULL1.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "F-QFINITE-FV1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/109",
+      "entry_sha256": "8ca0ebbfde7f4215cc51c2380bc1e4309a806f9e8cb1f5588bc5a515b722123a",
+      "original_description": "9288 exact finite phase-filter, normalized conditioning, bounded retry and phase-correction controls; no transcendental estimate or full circuit certified.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "BT16-FV1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/110",
+      "entry_sha256": "1a866e897ffdce0dee39ba82053785e6ec79aa185e6b8d732f9cc7f71e84f260",
+      "original_description": "Exact finite module generation, actual-secret uniqueness, natural reduction, full posterior and supplied CP1 controls; k=0 boundary included.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "BT16-NATURAL-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/111",
+      "entry_sha256": "2c32635702192b89d4f8dbc84a5cb8823909cad5fadeb19ed1b7a916ff78884b",
+      "original_description": "J=2R,q13,a=1/2 maps to7 centered-6; only multiply byJ before centered lifting recovers actual fractional source.",
+      "full1_disposition": "NATURAL_REDUCTION",
+      "full1_reason": "The map v/D to vD^-1 modq is exact natural fractional reduction; no coefficient rounding or unjustified centered lift is used. Zero public values and zero source variables are retained. The Gaussian bound is an upper bound on all outcomes, not conditioned on nonzero generation.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "BT16-POSTERIOR-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/112",
+      "entry_sha256": "b83be71520ed0d2c3ef59f4f0718db644d4b67aa7212cffa57a1a9cd16f08083",
+      "original_description": "Common secret posterior formula does not equate average recovery under different A marginals:55/156 versus7/20, difference1/390.",
+      "full1_disposition": "CONDITIONAL_FULL_LAW",
+      "full1_reason": "The full proof retains actual S, all samples and metadata; A-FRAC compares normalized whole laws with H integrated out before the independent-error endpoint and only reveals H under its independent conditional construction. GP retains both reweighting normalizers. The source information bound applies to arbitrary extractor postprocessing; uniform-source concentration is not reused there. See full report Sections3,4,6,7.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "BT16-PRIMEPOWER-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/113",
+      "entry_sha256": "1fe495356a5c16001a9eb102835b124ab8a39233ef5853cd2e8ea8081351b24f",
+      "original_description": "Denominator generation depends on hitting the top local layer; prime powers contributeN(P)^-k, notN(P)^(-e*k).",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "BT16-ZERO-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/114",
+      "entry_sha256": "28958b2ef03ba42ef3139508be87706c5e85a410e4dba366ae492f3a8088513a",
+      "original_description": "Allzero public multipliers have uniform secret posterior; under lifting and generation their branch cannot be a claimed success event. Sourcezero/integral branches retained.",
+      "full1_disposition": "NATURAL_REDUCTION",
+      "full1_reason": "The map v/D to vD^-1 modq is exact natural fractional reduction; no coefficient rounding or unjustified centered lift is used. Zero public values and zero source variables are retained. The Gaussian bound is an upper bound on all outcomes, not conditioned on nonzero generation.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "RF4-FV1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/115",
+      "entry_sha256": "b8e6425cd601205cc975920df1ea23ecf32a2384528abf3f9c274f12915dfc1e",
+      "original_description": "3303 exact normalized periodization, complete retry, entangled phase-resource and originalCP1 checks;0.12s11264KiB.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "RF4-PERIOD-NEG1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/116",
+      "entry_sha256": "1b9f84e1e82d2b2df54444b036a32726ab32ec590e6821748432ae688c7dd0f6",
+      "original_description": "Vanishing preperiodization squared tail leaves constant normalized periodization error; collision cross terms required.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "RF4-RETRY-NEG1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/117",
+      "entry_sha256": "1f3ceb522aadbfb05e91f26725770d9d4acd483a70f93c8c6240dc580c45d665",
+      "original_description": "Unequal resource acceptance1/4 and5/32 gives joint5/128, not1/16; actual normalization retained.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "RF4-ALIAS-NEG1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/118",
+      "entry_sha256": "f9238b1c8ef8483ac1d12dab49d6dccce653694ead87e4d11cc4f72e418328b4",
+      "original_description": "B=[[1,256],[0,1]],d1/8,H128 has dual separation but aliases gamma(1,0) to(1,-256); basis coordinate bound separately required.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "BT17-SYMBOLIC-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/119",
+      "entry_sha256": "aa10019e4bcf41bd9e57ebba3fb8ff32cfda852956b411c459be442020171f89",
+      "original_description": "Clean blind independent symbolic reconstruction, exact hand control n2,B=I,d2=1/64,epsilon1/16,W25,H2^51,N2^52; no executed experiment.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "ROOT-PARAM-FV1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/120",
+      "entry_sha256": "d1b88229d87e4195cfc5a6c7d40ba5e23afae245727aef51b02e5219c9e5d17e",
+      "original_description": "Finite arithmetic ran but associated written t=288 conflicted with actual4608; rejected witness retained.",
+      "full1_disposition": "VALUE_AND_SCOPE",
+      "full1_reason": "The theorem asserts restricted conditional decoding only, not source hardness. Finite G-AM and uniqueness remain premises; main widths/counts are independently substituted. Polynomial-value q follows from effective Linnik and distinct classes; the asymptotic radius statement uses chi=a, not arbitrary encodable chi. A numerical parameter regime is distinct from an actual efficient oracle premise; epsilon0=1/c=0 is explicitly flagged by FULL1.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "ROOT-PARAM-T-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/121",
+      "entry_sha256": "d1e705d5b008d279061350df03639f3a18dcc7e72c41b3395f99cf04e208c568",
+      "original_description": "Written target t must equal tau2*ell=4608; repair explicitly binds both and completion inequalities.",
+      "full1_disposition": "VALUE_AND_SCOPE",
+      "full1_reason": "The theorem asserts restricted conditional decoding only, not source hardness. Finite G-AM and uniqueness remain premises; main widths/counts are independently substituted. Polynomial-value q follows from effective Linnik and distinct classes; the asymptotic radius statement uses chi=a, not arbitrary encodable chi. A numerical parameter regime is distinct from an actual efficient oracle premise; epsilon0=1/c=0 is explicitly flagged by FULL1.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "ROOT-PARAM-FV2",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/122",
+      "entry_sha256": "ab716f9bdcd2024a33f9a6fbc52d01a88d4ffcde920b9be66adacae5a26b336b",
+      "original_description": "Repaired t arithmetic passed; unspecified integer framing still invalidated literal certificate.",
+      "full1_disposition": "VALUE_AND_SCOPE",
+      "full1_reason": "The theorem asserts restricted conditional decoding only, not source hardness. Finite G-AM and uniqueness remain premises; main widths/counts are independently substituted. Polynomial-value q follows from effective Linnik and distinct classes; the asymptotic radius statement uses chi=a, not arbitrary encodable chi. A numerical parameter regime is distinct from an actual efficient oracle premise; epsilon0=1/c=0 is explicitly flagged by FULL1.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "ROOT-PARAM-ENC-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/123",
+      "entry_sha256": "c5d2fb47a8ff030a64b4f9f2c04d57eec81ea502b7ffd887c523b8dea5db4f6e",
+      "original_description": "bit_length+3 is not documented parseable framing; v3 uses explicit tagged unary-length encoding.",
+      "full1_disposition": "VALUE_AND_SCOPE",
+      "full1_reason": "The theorem asserts restricted conditional decoding only, not source hardness. Finite G-AM and uniqueness remain premises; main widths/counts are independently substituted. Polynomial-value q follows from effective Linnik and distinct classes; the asymptotic radius statement uses chi=a, not arbitrary encodable chi. A numerical parameter regime is distinct from an actual efficient oracle premise; epsilon0=1/c=0 is explicitly flagged by FULL1.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "ROOT-PARAM-FV3",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/124",
+      "entry_sha256": "4369b1f9cfc389e573b414f74dcee04ad9b873bfba6b05198d97242f9d46029a",
+      "original_description": "Exact finite nonempty parameters with complete typed encoding; no sampler/circuit/security experiment.",
+      "full1_disposition": "VALUE_AND_SCOPE",
+      "full1_reason": "The theorem asserts restricted conditional decoding only, not source hardness. Finite G-AM and uniqueness remain premises; main widths/counts are independently substituted. Polynomial-value q follows from effective Linnik and distinct classes; the asymptotic radius statement uses chi=a, not arbitrary encodable chi. A numerical parameter regime is distinct from an actual efficient oracle premise; epsilon0=1/c=0 is explicitly flagged by FULL1.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "RF4-PARAM-FV2",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/125",
+      "entry_sha256": "97d1f4af24f275d8def4fd5d0a46351dc07b90884dc1cf454a6cc0a1aeaeacaa",
+      "original_description": "328 independent exact checks of witnessv3 using closed-form basis/adjugate and actual encode/decode;0.03s16384KiB.",
+      "full1_disposition": "VALUE_AND_SCOPE",
+      "full1_reason": "The theorem asserts restricted conditional decoding only, not source hardness. Finite G-AM and uniqueness remain premises; main widths/counts are independently substituted. Polynomial-value q follows from effective Linnik and distinct classes; the asymptotic radius statement uses chi=a, not arbitrary encodable chi. A numerical parameter regime is distinct from an actual efficient oracle premise; epsilon0=1/c=0 is explicitly flagged by FULL1.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "H-ALIGN-FV1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/126",
+      "entry_sha256": "74316125dd537ac3114209f3d5f93c4ea02047c95f833bb2af1d3263b8e7eaf9",
+      "original_description": "Eight exact finite laws,143144pairs,296packing-radius checks, normalizers andCP1; truncated laws do not certify infinite Gaussian bound.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "H-LLL-BITLENGTH-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/127",
+      "entry_sha256": "19217956cd75b2f849eda6189c253c2bdaf9e67a6a285f3e1a58afd653bb0589",
+      "original_description": "expOmega(sqrt n) LLL certificate is not superpolynomial in inputbits for unrestrictedlogM; m=n,log2M>=2^n givesg_n<=log2M^1/4. Scope gap saved beforev2.",
+      "full1_disposition": "VALUE_AND_SCOPE",
+      "full1_reason": "The theorem asserts restricted conditional decoding only, not source hardness. Finite G-AM and uniqueness remain premises; main widths/counts are independently substituted. Polynomial-value q follows from effective Linnik and distinct classes; the asymptotic radius statement uses chi=a, not arbitrary encodable chi. A numerical parameter regime is distinct from an actual efficient oracle premise; epsilon0=1/c=0 is explicitly flagged by FULL1.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "H-REL-FV2",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/128",
+      "entry_sha256": "f1791d8cf147c4c38535c967300f187337788e7dd68edfd65c71a724056e313b",
+      "original_description": "Eightexactfinite laws143144pairs: Gaussreduced relationbound, actualh, retainedsource/comparatorTV, pushforwardTV, rankfailure/zeroimage. No asymptotic sampler orLLL guarantee.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "H-V0-BITLENGTH-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/129",
+      "entry_sha256": "35acd4cf029b9c9a94633a2e1d5dd2be0d743dfd3b9961240df04a086efbbbad",
+      "original_description": "Polynomial-time encodedscalar evaluation does not bound v0 value: v0*=2^n,d0/=2^n preservesh0/allC8gates while width*=2^n. Hparametersv2upperwidthassertionrejected; core/lowerwidthunaffected.",
+      "full1_disposition": "VALUE_AND_SCOPE",
+      "full1_reason": "The theorem asserts restricted conditional decoding only, not source hardness. Finite G-AM and uniqueness remain premises; main widths/counts are independently substituted. Polynomial-value q follows from effective Linnik and distinct classes; the asymptotic radius statement uses chi=a, not arbitrary encodable chi. A numerical parameter regime is distinct from an actual efficient oracle premise; epsilon0=1/c=0 is explicitly flagged by FULL1.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "RH1-FV1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/130",
+      "entry_sha256": "12ea0b023a6ca3939b5bce227aa68dae2846a00b60a9c147dbd30ffd1e6183c9",
+      "original_description": "4802exactpairs,F9residuedegree2, actualindex1/3/9, rationalrankFAIL/nonzeroimages andcomplete source/comparatorTV. PrincipalIeasycontrolonly.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "HC1-FV1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/131",
+      "entry_sha256": "50bbe2d937adf2f55b50fe672e8a8308424c243a50302a3970b4884b89deb4ac",
+      "original_description": "Independent exact625 contraction/15625 causal kernelcases,92 equalmarginal unequaljoint cases; full capped comparator(6,5,5)/16 TV1/24, originalCP1 and padded one-slot dispatcher.",
+      "full1_disposition": "BOUNDED_SAMPLERS",
+      "full1_reason": "Full rational encodings and certified costs are charged; original B-GP exact ceiling was read with its addendum. Odd-order uniform draws have explicit finite caps with both endpoint charges. Scalar fallbacks need only be valid local values, not a globally zero final output. C8 uses its repaired rational threshold and fixed wrong-orientation loops; main adds exact rational r^2 verification.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "ROOT-TOWER-FV1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/132",
+      "entry_sha256": "4e1c24530d018e9ef547e711b7b791534f2b24d5d6d19bd4b66058ac94ea8331",
+      "original_description": "19683 exact finite source/comparator cases: proper prime lift has trace projection outside originalideal; uniform quotient maps uniformlytoR/qR. Directresidue-order tables. Finite laws notinfinite Gaussian claims.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "BT19-NONPRIME-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/133",
+      "entry_sha256": "5d48e886caa360683dfe5796874137c496e980850ebe65b783b7d7a227930df8",
+      "original_description": "Zi,F=R,I=(4),X2 descends16to4 withoutalignment: primalityrequired fordescent, notprobability.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "BT19-NONSUFFICIENT-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/134",
+      "entry_sha256": "a226d6a35512595b63e696b0eade90ecc690bbd647e12b914059e61e84ed6968",
+      "original_description": "Zi,I=(1+i),X2 aligns butminimalintegerclearingkeepsnorm2: alignmentnecessarynotsufficient.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "BT19-SELECTION-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/135",
+      "entry_sha256": "8a735d727fddcd3a5fa35c17fe75acd3fcba817efe89944f45b52a7eb7b8ec2f",
+      "original_description": "Six original drawsZi,I=(2+i),s128 retainatmostone; selectedsuccess>13/20 single-eventbound. Allattemptsmustbepaid.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "BT19-RETRY-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/136",
+      "entry_sha256": "0e0b8a2f805659e48e3fac58934cc05e9e23ab6538ce188c7679a94ed9f2e51a",
+      "original_description": "Width2^-b hasnonzero retryexpectation>=exp(pi4^b)/4; finitewidthencodingnotpolynomialretrytime.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "BT18-SYMBOLIC-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/137",
+      "entry_sha256": "5ee7e1d968f7070a75f4015d5fa0ede121bda34bee598d94dc0a404984ee1199",
+      "original_description": "Clean independentfour-interface reconstruction verifiescompleteendpointcharges,rationalradius,duality,allinputcallslotsandordinaryDGSoutput; noexperimentorupstreamreproof.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "RT1-MOMENT-FV1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/138",
+      "entry_sha256": "e5ad6bb692571842ecfad9f303b07600cab1f77ed097091bcdce2598e7cfd26b",
+      "original_description": "13122exact triples: product/projection containment and covariance moment identities; allnonzerofactors still projectzero withmass3/64 or20/6561. Retainedfinitecenteredlaws, notinfiniteGaussian theorem.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "RT2-WEIGHTED-FV1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/139",
+      "entry_sha256": "f47aebbe112d00f640b51f519e9e46e3f59ef7ef2de07b5b9b6ebe47698fbb7c",
+      "original_description": "1152 exact weighted pairs,625 multiplier-module cases; sample-dependent a violates fresh-moment formula, TV does not bound moments, CP1 and zero branches retained. Exact finite laws only.",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "BT20-VACUITY-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/140",
+      "entry_sha256": "c860668eead3cb0fe9947f0a1bc337dceb4f8a4621438c8f863259f1c8a22f91",
+      "original_description": "n=m4,J=(3,z\u00b2+z+2),rho7/8,a1,W8,h1/4: all parameters constant but declared failure certificate is1; nonvacuity separate.",
+      "full1_disposition": "VALUE_AND_SCOPE",
+      "full1_reason": "The theorem asserts restricted conditional decoding only, not source hardness. Finite G-AM and uniqueness remain premises; main widths/counts are independently substituted. Polynomial-value q follows from effective Linnik and distinct classes; the asymptotic radius statement uses chi=a, not arbitrary encodable chi. A numerical parameter regime is distinct from an actual efficient oracle premise; epsilon0=1/c=0 is explicitly flagged by FULL1.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "BT20-RETRY-MARGIN-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/141",
+      "entry_sha256": "b0ba5482562da79d7b1276154cf6cbb22ac9fdcd8f5325fb667ccfae618c6969",
+      "original_description": "Same ideal,W16,h1/2-2^-b: declared success bound2^-b despite polynomial numeric size; positive bound alone does not certify polynomial expected repetition.",
+      "full1_disposition": "VALUE_AND_SCOPE",
+      "full1_reason": "The theorem asserts restricted conditional decoding only, not source hardness. Finite G-AM and uniqueness remain premises; main widths/counts are independently substituted. Polynomial-value q follows from effective Linnik and distinct classes; the asymptotic radius statement uses chi=a, not arbitrary encodable chi. A numerical parameter regime is distinct from an actual efficient oracle premise; epsilon0=1/c=0 is explicitly flagged by FULL1.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "BT20-WIDTHVALUE-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/142",
+      "entry_sha256": "24c20f69a852c5f94b66ac96e105375ecc61393d3c01b96a34f4e7f4a585b982",
+      "original_description": "Same ideal,W2^b,h1/4: polynomial width encoding does not give polynomial-value approximation certificate.",
+      "full1_disposition": "VALUE_AND_SCOPE",
+      "full1_reason": "The theorem asserts restricted conditional decoding only, not source hardness. Finite G-AM and uniqueness remain premises; main widths/counts are independently substituted. Polynomial-value q follows from effective Linnik and distinct classes; the asymptotic radius statement uses chi=a, not arbitrary encodable chi. A numerical parameter regime is distinct from an actual efficient oracle premise; epsilon0=1/c=0 is explicitly flagged by FULL1.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "RT2-NC1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/143",
+      "entry_sha256": "213af7cd879558262c5305e183498bd2e184de8e0bf21378a13af5b5f9ba0bc1",
+      "original_description": "Sample-dependent complementary multiplier, exact actual81/2>fresh-bound27/2 and9>11/6.",
+      "full1_disposition": "BOUNDED_EVENTS_NOT_MOMENTS",
+      "full1_reason": "No TV-to-unbounded-moment transfer or sample-selected complementary multiplier is used. TV controls a Boolean correctness event; A-FRAC tails concern the actual lattice Gaussian before observation, and C8 fresh conditional multiplier laws are explicit. Weighted projection extraction is not a dependency.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "RT2-NC2",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/144",
+      "entry_sha256": "ad06d8caddd10e0a93c84e2c9ce262b1666309dfd94edd18154094672c5d7f6e",
+      "original_description": "TV1/100 contamination at legal remote ideal point makes moment arbitrarily large; only bounded events transfer.",
+      "full1_disposition": "BOUNDED_EVENTS_NOT_MOMENTS",
+      "full1_reason": "No TV-to-unbounded-moment transfer or sample-selected complementary multiplier is used. TV controls a Boolean correctness event; A-FRAC tails concern the actual lattice Gaussian before observation, and C8 fresh conditional multiplier laws are explicit. Weighted projection extraction is not a dependency.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "RT2-NC3",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/145",
+      "entry_sha256": "dfb1ad3277c85101a1d62cc34705cd1be9f7cbdc1c737b07f9d8730d454aee48",
+      "original_description": "Common fair bit has exact uniform marginals but jointTV1/2 from product; no restored independence.",
+      "full1_disposition": "CONDITIONAL_FULL_LAW",
+      "full1_reason": "The full proof retains actual S, all samples and metadata; A-FRAC compares normalized whole laws with H integrated out before the independent-error endpoint and only reveals H under its independent conditional construction. GP retains both reweighting normalizers. The source information bound applies to arbitrary extractor postprocessing; uniform-source concentration is not reused there. See full report Sections3,4,6,7.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "BT21-VACUITY-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/146",
+      "entry_sha256": "ca86170a3e253915f1a6b2f7a3ee15a3b4f2fbf8a639f1591b458c5b071f0ab9",
+      "original_description": "Independent norm9 prime,n=m4,W8,h1/2,rho7/8 gives zero stated success lower bound despite constant numeric parameters; not actual failure lower bound.",
+      "full1_disposition": "VALUE_AND_SCOPE",
+      "full1_reason": "The theorem asserts restricted conditional decoding only, not source hardness. Finite G-AM and uniqueness remain premises; main widths/counts are independently substituted. Polynomial-value q follows from effective Linnik and distinct classes; the asymptotic radius statement uses chi=a, not arbitrary encodable chi. A numerical parameter regime is distinct from an actual efficient oracle premise; epsilon0=1/c=0 is explicitly flagged by FULL1.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "BT21-ADAPTIVE-MULTIPLIER-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/147",
+      "entry_sha256": "8cd22b2b2d08975f82b1e1c49bc6f7985ee5da25b1e18f456e814fad2a9f22d5",
+      "original_description": "For each finite high-mass subset of J choose integral-scaled gamma/x in C with Pi(gamma)=0; exact X marginal can projectzero near surely under correlated multiplier. Freshness/joint premise essential.",
+      "full1_disposition": "BOUNDED_EVENTS_NOT_MOMENTS",
+      "full1_reason": "No TV-to-unbounded-moment transfer or sample-selected complementary multiplier is used. TV controls a Boolean correctness event; A-FRAC tails concern the actual lattice Gaussian before observation, and C8 fresh conditional multiplier laws are explicit. Weighted projection extraction is not a dependency.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "BT22-TV-MOMENT-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/148",
+      "entry_sha256": "f2aad79367d07fe841c4225d000791da7e12bb4cd36ddca4ec0e1fd3a5bc6b67",
+      "original_description": "Section6: eta contamination by remote ideal point preserves TV bound but makes the projected moment unbounded.",
+      "full1_disposition": "BOUNDED_EVENTS_NOT_MOMENTS",
+      "full1_reason": "No TV-to-unbounded-moment transfer or sample-selected complementary multiplier is used. TV controls a Boolean correctness event; A-FRAC tails concern the actual lattice Gaussian before observation, and C8 fresh conditional multiplier laws are explicit. Weighted projection extraction is not a dependency.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "BT22-JOINT-MULTIPLIER-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/149",
+      "entry_sha256": "5387adf2a359eed9849f92a85c6e55bcc2f2c90e7f7acda703e55a56266d6ad8",
+      "original_description": "Section6: finite high-mass set admits correlated bounded complementary multipliers in trace kernels; exact X marginal still gives near-certain zero output. n2,m4,norm9 factorization gives an admissible instance.",
+      "full1_disposition": "BOUNDED_EVENTS_NOT_MOMENTS",
+      "full1_reason": "No TV-to-unbounded-moment transfer or sample-selected complementary multiplier is used. TV controls a Boolean correctness event; A-FRAC tails concern the actual lattice Gaussian before observation, and C8 fresh conditional multiplier laws are explicit. Weighted projection extraction is not a dependency.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "BT22-MARGIN-WIDTH-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/inherited_entries/150",
+      "entry_sha256": "ce948e5d8c320e2d55e1a00ce3c7851a3ddc69f0b3d44b576f9d7a95383016a6",
+      "original_description": "Sections6-8: W=4sqrt(m) makes displayed guarantee vacuous; positive margin need not be inverse polynomial; polynomial width bit length does not imply polynomial approximation value.",
+      "full1_disposition": "VALUE_AND_SCOPE",
+      "full1_reason": "The theorem asserts restricted conditional decoding only, not source hardness. Finite G-AM and uniqueness remain premises; main widths/counts are independently substituted. Polynomial-value q follows from effective Linnik and distinct classes; the asymptotic radius statement uses chi=a, not arbitrary encodable chi. A numerical parameter regime is distinct from an actual efficient oracle premise; epsilon0=1/c=0 is explicitly flagged by FULL1.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "M1-FV1-NORMALIZERS",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/new_entries/0",
+      "entry_sha256": "5885e0e4c668724d2807b10375fb1f6d2bfa8d6ae2f5c27046b69833d8ae3a37",
+      "original_description": "Exact finite sequential Gaussian normalizers depend on selected prior coordinate: H=[[2,1],[0,2]], base1/2, box[-10,10]^2 gives strictly positive TV from normalized target if ignored. 80 full-law cases validate explicit normalizer-ratio control.",
+      "full1_disposition": "CONDITIONAL_FULL_LAW",
+      "full1_reason": "The full proof retains actual S, all samples and metadata; A-FRAC compares normalized whole laws with H integrated out before the independent-error endpoint and only reveals H under its independent conditional construction. GP retains both reweighting normalizers. The source information bound applies to arbitrary extractor postprocessing; uniform-source concentration is not reused there. See full report Sections3,4,6,7.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "M1-FV1-CP1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/new_entries/1",
+      "entry_sha256": "568ac20e5d210096712b4827499084566a5545192cc66799ca0eba297361d2ef",
+      "original_description": "Reconstructed all160 original CP1 ambient atoms, posteriorvk mass10/11, hit21/2000>1/100, residual21/221<1/10.",
+      "full1_disposition": "CP1_CAUSAL",
+      "full1_reason": "Original CP-1 was freshly reconstructed from all160 atoms, rejecting21/2000<=1/100 and retaining21/221<1/10. Extractor uses complete-transcript conditioning on a separate bank; C8 uses a causal corrected process and conditional first-disagreement bounds; outer q loop uses a single fixed good run. No marginal product or future-success conditioning is used.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "B-FV1-CUBE289",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/new_entries/2",
+      "entry_sha256": "f302123eca956c68c3c0a90e8f1a1088b409481ccea4c2129efa38210b7792d3",
+      "original_description": "Degree8 ternary generator norm289,image176 of256,exponent17. Enlarged entropy criterion can hold above2^n while known generator/annihilator makes source and delivered sampling easy.",
+      "full1_disposition": "VALUE_AND_SCOPE",
+      "full1_reason": "The theorem asserts restricted conditional decoding only, not source hardness. Finite G-AM and uniqueness remain premises; main widths/counts are independently substituted. Polynomial-value q follows from effective Linnik and distinct classes; the asymptotic radius statement uses chi=a, not arbitrary encodable chi. A numerical parameter regime is distinct from an actual efficient oracle premise; epsilon0=1/c=0 is explicitly flagged by FULL1.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "M1-FALLBACK-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/new_entries/3",
+      "entry_sha256": "8cdd2254eb9479699edce563841d18ca6cf454e5a450b10c6d3c4d835e422510",
+      "original_description": "Scalar fallback followed by further nonzero coordinates need not equal the theorem-declared finalzero.",
+      "full1_disposition": "BOUNDED_SAMPLERS",
+      "full1_reason": "Full rational encodings and certified costs are charged; original B-GP exact ceiling was read with its addendum. Odd-order uniform draws have explicit finite caps with both endpoint charges. Scalar fallbacks need only be valid local values, not a globally zero final output. C8 uses its repaired rational threshold and fixed wrong-orientation loops; main adds exact rational r^2 verification.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "A-LIN-FV1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/new_entries/4",
+      "entry_sha256": "0951ee0247fe345745210f60dfcd7abff19a08e5516266c68704351ec0c14f9e",
+      "original_description": "86 exact integral linear maps,240 semilinear components;13747 final quotient inputs with equal fibers; finite planted zero masses retained",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "A-RATIONAL-BOUNDARY-v1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/new_entries/5",
+      "entry_sha256": "3f99905aced9d7eaae0a3b20b93fc662af8e7d2820eb7ef71df86166a9c35f79",
+      "original_description": "Z[i],I=(2+i),rational norm1 T=(3+4i)/5 conjugation yields fractional off-stabilizer multiplier(6-8i)/5",
+      "full1_disposition": "OUTSIDE_REVIEWED_CONSTRUCTION",
+      "full1_reason": "This historical entry concerns a retired sampler, tower/class/order map, weighted extraction, or quantum/state-preparation construction that is not used in the AM-MAIN-v2 dependency graph. Its exact original description and provenance are retained below. No validity or hardness inference about that construction is made by this theorem.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "B-THETA-FV1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/new_entries/6",
+      "entry_sha256": "2fe2fa6acf6c68d9347520edc52b335c7ed333f809eeeeec9895dafb22347d30",
+      "original_description": "40 exact finite HNF Gaussian guessing laws with rigorous omitted-mass bound and retained joint normalizers.",
+      "full1_disposition": "CONDITIONAL_FULL_LAW",
+      "full1_reason": "The full proof retains actual S, all samples and metadata; A-FRAC compares normalized whole laws with H integrated out before the independent-error endpoint and only reveals H under its independent conditional construction. GP retains both reweighting normalizers. The source information bound applies to arbitrary extractor postprocessing; uniform-source concentration is not reused there. See full report Sections3,4,6,7.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "B-M1-FV1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/new_entries/7",
+      "entry_sha256": "703dc799d085c5d38542b8e348676dc07853179083ecb3161bed6478bf3b659c",
+      "original_description": "All2048 adaptive tapes retain old fallback(0,1), repaired globalzero, TV55/512<=failure71/512<=3/16; wrong-HNF-order and collision controls.",
+      "full1_disposition": "BOUNDED_SAMPLERS",
+      "full1_reason": "Full rational encodings and certified costs are charged; original B-GP exact ceiling was read with its addendum. Odd-order uniform draws have explicit finite caps with both endpoint charges. Scalar fallbacks need only be valid local values, not a globally zero final output. C8 uses its repaired rational threshold and fixed wrong-orientation loops; main adds exact rational r^2 verification.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "A-BFAM-FV1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/new_entries/8",
+      "entry_sha256": "437243b5aa36ee2e8e2f74cace3ee824c9bc4fa4f09335e8f175c2bb54ee94b8",
+      "original_description": "Independent quadratic recurrence enumerates all256 binary vertices:176 fibers, histogram112/48/16, source threshold and CP1 rational inequalities.",
+      "full1_disposition": "VALUE_AND_SCOPE",
+      "full1_reason": "The theorem asserts restricted conditional decoding only, not source hardness. Finite G-AM and uniqueness remain premises; main widths/counts are independently substituted. Polynomial-value q follows from effective Linnik and distinct classes; the asymptotic radius statement uses chi=a, not arbitrary encodable chi. A numerical parameter regime is distinct from an actual efficient oracle premise; epsilon0=1/c=0 is explicitly flagged by FULL1.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "FBR1-Q-PREMISE-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/new_entries/9",
+      "entry_sha256": "6ed602bfa91070d4588633595256d49ac72923195eb0e6c2f41670f763e47232",
+      "original_description": "n4,k=chi=delta1,ell3,sigma20736,q82944 satisfies displayed v1 numbers but3 dividesq; missing explicit same-J prime prerequisite.",
+      "full1_disposition": "PRIME_PREMISE",
+      "full1_reason": "Every master entry is explicitly an odd prime congruent1 mod2n, distinct; final entries are coprime to D. Composite/ramified examples are outside the frozen assumptions. No formerly missing q premise is inferred from a numerical lower bound.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "M1-Q-FV1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/new_entries/10",
+      "entry_sha256": "7cbe4f593af5e781df1654d87d33296a966853e6d50d194eb7473af64b473174",
+      "original_description": "Exact rejected compositeq82944 retained; four repaired prime/congruence parameter controls n2/4/8/16 with actual widths.",
+      "full1_disposition": "PRIME_PREMISE",
+      "full1_reason": "Every master entry is explicitly an odd prime congruent1 mod2n, distinct; final entries are coprime to D. Composite/ramified examples are outside the frozen assumptions. No formerly missing q premise is inferred from a numerical lower bound.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "B-REVEAL-S-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/new_entries/11",
+      "entry_sha256": "350e6e9d23b227f3f56a7eebda96e169e95a86603733c8aec84f0ffd625eb1ac",
+      "original_description": "Nonauthor hand boundary: revealing S gives guessing1 and violates the required conditional independent product law; full-observation theorem does not permit arbitrary secret-dependent metadata.",
+      "full1_disposition": "CONDITIONAL_FULL_LAW",
+      "full1_reason": "The full proof retains actual S, all samples and metadata; A-FRAC compares normalized whole laws with H integrated out before the independent-error endpoint and only reveals H under its independent conditional construction. GP retains both reweighting normalizers. The source information bound applies to arbitrary extractor postprocessing; uniform-source concentration is not reused there. See full report Sections3,4,6,7.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "FBR2-WIDTH-BOUNDARY-1",
+      "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "json_pointer": "/new_entries/12",
+      "entry_sha256": "9a6f94613b1928f922ce1bf1fccd79f6c89b7d4228223632a5fb7849c23ae8f3",
+      "original_description": "At n4 the coarse inequality W>4n sqrt(n) alone does not imply W>12n; exact full parameter lower bound does.",
+      "full1_disposition": "VALUE_AND_SCOPE",
+      "full1_reason": "The theorem asserts restricted conditional decoding only, not source hardness. Finite G-AM and uniqueness remain premises; main widths/counts are independently substituted. Polynomial-value q follows from effective Linnik and distinct classes; the asymptotic radius statement uses chi=a, not arbitrary encodable chi. A numerical parameter regime is distinct from an actual efficient oracle premise; epsilon0=1/c=0 is explicitly flagged by FULL1.",
+      "evidence": [
+        "full-report-v1.md",
+        "source-complexity-report-v1.md"
+      ]
+    },
+    {
+      "id": "DD1-WITNESS-SAME-P",
+      "source_registry": "workers/DD1/regressions.json",
+      "original_entry": {
+        "id": "DD1-WITNESS-SAME-P",
+        "scope": "J=R interval witness refutes blanket small fractional decision gap while retaining SAME P in both response worlds.",
+        "evidence": [
+          "witness-theorem-v1.md",
+          "witness-proof-v1.md"
+        ]
+      },
+      "full1_disposition": "CURRENT_CONTROL_RECONCILED",
+      "full1_reason": "The J=R same-public-source decision witness was read in full. Main never bounds arbitrary fractional decision advantage; it bounds selected-value correctness after extraction. The witness is compatible and remains a warning against a different direct gap argument."
+    },
+    {
+      "id": "DD1-SHARED-SECRET",
+      "source_registry": "workers/DD1/regressions.json",
+      "original_entry": {
+        "id": "DD1-SHARED-SECRET",
+        "scope": "Two A=1 noiseless samples give equal responses with probability1 under common S versus1/4 with independent S at n2.",
+        "evidence": [
+          "finite_controls_v1.stdout.json"
+        ]
+      },
+      "full1_disposition": "CURRENT_CONTROL_RECONCILED",
+      "full1_reason": "One S is retained across all K raw blocks; complete conditional law and full endpoint TV do not replace it by fresh S per block. One fresh S is used only when starting an entirely new A_q invocation."
+    },
+    {
+      "id": "DD1-EXTRACT-FULL-LAW",
+      "source_registry": "workers/DD1/regressions.json",
+      "original_entry": {
+        "id": "DD1-EXTRACT-FULL-LAW",
+        "scope": "40 exact full(Aprime,Bprime) law comparisons; no CRT noise-coordinate independence.",
+        "evidence": [
+          "extraction_finite_v1.stdout.json"
+        ]
+      },
+      "full1_disposition": "CURRENT_CONTROL_RECONCILED",
+      "full1_reason": "FULL1 independently checked250 complete transformed laws with correlated CRT errors; exact CRT bijection is the unrestricted proof."
+    },
+    {
+      "id": "DD1-EXTRACT-4A-TIE",
+      "source_registry": "workers/DD1/regressions.json",
+      "original_entry": {
+        "id": "DD1-EXTRACT-4A-TIE",
+        "scope": "Gap4a can produce an exact classification tie; statement uses strictg>4a from threshold.",
+        "evidence": [
+          "extraction_finite_v1.stdout.json"
+        ]
+      },
+      "full1_disposition": "CURRENT_CONTROL_RECONCILED",
+      "full1_reason": "FULL1 independently reproduced equality tie and216 strict cases. Canonical threshold yields actual g>=7epsilon/(32n)>4a."
+    },
+    {
+      "id": "DD1-SFUNC-MAX-ORDER",
+      "source_registry": "workers/DD1/regressions.json",
+      "original_entry": {
+        "id": "DD1-SFUNC-MAX-ORDER",
+        "scope": "At J=Z2, adaptive selected-coordinate guessing0.599739897 exceeds fixed-coordinate0.571664582; max cannot move outside observation sum.",
+        "evidence": [
+          "sfunc_finite_v1.stdout.json"
+        ]
+      },
+      "full1_disposition": "CURRENT_CONTROL_RECONCILED",
+      "full1_reason": "FULL1 independently found finite selected11/12 versus fixed5/6; the exact Gaussian proof keeps the max inside the observation sum and fiber."
+    },
+    {
+      "id": "DD1-MAIN-GAUSSIAN-NOTATION",
+      "source_registry": "workers/DD1/regressions.json",
+      "original_entry": {
+        "id": "DD1-MAIN-GAUSSIAN-NOTATION",
+        "scope": "AM-MAIN-v1 Q_h(G_w) ambiguous against canonicalw; require explicit coefficientG_(w/sqrt(n)) in v2.",
+        "evidence": [
+          "main-v1-crosscheck-report.md"
+        ]
+      },
+      "full1_disposition": "CURRENT_CONTROL_RECONCILED",
+      "full1_reason": "Frozen v2 explicitly uses coefficient G_(w/sqrt(n)) and canonical w=sqrt(n)ell^2, matching B-GP and C8."
+    },
+    {
+      "id": "DD1-MAIN-RATIONAL-EXPONENT",
+      "source_registry": "workers/DD1/regressions.json",
+      "original_entry": {
+        "id": "DD1-MAIN-RATIONAL-EXPONENT",
+        "scope": "AM-MAIN-v1 arbitraryrealc can make epsilon0=n^-c irrational; v2 should use integerb,c or exact rational rounding.",
+        "evidence": [
+          "main-v1-crosscheck-report.md"
+        ]
+      },
+      "full1_disposition": "CURRENT_CONTROL_RECONCILED",
+      "full1_reason": "Frozen v2 restricts b,c to nonnegative integers, making epsilon0 and all exact exponent parameters rational/integer. c=0 oracle-vacuity is separately flagged."
+    },
+    {
+      "id": "FULL1-SCOPE-1",
+      "full1_disposition": "CHECKED_SCOPE_OR_NEGATIVE_CONTROL",
+      "evidence": "findings-ledger-v1.md"
+    },
+    {
+      "id": "FULL1-SCOPE-2",
+      "full1_disposition": "CHECKED_SCOPE_OR_NEGATIVE_CONTROL",
+      "evidence": "findings-ledger-v1.md"
+    },
+    {
+      "id": "FULL1-CONTROL-1",
+      "full1_disposition": "CHECKED_SCOPE_OR_NEGATIVE_CONTROL",
+      "evidence": "findings-ledger-v1.md"
+    },
+    {
+      "id": "FULL1-CONTROL-2",
+      "full1_disposition": "CHECKED_SCOPE_OR_NEGATIVE_CONTROL",
+      "evidence": "findings-ledger-v1.md"
+    },
+    {
+      "id": "FULL1-CONTROL-3",
+      "full1_disposition": "CHECKED_SCOPE_OR_NEGATIVE_CONTROL",
+      "evidence": "findings-ledger-v1.md"
+    },
+    {
+      "id": "FULL1-SCOPE-3",
+      "full1_disposition": "CHECKED_RUNTIME_QUALIFICATION",
+      "evidence": "findings-ledger-v1.md"
+    },
+    {
+      "id": "FULL1-DEFECT-1",
+      "full1_disposition": "REJECTED_LITERAL_POLYNOMIAL_VALUE_ASSERTION",
+      "evidence": "findings-ledger-v1.md"
+    }
+  ]
+}

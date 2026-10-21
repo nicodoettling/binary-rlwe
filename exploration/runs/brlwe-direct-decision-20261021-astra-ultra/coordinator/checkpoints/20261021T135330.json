@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-10-21T13:53:30.162193+00:00",
+  "elapsed_seconds": 5669.880204,
+  "phase": "discovery",
+  "cap_state": "running",
+  "cap_updated_at": "2026-10-21T12:19:00.377452+00:00",
+  "actual_start": "2026-10-21T12:19:00.281989+00:00",
+  "graceful_shutdown_at": "2026-10-21T16:17:55.281989+00:00",
+  "hard_deadline_at": "2026-10-21T16:19:00.281989+00:00",
+  "event": "Exact FIXED-MAIN-v2 accepted after full/blind repair checks and all 164 inherited regression dispositions",
+  "pending": [
+    "Final report and programme consistency review",
+    "Final native usage/completion receipt and process observation"
+  ],
+  "findings": [
+    "Mathematical objective achieved in the explicit restricted family and parameter window",
+    "No exhaustion or unrestricted-hardness claim"
+  ]
+}

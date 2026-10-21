@@ -1,0 +1,218 @@
+{
+  "time_utc": "2026-10-21T13:02:44.278028+00:00",
+  "role": "fresh nonauthor full review, not blind",
+  "rows": [
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/am-main-theorem-v2.md",
+      "sha256": "bac9219db980fa85f0a29a6cc9957a9f57eb8281b3bdfff595b2f327bb2ba34d",
+      "manifest_sha256": "bac9219db980fa85f0a29a6cc9957a9f57eb8281b3bdfff595b2f327bb2ba34d",
+      "match": true,
+      "read_scope": "full text except PRS17.txt (source sections 4.1-4.4 inspected); PDF is provenance hash only"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/am-main-proof-v2.md",
+      "sha256": "dee6af4bb9255a73ed85cf448251470986252ba7b1e71fcbf8b36fa004ac7edd",
+      "manifest_sha256": "dee6af4bb9255a73ed85cf448251470986252ba7b1e71fcbf8b36fa004ac7edd",
+      "match": true,
+      "read_scope": "full text except PRS17.txt (source sections 4.1-4.4 inspected); PDF is provenance hash only"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/dd3-selected-functional-v1.md",
+      "sha256": "9c4fb0867fa4decce5f97ad456c303fa190cef0615ce27caf2d4f8587fe8b4bf",
+      "manifest_sha256": "9c4fb0867fa4decce5f97ad456c303fa190cef0615ce27caf2d4f8587fe8b4bf",
+      "match": true,
+      "read_scope": "full text except PRS17.txt (source sections 4.1-4.4 inspected); PDF is provenance hash only"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD1/extraction-theorem-v1.md",
+      "sha256": "c8ad79f0f681e346e149749d46c3bb98ff5e2e6a2ef5cbc406a47f8c2abf0e38",
+      "manifest_sha256": "c8ad79f0f681e346e149749d46c3bb98ff5e2e6a2ef5cbc406a47f8c2abf0e38",
+      "match": true,
+      "read_scope": "full text except PRS17.txt (source sections 4.1-4.4 inspected); PDF is provenance hash only"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD1/extraction-proof-v1.md",
+      "sha256": "4a599d9eed5dfefca4b3d0bbcd1402aaba2e709310e7eaa62feb36d5b6b3f357",
+      "manifest_sha256": "4a599d9eed5dfefca4b3d0bbcd1402aaba2e709310e7eaa62feb36d5b6b3f357",
+      "match": true,
+      "read_scope": "full text except PRS17.txt (source sections 4.1-4.4 inspected); PDF is provenance hash only"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD2/am1-strengthened-theorem-v1.md",
+      "sha256": "3500de1a74555ecbf8102d4fb52a87f6a0d87c7f9cdcca22e849f7a2812d870d",
+      "manifest_sha256": "3500de1a74555ecbf8102d4fb52a87f6a0d87c7f9cdcca22e849f7a2812d870d",
+      "match": true,
+      "read_scope": "full text except PRS17.txt (source sections 4.1-4.4 inspected); PDF is provenance hash only"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD2/am1-strengthened-proof-v1.md",
+      "sha256": "d1d22c6a34776a493b7d43611abb076c8e97f07542ad48da33d5072683766e43",
+      "manifest_sha256": "d1d22c6a34776a493b7d43611abb076c8e97f07542ad48da33d5072683766e43",
+      "match": true,
+      "read_scope": "full text except PRS17.txt (source sections 4.1-4.4 inspected); PDF is provenance hash only"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD2/prime-list-theorem-proof-v1.md",
+      "sha256": "c54f0a6e37aa6ed6a13bb9cf387f98ce99fb12311a517c6fec32e3e32188d6cf",
+      "manifest_sha256": "c54f0a6e37aa6ed6a13bb9cf387f98ce99fb12311a517c6fec32e3e32188d6cf",
+      "match": true,
+      "read_scope": "full text except PRS17.txt (source sections 4.1-4.4 inspected); PDF is provenance hash only"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD2/parameter-witness-v1.md",
+      "sha256": "792ec5df84dbd8dc2c8a00ac7e20441091b0eefa0a7936ece77b408baa2b88d6",
+      "manifest_sha256": "792ec5df84dbd8dc2c8a00ac7e20441091b0eefa0a7936ece77b408baa2b88d6",
+      "match": true,
+      "read_scope": "full text except PRS17.txt (source sections 4.1-4.4 inspected); PDF is provenance hash only"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/RF4/same-j-composition/interface-statements-v1.md",
+      "sha256": "25a78ebcc36d3cd31568f12dd36ee233490509dab8684d4656002a528bb0fab8",
+      "manifest_sha256": "25a78ebcc36d3cd31568f12dd36ee233490509dab8684d4656002a528bb0fab8",
+      "match": true,
+      "read_scope": "full text except PRS17.txt (source sections 4.1-4.4 inspected); PDF is provenance hash only"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/c8-repair/multiplier-ohcp-theorem-v8.md",
+      "sha256": "857a62e9f4a937a80e5cb3b115c8b132abf122c16665d29b39dcb62bde86fe0a",
+      "manifest_sha256": "857a62e9f4a937a80e5cb3b115c8b132abf122c16665d29b39dcb62bde86fe0a",
+      "match": true,
+      "read_scope": "full text except PRS17.txt (source sections 4.1-4.4 inspected); PDF is provenance hash only"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/c8-repair/multiplier-ohcp-algorithm-v2.md",
+      "sha256": "4361c90a7fa7cfe25d0ab3e8cd5c5333fb474cf1fb764375e10c29fca5102735",
+      "manifest_sha256": "4361c90a7fa7cfe25d0ab3e8cd5c5333fb474cf1fb764375e10c29fca5102735",
+      "match": true,
+      "read_scope": "full text except PRS17.txt (source sections 4.1-4.4 inspected); PDF is provenance hash only"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/A/fractional-composition/proof-v1.md",
+      "sha256": "f4c889a64173135b2e29cebeb8190f352b1d4de6ada77f37a3f7c4f3ec797af2",
+      "manifest_sha256": "f4c889a64173135b2e29cebeb8190f352b1d4de6ada77f37a3f7c4f3ec797af2",
+      "match": true,
+      "read_scope": "full text except PRS17.txt (source sections 4.1-4.4 inspected); PDF is provenance hash only"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/workers/B/theorem-only-v1.md",
+      "sha256": "6e71289b7e9979ad169d1008d2e40f2cdb3f09f1bd7a29b48e41c90431e6becd",
+      "manifest_sha256": "6e71289b7e9979ad169d1008d2e40f2cdb3f09f1bd7a29b48e41c90431e6becd",
+      "match": true,
+      "read_scope": "full text except PRS17.txt (source sections 4.1-4.4 inspected); PDF is provenance hash only"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/workers/B/proof-v1.md",
+      "sha256": "0b67d511c9bfc43f5a7fdbc51102f983471a1095bd0612efcd66ee82395c6fab",
+      "manifest_sha256": "0b67d511c9bfc43f5a7fdbc51102f983471a1095bd0612efcd66ee82395c6fab",
+      "match": true,
+      "read_scope": "full text except PRS17.txt (source sections 4.1-4.4 inspected); PDF is provenance hash only"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/direct-decision-20261021/inputs/PRS17.txt",
+      "sha256": "a4f797010b84adca8c0f30256165c92d05047db5b7d0ec3b0d8e09063199941d",
+      "manifest_sha256": "a4f797010b84adca8c0f30256165c92d05047db5b7d0ec3b0d8e09063199941d",
+      "match": true,
+      "read_scope": "full text except PRS17.txt (source sections 4.1-4.4 inspected); PDF is provenance hash only"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/literature/2017-258.pdf",
+      "sha256": "62e29f112a70b417678b0193c87911de190fc91ecd2acbd9f8385ddcbc3b07a5",
+      "manifest_sha256": "62e29f112a70b417678b0193c87911de190fc91ecd2acbd9f8385ddcbc3b07a5",
+      "match": true,
+      "read_scope": "full text except PRS17.txt (source sections 4.1-4.4 inspected); PDF is provenance hash only"
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/SKILL.md",
+      "sha256": "9350ffeb5aebe0b126710786586f94ef5d990be35b8b9defc8004136dae40318",
+      "read_scope": "full text; registry intake through complete regression-index and parsed inventory"
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/references/audit-protocol.md",
+      "sha256": "2d076ba631c340d71f6259757c6207dbe230872810e9bad3188b215f46d095f4",
+      "read_scope": "full text; registry intake through complete regression-index and parsed inventory"
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/references/probability-regressions.md",
+      "sha256": "ad7eecf93ed02e5b2957243a9bbb2cac8e8eeeb991971f4d77d0818cd04a4fa4",
+      "read_scope": "full text; registry intake through complete regression-index and parsed inventory"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/regression-index.md",
+      "sha256": "c838875c2e64be694bc7c05eadc7bb3b97e9834e3d3f69774aebe5641c7f6665",
+      "read_scope": "full text; registry intake through complete regression-index and parsed inventory"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "sha256": "f579b18f1e316258bc484428c129c172281b9acf7d150446f068a1890c613bee",
+      "read_scope": "full text; registry intake through complete regression-index and parsed inventory"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD1/regressions.json",
+      "sha256": "4de1861f0ee69872322d75392791a73088180ef21c5356d1611b8b962a03082b",
+      "read_scope": "full text; registry intake through complete regression-index and parsed inventory"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/samej-acceptance-v1.md",
+      "sha256": "4f8bf169b65070cbe82d9227db7f2411f4d6f35d1d9187511621b13d44541418",
+      "read_scope": "full text; registry intake through complete regression-index and parsed inventory"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/coordinator/ab-acceptance-v1.md",
+      "sha256": "0fde22f9eab5e1b04fe5f9aa7db18c9173b409aa1eaba01fb2742e35e0f5a8d9",
+      "read_scope": "full text; registry intake through complete regression-index and parsed inventory"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/c8-acceptance-reconciliation-v1.md",
+      "sha256": "cf13fbc6f98de392a360697fd5da0a03d5b1fbf9c78d21375ee981b4d03eaf64",
+      "read_scope": "full text; registry intake through complete regression-index and parsed inventory"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/fractional-coherent-acceptance-v1.md",
+      "sha256": "4b35c91fe07fc3eb7224570421605c0a95dbf494fdbd9722bd0efd0f49d39487",
+      "read_scope": "full text; registry intake through complete regression-index and parsed inventory"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/c8-repair/multiplier-ohcp-proof-v9.md",
+      "sha256": "e9b3023715a3d4ec90c474aba6945223aa376248b1fa216134964a5643fb4c5f",
+      "read_scope": "full text; registry intake through complete regression-index and parsed inventory"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/B/ideal-denominator/gaussian-periodic-theorem-v2.md",
+      "sha256": "be7f05d67fc8f2b24fc6b93321c95005f4d7f6e24bab513b2cbaf35c82aeaad7",
+      "read_scope": "full text; registry intake through complete regression-index and parsed inventory"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/B/ideal-denominator/gaussian-periodic-proof-v2.md",
+      "sha256": "207a9af38eb570e2a140d88008c0f4bc363f7d3c8a72049c53bbab85798910b4",
+      "read_scope": "full text; registry intake through complete regression-index and parsed inventory"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/B/ideal-denominator/gaussian-periodic-bounded-wrapper-v1.md",
+      "sha256": "335f4a176331df262eda5c775a7d565e3c47fee6413d714957741c81b6087521",
+      "read_scope": "full text; registry intake through complete regression-index and parsed inventory"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/B/ideal-denominator/gaussian-periodic-v2-ceiling-addendum-v1.md",
+      "sha256": "17044d83881bee69c3182ed0cdaaccf91687d4a1e173618e837350fe1ebb2e47",
+      "read_scope": "full text; registry intake through complete regression-index and parsed inventory"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/run.log.brlwe-direct-decision-20261021-astra-ultra.cap-status.json",
+      "sha256": "1125c304bcf7847be37534799e152e360801babb02da82b5a36b080ad149ae1f",
+      "read_scope": "full text; registry intake through complete regression-index and parsed inventory"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/reviews/FULL1/input-manifest.json",
+      "sha256": "daed917562de0b4bdef172da5d34afc18b756b113abdcf2cacf510dd49ddf5ae",
+      "read_scope": "full text; registry intake through complete regression-index and parsed inventory"
+    }
+  ],
+  "all_frozen_input_hashes_match": true,
+  "outside_source": [
+    {
+      "url": "https://www.impan.pl/shop/en/publication/transaction/download/product/83078",
+      "read": "publisher PDF text, printed pages 65-66, Theorem 1.1",
+      "claim": "effective absolute C and exponent 5.18 verified; use exponent 6"
+    }
+  ]
+}

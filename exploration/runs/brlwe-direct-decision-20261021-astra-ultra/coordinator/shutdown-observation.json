@@ -1,0 +1,52 @@
+{
+  "clock": {
+    "checked_at": "2026-10-21T13:59:16.121503+00:00",
+    "elapsed_seconds": 6015.839514,
+    "phase": "discovery",
+    "cap_state": "running",
+    "cap_updated_at": "2026-10-21T12:19:00.377452+00:00",
+    "actual_start": "2026-10-21T12:19:00.281989+00:00",
+    "graceful_shutdown_at": "2026-10-21T16:17:55.281989+00:00",
+    "hard_deadline_at": "2026-10-21T16:19:00.281989+00:00"
+  },
+  "cap_state": "running",
+  "cap_updated_at": "2026-10-21T12:19:00.377452+00:00",
+  "agent_tool_observation": {
+    "root": "running",
+    "full2": "completed",
+    "blind2": "completed",
+    "active_children": 0,
+    "earlier_workers": "DD1/DD2/FULL1/BLIND1 completed before slot reuse"
+  },
+  "registered_experiment_count": 12,
+  "recorded_active_experiments": 0,
+  "matching_visible_experiment_processes": [],
+  "unreadable_process_entries": 0,
+  "service_cgroup_observation": {
+    "visible": true,
+    "pids": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3
+    ],
+    "names": {
+      "1": "codex",
+      "2": "bash",
+      "3": "python3"
+    },
+    "namespace_limit": "Zero entries are host/cgroup members not mapped to visible PIDs in this sandbox namespace. Names1/2/3 describe only visible coordinator and current recording command. This is not a complete host process inventory or post-exit cleanup observation."
+  },
+  "post_exit_service_cleanup_observed": false,
+  "limitation": "The enclosing service/adapter remains active while the coordinator records delivery. Its final shutdown cannot be observed from this still-running turn. No service stop, restart, successor or detached work was requested."
+}

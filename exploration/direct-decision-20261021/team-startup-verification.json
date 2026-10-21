@@ -1,0 +1,45 @@
+{
+  "verified_at": "2026-10-21T12:21:22.315691+00:00",
+  "source": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/runtime-verification.json",
+  "source_sha256": "1ed60702afca5f42e273ef1f500c8e13aded548054d2af81781ea02a047461f2",
+  "runtime_receipt": {
+    "requested_total_agents": 3,
+    "reported_capacity_total": 3,
+    "spawn_api_service_tier_parameter": false,
+    "service_tier_evidence": "Launcher codex_command explicitly service_tier=default; worker inherits root preference; no backend billing telemetry",
+    "root_model_effort_evidence": "launcher gpt-6-astra ultra; thread configured by launcher",
+    "spawn_receipts": [
+      {
+        "task_name": "/root/dd1",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none",
+        "result": {
+          "task_name": "/root/dd1"
+        }
+      },
+      {
+        "task_name": "/root/dd2",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none",
+        "result": {
+          "task_name": "/root/dd2"
+        }
+      }
+    ],
+    "observed_at": "2026-10-21T12:20:50.643043+00:00",
+    "discrepancy": null,
+    "startup_note": "python unavailable; python3 available; no install attempted"
+  },
+  "native_goal": {
+    "threadId": "01a15e66-88ee-7da3-b484-747bf9751c67",
+    "objective": "Establish a quantitatively useful reduction from ideal decoding to decision binary-secret rank-one RLWE, directly or through an explicit intermediate oracle, with the prescribed shared binary secret, justified error/public-multiplier laws, useful parameters, polynomial resource accounting, and reviewed dependencies. Preserve any restrictions on the ideal family; do not claim standard unrestricted worst-case hardness without proving it.",
+    "status": "active",
+    "tokensUsed": 0,
+    "timeUsedSeconds": 0,
+    "createdAt": 1792585171,
+    "updatedAt": 1792585171
+  },
+  "verification_scope": "Actual root argv and service containment checked separately. Coordinator startup receipt records three available slots and two successful Astra ultra worker spawns. Explicit root default tier and worker inheritance; no server billing telemetry."
+}

@@ -1,0 +1,143 @@
+{
+  "test": "DD1-FV1",
+  "status": "PASS",
+  "seed": null,
+  "rows": [
+    {
+      "q": 5,
+      "source": "uniform",
+      "W_gap": "1/10",
+      "D_gap": "-33/10000",
+      "centered_gap": "-33/10000",
+      "uniform_mask_gap": "-11/5000"
+    },
+    {
+      "q": 5,
+      "source": "narrow",
+      "W_gap": "181/640",
+      "D_gap": "-39/12800",
+      "centered_gap": "-39/12800",
+      "uniform_mask_gap": "-13/6400"
+    },
+    {
+      "q": 5,
+      "code": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "code_size": 1,
+      "tube_size": 9,
+      "tube_probability": "9/625",
+      "union_upper": "9/25"
+    },
+    {
+      "q": 5,
+      "code": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "code_size": 25,
+      "tube_size": 125,
+      "tube_probability": "1/5",
+      "union_upper": "9/25"
+    },
+    {
+      "q": 5,
+      "code": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "code_size": 25,
+      "tube_size": 125,
+      "tube_probability": "1/5",
+      "union_upper": "9/25"
+    },
+    {
+      "q": 13,
+      "source": "uniform",
+      "W_gap": "3/26",
+      "D_gap": "8895/913952",
+      "centered_gap": "8895/913952",
+      "uniform_mask_gap": "2965/456976"
+    },
+    {
+      "q": 13,
+      "source": "narrow",
+      "W_gap": "6/13",
+      "D_gap": "6157/86528",
+      "centered_gap": "6157/86528",
+      "uniform_mask_gap": "6157/129792"
+    },
+    {
+      "q": 13,
+      "code": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "code_size": 1,
+      "tube_size": 9,
+      "tube_probability": "9/28561",
+      "union_upper": "9/169"
+    },
+    {
+      "q": 13,
+      "code": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "code_size": 169,
+      "tube_size": 845,
+      "tube_probability": "5/169",
+      "union_upper": "9/169"
+    },
+    {
+      "q": 13,
+      "code": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "code_size": 169,
+      "tube_size": 845,
+      "tube_probability": "5/169",
+      "union_upper": "9/169"
+    }
+  ],
+  "shared_secret_equal_probability": "1",
+  "independent_secret_equal_probability": "1/4"
+}

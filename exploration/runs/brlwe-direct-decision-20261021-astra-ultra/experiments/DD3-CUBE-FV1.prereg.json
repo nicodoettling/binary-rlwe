@@ -1,0 +1,58 @@
+{
+  "id": "DD3-CUBE-FV1",
+  "status": "PREREGISTERED",
+  "registered_at": "2026-10-21T12:31:22.069143+00:00",
+  "owner": "root",
+  "code": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/experiments/dd3_cube_fibers_v1.py",
+  "code_sha256": "dad7ebdd9c6671557f7354b7c80ec6ae43dc9bb3a8f635e126ef4c4980f0ecb7",
+  "inputs": {
+    "n": [
+      2,
+      4,
+      8,
+      16
+    ],
+    "a": "distinct 0,n/4,n/2,3n/4,n-1 floored",
+    "q": "least split prime >=2n+1, and >=n*sigma; capped 100000 candidates",
+    "sigma": "8 n^2 ceil(sqrt(n)) ceil(log2(2n))^4",
+    "seed": "deterministic exhaustive",
+    "bits": "q below 2^64; n<=16, 65536 cube vertices maximum"
+  },
+  "hypothesis": "Selected-root guessing fiber statistic differs from whole-secret guessing; quantify on exact eligible ramified ideals at small control and actual q lower bound.",
+  "expected_outcomes": "Exact fractions, root-dependent and selected counts; no asymptotic conclusion. High q may make root functional injective on small fibers.",
+  "estimated_resources": {
+    "wall_seconds": 30,
+    "rss_MiB": 100
+  },
+  "limits": {
+    "wall_seconds": 120,
+    "kill_grace_seconds": 5,
+    "address_space_bytes": 536870912
+  },
+  "command": [
+    "/usr/bin/timeout",
+    "--signal=TERM",
+    "--kill-after=5s",
+    "120s",
+    "/usr/bin/prlimit",
+    "--as=536870912",
+    "/usr/bin/time",
+    "-v",
+    "-o",
+    "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/experiments/DD3-CUBE-FV1.resources.txt",
+    "python3",
+    "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/experiments/dd3_cube_fibers_v1.py"
+  ],
+  "stdout": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/experiments/DD3-CUBE-FV1.stdout.json",
+  "stderr": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/experiments/DD3-CUBE-FV1.stderr.txt",
+  "clock": {
+    "checked_at": "2026-10-21T12:31:22.069256+00:00",
+    "elapsed_seconds": 741.787267,
+    "phase": "discovery",
+    "cap_state": "running",
+    "cap_updated_at": "2026-10-21T12:19:00.377452+00:00",
+    "actual_start": "2026-10-21T12:19:00.281989+00:00",
+    "graceful_shutdown_at": "2026-10-21T16:17:55.281989+00:00",
+    "hard_deadline_at": "2026-10-21T16:19:00.281989+00:00"
+  }
+}

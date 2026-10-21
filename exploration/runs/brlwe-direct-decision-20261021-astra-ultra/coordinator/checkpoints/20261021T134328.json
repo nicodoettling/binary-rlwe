@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-10-21T13:43:28.424563+00:00",
+  "elapsed_seconds": 5068.142574,
+  "phase": "discovery",
+  "cap_state": "running",
+  "cap_updated_at": "2026-10-21T12:19:00.377452+00:00",
+  "actual_start": "2026-10-21T12:19:00.281989+00:00",
+  "graceful_shutdown_at": "2026-10-21T16:17:55.281989+00:00",
+  "hard_deadline_at": "2026-10-21T16:19:00.281989+00:00",
+  "event": "Draft delivery package exists; certification still pending",
+  "pending": [
+    "FULL2 and BLIND2 complete/seal v1 reviews",
+    "Exact FIXED-MAIN-v2 repair rechecks, keeping blind proof exclusion",
+    "Reconcile all193+ regression entries to exact final dependency graph",
+    "Final acceptance/early-achievement certificate only if all gates close",
+    "Final goal/usage/process receipts and terminal report"
+  ],
+  "findings": [
+    "All164 historical entries and first-wave sealed hashes verified",
+    "12 bounded registered experiments, one preserved logging failure",
+    "FIXED-MAIN-v2 not yet accepted"
+  ]
+}

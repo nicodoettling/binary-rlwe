@@ -1,0 +1,106 @@
+{
+  "checked_at": "2026-10-21T13:48:19.658486+00:00",
+  "checks": [
+    {
+      "path": "artifact-check-v1.json",
+      "sha256": "7abf6deb69da206a7cfa773715e24b8e371b90e69f48779a6d2c105928f6b9d4",
+      "matches": true
+    },
+    {
+      "path": "assignment-v1.txt",
+      "sha256": "829e8e9bd6d72b456cec91c2c5726e242bdc8eb4bafa01e1bc80cbc49922419e",
+      "matches": true
+    },
+    {
+      "path": "audit_io.py",
+      "sha256": "c28162098b81144b521cc2d0baba9417512a1937bc4ab26f7b42e44e15144ef1",
+      "matches": true
+    },
+    {
+      "path": "dependency-hash-check-v1.json",
+      "sha256": "208fa82944db17ac0c1687abfd1f83ada44116d9b7834dbe2c40d3bb4993cfc2",
+      "matches": true
+    },
+    {
+      "path": "exposure-log-v1.md",
+      "sha256": "e00b6ad1cea0febbe78774181dc45c7b5a8cfb4aac6efd0c05026e54153c0ab3",
+      "matches": true
+    },
+    {
+      "path": "external-source-observations-v1.json",
+      "sha256": "da80333cfe0864dd3cfcf710882b1ce8ffbfacc0607333d6cd8e90023ab400c9",
+      "matches": true
+    },
+    {
+      "path": "findings-ledger-v1.md",
+      "sha256": "185f1a23e7c56528e0fe7d1043feaf308a2c3cc663966194e8cf9dca72085952",
+      "matches": true
+    },
+    {
+      "path": "finite_controls_v1.preregistration.json",
+      "sha256": "0d8d9e17f06bc742dc5381e37206ae0f32a9a27f67b403ee0232f0dcfafd684c",
+      "matches": true
+    },
+    {
+      "path": "finite_controls_v1.py",
+      "sha256": "819ed68c43339cfbce3068c953e9234340fbded59860972d6b29c1f1831b7a9c",
+      "matches": true
+    },
+    {
+      "path": "finite_controls_v1.receipt.json",
+      "sha256": "014cb56bdc1a693d98599dbb22ed0699879efafeea601d9bc8346e03d725b2da",
+      "matches": true
+    },
+    {
+      "path": "finite_controls_v1.resources.txt",
+      "sha256": "da261b5c30db84a6fa8e24d0c86701d6f16e549fec38054f1b5eff6d3575696e",
+      "matches": true
+    },
+    {
+      "path": "finite_controls_v1.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches": true
+    },
+    {
+      "path": "finite_controls_v1.stdout.json",
+      "sha256": "2c22fd04fc114b351091057c443cd59c09c579aba2b4233627051898b8b690fa",
+      "matches": true
+    },
+    {
+      "path": "full-report-v1.md",
+      "sha256": "6fc9fb026419a379c798f9038e307491f5a2a4be5956a824b68e43ccad9c6074",
+      "matches": true
+    },
+    {
+      "path": "input-manifest-v1.json",
+      "sha256": "7fec0f4c3bcc2f6a8fa74e373774bb5b8237855f123bb4b372aac7f1aa4f26fb",
+      "matches": true
+    },
+    {
+      "path": "read-register-v1.json",
+      "sha256": "a71df6a11b2cdfeb631baf178e03a640f66f5f800b807c5e0b175da17adf619f",
+      "matches": true
+    },
+    {
+      "path": "regression-dispositions-v1.json",
+      "sha256": "2931ef29b07d9d82fbd09835d4d3842e063579658037f66fb3a72f467951e057",
+      "matches": true
+    },
+    {
+      "path": "regression_audit_v1.py",
+      "sha256": "c13b454acf6db21a558fee8016983c35e2eac704ab1824f384d24ceea7cc97aa",
+      "matches": true
+    },
+    {
+      "path": "source-complexity-report-v1.md",
+      "sha256": "2484a3bc796fdf1434d27f6d117ca3265e4a760fecf13388acd7c775beef8416",
+      "matches": true
+    },
+    {
+      "path": "verdict-v1.json",
+      "sha256": "9a651d9182f0346630008420ffdfd6bbb84592d1ed4d56278aae689e59652ea3",
+      "matches": true
+    }
+  ],
+  "all_match": true
+}

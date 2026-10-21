@@ -1,0 +1,34 @@
+{
+  "clock": {
+    "checked_at": "2026-10-21T13:50:39.372249+00:00",
+    "elapsed_seconds": 5499.09026,
+    "phase": "discovery",
+    "cap_state": "running",
+    "cap_updated_at": "2026-10-21T12:19:00.377452+00:00",
+    "actual_start": "2026-10-21T12:19:00.281989+00:00",
+    "graceful_shutdown_at": "2026-10-21T16:17:55.281989+00:00",
+    "hard_deadline_at": "2026-10-21T16:19:00.281989+00:00"
+  },
+  "checks": [
+    {
+      "seal": "reviews/FULL2/seal-v1.json",
+      "seal_sha256": "72fc3e7fae66041f0d9b23b4c5e36634963daa504bfff828bf700d00303b5d5d",
+      "count": 20,
+      "mismatches": []
+    },
+    {
+      "seal": "reviews/BLIND2/seal-manifest.json",
+      "seal_sha256": "089f1e6a0d22128de9c11654e06ed8a709e86622b98ed50cdd37d2105bcf7799",
+      "count": 21,
+      "mismatches": []
+    },
+    {
+      "seal": "reviews/BLIND2/followup-v2-seal-manifest.json",
+      "seal_sha256": "a18e5781eaf2fe0d84bf4a95c604a1b5f145bdff2e79940164273ba1922a8b01",
+      "count": 12,
+      "mismatches": []
+    }
+  ],
+  "blind_v2_statement_equals_author_minus_status": false,
+  "author_sha256": "25da2502104e746d3e9f2ca10e3d070372ff95b853b1fd2b0e6c96b1b909ecb6"
+}

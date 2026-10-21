@@ -1,0 +1,20 @@
+{
+  "experiment": "DD2-AM-FV1",
+  "code_sha256": "e1546ceb5c5794e1209b1aa7a237636dc4b39c0823c9d7daf3eb1a4bb12f5ba5",
+  "preregistration_sha256": "2f484c45a003541b2c74612e87d091354007d602c8a706393ff1f1192eb18f21",
+  "root_slot_coordination": "Root stated Slot available; proceed bounded experiment before execution. Slot released after completion.",
+  "completed_before_utc": "2026-10-21T12:46:54Z",
+  "exit_code": 0,
+  "wall_seconds": 0.77,
+  "peak_rss_kib": 12288,
+  "timeout_seconds": 120,
+  "rlimit_as_bytes": 536870912,
+  "stdout": "dd2-am-fv1.stdout.json",
+  "stderr": "dd2-am-fv1.stderr.txt",
+  "resources": "dd2-am-fv1.resources.txt",
+  "tested_nonzero_ternary_vectors": 6648,
+  "modular_nullity_checks": 4736,
+  "fiber_settings": 8,
+  "finite_prime_list_runs": 3,
+  "scope": "Exact finite norm/divisibility/fiber/prime-construction controls; not asymptotic theorem certification or Linnik reproof."
+}

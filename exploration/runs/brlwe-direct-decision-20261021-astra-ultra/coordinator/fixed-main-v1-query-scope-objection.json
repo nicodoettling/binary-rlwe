@@ -1,0 +1,19 @@
+{
+  "clock": {
+    "checked_at": "2026-10-21T13:32:26.156425+00:00",
+    "elapsed_seconds": 4405.874436,
+    "phase": "discovery",
+    "cap_state": "running",
+    "cap_updated_at": "2026-10-21T12:19:00.377452+00:00",
+    "actual_start": "2026-10-21T12:19:00.281989+00:00",
+    "graceful_shutdown_at": "2026-10-21T16:17:55.281989+00:00",
+    "hard_deadline_at": "2026-10-21T16:19:00.281989+00:00"
+  },
+  "claim": "FIXED-MAIN-v1 closing sentence",
+  "source_sha256": "d12458eca020f381af78afa20fb0d7ec774759ba0b22a48be985d4fa69150b80",
+  "observer": "root",
+  "status": "LITERAL_QUERY_LAW_WORDING_NEEDS_REPAIR",
+  "finding": "D0 target promise uses exact coefficient product DG law. Actual algorithm D0 calls include rounded/hybrid/off-promise inputs; exact target law is not claimed for each execution. MR pays full two-endpoint statistical loss before using advantage; all-input code premise covers arbitrary query runtime.",
+  "proposed_replacement": "All D0 executions use the one prescribed modulus q0. Their inputs may be off promise; the assumed advantage concerns only the exact target law above, and the explicit MR bound pays the statistical transfer loss.",
+  "review_handling": "v1 remains frozen until first reports; FULL2 informed; BLIND2 not exposed to author discussion. Repaired exact bytes require rechecks."
+}

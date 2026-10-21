@@ -1,0 +1,80 @@
+{
+  "arithmetic": "exact Python integers and Fraction",
+  "checks": {
+    "extractor_hybrid_law": {
+      "all_fixed_CRT_error_vectors": 25,
+      "cases": 1000,
+      "k0": 1,
+      "n": 2,
+      "q": 5,
+      "result": "PASS",
+      "roots": [
+        2,
+        3
+      ]
+    },
+    "rounding_identity": {
+      "cases": 55664,
+      "error_box": [
+        -3,
+        3
+      ],
+      "n": 2,
+      "pairs": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          7,
+          7
+        ]
+      ],
+      "result": "PASS"
+    },
+    "ternary_norm_collisions": {
+      "max_collision_prime_product": 1649,
+      "max_norm": 2401,
+      "n": 8,
+      "nonzero_ternary_vectors": 6560,
+      "primes": [
+        17,
+        97,
+        113
+      ],
+      "result": "PASS"
+    }
+  },
+  "max_rss_kib": 16384,
+  "seed": null,
+  "source_sha256": "9931b6ce52f3be398974b27952daf1b3d79a22a55e4706bf7c6229f6831f4cd1",
+  "wall_seconds": 1.4996864480199292
+}

@@ -1,0 +1,21 @@
+{
+  "reviewed_at": "2026-10-21T13:50:22.003968+00:00",
+  "exact_statement_sha256": "25da2502104e746d3e9f2ca10e3d070372ff95b853b1fd2b0e6c96b1b909ecb6",
+  "exact_proof_sha256": "2e98d25b0f349e22dfeb23ba5ea18ebe339039fa08fb39f92cf45afa9f50f0c7",
+  "verdict": "PASS_WITH_STATED_SCOPE",
+  "wording_v1": "REJECTED_LITERAL_SCOPE_SENTENCE (sealed and unchanged)",
+  "wording_v2": "RESOLVED_EXACT_VERSION",
+  "optional_note": "PASS_ANALYTIC_ONLY_NOT_MAIN_DEPENDENCY",
+  "core_v1_audit_retained_by_seal": "72fc3e7fae66041f0d9b23b4c5e36634963daa504bfff828bf700d00303b5d5d",
+  "source_complexity_report_sha256": "2484a3bc796fdf1434d27f6d117ca3265e4a760fecf13388acd7c775beef8416",
+  "regression_count": 200,
+  "limits": [
+    "Norm-restricted source only",
+    "Hardness of source family unproved",
+    "Fixed b,c chosen before target parameters",
+    "All evaluator/input/oracle-code costs charged",
+    "No quantum composition",
+    "Optional premise witness is exponential-time",
+    "No BLIND2 exposure"
+  ]
+}

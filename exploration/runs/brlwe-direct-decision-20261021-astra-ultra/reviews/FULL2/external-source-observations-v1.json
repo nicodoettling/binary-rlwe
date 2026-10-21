@@ -1,0 +1,19 @@
+[
+  {
+    "source": "Xylouris2011",
+    "url": "https://www.impan.pl/shop/en/publication/transaction/download/product/83078",
+    "doi": "10.4064/aa150-1-4",
+    "access": "Built-in web direct primary publisher PDF; extracted text inspected at printed pp65\u201366 Theorem1.1.",
+    "observed_fact": "For coprime positive residue/modulus, least prime is at most C times modulus^5.18, with effectively computable absolute C.",
+    "binary_pdf_sha256": null,
+    "limitation": "No binary PDF downloaded locally; this observation record is hashed, not represented as a PDF byte hash."
+  },
+  {
+    "source": "BLP+2013",
+    "url": "https://arxiv.org/pdf/1306.0281",
+    "access": "Built-in web direct primary arXivv1 PDF; introduction printed p3 extracted text inspected.",
+    "observed_fact": "Scaling/rounding and small secrets are established techniques; Gaussian randomized rounding addresses artifacts, and resource-dependent noise/modulus choices give a weaker scope.",
+    "binary_pdf_sha256": null,
+    "limitation": "Context only, not a ring theorem dependency; original binary bytes not downloaded."
+  }
+]

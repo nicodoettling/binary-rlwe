@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-10-21T13:50:39.372546+00:00",
+  "elapsed_seconds": 5499.090557,
+  "phase": "discovery",
+  "cap_state": "running",
+  "cap_updated_at": "2026-10-21T12:19:00.377452+00:00",
+  "actual_start": "2026-10-21T12:19:00.281989+00:00",
+  "graceful_shutdown_at": "2026-10-21T16:17:55.281989+00:00",
+  "hard_deadline_at": "2026-10-21T16:19:00.281989+00:00",
+  "event": "Both main reviews sealed; exact v2 blind repair accepted; root reconciling full2 final repair and regression scope",
+  "pending": [
+    "FULL2 v2 sealed receipt",
+    "Regression merge and dependency certification",
+    "Final package consistency and goal/usage receipts"
+  ],
+  "findings": [
+    "BLIND2 original and v2 reports read fully; FULL2 source/proof reports read fully",
+    "No mathematical numeric repair required; exact-call wording and polynomial-value prose corrected"
+  ]
+}

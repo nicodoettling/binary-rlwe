@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-10-21T12:31:22.069797+00:00",
+  "elapsed_seconds": 741.787808,
+  "phase": "discovery",
+  "cap_state": "running",
+  "cap_updated_at": "2026-10-21T12:19:00.377452+00:00",
+  "actual_start": "2026-10-21T12:19:00.281989+00:00",
+  "graceful_shutdown_at": "2026-10-21T16:17:55.281989+00:00",
+  "hard_deadline_at": "2026-10-21T16:19:00.281989+00:00",
+  "event": "Registered exact DD3 selected-root fiber experiment",
+  "pending": [
+    "Execute bounded DD3-CUBE-FV1",
+    "Review histogram versus actual-q controls",
+    "Continue DD1/DD2 alternatives"
+  ],
+  "findings": [
+    "Selected-functional theta interface frozen PROVISIONAL"
+  ]
+}

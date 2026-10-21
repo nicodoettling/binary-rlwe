@@ -1,0 +1,3 @@
+# BLIND1 checkpoint 01
+
+Read frozen statements, manifest, allowed sources, audit skill/protocol/regressions and operational cap/deadlines; inherited interfaces, C8 theorem and algorithm only. No author proof or current verdict exposure. Initial source-read attempt of coordinator/deadlines.json at repository root failed; correct run-relative operational path then read. Initial Python archival command failed because python unavailable; python3 retry succeeded. No experiments run. Current analysis: reconstruct extractor conditioning; prove fiber collision bound; prove Gaussian selected-functional inequality; verify common C8 parameters and exact outer verification.

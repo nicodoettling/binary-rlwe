@@ -1,0 +1,74 @@
+[
+  {
+    "claim": "A-FRAC-v1",
+    "kind": "theorem",
+    "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/A/fractional-composition/theorem-only-v1.md",
+    "sha256": "5c471744bb04c8149b0d539eaa26e1544d0ba8097b0d68ea019cabb74461b485",
+    "acceptance": "ACCEPTED_CONDITIONAL_ANALYTIC",
+    "match": true
+  },
+  {
+    "claim": "A-FRAC-v1",
+    "kind": "proof",
+    "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/A/fractional-composition/proof-v1.md",
+    "sha256": "f4c889a64173135b2e29cebeb8190f352b1d4de6ada77f37a3f7c4f3ec797af2",
+    "acceptance": "ACCEPTED_CONDITIONAL_ANALYTIC",
+    "match": true
+  },
+  {
+    "claim": "B-GP-v2",
+    "kind": "theorem",
+    "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/B/ideal-denominator/gaussian-periodic-theorem-v2.md",
+    "sha256": "be7f05d67fc8f2b24fc6b93321c95005f4d7f6e24bab513b2cbaf35c82aeaad7",
+    "acceptance": "ACCEPTED_CONDITIONAL_FINITE_BRIDGE",
+    "match": true
+  },
+  {
+    "claim": "B-GP-v2",
+    "kind": "proof",
+    "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/B/ideal-denominator/gaussian-periodic-proof-v2.md",
+    "sha256": "207a9af38eb570e2a140d88008c0f4bc363f7d3c8a72049c53bbab85798910b4",
+    "acceptance": "ACCEPTED_CONDITIONAL_FINITE_BRIDGE",
+    "match": true
+  },
+  {
+    "claim": "C-OHCP-v8",
+    "kind": "theorem",
+    "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/c8-repair/multiplier-ohcp-theorem-v8.md",
+    "sha256": "857a62e9f4a937a80e5cb3b115c8b132abf122c16665d29b39dcb62bde86fe0a",
+    "acceptance": "ACCEPTED_CONDITIONAL_COMPUTATIONAL_INTERFACE",
+    "match": true
+  },
+  {
+    "claim": "C-OHCP-v8",
+    "kind": "proof",
+    "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/c8-repair/multiplier-ohcp-proof-v9.md",
+    "sha256": "e9b3023715a3d4ec90c474aba6945223aa376248b1fa216134964a5643fb4c5f",
+    "acceptance": "ACCEPTED_CONDITIONAL_COMPUTATIONAL_INTERFACE",
+    "match": true
+  },
+  {
+    "claim": "C-OHCP-v8",
+    "kind": "algorithm",
+    "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/c8-repair/multiplier-ohcp-algorithm-v2.md",
+    "sha256": "4361c90a7fa7cfe25d0ab3e8cd5c5333fb474cf1fb764375e10c29fca5102735",
+    "acceptance": "ACCEPTED_CONDITIONAL_COMPUTATIONAL_INTERFACE",
+    "match": true
+  },
+  {
+    "claim": "M3-ENTROPY-v1",
+    "kind": "theorem",
+    "path": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/workers/B/theorem-only-v1.md",
+    "sha256": "6e71289b7e9979ad169d1008d2e40f2cdb3f09f1bd7a29b48e41c90431e6becd",
+    "acceptance": "ab-acceptance-v1 exact scoped acceptance",
+    "match": true
+  },
+  {
+    "claim": "M3-ENTROPY-v1",
+    "kind": "proof",
+    "path": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/workers/B/proof-v1.md",
+    "sha256": "0b67d511c9bfc43f5a7fdbc51102f983471a1095bd0612efcd66ee82395c6fab",
+    "acceptance": "ab-acceptance-v1 exact scoped acceptance",
+    "match": true
+  }
+]

@@ -1,0 +1,92 @@
+{
+  "clock": {
+    "checked_at": "2026-10-21T13:57:49.404948+00:00",
+    "elapsed_seconds": 5929.122959,
+    "phase": "discovery",
+    "cap_state": "running",
+    "cap_updated_at": "2026-10-21T12:19:00.377452+00:00",
+    "actual_start": "2026-10-21T12:19:00.281989+00:00",
+    "graceful_shutdown_at": "2026-10-21T16:17:55.281989+00:00",
+    "hard_deadline_at": "2026-10-21T16:19:00.281989+00:00"
+  },
+  "jobs": [
+    {
+      "id": "DD3-CUBE-FV1",
+      "exit_code": 0,
+      "receipt": "experiments/DD3-CUBE-FV1.receipt.json",
+      "receipt_sha256": "33f79a8a0c057db232c6f1f79dd1015c1bd6b92efe2c777183a0aadd204b1c7a"
+    },
+    {
+      "id": "DD1-FV1",
+      "exit_code": 0,
+      "receipt": "workers/DD1/finite_controls_v1.receipt.json",
+      "receipt_sha256": "ec9cd97c68856ffb8bc4cd8c09face5ab2602c297545ade6039fc63f168154c2"
+    },
+    {
+      "id": "DD2-FV1",
+      "exit_code": 0,
+      "receipt": "workers/DD2/dd2-fv1-receipt.json",
+      "receipt_sha256": "b9ad671d5dd59601b80ac933084ffc2a0b8241c34f82b99297150e4df3d10b7e"
+    },
+    {
+      "id": "DD1-EXTRACT-FV1",
+      "exit_code": 0,
+      "receipt": "workers/DD1/extraction_finite_v1.receipt.json",
+      "receipt_sha256": "e1b682c277d192d8aa8895bb1f84cd985896a8b01d96be91ad54f9192fc41de3"
+    },
+    {
+      "id": "DD2-AM-FV1",
+      "exit_code": 0,
+      "receipt": "workers/DD2/dd2-am-fv1-receipt.json",
+      "receipt_sha256": "2a792bd8b2f45773a442dd2bda280239d08367cda6ed8d8a30372fdf211d87ac"
+    },
+    {
+      "id": "MR-FV1",
+      "exit_code": 1,
+      "receipt": "experiments/MR-FV1.receipt.json",
+      "receipt_sha256": "29505ea71537740eca9bf52e2f64c2776c36cc9890eebbdfbcd9b6b371d0d882"
+    },
+    {
+      "id": "MR-FV2",
+      "exit_code": 0,
+      "receipt": "experiments/MR-FV2.receipt.json",
+      "receipt_sha256": "4a29d8fb8ca4e4dde21a5b485e00c42d159c77df48658f02ae5a8ebd5b9f25d2"
+    },
+    {
+      "id": "DD1-SFUNC-FV1",
+      "exit_code": 0,
+      "receipt": "workers/DD1/sfunc_finite_v1.receipt.json",
+      "receipt_sha256": "4fab51dcf7c3c9fcfe682ce555384f76b121e03f5afa0aed9b1a78c8b1b3ad9a"
+    },
+    {
+      "id": "FULL1-FV1",
+      "exit_code": 0,
+      "receipt": "reviews/FULL1/finite_controls_v1.receipt.json",
+      "receipt_sha256": "31c9c25058709ab52ca1d507256defb833704540f5666525d6e1a51b012c2655"
+    },
+    {
+      "id": "BLIND1-EXACT-01",
+      "exit_code": 0,
+      "receipt": "reviews/BLIND1/experiments/exact_checks_01.status.json",
+      "receipt_sha256": "acdcf0c23640888edc19385eeb674fa4077da0f04632e0782193660b368d8124"
+    },
+    {
+      "id": "FULL2-FV1",
+      "exit_code": 0,
+      "receipt": "reviews/FULL2/finite_controls_v1.receipt.json",
+      "receipt_sha256": "014cb56bdc1a693d98599dbb22ed0699879efafeea601d9bc8346e03d725b2da"
+    },
+    {
+      "id": "BLIND2-FV1",
+      "exit_code": 0,
+      "receipt": "reviews/BLIND2/finite-status.json",
+      "receipt_sha256": "c992a1c376d59125074a8480ecaee607e672b4056be540c597ce6f74a9d0d2e3"
+    }
+  ],
+  "count": 12,
+  "successful": 11,
+  "failed": 1,
+  "failure_scope": "MR-FV1 decimal logging; original bytes retained; separately preregistered v2 changes hash encoding only",
+  "active_experiments": 0,
+  "scope": "No scientific jobs launched during this reconciliation; no aggregate memory cap claimed"
+}

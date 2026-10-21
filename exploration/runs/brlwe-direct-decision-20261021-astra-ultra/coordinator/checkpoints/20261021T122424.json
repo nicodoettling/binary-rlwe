@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-10-21T12:24:24.542280+00:00",
+  "elapsed_seconds": 324.260291,
+  "phase": "discovery",
+  "cap_state": "running",
+  "cap_updated_at": "2026-10-21T12:19:00.377452+00:00",
+  "actual_start": "2026-10-21T12:19:00.281989+00:00",
+  "graceful_shutdown_at": "2026-10-21T16:17:55.281989+00:00",
+  "hard_deadline_at": "2026-10-21T16:19:00.281989+00:00",
+  "event": "Startup complete; 164 regression IDs referenced; three total active agents",
+  "pending": [
+    "Trace PRS17 and inherited C8 exact interface",
+    "DD1 narrow-response witness and alternatives",
+    "DD2 integral cancellation and discrete conversion",
+    "DD3 noise-profile intermediate"
+  ],
+  "findings": [
+    "New goal active; no historical thread mutation",
+    "No new claim accepted"
+  ]
+}

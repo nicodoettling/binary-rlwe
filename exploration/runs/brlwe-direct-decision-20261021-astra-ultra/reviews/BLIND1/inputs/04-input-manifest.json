@@ -1,0 +1,23 @@
+{
+  "created_at": "2026-10-21T12:55:17.531922+00:00",
+  "new_statement_version": "AM-MAIN-v2",
+  "new_packet_files": {
+    "fiber-statement.md": "ccf4ddfdd7939372bbd58cdfd4fb34d2a6b51c8910fd6610033719fe8077352f",
+    "functional-statement.md": "fdd6f137cf243092a17d3ebfe73939b81b69051e09fb86209b260caaa796d639",
+    "extraction-statement.md": "8617dfdeb1b79f71e5d6531c4514d397ed946fde2adee4e7e2d5dcf5bcefb5af",
+    "prime-list-statement.md": "c0585251bbdb70d8b2a98b0d8a9f67c59b5d379c22f5c0ed6ff9a73e1b71120f",
+    "main-statement.md": "6a4d5d38d74954007ac8ba9047484153a2d7cc033c96350e8fead2ea0d9d6b08",
+    "allowed-sources.md": "b64f2373f9a3aff4883d866fa3db526d5ed696c32bad11b055ab580ce4b53335"
+  },
+  "allowed_inherited_sources": {
+    "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/RF4/same-j-composition/interface-statements-v1.md": "25a78ebcc36d3cd31568f12dd36ee233490509dab8684d4656002a528bb0fab8",
+    "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/c8-repair/multiplier-ohcp-theorem-v8.md": "857a62e9f4a937a80e5cb3b115c8b132abf122c16665d29b39dcb62bde86fe0a",
+    "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/c8-repair/multiplier-ohcp-algorithm-v2.md": "4361c90a7fa7cfe25d0ab3e8cd5c5333fb474cf1fb764375e10c29fca5102735",
+    "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/A/fractional-composition/proof-v1.md": "f4c889a64173135b2e29cebeb8190f352b1d4de6ada77f37a3f7c4f3ec797af2",
+    "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/workers/B/theorem-only-v1.md": "6e71289b7e9979ad169d1008d2e40f2cdb3f09f1bd7a29b48e41c90431e6becd",
+    "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/workers/B/proof-v1.md": "0b67d511c9bfc43f5a7fdbc51102f983471a1095bd0612efcd66ee82395c6fab",
+    "exploration/direct-decision-20261021/inputs/PRS17.txt": "a4f797010b84adca8c0f30256165c92d05047db5b7d0ec3b0d8e09063199941d",
+    "literature/2017-258.pdf": "62e29f112a70b417678b0193c87911de190fc91ecd2acbd9f8385ddcbc3b07a5"
+  },
+  "exposure_policy": "Read only packet statements/definitions and listed historical or primary sources, plus operational cap/deadlines and mandatory audit skill. No current proof, status, summaries, worker reports, agent listings, logs or outcome-seeking context. Preserve complete read log and freeze report before exposure expansion."
+}

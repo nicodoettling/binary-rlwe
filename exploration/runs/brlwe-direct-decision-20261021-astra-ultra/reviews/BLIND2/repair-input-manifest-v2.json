@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-10-21T13:44:33.164150+00:00",
+  "scope": "Exact statement-only recheck after sealed independent report; no author proof or other reviewer report supplied",
+  "main_source": "coordinator/fixed-main-statement-v2.md",
+  "main_source_sha256": "25da2502104e746d3e9f2ca10e3d070372ff95b853b1fd2b0e6c96b1b909ecb6",
+  "sanitization": "Remove only paragraph beginning PROVISIONAL.; no mathematical text changed",
+  "files": {
+    "fixed-main-statement-v2.md": "3358158fb5f138b584de4dc726c63b21af58b2f669fc0f291bcef62826a80359",
+    "nonvacuity-statement.md": "0e4642921bb9e6a63c2c087357bd1a216b57bdc1f126e0486f06a12e0d9144bf"
+  },
+  "unchanged_dependencies": "All initial BLIND2 statement packet and permitted inherited sources remain the same exact bytes"
+}

@@ -1,0 +1,281 @@
+{
+  "jobs": [
+    {
+      "id": "DD3-CUBE-FV1",
+      "status": "COMPLETED_RECONCILED",
+      "registered_at": "2026-10-21T12:31:22.069143+00:00",
+      "owner": "root",
+      "code": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/experiments/dd3_cube_fibers_v1.py",
+      "code_sha256": "dad7ebdd9c6671557f7354b7c80ec6ae43dc9bb3a8f635e126ef4c4980f0ecb7",
+      "inputs": {
+        "n": [
+          2,
+          4,
+          8,
+          16
+        ],
+        "a": "distinct 0,n/4,n/2,3n/4,n-1 floored",
+        "q": "least split prime >=2n+1, and >=n*sigma; capped 100000 candidates",
+        "sigma": "8 n^2 ceil(sqrt(n)) ceil(log2(2n))^4",
+        "seed": "deterministic exhaustive",
+        "bits": "q below 2^64; n<=16, 65536 cube vertices maximum"
+      },
+      "hypothesis": "Selected-root guessing fiber statistic differs from whole-secret guessing; quantify on exact eligible ramified ideals at small control and actual q lower bound.",
+      "expected_outcomes": "Exact fractions, root-dependent and selected counts; no asymptotic conclusion. High q may make root functional injective on small fibers.",
+      "estimated_resources": {
+        "wall_seconds": 30,
+        "rss_MiB": 100
+      },
+      "limits": {
+        "wall_seconds": 120,
+        "kill_grace_seconds": 5,
+        "address_space_bytes": 536870912
+      },
+      "command": [
+        "/usr/bin/timeout",
+        "--signal=TERM",
+        "--kill-after=5s",
+        "120s",
+        "/usr/bin/prlimit",
+        "--as=536870912",
+        "/usr/bin/time",
+        "-v",
+        "-o",
+        "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/experiments/DD3-CUBE-FV1.resources.txt",
+        "python3",
+        "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/experiments/dd3_cube_fibers_v1.py"
+      ],
+      "stdout": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/experiments/DD3-CUBE-FV1.stdout.json",
+      "stderr": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/experiments/DD3-CUBE-FV1.stderr.txt",
+      "clock": {
+        "checked_at": "2026-10-21T12:31:22.069256+00:00",
+        "elapsed_seconds": 741.787267,
+        "phase": "discovery",
+        "cap_state": "running",
+        "cap_updated_at": "2026-10-21T12:19:00.377452+00:00",
+        "actual_start": "2026-10-21T12:19:00.281989+00:00",
+        "graceful_shutdown_at": "2026-10-21T16:17:55.281989+00:00",
+        "hard_deadline_at": "2026-10-21T16:19:00.281989+00:00"
+      },
+      "receipt": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/experiments/DD3-CUBE-FV1.receipt.json",
+      "check_depth": "Root read complete preregistration/receipt/output/resource evidence; reviewer checks and frozen seals supplement it. Finite falsification only, no full decoder execution."
+    },
+    {
+      "id": "DD1-FV1",
+      "status": "COMPLETED_RECONCILED",
+      "preregistration": "workers/DD1/experiment-prereg-v1.md",
+      "receipt": "workers/DD1/finite_controls_v1.receipt.json",
+      "owner": "DD1",
+      "full_evidence": "Exact worker preregistration/output/resource paths retained and root-reconciled.",
+      "coordination": "Permission for global lightweight slot recorded; max two simultaneous maintained",
+      "check_depth": "Root read complete preregistration/receipt/output/resource evidence; reviewer checks and frozen seals supplement it. Finite falsification only, no full decoder execution."
+    },
+    {
+      "id": "DD2-FV1",
+      "status": "COMPLETED_RECONCILED",
+      "preregistration": "workers/DD2/dd2-fv1-preregistration.md",
+      "receipt": "workers/DD2/dd2-fv1-receipt.json",
+      "owner": "DD2",
+      "full_evidence": "Exact worker preregistration/output/resource paths retained and root-reconciled.",
+      "coordination": "Permission for global lightweight slot recorded; max two simultaneous maintained",
+      "check_depth": "Root read complete preregistration/receipt/output/resource evidence; reviewer checks and frozen seals supplement it. Finite falsification only, no full decoder execution."
+    },
+    {
+      "id": "DD1-EXTRACT-FV1",
+      "status": "COMPLETED_RECONCILED",
+      "preregistration": "workers/DD1/extraction-prereg-v1.md",
+      "receipt": "workers/DD1/extraction_finite_v1.receipt.json",
+      "owner": "DD1",
+      "full_evidence": "Exact worker preregistration/output/resource paths retained and root-reconciled.",
+      "coordination": "Permission for global lightweight slot recorded; max two simultaneous maintained",
+      "check_depth": "Root read complete preregistration/receipt/output/resource evidence; reviewer checks and frozen seals supplement it. Finite falsification only, no full decoder execution."
+    },
+    {
+      "id": "DD2-AM-FV1",
+      "status": "COMPLETED_RECONCILED",
+      "preregistration": "workers/DD2/dd2-am-fv1-preregistration.md",
+      "receipt": "workers/DD2/dd2-am-fv1-receipt.json",
+      "owner": "DD2",
+      "full_evidence": "Exact worker preregistration/output/resource paths retained and root-reconciled.",
+      "coordination": "Permission for global lightweight slot recorded; max two simultaneous maintained",
+      "check_depth": "Root read complete preregistration/receipt/output/resource evidence; reviewer checks and frozen seals supplement it. Finite falsification only, no full decoder execution."
+    },
+    {
+      "id": "MR-FV1",
+      "status": "FAILED_LOGGING_PRESERVED",
+      "clock": {
+        "checked_at": "2026-10-21T13:14:35.131365+00:00",
+        "elapsed_seconds": 3334.849376,
+        "phase": "discovery",
+        "cap_state": "running",
+        "cap_updated_at": "2026-10-21T12:19:00.377452+00:00",
+        "actual_start": "2026-10-21T12:19:00.281989+00:00",
+        "graceful_shutdown_at": "2026-10-21T16:17:55.281989+00:00",
+        "hard_deadline_at": "2026-10-21T16:19:00.281989+00:00"
+      },
+      "owner": "root",
+      "code": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/experiments/modround_finite_v1.py",
+      "code_sha256": "9a3c49aeda2499046c947906d975e97cad9141c9ee7799ff83d695d4d016a4b4",
+      "inputs": {
+        "seed": "deterministic exhaustive",
+        "n": [
+          2
+        ],
+        "moduli": "exact identity Q<=16; scalar Q<=65537",
+        "bit_sizes": "exact rounding small rational; Gaussian rational weights <=57600-bit exponents; numeric controls explicitly labeled",
+        "dimensions": "at most k=2,n=2 for full laws"
+      },
+      "hypothesis": "Translation-equivariant modulus rounding preserves the same binary secret; exact conditional residual identity and biased public fibers; scalar discrete-Gaussian TV obeys MR bound.",
+      "expected_outcomes": "Identity equality, nonzero public bias where q does not divide Q, retained shared-secret law; scalar TV below explicit coarse bound. Finite controls do not prove infinite theorem.",
+      "estimated_resources": {
+        "wall_seconds": 45,
+        "rss_MiB": 100
+      },
+      "limits": {
+        "wall_seconds": 120,
+        "cpu_seconds": 110,
+        "address_space_bytes": 536870912
+      },
+      "command": [
+        "/usr/bin/timeout",
+        "--signal=TERM",
+        "--kill-after=5s",
+        "120s",
+        "/usr/bin/prlimit",
+        "--as=536870912",
+        "--cpu=110",
+        "/usr/bin/time",
+        "-v",
+        "-o",
+        "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/experiments/MR-FV1.resources.txt",
+        "python3",
+        "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/experiments/modround_finite_v1.py"
+      ],
+      "stdout": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/experiments/MR-FV1.stdout.json",
+      "stderr": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/experiments/MR-FV1.stderr.txt",
+      "receipt": "experiments/MR-FV1.receipt.json",
+      "check_depth": "Root read complete preregistration/receipt/output/resource evidence; reviewer checks and frozen seals supplement it. Finite falsification only, no full decoder execution."
+    },
+    {
+      "id": "MR-FV2",
+      "status": "COMPLETED_RECONCILED",
+      "clock": {
+        "checked_at": "2026-10-21T13:15:04.480962+00:00",
+        "elapsed_seconds": 3364.198973,
+        "phase": "discovery",
+        "cap_state": "running",
+        "cap_updated_at": "2026-10-21T12:19:00.377452+00:00",
+        "actual_start": "2026-10-21T12:19:00.281989+00:00",
+        "graceful_shutdown_at": "2026-10-21T16:17:55.281989+00:00",
+        "hard_deadline_at": "2026-10-21T16:19:00.281989+00:00"
+      },
+      "owner": "root",
+      "code": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/experiments/modround_finite_v2.py",
+      "code_sha256": "e6e5bb1a9e3086ab8154a6e3ceab28c0deeb4e51849c6f6abac67a5cccfdba15",
+      "inputs": {
+        "seed": "deterministic exhaustive",
+        "n": [
+          2
+        ],
+        "moduli": "exact identity Q<=16; scalar Q<=65537",
+        "bit_sizes": "exact rounding small rational; Gaussian rational weights <=57600-bit exponents; numeric controls explicitly labeled",
+        "dimensions": "at most k=2,n=2 for full laws"
+      },
+      "hypothesis": "Translation-equivariant modulus rounding preserves the same binary secret; exact conditional residual identity and biased public fibers; scalar discrete-Gaussian TV obeys MR bound.",
+      "expected_outcomes": "Identity equality, nonzero public bias where q does not divide Q, retained shared-secret law; scalar TV below explicit coarse bound. Finite controls do not prove infinite theorem.",
+      "estimated_resources": {
+        "wall_seconds": 45,
+        "rss_MiB": 100
+      },
+      "limits": {
+        "wall_seconds": 120,
+        "cpu_seconds": 110,
+        "address_space_bytes": 536870912
+      },
+      "command": [
+        "/usr/bin/timeout",
+        "--signal=TERM",
+        "--kill-after=5s",
+        "120s",
+        "/usr/bin/prlimit",
+        "--as=536870912",
+        "--cpu=110",
+        "/usr/bin/time",
+        "-v",
+        "-o",
+        "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/experiments/MR-FV2.resources.txt",
+        "python3",
+        "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/experiments/modround_finite_v2.py"
+      ],
+      "stdout": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/experiments/MR-FV2.stdout.json",
+      "stderr": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/experiments/MR-FV2.stderr.txt",
+      "repair": "Only rational-hash logging avoids Python 4300-decimal-digit string limit. MR-FV1 failure retained; no theorem change.",
+      "receipt": "experiments/MR-FV2.receipt.json",
+      "check_depth": "Root read complete preregistration/receipt/output/resource evidence; reviewer checks and frozen seals supplement it. Finite falsification only, no full decoder execution."
+    },
+    {
+      "id": "DD1-SFUNC-FV1",
+      "owner": "DD1",
+      "status": "COMPLETED_RECONCILED",
+      "preregistration": "workers/DD1/sfunc-prereg-v1.md",
+      "receipt": "workers/DD1/sfunc_finite_v1.receipt.json",
+      "coordination": "Root granted light slot before execution; complete evidence retained in reviewer/worker directory",
+      "check_depth": "Root read complete preregistration/receipt/output/resource evidence; reviewer checks and frozen seals supplement it. Finite falsification only, no full decoder execution."
+    },
+    {
+      "id": "FULL1-FV1",
+      "owner": "FULL1",
+      "status": "COMPLETED_RECONCILED",
+      "preregistration": "reviews/FULL1/finite_controls_v1.preregistration.md",
+      "receipt": "reviews/FULL1/finite_controls_v1.receipt.json",
+      "coordination": "Root granted light slot before execution; complete evidence retained in reviewer/worker directory",
+      "check_depth": "Root read complete preregistration/receipt/output/resource evidence; reviewer checks and frozen seals supplement it. Finite falsification only, no full decoder execution."
+    },
+    {
+      "id": "BLIND1-EXACT-01",
+      "owner": "BLIND1",
+      "status": "COMPLETED_RECONCILED",
+      "preregistration": "reviews/BLIND1/experiment-registration-01.json",
+      "receipt": "reviews/BLIND1/experiments/exact_checks_01.status.json",
+      "coordination": "Root granted light slot before execution; complete evidence retained in reviewer/worker directory",
+      "check_depth": "Root read complete preregistration/receipt/output/resource evidence; reviewer checks and frozen seals supplement it. Finite falsification only, no full decoder execution."
+    },
+    {
+      "id": "FULL2-FV1",
+      "owner": "FULL2",
+      "status": "COMPLETED_RECONCILED",
+      "preregistration": "reviews/FULL2/finite_controls_v1.preregistration.json",
+      "receipt": "reviews/FULL2/finite_controls_v1.receipt.json",
+      "coordination": "Root granted light slot before execution; complete evidence retained in reviewer/worker directory",
+      "check_depth": "Root read complete preregistration/receipt/output/resource evidence; reviewer checks and frozen seals supplement it. Finite falsification only, no full decoder execution.",
+      "stdout": "reviews/FULL2/finite_controls_v1.stdout.json",
+      "stderr": "reviews/FULL2/finite_controls_v1.stderr.txt",
+      "resources": "reviews/FULL2/finite_controls_v1.resources.txt"
+    },
+    {
+      "id": "BLIND2-FV1",
+      "owner": "BLIND2",
+      "status": "COMPLETED_RECONCILED",
+      "preregistration": "reviews/BLIND2/finite-preregistration.md",
+      "code": "reviews/BLIND2/finite-checks.py",
+      "stdout": "reviews/BLIND2/finite-stdout.json",
+      "stderr": "reviews/BLIND2/finite-stderr.txt",
+      "resources": "reviews/BLIND2/finite-resources.txt",
+      "exit_code": 0,
+      "elapsed_seconds": 1.52,
+      "maximum_rss_KiB": 16384,
+      "coordination": "Root slot grant before execution; FULL2 finished before this job",
+      "check_depth": "Root read complete preregistration/receipt/output/resource evidence; reviewer checks and frozen seals supplement it. Finite falsification only, no full decoder execution."
+    }
+  ],
+  "policy": {
+    "default_wall_seconds": 120,
+    "maximum_wall_seconds": 300,
+    "maximum_address_space_bytes": 17179869184,
+    "maximum_simultaneous": 2,
+    "maximum_heavy_simultaneous": 1,
+    "aggregate_memory_cap_claimed": false,
+    "require_preregistration": true
+  },
+  "last_reconciled_at": "2026-10-21T13:57:49.404423+00:00"
+}

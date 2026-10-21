@@ -1,0 +1,449 @@
+{
+  "test": "DD1-EXTRACT-FV1",
+  "status": "PASS",
+  "full_joint_law_cases": 40,
+  "classification_cases": 5832,
+  "excluded_gap_4a_tie": true,
+  "rows": [
+    {
+      "s": [
+        0,
+        0
+      ],
+      "j": 1,
+      "guess": 0,
+      "truth": 0,
+      "expected_hybrid": 0,
+      "joint_support": 225
+    },
+    {
+      "s": [
+        0,
+        0
+      ],
+      "j": 1,
+      "guess": 1,
+      "truth": 0,
+      "expected_hybrid": 1,
+      "joint_support": 625
+    },
+    {
+      "s": [
+        0,
+        0
+      ],
+      "j": 1,
+      "guess": 2,
+      "truth": 0,
+      "expected_hybrid": 1,
+      "joint_support": 625
+    },
+    {
+      "s": [
+        0,
+        0
+      ],
+      "j": 1,
+      "guess": 3,
+      "truth": 0,
+      "expected_hybrid": 1,
+      "joint_support": 625
+    },
+    {
+      "s": [
+        0,
+        0
+      ],
+      "j": 1,
+      "guess": 4,
+      "truth": 0,
+      "expected_hybrid": 1,
+      "joint_support": 625
+    },
+    {
+      "s": [
+        0,
+        0
+      ],
+      "j": 2,
+      "guess": 0,
+      "truth": 0,
+      "expected_hybrid": 1,
+      "joint_support": 625
+    },
+    {
+      "s": [
+        0,
+        0
+      ],
+      "j": 2,
+      "guess": 1,
+      "truth": 0,
+      "expected_hybrid": 2,
+      "joint_support": 625
+    },
+    {
+      "s": [
+        0,
+        0
+      ],
+      "j": 2,
+      "guess": 2,
+      "truth": 0,
+      "expected_hybrid": 2,
+      "joint_support": 625
+    },
+    {
+      "s": [
+        0,
+        0
+      ],
+      "j": 2,
+      "guess": 3,
+      "truth": 0,
+      "expected_hybrid": 2,
+      "joint_support": 625
+    },
+    {
+      "s": [
+        0,
+        0
+      ],
+      "j": 2,
+      "guess": 4,
+      "truth": 0,
+      "expected_hybrid": 2,
+      "joint_support": 625
+    },
+    {
+      "s": [
+        0,
+        1
+      ],
+      "j": 1,
+      "guess": 0,
+      "truth": 2,
+      "expected_hybrid": 1,
+      "joint_support": 625
+    },
+    {
+      "s": [
+        0,
+        1
+      ],
+      "j": 1,
+      "guess": 1,
+      "truth": 2,
+      "expected_hybrid": 1,
+      "joint_support": 625
+    },
+    {
+      "s": [
+        0,
+        1
+      ],
+      "j": 1,
+      "guess": 2,
+      "truth": 2,
+      "expected_hybrid": 0,
+      "joint_support": 225
+    },
+    {
+      "s": [
+        0,
+        1
+      ],
+      "j": 1,
+      "guess": 3,
+      "truth": 2,
+      "expected_hybrid": 1,
+      "joint_support": 625
+    },
+    {
+      "s": [
+        0,
+        1
+      ],
+      "j": 1,
+      "guess": 4,
+      "truth": 2,
+      "expected_hybrid": 1,
+      "joint_support": 625
+    },
+    {
+      "s": [
+        0,
+        1
+      ],
+      "j": 2,
+      "guess": 0,
+      "truth": 3,
+      "expected_hybrid": 2,
+      "joint_support": 625
+    },
+    {
+      "s": [
+        0,
+        1
+      ],
+      "j": 2,
+      "guess": 1,
+      "truth": 3,
+      "expected_hybrid": 2,
+      "joint_support": 625
+    },
+    {
+      "s": [
+        0,
+        1
+      ],
+      "j": 2,
+      "guess": 2,
+      "truth": 3,
+      "expected_hybrid": 2,
+      "joint_support": 625
+    },
+    {
+      "s": [
+        0,
+        1
+      ],
+      "j": 2,
+      "guess": 3,
+      "truth": 3,
+      "expected_hybrid": 1,
+      "joint_support": 625
+    },
+    {
+      "s": [
+        0,
+        1
+      ],
+      "j": 2,
+      "guess": 4,
+      "truth": 3,
+      "expected_hybrid": 2,
+      "joint_support": 625
+    },
+    {
+      "s": [
+        1,
+        0
+      ],
+      "j": 1,
+      "guess": 0,
+      "truth": 1,
+      "expected_hybrid": 1,
+      "joint_support": 625
+    },
+    {
+      "s": [
+        1,
+        0
+      ],
+      "j": 1,
+      "guess": 1,
+      "truth": 1,
+      "expected_hybrid": 0,
+      "joint_support": 225
+    },
+    {
+      "s": [
+        1,
+        0
+      ],
+      "j": 1,
+      "guess": 2,
+      "truth": 1,
+      "expected_hybrid": 1,
+      "joint_support": 625
+    },
+    {
+      "s": [
+        1,
+        0
+      ],
+      "j": 1,
+      "guess": 3,
+      "truth": 1,
+      "expected_hybrid": 1,
+      "joint_support": 625
+    },
+    {
+      "s": [
+        1,
+        0
+      ],
+      "j": 1,
+      "guess": 4,
+      "truth": 1,
+      "expected_hybrid": 1,
+      "joint_support": 625
+    },
+    {
+      "s": [
+        1,
+        0
+      ],
+      "j": 2,
+      "guess": 0,
+      "truth": 1,
+      "expected_hybrid": 2,
+      "joint_support": 625
+    },
+    {
+      "s": [
+        1,
+        0
+      ],
+      "j": 2,
+      "guess": 1,
+      "truth": 1,
+      "expected_hybrid": 1,
+      "joint_support": 625
+    },
+    {
+      "s": [
+        1,
+        0
+      ],
+      "j": 2,
+      "guess": 2,
+      "truth": 1,
+      "expected_hybrid": 2,
+      "joint_support": 625
+    },
+    {
+      "s": [
+        1,
+        0
+      ],
+      "j": 2,
+      "guess": 3,
+      "truth": 1,
+      "expected_hybrid": 2,
+      "joint_support": 625
+    },
+    {
+      "s": [
+        1,
+        0
+      ],
+      "j": 2,
+      "guess": 4,
+      "truth": 1,
+      "expected_hybrid": 2,
+      "joint_support": 625
+    },
+    {
+      "s": [
+        1,
+        1
+      ],
+      "j": 1,
+      "guess": 0,
+      "truth": 3,
+      "expected_hybrid": 1,
+      "joint_support": 625
+    },
+    {
+      "s": [
+        1,
+        1
+      ],
+      "j": 1,
+      "guess": 1,
+      "truth": 3,
+      "expected_hybrid": 1,
+      "joint_support": 625
+    },
+    {
+      "s": [
+        1,
+        1
+      ],
+      "j": 1,
+      "guess": 2,
+      "truth": 3,
+      "expected_hybrid": 1,
+      "joint_support": 625
+    },
+    {
+      "s": [
+        1,
+        1
+      ],
+      "j": 1,
+      "guess": 3,
+      "truth": 3,
+      "expected_hybrid": 0,
+      "joint_support": 225
+    },
+    {
+      "s": [
+        1,
+        1
+      ],
+      "j": 1,
+      "guess": 4,
+      "truth": 3,
+      "expected_hybrid": 1,
+      "joint_support": 625
+    },
+    {
+      "s": [
+        1,
+        1
+      ],
+      "j": 2,
+      "guess": 0,
+      "truth": 4,
+      "expected_hybrid": 2,
+      "joint_support": 625
+    },
+    {
+      "s": [
+        1,
+        1
+      ],
+      "j": 2,
+      "guess": 1,
+      "truth": 4,
+      "expected_hybrid": 2,
+      "joint_support": 625
+    },
+    {
+      "s": [
+        1,
+        1
+      ],
+      "j": 2,
+      "guess": 2,
+      "truth": 4,
+      "expected_hybrid": 2,
+      "joint_support": 625
+    },
+    {
+      "s": [
+        1,
+        1
+      ],
+      "j": 2,
+      "guess": 3,
+      "truth": 4,
+      "expected_hybrid": 2,
+      "joint_support": 625
+    },
+    {
+      "s": [
+        1,
+        1
+      ],
+      "j": 2,
+      "guess": 4,
+      "truth": 4,
+      "expected_hybrid": 1,
+      "joint_support": 625
+    }
+  ]
+}

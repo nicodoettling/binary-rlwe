@@ -1,0 +1,16 @@
+{
+  "experiment": "DD2-FV1",
+  "code_sha256": "e255197dc8c643e72629da06efc2558caa9c21deb788024ce75b80d429accc81",
+  "preregistration_sha256": "c8355f3e7b88e2cea9d6985bb7bfbd6a85e3989a0cbde5bf4a4e7f3501c5d450",
+  "root_slot_coordination": "Root stated Light job slot available now; proceed under preregistered limits before execution; slot released after completion.",
+  "completed_before_utc": "2026-10-21T12:35:20Z",
+  "exit_code": 0,
+  "wall_seconds": 0.04,
+  "peak_rss_kib": 12288,
+  "rlimit_as_bytes": 536870912,
+  "timeout_seconds": 120,
+  "stdout": "dd2-fv1.stdout.json",
+  "stderr": "dd2-fv1.stderr.txt",
+  "resources": "dd2-fv1.resources.txt",
+  "scope": "Exact finite controls with explicit scalar Gaussian tail; no asymptotic theorem certification or hardness claim."
+}

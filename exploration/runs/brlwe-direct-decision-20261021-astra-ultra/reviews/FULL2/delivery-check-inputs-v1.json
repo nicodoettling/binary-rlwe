@@ -1,0 +1,92 @@
+{
+  "scope": "Final delivery consistency; no new mathematics or experiments",
+  "inputs": [
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/run.log.brlwe-direct-decision-20261021-astra-ultra.cap-status.json",
+      "sha256": "1125c304bcf7847be37534799e152e360801babb02da82b5a36b080ad149ae1f",
+      "bytes": 3021,
+      "read_at": "2026-10-21T13:54:26.805085+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/deadlines.json",
+      "sha256": "c84289e147018da938f41e4987df4d557869803892df102844b885e224c7da83",
+      "bytes": 671,
+      "read_at": "2026-10-21T13:54:26.805183+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/final.md",
+      "sha256": "1c782a323ec8e56bf294195d0fe2e7176d5085010446ecab7342749b9364c44d",
+      "bytes": 10419,
+      "read_at": "2026-10-21T13:54:26.805265+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/claims.json",
+      "sha256": "77429fde22ced160c3c5d19132900b85bd5496506d4840b2a736dfb4a50b8976",
+      "bytes": 14236,
+      "read_at": "2026-10-21T13:54:26.805433+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/acceptance-v1.json",
+      "sha256": "ba065e4b5f569236839b2597882698ade120219a13551376b8a14af6d5d2e23e",
+      "bytes": 9212,
+      "read_at": "2026-10-21T13:54:26.805541+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "bytes": 334642,
+      "read_at": "2026-10-21T13:54:26.806001+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/target-v1.md",
+      "sha256": "5ef4395efe233ef017ed769f115a744dab18f22e8bb1ca2f6a3b568e3d480ff1",
+      "bytes": 2706,
+      "exposure": "full content",
+      "read_at": "2026-10-21T13:55:46.617497+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/goal-start-receipts.json",
+      "sha256": "e0ee2c59d1a04699685f4a9cde918d435406cbdfc5e7b25afeadce57affe533e",
+      "bytes": 868,
+      "exposure": "full content",
+      "read_at": "2026-10-21T13:55:46.617497+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/goal-pre-delivery-receipt.json",
+      "sha256": "d07159d7a078a2258c5456979636e6fd5cabcda2475090ac91a5bcbcdad16870",
+      "bytes": 734,
+      "exposure": "full content",
+      "read_at": "2026-10-21T13:55:46.617497+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/experiments/registry.json",
+      "sha256": "25f01663c57ae76e432c9ad02cbf78e7c726c4cd0aec1e052133f39615db8d93",
+      "bytes": 13144,
+      "exposure": "full content",
+      "read_at": "2026-10-21T13:55:46.617497+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/direct-decision-20261021/PLAN.md",
+      "sha256": "b9591561c747e1c49a375ccd7ed61acb349fd8e2fa947bf9af27a16e4680f519",
+      "bytes": 11028,
+      "exposure": "full content",
+      "read_at": "2026-10-21T13:55:46.617497+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/reviews/FULL2/source-complexity-report-v1.md",
+      "sha256": "2484a3bc796fdf1434d27f6d117ca3265e4a760fecf13388acd7c775beef8416",
+      "bytes": 11651,
+      "exposure": "Previously read fully in sealed review; source/scope passages consulted in this check (filtered output partly truncated)",
+      "read_at": "2026-10-21T13:57:39.160493+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/reviews/FULL2/exact-v2-recheck.md",
+      "sha256": "6335a0e592ffd7357140880bcb6fcabac33c50c41f5e85618d9b0955486a4150",
+      "bytes": 8517,
+      "exposure": "Previously read fully in sealed review; source/scope passages consulted in this check (filtered output partly truncated)",
+      "read_at": "2026-10-21T13:57:39.160493+00:00"
+    }
+  ],
+  "exposure_note": "Initial combined output was truncated; final.md was visible in full, claims/acceptance were reread separately in full, registry metadata and all 39 new disposition/reason fields were reread compactly. All164 inherited references and all200 FULL2-linked rows checked programmatically. BLIND2 metadata appears only inside root deliverables; no BLIND2 file read.",
+  "snapshot_note": "Root authorized sealing the exact read snapshot. Subsequent aliases/supporting-interface administrative records are outside this snapshot and will be verified by root separately."
+}

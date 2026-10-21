@@ -1,0 +1,18 @@
+{
+  "checked_at": "2026-10-21T13:59:16.123491+00:00",
+  "elapsed_seconds": 6015.841502,
+  "phase": "discovery",
+  "cap_state": "running",
+  "cap_updated_at": "2026-10-21T12:19:00.377452+00:00",
+  "actual_start": "2026-10-21T12:19:00.281989+00:00",
+  "graceful_shutdown_at": "2026-10-21T16:17:55.281989+00:00",
+  "hard_deadline_at": "2026-10-21T16:19:00.281989+00:00",
+  "event": "Positive-achievement early finish authorized by PLAN; all scientific work and reviews complete",
+  "pending": [
+    "Final native-goal receipt and delivery inventory"
+  ],
+  "findings": [
+    "All child assignments completed; no registered experiment process visible",
+    "No service cleanup claim before coordinator exit"
+  ]
+}

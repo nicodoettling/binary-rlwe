@@ -1,0 +1,18 @@
+{
+  "checked_at": "2026-10-21T14:01:01.590296+00:00",
+  "elapsed_seconds": 6121.308307,
+  "phase": "discovery",
+  "cap_state": "running",
+  "cap_updated_at": "2026-10-21T12:19:00.377452+00:00",
+  "actual_start": "2026-10-21T12:19:00.281989+00:00",
+  "graceful_shutdown_at": "2026-10-21T16:17:55.281989+00:00",
+  "hard_deadline_at": "2026-10-21T16:19:00.281989+00:00",
+  "event": "FINAL CHECKPOINT: package delivered, stated mathematical objective achieved, new native goal COMPLETE",
+  "pending": [],
+  "findings": [
+    "No active workers or registered experiment jobs; no successor or extension",
+    "Exact source restriction and sample/advantage/noise window retained",
+    "Native usage1,715,836 tokens and6007 seconds; not quota/billing telemetry",
+    "Post-exit service cleanup unobserved"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-10-21T13:21:45.222099+00:00",
+  "files": {
+    "fixed-main-statement.md": {
+      "source": "coordinator/fixed-main-statement-v1.md",
+      "sha256": "3bc2e9fd1786add99d4caf6fa33d7663bed7a9c5f17d1250b5e683947e6e4e2d",
+      "sanitization": "Only status paragraphs removed; mathematical content unchanged"
+    },
+    "am-main-statement.md": {
+      "source": "coordinator/am-main-theorem-v3.md",
+      "sha256": "d8902796876e8ada67ccdf6c33bbc636ba188d009d0914882c2520d5846021ef",
+      "sanitization": "Only status paragraphs removed; mathematical content unchanged"
+    },
+    "modround-statement.md": {
+      "source": "coordinator/modround-statement-v1.md",
+      "sha256": "5553fbbbda4c2cef81312e0d29333edc8a1a3b651d3dd0ecfcaadd8063f4e801",
+      "sanitization": "Only status paragraphs removed; mathematical content unchanged"
+    },
+    "functional-statement.md": {
+      "source": "coordinator/selected-functional-statement-v2.md",
+      "sha256": "2249ed6838cc5ef44b67407abb2d4d2b8d7975d6e2abc4ecff43e115e45b02ed",
+      "sanitization": "Only status paragraphs removed; mathematical content unchanged"
+    },
+    "extraction-statement.md": {
+      "source": "reviews/BLIND1/extraction-statement.md",
+      "sha256": "8617dfdeb1b79f71e5d6531c4514d397ed946fde2adee4e7e2d5dcf5bcefb5af",
+      "sanitization": "Only status paragraphs removed; mathematical content unchanged"
+    },
+    "fiber-statement.md": {
+      "source": "reviews/BLIND1/fiber-statement.md",
+      "sha256": "ccf4ddfdd7939372bbd58cdfd4fb34d2a6b51c8910fd6610033719fe8077352f",
+      "sanitization": "Only status paragraphs removed; mathematical content unchanged"
+    },
+    "prime-list-statement.md": {
+      "source": "reviews/BLIND1/prime-list-statement.md",
+      "sha256": "c0585251bbdb70d8b2a98b0d8a9f67c59b5d379c22f5c0ed6ff9a73e1b71120f",
+      "sanitization": "Only status paragraphs removed; mathematical content unchanged"
+    }
+  },
+  "allowed_sources_sha256": "17ba4e65fe3800d8564f6bca29536fc17833ae715a33c0e5d873a40f12b0fa1c",
+  "scientific_scope": "Independent statement-only assessment of FIXED-MAIN-v1, AM-MAIN-v3, MR-v1, SFUNC-v2 and component statements; no current author proof or review verdict supplied"
+}

@@ -1,0 +1,92 @@
+{
+  "scope": "Post-seal v2 amendment and optional-note recheck; v1 register immutable",
+  "v1_seal_sha256": "72fc3e7fae66041f0d9b23b4c5e36634963daa504bfff828bf700d00303b5d5d",
+  "entries": [
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/fixed-main-statement-v2.md",
+      "sha256": "25da2502104e746d3e9f2ca10e3d070372ff95b853b1fd2b0e6c96b1b909ecb6",
+      "bytes": 6464,
+      "exposure": "full content",
+      "read_utc": "2026-10-21T13:47:44.071461+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/fixed-main-proof-v2.md",
+      "sha256": "2e98d25b0f349e22dfeb23ba5ea18ebe339039fa08fb39f92cf45afa9f50f0c7",
+      "bytes": 4407,
+      "exposure": "full content",
+      "read_utc": "2026-10-21T13:47:44.071615+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/nonvacuity-and-radius-note-v1.md",
+      "sha256": "1f0bcde15cfa7dabdb2e522e0749ea714a8c2f1dafd49bbc8c659cf51de7a574",
+      "bytes": 2207,
+      "exposure": "full content",
+      "read_utc": "2026-10-21T13:47:44.071695+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/deadlines.json",
+      "sha256": "c84289e147018da938f41e4987df4d557869803892df102844b885e224c7da83",
+      "bytes": 671,
+      "exposure": "full content",
+      "read_utc": "2026-10-21T13:47:44.071772+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/run.log.brlwe-direct-decision-20261021-astra-ultra.cap-status.json",
+      "sha256": "1125c304bcf7847be37534799e152e360801babb02da82b5a36b080ad149ae1f",
+      "bytes": 3021,
+      "exposure": "full content",
+      "read_utc": "2026-10-21T13:47:44.071838+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "sha256": "037b02345edde7ee018bc2e73f57f5a890efbd7cbf3cf929dc6ba407d5d01967",
+      "bytes": 204389,
+      "exposure": "JSON structure and all new_entries; inherited entries checked against sealed manifest earlier",
+      "read_utc": "2026-10-21T13:48:19.658269+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/reviews/FULL2/seal-v1.json",
+      "sha256": "72fc3e7fae66041f0d9b23b4c5e36634963daa504bfff828bf700d00303b5d5d",
+      "bytes": 3590,
+      "exposure": "Full seal metadata and all artifact hashes",
+      "read_utc": "2026-10-21T13:51:07.920894+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/reviews/FULL2/input-manifest-v1.json",
+      "sha256": "7fec0f4c3bcc2f6a8fa74e373774bb5b8237855f123bb4b372aac7f1aa4f26fb",
+      "bytes": 4376,
+      "exposure": "Full manifest",
+      "read_utc": "2026-10-21T13:51:07.920894+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/reviews/FULL2/regression-dispositions-v1.json",
+      "sha256": "2931ef29b07d9d82fbd09835d4d3842e063579658037f66fb3a72f467951e057",
+      "bytes": 408240,
+      "exposure": "JSON structure and metadata, last eight entries; all rows programmatically carried into v2",
+      "read_utc": "2026-10-21T13:51:07.920894+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/reviews/FULL2/exact-v2-recheck.md",
+      "sha256": "6335a0e592ffd7357140880bcb6fcabac33c50c41f5e85618d9b0955486a4150",
+      "bytes": 8517,
+      "exposure": "Full newly authored report reread for consistency",
+      "read_utc": "2026-10-21T13:51:07.920894+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/run.log.brlwe-direct-decision-20261021-astra-ultra.cap-status.json",
+      "sha256": "1125c304bcf7847be37534799e152e360801babb02da82b5a36b080ad149ae1f",
+      "bytes": 3021,
+      "exposure": "Full content at final recheck boundary",
+      "read_utc": "2026-10-21T13:51:07.920894+00:00"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/deadlines.json",
+      "sha256": "c84289e147018da938f41e4987df4d557869803892df102844b885e224c7da83",
+      "bytes": 671,
+      "exposure": "Full content at final recheck boundary",
+      "read_utc": "2026-10-21T13:51:07.920894+00:00"
+    }
+  ],
+  "no_blind2_exposure": true,
+  "no_new_experiments": true
+}

@@ -1,0 +1,54 @@
+{
+  "id": "MR-FV1",
+  "status": "PREREGISTERED",
+  "clock": {
+    "checked_at": "2026-10-21T13:14:35.131365+00:00",
+    "elapsed_seconds": 3334.849376,
+    "phase": "discovery",
+    "cap_state": "running",
+    "cap_updated_at": "2026-10-21T12:19:00.377452+00:00",
+    "actual_start": "2026-10-21T12:19:00.281989+00:00",
+    "graceful_shutdown_at": "2026-10-21T16:17:55.281989+00:00",
+    "hard_deadline_at": "2026-10-21T16:19:00.281989+00:00"
+  },
+  "owner": "root",
+  "code": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/experiments/modround_finite_v1.py",
+  "code_sha256": "9a3c49aeda2499046c947906d975e97cad9141c9ee7799ff83d695d4d016a4b4",
+  "inputs": {
+    "seed": "deterministic exhaustive",
+    "n": [
+      2
+    ],
+    "moduli": "exact identity Q<=16; scalar Q<=65537",
+    "bit_sizes": "exact rounding small rational; Gaussian rational weights <=57600-bit exponents; numeric controls explicitly labeled",
+    "dimensions": "at most k=2,n=2 for full laws"
+  },
+  "hypothesis": "Translation-equivariant modulus rounding preserves the same binary secret; exact conditional residual identity and biased public fibers; scalar discrete-Gaussian TV obeys MR bound.",
+  "expected_outcomes": "Identity equality, nonzero public bias where q does not divide Q, retained shared-secret law; scalar TV below explicit coarse bound. Finite controls do not prove infinite theorem.",
+  "estimated_resources": {
+    "wall_seconds": 45,
+    "rss_MiB": 100
+  },
+  "limits": {
+    "wall_seconds": 120,
+    "cpu_seconds": 110,
+    "address_space_bytes": 536870912
+  },
+  "command": [
+    "/usr/bin/timeout",
+    "--signal=TERM",
+    "--kill-after=5s",
+    "120s",
+    "/usr/bin/prlimit",
+    "--as=536870912",
+    "--cpu=110",
+    "/usr/bin/time",
+    "-v",
+    "-o",
+    "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/experiments/MR-FV1.resources.txt",
+    "python3",
+    "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/experiments/modround_finite_v1.py"
+  ],
+  "stdout": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/experiments/MR-FV1.stdout.json",
+  "stderr": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/experiments/MR-FV1.stderr.txt"
+}

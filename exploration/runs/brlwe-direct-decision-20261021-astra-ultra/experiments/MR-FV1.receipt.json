@@ -1,0 +1,31 @@
+{
+  "id": "MR-FV1",
+  "exit_code": 1,
+  "elapsed_seconds": 1.0355471890652552,
+  "finished_at": "2026-10-21T13:14:45.617918+00:00",
+  "clock": {
+    "checked_at": "2026-10-21T13:14:45.618164+00:00",
+    "elapsed_seconds": 3345.336175,
+    "phase": "discovery",
+    "cap_state": "running",
+    "cap_updated_at": "2026-10-21T12:19:00.377452+00:00",
+    "actual_start": "2026-10-21T12:19:00.281989+00:00",
+    "graceful_shutdown_at": "2026-10-21T16:17:55.281989+00:00",
+    "hard_deadline_at": "2026-10-21T16:19:00.281989+00:00"
+  },
+  "command": [
+    "/usr/bin/timeout",
+    "--signal=TERM",
+    "--kill-after=5s",
+    "120s",
+    "/usr/bin/prlimit",
+    "--as=536870912",
+    "--cpu=110",
+    "/usr/bin/time",
+    "-v",
+    "-o",
+    "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/experiments/MR-FV1.resources.txt",
+    "python3",
+    "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/experiments/modround_finite_v1.py"
+  ]
+}

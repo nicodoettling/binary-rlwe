@@ -1,0 +1,41 @@
+{
+  "clock": {
+    "checked_at": "2026-10-21T14:01:01.585249+00:00",
+    "elapsed_seconds": 6121.30326,
+    "phase": "discovery",
+    "cap_state": "running",
+    "cap_updated_at": "2026-10-21T12:19:00.377452+00:00",
+    "actual_start": "2026-10-21T12:19:00.281989+00:00",
+    "graceful_shutdown_at": "2026-10-21T16:17:55.281989+00:00",
+    "hard_deadline_at": "2026-10-21T16:19:00.281989+00:00"
+  },
+  "status": "COMPLETE",
+  "required_files_present": [
+    "final.md",
+    "claims.json",
+    "reconciliation.md",
+    "regressions.json",
+    "reduction-attempts.md",
+    "progress.md",
+    "resume.md",
+    "programme-decisions.md",
+    "gate-45m.md",
+    "experiments/registry.json",
+    "coordinator/acceptance-v1.json",
+    "coordinator/accepted-supporting-interfaces-v1.json",
+    "coordinator/goal-start-receipts.json",
+    "coordinator/goal-completion-receipt.json",
+    "coordinator/native-usage-delta.json",
+    "coordinator/early-achievement-certificate.json",
+    "coordinator/shutdown-observation.json",
+    "coordinator/runtime-verification.json",
+    "coordinator/deadlines.json"
+  ],
+  "missing_links": [],
+  "mathematical_acceptance": "coordinator/acceptance-v1.json",
+  "delivery_review": "reviews/FULL2/delivery-check-report-v1.md",
+  "native_goal_status": "complete",
+  "package_status": "delivered",
+  "service_cleanup_status": "post-exit unobserved; active enclosing service at last visible recording",
+  "remaining_work": []
+}

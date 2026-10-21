@@ -1,0 +1,41 @@
+{
+  "id": "BLIND1-EXACT-01",
+  "registered_before_execution": true,
+  "purpose": "Falsification checks for exact extractor CRT transformation, prime-root collision accounting, small cube fiber bounds, deterministic prime construction, and CP-1 support conditioning regression.",
+  "hypotheses": [
+    "For fixed secret and error atom, transformed (A',B') has the correct hybrid law for each candidate value.",
+    "Distinct split prime root collisions consume factors of the nonzero ternary norm.",
+    "Small fixed cube partitions obey the selected-root average bound.",
+    "Auxiliary progression enumeration gives distinct primes above Qmin.",
+    "CP-1 exceeds the false product bound and must be rejected."
+  ],
+  "code": "experiments/exact_checks_01.py",
+  "seed": null,
+  "randomness": "None; all loops deterministic and finite.",
+  "dimensions": {
+    "extractor": "n=2,q=5,k0=1,all 4 binary secrets,all 25 ring error atoms,2 root positions,5 candidate values,all public A and masking coins",
+    "norms": "n=2 and n=4,all 3^n-1 nonzero ternary vectors,split primes <=257",
+    "partitions": "all 15 partitions of the n=2 cube and coordinate-prefix,parity and modular-evaluation partitions at n=4",
+    "prime_lists": "n=2,4,8; M=1,2,4; Qmin=3,10,30",
+    "selected_functional": "n=2,J=Z^2,F_j=S_j; all Gaussian G in [-40,40]^2,all four binary secrets,exact rational weights (16/17)^(||G||^2); infinite tail separately bounded analytically."
+  },
+  "arithmetic": "Exact Python integers and Fraction for distribution/count checks; floating log/sqrt only as exploratory displayed fiber upper bounds, separately supported by an analytic proof.",
+  "bit_sizes": "Source integers <=257; exact n<=4 determinants <=2^4; histogram counts <=625; CP-1 rational denominators <=2200; prime enumeration manually capped at 1000000, so candidates <=20 bits.; functional rational integers <=20000 bits.",
+  "limits": {
+    "wall_seconds": 120,
+    "cpu_seconds": 110,
+    "address_space_bytes": 536870912,
+    "processes": 1,
+    "timeout_kills_descendants": true
+  },
+  "command": "python3 experiments/controlled_run_01.py",
+  "outputs": [
+    "experiments/exact_checks_01.stdout",
+    "experiments/exact_checks_01.stderr",
+    "experiments/exact_checks_01.status.json"
+  ],
+  "slot": "Requested from root; do not execute before operational slot grant.",
+  "code_sha256": "3ab454cb0bc89cb691fdc820d3910823921d3689753bfce752e5fb717caad495",
+  "runner_sha256": "8e4d265ec5b7929c0125124c419899177f89819b1e84f96524929ea389505aa5",
+  "registered_at": "2026-10-21T13:07:36.644479+00:00"
+}

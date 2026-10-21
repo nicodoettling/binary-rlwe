@@ -1,0 +1,320 @@
+{
+  "claims": [
+    {
+      "id": "DD-TARGET",
+      "version": "v1",
+      "status": "MATHEMATICAL_OBJECTIVE_ACHIEVED",
+      "statement": "coordinator/target-v1.md",
+      "dependencies": [
+        "FIXED-MAIN-v2"
+      ],
+      "dependency_logic": "One complete reviewed bridge satisfies the stated objective in its explicit restricted scope.",
+      "source_claimed_status": "New objective",
+      "check_depth": "Exact acceptance, separate delivery consistency review and completed final package checks",
+      "current_candidate": "Accepted FIXED-MAIN-v2",
+      "native_goal_status": "complete",
+      "native_goal_receipt": "coordinator/goal-completion-receipt.json"
+    },
+    {
+      "id": "DD1-BRIDGE",
+      "version": "v1",
+      "status": "NAIVE_SUFFICIENT_CLAIM_REFUTED_ALTERNATIVES_SCOPED",
+      "statement": "A useful Delta_D(U_A)-Delta_D(P_FG) separation with same public laws within each paired response comparison.",
+      "owner": "DD1",
+      "dependencies": [],
+      "evidence": "workers/DD1/report-v1.md",
+      "scope": "No blanket impossibility claim; selected-functional route is the accepted replacement."
+    },
+    {
+      "id": "DD2-BRIDGE",
+      "version": "v1",
+      "status": "EXAMINED_NO_USEFUL_DIRECT_SAMPLING_BRIDGE_ACCEPTED",
+      "statement": "Binary-compatible geometric sampling with justified coefficient discrete errors and useful decoding radius/resources.",
+      "owner": "DD2",
+      "dependencies": [],
+      "evidence": "workers/DD2/final.md",
+      "scope": "Uniform-mask off-promise and cancellation overlap are mechanism-specific; no exhaustion claim."
+    },
+    {
+      "id": "DD3-INTERMEDIATE",
+      "version": "v1",
+      "status": "ACHIEVED_IN_EXPLICIT_MODEL",
+      "statement": "Explicit weaker oracle obtained from binary decision gap and sufficient for inherited decoding.",
+      "owner": "root",
+      "dependencies": [
+        "AM-MAIN-v3",
+        "FIXED-MAIN-v2"
+      ],
+      "acceptance": "coordinator/acceptance-v1.json"
+    },
+    {
+      "id": "STANDARD-UNRESTRICTED",
+      "version": "v1",
+      "status": "OPEN",
+      "statement": "Transfer from arbitrary worst-case ideals to any inherited restricted source family; separate from binary decision gap.",
+      "dependencies": []
+    },
+    {
+      "id": "A-FRAC-v1",
+      "version": "historical exact",
+      "status": "ACCEPTED-INHERITED",
+      "statement": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/A/fractional-composition/theorem-only-v1.md",
+      "acceptance": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/samej-acceptance-v1.md",
+      "check_depth": "Exact inherited acceptance/hash retained; FULL1 and FULL2 reread relevant complete proof/specification and verify present interfaces. No broader scope inherited.",
+      "scope": "Exact inherited scope only; does not supply binary decision or unrestricted ideal hardness",
+      "dependencies": []
+    },
+    {
+      "id": "B-GP-v2",
+      "version": "historical exact",
+      "status": "ACCEPTED-INHERITED",
+      "statement": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/RF4/same-j-composition/interface-statements-v1.md",
+      "acceptance": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/samej-acceptance-v1.md",
+      "check_depth": "Exact inherited acceptance/hash retained; FULL1 and FULL2 reread relevant complete proof/specification and verify present interfaces. No broader scope inherited.",
+      "scope": "Exact inherited scope only; does not supply binary decision or unrestricted ideal hardness",
+      "dependencies": []
+    },
+    {
+      "id": "C-OHCP-v8CORE",
+      "version": "historical exact",
+      "status": "ACCEPTED-INHERITED",
+      "statement": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/c8-repair/multiplier-ohcp-theorem-v8.md",
+      "acceptance": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/samej-acceptance-v1.md",
+      "check_depth": "Exact inherited acceptance/hash retained; FULL1 and FULL2 reread relevant complete proof/specification and verify present interfaces. No broader scope inherited.",
+      "scope": "Exact inherited scope only; does not supply binary decision or unrestricted ideal hardness",
+      "dependencies": []
+    },
+    {
+      "id": "RF4-SAMEJ-v1",
+      "version": "historical exact",
+      "status": "ACCEPTED-INHERITED",
+      "statement": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/RF4/same-j-composition/same-j-theorem-only-v1.md",
+      "acceptance": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/samej-acceptance-v1.md",
+      "check_depth": "Statement and composition acceptance traced; upstream full reviews not rerun",
+      "scope": "Exact inherited scope only; does not supply binary decision or unrestricted ideal hardness",
+      "dependencies": []
+    },
+    {
+      "id": "DD3-SFUNC",
+      "version": "v1",
+      "status": "SUPERSEDED-DEFINITION-REPAIR",
+      "statement": "coordinator/dd3-selected-functional-v1.md",
+      "statement_sha256": "9c4fb0867fa4decce5f97ad456c303fa190cef0615ce27caf2d4f8587fe8b4bf",
+      "dependencies": [],
+      "check_depth": "Frozen author derivation and limited crosschecks; fresh whole-main nonauthor/blind gates outstanding",
+      "replacement": "SFUNC-v2",
+      "scope": "v1 upper bound supported; lower-bound symbol required explicit optimal Bayes definition"
+    },
+    {
+      "id": "DD2-AM1-SNF",
+      "version": "v1",
+      "status": "ACCEPTED_WITH_EXPLICIT_SCOPE",
+      "statement": "workers/DD2/am1-strengthened-theorem-v1.md",
+      "statement_sha256": "3500de1a74555ecbf8102d4fb52a87f6a0d87c7f9cdcca22e849f7a2812d870d",
+      "dependencies": [],
+      "check_depth": "Nonauthor full proof/source/complexity plus fresh blind independent derivation, exact repaired-version rechecks, scoped old/new regressions and root seal/dependency checks",
+      "reviews": [
+        "reviews/FULL2/full-report-v1.md",
+        "reviews/FULL2/source-complexity-report-v1.md",
+        "reviews/FULL2/exact-v2-recheck.md",
+        "reviews/BLIND2/independent-report.md",
+        "reviews/BLIND2/followup-v2-report.md"
+      ],
+      "acceptance": "coordinator/acceptance-v1.json",
+      "canonical_id": "DD2-AM1-SNF-v1"
+    },
+    {
+      "id": "DD2-PRIMES",
+      "version": "v1",
+      "status": "ACCEPTED_WITH_EXPLICIT_SCOPE",
+      "statement": "workers/DD2/prime-list-theorem-proof-v1.md",
+      "statement_sha256": "c54f0a6e37aa6ed6a13bb9cf387f98ce99fb12311a517c6fec32e3e32188d6cf",
+      "dependencies": [
+        "Xylouris-Theorem1.1"
+      ],
+      "check_depth": "Nonauthor full proof/source/complexity plus fresh blind independent derivation, exact repaired-version rechecks, scoped old/new regressions and root seal/dependency checks",
+      "reviews": [
+        "reviews/FULL2/full-report-v1.md",
+        "reviews/FULL2/source-complexity-report-v1.md",
+        "reviews/FULL2/exact-v2-recheck.md",
+        "reviews/BLIND2/independent-report.md",
+        "reviews/BLIND2/followup-v2-report.md"
+      ],
+      "acceptance": "coordinator/acceptance-v1.json",
+      "canonical_id": "DD2-PRIMES-v1"
+    },
+    {
+      "id": "DD1-EXTRACT",
+      "version": "v1",
+      "status": "ACCEPTED_WITH_EXPLICIT_SCOPE",
+      "statement": "workers/DD1/extraction-theorem-v1.md",
+      "statement_sha256": "c8ad79f0f681e346e149749d46c3bb98ff5e2e6a2ef5cbc406a47f8c2abf0e38",
+      "dependencies": [],
+      "check_depth": "Nonauthor full proof/source/complexity plus fresh blind independent derivation, exact repaired-version rechecks, scoped old/new regressions and root seal/dependency checks",
+      "reviews": [
+        "reviews/FULL2/full-report-v1.md",
+        "reviews/FULL2/source-complexity-report-v1.md",
+        "reviews/FULL2/exact-v2-recheck.md",
+        "reviews/BLIND2/independent-report.md",
+        "reviews/BLIND2/followup-v2-report.md"
+      ],
+      "acceptance": "coordinator/acceptance-v1.json",
+      "canonical_id": "DD1-EXTRACT-v1"
+    },
+    {
+      "id": "AM-MAIN",
+      "version": "v3",
+      "status": "ACCEPTED_WITH_EXPLICIT_SCOPE",
+      "statement": "coordinator/am-main-theorem-v3.md",
+      "statement_sha256": "eaabea064b734ccefbbb1d2410ed03fecdbe671f098c2e69d59d432df855e33c",
+      "dependencies": [
+        "SFUNC-v2",
+        "DD2-AM1-SNF-v1",
+        "DD2-PRIMES-v1",
+        "DD1-EXTRACT-v1",
+        "A-FRAC-v1",
+        "B-GP-v2",
+        "C-OHCP-v8CORE"
+      ],
+      "check_depth": "Nonauthor full proof/source/complexity plus fresh blind independent derivation, exact repaired-version rechecks, scoped old/new regressions and root seal/dependency checks",
+      "prior_versions": [
+        {
+          "version": "v1",
+          "status": "SUPERSEDED-REPRESENTATION-CLARIFICATION",
+          "statement": "coordinator/am-main-theorem-v1.md"
+        },
+        {
+          "version": "v2",
+          "status": "LITERAL_COROLLARY_REJECTED_CORE_SUPPORTED",
+          "statement": "coordinator/am-main-theorem-v2.md",
+          "reviews": [
+            "reviews/FULL1/seal-v1.json",
+            "reviews/BLIND1/seal-v1.json"
+          ]
+        }
+      ],
+      "acceptance": "coordinator/acceptance-v1.json",
+      "reviews": [
+        "reviews/FULL2/full-report-v1.md",
+        "reviews/FULL2/source-complexity-report-v1.md",
+        "reviews/FULL2/exact-v2-recheck.md",
+        "reviews/BLIND2/independent-report.md",
+        "reviews/BLIND2/followup-v2-report.md"
+      ],
+      "canonical_id": "AM-MAIN-v3"
+    },
+    {
+      "id": "SFUNC",
+      "version": "v2",
+      "status": "ACCEPTED_WITH_EXPLICIT_SCOPE",
+      "statement": "coordinator/selected-functional-statement-v2.md",
+      "statement_sha256": "2249ed6838cc5ef44b67407abb2d4d2b8d7975d6e2abc4ecff43e115e45b02ed",
+      "dependencies": [
+        "RECENT-B-CUBE-THETA-v1"
+      ],
+      "check_depth": "Nonauthor full proof/source/complexity plus fresh blind independent derivation, exact repaired-version rechecks, scoped old/new regressions and root seal/dependency checks",
+      "acceptance": "coordinator/acceptance-v1.json",
+      "reviews": [
+        "reviews/FULL2/full-report-v1.md",
+        "reviews/FULL2/source-complexity-report-v1.md",
+        "reviews/FULL2/exact-v2-recheck.md",
+        "reviews/BLIND2/independent-report.md",
+        "reviews/BLIND2/followup-v2-report.md"
+      ],
+      "canonical_id": "SFUNC-v2"
+    },
+    {
+      "id": "MR",
+      "version": "v1",
+      "status": "ACCEPTED_WITH_EXPLICIT_SCOPE",
+      "statement": "coordinator/modround-statement-v1.md",
+      "statement_sha256": "fdcbdf08b35faced79539eb82712607deb765d391cd65cbfe4e52cf2a32f9e6b",
+      "dependencies": [],
+      "check_depth": "Nonauthor full proof/source/complexity plus fresh blind independent derivation, exact repaired-version rechecks, scoped old/new regressions and root seal/dependency checks",
+      "acceptance": "coordinator/acceptance-v1.json",
+      "reviews": [
+        "reviews/FULL2/full-report-v1.md",
+        "reviews/FULL2/source-complexity-report-v1.md",
+        "reviews/FULL2/exact-v2-recheck.md",
+        "reviews/BLIND2/independent-report.md",
+        "reviews/BLIND2/followup-v2-report.md"
+      ],
+      "canonical_id": "MR-v1"
+    },
+    {
+      "id": "FIXED-MAIN",
+      "version": "v2",
+      "status": "ACCEPTED_WITH_EXPLICIT_SCOPE",
+      "statement": "coordinator/fixed-main-statement-v2.md",
+      "statement_sha256": "25da2502104e746d3e9f2ca10e3d070372ff95b853b1fd2b0e6c96b1b909ecb6",
+      "dependencies": [
+        "MR-v1",
+        "AM-MAIN-v3"
+      ],
+      "check_depth": "Nonauthor full proof/source/complexity plus fresh blind independent derivation, exact repaired-version rechecks, scoped old/new regressions and root seal/dependency checks",
+      "acceptance": "coordinator/acceptance-v1.json",
+      "reviews": [
+        "reviews/FULL2/full-report-v1.md",
+        "reviews/FULL2/source-complexity-report-v1.md",
+        "reviews/FULL2/exact-v2-recheck.md",
+        "reviews/BLIND2/independent-report.md",
+        "reviews/BLIND2/followup-v2-report.md"
+      ],
+      "prior_versions": [
+        {
+          "version": "v1",
+          "status": "LITERAL_EXECUTION_LAW_REJECTED_CORE_SUPPORTED",
+          "statement": "coordinator/fixed-main-statement-v1.md",
+          "statement_sha256": "d12458eca020f381af78afa20fb0d7ec774759ba0b22a48be985d4fa69150b80"
+        }
+      ],
+      "canonical_id": "FIXED-MAIN-v2"
+    },
+    {
+      "id": "RECENT-B-CUBE-THETA-v1",
+      "canonical_id": "RECENT-B-CUBE-THETA-v1",
+      "version": "historical exact",
+      "status": "ACCEPTED-INHERITED",
+      "acceptance": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/coordinator/ab-acceptance-v1.md",
+      "scope": "Original full-observation cube theorem; selected-functional extension newly reviewed as SFUNC-v2",
+      "dependencies": []
+    },
+    {
+      "id": "Xylouris-Theorem1.1",
+      "canonical_id": "Xylouris-Theorem1.1",
+      "version": "Acta Arithmetica 150.1 (2011), printed p66",
+      "status": "PRIMARY_SOURCE_IMPORTED",
+      "source": "https://www.impan.pl/shop/en/publication/transaction/download/product/83078",
+      "scope": "Effective least-prime exponent5.18, weakened to6; checked from primary text, not reproved",
+      "dependencies": []
+    }
+  ],
+  "new_acceptances": [
+    {
+      "record": "coordinator/acceptance-v1.json",
+      "sha256": "ba065e4b5f569236839b2597882698ade120219a13551376b8a14af6d5d2e23e",
+      "main": "FIXED-MAIN-v2",
+      "at": "2026-10-21T13:53:30.098921+00:00"
+    }
+  ],
+  "invalidations": [
+    {
+      "at": "2026-10-21T13:25:25.890172+00:00",
+      "claim": "AM-MAIN-v2 whole corollary",
+      "cause": "Both sealed referees reject polynomial-value assertion for P; exact v3 new review required",
+      "dependent_scope": "No descendants accepted; core review support retained without whole-packet acceptance"
+    },
+    {
+      "at": "2026-10-21T13:53:30.098921+00:00",
+      "claim": "FIXED-MAIN-v1 closing execution-law sentence",
+      "cause": "Exact target promise is not the law of every transformed/hybrid execution",
+      "replacement": "FIXED-MAIN-v2 separately rechecked by FULL2 and BLIND2; v1 rejection preserved"
+    }
+  ],
+  "updated_at": "2026-10-21T14:01:01.585249+00:00",
+  "aliases": {
+    "C-OHCP-v8": "C-OHCP-v8CORE",
+    "M3-ENTROPY-v1": "RECENT-B-CUBE-THETA-v1"
+  },
+  "alias_scope": "Historical accepted-source labels in acceptance-v1.json refer to these exact claims by matching theorem/proof hashes; no scope enlargement."
+}

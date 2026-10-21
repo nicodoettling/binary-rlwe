@@ -1,0 +1,87 @@
+{
+  "checks": {
+    "affine_cube": {
+      "cases": [
+        {
+          "affine_count": 8,
+          "n": 2,
+          "q": 3,
+          "ring_multiplier_count": 4
+        },
+        {
+          "affine_count": 8,
+          "n": 2,
+          "q": 5,
+          "ring_multiplier_count": 4
+        }
+      ],
+      "q5_shift_2_0_tv": "1"
+    },
+    "cp1": {
+      "cause": "support restriction and normalization; not a fresh independent draw",
+      "conditional_residual": "21/221",
+      "hit": "21/2000",
+      "invalid_product": "1/100"
+    },
+    "crt_error_correlation": {
+      "coefficient_weight": "2^(-z^2)",
+      "cutoff": 5,
+      "finite_tv": "876566772937613713203604359168/1627536294624021062468098590721",
+      "independent_crt_zero": "100971418412164692193163870209/1627536294624021062468098590721",
+      "infinite_tv_lower": "15057464191465626439616480895105057417213/27957447442857420962243428863905808515072",
+      "joint_zero": "281475010265089/1275749307122689",
+      "n": 2,
+      "q": 5,
+      "scalar_omitted_probability_upper": "1/34355544064",
+      "strict_lower_than_target": "no: exact infinite-law TV is >1/10"
+    },
+    "one_sample_decoder": {
+      "boundary_expected_failure": true,
+      "ideal_generator": [
+        "2",
+        "1"
+      ],
+      "positive_cases": [
+        {
+          "error": [
+            "1/100",
+            "-1/100"
+          ],
+          "recovered": [
+            "1",
+            "-3"
+          ]
+        },
+        {
+          "error": [
+            "-1/10",
+            "1/10"
+          ],
+          "recovered": [
+            "1",
+            "-3"
+          ]
+        }
+      ],
+      "q": 5,
+      "strict_boundary_error": [
+        "-1",
+        "1/2"
+      ],
+      "zero_multiplier_excluded": true
+    },
+    "translate_membership": {
+      "all_negative_paths": 625,
+      "bound": "8/25",
+      "denominator": 25,
+      "max_hit_numerator": 8
+    }
+  },
+  "experiment": "DD2-FV1",
+  "limits": {
+    "address_space_bytes": 536870912,
+    "wall_seconds": 120
+  },
+  "seed": "none: exhaustive deterministic",
+  "status": "PASS exact finite controls; not asymptotic theorem certification"
+}

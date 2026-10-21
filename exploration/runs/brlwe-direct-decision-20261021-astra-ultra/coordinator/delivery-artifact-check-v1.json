@@ -1,0 +1,144 @@
+{
+  "clock": {
+    "checked_at": "2026-10-21T13:57:49.409187+00:00",
+    "elapsed_seconds": 5929.127198,
+    "phase": "discovery",
+    "cap_state": "running",
+    "cap_updated_at": "2026-10-21T12:19:00.377452+00:00",
+    "actual_start": "2026-10-21T12:19:00.281989+00:00",
+    "graceful_shutdown_at": "2026-10-21T16:17:55.281989+00:00",
+    "hard_deadline_at": "2026-10-21T16:19:00.281989+00:00"
+  },
+  "accepted_bytes_unchanged": true,
+  "required_files": [
+    "final.md",
+    "claims.json",
+    "reconciliation.md",
+    "regressions.json",
+    "reduction-attempts.md",
+    "progress.md",
+    "resume.md",
+    "programme-decisions.md",
+    "gate-45m.md"
+  ],
+  "dangling_dependencies": [],
+  "local_links": [
+    {
+      "document": "final.md",
+      "path": "coordinator/acceptance-v1.json",
+      "exists": true
+    },
+    {
+      "document": "final.md",
+      "path": "coordinator/fixed-main-statement-v2.md",
+      "exists": true
+    },
+    {
+      "document": "final.md",
+      "path": "coordinator/fixed-main-proof-v2.md",
+      "exists": true
+    },
+    {
+      "document": "final.md",
+      "path": "coordinator/nonvacuity-and-radius-note-v1.md",
+      "exists": true
+    },
+    {
+      "document": "final.md",
+      "path": "reduction-attempts.md",
+      "exists": true
+    },
+    {
+      "document": "final.md",
+      "path": "programme-decisions.md",
+      "exists": true
+    },
+    {
+      "document": "final.md",
+      "path": "experiments/registry.json",
+      "exists": true
+    },
+    {
+      "document": "final.md",
+      "path": "reconciliation.md",
+      "exists": true
+    },
+    {
+      "document": "reconciliation.md",
+      "path": "coordinator/acceptance-v1.json",
+      "exists": true
+    },
+    {
+      "document": "reduction-attempts.md",
+      "path": "workers/DD1/witness-theorem-v1.md",
+      "exists": true
+    },
+    {
+      "document": "reduction-attempts.md",
+      "path": "workers/DD1/witness-proof-v1.md",
+      "exists": true
+    },
+    {
+      "document": "reduction-attempts.md",
+      "path": "workers/DD1/joint-law-v1.md",
+      "exists": true
+    },
+    {
+      "document": "reduction-attempts.md",
+      "path": "workers/DD1/alternatives-v1.md",
+      "exists": true
+    },
+    {
+      "document": "reduction-attempts.md",
+      "path": "workers/DD1/report-v1.md",
+      "exists": true
+    },
+    {
+      "document": "reduction-attempts.md",
+      "path": "workers/DD2/intake-v1.md",
+      "exists": true
+    },
+    {
+      "document": "reduction-attempts.md",
+      "path": "workers/DD2/alternatives-v1.md",
+      "exists": true
+    },
+    {
+      "document": "reduction-attempts.md",
+      "path": "workers/DD2/final.md",
+      "exists": true
+    },
+    {
+      "document": "reduction-attempts.md",
+      "path": "workers/DD1/extraction-theorem-v1.md",
+      "exists": true
+    },
+    {
+      "document": "reduction-attempts.md",
+      "path": "coordinator/selected-functional-statement-v2.md",
+      "exists": true
+    },
+    {
+      "document": "reduction-attempts.md",
+      "path": "workers/DD2/am1-strengthened-theorem-v1.md",
+      "exists": true
+    },
+    {
+      "document": "reduction-attempts.md",
+      "path": "coordinator/am-main-theorem-v3.md",
+      "exists": true
+    },
+    {
+      "document": "reduction-attempts.md",
+      "path": "coordinator/fixed-main-statement-v2.md",
+      "exists": true
+    },
+    {
+      "document": "reduction-attempts.md",
+      "path": "coordinator/acceptance-v1.json",
+      "exists": true
+    }
+  ],
+  "status": "PASS",
+  "note": "Administrative final goal/completion/cleanup receipts remain to be added after delivery review; no new mathematical tests run."
+}

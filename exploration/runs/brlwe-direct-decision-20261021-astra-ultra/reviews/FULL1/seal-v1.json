@@ -1,0 +1,182 @@
+{
+  "sealed_at_utc": "2026-10-21T13:21:23.449024+00:00",
+  "frozen_input_files": [
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/am-main-theorem-v2.md",
+      "sha256": "bac9219db980fa85f0a29a6cc9957a9f57eb8281b3bdfff595b2f327bb2ba34d"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/am-main-proof-v2.md",
+      "sha256": "dee6af4bb9255a73ed85cf448251470986252ba7b1e71fcbf8b36fa004ac7edd"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/dd3-selected-functional-v1.md",
+      "sha256": "9c4fb0867fa4decce5f97ad456c303fa190cef0615ce27caf2d4f8587fe8b4bf"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD1/extraction-theorem-v1.md",
+      "sha256": "c8ad79f0f681e346e149749d46c3bb98ff5e2e6a2ef5cbc406a47f8c2abf0e38"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD1/extraction-proof-v1.md",
+      "sha256": "4a599d9eed5dfefca4b3d0bbcd1402aaba2e709310e7eaa62feb36d5b6b3f357"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD2/am1-strengthened-theorem-v1.md",
+      "sha256": "3500de1a74555ecbf8102d4fb52a87f6a0d87c7f9cdcca22e849f7a2812d870d"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD2/am1-strengthened-proof-v1.md",
+      "sha256": "d1d22c6a34776a493b7d43611abb076c8e97f07542ad48da33d5072683766e43"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD2/prime-list-theorem-proof-v1.md",
+      "sha256": "c54f0a6e37aa6ed6a13bb9cf387f98ce99fb12311a517c6fec32e3e32188d6cf"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD2/parameter-witness-v1.md",
+      "sha256": "792ec5df84dbd8dc2c8a00ac7e20441091b0eefa0a7936ece77b408baa2b88d6"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/RF4/same-j-composition/interface-statements-v1.md",
+      "sha256": "25a78ebcc36d3cd31568f12dd36ee233490509dab8684d4656002a528bb0fab8"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/c8-repair/multiplier-ohcp-theorem-v8.md",
+      "sha256": "857a62e9f4a937a80e5cb3b115c8b132abf122c16665d29b39dcb62bde86fe0a"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/c8-repair/multiplier-ohcp-algorithm-v2.md",
+      "sha256": "4361c90a7fa7cfe25d0ab3e8cd5c5333fb474cf1fb764375e10c29fca5102735"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/A/fractional-composition/proof-v1.md",
+      "sha256": "f4c889a64173135b2e29cebeb8190f352b1d4de6ada77f37a3f7c4f3ec797af2"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/workers/B/theorem-only-v1.md",
+      "sha256": "6e71289b7e9979ad169d1008d2e40f2cdb3f09f1bd7a29b48e41c90431e6becd"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/workers/B/proof-v1.md",
+      "sha256": "0b67d511c9bfc43f5a7fdbc51102f983471a1095bd0612efcd66ee82395c6fab"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/direct-decision-20261021/inputs/PRS17.txt",
+      "sha256": "a4f797010b84adca8c0f30256165c92d05047db5b7d0ec3b0d8e09063199941d"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/literature/2017-258.pdf",
+      "sha256": "62e29f112a70b417678b0193c87911de190fc91ecd2acbd9f8385ddcbc3b07a5"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "assignment-input.md",
+      "bytes": 3378,
+      "sha256": "584185fd077e55fc5b1439917ceae6fa3baec66bbe37b7f38da8a0c317a99463"
+    },
+    {
+      "path": "exposure-log.md",
+      "bytes": 6767,
+      "sha256": "2758ab964cef7d2f652385d44ab4436dffd1a43b344bc4d6b7cddf93495e083e"
+    },
+    {
+      "path": "findings-ledger-v1.md",
+      "bytes": 5803,
+      "sha256": "54ccfd38b89e9688698fafe86c127b46203add7db8607846ad441d9bc0a07bbf"
+    },
+    {
+      "path": "finite-controls-interpretation-v1.md",
+      "bytes": 1551,
+      "sha256": "0d04c8a2ed1e69b7c38964411c3be752a87d8316c2d106423b86d293ba9f9ae5"
+    },
+    {
+      "path": "finite_controls_v1.code.sha256",
+      "bytes": 506,
+      "sha256": "81eb0f2bd6c929d5376b466d2c70ab275b869f3598488f0586b2dde395e667d9"
+    },
+    {
+      "path": "finite_controls_v1.preregistration.md",
+      "bytes": 2699,
+      "sha256": "072a12aba04a8daa8843d4c00d5c669018d2bdf0ab71f7c04da8ff28377b2581"
+    },
+    {
+      "path": "finite_controls_v1.py",
+      "bytes": 8655,
+      "sha256": "e976dce4eff46da3616baa3714874537cf703d9a33245e11ba1af9bbdb56f644"
+    },
+    {
+      "path": "finite_controls_v1.receipt.json",
+      "bytes": 495,
+      "sha256": "31c9c25058709ab52ca1d507256defb833704540f5666525d6e1a51b012c2655"
+    },
+    {
+      "path": "finite_controls_v1.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "finite_controls_v1.stdout.json",
+      "bytes": 1129,
+      "sha256": "dace9fd05d650e5d99f68118f972861f6afb5f26970d2e870a0abcc98b8b51f6"
+    },
+    {
+      "path": "full-report-v1.md",
+      "bytes": 31289,
+      "sha256": "7dbea6ae7cba761ed5598eb20104890442653c862fd98bcac43a91582281fc3d"
+    },
+    {
+      "path": "input-manifest.json",
+      "bytes": 2582,
+      "sha256": "daed917562de0b4bdef172da5d34afc18b756b113abdcf2cacf510dd49ddf5ae"
+    },
+    {
+      "path": "progress-1304.md",
+      "bytes": 1676,
+      "sha256": "e5d09da2b59bbcc4562d47b7f858e49ceeb45ba33a1e0654c681d597c6125c44"
+    },
+    {
+      "path": "read-register-v1.json",
+      "bytes": 14816,
+      "sha256": "3078ba3fe64f80bf3351fef3b1e7c2d002f545d058d9b04c0f08920e035c23e6"
+    },
+    {
+      "path": "read-register-v2.json",
+      "bytes": 17040,
+      "sha256": "eaa61ccba401a6564e8b4bbb525671d9844126b9ba39056e3de41fcef96fd295"
+    },
+    {
+      "path": "regression-dispositions-v1.json",
+      "bytes": 189049,
+      "sha256": "86cc5e2c09131f7d429e03f784f35ad8d7ab941cb3134b095e2a27a4cdf38f27"
+    },
+    {
+      "path": "run_finite_controls_v1.py",
+      "bytes": 1646,
+      "sha256": "08cca74042cb1e14989f42dad9b6b98512e6e2dee75a2ca494653cc0fecbf7c1"
+    },
+    {
+      "path": "source-complexity-report-v1.md",
+      "bytes": 15383,
+      "sha256": "7b66281774ad715b210cf6c0058d1ace4e3c82252989727855aee6fe63d1f77c"
+    },
+    {
+      "path": "spawn-input-receipt.json",
+      "bytes": 354,
+      "sha256": "46e6096fc584198de5a2dca03ad9cd3f8be3a38aba93a4f37473b2a7596a5bf8"
+    },
+    {
+      "path": "verdict-v1.json",
+      "bytes": 1271,
+      "sha256": "c451184a08dc64a925b27939f424789021294329f5eaeac7655bd94c9f5887e2"
+    }
+  ],
+  "cap_start": "2026-10-21T12:19:00.281989+00:00",
+  "hard_deadline": "2026-10-21T16:19:00.281989+00:00",
+  "cap_state_at_read": "running",
+  "all_frozen_inputs_match": true,
+  "independent_experiment_exit": 0,
+  "whole_packet_verdict": "REPAIR_REQUIRED",
+  "no_new_version_read": true
+}

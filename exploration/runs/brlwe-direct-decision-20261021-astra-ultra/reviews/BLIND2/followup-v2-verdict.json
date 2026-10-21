@@ -1,0 +1,31 @@
+{
+  "reviewer": "BLIND2",
+  "mode": "Separate exact statement-only follow-up, no current author proof exposure",
+  "claims": {
+    "FIXED-MAIN-v2": {
+      "status": "ACCEPTED",
+      "scope": "Exact supplied statement, conditional on the unchanged declared inherited interfaces and supplied true guards",
+      "resolved_gate": "Actual transformed/hybrid calls are distinguished from the exact target-law promise; no exact physical simulation is asserted",
+      "quantifier_clarification": "Correct: b,c are fixed before target parameter selection; no universal fixed noise exponent is claimed"
+    },
+    "optional-finite-oracle-premise": {
+      "status": "ACCEPTED",
+      "scope": "n>=128 power of two, k0>=1, sigma0>=1 and q0>=n*sigma0; explicitly exponential bounded code, gap>=1/2"
+    },
+    "optional-canonical-separation": {
+      "status": "ACCEPTED",
+      "scope": "For eligible integral J, shortest canonical-infinity length in J^-1 is in(1/2,1], without an algorithm or hardness claim"
+    }
+  },
+  "new_scientific_experiments": 0,
+  "original_sealed_artifacts_modified": false,
+  "main_numerical_parameters_changed": false,
+  "optional_claims_are_main_dependencies": false,
+  "remaining_scope_limits": [
+    "No fresh proof of inherited C8",
+    "No unrestricted or restricted-family hardness certification",
+    "No efficient-distinguisher assertion",
+    "No quantum composition",
+    "Global acceptance still requires coordinator dependency and final-artifact gates"
+  ]
+}

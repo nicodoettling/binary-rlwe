@@ -1,0 +1,31 @@
+{
+  "clock": {
+    "checked_at": "2026-10-21T13:35:46.790764+00:00",
+    "elapsed_seconds": 4606.508775,
+    "phase": "discovery",
+    "cap_state": "running",
+    "cap_updated_at": "2026-10-21T12:19:00.377452+00:00",
+    "actual_start": "2026-10-21T12:19:00.281989+00:00",
+    "graceful_shutdown_at": "2026-10-21T16:17:55.281989+00:00",
+    "hard_deadline_at": "2026-10-21T16:19:00.281989+00:00"
+  },
+  "review_seals": [
+    {
+      "role": "FULL1",
+      "checked_files": 37,
+      "mismatches": [],
+      "seal_sha256": "0ebc8ba7ced811daa5be65fdd1308962650ccc8af2ac753140cde7befd3cb3e3"
+    },
+    {
+      "role": "BLIND1",
+      "checked_files": 41,
+      "mismatches": [],
+      "seal_sha256": "8a21d98bf02c6cec040807c3a90198afd911897b355ccaa75af5bb44a92d1e96"
+    }
+  ],
+  "historical_entry_hash_count": 164,
+  "matching_canonical_serializers": [
+    "(True, True, False)"
+  ],
+  "all_review_artifact_hashes_match": true
+}

@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-10-21T13:45:34.123987+00:00",
+  "new_scientific_input_hashes_unchanged": 13,
+  "additional_inherited_interface_hashes": [
+    {
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/B/ideal-denominator/gaussian-periodic-bounded-wrapper-v1.md",
+      "interface_expected_sha256": "335f4a176331df262eda5c775a7d565e3c47fee6413d714957741c81b6087521",
+      "match": true
+    },
+    {
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/B/ideal-denominator/gaussian-periodic-v2-ceiling-addendum-v1.md",
+      "interface_expected_sha256": "17044d83881bee69c3182ed0cdaaccf91687d4a1e173618e837350fe1ebb2e47",
+      "match": true
+    },
+    {
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/a-frac-definitions-v1.md",
+      "interface_expected_sha256": "29ed77d3b83a8495396b10b4bef7933e36039c397a5616aa46c77b363017515b",
+      "match": true
+    }
+  ],
+  "regression_unique_entries": 198,
+  "finite_code_matches_preregistration_and_receipt": true,
+  "json_parse": "PASS",
+  "scope": "Structural verification only; full mathematical/source findings are in reports."
+}

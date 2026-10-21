@@ -1,0 +1,102 @@
+{
+  "requested_total_agents": 3,
+  "reported_capacity_total": 3,
+  "spawn_api_service_tier_parameter": false,
+  "service_tier_evidence": "Launcher codex_command explicitly service_tier=default; worker inherits root preference; no backend billing telemetry",
+  "root_model_effort_evidence": "launcher gpt-6-astra ultra; thread configured by launcher",
+  "spawn_receipts": [
+    {
+      "task_name": "/root/dd1",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none",
+      "result": {
+        "task_name": "/root/dd1"
+      }
+    },
+    {
+      "task_name": "/root/dd2",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none",
+      "result": {
+        "task_name": "/root/dd2"
+      }
+    },
+    {
+      "task_name": "/root/full1",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none",
+      "result": {
+        "task_name": "/root/full1"
+      },
+      "replacement_for": "/root/dd1 completed",
+      "input_receipt": "reviews/FULL1/spawn-input-receipt.json"
+    },
+    {
+      "task_name": "/root/blind1",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none",
+      "result": {
+        "task_name": "/root/blind1"
+      },
+      "replacement_for": "/root/dd2 completed",
+      "input_receipt": "reviews/BLIND1/input-manifest.json",
+      "source": "actual successful spawn response retained in coordinator conversation; exact assignment retained by reviewer"
+    },
+    {
+      "task_name": "/root/blind2",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none",
+      "result": {
+        "task_name": "/root/blind2"
+      },
+      "replacement_for": "/root/blind1 completed",
+      "input_receipt": "reviews/BLIND2/assignment-verbatim.txt",
+      "source": "actual successful collaboration.spawn_agent result"
+    },
+    {
+      "task_name": "/root/full2",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none",
+      "result": {
+        "task_name": "/root/full2"
+      },
+      "replacement_for": "/root/full1 completed",
+      "input_receipt": "reviews/FULL2/assignment-verbatim.txt",
+      "source": "actual successful collaboration.spawn_agent result"
+    }
+  ],
+  "observed_at": "2026-10-21T12:20:50.643043+00:00",
+  "discrepancy": null,
+  "startup_note": "python unavailable; python3 available; no install attempted",
+  "last_reconciled_at": "2026-10-21T13:59:16.121503+00:00",
+  "followup_receipts": [
+    {
+      "agent": "/root/full2",
+      "scope": "Post-seal exact-v2 statement/proof and optional note",
+      "result": "Completed and sealed; no extra child slot"
+    },
+    {
+      "agent": "/root/blind2",
+      "scope": "Post-seal clean exact-v2 statement-only recheck and optional clean statement",
+      "result": "Completed and independently sealed; no proof/other-review exposure"
+    },
+    {
+      "agent": "/root/full2",
+      "scope": "Separate final delivery consistency check after all scientific seals",
+      "result": "Followup accepted; active at 2026-10-21T13:57:08.602928+00:00"
+    }
+  ],
+  "last_agent_observation": {
+    "at": "2026-10-21T13:59:16.121503+00:00",
+    "root": "running",
+    "full2": "completed",
+    "blind2": "completed",
+    "active_children": 0
+  }
+}

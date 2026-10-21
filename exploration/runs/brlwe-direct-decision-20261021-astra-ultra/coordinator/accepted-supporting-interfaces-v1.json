@@ -1,0 +1,48 @@
+{
+  "clock": {
+    "checked_at": "2026-10-21T13:54:27.134055+00:00",
+    "elapsed_seconds": 5726.852066,
+    "phase": "discovery",
+    "cap_state": "running",
+    "cap_updated_at": "2026-10-21T12:19:00.377452+00:00",
+    "actual_start": "2026-10-21T12:19:00.281989+00:00",
+    "graceful_shutdown_at": "2026-10-21T16:17:55.281989+00:00",
+    "hard_deadline_at": "2026-10-21T16:19:00.281989+00:00"
+  },
+  "acceptance": "coordinator/acceptance-v1.json",
+  "exact_additional_supporting_files": [
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/RF4/same-j-composition/interface-statements-v1.md",
+      "sha256": "25a78ebcc36d3cd31568f12dd36ee233490509dab8684d4656002a528bb0fab8",
+      "bytes": 10560,
+      "registered_at_utc": "2026-10-21T13:26:06.578821+00:00",
+      "scope": "complete contents",
+      "note": "Complete read, including sequential sed recovery of initially truncated C8 output."
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/B/ideal-denominator/gaussian-periodic-bounded-wrapper-v1.md",
+      "sha256": "335f4a176331df262eda5c775a7d565e3c47fee6413d714957741c81b6087521",
+      "bytes": 3370,
+      "registered_at_utc": "2026-10-21T13:26:06.581494+00:00",
+      "scope": "complete contents",
+      "note": "Complete read, including sequential sed recovery of initially truncated C8 output."
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/B/ideal-denominator/gaussian-periodic-v2-ceiling-addendum-v1.md",
+      "sha256": "17044d83881bee69c3182ed0cdaaccf91687d4a1e173618e837350fe1ebb2e47",
+      "bytes": 2515,
+      "registered_at_utc": "2026-10-21T13:26:06.581835+00:00",
+      "scope": "complete contents",
+      "note": "Complete read, including sequential sed recovery of initially truncated C8 output."
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/a-frac-definitions-v1.md",
+      "sha256": "29ed77d3b83a8495396b10b4bef7933e36039c397a5616aa46c77b363017515b",
+      "bytes": 654,
+      "registered_at_utc": "2026-10-21T13:31:13.349124+00:00",
+      "scope": "complete contents",
+      "note": ""
+    }
+  ],
+  "scope": "Explicit supporting definition/interface/bounded-wrapper/ceiling files already covered by sealed FULL2 source review; no changed mathematical claim"
+}

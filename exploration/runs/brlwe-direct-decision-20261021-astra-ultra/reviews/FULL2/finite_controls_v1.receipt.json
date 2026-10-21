@@ -1,0 +1,25 @@
+{
+  "id": "FULL2-FV1",
+  "started_at": "2026-10-21T13:28:15.490962+00:00",
+  "finished_at": "2026-10-21T13:28:17.460516+00:00",
+  "elapsed_seconds": 1.969579250086099,
+  "exit_code": 0,
+  "outer_timeout": false,
+  "code_sha256": "819ed68c43339cfbce3068c953e9234340fbded59860972d6b29c1f1831b7a9c",
+  "command": [
+    "/usr/bin/timeout",
+    "--signal=TERM",
+    "--kill-after=5s",
+    "120s",
+    "/usr/bin/prlimit",
+    "--as=536870912",
+    "--cpu=110",
+    "/usr/bin/time",
+    "-v",
+    "-o",
+    "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/reviews/FULL2/finite_controls_v1.resources.txt",
+    "python3",
+    "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/reviews/FULL2/finite_controls_v1.py"
+  ],
+  "process_group_cleanup": "Independent process group, outer kill on overrun; timeout --kill-after supplies inner descendant-group termination."
+}

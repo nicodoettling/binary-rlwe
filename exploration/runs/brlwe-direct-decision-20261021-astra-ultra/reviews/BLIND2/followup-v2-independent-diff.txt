@@ -1,0 +1,14 @@
+--- BLIND2 permitted v1
++++ BLIND2 permitted v2
+@@ -1,4 +1,4 @@
+-# FIXED-MAIN-v1: restricted ideal BDD from fixed-modulus decision binary RLWE
++# FIXED-MAIN-v2: restricted ideal BDD from fixed-modulus decision binary RLWE
+ 
+ 
+ ## Fixed target and supplied input
+@@ -50,4 +50,4 @@
+ 
+ and construct the master list before defining K. For all sufficiently large powers-of-two n, every guard above and in AM-MAIN-v3 holds uniformly in the eligible ideal family. Choose a polynomial-VALUE kappa satisfying the C8 guards. For fixed or inverse-polynomial zeta, r is inverse polynomial and the reduction has polynomial bit complexity in n, the full ideal/oracle input lengths and their charged evaluation/runtime costs. P can have superpolynomial value; logP is polynomial. This is a conditional reduction and a nonempty parameter/source family, not an assertion that an efficient distinguisher with the promised advantage exists.
+ 
+-The result preserves the norm-restricted source family D<=2^(rho*n). It does not prove unrestricted worst-case hardness, practical security, hardness of this restricted ideal family, or quantum sampling composition. Its new decision bridge uses an averaged auxiliary functional bound; all target calls nevertheless use the ONE prescribed fixed modulus and independent coefficient discrete-Gaussian error law above.
++The result preserves the norm-restricted source family D<=2^(rho*n). It does not prove unrestricted worst-case hardness, practical security, hardness of this restricted ideal family, or quantum sampling composition. Its decision bridge uses an averaged auxiliary functional bound. All D0 executions use the ONE prescribed modulus q0. The assumed distinguishing advantage concerns the exact independent coefficient discrete-Gaussian target law above; actual executions include transformed and hybrid inputs covered by the all-input bound, and MR pays its explicit statistical transfer loss. The displayed family fixes b,c before choosing target parameters; it does not assert that a single fixed noise exponent covers every polynomial sample/advantage exponent.

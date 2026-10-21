@@ -1,0 +1,17 @@
+{
+  "clock": {
+    "checked_at": "2026-10-21T13:35:24.795757+00:00",
+    "elapsed_seconds": 4584.513768,
+    "phase": "discovery",
+    "cap_state": "running",
+    "cap_updated_at": "2026-10-21T12:19:00.377452+00:00",
+    "actual_start": "2026-10-21T12:19:00.281989+00:00",
+    "graceful_shutdown_at": "2026-10-21T16:17:55.281989+00:00",
+    "hard_deadline_at": "2026-10-21T16:19:00.281989+00:00"
+  },
+  "count": 164,
+  "unique_ids": 164,
+  "baseline_sha256_matches": true,
+  "all_original_pointers_resolve_to_same_ids": true,
+  "original_status_provenance": "Retained unchanged in source_claimed_status; reviewer scope fields are separate"
+}

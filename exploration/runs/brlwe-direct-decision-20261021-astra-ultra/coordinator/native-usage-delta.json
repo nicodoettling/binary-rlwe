@@ -1,0 +1,24 @@
+{
+  "clock": {
+    "checked_at": "2026-10-21T13:59:59.620643+00:00",
+    "elapsed_seconds": 6059.338654,
+    "phase": "discovery",
+    "cap_state": "running",
+    "cap_updated_at": "2026-10-21T12:19:00.377452+00:00",
+    "actual_start": "2026-10-21T12:19:00.281989+00:00",
+    "graceful_shutdown_at": "2026-10-21T16:17:55.281989+00:00",
+    "hard_deadline_at": "2026-10-21T16:19:00.281989+00:00"
+  },
+  "thread_id": "01a15e66-88ee-7da3-b484-747bf9751c67",
+  "baseline_receipt": "coordinator/goal-start-receipts.json",
+  "final_receipt": "coordinator/goal-completion-receipt.json",
+  "baseline_tokens": 0,
+  "final_tokens": 1715836,
+  "run_relative_tokens": 1715836,
+  "baseline_native_seconds": 0,
+  "final_native_seconds": 6007,
+  "run_relative_native_seconds": 6007,
+  "native_goal_status": "complete",
+  "token_budget": null,
+  "interpretation": "Native-goal reported counters for this new run. Not a quota percentage, backend billing telemetry, billed-token statement or service-clock reset. Service elapsed time is separately measured from actual activation."
+}

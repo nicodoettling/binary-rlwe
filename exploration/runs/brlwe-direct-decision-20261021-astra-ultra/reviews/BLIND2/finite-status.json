@@ -1,0 +1,17 @@
+{
+  "code_sha256": "9931b6ce52f3be398974b27952daf1b3d79a22a55e4706bf7c6229f6831f4cd1",
+  "preregistration_sha256": "a880343c8decab073ba191b962d4ce7a28948121c89966655881282f39126b44",
+  "root_slot_authorized": true,
+  "start_clock_read": "2026-10-21 13:32:22 UTC",
+  "exit_status": 0,
+  "external_wall_seconds": 1.52,
+  "user_cpu_seconds": 1.51,
+  "system_cpu_seconds": 0.0,
+  "maximum_rss_kib": 16384,
+  "rlimit_as_bytes": 536870912,
+  "timeout_seconds": 120,
+  "kill_after_seconds": 5,
+  "stderr_empty": true,
+  "all_preregistered_checks_passed": true,
+  "scientific_scope": "Finite structural regression evidence only; no claim of infinite-theorem certification"
+}

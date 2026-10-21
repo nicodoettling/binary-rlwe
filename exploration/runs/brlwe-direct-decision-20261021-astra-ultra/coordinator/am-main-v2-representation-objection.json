@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-21T13:04:22.321646+00:00",
+  "source": "BLIND1 independent initial finding, not yet sealed final report",
+  "claim": "AM-MAIN-v2 polynomial-value corollary wording",
+  "defect": "P=2^(2ell^2) is superpolynomial in numeric n when ell=Theta(logn); main sentence all parameters polynomial in n is too broad. Runtime explicitly depends on logP and remains potentially polynomial. Also arbitrary oversized kappa needs a chosen polynomial bound for corollary.",
+  "action": "Preserve v2; repair statement after sealed review. No current ACCEPT.",
+  "scope": "Representation/corollary wording; no automatic rejection of finite decoder or mathematical gap."
+}

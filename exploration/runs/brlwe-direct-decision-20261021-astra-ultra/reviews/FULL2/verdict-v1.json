@@ -1,0 +1,25 @@
+{
+  "reviewer": "FULL2",
+  "exact_versions": [
+    "FIXED-MAIN-v1",
+    "MR-v1",
+    "AM-MAIN-v3",
+    "SFUNC-v2",
+    "DD1-EXTRACT-v1",
+    "DD2-AM1-SNF-v1",
+    "DD2-PRIMES-v1"
+  ],
+  "mathematical_implication": "PASS_SCOPED_NONAUTHOR_FULL_REVIEW",
+  "whole_fixed_v1_packet": "REJECTED_LITERAL_EXECUTION_LAW_SENTENCE",
+  "defect": "FULL2-WORDING-1",
+  "source_complexity": "PASS_SCOPED",
+  "regressions": {
+    "inherited": 164,
+    "new_root": 29,
+    "new_full2": 5,
+    "exact_inherited_pointer_hashes_verified": 164
+  },
+  "independent_experiment": "FULL2-FV1 exit0",
+  "coordinator_final_acceptance": "Separate blind, reconciliation and delivery gates; no automatic descendant acceptance",
+  "fixed_v2_read_before_seal": false
+}

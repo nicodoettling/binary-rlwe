@@ -1,0 +1,166 @@
+# Exact historical regression index
+
+- R01: No binomial/structured support sampler: T is uniform over all d-subsets. Historical attack remains valid for its retired sampler.
+- R02: Latent C is independent of S,G before conditioning; H is sampled from a positive complement independent of S,G given C. The MG+H comparison integrates H out before adjoining S. C=G cheat violates this law.
+- R03: Full target independence and full retained-seed law are explicit. Exact F3 controls retain joint TV2/3 despite pairwise independence and target gap2/9 under correlated S,E. Gaussian sign control still leaks with its sign tape; no marginal-only Gaussian inference is used.
+- R04: Full target independence and full retained-seed law are explicit. Exact F3 controls retain joint TV2/3 despite pairwise independence and target gap2/9 under correlated S,E. Gaussian sign control still leaks with its sign tape; no marginal-only Gaussian inference is used.
+- R05: Full target independence and full retained-seed law are explicit. Exact F3 controls retain joint TV2/3 despite pairwise independence and target gap2/9 under correlated S,E. Gaussian sign control still leaks with its sign tape; no marginal-only Gaussian inference is used.
+- R06: No entropy-only quotient extraction or field-rank-to-Boolean-fiber inference: arbitrary quotient fibers are handled by cardinality times exact noisy-bit guessing.
+- R07: No entropy-only quotient extraction or field-rank-to-Boolean-fiber inference: arbitrary quotient fibers are handled by cardinality times exact noisy-bit guessing.
+- R08: Exact latent TV1/2 versus public TV0 remains a counterexample to reverse projection. EX reveals more only to upper-bound guessing; no efficient public decoder or reverse TV lower bound is inferred.
+- R09: No Boolean injection/equality or Lucas-occupancy claim. EX uses an unconditional integer determinant lower bound, not a strict binary injection threshold. B strict-gate work remains a separate unaccepted reserve.
+- R10: No residual-box acceptance test or no-wrap-to-small-false-positive shortcut in EX. Equality is against the actual sampled witness.
+- R11: Bad-mask success can equal one; its probability is added once. The information bound is pointwise for every good latent state, not merely sometimes-lossy. CP1 separately reproduced.
+- R12: Actual secret S is retained through joint-law TV and compared for equality. Multiple verified preimages remain distinct outcomes; finite witness controls reject residual verification as recovery.
+- R13: No signed Renyi transport. The reduction uses one absolute difference of acceptance probabilities and ordinary TV contraction. Historical event-versus-signed-gap counterexample retained.
+- R14: Zero ideal coordinates and zero seeds are retained. Rank strata are counted exactly, with no active-unit conditioning. Fresh dual-number control reproduces9/32 endpoint TV and17/32 planted guessing.
+- R15: EX does not claim independent planted ideal points. Comparator independence follows from a quantitative full retained-seed theorem and fresh local coins conditional on the seed; common-K/rotation shortcuts remain false.
+- R16: No statistical Base2 pseudorandomness, hidden posterior sampler or correlated-response oracle is asserted. Source hardness stays a computational premise; auxiliary H is proof-only.
+- R17: No independent-matrix moment analogy, symmetry-orbit sampler, QCSD carry substitution, or quantum speedup. EX uses exact ring multiplication characters and full Parseval sum.
+- R18: Fresh exact reproduction: normalizer10/11; posterior A_b21/2000,C_b1/20,D879/1000; selected21/2000>1/100; later21/221<1/10. Support restriction and normalization invalidate the old product. EX products are under original independent seeds, or pointwise after fixing nonpivot coordinates, or conditional on the original seed before output; no selected adaptive branch or latent cache test.
+- C03-HC1: The old delta/(1-delta) can be negative when delta>1; exact lower bound82/63 reproduced. EX expressly uses eta=1 when Delta>=1.
+- C03-HC2: H is the full positive discrete Gaussian complement, not sequential conditionals or separately completed blocks. Fresh exact12x4 identities retain cross-blocks and explicitly reject positive-marginal/negative-joint shortcut; historical parity-dependent normalizer remains unequal.
+- C03-HC3: Exponent matrix is not claimed to equal discrete covariance. Proof uses exact quadratic masses, normalized Poisson sums and uniform theta ratio; binary64 diagnostics are not interval certificates.
+- C03-HC4: Exact signed inverse with negative entries-1/20 is reproduced. The wrapped narrow deconvolution failure remains excluded: EX defines a positive joint D_B under strict PSD and pays smoothing loss, not arbitrary exact deconvolution.
+- C03-HC5: Full target independence and full retained-seed law are explicit. Exact F3 controls retain joint TV2/3 despite pairwise independence and target gap2/9 under correlated S,E. Gaussian sign control still leaks with its sign tape; no marginal-only Gaussian inference is used.
+- C03-HC6: Bad-mask success can equal one; its probability is added once. The information bound is pointwise for every good latent state, not merely sometimes-lossy. CP1 separately reproduced.
+- C03-HC7: One shared auxiliary G and one Y=S+G serve all m rows. No separate independent noisy secret views are revealed, and quotient cardinality is charged once.
+- C02-LATENT-PUBLIC: Exact latent TV1/2 versus public TV0 remains a counterexample to reverse projection. EX reveals more only to upper-bound guessing; no efficient public decoder or reverse TV lower bound is inferred.
+- C02-CHAR: Negligible fixed-character bias does not prove statistical closeness. EX sums every nonzero character square and bounds expected full chi-square before deriving retained-seed TV.
+- C01-ATT: Preserve reviewed exact-version ATT: strict q^(1-d/r)>2n ell², public roots or polynomial enumeration, optimized r nextpower2>=2d, exp(O(d)) cost. d=1 and O(logn) insecure; selected d/logn tends infinity but no hardness proof follows.
+- CP-1: Fresh exact reproduction: normalizer10/11; posterior A_b21/2000,C_b1/20,D879/1000; selected21/2000>1/100; later21/221<1/10. Support restriction and normalization invalidate the old product. EX products are under original independent seeds, or pointwise after fixing nonpivot coordinates, or conditional on the original seed before output; no selected adaptive branch or latent cache test.
+- NC1-v1: The old delta/(1-delta) can be negative when delta>1; exact lower bound82/63 reproduced. EX expressly uses eta=1 when Delta>=1.
+- S0-dependency: No general AN or old completion acceptance inherited: current graph explicitly includes algebra, regularity, masks, full completion, guessing, prime, parameters and bounded implementation. External Base2 premise is separate and unproved.
+- PUBLIC-ENCODED-F: Exact latent TV1/2 versus public TV0 remains a counterexample to reverse projection. EX reveals more only to upper-bound guessing; no efficient public decoder or reverse TV lower bound is inferred.
+- W2-SUBGROUP-BOUNDARY: EX makes no all-subgroup coverage claim or attack-runtime improvement. Historical n8,d2 coverage-one boundary and optimized-constant qualification remain live for B, whose new theorem is unaccepted.
+- UNIFORM-APPROX-COLLAPSE: No exact-uniform-preserving entropy no-go is extended to approximate uniformity. EX intentionally pays full-law delta_exp; initial A entropy claim is not a dependency.
+- SE-CORRELATION-F3: Full target independence and full retained-seed law are explicit. Exact F3 controls retain joint TV2/3 despite pairwise independence and target gap2/9 under correlated S,E. Gaussian sign control still leaks with its sign tape; no marginal-only Gaussian inference is used.
+- W2-CONSTANT-COMPARISON: EX makes no all-subgroup coverage claim or attack-runtime improvement. Historical n8,d2 coverage-one boundary and optimized-constant qualification remain live for B, whose new theorem is unaccepted.
+- N02-DUAL-NUMBER: Zero ideal coordinates and zero seeds are retained. Rank strata are counted exactly, with no active-unit conditioning. Fresh dual-number control reproduces9/32 endpoint TV and17/32 planted guessing.
+- PAIRWISE-SE-F3: Full target independence and full retained-seed law are explicit. Exact F3 controls retain joint TV2/3 despite pairwise independence and target gap2/9 under correlated S,E. Gaussian sign control still leaks with its sign tape; no marginal-only Gaussian inference is used.
+- N03-PV-CONDITIONING: No prior law of active ratios after seeing public outputs. Good depends only on source/expansion latents, and all uniform-seed Fourier averages precede observation. No signed gap or active-PV conditioning transfer.
+- N03-SCAL-POSTERIOR: No prior law of active ratios after seeing public outputs. Good depends only on source/expansion latents, and all uniform-seed Fourier averages precede observation. No signed gap or active-PV conditioning transfer.
+- RECT-ALG-1: H is the full positive discrete Gaussian complement, not sequential conditionals or separately completed blocks. Fresh exact12x4 identities retain cross-blocks and explicitly reject positive-marginal/negative-joint shortcut; historical parity-dependent normalizer remains unequal.
+- SOURCE-SMALL-D: Preserve reviewed exact-version ATT: strict q^(1-d/r)>2n ell², public roots or polynomial enumeration, optimized r nextpower2>=2d, exp(O(d)) cost. d=1 and O(logn) insecure; selected d/logn tends infinity but no hardness proof follows.
+- A-PPT-LEDGER-SCOPE: Old q=P(1,2n^128),d=n/(64ell) entropy clause remains false. New K-dependent d<=n/(24Kell) explicitly yields d log2 q<=n/4; fixed-h changed q premise is stated.
+- EX-PURE-MIX-ZERO: Actual EX includes fresh coefficient W and proves a different full law.
+- EX-PUBLIC-TAPE: The theorem retains seedA but not its local expansion coins; proof-side disclosure is only a planted guessing upper bound.
+- EX-APPENDED-H: EX integratesH out, retainslatentC andindependentS, then disclosesH only in completed experiment.
+- EX-M3-CROSSBLOCK: EX uses full stackednorm and B>=3sigma²I/4.
+- EX-RETAINED-M3: Surrogate finite-law falsification only, not Gaussian/asymptotic certification.
+- B-JL-BZERO: B reserve remainsREPAIRED-PENDING-RECHECK andisnotEXdependency.
+- B-JL-REDRAW-T: ExactsourceEXandB useonecommonT. Btheoremstillunaccepted.
+- A-ERASURE-RANKMIX: No suchreductionusedinEX; Base2 remainsassumed. InitialAfullclaimisprovisional.
+- D-THETA-RETAIN-U-v1: Exact historical entry retained at pointer.
+- D-LSW-THETA-1: Exact historical entry retained at pointer.
+- C-TOWER-RELATION-1: Exact historical entry retained at pointer.
+- D-REUSED-PIVOT-1: Exact historical entry retained at pointer.
+- A-TOWER-LAW-1: Exact historical entry retained at pointer.
+- C-SMALL-N-EXISTENCE-1: Exact historical entry retained at pointer.
+- D-NORMALFORM-WRAP-1: Exact historical entry retained at pointer.
+- B-GP-RATIONAL-ENCODING-1: Arbitrary rational magnitudes do not bound encoding lengths; r± near2 change exact samplerN.
+- C-OHCP-LOGSHIFT-1: Tiny hidden center breaks v1 claimed starting-profile decay under separate confidence bounds.
+- ROOT-IDEAL-SUBSPACE-1: General matrix kernel is ideal with exact probability binom(N,m)/GaussianBinomial(N,m;q), not automatically by small quotient.
+- B-SUP-RETAINED-COINS-1: Retained source graph and shared-key product countercontrols; exact CRT formula and triangular bijection tested.
+- C-OHCP-BOUNDED-RUNTIME-1: Unbounded uniform-integer retries and unpromised wrong sign need finite caps.
+- C-SUPER-CONFIDENCE-1: zeta=exp(-kappa) contradicts kappa>=log(8n/zeta); use compatible independent budget.
+- C-QUOTIENT-CARRIES-1: Coprime finitequotient cannot additivelyembed inRq; residualcarries survive sections.
+- C-PHYSICAL-HAAR-1: Rational displacement preserves a nonzero discrete-multiplier character at every selected width; continuous proxy Haar limit cannot be assigned to physical query.
+- C-CAUSAL-WALK-1: Future all-correct conditioning does not justify conditional step progress. Require explicit adapted corrected walk, independent fresh proposals, martingale and first-disagreement coupling.
+- B-CANONICAL-FAIL-1: Canonical hint law undefined on unreachable public keys, including zero key; total common FAIL kernel required without favorable conditioning.
+- B-RANK-FIBER-1: Full concatenated ring matrix must have full column rank at every CRT root; separate block rank does not imply exact affine-fiber simulator.
+- B-TWO-ROW-NORMALIZER-1: Two-row ring hash CRT moments and shared-R posterior normalizers checked exactly; dropping coset normalizer changes joint law.
+- B-TOWER-WASHOUT-1: Augmented hint residual ZWU can uniformize every planted response block; constraining W to circulant is a rare event, not free conditioning.
+- B-BINARY-FOURIER-1: Uniform-secret orthogonality cannot be inherited by binary secrets; repeated postselection does not increase total accepted kernel mass.
+- A-CLASS-ASSERTION-1: Original assertion that broad discrete-Gaussian modular alignment is exactly1/13 failed; approximation with theta error retained; original stderr/code preserved.
+- A-COFACTOR-1: Cofactor lower bound needs the actual minimal clearing integer; naive product vector is not a lower bound for a saturated full-ideal basis.
+- A-CLASS-CP1-1: Adaptive alignment/control branches and skew normalizers checked on full finite law; repairs do not erase failed assertion.
+- D-HIGHINDEX-GUESS-1: Index2176 in degree8 but248 binary cosets; determinant upper bound is sufficient, not necessary, for actual-secret lossiness. Known generator makes source easy.
+- A-TRACE-PARAM-1: Executable eligible-block trace-dual construction has incompatible actual block-capacity and imported prime-family parameter inequalities; no unproved advice silently supplied.
+- A-CLASSRING-PADDING-1: Cyclic relation ring is not automatically negacyclic;5-torsion quotient in power-two negacyclic degreeN requires index>=5^(N/2)>2^N.
+- B-COMPANION-INVERSE-1: Short inverse useful enough for Gaussian tower transport already directly decodes gadget module bits; full-rank source forbids the simple nilpotent RD=0 repair.
+- C8-FV1: Exact comparison against a computable-real final threshold lacks a bounded rule; rational-threshold repair separately frozen.
+- ROOT-ORDER-PAIRING-1: Order-dual pairing and coefficient-integral response pairing differ; extra public/error scaling cannot be omitted.
+- ROOT-ORDER-SCALE-1: Exact four-scale support/colon controls preserve both integer and noninteger cases; no all-orders obstruction.
+- ROOT-BINCLASS-1: 6648 exact ternary norm/divisor multiplicity controls; ramified2 retained; finite count only.
+- BT10-FV1: 1636 exact component controls; full loops not simulated; sealed supporting review has outside-source exposure.
+- ROOT-FRAC-SCALE-1: q/s>=1 alone with n2,k1,delta1/2,v0=1/1024 yields W_J=1/8; actual chain v0 floor and specified radius must be explicit.
+- ROOT-FRAC-SMALLBALL-1: Exact65x65 degree2 Gaussian conditional model,48 nonzero ring-linear multipliers, rational small-ball probability bound and narrow zero-control. No universal proof from finite test.
+- B-BE-1: 426500 exact endpoint states for binary-error switching; positive Bernoulli deconvolution and retained normalizer. Source hardness unproved.
+- RF3-BINCLASS-SCOPE-1: Exact ramified2, oddprime equality, full-embedding, high-index, small-n, fractional escape and disjoint-coset posterior hand controls.
+- E-PAIR-TRUNCATION-1: 81-state conditional Gaussian pair probability exceeds full-Gaussian bound because truncation changes normalizer; valid finite max-atom count retained. Not a theorem counterexample.
+- ROOT-COSET-NORMALIZER-1: Five-point exact coset control has TV1/34 under uniform coset selection versus global Gaussian weights; no exact-uniform-coset shortcut.
+- BT13-FV1: 50456 finite arithmetic predicates including8020 rational verifier endpoint cases, geometric progress and budget checks. Float scalar-normalizer sweep is numerical only. No full huge walk or asymptotic hardness experiment.
+- BT12-FV1: Exhaustive6651 ternary vectors n2,4,8 with independent exact resultant/determinant norms, divisor envelope,552 posterior pairs including zero-mass branches. No class enumeration or analytic/hardness certification.
+- ROOT-MASK-RESIDUE-1: 144 exact atoms: mask outsideJ gives pguess(Y)=9/16, but integer-error-compatible H exposure reveals S with certainty through fractional residues. No public attack or global continuous-mask barrier.
+- BT14-HISTORY-ATOM-1: Nonatomic retained private state makes positive-mass-atom conditional premise vacuous; usefulsuccess1 versus9/100.
+- BT14-FV1: 72424 exact adaptive transitions; conditionalTV union,selectedpairs,zero-mass branches, truncation and marginal/future-conditioning controls.
+- FQ-R1: Pointwise randomized correctness does not imply one universally correct tape; finite hand fixture.
+- FQ-R2: Coherent vector error can equal2sqrt(p), not O(p); finite hand fixture.
+- FQ-R3: Discarding copied garbage dephases a superposition even with zero answer error.
+- FQ-R4: Off-promise query mass must be paid separately; classical correctness there is unrestricted.
+- ROOT-QCOH-FV1: 65536 truth tables,983040 promised-subset exact Walsh checks; supports generic coherent adapter only.
+- G-PI-FV1: 624328 exact prior atoms: actual-public decoder, both enumerated endpoints, hidden-ideal full posterior, small-q negative lift and originalCP1.
+- ROOT-FRAC-DOMAIN-2: Approximate samples can leave J where T:J->I is undefined; v3 explicitly returns failure there.
+- ROOT-WRAP-FV1: 243 degree2 principal-ideal full endpoint numerical controls; unit error scaling preserves modular TV. Float64 exploration, no asymptotic or rigorous interval claim.
+- BT15-FV1: Exact conditionalTV/predictable attempts, entangled coherent adapter, p0/p1, off-promise, no good seed and concrete reversible six-gate program;10s64MiB reservation,exit0.
+- FQ-COND-1: Rare selected conditional state can be orthogonal despite small averaged error; compare complete joint state and separately justify exact coset branches.
+- FQ-NORM-1: Postselected amplitude(1,1/2) has squared normalized masses4/5,1/5; retain success probability5/8.
+- FQ-PERIOD-1: Unnormalized L1 fine-grid tails cannot be divided by Gaussian squared norm to certify normalized state error; cross-coset overlap must be controlled.
+- FQ-RETRY-1: Input/phase-dependent filter acceptance requires fresh complete attempts and actual selected normalization; resource states before unknown data.
+- FQ-MODULUS-1: Factorial prime construction has polynomial bit length, not value; no polynomial approximation-factor conclusion follows.
+- F-QFINITE-FV1: 9288 exact finite phase-filter, normalized conditioning, bounded retry and phase-correction controls; no transcendental estimate or full circuit certified.
+- BT16-FV1: Exact finite module generation, actual-secret uniqueness, natural reduction, full posterior and supplied CP1 controls; k=0 boundary included.
+- BT16-NATURAL-1: J=2R,q13,a=1/2 maps to7 centered-6; only multiply byJ before centered lifting recovers actual fractional source.
+- BT16-POSTERIOR-1: Common secret posterior formula does not equate average recovery under different A marginals:55/156 versus7/20, difference1/390.
+- BT16-PRIMEPOWER-1: Denominator generation depends on hitting the top local layer; prime powers contributeN(P)^-k, notN(P)^(-e*k).
+- BT16-ZERO-1: Allzero public multipliers have uniform secret posterior; under lifting and generation their branch cannot be a claimed success event. Sourcezero/integral branches retained.
+- RF4-FV1: 3303 exact normalized periodization, complete retry, entangled phase-resource and originalCP1 checks;0.12s11264KiB.
+- RF4-PERIOD-NEG1: Vanishing preperiodization squared tail leaves constant normalized periodization error; collision cross terms required.
+- RF4-RETRY-NEG1: Unequal resource acceptance1/4 and5/32 gives joint5/128, not1/16; actual normalization retained.
+- RF4-ALIAS-NEG1: B=[[1,256],[0,1]],d1/8,H128 has dual separation but aliases gamma(1,0) to(1,-256); basis coordinate bound separately required.
+- BT17-SYMBOLIC-1: Clean blind independent symbolic reconstruction, exact hand control n2,B=I,d2=1/64,epsilon1/16,W25,H2^51,N2^52; no executed experiment.
+- ROOT-PARAM-FV1: Finite arithmetic ran but associated written t=288 conflicted with actual4608; rejected witness retained.
+- ROOT-PARAM-T-1: Written target t must equal tau2*ell=4608; repair explicitly binds both and completion inequalities.
+- ROOT-PARAM-FV2: Repaired t arithmetic passed; unspecified integer framing still invalidated literal certificate.
+- ROOT-PARAM-ENC-1: bit_length+3 is not documented parseable framing; v3 uses explicit tagged unary-length encoding.
+- ROOT-PARAM-FV3: Exact finite nonempty parameters with complete typed encoding; no sampler/circuit/security experiment.
+- RF4-PARAM-FV2: 328 independent exact checks of witnessv3 using closed-form basis/adjugate and actual encode/decode;0.03s16384KiB.
+- H-ALIGN-FV1: Eight exact finite laws,143144pairs,296packing-radius checks, normalizers andCP1; truncated laws do not certify infinite Gaussian bound.
+- H-LLL-BITLENGTH-1: expOmega(sqrt n) LLL certificate is not superpolynomial in inputbits for unrestrictedlogM; m=n,log2M>=2^n givesg_n<=log2M^1/4. Scope gap saved beforev2.
+- H-REL-FV2: Eightexactfinite laws143144pairs: Gaussreduced relationbound, actualh, retainedsource/comparatorTV, pushforwardTV, rankfailure/zeroimage. No asymptotic sampler orLLL guarantee.
+- H-V0-BITLENGTH-1: Polynomial-time encodedscalar evaluation does not bound v0 value: v0*=2^n,d0/=2^n preservesh0/allC8gates while width*=2^n. Hparametersv2upperwidthassertionrejected; core/lowerwidthunaffected.
+- RH1-FV1: 4802exactpairs,F9residuedegree2, actualindex1/3/9, rationalrankFAIL/nonzeroimages andcomplete source/comparatorTV. PrincipalIeasycontrolonly.
+- HC1-FV1: Independent exact625 contraction/15625 causal kernelcases,92 equalmarginal unequaljoint cases; full capped comparator(6,5,5)/16 TV1/24, originalCP1 and padded one-slot dispatcher.
+- ROOT-TOWER-FV1: 19683 exact finite source/comparator cases: proper prime lift has trace projection outside originalideal; uniform quotient maps uniformlytoR/qR. Directresidue-order tables. Finite laws notinfinite Gaussian claims.
+- BT19-NONPRIME-1: Zi,F=R,I=(4),X2 descends16to4 withoutalignment: primalityrequired fordescent, notprobability.
+- BT19-NONSUFFICIENT-1: Zi,I=(1+i),X2 aligns butminimalintegerclearingkeepsnorm2: alignmentnecessarynotsufficient.
+- BT19-SELECTION-1: Six original drawsZi,I=(2+i),s128 retainatmostone; selectedsuccess>13/20 single-eventbound. Allattemptsmustbepaid.
+- BT19-RETRY-1: Width2^-b hasnonzero retryexpectation>=exp(pi4^b)/4; finitewidthencodingnotpolynomialretrytime.
+- BT18-SYMBOLIC-1: Clean independentfour-interface reconstruction verifiescompleteendpointcharges,rationalradius,duality,allinputcallslotsandordinaryDGSoutput; noexperimentorupstreamreproof.
+- RT1-MOMENT-FV1: 13122exact triples: product/projection containment and covariance moment identities; allnonzerofactors still projectzero withmass3/64 or20/6561. Retainedfinitecenteredlaws, notinfiniteGaussian theorem.
+- RT2-WEIGHTED-FV1: 1152 exact weighted pairs,625 multiplier-module cases; sample-dependent a violates fresh-moment formula, TV does not bound moments, CP1 and zero branches retained. Exact finite laws only.
+- BT20-VACUITY-1: n=m4,J=(3,z²+z+2),rho7/8,a1,W8,h1/4: all parameters constant but declared failure certificate is1; nonvacuity separate.
+- BT20-RETRY-MARGIN-1: Same ideal,W16,h1/2-2^-b: declared success bound2^-b despite polynomial numeric size; positive bound alone does not certify polynomial expected repetition.
+- BT20-WIDTHVALUE-1: Same ideal,W2^b,h1/4: polynomial width encoding does not give polynomial-value approximation certificate.
+- RT2-NC1: Sample-dependent complementary multiplier, exact actual81/2>fresh-bound27/2 and9>11/6.
+- RT2-NC2: TV1/100 contamination at legal remote ideal point makes moment arbitrarily large; only bounded events transfer.
+- RT2-NC3: Common fair bit has exact uniform marginals but jointTV1/2 from product; no restored independence.
+- BT21-VACUITY-1: Independent norm9 prime,n=m4,W8,h1/2,rho7/8 gives zero stated success lower bound despite constant numeric parameters; not actual failure lower bound.
+- BT21-ADAPTIVE-MULTIPLIER-1: For each finite high-mass subset of J choose integral-scaled gamma/x in C with Pi(gamma)=0; exact X marginal can projectzero near surely under correlated multiplier. Freshness/joint premise essential.
+- BT22-TV-MOMENT-1: Section6: eta contamination by remote ideal point preserves TV bound but makes the projected moment unbounded.
+- BT22-JOINT-MULTIPLIER-1: Section6: finite high-mass set admits correlated bounded complementary multipliers in trace kernels; exact X marginal still gives near-certain zero output. n2,m4,norm9 factorization gives an admissible instance.
+- BT22-MARGIN-WIDTH-1: Sections6-8: W=4sqrt(m) makes displayed guarantee vacuous; positive margin need not be inverse polynomial; polynomial width bit length does not imply polynomial approximation value.
+- M1-FV1-NORMALIZERS: Exact finite sequential Gaussian normalizers depend on selected prior coordinate: H=[[2,1],[0,2]], base1/2, box[-10,10]^2 gives strictly positive TV from normalized target if ignored. 80 full-law cases validate explicit normalizer-ratio control.
+- M1-FV1-CP1: Reconstructed all160 original CP1 ambient atoms, posteriorvk mass10/11, hit21/2000>1/100, residual21/221<1/10.
+- B-FV1-CUBE289: Degree8 ternary generator norm289,image176 of256,exponent17. Enlarged entropy criterion can hold above2^n while known generator/annihilator makes source and delivered sampling easy.
+- M1-FALLBACK-1: Scalar fallback followed by further nonzero coordinates need not equal the theorem-declared finalzero.
+- A-LIN-FV1: 86 exact integral linear maps,240 semilinear components;13747 final quotient inputs with equal fibers; finite planted zero masses retained
+- A-RATIONAL-BOUNDARY-v1: Z[i],I=(2+i),rational norm1 T=(3+4i)/5 conjugation yields fractional off-stabilizer multiplier(6-8i)/5
+- B-THETA-FV1: 40 exact finite HNF Gaussian guessing laws with rigorous omitted-mass bound and retained joint normalizers.
+- B-M1-FV1: All2048 adaptive tapes retain old fallback(0,1), repaired globalzero, TV55/512<=failure71/512<=3/16; wrong-HNF-order and collision controls.
+- A-BFAM-FV1: Independent quadratic recurrence enumerates all256 binary vertices:176 fibers, histogram112/48/16, source threshold and CP1 rational inequalities.
+- FBR1-Q-PREMISE-1: n4,k=chi=delta1,ell3,sigma20736,q82944 satisfies displayed v1 numbers but3 dividesq; missing explicit same-J prime prerequisite.
+- M1-Q-FV1: Exact rejected compositeq82944 retained; four repaired prime/congruence parameter controls n2/4/8/16 with actual widths.
+- B-REVEAL-S-1: Nonauthor hand boundary: revealing S gives guessing1 and violates the required conditional independent product law; full-observation theorem does not permit arbitrary secret-dependent metadata.
+- FBR2-WIDTH-BOUNDARY-1: At n4 the coarse inequality W>4n sqrt(n) alone does not imply W>12n; exact full parameter lower bound does.

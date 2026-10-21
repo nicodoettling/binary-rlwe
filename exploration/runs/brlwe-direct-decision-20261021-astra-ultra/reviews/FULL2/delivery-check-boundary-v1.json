@@ -1,0 +1,164 @@
+{
+  "at": "2026-10-21T13:58:04.068329+00:00",
+  "cap_state": "running",
+  "service_start": "2026-10-21T12:19:00.281989+00:00",
+  "worker_stop": "2026-10-21T16:04:00.281989+00:00",
+  "hard_deadline": "2026-10-21T16:19:00.281989+00:00",
+  "cap_sha256": "1125c304bcf7847be37534799e152e360801babb02da82b5a36b080ad149ae1f",
+  "deadlines_sha256": "c84289e147018da938f41e4987df4d557869803892df102844b885e224c7da83",
+  "original_sealed_artifacts_all_unchanged": true,
+  "checks": [
+    {
+      "seal": "seal-v1.json",
+      "path": "artifact-check-v1.json",
+      "unchanged": true
+    },
+    {
+      "seal": "seal-v1.json",
+      "path": "assignment-v1.txt",
+      "unchanged": true
+    },
+    {
+      "seal": "seal-v1.json",
+      "path": "audit_io.py",
+      "unchanged": true
+    },
+    {
+      "seal": "seal-v1.json",
+      "path": "dependency-hash-check-v1.json",
+      "unchanged": true
+    },
+    {
+      "seal": "seal-v1.json",
+      "path": "exposure-log-v1.md",
+      "unchanged": true
+    },
+    {
+      "seal": "seal-v1.json",
+      "path": "external-source-observations-v1.json",
+      "unchanged": true
+    },
+    {
+      "seal": "seal-v1.json",
+      "path": "findings-ledger-v1.md",
+      "unchanged": true
+    },
+    {
+      "seal": "seal-v1.json",
+      "path": "finite_controls_v1.preregistration.json",
+      "unchanged": true
+    },
+    {
+      "seal": "seal-v1.json",
+      "path": "finite_controls_v1.py",
+      "unchanged": true
+    },
+    {
+      "seal": "seal-v1.json",
+      "path": "finite_controls_v1.receipt.json",
+      "unchanged": true
+    },
+    {
+      "seal": "seal-v1.json",
+      "path": "finite_controls_v1.resources.txt",
+      "unchanged": true
+    },
+    {
+      "seal": "seal-v1.json",
+      "path": "finite_controls_v1.stderr.txt",
+      "unchanged": true
+    },
+    {
+      "seal": "seal-v1.json",
+      "path": "finite_controls_v1.stdout.json",
+      "unchanged": true
+    },
+    {
+      "seal": "seal-v1.json",
+      "path": "full-report-v1.md",
+      "unchanged": true
+    },
+    {
+      "seal": "seal-v1.json",
+      "path": "input-manifest-v1.json",
+      "unchanged": true
+    },
+    {
+      "seal": "seal-v1.json",
+      "path": "read-register-v1.json",
+      "unchanged": true
+    },
+    {
+      "seal": "seal-v1.json",
+      "path": "regression-dispositions-v1.json",
+      "unchanged": true
+    },
+    {
+      "seal": "seal-v1.json",
+      "path": "regression_audit_v1.py",
+      "unchanged": true
+    },
+    {
+      "seal": "seal-v1.json",
+      "path": "source-complexity-report-v1.md",
+      "unchanged": true
+    },
+    {
+      "seal": "seal-v1.json",
+      "path": "verdict-v1.json",
+      "unchanged": true
+    },
+    {
+      "seal": "seal-v2.json",
+      "path": "followup-assignment-v2.txt",
+      "unchanged": true
+    },
+    {
+      "seal": "seal-v2.json",
+      "path": "read-register-v2.json",
+      "unchanged": true
+    },
+    {
+      "seal": "seal-v2.json",
+      "path": "pre-recheck-seal-verification-v2.json",
+      "unchanged": true
+    },
+    {
+      "seal": "seal-v2.json",
+      "path": "exact-main-diff-v2.patch",
+      "unchanged": true
+    },
+    {
+      "seal": "seal-v2.json",
+      "path": "input-manifest-v2.json",
+      "unchanged": true
+    },
+    {
+      "seal": "seal-v2.json",
+      "path": "exact-v2-recheck.md",
+      "unchanged": true
+    },
+    {
+      "seal": "seal-v2.json",
+      "path": "regression-dispositions-v2.json",
+      "unchanged": true
+    },
+    {
+      "seal": "seal-v2.json",
+      "path": "verdict-v2.json",
+      "unchanged": true
+    },
+    {
+      "seal": "seal-v2.json",
+      "path": "exposure-log-v2.md",
+      "unchanged": true
+    },
+    {
+      "seal": "seal-v2.json",
+      "path": "artifact-check-v2.json",
+      "unchanged": true
+    }
+  ],
+  "stopped_after_report": true,
+  "new_experiments": 0
+}

@@ -1,0 +1,24 @@
+{
+  "clock": {
+    "checked_at": "2026-10-21T13:33:54.339315+00:00",
+    "elapsed_seconds": 4494.057326,
+    "phase": "discovery",
+    "cap_state": "running",
+    "cap_updated_at": "2026-10-21T12:19:00.377452+00:00",
+    "actual_start": "2026-10-21T12:19:00.281989+00:00",
+    "graceful_shutdown_at": "2026-10-21T16:17:55.281989+00:00",
+    "hard_deadline_at": "2026-10-21T16:19:00.281989+00:00"
+  },
+  "status": "REPAIRED-PENDING-RECHECK",
+  "changes": [
+    "Closing sentence now distinguishes exact D0 target advantage premise from actual transformed/hybrid executions",
+    "Explicit sample/advantage exponent window qualification, already implied by numerical guards",
+    "Proof content unchanged except exact-version binding"
+  ],
+  "predecessor_objection": "coordinator/fixed-main-v1-query-scope-objection.json",
+  "files": {
+    "fixed-main-statement-v2.md": "25da2502104e746d3e9f2ca10e3d070372ff95b853b1fd2b0e6c96b1b909ecb6",
+    "fixed-main-proof-v2.md": "2e98d25b0f349e22dfeb23ba5ea18ebe339039fa08fb39f92cf45afa9f50f0c7"
+  },
+  "review_handling": "FULL2/BLIND2 first reports remain bound to v1; require exact-v2 follow-up checks before acceptance. BLIND2 must first seal original independent report and remain unexposed to author proofs."
+}

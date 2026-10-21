@@ -1,0 +1,50 @@
+{
+  "CP1": {
+    "ambient_atoms": 160,
+    "normalizer": "10/11",
+    "old_product_rejected": true,
+    "residual": "21/221",
+    "selected_hit": "21/2000"
+  },
+  "classification": {
+    "gap_4a_tie_rejected": true,
+    "strict_endpoint_cases": 216
+  },
+  "elapsed_seconds": 0.8124682450434193,
+  "exact_verifier": {
+    "cases": 4925,
+    "radius_squared": "1/64"
+  },
+  "extractor_full_joint": {
+    "error_atoms": 3,
+    "error_weight_denominator": 6,
+    "error_weights": [
+      1,
+      2,
+      3
+    ],
+    "laws_checked": 250,
+    "n": 2,
+    "q": 5,
+    "secrets": 25
+  },
+  "fiber_max_order": {
+    "all_n2_partitions": 15,
+    "fiber_inequalities": 111
+  },
+  "full_observation_max_control": {
+    "best_fixed_coordinate": "5/6",
+    "qualification": "finite-support control of max order; not an infinite Gaussian proof",
+    "selected": "11/12"
+  },
+  "master_filtering": {
+    "finite_gap_vectors_checked": 26496
+  },
+  "norm_root_multiplicity": {
+    "cases_with_multiple_roots_at_one_prime": 512,
+    "maximum_norm_bits": 12,
+    "ternary_nonzero_vectors": 6648
+  },
+  "peak_rss_kib": 13312,
+  "status": "PASS"
+}

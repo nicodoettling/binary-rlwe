@@ -1,0 +1,24 @@
+{
+  "version": "AM-MAIN-v2",
+  "reviewer": "FULL1 fresh nonauthor full reviewer, not blind",
+  "sealed_at_utc": "2026-10-21T13:21:23.449024+00:00",
+  "whole_exact_packet": "REPAIR_REQUIRED",
+  "core_source_gap_and_decoding_implication": "PASS_FULL_REVIEW",
+  "rejected_claim": "Section5 literal assertion that all parameters are polynomial in n",
+  "counterexample": "P=2^(2ell^2)>=n^(2log2 n), superpolynomial in value; runtime correctly depends on logP",
+  "repair_needed": [
+    "State polynomial-value quantities and polynomial logP separately.",
+    "Choose polynomially bounded kappa for the asymptotic corollary.",
+    "Retain complete represented-input, certified-evaluation and supplied D_alg runtime dependence."
+  ],
+  "scope_boundaries": [
+    "Average over fixed master modulus list; not one prescribed q.",
+    "epsilon0=1/c=0 is an unsatisfiable oracle premise although numeric guards can hold.",
+    "No restricted-source hardness, arbitrary-ideal foundation or quantum composition."
+  ],
+  "fresh_test": "FULL1-FV1 PASS, with general-filter limitation separately recorded",
+  "report": "full-report-v1.md",
+  "source_complexity_report": "source-complexity-report-v1.md",
+  "regressions": "regression-dispositions-v1.json",
+  "new_versions_read": false
+}

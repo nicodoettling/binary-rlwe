@@ -1,0 +1,45 @@
+{
+  "sealed_at": "2026-10-21T13:58:04.068329+00:00",
+  "review": "FULL2 final delivery consistency check of exact read snapshot",
+  "verdict": "PASS_WITH_NONBLOCKING_METADATA_ALIAS_CLARIFICATION",
+  "prior_seals": {
+    "seal-v1.json": "72fc3e7fae66041f0d9b23b4c5e36634963daa504bfff828bf700d00303b5d5d",
+    "seal-v2.json": "8bfc1990c2be060e1c29ade21aac2c8bd3948f40ab03196fb3ed39e8da18b1f7"
+  },
+  "artifacts": [
+    {
+      "path": "delivery-check-assignment-v1.txt",
+      "sha256": "fa963a7035367a1798931af391dedcfd85548bb38a145af893db9ecf722bc277",
+      "bytes": 1617
+    },
+    {
+      "path": "delivery-check-inputs-v1.json",
+      "sha256": "41a1877f8a0e590b6eccb55eea7f1e291f489de9428987373f56bcb6b21e12e0",
+      "bytes": 5344
+    },
+    {
+      "path": "delivery-check-mechanical-v1.json",
+      "sha256": "581e5563528d2b0898ecf40afd7c87fa4d6da52d37e5e38587f58e1e07f114b6",
+      "bytes": 13739
+    },
+    {
+      "path": "delivery-check-report-v1.md",
+      "sha256": "eeb98c7d6a9db7fb483226b312b8032d915bd4abd74c56202f986b30a896db00",
+      "bytes": 8176
+    },
+    {
+      "path": "delivery-check-verdict-v1.json",
+      "sha256": "bda9cdced30f69a07b22540b3d979d86ea4ec2703d447535264d836b62a4b345",
+      "bytes": 1109
+    },
+    {
+      "path": "delivery-check-boundary-v1.json",
+      "sha256": "9618962690ba1705415004bba6e1d6d7bdfc6f7b24199b2b77cb21105c87babd",
+      "bytes": 3814
+    }
+  ],
+  "scientific_changes_required": false,
+  "native_mathematical_objective_achieved_with_stated_scope": true,
+  "administrative_completion_not_assessed": true,
+  "subsequent_root_metadata_edits_outside_snapshot": true
+}

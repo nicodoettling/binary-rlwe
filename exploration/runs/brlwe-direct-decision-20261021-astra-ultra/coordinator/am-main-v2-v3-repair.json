@@ -1,0 +1,25 @@
+{
+  "clock": {
+    "checked_at": "2026-10-21T13:16:16.023929+00:00",
+    "elapsed_seconds": 3435.74194,
+    "phase": "discovery",
+    "cap_state": "running",
+    "cap_updated_at": "2026-10-21T12:19:00.377452+00:00",
+    "actual_start": "2026-10-21T12:19:00.281989+00:00",
+    "graceful_shutdown_at": "2026-10-21T16:17:55.281989+00:00",
+    "hard_deadline_at": "2026-10-21T16:19:00.281989+00:00"
+  },
+  "status": "PROVISIONAL_RECHECK_REQUIRED",
+  "changes": [
+    "Per-modulus rational widths sigma_q between source completion floor and q/n; exact target and wrapper agree",
+    "Scalar sampler interval bits charged; number of trials independent of width",
+    "Numeric P versus logP distinction",
+    "Explicit polynomial choice of kappa and charged input/evaluation/oracle costs",
+    "Asymptotic c>=1 excludes impossible exact gap1 endpoint"
+  ],
+  "invalidates": "Any v2 review does not automatically accept v3; fresh exact checks required",
+  "files": {
+    "am-main-theorem-v3.md": "eaabea064b734ccefbbb1d2410ed03fecdbe671f098c2e69d59d432df855e33c",
+    "am-main-proof-v3.md": "f27a64db55c4442e38497518d8b9beca3b13e21bf0530a40497c9bc897131143"
+  }
+}

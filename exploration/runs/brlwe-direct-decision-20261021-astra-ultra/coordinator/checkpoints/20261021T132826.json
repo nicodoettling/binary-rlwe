@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-10-21T13:28:26.942096+00:00",
+  "elapsed_seconds": 4166.660107,
+  "phase": "discovery",
+  "cap_state": "running",
+  "cap_updated_at": "2026-10-21T12:19:00.377452+00:00",
+  "actual_start": "2026-10-21T12:19:00.281989+00:00",
+  "graceful_shutdown_at": "2026-10-21T16:17:55.281989+00:00",
+  "hard_deadline_at": "2026-10-21T16:19:00.281989+00:00",
+  "event": "Modulus-rounding literature and advantage-window scope recorded",
+  "pending": [
+    "FULL2 and BLIND2 reports",
+    "Root exact regression reconciliation",
+    "Final scope must retain sample/advantage/noise guard"
+  ],
+  "findings": [
+    "Deterministic scaling is established modulus-switching idea",
+    "Current bound covers explicitly stated k0/epsilon noise window; no all-advantages hardness claim"
+  ]
+}

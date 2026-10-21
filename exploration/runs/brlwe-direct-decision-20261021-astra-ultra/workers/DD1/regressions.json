@@ -1,0 +1,1043 @@
+{
+  "source_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+  "inherited_count": 164,
+  "inherited_dispositions": [
+    {
+      "id": "R01",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "R02",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "R03",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "APPLICABLE_LOCAL_ARGUMENT_RECONCILED_PENDING_FRESH_REVIEW",
+      "reason": "Full joint source/response law required; exact complete CRT law tested in EXTRACT-FV1, no marginal-only inference."
+    },
+    {
+      "id": "R04",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "APPLICABLE_LOCAL_ARGUMENT_RECONCILED_PENDING_FRESH_REVIEW",
+      "reason": "Coefficient errors may be correlated after CRT; proof retains full coefficient-error variable and independence only from A,p,W."
+    },
+    {
+      "id": "R05",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "APPLICABLE_LOCAL_ARGUMENT_RECONCILED_PENDING_FRESH_REVIEW",
+      "reason": "Full raw sample/coin product law explicitly conditional on fixed S; pairwise independence is not used."
+    },
+    {
+      "id": "R06",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "R07",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "R08",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "R09",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "R10",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "R11",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "R12",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "R13",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "R14",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "R15",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "R16",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "R17",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "R18",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "C03-HC1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "C03-HC2",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "C03-HC3",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "C03-HC4",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "C03-HC5",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "C03-HC6",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "C03-HC7",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "C02-LATENT-PUBLIC",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "C02-CHAR",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "C01-ATT",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "CP-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "APPLICABLE_LOCAL_ARGUMENT_RECONCILED_PENDING_FRESH_REVIEW",
+      "reason": "Old product bound remains rejected:21/2000>1/100. EXTRACT conditions on fixed S and complete calibration, uses a physically disjoint test bank plus additive union bounds; no selected-stage multiplication."
+    },
+    {
+      "id": "NC1-v1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "S0-dependency",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "PUBLIC-ENCODED-F",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "W2-SUBGROUP-BOUNDARY",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "UNIFORM-APPROX-COLLAPSE",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "SE-CORRELATION-F3",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "W2-CONSTANT-COMPARISON",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "N02-DUAL-NUMBER",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "PAIRWISE-SE-F3",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "N03-PV-CONDITIONING",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "N03-SCAL-POSTERIOR",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "RECT-ALG-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "SOURCE-SMALL-D",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "A-PPT-LEDGER-SCOPE",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "EX-PURE-MIX-ZERO",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "EX-PUBLIC-TAPE",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "EX-APPENDED-H",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "APPLICABLE_LOCAL_ARGUMENT_RECONCILED_PENDING_FRESH_REVIEW",
+      "reason": "H integrated out on independent-error endpoint; revealed only after completed-world comparison."
+    },
+    {
+      "id": "EX-M3-CROSSBLOCK",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "APPLICABLE_LOCAL_ARGUMENT_RECONCILED_PENDING_FRESH_REVIEW",
+      "reason": "Completion uses all K raw samples in one stacked Kn-by-n matrix, not k0 or number of D calls."
+    },
+    {
+      "id": "EX-RETAINED-M3",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "B-JL-BZERO",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "B-JL-REDRAW-T",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "A-ERASURE-RANKMIX",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "D-THETA-RETAIN-U-v1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "D-LSW-THETA-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "C-TOWER-RELATION-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "D-REUSED-PIVOT-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "A-TOWER-LAW-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "C-SMALL-N-EXISTENCE-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "D-NORMALFORM-WRAP-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "B-GP-RATIONAL-ENCODING-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "C-OHCP-LOGSHIFT-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "ROOT-IDEAL-SUBSPACE-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "B-SUP-RETAINED-COINS-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "APPLICABLE_LOCAL_ARGUMENT_RECONCILED_PENDING_FRESH_REVIEW",
+      "reason": "All transformation coins are fresh per call; shared raw banks explicitly retained in joint law, estimators across guesses need not be independent."
+    },
+    {
+      "id": "C-OHCP-BOUNDED-RUNTIME-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "C-SUPER-CONFIDENCE-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "C-QUOTIENT-CARRIES-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "C-PHYSICAL-HAAR-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "C-CAUSAL-WALK-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "B-CANONICAL-FAIL-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "B-RANK-FIBER-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "APPLICABLE_LOCAL_ARGUMENT_RECONCILED_PENDING_FRESH_REVIEW",
+      "reason": "Ordinary rank-one transformation has explicit(A,p)->(A+p e_j,p) bijection; decomposed-input rank hypothesis is not imported."
+    },
+    {
+      "id": "B-TWO-ROW-NORMALIZER-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "B-TOWER-WASHOUT-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "B-BINARY-FOURIER-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "APPLICABLE_LOCAL_ARGUMENT_RECONCILED_PENDING_FRESH_REVIEW",
+      "reason": "Fourier note retains binary product Psi; extraction never imports uniform-secret orthogonality."
+    },
+    {
+      "id": "A-CLASS-ASSERTION-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "A-COFACTOR-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "A-CLASS-CP1-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "D-HIGHINDEX-GUESS-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "A-TRACE-PARAM-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "A-CLASSRING-PADDING-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "B-COMPANION-INVERSE-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "C8-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "ROOT-ORDER-PAIRING-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "ROOT-ORDER-SCALE-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "ROOT-BINCLASS-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "BT10-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "ROOT-FRAC-SCALE-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "ROOT-FRAC-SMALLBALL-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "B-BE-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "RF3-BINCLASS-SCOPE-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "E-PAIR-TRUNCATION-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "ROOT-COSET-NORMALIZER-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "BT13-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "BT12-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "ROOT-MASK-RESIDUE-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "BT14-HISTORY-ATOM-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "BT14-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "FQ-R1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "FQ-R2",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "FQ-R3",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "FQ-R4",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "ROOT-QCOH-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "G-PI-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "ROOT-FRAC-DOMAIN-2",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "ROOT-WRAP-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "BT15-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "FQ-COND-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "FQ-NORM-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "FQ-PERIOD-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "FQ-RETRY-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "FQ-MODULUS-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "F-QFINITE-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "BT16-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "BT16-NATURAL-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "BT16-POSTERIOR-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "BT16-PRIMEPOWER-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "BT16-ZERO-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "RF4-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "RF4-PERIOD-NEG1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "RF4-RETRY-NEG1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "RF4-ALIAS-NEG1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "BT17-SYMBOLIC-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "ROOT-PARAM-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "ROOT-PARAM-T-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "ROOT-PARAM-FV2",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "ROOT-PARAM-ENC-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "APPLICABLE_LOCAL_ARGUMENT_RECONCILED_PENDING_FRESH_REVIEW",
+      "reason": "Exact rational/log2-ceiling counts and finite field caps used; no undocumented framing or real unit-cost assumption."
+    },
+    {
+      "id": "ROOT-PARAM-FV3",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "RF4-PARAM-FV2",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "H-ALIGN-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "H-LLL-BITLENGTH-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "APPLICABLE_LOCAL_ARGUMENT_RECONCILED_PENDING_FRESH_REVIEW",
+      "reason": "Large-q boundary explicitly separates polynomial bit cost from exponential modulus value; no intended-polynomial-value-q attack claimed."
+    },
+    {
+      "id": "H-REL-FV2",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "H-V0-BITLENGTH-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "RH1-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "HC1-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "ROOT-TOWER-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "BT19-NONPRIME-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "BT19-NONSUFFICIENT-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "BT19-SELECTION-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "BT19-RETRY-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "BT18-SYMBOLIC-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "RT1-MOMENT-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "RT2-WEIGHTED-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "BT20-VACUITY-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "BT20-RETRY-MARGIN-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "BT20-WIDTHVALUE-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "RT2-NC1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "RT2-NC2",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "RT2-NC3",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "BT21-VACUITY-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "BT21-ADAPTIVE-MULTIPLIER-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "BT22-TV-MOMENT-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "BT22-JOINT-MULTIPLIER-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "BT22-MARGIN-WIDTH-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "M1-FV1-NORMALIZERS",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "M1-FV1-CP1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "APPLICABLE_LOCAL_ARGUMENT_RECONCILED_PENDING_FRESH_REVIEW",
+      "reason": "Inherited exact160-atom reconstruction retained by reference; no new rerun claimed, additive conditional union avoids false product."
+    },
+    {
+      "id": "B-FV1-CUBE289",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "M1-FALLBACK-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "APPLICABLE_LOCAL_ARGUMENT_RECONCILED_PENDING_FRESH_REVIEW",
+      "reason": "Field cap fallback is local value0 with whole-output coupling loss; no claim entire extractor output becomes zero."
+    },
+    {
+      "id": "A-LIN-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "A-RATIONAL-BOUNDARY-v1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "B-THETA-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "B-M1-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "A-BFAM-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "FBR1-Q-PREMISE-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "APPLICABLE_LOCAL_ARGUMENT_RECONCILED_PENDING_FRESH_REVIEW",
+      "reason": "q explicitly odd prime congruent1 mod2n; composite or ramified q is outside the statement."
+    },
+    {
+      "id": "M1-Q-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    },
+    {
+      "id": "B-REVEAL-S-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "APPLICABLE_LOCAL_ARGUMENT_RECONCILED_PENDING_FRESH_REVIEW",
+      "reason": "Actual S excluded from extractor input and used only in outer correctness test; SFUNC conditions preserve S,G product law."
+    },
+    {
+      "id": "FBR2-WIDTH-BOUNDARY-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "disposition": "PRESERVED_BY_REFERENCE_OUTSIDE_LOCAL_NEW_CLAIMS_MAIN_COMPOSITION_REVIEW_PENDING",
+      "reason": "No local use of the changed tower/map/quantum/source-sampler construction addressed by this entry. Inherited B/C8 use is within exact accepted interfaces; coordinator must dispose this entry for the final composition."
+    }
+  ],
+  "new_entries": [
+    {
+      "id": "DD1-WITNESS-SAME-P",
+      "scope": "J=R interval witness refutes blanket small fractional decision gap while retaining SAME P in both response worlds.",
+      "evidence": [
+        "witness-theorem-v1.md",
+        "witness-proof-v1.md"
+      ]
+    },
+    {
+      "id": "DD1-SHARED-SECRET",
+      "scope": "Two A=1 noiseless samples give equal responses with probability1 under common S versus1/4 with independent S at n2.",
+      "evidence": [
+        "finite_controls_v1.stdout.json"
+      ]
+    },
+    {
+      "id": "DD1-EXTRACT-FULL-LAW",
+      "scope": "40 exact full(Aprime,Bprime) law comparisons; no CRT noise-coordinate independence.",
+      "evidence": [
+        "extraction_finite_v1.stdout.json"
+      ]
+    },
+    {
+      "id": "DD1-EXTRACT-4A-TIE",
+      "scope": "Gap4a can produce an exact classification tie; statement uses strictg>4a from threshold.",
+      "evidence": [
+        "extraction_finite_v1.stdout.json"
+      ]
+    },
+    {
+      "id": "DD1-SFUNC-MAX-ORDER",
+      "scope": "At J=Z2, adaptive selected-coordinate guessing0.599739897 exceeds fixed-coordinate0.571664582; max cannot move outside observation sum.",
+      "evidence": [
+        "sfunc_finite_v1.stdout.json"
+      ]
+    },
+    {
+      "id": "DD1-MAIN-GAUSSIAN-NOTATION",
+      "scope": "AM-MAIN-v1 Q_h(G_w) ambiguous against canonicalw; require explicit coefficientG_(w/sqrt(n)) in v2.",
+      "evidence": [
+        "main-v1-crosscheck-report.md"
+      ]
+    },
+    {
+      "id": "DD1-MAIN-RATIONAL-EXPONENT",
+      "scope": "AM-MAIN-v1 arbitraryrealc can make epsilon0=n^-c irrational; v2 should use integerb,c or exact rational rounding.",
+      "evidence": [
+        "main-v1-crosscheck-report.md"
+      ]
+    }
+  ],
+  "status": "LOCAL_SCOPED_REGISTRY_NOT_ACCEPTANCE"
+}

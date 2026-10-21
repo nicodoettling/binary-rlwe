@@ -1,0 +1,74 @@
+{
+  "id": "FULL2-FV1",
+  "registered_at": "2026-10-21T13:28:06.086237+00:00",
+  "code": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/reviews/FULL2/finite_controls_v1.py",
+  "sha256": "819ed68c43339cfbce3068c953e9234340fbded59860972d6b29c1f1831b7a9c",
+  "hypothesis": "Exact negacyclic MR identity with prescribed ties works for composite targets; nearest-even ties fail; retained two-sample law needs shared S; CP1 rejects product reasoning; Gaussian scalar proposal bit cost changes with width while trial counts remain constant.",
+  "inputs": {
+    "seed": "none; deterministic exhaustive",
+    "dimensions": [
+      1,
+      2,
+      4
+    ],
+    "composite_moduli": [
+      [
+        5,
+        4
+      ],
+      [
+        7,
+        4
+      ],
+      [
+        8,
+        4
+      ],
+      [
+        9,
+        6
+      ],
+      [
+        13,
+        6
+      ],
+      [
+        13,
+        8
+      ],
+      [
+        16,
+        8
+      ]
+    ],
+    "errors": "coefficients -1,0,1; n1 additionally -3..3",
+    "largest_integer_bits": 257,
+    "CP1": "all160 prior trace/oracle atoms",
+    "retained_joint": "Q7 q4 k2 n1, exact three-atom independent coefficient errors"
+  },
+  "expected": "All intended identities pass; at least one nearest-even identity fails; shared and fresh secret marginal laws equal but joint TV positive; CP1 two-hit probability21/2000>1/100; proposal bits grow while Lplus fixed.",
+  "limits": {
+    "wall_seconds": 120,
+    "cpu_seconds": 110,
+    "address_space_bytes": 536870912,
+    "estimated_wall_seconds": 10,
+    "estimated_rss_MiB": 32
+  },
+  "command": [
+    "/usr/bin/timeout",
+    "--signal=TERM",
+    "--kill-after=5s",
+    "120s",
+    "/usr/bin/prlimit",
+    "--as=536870912",
+    "--cpu=110",
+    "/usr/bin/time",
+    "-v",
+    "-o",
+    "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/reviews/FULL2/finite_controls_v1.resources.txt",
+    "python3",
+    "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/reviews/FULL2/finite_controls_v1.py"
+  ],
+  "slot": "Root granted one light slot before execution.",
+  "scope": "Finite controls only; no Gaussian sampling, infinite-law proof or asymptotic decoder execution."
+}

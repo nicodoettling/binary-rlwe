@@ -1,0 +1,26 @@
+--- exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/fixed-main-statement-v1.md
++++ exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/fixed-main-statement-v2.md
+@@ -1,4 +1,4 @@
+-# FIXED-MAIN-v1: restricted ideal BDD from fixed-modulus decision binary RLWE
++# FIXED-MAIN-v2: restricted ideal BDD from fixed-modulus decision binary RLWE
+ 
+ PROVISIONAL. This binds the exact AM-MAIN-v3 and MR-v1 statements and their definitions. No new component or main claim is accepted before complete exact-version review.
+ 
+@@ -51,4 +51,4 @@
+ 
+ and construct the master list before defining K. For all sufficiently large powers-of-two n, every guard above and in AM-MAIN-v3 holds uniformly in the eligible ideal family. Choose a polynomial-VALUE kappa satisfying the C8 guards. For fixed or inverse-polynomial zeta, r is inverse polynomial and the reduction has polynomial bit complexity in n, the full ideal/oracle input lengths and their charged evaluation/runtime costs. P can have superpolynomial value; logP is polynomial. This is a conditional reduction and a nonempty parameter/source family, not an assertion that an efficient distinguisher with the promised advantage exists.
+ 
+-The result preserves the norm-restricted source family D<=2^(rho*n). It does not prove unrestricted worst-case hardness, practical security, hardness of this restricted ideal family, or quantum sampling composition. Its new decision bridge uses an averaged auxiliary functional bound; all target calls nevertheless use the ONE prescribed fixed modulus and independent coefficient discrete-Gaussian error law above.
++The result preserves the norm-restricted source family D<=2^(rho*n). It does not prove unrestricted worst-case hardness, practical security, hardness of this restricted ideal family, or quantum sampling composition. Its decision bridge uses an averaged auxiliary functional bound. All D0 executions use the ONE prescribed modulus q0. The assumed distinguishing advantage concerns the exact independent coefficient discrete-Gaussian target law above; actual executions include transformed and hybrid inputs covered by the all-input bound, and MR pays its explicit statistical transfer loss. The displayed family fixes b,c before choosing target parameters; it does not assert that a single fixed noise exponent covers every polynomial sample/advantage exponent.
+
+--- exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/fixed-main-proof-v1.md
++++ exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/fixed-main-proof-v2.md
+@@ -1,6 +1,6 @@
+-# FIXED-MAIN-v1 proof
++# FIXED-MAIN-v2 proof
+ 
+-PROVISIONAL; binds fixed-main-statement-v1.md, AM-MAIN-v3 and MR-v1 exact definitions. The new work in this composition is an explicit finite-law transfer; inherited hidden-center/periodic-Gaussian decoding is used through its recorded exact interface.
++PROVISIONAL; binds fixed-main-statement-v2.md, AM-MAIN-v3 and MR-v1 exact definitions. The new work in this composition is an explicit finite-law transfer; inherited hidden-center/periodic-Gaussian decoding is used through its recorded exact interface.
+ 
+ For each auxiliary prime q in Q0, apply MR-v1 with its large modulus Q=q, small modulus q=q0, sample count k=k0, and target width sigma=sigma0. Its source width is exactly sigma_q=(q/q0)*sigma0, as specified in the auxiliary target. The guards imply q>=Qmin>=q0, sigma0>=1, and a signed-gap change at most epsilon_*/4. Thus every auxiliary signed gap has the SAME orientation as the fixed-target gap and magnitude at least3epsilon_*/4. Averaging over the fixed master list retains that orientation and magnitude. In particular the required AM-MAIN-v3 global signed gap premise with epsilon0=epsilon_*/2 holds. No conditioning on a favorable secret, public multiplier or modulus is involved.
+ 

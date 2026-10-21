@@ -1,0 +1,5 @@
+# Optional finite-premise and radius claims
+
+Let n>=128 be a power of two, k0>=1, sigma0>=1 rational, and q0>=n*sigma0 integer. In the exact fixed binary-RLWE target and uniform-response comparator of FIXED-MAIN-v2, set integer L=log2(8n), B=ceil(sigma0*L). Define a deterministic Boolean algorithm that ignores all but the first sample, enumerates all binary s in{0,1}^n, and accepts iff for some s every coefficient of B_1-A_1*s modulo q0 lies in the image of{-B,...,B}. This algorithm is all-input bounded with explicitly exponential2^n enumeration. Claim: its planted acceptance is at least3/4, its uniform-response acceptance is at most2^-n, and its gap is at least1/2. This establishes nonempty finite bounded oracle premises for epsilon_*<=1/2, not the existence of an efficient distinguisher. It is an optional scope claim, not a dependency of the main reduction.
+
+For the source ideal family N(J)<=2^(rho*n),rho<1, claim that the shortest nonzero canonical-infinity length of J^-1 lies in(1/2,1]. Consequently an inverse-polynomial absolute r is an inverse-polynomial fraction of this normalized separation. No shortest-vector algorithm or source hardness is asserted.

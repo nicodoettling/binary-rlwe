@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-21T12:53:36.312881+00:00",
+  "old": "AM-MAIN-v1",
+  "new": "AM-MAIN-v2",
+  "status": "REPAIRED-PENDING-RECHECK",
+  "changes": [
+    "Section3 explicitly writes coefficient continuous Gaussian G_(w/sqrt(n)) rather than overloaded G_w with canonical width declaration",
+    "Section5 nonnegative integer b,c ensure epsilon0 rational and effective exact polynomial parameter inputs"
+  ],
+  "scope_change": "No intended distribution, quantitative bound or target scope change; standalone representation clarified. v1 preserved.",
+  "downstream": [
+    "AM-MAIN-v2 fresh full and blind gates required"
+  ],
+  "evidence": [
+    "workers/DD1 main pre-review messages; durable report pending"
+  ]
+}

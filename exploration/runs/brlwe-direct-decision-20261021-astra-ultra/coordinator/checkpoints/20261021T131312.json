@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-10-21T13:13:12.503769+00:00",
+  "elapsed_seconds": 3252.22178,
+  "phase": "discovery",
+  "cap_state": "running",
+  "cap_updated_at": "2026-10-21T12:19:00.377452+00:00",
+  "actual_start": "2026-10-21T12:19:00.281989+00:00",
+  "graceful_shutdown_at": "2026-10-21T16:17:55.281989+00:00",
+  "hard_deadline_at": "2026-10-21T16:19:00.281989+00:00",
+  "event": "MR-v1 explicit full-law rounding edge frozen",
+  "pending": [
+    "Complete FULL1 and BLIND1 reports",
+    "Root bounded MR experiment",
+    "Generalize averaged-modulus widths with exact old source interfaces"
+  ],
+  "findings": [
+    "New candidate coefficient modulus-rounding edge; no acceptance",
+    "Full support c=0 oracle-vacuity and polynomial-bit corollary wording queued"
+  ]
+}

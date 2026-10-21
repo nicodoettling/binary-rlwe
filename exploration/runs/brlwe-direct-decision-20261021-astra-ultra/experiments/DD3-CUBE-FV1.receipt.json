@@ -1,0 +1,35 @@
+{
+  "id": "DD3-CUBE-FV1",
+  "returncode": 0,
+  "wall_seconds": 2.5085978970164433,
+  "completed_at": "2026-10-21T12:31:52.801012+00:00",
+  "clock": {
+    "checked_at": "2026-10-21T12:31:52.801277+00:00",
+    "elapsed_seconds": 772.519288,
+    "phase": "discovery",
+    "cap_state": "running",
+    "cap_updated_at": "2026-10-21T12:19:00.377452+00:00",
+    "actual_start": "2026-10-21T12:19:00.281989+00:00",
+    "graceful_shutdown_at": "2026-10-21T16:17:55.281989+00:00",
+    "hard_deadline_at": "2026-10-21T16:19:00.281989+00:00"
+  },
+  "command": [
+    "/usr/bin/timeout",
+    "--signal=TERM",
+    "--kill-after=5s",
+    "120s",
+    "/usr/bin/prlimit",
+    "--as=536870912",
+    "/usr/bin/time",
+    "-v",
+    "-o",
+    "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/experiments/DD3-CUBE-FV1.resources.txt",
+    "python3",
+    "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/experiments/dd3_cube_fibers_v1.py"
+  ],
+  "stdout": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/experiments/DD3-CUBE-FV1.stdout.json",
+  "stderr": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/experiments/DD3-CUBE-FV1.stderr.txt",
+  "resources": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/experiments/DD3-CUBE-FV1.resources.txt",
+  "timeout_kills_process_group": true,
+  "aggregate_memory_cap_claimed": false
+}

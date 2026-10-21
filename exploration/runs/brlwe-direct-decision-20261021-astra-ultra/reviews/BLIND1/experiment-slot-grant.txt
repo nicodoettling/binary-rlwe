@@ -1,0 +1,4 @@
+Coordinator operational message received before execution:
+Experiment slot granted for preregistered BLIND1-EXACT-01 within stated 120s wall/110s CPU/512MiB bounds. No other experiment is active. Preserve exact command, exit status, resources and full output. Keep blindness until sealed report; continue independently.
+
+Execution was completed before the slot-release message to coordinator. No further experiments executed.

@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-10-21T13:23:49.446931+00:00",
+  "elapsed_seconds": 3889.164942,
+  "phase": "discovery",
+  "cap_state": "running",
+  "cap_updated_at": "2026-10-21T12:19:00.377452+00:00",
+  "actual_start": "2026-10-21T12:19:00.281989+00:00",
+  "graceful_shutdown_at": "2026-10-21T16:17:55.281989+00:00",
+  "hard_deadline_at": "2026-10-21T16:19:00.281989+00:00",
+  "event": "Second fresh referee wave started",
+  "pending": [
+    "FULL2 complete fixed-target proof/source/complexity review",
+    "BLIND2 fresh exact-statement review",
+    "Root regression and scope reconciliation"
+  ],
+  "findings": [
+    "FULL1/BLIND1 sealed v2 core support and literal corollary rejection",
+    "AM-v3 and SFUNC-v2 explicitly repair recorded issues, pending fresh checks",
+    "Root plus two fresh Astra ultra default-tier inherited workers"
+  ]
+}

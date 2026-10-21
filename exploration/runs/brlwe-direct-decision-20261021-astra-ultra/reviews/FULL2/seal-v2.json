@@ -1,0 +1,64 @@
+{
+  "sealed_at": "2026-10-21T13:51:07.925814+00:00",
+  "review": "FULL2 exact FIXED-MAIN-v2 post-seal recheck",
+  "verdict": "PASS_WITH_STATED_SCOPE",
+  "prior_seal": "seal-v1.json",
+  "prior_seal_sha256": "72fc3e7fae66041f0d9b23b4c5e36634963daa504bfff828bf700d00303b5d5d",
+  "prior_artifacts_unchanged": true,
+  "artifacts": [
+    {
+      "path": "followup-assignment-v2.txt",
+      "sha256": "655e93e26c27094475926ded9b327a58de00bb91f6b5b3167ea3fb8bf756b98c",
+      "bytes": 1148
+    },
+    {
+      "path": "read-register-v2.json",
+      "sha256": "3476c0ff028428c365238b3e208f0bb0649757c6bc2c121fbc4ac0b4aa37b32f",
+      "bytes": 4977
+    },
+    {
+      "path": "pre-recheck-seal-verification-v2.json",
+      "sha256": "98b02b0257017ca9c0b0c6762be951d2b63119b3af3bd089e3a64625a7f56a9e",
+      "bytes": 3328
+    },
+    {
+      "path": "exact-main-diff-v2.patch",
+      "sha256": "a4f72bd2740d0c64696f3389c77db77c76e4dd5622103794b2eed2b20e631024",
+      "bytes": 3863
+    },
+    {
+      "path": "input-manifest-v2.json",
+      "sha256": "ef59648b576a1faed422a5926534273e6bd4e9b2a7eb26a3d65811e3b638246b",
+      "bytes": 6229
+    },
+    {
+      "path": "exact-v2-recheck.md",
+      "sha256": "6335a0e592ffd7357140880bcb6fcabac33c50c41f5e85618d9b0955486a4150",
+      "bytes": 8517
+    },
+    {
+      "path": "regression-dispositions-v2.json",
+      "sha256": "5e2cfd0e7cf2430c0e665f6cb952fba5f037938f61b4b9e14cb3b77943252d99",
+      "bytes": 445207
+    },
+    {
+      "path": "verdict-v2.json",
+      "sha256": "2eb002d4610cbf63735af06bb5d9a994c69813f651374d7042127bff97432335",
+      "bytes": 1001
+    },
+    {
+      "path": "exposure-log-v2.md",
+      "sha256": "ed4d5227040f080a502aadc2df8594e4d2c946f0d424a962b2826b1058b8b844",
+      "bytes": 1551
+    },
+    {
+      "path": "artifact-check-v2.json",
+      "sha256": "9d845133ba0d26f494d13d8b59648dd7f0928c7f029981690ceb21b73ec81a4a",
+      "bytes": 6329
+    }
+  ],
+  "input_manifest": "input-manifest-v2.json",
+  "optional_note": "Analytic PASS; outside main dependency graph",
+  "no_blind2_exposure": true,
+  "scope": "Nonauthor review; not formal verification or coordinator acceptance."
+}

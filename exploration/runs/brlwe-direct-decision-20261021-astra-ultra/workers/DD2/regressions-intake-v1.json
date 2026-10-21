@@ -1,0 +1,1158 @@
+{
+  "recorded_at": "2026-10-21T12:59:19.833875+00:00",
+  "source_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+  "source_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+  "count": 164,
+  "scope": "Compact complete ID import by reference. Provisional current applicability only; not an acceptance record.",
+  "entries": [
+    {
+      "id": "R01",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "R02",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "APPLICABLE_RECONCILED_PROVISIONALLY",
+      "reason": "Source H constructed independently of S,G conditional z; H is integrated out before independent-error endpoint comparison."
+    },
+    {
+      "id": "R03",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "APPLICABLE_RECONCILED_PROVISIONALLY",
+      "reason": "Full A/S/error joint law retained; marginal uniformity alone never invoked."
+    },
+    {
+      "id": "R04",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "R05",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "R06",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "R07",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "R08",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "R09",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "R10",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "R11",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "R12",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "R13",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "R14",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "R15",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "R16",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "R17",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "R18",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "C03-HC1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "C03-HC2",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "C03-HC3",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "C03-HC4",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "C03-HC5",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "C03-HC6",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "C03-HC7",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "C02-LATENT-PUBLIC",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "C02-CHAR",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "C01-ATT",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "CP-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "APPLICABLE_RECONCILED_PROVISIONALLY",
+      "reason": "No stagewise product in AM1; DD2-FV1 retains21/2000>1/100. Main uses disjoint calibration/test banks and one fixed good-q success event."
+    },
+    {
+      "id": "NC1-v1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "S0-dependency",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "PUBLIC-ENCODED-F",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "W2-SUBGROUP-BOUNDARY",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "UNIFORM-APPROX-COLLAPSE",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "SE-CORRELATION-F3",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "W2-CONSTANT-COMPARISON",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "N02-DUAL-NUMBER",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "PAIRWISE-SE-F3",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "N03-PV-CONDITIONING",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "N03-SCAL-POSTERIOR",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "RECT-ALG-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "SOURCE-SMALL-D",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "A-PPT-LEDGER-SCOPE",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "EX-PURE-MIX-ZERO",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "EX-PUBLIC-TAPE",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "EX-APPENDED-H",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "APPLICABLE_RECONCILED_PROVISIONALLY",
+      "reason": "No H appended to independent-noise endpoint; conditional reveal used only after completion comparison."
+    },
+    {
+      "id": "EX-M3-CROSSBLOCK",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "EX-RETAINED-M3",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "B-JL-BZERO",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "B-JL-REDRAW-T",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "A-ERASURE-RANKMIX",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "D-THETA-RETAIN-U-v1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "D-LSW-THETA-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "APPLICABLE_RECONCILED_PROVISIONALLY",
+      "reason": "Gaussian rounding/profile remains provisional; no exact factorization asserted without normalizers."
+    },
+    {
+      "id": "C-TOWER-RELATION-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "APPLICABLE_RECONCILED_PROVISIONALLY",
+      "reason": "No tower ring relation changed in current claims; alternative explicitly preserves this warning."
+    },
+    {
+      "id": "D-REUSED-PIVOT-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "APPLICABLE_RECONCILED_PROVISIONALLY",
+      "reason": "DD1 uses disjoint calibration/test banks; reuse within a bank gets a union bound, no selected iid assertion."
+    },
+    {
+      "id": "A-TOWER-LAW-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "APPLICABLE_RECONCILED_PROVISIONALLY",
+      "reason": "Digit/tower packing remains an unclosed alternative, not an accepted multiplicative embedding."
+    },
+    {
+      "id": "C-SMALL-N-EXISTENCE-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "D-NORMALFORM-WRAP-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "B-GP-RATIONAL-ENCODING-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "C-OHCP-LOGSHIFT-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "ROOT-IDEAL-SUBSPACE-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "B-SUP-RETAINED-COINS-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "C-OHCP-BOUNDED-RUNTIME-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "C-SUPER-CONFIDENCE-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "C-QUOTIENT-CARRIES-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "APPLICABLE_RECONCILED_PROVISIONALLY",
+      "reason": "No additive embedding of coprime quotient claimed; inherited rational quotient isomorphism retained."
+    },
+    {
+      "id": "C-PHYSICAL-HAAR-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "APPLICABLE_RECONCILED_PROVISIONALLY",
+      "reason": "AM-MAIN imports fixed C8 theorem8/spec2/proof9, where Haar endpoint is continuous proxy only."
+    },
+    {
+      "id": "C-CAUSAL-WALK-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "APPLICABLE_RECONCILED_PROVISIONALLY",
+      "reason": "No new hidden-center walk proof; exact causal corrected-walk interface inherited unchanged."
+    },
+    {
+      "id": "B-CANONICAL-FAIL-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "B-RANK-FIBER-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "B-TWO-ROW-NORMALIZER-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "B-TOWER-WASHOUT-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "B-BINARY-FOURIER-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "APPLICABLE_RECONCILED_PROVISIONALLY",
+      "reason": "No uniform-secret orthogonality; binary fixed-secret CRT perturbation retains S unchanged."
+    },
+    {
+      "id": "A-CLASS-ASSERTION-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "A-COFACTOR-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "A-CLASS-CP1-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "D-HIGHINDEX-GUESS-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "APPLICABLE_RECONCILED_PROVISIONALLY",
+      "reason": "C_J is exact count; D upper bound used as sufficient only. No converse or efficient collision search asserted."
+    },
+    {
+      "id": "A-TRACE-PARAM-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "A-CLASSRING-PADDING-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "B-COMPANION-INVERSE-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "C8-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "ROOT-ORDER-PAIRING-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "ROOT-ORDER-SCALE-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "ROOT-BINCLASS-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "APPLICABLE_RECONCILED_PROVISIONALLY",
+      "reason": "6648 nonzero ternary norms rerun with exact determinant, root multiplicity and SNF/nullity controls in DD2-AM-FV1."
+    },
+    {
+      "id": "BT10-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "ROOT-FRAC-SCALE-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "ROOT-FRAC-SMALLBALL-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "B-BE-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "RF3-BINCLASS-SCOPE-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "E-PAIR-TRUNCATION-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "APPLICABLE_RECONCILED_PROVISIONALLY",
+      "reason": "DD2-FV1 Gaussian CRT calculation retains finite normalizer and charges explicit omitted infinite mass."
+    },
+    {
+      "id": "ROOT-COSET-NORMALIZER-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "APPLICABLE_RECONCILED_PROVISIONALLY",
+      "reason": "AM2 retains rho_t(J) and exact theta ratio; no uniform-coset substitution."
+    },
+    {
+      "id": "BT13-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "BT12-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "APPLICABLE_RECONCILED_PROVISIONALLY",
+      "reason": "Current6648 nonzero ternary controls supplement the inherited6651 including zero; zero excluded explicitly from norm divisibility claim."
+    },
+    {
+      "id": "ROOT-MASK-RESIDUE-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "APPLICABLE_RECONCILED_PROVISIONALLY",
+      "reason": "No fractional residue mask substituted for J-supported G; new functional envelope uses exact G\u2208J."
+    },
+    {
+      "id": "BT14-HISTORY-ATOM-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "BT14-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "FQ-R1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "FQ-R2",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "FQ-R3",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "FQ-R4",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "ROOT-QCOH-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "G-PI-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "ROOT-FRAC-DOMAIN-2",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "APPLICABLE_RECONCILED_PROVISIONALLY",
+      "reason": "No new approximate arbitrary-ideal sampler invoked; inherited bridge has total domain and finite fallback."
+    },
+    {
+      "id": "ROOT-WRAP-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "BT15-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "FQ-COND-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "FQ-NORM-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "FQ-PERIOD-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "FQ-RETRY-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "FQ-MODULUS-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "APPLICABLE_RECONCILED_PROVISIONALLY",
+      "reason": "DD2-PRIMES-v1 gives polynomial VALUE via effective Linnik and charged enumeration; no bitlength/value substitution."
+    },
+    {
+      "id": "F-QFINITE-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "BT16-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "BT16-NATURAL-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "BT16-POSTERIOR-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "APPLICABLE_RECONCILED_PROVISIONALLY",
+      "reason": "Source multiplier marginal changed explicitly and bounded through full completion; no posterior-only transfer."
+    },
+    {
+      "id": "BT16-PRIMEPOWER-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "BT16-ZERO-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "RF4-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "RF4-PERIOD-NEG1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "RF4-RETRY-NEG1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "RF4-ALIAS-NEG1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "BT17-SYMBOLIC-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "ROOT-PARAM-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "ROOT-PARAM-T-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "ROOT-PARAM-FV2",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "ROOT-PARAM-ENC-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "ROOT-PARAM-FV3",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "RF4-PARAM-FV2",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "H-ALIGN-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "H-LLL-BITLENGTH-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "APPLICABLE_RECONCILED_PROVISIONALLY",
+      "reason": "No LLL runtime/certificate inference; full numeric versus encoding costs stated for prime enumeration."
+    },
+    {
+      "id": "H-REL-FV2",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "H-V0-BITLENGTH-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "APPLICABLE_RECONCILED_PROVISIONALLY",
+      "reason": "Optional B-power witness fixes \u03c7=a for polynomial-value corollary; arbitrary enlarged\u03c7 value remains charged."
+    },
+    {
+      "id": "RH1-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "HC1-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "ROOT-TOWER-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "BT19-NONPRIME-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "BT19-NONSUFFICIENT-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "BT19-SELECTION-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "APPLICABLE_RECONCILED_PROVISIONALLY",
+      "reason": "Final decoder runs allM fixed schedules; only one fixed good-q execution used for failure bound."
+    },
+    {
+      "id": "BT19-RETRY-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "BT18-SYMBOLIC-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "RT1-MOMENT-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "RT2-WEIGHTED-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "BT20-VACUITY-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "BT20-RETRY-MARGIN-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "BT20-WIDTHVALUE-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "APPLICABLE_RECONCILED_PROVISIONALLY",
+      "reason": "Explicit finite guards retained; polynomial value certified only in declared asymptotic/witness regime."
+    },
+    {
+      "id": "RT2-NC1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "RT2-NC2",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "RT2-NC3",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "BT21-VACUITY-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "APPLICABLE_RECONCILED_PROVISIONALLY",
+      "reason": "Exact finite G-AM is a premise; optional regime proves eventual nonvacuity, not actual finite success from constants alone."
+    },
+    {
+      "id": "BT21-ADAPTIVE-MULTIPLIER-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "BT22-TV-MOMENT-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "BT22-JOINT-MULTIPLIER-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "BT22-MARGIN-WIDTH-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "inherited_entries",
+      "dd2_disposition": "APPLICABLE_RECONCILED_PROVISIONALLY",
+      "reason": "Nonempty regime and explicit finite guard separated from encodability; no positive-margin-only repetition claim."
+    },
+    {
+      "id": "M1-FV1-NORMALIZERS",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "new_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "M1-FV1-CP1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "new_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "B-FV1-CUBE289",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "new_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "M1-FALLBACK-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "new_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "A-LIN-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "new_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "A-RATIONAL-BOUNDARY-v1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "new_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "B-THETA-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "new_entries",
+      "dd2_disposition": "APPLICABLE_RECONCILED_PROVISIONALLY",
+      "reason": "Full observation envelope imported with both theta normalizers and conditional-product restriction."
+    },
+    {
+      "id": "B-M1-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "new_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "A-BFAM-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "new_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    },
+    {
+      "id": "FBR1-Q-PREMISE-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "new_entries",
+      "dd2_disposition": "APPLICABLE_RECONCILED_PROVISIONALLY",
+      "reason": "Every master prime explicitly prime and split; exact finite prime controls verify these prerequisites."
+    },
+    {
+      "id": "M1-Q-FV1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "new_entries",
+      "dd2_disposition": "APPLICABLE_RECONCILED_PROVISIONALLY",
+      "reason": "Prime/congruence prerequisites remain explicit in DD2-PRIMES and AM-MAIN."
+    },
+    {
+      "id": "B-REVEAL-S-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "new_entries",
+      "dd2_disposition": "APPLICABLE_RECONCILED_PROVISIONALLY",
+      "reason": "Actual S is used only by executable wrapper verification; source upper bound reveals H,z,Y with original conditional S,G product law, not S."
+    },
+    {
+      "id": "FBR2-WIDTH-BOUNDARY-1",
+      "provenance_registry": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "provenance_entry_section": "new_entries",
+      "dd2_disposition": "INAPPLICABLE_TO_DD2_AM1_PRIMES_WITH_MAIN_RECONCILIATION_PENDING",
+      "reason": "DD2 AM1/prime-list claims contain finite norm, fiber and arithmetic-progression arguments only; this historical construction/quantum/sampling regression remains retained for root main/dependency reconciliation. No global pass is claimed."
+    }
+  ],
+  "timestamp_note": "Final handoff refresh uses actual UTC clock; supersedes the initially rounded recording timestamp."
+}

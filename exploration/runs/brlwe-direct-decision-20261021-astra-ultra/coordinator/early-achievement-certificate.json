@@ -1,0 +1,35 @@
+{
+  "type": "EARLY_SCIENTIFIC_TERMINATION_POSITIVE_ACHIEVEMENT",
+  "clock": {
+    "checked_at": "2026-10-21T13:59:16.121503+00:00",
+    "elapsed_seconds": 6015.839514,
+    "phase": "discovery",
+    "cap_state": "running",
+    "cap_updated_at": "2026-10-21T12:19:00.377452+00:00",
+    "actual_start": "2026-10-21T12:19:00.281989+00:00",
+    "graceful_shutdown_at": "2026-10-21T16:17:55.281989+00:00",
+    "hard_deadline_at": "2026-10-21T16:19:00.281989+00:00"
+  },
+  "plan_condition": "Continuation and termination contract (a): reviewed achievement of the stated mathematical objective with useful parameters",
+  "main": "FIXED-MAIN-v2",
+  "acceptance": "coordinator/acceptance-v1.json",
+  "delivery_review": "reviews/FULL2/delivery-check-report-v1.md",
+  "delivery_seal_sha256": "2e9878771b757bf3595f22e7c2da950aff0adfe6015c77ee3f43d432c8154ef4",
+  "required_scientific_work_remaining": [],
+  "active_children": 0,
+  "active_experiments": 0,
+  "not_exhaustion": true,
+  "objective_mapping": {
+    "ideal_decoding": "Ordinary-basis integral J, N(J)<=2^(rho*n), rational target in J^-1 with explicit inverse-polynomial canonical-infinity radius",
+    "binary_decision_target": "One fixed q0; one uniform coefficient-binary secret shared over k0 samples; exact independent coefficient DG errors; uniform public multipliers and unchanged metadata/comparator laws",
+    "explicit_intermediates": "MR fixed-target transfer; selected CRT extractor; selected-functional fractional bound; average auxiliary GP gap; inherited finite C8 BDD",
+    "useful_parameters": "Fixed b,c,rho family in exact theorem has polynomial-value moduli/sample/call parameters, inverse-polynomial radius and controlled success; all input/evaluation/code costs charged",
+    "reviewed_dependencies": "Full source/proof/complexity review, fresh blind independent derivation, exact-version repairs, finite controls, CP-1 and all164 historical scoped regressions",
+    "limitations": "Restricted source hardness and unrestricted standard worst-case foundation remain open; fixed sample/advantage/noise window; no quantum/practical-security claim"
+  },
+  "why_before_four_hours": "Positive achievement is expressly permitted by PLAN. No failed branch or helpful auxiliary theorem is substituted for the completed reduction. Further research would be a broader new task.",
+  "administrative_remaining": [],
+  "no_successor": true,
+  "delivery_completed_at": "2026-10-21T14:01:01.585249+00:00",
+  "native_goal_receipt": "coordinator/goal-completion-receipt.json"
+}

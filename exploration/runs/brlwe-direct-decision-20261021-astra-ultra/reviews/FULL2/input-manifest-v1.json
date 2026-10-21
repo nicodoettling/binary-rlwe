@@ -1,0 +1,84 @@
+{
+  "frozen_at": "2026-10-21T13:44:04.335956+00:00",
+  "scope": "Exact v1 fixed theorem review; no fixed-v2 statement/proof read before this seal.",
+  "inputs": [
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/fixed-main-statement-v1.md",
+      "sha256": "d12458eca020f381af78afa20fb0d7ec774759ba0b22a48be985d4fa69150b80",
+      "bytes": 6118,
+      "unchanged_since_first_read": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/fixed-main-proof-v1.md",
+      "sha256": "6cfc8883644ef1fb507161393543f9977e1c329d5c1e8c54f14a7561aa5f75c8",
+      "bytes": 4407,
+      "unchanged_since_first_read": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/modround-statement-v1.md",
+      "sha256": "fdcbdf08b35faced79539eb82712607deb765d391cd65cbfe4e52cf2a32f9e6b",
+      "bytes": 2441,
+      "unchanged_since_first_read": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/modround-proof-v1.md",
+      "sha256": "6cd5ca4a4cd569ba5ab886f0d5842204fd78e1fa61995b4c4fefed7fe68815c1",
+      "bytes": 4094,
+      "unchanged_since_first_read": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/am-main-theorem-v3.md",
+      "sha256": "eaabea064b734ccefbbb1d2410ed03fecdbe671f098c2e69d59d432df855e33c",
+      "bytes": 11306,
+      "unchanged_since_first_read": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/am-main-proof-v3.md",
+      "sha256": "f27a64db55c4442e38497518d8b9beca3b13e21bf0530a40497c9bc897131143",
+      "bytes": 10085,
+      "unchanged_since_first_read": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/selected-functional-statement-v2.md",
+      "sha256": "2249ed6838cc5ef44b67407abb2d4d2b8d7975d6e2abc4ecff43e115e45b02ed",
+      "bytes": 1374,
+      "unchanged_since_first_read": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/selected-functional-proof-v2.md",
+      "sha256": "62060ad053176080b00147cd7277c742fa58b4775a2ae7c47a727101806b516c",
+      "bytes": 1426,
+      "unchanged_since_first_read": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD1/extraction-theorem-v1.md",
+      "sha256": "c8ad79f0f681e346e149749d46c3bb98ff5e2e6a2ef5cbc406a47f8c2abf0e38",
+      "bytes": 5273,
+      "unchanged_since_first_read": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD1/extraction-proof-v1.md",
+      "sha256": "4a599d9eed5dfefca4b3d0bbcd1402aaba2e709310e7eaa62feb36d5b6b3f357",
+      "bytes": 6019,
+      "unchanged_since_first_read": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD2/am1-strengthened-theorem-v1.md",
+      "sha256": "3500de1a74555ecbf8102d4fb52a87f6a0d87c7f9cdcca22e849f7a2812d870d",
+      "bytes": 2486,
+      "unchanged_since_first_read": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD2/am1-strengthened-proof-v1.md",
+      "sha256": "d1d22c6a34776a493b7d43611abb076c8e97f07542ad48da33d5072683766e43",
+      "bytes": 4448,
+      "unchanged_since_first_read": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD2/prime-list-theorem-proof-v1.md",
+      "sha256": "c54f0a6e37aa6ed6a13bb9cf387f98ce99fb12311a517c6fec32e3e32188d6cf",
+      "bytes": 4529,
+      "unchanged_since_first_read": true
+    }
+  ]
+}

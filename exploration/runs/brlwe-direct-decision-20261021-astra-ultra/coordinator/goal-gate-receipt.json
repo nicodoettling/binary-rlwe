@@ -1,0 +1,22 @@
+{
+  "captured_at": "2026-10-21T13:08:42.779113+00:00",
+  "goal": {
+    "threadId": "01a15e66-88ee-7da3-b484-747bf9751c67",
+    "status": "active",
+    "tokensUsed": 815724,
+    "timeUsedSeconds": 2902,
+    "createdAt": 1792585171,
+    "updatedAt": 1792588074
+  },
+  "source": "get_goal actual response, same continuation",
+  "clock": {
+    "checked_at": "2026-10-21T13:08:42.779113+00:00",
+    "elapsed_seconds": 2982.497124,
+    "phase": "discovery",
+    "cap_state": "running",
+    "cap_updated_at": "2026-10-21T12:19:00.377452+00:00",
+    "actual_start": "2026-10-21T12:19:00.281989+00:00",
+    "graceful_shutdown_at": "2026-10-21T16:17:55.281989+00:00",
+    "hard_deadline_at": "2026-10-21T16:19:00.281989+00:00"
+  }
+}

@@ -1,0 +1,427 @@
+{
+  "experiment": "DD2-AM-FV1",
+  "fiber_controls": [
+    {
+      "K_by_q": [
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4"
+      ],
+      "average_K": "1/4",
+      "bound_checked": "sqrt(C/2^n)+sqrt(empirical_pair_nu)",
+      "diagonal_checks": 16,
+      "n": 2,
+      "occupied": 1,
+      "partition": "J=R"
+    },
+    {
+      "K_by_q": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "average_K": "1",
+      "bound_checked": "sqrt(C/2^n)+sqrt(empirical_pair_nu)",
+      "diagonal_checks": 64,
+      "n": 2,
+      "occupied": 4,
+      "partition": "J=2R"
+    },
+    {
+      "K_by_q": [
+        "1/16",
+        "1/16",
+        "1/16",
+        "1/16",
+        "1/16",
+        "1/16",
+        "1/16",
+        "1/16",
+        "1/16",
+        "1/16",
+        "1/16",
+        "1/16",
+        "1/16",
+        "1/16",
+        "1/16",
+        "1/16"
+      ],
+      "average_K": "1/16",
+      "bound_checked": "sqrt(C/2^n)+sqrt(empirical_pair_nu)",
+      "diagonal_checks": 16,
+      "n": 4,
+      "occupied": 1,
+      "partition": "J=R"
+    },
+    {
+      "K_by_q": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "average_K": "1",
+      "bound_checked": "sqrt(C/2^n)+sqrt(empirical_pair_nu)",
+      "diagonal_checks": 256,
+      "n": 4,
+      "occupied": 16,
+      "partition": "J=2R"
+    },
+    {
+      "K_by_q": [
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "average_K": "1/2",
+      "bound_checked": "sqrt(C/2^n)+sqrt(empirical_pair_nu)",
+      "diagonal_checks": 128,
+      "n": 4,
+      "occupied": 8,
+      "partition": "J=(3,X^(n/2)+X^(n/4)-1)"
+    },
+    {
+      "K_by_q": [
+        "1/16",
+        "1/64",
+        "3/256",
+        "3/256",
+        "1/128",
+        "1/256",
+        "1/128",
+        "1/128",
+        "1/128",
+        "1/128",
+        "1/256",
+        "1/128",
+        "1/256",
+        "1/256",
+        "1/256",
+        "1/256"
+      ],
+      "average_K": "11/1024",
+      "bound_checked": "sqrt(C/2^n)+sqrt(empirical_pair_nu)",
+      "diagonal_checks": 16,
+      "n": 8,
+      "occupied": 1,
+      "partition": "J=R"
+    },
+    {
+      "K_by_q": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "average_K": "1",
+      "bound_checked": "sqrt(C/2^n)+sqrt(empirical_pair_nu)",
+      "diagonal_checks": 4096,
+      "n": 8,
+      "occupied": 256,
+      "partition": "J=2R"
+    },
+    {
+      "K_by_q": [
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4"
+      ],
+      "average_K": "1/4",
+      "bound_checked": "sqrt(C/2^n)+sqrt(empirical_pair_nu)",
+      "diagonal_checks": 1024,
+      "n": 8,
+      "occupied": 64,
+      "partition": "J=(3,X^(n/2)+X^(n/4)-1)"
+    }
+  ],
+  "limits": {
+    "address_space_bytes": 536870912,
+    "wall_seconds": 120
+  },
+  "negative_controls": {
+    "ramified_q2_multiplicity_not_distinct_roots": {
+      "f": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "incorrect_multiplicity": 8,
+      "n": 8,
+      "norm": 2,
+      "nullity": 1
+    },
+    "repeated_prime_breaks_product": {
+      "f": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        0,
+        -1,
+        -1
+      ],
+      "n": 8,
+      "norm": 289,
+      "q": 17,
+      "root_count": 2
+    }
+  },
+  "norm_controls": [
+    {
+      "empirical_pair_nu": "0",
+      "max_total_distinct_roots": 0,
+      "n": 2,
+      "nonzero_nullity_checks": 0,
+      "prime_list": [
+        5,
+        13,
+        17,
+        29,
+        37,
+        41,
+        53,
+        61,
+        73,
+        89,
+        97,
+        101,
+        109,
+        113,
+        137,
+        149
+      ],
+      "ternary_nonzero": 8
+    },
+    {
+      "empirical_pair_nu": "0",
+      "max_total_distinct_roots": 0,
+      "n": 4,
+      "nonzero_nullity_checks": 0,
+      "prime_list": [
+        17,
+        41,
+        73,
+        89,
+        97,
+        113,
+        137,
+        193,
+        233,
+        241,
+        257,
+        281,
+        313,
+        337,
+        353,
+        401
+      ],
+      "ternary_nonzero": 80
+    },
+    {
+      "empirical_pair_nu": "1/8",
+      "max_total_distinct_roots": 2,
+      "n": 8,
+      "nonzero_nullity_checks": 4736,
+      "prime_list": [
+        17,
+        97,
+        113,
+        193,
+        241,
+        257,
+        337,
+        353,
+        401,
+        433,
+        449,
+        577,
+        593,
+        641,
+        673,
+        769
+      ],
+      "ternary_nonzero": 6560
+    }
+  ],
+  "prime_construction": [
+    {
+      "D": 1,
+      "M": 2,
+      "Qmin": 11,
+      "auxiliary_p": 11,
+      "master_primes": [
+        13,
+        17,
+        109,
+        113
+      ],
+      "n": 2,
+      "progression_modulus": 44,
+      "residues": [
+        13,
+        17,
+        21,
+        25
+      ],
+      "selected": [
+        13,
+        17
+      ]
+    },
+    {
+      "D": 9,
+      "M": 3,
+      "Qmin": 25,
+      "auxiliary_p": 13,
+      "master_primes": [
+        233,
+        137,
+        41,
+        257,
+        577,
+        73,
+        601
+      ],
+      "n": 4,
+      "progression_modulus": 104,
+      "residues": [
+        25,
+        33,
+        41,
+        49,
+        57,
+        73,
+        81
+      ],
+      "selected": [
+        233,
+        137,
+        41
+      ]
+    },
+    {
+      "D": 81,
+      "M": 3,
+      "Qmin": 101,
+      "auxiliary_p": 23,
+      "master_primes": [
+        113,
+        1601,
+        881,
+        2017,
+        193,
+        577,
+        593,
+        241,
+        257,
+        641,
+        2129
+      ],
+      "n": 8,
+      "progression_modulus": 368,
+      "residues": [
+        113,
+        129,
+        145,
+        177,
+        193,
+        209,
+        225,
+        241,
+        257,
+        273,
+        289
+      ],
+      "selected": [
+        113,
+        1601,
+        881
+      ]
+    }
+  ],
+  "seed": "none: exhaustive deterministic",
+  "status": "PASS exact finite arithmetic; not infinite-family or Linnik proof certification",
+  "total_nonzero_ternary_vectors": 6648
+}

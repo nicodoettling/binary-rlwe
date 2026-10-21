@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-10-21T12:36:53.599413+00:00",
+  "elapsed_seconds": 1073.317424,
+  "phase": "discovery",
+  "cap_state": "running",
+  "cap_updated_at": "2026-10-21T12:19:00.377452+00:00",
+  "actual_start": "2026-10-21T12:19:00.281989+00:00",
+  "graceful_shutdown_at": "2026-10-21T16:17:55.281989+00:00",
+  "hard_deadline_at": "2026-10-21T16:19:00.281989+00:00",
+  "event": "Promising DD3 averaged-modulus selected-root bridge; workers reallocated to adversarial checks",
+  "pending": [
+    "Root freeze selected-functional average bound and source extraction",
+    "DD1 ordinary-RLWE selected-root extraction and sample reuse audit",
+    "DD2 norm-divisor/fiber/parameter audit",
+    "Need exact fixed-vs-averaged modulus oracle scope"
+  ],
+  "findings": [
+    "DD3-CUBE-FV1 completed exit0 in2.51s; exact finite controls only",
+    "DD1-FV1 and DD2-FV1 completed with exact controls; receipts retained by workers"
+  ]
+}

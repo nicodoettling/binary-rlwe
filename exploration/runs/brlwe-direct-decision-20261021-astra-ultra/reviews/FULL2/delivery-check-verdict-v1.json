@@ -1,0 +1,25 @@
+{
+  "at": "2026-10-21T13:57:39.160493+00:00",
+  "verdict": "PASS_WITH_NONBLOCKING_METADATA_ALIAS_CLARIFICATION",
+  "scientific_summary_matches_exact_review": true,
+  "native_mathematical_objective_achieved_in_explicit_scope": true,
+  "required_scientific_corrections": [],
+  "nonblocking_metadata": [
+    "Historical C-OHCP-v8 / C-OHCP-v8CORE and M3-ENTROPY-v1 / RECENT-B-CUBE-THETA-v1 aliases; root acknowledged separate repair"
+  ],
+  "pending_administration_not_a_failure": [
+    "Native completion/usage receipts",
+    "Process observations/cleanup",
+    "Programme/reconciliation updates"
+  ],
+  "new_mathematical_research": false,
+  "new_experiments": 0,
+  "blind2_files_read": false,
+  "source_scope_unchanged": true,
+  "exact_snapshot": {
+    "final.md": "1c782a323ec8e56bf294195d0fe2e7176d5085010446ecab7342749b9364c44d",
+    "claims.json": "77429fde22ced160c3c5d19132900b85bd5496506d4840b2a736dfb4a50b8976",
+    "acceptance-v1.json": "ba065e4b5f569236839b2597882698ade120219a13551376b8a14af6d5d2e23e",
+    "regressions.json": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3"
+  }
+}

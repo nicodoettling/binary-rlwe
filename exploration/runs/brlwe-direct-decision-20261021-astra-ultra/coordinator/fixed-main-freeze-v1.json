@@ -1,0 +1,26 @@
+{
+  "clock": {
+    "checked_at": "2026-10-21T13:20:02.993260+00:00",
+    "elapsed_seconds": 3662.711271,
+    "phase": "discovery",
+    "cap_state": "running",
+    "cap_updated_at": "2026-10-21T12:19:00.377452+00:00",
+    "actual_start": "2026-10-21T12:19:00.281989+00:00",
+    "graceful_shutdown_at": "2026-10-21T16:17:55.281989+00:00",
+    "hard_deadline_at": "2026-10-21T16:19:00.281989+00:00"
+  },
+  "status": "PROVISIONAL",
+  "files": {
+    "coordinator/fixed-main-statement-v1.md": "d12458eca020f381af78afa20fb0d7ec774759ba0b22a48be985d4fa69150b80",
+    "coordinator/fixed-main-proof-v1.md": "6cfc8883644ef1fb507161393543f9977e1c329d5c1e8c54f14a7561aa5f75c8",
+    "coordinator/modround-statement-v1.md": "fdcbdf08b35faced79539eb82712607deb765d391cd65cbfe4e52cf2a32f9e6b",
+    "coordinator/modround-proof-v1.md": "6cd5ca4a4cd569ba5ab886f0d5842204fd78e1fa61995b4c4fefed7fe68815c1",
+    "coordinator/am-main-theorem-v3.md": "eaabea064b734ccefbbb1d2410ed03fecdbe671f098c2e69d59d432df855e33c",
+    "coordinator/am-main-proof-v3.md": "f27a64db55c4442e38497518d8b9beca3b13e21bf0530a40497c9bc897131143"
+  },
+  "new_review_gates": [
+    "full proof/source/complexity of new rounding and variable-width composition",
+    "fresh blind theorem-only review of repaired/new main bytes",
+    "exact old/new regressions and complete reconciled dependency statuses"
+  ]
+}

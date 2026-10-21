@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-10-21T13:08:42.779460+00:00",
+  "elapsed_seconds": 2982.497471,
+  "phase": "discovery",
+  "cap_state": "running",
+  "cap_updated_at": "2026-10-21T12:19:00.377452+00:00",
+  "actual_start": "2026-10-21T12:19:00.281989+00:00",
+  "graceful_shutdown_at": "2026-10-21T16:17:55.281989+00:00",
+  "hard_deadline_at": "2026-10-21T16:19:00.281989+00:00",
+  "event": "45-minute nonterminal allocation gate (late record)",
+  "pending": [
+    "FULL1 full proof/source/complexity report",
+    "BLIND1 sealed blind report",
+    "Root fixed-modulus rounding edge",
+    "Versioned repair and regression reconciliation"
+  ],
+  "findings": [
+    "No early exhaustion",
+    "Averaged-modulus main claim remains provisional"
+  ]
+}
