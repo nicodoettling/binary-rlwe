@@ -1,0 +1,48 @@
+{
+  "at": "2026-10-21T21:29:29.938676+00:00",
+  "claims": [
+    {
+      "id": "SV-SPARSE-ACQ-v1",
+      "verdict": "PASS_RECOMMENDED_EXACT_SCOPE",
+      "hashes": {
+        "coordinator/sparse-acquisition-statement-v1.md": "c3c1078b33309f7b3d9061fbdad1114c3178dea28e64c7e8849a947ad5d97d84",
+        "coordinator/sparse-acquisition-proof-v1.md": "985e843a98a4413dd7cebf3a98042aedd2b971d241eeb210bd22401b43e952f3"
+      },
+      "coordinator_acceptance": "separate fresh blind and dependency gates are not supplied by this report"
+    },
+    {
+      "id": "FF3-COMPACT-SELECTOR-v2",
+      "verdict": "PASS_RECOMMENDED_EXACT_SCOPE",
+      "hashes": {
+        "coordinator/compact-selector-statement-v2.md": "89864b1f1d37ebb66e3fb7e364c8ad657c185808cdcdbb1c4370058aed7b2846",
+        "coordinator/compact-selector-proof-v2.md": "cfe90ffc7b4b0b6e0e8efdd424f6b20b361b9e66107022752ccf787b66414211"
+      },
+      "coordinator_acceptance": "separate fresh blind and dependency gates are not supplied by this report"
+    },
+    {
+      "id": "FF3-ENERGY-RANK-v2",
+      "verdict": "PASS_RECOMMENDED_EXACT_SCOPE",
+      "hashes": {
+        "coordinator/energy-rank-kernel-statement-v2.md": "ab8e55aa2930d04d3d24529abf5e4f6f5ebee5e25507830a6bff0ba792101355",
+        "coordinator/energy-rank-kernel-proof-v2.md": "3972798c783f0ba0116e72b1b393e0ca90b59afd9e6805413cbc3e29b3e8db9d"
+      },
+      "coordinator_acceptance": "separate fresh blind and dependency gates are not supplied by this report"
+    }
+  ],
+  "frontier": "CHALLENGE_COMPLETE_NO_EXHAUSTION_NO_FF_SUCCESS",
+  "FF": "OPEN",
+  "SV": "substantive diagnostic at inherited radius; sparse new full recommendation separately gated",
+  "hardness": "NOT_ESTABLISHED",
+  "inherited_regression_reference_count": 203,
+  "inherited_regression_reference_integrity": "PASS",
+  "review_independence": "correlated same-model scrutiny, not formal verification",
+  "experiments": {
+    "count": 1,
+    "exit": 0,
+    "wall_seconds": 0.19203943596221507,
+    "peak_rss_KiB": 13312,
+    "active_jobs": 0
+  },
+  "unresolved_local_blocking_defects": [],
+  "reply_v2_corrections": "all three verified; old untested symmetry note superseded by later finite certificates"
+}

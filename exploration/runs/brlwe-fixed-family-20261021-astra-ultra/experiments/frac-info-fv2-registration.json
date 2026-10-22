@@ -1,0 +1,19 @@
+{
+  "id": "FRAC-INFO-FV2",
+  "registered_at": "2026-10-21T18:53:47.871951+00:00",
+  "hypothesis": "Repair positive-tail underflow reporting without changing core law controls; test finite coset normalization and exposed zero-event boundary for proposed narrow uniform-coset kernel.",
+  "code": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/frac-info-fv2.py",
+  "sha256": "5dfbad8184bebbb11808f5f48487e4562102d0108726a10c63fae246145d2694",
+  "seed": null,
+  "inputs": "Prior exact finite laws; n2,4,8,16,32 q3 r1/n theta boundary; exact five-point coset model",
+  "command": "timeout 120s prlimit --as=536870912 --cpu=110 /usr/bin/time -v -o experiments/frac-info-fv2-resources.txt python3 experiments/frac-info-fv2.py > experiments/frac-info-fv2-output.json 2> experiments/frac-info-fv2-stderr.txt (cwd OUTPUT)",
+  "limits": {
+    "wall_seconds": 120,
+    "address_space_bytes": 536870912,
+    "cpu_seconds": 110
+  },
+  "estimated": "<1 second, <100MiB, light",
+  "precision": "Fractions exact finite laws; log-domain binary64 theta/tail diagnostics not certified intervals; no infinity/zero bound claimed",
+  "expected": "All asserts pass; exact finite coset gap1/6, point-boundary modulo quotient gap tends1/2",
+  "predecessor": "FRAC-INFO-FV1 preserved with tail-reporting defect"
+}

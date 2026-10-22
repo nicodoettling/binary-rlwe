@@ -1,0 +1,75 @@
+{
+  "scope": "Exact finite CRT-law controls, abstract F3^2; no cyclotomic/Gaussian instantiation or asymptotic proof",
+  "fixed_secret_full_history_checks": 108,
+  "adaptive_endpoint_checks": 108,
+  "complete_guess_law_checks": 48,
+  "posterior_nonuniform_negative_control": [
+    [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "7/27",
+    {
+      "(0, 0)": "1/2",
+      "(0, 1)": "0",
+      "(1, 0)": "1/2",
+      "(1, 1)": "0"
+    }
+  ],
+  "posterior_changed_histories": 60,
+  "strict_comparison_corner_checks": 16,
+  "equality_boundary": "gap=4a can tie; candidate has gap>=14a",
+  "product_TV_k_1_to_4": [
+    "1/6",
+    "1/4",
+    "8/27",
+    "437/1296"
+  ],
+  "finite_cap_checks": [
+    {
+      "B": 1,
+      "failure": "1/4",
+      "TV": "1/6"
+    },
+    {
+      "B": 2,
+      "failure": "1/16",
+      "TV": "1/24"
+    },
+    {
+      "B": 3,
+      "failure": "1/64",
+      "TV": "1/96"
+    },
+    {
+      "B": 4,
+      "failure": "1/256",
+      "TV": "1/384"
+    },
+    {
+      "B": 5,
+      "failure": "1/1024",
+      "TV": "1/1536"
+    }
+  ],
+  "reused_D_coin_negative_control": {
+    "N": 32,
+    "a": "1/4",
+    "failure": "1",
+    "claimed_iid_bound": "2exp(-4)<1",
+    "verdict": "REJECT reused coin Hoeffding"
+  },
+  "CP-1": {
+    "match": "21/2000",
+    "invalid_product": "1/100",
+    "later_residual": "21/221",
+    "mechanism": "support restriction and posterior renormalization; old product rejected"
+  },
+  "precision": "Python exact integers/Fraction; one elementary exp comparison only for negative-control illustration; no tails"
+}

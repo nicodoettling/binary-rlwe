@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-21T20:06:46.048049+00:00",
+  "reason": "Explicit parent statement-only addendum",
+  "files": [
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-FRONTIER1/allowed-read-addendum-v2.json",
+      "sha256": "c3fc6e88ae8f788938720293d7988bb659d6a452e8a489258a58507bcebd73ad",
+      "bytes": 1589,
+      "exposure": "entire content"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-FRONTIER1/allowed-input/dense-split-source-statement-v1.md",
+      "sha256": "843a3ea886c9d39826b0492284e50c48656c310e36dfb6ed0c195e35af9416af",
+      "bytes": 1753,
+      "exposure": "entire content"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-FRONTIER1/allowed-input/rs-source-decoder-statement-v1.md",
+      "sha256": "5805f47785b41095733d694bd204c6cd40d3f9edee05a1a1bbd5b3ce7178d11c",
+      "bytes": 2372,
+      "exposure": "entire content"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-FRONTIER1/allowed-input/spectral-gap-decoder-statement-v1.md",
+      "sha256": "4043228d1a634dfd950acbacf232f4cb013ae3ed9c98ca1a6d2cdbafc0bd591c",
+      "bytes": 1934,
+      "exposure": "entire content"
+    }
+  ],
+  "metadata_exposure": "Addendum status-stripping transformation descriptions only; no source paths opened",
+  "external_sources_read": []
+}

@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-10-21T20:28:14.641821+00:00",
+  "all_registered_jobs_completed": true,
+  "per_job_cleanup": "Every FV10-FV17 specific pgrep returned exit1 with no output after completion.",
+  "aggregate_initial_pattern": "An unanchored pattern matched the currently executing sandbox wrapper containing the metadata command, not a research Python process.",
+  "anchored_checks": [
+    {
+      "pattern": "^python3 ff3-.*[.]py$",
+      "exit_code": 1,
+      "output": ""
+    },
+    {
+      "pattern": "^timeout 120s python3 ff3-.*[.]py$",
+      "exit_code": 1,
+      "output": ""
+    }
+  ],
+  "research_processes_remaining": false,
+  "detached_jobs": false,
+  "new_experiments_authorized_or_planned": false
+}

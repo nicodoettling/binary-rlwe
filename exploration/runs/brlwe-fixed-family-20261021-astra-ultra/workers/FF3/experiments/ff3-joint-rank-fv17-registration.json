@@ -1,0 +1,9 @@
+{
+ "id":"FF3-JOINT-RANK-FV17","registered_before_execution":true,
+ "hypothesis":"FV16 n4 UNKNOWN may be a solver-method/presolve issue. Reuse exactly the same integer full-direction joint-rank model, with interior-point primal, presolve disabled and tighter feasibility thresholds. Independently seek exact Farkas if the primal returns infeasible orunknown.",
+ "code":"ff3-joint-rank-fv17.py","inputs":"Identical n4Q3q2 integer model fromFV16,3125nonnegative weights4477equalities. No probabilistic model change. Save complete integer A,b for independent recheck. FV16 n2 exact positive and n4 UNKNOWN preserved in joint-rank-n4-unknown-v1.md before this follow-up.",
+ "seed":"none","command":"ulimit -v 2097152; /usr/bin/time -v timeout 120s python3 ff3-joint-rank-fv17.py > ff3-joint-rank-fv17-output.jsonl 2> ff3-joint-rank-fv17-resource.txt",
+ "limits":{"wall_seconds":120,"address_space_bytes":2147483648,"expected_seconds":15,"expected_rss_bytes":1000000000,"heavy":true,"primal_LP_seconds":40,"dual_LP_seconds":40},
+ "precision":"Primal HiGHS IPM withoutpresolve, primal/dualfeasibility1e-10,optimality1e-12. Full exact integer reconstruction asFV16. Any Farkas is accepted only after all integer inequalities and negative bdotz pass. A feasible numeric point without rational support remains provisional. No automatic enlargement or rerun.",
+ "expected":"Clarify the live n4 finite candidate with exact certificate if possible; otherwise preserve UNKNOWN without asserting obstruction. No Gaussian/PPT-family promotion."
+}

@@ -1,0 +1,7 @@
+Root grant received 2026-10-21, before E01 launch:
+Fresh light slot approved for ONLY BLIND-SV1-E01 at registered120s/CPU115s/512MiB. FF1 has one light FULL-CERT2-FV1 allocated; root no job running. This fills both slots while concurrent. Preserve all exits/output/limits and release slot promptly; no follow-on without fresh allocation.
+
+Frozen code SHA256 8b38c1c78b3cef8b89fb6e09d3bd2ceebde4f98501d5bca60cedabba46aa60b2
+Frozen preregistration SHA256 430ec29ea3cf8a7b11428e5b1cae94535b94f34a5be16752d5509c5113f0cb1e
+Launch command: python3 exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-SV1/experiment-01.py
+The worker did not select or change service tier; no backend billing telemetry is available.

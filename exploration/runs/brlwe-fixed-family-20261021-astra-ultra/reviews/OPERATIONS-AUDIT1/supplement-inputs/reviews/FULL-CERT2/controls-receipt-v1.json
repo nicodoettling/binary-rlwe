@@ -1,0 +1,18 @@
+{
+  "id": "FULL-CERT2-FV1",
+  "exit_code": 0,
+  "wall_seconds": 1.67,
+  "max_rss_KiB": 50176,
+  "timeout_seconds": 120,
+  "address_space_MiB": 512,
+  "seeds": null,
+  "code_sha256": "6ec81210912c062a8ca97b3cffc7677ebb7ea42d25d6728b704c36d52d16f0bf",
+  "registration_sha256": "a8727b997f22a7d302ea56391b1aaede446d3336a38a318a95a4ba5b5d5640e5",
+  "slot": "fresh root allocation for one job; released on completion",
+  "stdout": "controls-v1.stdout.json",
+  "stderr": "controls-v1.stderr.txt",
+  "resources": "controls-v1.resources.txt",
+  "limitations": "Exact finite mechanisms and arithmetic only; floating DG diagnostics are not certificates; correlated-error fixture is not DG.",
+  "resource_file_mtime_utc": "2026-10-21T18:36:38.310691+00:00",
+  "time_scope": "Wall/CPU duration from time(1); filesystem mtime records completed resource receipt, not an independently attested start timestamp."
+}

@@ -1,0 +1,16 @@
+{
+  "utc": "2026-10-21T18:59:25.341322+00:00",
+  "kind": "STATIC_ARTIFACT_INTEGRITY_CHECK; not a new experiment run",
+  "checks": [
+    "all four packet hashes match the manifest",
+    "frozen experiment code hash matches preregistration",
+    "experiment code parses as Python",
+    "all JSON artifacts parse",
+    "experiment stdout contains expected completed record and CP-1 rejection",
+    "required report/audit/freeze/receipt artifacts exist"
+  ],
+  "result": "PASS",
+  "scientific_experiments_run": 1,
+  "experiment_rerun": false,
+  "read_scope": "only own review directory and prior authorized inputs"
+}

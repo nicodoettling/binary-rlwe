@@ -1,0 +1,13 @@
+{
+  "id": "PRESELECTION-FV1",
+  "registered_at": "2026-10-21T21:11:57.870862+00:00",
+  "hypothesis": "Fresh whole-trial preselection has exact normalized alpha-biased prior and density bound under finite cap",
+  "code": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/preselection-fv1.py",
+  "sha256": "c2c8fe82b8e47f5e8bbbeb4f73ed56f30b459acf1884a7a996888907c0a915b3",
+  "inputs": "N2,3,4; four alpha grid values; R1..5",
+  "seeds": "deterministic",
+  "limits": "120s wall,512MiB address,110s CPU",
+  "estimate": "<1s,32MiB",
+  "precision": "exact Fraction; no tails",
+  "command": "timeout --kill-after=5s 120s prlimit --as=536870912 --cpu=110 /usr/bin/time -v python3 experiments/preselection-fv1.py"
+}

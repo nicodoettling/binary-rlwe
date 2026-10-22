@@ -1,0 +1,1574 @@
+{
+  "at": "2026-10-21T21:53:49.048436+00:00",
+  "qualification": "Selected metadata only; no raw payload, instructions, ciphertext, secret values, or backend billing telemetry retained.",
+  "sessions": [
+    {
+      "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T17-49-20-01a15f94-f583-7e80-8df9-e6001ee7e5bf.jsonl",
+      "agent": "/root/ff1",
+      "thread_id": "01a15f94-f583-7e80-8df9-e6001ee7e5bf",
+      "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "read_at": "2026-10-21T21:53:49.048436+00:00",
+      "read_prefix_bytes": 4774688,
+      "prefix_sha256": "cda42b9bb668657d7ac5021e818796c6e3c622052c16744a1848f69fca94c404",
+      "turn_configurations": [
+        {
+          "timestamp": "2026-10-21T17:49:21.646Z",
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          },
+          "service_tier_present": false
+        },
+        {
+          "timestamp": "2026-10-21T18:19:43.597Z",
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          },
+          "service_tier_present": false
+        },
+        {
+          "timestamp": "2026-10-21T18:30:10.694Z",
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          },
+          "service_tier_present": false
+        }
+      ],
+      "lifecycle": [
+        {
+          "timestamp": "2026-10-21T17:49:20.250Z",
+          "kind": "task_started",
+          "turn_id": "01a15f94-f5c7-7650-82fd-eef1c5116f41",
+          "agent": "/root/ff1"
+        },
+        {
+          "timestamp": "2026-10-21T18:29:56.826Z",
+          "kind": "task_complete",
+          "turn_id": "01a15f94-f5c7-7650-82fd-eef1c5116f41",
+          "agent": "/root/ff1"
+        },
+        {
+          "timestamp": "2026-10-21T18:30:10.674Z",
+          "kind": "task_started",
+          "turn_id": "01a15fba-59ec-7fd2-bc8b-c62c17db3922",
+          "agent": "/root/ff1"
+        },
+        {
+          "timestamp": "2026-10-21T18:46:05.359Z",
+          "kind": "task_complete",
+          "turn_id": "01a15fba-59ec-7fd2-bc8b-c62c17db3922",
+          "agent": "/root/ff1"
+        }
+      ],
+      "tool_name_counts": {
+        "exec_command": 63,
+        "clock__curr_time": 19,
+        "send_message": 26,
+        "apply_patch": 16,
+        "web__run": 21,
+        "write_stdin": 1
+      }
+    },
+    {
+      "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T19-24-38-01a15fec-35b1-73b0-9959-688df1cc8cfc.jsonl",
+      "agent": "/root/full_frontier1",
+      "thread_id": "01a15fec-35b1-73b0-9959-688df1cc8cfc",
+      "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "read_at": "2026-10-21T21:53:49.048436+00:00",
+      "read_prefix_bytes": 5034441,
+      "prefix_sha256": "a79fd36aa15c4decad2081edf5b7f85c75799b331d6fa2d7b38937664fb1dc63",
+      "turn_configurations": [
+        {
+          "timestamp": "2026-10-21T19:24:39.448Z",
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          },
+          "service_tier_present": false
+        },
+        {
+          "timestamp": "2026-10-21T19:45:51.098Z",
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          },
+          "service_tier_present": false
+        },
+        {
+          "timestamp": "2026-10-21T19:53:10.509Z",
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          },
+          "service_tier_present": false
+        }
+      ],
+      "lifecycle": [
+        {
+          "timestamp": "2026-10-21T19:24:38.270Z",
+          "kind": "task_started",
+          "turn_id": "01a15fec-35f2-7230-98f0-1566bf62f85f",
+          "agent": "/root/full_frontier1"
+        },
+        {
+          "timestamp": "2026-10-21T19:42:35.509Z",
+          "kind": "task_complete",
+          "turn_id": "01a15fec-35f2-7230-98f0-1566bf62f85f",
+          "agent": "/root/full_frontier1"
+        },
+        {
+          "timestamp": "2026-10-21T19:45:51.085Z",
+          "kind": "task_started",
+          "turn_id": "01a15fff-a1e4-72e3-a0df-df3ac2e936cf",
+          "agent": "/root/full_frontier1"
+        },
+        {
+          "timestamp": "2026-10-21T20:03:08.159Z",
+          "kind": "task_complete",
+          "turn_id": "01a15fff-a1e4-72e3-a0df-df3ac2e936cf",
+          "agent": "/root/full_frontier1"
+        }
+      ],
+      "tool_name_counts": {
+        "exec_command": 95,
+        "clock__curr_time": 10,
+        "apply_patch": 11,
+        "web__run": 3,
+        "send_message": 13,
+        "write_stdin": 1
+      }
+    },
+    {
+      "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T20-03-37-01a1600f-e771-7230-b56e-51a658fb2647.jsonl",
+      "agent": "/root/blind_frontier1",
+      "thread_id": "01a1600f-e771-7230-b56e-51a658fb2647",
+      "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "read_at": "2026-10-21T21:53:49.048436+00:00",
+      "read_prefix_bytes": 1562446,
+      "prefix_sha256": "d3d7211e044c7e3f1ecdaf8027674b7518ed7174b57979fa9db4e8c963238db7",
+      "turn_configurations": [
+        {
+          "timestamp": "2026-10-21T20:03:41.681Z",
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          },
+          "service_tier_present": false
+        }
+      ],
+      "lifecycle": [
+        {
+          "timestamp": "2026-10-21T20:03:37.539Z",
+          "kind": "task_started",
+          "turn_id": "01a1600f-e7b7-7c00-8f2c-9a6affaa4d30",
+          "agent": "/root/blind_frontier1"
+        },
+        {
+          "timestamp": "2026-10-21T20:38:54.652Z",
+          "kind": "task_complete",
+          "turn_id": "01a1600f-e7b7-7c00-8f2c-9a6affaa4d30",
+          "agent": "/root/blind_frontier1"
+        }
+      ],
+      "tool_name_counts": {
+        "clock__curr_time": 12,
+        "exec_command": 28,
+        "send_message": 11,
+        "apply_patch": 16,
+        "web__run": 4
+      }
+    },
+    {
+      "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T21-51-06-01a16072-5014-7712-889d-daa10b7bb02b.jsonl",
+      "agent": "/root/operations_audit1",
+      "thread_id": "01a16072-5014-7712-889d-daa10b7bb02b",
+      "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "read_at": "2026-10-21T21:53:49.048436+00:00",
+      "read_prefix_bytes": 1042843,
+      "prefix_sha256": "8e7da68eca2bfee6a36ad94ef63cc968e3821db13743df5727723e441a33c71a",
+      "turn_configurations": [
+        {
+          "timestamp": "2026-10-21T21:51:07.998Z",
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          },
+          "service_tier_present": false
+        }
+      ],
+      "lifecycle": [
+        {
+          "timestamp": "2026-10-21T21:51:06.850Z",
+          "kind": "task_started",
+          "turn_id": "01a16072-5056-7d92-a635-a6bacc2f148d",
+          "agent": "/root/operations_audit1"
+        }
+      ],
+      "tool_name_counts": {
+        "clock__curr_time": 2,
+        "exec_command": 12,
+        "apply_patch": 1
+      }
+    },
+    {
+      "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T21-27-18-01a1605c-8306-7290-a69c-b3e7a92777e7.jsonl",
+      "agent": "/root/blind_resource3",
+      "thread_id": "01a1605c-8306-7290-a69c-b3e7a92777e7",
+      "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "read_at": "2026-10-21T21:53:49.048436+00:00",
+      "read_prefix_bytes": 784631,
+      "prefix_sha256": "296d8c074b61d48b88f472e410f711d853110b10b874e1dfdb0724cbfabb5b45",
+      "turn_configurations": [
+        {
+          "timestamp": "2026-10-21T21:27:19.512Z",
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          },
+          "service_tier_present": false
+        }
+      ],
+      "lifecycle": [
+        {
+          "timestamp": "2026-10-21T21:27:18.097Z",
+          "kind": "task_started",
+          "turn_id": "01a1605c-8344-7da3-9adf-4fb3a45f74e2",
+          "agent": "/root/blind_resource3"
+        },
+        {
+          "timestamp": "2026-10-21T21:40:31.431Z",
+          "kind": "task_complete",
+          "turn_id": "01a1605c-8344-7da3-9adf-4fb3a45f74e2",
+          "agent": "/root/blind_resource3"
+        }
+      ],
+      "tool_name_counts": {
+        "clock__curr_time": 5,
+        "exec_command": 20,
+        "send_message": 6
+      }
+    },
+    {
+      "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T21-16-21-01a16052-7d09-7e61-b3c3-a7ea4eb0db4d.jsonl",
+      "agent": "/root/frontier_challenge1",
+      "thread_id": "01a16052-7d09-7e61-b3c3-a7ea4eb0db4d",
+      "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "read_at": "2026-10-21T21:53:49.048436+00:00",
+      "read_prefix_bytes": 3419036,
+      "prefix_sha256": "5e4e0e45471364308238db75c27ff382ee12fadb4a552c7d48aad5860dfb6ab6",
+      "turn_configurations": [
+        {
+          "timestamp": "2026-10-21T21:16:22.264Z",
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          },
+          "service_tier_present": false
+        },
+        {
+          "timestamp": "2026-10-21T21:33:08.688Z",
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          },
+          "service_tier_present": false
+        }
+      ],
+      "lifecycle": [
+        {
+          "timestamp": "2026-10-21T21:16:21.211Z",
+          "kind": "task_started",
+          "turn_id": "01a16052-7d4e-78e1-b4f7-4647cc94a906",
+          "agent": "/root/frontier_challenge1"
+        },
+        {
+          "timestamp": "2026-10-21T21:29:39.850Z",
+          "kind": "task_complete",
+          "turn_id": "01a16052-7d4e-78e1-b4f7-4647cc94a906",
+          "agent": "/root/frontier_challenge1"
+        },
+        {
+          "timestamp": "2026-10-21T21:33:08.673Z",
+          "kind": "task_started",
+          "turn_id": "01a16061-dcb5-7771-9697-bc5c11ec0e6f",
+          "agent": "/root/frontier_challenge1"
+        },
+        {
+          "timestamp": "2026-10-21T21:36:05.836Z",
+          "kind": "task_complete",
+          "turn_id": "01a16061-dcb5-7771-9697-bc5c11ec0e6f",
+          "agent": "/root/frontier_challenge1"
+        }
+      ],
+      "tool_name_counts": {
+        "clock__curr_time": 12,
+        "exec_command": 64,
+        "apply_patch": 6,
+        "send_message": 7
+      }
+    },
+    {
+      "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T19-03-49-01a15fd9-29d1-7eb0-b32d-97d9c42c745f.jsonl",
+      "agent": "/root/ff3_kernel",
+      "thread_id": "01a15fd9-29d1-7eb0-b32d-97d9c42c745f",
+      "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "read_at": "2026-10-21T21:53:49.048436+00:00",
+      "read_prefix_bytes": 4329307,
+      "prefix_sha256": "fd32396c97afe1d4c85a9d3eafe1a4eed35ab5851c85b5957991c6dc09b64ac8",
+      "turn_configurations": [
+        {
+          "timestamp": "2026-10-21T19:03:51.263Z",
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          },
+          "service_tier_present": false
+        },
+        {
+          "timestamp": "2026-10-21T19:46:41.663Z",
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          },
+          "service_tier_present": false
+        }
+      ],
+      "lifecycle": [
+        {
+          "timestamp": "2026-10-21T19:03:50.047Z",
+          "kind": "task_started",
+          "turn_id": "01a15fd9-2a11-7be1-8d8d-3a4bf0295e25",
+          "agent": "/root/ff3_kernel"
+        },
+        {
+          "timestamp": "2026-10-21T20:28:33.142Z",
+          "kind": "task_complete",
+          "turn_id": "01a15fd9-2a11-7be1-8d8d-3a4bf0295e25",
+          "agent": "/root/ff3_kernel"
+        }
+      ],
+      "tool_name_counts": {
+        "exec_command": 111,
+        "clock__curr_time": 38,
+        "send_message": 43,
+        "apply_patch": 12,
+        "write_stdin": 7
+      }
+    },
+    {
+      "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T20-29-20-01a16027-7152-7541-a92e-e738568ef01e.jsonl",
+      "agent": "/root/full_source3",
+      "thread_id": "01a16027-7152-7541-a92e-e738568ef01e",
+      "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "read_at": "2026-10-21T21:53:49.048436+00:00",
+      "read_prefix_bytes": 5289885,
+      "prefix_sha256": "c3cb666e77259bdf74d50433cba6ec7fba4b137928961f22204be0de981341b1",
+      "turn_configurations": [
+        {
+          "timestamp": "2026-10-21T20:29:22.676Z",
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          },
+          "service_tier_present": false
+        },
+        {
+          "timestamp": "2026-10-21T20:44:15.117Z",
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          },
+          "service_tier_present": false
+        },
+        {
+          "timestamp": "2026-10-21T20:53:55.344Z",
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          },
+          "service_tier_present": false
+        }
+      ],
+      "lifecycle": [
+        {
+          "timestamp": "2026-10-21T20:29:20.156Z",
+          "kind": "task_started",
+          "turn_id": "01a16027-7194-7ad2-af7e-f41dcc7fded7",
+          "agent": "/root/full_source3"
+        },
+        {
+          "timestamp": "2026-10-21T20:43:24.929Z",
+          "kind": "task_complete",
+          "turn_id": "01a16027-7194-7ad2-af7e-f41dcc7fded7",
+          "agent": "/root/full_source3"
+        },
+        {
+          "timestamp": "2026-10-21T20:44:15.103Z",
+          "kind": "task_started",
+          "turn_id": "01a16035-1978-79c1-aae9-5e4ae8416548",
+          "agent": "/root/full_source3"
+        },
+        {
+          "timestamp": "2026-10-21T21:15:38.070Z",
+          "kind": "task_complete",
+          "turn_id": "01a16035-1978-79c1-aae9-5e4ae8416548",
+          "agent": "/root/full_source3"
+        }
+      ],
+      "tool_name_counts": {
+        "exec_command": 78,
+        "clock__curr_time": 7,
+        "send_message": 20,
+        "apply_patch": 8,
+        "web__run": 1,
+        "write_stdin": 3
+      }
+    },
+    {
+      "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T18-31-29-01a15fbb-8d77-7ce1-87f9-b0d2a76c0012.jsonl",
+      "agent": "/root/blind_sv1",
+      "thread_id": "01a15fbb-8d77-7ce1-87f9-b0d2a76c0012",
+      "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "read_at": "2026-10-21T21:53:49.048436+00:00",
+      "read_prefix_bytes": 1063971,
+      "prefix_sha256": "a54d3f173a11a43313b30640d4a60db784f52385d4a2faa377d3a59262362c31",
+      "turn_configurations": [
+        {
+          "timestamp": "2026-10-21T18:31:30.753Z",
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          },
+          "service_tier_present": false
+        }
+      ],
+      "lifecycle": [
+        {
+          "timestamp": "2026-10-21T18:31:29.476Z",
+          "kind": "task_started",
+          "turn_id": "01a15fbb-8db9-7e63-9a3d-11301bd9396f",
+          "agent": "/root/blind_sv1"
+        },
+        {
+          "timestamp": "2026-10-21T18:47:11.906Z",
+          "kind": "task_complete",
+          "turn_id": "01a15fbb-8db9-7e63-9a3d-11301bd9396f",
+          "agent": "/root/blind_sv1"
+        }
+      ],
+      "tool_name_counts": {
+        "exec_command": 12,
+        "clock__curr_time": 7,
+        "web__run": 7,
+        "send_message": 4,
+        "apply_patch": 13,
+        "write_stdin": 1
+      }
+    },
+    {
+      "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T17-48-11-01a15f93-e6bd-7fd2-953c-80af410308a1.jsonl",
+      "agent": "/root",
+      "thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "parent_thread_id": null,
+      "read_at": "2026-10-21T21:53:49.048436+00:00",
+      "read_prefix_bytes": 17547909,
+      "prefix_sha256": "183402231240bc4cddeec4687b091edc5a06f42954463d6818d6452c10fc578e",
+      "turn_configurations": [
+        {
+          "timestamp": "2026-10-21T17:48:12.703Z",
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          },
+          "service_tier_present": false
+        },
+        {
+          "timestamp": "2026-10-21T18:28:36.966Z",
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          },
+          "service_tier_present": false
+        },
+        {
+          "timestamp": "2026-10-21T19:06:52.442Z",
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          },
+          "service_tier_present": false
+        },
+        {
+          "timestamp": "2026-10-21T19:41:26.064Z",
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          },
+          "service_tier_present": false
+        },
+        {
+          "timestamp": "2026-10-21T20:22:53.738Z",
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          },
+          "service_tier_present": false
+        },
+        {
+          "timestamp": "2026-10-21T21:01:01.904Z",
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          },
+          "service_tier_present": false
+        },
+        {
+          "timestamp": "2026-10-21T21:32:00.601Z",
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          },
+          "service_tier_present": false
+        }
+      ],
+      "lifecycle": [
+        {
+          "timestamp": "2026-10-21T17:48:11.469Z",
+          "kind": "task_started",
+          "turn_id": "01a15f93-e941-70b2-88d9-3ca1d92c6053",
+          "agent": "/root"
+        }
+      ],
+      "tool_name_counts": {
+        "exec_command": 398,
+        "get_goal": 44,
+        "clock__curr_time": 96,
+        "create_goal": 1,
+        "spawn_agent": 19,
+        "list_agents": 3,
+        "apply_patch": 27,
+        "send_message": 123,
+        "web__run": 15,
+        "followup_task": 5,
+        "interrupt_agent": 1,
+        "write_stdin": 4
+      }
+    },
+    {
+      "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T21-36-51-01a16065-433d-76b3-99d0-b65b7aaefd72.jsonl",
+      "agent": "/root/blind_resource4",
+      "thread_id": "01a16065-433d-76b3-99d0-b65b7aaefd72",
+      "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "read_at": "2026-10-21T21:53:49.048436+00:00",
+      "read_prefix_bytes": 724442,
+      "prefix_sha256": "ec6a948732e319ff516f591c4bae531851472d4e568681d2dbdf2ebcf3125c93",
+      "turn_configurations": [
+        {
+          "timestamp": "2026-10-21T21:36:52.944Z",
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          },
+          "service_tier_present": false
+        }
+      ],
+      "lifecycle": [
+        {
+          "timestamp": "2026-10-21T21:36:51.598Z",
+          "kind": "task_started",
+          "turn_id": "01a16065-4381-7eb0-b6e5-1102360ceec7",
+          "agent": "/root/blind_resource4"
+        },
+        {
+          "timestamp": "2026-10-21T21:50:29.887Z",
+          "kind": "task_complete",
+          "turn_id": "01a16065-4381-7eb0-b6e5-1102360ceec7",
+          "agent": "/root/blind_resource4"
+        }
+      ],
+      "tool_name_counts": {
+        "exec_command": 11,
+        "clock__curr_time": 6,
+        "send_message": 6,
+        "apply_patch": 4
+      }
+    },
+    {
+      "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T21-42-04-01a1606a-0884-7d91-b44e-a6a247ffafd8.jsonl",
+      "agent": "/root/delivery_audit1",
+      "thread_id": "01a1606a-0884-7d91-b44e-a6a247ffafd8",
+      "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "read_at": "2026-10-21T21:53:49.048436+00:00",
+      "read_prefix_bytes": 3639723,
+      "prefix_sha256": "4522167773ab958a86cb76006fd561d4296752eeb591f9ef51b378cbbb202e93",
+      "turn_configurations": [
+        {
+          "timestamp": "2026-10-21T21:42:05.881Z",
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          },
+          "service_tier_present": false
+        }
+      ],
+      "lifecycle": [
+        {
+          "timestamp": "2026-10-21T21:42:04.247Z",
+          "kind": "task_started",
+          "turn_id": "01a1606a-08cc-7fe1-9e0c-0f8d87b5ce9b",
+          "agent": "/root/delivery_audit1"
+        }
+      ],
+      "tool_name_counts": {
+        "exec_command": 70,
+        "clock__curr_time": 5,
+        "send_message": 9,
+        "apply_patch": 1
+      }
+    },
+    {
+      "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T17-49-46-01a15f95-5af6-7a52-89f5-88d4ca9ba925.jsonl",
+      "agent": "/root/sv",
+      "thread_id": "01a15f95-5af6-7a52-89f5-88d4ca9ba925",
+      "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "read_at": "2026-10-21T21:53:49.048436+00:00",
+      "read_prefix_bytes": 4252269,
+      "prefix_sha256": "edbbacc237511a5b8db8995525c9300cb1312b27ff62c66ec1b6d19f5d1a57fe",
+      "turn_configurations": [
+        {
+          "timestamp": "2026-10-21T17:49:47.416Z",
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          },
+          "service_tier_present": false
+        },
+        {
+          "timestamp": "2026-10-21T18:20:52.540Z",
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          },
+          "service_tier_present": false
+        }
+      ],
+      "lifecycle": [
+        {
+          "timestamp": "2026-10-21T17:49:46.180Z",
+          "kind": "task_started",
+          "turn_id": "01a15f95-5b3a-7a32-a714-f873c4e4f8bd",
+          "agent": "/root/sv"
+        },
+        {
+          "timestamp": "2026-10-21T18:30:23.634Z",
+          "kind": "task_complete",
+          "turn_id": "01a15f95-5b3a-7a32-a714-f873c4e4f8bd",
+          "agent": "/root/sv"
+        }
+      ],
+      "tool_name_counts": {
+        "exec_command": 67,
+        "clock__curr_time": 21,
+        "apply_patch": 13,
+        "send_message": 14,
+        "web__run": 8,
+        "write_stdin": 2
+      }
+    },
+    {
+      "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T20-39-19-01a16030-987a-76c0-81e0-38241d1fabf6.jsonl",
+      "agent": "/root/blind_source4",
+      "thread_id": "01a16030-987a-76c0-81e0-38241d1fabf6",
+      "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "read_at": "2026-10-21T21:53:49.048436+00:00",
+      "read_prefix_bytes": 1509156,
+      "prefix_sha256": "453740ff585a02c90e54cc888c50018edf62f054e253eece9ac2a81bc0809c21",
+      "turn_configurations": [
+        {
+          "timestamp": "2026-10-21T20:39:21.407Z",
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          },
+          "service_tier_present": false
+        },
+        {
+          "timestamp": "2026-10-21T20:54:56.677Z",
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          },
+          "service_tier_present": false
+        }
+      ],
+      "lifecycle": [
+        {
+          "timestamp": "2026-10-21T20:39:20.003Z",
+          "kind": "task_started",
+          "turn_id": "01a16030-98bb-72d0-858c-542565605b7d",
+          "agent": "/root/blind_source4"
+        },
+        {
+          "timestamp": "2026-10-21T20:54:29.214Z",
+          "kind": "task_complete",
+          "turn_id": "01a16030-98bb-72d0-858c-542565605b7d",
+          "agent": "/root/blind_source4"
+        },
+        {
+          "timestamp": "2026-10-21T20:54:56.663Z",
+          "kind": "task_started",
+          "turn_id": "01a1603e-e391-76c0-b858-bc63d99618ff",
+          "agent": "/root/blind_source4"
+        },
+        {
+          "timestamp": "2026-10-21T21:05:02.083Z",
+          "kind": "task_complete",
+          "turn_id": "01a1603e-e391-76c0-b858-bc63d99618ff",
+          "agent": "/root/blind_source4"
+        }
+      ],
+      "tool_name_counts": {
+        "exec_command": 24,
+        "clock__curr_time": 11,
+        "send_message": 10,
+        "web__run": 3,
+        "apply_patch": 14
+      }
+    },
+    {
+      "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T21-05-24-01a16048-77c3-73d0-a89e-134c23b4da3e.jsonl",
+      "agent": "/root/blind_transfer2",
+      "thread_id": "01a16048-77c3-73d0-a89e-134c23b4da3e",
+      "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "read_at": "2026-10-21T21:53:49.048436+00:00",
+      "read_prefix_bytes": 1204122,
+      "prefix_sha256": "f58dd32c684cec1513a8307206cf62018cc834f92f4d333333c6a0897cc36b68",
+      "turn_configurations": [
+        {
+          "timestamp": "2026-10-21T21:05:26.106Z",
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          },
+          "service_tier_present": false
+        }
+      ],
+      "lifecycle": [
+        {
+          "timestamp": "2026-10-21T21:05:24.498Z",
+          "kind": "task_started",
+          "turn_id": "01a16048-7806-7590-98ab-a76b07139746",
+          "agent": "/root/blind_transfer2"
+        },
+        {
+          "timestamp": "2026-10-21T21:27:00.653Z",
+          "kind": "task_complete",
+          "turn_id": "01a16048-7806-7590-98ab-a76b07139746",
+          "agent": "/root/blind_transfer2"
+        }
+      ],
+      "tool_name_counts": {
+        "exec_command": 21,
+        "clock__curr_time": 10,
+        "send_message": 10,
+        "apply_patch": 5,
+        "write_stdin": 1
+      }
+    },
+    {
+      "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T18-47-18-01a15fca-092b-7371-8a0e-79e95477f56d.jsonl",
+      "agent": "/root/blind_ff2",
+      "thread_id": "01a15fca-092b-7371-8a0e-79e95477f56d",
+      "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "read_at": "2026-10-21T21:53:49.048436+00:00",
+      "read_prefix_bytes": 686202,
+      "prefix_sha256": "0264168fd6b8c01a8fe42218932abef1ba1afe6292ca911fc02cec16195355ba",
+      "turn_configurations": [
+        {
+          "timestamp": "2026-10-21T18:47:19.821Z",
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          },
+          "service_tier_present": false
+        }
+      ],
+      "lifecycle": [
+        {
+          "timestamp": "2026-10-21T18:47:18.644Z",
+          "kind": "task_started",
+          "turn_id": "01a15fca-096b-7a82-a917-ba4438855d1d",
+          "agent": "/root/blind_ff2"
+        },
+        {
+          "timestamp": "2026-10-21T19:00:37.365Z",
+          "kind": "task_complete",
+          "turn_id": "01a15fca-096b-7a82-a917-ba4438855d1d",
+          "agent": "/root/blind_ff2"
+        }
+      ],
+      "tool_name_counts": {
+        "exec_command": 10,
+        "clock__curr_time": 4,
+        "web__run": 2,
+        "apply_patch": 5,
+        "send_message": 3
+      }
+    },
+    {
+      "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T18-47-59-01a15fca-a72a-7a00-b736-c3caef47e055.jsonl",
+      "agent": "/root/full_sv2",
+      "thread_id": "01a15fca-a72a-7a00-b736-c3caef47e055",
+      "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "read_at": "2026-10-21T21:53:49.048436+00:00",
+      "read_prefix_bytes": 1863437,
+      "prefix_sha256": "10713363e481d267de3b0b184f7974b96531c9d31f2ef4c9a2dd542b3b858677",
+      "turn_configurations": [
+        {
+          "timestamp": "2026-10-21T18:48:00.196Z",
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          },
+          "service_tier_present": false
+        }
+      ],
+      "lifecycle": [
+        {
+          "timestamp": "2026-10-21T18:47:59.105Z",
+          "kind": "task_started",
+          "turn_id": "01a15fca-a774-7fa3-a3ea-5087bc42c67e",
+          "agent": "/root/full_sv2"
+        },
+        {
+          "timestamp": "2026-10-21T19:02:40.128Z",
+          "kind": "task_complete",
+          "turn_id": "01a15fca-a774-7fa3-a3ea-5087bc42c67e",
+          "agent": "/root/full_sv2"
+        }
+      ],
+      "tool_name_counts": {
+        "exec_command": 36,
+        "clock__curr_time": 6,
+        "web__run": 4,
+        "apply_patch": 5,
+        "send_message": 7
+      }
+    },
+    {
+      "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T19-08-07-01a15fdd-16b4-7c81-b297-dd19b8363753.jsonl",
+      "agent": "/root/blind_sv2",
+      "thread_id": "01a15fdd-16b4-7c81-b297-dd19b8363753",
+      "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "read_at": "2026-10-21T21:53:49.048436+00:00",
+      "read_prefix_bytes": 1016295,
+      "prefix_sha256": "a211ffd86047a9cbf1ccb3b664e8253e8d873fed613b6ec937c8fdf779b5d186",
+      "turn_configurations": [
+        {
+          "timestamp": "2026-10-21T19:08:08.945Z",
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          },
+          "service_tier_present": false
+        }
+      ],
+      "lifecycle": [
+        {
+          "timestamp": "2026-10-21T19:08:07.336Z",
+          "kind": "task_started",
+          "turn_id": "01a15fdd-16f4-7a82-8fe4-36a226c97054",
+          "agent": "/root/blind_sv2"
+        },
+        {
+          "timestamp": "2026-10-21T19:23:42.475Z",
+          "kind": "task_complete",
+          "turn_id": "01a15fdd-16f4-7a82-8fe4-36a226c97054",
+          "agent": "/root/blind_sv2"
+        }
+      ],
+      "tool_name_counts": {
+        "exec_command": 9,
+        "clock__curr_time": 4,
+        "apply_patch": 6,
+        "web__run": 6,
+        "send_message": 3
+      }
+    }
+  ],
+  "goal_mutation_calls": [
+    {
+      "timestamp": "2026-10-21T17:48:48.580Z",
+      "agent": "/root",
+      "line": 28,
+      "tool": "create_goal",
+      "input_sha256": "42cc44a80dbc65f44b40d294e284fb87db439c2057949e3cdeb8f6977b01ac30",
+      "token_budget_field_in_call": false,
+      "status_arguments": []
+    }
+  ],
+  "actual_coordination_receipts": [
+    {
+      "timestamp": "2026-10-21T17:49:20.121Z",
+      "line": 36,
+      "tool": "spawn_agent",
+      "selected_arguments": {
+        "task_name": "ff1",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "argument_field_names": [
+        "task_name",
+        "model",
+        "reasoning_effort",
+        "fork_turns",
+        "message"
+      ],
+      "call_id": "call_9d13b0bad5fe4db48578a167ee516649",
+      "actual_return": "{\"task_name\":\"/root/ff1\"}"
+    },
+    {
+      "timestamp": "2026-10-21T17:49:46.093Z",
+      "line": 42,
+      "tool": "spawn_agent",
+      "selected_arguments": {
+        "task_name": "sv",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "argument_field_names": [
+        "task_name",
+        "model",
+        "reasoning_effort",
+        "fork_turns",
+        "message"
+      ],
+      "call_id": "call_d27c3195c6d94f36be612a6680857a43",
+      "actual_return": "{\"task_name\":\"/root/sv\"}"
+    },
+    {
+      "timestamp": "2026-10-21T17:49:48.842Z",
+      "line": 48,
+      "tool": "list_agents",
+      "selected_arguments": {},
+      "argument_field_names": [],
+      "call_id": "call_c581b506c82346d589d2df91ebbc4e17",
+      "actual_return": "{\"agents\":[{\"agent_name\":\"/root\",\"agent_status\":\"running\"},{\"agent_name\":\"/root/ff1\",\"agent_status\":\"running\"},{\"agent_name\":\"/root/sv\",\"agent_status\":\"running\"}]}"
+    },
+    {
+      "timestamp": "2026-10-21T18:30:10.661Z",
+      "line": 653,
+      "tool": "followup_task",
+      "selected_arguments": {
+        "target": "ff1"
+      },
+      "argument_field_names": [
+        "target",
+        "message"
+      ],
+      "call_id": "call_788c6534e3ff4587b0c8045245dd6829",
+      "actual_return": ""
+    },
+    {
+      "timestamp": "2026-10-21T18:31:29.357Z",
+      "line": 682,
+      "tool": "spawn_agent",
+      "selected_arguments": {
+        "task_name": "blind_sv1",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "argument_field_names": [
+        "task_name",
+        "model",
+        "reasoning_effort",
+        "fork_turns",
+        "message"
+      ],
+      "call_id": "call_f7b45d6bbeed444884ff73d275594658",
+      "actual_return": "{\"task_name\":\"/root/blind_sv1\"}"
+    },
+    {
+      "timestamp": "2026-10-21T18:47:18.557Z",
+      "line": 957,
+      "tool": "spawn_agent",
+      "selected_arguments": {
+        "task_name": "blind_ff2",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "argument_field_names": [
+        "task_name",
+        "model",
+        "reasoning_effort",
+        "fork_turns",
+        "message"
+      ],
+      "call_id": "call_5faa2a4933cc4d08b38b78c75f8852ef",
+      "actual_return": "{\"task_name\":\"/root/blind_ff2\"}"
+    },
+    {
+      "timestamp": "2026-10-21T18:47:58.967Z",
+      "line": 967,
+      "tool": "spawn_agent",
+      "selected_arguments": {
+        "task_name": "full_sv2",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "argument_field_names": [
+        "task_name",
+        "model",
+        "reasoning_effort",
+        "fork_turns",
+        "message"
+      ],
+      "call_id": "call_93fdf8944a264cfeaccd114c28c2e423",
+      "actual_return": "{\"task_name\":\"/root/full_sv2\"}"
+    },
+    {
+      "timestamp": "2026-10-21T19:03:49.943Z",
+      "line": 1190,
+      "tool": "spawn_agent",
+      "selected_arguments": {
+        "task_name": "ff3_kernel",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "argument_field_names": [
+        "task_name",
+        "model",
+        "reasoning_effort",
+        "fork_turns",
+        "message"
+      ],
+      "call_id": "call_7173cb8f62f54e06a73d247d278227f4",
+      "actual_return": "{\"task_name\":\"/root/ff3_kernel\"}"
+    },
+    {
+      "timestamp": "2026-10-21T19:08:07.208Z",
+      "line": 1234,
+      "tool": "spawn_agent",
+      "selected_arguments": {
+        "task_name": "blind_sv2",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "argument_field_names": [
+        "task_name",
+        "model",
+        "reasoning_effort",
+        "fork_turns",
+        "message"
+      ],
+      "call_id": "call_efad08b5c4a941cabe8aa143048395d9",
+      "actual_return": "{\"task_name\":\"/root/blind_sv2\"}"
+    },
+    {
+      "timestamp": "2026-10-21T19:24:38.179Z",
+      "line": 1500,
+      "tool": "spawn_agent",
+      "selected_arguments": {
+        "task_name": "full_frontier1",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "argument_field_names": [
+        "task_name",
+        "model",
+        "reasoning_effort",
+        "fork_turns",
+        "message"
+      ],
+      "call_id": "call_a2601128c5874c9399b7c5f0b0ecf8db",
+      "actual_return": "{\"task_name\":\"/root/full_frontier1\"}"
+    },
+    {
+      "timestamp": "2026-10-21T19:44:03.261Z",
+      "line": 1821,
+      "tool": "spawn_agent",
+      "selected_arguments": {
+        "task_name": "blind_frontier1",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "argument_field_names": [
+        "task_name",
+        "model",
+        "reasoning_effort",
+        "fork_turns",
+        "message"
+      ],
+      "call_id": "call_3e932cce10e2487fa32e74e68ababbff",
+      "actual_return": "collab spawn failed: agent thread limit reached"
+    },
+    {
+      "timestamp": "2026-10-21T19:44:07.425Z",
+      "line": 1829,
+      "tool": "list_agents",
+      "selected_arguments": {},
+      "argument_field_names": [],
+      "call_id": "call_38d4b7a328144de8b7040d1c899fa095",
+      "actual_return": "{\"agents\":[{\"agent_name\":\"/root\",\"agent_status\":\"running\"},{\"agent_name\":\"/root/ff3_kernel\",\"agent_status\":\"running\"},{\"agent_name\":\"/root/full_frontier1\",\"agent_status\":{\"completed\":\"All six candidates pass full review at their exact restricted scopes. No repair requested; fresh blind reconciliation remains required.\\n\\nReports and 36 verified artifacts are sealed in [FULL-FRONTIER1](exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FRONTIER1/full-report-v1.md).\\n\\nSeal SHA256: `b3484f3664458e00e625a1b47ea5a1e7a04afb52d5fb814151325a52b7f4c2c4`\\n\\nChecked 203 inherited and 21 current regressions. FF remains open; source hardness is not established.\"}}]}"
+    },
+    {
+      "timestamp": "2026-10-21T19:44:55.337Z",
+      "line": 1857,
+      "tool": "interrupt_agent",
+      "selected_arguments": {
+        "target": "full_frontier1"
+      },
+      "argument_field_names": [
+        "target"
+      ],
+      "call_id": "call_5a6b7da854d8449fb5181c8759bac6e6",
+      "actual_return": "{\"previous_status\":{\"completed\":\"All six candidates pass full review at their exact restricted scopes. No repair requested; fresh blind reconciliation remains required.\\n\\nReports and 36 verified artifacts are sealed in [FULL-FRONTIER1](exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FRONTIER1/full-report-v1.md).\\n\\nSeal SHA256: `b3484f3664458e00e625a1b47ea5a1e7a04afb52d5fb814151325a52b7f4c2c4`\\n\\nChecked 203 inherited and 21 current regressions. FF remains open; source hardness is not established.\"}}"
+    },
+    {
+      "timestamp": "2026-10-21T19:45:18.910Z",
+      "line": 1864,
+      "tool": "spawn_agent",
+      "selected_arguments": {
+        "task_name": "blind_frontier1",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "argument_field_names": [
+        "task_name",
+        "model",
+        "reasoning_effort",
+        "fork_turns",
+        "message"
+      ],
+      "call_id": "call_34eb97b1f86e42a69f19a97f23bd96d9",
+      "actual_return": "collab spawn failed: agent thread limit reached"
+    },
+    {
+      "timestamp": "2026-10-21T19:45:51.070Z",
+      "line": 1877,
+      "tool": "followup_task",
+      "selected_arguments": {
+        "target": "full_frontier1"
+      },
+      "argument_field_names": [
+        "target",
+        "message"
+      ],
+      "call_id": "call_7c11e24e71ab4a31947332ba89efabd6",
+      "actual_return": ""
+    },
+    {
+      "timestamp": "2026-10-21T20:03:37.408Z",
+      "line": 2167,
+      "tool": "spawn_agent",
+      "selected_arguments": {
+        "task_name": "blind_frontier1",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "argument_field_names": [
+        "task_name",
+        "model",
+        "reasoning_effort",
+        "fork_turns",
+        "message"
+      ],
+      "call_id": "call_634d696cae7d48aa98187a2285855af8",
+      "actual_return": "{\"task_name\":\"/root/blind_frontier1\"}"
+    },
+    {
+      "timestamp": "2026-10-21T20:29:20.067Z",
+      "line": 2568,
+      "tool": "spawn_agent",
+      "selected_arguments": {
+        "task_name": "full_source3",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "argument_field_names": [
+        "task_name",
+        "model",
+        "reasoning_effort",
+        "fork_turns",
+        "message"
+      ],
+      "call_id": "call_835b48d83a6a4db3a98a7abc34969048",
+      "actual_return": "{\"task_name\":\"/root/full_source3\"}"
+    },
+    {
+      "timestamp": "2026-10-21T20:39:19.916Z",
+      "line": 2784,
+      "tool": "spawn_agent",
+      "selected_arguments": {
+        "task_name": "blind_source4",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "argument_field_names": [
+        "task_name",
+        "model",
+        "reasoning_effort",
+        "fork_turns",
+        "message"
+      ],
+      "call_id": "call_375ba47f94444c89ae0ae3483da6dd2a",
+      "actual_return": "{\"task_name\":\"/root/blind_source4\"}"
+    },
+    {
+      "timestamp": "2026-10-21T20:44:15.090Z",
+      "line": 2874,
+      "tool": "followup_task",
+      "selected_arguments": {
+        "target": "full_source3"
+      },
+      "argument_field_names": [
+        "target",
+        "message"
+      ],
+      "call_id": "call_90c92826043f47f88504d75bd85e7167",
+      "actual_return": ""
+    },
+    {
+      "timestamp": "2026-10-21T20:54:56.649Z",
+      "line": 3054,
+      "tool": "followup_task",
+      "selected_arguments": {
+        "target": "blind_source4"
+      },
+      "argument_field_names": [
+        "target",
+        "message"
+      ],
+      "call_id": "call_63ebc23542744b0eb1a24758af113752",
+      "actual_return": ""
+    },
+    {
+      "timestamp": "2026-10-21T21:05:24.406Z",
+      "line": 3268,
+      "tool": "spawn_agent",
+      "selected_arguments": {
+        "task_name": "blind_transfer2",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "argument_field_names": [
+        "task_name",
+        "model",
+        "reasoning_effort",
+        "fork_turns",
+        "message"
+      ],
+      "call_id": "call_91294154bced47599db89db1f4c5804e",
+      "actual_return": "{\"task_name\":\"/root/blind_transfer2\"}"
+    },
+    {
+      "timestamp": "2026-10-21T21:16:21.071Z",
+      "line": 3511,
+      "tool": "spawn_agent",
+      "selected_arguments": {
+        "task_name": "frontier_challenge1",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "argument_field_names": [
+        "task_name",
+        "model",
+        "reasoning_effort",
+        "fork_turns",
+        "message"
+      ],
+      "call_id": "call_1b42115d3c9840e7a78583f13e668b5c",
+      "actual_return": "{\"task_name\":\"/root/frontier_challenge1\"}"
+    },
+    {
+      "timestamp": "2026-10-21T21:27:18.008Z",
+      "line": 3747,
+      "tool": "spawn_agent",
+      "selected_arguments": {
+        "task_name": "blind_resource3",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "argument_field_names": [
+        "task_name",
+        "model",
+        "reasoning_effort",
+        "fork_turns",
+        "message"
+      ],
+      "call_id": "call_c71e9da461164ddc885bbf9c5ebbddb9",
+      "actual_return": "{\"task_name\":\"/root/blind_resource3\"}"
+    },
+    {
+      "timestamp": "2026-10-21T21:33:08.655Z",
+      "line": 3866,
+      "tool": "followup_task",
+      "selected_arguments": {
+        "target": "/root/frontier_challenge1"
+      },
+      "argument_field_names": [
+        "target",
+        "message"
+      ],
+      "call_id": "call_0855139773d142e9a312e0f9e2336847",
+      "actual_return": ""
+    },
+    {
+      "timestamp": "2026-10-21T21:35:31.547Z",
+      "line": 3940,
+      "tool": "list_agents",
+      "selected_arguments": {},
+      "argument_field_names": [],
+      "call_id": "call_048e2361c7d44090bcf0a02532bf6b03",
+      "actual_return": "{\"agents\":[{\"agent_name\":\"/root\",\"agent_status\":\"running\"},{\"agent_name\":\"/root/blind_resource3\",\"agent_status\":\"running\"},{\"agent_name\":\"/root/frontier_challenge1\",\"agent_status\":\"running\"}]}"
+    },
+    {
+      "timestamp": "2026-10-21T21:36:51.476Z",
+      "line": 3970,
+      "tool": "spawn_agent",
+      "selected_arguments": {
+        "task_name": "blind_resource4",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "argument_field_names": [
+        "task_name",
+        "model",
+        "reasoning_effort",
+        "fork_turns",
+        "message"
+      ],
+      "call_id": "call_9d9599fb9a5c47239642b1903845fc41",
+      "actual_return": "{\"task_name\":\"/root/blind_resource4\"}"
+    },
+    {
+      "timestamp": "2026-10-21T21:42:04.122Z",
+      "line": 4116,
+      "tool": "spawn_agent",
+      "selected_arguments": {
+        "task_name": "delivery_audit1",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "argument_field_names": [
+        "task_name",
+        "model",
+        "reasoning_effort",
+        "fork_turns",
+        "message"
+      ],
+      "call_id": "call_274886cfe3e6407d8b3770709188dddd",
+      "actual_return": "{\"task_name\":\"/root/delivery_audit1\"}"
+    },
+    {
+      "timestamp": "2026-10-21T21:51:06.710Z",
+      "line": 4372,
+      "tool": "spawn_agent",
+      "selected_arguments": {
+        "task_name": "operations_audit1",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "argument_field_names": [
+        "task_name",
+        "model",
+        "reasoning_effort",
+        "fork_turns",
+        "message"
+      ],
+      "call_id": "call_40cc6244b4f7426cad8507265d59cc68",
+      "actual_return": "{\"task_name\":\"/root/operations_audit1\"}"
+    }
+  ]
+}

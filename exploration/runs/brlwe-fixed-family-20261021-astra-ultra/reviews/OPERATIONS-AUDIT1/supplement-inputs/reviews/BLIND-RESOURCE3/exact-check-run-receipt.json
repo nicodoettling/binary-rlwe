@@ -1,0 +1,28 @@
+{
+  "command": [
+    "/usr/bin/time",
+    "-v",
+    "-o",
+    "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-RESOURCE3/exact-check-time.txt",
+    "timeout",
+    "--signal=TERM",
+    "--kill-after=5s",
+    "120s",
+    "prlimit",
+    "--as=536870912",
+    "--cpu=120",
+    "--",
+    "python3",
+    "-I",
+    "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-RESOURCE3/independent_exact_check.py"
+  ],
+  "started_at": "2026-10-21T21:32:26.773873+00:00",
+  "ended_at": "2026-10-21T21:32:27.055025+00:00",
+  "elapsed_seconds": 0.2811630379874259,
+  "returncode": 0,
+  "timeout_seconds": 120,
+  "kill_after_seconds": 5,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 120,
+  "cleanup": "No child services, temporary files or persistent processes requested; timeout owns any experiment child."
+}

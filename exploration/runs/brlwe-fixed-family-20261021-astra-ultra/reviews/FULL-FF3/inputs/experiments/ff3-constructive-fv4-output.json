@@ -1,0 +1,223 @@
+{
+  "all_assertions_passed": true,
+  "exact": true,
+  "checks": [
+    {
+      "kind": "two_secret",
+      "n": 1,
+      "label": 0,
+      "TV": "0"
+    },
+    {
+      "kind": "two_secret",
+      "n": 1,
+      "label": 1,
+      "TV": "0"
+    },
+    {
+      "kind": "two_secret",
+      "n": 1,
+      "label": null,
+      "TV": "0"
+    },
+    {
+      "kind": "two_secret",
+      "n": 2,
+      "label": 0,
+      "TV": "0"
+    },
+    {
+      "kind": "two_secret",
+      "n": 2,
+      "label": 1,
+      "TV": "0"
+    },
+    {
+      "kind": "two_secret",
+      "n": 2,
+      "label": null,
+      "TV": "0"
+    },
+    {
+      "kind": "four_residual_relation_failure",
+      "probability_of_named_bad_outcome": "9005442705/208827064576"
+    },
+    {
+      "kind": "determinant_rank",
+      "cases": 352,
+      "nonunit_examples": [
+        {
+          "n": 4,
+          "d": [
+            -1,
+            -1,
+            0,
+            -1
+          ],
+          "Q": 3,
+          "rank": 2,
+          "det_abs": 9
+        },
+        {
+          "n": 4,
+          "d": [
+            -1,
+            -1,
+            1,
+            0
+          ],
+          "Q": 3,
+          "rank": 2,
+          "det_abs": 9
+        },
+        {
+          "n": 4,
+          "d": [
+            -1,
+            0,
+            -1,
+            -1
+          ],
+          "Q": 3,
+          "rank": 2,
+          "det_abs": 9
+        },
+        {
+          "n": 4,
+          "d": [
+            -1,
+            0,
+            -1,
+            1
+          ],
+          "Q": 3,
+          "rank": 2,
+          "det_abs": 9
+        },
+        {
+          "n": 4,
+          "d": [
+            -1,
+            1,
+            0,
+            1
+          ],
+          "Q": 3,
+          "rank": 2,
+          "det_abs": 9
+        },
+        {
+          "n": 4,
+          "d": [
+            -1,
+            1,
+            1,
+            0
+          ],
+          "Q": 3,
+          "rank": 2,
+          "det_abs": 9
+        },
+        {
+          "n": 4,
+          "d": [
+            0,
+            -1,
+            -1,
+            1
+          ],
+          "Q": 3,
+          "rank": 2,
+          "det_abs": 9
+        },
+        {
+          "n": 4,
+          "d": [
+            0,
+            -1,
+            1,
+            1
+          ],
+          "Q": 3,
+          "rank": 2,
+          "det_abs": 9
+        },
+        {
+          "n": 4,
+          "d": [
+            0,
+            1,
+            -1,
+            -1
+          ],
+          "Q": 3,
+          "rank": 2,
+          "det_abs": 9
+        },
+        {
+          "n": 4,
+          "d": [
+            0,
+            1,
+            1,
+            -1
+          ],
+          "Q": 3,
+          "rank": 2,
+          "det_abs": 9
+        }
+      ]
+    },
+    {
+      "kind": "enumerative_planted",
+      "secret": [
+        0,
+        0
+      ],
+      "correct_probability": "92/147",
+      "one_sample_TV": "275/2352",
+      "two_sample_conditional_TV": "906565/5531904"
+    },
+    {
+      "kind": "enumerative_planted",
+      "secret": [
+        0,
+        1
+      ],
+      "correct_probability": "92/147",
+      "one_sample_TV": "275/2352",
+      "two_sample_conditional_TV": "906565/5531904"
+    },
+    {
+      "kind": "enumerative_planted",
+      "secret": [
+        1,
+        0
+      ],
+      "correct_probability": "92/147",
+      "one_sample_TV": "275/2352",
+      "two_sample_conditional_TV": "906565/5531904"
+    },
+    {
+      "kind": "enumerative_planted",
+      "secret": [
+        1,
+        1
+      ],
+      "correct_probability": "92/147",
+      "one_sample_TV": "275/2352",
+      "two_sample_conditional_TV": "906565/5531904"
+    },
+    {
+      "kind": "enumerative_comparator",
+      "accept_probability": "1104/2401",
+      "beta_bound": "36/49",
+      "TV": "69/1372"
+    },
+    {
+      "kind": "shared_secret_not_fresh",
+      "two_sample_TV": "15/256"
+    }
+  ],
+  "seconds": 0.050435803015716374
+}

@@ -1,0 +1,10 @@
+{
+ "id":"FF3-N4-GEOMETRY-FV12","registered_before_execution":true,
+ "hypothesis":"The compact positive FV11 selector extends to n4 using a small pool of exact correlated radial H vertices. The minimum maximum local class weight M measures whether the rejection cost starts to grow; feasibility alone is insufficient for a scalable result.",
+ "code":"ff3-n4-geometry-fv12.py","inputs":"Negacyclic n4,Q3,q2; exact source coefficient noise(7/8,1/16,1/16),target(3/4,1/4). Sample six distinct vertices of the5x5 radial H polytope via at most18fixed-seed integer objectives, reconstruct each exactly. All32monomial cube edges, class=(zero_count(A),z0,z1),all36vertex pairs.4501selector variables includingM; up to10913equalities,125bounds. All6561source states; target256; all16binary secrets plus comparator.",
+ "seed":2026102112,
+ "command":"ulimit -v 2097152; /usr/bin/time -v timeout 120s python3 ff3-n4-geometry-fv12.py > ff3-n4-geometry-fv12-output.jsonl 2> ff3-n4-geometry-fv12-resource.txt",
+ "limits":{"wall_seconds":120,"address_space_bytes":2147483648,"expected_seconds":30,"expected_rss_bytes":1200000000,"heavy":true,"selector_LP_seconds":80},
+ "precision":"Exact Fraction vertex reconstruction and all H checks. Selector assembled from exact integer grouped source counts and rational H entries, solved numerically with1e-9 tolerance. Preserve grouped inputs, vertices and any candidate weights. Selector status is only numeric discovery in this job; no positive or negative theorem without subsequent exact certificate. Full negacyclic signs retained. Bincount sums are integer-valued below2^53.",
+ "expected":"A candidate positive scalable-form n4 kernel with measuredM and exact vertices, a scoped numeric infeasibility of the sampled vertex pool, or an honest resource/precision-inconclusive result. A positive candidate proceeds to exact rational checking under a separate fresh slot; no Gaussian or asymptotic promotion."
+}

@@ -1,0 +1,19 @@
+{
+  "scope":"Local nonauthor full mathematical repair gate; not global project certification or independent-model evidence",
+  "current_full_review":{
+    "SV-RS-DECODE-v2":"PASS: entire statement, proof, exact inherited substitution and costs",
+    "SV-GAP-DECODE-v1":"PASS: rechecked generic-r dependency and proof",
+    "SV-LIST-DECODE-v1":"PASS: rechecked generic-r dependency, multiplicity recursion, uniqueness and constants",
+    "SV-RS-ACTUAL-v3":"PASS: rechecked exact own radius, definitions, quantifier order and generic-r decoder dependency",
+    "FF3-COMPRESSED-SELECTOR-INFORMATION-v2/core":"PASS: normalized accepted law, expected trials, G/T/I under explicit fresh retries",
+    "FF3-SELECTOR-PUBLIC-v3":"PASS: discrete public conditional law, arbitrary prior correlations, output factorization and countable averaging"
+  },
+  "preserved_rejections":{
+    "RS-v1 inherited-radius paragraph":"REJECTED: epsilon versus epsilon_* gives factor 4 in radius and 16 in squared inequality",
+    "unrestricted public-extension-v1":"REJECTED: nonatomic positive-mass quantifier vacuity",
+    "optional randomized class under persistent-seed marginal interpretation":"REJECTED: N=8,M=L=2 gives 5/8>1/2 and mean5 instead of2",
+    "CP-1 unsupported product":"REJECTED: 21/2000>1/100 despite local selected incidence21/221<1/10"
+  },
+  "not_newly_certified":["inherited DD reduction proof and its global status","Gaussian/ENUM target corollary","approximate q2 entropy corollary","nonatomic regular-conditional extension","general residual-dependent transfer kernels","worst-case bounded runtime for geometric rejection"],
+  "finite_controls":{"normalized_models":984,"prior_input_channels":8856,"output_checks":35424,"retry_prefix_checks":1968,"exit_code":0,"wall_seconds":1.13,"peak_rss_kib":10240,"infinite_proof":false}
+}

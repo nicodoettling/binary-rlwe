@@ -1,0 +1,2323 @@
+{
+  "at_utc": "2026-10-21T21:09:50.650828+00:00",
+  "historical_count": 203,
+  "all_reference_hashes_match": true,
+  "canonical_json": "sort_keys=True,separators=(comma,colon),ensure_ascii=True",
+  "check_depth": "Exact identity for203 entries plus claim-scoped reconciliation, not203 experimental reruns or historical recertification",
+  "entries": [
+    {
+      "id": "R01",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/0",
+      "entry_sha256_canonical": "27e72ee4b4693580078912a5a8616601825cf1c1e1eb2f889a4fe413c88be66a",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "R02",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/1",
+      "entry_sha256_canonical": "4499e5310a332f91288c8c428b028f839ea2ac00692072cc1a06749e497541aa",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_COMMON_PAIR_OR_FIXED_INPUT",
+      "reason": "Bounded affine requires a common joint(Delta,Z) independent of S, allowing dependence between its components. S-dependent pair counterexample retained. Selector conditional probabilities are formed at full fixed input before integration."
+    },
+    {
+      "id": "R03",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/2",
+      "entry_sha256_canonical": "f522522e0ac46c2112a7935f79e0ed8beffd02f4a5f32d8e40c9dc6c86abe4d0",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_FULL_RETAINED_SECRET_LAW",
+      "reason": "Exact finite matrices verify every fixed-secret and comparator atom; ENUM couples full conditional target samples. No coefficient marginals, pairwise independence, CRT error independence or actual-secret advice substitutes for the complete law."
+    },
+    {
+      "id": "R04",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/3",
+      "entry_sha256_canonical": "48aeda0b1935b8c729604b1e180486e2d6003ced0013e833e42cbba5d9c9eea5",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_FULL_RETAINED_SECRET_LAW",
+      "reason": "Exact finite matrices verify every fixed-secret and comparator atom; ENUM couples full conditional target samples. No coefficient marginals, pairwise independence, CRT error independence or actual-secret advice substitutes for the complete law."
+    },
+    {
+      "id": "R05",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/4",
+      "entry_sha256_canonical": "99c9d1e4d5293ecd6f06adb409c690b3412ad1515ca682b0cd00b537b9f23b49",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_FULL_RETAINED_SECRET_LAW",
+      "reason": "Exact finite matrices verify every fixed-secret and comparator atom; ENUM couples full conditional target samples. No coefficient marginals, pairwise independence, CRT error independence or actual-secret advice substitutes for the complete law."
+    },
+    {
+      "id": "R06",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/5",
+      "entry_sha256_canonical": "44d7b35829443bdfe15837af13ab36f7b6ea04c65e3850914ca0780a103cefa4",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_GUESSING_SCOPE",
+      "reason": "Guessing is optimal over each observed cell; max remains inside the cell sum. ML times maximum actual prior atom follows from an explicit accepted-law cell bound, not entropy-only Boolean fiber reasoning. Target statistical estimator may be exponential."
+    },
+    {
+      "id": "R07",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/6",
+      "entry_sha256_canonical": "0cb036740562ab290c125b60ff517b174f827e26d7eba17b65206e521be153d8",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_GUESSING_SCOPE",
+      "reason": "Guessing is optimal over each observed cell; max remains inside the cell sum. ML times maximum actual prior atom follows from an explicit accepted-law cell bound, not entropy-only Boolean fiber reasoning. Target statistical estimator may be exponential."
+    },
+    {
+      "id": "R08",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/7",
+      "entry_sha256_canonical": "0a80e7ddc13dea35382508d8d0dfae188bdd615ea9be11180ceb69d546e58fc9",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_RETAINED_VERSUS_PROJECTED_SCOPE",
+      "reason": "Compression target success and affine TV use retained S. Dropping S can make TV zero; no reverse data-processing conclusion or free algorithmic disclosure is inferred. Actual public advice needs its posterior prior."
+    },
+    {
+      "id": "R09",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/8",
+      "entry_sha256_canonical": "ba5db928c8411624e46dfd2cf159d308bb280e41d3f78af63d38ff17fe03d7d3",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_NONUNIT_AND_MULTIPLICITY",
+      "reason": "ENUM includes every nonzero ternary difference and every modular rank, using Q^(n-r)|det. Independent n4,q3 controls include16 nonunits. No active-unit conditioning or strict binary injection shortcut."
+    },
+    {
+      "id": "R10",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/9",
+      "entry_sha256_canonical": "f1509d25b9b058f30e7f308975145213841c762308dcc86dd2568778ec085a31",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_ENUM_EXPLICIT_REPLACEMENT",
+      "reason": "Historical shortcut remains rejected. New ENUM explicitly charges all competitors and Gaussian tail through its determinant/rank argument, handles A0 and nonunique branches by fallback, and pays comparator exceptions. It never infers actual-secret recovery from residual validity alone."
+    },
+    {
+      "id": "R11",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/10",
+      "entry_sha256_canonical": "72cef880f692c221f1d92076ea9acc7a878f148468b9fe958fbbe3e3bad17b50",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "R12",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/11",
+      "entry_sha256_canonical": "eef97d9b11e4710f64a11e834ec942ec7fe8a36b63697157244f8f2458ec0781",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_FULL_RETAINED_SECRET_LAW",
+      "reason": "Exact finite matrices verify every fixed-secret and comparator atom; ENUM couples full conditional target samples. No coefficient marginals, pairwise independence, CRT error independence or actual-secret advice substitutes for the complete law."
+    },
+    {
+      "id": "R13",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/12",
+      "entry_sha256_canonical": "ec6effe811e76b42d731f627e5cce9d9f003cb264c09409ffa9c30384e97c3f4",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_SELECTION_NORMALIZATION",
+      "reason": "No signed-gap transfer or reuse of prior residual law after selection. COMPACT requires separate full P_sK=T_s and UK=V equations; deterministic compression computes exact accepted law before averaging. Hidden-state randomized extension rejected."
+    },
+    {
+      "id": "R14",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/13",
+      "entry_sha256_canonical": "09208879159688db31b87451e169f9388ccdac605fcb5bede9b3b2d823e269ac",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_NONUNIT_AND_MULTIPLICITY",
+      "reason": "ENUM includes every nonzero ternary difference and every modular rank, using Q^(n-r)|det. Independent n4,q3 controls include16 nonunits. No active-unit conditioning or strict binary injection shortcut."
+    },
+    {
+      "id": "R15",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/14",
+      "entry_sha256_canonical": "de43217fa48da03fb9b0247829977b31e286b27b4736c13304e635f3bb2bdcef",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_SHARED_SECRET_AND_FRESH_TAPES",
+      "reason": "One original S is retained across all calls. Source/channel/group tapes are fresh per call conditional on that S. A shared group is not a product of averaged kernels; exact shared-versus-fresh fair-bit pair TV1/2 reproduced."
+    },
+    {
+      "id": "R16",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/15",
+      "entry_sha256_canonical": "8379b86a6b3a7a176d071779eaaf117d5d3fbec07b6c3dd84a362bcd2c3dc977",
+      "reference_integrity_match": true,
+      "disposition": "PRESERVED_NO_HARDNESS_FROM_FAILURE",
+      "reason": "Finite ansatz exclusions and failed sufficient guards do not prove hardness or general impossibility. Source hardness and efficient FF remain open; no reverse ordinary-DGS implication or supplied secret/short-vector oracle is introduced."
+    },
+    {
+      "id": "R17",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/16",
+      "entry_sha256_canonical": "f919bd7e65ab268aa9a681971906e0177c9edf368a30f25f5c2a75ee452794cd",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_LEGAL_RING_SYMMETRY",
+      "reason": "Only explicit monomial/odd-automorphism signed maps with binary offset and source/inverse-target compensation are used.32 finite group elements and endpoint invariance reconstructed. No arbitrary signed permutation, unknown cube translate or orbit-hardness inference."
+    },
+    {
+      "id": "R18",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/17",
+      "entry_sha256_canonical": "b38c47391189b8446a3d493315025d67ba9cc052ab484ec3a442ce2828a8a1e8",
+      "reference_integrity_match": true,
+      "disposition": "REPRODUCED_OR_APPLIED_CONDITIONAL_LAW",
+      "reason": "Exact CP1 masses and forbidden21/2000>1/100 reproduced. Current products require fresh trial tapes conditional on complete fixed input or fixed shared S. Persistent randomized class seed is separately rejected; union bounds do not multiply selected marginals."
+    },
+    {
+      "id": "C03-HC1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/18",
+      "entry_sha256_canonical": "d17b5396a2c36f35e939544f138ec73216723d4f83daf50ddbfd783d07e49b00",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "C03-HC2",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/19",
+      "entry_sha256_canonical": "1e908d29933a7209edba93dd9a27efba2f34342fa6a9c4cea6c3744541a0f8c5",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_EXACT_LAW_NORMALIZERS",
+      "reason": "All finite selector/H rows and endpoint masses are checked exactly. TWOEVENT positivity and normalization are pointwise; Gaussian theta normalizers are retained. ENERGY truncation comparison pays actual tails, and exponent matrices are not called covariances."
+    },
+    {
+      "id": "C03-HC3",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/20",
+      "entry_sha256_canonical": "950b21c839bac798e21a2b499d659196dbb44cc3a9332c92b8ed4adbe93f5d44",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_EXACT_LAW_NORMALIZERS",
+      "reason": "All finite selector/H rows and endpoint masses are checked exactly. TWOEVENT positivity and normalization are pointwise; Gaussian theta normalizers are retained. ENERGY truncation comparison pays actual tails, and exponent matrices are not called covariances."
+    },
+    {
+      "id": "C03-HC4",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/21",
+      "entry_sha256_canonical": "86493bd08650b0a5055edf0964b86e7642cca21415f325f8a5d17c390bcb159b",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "C03-HC5",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/22",
+      "entry_sha256_canonical": "4f7cc27c2d030efc95eab9af563d637d07e6d6ed1557f9478554be57a6d2bb57",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_FULL_RETAINED_SECRET_LAW",
+      "reason": "Exact finite matrices verify every fixed-secret and comparator atom; ENUM couples full conditional target samples. No coefficient marginals, pairwise independence, CRT error independence or actual-secret advice substitutes for the complete law."
+    },
+    {
+      "id": "C03-HC6",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/23",
+      "entry_sha256_canonical": "c0a8412d1e5cea373ed6663d75f66d9bd7caac439ec940bc6d6237f55cdbd270",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "C03-HC7",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/24",
+      "entry_sha256_canonical": "9b64e454c80abc67dd58174567a80c2ef61451d1662c1c2e7f3b1f6190fa2093",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_COMMON_PAIR_OR_FIXED_INPUT",
+      "reason": "Bounded affine requires a common joint(Delta,Z) independent of S, allowing dependence between its components. S-dependent pair counterexample retained. Selector conditional probabilities are formed at full fixed input before integration."
+    },
+    {
+      "id": "C02-LATENT-PUBLIC",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/25",
+      "entry_sha256_canonical": "6201514b85c532bf82d85be62263c782dfe5be0f987f452ea5ed3bac467184a2",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_RETAINED_VERSUS_PROJECTED_SCOPE",
+      "reason": "Compression target success and affine TV use retained S. Dropping S can make TV zero; no reverse data-processing conclusion or free algorithmic disclosure is inferred. Actual public advice needs its posterior prior."
+    },
+    {
+      "id": "C02-CHAR",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/26",
+      "entry_sha256_canonical": "7656d8d465a28964d5183d16ab5378830ff919826962a64c690cbed658f26a1f",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "C01-ATT",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/27",
+      "entry_sha256_canonical": "8150ec16fae6704cef4c0a8df1d310ba40eb44f0b562d7d0107ad5f93f9ddfda",
+      "reference_integrity_match": true,
+      "disposition": "PRESERVED_NO_HARDNESS_FROM_FAILURE",
+      "reason": "Finite ansatz exclusions and failed sufficient guards do not prove hardness or general impossibility. Source hardness and efficient FF remain open; no reverse ordinary-DGS implication or supplied secret/short-vector oracle is introduced."
+    },
+    {
+      "id": "CP-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/28",
+      "entry_sha256_canonical": "22d9bcebc45d72d374fbc3db6c8bb89c16e067a92d195bfe0a8e2a9eb5f0dcac",
+      "reference_integrity_match": true,
+      "disposition": "REPRODUCED_OR_APPLIED_CONDITIONAL_LAW",
+      "reason": "Exact CP1 masses and forbidden21/2000>1/100 reproduced. Current products require fresh trial tapes conditional on complete fixed input or fixed shared S. Persistent randomized class seed is separately rejected; union bounds do not multiply selected marginals."
+    },
+    {
+      "id": "NC1-v1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/29",
+      "entry_sha256_canonical": "d0f3c10c0a66bcd4aaa41044e4affe43c79bd2f6e6df6122a9db830565141c6c",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "S0-dependency",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/30",
+      "entry_sha256_canonical": "b92a345df15da81485161f6ff5983a7eb91cae3f708e89b0856537fec035dfb2",
+      "reference_integrity_match": true,
+      "disposition": "PRESERVED_NO_HARDNESS_FROM_FAILURE",
+      "reason": "Finite ansatz exclusions and failed sufficient guards do not prove hardness or general impossibility. Source hardness and efficient FF remain open; no reverse ordinary-DGS implication or supplied secret/short-vector oracle is introduced."
+    },
+    {
+      "id": "PUBLIC-ENCODED-F",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/31",
+      "entry_sha256_canonical": "afd1182b1eb50460dd137fbda347e2f37794f4ab969bd9136f7acf9f342d0a24",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_RETAINED_VERSUS_PROJECTED_SCOPE",
+      "reason": "Compression target success and affine TV use retained S. Dropping S can make TV zero; no reverse data-processing conclusion or free algorithmic disclosure is inferred. Actual public advice needs its posterior prior."
+    },
+    {
+      "id": "W2-SUBGROUP-BOUNDARY",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/32",
+      "entry_sha256_canonical": "0cc718d9c7cfe991484dddcb58b73179ec7aaaa305a190a46610ce142b7dfe4c",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "UNIFORM-APPROX-COLLAPSE",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/33",
+      "entry_sha256_canonical": "cca828357b5bd45d01b9cd41524a629a90ded6ab8ae15c8d8ffe87a57eeda2ca",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "SE-CORRELATION-F3",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/34",
+      "entry_sha256_canonical": "459fbe8313e67af124b4eb4d9c405175fcdf1791747efcb3fcae6bde1b939824",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_FULL_RETAINED_SECRET_LAW",
+      "reason": "Exact finite matrices verify every fixed-secret and comparator atom; ENUM couples full conditional target samples. No coefficient marginals, pairwise independence, CRT error independence or actual-secret advice substitutes for the complete law."
+    },
+    {
+      "id": "W2-CONSTANT-COMPARISON",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/35",
+      "entry_sha256_canonical": "2279894dd49f690fee9d46203d7d87cdb48892ceaab7f09fc738a992a29eb999",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "N02-DUAL-NUMBER",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/36",
+      "entry_sha256_canonical": "96fe6dd9beaa1a567bba0d6aa57cd23e8413409045bbc7633eabbfc2ca8346ec",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_NONUNIT_AND_MULTIPLICITY",
+      "reason": "ENUM includes every nonzero ternary difference and every modular rank, using Q^(n-r)|det. Independent n4,q3 controls include16 nonunits. No active-unit conditioning or strict binary injection shortcut."
+    },
+    {
+      "id": "PAIRWISE-SE-F3",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/37",
+      "entry_sha256_canonical": "ba9b4d76a3b154694258b1a16360e5d1e85ed24610b31a61f0fcaec1e663932a",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_FULL_RETAINED_SECRET_LAW",
+      "reason": "Exact finite matrices verify every fixed-secret and comparator atom; ENUM couples full conditional target samples. No coefficient marginals, pairwise independence, CRT error independence or actual-secret advice substitutes for the complete law."
+    },
+    {
+      "id": "N03-PV-CONDITIONING",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/38",
+      "entry_sha256_canonical": "4a2127c5d5c14875bfe50e6dcb92e941943f76f4ff538aff03dcc3fa4e9baa25",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_SELECTION_NORMALIZATION",
+      "reason": "No signed-gap transfer or reuse of prior residual law after selection. COMPACT requires separate full P_sK=T_s and UK=V equations; deterministic compression computes exact accepted law before averaging. Hidden-state randomized extension rejected."
+    },
+    {
+      "id": "N03-SCAL-POSTERIOR",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/39",
+      "entry_sha256_canonical": "951d3f0a1f97b1ebbefce417202c035f2ecdaaeb81704e77fa951c38199d0d92",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_SELECTION_NORMALIZATION",
+      "reason": "No signed-gap transfer or reuse of prior residual law after selection. COMPACT requires separate full P_sK=T_s and UK=V equations; deterministic compression computes exact accepted law before averaging. Hidden-state randomized extension rejected."
+    },
+    {
+      "id": "RECT-ALG-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/40",
+      "entry_sha256_canonical": "52b4adbd628f556874b6b4ce8212fa6d7973ddc382cc3d1d13d1ff09b66872c8",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_EXACT_LAW_NORMALIZERS",
+      "reason": "All finite selector/H rows and endpoint masses are checked exactly. TWOEVENT positivity and normalization are pointwise; Gaussian theta normalizers are retained. ENERGY truncation comparison pays actual tails, and exponent matrices are not called covariances."
+    },
+    {
+      "id": "SOURCE-SMALL-D",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/41",
+      "entry_sha256_canonical": "461c6d968ff4d369ec9499b0325a8ffe16922c22d5d74d066f37f8bbf2a873f4",
+      "reference_integrity_match": true,
+      "disposition": "PRESERVED_NO_HARDNESS_FROM_FAILURE",
+      "reason": "Finite ansatz exclusions and failed sufficient guards do not prove hardness or general impossibility. Source hardness and efficient FF remain open; no reverse ordinary-DGS implication or supplied secret/short-vector oracle is introduced."
+    },
+    {
+      "id": "A-PPT-LEDGER-SCOPE",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/42",
+      "entry_sha256_canonical": "0fb8f20a7641047e544497bb02bf8b3b0fabc75d308d9180835e0c3ad479b0b6",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_FIXED_FAMILY_QUANTIFIERS",
+      "reason": "Fixed target parameters may precede sample/advantage exponents for ENUM statistical negligibility, but exponential enumeration remains. No computational all-PPT fixed-family conclusion is inferred from inherited fixed-b,c window or finite n2/n4 tables."
+    },
+    {
+      "id": "EX-PURE-MIX-ZERO",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/43",
+      "entry_sha256_canonical": "4bda3d02951399dd730ad3e6875fa199848a2dc507f39e1d83ece25c29ee5d5e",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "EX-PUBLIC-TAPE",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/44",
+      "entry_sha256_canonical": "26e8ed4644e95b406ef412a08eb280abce28a5db37fa8b05314abd11c5881dcd",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_RETAINED_VERSUS_PROJECTED_SCOPE",
+      "reason": "Compression target success and affine TV use retained S. Dropping S can make TV zero; no reverse data-processing conclusion or free algorithmic disclosure is inferred. Actual public advice needs its posterior prior."
+    },
+    {
+      "id": "EX-APPENDED-H",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/45",
+      "entry_sha256_canonical": "30f7c5ce1bd266793c2db44630caee30804970c9a935872ef5497b49ffddab6a",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_RETAINED_VERSUS_PROJECTED_SCOPE",
+      "reason": "Compression target success and affine TV use retained S. Dropping S can make TV zero; no reverse data-processing conclusion or free algorithmic disclosure is inferred. Actual public advice needs its posterior prior."
+    },
+    {
+      "id": "EX-M3-CROSSBLOCK",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/46",
+      "entry_sha256_canonical": "eace80d6d86178e2146a58f745c079c96727492f98bc4842cc5687c88fe04e86",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "EX-RETAINED-M3",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/47",
+      "entry_sha256_canonical": "6dee24c9b25c3eeee96a0037069ac8b6588c24f177c7d2068024eba8123eba8b",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_FULL_RETAINED_SECRET_LAW",
+      "reason": "Exact finite matrices verify every fixed-secret and comparator atom; ENUM couples full conditional target samples. No coefficient marginals, pairwise independence, CRT error independence or actual-secret advice substitutes for the complete law."
+    },
+    {
+      "id": "B-JL-BZERO",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/48",
+      "entry_sha256_canonical": "670b5f77620edc61755be341ddc22b5f7015794bd33a290c4108dde582d1ac18",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "B-JL-REDRAW-T",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/49",
+      "entry_sha256_canonical": "8efcc1950cd836eb264d4705fecfd75f6fc9e63858425d831bef2d87fd3a4d84",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_SHARED_SECRET_AND_FRESH_TAPES",
+      "reason": "One original S is retained across all calls. Source/channel/group tapes are fresh per call conditional on that S. A shared group is not a product of averaged kernels; exact shared-versus-fresh fair-bit pair TV1/2 reproduced."
+    },
+    {
+      "id": "A-ERASURE-RANKMIX",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/50",
+      "entry_sha256_canonical": "5c3ef3df9e51a034709e92bd79f3ac08932ba7f4b1fd0fcceb69b65300c67f55",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "D-THETA-RETAIN-U-v1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/51",
+      "entry_sha256_canonical": "23541283b04269b3767c1c98eec24030a8fa657070aab33c245050d83367a355",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_EXACT_LAW_NORMALIZERS",
+      "reason": "All finite selector/H rows and endpoint masses are checked exactly. TWOEVENT positivity and normalization are pointwise; Gaussian theta normalizers are retained. ENERGY truncation comparison pays actual tails, and exponent matrices are not called covariances."
+    },
+    {
+      "id": "D-LSW-THETA-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/52",
+      "entry_sha256_canonical": "e41c57d784095b315e331b17ba8cc05f93f0f8ba870476efebf28d7a404bf301",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_EXACT_LAW_NORMALIZERS",
+      "reason": "All finite selector/H rows and endpoint masses are checked exactly. TWOEVENT positivity and normalization are pointwise; Gaussian theta normalizers are retained. ENERGY truncation comparison pays actual tails, and exponent matrices are not called covariances."
+    },
+    {
+      "id": "C-TOWER-RELATION-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/53",
+      "entry_sha256_canonical": "d1f52a8d61d8fca2489351fcd93f7cc26ec1db9e3a6310101e5a789c82bdcb18",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "D-REUSED-PIVOT-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/54",
+      "entry_sha256_canonical": "904da8593d661f789ecbce117c30dbfbf6715f4510c23e68133b16c66e453229",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "A-TOWER-LAW-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/55",
+      "entry_sha256_canonical": "1c879358f9ee5d42d1f8b793f9edf395984cd91638ae0953890dc108a76f4fbc",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "C-SMALL-N-EXISTENCE-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/56",
+      "entry_sha256_canonical": "b17b54c41755cbf552134328400c82957dd03c2c10d8f13e61c6ca10eda7becc",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "D-NORMALFORM-WRAP-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/57",
+      "entry_sha256_canonical": "6fd6f56c47a58632086fb7e5e3a40dafa8ee27295965f14c619e5fbcf469a529",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "B-GP-RATIONAL-ENCODING-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/58",
+      "entry_sha256_canonical": "b5f2f174ae2a93fd11ff42cc2cf01cca7070678968552eb6379645c0057fffd1",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_RESOURCE_REPRESENTATION_SCOPE",
+      "reason": "Numeric value, bit length, expected retries and bounded runtime are distinguished. Energy DP is polynomial in numeric alphabet/magnitude; rational sampler caps and real Gaussian evaluation are separate. ENUM2^n is charged; finite witnesses do not establish effective asymptotic tables."
+    },
+    {
+      "id": "C-OHCP-LOGSHIFT-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/59",
+      "entry_sha256_canonical": "05954249f77ce3e6df2e729b2341c4f1184b565860efacc37d6df74759c87eeb",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "ROOT-IDEAL-SUBSPACE-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/60",
+      "entry_sha256_canonical": "229b0486edb1e4616a965eb5720744edbe2776ebef90bbf2ce75a25d710952c3",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "B-SUP-RETAINED-COINS-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/61",
+      "entry_sha256_canonical": "da566238d4885bd7bb08408e7907e12385a9f20d422faa44bba70a3d43f9f376",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_SHARED_SECRET_AND_FRESH_TAPES",
+      "reason": "One original S is retained across all calls. Source/channel/group tapes are fresh per call conditional on that S. A shared group is not a product of averaged kernels; exact shared-versus-fresh fair-bit pair TV1/2 reproduced."
+    },
+    {
+      "id": "C-OHCP-BOUNDED-RUNTIME-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/62",
+      "entry_sha256_canonical": "ed85917a2abfe3df8d8fed9bac20f8e02b2c9266867200009484cec702b278cb",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_RESOURCE_REPRESENTATION_SCOPE",
+      "reason": "Numeric value, bit length, expected retries and bounded runtime are distinguished. Energy DP is polynomial in numeric alphabet/magnitude; rational sampler caps and real Gaussian evaluation are separate. ENUM2^n is charged; finite witnesses do not establish effective asymptotic tables."
+    },
+    {
+      "id": "C-SUPER-CONFIDENCE-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/63",
+      "entry_sha256_canonical": "e3d2f3b5b46997875e3cc7e62eef7cefca0bfe6e75ab5beb0d0dec3872823f06",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "C-QUOTIENT-CARRIES-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/64",
+      "entry_sha256_canonical": "cb3c62629666ec932de6feef97e5c47e860769e96c36b12c05e43243e47954f9",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "C-PHYSICAL-HAAR-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/65",
+      "entry_sha256_canonical": "0a9a03d4cf8cc238aec95bb5919f797e90458b541ab124f58559f0b6c5569ef1",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "C-CAUSAL-WALK-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/66",
+      "entry_sha256_canonical": "d1905145e33d84f234a1e04591fef32f6bb9dba03e13d26f960ddc588265c8c0",
+      "reference_integrity_match": true,
+      "disposition": "REPRODUCED_OR_APPLIED_CONDITIONAL_LAW",
+      "reason": "Exact CP1 masses and forbidden21/2000>1/100 reproduced. Current products require fresh trial tapes conditional on complete fixed input or fixed shared S. Persistent randomized class seed is separately rejected; union bounds do not multiply selected marginals."
+    },
+    {
+      "id": "B-CANONICAL-FAIL-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/67",
+      "entry_sha256_canonical": "2791f48412b869c45fe214c93047447aea6f9edbb58779cd8d87620000fbae99",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "B-RANK-FIBER-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/68",
+      "entry_sha256_canonical": "12144c867243eb5ca8165ab8cef1ef04f8eb7de75894e4f8ac47e4d578331f9c",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "B-TWO-ROW-NORMALIZER-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/69",
+      "entry_sha256_canonical": "6aed78a3ec9368bc43164cb31682f12bd0f0f897d3a0f6db203611bd347486e0",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_EXACT_LAW_NORMALIZERS",
+      "reason": "All finite selector/H rows and endpoint masses are checked exactly. TWOEVENT positivity and normalization are pointwise; Gaussian theta normalizers are retained. ENERGY truncation comparison pays actual tails, and exponent matrices are not called covariances."
+    },
+    {
+      "id": "B-TOWER-WASHOUT-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/70",
+      "entry_sha256_canonical": "148094ed58415b425ac35c36a503f236c96e0f7cb8a890e27e030efc62cad171",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "B-BINARY-FOURIER-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/71",
+      "entry_sha256_canonical": "dd8cdb0bda8b079d084c1b8594806d393a944fabb1440331df714ac012887398",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_SELECTION_NORMALIZATION",
+      "reason": "No signed-gap transfer or reuse of prior residual law after selection. COMPACT requires separate full P_sK=T_s and UK=V equations; deterministic compression computes exact accepted law before averaging. Hidden-state randomized extension rejected."
+    },
+    {
+      "id": "A-CLASS-ASSERTION-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/72",
+      "entry_sha256_canonical": "53fe4bd91096a059590140b48329cd4d9543a4a16cd2310ef30a11c72c19d993",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "A-COFACTOR-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/73",
+      "entry_sha256_canonical": "cceb36935432cac60e96950d3df527ff172c0bce7965442618630147ba82c538",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "A-CLASS-CP1-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/74",
+      "entry_sha256_canonical": "de4ec68eaa540ab230c4b2255d8ac6782cd2a44309b4430ed1e0f73031822b86",
+      "reference_integrity_match": true,
+      "disposition": "REPRODUCED_OR_APPLIED_CONDITIONAL_LAW",
+      "reason": "Exact CP1 masses and forbidden21/2000>1/100 reproduced. Current products require fresh trial tapes conditional on complete fixed input or fixed shared S. Persistent randomized class seed is separately rejected; union bounds do not multiply selected marginals."
+    },
+    {
+      "id": "D-HIGHINDEX-GUESS-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/75",
+      "entry_sha256_canonical": "6f13cdeccf731d2bd22226af4d4016973a76dbc1b1e384db18994dee8020a8be",
+      "reference_integrity_match": true,
+      "disposition": "PRESERVED_NO_HARDNESS_FROM_FAILURE",
+      "reason": "Finite ansatz exclusions and failed sufficient guards do not prove hardness or general impossibility. Source hardness and efficient FF remain open; no reverse ordinary-DGS implication or supplied secret/short-vector oracle is introduced."
+    },
+    {
+      "id": "A-TRACE-PARAM-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/76",
+      "entry_sha256_canonical": "10a4ad51eca5b9d2f618ae6694ce9bbd7763f3a70cc07c5a573cb7b2187e22bd",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "A-CLASSRING-PADDING-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/77",
+      "entry_sha256_canonical": "d972da40df0da8ccd47660208452a2ed7dbdaebd773416763fd5cc379684f720",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "B-COMPANION-INVERSE-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/78",
+      "entry_sha256_canonical": "cb628ba8552e319c60e4cfffa1ec472e23b79adcf7048550a3b30304bedd0014",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "C8-FV1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/79",
+      "entry_sha256_canonical": "a00c9a5af38088e26e42b47eccb20d830f053c7fe5574b1790adb7158492b156",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_RESOURCE_REPRESENTATION_SCOPE",
+      "reason": "Numeric value, bit length, expected retries and bounded runtime are distinguished. Energy DP is polynomial in numeric alphabet/magnitude; rational sampler caps and real Gaussian evaluation are separate. ENUM2^n is charged; finite witnesses do not establish effective asymptotic tables."
+    },
+    {
+      "id": "ROOT-ORDER-PAIRING-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/80",
+      "entry_sha256_canonical": "7aec3a5b9d2ef7b9c49d5431dbc4e5dcbc430a1518561f0f6275c826dc29eb19",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "ROOT-ORDER-SCALE-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/81",
+      "entry_sha256_canonical": "0af8663c1e618e7ce36a1d383543e9242f6559bc41851bad1686001b3bed252f",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "ROOT-BINCLASS-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/82",
+      "entry_sha256_canonical": "ecae714b62070470ab635ce33a531e74853dcac0cddd5c497356e81ba2f6c4c2",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "BT10-FV1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/83",
+      "entry_sha256_canonical": "220f8de045a231015f1c90d8f11256861ec973050810f8e68c8484d5f4b518e2",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "ROOT-FRAC-SCALE-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/84",
+      "entry_sha256_canonical": "1d8b17e02a2c482800d7c9b4bd08a931c4effadcc1ba85b9b99fc0b16b405b95",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "ROOT-FRAC-SMALLBALL-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/85",
+      "entry_sha256_canonical": "e6884ea7f87b5b4a0ee4baa02f39059d4dd75685e57f1ed8f42212cfa7f36850",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "B-BE-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/86",
+      "entry_sha256_canonical": "3671cf0876a9858726d0bb5a62b79b250bc65464f07ba996afc24916c0771d81",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "RF3-BINCLASS-SCOPE-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/87",
+      "entry_sha256_canonical": "af21571c5ccd208b5d0ea8e1a6a5d15361e83f1f63b26e0e55a5c9db65a303c6",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_NONUNIT_AND_MULTIPLICITY",
+      "reason": "ENUM includes every nonzero ternary difference and every modular rank, using Q^(n-r)|det. Independent n4,q3 controls include16 nonunits. No active-unit conditioning or strict binary injection shortcut."
+    },
+    {
+      "id": "E-PAIR-TRUNCATION-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/88",
+      "entry_sha256_canonical": "677898dfd6dec7d8d9b9a6791d76c5058140d11d2e38741717ba3ea884c5194b",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_TAIL_AND_NORMALIZER_CHARGES",
+      "reason": "Bounded affine clips quadratic tests and pays both norm-tail second moments. Rare huge atom defeats a tail-free moment claim. ENERGY/TWOEVENT retain exact normalizers and pay conditional DG tails; no moment transfer from TV alone."
+    },
+    {
+      "id": "ROOT-COSET-NORMALIZER-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/89",
+      "entry_sha256_canonical": "dddb8537d46377a9b4ad494bcdfc7dd56c159e9a68aef63f4f22f6ca06994e6c",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_TAIL_AND_NORMALIZER_CHARGES",
+      "reason": "Bounded affine clips quadratic tests and pays both norm-tail second moments. Rare huge atom defeats a tail-free moment claim. ENERGY/TWOEVENT retain exact normalizers and pay conditional DG tails; no moment transfer from TV alone."
+    },
+    {
+      "id": "BT13-FV1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/90",
+      "entry_sha256_canonical": "88248c668fc8bfe6d55aee1795c5eedb2cf012210096a174138f9fbe0f5c0714",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "BT12-FV1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/91",
+      "entry_sha256_canonical": "aaca49e63c40034e4582b5daff9e4c974f21104aac27c56e954dac689caa09e5",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "ROOT-MASK-RESIDUE-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/92",
+      "entry_sha256_canonical": "c2ada8bdd4ae1d43434d5ef93775720477b4268c5f0c1e1fce6e9af2e711a7be",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "BT14-HISTORY-ATOM-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/93",
+      "entry_sha256_canonical": "3b62b1ade4af484b696cd2c88a46ba96b8e3590bcc2d622ad1b8b68f2b1a0c39",
+      "reference_integrity_match": true,
+      "disposition": "REJECTS_CURRENT_LITERAL_V1",
+      "reason": "This inherited nonatomic-history counterexample pattern directly rejects compressed-selector-public-extension-v1: conditions at positive-mass z are vacuous for independent Uniform[0,1] Z. Exact new counterexample in defect-public-z-v1.md; repair versions require a different fresh review."
+    },
+    {
+      "id": "BT14-FV1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/94",
+      "entry_sha256_canonical": "d8a527eb5dd5cbce82bf03622db4210382c90985c87a914ec5166ea5084c7514",
+      "reference_integrity_match": true,
+      "disposition": "REPRODUCED_OR_APPLIED_CONDITIONAL_LAW",
+      "reason": "Exact CP1 masses and forbidden21/2000>1/100 reproduced. Current products require fresh trial tapes conditional on complete fixed input or fixed shared S. Persistent randomized class seed is separately rejected; union bounds do not multiply selected marginals."
+    },
+    {
+      "id": "FQ-R1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/95",
+      "entry_sha256_canonical": "a9c5e9f4c337292021da5278c100e8659eacdb2b1f4fe5b21bcba2286426a6c5",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "FQ-R2",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/96",
+      "entry_sha256_canonical": "8cc51636fbaff8b23527025559fbc636041135fea70b38ae32f61e4a4ab6eb8a",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "FQ-R3",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/97",
+      "entry_sha256_canonical": "4aaf1c738014552e8e2347351de4fb82ab5835f7f33abeccf7bc2c6b31a2b997",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "FQ-R4",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/98",
+      "entry_sha256_canonical": "eb069ca8c754b195ade405e1d5969945ed192c83796d31e7bd43bd349df7ac02",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "ROOT-QCOH-FV1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/99",
+      "entry_sha256_canonical": "adf08fef800d40de65371474c91eb3d9cc5e7499ad6a25eca30402494161757e",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "G-PI-FV1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/100",
+      "entry_sha256_canonical": "1f117b71c6e68f74f00e7dad0b5b9942527ea28cc2d21d9d3a59101a2532b266",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "ROOT-FRAC-DOMAIN-2",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/101",
+      "entry_sha256_canonical": "c1c07d2b6f72026109c212ff8f8e7be27bfe9d364346f707e4452a82ebd2ba3c",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "ROOT-WRAP-FV1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/102",
+      "entry_sha256_canonical": "f7fb49dfe52eaaea2a4edcda39f067d3b3cdf2f303181ac3ad09b39b8a8ace95",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "BT15-FV1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/103",
+      "entry_sha256_canonical": "c5125f4a95a99f5a40c9a6d18f33fe1d48303bdc4ceade6aa2d64715133983e5",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "FQ-COND-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/104",
+      "entry_sha256_canonical": "6e0d07183c0775f89815c5662f9d7093a835a5e85384efcfa4b5de426a115ba1",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_RETAINED_VERSUS_PROJECTED_SCOPE",
+      "reason": "Compression target success and affine TV use retained S. Dropping S can make TV zero; no reverse data-processing conclusion or free algorithmic disclosure is inferred. Actual public advice needs its posterior prior."
+    },
+    {
+      "id": "FQ-NORM-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/105",
+      "entry_sha256_canonical": "22f64f1aa8cd08cadea3142b9e353d038afeceae24ddcc3f017af47f5288c670",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "FQ-PERIOD-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/106",
+      "entry_sha256_canonical": "8a2eb0b138ec8a8c33dde684e201191626c23a85b90baf355a0562706a394e53",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "FQ-RETRY-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/107",
+      "entry_sha256_canonical": "e5647bf80bb985d1f8c36336fe4cd0d79e61738143237a3f25284a51c38ee2f3",
+      "reference_integrity_match": true,
+      "disposition": "REPRODUCED_OR_APPLIED_CONDITIONAL_LAW",
+      "reason": "Exact CP1 masses and forbidden21/2000>1/100 reproduced. Current products require fresh trial tapes conditional on complete fixed input or fixed shared S. Persistent randomized class seed is separately rejected; union bounds do not multiply selected marginals."
+    },
+    {
+      "id": "FQ-MODULUS-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/108",
+      "entry_sha256_canonical": "775ebe92a0711d096f9a3312702e6ed2e3b8f5dc2fabea1b78b87f9e92a1906c",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_RESOURCE_REPRESENTATION_SCOPE",
+      "reason": "Numeric value, bit length, expected retries and bounded runtime are distinguished. Energy DP is polynomial in numeric alphabet/magnitude; rational sampler caps and real Gaussian evaluation are separate. ENUM2^n is charged; finite witnesses do not establish effective asymptotic tables."
+    },
+    {
+      "id": "F-QFINITE-FV1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/109",
+      "entry_sha256_canonical": "160c649499c36f4c1d6df4c908a59ac34bfd6dd1762e532d9187331231c2ebea",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "BT16-FV1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/110",
+      "entry_sha256_canonical": "5ed19bcb2dc8489b238dcf25307a9ffc0bd7c5e9f0f6cef5158b801b82966bae",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "BT16-NATURAL-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/111",
+      "entry_sha256_canonical": "ddcc90c2e701d368bf4ee2fee5f14b43827bab0ea2e0b454eecc501930098d54",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "BT16-POSTERIOR-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/112",
+      "entry_sha256_canonical": "07944cf7a273f69334f81d054f4ee7ce4f343be046580fca6388e062c1f89107",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "BT16-PRIMEPOWER-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/113",
+      "entry_sha256_canonical": "301430677c80781140c89613c0d91c7366beff3a73c042af0344dba72987c7c9",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "BT16-ZERO-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/114",
+      "entry_sha256_canonical": "ed7b857378cfaa558d0d609b76610cde8913fb459fcde464a801e6217f5c3a4a",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_ENUM_EXPLICIT_REPLACEMENT",
+      "reason": "Historical shortcut remains rejected. New ENUM explicitly charges all competitors and Gaussian tail through its determinant/rank argument, handles A0 and nonunique branches by fallback, and pays comparator exceptions. It never infers actual-secret recovery from residual validity alone."
+    },
+    {
+      "id": "RF4-FV1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/115",
+      "entry_sha256_canonical": "7349e764e2ab888980bd89c8474dc488098916cfd07335d102e934428ba24a90",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "RF4-PERIOD-NEG1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/116",
+      "entry_sha256_canonical": "ab0b17eb4b7582280ca68022460b0433976173765edc6f4a2f43cb4e1a482d0c",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "RF4-RETRY-NEG1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/117",
+      "entry_sha256_canonical": "8650bb3b8bf9c66dd9a26f1a90cb300fc5621615d405fed9792e66093696f513",
+      "reference_integrity_match": true,
+      "disposition": "REPRODUCED_OR_APPLIED_CONDITIONAL_LAW",
+      "reason": "Exact CP1 masses and forbidden21/2000>1/100 reproduced. Current products require fresh trial tapes conditional on complete fixed input or fixed shared S. Persistent randomized class seed is separately rejected; union bounds do not multiply selected marginals."
+    },
+    {
+      "id": "RF4-ALIAS-NEG1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/118",
+      "entry_sha256_canonical": "1457c346f8c783e7cee325b93790729467a0567a5babe8f4f4941ac9d8dcaa4d",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "BT17-SYMBOLIC-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/119",
+      "entry_sha256_canonical": "1f32a0e5d6384e04b0b62f1d75d05fca1d30da749191e16a17426e7b7953dc00",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "ROOT-PARAM-FV1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/120",
+      "entry_sha256_canonical": "4f5342842d490811029f4c4edc4e44c619eb1bb5e5b22f201d329f0b4a13f7a8",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_FAILURE_PRESERVATION",
+      "reason": "Reviewer v1 syntax/path ERROR is retained immutably and yields no mathematical verdict. Corrected v2 is separately registered/root-authorized; exact successful certificate checks are distinct evidence."
+    },
+    {
+      "id": "ROOT-PARAM-T-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/121",
+      "entry_sha256_canonical": "23ce09b9c4360807d9d36a35e787123f42650af1cac329b5c73a8b84c99b2976",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "ROOT-PARAM-FV2",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/122",
+      "entry_sha256_canonical": "30ec5d7576a8823dfe410fc4dff08f121af38c0af69a4062376bf081ff8634f6",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_FAILURE_PRESERVATION",
+      "reason": "Reviewer v1 syntax/path ERROR is retained immutably and yields no mathematical verdict. Corrected v2 is separately registered/root-authorized; exact successful certificate checks are distinct evidence."
+    },
+    {
+      "id": "ROOT-PARAM-ENC-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/123",
+      "entry_sha256_canonical": "ba54732d8108ef85c8e6edd09571cb3d92cfb7cefcf54c809a77511521f64c16",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "ROOT-PARAM-FV3",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/124",
+      "entry_sha256_canonical": "235925a6e889945e9b25082ef6c4f45e55aa8fe3f6e51b8142af6f028b70b6eb",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "RF4-PARAM-FV2",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/125",
+      "entry_sha256_canonical": "61d7a0de39e713b8e1b0d1cebcf6cafc051879d3b8e7376c37b4c7a9816405da",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "H-ALIGN-FV1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/126",
+      "entry_sha256_canonical": "cda7f6969158f124b74e9d19d37e7c2dc0f3bb51c579e43168406b2d2af5b21c",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "H-LLL-BITLENGTH-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/127",
+      "entry_sha256_canonical": "1f41541b7b6300f8af7ae44003031e094cb4670d1e7c409adfd4d734c244dbb3",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_RESOURCE_REPRESENTATION_SCOPE",
+      "reason": "Numeric value, bit length, expected retries and bounded runtime are distinguished. Energy DP is polynomial in numeric alphabet/magnitude; rational sampler caps and real Gaussian evaluation are separate. ENUM2^n is charged; finite witnesses do not establish effective asymptotic tables."
+    },
+    {
+      "id": "H-REL-FV2",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/128",
+      "entry_sha256_canonical": "c09439c4785a984afb3fb5c5869e904c288e2674faced06d155e83a2aba21441",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "H-V0-BITLENGTH-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/129",
+      "entry_sha256_canonical": "b8fc02210ebbcee1d67a3b01da100a8314d3af9dab04948292fb020c19169f1d",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_RESOURCE_REPRESENTATION_SCOPE",
+      "reason": "Numeric value, bit length, expected retries and bounded runtime are distinguished. Energy DP is polynomial in numeric alphabet/magnitude; rational sampler caps and real Gaussian evaluation are separate. ENUM2^n is charged; finite witnesses do not establish effective asymptotic tables."
+    },
+    {
+      "id": "RH1-FV1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/130",
+      "entry_sha256_canonical": "814b82e285f78d03ba9f0edfac5cb5d33d3043897c2269fb771ce482bbf52dde",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "HC1-FV1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/131",
+      "entry_sha256_canonical": "fbe1b531f8fb2a6f9213713773014a825d8bbfee060a9635a616c177dc8504dd",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "ROOT-TOWER-FV1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/132",
+      "entry_sha256_canonical": "c49e5489e5ee8ce5ee3f7ff9042e941496868a991c46a2325dc3278b17de5ca6",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "BT19-NONPRIME-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/133",
+      "entry_sha256_canonical": "099b41e34d31c197897ac6b93d3f2363ed95d265915e98288fc7c40f9683d5ec",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "BT19-NONSUFFICIENT-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/134",
+      "entry_sha256_canonical": "65aebe5725e2fa3c42a95010acb6fac3218e5e50c907a3e536a913fd51e7d806",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "BT19-SELECTION-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/135",
+      "entry_sha256_canonical": "a163b89f379d1a8d5537a0e0fac0cfff82da22dd62e23e9bfd3336d19b466715",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "BT19-RETRY-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/136",
+      "entry_sha256_canonical": "e074e097b83240fb7db8e3aef158dc279872a5fe13284741659786e5d916ae33",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_RESOURCE_REPRESENTATION_SCOPE",
+      "reason": "Numeric value, bit length, expected retries and bounded runtime are distinguished. Energy DP is polynomial in numeric alphabet/magnitude; rational sampler caps and real Gaussian evaluation are separate. ENUM2^n is charged; finite witnesses do not establish effective asymptotic tables."
+    },
+    {
+      "id": "BT18-SYMBOLIC-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/137",
+      "entry_sha256_canonical": "fff8cec882a24c69497ac829513160a68c92823cd3b6164dbda783fbed6b8ad5",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "RT1-MOMENT-FV1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/138",
+      "entry_sha256_canonical": "f74ea391ea9739a0946f034cbab37e9a457c23f085076877c381568aa896a6ff",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_RAW_MATRIX_NOT_SCALAR_VARIANCE",
+      "reason": "Affine obstruction uses raw full matrices C,B,L and mixed four-face identities. Fourier diagonal lower bounds do not assert spherical covariance or replace a complete law by scalar moments."
+    },
+    {
+      "id": "RT2-WEIGHTED-FV1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/139",
+      "entry_sha256_canonical": "0339265f07157a922acdae69fee52ae962f1a5ebf3629756bf2f30f6d696f413",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_COMMON_PAIR_OR_FIXED_INPUT",
+      "reason": "Bounded affine requires a common joint(Delta,Z) independent of S, allowing dependence between its components. S-dependent pair counterexample retained. Selector conditional probabilities are formed at full fixed input before integration."
+    },
+    {
+      "id": "BT20-VACUITY-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/140",
+      "entry_sha256_canonical": "30f89ec0fc074982ab00fdd0d150ef93e010135fcd3e250d3bce381adfd4225a",
+      "reference_integrity_match": true,
+      "disposition": "PRESERVED_NO_HARDNESS_FROM_FAILURE",
+      "reason": "Finite ansatz exclusions and failed sufficient guards do not prove hardness or general impossibility. Source hardness and efficient FF remain open; no reverse ordinary-DGS implication or supplied secret/short-vector oracle is introduced."
+    },
+    {
+      "id": "BT20-RETRY-MARGIN-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/141",
+      "entry_sha256_canonical": "45e6ec637f01cdf5afe73ae103cc99ba49ef2af0066170ecc5d6e9426f4fb04e",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_RESOURCE_REPRESENTATION_SCOPE",
+      "reason": "Numeric value, bit length, expected retries and bounded runtime are distinguished. Energy DP is polynomial in numeric alphabet/magnitude; rational sampler caps and real Gaussian evaluation are separate. ENUM2^n is charged; finite witnesses do not establish effective asymptotic tables."
+    },
+    {
+      "id": "BT20-WIDTHVALUE-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/142",
+      "entry_sha256_canonical": "9bf1f0ba5124c9983f11dfffb321259cdf47c5a1b7cc969ee4a11c60f45d64ad",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_RESOURCE_REPRESENTATION_SCOPE",
+      "reason": "Numeric value, bit length, expected retries and bounded runtime are distinguished. Energy DP is polynomial in numeric alphabet/magnitude; rational sampler caps and real Gaussian evaluation are separate. ENUM2^n is charged; finite witnesses do not establish effective asymptotic tables."
+    },
+    {
+      "id": "RT2-NC1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/143",
+      "entry_sha256_canonical": "2f94edbaa09be64c927b46626020d8472191c239741670401f693c3b739b7c16",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_COMMON_PAIR_OR_FIXED_INPUT",
+      "reason": "Bounded affine requires a common joint(Delta,Z) independent of S, allowing dependence between its components. S-dependent pair counterexample retained. Selector conditional probabilities are formed at full fixed input before integration."
+    },
+    {
+      "id": "RT2-NC2",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/144",
+      "entry_sha256_canonical": "743583e27c5167270408aecb8acc89e132c7d3fded1b8a178e3350320acb49e7",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_TAIL_AND_NORMALIZER_CHARGES",
+      "reason": "Bounded affine clips quadratic tests and pays both norm-tail second moments. Rare huge atom defeats a tail-free moment claim. ENERGY/TWOEVENT retain exact normalizers and pay conditional DG tails; no moment transfer from TV alone."
+    },
+    {
+      "id": "RT2-NC3",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/145",
+      "entry_sha256_canonical": "1cf269f086e0c04fd9e1bf88190ae9fba36994519d4399bf38fde25b4e775c47",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_SHARED_SECRET_AND_FRESH_TAPES",
+      "reason": "One original S is retained across all calls. Source/channel/group tapes are fresh per call conditional on that S. A shared group is not a product of averaged kernels; exact shared-versus-fresh fair-bit pair TV1/2 reproduced."
+    },
+    {
+      "id": "BT21-VACUITY-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/146",
+      "entry_sha256_canonical": "94d9d64462577299af1c695edf760a9b2dafc2d5b504dcbe0aed71746c863e3d",
+      "reference_integrity_match": true,
+      "disposition": "PRESERVED_NO_HARDNESS_FROM_FAILURE",
+      "reason": "Finite ansatz exclusions and failed sufficient guards do not prove hardness or general impossibility. Source hardness and efficient FF remain open; no reverse ordinary-DGS implication or supplied secret/short-vector oracle is introduced."
+    },
+    {
+      "id": "BT21-ADAPTIVE-MULTIPLIER-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/147",
+      "entry_sha256_canonical": "82360e617043760ae1a0c3e5cd3e6237982cfec000b61536d00cd7af1a4daca5",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_COMMON_PAIR_OR_FIXED_INPUT",
+      "reason": "Bounded affine requires a common joint(Delta,Z) independent of S, allowing dependence between its components. S-dependent pair counterexample retained. Selector conditional probabilities are formed at full fixed input before integration."
+    },
+    {
+      "id": "BT22-TV-MOMENT-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/148",
+      "entry_sha256_canonical": "c9ec468f926997d9d332cd834a02db203ce420effbd9014f1050825dcfdff321",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_TAIL_AND_NORMALIZER_CHARGES",
+      "reason": "Bounded affine clips quadratic tests and pays both norm-tail second moments. Rare huge atom defeats a tail-free moment claim. ENERGY/TWOEVENT retain exact normalizers and pay conditional DG tails; no moment transfer from TV alone."
+    },
+    {
+      "id": "BT22-JOINT-MULTIPLIER-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/149",
+      "entry_sha256_canonical": "96d2fe1ee4990760ab98695f47fdc33344f176b8dcee2ee9aa8b6f5175a9cc7f",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_COMMON_PAIR_OR_FIXED_INPUT",
+      "reason": "Bounded affine requires a common joint(Delta,Z) independent of S, allowing dependence between its components. S-dependent pair counterexample retained. Selector conditional probabilities are formed at full fixed input before integration."
+    },
+    {
+      "id": "BT22-MARGIN-WIDTH-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/150",
+      "entry_sha256_canonical": "6c407bf6e0f784ac48da9f1229358a9d3d29756f1090299672c13c4ef17f8295",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_RESOURCE_REPRESENTATION_SCOPE",
+      "reason": "Numeric value, bit length, expected retries and bounded runtime are distinguished. Energy DP is polynomial in numeric alphabet/magnitude; rational sampler caps and real Gaussian evaluation are separate. ENUM2^n is charged; finite witnesses do not establish effective asymptotic tables."
+    },
+    {
+      "id": "M1-FV1-NORMALIZERS",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/151",
+      "entry_sha256_canonical": "3778e89eaddfe4c67b884277f70786fd42b22c851fccd01004b1dc36a4a7ed01",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_EXACT_LAW_NORMALIZERS",
+      "reason": "All finite selector/H rows and endpoint masses are checked exactly. TWOEVENT positivity and normalization are pointwise; Gaussian theta normalizers are retained. ENERGY truncation comparison pays actual tails, and exponent matrices are not called covariances."
+    },
+    {
+      "id": "M1-FV1-CP1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/152",
+      "entry_sha256_canonical": "244cdc9ae3be3573d7ce9306fd517eaefbf39afb171e9aa324f93e9884adb8e4",
+      "reference_integrity_match": true,
+      "disposition": "REPRODUCED_OR_APPLIED_CONDITIONAL_LAW",
+      "reason": "Exact CP1 masses and forbidden21/2000>1/100 reproduced. Current products require fresh trial tapes conditional on complete fixed input or fixed shared S. Persistent randomized class seed is separately rejected; union bounds do not multiply selected marginals."
+    },
+    {
+      "id": "B-FV1-CUBE289",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/153",
+      "entry_sha256_canonical": "77ee01f8861bb2f5fdcc40b9c0645ea8495ab42cbaf69174b858544fa9eb2160",
+      "reference_integrity_match": true,
+      "disposition": "PRESERVED_NO_HARDNESS_FROM_FAILURE",
+      "reason": "Finite ansatz exclusions and failed sufficient guards do not prove hardness or general impossibility. Source hardness and efficient FF remain open; no reverse ordinary-DGS implication or supplied secret/short-vector oracle is introduced."
+    },
+    {
+      "id": "M1-FALLBACK-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/154",
+      "entry_sha256_canonical": "9325db37f69cbf95dedd7ae9af97b6316e406ad5a9b1064fafa106bbdccb31a3",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "A-LIN-FV1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/155",
+      "entry_sha256_canonical": "4463f9b5a072a1e5bba1bdcdf8872682eb8e79fb7f6092313955b5088bf21d69",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "A-RATIONAL-BOUNDARY-v1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/156",
+      "entry_sha256_canonical": "d168678fac8b7a37d4326b36e28b3ddf1d344418feb722efedaed67a04772a65",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "B-THETA-FV1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/157",
+      "entry_sha256_canonical": "5ddd527458a033ba74b9d019f46c341710822c7125c2931edea4783b94bb5b5c",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "B-M1-FV1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/158",
+      "entry_sha256_canonical": "d238522a546dd3de92e227536c89d4d55ece154ea3b9e763656009b7462b406b",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "A-BFAM-FV1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/159",
+      "entry_sha256_canonical": "1892a0cb732aca5830000f018de10bc3dd708aa3c69232fca797ee613c695ce6",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "FBR1-Q-PREMISE-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/160",
+      "entry_sha256_canonical": "51e0d2b989f98fa168c7794e30aadc1edfaa6b6164e602395837f19a9810d552",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "M1-Q-FV1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/161",
+      "entry_sha256_canonical": "ba9d1db9e6f889ab4e84232baac630151e22a7ef2a1925acc80962de9983b779",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "B-REVEAL-S-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/162",
+      "entry_sha256_canonical": "3390c3679e8bfc150caa307be0ded7190210f47f400e913bc28a61c6744114ac",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_FULL_RETAINED_SECRET_LAW",
+      "reason": "Exact finite matrices verify every fixed-secret and comparator atom; ENUM couples full conditional target samples. No coefficient marginals, pairwise independence, CRT error independence or actual-secret advice substitutes for the complete law."
+    },
+    {
+      "id": "FBR2-WIDTH-BOUNDARY-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/inherited_entries/163",
+      "entry_sha256_canonical": "a59115fc4ff5458244dd5345e2069190ce3188bc3c30e3b26732fd1e3058e79d",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "DD1-WITNESS-SAME-P",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/0",
+      "entry_sha256_canonical": "2f89a8aeaa1327b62abbe2969d81a7d2165b4eb770866ce6e93688f6e1f85a42",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "DD1-SHARED-SECRET",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/1",
+      "entry_sha256_canonical": "3ef3e3b961e6628f7d04b5661764b929a65602f56759a773bb58f718e5cba447",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_SHARED_SECRET_AND_FRESH_TAPES",
+      "reason": "One original S is retained across all calls. Source/channel/group tapes are fresh per call conditional on that S. A shared group is not a product of averaged kernels; exact shared-versus-fresh fair-bit pair TV1/2 reproduced."
+    },
+    {
+      "id": "DD1-EXTRACT-FULL-LAW",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/2",
+      "entry_sha256_canonical": "ecce149b5390b797b2affdcc1d5a89996a78ed6021747cc0c166ff3a4d67a56c",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_FULL_RETAINED_SECRET_LAW",
+      "reason": "Exact finite matrices verify every fixed-secret and comparator atom; ENUM couples full conditional target samples. No coefficient marginals, pairwise independence, CRT error independence or actual-secret advice substitutes for the complete law."
+    },
+    {
+      "id": "DD1-EXTRACT-4A-TIE",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/3",
+      "entry_sha256_canonical": "86e01b7f73cc5bb2423542e62599d458c2fc6e7b120d7eaec309d4baf20993a7",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "DD1-SFUNC-MAX-ORDER",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/4",
+      "entry_sha256_canonical": "997221ee7f3d7bf1414b5a1271ed7aa05e9d308d8735af4b0617fb187218d354",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_GUESSING_SCOPE",
+      "reason": "Guessing is optimal over each observed cell; max remains inside the cell sum. ML times maximum actual prior atom follows from an explicit accepted-law cell bound, not entropy-only Boolean fiber reasoning. Target statistical estimator may be exponential."
+    },
+    {
+      "id": "DD1-MAIN-GAUSSIAN-NOTATION",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/5",
+      "entry_sha256_canonical": "8daa84d31845ee0eeeb89a2612ac313aede9a3a54af83211099950632f084bc9",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "DD1-MAIN-RATIONAL-EXPONENT",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/6",
+      "entry_sha256_canonical": "a4e0fd02865e32658f4b308819b5bc79a4ef68d78ce65fa2ba41630547a088a9",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_FIXED_FAMILY_QUANTIFIERS",
+      "reason": "Fixed target parameters may precede sample/advantage exponents for ENUM statistical negligibility, but exponential enumeration remains. No computational all-PPT fixed-family conclusion is inferred from inherited fixed-b,c window or finite n2/n4 tables."
+    },
+    {
+      "id": "FULL1-SCOPE-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/7",
+      "entry_sha256_canonical": "927436343d51d13a4fc4a27f71eb428295317b4bb02977c054ee3fbc35689dae",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "FULL1-SCOPE-2",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/8",
+      "entry_sha256_canonical": "8714df5e03926c0c6f011734218eb6be91851f3fb8f8dd23c326457157c2960c",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "FULL1-CONTROL-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/9",
+      "entry_sha256_canonical": "9e3ad16e0d59ef504dad75df9a5b5f0aaface63fea32ab74023358d1e019e329",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_GUESSING_SCOPE",
+      "reason": "Guessing is optimal over each observed cell; max remains inside the cell sum. ML times maximum actual prior atom follows from an explicit accepted-law cell bound, not entropy-only Boolean fiber reasoning. Target statistical estimator may be exponential."
+    },
+    {
+      "id": "FULL1-CONTROL-2",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/10",
+      "entry_sha256_canonical": "22d1d099b5ffebf428dafac88408bf4d8138e19723bced3276e6d319c1081a3d",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "FULL1-CONTROL-3",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/11",
+      "entry_sha256_canonical": "a9a80c25590c9a23eebeaa8340b7d5f89098a7f80d54818648182d984071fc30",
+      "reference_integrity_match": true,
+      "disposition": "REPRODUCED_OR_APPLIED_CONDITIONAL_LAW",
+      "reason": "Exact CP1 masses and forbidden21/2000>1/100 reproduced. Current products require fresh trial tapes conditional on complete fixed input or fixed shared S. Persistent randomized class seed is separately rejected; union bounds do not multiply selected marginals."
+    },
+    {
+      "id": "FULL1-SCOPE-3",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/12",
+      "entry_sha256_canonical": "4803cfc393a3cb69a3f2e0b15f19e2a1456afecf311b3c9865cc17cfd5791f32",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_RESOURCE_REPRESENTATION_SCOPE",
+      "reason": "Numeric value, bit length, expected retries and bounded runtime are distinguished. Energy DP is polynomial in numeric alphabet/magnitude; rational sampler caps and real Gaussian evaluation are separate. ENUM2^n is charged; finite witnesses do not establish effective asymptotic tables."
+    },
+    {
+      "id": "FULL1-DEFECT-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/13",
+      "entry_sha256_canonical": "d44c31640b6fd82cd77171854fd37b4a9d20118b36cebede2e7278f2e475dd98",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_RESOURCE_REPRESENTATION_SCOPE",
+      "reason": "Numeric value, bit length, expected retries and bounded runtime are distinguished. Energy DP is polynomial in numeric alphabet/magnitude; rational sampler caps and real Gaussian evaluation are separate. ENUM2^n is charged; finite witnesses do not establish effective asymptotic tables."
+    },
+    {
+      "id": "DD2-NORM-ROOT-MULTIPLICITY",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/14",
+      "entry_sha256_canonical": "8edff07f7b0aa37b1b54a82b04e52ea0f372ea5fb250846d63e939aa24973f1e",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_NONUNIT_AND_MULTIPLICITY",
+      "reason": "ENUM includes every nonzero ternary difference and every modular rank, using Q^(n-r)|det. Independent n4,q3 controls include16 nonunits. No active-unit conditioning or strict binary injection shortcut."
+    },
+    {
+      "id": "DD2-CRT-ERROR-CORRELATION",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/15",
+      "entry_sha256_canonical": "8b8cc5b27bd278187c299b0b71c520ef458e628886ab366cf05610507d1ca91e",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_FULL_RETAINED_SECRET_LAW",
+      "reason": "Exact finite matrices verify every fixed-secret and comparator atom; ENUM couples full conditional target samples. No coefficient marginals, pairwise independence, CRT error independence or actual-secret advice substitutes for the complete law."
+    },
+    {
+      "id": "DD2-UNKNOWN-CUBE-TRANSLATE",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/16",
+      "entry_sha256_canonical": "72dbef5c947aa5b0c8bd58c07c51268437ed972b6a016dbe7f8b10141e80add2",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_LEGAL_RING_SYMMETRY",
+      "reason": "Only explicit monomial/odd-automorphism signed maps with binary offset and source/inverse-target compensation are used.32 finite group elements and endpoint invariance reconstructed. No arbitrary signed permutation, unknown cube translate or orbit-hardness inference."
+    },
+    {
+      "id": "DD2-CANCELLATION-OVERLAP",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/17",
+      "entry_sha256_canonical": "90289568a4275895cce09d1ac6aee3b1cc1d1ab0beb7eddf4b1c0cf15481010b",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "ROOT-SELECTED-FIBER-BOUNDARY",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/18",
+      "entry_sha256_canonical": "48c2174917f15b04d6cbffa5a3bbc408129a3b26de76840fafba36b22a6bbe31",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_GUESSING_SCOPE",
+      "reason": "Guessing is optimal over each observed cell; max remains inside the cell sum. ML times maximum actual prior atom follows from an explicit accepted-law cell bound, not entropy-only Boolean fiber reasoning. Target statistical estimator may be exponential."
+    },
+    {
+      "id": "BLIND1-REPEATED-PRIMES",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/19",
+      "entry_sha256_canonical": "cec79bf3e174356d9c4e8940ccbe84db85df94b960d38198d5688aa396613f1f",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "BLIND1-OPTIMAL-DEFINITION",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/20",
+      "entry_sha256_canonical": "4fd81d38da4d7296c84431b52eea1ee3b674dca872ef73baacf36899b16dac4b",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_GUESSING_SCOPE",
+      "reason": "Guessing is optimal over each observed cell; max remains inside the cell sum. ML times maximum actual prior atom follows from an explicit accepted-law cell bound, not entropy-only Boolean fiber reasoning. Target statistical estimator may be exponential."
+    },
+    {
+      "id": "MR-TIE-CONVENTION",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/21",
+      "entry_sha256_canonical": "5e6bbbbe0313a882aeda5983f89a8344e860562cdb4f644a049e638e258a22cb",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "MR-ROUNDED-PUBLIC-BIAS",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/22",
+      "entry_sha256_canonical": "0c7e108e1cd4957694c61673c4d355a18f9f65ba2ce0764f84e43c7a293180e5",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "MR-DISCRETE-GAUSSIAN-NORMALIZER",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/23",
+      "entry_sha256_canonical": "504e70780ebd3c6cfdf795573229d63a996002412f7985497898275756874eb5",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_EXACT_LAW_NORMALIZERS",
+      "reason": "All finite selector/H rows and endpoint masses are checked exactly. TWOEVENT positivity and normalization are pointwise; Gaussian theta normalizers are retained. ENERGY truncation comparison pays actual tails, and exponent matrices are not called covariances."
+    },
+    {
+      "id": "MR-FULL-SHARED-LAW",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/24",
+      "entry_sha256_canonical": "7de5afc4ed37fd9446ac498ed5a93301128a84e25b4b4e95e6139a0a245a139f",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_SHARED_SECRET_AND_FRESH_TAPES",
+      "reason": "One original S is retained across all calls. Source/channel/group tapes are fresh per call conditional on that S. A shared group is not a product of averaged kernels; exact shared-versus-fresh fair-bit pair TV1/2 reproduced."
+    },
+    {
+      "id": "MR-VARIABLE-WIDTH-CAPS",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/25",
+      "entry_sha256_canonical": "5c7371c7bde990034a5bdb0fb62be060836832cd76ef657b4179914f08fb2188",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_RESOURCE_REPRESENTATION_SCOPE",
+      "reason": "Numeric value, bit length, expected retries and bounded runtime are distinguished. Energy DP is polynomial in numeric alphabet/magnitude; rational sampler caps and real Gaussian evaluation are separate. ENUM2^n is charged; finite witnesses do not establish effective asymptotic tables."
+    },
+    {
+      "id": "MR-ADVANTAGE-WINDOW",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/26",
+      "entry_sha256_canonical": "99c553b2f1a3a9265f2303e118e5d24e1a19807c6ba1a416a2c2b71507f9feb9",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_FIXED_FAMILY_QUANTIFIERS",
+      "reason": "Fixed target parameters may precede sample/advantage exponents for ENUM statistical negligibility, but exponential enumeration remains. No computational all-PPT fixed-family conclusion is inferred from inherited fixed-b,c window or finite n2/n4 tables."
+    },
+    {
+      "id": "MR-FV1-LOGGING-FAILURE",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/27",
+      "entry_sha256_canonical": "0ab0855bd50b44db8b1f858faf93a9700cc11289fdfdd0c425ded6b9cf08e851",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_FAILURE_PRESERVATION",
+      "reason": "Reviewer v1 syntax/path ERROR is retained immutably and yields no mathematical verdict. Corrected v2 is separately registered/root-authorized; exact successful certificate checks are distinct evidence."
+    },
+    {
+      "id": "MR-SIGNED-SECRET-COVARIANCE",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/28",
+      "entry_sha256_canonical": "0a856677a8e1f15882137dd8ced35bc5a9e7dc29d5e941474b3306e3cd48fb92",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_RAW_MATRIX_NOT_SCALAR_VARIANCE",
+      "reason": "Affine obstruction uses raw full matrices C,B,L and mixed four-face identities. Fourier diagonal lower bounds do not assert spherical covariance or replace a complete law by scalar moments."
+    },
+    {
+      "id": "FULL2-WORDING-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/29",
+      "entry_sha256_canonical": "ef84cabd9b41e19aa9a3170a59d32d4c17cb2654a5b3b161ea665a7bbc6d9eca",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "FULL2-SCOPE-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/30",
+      "entry_sha256_canonical": "9f0eb987a7476352a7860ea318b20021fea360819b1045d0916c49f4101a140f",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_FIXED_FAMILY_QUANTIFIERS",
+      "reason": "Fixed target parameters may precede sample/advantage exponents for ENUM statistical negligibility, but exponential enumeration remains. No computational all-PPT fixed-family conclusion is inferred from inherited fixed-b,c window or finite n2/n4 tables."
+    },
+    {
+      "id": "FULL2-CONTROL-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/31",
+      "entry_sha256_canonical": "30846099a847aad638a4124effe9e9536e4e34eb1899bb3c25b6c563d60634a2",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "FULL2-CONTROL-2",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/32",
+      "entry_sha256_canonical": "7bb1eb26303e3a0ea1c74c6ef04b31c9b07d6569d97463d6fd846ee2c0980219",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "FULL2-CONTROL-3",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/33",
+      "entry_sha256_canonical": "082c1ad3050fa7346d202d1fce61b49cb1e10b5435e9c9f677c4e3edd6b7ab8d",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "FULL2-NONVACUITY-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/34",
+      "entry_sha256_canonical": "a7e97a338357c17daf29e4d5f0645362f2de0483d81a1e1b0716c85960d667de",
+      "reference_integrity_match": true,
+      "disposition": "APPLIED_ENUM_COST",
+      "reason": "Exhaustive statistical testing/recovery can be useful for a target information bound while costing2^n. No efficient distinguisher or decoder follows from existence of this estimator."
+    },
+    {
+      "id": "FULL2-RADIUS-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/35",
+      "entry_sha256_canonical": "e073644ec00277ef00f2709ba2f67b01091ad3a8d51b421d9189fbde41d4c6dc",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "BLIND2-QUERY-LAW-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/36",
+      "entry_sha256_canonical": "9549b95103f391b602b4d11a8c2f1692ddd5b1d9acce2ddbfb3ae4d41441fa76",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "BLIND2-PARTITION-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/37",
+      "entry_sha256_canonical": "ce3c27b4f84cd8c6f90f5a218147467fdf3414c9521cec3baf41dcde4306125b",
+      "reference_integrity_match": true,
+      "disposition": "RETAINED_OUTSIDE_CHANGED_PHASE2_MECHANISM",
+      "reason": "Historical failed claim/counterexample remains retained at its exact referenced scope. This phase2 review neither uses the historical mechanism as a new premise nor recertifies its original theorem or experiment."
+    },
+    {
+      "id": "BLIND2-SMALL-N-1",
+      "source_registry": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_registry_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "json_pointer": "/new_entries/38",
+      "entry_sha256_canonical": "082265911ebb83c4b73a8dc7a34c2056f3f79d9a3b4c7409e39bb599fe6c4aeb",
+      "reference_integrity_match": true,
+      "disposition": "PRESERVED_NO_HARDNESS_FROM_FAILURE",
+      "reason": "Finite ansatz exclusions and failed sufficient guards do not prove hardness or general impossibility. Source hardness and efficient FF remain open; no reverse ordinary-DGS implication or supplied secret/short-vector oracle is introduced."
+    }
+  ],
+  "phase1_local": [
+    {
+      "id": "FF3-COMP-1",
+      "claim": "FF3-BLACKWELL-v1",
+      "model": "Source coefficient noise uniform; target informative. Both comparator and every fixed secret included.",
+      "expected": "Infeasible; source planted equals its comparator, so its outputs cannot be both informative target and uniform.",
+      "review_disposition": "RETAINED_PRIOR_FINITE_SCOPE_AND_RECONCILED",
+      "review_reason": "No broader impossibility/hardness inference. Full normalization, fixed-secret/comparator laws, nonunit/exception costs and shared-secret composition are checked in this report; old fixed-H/fixed-mixture exclusions remain restricted and correlated-H positive escape survives."
+    },
+    {
+      "id": "FF3-ID-1",
+      "claim": "FF3-BLACKWELL-v1",
+      "model": "Same modulus and same exact rational product error law.",
+      "expected": "Identity kernel is feasible with exact full conditional laws and comparator.",
+      "review_disposition": "RETAINED_PRIOR_FINITE_SCOPE_AND_RECONCILED",
+      "review_reason": "No broader impossibility/hardness inference. Full normalization, fixed-secret/comparator laws, nonunit/exception costs and shared-secret composition are checked in this report; old fixed-H/fixed-mixture exclusions remain restricted and correlated-H positive escape survives."
+    },
+    {
+      "id": "FF3-JOINT-1",
+      "claim": "FF3-BLACKWELL-v1",
+      "model": "One secret shared by two samples; source inputs and fresh kernels iid only conditional on that secret.",
+      "expected": "Exact one-sample fixed-secret equations imply correct shared-secret batch law. Replacing the shared secret by fresh per-sample secrets is rejected.",
+      "review_disposition": "RETAINED_PRIOR_FINITE_SCOPE_AND_RECONCILED",
+      "review_reason": "No broader impossibility/hardness inference. Full normalization, fixed-secret/comparator laws, nonunit/exception costs and shared-secret composition are checked in this report; old fixed-H/fixed-mixture exclusions remain restricted and correlated-H positive escape survives."
+    },
+    {
+      "id": "FF3-NORM-1",
+      "claim": "FF3-BLACKWELL-v1",
+      "model": "Finite LP must include all source row masses and uniform endpoint as well as planted equalities.",
+      "expected": "No claim based on unnormalized positive matrix, planted-only fit, or per-secret selected kernels.",
+      "review_disposition": "RETAINED_PRIOR_FINITE_SCOPE_AND_RECONCILED",
+      "review_reason": "No broader impossibility/hardness inference. Full normalization, fixed-secret/comparator laws, nonunit/exception costs and shared-secret composition are checked in this report; old fixed-H/fixed-mixture exclusions remain restricted and correlated-H positive escape survives."
+    },
+    {
+      "id": "FF3-NUM-1",
+      "claim": "FF3-BLACKWELL-v1",
+      "model": "HiGHS floating solver output reconstructed as rational entries.",
+      "expected": "Only exact rational constraint/nonnegativity verification can certify finite feasibility or Farkas infeasibility; solver status alone is provisional evidence.",
+      "review_disposition": "RETAINED_PRIOR_FINITE_SCOPE_AND_RECONCILED",
+      "review_reason": "No broader impossibility/hardness inference. Full normalization, fixed-secret/comparator laws, nonunit/exception costs and shared-secret composition are checked in this report; old fixed-H/fixed-mixture exclusions remain restricted and correlated-H positive escape survives."
+    },
+    {
+      "id": "CP-1",
+      "claim": "all probabilistic claims",
+      "model": "Cached-prefix finite model from mathematical-proof-audit/references/probability-regressions.md.",
+      "expected": "Retain rejection: 21/2000 > (1/10)^2; no marginal multiplication after support restriction.",
+      "review_disposition": "RETAINED_PRIOR_FINITE_SCOPE_AND_RECONCILED",
+      "review_reason": "No broader impossibility/hardness inference. Full normalization, fixed-secret/comparator laws, nonunit/exception costs and shared-secret composition are checked in this report; old fixed-H/fixed-mixture exclusions remain restricted and correlated-H positive escape survives."
+    },
+    {
+      "id": "FF3-RESIDUAL-RELATION-1",
+      "claim": "FF3-TWOSECRET-v1 extension",
+      "model": "For four candidate secrets0,1,X,1+X, residuals must satisfy u0-u1-uX+u1X=0. Independent full-support channels violate it.",
+      "expected": "Reject naive independent residual-channel extension; positive named bad outcome in FV4.",
+      "review_disposition": "RETAINED_PRIOR_FINITE_SCOPE_AND_RECONCILED",
+      "review_reason": "No broader impossibility/hardness inference. Full normalization, fixed-secret/comparator laws, nonunit/exception costs and shared-secret composition are checked in this report; old fixed-H/fixed-mixture exclusions remain restricted and correlated-H positive escape survives."
+    },
+    {
+      "id": "FF3-ENUM-COST-1",
+      "claim": "FF3-ENUM-v1",
+      "model": "Unique binary candidate from small residual search",
+      "expected": "Charge2^n enumeration. Uniqueness does not imply efficient search or give free actual-secret advice.",
+      "review_disposition": "RETAINED_PRIOR_FINITE_SCOPE_AND_RECONCILED",
+      "review_reason": "No broader impossibility/hardness inference. Full normalization, fixed-secret/comparator laws, nonunit/exception costs and shared-secret composition are checked in this report; old fixed-H/fixed-mixture exclusions remain restricted and correlated-H positive escape survives."
+    },
+    {
+      "id": "FF3-ENUM-NONUNIT-1",
+      "claim": "FF3-ENUM-v1",
+      "model": "All differences d in{-1,0,1}^n, including rank-deficient residues",
+      "expected": "Use determinant/rank upper bound and preserve nonunits; never condition them away.",
+      "review_disposition": "RETAINED_PRIOR_FINITE_SCOPE_AND_RECONCILED",
+      "review_reason": "No broader impossibility/hardness inference. Full normalization, fixed-secret/comparator laws, nonunit/exception costs and shared-secret composition are checked in this report; old fixed-H/fixed-mixture exclusions remain restricted and correlated-H positive escape survives."
+    },
+    {
+      "id": "FF3-ENUM-COMP-1",
+      "claim": "FF3-ENUM-v1",
+      "model": "Uniform comparator may accidentally have a unique candidate",
+      "expected": "Charge betaQ; never assert its candidate is uniform or claim exact uniform endpoint after uncharged acceptance.",
+      "review_disposition": "RETAINED_PRIOR_FINITE_SCOPE_AND_RECONCILED",
+      "review_reason": "No broader impossibility/hardness inference. Full normalization, fixed-secret/comparator laws, nonunit/exception costs and shared-secret composition are checked in this report; old fixed-H/fixed-mixture exclusions remain restricted and correlated-H positive escape survives."
+    },
+    {
+      "id": "FF3-CORRELATED-NORM-1",
+      "claim": "row-normalized compatible residual product",
+      "model": "K_x(c,d) proportional to product_s H(b-as,d-cs), with exact Z(x).",
+      "expected": "Verify uniform and every fixed-secret endpoint independently; satisfying row normalization and affine compatibility alone is insufficient.",
+      "review_disposition": "RETAINED_PRIOR_FINITE_SCOPE_AND_RECONCILED",
+      "review_reason": "No broader impossibility/hardness inference. Full normalization, fixed-secret/comparator laws, nonunit/exception costs and shared-secret composition are checked in this report; old fixed-H/fixed-mixture exclusions remain restricted and correlated-H positive escape survives."
+    },
+    {
+      "id": "FF3-COUPLED-PRODUCT-FAIL-1",
+      "claim": "normalized full residual product",
+      "model": "FV5 exact n2Q3q2 H and all4candidate residuals, every Z retained.",
+      "expected": "Reject claimed endpoint repair: each planted conditionalTV\u22480.1180482685 and comparatorTV\u22480.0200531575, with exact rationals in FV5 output. No general coupled-kernel impossibility.",
+      "review_disposition": "RETAINED_PRIOR_FINITE_SCOPE_AND_RECONCILED",
+      "review_reason": "No broader impossibility/hardness inference. Full normalization, fixed-secret/comparator laws, nonunit/exception costs and shared-secret composition are checked in this report; old fixed-H/fixed-mixture exclusions remain restricted and correlated-H positive escape survives."
+    },
+    {
+      "id": "FF3-PAIR-MIXTURE-1",
+      "claim": "positive mixture of two-secret channels",
+      "model": "Arbitrary fixed positive weights on all cube edges; full retained-secret conditional laws.",
+      "expected": "Check mixtures against every secret plus comparator. Numerical LP status alone insufficient; seek exact retained-secret convex separator.",
+      "review_disposition": "RETAINED_PRIOR_FINITE_SCOPE_AND_RECONCILED",
+      "review_reason": "No broader impossibility/hardness inference. Full normalization, fixed-secret/comparator laws, nonunit/exception costs and shared-secret composition are checked in this report; old fixed-H/fixed-mixture exclusions remain restricted and correlated-H positive escape survives."
+    },
+    {
+      "id": "FF3-FIXED-EDGE-SEPARATION-1",
+      "claim": "fixed nonnegative edge mixture",
+      "model": "FV6 n4Q3q2 H, retained S eventD=C*S.",
+      "expected": "Target81/256; every fixed edge channel\u22641004756811/9885304832, so every fixed mixture TV\u22652123015421/9885304832. Does not restrict input-dependent weights.",
+      "review_disposition": "RETAINED_PRIOR_FINITE_SCOPE_AND_RECONCILED",
+      "review_reason": "No broader impossibility/hardness inference. Full normalization, fixed-secret/comparator laws, nonunit/exception costs and shared-secret composition are checked in this report; old fixed-H/fixed-mixture exclusions remain restricted and correlated-H positive escape survives."
+    },
+    {
+      "id": "FF3-ADAPTIVE-FIXED-H-FAIL-1",
+      "claim": "arbitrary observation-dependent edge selection for fixed symmetric H",
+      "model": "FV7 n2Q3q2 all4cube edge channels.",
+      "expected": "Zero-residual probability at most9011/16224 below9/16, exact gap115/16224; full Farkas certificate retained. Does not extend to asymmetric scalar H variants.",
+      "review_disposition": "RETAINED_PRIOR_FINITE_SCOPE_AND_RECONCILED",
+      "review_reason": "No broader impossibility/hardness inference. Full normalization, fixed-secret/comparator laws, nonunit/exception costs and shared-secret composition are checked in this report; old fixed-H/fixed-mixture exclusions remain restricted and correlated-H positive escape survives."
+    },
+    {
+      "id": "FF3-COEFFICIENTWISE-H-FAIL-1",
+      "claim": "full scalar-H vertex hull",
+      "model": "FV8 n2Q3q2 all scalar channel extrema, independent coefficient/branch choices, arbitrary input-dependent mixture.",
+      "expected": "Exact Farkas separation. The smaller solver UNKNOWN is preserved. No extension to correlated ring H.",
+      "review_disposition": "RETAINED_PRIOR_FINITE_SCOPE_AND_RECONCILED",
+      "review_reason": "No broader impossibility/hardness inference. Full normalization, fixed-secret/comparator laws, nonunit/exception costs and shared-secret composition are checked in this report; old fixed-H/fixed-mixture exclusions remain restricted and correlated-H positive escape survives."
+    },
+    {
+      "id": "FF3-RADIAL-POSITIVE-1",
+      "claim": "correlated ring-level radial H",
+      "model": "FV9 exact n2Q3q2 correlated ring-noise H and adaptive selector.",
+      "expected": "Exact positive kernel preserves all4fixed-secret laws and uniform comparator. Any broad claim excluding all correlated H must fail this control.",
+      "review_disposition": "RETAINED_PRIOR_FINITE_SCOPE_AND_RECONCILED",
+      "review_reason": "No broader impossibility/hardness inference. Full normalization, fixed-secret/comparator laws, nonunit/exception costs and shared-secret composition are checked in this report; old fixed-H/fixed-mixture exclusions remain restricted and correlated-H positive escape survives."
+    }
+  ],
+  "phase2_local": [
+    {
+      "id": "FULL-FF3-ENUM-SIGN-1",
+      "provenance": "../../reviews/FULL-FF3/new-regressions-v1.md",
+      "expected": "Reject E-box inclusion; correct box-E. Bounds unchanged through symmetric larger box; proof-v2 fresh review required.",
+      "review_disposition": "PASS_SCOPED_OR_EXPECTED_FAILURE_RETAINED",
+      "review_evidence": "full-report-v1.md; conditional-law-audit-v1.md; exact certificate/probability/ENUM control outputs"
+    },
+    {
+      "id": "FF3-LOCAL-SELECTOR-FAIL-1",
+      "evidence": "FV10",
+      "expected": "Exact exclusions only for the three declared local classes; retain FV11 positive after publicAstatistic is added.",
+      "review_disposition": "PASS_SCOPED_OR_EXPECTED_FAILURE_RETAINED",
+      "review_evidence": "full-report-v1.md; conditional-law-audit-v1.md; exact certificate/probability/ENUM control outputs"
+    },
+    {
+      "id": "FF3-PUBLIC-GEOMETRY-POSITIVE-1",
+      "evidence": "FV11",
+      "expected": "Exact n2 all-secret/comparator positive,33weights,maximum local class mass<3; no asymptotic promotion.",
+      "review_disposition": "PASS_SCOPED_OR_EXPECTED_FAILURE_RETAINED",
+      "review_evidence": "full-report-v1.md; conditional-law-audit-v1.md; exact certificate/probability/ENUM control outputs"
+    },
+    {
+      "id": "FF3-N4-POOL-DIAGNOSTIC-1",
+      "evidence": "FV12",
+      "expected": "Sampled6vertex infeasibility remains numeric-only; exact H vertices do not certify selector infeasibility.",
+      "review_disposition": "NUMERIC_UNKNOWN_ERROR_PRESERVED_EXACT_DUAL_SEPARATE",
+      "review_evidence": "full-report-v1.md; conditional-law-audit-v1.md; exact certificate/probability/ENUM control outputs"
+    },
+    {
+      "id": "FF3-JOINT-CLASS-N4-FAIL-1",
+      "evidence": "FV13",
+      "expected": "Exact integer Farkas for all joint target weight-pair tables with class(za,z0,z1); retain full-direction escape.",
+      "review_disposition": "PASS_SCOPED_OR_EXPECTED_FAILURE_RETAINED",
+      "review_evidence": "full-report-v1.md; conditional-law-audit-v1.md; exact certificate/probability/ENUM control outputs"
+    },
+    {
+      "id": "FF3-COMPRESSION-M-1",
+      "evidence": "FV14 selection-discloses-secret",
+      "expected": "Omitting maximum selection weight M is false.",
+      "review_disposition": "PASS_SCOPED_OR_EXPECTED_FAILURE_RETAINED",
+      "review_evidence": "full-report-v1.md; conditional-law-audit-v1.md; exact certificate/probability/ENUM control outputs"
+    },
+    {
+      "id": "FF3-COMPRESSION-L-1",
+      "evidence": "FV14 class-discloses-entire-secret",
+      "expected": "Omitting class alphabet L is false.",
+      "review_disposition": "PASS_SCOPED_OR_EXPECTED_FAILURE_RETAINED",
+      "review_evidence": "full-report-v1.md; conditional-law-audit-v1.md; exact certificate/probability/ENUM control outputs"
+    },
+    {
+      "id": "FF3-COMPRESSION-FACTOR-1",
+      "evidence": "FV14 outside-factorization",
+      "expected": "OutputY=X=S with constantclass is outside theorem; do not ignore full residual/input state.",
+      "review_disposition": "PASS_SCOPED_OR_EXPECTED_FAILURE_RETAINED",
+      "review_evidence": "full-report-v1.md; conditional-law-audit-v1.md; exact certificate/probability/ENUM control outputs"
+    },
+    {
+      "id": "FF3-COMPRESSION-PRIOR-1",
+      "evidence": "FV14 nonuniform-prior",
+      "expected": "Use actual maximum prior atom,or posterior guessing probability after advice; no freeS from outerwrapper.",
+      "review_disposition": "PASS_SCOPED_OR_EXPECTED_FAILURE_RETAINED",
+      "review_evidence": "full-report-v1.md; conditional-law-audit-v1.md; exact certificate/probability/ENUM control outputs"
+    },
+    {
+      "id": "FF3-COMPRESSION-RANDOMIZED-1",
+      "evidence": "FV14 randomized-class",
+      "expected": "Use exact selected conditional law and pointwise normalization averaged over declared class randomization.",
+      "review_disposition": "FRESH_CLASS_CONTROLS_PASS_BUT_LITERAL_OPTIONAL_V1_REJECTED",
+      "review_evidence": "randomized-class-interpretation-correction-v1.md; persistent seed defeats averaged normalization; fresh repairs require different reviewer"
+    },
+    {
+      "id": "FF3-RANK-DIRECTION-ENDPOINT-1",
+      "evidence": "FV15",
+      "expected": "Full ring H rows and both endpoints exact; finite rational laws remain distinct from wrappedGaussian.",
+      "review_disposition": "PASS_SCOPED_OR_EXPECTED_FAILURE_RETAINED",
+      "review_evidence": "full-report-v1.md; conditional-law-audit-v1.md; exact certificate/probability/ENUM control outputs"
+    },
+    {
+      "id": "FF3-JOINT-RANK-POSITIVE-1",
+      "evidence": "FV16 n2",
+      "expected": "47rational weights give exact all-secret/comparator laws; fullpairrank must be counted as retained information.",
+      "review_disposition": "PASS_SCOPED_OR_EXPECTED_FAILURE_RETAINED",
+      "review_evidence": "full-report-v1.md; conditional-law-audit-v1.md; exact certificate/probability/ENUM control outputs"
+    },
+    {
+      "id": "FF3-JOINT-RANK-UNKNOWN-1",
+      "evidence": "FV16 n4 and FV17",
+      "expected": "Preserve UNKNOWN and primalERROR. Only separately exact integer Farkas establishes scoped n4 failure.",
+      "review_disposition": "NUMERIC_UNKNOWN_ERROR_PRESERVED_EXACT_DUAL_SEPARATE",
+      "review_evidence": "full-report-v1.md; conditional-law-audit-v1.md; exact certificate/probability/ENUM control outputs"
+    },
+    {
+      "id": "FF3-SYMMETRY-BATCH-1",
+      "evidence": "full-direction-open-interfaces-v1.md",
+      "expected": "Averaged one-sample endpoints compose with fresh per-sample transforms conditional on commonS; one shared transform does not automatically give product of averages.",
+      "review_disposition": "PASS_SCOPED_OR_EXPECTED_FAILURE_RETAINED",
+      "review_evidence": "full-report-v1.md; conditional-law-audit-v1.md; exact certificate/probability/ENUM control outputs"
+    },
+    {
+      "id": "CP-1",
+      "evidence": "FV14 and inherited exact regression",
+      "expected": "Continue rejecting21/2000>(1/10)^2; no posterior marginal-product inference.",
+      "review_disposition": "PASS_SCOPED_OR_EXPECTED_FAILURE_RETAINED",
+      "review_evidence": "full-report-v1.md; conditional-law-audit-v1.md; exact certificate/probability/ENUM control outputs"
+    }
+  ],
+  "new": [
+    {
+      "id": "FULL-FF3-P2-Z-ATOM-1",
+      "status": "REJECTED_LITERAL_V1",
+      "provenance": "defect-public-z-v1.md",
+      "historical_parent": "BT14-HISTORY-ATOM-1",
+      "counterexample": "Independent nonatomic Z, N4, hit-selector G=C,M1 yields guessing1>1/2 and mean4."
+    },
+    {
+      "id": "FULL-FF3-P2-PERSISTENT-CLASS-1",
+      "status": "REJECTED_OPTIONAL_V1",
+      "provenance": "root selector-randomized-class-rejection-v1.md from FULL-REPAIR4; local full recalculation in randomized-class-interpretation-correction-v1.md",
+      "counterexample": "Persistent seed mixture4/7 hit-only and3/7 always-accept: normalizer1,M2,L2,N8; mean5,guess5/8>1/2."
+    },
+    {
+      "id": "FULL-FF3-P2-AFFINE-N2-1",
+      "status": "OMITTED_DIMENSION_PREMISE_COUNTEREXAMPLE",
+      "provenance": "bounded-affine-full-review-v1.md",
+      "counterexample": "n2 Delta uniform four coordinate signed axes,Z=(I+T)Delta/2 gives identical uniform four-diagonal W_s laws; trC1,TV0. Excluded by n>=4."
+    },
+    {
+      "id": "FULL-FF3-P2-SHARED-GROUP-1",
+      "status": "EXPECTED_FAILURE_REPRODUCED",
+      "provenance": "independent-probability-controls-v1-summary.json",
+      "counterexample": "Shared fair tape pair versus fresh pair has exactTV1/2 despite same marginals."
+    },
+    {
+      "id": "FULL-FF3-P2-AFFINE-RAW-TAIL-1",
+      "status": "EXPECTED_HYPOTHESIS_FAILURES_REPRODUCED",
+      "provenance": "independent-probability-controls-v1-summary.json",
+      "counterexample": "Noncentered raw moments; rare Delta10000e0 with probability1e-8; S-dependent Z and modulo alias controls."
+    },
+    {
+      "id": "FULL-FF3-P2-ENUM-TRANSLATE-1",
+      "status": "CORRECTED_PROOF_PASS_OLD_FAILURE_RETAINED",
+      "provenance": "independent-enum-repair-controls-v1-summary.json",
+      "counterexample": "672 E-box failures within101124 checked finite input cases; box-E always correct;19/2809<=150/2809."
+    }
+  ]
+}

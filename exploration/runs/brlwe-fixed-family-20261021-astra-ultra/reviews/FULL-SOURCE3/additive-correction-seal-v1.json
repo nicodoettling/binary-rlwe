@@ -1,0 +1,17 @@
+{
+  "at_utc": "2026-10-21T20:45:01.453553+00:00",
+  "supersedes_affected_recommendations_only": true,
+  "original_seal_sha256": "46f2aefbe140f2b7868834ce6a405b8619e34a0e31aad5e8e4e3b7edd5bf7215",
+  "original_seal_unchanged": true,
+  "RS_v1_full_statement": "WITHDRAWN: inherited-radius paragraph NOT CERTIFIED",
+  "RS_generic_r_algorithm": "Separate pointwise proof remains supported",
+  "downstream": [
+    "GAP-v1,LIST-v1,ACTUAL-v3 require explicit dependency reconciliation"
+  ],
+  "RS_v2_fresh_gate": "Assigned to a different reviewer; not claimed here",
+  "files": {
+    "additive-correction-v1.md": "a2c49faa8b3558eddb5fa3934f8a1d43a3825fab9e8ec435c4b55f3fcb3ccd4b",
+    "additive-correction-assignment-verbatim.txt": "36bf544fda7f98b839967fc462e6356dfc4eac8b7027105cd8dd57f6148a15f4",
+    "rs-radius-symbol-rejection-input-v1.md": "3271e759f9690ab2b6f3c8706287ef10673e1d3bc273efe41ab9f755946b39d2"
+  }
+}

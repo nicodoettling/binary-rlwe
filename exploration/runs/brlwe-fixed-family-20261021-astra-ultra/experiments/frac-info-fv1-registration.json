@@ -1,0 +1,19 @@
+{
+  "id": "FRAC-INFO-FV1",
+  "registered_at": "2026-10-21T18:37:25.369199+00:00",
+  "hypothesis": "Pairwise separation and iid affinity product hold for fixed-secret source laws; repeated data must falsify iid multiplication; finite Gaussian controls agree with theta bound.",
+  "code": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/frac-info-fv1.py",
+  "sha256": "e542a0ff92d58a5cfbc38bba61ab940c8b572177d2d3e519e6819054e1a68b2e",
+  "seed": null,
+  "inputs": "Exact n2 q3 finite distributions; scalar-lattice Gaussian controls n2 q3,5,7 m1,2,3",
+  "command": "timeout 120s prlimit --as=536870912 --cpu=110 /usr/bin/time -v -o experiments/frac-info-fv1-resources.txt python3 experiments/frac-info-fv1.py > experiments/frac-info-fv1-output.json 2> experiments/frac-info-fv1-stderr.txt (working directory OUTPUT)",
+  "limits": {
+    "wall_seconds": 120,
+    "address_space_bytes": 536870912,
+    "cpu_seconds": 110
+  },
+  "estimated": "<10 seconds, <100MiB, one light process",
+  "precision": "Fraction exact finite laws; binary64 theta diagnostics with explicit scalar truncation bounds, no certified floating intervals",
+  "expected": "All asserts pass; repeated-data independence counterexample accepted",
+  "status": "registered, awaiting an experiment slot; not executed"
+}

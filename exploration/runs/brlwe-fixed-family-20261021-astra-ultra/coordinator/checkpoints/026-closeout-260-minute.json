@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-21T22:08:01.015484+00:00",
+  "service_elapsed_seconds": 15590.379111332004,
+  "scheduled_checkpoint": "2026-10-21T22:08:10.636448+00:00",
+  "scheduled_lateness_seconds": -9.620964,
+  "goal_status": "active",
+  "goal_receipt": "coordinator/goal-checkpoint-026.json",
+  "phase": "REVIEW_DELIVERY_RECONCILIATION",
+  "roles": {
+    "root": "Delivery, evidence accounting and observed closeout",
+    "delivery_audit1": "Completed and sealed",
+    "operations_audit1": "Completed and sealed"
+  },
+  "frontier": "Both final audits sealed. All 28 auxiliary/source claim gates reconciled; FF open, inherited-radius source classification substantive, hardness not established, scientific exhaustion rejected. Final inventory and actual closeout receipts remain.",
+  "evidence": [
+    "coordinator/acceptance-v7.json",
+    "reviews/DELIVERY-AUDIT1/seal-v1.json",
+    "reviews/OPERATIONS-AUDIT1/seal-v1.json",
+    "coordinator/programme-v4.md"
+  ],
+  "resume": "Read actual clock/cap/goal. No discovery or successor. Finish only authorized delivery/closeout. Consolidation22:18:10; workers/experimentsstop22:33:10; finalcheckpoint22:43:10; graceful22:47:05;hard22:48:10UTC. Native goal unresolved; no status mutation for cap/report. After terminal delivery or cap, STOP all scientific work."
+}

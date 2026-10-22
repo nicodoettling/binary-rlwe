@@ -1,0 +1,68 @@
+{
+  "at": "2026-10-21T21:59:14.702443+00:00",
+  "inputs": [
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/runtime-verification.json",
+      "snapshot": "final-inputs/coordinator/runtime-verification.json",
+      "bytes": 57908,
+      "sha256": "5ed015c229bdb86c01019ac293a41208e676b1154fc09c79df172a0bd2b54390",
+      "read_at": "2026-10-21T21:59:14.702443+00:00"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/spawn-receipts-all-v6.json",
+      "snapshot": "final-inputs/coordinator/spawn-receipts-all-v6.json",
+      "bytes": 18447,
+      "sha256": "e47df092d9d4a8225457041616f1f6e0bc4514fddfe6524c7ce6d7396fb74cdc",
+      "read_at": "2026-10-21T21:59:14.702443+00:00"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/checkpoints/025-two-hundred-fifty-minute.json",
+      "snapshot": "final-inputs/coordinator/checkpoints/025-two-hundred-fifty-minute.json",
+      "bytes": 1651,
+      "sha256": "1071de4f94c1005e2ca6ffad712cf1bc058db97f948e04e4ed788fccda5a01e3",
+      "read_at": "2026-10-21T21:59:14.702443+00:00"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/goal-checkpoint-025.json",
+      "snapshot": "final-inputs/coordinator/goal-checkpoint-025.json",
+      "bytes": 1004,
+      "sha256": "53d937b4561222005494942643bc8fe57271192ffac20e15bed040334b669b02",
+      "read_at": "2026-10-21T21:59:14.702443+00:00"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FRONTIER-CHALLENGE1/frontier-challenge-report-v1.md",
+      "snapshot": "final-inputs/reviews/FRONTIER-CHALLENGE1/frontier-challenge-report-v1.md",
+      "bytes": 13924,
+      "sha256": "92dc1205ccbc89aa81d3232e4d2bb39cf0810d4077a123b88a4c72651cf20d91",
+      "read_at": "2026-10-21T21:59:14.702443+00:00"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/assignment.txt",
+      "snapshot": "final-inputs/reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/assignment.txt",
+      "bytes": 1065,
+      "sha256": "04252a8da1d4c99e89d3c2fe52985356085117516587f2a00c65990d2259ca2e",
+      "read_at": "2026-10-21T21:59:14.702443+00:00"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-RESOURCE3/assignment-verbatim.txt",
+      "snapshot": "final-inputs/reviews/BLIND-RESOURCE3/assignment-verbatim.txt",
+      "bytes": 2417,
+      "sha256": "031cf79d580608fe73a275216adda6e61fb0bf425015f2ed812f4b7bf36899fb",
+      "read_at": "2026-10-21T21:59:14.702443+00:00"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-RESOURCE4/assignment-verbatim.txt",
+      "snapshot": "final-inputs/reviews/BLIND-RESOURCE4/assignment-verbatim.txt",
+      "bytes": 2670,
+      "sha256": "c6f2f44fec468d0a041babe40d361aeb0450b6c0d87254ac12a68cb29c20b011",
+      "read_at": "2026-10-21T21:59:14.702443+00:00"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/assignment-verbatim.txt",
+      "snapshot": "final-inputs/reviews/DELIVERY-AUDIT1/assignment-verbatim.txt",
+      "bytes": 2664,
+      "sha256": "87b6f05ff6ff6a44e9642923e4e2c09bd9f7f326ed0e5cc2808f3ca234483641",
+      "read_at": "2026-10-21T21:59:14.702443+00:00"
+    }
+  ]
+}

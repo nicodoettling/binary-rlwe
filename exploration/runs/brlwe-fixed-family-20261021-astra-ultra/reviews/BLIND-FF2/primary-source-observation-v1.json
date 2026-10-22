@@ -1,0 +1,10 @@
+{
+  "source_url": "https://www.impan.pl/shop/en/publication/transaction/download/product/83078",
+  "source_identity": "Triantafyllos Xylouris, On the least prime in an arithmetic progression and estimates for the zeros of Dirichlet L-functions, Acta Arithmetica 150.1 (2011), DOI 10.4064/aa150-1-4",
+  "allowed_by": "allowed-read-manifest-v1.json allow_other",
+  "inspection": "Permitted URL opened through web tool; returned 28-page PDF text inspected, especially printed pages 65 and 66. Screenshot request for PDF page index 1 was also made but no image was delivered to this reviewer; no visual-page verification is claimed.",
+  "observed_theorem": "Theorem 1.1 at printed page 66 states P(a,q)<=C q^5.18 for an effectively computable constant C; the printed-page-65 setup uses coprime positive a and q.",
+  "scope": "Verifies the imported theorem's statement and effectiveness, not its internal analytic proof.",
+  "raw_pdf_sha256": null,
+  "hash_limitation": "The web tool supplied parsed content, not locally available raw PDF bytes. No hash of unseen bytes is claimed. This observation file is sealed by the report artifact manifest."
+}

@@ -1,0 +1,8 @@
+{
+  "stage": "selector",
+  "status": 2,
+  "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+  "seconds": 7.749799935030751,
+  "exact_selector_verified": false,
+  "scope": "finite sampled-six-vertex radial ansatz, orientation-free public/residual zero-count selector"
+}

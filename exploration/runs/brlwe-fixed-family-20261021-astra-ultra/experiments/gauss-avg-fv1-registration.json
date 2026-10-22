@@ -1,0 +1,11 @@
+{
+ "id":"GAUSS-AVG-FV1", "registered_before_execution":true,
+ "hypothesis":"Average-cube second difference and PSD trace bound support GAUSS-AVG-v1; n2 remains an exception; Gaussian Fourier scalar inequality survives bounded diagnostics.",
+ "code":"experiments/gauss-avg-fv1.py", "inputs":{"dimensions":[4,8],"PSD_cases_per_dimension":4,"seed":20261021,"matrix_entries":"small seeded integers with C=RR^T and Z=A Delta+independent unit Gaussian"},
+ "command":"/usr/bin/time -v timeout --signal=TERM --kill-after=5s 120s prlimit --as=536870912 --cpu=110 -- python3 exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/gauss-avg-fv1.py",
+ "limits":{"wall_seconds":120,"address_space_bytes":536870912,"cpu_seconds":110},
+ "estimated_resources":"<10s,<64MiB; one light root slot; no other experiment running when assigned",
+ "precision":"exact integers/Fraction core, labeled binary64 Fourier diagnostics, no Gaussian truncation",
+ "expected":"All face/trace inequalities pass; n2 universal extension rejected",
+ "scope":"Finite falsification controls, not formal or infinite-distribution verification"
+}

@@ -1,0 +1,28 @@
+{
+  "assembly_started_at": "2026-10-21T22:45:21.327665+00:00",
+  "service_elapsed_seconds_at_assembly_start": 17830.691217222018,
+  "category": "OBSERVED_LOCAL_CLOSEOUT_BEFORE_EXTERNAL_GRACEFUL_DEADLINE",
+  "worker_stop": "coordinator/worker-experiment-stop-receipt.json",
+  "latest_agents": "coordinator/final-agent-observation.json",
+  "visible_process_observation": "coordinator/final-process-observation.json",
+  "known_active_child_agents": 0,
+  "known_active_experiments": 0,
+  "known_background_exec_sessions_pending": 0,
+  "count_scope": "Coordinator-owned tracked calls only; not an OS-wide census",
+  "scope": "All coordinator-owned experiment calls returned and remaining workers reported completed. The final observer sees only its sandbox namespace; enclosing service and full host descendants are not visible. No host-wide cleanup certificate is claimed.",
+  "systemd_live_query": {
+    "attempted_at": "2026-10-21T22:09:42Z approximately",
+    "exit_code": 1,
+    "stderr": "Failed to connect to bus: Operation not permitted",
+    "retried_or_bypassed": false
+  },
+  "cap_cached_state": "running",
+  "cap_updated_at": "2026-10-21T17:48:10.733979+00:00",
+  "scheduled_graceful_at": "2026-10-21T22:47:05.636448+00:00",
+  "scheduled_kill_at": "2026-10-21T22:48:05.636448+00:00",
+  "hard_deadline_at": "2026-10-21T22:48:10.636448+00:00",
+  "actual_external_graceful_observed": false,
+  "actual_external_hard_kill_observed": false,
+  "no_restart_extension_or_successor": true,
+  "goal_state": "active unresolved; not mutated for delivery or cap"
+}

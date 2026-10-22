@@ -1,0 +1,5 @@
+# RS-v1 inherited-radius symbol defect — preserved before repair
+
+At20:42–20:43Z BLIND-SOURCE4 independently identified that the RS-v1 statement writes r=epsilon*ell^2/(1024nKchiQmax) and the squared substituted condition uses epsilon^2. The inherited definitions instead use epsilon=epsilon_*/4 and r=epsilon_*ell^2/(1024nKchiQmax). If epsilon denotes that defined inherited symbol, the displayed comparison is off by4 in radius and16 in the squared numerator. Original statement/proof and all earlier reviews remain immutable. FULL-SOURCE3's sealed recommendation missed this literal mismatch; it cannot certify that paragraph.
+
+The pointwise algorithmic statement with generic rational r and guard8p^2r^2<n-t+1 is unchanged. ACTUAL-v3 states its own radius correctly with epsilon_*; its composition dependency must nevertheless be reconciled explicitly. GAP/LIST use generic r and require an explicit dependency recheck. RS-v2 corrects the radius symbol, with fresh full and statement-only checks required. No acceptance of the defective full RS-v1 statement is asserted.

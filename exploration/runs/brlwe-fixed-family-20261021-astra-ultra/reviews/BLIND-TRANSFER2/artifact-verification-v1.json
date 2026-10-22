@@ -1,0 +1,30 @@
+{
+  "at_utc": "2026-10-21T21:25:53.474819+00:00",
+  "verification": [
+    {
+      "experiment": "finite-audit",
+      "code_matches_preregistration": true,
+      "exit_code": 0,
+      "elapsed_seconds": 13.772868724074215,
+      "outputs_parse_and_pass": true,
+      "stderr_empty": true
+    },
+    {
+      "experiment": "root-trials-audit",
+      "code_matches_preregistration": true,
+      "exit_code": 0,
+      "elapsed_seconds": 0.04276488092727959,
+      "outputs_parse_and_pass": true,
+      "stderr_empty": true
+    },
+    {
+      "experiment": "sparse-lucas-audit",
+      "code_matches_preregistration": true,
+      "exit_code": 0,
+      "elapsed_seconds": 0.04169538908172399,
+      "outputs_parse_and_pass": true,
+      "stderr_empty": true
+    }
+  ],
+  "reruns": "No broadened or repeated experiments; verified immutable outputs and hashes from independent fresh executions."
+}

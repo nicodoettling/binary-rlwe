@@ -1,0 +1,109 @@
+{
+  "status": "PASS_BOUNDED_EXACT_CONTROLS",
+  "covariance_checks": [
+    {
+      "n": 2,
+      "cross_difference_nonzero": false,
+      "trace": "2"
+    },
+    {
+      "n": 4,
+      "cross_difference_nonzero": true,
+      "trace": "4"
+    },
+    {
+      "n": 8,
+      "cross_difference_nonzero": true,
+      "trace": "8"
+    }
+  ],
+  "same_weight_covariances": {
+    "S1": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "matrix1": [
+      [
+        "2",
+        "1",
+        "0",
+        "-1"
+      ],
+      [
+        "1",
+        "2",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "2",
+        "1"
+      ],
+      [
+        "-1",
+        "0",
+        "1",
+        "2"
+      ]
+    ],
+    "S2": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "matrix2": [
+      [
+        "2",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "2",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "2",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "2"
+      ]
+    ]
+  },
+  "conditional_leakage": {
+    "p_guess_S_given_Y": "3/4",
+    "p_guess_S_given_Y_H": "1",
+    "model": "S,G uniform{0,1}; E uniform{-1,1}; H=E-G; revealing H determines G by parity."
+  },
+  "independent_completion_covariance": [
+    {
+      "K": 1,
+      "ones_direction_quadratic_form": 0
+    },
+    {
+      "K": 2,
+      "ones_direction_quadratic_form": -2
+    },
+    {
+      "K": 3,
+      "ones_direction_quadratic_form": -6
+    },
+    {
+      "K": 8,
+      "ones_direction_quadratic_form": -56
+    }
+  ]
+}

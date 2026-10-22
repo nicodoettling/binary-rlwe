@@ -1,0 +1,75 @@
+{
+  "exact_scope_file": "final-scope-v2.txt",
+  "claims": [
+    {
+      "claim": "FF3-TWOSECRET-v1",
+      "status": "ACCEPTED",
+      "scope": "Exact statement under frozen hypotheses; independent proof in full-report-v1.txt or sparse-report-v1.txt; project integration remains coordinator-owned."
+    },
+    {
+      "claim": "FF3-ENUM-v1",
+      "status": "ACCEPTED",
+      "scope": "Exact statement under frozen hypotheses; independent proof in full-report-v1.txt or sparse-report-v1.txt; project integration remains coordinator-owned."
+    },
+    {
+      "claim": "FF3-COMPRESSED-SELECTOR-INFORMATION-v2",
+      "status": "ACCEPTED",
+      "scope": "Exact statement under frozen hypotheses; independent proof in full-report-v1.txt or sparse-report-v1.txt; project integration remains coordinator-owned."
+    },
+    {
+      "claim": "FF3-JOINT-RANK-FINITE-v1",
+      "status": "ACCEPTED",
+      "scope": "Exact statement under frozen hypotheses; independent proof in full-report-v1.txt or sparse-report-v1.txt; project integration remains coordinator-owned."
+    },
+    {
+      "claim": "FF3-TWOEVENT-v1",
+      "status": "ACCEPTED",
+      "scope": "Exact statement under frozen hypotheses; independent proof in full-report-v1.txt or sparse-report-v1.txt; project integration remains coordinator-owned."
+    },
+    {
+      "claim": "FF3-SELECTOR-PUBLIC-v3",
+      "status": "ACCEPTED",
+      "scope": "Exact statement under frozen hypotheses; independent proof in full-report-v1.txt or sparse-report-v1.txt; project integration remains coordinator-owned."
+    },
+    {
+      "claim": "BOUNDED-AFFINE-TV-v1",
+      "status": "ACCEPTED",
+      "scope": "Exact statement under frozen hypotheses; independent proof in full-report-v1.txt or sparse-report-v1.txt; project integration remains coordinator-owned."
+    },
+    {
+      "claim": "SV-RS-DECODE-v2",
+      "status": "ACCEPTED",
+      "scope": "Exact statement under frozen hypotheses; independent proof in full-report-v1.txt or sparse-report-v1.txt; project integration remains coordinator-owned."
+    },
+    {
+      "claim": "SV-RS-BIT-v2",
+      "status": "ACCEPTED",
+      "scope": "Exact statement under frozen hypotheses; independent proof in full-report-v1.txt or sparse-report-v1.txt; project integration remains coordinator-owned."
+    },
+    {
+      "claim": "SV-SPARSE-ACQ-v1",
+      "status": "ACCEPTED",
+      "scope": "Exact statement under frozen hypotheses; independent proof in full-report-v1.txt or sparse-report-v1.txt; project integration remains coordinator-owned."
+    },
+    {
+      "claim": "FF3-COMPACT-SELECTOR-v1",
+      "status": "REJECTED",
+      "scope": "Whole-statement literal worst-case arbitrary-n fair-bit resource reading rejected; mathematical kernel, expected runtime and finite endpoints proved.",
+      "counterexample": "n=3,12 equiprobable edges; bounded fair bits only yield dyadic probabilities.",
+      "repair_gate": "Explicit expected O(n) fair bits or power-of-two n, separately versioned and freshly reviewed."
+    },
+    {
+      "claim": "FF3-ENERGY-RANK-v1",
+      "status": "REJECTED",
+      "scope": "Whole-statement inheritance of identical scalar numerical count-bit bound into pair extension rejected; mathematical kernels and polynomial complexity proved.",
+      "counterexample": "n=2,I={-1,0,1},energy1 shell count4; pair count16 needs5bits >2log2(3)+1.",
+      "repair_gate": "Separate scalar and pair bit bounds in a separately versioned full statement with fresh review."
+    }
+  ],
+  "counts": {
+    "accepted": 10,
+    "original_resource_scopes_rejected": 2,
+    "targets": 12
+  },
+  "no_repair_acceptance_inherited": true
+}

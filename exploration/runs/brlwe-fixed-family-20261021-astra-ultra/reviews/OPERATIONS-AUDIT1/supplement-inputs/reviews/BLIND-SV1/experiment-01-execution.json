@@ -1,0 +1,16 @@
+{
+  "id":"BLIND-SV1-E01",
+  "launch_time_utc":"2026-10-21T18:36:56Z",
+  "completion_observed_utc":"2026-10-21T18:38:11Z",
+  "command":"python3 exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-SV1/experiment-01.py",
+  "exit_code":0,
+  "stdout":"{\"status\": \"PASS\", \"signed_cycle_cases\": 126, \"ideal_cases\": 10, \"elapsed_seconds\": 19.15642660902813, \"output\": \"/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-SV1/experiment-01-result.json\"}\n",
+  "stderr":"",
+  "registered_wall_seconds":120,
+  "registered_cpu_seconds":115,
+  "registered_address_space_bytes":536870912,
+  "observed_peak_memory":"not separately measured; RLIMIT_AS enforced",
+  "service_tier":"No tier selection or change requested; actual backend billing telemetry unavailable",
+  "slot_released":true,
+  "follow_on_experiments":0
+}

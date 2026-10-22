@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "chain_rank_cases": 128,
+  "all_subfield_cases": 47,
+  "eligible_rows": [
+    {
+      "n": 8,
+      "p": 17,
+      "t": 1,
+      "index": 17,
+      "d_star": 17,
+      "d_all": 17,
+      "subfields": 8,
+      "stabilizer": [
+        1
+      ]
+    },
+    {
+      "n": 16,
+      "p": 97,
+      "t": 1,
+      "index": 97,
+      "d_star": 97,
+      "d_all": 97,
+      "subfields": 11,
+      "stabilizer": [
+        1
+      ]
+    },
+    {
+      "n": 32,
+      "p": 193,
+      "t": 1,
+      "index": 193,
+      "d_star": 193,
+      "d_all": 193,
+      "subfields": 14,
+      "stabilizer": [
+        1
+      ]
+    },
+    {
+      "n": 32,
+      "p": 193,
+      "t": 3,
+      "index": 7189057,
+      "d_star": 7189057,
+      "d_all": 7189057,
+      "subfields": 14,
+      "stabilizer": [
+        1
+      ]
+    }
+  ],
+  "even_support_control": {
+    "n": 8,
+    "roots": [
+      1,
+      9
+    ],
+    "stabilizer": [
+      1,
+      9
+    ]
+  },
+  "arithmetic": "exact integers and finite fields; logarithm used only redundant diagnostic inequality",
+  "scope": "bounded structural controls, not infinite asymptotics or hardness",
+  "wall_seconds": 0.02732696197926998
+}

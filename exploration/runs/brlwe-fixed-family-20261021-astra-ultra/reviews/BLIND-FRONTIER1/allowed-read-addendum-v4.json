@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-21T20:26:16.615843+00:00",
+  "purpose": "Theorem-only actual-radius parameter corollary; no new author proof or outcome exposed",
+  "files": [
+    {
+      "path": "reviews/BLIND-FRONTIER1/allowed-input/rs-actual-radius-witness-statement-v1.md",
+      "sha256": "402db730de4281c45c21b12840b700dca685033c4cdb926e6cc1ec1eae5f8dab"
+    },
+    {
+      "path": "reviews/BLIND-FRONTIER1/allowed-input/actual-radius-parameter-definitions-v1.md",
+      "sha256": "eb12d66a9d457d1eea01b3c92da4f1018bc1c0c75476b7ea3c0ae3334d2967a7"
+    }
+  ],
+  "additional_permitted_reads": [
+    "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/am-main-theorem-v3.md",
+    "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/fixed-main-statement-v2.md",
+    "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD2/am1-strengthened-theorem-v1.md"
+  ]
+}

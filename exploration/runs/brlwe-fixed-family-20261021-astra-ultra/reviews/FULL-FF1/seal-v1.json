@@ -1,0 +1,91 @@
+{
+  "sealed_at": "2026-10-21T18:28:44.456156+00:00",
+  "role": "NONAUTHOR_FULL_NOT_BLIND",
+  "candidate_versions": [
+    "CRT-PROJ-v1",
+    "CERT-EXTRACT-v1"
+  ],
+  "verdict": "CRT full-pass pending blind; CERT analytic pass under intended model, finite-model certification rejected pending versioned MODEL-1 repair; FF/source hardness unestablished",
+  "files": [
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF1/allowed-inputs-v1.json",
+      "sha256": "dbd7100c5c09e4d8fbf6f1681814d35ef95d14d58fa2b3be68ab696f9390deb0",
+      "bytes": 13512
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF1/assignment-v1.md",
+      "sha256": "3cbbac06743627b636d3d29199b40c73fc9a1a7d1378e99e361653763ef62f8e",
+      "bytes": 2685
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF1/claim-dispositions-v1.json",
+      "sha256": "e98c80e17450be9145bff303c685108627b9e60b72e47ff86a7111c3a5b57a42",
+      "bytes": 1512
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF1/finite-controls-v1-output.json",
+      "sha256": "92bc05f048d93d351d684ad618d46174efe018631bce20ee64a86f769d0cde6f",
+      "bytes": 1596
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF1/finite-controls-v1-registration.json",
+      "sha256": "537d361e0e37cdc3b58fc1f3ef031214e7be756105459a9fc332b701a2b2d4ad",
+      "bytes": 1197
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF1/finite-controls-v1-resources.txt",
+      "sha256": "38497f7b0d8f525c3be6f879cb3ad8643403fa7d8306ea997b78ac2f5780ba2c",
+      "bytes": 898
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF1/finite-controls-v1-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF1/finite-controls-v1.py",
+      "sha256": "211bdb93df831778544baf904f7adb5755ca1cd5fc6bc0514b2278ab5c9869cc",
+      "bytes": 5059
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF1/full-report-v1.md",
+      "sha256": "7133101ff01b34b82573b78e49020a01faa4d1b6e5660c71e2e3169a454e1c58",
+      "bytes": 8012
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF1/initial-findings-v1.md",
+      "sha256": "d8150e94b357cc11141408f9803354f74286b076bd9336d0f20ff9ba91a2fd97",
+      "bytes": 3373
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF1/probability-report-v1.md",
+      "sha256": "cf1119b48c8392470b3ad0f5d5a92c58b98502644dae3cdcdbfba123b706251c",
+      "bytes": 7117
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF1/read-receipt-v1.json",
+      "sha256": "5c5b036a2d07fec2f9915aabc2e95a129e93dc2dec9465093a53dc30468ace70",
+      "bytes": 10153
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF1/regression-dispositions-v1.json",
+      "sha256": "84eff4971500374a54a2bf0afadc8423d0e5cb2be6c3daea0a3874491205aa70",
+      "bytes": 150672
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF1/source-complexity-report-v1.md",
+      "sha256": "593de739fb7e4a949ff52053948dd69829a6b86c0b91a3214bc6547cc2b271d5",
+      "bytes": 6832
+    }
+  ],
+  "inputs_unchanged": true,
+  "experiment": {
+    "id": "FULL-FF1-FV1",
+    "exit": 0,
+    "wall_seconds": 0.11,
+    "peak_RSS_KiB": 12288,
+    "running_jobs": 0
+  },
+  "nonterminal": true,
+  "protected_discovery_end": "2026-10-21T21:18:10.636448Z"
+}

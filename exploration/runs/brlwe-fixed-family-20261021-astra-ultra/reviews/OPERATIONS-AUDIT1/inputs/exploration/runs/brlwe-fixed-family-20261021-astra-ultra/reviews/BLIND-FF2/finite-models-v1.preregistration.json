@@ -1,0 +1,32 @@
+{
+  "job": "BLIND-FF2-FINITE-v1",
+  "created_utc": "2026-10-21T18:51:27.104313+00:00",
+  "hypotheses": [
+    "CRT dual norm and binary certificate bounds survive small exact fields.",
+    "Coordinate test transformation preserves the full joint law for arbitrary deterministic error atoms, hence arbitrary mixtures.",
+    "Partial complement masking preserves projection TV jointly with A for correlated errors.",
+    "Fresh independent banks remain independent at every positive history, while same-bank adaptive selection can bias errors.",
+    "Tensor TV union, empirical classification constants, finite Bernoulli concentration, bounded rejection and good-secret averaging have no finite counterexample in the enumerated domains.",
+    "CP-1 must reject the unsupported sequential product.",
+    "Finite rational Gaussian approximants do not exceed the stated flattening bound within a separately stated numerical tolerance."
+  ],
+  "code_file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-FF2/finite-models-v1.py",
+  "code_sha256": "30f843f680e8826c60c4f9bb03b84bdfae84203e1d152cd1fbaffcf6e36bec38",
+  "inputs": "All exact enumerated domains and cases are hard-coded in the frozen code; no external file or network input.",
+  "seed": "NONE: exhaustive deterministic enumeration",
+  "precision": "Python unbounded integers and fractions.Fraction; Decimal precision 80 only for Hoeffding exponent and finite Gaussian approximation comparisons; latter are explicitly non-certifying.",
+  "resources": {
+    "wall_timeout_seconds": 120,
+    "cpu_limit_seconds": 115,
+    "address_space_MiB": 512,
+    "threads": 1,
+    "detached": false
+  },
+  "command": "timeout 120s python3 /home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-FF2/finite-models-v1.py",
+  "status": "PREREGISTERED; NOT RUN; requesting fresh root slot after this artifact is saved.",
+  "outputs": [
+    "finite-models-v1.stdout.jsonl",
+    "finite-models-v1.run.json"
+  ],
+  "allowed_falsifications": "Any assertion failure is preserved, not silently repaired. Negative finite search is evidence, not proof."
+}

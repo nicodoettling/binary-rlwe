@@ -1,0 +1,56 @@
+{
+  "at": "2026-10-21T19:43:43.308308+00:00",
+  "inputs": [
+    {
+      "file": "reviews/BLIND-FRONTIER1/allowed-input/gaussian-average-obstruction-statement-v1.md",
+      "sha256": "de8d42c91ac1fea792d8ca4c7f01829a588c94582d5febf3cd3e666a8a690368",
+      "source_statement": "coordinator/gaussian-average-obstruction-statement-v1.md",
+      "source_sha256": "7b3f0d3c6367dcf354d2fbfcff42c3c19cb668d34baf0393094f37f8031752cd",
+      "transformation": "Remove status/editorial proof references only; mathematical statement preserved"
+    },
+    {
+      "file": "reviews/BLIND-FRONTIER1/allowed-input/fractional-information-statement-v1.md",
+      "sha256": "8721f5d4e52b47b301ecc5304464dbd8d15411fb80c7c5098bb39ca0668c979e",
+      "source_statement": "coordinator/fractional-information-statement-v1.md",
+      "source_sha256": "94f562284bf0f7b9117be57261e0c19deb76dcdff7bd317f7a722203f604b8bd",
+      "transformation": "Remove status/editorial proof references only; mathematical statement preserved"
+    },
+    {
+      "file": "reviews/BLIND-FRONTIER1/allowed-input/weight-covariance-statement-v1.md",
+      "sha256": "c572cc95edbebfb697c1ab562d5e10749917a05e7dc37bdf49020130b869b94e",
+      "source_statement": "coordinator/weight-covariance-statement-v1.md",
+      "source_sha256": "af37700170161bd8593c5573c192f3b24b113eb5a518db08f35d69a0d678b234",
+      "transformation": "Remove status/editorial proof references only; mathematical statement preserved"
+    },
+    {
+      "file": "reviews/BLIND-FRONTIER1/allowed-input/weight-gaussian-statement-v1.md",
+      "sha256": "7385ae63d0b234a8c55b14076ab582429053019ea62105c02ee9ba0afb6e5fa3",
+      "source_statement": "coordinator/weight-gaussian-statement-v1.md",
+      "source_sha256": "c8bb8ed7fbc2f4c0be3ffed21e8a5e4d83d07b02e7d2d1bfc8569b095006406f",
+      "transformation": "Remove status/editorial proof references only; mathematical statement preserved"
+    },
+    {
+      "file": "reviews/BLIND-FRONTIER1/allowed-input/source-prime-support-statement-v2.md",
+      "sha256": "5c3d1219465ae08b82abbaf4853da27c55428763b27236e6055e0c52ecbad751",
+      "source_statement": "coordinator/source-prime-support-statement-v2.md",
+      "source_sha256": "1176e7484ba806a92ea18d95e22375938f210d38fe1268fe9f178e280d76374d",
+      "transformation": "Remove status/editorial proof references only; mathematical statement preserved"
+    },
+    {
+      "file": "reviews/BLIND-FRONTIER1/allowed-input/all-subfields-comparison-statement-v1.md",
+      "sha256": "1225f638cb7b835d17f1775aeda24495f22f190e1f5f95a139c2171b4138b550",
+      "source_statement": "coordinator/all-subfields-comparison-statement-v1.md",
+      "source_sha256": "e4bc6f736371b22a5bcb966a065b36f32b16966acdc1958e5ed56de9176d2ea0",
+      "transformation": "Remove status/editorial proof references only; mathematical statement preserved"
+    },
+    {
+      "file": "reviews/BLIND-FRONTIER1/allowed-input/subfield-contraction-statement-v2.md",
+      "sha256": "31b97bf2f3e0c33f7464ed41bd6041809784f2716c0332b53164c9f779896f3f",
+      "source_statement": "coordinator/subfield-contraction-statement-v2.md",
+      "source_sha256": "9157018baf8fa6d4e6fc3f3e889f3ba6fd07ce206175be4f37508553593c2bae",
+      "transformation": "Remove status/editorial proof references only; mathematical statement preserved"
+    }
+  ],
+  "extra": "allowed-input/definitions-and-sources.md",
+  "forbidden": "Author proofs, statuses, other reviewer reports, experiments, coordinator summaries, programme outcomes. Root-level historical summaries are not authoritative inputs."
+}

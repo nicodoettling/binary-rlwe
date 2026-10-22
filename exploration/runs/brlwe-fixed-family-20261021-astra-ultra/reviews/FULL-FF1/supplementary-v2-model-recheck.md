@@ -1,0 +1,13 @@
+# Supplementary exact CERT-EXTRACT-v2 model recheck
+
+This supplementary check follows the sealed FULL-FF1 v1 review. It is neither a fresh referee nor blind review, and it does not replace the required fresh v2 and blind checks.
+
+The exact statement-v1/v2 and proof-v1/v2 diffs were inspected in full. V2 now supplies rational epsilon, delta and sigma with finite signed-numerator/positive-denominator encodings; charges all supplied encodings and metadata; supplies finite fair-bit D code with an all-valid-input/all-tape bound T_D; and explicitly restarts each D call with fresh independent bits, independent of raw data and all transformation coins. These premises close MODEL-1's identified encoding and coin-independence omissions. The fresh-coin negative control remains valid and now violates an explicit v2 premise.
+
+The statement computes r by exact q^(2r)>n^n comparisons and logarithmic ceilings by integer/rational comparisons. Empirical means, a and threshold distances are rational, so no unbounded computable-real equality oracle is used. Tau is explicitly a mathematical promised bound that the algorithm never evaluates; this prevents accidentally introducing a transcendental boundary decision. Sigma only specifies the raw-law promise; the extractor does not generate exact infinite Gaussian samples.
+
+Every transformed/hybrid call is still a valid ordered ring-sample input to the supplied D bound. Finite root enumeration and idempotents remain charged in numeric q; the finite cap keeps all field draws bounded. The input D bound may be supplied as a promise; it need not be verified by deciding a halting problem. Actual evaluations can be clocked at that bound without changing promised calls.
+
+The added text changes no distribution identity, threshold constant, physical sample count, field-draw count or success bound. The analytic and finite conditional-law checks in the sealed v1 reports therefore apply to the same calculations with the previously implicit coin premise now explicit. No additional experiment was required because the repaired model excludes the exact reused-coin negative witness and does not alter the tested transformations. This is an exact dependency recheck, not automatic transfer of coordinator acceptance.
+
+Supplementary verdict: MODEL-1 resolved by the exact v2 text; CERT-EXTRACT-v2 remains REPAIRED-PENDING-RECHECK for fresh full/blind review and reconciliation. CRT-PROJ-v1 is unchanged. A-FRAC's K-dependent source completion, fixed-q source coprimality handling, full FF and independently established source hardness remain separate unresolved obligations.

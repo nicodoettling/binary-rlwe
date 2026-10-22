@@ -1,0 +1,11 @@
+# FF1 first-phase attempt ledger
+
+1. **Increase Q / tighten deterministic rounding only.** Rejected as a universal retained-S simulation strategy by FF1-MR-WITNESS-v1, pending exact review. Its comparator is exact in the continuous limit, but per-sample residual noise persists; polynomial k amplifies it. The sample-only efficient question remains open.
+2. **Gaussian randomized rounding with secret-independent correlated correction.** Exact additive covariance design rejected by FF1-COV-v1, with n2 exception retained. The >3/4-cube supplement removes reliance on four rare secrets for exact covariance equality. Approximate normalized kernel TV is not settled.
+3. **Correlate the completion correction H with latent G.** The representation can become exact, but the inherited guessing proof fails: finite example p_guess(S|Y)=3/4 versus p_guess(S|Y,H)=1. A new normalized information argument is open.
+4. **Shrink source width through existing B-GP.** Existing uniform-coset bridge has a scalar smoothing floor. Simple narrow rejection costs about D; numeric D may be exponential. Effective weighted-coset sampling or a different narrow bridge remains open.
+5. **Signed high-order correction.** Naive tensor inversion has exponential absolute-mass overhead on a finite two-state example. A Gaussian-specific nearly positive correction or non-tensor computational argument remains open. No false truncated-series theorem is promoted.
+6. **Direct Micciancio2018 matrix sample extension.** Exact diag(z) ring-algebra commutation fails except constant signs; full-ring statistical hashing lacks entropy. The retained noiseless full-ring hash is also efficiently distinguishable by unit division. These reject the direct endpoint substitutions.
+7. **S-dependent rectangular gadget / computational noisy endpoint.** This is not covered by the secret-independent covariance obstruction. A hidden/noisy intermediate could conceivably avoid the statistical support bound; no independently grounded pseudorandomness proof or exact rank-one gadget was found in this phase. Kept OPEN with its endpoint obligation.
+
+Each initial failure led to a different construction. This ledger is not an exhaustion certificate. Fixed-family reduction remains OPEN, no source-hardness claim is made, and the protected investigation continues under the coordinator.

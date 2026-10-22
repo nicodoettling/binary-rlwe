@@ -1,0 +1,20 @@
+{
+  "id": "FULL-FF3-INDEPENDENT-v1",
+  "completed_at": "2026-10-21T19:53:51.516904+00:00",
+  "approval": "Root granted LIGHT 120s/512MiB; FV12 other HEAVY job",
+  "exit_status": 0,
+  "elapsed_seconds": 0.49,
+  "peak_RSS_KiB": 18432,
+  "timeout_seconds": 120,
+  "AS_bytes": 536870912,
+  "status": "PASS_BOUNDED_EXACT_CONTROLS_ONLY",
+  "cleanup": "Synchronous command ended; no detached children or scratch files",
+  "tails": "No infinite Gaussian computation; analytic review separate",
+  "artifacts": {
+    "independent-controls-v1.py": "611c15229b386849424ba94035ee91e410dc4cc1bf9f37da707e2c6fdaeb922b",
+    "independent-controls-v1-registration.json": "be4dbb3d817fbab798979ad8c634672fb85dd47020139a6cad87c9510e0217c6",
+    "independent-controls-v1.stdout.jsonl": "c7612a90b7eed96e4d89a02e8838a45f123d25a4c52d8fe0e85ed9b426068a84",
+    "independent-controls-v1.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "independent-controls-v1.resources.txt": "04b01476f8d28d134656a3a058a6f22cf1a6681edd9bbf2e4aeaa265f501218f"
+  }
+}

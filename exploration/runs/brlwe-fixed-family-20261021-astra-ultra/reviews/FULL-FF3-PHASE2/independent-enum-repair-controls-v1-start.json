@@ -1,0 +1,17 @@
+{
+  "grant": "LIGHT120s/512MiB GRANTED for your preregistered independent-enum-repair-controls-v1. Please preserve all outputs and cleanup.",
+  "time": "2026-10-21T21:06:30.658873+00:00",
+  "code_and_registration": [
+    {
+      "file": "independent-enum-repair-controls-v1.py",
+      "sha256": "3d67584de7598faa453dd7ae8f094177f8773186f16e57fb0659759874030140"
+    },
+    {
+      "file": "independent-enum-repair-controls-v1-registration.md",
+      "sha256": "22a45b50103eb7f46633400e8d039b36f920e7aada8e3b33926541a6ecddbd8b"
+    }
+  ],
+  "command": "/usr/bin/time -v timeout --signal=TERM --kill-after=5s 120s prlimit --as=536870912 -- python3 independent-enum-repair-controls-v1.py",
+  "seeds": "none",
+  "precision": "exact rational/integer"
+}

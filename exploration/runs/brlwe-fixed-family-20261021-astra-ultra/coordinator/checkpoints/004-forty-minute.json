@@ -1,0 +1,20 @@
+{
+  "at": "2026-10-21T18:29:36.797177+00:00",
+  "service_elapsed_seconds": 2486.1607339699985,
+  "cap_state": "running (startup cap metadata; no fresh host observation)",
+  "goal_status": "active",
+  "goal_receipt": "coordinator/goal-checkpoint-004.json",
+  "roles": {
+    "root": "FF2 source-completion alternatives and reconciliation",
+    "ff1": "FULL-SV1 full source review; next fresh CERT-v2 review",
+    "sv": "FULL-FF1 sealed; supplementary CERT-v2 recheck"
+  },
+  "frontier": "CRT full review passes pending blind. CERT-v1 finite model rejected, v2 repaired pending fresh checks. Three SV classifications provisionally pass full scrutiny; blind pending. Fixed-family source completion remains open.",
+  "evidence": [
+    "reviews/FULL-FF1/seal-v1.json",
+    "reviews/FULL-SV1/preliminary-report-v1.md",
+    "coordinator/certificate-extraction-statement-v2.md",
+    "coordinator/gaussian-average-obstruction-statement-v1.md"
+  ],
+  "resume": "Read time and cap at continuation. At18:33:10Z write45m NONTERMINAL gate and new assignments. Preserve active goal; no scientific termination before21:18:10Z. All target parameters must precede adversary exponents."
+}

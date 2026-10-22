@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "stats": {
+    "full_identity_laws": 80,
+    "conditional_endpoints": 500,
+    "gap_comparisons": 3024,
+    "norm_characters": 1952,
+    "certificate_sets": 62
+  },
+  "good_secret_fixture": {
+    "means": [
+      "1",
+      "1/5",
+      "1/5",
+      "1/5"
+    ],
+    "gap": "1/5",
+    "good_mass": "1/4",
+    "posterior_zero": "5/8"
+  },
+  "same_bank_selected_zero": "9/25",
+  "fresh_vs_reused_D_coin_tail": [
+    "1/16",
+    "1"
+  ],
+  "cap_tv": "1/24",
+  "dg_diagnostics": [
+    {
+      "sigma": 1,
+      "truncated_tv_float": 0.647213595499958,
+      "claimed_bound_float": 1,
+      "coefficient_omitted_mass_upper_formula_float": 8.984086568546155e-199
+    },
+    {
+      "sigma": 2,
+      "truncated_tv_float": 0.07008746526783982,
+      "claimed_bound_float": 0.8150728608848352,
+      "coefficient_omitted_mass_upper_formula_float": 1.796817313709231e-198
+    },
+    {
+      "sigma": 3,
+      "truncated_tv_float": 0.002810154098634249,
+      "claimed_bound_float": 0.03522249198929628,
+      "coefficient_omitted_mass_upper_formula_float": 2.6952259705638466e-198
+    },
+    {
+      "sigma": 4,
+      "truncated_tv_float": 3.444326806015252e-05,
+      "claimed_bound_float": 0.0004332047237873265,
+      "coefficient_omitted_mass_upper_formula_float": 3.593634627418462e-198
+    }
+  ],
+  "limits": "Finite laws validate mechanisms; correlated error fixture is not DG. Floating DG diagnostics and finite dimension arithmetic do not prove asymptotic or infinite-law statements."
+}

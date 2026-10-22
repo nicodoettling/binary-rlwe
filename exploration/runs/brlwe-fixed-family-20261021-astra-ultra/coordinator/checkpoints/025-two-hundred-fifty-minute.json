@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-21T21:58:22.473661+00:00",
+  "service_elapsed_seconds": 15011.837414572015,
+  "scheduled_checkpoint": "2026-10-21T21:58:10.636448Z",
+  "goal_status": "active",
+  "goal_receipt": "coordinator/goal-checkpoint-025.json",
+  "phase": "REVIEW_TARGETED_REPAIR",
+  "roles": {
+    "root": "Final exact-version/operational integration, working delivery v4",
+    "delivery_audit1": "Finishing scoped audit and seal; fresh compact-v3 full gate sealed",
+    "operations_audit1": "Runtime/cap/goal/experiment evidence audit"
+  },
+  "frontier": "All28newaccepted auxiliary/source claims have full+cleanblind exact gates, acceptance-v7 completes resource repairs. MainFFOPEN,source diagnostic substantive at inheritedradius,hardnessNOTESTABLISHED; challenge rejects exhaustion. Delivery summaries corrected forLISTguards,coprimality,n>=4,ENUMallerrors,splitprime. Operational exceptions preserved: max checkpoint lateness251.527s, interval819.513s; BLIND-SV1-E01 peakRSSunmeasured; capstate startupcached.",
+  "evidence": [
+    "coordinator/acceptance-v7.json",
+    "reviews/BLIND-RESOURCE4/seal-v1.json",
+    "reviews/DELIVERY-AUDIT1/compact-v3-full/seal-v1.json",
+    "coordinator/final-draft-v4.md",
+    "coordinator/operational-deviations-v1.json",
+    "coordinator/programme-v4.md"
+  ],
+  "resume": "Read time/cap/goal. No discovery. Finish delivery/operations seals, refresh final inventories only after mutable reports sealed, prepare exact final report and runtime/usage/observedcleanup. Next260m22:08:10;consolidation22:18:10;workerstop22:33:10;checkpoint22:43:10;graceful22:47:05/hard22:48:10. No goal completion/exhaustion/successor."
+}

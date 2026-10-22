@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-21T22:11:42.929325+00:00",
+  "kind": "Stale intake metadata correction only",
+  "path": "claims.json",
+  "before_sha256": "dcc28562628c8794963c1f17c319a9500d22b4ed4f0a096019faf50e50967c76",
+  "after_sha256": "cb4a01e177de2a717d3d1af6a9be64f77792e61d9f349b9cf4dc45f2d5bd8a09",
+  "old_check_depth": "intake in progress; exact version evidence controls stale provisional banners",
+  "new_check_depth": "Exact inherited statement/proof hashes verified in coordinator/inherited-integrity-v1.json; source radius and target quantifiers reconstructed in objective/parameter/reduction records. Inherited acceptance retains its guards; this is not new proof certification.",
+  "claim_statements_proofs_statuses_changed": false,
+  "basis": [
+    "coordinator/inherited-integrity-v1.json",
+    "coordinator/objective-statement-v1.md",
+    "parameter-table.md",
+    "reduction-attempts.md"
+  ],
+  "review_effect": "No exact mathematical claim or acceptance scope changed. Frozen audit input snapshots remain historical byte records."
+}

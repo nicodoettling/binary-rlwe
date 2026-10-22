@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-21T21:35:59.643089+00:00",
+  "id": "FF3-COMPACT-SELECTOR-v3",
+  "verdict": "PASS_RECOMMENDED_EXACT_CONDITIONAL_SCOPE",
+  "hashes": {
+    "coordinator/compact-selector-statement-v3.md": "20c66a210cfb4821eec35b371fbf7478ec3493d18d656a18a5b06dffc2fed889",
+    "coordinator/compact-selector-proof-v3.md": "8625e7453ae8d937ba9b885dd802a065987224862c70becbbc2713046c76a71f"
+  },
+  "v2_correction": "Prior unqualified computational PASS withdrawn; encoded rational M premise was missing. Mathematical kernel and finite endpoints survive. Original sealed report retained.",
+  "new_experiments": 0,
+  "finite_evidence_reuse": "Original independent exact control code and both input JSON hashes verified unchanged. K and endpoint equations unchanged by represented M=3.",
+  "original_seal_sha256": "c3297d7f28e9471e5d72c0317cc33f73b9718da02fcfc302c0cd3bbb6ede7d6e",
+  "inherited203": "original reference file and original seal intact;203 unique IDs",
+  "fresh_blind_and_coordinator_acceptance": "separate gates not supplied by this full recommendation",
+  "review_character": "correlated same-model scrutiny; not formal verification",
+  "delivery_audit": "working snapshot discrepancies reported; not a final delivery pass",
+  "unresolved_local_blocking_defects": []
+}

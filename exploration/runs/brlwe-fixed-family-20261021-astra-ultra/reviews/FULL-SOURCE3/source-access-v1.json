@@ -1,0 +1,26 @@
+{
+  "reviewer": "FULL-SOURCE3",
+  "date_utc": "2026-10-21",
+  "sources": [
+    {
+      "title": "On the least prime in an arithmetic progression and estimates for the zeros of Dirichlet L-functions",
+      "author": "Triantafyllos Xylouris",
+      "publication": "Acta Arithmetica150.1(2011), DOI10.4064/aa150-1-4",
+      "url": "https://www.impan.pl/shop/en/publication/transaction/download/product/83078",
+      "access": "web tool publisher PDF extraction",
+      "pages_checked": "PDF0-1 / printed65-66",
+      "verified_scope": "Theorem1.1 bounds least primes in reduced progressions by C q^5.18 with effective absolute C; weaker exponent6 is valid. Imported theorem statement, not reproof.",
+      "used_for": [
+        "PRIME-SUPPORT growing-support family",
+        "DENSE split-prime family",
+        "ACTUAL split prime above polynomial threshold"
+      ]
+    }
+  ],
+  "accepted_imports_without_wholesale_recertification": [
+    "SV-SUBFIELD-v2 ordinary integer normal forms and odd-prime contraction",
+    "SV-SYMDESC-v2 signed invariant integer basis",
+    "FIXED-MAIN-v2/AM-MAIN-v3 and exact accepted C8 parameter interface"
+  ],
+  "new_code_algorithms": "Fourier/GRS identification, BW linear decoder, list interpolation/root recursion, exact membership and norm selection proved directly in reviewed packet and independently checked."
+}

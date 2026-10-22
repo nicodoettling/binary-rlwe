@@ -1,0 +1,13 @@
+{"name": "class-discloses-parity", "guess": "1/4", "ML_pmax_bound": "1/4", "pointwise_normalization": true, "exact_conditional_law": true, "omitting_M_would_fail": false, "omitting_L_would_fail": true}
+{"name": "class-discloses-entire-secret", "guess": "1", "ML_pmax_bound": "1", "pointwise_normalization": true, "exact_conditional_law": true, "omitting_M_would_fail": false, "omitting_L_would_fail": true}
+{"name": "selection-discloses-secret", "guess": "1", "ML_pmax_bound": "2", "pointwise_normalization": true, "exact_conditional_law": true, "omitting_M_would_fail": true, "omitting_L_would_fail": false}
+{"name": "constant-class-no-selection", "guess": "1/8", "ML_pmax_bound": "1/8", "pointwise_normalization": true, "exact_conditional_law": true, "omitting_M_would_fail": false, "omitting_L_would_fail": false}
+{"name": "constant-class-no-selection-outside-factorization", "output": "Y=X=S", "actual_guess": "1", "claimed_bound_if_full_input_leak_ignored": "1/8", "must_reject": true}
+{"name": "edge-class-dependent-selection", "guess": "1/4", "ML_pmax_bound": "3/8", "pointwise_normalization": true, "exact_conditional_law": true, "omitting_M_would_fail": false, "omitting_L_would_fail": true}
+{"name": "randomized-class", "guess": "3/16", "ML_pmax_bound": "3/8", "pointwise_normalization": true, "exact_conditional_law": true, "omitting_M_would_fail": false, "omitting_L_would_fail": false}
+{"name": "nonuniform-prior", "guess": "1/2", "ML_pmax_bound": "1/2", "pointwise_normalization": true, "exact_conditional_law": true, "omitting_M_would_fail": false, "omitting_L_would_fail": false}
+{"name": "binary-target", "n": 1, "exact_MAP_success": "5/8", "unit_zero_error_lower_bound": "3/8", "unit_fraction": "1/2"}
+{"name": "binary-target", "n": 2, "exact_MAP_success": "7/16", "unit_zero_error_lower_bound": "9/32", "unit_fraction": "1/2"}
+{"name": "binary-target", "n": 4, "exact_MAP_success": "979/4096", "unit_zero_error_lower_bound": "81/512", "unit_fraction": "1/2"}
+{"name": "FULL-FF3-ENUM-SIGN-1", "old_inclusion": false, "corrected_inclusion": true, "symmetric_box": true}
+{"name": "CP-1", "old_product_bound_rejected": true, "actual": "21/2000", "invalid_bound": "1/100"}

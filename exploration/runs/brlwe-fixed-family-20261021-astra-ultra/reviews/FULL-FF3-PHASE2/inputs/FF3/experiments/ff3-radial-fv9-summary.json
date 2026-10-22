@@ -1,0 +1,18 @@
+{
+  "results": [
+    {
+      "model": "radial_ring_vertices",
+      "radial_vertices": 4,
+      "channels": 64,
+      "variables": 5184,
+      "equations": 161,
+      "LP_status": 0,
+      "LP_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "exact_verified": true,
+      "support": 121,
+      "maximum_denominator_bits": 415,
+      "witness_sha256": "89551be14bca906ee358675619a58298b377188281174b9575ebe4164254e40e"
+    }
+  ],
+  "seconds": 0.632923008990474
+}

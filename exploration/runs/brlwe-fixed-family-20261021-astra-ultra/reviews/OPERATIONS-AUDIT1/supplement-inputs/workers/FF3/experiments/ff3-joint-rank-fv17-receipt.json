@@ -1,0 +1,24 @@
+{
+  "id": "FF3-JOINT-RANK-FV17",
+  "created_utc": "2026-10-21T20:27:42.633845+00:00",
+  "code": "ff3-joint-rank-fv17.py",
+  "code_sha256": "61253a481ef94fa43996b2fa44ea663c908e170fef1a71de8d00e41b807d6ad6",
+  "registration": "ff3-joint-rank-fv17-registration.json",
+  "registration_sha256": "5445af62a4845cb1456681e56148bceb0a598a732083bb9fe183b9fb17b36588",
+  "command": "ulimit -v 2097152; /usr/bin/time -v timeout 120s python3 ff3-joint-rank-fv17.py > ff3-joint-rank-fv17-output.jsonl 2> ff3-joint-rank-fv17-resource.txt",
+  "limits": {
+    "wall_seconds": 120,
+    "address_space_bytes": 2147483648,
+    "expected_seconds": 15,
+    "expected_rss_bytes": 1000000000,
+    "heavy": true,
+    "primal_LP_seconds": 40,
+    "dual_LP_seconds": 40
+  },
+  "wall_time_recorded": "0:23.79",
+  "maximum_RSS_KiB": 520240,
+  "exit_status": 0,
+  "root_slot": "Fresh parent grant before each execution, preserved in worker conversation.",
+  "cleanup": "Matching pgrep returned exit1 with empty output after this job; aggregate cleanup rechecked at phase2 seal.",
+  "numeric_status_policy": "Floating solver statuses and operational errors retained; only exact postchecks support mathematical conclusions."
+}

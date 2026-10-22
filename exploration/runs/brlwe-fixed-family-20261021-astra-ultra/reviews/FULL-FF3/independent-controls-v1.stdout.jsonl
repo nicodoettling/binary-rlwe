@@ -1,0 +1,19 @@
+{"kind": "unrestricted_positive", "name": "identity_n1", "entries": 9, "endpoints": 3}
+{"kind": "unrestricted_negative", "name": "uniform_impossible_n1", "min_Atz": "0", "b_dot_z": "-3/4"}
+{"kind": "unrestricted_positive", "name": "reserve_n1_a", "entries": 18, "endpoints": 3}
+{"kind": "unrestricted_positive", "name": "reserve_n1_b", "entries": 49, "endpoints": 3}
+{"kind": "unrestricted_positive", "name": "reserve_n2_a", "entries": 156, "endpoints": 5}
+{"kind": "unrestricted_positive", "name": "reserve_n2_b", "entries": 152, "endpoints": 5}
+{"kind": "unrestricted_negative", "name": "wide_n2", "min_Atz": "0", "b_dot_z": "-1781/1944"}
+{"kind": "unrestricted_positive", "name": "noiseless_n2", "entries": 155, "endpoints": 5}
+{"kind": "normalized_product_failure", "TVs": ["15250351307358014796456295078626392784255698355/129187420518949621268046360296464290193782270016", "15250351307358014796456295078626392784255698355/129187420518949621268046360296464290193782270016", "15250351307358014796456295078626392784255698355/129187420518949621268046360296464290193782270016", "15250351307358014796456295078626392784255698355/129187420518949621268046360296464290193782270016", "40478370186305651786543146980978132931495936/2018553445608587832313224379632254534277847969"], "normalizers": 5}
+{"kind": "restricted_farkas", "mode": "public", "columns": 36, "min_Atz": "0", "b_dot_z": "-781/676"}
+{"kind": "restricted_farkas", "mode": "full", "columns": 324, "min_Atz": "0", "b_dot_z": "-296581386966552714219521694432185984145167386439576249/1185593329241958260536591057357006631231937917152727040"}
+{"kind": "restricted_farkas", "mode": "asym", "columns": 5184, "min_Atz": "0", "b_dot_z": "-740691574979891550502711273261022468620972339281464976370155803769444337093804653816737/7622752590113934910099728730066578561059810493929682561434292468789004423722704879569920"}
+{"kind": "radial_positive", "vertices": 4, "selector_support": 121, "rows": 81, "full_endpoints": 5}
+{"kind": "shared_secret_regression", "TV_from_fresh_secret": "15/256"}
+{"kind": "fresh_enum_box", "Q": 17, "T": 1, "conditional_failure": ["55/867", "55/867", "55/867", "55/867"], "eta": "150/289", "comparator_unique_accept": "9744/83521", "beta": "36/289"}
+{"kind": "enum_sign_counterexample", "A_d": [-2, 0], "wrong_membership": false, "correct_membership": true}
+{"kind": "fresh_rank_degree8", "count": 6560, "nonunit_examples": [{"d": [-1, -1, -1, -1, -1, 0, -1, -1], "det": 289, "rank_mod17": 6}, {"d": [-1, -1, -1, -1, -1, 0, -1, 0], "det": 68, "rank_mod17": 7}, {"d": [-1, -1, -1, -1, -1, 0, 1, 0], "det": 68, "rank_mod17": 7}, {"d": [-1, -1, -1, -1, -1, 1, -1, -1], "det": 2176, "rank_mod17": 7}, {"d": [-1, -1, -1, -1, -1, 1, 1, -1], "det": 2176, "rank_mod17": 7}, {"d": [-1, -1, -1, -1, -1, 1, 1, 0], "det": 289, "rank_mod17": 6}, {"d": [-1, -1, -1, -1, 0, -1, -1, 1], "det": 289, "rank_mod17": 6}, {"d": [-1, -1, -1, -1, 0, -1, 0, -1], "det": 68, "rank_mod17": 7}]}
+{"kind": "CP1", "normalizer": "10/11", "selected": "21/2000", "old_product": "1/100", "later": "21/221"}
+{"kind": "complete", "status": "PASS", "seconds": 0.458977572969161, "precision": "All arithmetic exact integer/Fraction; no Gaussian truncation or floating solver; n8 search is bounded evidence only"}

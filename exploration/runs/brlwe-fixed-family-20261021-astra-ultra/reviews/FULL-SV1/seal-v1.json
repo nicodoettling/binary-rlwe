@@ -1,0 +1,59 @@
+{
+  "review": "FULL-SV1",
+  "sealed_at_utc": "2026-10-21T18:29:20.370677+00:00",
+  "status": "PASS_EXACT_SCOPE_PENDING_BLIND_AND_COORDINATOR",
+  "files": {
+    "assignment.txt": "a48a07983eda082d25a86f69e0e6b28950af760f26df56c7057359e8d338128d",
+    "controls-receipt-v1.json": "89dae3cc7feac668b4230e0e77904c4d8c61cc924a3c18dc1470c3747a6995d1",
+    "controls-registration-v1.json": "ddc7cc71aa28d3c29b8c94129e8d8ef4c29881548202af67ba795834a6619645",
+    "controls-v1.py": "c105e3749a200d5b1806e89df61c0a357af943d51f2635300527ad90c29f5bf6",
+    "controls-v1.resources.txt": "e108d49c982906290196d862e7444523fec8670d904dc350088141e9f8ea469c",
+    "controls-v1.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "controls-v1.stdout.json": "f8ef1f34ea774c625ab7eab06650973d89d1b6cb4a018fdc5a2d7e8efeb8c373",
+    "full-report-v1.md": "e7082d7778d29134d053cb7d9231e7654ea7850df24cf894b37130f507482c19",
+    "input-manifest-addendum-v1.json": "9b132526705a33b366e12392af110d9ba68eb96d9dad57169f5c2b5b86c0e3e5",
+    "input-manifest-v1.json": "61616870e06092015e24b8523a8b2d67477c8440454fe063bbfa1cd3a8a8b409",
+    "intake-v1.md": "3268a561d9c1b42b62e2ebbccb040b4646597a25b16793fb12414b2a045cd26d",
+    "integrity-check-v1.json": "ea8c9b6207c9eed1d9101730e40b5bdcb4de986bbc4e7f2e15e947c6343e0e25",
+    "operational-notes-v1.md": "419a9753de63a3f329ffe986fc910e1b3a70b13194e8e8658549555a048babb0",
+    "preliminary-report-v1.md": "4abeb7ade54617b285e6bbc706106d0c915858b967272f001506760cbaa3c29e",
+    "regression-dispositions-v1.json": "12ab0eaa3abaaee419d84c905b9acbe790ae4c7b3be905d709f091b95eb1d62a",
+    "review-disposition-v1.json": "2376a9fb9591d4fa81ab1d9f5b80a2e89a3079655e823e42b8a9bc1a2988cde7",
+    "source-access-v1.json": "59939433eed04a37a42a04070d496ee125afbf70fc5ca8df19a8f340ee03676c",
+    "source-complexity-report-v1.md": "45d7e08dee2a2a84aa343b5e5046e04bbc589e73ac842e91e7f9c41d2b6c1221"
+  },
+  "principal_claims": [
+    {
+      "claim": "SV-BDD-CLASS-v1",
+      "full_review": "PASS_EXACT_SCOPE",
+      "files": {
+        "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/source-classification-theorem-v1.md": "1b72f95055b9c5a8953c46ee778ade4d57a55d5a61c4a1ce29003c049f59a5a3",
+        "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/source-classification-proof-v1.md": "5c208872ddd99f74294dc60dbcd1a952470b5d09956d576c7346e2f52eca0d5f"
+      },
+      "blocked_dependencies": [],
+      "required_next_step": "fresh blind review and coordinator reconciliation"
+    },
+    {
+      "claim": "SV-FROB-PRIME-v1",
+      "full_review": "PASS_EXACT_SCOPE",
+      "files": {
+        "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/frobenius-prime-theorem-v1.md": "17315abf7b50bbb758a3e0e5c580d159895a1e238ad3b01b88e77a08e8e28d3e",
+        "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/frobenius-prime-proof-v1.md": "8ed560e6c7a58a77d3eb03fbb622afac7347a77bcb9c47188ee141d269ed7546"
+      },
+      "blocked_dependencies": [],
+      "required_next_step": "fresh blind review and coordinator reconciliation"
+    },
+    {
+      "claim": "SV-SYMDESC-v1",
+      "full_review": "PASS_EXACT_SCOPE",
+      "files": {
+        "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/symmetry-descent-theorem-v1.md": "a16f483e8292606f8763eee79b2d64193bb43eb96e1609c0775c68231b5fcf10",
+        "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/symmetry-descent-proof-v1.md": "970995d371e5a8daf8f0f24ec0df056c23a3c8d4fb625cf487a6d8e9bdf08885"
+      },
+      "blocked_dependencies": [],
+      "required_next_step": "fresh blind review and coordinator reconciliation"
+    }
+  ],
+  "changes_after_seal": "new immutable versions only",
+  "programme": "nonterminal; no FF or hardness certification"
+}

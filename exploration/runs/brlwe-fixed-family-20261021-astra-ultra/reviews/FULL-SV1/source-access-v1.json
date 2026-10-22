@@ -1,0 +1,20 @@
+{
+  "access_date_utc": "2026-10-21",
+  "sources": [
+    {
+      "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+      "kind": "primary author course notes PDF",
+      "inspected": "Theorem3.34 proof pp59-60; Proposition4.1 and4.2 p69; Proposition6.2 proof pp96-98; Frobenius discussion/Example8.18 pp141-143",
+      "access": "full relevant PDF text passages read via web tool",
+      "byte_hash": "not available from web tool; no downloaded-byte identity claimed"
+    },
+    {
+      "url": "https://epubs.siam.org/doi/10.1137/0208040",
+      "kind": "primary publisher page",
+      "inspected": "Title, authors, abstract, DOI and bibliographic metadata",
+      "access": "abstract available; full PDF redirected to abstract. TAMU PDF addresses404, ETH inaccessible",
+      "scope": "only polynomial bit-complexity normal-form theorem at explicitly stated abstract scope",
+      "byte_hash": "not available from web tool; no full-paper reading claimed"
+    }
+  ]
+}

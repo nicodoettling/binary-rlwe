@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-21T22:17:14.610485+00:00",
+  "script": "coordinator/finalize-capped-delivery-v1.py",
+  "executed": false,
+  "status": "REJECTED_BEFORE_EXECUTION",
+  "findings_received": [
+    "First-run link validation requires delivery-manifest.json before creation",
+    "Termination marker written before that failure and would prevent rerun",
+    "Checkpoint helper hardcodes worker completion even during a reactivated closeout review",
+    "Finalizer loads but does not validate final checkpoint and hardcodes pending-session zero"
+  ],
+  "evidence": "operations_audit1 live review; complete additive report pending",
+  "planned_repair": "Preserve v1; exact v2 review required before final use. Actual270m roles recorded separately."
+}

@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-21T18:38:49.058283+00:00",
+  "service_elapsed_seconds": 3038.4218405659776,
+  "goal_status": "active",
+  "goal_receipt": "coordinator/goal-checkpoint-005.json",
+  "roles": {
+    "root": "Exact fractional-source information obstruction and constructive narrow-kernel/rectangular alternatives",
+    "ff1": "Fresh FULL-CERT2 review",
+    "blind_sv1": "Fresh statement-only SV review"
+  },
+  "frontier": "45m NONTERMINAL gate complete. Fresh full CERT controls and blind SV controls passed, reports pending. New FRAC-INFO candidate shows optimal statistical source recovery for sufficiently high polynomial sample count; no efficient attack claimed. FF completion and hardness remain open.",
+  "evidence": [
+    "coordinator/gate-045-nonterminal.json",
+    "coordinator/fractional-information-statement-v1.md",
+    "coordinator/fractional-information-proof-v1.md",
+    "experiments/frac-info-fv1-output.json",
+    "reviews/FULL-CERT2/controls-v1.stdout.json",
+    "reviews/BLIND-SV1/experiment-01-preregistration.json"
+  ],
+  "resume": "Read time/cap and native goal at continuation. Next60m checkpoint18:48:10Z;90m allocation19:18:10Z. No scientific termination before21:18:10Z. Fresh blind FF needed after full CERT review; source review independent. Root must continue constructive alternatives; diagnostics alone are not FF."
+}

@@ -1,0 +1,11 @@
+{"forbidden_product": "1/100", "matching": "21/2000", "outcome": "REJECT_UNSUPPORTED_PRODUCT", "posterior": ["21/2000", "1/20", "879/1000"], "second_conditional": "21/221", "test": "CP-1"}
+{"certificate_root_sets": 66, "norm_vectors": 20256, "test": "ARITHMETIC"}
+{"arbitrary_error_mixtures": "follows by linearity", "atom_secret_candidate_cases": 972, "test": "TEST_TRANSFORMATION"}
+{"exact_correlated_distributions": 35, "secret_subset_cases": 560, "test": "PARTIAL_ENDPOINT"}
+{"positive_history_cases": 130, "same_bank_counterexample_zero_probability": "3/4", "tensor_cases": 15, "test": "TENSOR_AND_CONDITIONING"}
+{"integer_endpoint_perturbations": 30330, "strict_ties": "none under empirical gap >=16a", "test": "THRESHOLD_CLASSIFICATION"}
+{"cases": 2700, "max_tail_minus_bound": "-1.0786104317838884397994429696675953109495644678810065823462625454349080368619466E-15", "precision_digits": 80, "test": "HOEFFDING_FINITE"}
+{"exact_q_B_cases": 72, "test": "FIELD_COINS"}
+{"exact_cases": 1090, "test": "GOOD_SECRET_MEASURE"}
+{"cases": 29, "max_tv": "0.80721308479397908660649912348219189989923844893583921842170831523780769022444917", "precision_digits": 80, "status": "bounded numerical comparison of exact rational finite distributions; not an infinite-law proof", "test": "GAUSSIAN_FINITE_APPROXIMANTS", "weight_scale": 10000000000000000000000000000000000000000}
+{"elapsed_seconds": 0.6024349459912628, "status": "all preregistered exact checks passed; finite negative searches are not proofs", "test": "COMPLETE"}

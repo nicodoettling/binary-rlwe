@@ -1,0 +1,18 @@
+{
+  "id": "SYM-RANK-FV2",
+  "registered_at": "2026-10-21T20:36:10.200677+00:00",
+  "hypothesis": "Eight cyclic/reversed permutations of full source pair rank, with class-dependent mixing and legal group symmetrization, may escape the single-forward-rank exclusion",
+  "code": "experiments/symmetrized-rank-fv2.py",
+  "sha256": "37b5b58682676cacc33fdb4cd53e6c3e589dcf2d6b94b99a8dfc15b56c3fb42e",
+  "inputs": "n4Q3q2; all32 legal transforms; r maps to (+/-r+floor(hM/4)) modM for h0,1,2,3; fresh group per sample; all fixed-secret and comparator endpoints",
+  "seeds": "none deterministic",
+  "wall_limit_seconds": 120,
+  "address_space_bytes": 2147483648,
+  "estimated_seconds": 70,
+  "estimated_peak_MiB": 1000,
+  "precision": "Exact integer reconstructed endpoint matrices and orbit sums; numerical LP discovery; exact Farkas or separately reconstructed rational weights required",
+  "tails": "finite rational noise only, no asymptotic/Gaussian implication",
+  "authorization": "root sole HEAVY, FULL-SOURCE3 light released",
+  "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 timeout -k 5s 120s prlimit --as=2147483648 /usr/bin/time -v python3 experiments/symmetrized-rank-fv2.py",
+  "status": "REGISTERED"
+}

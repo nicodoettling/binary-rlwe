@@ -1,0 +1,38 @@
+{
+  "results": [
+    {
+      "mode": "uniform_edge_local_variants",
+      "variables": 144,
+      "equations": 89,
+      "LP_status": 2,
+      "LP_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+      "exact_verified": true,
+      "min_Atz": "0",
+      "b_dot_z": "-51107177291233879399047894782862572581442354598316964316245652977/93825638735341630181588131308242984553226438519004251023859998720",
+      "witness_sha256": "96aa322c511b21eb96fa4d467a4d8bdff7167acf6ea9590704e37a5695b705ff"
+    },
+    {
+      "mode": "local_edge_weights",
+      "variables": 144,
+      "equations": 161,
+      "LP_status": 2,
+      "LP_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+      "exact_verified": true,
+      "min_Atz": "2995522775502855095894052823101418791706133582953/90412363947155587968557226472016496285560635173352924108800",
+      "b_dot_z": "-198046040645689287656785223960300946444965587568815247673757606027034993/363584868823380545533460137438359145106173237615678451268694740825667584",
+      "witness_sha256": "7adbfda6a6bfb73529328599bca6adbd2f80a0b806352beb41fb8b459d108f42"
+    },
+    {
+      "mode": "oriented_local_edge_weights",
+      "variables": 288,
+      "equations": 161,
+      "LP_status": 2,
+      "LP_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+      "exact_verified": true,
+      "min_Atz": "3007709802167341800800791652250244619643655406231/361649455788622351874228905888065985142242540693411696435200",
+      "b_dot_z": "-7004033141767138291857948888303268884698421659769000825656058077094833/12858426539233998639604616545422235998945156231987496508300139369984000",
+      "witness_sha256": "efe1cc20e52c8bd20ea03b4b9f0dc10cd53d3bb1afc979e7b3e602ec1a04e3bd"
+    }
+  ],
+  "seconds": 0.3731872820062563
+}

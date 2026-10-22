@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-21T21:06:45.045479+00:00",
+  "allowed_files": [
+    {
+      "path": "allowed-input/dense-split-source-statement-v1.md",
+      "sha256": "843a3ea886c9d39826b0492284e50c48656c310e36dfb6ed0c195e35af9416af"
+    },
+    {
+      "path": "allowed-input/all-subfields-comparison-statement-v1.md",
+      "sha256": "1225f638cb7b835d17f1775aeda24495f22f190e1f5f95a139c2171b4138b550"
+    },
+    {
+      "path": "allowed-input/subfield-contraction-statement-v2.md",
+      "sha256": "31b97bf2f3e0c33f7464ed41bd6041809784f2716c0332b53164c9f779896f3f"
+    },
+    {
+      "path": "allowed-input/inherited-radius-guards-v1.md",
+      "sha256": "445239aa2e01d580c9e2024934c8703c24bcb8058fc94a533f31a31af10d2365"
+    }
+  ],
+  "interpretation": "Theorems and parameter assumptions only; no proof or status information."
+}

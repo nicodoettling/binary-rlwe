@@ -1,0 +1,21 @@
+{
+  "id": "FULL-FRONTIER1-CONTROLS-v1",
+  "at": "2026-10-21T19:29:23.940901+00:00",
+  "code_sha256": "209349785aa7c9fb81cf24a76116f4f440e2b694dfc57583df097d03898d2f05",
+  "command": "/usr/bin/time -v -o exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FRONTIER1/controls-v1.resources.txt timeout --signal=TERM --kill-after=5s 120s prlimit --as=536870912 -- python3 exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FRONTIER1/controls-v1.py > exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FRONTIER1/controls-v1.stdout.json 2> exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FRONTIER1/controls-v1.stderr.txt",
+  "hypotheses": [
+    "Non-scalar fractional ideal J=(2+i), q=3 respects residue character and dual normalization",
+    "Exact two-law ML inequality requires conditional iid; copied data refutes replacing fresh samples",
+    "Finite-variance tails and secret-dependent advice refute excluded extensions",
+    "All subgroup containment for degrees2 through64, ramified local square-bound equality"
+  ],
+  "inputs": "All explicit in code; integer sizes under1000000, matrix dimension4, max group64, ML K<=10",
+  "seed": null,
+  "precision": "Fraction/integer exact except explicitly labelled binary64 theta diagnostic",
+  "tail_treatment": "Two-sided scalar tail <=2 exp(-pi L^2/w^2)(1+w^2/(2pi L)); log diagnostic only, no interval certification",
+  "timeout_seconds": 120,
+  "address_space_bytes": 536870912,
+  "estimated_peak_MiB": 40,
+  "estimated_seconds": 5,
+  "status": "REGISTERED_NOT_RUN_SLOT_REQUEST_PENDING"
+}

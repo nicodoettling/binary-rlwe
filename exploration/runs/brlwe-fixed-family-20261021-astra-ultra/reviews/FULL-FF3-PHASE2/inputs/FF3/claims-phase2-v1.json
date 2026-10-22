@@ -1,0 +1,12 @@
+[
+ {"id":"FF3-FF-MAIN","status":"OPEN","scope":"PPT fixed-target full binary rank-one Gaussian RLWE transfer; no source-hardness foundation supplied"},
+ {"id":"FF3-ENUM-v1","status":"REPAIRED-PENDING-RECHECK","statement":"exhaustive-kernel-statement-v1.md","proof":"exhaustive-kernel-proof-v2.md","rejected_step":"FULL-FF3-ENUM-SIGN-1","downstream":["FF3-COMPRESSED-SELECTOR-GAUSSIAN-COROLLARY"]},
+ {"id":"FF3-COMPACT-SELECTOR-v1","status":"PROVISIONAL","scope":"normalized selector interface and exact n2 FV11 positive; no scalable family","dependencies":["exact per-input normalization","all fixed-secret and comparator equations"]},
+ {"id":"FF3-COMPRESSED-SELECTOR-INFORMATION-v1","status":"PROVISIONAL","scope":"guessing<=ML/N under explicit output factorization; general prior/public-advice extensions","dependencies":["pointwise accepted conditional law"]},
+ {"id":"FF3-COMPRESSED-SELECTOR-GAUSSIAN-COROLLARY","status":"REPAIRED-PENDING-RECHECK","scope":"ML>=2^n(1-delta-eta) for informative intended Gaussian target","dependencies":["FF3-COMPRESSED-SELECTOR-INFORMATION-v1","FF3-ENUM-v1 proof-v2"]},
+ {"id":"FF3-ENERGY-RANK-v1","status":"PROVISIONAL","scope":"known-residual exact normalized full-direction H given energy table; exact polynomial-numeric DP; explicit Gaussian tail/sampler charges","dependencies":["uniform finite rank transport","specified two-endpoint energy table"]},
+ {"id":"FF3-JOINT-RANK-FINITE-v1","status":"PROVISIONAL","scope":"exact n2 full-cube joint-rank kernel with47rational weights; arbitrary shared-secret batches","dependencies":["FV16 complete integer/Fraction certificate"]},
+ {"id":"FF3-PHASE2-FINITE-EXCLUSIONS-v1","status":"PROVISIONAL","scope":"FV10,FV13,FV17 precisely stated finite ansatzes only","dependencies":["full exact Farkas verification"]},
+ {"id":"FF3-AFFINE-SYMMETRY-INTERFACE-v1","status":"PROVISIONAL","scope":"explicit legal source and inverse target ring transforms; endpoint-averaged rank-kernel extension UNTESTED","dependencies":["signed coefficient permutation of ring automorphism/monomial"]},
+ {"id":"FF3-TWOEVENT-v1-theorem-only-split","status":"PROVISIONAL","scope":"new statement-only rendering; original finite mathematical kernel fullreview PASS recommendation; blind/finite sampler gates unresolved"}
+]

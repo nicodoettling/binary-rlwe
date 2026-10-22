@@ -1,0 +1,17 @@
+{
+  "id": "WEIGHT-COV-FV2",
+  "registered_at": "2026-10-21T19:21:59.291874+00:00",
+  "hypothesis": "Same-weight four-secret covariance differences have nonzero prescribed matrix for nonzero PSD C; autocorrelation advice leaks more than weight in finite cubes",
+  "code": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/weight-cov-fv2.py",
+  "sha256": "3e69a0b9d374fc3b5788d3021c9714035bb4dfa91dbec8c2be777b4d3fa7d9a1",
+  "inputs": "n4,8,16 exact covariance faces; allbinary secrets n2,4,8,16; deterministicseed0..3",
+  "wall_seconds": 120,
+  "address_space_bytes": 536870912,
+  "estimated_seconds": 10,
+  "estimated_peak_MiB": 50,
+  "precision": "exact integers/Fraction; entropy floats diagnostic; no distribution tails in finite experiment",
+  "command": "/usr/bin/time -v timeout --signal=TERM --kill-after=5 120s prlimit --as=536870912 --cpu=115 python3 experiments/weight-cov-fv2.py",
+  "slot": "root LIGHT, both worker jobs released, zero other current jobs",
+  "expected": "Analytic identities and exact finite scope controls pass; no asymptotic entropy conclusion",
+  "reason_new_version": "FV1 was not executed: arbitrary B,L algebra tests did not certify a realizable joint finite law. FV2 uses independent Rademacher vectors, ensuring joint PSD and finite support."
+}

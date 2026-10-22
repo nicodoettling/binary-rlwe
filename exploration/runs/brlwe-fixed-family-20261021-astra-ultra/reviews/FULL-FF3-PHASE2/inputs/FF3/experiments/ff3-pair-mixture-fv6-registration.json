@@ -1,0 +1,10 @@
+{
+ "id":"FF3-PAIR-MIXTURE-FV6","registered_before_execution":true,
+ "hypothesis":"A nonnegative mixture of exact two-secret residual channels over all cube edges might extend to all binary secrets with an efficient implicit random-edge realization. The retained-secret zero-residual statistic may instead give an exact convex-separation witness for every such mixture.",
+ "code":"ff3-pair-mixture-fv6.py","inputs":"n2 andn4, Q3q2, all binary secrets and all cube edges(u,u+X^i). H=(21,9,9;5,17,17)/26 maps(7/8,1/16,1/16) to(3/4,1/4). Every conditional output atom is calculated exactly by an integer tensor transform. LP permits arbitrary fixed nonnegative edge weights, a superset of efficient uniform-edge sampling.",
+ "seed":"none","command":"ulimit -v 524288; /usr/bin/time -v timeout 120s python3 ff3-pair-mixture-fv6.py > ff3-pair-mixture-fv6-output.jsonl 2> ff3-pair-mixture-fv6-resource.txt",
+ "limits":{"wall_seconds":120,"address_space_bytes":536870912,"expected_seconds":10,"expected_rss_bytes":100000000,"heavy":false,"per_LP_seconds":30},
+ "precision":"All laws are exact int64 numerators with a proved total-mass upper bound denominator<2^63; all scalar/endpoint comparisons and witness statistics use Fraction. HiGHS single-thread LP is numerical discovery only. An exact same-direction zero-residual gap is a rigorous finite infeasibility certificate. Full output numerator tables retained.",
+ "expected":"Exact incident-secret and comparator controls pass. Mixture either feasible numerically and needs exact rational confirmation, or an exact convex separator rules out the specified simple efficient ansatz. No Gaussian/asymptotic inference.",
+ "structural_purpose":"Inspect the reusable positive mixture of two-secret kernels; uniform edge selection has a polynomial implicit sampler. This is not another unrestricted statistical-existence LP. Likelihood grouping FV5 is preserved for later use but not expanded here."
+}

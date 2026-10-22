@@ -1,0 +1,34 @@
+--- rs-source-decoder-statement-v1.md
++++ rs-source-decoder-statement-v2.md
+@@ -1,4 +1,4 @@
+-# SV-RS-DECODE-v1: direct decoding for consecutive split-prime support
++# SV-RS-DECODE-v2: direct decoding for consecutive split-prime support
+ 
+ Provisional author candidate; full and fresh blind review required.
+ 
+@@ -14,9 +14,9 @@
+ 
+ then a deterministic algorithm recovers lambda exactly in time polynomial in the same resources. It rounds pT coefficientwise, interprets the resulting vector as a received generalized Reed–Solomon word, corrects at most floor(4*p^2*r^2) symbol errors, and selects the unique coefficientwise lift within distance less than1/2 of T. Exact rational arithmetic and finite-field linear algebra suffice; no Gaussian oracle is invoked.
+ 
+-For the actual inherited DD radius r=epsilon*ell^2/(1024*n*K*chi*Qmax), this is the explicit sufficient condition
++For the actual inherited DD radius r=epsilon_*ell^2/(1024*n*K*chi*Qmax), this is the explicit sufficient condition
+ 
+-    8*p^2*epsilon^2*ell^4 < (n-t+1)*(1024*n*K*chi*Qmax)^2,
++    8*p^2*epsilon_*^2*ell^4 < (n-t+1)*(1024*n*K*chi*Qmax)^2,
+ 
+ together with the existing guards, which already imply r<1/2. It is a direct algorithm at that radius, not a reversed DGS implication.
+ 
+--- rs-source-decoder-proof-v1.md
++++ rs-source-decoder-proof-v2.md
+@@ -1,4 +1,4 @@
+-# SV-RS-DECODE-v1 author proof
++# SV-RS-DECODE-v2 author proof
+ 
+ Because p splits completely and the selected prime ideals are distinct, (p)J^-1 is the integral product of all unselected primes above p. Therefore a=p*lambda is in R, and its residue vector in R/pR has Fourier support contained in the selected t roots. Fourier inversion over F_p gives
+ 
+@@ -15,3 +15,5 @@
+ We spell out ordinary-input acquisition. Compute e, the additive exponent of R/J, as the lcm of reduced denominators of the inverse integer basis. Under the theorem e=p. Check primality by deterministic trial division, whose cost is polynomial in the numeric p, and p=1 mod2n. Search F_p for an alpha satisfying alpha^n=-1; since n is a power of two this is exactly order2n. Evaluate each ideal basis column at the n roots to identify the subset of roots at which every element of J vanishes. Since pR is contained in J, ideals in the semisimple ring R/pR are exactly these root-vanishing subspaces, so the recovered subset determines J. Test cyclic intervals for every primitive2n-th root if necessary; there are n such roots and polynomially many tests. Recover t as the number of roots. Thus recognition needs no supplied factorization of J, and all operations are polynomial in n, numeric p and complete input lengths. The decoder then uses polynomial-size finite-field linear algebra, exact rational scaling and rounding, and polynomial division.
+ 
+ The radius substitution is algebraic. The known DD guards imply r<1/(4sqrt(n))<1/2. For the explicit dense family, t=Theta(n/log p) at fixed polynomial-value p, hence n-t=Theta(n). The improvement over the scalar guard is structural and pointwise. The example r=1/p demonstrates a nonempty mathematical improvement regime; compatibility with any specific reduction resource tuple is a separate parameter substitution, not inferred from this example.
++
++For the inherited fixed-target interface, its epsilon_* is the advantage lower bound, while the averaged interface epsilon equals epsilon_*/4. The actual radius is r=epsilon_*ell^2/(1024 n K chi Qmax). Substituting this expression into8p^2r^2<n-t+1 gives the displayed RS-v2 inequality with epsilon_*^2. No change to the pointwise decoder or its complexity is made.

@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-21T19:08:48.581228+00:00",
+  "service_elapsed_seconds": 4837.944784185966,
+  "goal_status": "active",
+  "goal_receipt": "coordinator/goal-checkpoint-008.json",
+  "roles": {
+    "root": "FF2 source bridge alternatives and exact CRT/CERT reconciliation",
+    "ff3_kernel": "New normalized nonlinear transfer-kernel construction and bounded finite Blackwell feasibility",
+    "blind_sv2": "Fresh statement-only review of symmetry/subfield source classifiers"
+  },
+  "frontier": "CRT/CERT full and blind review complete, coordinator reconciliation in progress. Source symmetry/subfield full review passed, fresh blind underway. FF reduction remains open. Nonlinear kernels now pursued beyond secret-independent affine correction; first LP failed operationally before results, retained, single-thread repair separately preregistered.",
+  "evidence": [
+    "reviews/BLIND-FF2/seal-v1.json",
+    "reviews/FULL-SV2/seal-v1.json",
+    "reviews/BLIND-SV2/allowed-read-manifest-v1.json",
+    "workers/FF3/experiments/ff3-lp-fv1-registration.json"
+  ],
+  "resume": "Check actual clock/cap/goal first. Mandatory90m nonterminal allocation19:18:10Z,150m20:18:10Z; protected/discovery end21:18:10Z. Harddeadline22:48:10Z. Root goal remains active, no recreation. Continue meaningful FF and SV."
+}

@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-10-21T18:31:02.195588+00:00",
+  "inputs": [
+    {
+      "packet_file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-SV1/inputs/source-classification.md",
+      "sha256": "e94bd870da471255430bca2c30f110c07317a83c2d92eb29526bb320490dc097",
+      "original_file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/source-classification-theorem-v1.md",
+      "original_sha256": "1b72f95055b9c5a8953c46ee778ade4d57a55d5a61c4a1ce29003c049f59a5a3",
+      "redacted_lines": [
+        3
+      ],
+      "redaction_rule": "Only author/review status banners removed; no theorem mathematics changed"
+    },
+    {
+      "packet_file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-SV1/inputs/frobenius-prime.md",
+      "sha256": "980bb49b02bca6d6a81f5264e26bd21bc1949feb1efb9855adcc31e9d83cfa70",
+      "original_file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/frobenius-prime-theorem-v1.md",
+      "original_sha256": "17315abf7b50bbb758a3e0e5c580d159895a1e238ad3b01b88e77a08e8e28d3e",
+      "redacted_lines": [
+        3
+      ],
+      "redaction_rule": "Only author/review status banners removed; no theorem mathematics changed"
+    },
+    {
+      "packet_file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-SV1/inputs/symmetry-descent.md",
+      "sha256": "14601246520f12ee8df9754460f17ddc1c301884072a801500cc47e3179de159",
+      "original_file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/symmetry-descent-theorem-v1.md",
+      "original_sha256": "a16f483e8292606f8763eee79b2d64193bb43eb96e1609c0775c68231b5fcf10",
+      "redacted_lines": [
+        3
+      ],
+      "redaction_rule": "Only author/review status banners removed; no theorem mathematics changed"
+    },
+    {
+      "packet_file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-SV1/inputs/inherited-fixed-main.md",
+      "sha256": "3358158fb5f138b584de4dc726c63b21af58b2f669fc0f291bcef62826a80359",
+      "original_file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/fixed-main-statement-v2.md",
+      "original_sha256": "25da2502104e746d3e9f2ca10e3d070372ff95b853b1fd2b0e6c96b1b909ecb6",
+      "redacted_lines": [
+        3
+      ],
+      "redaction_rule": "Only author/review status banners removed; no theorem mathematics changed"
+    },
+    {
+      "packet_file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-SV1/inputs/inherited-am-main.md",
+      "sha256": "eaabea064b734ccefbbb1d2410ed03fecdbe671f098c2e69d59d432df855e33c",
+      "original_file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/am-main-theorem-v3.md",
+      "original_sha256": "eaabea064b734ccefbbb1d2410ed03fecdbe671f098c2e69d59d432df855e33c",
+      "redacted_lines": [],
+      "redaction_rule": "Only author/review status banners removed; no theorem mathematics changed"
+    }
+  ],
+  "allow_other": [
+    "mathematical-proof-audit SKILL.md, audit-protocol.md, probability-regressions.md",
+    "Milne Algebraic Number Theory https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+    "Primary Kannan-Bachem integer matrix normal form theorem if necessary"
+  ],
+  "prohibit": [
+    "Author proofs, reports, claims ledgers, coordinator assessments, historical acceptance or review reports, other agents context"
+  ],
+  "mapping_note": "Original file identifiers are provenance only; originals are not allowed reads. Freeze reports against packet hashes and declare exposures."
+}

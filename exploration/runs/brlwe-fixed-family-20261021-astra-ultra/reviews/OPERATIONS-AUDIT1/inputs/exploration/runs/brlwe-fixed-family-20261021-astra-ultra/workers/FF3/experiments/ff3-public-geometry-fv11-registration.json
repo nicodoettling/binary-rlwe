@@ -1,0 +1,9 @@
+{
+ "id":"FF3-PUBLIC-GEOMETRY-FV11","registered_before_execution":true,
+ "hypothesis":"The positive FV9 ring-correlated kernel may admit a scalable selector based on the public A zero count and its two edge residual zero counts. In centered ternary coefficients these are squared norms of the two residuals and their difference, a motivated local geometric invariant. Optionally include edge orientation.",
+ "code":"ff3-public-geometry-fv11.py","inputs":"Frozen FV9 four exact radial H vertices, n2Q3q2. Class=(zero_count(A),z0,z1), or(i,zero_count(A),z0,z1). All4edges, all16branch-vertex pairs,432or864nonnegative variables,161equalities. Exact input normalization and every fixed-secret/comparator endpoint.",
+ "seed":"none","command":"ulimit -v 524288; /usr/bin/time -v timeout 120s python3 ff3-public-geometry-fv11.py > ff3-public-geometry-fv11-output.jsonl 2> ff3-public-geometry-fv11-resource.txt",
+ "limits":{"wall_seconds":120,"address_space_bytes":536870912,"expected_seconds":10,"expected_rss_bytes":100000000,"heavy":false,"per_LP_seconds":20},
+ "precision":"Integer model plus rational denominators, single-thread HiGHS discovery, exact rational support or Farkas verification. Unreachable local classes are zero columns and cannot be used to repair endpoints. No floating status alone constitutes a conclusion.",
+ "expected":"A compact exact positive selector with recorded maximum local weight for rejection-sampling cost, or a scoped exact exclusion. Does not invalidate the general positive FV9 kernel. FV10 failure recorded in selector-compression-addendum-v1.md before this attempted repair."
+}

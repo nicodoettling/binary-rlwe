@@ -1,0 +1,9 @@
+--- /home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/compact-selector-proof-v2.md
++++ /home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/compact-selector-proof-v3.md
+@@ -14,3 +14,6 @@
+ 
+ 
+ Resource clarification for v2: choose i uniformly from0,...,n-1 by repeated ceil(log2 n)-bit proposals below n, with expected fewer than2 proposals, then draw the n-1 remaining coefficient bits of u. This is expected O(n) fair bits. For power-of-two n no rejection is needed, giving a worst-case O(n) bound. All kernel/endpoint formulas are unchanged.
++
++
++Exact resource clarification for statement v3: M is supplied rational with its encoding charged (or choose an encoded integer upper bound). Hence G(c)/M is an encoded rational coin. Arbitrary uncomputable real M is excluded from the computational assertion. In FV11 choose M=3. No endpoint or normalization identity changes.

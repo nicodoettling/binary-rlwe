@@ -1,0 +1,575 @@
+{
+  "at": "2026-10-21T21:53:49.048436+00:00",
+  "service_activation": "2026-10-21T17:48:10.636448+00:00",
+  "activation_monotonic": 699808.034735,
+  "cap_snapshot_last_updated_at": "2026-10-21T17:48:10.733979+00:00",
+  "checkpoints": [
+    {
+      "path": "coordinator/checkpoints/000-startup.json",
+      "number": 0,
+      "at": "2026-10-21T17:51:23.708094+00:00",
+      "utc_elapsed_seconds": 193.071646,
+      "recorded_elapsed_seconds": 193.12384417897556,
+      "scheduled_offset_seconds": 0,
+      "lateness_seconds": 193.071646,
+      "goal_status": "active",
+      "phase": null
+    },
+    {
+      "path": "coordinator/checkpoints/001-ten-minute.json",
+      "number": 1,
+      "at": "2026-10-21T17:58:47.197644+00:00",
+      "utc_elapsed_seconds": 636.561196,
+      "recorded_elapsed_seconds": 636.5613923269557,
+      "scheduled_offset_seconds": 600,
+      "lateness_seconds": 36.561195999999995,
+      "goal_status": "active",
+      "phase": null
+    },
+    {
+      "path": "coordinator/checkpoints/002-twenty-minute.json",
+      "number": 2,
+      "at": "2026-10-21T18:09:16.102483+00:00",
+      "utc_elapsed_seconds": 1265.466035,
+      "recorded_elapsed_seconds": 1265.4660954769934,
+      "scheduled_offset_seconds": 1200,
+      "lateness_seconds": 65.46603499999992,
+      "goal_status": "active",
+      "phase": null
+    },
+    {
+      "path": "coordinator/checkpoints/003-thirty-minute.json",
+      "number": 3,
+      "at": "2026-10-21T18:18:54.335546+00:00",
+      "utc_elapsed_seconds": 1843.699098,
+      "recorded_elapsed_seconds": 1843.69916038902,
+      "scheduled_offset_seconds": 1800,
+      "lateness_seconds": 43.69909800000005,
+      "goal_status": "active",
+      "phase": null
+    },
+    {
+      "path": "coordinator/checkpoints/004-forty-minute.json",
+      "number": 4,
+      "at": "2026-10-21T18:29:36.797177+00:00",
+      "utc_elapsed_seconds": 2486.160729,
+      "recorded_elapsed_seconds": 2486.1607339699985,
+      "scheduled_offset_seconds": 2400,
+      "lateness_seconds": 86.16072900000017,
+      "goal_status": "active",
+      "phase": null
+    },
+    {
+      "path": "coordinator/checkpoints/005-fifty-minute.json",
+      "number": 5,
+      "at": "2026-10-21T18:38:49.058283+00:00",
+      "utc_elapsed_seconds": 3038.421835,
+      "recorded_elapsed_seconds": 3038.4218405659776,
+      "scheduled_offset_seconds": 3000,
+      "lateness_seconds": 38.4218350000001,
+      "goal_status": "active",
+      "phase": null
+    },
+    {
+      "path": "coordinator/checkpoints/006-sixty-minute.json",
+      "number": 6,
+      "at": "2026-10-21T18:49:25.288755+00:00",
+      "utc_elapsed_seconds": 3674.652307,
+      "recorded_elapsed_seconds": 3674.657373263035,
+      "scheduled_offset_seconds": 3600,
+      "lateness_seconds": 74.65230699999984,
+      "goal_status": "active",
+      "phase": null
+    },
+    {
+      "path": "coordinator/checkpoints/007-seventy-minute.json",
+      "number": 7,
+      "at": "2026-10-21T18:59:07.245416+00:00",
+      "utc_elapsed_seconds": 4256.608968,
+      "recorded_elapsed_seconds": 4256.608973962022,
+      "scheduled_offset_seconds": 4200,
+      "lateness_seconds": 56.60896799999955,
+      "goal_status": "active",
+      "phase": null
+    },
+    {
+      "path": "coordinator/checkpoints/008-eighty-minute.json",
+      "number": 8,
+      "at": "2026-10-21T19:08:48.581228+00:00",
+      "utc_elapsed_seconds": 4837.94478,
+      "recorded_elapsed_seconds": 4837.944784185966,
+      "scheduled_offset_seconds": 4800,
+      "lateness_seconds": 37.94477999999981,
+      "goal_status": "active",
+      "phase": null
+    },
+    {
+      "path": "coordinator/checkpoints/009-ninety-minute.json",
+      "number": 9,
+      "at": "2026-10-21T19:18:50.761976+00:00",
+      "utc_elapsed_seconds": 5440.125528,
+      "recorded_elapsed_seconds": 5440.125533608021,
+      "scheduled_offset_seconds": 5400,
+      "lateness_seconds": 40.125527999999576,
+      "goal_status": "active",
+      "phase": null
+    },
+    {
+      "path": "coordinator/checkpoints/010-one-hundred-minute.json",
+      "number": 10,
+      "at": "2026-10-21T19:28:48.450130+00:00",
+      "utc_elapsed_seconds": 6037.813682,
+      "recorded_elapsed_seconds": 6037.813687602989,
+      "scheduled_offset_seconds": 6000,
+      "lateness_seconds": 37.81368199999997,
+      "goal_status": "active",
+      "phase": null
+    },
+    {
+      "path": "coordinator/checkpoints/011-one-hundred-ten-minute.json",
+      "number": 11,
+      "at": "2026-10-21T19:38:35.716246+00:00",
+      "utc_elapsed_seconds": 6625.079798,
+      "recorded_elapsed_seconds": 6625.079805472982,
+      "scheduled_offset_seconds": 6600,
+      "lateness_seconds": 25.079797999999755,
+      "goal_status": "active",
+      "phase": null
+    },
+    {
+      "path": "coordinator/checkpoints/012-one-hundred-twenty-minute.json",
+      "number": 12,
+      "at": "2026-10-21T19:49:26.058222+00:00",
+      "utc_elapsed_seconds": 7275.421774,
+      "recorded_elapsed_seconds": 7275.421780582052,
+      "scheduled_offset_seconds": 7200,
+      "lateness_seconds": 75.42177400000037,
+      "goal_status": "active",
+      "phase": null
+    },
+    {
+      "path": "coordinator/checkpoints/013-one-hundred-thirty-minute.json",
+      "number": 13,
+      "at": "2026-10-21T20:00:40.932187+00:00",
+      "utc_elapsed_seconds": 7950.295739,
+      "recorded_elapsed_seconds": 7950.295744044008,
+      "scheduled_offset_seconds": 7800,
+      "lateness_seconds": 150.29573900000014,
+      "goal_status": "active",
+      "phase": null
+    },
+    {
+      "path": "coordinator/checkpoints/014-one-hundred-forty-minute.json",
+      "number": 14,
+      "at": "2026-10-21T20:10:07.482658+00:00",
+      "utc_elapsed_seconds": 8516.84621,
+      "recorded_elapsed_seconds": 8516.84621503402,
+      "scheduled_offset_seconds": 8400,
+      "lateness_seconds": 116.8462099999997,
+      "goal_status": "active",
+      "phase": null
+    },
+    {
+      "path": "coordinator/checkpoints/015-one-hundred-fifty-minute.json",
+      "number": 15,
+      "at": "2026-10-21T20:19:42.431138+00:00",
+      "utc_elapsed_seconds": 9091.79469,
+      "recorded_elapsed_seconds": 9091.794695266988,
+      "scheduled_offset_seconds": 9000,
+      "lateness_seconds": 91.79469000000063,
+      "goal_status": "active",
+      "phase": null
+    },
+    {
+      "path": "coordinator/checkpoints/016-one-hundred-sixty-minute.json",
+      "number": 16,
+      "at": "2026-10-21T20:29:46.161643+00:00",
+      "utc_elapsed_seconds": 9695.525195,
+      "recorded_elapsed_seconds": 9695.525195672992,
+      "scheduled_offset_seconds": 9600,
+      "lateness_seconds": 95.52519500000017,
+      "goal_status": "active",
+      "phase": null
+    },
+    {
+      "path": "coordinator/checkpoints/017-one-hundred-seventy-minute.json",
+      "number": 17,
+      "at": "2026-10-21T20:40:57.078499+00:00",
+      "utc_elapsed_seconds": 10366.442051,
+      "recorded_elapsed_seconds": 10366.442057913053,
+      "scheduled_offset_seconds": 10200,
+      "lateness_seconds": 166.442051,
+      "goal_status": "active",
+      "phase": null
+    },
+    {
+      "path": "coordinator/checkpoints/018-one-hundred-eighty-minute.json",
+      "number": 18,
+      "at": "2026-10-21T20:48:42.650325+00:00",
+      "utc_elapsed_seconds": 10832.013877,
+      "recorded_elapsed_seconds": 10832.013882423053,
+      "scheduled_offset_seconds": 10800,
+      "lateness_seconds": 32.01387699999941,
+      "goal_status": "active",
+      "phase": null
+    },
+    {
+      "path": "coordinator/checkpoints/019-one-hundred-ninety-minute.json",
+      "number": 19,
+      "at": "2026-10-21T21:02:22.163276+00:00",
+      "utc_elapsed_seconds": 11651.526828,
+      "recorded_elapsed_seconds": 11651.526848020963,
+      "scheduled_offset_seconds": 11400,
+      "lateness_seconds": 251.52682800000002,
+      "goal_status": "active",
+      "phase": null
+    },
+    {
+      "path": "coordinator/checkpoints/020-two-hundred-minute.json",
+      "number": 20,
+      "at": "2026-10-21T21:10:23.964885+00:00",
+      "utc_elapsed_seconds": 12133.328437,
+      "recorded_elapsed_seconds": 12133.32845338306,
+      "scheduled_offset_seconds": 12000,
+      "lateness_seconds": 133.32843700000012,
+      "goal_status": "active",
+      "phase": null
+    },
+    {
+      "path": "coordinator/checkpoints/021-protected-period-end.json",
+      "number": 21,
+      "at": "2026-10-21T21:18:45.061895+00:00",
+      "utc_elapsed_seconds": 12634.425447,
+      "recorded_elapsed_seconds": 12634.425451591029,
+      "scheduled_offset_seconds": 12600,
+      "lateness_seconds": 34.42544699999962,
+      "goal_status": "active",
+      "phase": null
+    },
+    {
+      "path": "coordinator/checkpoints/022-two-hundred-twenty-minute.json",
+      "number": 22,
+      "at": "2026-10-21T21:28:47.917463+00:00",
+      "utc_elapsed_seconds": 13237.281015,
+      "recorded_elapsed_seconds": 13237.28102234099,
+      "scheduled_offset_seconds": 13200,
+      "lateness_seconds": 37.28101500000048,
+      "goal_status": "active",
+      "phase": "REVIEW_TARGETED_REPAIR"
+    },
+    {
+      "path": "coordinator/checkpoints/023-two-hundred-thirty-minute.json",
+      "number": 23,
+      "at": "2026-10-21T21:38:08.667207+00:00",
+      "utc_elapsed_seconds": 13798.030759,
+      "recorded_elapsed_seconds": 13798.030950195971,
+      "scheduled_offset_seconds": 13800,
+      "lateness_seconds": -1.969241000000693,
+      "goal_status": "active",
+      "phase": "REVIEW_TARGETED_REPAIR"
+    },
+    {
+      "path": "coordinator/checkpoints/024-two-hundred-forty-minute.json",
+      "number": 24,
+      "at": "2026-10-21T21:48:00.388041+00:00",
+      "utc_elapsed_seconds": 14389.751593,
+      "recorded_elapsed_seconds": 14389.75178231299,
+      "scheduled_offset_seconds": 14400,
+      "lateness_seconds": -10.248406999999133,
+      "goal_status": "active",
+      "phase": "REVIEW_TARGETED_REPAIR"
+    }
+  ],
+  "gates": [
+    {
+      "path": "coordinator/gate-045-nonterminal.json",
+      "at": "2026-10-21T18:33:18.441902+00:00",
+      "scheduled_offset_seconds": 2700,
+      "lateness_seconds": 7.805453999999827,
+      "scientific_termination": false
+    },
+    {
+      "path": "coordinator/allocation-090-nonterminal.json",
+      "at": "2026-10-21T19:18:50.761976+00:00",
+      "scheduled_offset_seconds": 5400,
+      "lateness_seconds": 40.125527999999576,
+      "scientific_termination": false
+    },
+    {
+      "path": "coordinator/allocation-150-nonterminal.json",
+      "at": "2026-10-21T20:19:42.431138+00:00",
+      "scheduled_offset_seconds": 9000,
+      "lateness_seconds": 91.79469000000063,
+      "scientific_termination": false
+    }
+  ],
+  "goals": [
+    {
+      "path": "coordinator/goal-checkpoint-001.json",
+      "threadId": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "status": "active",
+      "tokensUsed": 236201,
+      "timeUsedSeconds": 541,
+      "createdAt": 1792604928,
+      "updatedAt": 1792605469,
+      "token_budget_keys": []
+    },
+    {
+      "path": "coordinator/goal-checkpoint-002.json",
+      "threadId": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "status": "active",
+      "tokensUsed": 425048,
+      "timeUsedSeconds": 1189,
+      "createdAt": 1792604928,
+      "updatedAt": 1792606118,
+      "token_budget_keys": []
+    },
+    {
+      "path": "coordinator/goal-checkpoint-003.json",
+      "threadId": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "status": "active",
+      "tokensUsed": 537363,
+      "timeUsedSeconds": 1785,
+      "createdAt": 1792604928,
+      "updatedAt": 1792606714,
+      "token_budget_keys": []
+    },
+    {
+      "path": "coordinator/goal-checkpoint-004.json",
+      "threadId": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "status": "active",
+      "tokensUsed": 820983,
+      "timeUsedSeconds": 2427,
+      "createdAt": 1792604928,
+      "updatedAt": 1792607355,
+      "token_budget_keys": []
+    },
+    {
+      "path": "coordinator/goal-checkpoint-005.json",
+      "threadId": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "status": "active",
+      "tokensUsed": 1051797,
+      "timeUsedSeconds": 2972,
+      "createdAt": 1792604928,
+      "updatedAt": 1792607900,
+      "token_budget_keys": []
+    },
+    {
+      "path": "coordinator/goal-checkpoint-006.json",
+      "threadId": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "status": "active",
+      "tokensUsed": 1241192,
+      "timeUsedSeconds": 3568,
+      "createdAt": 1792604928,
+      "updatedAt": 1792608497,
+      "token_budget_keys": []
+    },
+    {
+      "path": "coordinator/goal-checkpoint-007.json",
+      "threadId": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "status": "active",
+      "tokensUsed": 1485990,
+      "timeUsedSeconds": 4182,
+      "createdAt": 1792604928,
+      "updatedAt": 1792609110,
+      "token_budget_keys": []
+    },
+    {
+      "path": "coordinator/goal-checkpoint-008.json",
+      "threadId": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "status": "active",
+      "tokensUsed": 1628102,
+      "timeUsedSeconds": 4779,
+      "createdAt": 1792604928,
+      "updatedAt": 1792609707,
+      "token_budget_keys": []
+    },
+    {
+      "path": "coordinator/goal-checkpoint-009.json",
+      "threadId": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "status": "active",
+      "tokensUsed": 1817051,
+      "timeUsedSeconds": 5355,
+      "createdAt": 1792604928,
+      "updatedAt": 1792610283,
+      "token_budget_keys": []
+    },
+    {
+      "path": "coordinator/goal-checkpoint-010.json",
+      "threadId": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "status": "active",
+      "tokensUsed": 2040288,
+      "timeUsedSeconds": 5958,
+      "createdAt": 1792604928,
+      "updatedAt": 1792610886,
+      "token_budget_keys": []
+    },
+    {
+      "path": "coordinator/goal-checkpoint-011.json",
+      "threadId": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "status": "active",
+      "tokensUsed": 2184614,
+      "timeUsedSeconds": 6587,
+      "createdAt": 1792604928,
+      "updatedAt": 1792611515,
+      "token_budget_keys": []
+    },
+    {
+      "path": "coordinator/goal-checkpoint-012.json",
+      "threadId": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "status": "active",
+      "tokensUsed": 2522222,
+      "timeUsedSeconds": 7150,
+      "createdAt": 1792604928,
+      "updatedAt": 1792612078,
+      "token_budget_keys": []
+    },
+    {
+      "path": "coordinator/goal-checkpoint-013.json",
+      "threadId": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "status": "active",
+      "tokensUsed": 2728315,
+      "timeUsedSeconds": 7817,
+      "createdAt": 1792604928,
+      "updatedAt": 1792612746,
+      "token_budget_keys": []
+    },
+    {
+      "path": "coordinator/goal-checkpoint-014.json",
+      "threadId": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "status": "active",
+      "tokensUsed": 2856612,
+      "timeUsedSeconds": 8432,
+      "createdAt": 1792604928,
+      "updatedAt": 1792613361,
+      "token_budget_keys": []
+    },
+    {
+      "path": "coordinator/goal-checkpoint-015.json",
+      "threadId": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "status": "active",
+      "tokensUsed": 3015927,
+      "timeUsedSeconds": 8983,
+      "createdAt": 1792604928,
+      "updatedAt": 1792613912,
+      "token_budget_keys": []
+    },
+    {
+      "path": "coordinator/goal-checkpoint-016.json",
+      "threadId": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "status": "active",
+      "tokensUsed": 3208467,
+      "timeUsedSeconds": 9636,
+      "createdAt": 1792604928,
+      "updatedAt": 1792614564,
+      "token_budget_keys": []
+    },
+    {
+      "path": "coordinator/goal-checkpoint-017.json",
+      "threadId": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "status": "active",
+      "tokensUsed": 3439039,
+      "timeUsedSeconds": 10196,
+      "createdAt": 1792604928,
+      "updatedAt": 1792615125,
+      "token_budget_keys": []
+    },
+    {
+      "path": "coordinator/goal-checkpoint-018.json",
+      "threadId": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "status": "active",
+      "tokensUsed": 3621320,
+      "timeUsedSeconds": 10762,
+      "createdAt": 1792604928,
+      "updatedAt": 1792615690,
+      "token_budget_keys": []
+    },
+    {
+      "path": "coordinator/goal-checkpoint-019.json",
+      "threadId": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "status": "active",
+      "tokensUsed": 3880355,
+      "timeUsedSeconds": 11538,
+      "createdAt": 1792604928,
+      "updatedAt": 1792616467,
+      "token_budget_keys": []
+    },
+    {
+      "path": "coordinator/goal-checkpoint-020.json",
+      "threadId": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "status": "active",
+      "tokensUsed": 4110361,
+      "timeUsedSeconds": 12070,
+      "createdAt": 1792604928,
+      "updatedAt": 1792616999,
+      "token_budget_keys": []
+    },
+    {
+      "path": "coordinator/goal-checkpoint-021.json",
+      "threadId": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "status": "active",
+      "tokensUsed": 4264098,
+      "timeUsedSeconds": 12560,
+      "createdAt": 1792604928,
+      "updatedAt": 1792617488,
+      "token_budget_keys": []
+    },
+    {
+      "path": "coordinator/goal-checkpoint-022.json",
+      "threadId": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "status": "active",
+      "tokensUsed": 4550703,
+      "timeUsedSeconds": 13179,
+      "createdAt": 1792604928,
+      "updatedAt": 1792618108,
+      "token_budget_keys": []
+    },
+    {
+      "path": "coordinator/goal-checkpoint-023.json",
+      "threadId": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "status": "active",
+      "tokensUsed": 4728231,
+      "timeUsedSeconds": 13744,
+      "createdAt": 1792604928,
+      "updatedAt": 1792618673,
+      "token_budget_keys": []
+    },
+    {
+      "path": "coordinator/goal-checkpoint-024.json",
+      "threadId": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "status": "active",
+      "tokensUsed": 5048537,
+      "timeUsedSeconds": 14332,
+      "createdAt": 1792604928,
+      "updatedAt": 1792619260,
+      "token_budget_keys": []
+    }
+  ],
+  "max_clock_difference_seconds": 0.05219817897557277,
+  "adjacent_checkpoint_intervals_seconds": [
+    443.48955,
+    628.904839,
+    578.233063,
+    642.461631,
+    552.261106,
+    636.230472,
+    581.956661,
+    581.335812,
+    602.180748,
+    597.688154,
+    587.266116,
+    650.341976,
+    674.873965,
+    566.550471,
+    574.94848,
+    603.730505,
+    670.916856,
+    465.571826,
+    819.512951,
+    481.801609,
+    501.09701,
+    602.855568,
+    560.749744,
+    591.720834
+  ]
+}

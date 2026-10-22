@@ -1,0 +1,28 @@
+{
+  "start_utc": "2026-10-21T20:33:18.016741+00:00",
+  "command": [
+    "/usr/bin/time",
+    "-v",
+    "timeout",
+    "--signal=TERM",
+    "--kill-after=5s",
+    "120s",
+    "prlimit",
+    "--as=536870912",
+    "--",
+    "python3",
+    "controls-v1.py"
+  ],
+  "cwd": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-SOURCE3",
+  "code_sha256": "2e4b94b4ebebabb24d7279ec61bcab78b3b1f674c7d9f164b35bc01d748e9fc7",
+  "limits": {
+    "wall_seconds": 120,
+    "address_space_bytes": 536870912
+  },
+  "slot": "explicit root LIGHT grant",
+  "end_utc": "2026-10-21T20:33:18.307458+00:00",
+  "returncode": 0,
+  "cleanup": "foreground subprocess returned; no detached child started",
+  "stdout_sha256": "477c881bef5898000f072986965dd8efc86ef7c947242d3aea0e4642bf890aa0",
+  "stderr_sha256": "28b9474bacfb0ba47e38922043985e3e90134f1899004688d8831154b35d71b3"
+}

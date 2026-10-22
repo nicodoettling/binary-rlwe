@@ -1,0 +1,16 @@
+{
+  "n": 4,
+  "branches": 8,
+  "variables": 25000,
+  "equations": 303,
+  "rank_rows_exact": true,
+  "group_size": 32,
+  "endpoint_orbits": 178,
+  "LP_status": 2,
+  "LP_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+  "exact_verified": true,
+  "dual_status": 0,
+  "min_Atz": "0",
+  "b_dot_z": "-199649553351913799471971008",
+  "seconds": 26.469174596946687
+}

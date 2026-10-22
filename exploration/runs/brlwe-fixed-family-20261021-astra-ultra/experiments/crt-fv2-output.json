@@ -1,0 +1,39 @@
+{
+  "scope": "Exact finite arithmetic and finite-support probability controls; not infinite Gaussian proof",
+  "dual_checks": 10016,
+  "certificate_checks": 62,
+  "parseval_checks": 3,
+  "same_bank_selection_counterexample": {
+    "selected_zero": "9/25",
+    "fixed_root_zero": "1/5"
+  },
+  "CP-1": {
+    "matching_probability": "21/2000",
+    "invalid_product": "1/100",
+    "second_residual": "21/221",
+    "verdict": "REJECT old marginal-product bound; missing support/normalization charge"
+  },
+  "floating_diagnostics": [
+    {
+      "sigma": 1,
+      "theta_grid": "0,1/40,...,1/2",
+      "poisson_cutoff": 30,
+      "tail_upper": "2 exp(-pi sigma^2 (30.5)^2)/(1-exp(-pi sigma^2*61))",
+      "precision": "IEEE binary64; diagnostic only"
+    },
+    {
+      "sigma": 2,
+      "theta_grid": "0,1/40,...,1/2",
+      "poisson_cutoff": 30,
+      "tail_upper": "2 exp(-pi sigma^2 (30.5)^2)/(1-exp(-pi sigma^2*61))",
+      "precision": "IEEE binary64; diagnostic only"
+    },
+    {
+      "sigma": 4,
+      "theta_grid": "0,1/40,...,1/2",
+      "poisson_cutoff": 30,
+      "tail_upper": "2 exp(-pi sigma^2 (30.5)^2)/(1-exp(-pi sigma^2*61))",
+      "precision": "IEEE binary64; diagnostic only"
+    }
+  ]
+}

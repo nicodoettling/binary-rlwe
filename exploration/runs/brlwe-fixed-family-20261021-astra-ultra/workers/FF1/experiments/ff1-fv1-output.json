@@ -1,0 +1,182 @@
+{
+  "status": "PASS_BOUNDED_CONTROL_ONLY",
+  "exact": {
+    "n": 2,
+    "q": 3,
+    "Q": 7,
+    "error_mass": "[(-1, Fraction(1, 4)), (0, Fraction(1, 2)), (1, Fraction(1, 4))]",
+    "identity_cases": 1764,
+    "conditional_product_checks": 1764,
+    "shared_secret_witness": {
+      "event": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "conditional_probabilities": [
+        "6/49",
+        "5/392",
+        "5/392",
+        "1/784"
+      ],
+      "shared_joint": "9417/2458624",
+      "fresh_secret_product": "13689/9834496",
+      "difference": "23979/9834496"
+    },
+    "CP1_actual": "21/2000",
+    "CP1_invalid_bound": "1/100"
+  },
+  "floating_cf_diagnostics": [
+    {
+      "n": 2,
+      "sigma": 4,
+      "q": 16,
+      "rows": [
+        {
+          "weight": 0,
+          "target": 0.8217249580338772,
+          "mapped": 0.8164551135594847,
+          "difference": 0.005269844474392493,
+          "lower_bound": 0.000244140625
+        },
+        {
+          "weight": 1,
+          "target": 0.8217249580338772,
+          "mapped": 0.8112190653821533,
+          "difference": 0.01050589265172397,
+          "lower_bound": 0.000244140625
+        },
+        {
+          "weight": 2,
+          "target": 0.8217249580338772,
+          "mapped": 0.8060165967611993,
+          "difference": 0.01570836127267794,
+          "lower_bound": 0.000244140625
+        }
+      ],
+      "omitted_abs_tail_upper": 0.0,
+      "tail_note": "Float underflow to zero is diagnostic, not an exact certification; symbolic exponential expression recorded in code."
+    },
+    {
+      "n": 4,
+      "sigma": 8,
+      "q": 64,
+      "rows": [
+        {
+          "weight": 0,
+          "target": 0.9520979267837046,
+          "mapped": 0.9517156148600076,
+          "difference": 0.00038231192369708733,
+          "lower_bound": 1.52587890625e-05
+        },
+        {
+          "weight": 1,
+          "target": 0.9520979267837046,
+          "mapped": 0.9513334564524594,
+          "difference": 0.0007644703312452705,
+          "lower_bound": 1.52587890625e-05
+        },
+        {
+          "weight": 2,
+          "target": 0.9520979267837046,
+          "mapped": 0.950951451499416,
+          "difference": 0.0011464752842886838,
+          "lower_bound": 1.52587890625e-05
+        },
+        {
+          "weight": 3,
+          "target": 0.9520979267837046,
+          "mapped": 0.9505695999392583,
+          "difference": 0.0015283268444463705,
+          "lower_bound": 1.52587890625e-05
+        },
+        {
+          "weight": 4,
+          "target": 0.9520979267837046,
+          "mapped": 0.9501879017103918,
+          "difference": 0.0019100250733128377,
+          "lower_bound": 1.52587890625e-05
+        }
+      ],
+      "omitted_abs_tail_upper": 0.0,
+      "tail_note": "Float underflow to zero is diagnostic, not an exact certification; symbolic exponential expression recorded in code."
+    },
+    {
+      "n": 8,
+      "sigma": 16,
+      "q": 256,
+      "rows": [
+        {
+          "weight": 0,
+          "target": 0.9878031457257516,
+          "mapped": 0.9877783523479035,
+          "difference": 2.4793377848109088e-05,
+          "lower_bound": 9.5367431640625e-07
+        },
+        {
+          "weight": 1,
+          "target": 0.9878031457257516,
+          "mapped": 0.987753559592357,
+          "difference": 4.9586133394563525e-05,
+          "lower_bound": 9.5367431640625e-07
+        },
+        {
+          "weight": 2,
+          "target": 0.9878031457257516,
+          "mapped": 0.9877287674590968,
+          "difference": 7.437826665479541e-05,
+          "lower_bound": 9.5367431640625e-07
+        },
+        {
+          "weight": 3,
+          "target": 0.9878031457257516,
+          "mapped": 0.9877039759481069,
+          "difference": 9.916977764468093e-05,
+          "lower_bound": 9.5367431640625e-07
+        },
+        {
+          "weight": 4,
+          "target": 0.9878031457257516,
+          "mapped": 0.9876791850593719,
+          "difference": 0.0001239606663796522,
+          "lower_bound": 9.5367431640625e-07
+        },
+        {
+          "weight": 5,
+          "target": 0.9878031457257516,
+          "mapped": 0.987654394792876,
+          "difference": 0.00014875093287558538,
+          "lower_bound": 9.5367431640625e-07
+        },
+        {
+          "weight": 6,
+          "target": 0.9878031457257516,
+          "mapped": 0.9876296051486039,
+          "difference": 0.00017354057714769056,
+          "lower_bound": 9.5367431640625e-07
+        },
+        {
+          "weight": 7,
+          "target": 0.9878031457257516,
+          "mapped": 0.9876048161265397,
+          "difference": 0.0001983295992118439,
+          "lower_bound": 9.5367431640625e-07
+        },
+        {
+          "weight": 8,
+          "target": 0.9878031457257516,
+          "mapped": 0.9875800277266679,
+          "difference": 0.00022311799908369956,
+          "lower_bound": 9.5367431640625e-07
+        }
+      ],
+      "omitted_abs_tail_upper": 0.0,
+      "tail_note": "Float underflow to zero is diagnostic, not an exact certification; symbolic exponential expression recorded in code."
+    }
+  ]
+}

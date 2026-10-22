@@ -1,0 +1,9 @@
+{
+ "id":"FF3-ASYMMETRIC-FV8","registered_before_execution":true,
+ "hypothesis":"The earlier adaptive-edge failure may be an artifact of symmetric scalar H. All scalar H mapping uniformQ3→uniformq2 and source noise(7/8,1/16,1/16)→(3/4,1/4) have h0=21/26,h1+h2=9/13; their extremal rows are(21,0,18)/26 and(21,18,0)/26. Allowing independent choices for the two residual branches and each coefficient is a strictly larger normalized kernel class.",
+ "code":"ff3-asymmetric-fv8.py","inputs":"n2Q3q2, all4cube edges; first4branch-isotropic vertex assignments peredge, then all16coefficientwise vertex assignments. Edge/variant weights may depend arbitrarily on observed(A,B). Every source row, every secret-conditioned endpoint and comparator enforced.1296or5184nonnegative variables,161equalities.",
+ "seed":"none","command":"ulimit -v 524288; /usr/bin/time -v timeout 120s python3 ff3-asymmetric-fv8.py > ff3-asymmetric-fv8-output.jsonl 2> ff3-asymmetric-fv8-resource.txt",
+ "limits":{"wall_seconds":120,"address_space_bytes":536870912,"expected_seconds":15,"expected_rss_bytes":200000000,"heavy":false,"per_LP_seconds":30},
+ "precision":"Integer numerator matrices with explicit exact row denominators; single-thread floating LP discovery. Feasible support is solved/rechecked using Fraction. Farkas dual reconstruction pays exact row-normalization safety shift and checks strict negative b.z. Model coefficients/noise remain exact rational finite laws.",
+ "expected":"An exact positive broader construction for structural inspection, or exact finite separation. Prior fixed-H failures are not assumed to apply. Since product kernels are multilinear in each scalar parameter, their vertex convex hull covers arbitrary independent scalar H choices for this finite setup. This is not all correlated ring H kernels."
+}

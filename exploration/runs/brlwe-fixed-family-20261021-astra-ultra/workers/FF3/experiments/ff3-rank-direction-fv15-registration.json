@@ -1,0 +1,9 @@
+{
+ "id":"FF3-RANK-DIRECTION-FV15","registered_before_execution":true,
+ "hypothesis":"A known-residual noise kernel can preserve full coefficient directions via exact uniform rank transport within energy shells. Combining these H along uniformly sampled cube edges is outside the small-class-output obstruction. Test whether a fixed nonnegative global mixture of H-branch pairs realizes the entire binary-secret target experiment.",
+ "code":"ff3-rank-direction-fv15.py","inputs":"n2,n4;Q3,q2;source(7/8,1/16,1/16),target(3/4,1/4). Frozen radial weight vertices4or6; each yields forward/reverse source-shell rank transport,8or12 full-direction H. Exact H rows and both endpoints; then64or144global H-pair mixture variables. Uniform cube edges,all fixed-secret laws,full comparator. Matrix contraction uses residual-coordinate bijections and exact negacyclic monomial inversion.",
+ "seed":"none","command":"ulimit -v 1048576; /usr/bin/time -v timeout 120s python3 ff3-rank-direction-fv15.py > ff3-rank-direction-fv15-output.jsonl 2> ff3-rank-direction-fv15-resource.txt",
+ "limits":{"wall_seconds":120,"address_space_bytes":1073741824,"expected_seconds":15,"expected_rss_bytes":300000000,"heavy":true,"per_LP_seconds":30},
+ "precision":"Full-direction H constructed and verified over Fraction exactly. Selector LP is discovery only; save complete numeric model and candidates. Event maxima are numeric diagnostics pending exact reconstruction. No selector theorem follows from numeric status. No Gaussian law is inferred from finite moments or rank transport alone.",
+ "expected":"A new fixed-mixture positive candidate or a precisely scoped numerical obstruction, plus exact valid full-direction known-residual H. Parentheses in rank formula and monomial signs are explicitly encoded; no unknown secret used by sampler. All-s endpoint equations use S only in analysis."
+}

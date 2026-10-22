@@ -1,0 +1,108 @@
+BLIND-TRANSFER2 — SV-SPARSE-ACQ-v1 ADDITIVE REPORT
+Authorized input: allowed-read-addendum-v4.json and its exact file.
+This report adds the twelfth target. It does not edit or supersede any
+mathematical conclusion in full-report-v1.txt.
+
+Verdict: the statement is proved under its literal hypotheses, with the
+numeric-versus-bit runtime distinction exactly as stated.
+
+1. Acquisition algorithm
+
+The alphabet of possible slots consists of zero and all a*X^i with
+0<=i<n and 1<=|a|<=B, so it has 1+2nB entries. Enumerate ordered h-tuples
+of slots. Sum each tuple and reject zero or any result with a coefficient
+outside [-B,B] or with more than h nonzero coordinates. Every qualifying
+polynomial occurs: place each of its nonzero monomials in one slot and pad
+with zeros. The total tuple count is exactly (1+2nB)^h, an upper bound on
+the number of membership tests even though many tuples duplicate a result.
+
+Membership in J is precisely A^{-1}f in Z^n. Compute the rational inverse
+once, then use exact integer/rational operations to test this condition.
+Input matrix entries may be large or the basis badly conditioned; their
+full encoding lengths are explicitly charged. Fraction-free linear
+algebra bounds all intermediate/output bit lengths polynomially in those
+lengths, n, and the candidate coefficient bit lengths. Thus the displayed
+enumeration times a polynomial is valid. For fixed h and polynomial
+numeric B the entire search is polynomial. There is no factoring, hidden
+short-member advice, or need for J to be principal.
+
+2. Decoding guard
+
+Since n is a power of two, X^n+1 is irreducible over Q. A nonzero f is
+therefore invertible in the field Q[X]/(X^n+1). By f in J and lambda in
+J^{-1}, the coefficients of f*lambda are integers. Each coefficient of
+f*w is a signed inner product of a coefficient permutation of f with w,
+so its absolute value is at most ||f||_coef,2 ||w||_coef,2.
+Parseval gives ||w||_coef,2<=||w||_can,infty<=r. Consequently
+  2r ||f||_coef,2<1
+ensures every coefficient of f*T is strictly within 1/2 of the correct
+integer coefficient of f*lambda. Coefficient rounding then division by f
+recovers lambda exactly. The promise ||f||^2<=hB^2 proves the sufficient
+guard 4r^2 hB^2<1, and the sharper exact norm test is valid per candidate.
+Strict inequality eliminates all rounding ties. Exact rational division
+by f has polynomial bit complexity in n, coefficient/input encodings, and
+the charged output lengths. No Gaussian oracle or approximate arithmetic
+is present.
+
+3. Lucas quotient proof
+
+Let phi be the residue class of X in O=Z[X]/(X^2-X-1). This is a free
+rank-two abelian group with basis 1,phi. It has phi^2=phi+1 and
+phi*(phi-1)=1, so phi is a unit. Its conjugate is psi=1-phi=-phi^{-1}.
+The recurrence and initial conditions show
+  L_j=phi^j+psi^j.
+For n>=4 a power of two, m=n/2 is even. Hence psi^m=phi^{-m}, and
+  phi^n+1=phi^{2m}+1=(phi^m+phi^{-m})phi^m=L_m phi^m.
+Since phi^m is a unit, the principal ideals (phi^n+1) and (L_m) in O are
+identical. Therefore
+  R/(X^2-X-1)R
+    = Z[X]/(X^n+1,X^2-X-1)
+    = O/(phi^n+1)O
+    = O/L_m O
+has additive group (Z/L_m Z)^2. This proves both the exact additive
+exponent L_m and exact ideal norm L_m^2.
+
+In the real embedding phi=(1+sqrt(5))/2>1. Since m is even,
+L_m=phi^m+phi^{-m}; it and its square grow exponentially in n. Moreover
+  log2(L_m^2)=n log2(phi)+2 log2(1+phi^{-n}).
+For every fixed rho>log2(phi), the second term is eventually less than
+n(rho-log2(phi)), proving N(J_n)<=2^(rho n). The stated upper restriction
+rho<1 is compatible with log2(phi)<1.
+
+The coefficient vector (-1,-1,1,0,...,0) has h=3,B=1 and squared norm 3.
+The acquisition search finds some qualifying member from ANY ordinary
+basis because its exhaustive membership predicate depends only on the
+ideal. At the inherited radius, the authorized guards imply
+r<1/(4sqrt(n)); hence
+  4r^2*3 < 3/(4n) <1.
+The sparse decoder therefore succeeds. If r is inverse polynomial along
+an inherited family, its polynomial lower bound multiplied by the
+exponential L_(n/2) diverges. Thus 2e(J_n)r<1 eventually fails for that
+family even while the sparse guard succeeds. This compares sufficient
+algorithms only, and leaves the inherited radius unchanged.
+
+4. Independent finite control and resource receipt
+
+sparse-lucas-audit-v1.py was independently written and hash-preregistered
+before execution. A coordinator LIGHT grant allowed the second global
+light slot. The exact command used /usr/bin/time, timeout 120s and
+prlimit --as=536870912; full argv, input/code hashes, precision, dimensions,
+and estimates are in sparse-lucas-audit-prereg-v1.json.
+
+The script calculated the integer 2-by-2 matrix of phi^n+1 and its Smith
+invariants by entry gcd and determinant for n=4,8,16,32,64,128,256. Both
+invariants were exactly L_(n/2) in every case. At n=4 and 8 it constructed
+the multiplication lattice of X^2-X-1, applied determinant-one column
+shears to make a different ordinary basis, and performed a support/values
+enumeration and rational membership tests. It found the required sparse
+member after 34 and 130 candidates respectively. Using a nonintegral
+lambda=1/(X^2-X-1), rational noise with each coefficient 1/(100n), and
+r=1/100, it rounded and divided exactly and recovered lambda. Its noise
+promise follows from the triangle inequality on each embedding:
+||w||_can,infty<=n/(100n)=1/100.
+
+The run exited 0 in 0.0417 seconds and was reaped. All probability-free
+checks used integer and Fraction arithmetic. Complete results, stderr,
+exit status, wall/CPU time and peak-RSS receipt are preserved. These
+bounded checks support the implementation audit; the proofs in sections
+1–3 establish the unbounded statement.

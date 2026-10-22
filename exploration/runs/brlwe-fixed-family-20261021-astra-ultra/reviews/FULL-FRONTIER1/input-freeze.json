@@ -1,0 +1,54 @@
+{
+  "time_utc": "2026-10-21T19:24:56.594419+00:00",
+  "review": "FULL-FRONTIER1",
+  "inputs": [
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/gaussian-average-obstruction-statement-v1.md",
+      "sha256": "7b3f0d3c6367dcf354d2fbfcff42c3c19cb668d34baf0393094f37f8031752cd",
+      "frozen_copy": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FRONTIER1/inputs/gaussian-average-obstruction-statement-v1.md",
+      "bytes": 1957
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/gaussian-average-obstruction-proof-v1.md",
+      "sha256": "afd286d46e5095fafc75fba79881e6eecdc0d9c24cadf5b5e0130efbef931d93",
+      "frozen_copy": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FRONTIER1/inputs/gaussian-average-obstruction-proof-v1.md",
+      "bytes": 3113
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/fractional-information-statement-v1.md",
+      "sha256": "94f562284bf0f7b9117be57261e0c19deb76dcdff7bd317f7a722203f604b8bd",
+      "frozen_copy": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FRONTIER1/inputs/fractional-information-statement-v1.md",
+      "bytes": 2923
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/fractional-information-proof-v1.md",
+      "sha256": "e1ec235c7bf9b3f7d58d25786a3bcece4bb62b0430b7c6da4296a26255d7c5c8",
+      "frozen_copy": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FRONTIER1/inputs/fractional-information-proof-v1.md",
+      "bytes": 3618
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/weight-covariance-statement-v1.md",
+      "sha256": "af37700170161bd8593c5573c192f3b24b113eb5a518db08f35d69a0d678b234",
+      "frozen_copy": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FRONTIER1/inputs/weight-covariance-statement-v1.md",
+      "bytes": 1413
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/weight-covariance-proof-v1.md",
+      "sha256": "88617f5c420181734206414ed3fd30bdcdf5ba84dee2575699ba406e029ad7a3",
+      "frozen_copy": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FRONTIER1/inputs/weight-covariance-proof-v1.md",
+      "bytes": 1973
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/source-prime-support-statement-v1.md",
+      "sha256": "b7d9c43af7dedfcaeec509b9693dd374b7f05f197ea9a3bd0fbc09e9c0967df9",
+      "frozen_copy": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FRONTIER1/inputs/source-prime-support-statement-v1.md",
+      "bytes": 1839
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/source-prime-support-proof-v1.md",
+      "sha256": "12967509eed52f8fe2896e7d341a792beacbd06cd4a50a43a07bc04c1ea4014d",
+      "frozen_copy": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FRONTIER1/inputs/source-prime-support-proof-v1.md",
+      "bytes": 4089
+    }
+  ]
+}

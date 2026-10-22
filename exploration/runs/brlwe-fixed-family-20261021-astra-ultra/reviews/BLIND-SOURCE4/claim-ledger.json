@@ -1,0 +1,21 @@
+{
+  "scope": "Blind local mathematical reconstruction only; global coordinator certification is not asserted.",
+  "claims": [
+    {"id":"SV-DENSE-SPLIT-v1","protocol_status":"PROVISIONAL","local_verdict":"Proved under the frozen effective polynomial-value split-prime-family premise","evidence":"blind-report.md sections 9-10","mathematical_gap_found":false},
+    {"id":"SV-RS-DECODE-v1/core","protocol_status":"PROVISIONAL","local_verdict":"Pointwise deterministic algorithm and finite guard proved","evidence":"blind-report.md sections 3-5","mathematical_gap_found":false},
+    {"id":"SV-RS-DECODE-v1/inherited-radius","protocol_status":"REJECTED","local_verdict":"The frozen epsilon-based radius is one quarter of the supplied actual radius","evidence":"blind-report.md section 6","regression":"RS-PARAM-1"},
+    {"id":"SV-RS-DECODE-v1","protocol_status":"REJECTED","local_verdict":"Exact full version contains the false inherited-radius assertion; core remains proved","evidence":"blind-report.md sections 5-6"},
+    {"id":"SV-GAP-DECODE-v1","protocol_status":"PROVISIONAL","local_verdict":"Proved using the reconstructed RS core","evidence":"blind-report.md sections 4-5 and 7","mathematical_gap_found":false},
+    {"id":"SV-LIST-DECODE-v1","protocol_status":"PROVISIONAL","local_verdict":"Proved, including multiplicity recursion, uniqueness, and explicit constants","evidence":"blind-report.md section 8","mathematical_gap_found":false},
+    {"id":"SV-RS-ACTUAL-v3","protocol_status":"PROVISIONAL","local_verdict":"Proved conditional on the explicitly assumed inherited interface and guards; correct epsilon_* radius","evidence":"blind-report.md section 11","mathematical_gap_found":false},
+    {"id":"SV-ALL-SUBFIELDS-v1","protocol_status":"PROVISIONAL","local_verdict":"Reconstructed supporting dependency","evidence":"blind-report.md section 10","mathematical_gap_found":false},
+    {"id":"SV-SUBFIELD-v2","protocol_status":"PROVISIONAL","local_verdict":"Reconstructed supporting dependency, including bounded-factor guarantee","evidence":"blind-report.md section 10","mathematical_gap_found":false}
+  ],
+  "why_provisional_in_global_protocol": "This blind reviewer was intentionally not exposed to historical project regressions, canonical author proofs or global delivery artifacts. Mathematical proofs are complete locally where stated; global acceptance and reconciliation belong to the coordinator.",
+  "regressions": [
+    {"id":"RS-PARAM-1","kind":"exact algebraic contradiction","input":"epsilon=epsilon_*/4>0; r_actual=epsilon_*ell^2/(1024nKchiQmax)","expected":"Reject equality r_actual=epsilon*ell^2/(1024nKchiQmax); require epsilon_* or coefficient 128 with epsilon^2"},
+    {"id":"CP-1","kind":"exact rational finite control","expected":"21/2000>1/100 rejects unsupported product bound; selected posterior incidence 21/221 remains below 1/10","result":"PASS; old product claim rejected"},
+    {"id":"SOURCE4-FOURIER","kind":"bounded exact finite control","cases":270,"expected":"Correct negative-exponent inverse transform and support-on-S annihilator","result":"PASS"},
+    {"id":"SOURCE4-ROOTS","kind":"bounded exact finite control","cases":6,"exhaustive_candidates":750,"expected":"Exact roots, including multiplicities, X-content, shared prefixes, and false finite prefixes","result":"PASS"}
+  ]
+}

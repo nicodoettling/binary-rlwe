@@ -1,0 +1,21 @@
+{
+  "id": "FF3-LP-FV2",
+  "registered_before_execution": true,
+  "hypothesis": "Unrestricted positive normalized kernels with both endpoints may be feasible with an input-noise reserve in small exact finite ring experiments, escaping additive covariance restrictions. Identity must pass and uniform-source/informative-target must fail.",
+  "code": "ff3-lp-fv2.py",
+  "inputs": "Eight exhaustive rational-noise cases in the frozen code: n1 Q3q3 identity; n1 Q3q2 uniform negative; n1 Q3q2 and Q5q3 narrow reserve; n2 Q3q2 narrow, medium, wide and noiseless source. All binary secrets and all observations retained.",
+  "seed": "none, deterministic enumeration/LP",
+  "command": "ulimit -v 524288; /usr/bin/time -v timeout 120s python3 ff3-lp-fv2.py > ff3-lp-fv2-output.jsonl 2> ff3-lp-fv2-resource.txt",
+  "limits": {
+    "wall_seconds": 120,
+    "address_space_bytes": 536870912,
+    "expected_rss_bytes": 120000000,
+    "expected_seconds": 15,
+    "heavy": false,
+    "per_LP_seconds": 25
+  },
+  "precision": "IEEE64 SciPy HiGHS for discovery. Fraction reconstruction denominator<=10^9, followed by independent exact rational row/endpoint/nonnegativity or Farkas checks. Unverified reconstruction is explicitly numerical only. No Gaussian truncation; all stated laws are finite rational surrogates.",
+  "expected": "Identity feasible and uniform negative infeasible with exact certificates. Other outcomes open. Each result scoped to its exact finite parameters; no inference to infinite Gaussian or PPT theorem.",
+  "code_sha256": "b0a71ac43e73112cd1da974b94e58d70dff2cedb2c3bba3772cee6644728fb2c",
+  "repair": "FV1 aborted before output from libstdc++ thread resource error. Explicit threads=1 passed to both HiGHS solver calls; mathematical instances unchanged. FV1 files retained."
+}

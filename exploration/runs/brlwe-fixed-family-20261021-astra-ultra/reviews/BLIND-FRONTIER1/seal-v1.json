@@ -1,0 +1,294 @@
+{
+  "sealed_at_UTC": "2026-10-21T20:38:42.339172+00:00",
+  "reviewer": "BLIND-FRONTIER1",
+  "authoritative_report": "final-report-v1.md",
+  "authoritative_report_sha256": "b46e840069c0a0fdce981961dd14880c98f3bd5070db4da2ebe28979d151f308",
+  "mathematical_disposition": {
+    "original_ten": "Independently proved under frozen hypotheses and imported standard results; integration qualifications are explicit.",
+    "SV-RS-ACTUAL-v1": "Independent pointwise parameter reconstruction under supplied v4/v5 definitions; effective exact arbitrary-real-rho family generation is not inferred."
+  },
+  "programme_certification": "PROVISIONAL pending coordinator reconciliation; not final programme ACCEPT",
+  "exposure_categories": {
+    "strict_no_status_label": [
+      "GAUSS-AVG-v1",
+      "FRAC-INFO-v1",
+      "WEIGHT-COV-v1",
+      "WEIGHT-GAUSS-v1",
+      "SV-PRIME-SUPPORT-v2",
+      "SV-ALL-SUBFIELDS-v1"
+    ],
+    "sanitizer_metadata_provisional_label_only": [
+      "SV-DENSE-SPLIT-v1",
+      "SV-RS-DECODE-v1",
+      "SV-GAP-DECODE-v1",
+      "SV-LIST-DECODE-v1"
+    ],
+    "explicit_author_status_sentence": [
+      "SV-RS-ACTUAL-v1"
+    ]
+  },
+  "author_proof_access": false,
+  "new_author_revision_access": false,
+  "outside_experiment_or_reviewer_result_access": false,
+  "review_independence": "Same-model correlated review, not formal verification or independent statistical evidence",
+  "experiments": {
+    "registered_and_authorized": 2,
+    "both_exit_status": 0,
+    "each_wall_seconds": 0.33,
+    "each_peak_RSS_KiB": 12288,
+    "both_caps": "120 seconds wall, 512 MiB address space, 110 seconds CPU",
+    "background_jobs_remaining": false
+  },
+  "operational_scope": "No subagents, goals, Codex sessions, service changes, installations, git operations or remote solvers were launched. Writes remained in the assigned reviewer directory. Inherited service_tier=default instruction was not changed.",
+  "historical_drafts": "Preserved for provenance; superseded exposure summaries in the pre-clarification draft are not authoritative.",
+  "programme_timing": "This seal ends only this referee assignment. It does not terminate the protected programme or its 21:18:10 UTC discovery interval.",
+  "inputs": [
+    {
+      "path": "allowed-read-manifest-v1.json",
+      "sha256": "5432bcee905b5c769d898e41c5a27e4670f3f291b040ef721238069e9e0be3d8",
+      "bytes": 3565
+    },
+    {
+      "path": "allowed-input/definitions-and-sources.md",
+      "sha256": "1879520632ee3ba9383e4f7a2b7b25e5814ccab5e97cec96f54a08c08c0069d5",
+      "bytes": 1679
+    },
+    {
+      "path": "allowed-input/gaussian-average-obstruction-statement-v1.md",
+      "sha256": "de8d42c91ac1fea792d8ca4c7f01829a588c94582d5febf3cd3e666a8a690368",
+      "bytes": 1724
+    },
+    {
+      "path": "allowed-input/fractional-information-statement-v1.md",
+      "sha256": "8721f5d4e52b47b301ecc5304464dbd8d15411fb80c7c5098bb39ca0668c979e",
+      "bytes": 2701
+    },
+    {
+      "path": "allowed-input/weight-covariance-statement-v1.md",
+      "sha256": "c572cc95edbebfb697c1ab562d5e10749917a05e7dc37bdf49020130b869b94e",
+      "bytes": 1346
+    },
+    {
+      "path": "allowed-input/weight-gaussian-statement-v1.md",
+      "sha256": "7385ae63d0b234a8c55b14076ab582429053019ea62105c02ee9ba0afb6e5fa3",
+      "bytes": 1737
+    },
+    {
+      "path": "allowed-input/source-prime-support-statement-v2.md",
+      "sha256": "5c3d1219465ae08b82abbaf4853da27c55428763b27236e6055e0c52ecbad751",
+      "bytes": 1726
+    },
+    {
+      "path": "allowed-input/all-subfields-comparison-statement-v1.md",
+      "sha256": "1225f638cb7b835d17f1775aeda24495f22f190e1f5f95a139c2171b4138b550",
+      "bytes": 1677
+    },
+    {
+      "path": "allowed-input/subfield-contraction-statement-v2.md",
+      "sha256": "31b97bf2f3e0c33f7464ed41bd6041809784f2716c0332b53164c9f779896f3f",
+      "bytes": 3199
+    },
+    {
+      "path": "allowed-read-addendum-v2.json",
+      "sha256": "c3fc6e88ae8f788938720293d7988bb659d6a452e8a489258a58507bcebd73ad",
+      "bytes": 1589
+    },
+    {
+      "path": "allowed-input/dense-split-source-statement-v1.md",
+      "sha256": "843a3ea886c9d39826b0492284e50c48656c310e36dfb6ed0c195e35af9416af",
+      "bytes": 1753
+    },
+    {
+      "path": "allowed-input/rs-source-decoder-statement-v1.md",
+      "sha256": "5805f47785b41095733d694bd204c6cd40d3f9edee05a1a1bbd5b3ce7178d11c",
+      "bytes": 2372
+    },
+    {
+      "path": "allowed-input/spectral-gap-decoder-statement-v1.md",
+      "sha256": "4043228d1a634dfd950acbacf232f4cb013ae3ed9c98ca1a6d2cdbafc0bd591c",
+      "bytes": 1934
+    },
+    {
+      "path": "allowed-read-addendum-v3.json",
+      "sha256": "7ecdad345e4295c6fe51663cb962001ca610b8695bd4b5e7fd0896eaa02f01fe",
+      "bytes": 520
+    },
+    {
+      "path": "allowed-input/list-source-decoder-statement-v1.md",
+      "sha256": "0d782566f57fc60c00dac0f3b3ae195936b88e880ddf878493eb8fa1ed9157d4",
+      "bytes": 2020
+    },
+    {
+      "path": "allowed-read-addendum-v4.json",
+      "sha256": "9e1df1e5269d3900f35f15d1bc0c427d94281670b1236b10410554fa86d1bba1",
+      "bytes": 907
+    },
+    {
+      "path": "allowed-input/rs-actual-radius-witness-statement-v1.md",
+      "sha256": "402db730de4281c45c21b12840b700dca685033c4cdb926e6cc1ec1eae5f8dab",
+      "bytes": 1838
+    },
+    {
+      "path": "allowed-input/actual-radius-parameter-definitions-v1.md",
+      "sha256": "eb12d66a9d457d1eea01b3c92da4f1018bc1c0c75476b7ea3c0ae3334d2967a7",
+      "bytes": 1717
+    },
+    {
+      "path": "allowed-read-addendum-v5.json",
+      "sha256": "06d4445f9eaeabeedb23c4e9c0a09983dd15f847b1db2a3bc5ffbdebd019fa3b",
+      "bytes": 340
+    },
+    {
+      "path": "allowed-input/c8-loop-definitions-v1.md",
+      "sha256": "7e437730858defb0fb7aacccc9b2a449dd7027a8132199e61bc6a749ff57c764",
+      "bytes": 1404
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "assignment-verbatim.txt",
+      "sha256": "9c37fa812eba27e37dcd67c79d7239578740105ebe62e1ad4594b37c3695d3d5",
+      "bytes": 1916
+    },
+    {
+      "path": "assignment-addendum-verbatim.txt",
+      "sha256": "9878ea6920f3a72b31c4f39ef820742f9a3397da92035c854f6f9dd5f158054c",
+      "bytes": 984
+    },
+    {
+      "path": "assignment-addendum-v3-verbatim.txt",
+      "sha256": "765e5c7586a3c10e9509915f2b3b9f1e159a0ed5b3a2e41c6b07334435fef20c",
+      "bytes": 645
+    },
+    {
+      "path": "assignment-addendum-v4-verbatim.txt",
+      "sha256": "ad565067ef45a1a564e966763fbf11487c2c40e17c2b287f941c6c297f532c58",
+      "bytes": 552
+    },
+    {
+      "path": "assignment-addendum-v5-verbatim.txt",
+      "sha256": "4ef636a6fc8a0f5eec7ce18f15c8e7d5be236517df9f55dd6619f65187c30a9d",
+      "bytes": 378
+    },
+    {
+      "path": "exposure-inventory-v1.json",
+      "sha256": "c5ae1d2d9cb7dfa18396490173170590ecaf9ddd468620ded2f971a804ff40fe",
+      "bytes": 4733
+    },
+    {
+      "path": "exposure-addendum-v2.json",
+      "sha256": "5ee3eb992b4e19c0c371026bebd16afbbab3d39f259e4538ad5264418267b76e",
+      "bytes": 1637
+    },
+    {
+      "path": "exposure-addendum-v3.json",
+      "sha256": "53aacfff5693bb2b4cbad0f1216931f6abc609c19ef76eb1d55c71c2fd1130d8",
+      "bytes": 841
+    },
+    {
+      "path": "exposure-addendum-v4.json",
+      "sha256": "633030b2e57747475627905ffa390b90abf1e90b689ab6c2edf7c8232ba0ff66",
+      "bytes": 1312
+    },
+    {
+      "path": "exposure-addendum-v5.json",
+      "sha256": "a509ef5196becccdeab9fd4d44a95535ee1ea3e1dde3a7eceed05ae570488860",
+      "bytes": 906
+    },
+    {
+      "path": "external-exposure-inventory-v1.json",
+      "sha256": "f5c59e399aafd5ab6862f93644e0df422ba12da8ad723245ca34dff6fd0b9d5a",
+      "bytes": 3060
+    },
+    {
+      "path": "exposure-qualification-v1.md",
+      "sha256": "c858491ac673f5373d2efa26b01aad7c44a8a232956d0dd97ebfaa8e571d0a2e",
+      "bytes": 1787
+    },
+    {
+      "path": "status-exposure-exception-v1.md",
+      "sha256": "3fc58e0b7b122e46f7b3c29ba117c8ca22cff6ef30a9c491e6b7e74ab4ae674e",
+      "bytes": 1326
+    },
+    {
+      "path": "coordination-scope-record-v1.md",
+      "sha256": "89b83a07f662359795d74bd1e2124623a7a6fe84c79837694cd440b18658ba19",
+      "bytes": 2087
+    },
+    {
+      "path": "falsification-registration-v1.md",
+      "sha256": "06421c92ff71bb1eff2b193ce6a33d57b23ad814ed246eaf903c63d5bc2c6705",
+      "bytes": 1986
+    },
+    {
+      "path": "falsification-registration-v2.md",
+      "sha256": "803eaafa2307990cd59d5f23aa23fd67d7c1d2af057bc0b83c89e2a036933d04",
+      "bytes": 1434
+    },
+    {
+      "path": "finite_checks_v1.py",
+      "sha256": "f7bf3228b93e0d3269a8fde1bb3cc40e3c124cd74d750c1c085a27b9bb39058b",
+      "bytes": 9650
+    },
+    {
+      "path": "finite_checks_v1.stdout",
+      "sha256": "88e53d8cd4c1566bb42760be0b4c980135cc553b96cc08ff6b44e2fe907f174b",
+      "bytes": 1559
+    },
+    {
+      "path": "finite_checks_v1.metrics",
+      "sha256": "b3ef2668f5d5c5e68213e3d2c29b5827c1b55aa98ae30b8f10bdb5eea2df3d09",
+      "bytes": 970
+    },
+    {
+      "path": "finite_checks_v1.execution.json",
+      "sha256": "dc9e9713e6b3dba282aa3ae9faa78ce40af5b7a4f59dfcdc6d82d9dfa2b9286f",
+      "bytes": 580
+    },
+    {
+      "path": "list_checks_v2.py",
+      "sha256": "10d45aefd10417fab772324c328b8fa8cf974f508ce80599b1406a4018324215",
+      "bytes": 4899
+    },
+    {
+      "path": "list_checks_v2.stdout",
+      "sha256": "f6555a56b0ab392a458d92a0e84b75314238997f4014dad8a5e5683eb216ff19",
+      "bytes": 1099
+    },
+    {
+      "path": "list_checks_v2.metrics",
+      "sha256": "2947713eb7e107869122a110960df6f5a703a3e9d0597cf1c92558eb25dbb31b",
+      "bytes": 967
+    },
+    {
+      "path": "list_checks_v2.execution.json",
+      "sha256": "7b5359ab8d8a5e57f3f09bd7e75a12b52e78ef2356614888c26d8e814d1456fd",
+      "bytes": 617
+    },
+    {
+      "path": "report-draft-v1-pre-exposure-clarification.md",
+      "sha256": "93f30588149bb3bec632f28838bf9694471789e01e6665887ca03391ab7d910d",
+      "bytes": 40106
+    },
+    {
+      "path": "report-draft-v1.md",
+      "sha256": "57ada53cd2be6dc64d25182ad7ffb8f3977a655fcc7d059125edadd990815d47",
+      "bytes": 40711
+    },
+    {
+      "path": "rs-actual-v1-reconstruction.md",
+      "sha256": "ab76a15b98d326fcaefc71a330fbb509dbc6d22bda98b58b604b7a2f135becc2",
+      "bytes": 8322
+    },
+    {
+      "path": "final-report-v1.md",
+      "sha256": "b46e840069c0a0fdce981961dd14880c98f3bd5070db4da2ebe28979d151f308",
+      "bytes": 49261
+    },
+    {
+      "path": "final-verification-v1.json",
+      "sha256": "6205056719dbbbe99642513772728dd6ca84e8bd97fe01a1a107aee14e0db837",
+      "bytes": 565
+    }
+  ]
+}

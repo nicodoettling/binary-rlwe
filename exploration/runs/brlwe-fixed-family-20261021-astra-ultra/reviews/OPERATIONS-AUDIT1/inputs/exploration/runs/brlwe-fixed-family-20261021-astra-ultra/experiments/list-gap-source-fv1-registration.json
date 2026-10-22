@@ -1,0 +1,17 @@
+{
+  "id": "LIST-GAP-SOURCE-FV1",
+  "registered_at": "2026-10-21T20:11:26.276400+00:00",
+  "hypothesis": "Exact list interpolation/coefficient recursion/lattice selection beyond scalar and uniqueRS guards; all254n8spectralsupportgaps",
+  "code": "experiments/list-gap-source-fv1.py",
+  "code_sha256": "351e68d709568f2a2538e30254ac84c3a11eef9f2b4cbb9ebf240d4ae4cbcdac",
+  "inputs": "n16p97t2B1d9; n32p193t3B2d24; characteristic5 repeated-prefix/inseparable roots; alln8supports",
+  "seeds": "none",
+  "wall_limit_seconds": 120,
+  "address_space_bytes": 536870912,
+  "estimated_seconds": 10,
+  "estimated_peak_MiB": 64,
+  "precision": "exact",
+  "tails": "none",
+  "status": "REGISTERED",
+  "authorization": "rootLIGHT secondglobal slot alongsideBLIND-FRONTIER1LIGHT; noheavyactive"
+}

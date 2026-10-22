@@ -1,0 +1,37 @@
+# Additive exact full review: FF3-COMPACT-SELECTOR-v3
+
+**PASS RECOMMENDED at the exact conditional mathematical, finite-certificate and expected-cost scope.** This is an additive full/source/complexity review of coordinator/compact-selector-statement-v3.md and compact-selector-proof-v3.md. The original FRONTIER-CHALLENGE1 seal is preserved. No new experiment was run; the earlier independently written exact finite control is reused only after its code and every coefficient input were hash-checked unchanged.
+
+## Correction to this referee's earlier recommendation
+
+The original full report recommended PASS for v2 including its computational scope. That unqualified computational recommendation is withdrawn. The v2 hypotheses only required M>=max G and did not supply an encoded rational M; read literally, M could be an uncomputable real. Efficient rational-coin subroutines do not thereby implement the exact probability G/M. The normalized mathematical kernel, pointwise mean-M trial identity and exact finite FV11 endpoints survive, but the literal computational assertion needed a representation premise. The original report/seal and coordinator/compact-selector-v2-rejection-v1.md are retained as evidence of this missed requirement, not silently reinterpreted as an earlier v3 acceptance.
+
+The v3 statement supplies a positive rational M encoded by binary integers, explicitly charges its input bit length and numeric value, and permits an encoded integer upper bound. FV11 can take M=3. These changes repair the identified defect without changing K, any g/H coefficient or any endpoint equation.
+
+## Complete probability and endpoint recheck
+
+Fix one full observed input x. Normalization gives sum_e G(c_e(x))=|E|, and hence a single fresh trial succeeds with probability 1/M. Averaging nonnegative G also implies M>=1. Conditional on x, each retry uses fresh proposal and coin randomness, so after every surviving history its success probability remains 1/M. Thus the expected trial count is exactly M, and failure after L attempts is (1-1/M)^L<=exp(-L/M). No marginal-to-product inference or hidden class seed is used. A G=0 branch is never accepted and does not require defining g/G there.
+
+The accepted edge has probability G(c_e(x))/|E|. Selecting (j,k) with probability g/G makes the combined accepted edge/variant mass g/|E|, independently of the chosen valid M. Two fresh independent H outputs have their declared full ring laws. The map (c,d) to (d-cu,d-cv) is bijective because v-u=X^i is a unit in R_q: subtracting the residuals solves c by multiplying by the monomial inverse, then obtains d. This proves the displayed K(x,y) and its row normalization for every x, including inputs of small or zero mass in a particular endpoint.
+
+The full fixed-secret equations P_sK=T_s and comparator equation UK=V remain separate hypotheses. Input-dependent edge selection cannot inherit them solely from H preserving noise and uniform laws. The finite FV11 instance meets them by exact complete-state equations; the new M changes the rejection time, not the accepted kernel.
+
+For a batch, first condition on the single original secret s. Independent source samples and fresh channel tapes then produce T_s^k. Only afterwards is the common binary secret mixed. The comparator product is verified using UK=V. A capped implementation can be coupled to the exact one until a per-input rejection failure; union over k uses yields at most k exp(-L/M), with all H/coin approximation costs still additional. The proof never assumes independence of selected failures or replaces a common secret by fresh per-row secrets. CP-1 remains a counterexample to the rejected marginal-product principle and is not a counterexample to this pointwise fresh-trial proof.
+
+## Full finite encoding and cost recheck
+
+Since g is rational and M is supplied rational, G(c)/M is an exactly represented rational in [0,1]. Rational addition/division has bit complexity polynomial in the total input-table encoding and M encoding. For a reduced probability a/b, draw a uniform integer in [0,b) by binary rejection, and accept if it is below a. Each uniform draw has expected fewer than two proposals and O(log b) bits per proposal. Endpoint probabilities 0 and 1 can be handled deterministically. Thus there is no uncomputable probability left in this acceptance coin.
+
+Conditional variant sampling likewise uses encoded rational g/G. Clearing denominators of a polynomial-size explicit row costs at most the sum of the input denominator bit lengths; it does not require enumerating its possibly huge numeric denominator. The claim appropriately remains conditional on efficient class computation, table construction/representation, H sampling and the other rational coins. Polynomial class count alone does not certify any of those conditions.
+
+Choosing a uniform cube edge uses a uniform coordinate i<n and n-1 fair bits. General n permits expected O(n) bits through bounded-length index proposals with rejection; powers of two permit a worst-case O(n) exact index draw. The v2 repair is preserved in v3. Ring arithmetic and multiplication by a monomial inverse have polynomial bit cost. Expected M trials therefore give the stated expected polynomial cost in n, all input bit lengths and the **numeric** value M, under the stated efficient-subroutine hypotheses. Encoding M with few bits does not imply polynomial numeric M.
+
+The trial cap L by itself does not bound all random-bit rejection subroutines on every tape. If a future reduction requires all-input/all-tape polynomial runtime, it must cap those subroutines too and charge their errors. The present statement explicitly gives expected costs and separate approximation charges; it does not claim a completed bounded FF implementation. The remaining H/real-table issues elsewhere are not solved by making M rational.
+
+## Finite certificate, source and reuse of controls
+
+The exact rational FV11 tables remain n=2,Q=3,q=2, with the four H kernels, 33 nonzero selector weights and maximum G equal to the displayed rational strictly below 3. Hence supplied M=3 satisfies the guard. The earlier independent Fraction control verified all 81 row normalizers, all 80 endpoint equations and each H's full uniform/noise endpoints. It used no optimizer or author checker. Hashes of control-v1.py, the two frozen coefficient/witness JSON files and its complete output/receipt/resources were rechecked before reuse. The source/target laws are the same rational coefficient products, not Gaussian surrogates. No asymptotic family, efficient general table construction or Gaussian full-cube transfer is inferred.
+
+The new source premise is entirely finite: M is ordinary represented input, not an oracle for a real probability. No external theorem or new hardness assumption is imported. The exact M-independent identity for K proves that the unchanged finite endpoint checks remain applicable; rerunning the same finite equations would add no relevant evidence for this representation repair.
+
+All 203 inherited regressions remain available under the original exact reference file and original seal. The new local failure is the unencoded-real-M computational premise; its correction is explicit v3. Numeric-value, bit-length, expected-versus-bounded-time, full shared-secret and posterior-normalization boundaries remain in force. This review's recommendation is separate from fresh blind review and coordinator acceptance. Same-model scrutiny is correlated, not formal verification.

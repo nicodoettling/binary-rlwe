@@ -1,0 +1,27 @@
+/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/experiments/ff3-n4-geometry-fv12.py:41: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  lp=linprog(rng.integers(-31,32,size=N*N),A_eq=a0,b_eq=b0,bounds=(0,None),method='highs',options={'threads':1,'time_limit':3.0})
+/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/experiments/ff3-n4-geometry-fv12.py:98: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  lp=linprog(obj,A_eq=Aeq,b_eq=bb,A_ub=Au,b_ub=np.zeros(G),bounds=(0,None),method='highs',options={'threads':1,'time_limit':remaining,'primal_feasibility_tolerance':1e-9,'dual_feasibility_tolerance':1e-9})
+	Command being timed: "timeout 120s python3 ff3-n4-geometry-fv12.py"
+	User time (seconds): 7.21
+	System time (seconds): 0.75
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.97
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 964724
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1
+	Minor (reclaiming a frame) page faults: 274806
+	Voluntary context switches: 8
+	Involuntary context switches: 27
+	Swaps: 0
+	File system inputs: 120
+	File system outputs: 176
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

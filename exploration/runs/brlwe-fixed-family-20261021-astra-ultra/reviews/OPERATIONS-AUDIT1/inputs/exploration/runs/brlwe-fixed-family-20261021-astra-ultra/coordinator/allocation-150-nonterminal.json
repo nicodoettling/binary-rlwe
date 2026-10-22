@@ -1,0 +1,87 @@
+{
+  "at": "2026-10-21T20:19:42.431138+00:00",
+  "service_elapsed_seconds": 9091.794695266988,
+  "scheduled_gate_utc": "2026-10-21T20:18:10.636448Z",
+  "type": "150-minute NONTERMINAL substantive allocation check",
+  "scientific_termination": false,
+  "goal_status": "active",
+  "protected_end": "2026-10-21T21:18:10.636448Z",
+  "statuses": {
+    "fixed_family_reduction": "OPEN; inherited target-noise resource restriction not removed",
+    "source_diagnostic": "Reviewed substantive classifications at inherited DD radius; four new direct/code-based scope extensions provisional",
+    "hardness_foundation": "NOT_ESTABLISHED"
+  },
+  "substantive_outcomes": [
+    "Exact CRT projection/certificate and ordinary-basis exponent/Frobenius/symmetry/subfield classifications accepted at exactscope; no efficient certificate inversion or source bridge.",
+    "Full referee supports six probability/source frontier candidates. Positive-rho existence wording defect preserved in PRIME-SUPPORT-v1; v2 pending freshfullandblind. Freshstatement-only reviewer now audits tenclaims.",
+    "FF3 exact two-secret kernel, explicit exponential all-cube simulator, and finite correlated ring-H kernels developed. Fullreview confirms finitecertificates but requires sign correction in ENUM proof; v2 correction preserved pending freshreview.",
+    "Compact public-geometry selector exists atn2; exact n4 Farkas certificates and a general guessing-capacity bound reject scalable polynomial-class bounded-rejection outputfactoring. Actual full residual-direction channel lies outside that scope and is actively investigated.",
+    "New dense split-root family has polynomial exponent, exponential norm and exponential feasible subfield contractions. Instead of calling it hard, direct RS and list-recovery decoders were developed. Exactfinite decoder controls pass beyond scalar/uniqueRS sufficient guards; general spectral-gap criterion covers arbitrarysplit-prime support underits guard."
+  ],
+  "alternatives_after_initial_failures": [
+    {
+      "failure": "Affine Gaussian rounding/correction obstructed, including Hamming-weight advice",
+      "new_avenue": "Nonlinear normalized channels; exacttwo-secret/full-enumeration constructions and finite correlatedkernels",
+      "remaining_test": "Efficient full-cube full-direction realization with exact uniformpublic multipliers/comparator"
+    },
+    {
+      "failure": "Independent/scalarH edge mixtures, localweightclasses and n4 jointweightclass model fail exact controls",
+      "new_avenue": "Retain residual shell rank; exactuniform ranktransport with polynomialnumeric DP; jointpairrank kernel nowtested",
+      "remaining_test": "AllfixedS endpoint/comparator law and scalable selector cost; no class-only output assumption"
+    },
+    {
+      "failure": "Small subfieldcontraction not impliedby polynomial exponent: explicitdensesplitcounterfamily",
+      "new_avenue": "Direct errorcorrecting interpretation of pJ^-1; RS,spectralgap,and listrecovery with exact lattice uniqueness selection",
+      "remaining_test": "Fresh fullproof/complexity and blind checks, including inseparable rootrecursion and ordinary-basis acquisition"
+    },
+    {
+      "failure": "Fixed-q source statistical secrecy fails at enoughpolynomial samples; certificateinverse remains high-index CVP",
+      "new_avenue": "Computational source comparison, controlled conditionalerror kernels, exacthomomorphic transfer at divisibleauxiliarymodulus",
+      "remaining_test": "Additional primefactors must actuallyaffectselectedinformation; shared-secret auxiliary samples mustnot be treated asindependent advice"
+    },
+    {
+      "failure": "Freshrefereespawn twice rejected despite reportedcompletedslot",
+      "new_avenue": "Useful localwork and reusedcompletedfullreviewer slot; no sessionbypass",
+      "remaining_test": "Capacityresolvedaftersecondcompletion; freshblindspawn nowactive andconfiguredAstraultraforknone"
+    }
+  ],
+  "assumptions": [
+    "Fixedringdegree/modulus/coefficient-Gaussian family precedes every adversarysample/advantage exponent. Smallerresource exponentdoesnotmeetFF.",
+    "Alltargetrawsamples shareoneS; exactGaussiananduniformpublic endpoints; alloffpromise callsbounded.",
+    "CommonlatentGaussian maskrequiresfullconditionalindependence; no conditional-sample or cached-prefix product shortcut.",
+    "Known-residual noise transport isnotunknown-secret full-cube transfer. Exactfinite surrogate success isnotasymptoticGaussian theorem.",
+    "Ordinarybasis source,inputbitcostsandnumericp/indices arecharged. Failureofsufficientdecoder isnot hardness.",
+    "Acceptedsourceclassesapplyatthe inheritedradius; anynewdeliveredradiusrequiresfresh exactcomparison."
+  ],
+  "allocation": {
+    "root": "ContinueFF2 direct-oracle/conditional-information alternatives and source-parameter scope; audit/integration; preparefreshfullreviewpackets",
+    "ff3_kernel": "Full-direction andcoupled-rank transfer through20:25Z, sealby20:30Z; then recycleforfreshfullreview ofnewsource/FF3claims",
+    "blind_frontier1": "Independentten-claim review, initial20:35Z/seal21:05Z; noauthorproofexposureuntilsealed"
+  },
+  "remaining_worthwhile_tests": [
+    "FV16 joint residual-pair ranktransport endpoint test and exact certificate ifpossible",
+    "ExactGaussian known-residual DP/channel finiteprecision andnormalizer proof",
+    "Freshfullandblindreview ofCOMPACT-GUESS,ENERGY-RANK andrepairedENUM, withallhistoricalregressions",
+    "Fullsource/complexityreview ofdense-split,RS,gap,listdecoders, actualradius and ordinaryinputrecognition",
+    "Challengewhetherone-shot/one-influential-sample decisiontests canavoid K withoutgiving S-dependenttargetauxiliarydata forfree",
+    "Freshnonauthor challenge toany eventualexhaustion claim; noneiscurrentlyasserted"
+  ],
+  "evidence": [
+    "coordinator/acceptance-v3.json",
+    "reviews/FULL-FRONTIER1/review-seal-v1.json",
+    "reviews/FULL-FRONTIER1/prime-support-scope-defect-addendum-v1.md",
+    "reviews/FULL-FF3/review-seal-v1.json",
+    "workers/FF3/exhaustive-kernel-proof-v2.md",
+    "workers/FF3/compressed-selector-information-statement-v1.md",
+    "workers/FF3/phase2-checkpoint-v1.md",
+    "coordinator/dense-split-source-statement-v1.md",
+    "coordinator/rs-source-decoder-statement-v1.md",
+    "coordinator/spectral-gap-decoder-statement-v1.md",
+    "coordinator/list-source-decoder-statement-v1.md",
+    "experiments/list-gap-source-fv1-output.json",
+    "reviews/BLIND-FRONTIER1/allowed-read-addendum-v3.json",
+    "coordinator/affine-orbit-amplification-frontier-v1.md"
+  ],
+  "next_binding_boundary": "2026-10-21T21:18:10.636448Z protectedEND/discoverycutoff",
+  "no_exhaustion_claim": true
+}

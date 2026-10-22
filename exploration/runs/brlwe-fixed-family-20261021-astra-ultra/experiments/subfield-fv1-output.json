@@ -1,0 +1,198 @@
+{
+  "order_inequality_cases": 3355,
+  "explicit_composite_examples": [
+    {
+      "n": 64,
+      "split_q": 257,
+      "D": "476226188534923137",
+      "full_stabilizer_size": 1,
+      "all_indices": [
+        {
+          "g": 2,
+          "rank_mod3": 2,
+          "d_g": "2313",
+          "feasible": false
+        },
+        {
+          "g": 4,
+          "rank_mod3": 2,
+          "d_g": "2313",
+          "feasible": false
+        },
+        {
+          "g": 8,
+          "rank_mod3": 4,
+          "d_g": "20817",
+          "feasible": false
+        },
+        {
+          "g": 16,
+          "rank_mod3": 8,
+          "d_g": "1686177",
+          "feasible": false
+        },
+        {
+          "g": 32,
+          "rank_mod3": 16,
+          "d_g": "11063007297",
+          "feasible": false
+        },
+        {
+          "g": 64,
+          "rank_mod3": 32,
+          "d_g": "476226188534923137",
+          "feasible": true
+        }
+      ],
+      "minimum_feasible": [
+        "476226188534923137",
+        64
+      ],
+      "scope": "Exact image ranks and coprime-factor index multiplication; no enumeration of d_g+1 vectors attempted."
+    },
+    {
+      "n": 128,
+      "split_q": 257,
+      "D": "882456741815175708557067215945217",
+      "full_stabilizer_size": 1,
+      "all_indices": [
+        {
+          "g": 2,
+          "rank_mod3": 2,
+          "d_g": "2313",
+          "feasible": false
+        },
+        {
+          "g": 4,
+          "rank_mod3": 2,
+          "d_g": "2313",
+          "feasible": false
+        },
+        {
+          "g": 8,
+          "rank_mod3": 4,
+          "d_g": "20817",
+          "feasible": false
+        },
+        {
+          "g": 16,
+          "rank_mod3": 8,
+          "d_g": "1686177",
+          "feasible": false
+        },
+        {
+          "g": 32,
+          "rank_mod3": 16,
+          "d_g": "11063007297",
+          "feasible": false
+        },
+        {
+          "g": 64,
+          "rank_mod3": 32,
+          "d_g": "476226188534923137",
+          "feasible": true
+        },
+        {
+          "g": 128,
+          "rank_mod3": 64,
+          "d_g": "882456741815175708557067215945217",
+          "feasible": true
+        }
+      ],
+      "minimum_feasible": [
+        "476226188534923137",
+        64
+      ],
+      "scope": "Exact image ranks and coprime-factor index multiplication; no enumeration of d_g+1 vectors attempted."
+    },
+    {
+      "n": 256,
+      "split_q": 7681,
+      "D": "90560407741610057340451824448509555871074343240270735558973757441",
+      "full_stabilizer_size": 1,
+      "all_indices": [
+        {
+          "g": 2,
+          "rank_mod3": 2,
+          "d_g": "69129",
+          "feasible": false
+        },
+        {
+          "g": 4,
+          "rank_mod3": 2,
+          "d_g": "69129",
+          "feasible": false
+        },
+        {
+          "g": 8,
+          "rank_mod3": 4,
+          "d_g": "622161",
+          "feasible": false
+        },
+        {
+          "g": 16,
+          "rank_mod3": 8,
+          "d_g": "50395041",
+          "feasible": false
+        },
+        {
+          "g": 32,
+          "rank_mod3": 16,
+          "d_g": "330641864001",
+          "feasible": false
+        },
+        {
+          "g": 64,
+          "rank_mod3": 32,
+          "d_g": "14233048070570990721",
+          "feasible": true
+        },
+        {
+          "g": 128,
+          "rank_mod3": 64,
+          "d_g": "26374125423666788394656938854767361",
+          "feasible": true
+        },
+        {
+          "g": 256,
+          "rank_mod3": 128,
+          "d_g": "90560407741610057340451824448509555871074343240270735558973757441",
+          "feasible": true
+        }
+      ],
+      "minimum_feasible": [
+        "14233048070570990721",
+        64
+      ],
+      "scope": "Exact image ranks and coprime-factor index multiplication; no enumeration of d_g+1 vectors attempted."
+    }
+  ],
+  "two_split_factors_indices": [
+    {
+      "g": 2,
+      "rank": 1,
+      "index": 97,
+      "feasible": false
+    },
+    {
+      "g": 4,
+      "rank": 2,
+      "index": 9409,
+      "feasible": false
+    },
+    {
+      "g": 8,
+      "rank": 2,
+      "index": 9409,
+      "feasible": false
+    },
+    {
+      "g": 16,
+      "rank": 2,
+      "index": 9409,
+      "feasible": true
+    }
+  ],
+  "all_arithmetic": "Exact integers and modular arithmetic; no floating Gaussian tails",
+  "limitations": "Bounded parameter/rank checks do not prove unbounded algebraic descent or polynomial-time asymptotics; no claim to enumerate huge indices."
+}

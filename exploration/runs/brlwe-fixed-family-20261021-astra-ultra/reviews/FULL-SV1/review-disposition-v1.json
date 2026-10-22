@@ -1,0 +1,47 @@
+{
+  "review": "FULL-SV1",
+  "review_type": "FULL_NONAUTHOR_NOT_BLIND",
+  "claims": [
+    {
+      "claim": "SV-BDD-CLASS-v1",
+      "full_review": "PASS_EXACT_SCOPE",
+      "files": {
+        "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/source-classification-theorem-v1.md": "1b72f95055b9c5a8953c46ee778ade4d57a55d5a61c4a1ce29003c049f59a5a3",
+        "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/source-classification-proof-v1.md": "5c208872ddd99f74294dc60dbcd1a952470b5d09956d576c7346e2f52eca0d5f"
+      },
+      "blocked_dependencies": [],
+      "required_next_step": "fresh blind review and coordinator reconciliation"
+    },
+    {
+      "claim": "SV-FROB-PRIME-v1",
+      "full_review": "PASS_EXACT_SCOPE",
+      "files": {
+        "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/frobenius-prime-theorem-v1.md": "17315abf7b50bbb758a3e0e5c580d159895a1e238ad3b01b88e77a08e8e28d3e",
+        "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/frobenius-prime-proof-v1.md": "8ed560e6c7a58a77d3eb03fbb622afac7347a77bcb9c47188ee141d269ed7546"
+      },
+      "blocked_dependencies": [],
+      "required_next_step": "fresh blind review and coordinator reconciliation"
+    },
+    {
+      "claim": "SV-SYMDESC-v1",
+      "full_review": "PASS_EXACT_SCOPE",
+      "files": {
+        "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/symmetry-descent-theorem-v1.md": "a16f483e8292606f8763eee79b2d64193bb43eb96e1609c0775c68231b5fcf10",
+        "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/symmetry-descent-proof-v1.md": "970995d371e5a8daf8f0f24ec0df056c23a3c8d4fb625cf487a6d8e9bdf08885"
+      },
+      "blocked_dependencies": [],
+      "required_next_step": "fresh blind review and coordinator reconciliation"
+    }
+  ],
+  "FF": "OPEN; not certified by this review",
+  "source_hardness": "NOT_ESTABLISHED",
+  "radius": "epsilon_*ell^2/(1024 n K chi Qmax); recomparison required if changed",
+  "probability": "No new stochastic lemma; CP-1 rejection preserved",
+  "review_independence": "same-model correlated scrutiny, not formal verification",
+  "reports": [
+    "full-report-v1.md",
+    "source-complexity-report-v1.md",
+    "regression-dispositions-v1.json",
+    "controls-receipt-v1.json"
+  ]
+}

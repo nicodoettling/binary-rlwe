@@ -1,0 +1,109 @@
+{
+  "created_at": "2026-10-21T19:23:27.107714+00:00",
+  "reviewer": "BLIND-SV2",
+  "artifact_root": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-SV2",
+  "files": [
+    {
+      "path": "allowed-read-manifest-v1.json",
+      "bytes": 4377,
+      "sha256": "3963d44a8668bd1afaf224a2f5884c6bfb0791556a82fbaff7c48a4416beee62"
+    },
+    {
+      "path": "assignment-verbatim.txt",
+      "bytes": 3159,
+      "sha256": "52a9e90ed95d6aefd65524727a05c693478a8eb643da860195369ec369553846"
+    },
+    {
+      "path": "experiment-execution-v1.json",
+      "bytes": 681,
+      "sha256": "474b1e6002b610d2894e60be44e5e57e7725e307422ab50ba332ac23d4722e08"
+    },
+    {
+      "path": "experiment-preregistration-v1.json",
+      "bytes": 2014,
+      "sha256": "9a02e7c4ef5768dcafdb22e08dc826562c6248cc6370993bb1d407935f26d05d"
+    },
+    {
+      "path": "findings-v1.json",
+      "bytes": 3294,
+      "sha256": "4b3949cb208e2fa420ff61fd69adcff33ad88adfc1f51ab85f18eab9f86eebd7"
+    },
+    {
+      "path": "finite-checks.py",
+      "bytes": 8114,
+      "sha256": "a519e89a9c61200a69a880cc3fc6027cf62e0317f40a4896979e27bc7f998c9d"
+    },
+    {
+      "path": "finite-checks.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "finite-checks.stdout.json",
+      "bytes": 5374,
+      "sha256": "a4d0a130044c2b267ca4dd860d5358222d43f39a814d46098e152af551d8108f"
+    },
+    {
+      "path": "independent-proof-report-v1.md",
+      "bytes": 21517,
+      "sha256": "1b28a5e187bcd89905e79d98381c209f0c9863369945709c28e4845107fa5689"
+    },
+    {
+      "path": "inputs/bdd-decoder-definitions.md",
+      "bytes": 4670,
+      "sha256": "1b72f95055b9c5a8953c46ee778ade4d57a55d5a61c4a1ce29003c049f59a5a3"
+    },
+    {
+      "path": "inputs/frobenius-definitions.md",
+      "bytes": 2502,
+      "sha256": "17315abf7b50bbb758a3e0e5c580d159895a1e238ad3b01b88e77a08e8e28d3e"
+    },
+    {
+      "path": "inputs/inherited-am-parameters.md",
+      "bytes": 11306,
+      "sha256": "eaabea064b734ccefbbb1d2410ed03fecdbe671f098c2e69d59d432df855e33c"
+    },
+    {
+      "path": "inputs/inherited-fixed-parameters.md",
+      "bytes": 6464,
+      "sha256": "25da2502104e746d3e9f2ca10e3d070372ff95b853b1fd2b0e6c96b1b909ecb6"
+    },
+    {
+      "path": "inputs/subfield-contraction.md",
+      "bytes": 3200,
+      "sha256": "56bb24b0907d0a37d111e137dbb82a9e971c821503cd7d6df4f1e1977c3c6901"
+    },
+    {
+      "path": "inputs/symmetry-descent.md",
+      "bytes": 3453,
+      "sha256": "407838eb0f4de49a36cad867cadd3f45cb65a4901a0415ba2d2990ac1e40c6a0"
+    },
+    {
+      "path": "intake-exposure-seal-v1.json",
+      "bytes": 3367,
+      "sha256": "fe01836718ec882b1c474098b2f84b4717dbc9348c1d57e8e47cf427eff14473"
+    },
+    {
+      "path": "primary-source-exposure-v1.json",
+      "bytes": 20819,
+      "sha256": "f0f66dd200c77860b58bc0323f41842dec2751b6f83446d330a10ced3c0cdd2b"
+    },
+    {
+      "path": "resource-usage.txt",
+      "bytes": 914,
+      "sha256": "d73dc96dada230ccc0b31c6b8f8b8b8d13efd22beff511035391697e41fce337"
+    },
+    {
+      "path": "source-and-complexity-report-v1.md",
+      "bytes": 7764,
+      "sha256": "3dcb7f768d78189a504c87d6db07b995012eb995eefd342c718e723c13760f25"
+    },
+    {
+      "path": "verification-v1.json",
+      "bytes": 2441,
+      "sha256": "966219e21b7be7040004f6af1c563b2f9a2f5a3c64f1eb425b91f38e69cb51fe"
+    }
+  ],
+  "scope": "Final independent statement-only review packet. Self hash is in final-artifact-manifest-v1.sha256.",
+  "parent_run_continues": true
+}

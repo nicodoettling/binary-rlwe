@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-21T21:57:37.686861+00:00",
+  "final_receipts_not_due": true,
+  "paths": [
+    {
+      "path": "final.md",
+      "exists": false
+    },
+    {
+      "path": "claims.json",
+      "exists": true
+    },
+    {
+      "path": "reconciliation.md",
+      "exists": true
+    },
+    {
+      "path": "regressions.json",
+      "exists": true
+    },
+    {
+      "path": "reduction-attempts.md",
+      "exists": true
+    },
+    {
+      "path": "parameter-table.md",
+      "exists": true
+    },
+    {
+      "path": "source-comparison.md",
+      "exists": true
+    },
+    {
+      "path": "progress.md",
+      "exists": true
+    },
+    {
+      "path": "resume.md",
+      "exists": true
+    },
+    {
+      "path": "programme-decisions.md",
+      "exists": true
+    }
+  ],
+  "qualification": "Presence is not content acceptance; the final package is still in preparation. Shutdown and final counters have future deadlines."
+}

@@ -1,0 +1,74 @@
+{
+  "reviewer": "FULL-SOURCE3",
+  "at_utc": "2026-10-21T20:42:39.642713+00:00",
+  "verdicts": [
+    {
+      "id": "SV-PRIME-SUPPORT-v2",
+      "full_review_recommendation": "PASS-EXACT-SCOPE",
+      "exact_files": {
+        "coordinator/source-prime-support-statement-v2.md": "1176e7484ba806a92ea18d95e22375938f210d38fe1268fe9f178e280d76374d",
+        "coordinator/source-prime-support-proof-v2.md": "3e2e62f75c75766c90de436e8387cb3331f8c2b4a9dc0a14b7fc1f8862ff3cfe"
+      },
+      "limits": "Subject to separate blind gate and coordinator dependency reconciliation; source algorithm/diagnostic only, no FF or hardness conclusion."
+    },
+    {
+      "id": "SV-DENSE-SPLIT-v1",
+      "full_review_recommendation": "PASS-EXACT-SCOPE",
+      "exact_files": {
+        "coordinator/dense-split-source-statement-v1.md": "10d8282bae4ed3ef96eda1d304f4538935b9308b7cb23e2b651672fc9dbae102",
+        "coordinator/dense-split-source-proof-v1.md": "ddc8225562237ed46751f9326db1a2a51de5646eb6550be74e20b5c8552a1535"
+      },
+      "limits": "Subject to separate blind gate and coordinator dependency reconciliation; source algorithm/diagnostic only, no FF or hardness conclusion."
+    },
+    {
+      "id": "SV-RS-DECODE-v1",
+      "full_review_recommendation": "PASS-EXACT-SCOPE",
+      "exact_files": {
+        "coordinator/rs-source-decoder-statement-v1.md": "e5849eaeb63737f596b08213e4d3dd7ea3bc6e4b0fe4873cfe8140205318ea32",
+        "coordinator/rs-source-decoder-proof-v1.md": "b812deb279acfeb36c9ea27ec17d750b6f5cd23ff5f2e24f1b519e412e79daa6"
+      },
+      "limits": "Subject to separate blind gate and coordinator dependency reconciliation; source algorithm/diagnostic only, no FF or hardness conclusion."
+    },
+    {
+      "id": "SV-GAP-DECODE-v1",
+      "full_review_recommendation": "PASS-EXACT-SCOPE",
+      "exact_files": {
+        "coordinator/spectral-gap-decoder-statement-v1.md": "00921998d7781d3f8d5df8954cb4a919f3fa60524d1d64530913113d3cfdec9a",
+        "coordinator/spectral-gap-decoder-proof-v1.md": "7e7a55eed374c5e75f7cc27006bf87ddd64d68f54e51ed97ea17590bf3546ee8"
+      },
+      "limits": "Subject to separate blind gate and coordinator dependency reconciliation; source algorithm/diagnostic only, no FF or hardness conclusion."
+    },
+    {
+      "id": "SV-LIST-DECODE-v1",
+      "full_review_recommendation": "PASS-EXACT-SCOPE",
+      "exact_files": {
+        "coordinator/list-source-decoder-statement-v1.md": "e9c47f9fd5645b3d70868d4c36027ce94ebd86b1ca1c40164b7c32a0fc52710b",
+        "coordinator/list-source-decoder-proof-v1.md": "50a5b5d86176ce64416d5603ee559d3e610decf636523a03c0cc04d5fcd6ea2f"
+      },
+      "limits": "Subject to separate blind gate and coordinator dependency reconciliation; source algorithm/diagnostic only, no FF or hardness conclusion."
+    },
+    {
+      "id": "SV-RS-ACTUAL-v3",
+      "full_review_recommendation": "PASS-EXACT-SCOPE",
+      "exact_files": {
+        "coordinator/rs-actual-radius-witness-statement-v3.md": "6e721a1eff0c5390c44f9984ae0b930bdfb5657c769199707fd2afb6dab9eccc",
+        "coordinator/rs-actual-radius-witness-proof-v3.md": "49ebed1855cf5cb1851f8acf0ef3351c93bc3cf7a239b62310427d9fa0244f21"
+      },
+      "limits": "Subject to separate blind gate and coordinator dependency reconciliation; source algorithm/diagnostic only, no FF or hardness conclusion."
+    }
+  ],
+  "additional_dependency_checked": {
+    "id": "SV-ALL-SUBFIELDS-v1",
+    "full_review": "PASS mathematical comparison at exact collision-criterion scope",
+    "global_acceptance": "separate coordinator and blind gates"
+  },
+  "superseded_not_accepted": [
+    "SV-RS-ACTUAL-v1",
+    "SV-RS-ACTUAL-v2",
+    "SV-PRIME-SUPPORT-v1"
+  ],
+  "new_issue_repaired": "ACTUAL-v2 arbitrary-real rho effectiveness; ACTUAL-v3 rational rho rechecked",
+  "FF": "NOT_ESTABLISHED_BY_THIS_REVIEW",
+  "hardness": "NOT_ESTABLISHED",
+  "scientific_termination": false
+}

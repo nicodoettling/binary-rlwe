@@ -1,0 +1,83 @@
+{
+  "cases": [
+    {
+      "n": 4,
+      "weight": null,
+      "exact_retained_tv": "109/128",
+      "lower_bound": "1/256",
+      "R_squared": 4,
+      "conditional_laws": 16,
+      "finite_joint_entries": 128
+    },
+    {
+      "n": 4,
+      "weight": 2,
+      "exact_retained_tv": "2/3",
+      "lower_bound": "1/96",
+      "R_squared": 4,
+      "conditional_laws": 6,
+      "finite_joint_entries": 48
+    },
+    {
+      "n": 8,
+      "weight": null,
+      "exact_retained_tv": "32393/32768",
+      "lower_bound": "1/4096",
+      "R_squared": 8,
+      "conditional_laws": 256,
+      "finite_joint_entries": 4096
+    },
+    {
+      "n": 8,
+      "weight": 2,
+      "exact_retained_tv": "53/56",
+      "lower_bound": "1/5376",
+      "R_squared": 6,
+      "conditional_laws": 28,
+      "finite_joint_entries": 448
+    },
+    {
+      "n": 8,
+      "weight": 3,
+      "exact_retained_tv": "95/98",
+      "lower_bound": "1/3136",
+      "R_squared": 7,
+      "conditional_laws": 56,
+      "finite_joint_entries": 896
+    },
+    {
+      "n": 8,
+      "weight": 4,
+      "exact_retained_tv": "67/70",
+      "lower_bound": "3/8960",
+      "R_squared": 8,
+      "conditional_laws": 70,
+      "finite_joint_entries": 1120
+    },
+    {
+      "n": 8,
+      "weight": 5,
+      "exact_retained_tv": "95/98",
+      "lower_bound": "1/3136",
+      "R_squared": 7,
+      "conditional_laws": 56,
+      "finite_joint_entries": 896
+    },
+    {
+      "n": 8,
+      "weight": 6,
+      "exact_retained_tv": "53/56",
+      "lower_bound": "1/5376",
+      "R_squared": 6,
+      "conditional_laws": 28,
+      "finite_joint_entries": 448
+    }
+  ],
+  "negative_controls": [
+    "S-dependent pair defeats common-law premise",
+    "rare huge atom defeats unqualified moment-to-TV inference",
+    "modular alias defeats no-wrap premise"
+  ],
+  "CP1": "21/2000>1/100 and21/221<1/10",
+  "status": "PASS"
+}

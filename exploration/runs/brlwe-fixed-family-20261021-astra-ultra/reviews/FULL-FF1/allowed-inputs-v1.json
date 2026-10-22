@@ -1,0 +1,201 @@
+{
+  "role": "FULL, not blind",
+  "created_at": "2026-10-21T18:23:59.011194+00:00",
+  "inputs": [
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/crt-projection-statement-v1.md",
+      "bytes": 2308,
+      "sha256": "0327d8958b5449e6ce192991594edf4ef03c0949f2e0d4fde4fb5243b46e1aca",
+      "scope": "allowed exact input; contents inspected except crt-fv1 code/registration and complete regression registry pending scope pass"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/crt-projection-proof-v1.md",
+      "bytes": 3483,
+      "sha256": "1c100c8f3e83f2d358140d41e5c84008c65fc8e170ad496f089ee158b0a9b15b",
+      "scope": "allowed exact input; contents inspected except crt-fv1 code/registration and complete regression registry pending scope pass"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/certificate-extraction-statement-v1.md",
+      "bytes": 3987,
+      "sha256": "b14b76ab0d5c9340424ea10e73d153e4f2bf25f44adee8c1af332de5dac91ffb",
+      "scope": "allowed exact input; contents inspected except crt-fv1 code/registration and complete regression registry pending scope pass"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/certificate-extraction-proof-v1.md",
+      "bytes": 5063,
+      "sha256": "8a746f78041c3dd1cd0c314f43276e2bc4e2a331ff0632e894724b6e542a0697",
+      "scope": "allowed exact input; contents inspected except crt-fv1 code/registration and complete regression registry pending scope pass"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD1/extraction-theorem-v1.md",
+      "bytes": 5273,
+      "sha256": "c8ad79f0f681e346e149749d46c3bb98ff5e2e6a2ef5cbc406a47f8c2abf0e38",
+      "scope": "allowed exact input; contents inspected except crt-fv1 code/registration and complete regression registry pending scope pass"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD1/extraction-proof-v1.md",
+      "bytes": 6019,
+      "sha256": "4a599d9eed5dfefca4b3d0bbcd1402aaba2e709310e7eaa62feb36d5b6b3f357",
+      "scope": "allowed exact input; contents inspected except crt-fv1 code/registration and complete regression registry pending scope pass"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD2/am1-strengthened-theorem-v1.md",
+      "bytes": 2486,
+      "sha256": "3500de1a74555ecbf8102d4fb52a87f6a0d87c7f9cdcca22e849f7a2812d870d",
+      "scope": "allowed exact input; contents inspected except crt-fv1 code/registration and complete regression registry pending scope pass"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD2/am1-strengthened-proof-v1.md",
+      "bytes": 4448,
+      "sha256": "d1d22c6a34776a493b7d43611abb076c8e97f07542ad48da33d5072683766e43",
+      "scope": "allowed exact input; contents inspected except crt-fv1 code/registration and complete regression registry pending scope pass"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD2/prime-list-theorem-proof-v1.md",
+      "bytes": 4529,
+      "sha256": "c54f0a6e37aa6ed6a13bb9cf387f98ce99fb12311a517c6fec32e3e32188d6cf",
+      "scope": "allowed exact input; contents inspected except crt-fv1 code/registration and complete regression registry pending scope pass"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/acceptance-v1.json",
+      "bytes": 9212,
+      "sha256": "ba065e4b5f569236839b2597882698ade120219a13551376b8a14af6d5d2e23e",
+      "scope": "allowed exact input; contents inspected except crt-fv1 code/registration and complete regression registry pending scope pass"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/accepted-supporting-interfaces-v1.json",
+      "bytes": 2588,
+      "sha256": "1ae884acebcc441df4ffa014e22fca61ce44f7ecf913d05518df7c0a14378908",
+      "scope": "allowed exact input; contents inspected except crt-fv1 code/registration and complete regression registry pending scope pass"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "bytes": 334642,
+      "sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "scope": "allowed exact input; contents inspected except crt-fv1 code/registration and complete regression registry pending scope pass"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/crt-fv1-output.json",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "scope": "allowed exact input; contents inspected except crt-fv1 code/registration and complete regression registry pending scope pass"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/crt-fv1-registration.json",
+      "bytes": 1169,
+      "sha256": "09745f394e68fa010d4a5a9ecaf8ab634b15b22ee91039866a08601704762481",
+      "scope": "allowed exact input; contents inspected except crt-fv1 code/registration and complete regression registry pending scope pass"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/crt-fv1-resources.txt",
+      "bytes": 920,
+      "sha256": "b048bc9c255d4c2860a864924bffa2be2a3f173000c80ef47d4dbcbac7539d63",
+      "scope": "allowed exact input; contents inspected except crt-fv1 code/registration and complete regression registry pending scope pass"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/crt-fv1-stderr.txt",
+      "bytes": 272,
+      "sha256": "4608930a553269ca3ba1fbb09812983ccf8f0536c2e0682102032eb245b773ae",
+      "scope": "allowed exact input; contents inspected except crt-fv1 code/registration and complete regression registry pending scope pass"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/crt-fv1.py",
+      "bytes": 3615,
+      "sha256": "246a36f0e75db23327e0f9aea89e364daeb75008bc27eb8245d404227ea953c6",
+      "scope": "allowed exact input; contents inspected except crt-fv1 code/registration and complete regression registry pending scope pass"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/crt-fv2-output.json",
+      "bytes": 1205,
+      "sha256": "df5fa8670c8bfd9094c656845255ee5af5bfaaf57b00f401fd0545fb5aadfce3",
+      "scope": "allowed exact input; contents inspected except crt-fv1 code/registration and complete regression registry pending scope pass"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/crt-fv2-registration.json",
+      "bytes": 1664,
+      "sha256": "b1cb43b884eb32c8d543b050d05bb327950568372e23d1dc7b6f738051145dc5",
+      "scope": "allowed exact input; contents inspected except crt-fv1 code/registration and complete regression registry pending scope pass"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/crt-fv2-resources.txt",
+      "bytes": 881,
+      "sha256": "fc0113930f3ade63b14ba501959b9fcad9613e98510b4c7fa2baa976c7ff7971",
+      "scope": "allowed exact input; contents inspected except crt-fv1 code/registration and complete regression registry pending scope pass"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/crt-fv2-stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "scope": "allowed exact input; contents inspected except crt-fv1 code/registration and complete regression registry pending scope pass"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/crt-fv2.py",
+      "bytes": 3701,
+      "sha256": "1c44fab913dbc99603c0623a3f7706109a5d28bb4d8c13e4abab908db2102959",
+      "scope": "allowed exact input; contents inspected except crt-fv1 code/registration and complete regression registry pending scope pass"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/cert-fv1-output.json",
+      "bytes": 597,
+      "sha256": "aaf9511f1c190f8780adb5520a1b26efe7d7d0da85ecbe75c260b91e11dcda9b",
+      "scope": "allowed exact input; contents inspected except crt-fv1 code/registration and complete regression registry pending scope pass"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/cert-fv1-registration.json",
+      "bytes": 1157,
+      "sha256": "63fbd60c976ca6495d4470a159784ba5f5996261af7ff925485bda675d958e8c",
+      "scope": "allowed exact input; contents inspected except crt-fv1 code/registration and complete regression registry pending scope pass"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/cert-fv1-resources.txt",
+      "bytes": 882,
+      "sha256": "829a006d09c7563737be8b66bcc2e281a366556fd08e4f5114a440d8b9fec8a3",
+      "scope": "allowed exact input; contents inspected except crt-fv1 code/registration and complete regression registry pending scope pass"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/cert-fv1-stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "scope": "allowed exact input; contents inspected except crt-fv1 code/registration and complete regression registry pending scope pass"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/cert-fv1.py",
+      "bytes": 3415,
+      "sha256": "a3f53b6ab7d239a196373151c5921cb87384c0bfeb2137025fbfde80bf1368d4",
+      "scope": "allowed exact input; contents inspected except crt-fv1 code/registration and complete regression registry pending scope pass"
+    }
+  ],
+  "historical_exact_hash_checks": [
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD1/extraction-theorem-v1.md",
+      "expected": "c8ad79f0f681e346e149749d46c3bb98ff5e2e6a2ef5cbc406a47f8c2abf0e38",
+      "actual": "c8ad79f0f681e346e149749d46c3bb98ff5e2e6a2ef5cbc406a47f8c2abf0e38",
+      "match": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD1/extraction-proof-v1.md",
+      "expected": "4a599d9eed5dfefca4b3d0bbcd1402aaba2e709310e7eaa62feb36d5b6b3f357",
+      "actual": "4a599d9eed5dfefca4b3d0bbcd1402aaba2e709310e7eaa62feb36d5b6b3f357",
+      "match": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD2/am1-strengthened-theorem-v1.md",
+      "expected": "3500de1a74555ecbf8102d4fb52a87f6a0d87c7f9cdcca22e849f7a2812d870d",
+      "actual": "3500de1a74555ecbf8102d4fb52a87f6a0d87c7f9cdcca22e849f7a2812d870d",
+      "match": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD2/am1-strengthened-proof-v1.md",
+      "expected": "d1d22c6a34776a493b7d43611abb076c8e97f07542ad48da33d5072683766e43",
+      "actual": "d1d22c6a34776a493b7d43611abb076c8e97f07542ad48da33d5072683766e43",
+      "match": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD2/prime-list-theorem-proof-v1.md",
+      "expected": "c54f0a6e37aa6ed6a13bb9cf387f98ce99fb12311a517c6fec32e3e32188d6cf",
+      "actual": "c54f0a6e37aa6ed6a13bb9cf387f98ce99fb12311a517c6fec32e3e32188d6cf",
+      "match": true
+    }
+  ],
+  "no_acceptance_transfer": "New partial endpoint, adaptive stage theorem, Fourier flattening and fixed-family quantifiers independently reviewed; historical acceptance is used only for unchanged exact interfaces."
+}

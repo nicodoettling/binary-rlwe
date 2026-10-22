@@ -1,0 +1,12 @@
+{
+  "id": "FF1-FV1",
+  "registered_before_execution": true,
+  "hypothesis": "Deterministic MR identity and conditional coefficient product law hold exactly for a finite-support error surrogate; mixing over one shared binary secret creates batch dependence. The proposed characteristic witness has the predicted sign at three bounded parameter sets.",
+  "code": "ff1-fv1.py",
+  "input": "Exact n=2, q=3, Q=7; all four secrets, all 49 multipliers, nine coefficient error pairs with masses 1/4,1/2,1/4. Floating Fourier checks n=2,4,8; sigma=4,8,16; q=16,64,256; l=-4..4.",
+  "seed": "none: exhaustive deterministic",
+  "command": "ulimit -v 524288; /usr/bin/time -v timeout 120s python3 ff1-fv1.py > ff1-fv1-output.json 2> ff1-fv1-resource.txt",
+  "limits": {"wall_seconds":120,"address_space_bytes":536870912,"expected_rss_bytes":40000000,"expected_seconds":5,"heavy":false},
+  "precision": "Exact Fraction for finite-law identities; IEEE doubles for separate Fourier diagnostics, analytic exponential omitted-tail expression in code. No finite-support law is substituted for the Gaussian theorem.",
+  "expected": "All exact assertions pass; witness gap is positive; conditional independence after fixing A,S passes while fresh-secret product replacement fails. No asymptotic certification inferred."
+}

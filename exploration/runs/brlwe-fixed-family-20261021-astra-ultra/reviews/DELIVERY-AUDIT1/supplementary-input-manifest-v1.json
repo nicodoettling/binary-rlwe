@@ -1,0 +1,638 @@
+{
+  "at": "2026-10-21T22:00:06.536853+00:00",
+  "role": "nonauthor nonblind delivery/dependency audit",
+  "exposure": "Parent assignments disclosed expected high-level outcomes and prior audit defects. No blindness claimed. Compact-v3 independent full proof gate has its own earlier sealed exposure manifest; BLIND-RESOURCE4 report was read only after that seal.",
+  "initial_snapshot": "input-manifest-v1.json",
+  "compact_exposure": "compact-v3-full/input-manifest-v1.json and input-manifest-addendum-v1.json; exact artifacts bound by compact seal",
+  "inputs": [
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/final-draft-v2.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/final-draft-v2.md",
+      "sha256": "1a2778b1370d764012dc4be73939caa5b063276bb848d6146fdfe252b23d18c4",
+      "bytes": 14491,
+      "depth": "full delivery text read; exact version scope checked"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/final-draft-v3.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/final-draft-v3.md",
+      "sha256": "add9b8563d14e1407b4f7130122514520afdea92704a92010173be59c3e04b6a",
+      "bytes": 14926,
+      "depth": "full delivery text read; exact version scope checked"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/final-draft-v4.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/final-draft-v4.md",
+      "sha256": "e0bebf18e96b8dd1415838822ba2d9c2012115d13face97c2dc9c0d8f47ae870",
+      "bytes": 15086,
+      "depth": "full delivery text read; exact version scope checked"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/parameter-table.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/parameter-table.md",
+      "sha256": "04b42941db446984c9f73285cc3dcd52713da51fadfba911b235734d22c15d1f",
+      "bytes": 5666,
+      "depth": "full delivery text read; exact version scope checked"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/source-comparison.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/source-comparison.md",
+      "sha256": "002b9434927177449817345db219bf6317e8ed335f37737c5767e8b95869f706",
+      "bytes": 6355,
+      "depth": "full delivery text read; exact version scope checked"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reduction-attempts.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/reduction-attempts.md",
+      "sha256": "6d644a58df6bfa254bbf7e7146429107b41d70fed07ec7f9c984d5fc8a774de4",
+      "bytes": 9524,
+      "depth": "full delivery text read; exact version scope checked"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reconciliation.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/reconciliation.md",
+      "sha256": "4e419c90f3fa7fe2c68798d7bea3ee30616dfdf9f598514b5998c5cfe61532d0",
+      "bytes": 4015,
+      "depth": "full delivery text read; exact version scope checked"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/programme-decisions.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/programme-decisions.md",
+      "sha256": "4ab8b5e9373805bc40a984c7bc6c7e6fa93f5c8a018845c7a86ea2624b3436b9",
+      "bytes": 5901,
+      "depth": "full delivery text read; exact version scope checked"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/programme-v3.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/programme-v3.md",
+      "sha256": "2e8dffb1464e60fd9bb81aa6d99ca4f380446b81636a66b511fe527161044c2a",
+      "bytes": 7774,
+      "depth": "full delivery text read; exact version scope checked"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/programme-v4.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/programme-v4.md",
+      "sha256": "ed41230369be3753ea6e6cc2b4cdf45efe171cf7f2eac2096a233eaf15d9e775",
+      "bytes": 8172,
+      "depth": "full delivery text read; exact version scope checked"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/frontier-challenge-replies-v3.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/frontier-challenge-replies-v3.md",
+      "sha256": "eb5327c84cdda949a87de2383ff19f8a29c744db289395de901bc8ea0f96adb9",
+      "bytes": 14795,
+      "depth": "full delivery text read; exact version scope checked"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/frontier-challenge-replies-v4.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/frontier-challenge-replies-v4.md",
+      "sha256": "da62be1456f7046db5f46627440d5f61e63ed2055580a61bba55575ea77012dc",
+      "bytes": 15367,
+      "depth": "full delivery text read; exact version scope checked"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/objective-statement-v1.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/objective-statement-v1.md",
+      "sha256": "6666ca7222abb251214fd5e7d6f9e96c3ddbbb29216c9469ac5cf0034da2a216",
+      "bytes": 3456,
+      "depth": "full delivery text read; exact version scope checked"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/claims.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/claims.json",
+      "sha256": "dcc28562628c8794963c1f17c319a9500d22b4ed4f0a096019faf50e50967c76",
+      "bytes": 40728,
+      "depth": "JSON fully loaded; semantic fields read, exact graph/hash checks where described"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/claim-dependencies.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/claim-dependencies.json",
+      "sha256": "7ef5567dca6dea2a4a2b4f83705efbbb06f0b0ca527fcca47a66c097814fefb1",
+      "bytes": 23428,
+      "depth": "JSON fully loaded; semantic fields read, exact graph/hash checks where described"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/regressions.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/regressions.json",
+      "sha256": "ee05e3e06d4548108b036f6c552be3599800a8bf5a4ce8a4ad03301d5077451e",
+      "bytes": 736718,
+      "depth": "JSON fully loaded; semantic fields read, exact graph/hash checks where described"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/acceptance-v7.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/acceptance-v7.json",
+      "sha256": "f63e200b8fea46ca67e94c02fa4cf3e1c0671e4f7ed0b912a0d120d47633c54b",
+      "bytes": 64691,
+      "depth": "JSON fully loaded; semantic fields read, exact graph/hash checks where described"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/regression-integrity-v1.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/regression-integrity-v1.json",
+      "sha256": "56ae4413c62eb834eadcc058ab862cecae704e251de6b90a2ec2e41bf86bc052",
+      "bytes": 28419,
+      "depth": "JSON fully loaded; semantic fields read, exact graph/hash checks where described"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/operational-deviations-v1.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/operational-deviations-v1.json",
+      "sha256": "4874186d7632044cd22898177c384348038b17c07b86c78115f512db9c615677",
+      "bytes": 1921,
+      "depth": "JSON fully loaded; semantic fields read, exact graph/hash checks where described"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/kernel-resource-v3-path-resolution-v1.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/kernel-resource-v3-path-resolution-v1.json",
+      "sha256": "6740588bf0ac3873438ef11956eee216f2086062f34f9ee4a4622e0fefdc76c7",
+      "bytes": 1494,
+      "depth": "JSON fully loaded; semantic fields read, exact graph/hash checks where described"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/energy-twoevent-dependency-binding-v1.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/energy-twoevent-dependency-binding-v1.json",
+      "sha256": "9c96747097b913d596ac6e5ccecbbc928fa7be0d16fa8aabad4e4ce00c960d8b",
+      "bytes": 1077,
+      "depth": "JSON fully loaded; semantic fields read, exact graph/hash checks where described"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/blind-table-linkage-v1.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/blind-table-linkage-v1.json",
+      "sha256": "6c3181b9f010c29479d51273b2ca828e69062b9721fd1fd147e84ae33360160e",
+      "bytes": 4589,
+      "depth": "JSON fully loaded; semantic fields read, exact graph/hash checks where described"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/protected-period-compliance.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/protected-period-compliance.json",
+      "sha256": "381844a09c4ca9c9d225391fd31b59753119d103433e4ff813579c1fadbeaa87",
+      "bytes": 31167,
+      "depth": "JSON fully loaded; semantic fields read, exact graph/hash checks where described"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/runtime-verification.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/runtime-verification.json",
+      "sha256": "5ed015c229bdb86c01019ac293a41208e676b1154fc09c79df172a0bd2b54390",
+      "bytes": 57908,
+      "depth": "JSON fully loaded; semantic fields read, exact graph/hash checks where described"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/spawn-receipts-all-v4.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/spawn-receipts-all-v4.json",
+      "sha256": "c698b2ef85daa3505cb328879f26597d3269bf2ea1099cfad83568ab7fcf0305",
+      "bytes": 16509,
+      "depth": "JSON fully loaded; semantic fields read, exact graph/hash checks where described"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/native-usage-delta.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/native-usage-delta.json",
+      "sha256": "8adac68d31f0c742d2caafd67d5d1d83bbc105cd6bbf4d6e0ac284f499f5fb8f",
+      "bytes": 1287,
+      "depth": "JSON fully loaded; semantic fields read, exact graph/hash checks where described"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/goal-checkpoint-024.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/goal-checkpoint-024.json",
+      "sha256": "e3521f8792a3351077b363f435e61986c0c3996d34771c231539286b33ece2de",
+      "bytes": 1004,
+      "depth": "JSON fully loaded; semantic fields read, exact graph/hash checks where described"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/goal-creation-receipt.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/goal-creation-receipt.json",
+      "sha256": "056ccde66a087a19df8d0d0b3519c83d6efd2911fe40a8f1634a4fecddb40f6a",
+      "bytes": 994,
+      "depth": "JSON fully loaded; semantic fields read, exact graph/hash checks where described"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/crt-projection-statement-v1.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/crt-projection-statement-v1.md",
+      "sha256": "0327d8958b5449e6ce192991594edf4ef03c0949f2e0d4fde4fb5243b46e1aca",
+      "bytes": 2308,
+      "depth": "statement/proof read for specific delivery claim; selective audit, not fresh full gate except compact addendum"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/crt-projection-proof-v1.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/crt-projection-proof-v1.md",
+      "sha256": "1c100c8f3e83f2d358140d41e5c84008c65fc8e170ad496f089ee158b0a9b15b",
+      "bytes": 3483,
+      "depth": "statement/proof read for specific delivery claim; selective audit, not fresh full gate except compact addendum"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/certificate-extraction-statement-v2.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/certificate-extraction-statement-v2.md",
+      "sha256": "1a82181c03be7aaf09ef1ec7103828471c20be27a68ef182055c0f45a93353ab",
+      "bytes": 4800,
+      "depth": "statement/proof read for specific delivery claim; selective audit, not fresh full gate except compact addendum"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/certificate-extraction-proof-v2.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/certificate-extraction-proof-v2.md",
+      "sha256": "90b9a4b7c50984e89757dc52e360170a8aa6ea098e20eb02c32ab0b3eac197e4",
+      "bytes": 5922,
+      "depth": "statement/proof read for specific delivery claim; selective audit, not fresh full gate except compact addendum"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/rs-actual-radius-witness-statement-v3.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/rs-actual-radius-witness-statement-v3.md",
+      "sha256": "6e721a1eff0c5390c44f9984ae0b930bdfb5657c769199707fd2afb6dab9eccc",
+      "bytes": 2092,
+      "depth": "statement/proof read for specific delivery claim; selective audit, not fresh full gate except compact addendum"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/rs-actual-radius-witness-proof-v3.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/rs-actual-radius-witness-proof-v3.md",
+      "sha256": "49ebed1855cf5cb1851f8acf0ef3351c93bc3cf7a239b62310427d9fa0244f21",
+      "bytes": 2852,
+      "depth": "statement/proof read for specific delivery claim; selective audit, not fresh full gate except compact addendum"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/sparse-acquisition-statement-v1.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/sparse-acquisition-statement-v1.md",
+      "sha256": "c3c1078b33309f7b3d9061fbdad1114c3178dea28e64c7e8849a947ad5d97d84",
+      "bytes": 2126,
+      "depth": "statement/proof read for specific delivery claim; selective audit, not fresh full gate except compact addendum"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/sparse-acquisition-proof-v1.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/sparse-acquisition-proof-v1.md",
+      "sha256": "985e843a98a4413dd7cebf3a98042aedd2b971d241eeb210bd22401b43e952f3",
+      "bytes": 2428,
+      "depth": "statement/proof read for specific delivery claim; selective audit, not fresh full gate except compact addendum"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/compressed-selector-information-statement-v2.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/compressed-selector-information-statement-v2.md",
+      "sha256": "8abf13ef4d35625ae82a6ffb44a7feb76d06700ada6a553a4a3ebd25a3e89d70",
+      "bytes": 4636,
+      "depth": "statement/proof read for specific delivery claim; selective audit, not fresh full gate except compact addendum"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/compressed-selector-information-proof-v2.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/compressed-selector-information-proof-v2.md",
+      "sha256": "51d0824a7e767c555cb0e156adaaf9922c01728462b2ef0c7e0f96f273dc7f8f",
+      "bytes": 3877,
+      "depth": "statement/proof read for specific delivery claim; selective audit, not fresh full gate except compact addendum"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/selector-public-statement-v3.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/selector-public-statement-v3.md",
+      "sha256": "1c51d957ea4214c50f47c2c013e9472a6b2627507a36589fc477c5b9e768c2ac",
+      "bytes": 1447,
+      "depth": "statement/proof read for specific delivery claim; selective audit, not fresh full gate except compact addendum"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/rs-bit-complexity-statement-v2.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/rs-bit-complexity-statement-v2.md",
+      "sha256": "fd27a2ceb2766c24c37616273158f1a2899de63a518af804fd047ccb4b43f89c",
+      "bytes": 2549,
+      "depth": "statement/proof read for specific delivery claim; selective audit, not fresh full gate except compact addendum"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/rs-bit-complexity-proof-v2.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/rs-bit-complexity-proof-v2.md",
+      "sha256": "ab1b0cd2d912bd75d9177b1975d088c1d4c2cd99c2353544120704a459d80ab8",
+      "bytes": 2841,
+      "depth": "statement/proof read for specific delivery claim; selective audit, not fresh full gate except compact addendum"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/list-source-decoder-statement-v1.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/list-source-decoder-statement-v1.md",
+      "sha256": "e9c47f9fd5645b3d70868d4c36027ce94ebd86b1ca1c40164b7c32a0fc52710b",
+      "bytes": 2089,
+      "depth": "statement/proof read for specific delivery claim; selective audit, not fresh full gate except compact addendum"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/fractional-information-statement-v1.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/fractional-information-statement-v1.md",
+      "sha256": "94f562284bf0f7b9117be57261e0c19deb76dcdff7bd317f7a722203f604b8bd",
+      "bytes": 2923,
+      "depth": "statement/proof read for specific delivery claim; selective audit, not fresh full gate except compact addendum"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/bounded-affine-tv-statement-v1.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/bounded-affine-tv-statement-v1.md",
+      "sha256": "4ed10092743879e7433b39bfc8988088821c7ceb29f4944f3794baea10cc7c6e",
+      "bytes": 2007,
+      "depth": "statement/proof read for specific delivery claim; selective audit, not fresh full gate except compact addendum"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/energy-rank-kernel-statement-v2.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/energy-rank-kernel-statement-v2.md",
+      "sha256": "ab8e55aa2930d04d3d24529abf5e4f6f5ebee5e25507830a6bff0ba792101355",
+      "bytes": 3355,
+      "depth": "statement/proof read for specific delivery claim; selective audit, not fresh full gate except compact addendum"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/energy-rank-kernel-proof-v2.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/energy-rank-kernel-proof-v2.md",
+      "sha256": "3972798c783f0ba0116e72b1b393e0ca90b59afd9e6805413cbc3e29b3e8db9d",
+      "bytes": 3898,
+      "depth": "statement/proof read for specific delivery claim; selective audit, not fresh full gate except compact addendum"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/source-classification-theorem-v1.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/workers/SV/source-classification-theorem-v1.md",
+      "sha256": "1b72f95055b9c5a8953c46ee778ade4d57a55d5a61c4a1ce29003c049f59a5a3",
+      "bytes": 4670,
+      "depth": "statement/proof read for specific delivery claim; selective audit, not fresh full gate except compact addendum"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/frobenius-prime-theorem-v1.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/workers/SV/frobenius-prime-theorem-v1.md",
+      "sha256": "17315abf7b50bbb758a3e0e5c580d159895a1e238ad3b01b88e77a08e8e28d3e",
+      "bytes": 2502,
+      "depth": "statement/proof read for specific delivery claim; selective audit, not fresh full gate except compact addendum"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/exhaustive-kernel-statement-v1.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/workers/FF3/exhaustive-kernel-statement-v1.md",
+      "sha256": "b6c3a787dfe567fc6fb1fecfb2714d0a138d92287523382661c4f6946f7d37ed",
+      "bytes": 3402,
+      "depth": "statement/proof read for specific delivery claim; selective audit, not fresh full gate except compact addendum"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/two-secret-channel-statement-v1.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/workers/FF3/two-secret-channel-statement-v1.md",
+      "sha256": "7cceb1801d9ebf2d6a23c5636266c74326b54a4e8b7499ecd13262aec25a66a8",
+      "bytes": 1610,
+      "depth": "statement/proof read for specific delivery claim; selective audit, not fresh full gate except compact addendum"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/two-event-noise-kernel-statement-v1.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/workers/FF3/two-event-noise-kernel-statement-v1.md",
+      "sha256": "ba5c8050af98cce9e7dec3d9c1b9a1806f606f9b59f1ca40e62917aa093e913b",
+      "bytes": 2151,
+      "depth": "statement/proof read for specific delivery claim; selective audit, not fresh full gate except compact addendum"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-REPAIR4/full-report.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/reviews/FULL-REPAIR4/full-report.md",
+      "sha256": "e67749064c8a24d79529d3abdb4cb5280eae9988427dbee982299955ee863245",
+      "bytes": 19405,
+      "depth": "review report read or selected scope sections read; no blanket recertification"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF3-PHASE2/full-report-v1.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/reviews/FULL-FF3-PHASE2/full-report-v1.md",
+      "sha256": "1ff44833ff98c0d96c7b6f30447d12f331d26c4b7dad0b4688436984af1748aa",
+      "bytes": 16852,
+      "depth": "review report read or selected scope sections read; no blanket recertification"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF3-PHASE2/source-complexity-report-v1.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/reviews/FULL-FF3-PHASE2/source-complexity-report-v1.md",
+      "sha256": "c9374e485513726ed19d3b78db0640652b5d9f062c5761e7a438fa76f80bac9b",
+      "bytes": 6623,
+      "depth": "review report read or selected scope sections read; no blanket recertification"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-TRANSFER2/full-report-v1.txt",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/reviews/BLIND-TRANSFER2/full-report-v1.txt",
+      "sha256": "a5ac8105eac82ca5483f95766ba940f731e01797b60a62f8a3f791718fbad176",
+      "bytes": 35569,
+      "depth": "review report read or selected scope sections read; no blanket recertification"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-TRANSFER2/final-scope-v2.txt",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/reviews/BLIND-TRANSFER2/final-scope-v2.txt",
+      "sha256": "5649846e9ca1952e504ae2ba2f5224f324520aa018e5d3f89c549b69af69a1f4",
+      "bytes": 3686,
+      "depth": "review report read or selected scope sections read; no blanket recertification"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FRONTIER-CHALLENGE1/frontier-challenge-report-v1.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/reviews/FRONTIER-CHALLENGE1/frontier-challenge-report-v1.md",
+      "sha256": "92dc1205ccbc89aa81d3232e4d2bb39cf0810d4077a123b88a4c72651cf20d91",
+      "bytes": 13924,
+      "depth": "review report read or selected scope sections read; no blanket recertification"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-RESOURCE4/referee-report-v1.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/reviews/BLIND-RESOURCE4/referee-report-v1.md",
+      "sha256": "d6f9eb7a913d8b8636b33218e2a7f5b406add8e33adc492322dad2e9ab272ce0",
+      "bytes": 34358,
+      "depth": "AFTER compact full seal: complete report and exposure read for delivery reconciliation"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-RESOURCE4/seal-v1.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/reviews/BLIND-RESOURCE4/seal-v1.json",
+      "sha256": "8bb07d7bb7bff0cb9935479f3e8080b193d654c5d6945808cc9827b6885fbda3",
+      "bytes": 5361,
+      "depth": "AFTER compact full seal: complete report and exposure read for delivery reconciliation"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-RESOURCE4/exposure-chronology-v1.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/reviews/BLIND-RESOURCE4/exposure-chronology-v1.json",
+      "sha256": "49905688b8697c1fbb6c9f1c6415c5645911139cf1411177ef64b97220cdcc81",
+      "bytes": 3325,
+      "depth": "AFTER compact full seal: complete report and exposure read for delivery reconciliation"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/acceptance-v7-blind-text-diffs.txt",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/acceptance-v7-blind-text-diffs.txt",
+      "sha256": "60a0421045922f76f5ad1cd786bc9253e3d739787512fd7e8db997f574c2f5a4",
+      "bytes": 4780,
+      "depth": "AFTER compact full seal: complete report and exposure read for delivery reconciliation"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/reconcile-regressions-v1.py",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/reconcile-regressions-v1.py",
+      "sha256": "b36eb69334ba07e087bad36a37b643b6c65e93094c6b2be6fc3283557472e99f",
+      "bytes": 3551,
+      "depth": "read-only source inspection; NOT executed"
+    },
+    {
+      "path": "exploration/fixed-family-20261021/COORDINATOR_PROMPT.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/external-repo/exploration/fixed-family-20261021/COORDINATOR_PROMPT.md",
+      "sha256": "8ac819fb7fa01165ba3194c6208702ec676b5e991d28d72151326925b689832a",
+      "bytes": 11055,
+      "depth": "full prompt read for runtime/protected-period scope"
+    },
+    {
+      "path": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/acceptance-v1.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/external-repo/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/acceptance-v1.json",
+      "sha256": "ba065e4b5f569236839b2597882698ade120219a13551376b8a14af6d5d2e23e",
+      "bytes": 9212,
+      "depth": "historical exact acceptance JSON loaded and controlling scope read, no reacceptance"
+    },
+    {
+      "path": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/fixed-main-statement-v2.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/external-repo/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/fixed-main-statement-v2.md",
+      "sha256": "25da2502104e746d3e9f2ca10e3d070372ff95b853b1fd2b0e6c96b1b909ecb6",
+      "bytes": 6464,
+      "depth": "selective literal parameter/quantifier excerpts"
+    },
+    {
+      "path": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/fixed-main-proof-v2.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/external-repo/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/fixed-main-proof-v2.md",
+      "sha256": "2e98d25b0f349e22dfeb23ba5ea18ebe339039fa08fb39f92cf45afa9f50f0c7",
+      "bytes": 4407,
+      "depth": "selective inherited radius/chi parameter excerpts"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/goal-checkpoint-001.json",
+      "sha256": "f445b4e4af1e1e01097f95be3b8d2cc20bf02dbdb50e7a44bad586e794a94c60",
+      "depth": "goal JSON parsed for actual counters/status; not goal manipulation"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/goal-checkpoint-002.json",
+      "sha256": "cd2ea2793a352650172b392a62773515ecbaef61b40f95e0f3347ef94330e8d7",
+      "depth": "goal JSON parsed for actual counters/status; not goal manipulation"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/goal-checkpoint-003.json",
+      "sha256": "94ba900e02831794d2962d92c34d0c29184b651d7cda2213f0c08d4c2a883484",
+      "depth": "goal JSON parsed for actual counters/status; not goal manipulation"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/goal-checkpoint-004.json",
+      "sha256": "998cd887ad662b85ff34116a59597cec6906ad3979f1fa590d6207258e084221",
+      "depth": "goal JSON parsed for actual counters/status; not goal manipulation"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/goal-checkpoint-005.json",
+      "sha256": "3f050c906edc406f0e13dd2a4a9dc2ad8c2c35311c0701213b14fc38937c9038",
+      "depth": "goal JSON parsed for actual counters/status; not goal manipulation"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/goal-checkpoint-006.json",
+      "sha256": "1cee3a10dbcd6eb904102c28e8c71c898b1108bd578a8a958fe59e5cc6442a9e",
+      "depth": "goal JSON parsed for actual counters/status; not goal manipulation"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/goal-checkpoint-007.json",
+      "sha256": "6c4f621f672c2fdccca96e9d1fffdd4b63d31865b3bc24ba1fa2ba540b9dc8c3",
+      "depth": "goal JSON parsed for actual counters/status; not goal manipulation"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/goal-checkpoint-008.json",
+      "sha256": "c94d0597461382804a5bcfb30fab19ef73179ba1d4fb746474cb942798bf4bf3",
+      "depth": "goal JSON parsed for actual counters/status; not goal manipulation"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/goal-checkpoint-009.json",
+      "sha256": "162aedbc4aa397f68d10fe9ae625c7ff47b4b7a4e1c33b9d6bd8362e2c629472",
+      "depth": "goal JSON parsed for actual counters/status; not goal manipulation"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/goal-checkpoint-010.json",
+      "sha256": "23b00535efc8914f6fe711ff299e0e6d9fc56a936e40ceb03230073feefc5ef3",
+      "depth": "goal JSON parsed for actual counters/status; not goal manipulation"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/goal-checkpoint-011.json",
+      "sha256": "805d562a48510c63553626ab08a5dc74bd1576ed0fe9bb8d7d8687cdc60cb861",
+      "depth": "goal JSON parsed for actual counters/status; not goal manipulation"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/goal-checkpoint-012.json",
+      "sha256": "d4e3e751edf18e9d7ac06aff19df69550e469698dc9caa869d1d216944ddd302",
+      "depth": "goal JSON parsed for actual counters/status; not goal manipulation"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/goal-checkpoint-013.json",
+      "sha256": "a0f58b4beeb56c11d2aaa65bc0ff4530b7bf7b7665a20e313fe141cca18d3ba5",
+      "depth": "goal JSON parsed for actual counters/status; not goal manipulation"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/goal-checkpoint-014.json",
+      "sha256": "f8a3291e800855d6d8db35a0a16fe3e5be524c3abad467bc1473c8a97a938a22",
+      "depth": "goal JSON parsed for actual counters/status; not goal manipulation"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/goal-checkpoint-015.json",
+      "sha256": "ace4fb86fd2c52a3e3cd824272b2e0dabdc1206f46a3623ed38551b785abdab1",
+      "depth": "goal JSON parsed for actual counters/status; not goal manipulation"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/goal-checkpoint-016.json",
+      "sha256": "100cd97ba3657fbc65dc0d1f0d6de1382e79501230c92c5d196e1fb2f2bd8ffc",
+      "depth": "goal JSON parsed for actual counters/status; not goal manipulation"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/goal-checkpoint-017.json",
+      "sha256": "74f61f38299d96f1228ee87b4d12491179170861aefcbaf31a7c3b893b20aedc",
+      "depth": "goal JSON parsed for actual counters/status; not goal manipulation"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/goal-checkpoint-018.json",
+      "sha256": "a113c3ca92be182363907ccad4e972468746cc0e38b6e6079d9ac89daed0be70",
+      "depth": "goal JSON parsed for actual counters/status; not goal manipulation"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/goal-checkpoint-019.json",
+      "sha256": "492b3a9ef75fe366c24dfda7af083e864e04c9d1ae01e9171799a90fb9f88f0d",
+      "depth": "goal JSON parsed for actual counters/status; not goal manipulation"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/goal-checkpoint-020.json",
+      "sha256": "f196e30c6e2d0bdec9e8e08c35e2f740466fd413db1d7b0806af29c060c8e2f0",
+      "depth": "goal JSON parsed for actual counters/status; not goal manipulation"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/goal-checkpoint-021.json",
+      "sha256": "baf3a4ff2a1ff71b1c69baf67f389b3f0129b3193369510fed5f94cd1d8ea5a5",
+      "depth": "goal JSON parsed for actual counters/status; not goal manipulation"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/goal-checkpoint-022.json",
+      "sha256": "fa13454f97b23649b7c52375684ead88da4dd3a82a869ca467180c396f1b3e87",
+      "depth": "goal JSON parsed for actual counters/status; not goal manipulation"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/goal-checkpoint-023.json",
+      "sha256": "77ad82d327576217c7db4ad409fe9a882dca07b9ba071fd565812991ace39386",
+      "depth": "goal JSON parsed for actual counters/status; not goal manipulation"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/goal-checkpoint-024.json",
+      "sha256": "e3521f8792a3351077b363f435e61986c0c3996d34771c231539286b33ece2de",
+      "depth": "goal JSON parsed for actual counters/status; not goal manipulation"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/goal-checkpoint-025.json",
+      "sha256": "53d937b4561222005494942643bc8fe57271192ffac20e15bed040334b669b02",
+      "depth": "goal JSON parsed for actual counters/status; not goal manipulation"
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/SKILL.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/methodology/mathematical-proof-audit/SKILL.md",
+      "sha256": "9350ffeb5aebe0b126710786586f94ef5d990be35b8b9defc8004136dae40318",
+      "depth": "methodology read; long combined outputs partly truncated, operative audit/work-programme instructions applied"
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/references/audit-protocol.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/methodology/mathematical-proof-audit/references/audit-protocol.md",
+      "sha256": "2d076ba631c340d71f6259757c6207dbe230872810e9bad3188b215f46d095f4",
+      "depth": "methodology read; long combined outputs partly truncated, operative audit/work-programme instructions applied"
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/references/probability-regressions.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/methodology/mathematical-proof-audit/references/probability-regressions.md",
+      "sha256": "ad7eecf93ed02e5b2957243a9bbb2cac8e8eeeb991971f4d77d0818cd04a4fa4",
+      "depth": "methodology read; long combined outputs partly truncated, operative audit/work-programme instructions applied"
+    },
+    {
+      "path": "/home/nico/.codex/skills/research-project-map/SKILL.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/methodology/research-project-map/SKILL.md",
+      "sha256": "f4407e349bdc28c6feca89c969aca353da5cd8dd62317b7e558694afcef13b7b",
+      "depth": "methodology read; long combined outputs partly truncated, operative audit/work-programme instructions applied"
+    },
+    {
+      "path": "/home/nico/.codex/skills/research-project-map/references/work-programmes.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/methodology/research-project-map/references/work-programmes.md",
+      "sha256": "11c38b5c5eac5148947288ae233d537a6ed2576a271a98068482202bb87dada5",
+      "depth": "methodology read; long combined outputs partly truncated, operative audit/work-programme instructions applied"
+    },
+    {
+      "path": "/home/nico/.codex/skills/research-project-map/references/record-contract.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/methodology/research-project-map/references/record-contract.md",
+      "sha256": "4a22e300c28017fc2755d147d4e692f3dd92061833e2984f9edec43347f858a0",
+      "depth": "methodology read; long combined outputs partly truncated, operative audit/work-programme instructions applied"
+    },
+    {
+      "path": "/home/nico/.codex/skills/research-project-map/references/maintenance-and-retrieval.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/supplementary-inputs/methodology/research-project-map/references/maintenance-and-retrieval.md",
+      "sha256": "49b28ae109e465256be26d757cb03c5d4129fd59c64665dbc4dfab1cd262b8d0",
+      "depth": "methodology read; long combined outputs partly truncated, operative audit/work-programme instructions applied"
+    }
+  ]
+}

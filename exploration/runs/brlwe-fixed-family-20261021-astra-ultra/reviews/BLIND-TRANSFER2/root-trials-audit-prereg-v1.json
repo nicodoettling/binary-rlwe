@@ -1,0 +1,40 @@
+{
+  "created_utc": "2026-10-21T21:14:31.172232+00:00",
+  "slot": "ROOT granted second LIGHT120s/512MiB",
+  "hypotheses": [
+    "Exactly (p-1)/2 trial bit strings succeed under the prime/splitting promise",
+    "Complete surviving histories retain the same fresh trial law",
+    "L=8 ceil(log2(1/eta)) meets the failure tolerance",
+    "Reusing one trial seed violates the claimed amplification and must be rejected"
+  ],
+  "determinism": "exhaustive integer/Fraction arithmetic, no random seeds",
+  "dimensions": "all odd primes5..100, n in2/4/8/16/32 dividing(p-1)/2, all m-bit strings, every first-failure history; five exact rational tolerances",
+  "precision": "exact arithmetic, no tails or truncation",
+  "estimate": "under5s and32MiB",
+  "limits": {
+    "wall_seconds": 120,
+    "address_space_bytes": 536870912
+  },
+  "code_sha256": "d485cc43ed0198ae66e410b30f1ade98e6f5bcd5e579db78ee5d1c43306a3b1b",
+  "input_statement_sha256": "fd27a2ceb2766c24c37616273158f1a2899de63a518af804fd047ccb4b43f89c",
+  "exact_command_argv": [
+    "/usr/bin/time",
+    "-v",
+    "-o",
+    "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-TRANSFER2/root-trials-audit-time-v1.txt",
+    "timeout",
+    "--signal=TERM",
+    "120s",
+    "prlimit",
+    "--as=536870912",
+    "--",
+    "python3",
+    "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-TRANSFER2/root-trials-audit-v1.py"
+  ],
+  "outputs": [
+    "root-trials-audit-result-v1.json",
+    "root-trials-audit-stderr-v1.txt",
+    "root-trials-audit-time-v1.txt",
+    "root-trials-audit-exit-v1.json"
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "at_utc": "2026-10-21T20:51:49.389602+00:00",
+  "files": [
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/symmetrized-rank-fv1.py",
+      "snapshot": "inputs/additional/experiments/symmetrized-rank-fv1.py",
+      "sha256": "694fd2c09414d186f2ec558a9add15a3271f18baffbabd466a700ce373a34e58",
+      "bytes": 5051
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/symmetrized-rank-fv1-certificate.json",
+      "snapshot": "inputs/additional/experiments/symmetrized-rank-fv1-certificate.json",
+      "sha256": "be95871b64d08e97e1ff8f439c3b0c37d161e8ec04dae29722467508c15d7fa1",
+      "bytes": 7954
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/symmetrized-rank-fv1-orbits.json",
+      "snapshot": "inputs/additional/experiments/symmetrized-rank-fv1-orbits.json",
+      "sha256": "86779b3591e2467d9114c932a42eb69c945df749e8553295a48a91dbc65dd839",
+      "bytes": 25359
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/symmetrized-rank-fv1-summary.json",
+      "snapshot": "inputs/additional/experiments/symmetrized-rank-fv1-summary.json",
+      "sha256": "4506a9d292f47e2bf5b7604e9cc55323847717205f8607c9e57a6a2d6e55d86f",
+      "bytes": 524
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/symmetrized-rank-fv1.stdout",
+      "snapshot": "inputs/additional/experiments/symmetrized-rank-fv1.stdout",
+      "sha256": "cf68fc54e3da5844e421fc3c0839bbbc4ddcd54cffa36ec3e5d37a99a2d5e81d",
+      "bytes": 1099
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/symmetrized-rank-fv1-registration.json",
+      "snapshot": "inputs/additional/experiments/symmetrized-rank-fv1-registration.json",
+      "sha256": "f452a560ee6a24ee5c4352fabfb0281530704f89d7b0ccbddbd834d2d237010f",
+      "bytes": 1135
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/symmetrized-rank-fv1.resources",
+      "snapshot": "inputs/additional/experiments/symmetrized-rank-fv1.resources",
+      "sha256": "8ab1e0f8396ad37a226e21f0cb9ef1ad6eaf074eac78d7fd0c2ef72331b7ac75",
+      "bytes": 1602
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/symmetrized-rank-fv1-system.npz",
+      "snapshot": "inputs/additional/experiments/symmetrized-rank-fv1-system.npz",
+      "sha256": "92a4c00a36d88f36f1f000a6bf00e1e646b02c44bfdd25da944dd85950160981",
+      "bytes": 214337
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/symmetrized-rank-fv2-registration.json",
+      "snapshot": "inputs/additional/experiments/symmetrized-rank-fv2-registration.json",
+      "sha256": "61d924dc850a3234dca68cb9db50157870d7ba208cbca342e7760ecd52b580fc",
+      "bytes": 1215
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/symmetrized-rank-fv2.py",
+      "snapshot": "inputs/additional/experiments/symmetrized-rank-fv2.py",
+      "sha256": "37b5b58682676cacc33fdb4cd53e6c3e589dcf2d6b94b99a8dfc15b56c3fb42e",
+      "bytes": 6711
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/symmetrized-rank-fv2-system.npz",
+      "snapshot": "inputs/additional/experiments/symmetrized-rank-fv2-system.npz",
+      "sha256": "1f2b91da4ea0b0408f089e9dfe3fe98aeba2ee1af44ffc967f7e16e41f401aff",
+      "bytes": 1553327
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/symmetrized-rank-fv2.resources",
+      "snapshot": "inputs/additional/experiments/symmetrized-rank-fv2.resources",
+      "sha256": "394a193c00df6a05cf66a7854271d2b406ab8d9e777a9f645d2961b4f6deba8d",
+      "bytes": 1605
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/symmetrized-rank-fv2.stdout",
+      "snapshot": "inputs/additional/experiments/symmetrized-rank-fv2.stdout",
+      "sha256": "29644ef63e69676e5fe344ab272e434ea0b4ddbf51688b218700b054bbea93fd",
+      "bytes": 1382
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/symmetrized-rank-fv2-summary.json",
+      "snapshot": "inputs/additional/experiments/symmetrized-rank-fv2-summary.json",
+      "sha256": "4d92d40ff4e7747b556815e34b9cc5388e9b1f7541c3d7c9c6f460428da01bde",
+      "bytes": 435
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/symmetrized-rank-fv2-certificate.json",
+      "snapshot": "inputs/additional/experiments/symmetrized-rank-fv2-certificate.json",
+      "sha256": "e074154c993c2af6f08537bd2069cbad2c45e0732c0166014e5664cb89ea5021",
+      "bytes": 7923
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/bounded-affine-fv1.resources",
+      "snapshot": "inputs/additional/experiments/bounded-affine-fv1.resources",
+      "sha256": "e28e74d76c1db5ee8dada8a6c77f0a14b8661f1373c31abde85756a27f3f8c79",
+      "bytes": 757
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/bounded-affine-fv1.py",
+      "snapshot": "inputs/additional/experiments/bounded-affine-fv1.py",
+      "sha256": "c792f3c643dea265fc1ab2408112dd88d086daa3805f7fac11ce343aa119ff67",
+      "bytes": 1968
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/bounded-affine-fv1-registration.json",
+      "snapshot": "inputs/additional/experiments/bounded-affine-fv1-registration.json",
+      "sha256": "3d3ae13efe76666cf01d842da5ff4ca43a45f21c21778938062745851e118497",
+      "bytes": 924
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/bounded-affine-fv1-output.json",
+      "snapshot": "inputs/additional/experiments/bounded-affine-fv1-output.json",
+      "sha256": "e55325754e364001f94ad32eb8bcab5fbfee3a2c7cd057b097c6240a0b1649a9",
+      "bytes": 1873
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/bounded-affine-tv-statement-v1.md",
+      "snapshot": "inputs/additional/coordinator/bounded-affine-tv-statement-v1.md",
+      "sha256": "4ed10092743879e7433b39bfc8988088821c7ceb29f4944f3794baea10cc7c6e",
+      "bytes": 2007
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/bounded-affine-tv-proof-v1.md",
+      "snapshot": "inputs/additional/coordinator/bounded-affine-tv-proof-v1.md",
+      "sha256": "0690ad673537a2df1f3e7bf1b2b44ea2126d51e05f0de4eca0d4437006201673",
+      "bytes": 2980
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/selector-public-rejection-v1.md",
+      "snapshot": "inputs/additional/coordinator/selector-public-rejection-v1.md",
+      "sha256": "cf07c43762315ab40927d6ba4cad1b311ce61d758a249b784f5da0ed8ee1acf2",
+      "bytes": 1132
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF3/full-report-v1.md",
+      "snapshot": "inputs/additional/reviews/FULL-FF3/full-report-v1.md",
+      "sha256": "f9d3d373aec246feb7e705d4d9806ea8e4595a5a3664f833bfc3c888df93a68a",
+      "bytes": 14442
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF3/new-regressions-v1.md",
+      "snapshot": "inputs/additional/reviews/FULL-FF3/new-regressions-v1.md",
+      "sha256": "00e1a7509f826afc6f1de00f2a8e36186a30dd54fb9a255ee1b56817ccb0f82a",
+      "bytes": 1068
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF3/review-seal-v1.json",
+      "snapshot": "inputs/additional/reviews/FULL-FF3/review-seal-v1.json",
+      "sha256": "2f8bf3626d094fde5833623904b6ebfc4d7e08c61983e45ba4096dc432faf192",
+      "bytes": 20599
+    }
+  ]
+}

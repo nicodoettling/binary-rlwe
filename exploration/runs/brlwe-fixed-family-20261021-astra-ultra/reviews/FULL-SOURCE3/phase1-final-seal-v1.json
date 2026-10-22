@@ -1,0 +1,383 @@
+{
+  "reviewer": "FULL-SOURCE3",
+  "phase": "1 source packet",
+  "sealed_at_utc": "2026-10-21T20:43:12.875883+00:00",
+  "claim_scope": [
+    "SV-PRIME-SUPPORT-v2",
+    "SV-DENSE-SPLIT-v1",
+    "SV-RS-DECODE-v1",
+    "SV-GAP-DECODE-v1",
+    "SV-LIST-DECODE-v1",
+    "SV-RS-ACTUAL-v3"
+  ],
+  "full_review": "PASS-EXACT-SCOPE recommendation for final exact versions",
+  "separate_gates": "Coordinator reconciliation, blind review and all-subfields dependency acceptance remain separate",
+  "protected_period_end_utc": "2026-10-21T21:18:10.636448Z",
+  "scientific_termination": false,
+  "FF_established": false,
+  "hardness_established": false,
+  "experiments_running": 0,
+  "historical_regressions": "203 exact references checked; not historical wholesale recertification",
+  "files": [
+    {
+      "path": "accepted-dependency-integrity-v1.json",
+      "sha256": "89932525fd9c707d1e2a0fa9873e254b9f108d7a41440927a1ad8c252717d48b",
+      "bytes": 3119
+    },
+    {
+      "path": "assignment-followup-1-verbatim.txt",
+      "sha256": "f156107436cac878d87a386d13bf4185a9e7b64312bdee8440caa470eec8dae2",
+      "bytes": 540
+    },
+    {
+      "path": "assignment-followup-2-verbatim.txt",
+      "sha256": "fec760ba578527825c34c891d3ab51414553e0cfb1e02ef98c94ddb6efbc2400",
+      "bytes": 336
+    },
+    {
+      "path": "assignment-verbatim.txt",
+      "sha256": "ad620f20659e08d0edda3ff6a07d37151384293a5ffaf338e9738f7e2a35e675",
+      "bytes": 4851
+    },
+    {
+      "path": "conditional-law-audit-v1.md",
+      "sha256": "6315fff0edf9c97b790b055864e8a1adac4345a9ee134cf8b5888d391615a2f2",
+      "bytes": 2746
+    },
+    {
+      "path": "controls-v1-preregistration.md",
+      "sha256": "9076681066951637534cdd6731fdc17e73bb8510e0f378724d253175cb99896a",
+      "bytes": 1835
+    },
+    {
+      "path": "controls-v1-receipt.json",
+      "sha256": "7428ac638cab325657b6cf4d931c247683b3c3082dad94cecc8d58036d900af3",
+      "bytes": 919
+    },
+    {
+      "path": "controls-v1-slot-grant.txt",
+      "sha256": "3e528588bb56942d1d36c3c54c5a9d56631a99b5b0d52541fdd10fb31dc00fe4",
+      "bytes": 193
+    },
+    {
+      "path": "controls-v1.py",
+      "sha256": "2e4b94b4ebebabb24d7279ec61bcab78b3b1f674c7d9f164b35bc01d748e9fc7",
+      "bytes": 6017
+    },
+    {
+      "path": "controls-v1.stderr.txt",
+      "sha256": "28b9474bacfb0ba47e38922043985e3e90134f1899004688d8831154b35d71b3",
+      "bytes": 806
+    },
+    {
+      "path": "controls-v1.stdout.json",
+      "sha256": "477c881bef5898000f072986965dd8efc86ef7c947242d3aea0e4642bf890aa0",
+      "bytes": 1452
+    },
+    {
+      "path": "defect-notice-v1-verbatim.txt",
+      "sha256": "19f26b0fe2385f8189bfb420012a9a1ab40d5e3308bed3baae669a7c5201cae2",
+      "bytes": 553
+    },
+    {
+      "path": "delivery-integrity-v1.json",
+      "sha256": "faa517688d36ac7feb2164c952ea8e65511aa8c71a3d15fd8944ed526cc0b706",
+      "bytes": 21321
+    },
+    {
+      "path": "exposure-and-operational-record-v1.md",
+      "sha256": "18d77702b68f07b688c20df9334154dea6c3f7db35a77d27a567a381c38cf248",
+      "bytes": 2458
+    },
+    {
+      "path": "full-report-v1.md",
+      "sha256": "5004c4fe4377282fdb675ad8eef8b60736fb4d7023d58d53b6e923fa76806213",
+      "bytes": 13215
+    },
+    {
+      "path": "inherited-radius-interface-integrity-v1.json",
+      "sha256": "30bf3548783e069cd67bb287ece1ede0723818691986d8b8556eb06869cdb094",
+      "bytes": 2884
+    },
+    {
+      "path": "input-manifest-addendum-v1.json",
+      "sha256": "a82b54feb11722dee53aff71b5e0354891f02ccbf65e566d85fec0cd0a041a76",
+      "bytes": 2671
+    },
+    {
+      "path": "input-manifest-addendum-v2.json",
+      "sha256": "de7518413019e25026c49153f6a8ab1bc52fef9219175bbf0ad7c3d1a51e47b2",
+      "bytes": 2232
+    },
+    {
+      "path": "input-manifest-v1.json",
+      "sha256": "efef0385a90d891a9ad4c3e913b409d72a22562c3c9c64c576124bc08c6cac1f",
+      "bytes": 11941
+    },
+    {
+      "path": "inputs/00-source-prime-support-proof-v2.md",
+      "sha256": "3e2e62f75c75766c90de436e8387cb3331f8c2b4a9dc0a14b7fc1f8862ff3cfe",
+      "bytes": 4205
+    },
+    {
+      "path": "inputs/01-source-prime-support-statement-v2.md",
+      "sha256": "1176e7484ba806a92ea18d95e22375938f210d38fe1268fe9f178e280d76374d",
+      "bytes": 1867
+    },
+    {
+      "path": "inputs/02-dense-split-source-statement-v1.md",
+      "sha256": "10d8282bae4ed3ef96eda1d304f4538935b9308b7cb23e2b651672fc9dbae102",
+      "bytes": 1889
+    },
+    {
+      "path": "inputs/03-dense-split-source-proof-v1.md",
+      "sha256": "ddc8225562237ed46751f9326db1a2a51de5646eb6550be74e20b5c8552a1535",
+      "bytes": 2680
+    },
+    {
+      "path": "inputs/04-rs-source-decoder-proof-v1.md",
+      "sha256": "b812deb279acfeb36c9ea27ec17d750b6f5cd23ff5f2e24f1b519e412e79daa6",
+      "bytes": 3928
+    },
+    {
+      "path": "inputs/05-rs-source-decoder-statement-v1.md",
+      "sha256": "e5849eaeb63737f596b08213e4d3dd7ea3bc6e4b0fe4873cfe8140205318ea32",
+      "bytes": 2441
+    },
+    {
+      "path": "inputs/06-spectral-gap-decoder-proof-v1.md",
+      "sha256": "7e7a55eed374c5e75f7cc27006bf87ddd64d68f54e51ed97ea17590bf3546ee8",
+      "bytes": 2405
+    },
+    {
+      "path": "inputs/07-spectral-gap-decoder-statement-v1.md",
+      "sha256": "00921998d7781d3f8d5df8954cb4a919f3fa60524d1d64530913113d3cfdec9a",
+      "bytes": 2003
+    },
+    {
+      "path": "inputs/08-list-source-decoder-proof-v1.md",
+      "sha256": "50a5b5d86176ce64416d5603ee559d3e610decf636523a03c0cc04d5fcd6ea2f",
+      "bytes": 3789
+    },
+    {
+      "path": "inputs/09-list-source-decoder-statement-v1.md",
+      "sha256": "e9c47f9fd5645b3d70868d4c36027ce94ebd86b1ca1c40164b7c32a0fc52710b",
+      "bytes": 2089
+    },
+    {
+      "path": "inputs/10-rs-actual-radius-witness-proof-v1.md",
+      "sha256": "408dc7e37016279a3ae62e2337a7d3af769d40688b571062538d32704d59bb32",
+      "bytes": 2254
+    },
+    {
+      "path": "inputs/11-rs-actual-radius-witness-statement-v1.md",
+      "sha256": "402db730de4281c45c21b12840b700dca685033c4cdb926e6cc1ec1eae5f8dab",
+      "bytes": 1838
+    },
+    {
+      "path": "inputs/12-subfield-contraction-statement-v2.md",
+      "sha256": "9157018baf8fa6d4e6fc3f3e889f3ba6fd07ce206175be4f37508553593c2bae",
+      "bytes": 3363
+    },
+    {
+      "path": "inputs/13-subfield-contraction-proof-v2.md",
+      "sha256": "bd394211a85a33ed1566aba5232300db46bc24462777186d8c7f38a24967d9d8",
+      "bytes": 4793
+    },
+    {
+      "path": "inputs/14-symmetry-descent-proof-v2.md",
+      "sha256": "4a8e0b32f33c7121517108e9e1b63ff3eb9d2a50f0afea1e5c70c4e0eaa5df2a",
+      "bytes": 6766
+    },
+    {
+      "path": "inputs/15-symmetry-descent-statement-v2.md",
+      "sha256": "087405376d31699635e87d954eaaa9305da4635b61f2b572205ba89db533cddf",
+      "bytes": 3642
+    },
+    {
+      "path": "inputs/16-all-subfields-comparison-statement-v1.md",
+      "sha256": "e4bc6f736371b22a5bcb966a065b36f32b16966acdc1958e5ed56de9176d2ea0",
+      "bytes": 1746
+    },
+    {
+      "path": "inputs/17-all-subfields-comparison-proof-v1.md",
+      "sha256": "665ed6fc53b8ea17207603bbee9560e330e397b1b922cc244f8c98fecff151d1",
+      "bytes": 3082
+    },
+    {
+      "path": "inputs/18-acceptance-v1.json",
+      "sha256": "5148b580d29102ccbfbe090568f991a4edba768d4798c222b5550a7df27f5732",
+      "bytes": 18809
+    },
+    {
+      "path": "inputs/19-acceptance-v3.json",
+      "sha256": "5f08eb262c7f98632a09fa607b7ebaba88fe58a06558ffadcae8f28bfde49b6c",
+      "bytes": 11586
+    },
+    {
+      "path": "inputs/20-source-prime-support-statement-v1.md",
+      "sha256": "b7d9c43af7dedfcaeec509b9693dd374b7f05f197ea9a3bd0fbc09e9c0967df9",
+      "bytes": 1839
+    },
+    {
+      "path": "inputs/21-source-prime-support-proof-v1.md",
+      "sha256": "12967509eed52f8fe2896e7d341a792beacbd06cd4a50a43a07bc04c1ea4014d",
+      "bytes": 4089
+    },
+    {
+      "path": "inputs/22-fixed-main-statement-v2.md",
+      "sha256": "25da2502104e746d3e9f2ca10e3d070372ff95b853b1fd2b0e6c96b1b909ecb6",
+      "bytes": 6464
+    },
+    {
+      "path": "inputs/23-fixed-main-proof-v2.md",
+      "sha256": "2e98d25b0f349e22dfeb23ba5ea18ebe339039fa08fb39f92cf45afa9f50f0c7",
+      "bytes": 4407
+    },
+    {
+      "path": "inputs/24-am-main-theorem-v3.md",
+      "sha256": "eaabea064b734ccefbbb1d2410ed03fecdbe671f098c2e69d59d432df855e33c",
+      "bytes": 11306
+    },
+    {
+      "path": "inputs/25-am-main-proof-v3.md",
+      "sha256": "f27a64db55c4442e38497518d8b9beca3b13e21bf0530a40497c9bc897131143",
+      "bytes": 10085
+    },
+    {
+      "path": "inputs/26-acceptance-v1.json",
+      "sha256": "ba065e4b5f569236839b2597882698ade120219a13551376b8a14af6d5d2e23e",
+      "bytes": 9212
+    },
+    {
+      "path": "inputs/27-regressions.json",
+      "sha256": "27b966ec59faa61249b3dec9682bafdcf12e95418b7676739032bc00a5d77e40",
+      "bytes": 325044
+    },
+    {
+      "path": "inputs/28-regressions.json",
+      "sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "bytes": 334642
+    },
+    {
+      "path": "inputs/29-PLAN.md",
+      "sha256": "275bfe83f759044ea8acb3118c76f0e480a59cb850cfb70d97422a651cfa4ed5",
+      "bytes": 15108
+    },
+    {
+      "path": "inputs/30-run.log.brlwe-fixed-family-20261021-astra-ultra.cap-status.json",
+      "sha256": "43f7b8bc69ade0c86c7c4966c7dc45f80c173ec027448a532c2f81d454224753",
+      "bytes": 3010
+    },
+    {
+      "path": "inputs/31-same-j-theorem-only-v1.md",
+      "sha256": "96b88a725cc5dc4f8c943275d3b8788fdb9e6ac108c72fe62b383af9614e5e62",
+      "bytes": 14206
+    },
+    {
+      "path": "inputs/32-SKILL.md",
+      "sha256": "9350ffeb5aebe0b126710786586f94ef5d990be35b8b9defc8004136dae40318",
+      "bytes": 4484
+    },
+    {
+      "path": "inputs/33-audit-protocol.md",
+      "sha256": "2d076ba631c340d71f6259757c6207dbe230872810e9bad3188b215f46d095f4",
+      "bytes": 8480
+    },
+    {
+      "path": "inputs/34-probability-regressions.md",
+      "sha256": "ad7eecf93ed02e5b2957243a9bbb2cac8e8eeeb991971f4d77d0818cd04a4fa4",
+      "bytes": 6814
+    },
+    {
+      "path": "inputs/extra-00-multiplier-ohcp-theorem-v8.md",
+      "sha256": "857a62e9f4a937a80e5cb3b115c8b132abf122c16665d29b39dcb62bde86fe0a",
+      "bytes": 9436
+    },
+    {
+      "path": "inputs/extra-01-multiplier-ohcp-algorithm-v2.md",
+      "sha256": "4361c90a7fa7cfe25d0ab3e8cd5c5333fb474cf1fb764375e10c29fca5102735",
+      "bytes": 14059
+    },
+    {
+      "path": "inputs/extra-02-multiplier-ohcp-proof-v9.md",
+      "sha256": "e9b3023715a3d4ec90c474aba6945223aa376248b1fa216134964a5643fb4c5f",
+      "bytes": 36793
+    },
+    {
+      "path": "inputs/extra-03-regression-scope-v1.json",
+      "sha256": "fd74bf0fc1dfc3827da0a11f544d06c38ab68145a4a3b4112c424b9017eb850b",
+      "bytes": 12822
+    },
+    {
+      "path": "inputs/extra-04-source-classification-theorem-v1.md",
+      "sha256": "1b72f95055b9c5a8953c46ee778ade4d57a55d5a61c4a1ce29003c049f59a5a3",
+      "bytes": 4670
+    },
+    {
+      "path": "inputs/extra-05-source-classification-proof-v1.md",
+      "sha256": "5c208872ddd99f74294dc60dbcd1a952470b5d09956d576c7346e2f52eca0d5f",
+      "bytes": 6685
+    },
+    {
+      "path": "inputs/supplement-00-rs-actual-radius-witness-statement-v2.md",
+      "sha256": "2d231a6380b87c3642433f869c26ca84aacea5dd3d36fbc0dd89c24f254f6123",
+      "bytes": 2072
+    },
+    {
+      "path": "inputs/supplement-01-rs-actual-radius-witness-proof-v2.md",
+      "sha256": "ba4c56f5c1030ebce428a7406dc973d82a4cc51f4441ed2e1d0b303fbb57a391",
+      "bytes": 2664
+    },
+    {
+      "path": "inputs/supplement-02-rs-actual-radius-version-ledger-v1.md",
+      "sha256": "85dbb817c9486964c812f84d675c76fdd4e6f3b1d544aa2d8a6f2aeb752f876d",
+      "bytes": 1048
+    },
+    {
+      "path": "inputs/supplement-03-rs-actual-radius-witness-statement-v3.md",
+      "sha256": "6e721a1eff0c5390c44f9984ae0b930bdfb5657c769199707fd2afb6dab9eccc",
+      "bytes": 2092
+    },
+    {
+      "path": "inputs/supplement-04-rs-actual-radius-witness-proof-v3.md",
+      "sha256": "49ebed1855cf5cb1851f8acf0ef3351c93bc3cf7a239b62310427d9fa0244f21",
+      "bytes": 2852
+    },
+    {
+      "path": "inputs/supplement-05-rs-actual-radius-version-ledger-v2.md",
+      "sha256": "f31953df8c0ee2a650de39b0ef6245ce58cc5074205866169ae9c977125507e9",
+      "bytes": 549
+    },
+    {
+      "path": "inputs/supplement-06-prime-list-theorem-proof-v1.md",
+      "sha256": "c54f0a6e37aa6ed6a13bb9cf387f98ce99fb12311a517c6fec32e3e32188d6cf",
+      "bytes": 4529
+    },
+    {
+      "path": "new-regressions-v1.md",
+      "sha256": "ddc09f41a2ba2595a7b66e8eb98526dc7691c90fe3c4f741261d61d0a58b61be",
+      "bytes": 4061
+    },
+    {
+      "path": "regression-dispositions-v1.json",
+      "sha256": "897b7e628215fc2ddc458b645fffde8da721410268354e08c9119f7e7d5b6830",
+      "bytes": 122463
+    },
+    {
+      "path": "review-verdict-v1.json",
+      "sha256": "c6d5c2e242f735ea1887d211638844d40e0014c222ebf5352219516b8f40e75c",
+      "bytes": 3887
+    },
+    {
+      "path": "source-access-v1.json",
+      "sha256": "1475d30f9fe35a928e06f793411a8f707e4fadacc320311179500d6fd658d1c6",
+      "bytes": 1352
+    },
+    {
+      "path": "source-complexity-report-v1.md",
+      "sha256": "81e90dfc9a2bbd3268cd8c813bc7585f0c3c770a9530ba1a630c055f24b4f1ec",
+      "bytes": 6147
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "seed": 20261021,
+  "exact_counts": {
+    "secrets": 1088,
+    "faces": 272,
+    "PSD_cases": 8,
+    "spectral_trace_bound_cases": 8
+  },
+  "n2_exception": "nonzero C=I, all four covariances=I, PSD joint covariance checked by Schur complement",
+  "scalar_fourier_diagnostics": 484,
+  "precision": "Core exact integers/Fraction. Scalar exp checks binary64 and diagnostic only; no tails or infinite distribution enumerated.",
+  "conditional_scope": "Uniform cube faces partition all S; at least1/4 of secrets have stated covariance discrepancy. Gaussian characteristic argument remains analytic, not inferred from finite controls.",
+  "CP-1": "No sequential event product; previous exact21/2000>1/100 regression remains binding."
+}

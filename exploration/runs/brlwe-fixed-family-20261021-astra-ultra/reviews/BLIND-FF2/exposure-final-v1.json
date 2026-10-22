@@ -1,0 +1,43 @@
+{
+  "reviewer": "BLIND-FF2",
+  "utc": "2026-10-21T19:00:22.521060+00:00",
+  "read_authorization": "allowed-read-manifest-v1.json plus own generated artifacts required for review/integrity/sealing",
+  "actual_external_local_reads": [
+    "the manifest",
+    "its four packet files",
+    "the three named generic audit instruction files"
+  ],
+  "actual_web_reads": [
+    "https://www.impan.pl/shop/en/publication/transaction/download/product/83078"
+  ],
+  "root_administrative_messages_received": [
+    "Experiment slot grant naming another worker only to report no running jobs; no mathematical content from that worker was supplied."
+  ],
+  "original_provenance_paths_opened": false,
+  "author_proofs_read": false,
+  "prior_reviews_statuses_ledgers_read": false,
+  "coordinator_conclusions_read": false,
+  "other_worker_mathematical_context_read": false,
+  "historical_evidence_read": false,
+  "additional_sources_requested": false,
+  "own_artifact_reads": "Input and result hashing, experiment-output inspection, and static artifact integrity validation only.",
+  "experiments": {
+    "preregistered_and_granted": 1,
+    "executed": 1,
+    "running": 0,
+    "slot_released": true
+  },
+  "actions_not_taken": [
+    "No agents spawned",
+    "No nested Codex",
+    "No goals created",
+    "No detached jobs",
+    "No installations",
+    "No git mutations",
+    "No publication",
+    "No external interpersonal communication",
+    "No service-tier changes"
+  ],
+  "service_tier_note": "No tier was selected or changed. No actual service activation or billing inference is made from configuration.",
+  "research_scope": "This worker is complete; the parent protected programme remains nonterminal."
+}

@@ -1,0 +1,9 @@
+{
+ "id":"FF3-RADIAL-FV9","registered_before_execution":true,
+ "hypothesis":"A correlated ring-level H based on residual Hamming weight may escape all coefficientwise scalar-channel exclusions while retaining a scalable representation: count input zero coefficients, choose an output weight using an(n+1)-state Markov kernel, then sample uniformly within that weight class. Test its exact n2 extremal kernels inside the two-secret construction.",
+ "code":"ff3-radial-fv9.py","inputs":"n2Q3q2. Enumerate all vertices of the3-by3 weight-channel polytope preserving both uniform weight distribution and exact product-noise weight distribution; at most6vertices from the plane-section geometry. Independently choose ring-level H vertices for the two residual branches, all4cube edges, and arbitrary observed(A,B)-dependent mixture weights. At most11664variables,161equalities. Both full endpoints included.",
+ "seed":"none","command":"ulimit -v 524288; /usr/bin/time -v timeout 120s python3 ff3-radial-fv9.py > ff3-radial-fv9-output.jsonl 2> ff3-radial-fv9-resource.txt",
+ "limits":{"wall_seconds":120,"address_space_bytes":536870912,"expected_seconds":15,"expected_rss_bytes":250000000,"heavy":false,"per_LP_seconds":30},
+ "precision":"Radial-polytope vertices enumerated and checked over exact Fraction arithmetic. Integer probability numerators with explicit denominators; HiGHS single-thread discovery. Exact support solve or rational Farkas postcheck required. No Gaussian substitution.",
+ "expected":"A positive correlated-ring kernel to inspect, or exact exclusion of this radial ansatz. General ring-level H and unrestricted coupled kernels remain outside it. Unlike a generic LP enlargement, the radial H itself has a polynomial-state asymptotic representation and efficient weight-class sampler."
+}

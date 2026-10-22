@@ -1,0 +1,124 @@
+{
+  "at": "2026-10-21T22:12:24.495655+00:00",
+  "phase": "REVIEW_DELIVERY_PREPARATION",
+  "required_present": [
+    {
+      "path": "final.md",
+      "bytes": 16672
+    },
+    {
+      "path": "claims.json",
+      "bytes": 40913
+    },
+    {
+      "path": "claim-dependencies.json",
+      "bytes": 23428
+    },
+    {
+      "path": "reconciliation.md",
+      "bytes": 4015
+    },
+    {
+      "path": "regressions.json",
+      "bytes": 736718
+    },
+    {
+      "path": "reduction-attempts.md",
+      "bytes": 9524
+    },
+    {
+      "path": "parameter-table.md",
+      "bytes": 5666
+    },
+    {
+      "path": "source-comparison.md",
+      "bytes": 6355
+    },
+    {
+      "path": "progress.md",
+      "bytes": 9646
+    },
+    {
+      "path": "resume.md",
+      "bytes": 423
+    },
+    {
+      "path": "programme-decisions.md",
+      "bytes": 6534
+    },
+    {
+      "path": "reviews/index.md",
+      "bytes": 5404
+    },
+    {
+      "path": "experiments/registry.json",
+      "bytes": 15366
+    },
+    {
+      "path": "experiments/evidence-index-v2.json",
+      "bytes": 155605
+    },
+    {
+      "path": "coordinator/programme-v4.md",
+      "bytes": 8172
+    },
+    {
+      "path": "coordinator/frontier-challenge-replies-v4.md",
+      "bytes": 15367
+    },
+    {
+      "path": "coordinator/runtime-verification.json",
+      "bytes": 59249
+    },
+    {
+      "path": "coordinator/protected-period-compliance.json",
+      "bytes": 30814
+    },
+    {
+      "path": "coordinator/goal-creation-receipt.json",
+      "bytes": 994
+    },
+    {
+      "path": "coordinator/acceptance-integrity-v3.json",
+      "bytes": 27491
+    },
+    {
+      "path": "coordinator/regression-integrity-v2.json",
+      "bytes": 31566
+    },
+    {
+      "path": "coordinator/final-audit-integrity-v1.json",
+      "bytes": 117532
+    },
+    {
+      "path": "coordinator/operational-deviations-v2.json",
+      "bytes": 2801
+    }
+  ],
+  "scheduled_remaining": [
+    {
+      "gate": "270m consolidation",
+      "at": "2026-10-21T22:18:10.636448Z"
+    },
+    {
+      "gate": "285m workers/experiments stopped observation",
+      "at": "2026-10-21T22:33:10.636448Z"
+    },
+    {
+      "gate": "295m final checkpoint",
+      "at": "2026-10-21T22:43:10.636448Z"
+    },
+    {
+      "gate": "final native usage, observed cleanup, package manifest and terminal delivery",
+      "before": "2026-10-21T22:47:05.636448Z"
+    }
+  ],
+  "scientific_status": {
+    "FF": "OPEN",
+    "SV": "SUBSTANTIVE_REVIEWED_CLASSIFICATION_AT_INHERITED_RADIUS",
+    "hardness": "NOT_ESTABLISHED",
+    "exhaustion": "REJECTED_BY_FRESH_CHALLENGE",
+    "native_goal": "ACTIVE_UNRESOLVED"
+  },
+  "interpretation": "No scientific early-termination certificate issued. Final operational wrapup belongs to original capped run; no new discovery, repetition, successor or extension."
+}

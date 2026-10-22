@@ -1,0 +1,55 @@
+[
+  {
+    "id": "FF3-BLACKWELL-v1",
+    "status": "PROVISIONAL",
+    "scope": "finite rational normalized kernel model; exact finite certificates FV2/FV3",
+    "dependencies": []
+  },
+  {
+    "id": "FF3-TWOSECRET-v1",
+    "status": "PROVISIONAL",
+    "scope": "full exact transfer for two candidate secrets separated by a unit, assuming noise channel H",
+    "dependencies": []
+  },
+  {
+    "id": "FF3-ENUM-v1",
+    "status": "PROVISIONAL",
+    "scope": "all binary secrets; negligible full-batch statistical transfer, explicit exponential runtime",
+    "dependencies": [
+      "integer determinant/rank inequality",
+      "Gaussian tail bound"
+    ]
+  },
+  {
+    "id": "FF3-FF-MAIN",
+    "status": "OPEN",
+    "scope": "PPT fixed target binary RLWE reduction",
+    "dependencies": [
+      "efficient normalized kernel missing"
+    ]
+  },
+  {
+    "id": "FF3-RADIAL-FINITE-v1",
+    "status": "PROVISIONAL",
+    "scope": "exact finite correlated-ring-H kernel; no Gaussian/PPT-family theorem",
+    "dependencies": [
+      "FV9 exact rational certificate"
+    ]
+  },
+  {
+    "id": "FF3-PAIR-FINITE-EXCLUSIONS-v1",
+    "status": "PROVISIONAL",
+    "scope": "the precisely nested FV5-FV8 finite ansatzes only",
+    "dependencies": [
+      "exact counterexamples/convex separators/Farkas witnesses"
+    ]
+  },
+  {
+    "id": "FF3-TWOEVENT-v1",
+    "status": "PROVISIONAL",
+    "scope": "finite two-event H identity; Gaussian instantiation note; finite sampler unsealed",
+    "dependencies": [
+      "finite likelihood inequalities"
+    ]
+  }
+]

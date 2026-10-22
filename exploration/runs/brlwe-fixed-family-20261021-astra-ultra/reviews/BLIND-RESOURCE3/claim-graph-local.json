@@ -1,0 +1,132 @@
+{
+  "scope": "Local proof/check closure is distinguished from unavailable global acceptance gates. PROVISIONAL does not retract the exact equalities established; it avoids promoting a complete project certificate.",
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "Ring residual-coordinate inversion is bijective",
+      "dependencies": [],
+      "status": "PROVISIONAL",
+      "local_evidence": "complete-report.md C1; exact inversion checks",
+      "global_gate": "Root reconciliation/delivery gate remains outside blind scope"
+    },
+    {
+      "id": "C2",
+      "claim": "Normalization, exact kernel law, pointwise geometric retry and capped TV",
+      "dependencies": [
+        "C1"
+      ],
+      "status": "PROVISIONAL",
+      "local_evidence": "complete-report.md C2,C5; 81 normalization and 567 cap controls",
+      "global_gate": "Root reconciliation/delivery gate"
+    },
+    {
+      "id": "C3-v2",
+      "claim": "Efficient rational coins suffice for arbitrary unspecified M",
+      "dependencies": [],
+      "status": "REJECTED",
+      "local_evidence": "complete-report.md C8 uncomputable-M obstruction",
+      "downstream": [
+        "COMPACT-v2 full resource assertion"
+      ]
+    },
+    {
+      "id": "C3-v3",
+      "claim": "Rational binary-encoded M gives expected polynomial cost in input lengths and numeric M, under efficient subroutines",
+      "dependencies": [
+        "C2"
+      ],
+      "status": "REPAIRED-PENDING-RECHECK",
+      "local_evidence": "complete-report.md C6-C8",
+      "global_gate": "Different fresh referee must review cleaned statement-only packet after incidental status exposure"
+    },
+    {
+      "id": "C4",
+      "claim": "Specified n2 radial/selector tables satisfy every row and endpoint identity",
+      "dependencies": [
+        "C1",
+        "C2"
+      ],
+      "status": "PROVISIONAL",
+      "local_evidence": "exact-check-stdout.json; independent_exact_check.py; complete-report.md section5",
+      "global_gate": "Canonical author-witness linkage and broader project regressions not inspected"
+    },
+    {
+      "id": "C5",
+      "claim": "Endpoint equations imply full shared-secret batch law and k-fold error bound",
+      "dependencies": [
+        "C2",
+        "C4"
+      ],
+      "status": "PROVISIONAL",
+      "local_evidence": "complete-report.md C4-C5; shared/fresh-secret distinction15/256",
+      "global_gate": "Root reconciliation/delivery gate"
+    },
+    {
+      "id": "E1",
+      "claim": "Energy-rank and rank-permuted kernels have exact stated endpoints",
+      "dependencies": [],
+      "status": "PROVISIONAL",
+      "local_evidence": "complete-report.md E1-E2;1024 rank-size cases",
+      "global_gate": "Root reconciliation/delivery gate"
+    },
+    {
+      "id": "E2",
+      "claim": "Shell DP/rank/unrank are polynomial under numerical-width assumptions with stated count bits",
+      "dependencies": [
+        "E1"
+      ],
+      "status": "PROVISIONAL",
+      "local_evidence": "complete-report.md E3;24 DP models994 vectors",
+      "global_gate": "Root reconciliation/delivery gate"
+    },
+    {
+      "id": "E3",
+      "claim": "Rational h expected exact sampling and approximate-row TV contraction",
+      "dependencies": [
+        "E1"
+      ],
+      "status": "PROVISIONAL",
+      "local_evidence": "complete-report.md E4 and C7",
+      "global_gate": "Root reconciliation/delivery gate"
+    },
+    {
+      "id": "E4",
+      "claim": "Pair-shell analogue with inherited joint-shell constancy and doubled product bit bound",
+      "dependencies": [
+        "E1",
+        "E2",
+        "E3"
+      ],
+      "status": "PROVISIONAL",
+      "local_evidence": "complete-report.md E5",
+      "global_gate": "Root reconciliation/delivery gate"
+    },
+    {
+      "id": "E5",
+      "claim": "Wrapped-vs-finite endpoint error and negligible polynomial-width tail scope",
+      "dependencies": [
+        "E1",
+        "E3"
+      ],
+      "status": "PROVISIONAL",
+      "local_evidence": "complete-report.md E6-E7; explicit analytic tail inequality",
+      "global_gate": "Root reconciliation/delivery gate"
+    },
+    {
+      "id": "TE",
+      "claim": "Conditional TWOEVENT construction and its asymptotic Gaussian hypotheses",
+      "dependencies": [],
+      "status": "PROVISIONAL",
+      "local_evidence": "complete-report.md section8;91 finite rational cases",
+      "global_gate": "Any requested finite Gaussian instantiation requires separate certified parameter check"
+    },
+    {
+      "id": "CP1",
+      "claim": "Canonical cached-prefix regression rejects marginal-product bound",
+      "dependencies": [],
+      "status": "PROVISIONAL",
+      "local_evidence": "complete-report.md section9; exact-check-stdout.json",
+      "global_gate": "Other historical project regressions unavailable within read boundary"
+    }
+  ]
+}

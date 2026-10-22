@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "n": 4,
+      "exponent": 3,
+      "norm": 9,
+      "f_squared_norm": 3
+    },
+    {
+      "n": 8,
+      "exponent": 7,
+      "norm": 49,
+      "f_squared_norm": 3
+    },
+    {
+      "n": 16,
+      "exponent": 47,
+      "norm": 2209,
+      "f_squared_norm": 3
+    },
+    {
+      "n": 32,
+      "exponent": 2207,
+      "norm": 4870849,
+      "f_squared_norm": 3
+    },
+    {
+      "n": 64,
+      "exponent": 4870847,
+      "norm": 23725150497409,
+      "f_squared_norm": 3
+    }
+  ],
+  "precision": "exact integer/rational Smith form",
+  "tails": "none"
+}

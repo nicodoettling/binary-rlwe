@@ -1,0 +1,9 @@
+{
+ "id":"FF3-LOCAL-SELECTOR-FV10","registered_before_execution":true,
+ "hypothesis":"The positive FV9 selector may admit a scalable local factorization: choose an edge uniformly and select radial-H variants from only its two observed residual weights; alternatively use local edge weights with a globally constant normalization, or allow dependence on edge orientation. These samplers avoid enumerating all candidate-secret likelihoods if their local tables extend polynomially.",
+ "code":"ff3-local-selector-fv10.py","inputs":"Frozen FV9 four exact radial H vertices, n2Q3q2, all4cube edges. Three precisely nested/related templates: uniform-edge local variants, shared local edge/variant weights, oriented local edge/variant weights. Local class=(z0,z1), or(i,z0,z1), never trueS.144or288nonnegative variables.",
+ "seed":"none","command":"ulimit -v 524288; /usr/bin/time -v timeout 120s python3 ff3-local-selector-fv10.py > ff3-local-selector-fv10-output.jsonl 2> ff3-local-selector-fv10-resource.txt",
+ "limits":{"wall_seconds":120,"address_space_bytes":536870912,"expected_seconds":10,"expected_rss_bytes":100000000,"heavy":false,"per_LP_seconds":20},
+ "precision":"Exact integer model coefficients with rational row denominators; every input row and all secret/comparator endpoints included. Single-thread solver discovery; exact rational support solve or full Farkas verification. An unavailable input class is not silently removed from constraints.",
+ "expected":"Positive exact local tables for scaling analysis, or scoped finite exclusions. General FV9 table feasibility remains valid if all compression templates fail; no exhaustion claim."
+}

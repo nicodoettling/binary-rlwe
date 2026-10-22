@@ -1,0 +1,22 @@
+--- coordinator/finalize-capped-delivery-v2.py
++++ coordinator/finalize-capped-delivery-v3.py
+@@ -67,6 +67,7 @@
+ math = draft[draft.index('## What changed beyond'):draft.index('## Runtime and shutdown accounting')]
+ assert math in report
+ assert sha(O/'coordinator/final-draft-v4.md')=='e0bebf18e96b8dd1415838822ba2d9c2012115d13face97c2dc9c0d8f47ae870'
++report=replace_once(report, '[evidence-index-v2.json](experiments/evidence-index-v2.json)', '[evidence-index-v3.json](experiments/evidence-index-v3.json)')
+ 
+ # Check the final original-evidence snapshot after all review seals.
+ index = read('experiments/evidence-index-v3.json')
+--- coordinator/closeout-checkpoint-v2.py
++++ coordinator/closeout-checkpoint-v3.py
+@@ -18,6 +18,9 @@
+ now = datetime.datetime.now(datetime.timezone.utc)
+ cap = json.loads((O / 'run.log.brlwe-fixed-family-20261021-astra-ultra.cap-status.json').read_text())
+ elapsed = time.monotonic() - cap['started_monotonic']
++assert observed_agents['service_activation'] == cap['started_at'], 'Same-run role receipt required'
++observed_at = datetime.datetime.fromisoformat(observed_agents['at'].replace('Z', '+00:00'))
++assert 0 <= (now-observed_at).total_seconds() < 180, 'Fresh role observation required'
+ assert elapsed < 18000, 'Original cap elapsed; no continuation permitted'
+ goal_rel = f'coordinator/goal-checkpoint-{a.number:03d}.json'
+ goal = json.loads((O / goal_rel).read_text())

@@ -1,0 +1,13 @@
+# Independent source-completion floor: scoped diagnosis
+
+Author analysis, not a new accepted impossibility theorem. Exact references: DD AM-MAIN-v3 Section 3; OLD A-FRAC-v1 Sections 2–4; OLD B-GP-v2 Sections 4–5.
+
+The current Gaussian completion represents the whole stacked error by MG+H, with G~D_(J,t) common to all K samples and H conditionally independent of G,S after the source state M is fixed. The continuous covariance prototype requires Cov(H)=sigma^2 I-t^2 MM^T to be positive semidefinite. This forces sigma>=t||M||op; the implemented discrete proof uses the stronger factor-two guard and a theta-normalizer bound. Since ||M||op^2=max_zeta sum_i |a_i(zeta)|^2, independent source rows of fixed nonzero width accumulate with K. Replacing a worst-case tail bound by concentration can improve logarithmic factors but cannot remove that accumulation.
+
+Toy exact covariance witness: n=1, all K rows M_i=1, G uniform on {-1,1}, target independent errors each of variance1. If E=MG+H with G independent of H, the target covariance I_K minus the common-mask covariance 1_K 1_K^T must be PSD. For K>=2 it has eigenvalue 1-K<0. Thus no such independent correction exists, regardless of the law of H. This finite-support witness rejects the unqualified idea that independent per-coordinate noise can hide a fixed common mask for arbitrarily many observations.
+
+Allowing H to correlate with G does not repair the existing guessing proof. Its data-processing bound reveals H and M and then uses that S,G retain their product law conditional on those revelations. For example H=-MG+E gives exact target errors, but H leaks information about G; replacing conditional G|H by unconditional G is invalid. A new normalized information argument would be needed.
+
+The public B-GP bridge has s^2=w^2+r^2 with r>=sqrt(log(8n/epsilon_b)/pi), at least1. Reducing continuous challenge width w with K therefore cannot make the fractional source width s fall like K^(-1/2). This is tied to replacing center-dependent coset Gaussian weights by uniform cosets; both theta normalizers are explicitly retained. A small-width bridge needs a genuinely different implementation, e.g. effective weighted coset sampling, whose ordinary-basis cost is currently unproved.
+
+Possible escapes retained OPEN: direct fixed-q functionals avoiding full completion; a normalized transcript information bound without revealing a G-dependent H; a different public bridge with shrinking source width and effective weighted-coset sampling; resource-dependent exact source problem/scale transformations that preserve the required target family. None follows from the covariance observation alone.

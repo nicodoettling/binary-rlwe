@@ -1,0 +1,26 @@
+{
+  "date_utc": "2026-10-21",
+  "sources": [
+    {
+      "url": "https://cims.nyu.edu/~regev/papers/average.pdf",
+      "kind": "primary author-hosted manuscript dated2005-12-14",
+      "read": "Section2 modulation Eq3, Gaussian scaling and Poisson Lemma2.8 with regularity footnote; no hardness theorem imported",
+      "access": "PDF text read",
+      "byte_hash": "not available through web tool; no downloaded-byte identity claimed"
+    },
+    {
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/01621459.1963.10500830",
+      "kind": "primary publisher abstract",
+      "read": "independent bounded-variable concentration scope",
+      "access": "abstract read; scanned original at cs.rpi.edu opened but no text or usable screenshot image through wrapper; exact needed Bernoulli inequality independently reconstructed",
+      "byte_hash": "not available through web tool"
+    },
+    {
+      "url": "https://www.impan.pl/shop/en/publication/transaction/download/product/83078",
+      "kind": "primary research publication",
+      "read": "Xylouris2011 Theorem1.1 pp65-66, effective constant and coprime progression hypotheses",
+      "scope": "theorem statement and substitution, not reproof of analytic number theory",
+      "byte_hash": "not available through web tool"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "FULL-FF1-FV1",
+  "registered_at": "2026-10-21T18:22:59.011907+00:00",
+  "registered_before_execution": true,
+  "hypothesis": "Every fixed-secret full-history conditional law and complete guess transform survives biased correlated errors; posterior-uniformity, whole-execution k*tau and reused-D-coin shortcuts fail; exact caps and strict comparisons survive.",
+  "code": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF1/finite-controls-v1.py",
+  "sha256": "211bdb93df831778544baf904f7adb5755ca1cd5fc6bc0514b2278ab5c9869cc",
+  "seed": null,
+  "inputs": "F3^2, coefficient secret {0,1}^2, diagonal errors probabilities (1/2,1/3,1/6), all full prior (A,B) histories; exact rational arithmetic",
+  "limits": {
+    "seconds": 120,
+    "address_space": 536870912,
+    "cpu_seconds": 110
+  },
+  "expected": "all exact assertions pass; explicitly invalid shortcuts rejected",
+  "scope": "finite law falsification only, no full ring/Gaussian theorem",
+  "command": "/usr/bin/time -v timeout --signal=TERM --kill-after=5s 120s prlimit --as=536870912 --cpu=110 -- python3 exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF1/finite-controls-v1.py"
+}

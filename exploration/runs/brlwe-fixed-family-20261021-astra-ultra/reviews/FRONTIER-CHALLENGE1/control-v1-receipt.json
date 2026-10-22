@@ -1,0 +1,21 @@
+{
+  "started_at": "2026-10-21T21:21:18.046532+00:00",
+  "ended_at": "2026-10-21T21:21:18.238560+00:00",
+  "wall_seconds": 0.19203943596221507,
+  "exit": 0,
+  "command": [
+    "/usr/bin/timeout",
+    "--signal=TERM",
+    "--kill-after=5",
+    "120",
+    "/usr/bin/time",
+    "-v",
+    "-o",
+    "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FRONTIER-CHALLENGE1/control-v1.time.txt",
+    "python3",
+    "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FRONTIER-CHALLENGE1/control-v1.py"
+  ],
+  "address_limit_bytes": 536870912,
+  "slot": "root LIGHT grant 2026-10-21 approximately21:21 UTC",
+  "cleanup": "foreground process completed; no detached process started"
+}

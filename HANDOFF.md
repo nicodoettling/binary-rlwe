@@ -1,5 +1,7 @@
 # Project handoff: binary-secret RLWE
 
+**Programme navigation added 21 October 2026:** see the [work programme](exploration/PROGRAMME.md), including the proposed entropic binary-secret extension. The September scientific and run-status snapshot below is historical; consult the linked October artifacts and exact acceptance records for subsequent results.
+
 Updated 7 September 2026. This is the entry point for continuing the project. The [discussion record](notes/discussion-summary-2026-09-07.md) provides the fuller history, bibliography, and explanation of the research choices.
 
 ## Current state

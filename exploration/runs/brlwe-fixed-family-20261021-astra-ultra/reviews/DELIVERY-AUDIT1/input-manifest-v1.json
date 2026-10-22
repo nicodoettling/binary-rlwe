@@ -1,0 +1,174 @@
+{
+  "created_at": "2026-10-21T21:42:56.506597+00:00",
+  "review_role": "nonauthor, nonblind delivery/dependency audit; parent assignment exposed conclusions and exact statuses; same-model correlated review",
+  "inputs": [
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/final-draft-v1.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/inputs/coordinator/final-draft-v1.md",
+      "sha256": "2f1bc77f88386ed84ccc4148b1d6c9d6f2813088efae0b90f6bc3b83e5347b0b",
+      "bytes": 14065,
+      "depth": "queued for delivery audit; exact JSON machine loaded separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/claims.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/inputs/claims.json",
+      "sha256": "1eb8c108e250628c16694b7989ca6fabbfca8cf3f772876020d112ff3128cada",
+      "bytes": 38989,
+      "depth": "queued for delivery audit; exact JSON machine loaded separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/claim-dependencies.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/inputs/claim-dependencies.json",
+      "sha256": "c455100167b5e3ba0000550e0c1d393ccde309e8382c2f273be498771f36cc42",
+      "bytes": 22958,
+      "depth": "queued for delivery audit; exact JSON machine loaded separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/parameter-table.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/inputs/parameter-table.md",
+      "sha256": "ab49fd889e16efb08fc76bc0e0ba3a07163e0dd743f4a11f486df9375256edfe",
+      "bytes": 5521,
+      "depth": "queued for delivery audit; exact JSON machine loaded separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/source-comparison.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/inputs/source-comparison.md",
+      "sha256": "0e72cbfecfd01d60aed3917a9e86bfca6f4806e747a298620f84155c55f2b18a",
+      "bytes": 6169,
+      "depth": "queued for delivery audit; exact JSON machine loaded separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reduction-attempts.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/inputs/reduction-attempts.md",
+      "sha256": "41e473104f4d3a6d180583f84e4e1f520eb0a245bbd8a5824606f9659b261379",
+      "bytes": 9290,
+      "depth": "queued for delivery audit; exact JSON machine loaded separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reconciliation.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/inputs/reconciliation.md",
+      "sha256": "8b7d8c9d8cee9d73a6b44662d702511fef62fd21da2925a1e9b9858c4b96d4c1",
+      "bytes": 3400,
+      "depth": "queued for delivery audit; exact JSON machine loaded separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/programme-decisions.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/inputs/programme-decisions.md",
+      "sha256": "494bcbb02974bf4cc8096af604b623ed8f1258ee4da9b1b66288f63db925bdb8",
+      "bytes": 4680,
+      "depth": "queued for delivery audit; exact JSON machine loaded separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/programme-v2.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/inputs/coordinator/programme-v2.md",
+      "sha256": "bf57a2be781e091608b3eda9f5ca65c13dd772d87ff4a8d46083c2b1f9ce1f96",
+      "bytes": 7451,
+      "depth": "queued for delivery audit; exact JSON machine loaded separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/frontier-challenge-replies-v2.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/inputs/coordinator/frontier-challenge-replies-v2.md",
+      "sha256": "62a8bc0256e8a1894d1655946dd4f177a5af5e26e0f05edb31ec7c057ea95cd0",
+      "bytes": 13932,
+      "depth": "queued for delivery audit; exact JSON machine loaded separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/acceptance-v1.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/inputs/coordinator/acceptance-v1.json",
+      "sha256": "5148b580d29102ccbfbe090568f991a4edba768d4798c222b5550a7df27f5732",
+      "bytes": 18809,
+      "depth": "queued for delivery audit; exact JSON machine loaded separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/acceptance-v2.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/inputs/coordinator/acceptance-v2.json",
+      "sha256": "32ce0b4004df097bd8b5bd8ad8ce7de78e7d7c24eb7d1e40c0f03828dd97dc65",
+      "bytes": 16815,
+      "depth": "queued for delivery audit; exact JSON machine loaded separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/acceptance-v3.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/inputs/coordinator/acceptance-v3.json",
+      "sha256": "5f08eb262c7f98632a09fa607b7ebaba88fe58a06558ffadcae8f28bfde49b6c",
+      "bytes": 11586,
+      "depth": "queued for delivery audit; exact JSON machine loaded separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/acceptance-v4.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/inputs/coordinator/acceptance-v4.json",
+      "sha256": "0cb4b08fb3444c6c39d9dc53e8fe74488611ac12e63e202f9de7f234ce2da24f",
+      "bytes": 39446,
+      "depth": "queued for delivery audit; exact JSON machine loaded separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/acceptance-v5.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/inputs/coordinator/acceptance-v5.json",
+      "sha256": "3aa7b065e4fdb99d500875419b80bb8240a64c7ab80848b54bb0468aca5a2693",
+      "bytes": 155218,
+      "depth": "queued for delivery audit; exact JSON machine loaded separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/acceptance-v6.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/inputs/coordinator/acceptance-v6.json",
+      "sha256": "1b383c296a7809020201ae2c57e9c79e3cc56200aeb55f0ce82b5f33ec01fa16",
+      "bytes": 153873,
+      "depth": "queued for delivery audit; exact JSON machine loaded separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/acceptance-v5-dependency-label-addendum-v1.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/inputs/coordinator/acceptance-v5-dependency-label-addendum-v1.json",
+      "sha256": "eb8545345d8cdddaf18f4614ade31e15bdaf76f105e084c020965264ee677aee",
+      "bytes": 593,
+      "depth": "queued for delivery audit; exact JSON machine loaded separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/regression-integrity-v1.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/inputs/coordinator/regression-integrity-v1.json",
+      "sha256": "56ae4413c62eb834eadcc058ab862cecae704e251de6b90a2ec2e41bf86bc052",
+      "bytes": 28419,
+      "depth": "queued for delivery audit; exact JSON machine loaded separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/regressions.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/inputs/regressions.json",
+      "sha256": "349fe5ca793aa2a9ec3a58ff876ea370e64635eead084860a8e1c81c0954d13b",
+      "bytes": 733808,
+      "depth": "queued for delivery audit; exact JSON machine loaded separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/protected-period-compliance.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/inputs/coordinator/protected-period-compliance.json",
+      "sha256": "b1dc342efa28bd8b50081ed262ee2a0e84bc931cc215957281bceb3605245b02",
+      "bytes": 31143,
+      "depth": "queued for delivery audit; exact JSON machine loaded separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/goal-checkpoint-023.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/inputs/coordinator/goal-checkpoint-023.json",
+      "sha256": "77ad82d327576217c7db4ad409fe9a882dca07b9ba071fd565812991ace39386",
+      "bytes": 1004,
+      "depth": "queued for delivery audit; exact JSON machine loaded separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/goal-creation-receipt.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/inputs/coordinator/goal-creation-receipt.json",
+      "sha256": "056ccde66a087a19df8d0d0b3519c83d6efd2911fe40a8f1634a4fecddb40f6a",
+      "bytes": 994,
+      "depth": "queued for delivery audit; exact JSON machine loaded separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/startup-manifest-snapshot.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/inputs/coordinator/startup-manifest-snapshot.json",
+      "sha256": "feae0fb91c1933530736abffb91d135be9617822b939b70c33772a6d3c4bddc8",
+      "bytes": 4572,
+      "depth": "queued for delivery audit; exact JSON machine loaded separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/run.log.brlwe-fixed-family-20261021-astra-ultra.cap-status.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/inputs/run.log.brlwe-fixed-family-20261021-astra-ultra.cap-status.json",
+      "sha256": "43f7b8bc69ade0c86c7c4966c7dc45f80c173ec027448a532c2f81d454224753",
+      "bytes": 3010,
+      "depth": "queued for delivery audit; exact JSON machine loaded separately"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "created_utc": "2026-10-21T21:11:15.289694+00:00",
+  "experiment": "BLIND-TRANSFER2 independent exact checks v1",
+  "slot": "ROOT granted LIGHT 120s/512MiB",
+  "hypotheses": [
+    "Each finite table is nonnegative, pointwise normalized, and satisfies every displayed fixed-secret and uniform endpoint exactly",
+    "Rank transport uniformity and selector bounds survive finite support checks",
+    "Two-event likelihood hypotheses imply exact endpoints and claimed rejection probabilities",
+    "Finite affine families obey cube/slice/tail inequalities",
+    "RS Fourier code has stated exact minimum distance",
+    "CP-1 reproduces counterexample and rejects marginal product inference"
+  ],
+  "determinism": "fully deterministic exact integer/Fraction enumeration; no seeds",
+  "precision": "exact rational arithmetic only; no numerical tail truncation; Gaussian asymptotic claims require separate analytic proofs",
+  "dimensions": "n=2 finite tables; rank sizes1..24; two-secret cyclic ring sizes2..5; selectors2x2x2; ENUM n2,Q7/17,T1; affine n4/8; RS n4/8,p17,t1..3; CP-1 exact masses",
+  "estimate": "under120 seconds, under512MiB; no child services or persistent process",
+  "limits": {
+    "wall_seconds": 120,
+    "address_space_bytes": 536870912
+  },
+  "code": {
+    "path": "finite-audit-v1.py",
+    "sha256": "b340145a15169dd0061f4eb0cce8b5721ec92c584e84a2b4a885d7970e636322"
+  },
+  "inputs": [
+    {
+      "path": "allowed-input/two-secret-channel-statement-v1.md",
+      "sha256": "78db7757ba23e6cea708059e17aa87d4229d7b2b01d621acbbac0f5be7a4794d"
+    },
+    {
+      "path": "allowed-input/exhaustive-kernel-statement-v1.md",
+      "sha256": "b466f7c6116394acc012d099295a6af6bc8f7243079e603e7a1967a191d9d337"
+    },
+    {
+      "path": "allowed-input/compressed-selector-information-statement-v2.md",
+      "sha256": "8abf13ef4d35625ae82a6ffb44a7feb76d06700ada6a553a4a3ebd25a3e89d70"
+    },
+    {
+      "path": "allowed-input/energy-rank-kernel-statement-v1.md",
+      "sha256": "74d9717609a1bf0012b5884481dcccdb4822a8159c4c4f9899f7bea6bd6d0e52"
+    },
+    {
+      "path": "allowed-input/compact-selector-statement-v1.md",
+      "sha256": "d378258f6d5e9a528e819d77e212eddfa6486a357ecc97adfea600e9d962c81d"
+    },
+    {
+      "path": "allowed-input/joint-rank-finite-statement-v1.md",
+      "sha256": "8eda7140196f8144f1c164a2baddaa7351f07866cf81dd97617db8ea78a6570b"
+    },
+    {
+      "path": "allowed-input/two-event-noise-kernel-statement-v1.md",
+      "sha256": "ba5c8050af98cce9e7dec3d9c1b9a1806f606f9b59f1ca40e62917aa093e913b"
+    },
+    {
+      "path": "allowed-input/selector-public-statement-v3.md",
+      "sha256": "1c51d957ea4214c50f47c2c013e9472a6b2627507a36589fc477c5b9e768c2ac"
+    },
+    {
+      "path": "allowed-input/bounded-affine-tv-statement-v1.md",
+      "sha256": "4ed10092743879e7433b39bfc8988088821c7ceb29f4944f3794baea10cc7c6e"
+    },
+    {
+      "path": "allowed-input/rs-source-decoder-statement-v2.md",
+      "sha256": "5aab626734ad6c445c7062858d110ef247d86057f9a3bb018fd04e0702592972"
+    },
+    {
+      "path": "allowed-input/joint-rank-table.json",
+      "sha256": "8d461dc240f3cb47638a3306810746bd52cbd2e2189464c634915122d2f84853"
+    },
+    {
+      "path": "allowed-input/compact-selector-table.json",
+      "sha256": "59acd26442278a2a0191953888256f3cbb546e46212273d82190e06570c5040a"
+    },
+    {
+      "path": "allowed-input/radial-kernel-tables.json",
+      "sha256": "573e8ef817299486670f9ed9b61d7611387b882f21de93cc1f64ba39d7dad81c"
+    },
+    {
+      "path": "allowed-input/definitions-and-scope.md",
+      "sha256": "643ab95e0ed46bea82d12c191c27a368db6dde1181ff209731862c10bae5839d"
+    },
+    {
+      "path": "allowed-input/dense-split-source-statement-v1.md",
+      "sha256": "843a3ea886c9d39826b0492284e50c48656c310e36dfb6ed0c195e35af9416af"
+    },
+    {
+      "path": "allowed-input/all-subfields-comparison-statement-v1.md",
+      "sha256": "1225f638cb7b835d17f1775aeda24495f22f190e1f5f95a139c2171b4138b550"
+    },
+    {
+      "path": "allowed-input/subfield-contraction-statement-v2.md",
+      "sha256": "31b97bf2f3e0c33f7464ed41bd6041809784f2716c0332b53164c9f779896f3f"
+    },
+    {
+      "path": "allowed-input/inherited-radius-guards-v1.md",
+      "sha256": "445239aa2e01d580c9e2024934c8703c24bcb8058fc94a533f31a31af10d2365"
+    }
+  ],
+  "exact_command_argv": [
+    "/usr/bin/time",
+    "-v",
+    "-o",
+    "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-TRANSFER2/finite-audit-time-v1.txt",
+    "timeout",
+    "--signal=TERM",
+    "120s",
+    "prlimit",
+    "--as=536870912",
+    "--",
+    "python3",
+    "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-TRANSFER2/finite-audit-v1.py"
+  ],
+  "outputs": [
+    "finite-audit-result-v1.json",
+    "finite-audit-stderr-v1.txt",
+    "finite-audit-time-v1.txt",
+    "finite-audit-exit-v1.json"
+  ]
+}

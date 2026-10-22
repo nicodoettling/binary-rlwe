@@ -1,0 +1,82 @@
+{
+  "at": "2026-10-21T20:18:23.060303+00:00",
+  "sources": [
+    {
+      "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+      "version": "3.08, July 19 2020",
+      "access": "Web-rendered PDF text excerpts; not a claim to have read the full 166 pages",
+      "operations": [
+        {
+          "kind": "open",
+          "line": null,
+          "returned": "front matter/contents lines 0-82"
+        },
+        {
+          "kind": "find",
+          "pattern": "N(b)",
+          "returned": "scattered matches including Proposition 4.2 lines 4082-4134"
+        },
+        {
+          "kind": "find",
+          "pattern": "unramified",
+          "returned": "scattered matches including sections 4.9 and 7.50-7.65; incidental context was exposed"
+        },
+        {
+          "kind": "find",
+          "pattern": "cyclotomic",
+          "returned": "contents and section 6 introductory context"
+        },
+        {
+          "kind": "open",
+          "line": 3300,
+          "returned": "lines 3263-3344"
+        },
+        {
+          "kind": "open",
+          "line": 3970,
+          "returned": "lines 3923-4081"
+        },
+        {
+          "kind": "open",
+          "line": 5870,
+          "returned": "lines 5834-6002"
+        },
+        {
+          "kind": "open",
+          "line": 3345,
+          "returned": "lines 3308-3456"
+        },
+        {
+          "kind": "open",
+          "line": 6080,
+          "returned": "lines 5962-6235"
+        }
+      ],
+      "used_results": "Ideal factorization/valuation, extension norm and numeric norm; cyclotomic integers and ramification. Proof-specific applications derived in report."
+    },
+    {
+      "url": "https://epubs.siam.org/doi/abs/10.1137/0208040",
+      "access": "Publisher abstract/metadata and incidental reference-list excerpt only; no full-paper access",
+      "operations": [
+        {
+          "kind": "open",
+          "returned": "lines 0-205 including abstract lines 64-66"
+        }
+      ],
+      "used_result": "Polynomial bit-complexity normal forms and multiplier matrices as expressly stated in abstract."
+    },
+    {
+      "url": "https://www.impan.pl/shop/en/publication/transaction/download/product/83078",
+      "access": "Web-rendered PDF text excerpts from pages 0-3, lines 0-153; not full proof audit",
+      "operations": [
+        {
+          "kind": "open",
+          "returned": "Theorem 1.1 and introduction, then initial Lemma 2.1 excerpt"
+        }
+      ],
+      "used_result": "Theorem 1.1: effective least-prime bound with exponent 5.18; exponent 6 suffices."
+    }
+  ],
+  "other_exposures": "Operational parent experiment-slot messages mentioned other job names and completion solely to coordinate slots; no mathematical experiment results, theorem verdicts or author proofs were supplied. All own experiment outputs are reviewer-generated.",
+  "exclusions": "No source_statement paths in manifests were opened; no searches or sources outside the permitted three URLs; no author proof/status/reviewer/coordinator/experiment artifact read."
+}

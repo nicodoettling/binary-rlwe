@@ -1,0 +1,27 @@
+{
+  "at": "2026-10-21T20:05:24.075595+00:00",
+  "additional_theorem_inputs": [
+    {
+      "file": "reviews/BLIND-FRONTIER1/allowed-input/dense-split-source-statement-v1.md",
+      "sha256": "843a3ea886c9d39826b0492284e50c48656c310e36dfb6ed0c195e35af9416af",
+      "source_statement": "coordinator/dense-split-source-statement-v1.md",
+      "source_sha256": "10d8282bae4ed3ef96eda1d304f4538935b9308b7cb23e2b651672fc9dbae102",
+      "transformation": "Only provisional-status paragraph removed; full mathematical statement unchanged"
+    },
+    {
+      "file": "reviews/BLIND-FRONTIER1/allowed-input/rs-source-decoder-statement-v1.md",
+      "sha256": "5805f47785b41095733d694bd204c6cd40d3f9edee05a1a1bbd5b3ce7178d11c",
+      "source_statement": "coordinator/rs-source-decoder-statement-v1.md",
+      "source_sha256": "e5849eaeb63737f596b08213e4d3dd7ea3bc6e4b0fe4873cfe8140205318ea32",
+      "transformation": "Only provisional-status paragraph removed; full mathematical statement unchanged"
+    },
+    {
+      "file": "reviews/BLIND-FRONTIER1/allowed-input/spectral-gap-decoder-statement-v1.md",
+      "sha256": "4043228d1a634dfd950acbacf232f4cb013ae3ed9c98ca1a6d2cdbafc0bd591c",
+      "source_statement": "coordinator/spectral-gap-decoder-statement-v1.md",
+      "source_sha256": "00921998d7781d3f8d5df8954cb4a919f3fa60524d1d64530913113d3cfdec9a",
+      "transformation": "Only provisional-status paragraph removed; full mathematical statement unchanged"
+    }
+  ],
+  "restriction": "No author proofs/reviews/statuses/experimentresults. Existingallowedinputmanifest remainsimmutable."
+}

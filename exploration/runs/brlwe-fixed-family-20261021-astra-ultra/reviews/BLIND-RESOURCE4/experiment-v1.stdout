@@ -1,0 +1,171 @@
+{
+  "arithmetic": "fractions.Fraction; no floating-point acceptance tests",
+  "input_hashes_verified": 6,
+  "radial_kernels": {
+    "variants": 4,
+    "rows": 36,
+    "uniform_endpoint_equations": 16,
+    "noise_endpoint_equations": 16,
+    "all_exact": true
+  },
+  "compact": {
+    "inputs": 81,
+    "outputs": 16,
+    "edges": 4,
+    "nonzero_selector_weights": 33,
+    "normalization_equations": 81,
+    "all_normalizations_exact": true,
+    "kernel_rows_exact": 81,
+    "secret_endpoints": [
+      {
+        "secret": [
+          0,
+          0
+        ],
+        "exact_equations": 16,
+        "result": [
+          "9/64",
+          "3/64",
+          "3/64",
+          "1/64",
+          "9/64",
+          "3/64",
+          "3/64",
+          "1/64",
+          "9/64",
+          "3/64",
+          "3/64",
+          "1/64",
+          "9/64",
+          "3/64",
+          "3/64",
+          "1/64"
+        ]
+      },
+      {
+        "secret": [
+          0,
+          1
+        ],
+        "exact_equations": 16,
+        "result": [
+          "9/64",
+          "3/64",
+          "3/64",
+          "1/64",
+          "3/64",
+          "1/64",
+          "9/64",
+          "3/64",
+          "3/64",
+          "9/64",
+          "1/64",
+          "3/64",
+          "1/64",
+          "3/64",
+          "3/64",
+          "9/64"
+        ]
+      },
+      {
+        "secret": [
+          1,
+          0
+        ],
+        "exact_equations": 16,
+        "result": [
+          "9/64",
+          "3/64",
+          "3/64",
+          "1/64",
+          "3/64",
+          "9/64",
+          "1/64",
+          "3/64",
+          "3/64",
+          "1/64",
+          "9/64",
+          "3/64",
+          "1/64",
+          "3/64",
+          "3/64",
+          "9/64"
+        ]
+      },
+      {
+        "secret": [
+          1,
+          1
+        ],
+        "exact_equations": 16,
+        "result": [
+          "9/64",
+          "3/64",
+          "3/64",
+          "1/64",
+          "1/64",
+          "3/64",
+          "3/64",
+          "9/64",
+          "1/64",
+          "3/64",
+          "3/64",
+          "9/64",
+          "9/64",
+          "3/64",
+          "3/64",
+          "1/64"
+        ]
+      }
+    ],
+    "uniform_endpoint_equations": 16,
+    "max_G": "31747846170836756094431065767102005668874369915000841877198843/11688058834193179864192788149647847121368047468795377899320297",
+    "max_G_class": [
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "rank": {
+    "M_N_range": [
+      1,
+      16
+    ],
+    "identity_and_reversal_cases": 512,
+    "all_exact": true
+  },
+  "retry": {
+    "models_and_trial_values": 500,
+    "all_exact": true,
+    "trace_warning": "For G_0=(2,0), G_1=(0,2), rejection of proposed edge 0 reveals X=1; retry count alone remains ancillary."
+  },
+  "twoevent": {
+    "finite_rational_cases": 179,
+    "all_exact": true
+  },
+  "endpoint_warning_regression": {
+    "n": 1,
+    "Q": 2,
+    "q": 2,
+    "noise": "uniform",
+    "H": "identity and bit flip",
+    "G": 1,
+    "output_always": [
+      0,
+      0
+    ],
+    "UK_ne_V": true
+  },
+  "CP1": {
+    "posterior_A_each": "21/2000",
+    "posterior_C_each": "1/20",
+    "posterior_D": "879/1000",
+    "joint_selected_probability": "21/2000",
+    "false_product_bound": "1/100",
+    "second_incidence": "21/221",
+    "old_marginal_product_claim_rejected": true
+  },
+  "result": "ALL_REGISTERED_EXACT_CHECKS_PASSED"
+}

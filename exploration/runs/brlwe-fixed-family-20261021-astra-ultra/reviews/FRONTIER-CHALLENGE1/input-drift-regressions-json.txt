@@ -1,0 +1,20 @@
+--- review snapshot regressions.json
++++ current regressions.json
+@@ -6460,10 +6460,16 @@
+       "status": "REJECTED_LITERAL_RESOURCE_SCOPE_REPAIR_PENDING",
+       "evidence": "coordinator/kernel-resource-wording-rejections-v1.md",
+       "scope": "Arbitrary-n exact uniform edge requires expected random bits unless dyadic; pair-shell count bound doubles n. Endpoint proofs and finite positive kernels are separate."
++    },
++    {
++      "id": "FF-SYNTHESIS-SCOPE-1",
++      "status": "CORRECTED_SCOPE_REVIEW_PENDING",
++      "evidence": "coordinator/review-scope-corrections-v1.md",
++      "scope": "Admit precision-tunable channels at fixed target; separate certificate inversion from source comparison; finite guard menu is not universal algorithm failure."
+     }
+   ],
+   "CP-1": "Mandatory support/normalization control; no sequential product from marginal probabilities",
+   "scope": "All203 inherited references preserved; current applicability attached by exact review registry reference; no historical recertification or bulk experiment rerun",
+-  "updated_at": "2026-10-21T21:20:28.568988+00:00",
++  "updated_at": "2026-10-21T21:26:57.469414+00:00",
+   "current_reference_policy": "Each source entry ID/hash remains exact. Per-claim scope dispositions are linked; acceptance is governed by exact-version records, not blanket imported status."
+ }

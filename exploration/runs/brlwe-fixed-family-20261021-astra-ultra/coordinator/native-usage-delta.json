@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-21T22:45:21.327665+00:00",
+  "measurement_observation": {
+    "at": "2026-10-21T22:45:21.225181+00:00",
+    "method": "Actual tools.get_goal result saved immediately before this observation receipt",
+    "receipt": "coordinator/goal-final-receipt.json",
+    "native_updated_at_epoch": 1792622721,
+    "native_updated_at_utc": "2026-10-21T22:45:21+00:00",
+    "service_activation": "2026-10-21T17:48:10.636448+00:00",
+    "service_elapsed_seconds": 17830.58880943095,
+    "qualification": "Native counters as returned at this pre-delivery observation; later receipt-writing and final response are excluded. Native goal clock and service clock have different origins."
+  },
+  "baseline_receipt": "coordinator/goal-creation-receipt.json",
+  "baseline_tokens": 0,
+  "baseline_time_seconds": 0,
+  "latest_goal": {
+    "goal": {
+      "threadId": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "objective": "Establish a decision reduction for a binary-secret rank-one RLWE target family whose ring, polynomial-value modulus and polynomial coefficient-Gaussian noise parameters are fixed before quantifying over polynomial-time distinguishers, arbitrary polynomial sample bounds and inverse-polynomial advantages; and establish the computational significance of the exact delivered source radius or sampling width through a reviewed compatible hardness connection or a proved substantive algorithmic classification. Keep fixed-family reduction, source diagnosis and hardness-foundation statuses separate. Complete the mandated 210-minute protected investigation and mathematical challenge before terminal achievement.",
+      "status": "active",
+      "tokensUsed": 5711518,
+      "timeUsedSeconds": 17792,
+      "createdAt": 1792604928,
+      "updatedAt": 1792622721
+    },
+    "remainingTokens": null,
+    "completionBudgetReport": null
+  },
+  "tokens_delta": 5711518,
+  "time_delta_seconds": 17792,
+  "interpretation": "Actual native counters at the saved pre-delivery observation, not weekly quota or backend billing. Final receipt writing and response occur after this observation and are not retroactively included. Native goal clock starts after service activation."
+}

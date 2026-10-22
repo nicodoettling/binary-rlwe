@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "SV-BDD-CLASS-v1",
+    "file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/source-classification-theorem-v1.md",
+    "expected": "1b72f95055b9c5a8953c46ee778ade4d57a55d5a61c4a1ce29003c049f59a5a3",
+    "actual": "1b72f95055b9c5a8953c46ee778ade4d57a55d5a61c4a1ce29003c049f59a5a3",
+    "match": true
+  },
+  {
+    "claim": "SV-BDD-CLASS-v1",
+    "file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/source-classification-proof-v1.md",
+    "expected": "5c208872ddd99f74294dc60dbcd1a952470b5d09956d576c7346e2f52eca0d5f",
+    "actual": "5c208872ddd99f74294dc60dbcd1a952470b5d09956d576c7346e2f52eca0d5f",
+    "match": true
+  },
+  {
+    "claim": "SV-FROB-PRIME-v1",
+    "file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/frobenius-prime-theorem-v1.md",
+    "expected": "17315abf7b50bbb758a3e0e5c580d159895a1e238ad3b01b88e77a08e8e28d3e",
+    "actual": "17315abf7b50bbb758a3e0e5c580d159895a1e238ad3b01b88e77a08e8e28d3e",
+    "match": true
+  },
+  {
+    "claim": "SV-FROB-PRIME-v1",
+    "file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/frobenius-prime-proof-v1.md",
+    "expected": "8ed560e6c7a58a77d3eb03fbb622afac7347a77bcb9c47188ee141d269ed7546",
+    "actual": "8ed560e6c7a58a77d3eb03fbb622afac7347a77bcb9c47188ee141d269ed7546",
+    "match": true
+  },
+  {
+    "claim": "SV-SYMDESC-v2",
+    "file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/symmetry-descent-statement-v2.md",
+    "expected": "087405376d31699635e87d954eaaa9305da4635b61f2b572205ba89db533cddf",
+    "actual": "087405376d31699635e87d954eaaa9305da4635b61f2b572205ba89db533cddf",
+    "match": true
+  },
+  {
+    "claim": "SV-SYMDESC-v2",
+    "file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/symmetry-descent-proof-v2.md",
+    "expected": "4a8e0b32f33c7121517108e9e1b63ff3eb9d2a50f0afea1e5c70c4e0eaa5df2a",
+    "actual": "4a8e0b32f33c7121517108e9e1b63ff3eb9d2a50f0afea1e5c70c4e0eaa5df2a",
+    "match": true
+  },
+  {
+    "claim": "SV-SUBFIELD-v2",
+    "file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/subfield-contraction-statement-v2.md",
+    "expected": "9157018baf8fa6d4e6fc3f3e889f3ba6fd07ce206175be4f37508553593c2bae",
+    "actual": "9157018baf8fa6d4e6fc3f3e889f3ba6fd07ce206175be4f37508553593c2bae",
+    "match": true
+  },
+  {
+    "claim": "SV-SUBFIELD-v2",
+    "file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/subfield-contraction-proof-v2.md",
+    "expected": "bd394211a85a33ed1566aba5232300db46bc24462777186d8c7f38a24967d9d8",
+    "actual": "bd394211a85a33ed1566aba5232300db46bc24462777186d8c7f38a24967d9d8",
+    "match": true
+  }
+]

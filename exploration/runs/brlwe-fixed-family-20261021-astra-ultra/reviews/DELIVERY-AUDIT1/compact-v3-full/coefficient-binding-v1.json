@@ -1,0 +1,79 @@
+{
+  "at": "2026-10-21T21:50:12.112913+00:00",
+  "kind": "read-only exact coefficient binding and basic rational metadata validation; not an endpoint experiment replay",
+  "table_link_checks": [
+    {
+      "author_file": "workers/FF3/experiments/public-geometry-public_norm_local_edge_weights-witness.json",
+      "blind_file": "reviews/BLIND-TRANSFER2/allowed-input/compact-selector-table.json",
+      "author_hash_match": true,
+      "blind_hash_match": true,
+      "mathematical_data_equal": true
+    },
+    {
+      "author_file": "workers/FF3/experiments/public-geometry-public_norm_local_edge_weights-witness.json",
+      "blind_file": "reviews/BLIND-RESOURCE3/allowed-input/compact-selector-table.json",
+      "author_hash_match": true,
+      "blind_hash_match": true,
+      "mathematical_data_equal": true
+    },
+    {
+      "author_file": "workers/FF3/experiments/public-geometry-public_norm_local_edge_weights-witness.json",
+      "blind_file": "reviews/BLIND-RESOURCE4/allowed-input/compact-selector-table.json",
+      "author_hash_match": true,
+      "blind_hash_match": true,
+      "mathematical_data_equal": true
+    },
+    {
+      "author_file": "workers/FF3/experiments/radial-ring-H-vertices.json",
+      "blind_file": "reviews/BLIND-TRANSFER2/allowed-input/radial-kernel-tables.json",
+      "author_hash_match": true,
+      "blind_hash_match": true,
+      "mathematical_data_equal": true
+    },
+    {
+      "author_file": "workers/FF3/experiments/radial-ring-H-vertices.json",
+      "blind_file": "reviews/BLIND-RESOURCE3/allowed-input/radial-kernel-tables.json",
+      "author_hash_match": true,
+      "blind_hash_match": true,
+      "mathematical_data_equal": true
+    },
+    {
+      "author_file": "workers/FF3/experiments/radial-ring-H-vertices.json",
+      "blind_file": "reviews/BLIND-RESOURCE4/allowed-input/radial-kernel-tables.json",
+      "author_hash_match": true,
+      "blind_hash_match": true,
+      "mathematical_data_equal": true
+    },
+    {
+      "author_file": "workers/FF3/experiments/joint-rank-n2-certificate-fv16.json",
+      "blind_file": "reviews/BLIND-TRANSFER2/allowed-input/joint-rank-table.json",
+      "author_hash_match": true,
+      "blind_hash_match": true,
+      "mathematical_data_equal": true
+    }
+  ],
+  "frozen_full_review_input_checks": [
+    {
+      "file": "public-geometry-public_norm_local_edge_weights-witness.json",
+      "author_sha256": "140a8b92c3a772c217801f66f9d7618843330f0ca8264718858c3cfcf679cba8",
+      "frozen_full_sha256": "140a8b92c3a772c217801f66f9d7618843330f0ca8264718858c3cfcf679cba8",
+      "identical_bytes": true
+    },
+    {
+      "file": "radial-ring-H-vertices.json",
+      "author_sha256": "6d63ee7547c399c361f9883ac7432fee8115911b7c851a10012a83781e175665",
+      "frozen_full_sha256": "6d63ee7547c399c361f9883ac7432fee8115911b7c851a10012a83781e175665",
+      "identical_bytes": true
+    }
+  ],
+  "coefficient_metadata": {
+    "nonzero_entries": 33,
+    "all_positive": true,
+    "class_count": 27,
+    "variant_count": 16,
+    "maximum_G": "31747846170836756094431065767102005668874369915000841877198843/11688058834193179864192788149647847121368047468795377899320297",
+    "maximum_matches_statement": true,
+    "maximum_lt_3": true
+  },
+  "fresh_mathematical_control": "Hand-proved stopped-kernel invariant K_L=(1-(1-1/M)^L)K+(1-1/M)^L delta_fallback; new rational-M=3/2 two-edge exact calculation in full-report-v1.md. No all-endpoint rerun."
+}

@@ -1,0 +1,128 @@
+{
+  "status": "PASS",
+  "stats": {
+    "hnf_candidates": 28604,
+    "ideal_cases": 8,
+    "signed_conflict_orbits": 20,
+    "smith_checks": 10,
+    "collisions": 10
+  },
+  "cases": [
+    {
+      "label": "exhaustive_n2_case1",
+      "n": 2,
+      "D": 1,
+      "e": 1,
+      "a": 1,
+      "Do": 1,
+      "h": 2,
+      "g": 1,
+      "d": 1
+    },
+    {
+      "label": "exhaustive_n2_case2",
+      "n": 2,
+      "D": 2,
+      "e": 2,
+      "a": 2,
+      "Do": 1,
+      "h": 2,
+      "g": 1,
+      "d": 1
+    },
+    {
+      "label": "exhaustive_n4_case3",
+      "n": 4,
+      "D": 1,
+      "e": 1,
+      "a": 1,
+      "Do": 1,
+      "h": 4,
+      "g": 1,
+      "d": 1
+    },
+    {
+      "label": "exhaustive_n4_case4",
+      "n": 4,
+      "D": 2,
+      "e": 2,
+      "a": 2,
+      "Do": 1,
+      "h": 4,
+      "g": 1,
+      "d": 1
+    },
+    {
+      "label": "exhaustive_n4_case5",
+      "n": 4,
+      "D": 4,
+      "e": 2,
+      "a": 2,
+      "Do": 1,
+      "h": 4,
+      "g": 1,
+      "d": 1
+    },
+    {
+      "label": "exhaustive_n4_case6",
+      "n": 4,
+      "D": 8,
+      "e": 2,
+      "a": 2,
+      "Do": 1,
+      "h": 4,
+      "g": 1,
+      "d": 1
+    },
+    {
+      "label": "exhaustive_n4_case7",
+      "n": 4,
+      "D": 9,
+      "e": 3,
+      "a": 1,
+      "Do": 9,
+      "h": 2,
+      "g": 2,
+      "d": 3
+    },
+    {
+      "label": "exhaustive_n4_case8",
+      "n": 4,
+      "D": 9,
+      "e": 3,
+      "a": 1,
+      "Do": 9,
+      "h": 2,
+      "g": 2,
+      "d": 3
+    },
+    {
+      "label": "n8_prime_above3",
+      "n": 8,
+      "D": 81,
+      "e": 3,
+      "a": 1,
+      "Do": 81,
+      "h": 4,
+      "g": 2,
+      "d": 3
+    },
+    {
+      "label": "n8_mixed_2_and3",
+      "n": 8,
+      "D": 162,
+      "e": 6,
+      "a": 2,
+      "Do": 81,
+      "h": 4,
+      "g": 2,
+      "d": 3
+    }
+  ],
+  "negative_controls": [
+    "ramified descent",
+    "nonideal HNF",
+    "strict positive tie"
+  ],
+  "probability": "none; deterministic finite exact controls only"
+}

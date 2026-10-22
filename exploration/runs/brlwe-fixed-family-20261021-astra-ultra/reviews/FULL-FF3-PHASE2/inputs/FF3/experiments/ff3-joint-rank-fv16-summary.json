@@ -1,0 +1,18 @@
+[
+  {
+    "n": 2,
+    "LP_status": 0,
+    "LP_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "exact_verified": true,
+    "support": 47,
+    "max_eq_error": 1.1102230246251565e-15,
+    "seconds": 0.018073394079692662
+  },
+  {
+    "n": 4,
+    "LP_status": 4,
+    "LP_message": "The HiGHS status code was not recognized. (HiGHS Status 15: model_status is Unknown; primal_status is Basic)",
+    "exact_verified": false,
+    "seconds": 5.02889000903815
+  }
+]

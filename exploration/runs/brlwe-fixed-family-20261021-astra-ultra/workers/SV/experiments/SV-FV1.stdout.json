@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "arithmetic": "exact SymPy integer/rational",
+  "counts": {
+    "ideals": 6,
+    "basis_presentations": 18,
+    "scalar_decodes": 8640,
+    "multiplier_decodes": 108,
+    "collision_searches": 12,
+    "boundary_rejections": 2
+  },
+  "ideals": [
+    {
+      "n": 2,
+      "p": 1,
+      "D": 1,
+      "e": 1,
+      "hnf_diagonal": [
+        1,
+        1
+      ]
+    },
+    {
+      "n": 2,
+      "p": 5,
+      "D": 5,
+      "e": 5,
+      "hnf_diagonal": [
+        5,
+        1
+      ]
+    },
+    {
+      "n": 4,
+      "p": 3,
+      "D": 9,
+      "e": 3,
+      "hnf_diagonal": [
+        3,
+        3,
+        1,
+        1
+      ]
+    },
+    {
+      "n": 4,
+      "p": 17,
+      "D": 17,
+      "e": 17,
+      "hnf_diagonal": [
+        17,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "n": 8,
+      "p": 17,
+      "D": 17,
+      "e": 17,
+      "hnf_diagonal": [
+        17,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "n": 4,
+      "p": 9,
+      "D": 9,
+      "e": 3,
+      "hnf_diagonal": [
+        3,
+        3,
+        1,
+        1
+      ]
+    }
+  ],
+  "gaussian_tails": "none; no probability assertion tested",
+  "limits": "finite controls do not prove the theorem"
+}

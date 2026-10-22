@@ -1,0 +1,141 @@
+{
+  "role": "referee recommendations, root acceptance/blind gate separate",
+  "claims": [
+    {
+      "id": "ENUM-statement-v1-proof-v2",
+      "recommendation": "PASS_SCOPED_REPAIR",
+      "bindings": [
+        {
+          "file": "inputs/FF3/exhaustive-kernel-statement-v1.md",
+          "sha256": "b6c3a787dfe567fc6fb1fecfb2714d0a138d92287523382661c4f6946f7d37ed"
+        },
+        {
+          "file": "inputs/FF3/exhaustive-kernel-proof-v2.md",
+          "sha256": "7e5be386181b4bd2c20319fc7f2f74f9b9b07b55ec291529a985092507047087"
+        }
+      ],
+      "downstream": [
+        "deterministic compressed Gaussian corollary"
+      ],
+      "limits": "Exponential2^n; exact mathematical DG or charged approximate sampler"
+    },
+    {
+      "id": "COMPRESSED-v1-deterministic-core",
+      "recommendation": "PASS_SCOPED_SUBCLAIM",
+      "bindings": [
+        {
+          "file": "inputs/FF3/compressed-selector-information-statement-v1.md",
+          "sha256": "4b3781f61ab459b4809aaa32578ad3e687c8ed59a9424a72ad8d6c706a05913c"
+        },
+        {
+          "file": "inputs/FF3/compressed-selector-information-proof-v1.md",
+          "sha256": "45fd5b79c7a7fd885daadd0e4a9148ee1c21edea539c027c190cf188ba650a30"
+        }
+      ],
+      "limits": "No blanket PASS of literal randomized option; public extensions separate"
+    },
+    {
+      "id": "COMPRESSED-v1-randomized-option",
+      "recommendation": "REJECTED_LITERAL_OPTION",
+      "reason": "Persistent hidden class seed countermodel",
+      "downstream": [
+        "public-side-info randomized forms",
+        "randomized Gaussian corollary forms"
+      ],
+      "repair": "coordinator compressed-selector-information-v2, DIFFERENT fresh reviewer"
+    },
+    {
+      "id": "PUBLIC-v1",
+      "recommendation": "REJECTED_LITERAL_SCOPE",
+      "bindings": [
+        {
+          "file": "inputs/FF3/compressed-selector-public-extension-v1.md",
+          "sha256": "557b14b8aa99e3e9197af786a2f3673375f8f0baf196c42b37d547e540d26a85"
+        }
+      ],
+      "reason": "Nonatomic Z and inherited randomized-class ambiguity",
+      "repair": "coordinator selector-public-v3, DIFFERENT fresh reviewer"
+    },
+    {
+      "id": "ENERGY-RANK-v1",
+      "recommendation": "PASS_SCOPED",
+      "bindings": [
+        {
+          "file": "inputs/FF3/energy-rank-kernel-statement-v1.md",
+          "sha256": "4cf430aeb6067775c794d7e4307152b12e197efa9b70a4232cff95acb827b9e5"
+        },
+        {
+          "file": "inputs/FF3/energy-rank-kernel-proof-v1.md",
+          "sha256": "e9cb9682c135ab8d191b761fb95434fcade715086c1bdce6a1e0b8932c1ef8f1"
+        },
+        {
+          "file": "inputs/FF3/energy-rank-order-conventions-v1.md",
+          "sha256": "5a91b0934ca8028f17ec0d19635ac92c5ca3e42635e37b4e2b91e7c01db72e81"
+        }
+      ],
+      "limits": "Given h; numeric alphabets; known residual; no full-cube theorem"
+    },
+    {
+      "id": "JOINT-RANK-FINITE-v1",
+      "recommendation": "PASS_EXACT_N2",
+      "bindings": [
+        {
+          "file": "inputs/FF3/joint-rank-finite-statement-v1.md",
+          "sha256": "a0f0d3ba6548e02668c869a238ae65518e0040f30d6b34710c648d54e0696ece"
+        },
+        {
+          "file": "inputs/FF3/joint-rank-finite-proof-v1.md",
+          "sha256": "5f18cf6956f045cdaddb3b06ac7f62e768805d6e5746bae6b8b1ca7d8c65e6ab"
+        }
+      ],
+      "limits": "47weights, rational model, no asymptotic table"
+    },
+    {
+      "id": "COMPACT-SELECTOR-v1",
+      "recommendation": "PASS_SCOPED_AND_EXACT_N2",
+      "bindings": [
+        {
+          "file": "inputs/FF3/compact-selector-statement-v1.md",
+          "sha256": "d606b293a7ec544c6e003eec7f4c8b137ee7d3f76f958cdf0793b058f03237ee"
+        },
+        {
+          "file": "inputs/FF3/compact-selector-proof-v1.md",
+          "sha256": "8e84e8aa29c9381b36e153ef0f930a0708ccbcc44324f36d29879624ddaab356"
+        }
+      ],
+      "limits": "Full endpoints separate premises;33weights exact finite model"
+    },
+    {
+      "id": "TWOEVENT-v1",
+      "recommendation": "PASS_MATHEMATICAL_KERNEL",
+      "bindings": [
+        {
+          "file": "inputs/FF3/two-event-noise-kernel-statement-v1.md",
+          "sha256": "ba5c8050af98cce9e7dec3d9c1b9a1806f606f9b59f1ca40e62917aa093e913b"
+        },
+        {
+          "file": "inputs/FF3/two-event-noise-kernel-v1.md",
+          "sha256": "007695f536455299fcf747c5ada7150bbac147b93de2d53cd163b7493f8c9e3b"
+        }
+      ],
+      "limits": "Eventual Gaussian existence; no finite transcendental sampler"
+    },
+    {
+      "id": "SYM-RANK-FV1-FV2",
+      "recommendation": "PASS_EXACT_FINITE_EXCLUSIONS",
+      "evidence": "symmetry-finite-review-v1.md; exact independently rebuilt matrix comparisons",
+      "limits": "Only declared n4 rational-law models; no general impossibility"
+    },
+    {
+      "id": "BOUNDED-AFFINE-TV-v1",
+      "recommendation": "PASS_SCOPED",
+      "evidence": "bounded-affine-full-review-v1.md",
+      "limits": "Common S-independent pair, raw moments, retained S, tails/no-wrap explicit; not general FF impossibility"
+    },
+    {
+      "id": "FF-MAIN",
+      "recommendation": "OPEN",
+      "reason": "No efficient uniform fixed-family reduction or source-hardness foundation supplied"
+    }
+  ]
+}

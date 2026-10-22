@@ -1,0 +1,139 @@
+{
+  "status": "PASS",
+  "ML_exact": [
+    {
+      "K": 1,
+      "conditional_errors": [
+        "1/10",
+        "1/10"
+      ],
+      "affinity_power": "3/5"
+    },
+    {
+      "K": 2,
+      "conditional_errors": [
+        "1/100",
+        "19/100"
+      ],
+      "affinity_power": "9/25"
+    },
+    {
+      "K": 3,
+      "conditional_errors": [
+        "7/250",
+        "7/250"
+      ],
+      "affinity_power": "27/125"
+    },
+    {
+      "K": 4,
+      "conditional_errors": [
+        "37/10000",
+        "523/10000"
+      ],
+      "affinity_power": "81/625"
+    },
+    {
+      "K": 5,
+      "conditional_errors": [
+        "107/12500",
+        "107/12500"
+      ],
+      "affinity_power": "243/3125"
+    },
+    {
+      "K": 6,
+      "conditional_errors": [
+        "127/100000",
+        "317/20000"
+      ],
+      "affinity_power": "729/15625"
+    },
+    {
+      "K": 7,
+      "conditional_errors": [
+        "341/125000",
+        "341/125000"
+      ],
+      "affinity_power": "2187/78125"
+    },
+    {
+      "K": 8,
+      "conditional_errors": [
+        "8633/20000000",
+        "100487/20000000"
+      ],
+      "affinity_power": "6561/390625"
+    },
+    {
+      "K": 9,
+      "conditional_errors": [
+        "22273/25000000",
+        "22273/25000000"
+      ],
+      "affinity_power": "19683/1953125"
+    },
+    {
+      "K": 10,
+      "conditional_errors": [
+        "734513/5000000000",
+        "8174687/5000000000"
+      ],
+      "affinity_power": "59049/9765625"
+    }
+  ],
+  "pair_TVs_exact": [
+    "11/50",
+    "11/50",
+    "11/50",
+    "11/50",
+    "11/50",
+    "11/50"
+  ],
+  "zero_A_posterior": "uniform over all four secrets for every response",
+  "fractional_character_exact_grid": 81,
+  "nong Gaussian_extension_TV": "3/3200000",
+  "secret_advice_atoms": 32,
+  "all_subfields_groups": [
+    {
+      "n": 2,
+      "subgroups": 2
+    },
+    {
+      "n": 4,
+      "subgroups": 5
+    },
+    {
+      "n": 8,
+      "subgroups": 8
+    },
+    {
+      "n": 16,
+      "subgroups": 11
+    },
+    {
+      "n": 32,
+      "subgroups": 14
+    },
+    {
+      "n": 64,
+      "subgroups": 17
+    }
+  ],
+  "ramified_square_equality": {
+    "d_L": 2,
+    "d_m": 4
+  },
+  "CP1": {
+    "normalizer": "10/11",
+    "selected": "21/2000",
+    "later": "21/221"
+  },
+  "theta_diagnostic": {
+    "character": 0.0009290787936662159,
+    "bound": 0.5012371961359698,
+    "cutoff": 54,
+    "unnormalized_tail_log_upper": -457.29378737911486
+  },
+  "limits": "Exact finite laws/group identities do not certify infinite Gaussian laws or asymptotics. Theta arithmetic is binary64 with analytic omitted-mass formula, not interval-certified."
+}

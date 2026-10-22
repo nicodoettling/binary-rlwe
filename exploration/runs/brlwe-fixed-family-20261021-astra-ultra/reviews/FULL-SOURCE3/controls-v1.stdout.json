@@ -1,0 +1,86 @@
+{
+  "status": "PASS",
+  "exact_arithmetic": true,
+  "randomness": "none; exhaustive deterministic ranges",
+  "root_cases": 4482,
+  "root_families": [
+    {
+      "p": 2,
+      "dx": 2,
+      "dy": 2,
+      "cases": 1533
+    },
+    {
+      "p": 2,
+      "dx": 1,
+      "dy": 3,
+      "cases": 765
+    },
+    {
+      "p": 3,
+      "dx": 1,
+      "dy": 2,
+      "cases": 2184
+    }
+  ],
+  "root_max_width": 3,
+  "inseparable_controls": [
+    {
+      "p": 2,
+      "Q": "Y^p-X^p",
+      "roots": [
+        [
+          0,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "p": 3,
+      "Q": "Y^p-X^p",
+      "roots": [
+        [
+          0,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "p": 5,
+      "Q": "Y^p-X^p",
+      "roots": [
+        [
+          0,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "p": 7,
+      "Q": "Y^p-X^p",
+      "roots": [
+        [
+          0,
+          1,
+          0
+        ]
+      ]
+    }
+  ],
+  "fourier_basis_cases": 394,
+  "arbitrary_support_gap_cases": 270,
+  "odd_dense_contractions": 49,
+  "explicit_list_regime_cases": 1013,
+  "CP1_negative_control": {
+    "first_posterior_A": "21/2000",
+    "first_posterior_C": "1/20",
+    "joint_hit": "21/2000",
+    "claimed_product": "1/100",
+    "second_conditional": "21/221"
+  },
+  "wall_seconds_internal": 0.25975546590052545,
+  "limits": "Finite algebra controls only; no asymptotic theorem or source-hardness certification."
+}

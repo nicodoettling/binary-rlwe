@@ -1,0 +1,19 @@
+{
+  "id": "FULL-FF3-SECONDARY-v1",
+  "registered_at": "2026-10-21T19:55:12.630251+00:00",
+  "code_sha256": "dcfd05df5ccb2eebc9b97d786c67f1944a7fbe9f3f8942ada6f4fa701dcc18aa",
+  "hypotheses": [
+    "Exact FV6 n2/n4 full endpoint tensor reconstruction from original A,B laws",
+    "All 36 radial seven-column bases give exactly four claimed vertices",
+    "Systematic finite two-event full-law audit including invalid sign cases and rejection cap"
+  ],
+  "inputs": "Frozen phase1 FV6 numerator witnesses and radial vertices; exact input inventory input-freeze-v1.json",
+  "seeds": null,
+  "precision": "exact stdlib integer/Fraction; no numerical Gaussian or solver",
+  "tails": "none; infinite Gaussian estimates reviewed analytically",
+  "timeout_seconds": 120,
+  "address_space_bytes": 536870912,
+  "estimated_seconds": 30,
+  "estimated_peak_MiB": 70,
+  "status": "REGISTERED_NOT_RUN_SLOT_PENDING"
+}

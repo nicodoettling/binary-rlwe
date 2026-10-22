@@ -1,0 +1,223 @@
+{
+  "at": "2026-10-21T22:45:21.327665+00:00",
+  "checkpoints": [
+    {
+      "path": "coordinator/checkpoints/001-ten-minute.json",
+      "at": "2026-10-21T17:58:47.197644+00:00",
+      "scheduled_at": "2026-10-21T17:58:10.636448+00:00",
+      "lateness_seconds": 36.561196
+    },
+    {
+      "path": "coordinator/checkpoints/002-twenty-minute.json",
+      "at": "2026-10-21T18:09:16.102483+00:00",
+      "scheduled_at": "2026-10-21T18:08:10.636448+00:00",
+      "lateness_seconds": 65.466035
+    },
+    {
+      "path": "coordinator/checkpoints/003-thirty-minute.json",
+      "at": "2026-10-21T18:18:54.335546+00:00",
+      "scheduled_at": "2026-10-21T18:18:10.636448+00:00",
+      "lateness_seconds": 43.699098
+    },
+    {
+      "path": "coordinator/checkpoints/004-forty-minute.json",
+      "at": "2026-10-21T18:29:36.797177+00:00",
+      "scheduled_at": "2026-10-21T18:28:10.636448+00:00",
+      "lateness_seconds": 86.160729
+    },
+    {
+      "path": "coordinator/checkpoints/005-fifty-minute.json",
+      "at": "2026-10-21T18:38:49.058283+00:00",
+      "scheduled_at": "2026-10-21T18:38:10.636448+00:00",
+      "lateness_seconds": 38.421835
+    },
+    {
+      "path": "coordinator/checkpoints/006-sixty-minute.json",
+      "at": "2026-10-21T18:49:25.288755+00:00",
+      "scheduled_at": "2026-10-21T18:48:10.636448+00:00",
+      "lateness_seconds": 74.652307
+    },
+    {
+      "path": "coordinator/checkpoints/007-seventy-minute.json",
+      "at": "2026-10-21T18:59:07.245416+00:00",
+      "scheduled_at": "2026-10-21T18:58:10.636448+00:00",
+      "lateness_seconds": 56.608968
+    },
+    {
+      "path": "coordinator/checkpoints/008-eighty-minute.json",
+      "at": "2026-10-21T19:08:48.581228+00:00",
+      "scheduled_at": "2026-10-21T19:08:10.636448+00:00",
+      "lateness_seconds": 37.94478
+    },
+    {
+      "path": "coordinator/checkpoints/009-ninety-minute.json",
+      "at": "2026-10-21T19:18:50.761976+00:00",
+      "scheduled_at": "2026-10-21T19:18:10.636448+00:00",
+      "lateness_seconds": 40.125528
+    },
+    {
+      "path": "coordinator/checkpoints/010-one-hundred-minute.json",
+      "at": "2026-10-21T19:28:48.450130+00:00",
+      "scheduled_at": "2026-10-21T19:28:10.636448+00:00",
+      "lateness_seconds": 37.813682
+    },
+    {
+      "path": "coordinator/checkpoints/011-one-hundred-ten-minute.json",
+      "at": "2026-10-21T19:38:35.716246+00:00",
+      "scheduled_at": "2026-10-21T19:38:10.636448+00:00",
+      "lateness_seconds": 25.079798
+    },
+    {
+      "path": "coordinator/checkpoints/012-one-hundred-twenty-minute.json",
+      "at": "2026-10-21T19:49:26.058222+00:00",
+      "scheduled_at": "2026-10-21T19:48:10.636448+00:00",
+      "lateness_seconds": 75.421774
+    },
+    {
+      "path": "coordinator/checkpoints/013-one-hundred-thirty-minute.json",
+      "at": "2026-10-21T20:00:40.932187+00:00",
+      "scheduled_at": "2026-10-21T19:58:10.636448+00:00",
+      "lateness_seconds": 150.295739
+    },
+    {
+      "path": "coordinator/checkpoints/014-one-hundred-forty-minute.json",
+      "at": "2026-10-21T20:10:07.482658+00:00",
+      "scheduled_at": "2026-10-21T20:08:10.636448+00:00",
+      "lateness_seconds": 116.84621
+    },
+    {
+      "path": "coordinator/checkpoints/015-one-hundred-fifty-minute.json",
+      "at": "2026-10-21T20:19:42.431138+00:00",
+      "scheduled_at": "2026-10-21T20:18:10.636448+00:00",
+      "lateness_seconds": 91.79469
+    },
+    {
+      "path": "coordinator/checkpoints/016-one-hundred-sixty-minute.json",
+      "at": "2026-10-21T20:29:46.161643+00:00",
+      "scheduled_at": "2026-10-21T20:28:10.636448+00:00",
+      "lateness_seconds": 95.525195
+    },
+    {
+      "path": "coordinator/checkpoints/017-one-hundred-seventy-minute.json",
+      "at": "2026-10-21T20:40:57.078499+00:00",
+      "scheduled_at": "2026-10-21T20:38:10.636448+00:00",
+      "lateness_seconds": 166.442051
+    },
+    {
+      "path": "coordinator/checkpoints/018-one-hundred-eighty-minute.json",
+      "at": "2026-10-21T20:48:42.650325+00:00",
+      "scheduled_at": "2026-10-21T20:48:10.636448+00:00",
+      "lateness_seconds": 32.013877
+    },
+    {
+      "path": "coordinator/checkpoints/019-one-hundred-ninety-minute.json",
+      "at": "2026-10-21T21:02:22.163276+00:00",
+      "scheduled_at": "2026-10-21T20:58:10.636448+00:00",
+      "lateness_seconds": 251.526828
+    },
+    {
+      "path": "coordinator/checkpoints/020-two-hundred-minute.json",
+      "at": "2026-10-21T21:10:23.964885+00:00",
+      "scheduled_at": "2026-10-21T21:08:10.636448+00:00",
+      "lateness_seconds": 133.328437
+    },
+    {
+      "path": "coordinator/checkpoints/021-protected-period-end.json",
+      "at": "2026-10-21T21:18:45.061895+00:00",
+      "scheduled_at": "2026-10-21T21:18:10.636448+00:00",
+      "lateness_seconds": 34.425447
+    },
+    {
+      "path": "coordinator/checkpoints/022-two-hundred-twenty-minute.json",
+      "at": "2026-10-21T21:28:47.917463+00:00",
+      "scheduled_at": "2026-10-21T21:28:10.636448+00:00",
+      "lateness_seconds": 37.281015
+    },
+    {
+      "path": "coordinator/checkpoints/023-two-hundred-thirty-minute.json",
+      "at": "2026-10-21T21:38:08.667207+00:00",
+      "scheduled_at": "2026-10-21T21:38:10.636448+00:00",
+      "lateness_seconds": -1.969241
+    },
+    {
+      "path": "coordinator/checkpoints/024-two-hundred-forty-minute.json",
+      "at": "2026-10-21T21:48:00.388041+00:00",
+      "scheduled_at": "2026-10-21T21:48:10.636448+00:00",
+      "lateness_seconds": -10.248407
+    },
+    {
+      "path": "coordinator/checkpoints/025-two-hundred-fifty-minute.json",
+      "at": "2026-10-21T21:58:22.473661+00:00",
+      "scheduled_at": "2026-10-21T21:58:10.636448+00:00",
+      "lateness_seconds": 11.837213
+    },
+    {
+      "path": "coordinator/checkpoints/026-closeout-260-minute.json",
+      "at": "2026-10-21T22:08:01.015484+00:00",
+      "scheduled_at": "2026-10-21T22:08:10.636448+00:00",
+      "lateness_seconds": -9.620964
+    },
+    {
+      "path": "coordinator/checkpoints/027-consolidation-270-minute.json",
+      "at": "2026-10-21T22:18:35.999990+00:00",
+      "scheduled_at": "2026-10-21T22:18:10.636448+00:00",
+      "lateness_seconds": 25.363542
+    },
+    {
+      "path": "coordinator/checkpoints/028-closeout-280-minute.json",
+      "at": "2026-10-21T22:28:13.316653+00:00",
+      "scheduled_at": "2026-10-21T22:28:10.636448+00:00",
+      "lateness_seconds": 2.680205
+    },
+    {
+      "path": "coordinator/checkpoints/029-closeout-290-minute.json",
+      "at": "2026-10-21T22:38:11.055282+00:00",
+      "scheduled_at": "2026-10-21T22:38:10.636448+00:00",
+      "lateness_seconds": 0.418834
+    },
+    {
+      "path": "coordinator/checkpoints/030-closeout-295-minute.json",
+      "at": "2026-10-21T22:43:04.538475+00:00",
+      "scheduled_at": "2026-10-21T22:43:10.636448+00:00",
+      "lateness_seconds": -6.097973
+    }
+  ],
+  "maximum_lateness": {
+    "path": "coordinator/checkpoints/019-one-hundred-ninety-minute.json",
+    "at": "2026-10-21T21:02:22.163276+00:00",
+    "scheduled_at": "2026-10-21T20:58:10.636448+00:00",
+    "lateness_seconds": 251.526828
+  },
+  "maximum_interval": {
+    "from": "coordinator/checkpoints/018-one-hundred-eighty-minute.json",
+    "to": "coordinator/checkpoints/019-one-hundred-ninety-minute.json",
+    "seconds": 819.512951
+  },
+  "early_records": [
+    {
+      "path": "coordinator/checkpoints/023-two-hundred-thirty-minute.json",
+      "at": "2026-10-21T21:38:08.667207+00:00",
+      "scheduled_at": "2026-10-21T21:38:10.636448+00:00",
+      "lateness_seconds": -1.969241
+    },
+    {
+      "path": "coordinator/checkpoints/024-two-hundred-forty-minute.json",
+      "at": "2026-10-21T21:48:00.388041+00:00",
+      "scheduled_at": "2026-10-21T21:48:10.636448+00:00",
+      "lateness_seconds": -10.248407
+    },
+    {
+      "path": "coordinator/checkpoints/026-closeout-260-minute.json",
+      "at": "2026-10-21T22:08:01.015484+00:00",
+      "scheduled_at": "2026-10-21T22:08:10.636448+00:00",
+      "lateness_seconds": -9.620964
+    },
+    {
+      "path": "coordinator/checkpoints/030-closeout-295-minute.json",
+      "at": "2026-10-21T22:43:04.538475+00:00",
+      "scheduled_at": "2026-10-21T22:43:10.636448+00:00",
+      "lateness_seconds": -6.097973
+    }
+  ],
+  "qualification": "Actual timestamps preserved. Ten-minute target was not met exactly at all intervals; final checkpoint is scheduled at295 minutes, five minutes after290."
+}

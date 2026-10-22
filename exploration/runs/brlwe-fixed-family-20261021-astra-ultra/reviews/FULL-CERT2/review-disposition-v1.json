@@ -1,0 +1,43 @@
+{
+  "review": "FULL-CERT2",
+  "type": "nonauthor FULL, not blind",
+  "claims": [
+    {
+      "claim": "CERT-EXTRACT-v2",
+      "verdict": "PASS_EXACT_AUXILIARY_SCOPE",
+      "files": {
+        "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/certificate-extraction-statement-v2.md": "1a82181c03be7aaf09ef1ec7103828471c20be27a68ef182055c0f45a93353ab",
+        "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/certificate-extraction-proof-v2.md": "90b9a4b7c50984e89757dc52e360170a8aa6ea098e20eb02c32ab0b3eac197e4"
+      },
+      "blocking_defects": [],
+      "remaining_acceptance_steps": [
+        "fresh blind review",
+        "coordinator reconciliation"
+      ]
+    },
+    {
+      "claim": "CRT-PROJ-v1",
+      "verdict": "PASS_EXACT_AUXILIARY_SCOPE",
+      "files": {
+        "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/crt-projection-statement-v1.md": "0327d8958b5449e6ce192991594edf4ef03c0949f2e0d4fde4fb5243b46e1aca",
+        "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/crt-projection-proof-v1.md": "1c100c8f3e83f2d358140d41e5c84008c65fc8e170ad496f089ee158b0a9b15b"
+      },
+      "blocking_defects": [],
+      "remaining_acceptance_steps": [
+        "fresh blind review",
+        "coordinator reconciliation"
+      ]
+    }
+  ],
+  "prior_v1": "finite-model rejection retained; not retroactively accepted",
+  "main_FF": "OPEN source-bridge/completion obligations",
+  "source_hardness": "NOT_ESTABLISHED",
+  "efficient_certificate_inversion": "NOT_CLAIMED",
+  "review_independence": "same-model correlated scrutiny; prior exploratory discussion and later prior-report exposure disclosed",
+  "probability_audit": "all9 steps reconstructed; no CP-1 marginal product",
+  "regressions": {
+    "retained": 203,
+    "explicit_scope_checks": 104
+  },
+  "experiment": "FULL-CERT2-FV1 exit0,1.67s,50176KiB; no job running"
+}

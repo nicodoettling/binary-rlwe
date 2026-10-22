@@ -1,0 +1,15 @@
+{
+  "job": "BLIND-FF2-FINITE-v1",
+  "completed_utc": "2026-10-21T18:52:35.967654+00:00",
+  "slot_grant": "Fresh light slot granted for ONLY BLIND-FF2-FINITE-v1 at registered120s wall/115sCPU/512MiB, one process. Root and FULL-SV2 have no running jobs reported. Return full execution/exit/resource receipt and release on completion; no follow-on without a fresh grant.",
+  "execution": "/usr/bin/time -v -o finite-models-v1.resources.txt timeout 120s python3 finite-models-v1.py > finite-models-v1.stdout.jsonl",
+  "exit_code": 0,
+  "tool_wall_seconds": 0.522215347,
+  "files": {
+    "finite-models-v1.py": "30f843f680e8826c60c4f9bb03b84bdfae84203e1d152cd1fbaffcf6e36bec38",
+    "finite-models-v1.preregistration.json": "d1942ed31d545d6da665de519fa083a0afe161f130a1ce39d1d8c57957de31b4",
+    "finite-models-v1.stdout.jsonl": "46795d46f1df59ea5ffb27b9711e230559c8d332534314ea0d4ac91b68e40225",
+    "finite-models-v1.resources.txt": "0ed80b9748f41d0d90e17f5d862e024a27fb30677cba66d59cb78621331f983b"
+  },
+  "status": "COMPLETED; experiment slot released; no follow-on run authorized."
+}

@@ -1,0 +1,34 @@
+{
+  "status": "all asserted exact checks passed",
+  "input_hashes": {
+    "radial-kernel-tables.json": "573e8ef817299486670f9ed9b61d7611387b882f21de93cc1f64ba39d7dad81c",
+    "compact-selector-table.json": "59acd26442278a2a0191953888256f3cbb546e46212273d82190e06570c5040a"
+  },
+  "source_inputs": 81,
+  "target_outputs": 16,
+  "binary_secrets": 4,
+  "cube_edges": 4,
+  "radial_endpoint_and_row_equalities": 68,
+  "selector_nonzeros": 33,
+  "normalization_equalities": 81,
+  "independent_inversion_entry_equalities": 1296,
+  "full_endpoint_equalities": 80,
+  "maximum_G": "31747846170836756094431065767102005668874369915000841877198843/11688058834193179864192788149647847121368047468795377899320297",
+  "maximum_G_classes": [
+    [
+      0,
+      0,
+      0
+    ]
+  ],
+  "capped_row_cases": 567,
+  "shared_vs_fresh_secret_batch_TV": "15/256",
+  "rank_size_cases": 1024,
+  "rank_input_pairs": 278784,
+  "DP_models": 24,
+  "DP_rank_unrank_vectors": 994,
+  "CP1_selected_probability": "21/2000",
+  "CP1_invalid_product_bound": "1/100",
+  "TWOEVENT_finite_rational_cases": 91,
+  "seeds": "none; deterministic exhaustive enumeration"
+}

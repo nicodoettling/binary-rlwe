@@ -1,0 +1,490 @@
+{
+  "at": "2026-10-21T21:56:11.821124+00:00",
+  "scope": "Exact local dependency index, not a proof certificate. DENSE optional arbitrary-subfield conclusion uses ALL-SUBFIELDS; generic RS has its own direct proof. ENUM dependency for selector is only its Gaussian lower-bound corollary. ENERGY TWOEVENT dependency is conditional instantiation, not bare rank transport.",
+  "nodes": [
+    {
+      "id": "CRT-PROJ-v1",
+      "status": "ACCEPTED-EXACT-AUXILIARY-SCOPE",
+      "statement": "coordinator/crt-projection-statement-v1.md",
+      "statement_sha256": "0327d8958b5449e6ce192991594edf4ef03c0949f2e0d4fde4fb5243b46e1aca",
+      "proof": "coordinator/crt-projection-proof-v1.md",
+      "proof_sha256": "1c100c8f3e83f2d358140d41e5c84008c65fc8e170ad496f089ee158b0a9b15b",
+      "acceptance": "FULL-FF1, fresh FULL-CERT2, and fresh statement-only BLIND-FF2; coordinator acceptance-v2.json",
+      "scope": null,
+      "external_or_historical_dependencies": []
+    },
+    {
+      "id": "CERT-EXTRACT-v2",
+      "status": "ACCEPTED-EXACT-AUXILIARY-SCOPE",
+      "statement": "coordinator/certificate-extraction-statement-v2.md",
+      "statement_sha256": "1a82181c03be7aaf09ef1ec7103828471c20be27a68ef182055c0f45a93353ab",
+      "proof": "coordinator/certificate-extraction-proof-v2.md",
+      "proof_sha256": "90b9a4b7c50984e89757dc52e360170a8aa6ea098e20eb02c32ab0b3eac197e4",
+      "acceptance": "FULL-FF1, fresh FULL-CERT2, and fresh statement-only BLIND-FF2; coordinator acceptance-v2.json",
+      "scope": null,
+      "external_or_historical_dependencies": [
+        "CRT-PROJ-v1",
+        "DD1 exact CRT identity; newly proved adaptive extension"
+      ]
+    },
+    {
+      "id": "SV-BDD-CLASS-v1",
+      "status": "ACCEPTED-EXACT-SCOPE",
+      "statement": "workers/SV/source-classification-theorem-v1.md",
+      "statement_sha256": "1b72f95055b9c5a8953c46ee778ade4d57a55d5a61c4a1ce29003c049f59a5a3",
+      "proof": "workers/SV/source-classification-proof-v1.md",
+      "proof_sha256": "5c208872ddd99f74294dc60dbcd1a952470b5d09956d576c7346e2f52eca0d5f",
+      "acceptance": "FULL-SV1 + fresh statement-only BLIND-SV1; reconciled exact bytes at coordinator/acceptance-v1.json",
+      "scope": null,
+      "external_or_historical_dependencies": [
+        "FIXED-MAIN-v2 actual radius; inherited exact acceptance"
+      ]
+    },
+    {
+      "id": "SV-FROB-PRIME-v1",
+      "status": "ACCEPTED-EXACT-SCOPE",
+      "statement": "workers/SV/frobenius-prime-theorem-v1.md",
+      "statement_sha256": "17315abf7b50bbb758a3e0e5c580d159895a1e238ad3b01b88e77a08e8e28d3e",
+      "proof": "workers/SV/frobenius-prime-proof-v1.md",
+      "proof_sha256": "8ed560e6c7a58a77d3eb03fbb622afac7347a77bcb9c47188ee141d269ed7546",
+      "acceptance": "FULL-SV1 + fresh statement-only BLIND-SV1; reconciled exact bytes at coordinator/acceptance-v1.json",
+      "scope": null,
+      "external_or_historical_dependencies": [
+        "SV-BDD-CLASS-v1"
+      ]
+    },
+    {
+      "id": "SV-SYMDESC-v2",
+      "status": "ACCEPTED-EXACT-SCOPE",
+      "statement": "coordinator/symmetry-descent-statement-v2.md",
+      "statement_sha256": "087405376d31699635e87d954eaaa9305da4635b61f2b572205ba89db533cddf",
+      "proof": "coordinator/symmetry-descent-proof-v2.md",
+      "proof_sha256": "4a8e0b32f33c7121517108e9e1b63ff3eb9d2a50f0afea1e5c70c4e0eaa5df2a",
+      "acceptance": "Fresh FULL-SV2 plus fresh statement-only BLIND-SV2, reconciled acceptance-v3.json",
+      "scope": null,
+      "external_or_historical_dependencies": []
+    },
+    {
+      "id": "SV-SUBFIELD-v2",
+      "status": "ACCEPTED-EXACT-SCOPE",
+      "statement": "coordinator/subfield-contraction-statement-v2.md",
+      "statement_sha256": "9157018baf8fa6d4e6fc3f3e889f3ba6fd07ce206175be4f37508553593c2bae",
+      "proof": "coordinator/subfield-contraction-proof-v2.md",
+      "proof_sha256": "bd394211a85a33ed1566aba5232300db46bc24462777186d8c7f38a24967d9d8",
+      "acceptance": "Fresh FULL-SV2 plus fresh statement-only BLIND-SV2, reconciled acceptance-v3.json",
+      "scope": null,
+      "external_or_historical_dependencies": []
+    },
+    {
+      "id": "SV-PRIME-SUPPORT-v2",
+      "status": "ACCEPTED-EXACT-DIAGNOSTIC-SCOPE",
+      "statement": "coordinator/source-prime-support-statement-v2.md",
+      "statement_sha256": "1176e7484ba806a92ea18d95e22375938f210d38fe1268fe9f178e280d76374d",
+      "proof": "coordinator/source-prime-support-proof-v2.md",
+      "proof_sha256": "3e2e62f75c75766c90de436e8387cb3331f8c2b4a9dc0a14b7fc1f8862ff3cfe",
+      "acceptance": "coordinator/acceptance-v4.json",
+      "scope": null,
+      "external_or_historical_dependencies": [
+        "SV-SUBFIELD-v2",
+        "effective Linnik construction"
+      ]
+    },
+    {
+      "id": "SV-ALL-SUBFIELDS-v1",
+      "status": "ACCEPTED-EXACT-DIAGNOSTIC-SCOPE",
+      "statement": "coordinator/all-subfields-comparison-statement-v1.md",
+      "statement_sha256": "e4bc6f736371b22a5bcb966a065b36f32b16966acdc1958e5ed56de9176d2ea0",
+      "proof": "coordinator/all-subfields-comparison-proof-v1.md",
+      "proof_sha256": "665ed6fc53b8ea17207603bbee9560e330e397b1b922cc244f8c98fecff151d1",
+      "acceptance": "coordinator/acceptance-v4.json",
+      "scope": "All-subfield feasible contraction minimum differs from standard-chain minimum by at most square; no general algorithmic impossibility",
+      "external_or_historical_dependencies": [
+        "SV-SYMDESC-v2 signed invariant basis and exact normal forms"
+      ]
+    },
+    {
+      "id": "SV-DENSE-SPLIT-v1",
+      "status": "ACCEPTED-EXACT-SOURCE-CLASSIFICATION-SCOPE",
+      "statement": "coordinator/dense-split-source-statement-v1.md",
+      "statement_sha256": "10d8282bae4ed3ef96eda1d304f4538935b9308b7cb23e2b651672fc9dbae102",
+      "proof": "coordinator/dense-split-source-proof-v1.md",
+      "proof_sha256": "ddc8225562237ed46751f9326db1a2a51de5646eb6550be74e20b5c8552a1535",
+      "acceptance": "coordinator/acceptance-v5.json",
+      "scope": "Explicit failure of polynomial-contraction criterion, not source hardness",
+      "external_or_historical_dependencies": [
+        "effective split-prime construction",
+        "optional SV-ALL-SUBFIELDS-v1"
+      ]
+    },
+    {
+      "id": "SV-RS-DECODE-v2",
+      "status": "ACCEPTED-EXACT-SOURCE-CLASSIFICATION-SCOPE",
+      "statement": "coordinator/rs-source-decoder-statement-v2.md",
+      "statement_sha256": "e50c4bf45d59fa6f80924efa778761b85ce1b86ccee4d8dac7f4551e34396639",
+      "proof": "coordinator/rs-source-decoder-proof-v2.md",
+      "proof_sha256": "008977a31b0a9a393ca4d635dc3b945d5309f1c216f80211f0fd4a61c7291698",
+      "acceptance": "coordinator/acceptance-v5.json",
+      "scope": null,
+      "external_or_historical_dependencies": []
+    },
+    {
+      "id": "SV-GAP-DECODE-v1",
+      "status": "ACCEPTED-EXACT-SOURCE-CLASSIFICATION-SCOPE",
+      "statement": "coordinator/spectral-gap-decoder-statement-v1.md",
+      "statement_sha256": "00921998d7781d3f8d5df8954cb4a919f3fa60524d1d64530913113d3cfdec9a",
+      "proof": "coordinator/spectral-gap-decoder-proof-v1.md",
+      "proof_sha256": "7e7a55eed374c5e75f7cc27006bf87ddd64d68f54e51ed97ea17590bf3546ee8",
+      "acceptance": "coordinator/acceptance-v5.json",
+      "scope": null,
+      "external_or_historical_dependencies": [
+        "SV-RS-DECODE-v2"
+      ]
+    },
+    {
+      "id": "SV-LIST-DECODE-v1",
+      "status": "ACCEPTED-EXACT-SOURCE-CLASSIFICATION-SCOPE",
+      "statement": "coordinator/list-source-decoder-statement-v1.md",
+      "statement_sha256": "e9c47f9fd5645b3d70868d4c36027ce94ebd86b1ca1c40164b7c32a0fc52710b",
+      "proof": "coordinator/list-source-decoder-proof-v1.md",
+      "proof_sha256": "50a5b5d86176ce64416d5603ee559d3e610decf636523a03c0cc04d5fcd6ea2f",
+      "acceptance": "coordinator/acceptance-v5.json",
+      "scope": null,
+      "external_or_historical_dependencies": [
+        "SV-RS-DECODE-v2",
+        "new polynomial coefficient recursion",
+        "exact lattice uniqueness guard"
+      ]
+    },
+    {
+      "id": "SV-RS-ACTUAL-v3",
+      "status": "ACCEPTED-EXACT-SOURCE-CLASSIFICATION-SCOPE",
+      "statement": "coordinator/rs-actual-radius-witness-statement-v3.md",
+      "statement_sha256": "6e721a1eff0c5390c44f9984ae0b930bdfb5657c769199707fd2afb6dab9eccc",
+      "proof": "coordinator/rs-actual-radius-witness-proof-v3.md",
+      "proof_sha256": "49ebed1855cf5cb1851f8acf0ef3351c93bc3cf7a239b62310427d9fa0244f21",
+      "acceptance": "coordinator/acceptance-v5.json",
+      "scope": null,
+      "external_or_historical_dependencies": [
+        "SV-DENSE-SPLIT-v1",
+        "SV-RS-DECODE-v2 generic-r decoder",
+        "inherited FIXED-MAIN-v2 radius and charged chi freedom"
+      ]
+    },
+    {
+      "id": "SV-RS-BIT-v2",
+      "status": "ACCEPTED-EXACT-SOURCE-CLASSIFICATION-SCOPE",
+      "statement": "coordinator/rs-bit-complexity-statement-v2.md",
+      "statement_sha256": "fd27a2ceb2766c24c37616273158f1a2899de63a518af804fd047ccb4b43f89c",
+      "proof": "coordinator/rs-bit-complexity-proof-v2.md",
+      "proof_sha256": "ab1b0cd2d912bd75d9177b1975d088c1d4c2cd99c2353544120704a459d80ab8",
+      "acceptance": "coordinator/acceptance-v5.json",
+      "scope": null,
+      "external_or_historical_dependencies": [
+        "SV-RS-DECODE-v2",
+        "SV-GAP-DECODE-v1"
+      ]
+    },
+    {
+      "id": "SV-SPARSE-ACQ-v1",
+      "status": "ACCEPTED-EXACT-SOURCE-CLASSIFICATION-SCOPE",
+      "statement": "coordinator/sparse-acquisition-statement-v1.md",
+      "statement_sha256": "c3c1078b33309f7b3d9061fbdad1114c3178dea28e64c7e8849a947ad5d97d84",
+      "proof": "coordinator/sparse-acquisition-proof-v1.md",
+      "proof_sha256": "985e843a98a4413dd7cebf3a98042aedd2b971d241eeb210bd22401b43e952f3",
+      "acceptance": "coordinator/acceptance-v5.json",
+      "scope": null,
+      "external_or_historical_dependencies": [
+        "SV-BDD-CLASS-v1"
+      ]
+    },
+    {
+      "id": "GAUSS-AVG-v1",
+      "status": "ACCEPTED-EXACT-DIAGNOSTIC-SCOPE",
+      "statement": "coordinator/gaussian-average-obstruction-statement-v1.md",
+      "statement_sha256": "7b3f0d3c6367dcf354d2fbfcff42c3c19cb668d34baf0393094f37f8031752cd",
+      "proof": "coordinator/gaussian-average-obstruction-proof-v1.md",
+      "proof_sha256": "afd286d46e5095fafc75fba79881e6eecdc0d9c24cadf5b5e0130efbef931d93",
+      "acceptance": "coordinator/acceptance-v4.json",
+      "scope": "Retained-secret continuous jointly Gaussian secret-independent affine correction only; no discrete-kernel or sample-only impossibility",
+      "external_or_historical_dependencies": [
+        "FF1 covariance-face idea; new quantitative Gaussian argument"
+      ]
+    },
+    {
+      "id": "FRAC-INFO-v1",
+      "status": "ACCEPTED-EXACT-DIAGNOSTIC-SCOPE",
+      "statement": "coordinator/fractional-information-statement-v1.md",
+      "statement_sha256": "94f562284bf0f7b9117be57261e0c19deb76dcdff7bd317f7a722203f604b8bd",
+      "proof": "coordinator/fractional-information-proof-v1.md",
+      "proof_sha256": "e1ec235c7bf9b3f7d58d25786a3bcece4bb62b0430b7c6da4296a26255d7c5c8",
+      "acceptance": "coordinator/acceptance-v4.json",
+      "scope": "Information-theoretic fixed-noise fractional-source recovery; no efficient attack and no FF impossibility",
+      "external_or_historical_dependencies": [
+        "Poisson summation with all normalizers; iid conditional on fixed S; finite affinity inequality"
+      ]
+    },
+    {
+      "id": "WEIGHT-COV-v1",
+      "status": "ACCEPTED-EXACT-DIAGNOSTIC-SCOPE",
+      "statement": "coordinator/weight-covariance-statement-v1.md",
+      "statement_sha256": "af37700170161bd8593c5573c192f3b24b113eb5a518db08f35d69a0d678b234",
+      "proof": "coordinator/weight-covariance-proof-v1.md",
+      "proof_sha256": "88617f5c420181734206414ed3fd30bdcdf5ba84dee2575699ba406e029ad7a3",
+      "acceptance": "coordinator/acceptance-v4.json",
+      "scope": "Exact finite-second-moment affine correction conditioned on Hamming weight only; not nonlinear, approximate, or hidden-secret marginal impossibility",
+      "external_or_historical_dependencies": []
+    },
+    {
+      "id": "WEIGHT-GAUSS-v1",
+      "status": "ACCEPTED-EXACT-DIAGNOSTIC-SCOPE",
+      "statement": "coordinator/weight-gaussian-statement-v1.md",
+      "statement_sha256": "c8bb8ed7fbc2f4c0be3ffed21e8a5e4d83d07b02e7d2d1bfc8569b095006406f",
+      "proof": "coordinator/weight-gaussian-proof-v1.md",
+      "proof_sha256": "bd2a0689f44b4a39541738e0d55016d46d3cd7fdf2ba7601645c6f7044c98bd8",
+      "acceptance": "coordinator/acceptance-v4.json",
+      "scope": "Retained-secret continuous Gaussian lower bound with Hamming-weight advice; no nonlinear/hidden-secret/general-tail inference",
+      "external_or_historical_dependencies": [
+        "WEIGHT-COV-v1 four-face identity",
+        "GAUSS-AVG-v1 one-dimensional Gaussian characteristic test"
+      ]
+    },
+    {
+      "id": "FF3-TWOSECRET-v1",
+      "status": "ACCEPTED-EXACT-AUXILIARY-SCOPE",
+      "statement": "workers/FF3/two-secret-channel-statement-v1.md",
+      "statement_sha256": "7cceb1801d9ebf2d6a23c5636266c74326b54a4e8b7499ecd13262aec25a66a8",
+      "proof": "workers/FF3/two-secret-channel-proof-v1.md",
+      "proof_sha256": "9b4f40bef2fb5aa3b843e908577d4656f1c7bd1149b8f4a6c151f2b1046277ed",
+      "acceptance": "coordinator/acceptance-v6.json",
+      "scope": "Exact normalized finite-ring channel for two secret labels only; no full binary cube extension",
+      "external_or_historical_dependencies": []
+    },
+    {
+      "id": "FF3-TWOEVENT-v1",
+      "status": "ACCEPTED-EXACT-AUXILIARY-SCOPE",
+      "statement": "workers/FF3/two-event-noise-kernel-statement-v1.md",
+      "statement_sha256": "ba5c8050af98cce9e7dec3d9c1b9a1806f606f9b59f1ca40e62917aa093e913b",
+      "proof": "workers/FF3/two-event-noise-kernel-v1.md",
+      "proof_sha256": "007695f536455299fcf747c5ada7150bbac147b93de2d53cd163b7493f8c9e3b",
+      "acceptance": "coordinator/acceptance-v6.json",
+      "scope": null,
+      "external_or_historical_dependencies": []
+    },
+    {
+      "id": "FF3-ENUM-v1",
+      "status": "ACCEPTED-EXACT-AUXILIARY-SCOPE",
+      "statement": "workers/FF3/exhaustive-kernel-statement-v1.md",
+      "statement_sha256": "b6c3a787dfe567fc6fb1fecfb2714d0a138d92287523382661c4f6946f7d37ed",
+      "proof": "workers/FF3/exhaustive-kernel-proof-v2.md",
+      "proof_sha256": "7e5be386181b4bd2c20319fc7f2f74f9b9b07b55ec291529a985092507047087",
+      "acceptance": "coordinator/acceptance-v6.json",
+      "scope": "Full binary-secret normalized statistical transfer with explicit exponential enumeration; no efficient kernel",
+      "external_or_historical_dependencies": []
+    },
+    {
+      "id": "FF3-COMPRESSED-SELECTOR-INFORMATION-v2",
+      "status": "ACCEPTED-EXACT-AUXILIARY-SCOPE",
+      "statement": "coordinator/compressed-selector-information-statement-v2.md",
+      "statement_sha256": "8abf13ef4d35625ae82a6ffb44a7feb76d06700ada6a553a4a3ebd25a3e89d70",
+      "proof": "coordinator/compressed-selector-information-proof-v2.md",
+      "proof_sha256": "51d0824a7e767c555cb0e156adaaf9922c01728462b2ef0c7e0f96f273dc7f8f",
+      "acceptance": "coordinator/acceptance-v6.json",
+      "scope": null,
+      "external_or_historical_dependencies": [
+        "FF3-ENUM-v1"
+      ]
+    },
+    {
+      "id": "FF3-SELECTOR-PUBLIC-v3",
+      "status": "ACCEPTED-EXACT-AUXILIARY-SCOPE",
+      "statement": "coordinator/selector-public-statement-v3.md",
+      "statement_sha256": "1c51d957ea4214c50f47c2c013e9472a6b2627507a36589fc477c5b9e768c2ac",
+      "proof": "coordinator/selector-public-proof-v3.md",
+      "proof_sha256": "1010635301ddbad3005a92b2e04dc6ee5b78b3f1baeea6a971d7a2439406c9b5",
+      "acceptance": "coordinator/acceptance-v6.json",
+      "scope": null,
+      "external_or_historical_dependencies": [
+        "FF3-COMPRESSED-SELECTOR-INFORMATION-v2"
+      ]
+    },
+    {
+      "id": "FF3-ENERGY-RANK-v2",
+      "status": "ACCEPTED-EXACT-CONDITIONAL-KERNEL-SCOPE",
+      "statement": "coordinator/energy-rank-kernel-statement-v2.md",
+      "statement_sha256": "ab8e55aa2930d04d3d24529abf5e4f6f5ebee5e25507830a6bff0ba792101355",
+      "proof": "coordinator/energy-rank-kernel-proof-v2.md",
+      "proof_sha256": "3972798c783f0ba0116e72b1b393e0ca90b59afd9e6805413cbc3e29b3e8db9d",
+      "acceptance": "coordinator/acceptance-v7.json",
+      "scope": "Given-h shell-constant rank theorem; pair requires JOINT shell-uniform law; numeric alphabets, expected rational sampling, exact finite Gaussian/truncation law. TWOEVENT conditional construction imports every premise.",
+      "external_or_historical_dependencies": []
+    },
+    {
+      "id": "FF3-JOINT-RANK-FINITE-v1",
+      "status": "ACCEPTED-EXACT-AUXILIARY-SCOPE",
+      "statement": "workers/FF3/joint-rank-finite-statement-v1.md",
+      "statement_sha256": "a0f0d3ba6548e02668c869a238ae65518e0040f30d6b34710c648d54e0696ece",
+      "proof": "workers/FF3/joint-rank-finite-proof-v1.md",
+      "proof_sha256": "5f18cf6956f045cdaddb3b06ac7f62e768805d6e5746bae6b8b1ca7d8c65e6ab",
+      "acceptance": "coordinator/acceptance-v6.json",
+      "scope": null,
+      "external_or_historical_dependencies": []
+    },
+    {
+      "id": "FF3-COMPACT-SELECTOR-v3",
+      "status": "ACCEPTED-EXACT-CONDITIONAL-KERNEL-SCOPE",
+      "statement": "coordinator/compact-selector-statement-v3.md",
+      "statement_sha256": "20c66a210cfb4821eec35b371fbf7478ec3493d18d656a18a5b06dffc2fed889",
+      "proof": "coordinator/compact-selector-proof-v3.md",
+      "proof_sha256": "8625e7453ae8d937ba9b885dd802a065987224862c70becbbc2713046c76a71f",
+      "acceptance": "coordinator/acceptance-v7.json",
+      "scope": "Encoded rational M; expected cost polynomial in numeric M and encodings, all endpoint equations separate; finite n2 exact instance only; outer L cap does not cap all inner bit/H runtimes.",
+      "external_or_historical_dependencies": []
+    },
+    {
+      "id": "BOUNDED-AFFINE-TV-v1",
+      "status": "ACCEPTED-EXACT-AUXILIARY-SCOPE",
+      "statement": "coordinator/bounded-affine-tv-statement-v1.md",
+      "statement_sha256": "4ed10092743879e7433b39bfc8988088821c7ceb29f4944f3794baea10cc7c6e",
+      "proof": "coordinator/bounded-affine-tv-proof-v1.md",
+      "proof_sha256": "0690ad673537a2df1f3e7bf1b2b44ea2126d51e05f0de4eca0d4437006201673",
+      "acceptance": "coordinator/acceptance-v6.json",
+      "scope": "Retained-S secret-independent affine residual pair; bounded/tail/no-wrap hypotheses explicit",
+      "external_or_historical_dependencies": []
+    }
+  ],
+  "edges": [
+    {
+      "from": "CERT-EXTRACT-v2",
+      "requires": "CRT-PROJ-v1",
+      "status": "ACCEPTED-EXACT-AUXILIARY-SCOPE",
+      "kind": "local exact theorem or explicitly conditional instantiation"
+    },
+    {
+      "from": "SV-FROB-PRIME-v1",
+      "requires": "SV-BDD-CLASS-v1",
+      "status": "ACCEPTED-EXACT-SCOPE",
+      "kind": "local exact theorem or explicitly conditional instantiation"
+    },
+    {
+      "from": "SV-SYMDESC-v2",
+      "requires": "SV-BDD-CLASS-v1",
+      "status": "ACCEPTED-EXACT-SCOPE",
+      "kind": "local exact theorem or explicitly conditional instantiation"
+    },
+    {
+      "from": "SV-SUBFIELD-v2",
+      "requires": "SV-BDD-CLASS-v1",
+      "status": "ACCEPTED-EXACT-SCOPE",
+      "kind": "local exact theorem or explicitly conditional instantiation"
+    },
+    {
+      "from": "SV-SUBFIELD-v2",
+      "requires": "SV-SYMDESC-v2",
+      "status": "ACCEPTED-EXACT-SCOPE",
+      "kind": "local exact theorem or explicitly conditional instantiation"
+    },
+    {
+      "from": "SV-PRIME-SUPPORT-v2",
+      "requires": "SV-SUBFIELD-v2",
+      "status": "ACCEPTED-EXACT-SCOPE",
+      "kind": "local exact theorem or explicitly conditional instantiation"
+    },
+    {
+      "from": "SV-ALL-SUBFIELDS-v1",
+      "requires": "SV-SYMDESC-v2",
+      "status": "ACCEPTED-EXACT-SCOPE",
+      "kind": "local exact theorem or explicitly conditional instantiation"
+    },
+    {
+      "from": "SV-ALL-SUBFIELDS-v1",
+      "requires": "SV-SUBFIELD-v2",
+      "status": "ACCEPTED-EXACT-SCOPE",
+      "kind": "local exact theorem or explicitly conditional instantiation"
+    },
+    {
+      "from": "SV-DENSE-SPLIT-v1",
+      "requires": "SV-ALL-SUBFIELDS-v1",
+      "status": "ACCEPTED-EXACT-DIAGNOSTIC-SCOPE",
+      "kind": "local exact theorem or explicitly conditional instantiation"
+    },
+    {
+      "from": "SV-GAP-DECODE-v1",
+      "requires": "SV-RS-DECODE-v2",
+      "status": "ACCEPTED-EXACT-SOURCE-CLASSIFICATION-SCOPE",
+      "kind": "local exact theorem or explicitly conditional instantiation"
+    },
+    {
+      "from": "SV-LIST-DECODE-v1",
+      "requires": "SV-RS-DECODE-v2",
+      "status": "ACCEPTED-EXACT-SOURCE-CLASSIFICATION-SCOPE",
+      "kind": "local exact theorem or explicitly conditional instantiation"
+    },
+    {
+      "from": "SV-RS-ACTUAL-v3",
+      "requires": "SV-DENSE-SPLIT-v1",
+      "status": "ACCEPTED-EXACT-SOURCE-CLASSIFICATION-SCOPE",
+      "kind": "local exact theorem or explicitly conditional instantiation"
+    },
+    {
+      "from": "SV-RS-ACTUAL-v3",
+      "requires": "SV-RS-DECODE-v2",
+      "status": "ACCEPTED-EXACT-SOURCE-CLASSIFICATION-SCOPE",
+      "kind": "local exact theorem or explicitly conditional instantiation"
+    },
+    {
+      "from": "SV-RS-BIT-v2",
+      "requires": "SV-RS-DECODE-v2",
+      "status": "ACCEPTED-EXACT-SOURCE-CLASSIFICATION-SCOPE",
+      "kind": "local exact theorem or explicitly conditional instantiation"
+    },
+    {
+      "from": "SV-RS-BIT-v2",
+      "requires": "SV-GAP-DECODE-v1",
+      "status": "ACCEPTED-EXACT-SOURCE-CLASSIFICATION-SCOPE",
+      "kind": "local exact theorem or explicitly conditional instantiation"
+    },
+    {
+      "from": "SV-SPARSE-ACQ-v1",
+      "requires": "SV-BDD-CLASS-v1",
+      "status": "ACCEPTED-EXACT-SCOPE",
+      "kind": "local exact theorem or explicitly conditional instantiation"
+    },
+    {
+      "from": "WEIGHT-GAUSS-v1",
+      "requires": "WEIGHT-COV-v1",
+      "status": "ACCEPTED-EXACT-DIAGNOSTIC-SCOPE",
+      "kind": "local exact theorem or explicitly conditional instantiation"
+    },
+    {
+      "from": "WEIGHT-GAUSS-v1",
+      "requires": "GAUSS-AVG-v1",
+      "status": "ACCEPTED-EXACT-DIAGNOSTIC-SCOPE",
+      "kind": "local exact theorem or explicitly conditional instantiation"
+    },
+    {
+      "from": "FF3-COMPRESSED-SELECTOR-INFORMATION-v2",
+      "requires": "FF3-ENUM-v1",
+      "status": "ACCEPTED-EXACT-AUXILIARY-SCOPE",
+      "kind": "local exact theorem or explicitly conditional instantiation"
+    },
+    {
+      "from": "FF3-SELECTOR-PUBLIC-v3",
+      "requires": "FF3-COMPRESSED-SELECTOR-INFORMATION-v2",
+      "status": "ACCEPTED-EXACT-AUXILIARY-SCOPE",
+      "kind": "local exact theorem or explicitly conditional instantiation"
+    },
+    {
+      "from": "FF3-ENERGY-RANK-v2",
+      "requires": "FF3-TWOEVENT-v1",
+      "status": "ACCEPTED-EXACT-AUXILIARY-SCOPE",
+      "kind": "local exact theorem or explicitly conditional instantiation"
+    }
+  ],
+  "accepted_dependency_gaps": [],
+  "historical_policy": "Inherited exact DD acceptance read-only, not recertified. Radius comparison separately requires actual DD parameter interface.",
+  "open_objectives": {
+    "FF": "No proved edge from auxiliary claims to full fixed-family decision reduction. Target quantifiers/source comparison or scalable kernel remain open.",
+    "SV": "Substantive algorithms at inherited source radius; no new FF-delivered radius.",
+    "hardness": "No compatible independently established premise/effective map."
+  }
+}

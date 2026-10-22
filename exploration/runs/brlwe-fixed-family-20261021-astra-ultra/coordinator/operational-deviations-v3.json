@@ -1,0 +1,53 @@
+{
+  "at": "2026-10-21T22:45:21.327665+00:00",
+  "scope": "Known operational/reporting deviations, not retroactively repaired observations",
+  "checkpoint_cadence": {
+    "maximum_scheduled_lateness_seconds": 251.527,
+    "checkpoint": "019",
+    "maximum_between_checkpoint_seconds": 819.513,
+    "early_checkpoints_seconds": {
+      "023": 1.969,
+      "024": 10.248,
+      "026": 9.620964
+    },
+    "qualification": "Actual timestamps preserved, no backdating; ten-minute target was not exact at every interval.",
+    "final_cadence_pending": false
+  },
+  "peak_memory_missing": {
+    "job": "BLIND-SV1-E01",
+    "receipt": "reviews/BLIND-SV1/experiment-01-execution.json",
+    "peak_RSS": "NOT_MEASURED",
+    "enforced_address_space_bytes": 536870912,
+    "cpu_seconds": 115,
+    "wall_alarm_seconds": 120,
+    "observed_internal_elapsed_seconds": 19.15642660902813,
+    "qualification": "Address-space limit is not an observed peak. No duplicate rerun can recover original peak."
+  },
+  "metric_scope_corrected": {
+    "job": "SYM-RANK-FV2",
+    "old_wall_seconds": 26.47,
+    "actual_process_wall_seconds": 26.69,
+    "internal_seconds_approximately": 26.469
+  },
+  "working_inventory_staleness": {
+    "index": "experiments/evidence-index-v1.json",
+    "snapshot_at": "2026-10-21T21:39:02.317089+00:00",
+    "changed_file": "reviews/BLIND-RESOURCE3/complete-report.md",
+    "reason": "Report finalized before its21:39:55seal, after working inventory. New final index required; old snapshot retained.",
+    "resolved_by": "experiments/evidence-index-v2.json",
+    "final_audits_verified": "coordinator/final-audit-integrity-v1.json"
+  },
+  "live_cap_observation_limit": "This sandbox PID namespace does not expose the enclosing Codex service or a complete host process census. Visible local processes, completed tool sessions, worker completion reports and coordinator experiment grants are separate evidence. Startup cap state is not live cleanup proof. Future service termination is unobserved.",
+  "blind_packet_exposure": "BLIND-RESOURCE3 v3 author verification labels recorded; DIFFERENT clean BLIND-RESOURCE4 and DIFFERENT fresh full DELIVERY-AUDIT1 repaired gates in acceptance-v7.",
+  "mathematical_status": "No FF/hardness/exhaustion or native-goal completion inferred.",
+  "predecessor": "coordinator/operational-deviations-v1.json",
+  "operations_audit": "reviews/OPERATIONS-AUDIT1/report-v1.md",
+  "operational_findings": "reviews/OPERATIONS-AUDIT1/findings-v1.json",
+  "auditor_extraction_lapse": {
+    "scope": "Operational reviewer displayed five short encrypted assignment prefixes while extracting metadata. No decryption or plaintext secret access was reported. Tool output cannot be retracted. Retained reviewer files were sanitized and the extractor corrected.",
+    "receipt": "reviews/OPERATIONS-AUDIT1/audit-extraction-lapse.json",
+    "future_handling": "Extract explicit metadata fields only; never print encrypted_content or full messages."
+  },
+  "final_cadence": "coordinator/checkpoint-cadence-final.json",
+  "final_process_observation": "coordinator/final-process-observation.json"
+}

@@ -1,0 +1,1295 @@
+{
+  "at": "2026-10-21T21:55:05.124333+00:00",
+  "type": "NONTERMINAL exact resource repair/conditional-kernel acceptance",
+  "accepted_claims": [
+    {
+      "id": "FF3-COMPACT-SELECTOR-v3",
+      "status": "ACCEPTED-EXACT-CONDITIONAL-KERNEL-SCOPE",
+      "statement": "coordinator/compact-selector-statement-v3.md",
+      "proof": "coordinator/compact-selector-proof-v3.md",
+      "supersedes": "FF3-COMPACT-SELECTOR-v2",
+      "repair": "Encoded rational M; finite M=3. Earlier v3 blind exposure disclosed; different fresh strict referee required.",
+      "review": "coordinator/acceptance-v7.json",
+      "full_review": "reviews/DELIVERY-AUDIT1/compact-v3-full/full-report-v1.md",
+      "blind_review": "reviews/BLIND-RESOURCE4/referee-report-v1.md",
+      "evidence_sha256": {
+        "coordinator/compact-selector-statement-v3.md": "20c66a210cfb4821eec35b371fbf7478ec3493d18d656a18a5b06dffc2fed889",
+        "coordinator/compact-selector-proof-v3.md": "8625e7453ae8d937ba9b885dd802a065987224862c70becbbc2713046c76a71f"
+      },
+      "check_depth": "Different fresh full edited-proof reviewer and clean fresh theorem-only reconstruction, exact coefficient binding and finite controls; correlated same-model scrutiny, not formal verification.",
+      "path_binding": "coordinator/kernel-resource-v3-path-resolution-v1.json",
+      "scope": "Encoded rational M; expected cost polynomial in numeric M and encodings, all endpoint equations separate; finite n2 exact instance only; outer L cap does not cap all inner bit/H runtimes."
+    },
+    {
+      "id": "FF3-ENERGY-RANK-v2",
+      "status": "ACCEPTED-EXACT-CONDITIONAL-KERNEL-SCOPE",
+      "statement": "coordinator/energy-rank-kernel-statement-v2.md",
+      "proof": "coordinator/energy-rank-kernel-proof-v2.md",
+      "dependencies": [],
+      "evidence_sha256": {
+        "coordinator/energy-rank-kernel-statement-v2.md": "ab8e55aa2930d04d3d24529abf5e4f6f5ebee5e25507830a6bff0ba792101355",
+        "coordinator/energy-rank-kernel-proof-v2.md": "3972798c783f0ba0116e72b1b393e0ca90b59afd9e6805413cbc3e29b3e8db9d"
+      },
+      "review": "coordinator/acceptance-v7.json",
+      "full_review": "reviews/FRONTIER-CHALLENGE1/kernel-repair-full-review-v1.md",
+      "blind_review": "reviews/BLIND-RESOURCE4/referee-report-v1.md",
+      "check_depth": "Different fresh full edited-proof reviewer and clean fresh theorem-only reconstruction, exact coefficient binding and finite controls; correlated same-model scrutiny, not formal verification.",
+      "dependency_binding": "coordinator/energy-twoevent-dependency-binding-v1.json",
+      "scope": "Given-h shell-constant rank theorem; pair requires JOINT shell-uniform law; numeric alphabets, expected rational sampling, exact finite Gaussian/truncation law. TWOEVENT conditional construction imports every premise."
+    }
+  ],
+  "review_seals": {
+    "reviews/FRONTIER-CHALLENGE1/seal-v1.json": "c3297d7f28e9471e5d72c0317cc33f73b9718da02fcfc302c0cd3bbb6ede7d6e",
+    "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/seal-v1.json": "43cb5ba340b5fba33d82c965d7057f6ee3c4764fd80aaafd060aa09c953d4c71",
+    "reviews/DELIVERY-AUDIT1/compact-v3-full/seal-v1.json": "d412510f463b6558be20ca879284e046732a8c5d386bcd0727367e68c18c00a3",
+    "reviews/BLIND-RESOURCE3/final-seal-v1.json": "9cde9f336188da456659bab1802fcccbe77651f641eb836d90e651447d953cdd",
+    "reviews/BLIND-RESOURCE4/seal-v1.json": "8bb07d7bb7bff0cb9935479f3e8080b193d654c5d6945808cc9827b6885fbda3"
+  },
+  "review_integrity_checks": [
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/assignment.txt",
+      "sha256": "59f57dc6362126c527579fc098e3309391d36f486529221e5d437e841520b8a6",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/chronology-clarification-v1.md",
+      "sha256": "803d89339c181acae5fae5b543f73b53179b13d477d170661d3f8ac019c321b9",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/control-v1-input-hashes.json",
+      "sha256": "b23cb1d3b0c72e78c1ac9d7c31ce5bc8108c8f270112de097e75546c762ba91e",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/control-v1-receipt.json",
+      "sha256": "8004d965df0f8933762b91c3e70948925bc2bd97f633311e674a33e74db9c8bd",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/control-v1.py",
+      "sha256": "a4cbe991d25b5385caed5aa6f6f5aa6efb2bbd3fa357a28d007cf8030f29d714",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/control-v1.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/control-v1.stdout.txt",
+      "sha256": "27a0072751fe53428bb5fb72cdc1e5cae8c3a93fecf7e94166a7213a3c224811",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/control-v1.time.txt",
+      "sha256": "c87291cde9a9489f3ccb4c7e08215ed79f5d50c5bb8cc085955e4f827ab6ebf8",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/exposure-and-check-depth-v1.md",
+      "sha256": "ccfd5d522dda430e25f87b4aab8537ac1c2b4407b8a2dd2312b48009490dcf88",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/final-verdict-v1.json",
+      "sha256": "1958869fef111d488f7273926e5538932a462926d2e4a710f58d7b97c786c554",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/frontier-challenge-report-v1.md",
+      "sha256": "92dc1205ccbc89aa81d3232e4d2bb39cf0810d4077a123b88a4c72651cf20d91",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inherited-203-references-v1.json",
+      "sha256": "faa7d34d032d07ab26b7ededd9ad0c8ab337694c2933b62f76760fb03a9b20e1",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/initial-escape-routes-v1.md",
+      "sha256": "ef181791ea2e4f7a491e371e83fed0549747ea69e3b1b18d908fd54c26b9ca2a",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/input-drift-reduction-attempts-md.txt",
+      "sha256": "dbdd4b72fcc9f4d5e700ba2d1004540a5509f40f0b02d8ef55bd8160fe33b71d",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/input-drift-regressions-json.txt",
+      "sha256": "5343ad808164ac3c0fce832fbf805c6586c7c5e0f77c3106399b970749525b9f",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/input-integrity-v1.json",
+      "sha256": "35221aec25b869bd7269030eb21e45922be7da434f417bea771d5cb89dd6a67e",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/input-manifest-addendum-v1.json",
+      "sha256": "e5e36b7c109339af556192a9f6c07cf5f514363c964c1929b18cc6c9a2a7311f",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/input-manifest-v1.json",
+      "sha256": "e3da84356b15fb44dbf1a43e27b9288516f46b58871bb097d4b620c2db46669f",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/fixed-family-20261021/PLAN.md",
+      "sha256": "275bfe83f759044ea8acb3118c76f0e480a59cb850cfb70d97422a651cfa4ed5",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/acceptance-v1.json",
+      "sha256": "ba065e4b5f569236839b2597882698ade120219a13551376b8a14af6d5d2e23e",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/am-main-theorem-v3.md",
+      "sha256": "eaabea064b734ccefbbb1d2410ed03fecdbe671f098c2e69d59d432df855e33c",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/fixed-main-proof-v2.md",
+      "sha256": "2e98d25b0f349e22dfeb23ba5ea18ebe339039fa08fb39f92cf45afa9f50f0c7",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/fixed-main-statement-v2.md",
+      "sha256": "25da2502104e746d3e9f2ca10e3d070372ff95b853b1fd2b0e6c96b1b909ecb6",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/final.md",
+      "sha256": "36ddf7e2d4a55b46a9c2e73132600cd6a5ee8836deade913137d60ad94fea622",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/programme-decisions.md",
+      "sha256": "1747bd5297e6d10a18f81104134f84229af9241b7babe1b79d791a201230ff3e",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/reconciliation.md",
+      "sha256": "c242b33cb82fc9412312b4978d36abb047384bebc7a0e470fc9241622e2affd8",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/claims.json",
+      "sha256": "4a8fc58ef05af8055b887e235660552679a7170c754ff53ee3671d56c691f409",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/acceptance-v1.json",
+      "sha256": "5148b580d29102ccbfbe090568f991a4edba768d4798c222b5550a7df27f5732",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/acceptance-v2.json",
+      "sha256": "32ce0b4004df097bd8b5bd8ad8ce7de78e7d7c24eb7d1e40c0f03828dd97dc65",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/acceptance-v3.json",
+      "sha256": "5f08eb262c7f98632a09fa607b7ebaba88fe58a06558ffadcae8f28bfde49b6c",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/acceptance-v4.json",
+      "sha256": "0cb4b08fb3444c6c39d9dc53e8fe74488611ac12e63e202f9de7f234ce2da24f",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/affine-orbit-amplification-frontier-v1.md",
+      "sha256": "756f20f74c7a964457c37a3c802c8f6d9ef99e9e11392c7094219d561c3fc5b6",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/all-subfields-comparison-statement-v1.md",
+      "sha256": "e4bc6f736371b22a5bcb966a065b36f32b16966acdc1958e5ed56de9176d2ea0",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/bounded-affine-tv-statement-v1.md",
+      "sha256": "4ed10092743879e7433b39bfc8988088821c7ceb29f4944f3794baea10cc7c6e",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/certificate-coverage-frontier-v1.md",
+      "sha256": "add781987d409c669b0ac15d7fd34459d8d4b36b22fe45d1fe34c00d2b234adf",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/certificate-extraction-proof-v2.md",
+      "sha256": "90b9a4b7c50984e89757dc52e360170a8aa6ea098e20eb02c32ab0b3eac197e4",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/certificate-extraction-statement-v2.md",
+      "sha256": "1a82181c03be7aaf09ef1ec7103828471c20be27a68ef182055c0f45a93353ab",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/certificate-inversion-frontier-v1.md",
+      "sha256": "3c95e83f96085e3b8db15ea650282e25998adf3d637f0b079f7f294f0169fc21",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/compact-selector-proof-v2.md",
+      "sha256": "cfe90ffc7b4b0b6e0e8efdd424f6b20b361b9e66107022752ccf787b66414211",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/compact-selector-statement-v2.md",
+      "sha256": "89864b1f1d37ebb66e3fb7e364c8ad657c185808cdcdbb1c4370058aed7b2846",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/completion-alternatives-v1.md",
+      "sha256": "42da52ba660cfe78683358b8e908c74a7bb1849da2e5fad718a916192712b572",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/compressed-selector-information-statement-v2.md",
+      "sha256": "8abf13ef4d35625ae82a6ffb44a7feb76d06700ada6a553a4a3ebd25a3e89d70",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/crt-projection-statement-v1.md",
+      "sha256": "0327d8958b5449e6ce192991594edf4ef03c0949f2e0d4fde4fb5243b46e1aca",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/deadlines.json",
+      "sha256": "ef590a6fb66cb9ba8d1f1fe248af31c1167b6a2a1b5ac503a4e2cb844ba37995",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/dense-split-source-statement-v1.md",
+      "sha256": "10d8282bae4ed3ef96eda1d304f4538935b9308b7cb23e2b651672fc9dbae102",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/dimension-padding-and-order-intake-v1.md",
+      "sha256": "f0a766791946767f7c416350e34202c2e46395f6e09f69e9eb528f74e812cd84",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/direct-oracle-hybrid-frontier-v1.md",
+      "sha256": "dc533cd4907957f8238e77d581d4cdaee8920b7183a3280726682c969950245f",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/energy-rank-kernel-proof-v2.md",
+      "sha256": "3972798c783f0ba0116e72b1b393e0ca90b59afd9e6805413cbc3e29b3e8db9d",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/energy-rank-kernel-statement-v2.md",
+      "sha256": "ab8e55aa2930d04d3d24529abf5e4f6f5ebee5e25507830a6bff0ba792101355",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/ff2-frontier-v1.md",
+      "sha256": "4f9d042ec32923c3de7fdabb2cbd1a37e94810fdeed69e92b96c6641e1e41e01",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/fractional-information-statement-v1.md",
+      "sha256": "94f562284bf0f7b9117be57261e0c19deb76dcdff7bd317f7a722203f604b8bd",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/frontier-challenge-replies-v1.md",
+      "sha256": "1d002b3bf6bc8b18d5525a9f995eade73b5655bf21683cdf313c88f6eb3ad7b1",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/frontier-challenge-replies-v2.md",
+      "sha256": "62a8bc0256e8a1894d1655946dd4f177a5af5e26e0f05edb31ec7c057ea95cd0",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/good-secret-preselection-frontier-v1.md",
+      "sha256": "9b44d4d422b9c4cb05ab9b3fb35009bbea678fd26109ee45bce7412c32cd6fbe",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/kernel-resource-wording-rejections-v1.md",
+      "sha256": "9f5cb7df524559e52e080997fc06c05b2e2999453612bf01f7cabd5ff023ec53",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/latent-relabel-and-centered-decision-frontier-v1.md",
+      "sha256": "b571291d4f479c06138baeecf80abb6174014558c732701a6f87ed87ad61c824",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/narrow-coset-kernel-challenge-v1.md",
+      "sha256": "4eec7f023a11f02f28b64ab5ca22657a30c617e377fdd9cd1c7e67696e4b3209",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/objective-statement-v1.md",
+      "sha256": "6666ca7222abb251214fd5e7d6f9e96c3ddbbb29216c9469ac5cf0034da2a216",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/programme-v2.md",
+      "sha256": "bf57a2be781e091608b3eda9f5ca65c13dd772d87ff4a8d46083c2b1f9ce1f96",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/review-scope-corrections-v1.md",
+      "sha256": "9906e7076cbff75812fcbc09881f29f378c6d2ab91d7fbd2b3ef40d5895fcc36",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/rs-source-decoder-statement-v2.md",
+      "sha256": "e50c4bf45d59fa6f80924efa778761b85ce1b86ccee4d8dac7f4551e34396639",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/secret-invariants-frontier-v1.md",
+      "sha256": "b87f03f0c75faff61755b87dbcb3b5bc6207d7ebfa1fd498d1fda9a3e42c1659",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/source-prime-support-statement-v2.md",
+      "sha256": "1176e7484ba806a92ea18d95e22375938f210d38fe1268fe9f178e280d76374d",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/sparse-acquisition-proof-v1.md",
+      "sha256": "985e843a98a4413dd7cebf3a98042aedd2b971d241eeb210bd22401b43e952f3",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/sparse-acquisition-statement-v1.md",
+      "sha256": "c3c1078b33309f7b3d9061fbdad1114c3178dea28e64c7e8849a947ad5d97d84",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/subfield-source-frontier-v1.md",
+      "sha256": "557686e2e5bb1e876bf5d6a5a8d09442edc0a3ce07c13016dc7ec9169dc2d5a8",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/parameter-table.md",
+      "sha256": "f3c45564f65b82adc1e506d8452b0a0ad84154048dc8632ad09b95ae78d23452",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reduction-attempts.md",
+      "sha256": "72cea53b68f74387c770246084a182138e5b1f3719c6576b34dc13258dd6419c",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/regressions.json",
+      "sha256": "3264ab6e3117b155a04ae16e4b92545c1c05862558e351759c5731b7b7cbbe24",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF3-PHASE2/full-report-v1.md",
+      "sha256": "1ff44833ff98c0d96c7b6f30447d12f331d26c4b7dad0b4688436984af1748aa",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF3-PHASE2/phase2-final-seal-v1.json",
+      "sha256": "7434c7e38e5e9d529c74ebd475ce9e405b09e0dee8663143c1b9b0b4a0fbef5d",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF3-PHASE2/source-complexity-report-v1.md",
+      "sha256": "c9374e485513726ed19d3b78db0640652b5d9f062c5761e7a438fa76f80bac9b",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF3-PHASE2/symmetry-finite-review-v1.md",
+      "sha256": "61a7316c1e6d723c24db92a9cf3f7536f44ebd8b4dfbb4fbb86d61841575002b",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/source-comparison.md",
+      "sha256": "8a1a2e247b2d48bd22bdac481f636c6922af25da4a8d4a6750cc65b0ae9d009e",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/compact-selector-proof-v1.md",
+      "sha256": "8e84e8aa29c9381b36e153ef0f930a0708ccbcc44324f36d29879624ddaab356",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/compact-selector-statement-v1.md",
+      "sha256": "d606b293a7ec544c6e003eec7f4c8b137ee7d3f76f958cdf0793b058f03237ee",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/energy-rank-kernel-proof-v1.md",
+      "sha256": "e9cb9682c135ab8d191b761fb95434fcade715086c1bdce6a1e0b8932c1ef8f1",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/energy-rank-kernel-statement-v1.md",
+      "sha256": "4cf430aeb6067775c794d7e4307152b12e197efa9b70a4232cff95acb827b9e5",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/experiments/ff3-public-geometry-fv11.py",
+      "sha256": "a82c019eae561ddd86e9ad8fc57b8e3bb67f9436216f8a5d32c26db415ba9fd7",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/experiments/public-geometry-public_norm_local_edge_weights-witness.json",
+      "sha256": "140a8b92c3a772c217801f66f9d7618843330f0ca8264718858c3cfcf679cba8",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/experiments/radial-ring-H-vertices.json",
+      "sha256": "6d63ee7547c399c361f9883ac7432fee8115911b7c851a10012a83781e175665",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/full-direction-open-interfaces-v1.md",
+      "sha256": "1053fec4ca8277d4e39bb7683dd875d6da13ce390958c6dd801e9419cbf90f50",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/phase2-report-v1.md",
+      "sha256": "42bd99ddbc03390fd59e166c3daa2a8043daa1869f9eb65ac6df436e496aaf89",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/source-classification-proof-v1.md",
+      "sha256": "5c208872ddd99f74294dc60dbcd1a952470b5d09956d576c7346e2f52eca0d5f",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/source-classification-theorem-v1.md",
+      "sha256": "1b72f95055b9c5a8953c46ee778ade4d57a55d5a61c4a1ce29003c049f59a5a3",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/workers/B/concrete-family-v1.md",
+      "sha256": "eec5b8f93440c91648576325fedde611239cd736a99d525726c9372a35b83c8f",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/workers/B/report-v1.md",
+      "sha256": "28b43008d5c2b89be47ead9ad60037b73b4f99d3c29eb0860f450b69006ad495",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/external/home/nico/.codex/skills/mathematical-proof-audit/SKILL.md",
+      "sha256": "9350ffeb5aebe0b126710786586f94ef5d990be35b8b9defc8004136dae40318",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/external/home/nico/.codex/skills/mathematical-proof-audit/references/audit-protocol.md",
+      "sha256": "2d076ba631c340d71f6259757c6207dbe230872810e9bad3188b215f46d095f4",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/external/home/nico/.codex/skills/mathematical-proof-audit/references/probability-regressions.md",
+      "sha256": "ad7eecf93ed02e5b2957243a9bbb2cac8e8eeeb991971f4d77d0818cd04a4fa4",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/external/home/nico/.codex/skills/research-project-map/SKILL.md",
+      "sha256": "f4407e349bdc28c6feca89c969aca353da5cd8dd62317b7e558694afcef13b7b",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/inputs/external/home/nico/.codex/skills/research-project-map/references/work-programmes.md",
+      "sha256": "11c38b5c5eac5148947288ae233d537a6ed2576a271a98068482202bb87dada5",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/kernel-repair-full-review-v1.md",
+      "sha256": "d30920619d82e9a19e11712c0d6dc317adc0562f0f4d208c73e058b7386d3d40",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/preregistration-control-v1.md",
+      "sha256": "c4cf066f2efe004c9ced6c5eba6a40818c4de8674e59e3340f633dab43f08b7a",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/reconciliation-addendum-v2.md",
+      "sha256": "3e5758ab1ba745368bdab878deb2a0c8363db3ba1eba0f9ecdc6d639abe041d7",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/regression-scope-v1.md",
+      "sha256": "13ca1502ae5ed75655d8c5aefa71d269b5f4db2ab368b190dfc1676789ca4462",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/sparse-full-review-v1.md",
+      "sha256": "7567a170fd6892910bdc7aba511a47a0609d0f2fe9f1bb9aadf7695b11ed60e6",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/assignment.txt",
+      "sha256": "04252a8da1d4c99e89d3c2fe52985356085117516587f2a00c65990d2259ca2e",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/delivery-snapshot-findings-v1.md",
+      "sha256": "686d035f6f964fee70d2e8e3e6c647a7e073fb9b66a9c0b4c4cbfe057f64facd",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/full-source-complexity-review-v1.md",
+      "sha256": "bd5263fee8d24e12cea7b7d2477c80d6a96842dd935e7896f7a28f6a6e23d840",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/input-manifest-v1.json",
+      "sha256": "9668f2d74657ec5c91181a2924c0d2d4d8a0fe5f434366acd25f0359b6badc8e",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/inputs/claims.json",
+      "sha256": "553677a980cfbac8f618b2e3a1d20662aa5284321e5bca1396544d1ead3f1393",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/inputs/coordinator/compact-selector-proof-v2.md",
+      "sha256": "cfe90ffc7b4b0b6e0e8efdd424f6b20b361b9e66107022752ccf787b66414211",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/inputs/coordinator/compact-selector-proof-v3.md",
+      "sha256": "8625e7453ae8d937ba9b885dd802a065987224862c70becbbc2713046c76a71f",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/inputs/coordinator/compact-selector-statement-v2.md",
+      "sha256": "89864b1f1d37ebb66e3fb7e364c8ad657c185808cdcdbb1c4370058aed7b2846",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/inputs/coordinator/compact-selector-statement-v3.md",
+      "sha256": "20c66a210cfb4821eec35b371fbf7478ec3493d18d656a18a5b06dffc2fed889",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/inputs/coordinator/compact-selector-v2-rejection-v1.md",
+      "sha256": "ba0a9dd24a148137d8f812820ddf700db8945ea2300def6d45a4df928d6eabbb",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/inputs/parameter-table.md",
+      "sha256": "f3c45564f65b82adc1e506d8452b0a0ad84154048dc8632ad09b95ae78d23452",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/inputs/programme-decisions.md",
+      "sha256": "494bcbb02974bf4cc8096af604b623ed8f1258ee4da9b1b66288f63db925bdb8",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/inputs/reconciliation.md",
+      "sha256": "260f5b6686cfcd1d378e2af409b04be16208fc72f1348d68a652eaf0b5c15ad0",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/inputs/source-comparison.md",
+      "sha256": "8a1a2e247b2d48bd22bdac481f636c6922af25da4a8d4a6750cc65b0ae9d009e",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/proof-v2-v3.diff.txt",
+      "sha256": "f1250e38da400cd8f818bd60e181d650b9b9861db14d5d2d059df953f97b9fae",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/reuse-integrity-v1.json",
+      "sha256": "be69da721d41c0bc43d52c735161ea0cd118e4e2ccd874950fb9b214b844ef78",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/statement-v2-v3.diff.txt",
+      "sha256": "b731c85b608dc5cfb0c14e3c64d81b4f1fd78725d8d710acbecc0f1f741295eb",
+      "match": true
+    },
+    {
+      "seal": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/seal-v1.json",
+      "file": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/verdict-v1.json",
+      "sha256": "c6d1f9dbc28fb175556f05664f76558cda3acca3a16c75d66507436c01a8dac5",
+      "match": true
+    },
+    {
+      "seal": "reviews/DELIVERY-AUDIT1/compact-v3-full/seal-v1.json",
+      "file": "reviews/DELIVERY-AUDIT1/compact-v3-full/assignment-verbatim.txt",
+      "sha256": "17f6f570051f2c9e52800d31778c7561fd428199ea6cb575ac28f6ed15970797",
+      "match": true
+    },
+    {
+      "seal": "reviews/DELIVERY-AUDIT1/compact-v3-full/seal-v1.json",
+      "file": "reviews/DELIVERY-AUDIT1/compact-v3-full/coefficient-binding-v1.json",
+      "sha256": "20a0f5740e9458c201cf57d34d5d8900b49fa23a2e1ef14f65432ac6d3c00910",
+      "match": true
+    },
+    {
+      "seal": "reviews/DELIVERY-AUDIT1/compact-v3-full/seal-v1.json",
+      "file": "reviews/DELIVERY-AUDIT1/compact-v3-full/full-report-v1.md",
+      "sha256": "1e30743f5b967e2dfb6b8ad86e4ef1971b11f04447606ce8dc5f168867a05d56",
+      "match": true
+    },
+    {
+      "seal": "reviews/DELIVERY-AUDIT1/compact-v3-full/seal-v1.json",
+      "file": "reviews/DELIVERY-AUDIT1/compact-v3-full/input-manifest-addendum-v1.json",
+      "sha256": "7a8d07eed0def6854e26ffdddff24a88ab164a827a5e81379ba38404505efbcb",
+      "match": true
+    },
+    {
+      "seal": "reviews/DELIVERY-AUDIT1/compact-v3-full/seal-v1.json",
+      "file": "reviews/DELIVERY-AUDIT1/compact-v3-full/input-manifest-v1.json",
+      "sha256": "130caa22fc0c61a318131da0c1bc10a44c1aa9ab6724a73c1b77cbc6e855ed19",
+      "match": true
+    },
+    {
+      "seal": "reviews/DELIVERY-AUDIT1/compact-v3-full/seal-v1.json",
+      "file": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/coordinator/blind-table-linkage-v1.json",
+      "sha256": "6c3181b9f010c29479d51273b2ca828e69062b9721fd1fd147e84ae33360160e",
+      "match": true
+    },
+    {
+      "seal": "reviews/DELIVERY-AUDIT1/compact-v3-full/seal-v1.json",
+      "file": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/coordinator/compact-selector-proof-v2.md",
+      "sha256": "cfe90ffc7b4b0b6e0e8efdd424f6b20b361b9e66107022752ccf787b66414211",
+      "match": true
+    },
+    {
+      "seal": "reviews/DELIVERY-AUDIT1/compact-v3-full/seal-v1.json",
+      "file": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/coordinator/compact-selector-proof-v3.md",
+      "sha256": "8625e7453ae8d937ba9b885dd802a065987224862c70becbbc2713046c76a71f",
+      "match": true
+    },
+    {
+      "seal": "reviews/DELIVERY-AUDIT1/compact-v3-full/seal-v1.json",
+      "file": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/coordinator/compact-selector-statement-v2.md",
+      "sha256": "89864b1f1d37ebb66e3fb7e364c8ad657c185808cdcdbb1c4370058aed7b2846",
+      "match": true
+    },
+    {
+      "seal": "reviews/DELIVERY-AUDIT1/compact-v3-full/seal-v1.json",
+      "file": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/coordinator/compact-selector-statement-v3.md",
+      "sha256": "20c66a210cfb4821eec35b371fbf7478ec3493d18d656a18a5b06dffc2fed889",
+      "match": true
+    },
+    {
+      "seal": "reviews/DELIVERY-AUDIT1/compact-v3-full/seal-v1.json",
+      "file": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/coordinator/compact-selector-v2-rejection-v1.md",
+      "sha256": "ba0a9dd24a148137d8f812820ddf700db8945ea2300def6d45a4df928d6eabbb",
+      "match": true
+    },
+    {
+      "seal": "reviews/DELIVERY-AUDIT1/compact-v3-full/seal-v1.json",
+      "file": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/coordinator/kernel-resource-v3-path-resolution-v1.json",
+      "sha256": "6740588bf0ac3873438ef11956eee216f2086062f34f9ee4a4622e0fefdc76c7",
+      "match": true
+    },
+    {
+      "seal": "reviews/DELIVERY-AUDIT1/compact-v3-full/seal-v1.json",
+      "file": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/coordinator/kernel-resource-wording-rejections-v1.md",
+      "sha256": "9f5cb7df524559e52e080997fc06c05b2e2999453612bf01f7cabd5ff023ec53",
+      "match": true
+    },
+    {
+      "seal": "reviews/DELIVERY-AUDIT1/compact-v3-full/seal-v1.json",
+      "file": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/BLIND-TRANSFER2/final-scope-v2.txt",
+      "sha256": "5649846e9ca1952e504ae2ba2f5224f324520aa018e5d3f89c549b69af69a1f4",
+      "match": true
+    },
+    {
+      "seal": "reviews/DELIVERY-AUDIT1/compact-v3-full/seal-v1.json",
+      "file": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/BLIND-TRANSFER2/finite-audit-v1.py",
+      "sha256": "b340145a15169dd0061f4eb0cce8b5721ec92c584e84a2b4a885d7970e636322",
+      "match": true
+    },
+    {
+      "seal": "reviews/DELIVERY-AUDIT1/compact-v3-full/seal-v1.json",
+      "file": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/BLIND-TRANSFER2/full-report-v1.txt",
+      "sha256": "a5ac8105eac82ca5483f95766ba940f731e01797b60a62f8a3f791718fbad176",
+      "match": true
+    },
+    {
+      "seal": "reviews/DELIVERY-AUDIT1/compact-v3-full/seal-v1.json",
+      "file": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/FULL-FF3-PHASE2/full-report-v1.md",
+      "sha256": "1ff44833ff98c0d96c7b6f30447d12f331d26c4b7dad0b4688436984af1748aa",
+      "match": true
+    },
+    {
+      "seal": "reviews/DELIVERY-AUDIT1/compact-v3-full/seal-v1.json",
+      "file": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/FULL-FF3-PHASE2/independent-certificate-check-v2.py",
+      "sha256": "b2965fbad872ae30501a58de69e3a571a64c8b23880c490497de042dbf78688c",
+      "match": true
+    },
+    {
+      "seal": "reviews/DELIVERY-AUDIT1/compact-v3-full/seal-v1.json",
+      "file": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/FULL-FF3-PHASE2/independent-certificate-check-v2.stdout.jsonl",
+      "sha256": "6eed6016ff4be14405355b0dd49ed560f257d6246b5ebac0ef2b0b33581bd09b",
+      "match": true
+    },
+    {
+      "seal": "reviews/DELIVERY-AUDIT1/compact-v3-full/seal-v1.json",
+      "file": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/FULL-FF3-PHASE2/phase2-final-seal-v1.json",
+      "sha256": "7434c7e38e5e9d529c74ebd475ce9e405b09e0dee8663143c1b9b0b4a0fbef5d",
+      "match": true
+    },
+    {
+      "seal": "reviews/DELIVERY-AUDIT1/compact-v3-full/seal-v1.json",
+      "file": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/FULL-FF3-PHASE2/regression-dispositions-v1.json",
+      "sha256": "85f1a5476c7de805cdd8a0972decac9e7e01998de7a13a245b08273315132cae",
+      "match": true
+    },
+    {
+      "seal": "reviews/DELIVERY-AUDIT1/compact-v3-full/seal-v1.json",
+      "file": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/FULL-FF3-PHASE2/source-complexity-report-v1.md",
+      "sha256": "c9374e485513726ed19d3b78db0640652b5d9f062c5761e7a438fa76f80bac9b",
+      "match": true
+    },
+    {
+      "seal": "reviews/DELIVERY-AUDIT1/compact-v3-full/seal-v1.json",
+      "file": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/workers/FF3/compact-selector-proof-v1.md",
+      "sha256": "8e84e8aa29c9381b36e153ef0f930a0708ccbcc44324f36d29879624ddaab356",
+      "match": true
+    },
+    {
+      "seal": "reviews/DELIVERY-AUDIT1/compact-v3-full/seal-v1.json",
+      "file": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/workers/FF3/compact-selector-statement-v1.md",
+      "sha256": "d606b293a7ec544c6e003eec7f4c8b137ee7d3f76f958cdf0793b058f03237ee",
+      "match": true
+    },
+    {
+      "seal": "reviews/DELIVERY-AUDIT1/compact-v3-full/seal-v1.json",
+      "file": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/workers/FF3/experiments/ff3-public-geometry-fv11.py",
+      "sha256": "a82c019eae561ddd86e9ad8fc57b8e3bb67f9436216f8a5d32c26db415ba9fd7",
+      "match": true
+    },
+    {
+      "seal": "reviews/DELIVERY-AUDIT1/compact-v3-full/seal-v1.json",
+      "file": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/workers/FF3/experiments/public-geometry-public_norm_local_edge_weights-witness.json",
+      "sha256": "140a8b92c3a772c217801f66f9d7618843330f0ca8264718858c3cfcf679cba8",
+      "match": true
+    },
+    {
+      "seal": "reviews/DELIVERY-AUDIT1/compact-v3-full/seal-v1.json",
+      "file": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/workers/FF3/experiments/radial-ring-H-vertices.json",
+      "sha256": "6d63ee7547c399c361f9883ac7432fee8115911b7c851a10012a83781e175665",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/allowed-input/compact-selector-statement-v2.md",
+      "sha256": "99bc6ba88f7760ab8c3bf1045a3162c8c18cb35c4f311b3ae6d1af528ddfa230",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/allowed-input/compact-selector-statement-v3.md",
+      "sha256": "20c66a210cfb4821eec35b371fbf7478ec3493d18d656a18a5b06dffc2fed889",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/allowed-input/compact-selector-table.json",
+      "sha256": "59acd26442278a2a0191953888256f3cbb546e46212273d82190e06570c5040a",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/allowed-input/definitions.md",
+      "sha256": "430c7e82f09cea2e29824ae09ea17caae38d45b8c978bc5469516854a70e783d",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/allowed-input/endpoint-definitions-v1.md",
+      "sha256": "401cb1e19d271a003b7d08b9e7eb0db64117a5a2f318b678f95f275f2f8a4b49",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/allowed-input/energy-rank-kernel-statement-v2.md",
+      "sha256": "a8c7daf894df5d0d5ac8ac5fa8132fcbad884ab5020baac7500d820169c95556",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/allowed-input/radial-kernel-tables.json",
+      "sha256": "573e8ef817299486670f9ed9b61d7611387b882f21de93cc1f64ba39d7dad81c",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/allowed-input/two-event-noise-kernel-statement-v1.md",
+      "sha256": "ba5c8050af98cce9e7dec3d9c1b9a1806f606f9b59f1ca40e62917aa093e913b",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/allowed-read-addendum-v1.json",
+      "sha256": "6dd93ac2e8cfacd8fa1e7ae4d4ec746d0e4838e173ea81aebba1f8c34ab3655d",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/allowed-read-addendum-v2.json",
+      "sha256": "2eefff29e7635e673570049b114e5a79ad8f3085a89e6455f59231cc3deec19e",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/allowed-read-manifest-v1.json",
+      "sha256": "77252e2004b000faba8031c9d58dbee5767a728c2d4666fbcafc899d7549e4ef",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/assignment-verbatim.txt",
+      "sha256": "031cf79d580608fe73a275216adda6e61fb0bf425015f2ed812f4b7bf36899fb",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/claim-graph-local.json",
+      "sha256": "99f93f55d278ee3aab5c60e2f083f49805a7510b973961bcf7406f8dca7ff53c",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/complete-report.md",
+      "sha256": "774e5020cc3593ce2e8dab4adc208d6400b6e4ffc7dece8635f53a40a6b0a2c8",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/exact-check-run-receipt.json",
+      "sha256": "6b9d61003c316f05de4dd03152e4f8460223ab9899934dabbf7cd0477ae96ca2",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/exact-check-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/exact-check-stdout.json",
+      "sha256": "ef72d07bb0279d65702167ceec7f262b47b0f4ef0878da5b27140ff32695191f",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/exact-check-time.txt",
+      "sha256": "cf59c6aca72ccd077a758f1cdba3d748b6b30b82e508fc9982d9df56f995814a",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/exposure-log.md",
+      "sha256": "92bc3d9e25c41d4a6c9f3b80dd3e1c5c8b43e6400fcb4a2996660d1c6b90c02a",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/frozen-addendum-receipts-v1.json",
+      "sha256": "3c4e60e0d0e780d3380e4011e2171a74d8fdcd3447306b454fbf4d124ea60196",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/frozen-input-receipts-v1.json",
+      "sha256": "c5d5b68a53b6c1834e81316300b73a5916360dfbcd5d001ecfd8bd271bcc542b",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/frozen-inputs/compact-selector-statement-v2.md",
+      "sha256": "99bc6ba88f7760ab8c3bf1045a3162c8c18cb35c4f311b3ae6d1af528ddfa230",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/frozen-inputs/compact-selector-statement-v3.md",
+      "sha256": "20c66a210cfb4821eec35b371fbf7478ec3493d18d656a18a5b06dffc2fed889",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/frozen-inputs/compact-selector-table.json",
+      "sha256": "59acd26442278a2a0191953888256f3cbb546e46212273d82190e06570c5040a",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/frozen-inputs/definitions.md",
+      "sha256": "430c7e82f09cea2e29824ae09ea17caae38d45b8c978bc5469516854a70e783d",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/frozen-inputs/endpoint-definitions-v1.md",
+      "sha256": "401cb1e19d271a003b7d08b9e7eb0db64117a5a2f318b678f95f275f2f8a4b49",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/frozen-inputs/energy-rank-kernel-statement-v2.md",
+      "sha256": "a8c7daf894df5d0d5ac8ac5fa8132fcbad884ab5020baac7500d820169c95556",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/frozen-inputs/radial-kernel-tables.json",
+      "sha256": "573e8ef817299486670f9ed9b61d7611387b882f21de93cc1f64ba39d7dad81c",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/frozen-inputs/two-event-noise-kernel-statement-v1.md",
+      "sha256": "ba5c8050af98cce9e7dec3d9c1b9a1806f606f9b59f1ca40e62917aa093e913b",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/frozen-methodology/SKILL.md",
+      "sha256": "9350ffeb5aebe0b126710786586f94ef5d990be35b8b9defc8004136dae40318",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/frozen-methodology/audit-protocol.md",
+      "sha256": "2d076ba631c340d71f6259757c6207dbe230872810e9bad3188b215f46d095f4",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/frozen-methodology/probability-regressions.md",
+      "sha256": "ad7eecf93ed02e5b2957243a9bbb2cac8e8eeeb991971f4d77d0818cd04a4fa4",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/frozen-repair-receipts-v1.json",
+      "sha256": "70bd4e00e87dce2dd4b30688e3387b8b0987641e4650ae610abc34433060409d",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/independent_exact_check.py",
+      "sha256": "398a7271bb04b9e0552f708f3dd30924c993131683ee002deb3f571c9d6ca702",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/preregistration-v1.json",
+      "sha256": "1de7c951e87231825b335ee3cc491d7f55cc2904eac3d45caa1a6d6048ddabb1",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/review-summary.json",
+      "sha256": "9a9a4f7984aa824eee17f3553420475159523ce1a4bce920ebd17844e254133f",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/root-coordination-record.txt",
+      "sha256": "f324099742c400730c1664b9e5c0fed911b0393c0f7839961ff5e37c569d6f7a",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/run_exact_check.py",
+      "sha256": "38f57b614bc66659d9338ed44e4b591f6be913aa0072776d5de13f5b0f8a28ed",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE3/timing-only-receipt.json",
+      "sha256": "e9657dd79dd8214e7022b289f352f0894b8ef8f63864db7e3c8a2927027bc04b",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE4/seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE4/allowed-input/compact-selector-statement-v3.md",
+      "sha256": "eecebca3d1d23bb1cd88c577d90b66cc42e8f14254098356aedd9cdf285e26e1",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE4/seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE4/allowed-input/compact-selector-table.json",
+      "sha256": "59acd26442278a2a0191953888256f3cbb546e46212273d82190e06570c5040a",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE4/seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE4/allowed-input/definitions.md",
+      "sha256": "430c7e82f09cea2e29824ae09ea17caae38d45b8c978bc5469516854a70e783d",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE4/seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE4/allowed-input/endpoint-definitions-v1.md",
+      "sha256": "2a73440eb168d2ca9d581ed6365a9b5a41cc39305b5c5bf8c4ecba94def9e035",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE4/seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE4/allowed-input/energy-rank-kernel-statement-v2.md",
+      "sha256": "a8c7daf894df5d0d5ac8ac5fa8132fcbad884ab5020baac7500d820169c95556",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE4/seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE4/allowed-input/radial-kernel-tables.json",
+      "sha256": "573e8ef817299486670f9ed9b61d7611387b882f21de93cc1f64ba39d7dad81c",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE4/seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE4/allowed-input/two-event-noise-kernel-statement-v1.md",
+      "sha256": "ba5c8050af98cce9e7dec3d9c1b9a1806f606f9b59f1ca40e62917aa093e913b",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE4/seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE4/allowed-read-addendum-v1.json",
+      "sha256": "ff9a8dbb3b991f4369c5cf0289bc935a24cf6db07357706f2e1c5ff21689a773",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE4/seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE4/allowed-read-manifest-v1.json",
+      "sha256": "c52561b729f66e8f301cc8ebb214a91b335e1a90cef492a8dd9eaf1d36e5b5b9",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE4/seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE4/assignment-verbatim.txt",
+      "sha256": "c6f2f44fec468d0a041babe40d361aeb0450b6c0d87254ac12a68cb29c20b011",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE4/seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE4/coordinator-messages-v1.json",
+      "sha256": "bd399d007a7adad950382573974920bea6556b5a769044672edb0127a39e71f1",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE4/seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE4/exact-audit-results-v1.json",
+      "sha256": "70ec36b54621eaf6cbf3ebf23d466462ecfcbecae5ccac718388af444e0ea8ea",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE4/seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE4/exact-audit-v1.py",
+      "sha256": "3cd527f76b36a71cc08e24ac82ccae076bb7f1d18ef2d6c3af714b48f4f5c8a0",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE4/seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE4/exact-kernel-v1.json",
+      "sha256": "5eba480ca71d980edd8c9b34e7334cd336f91c7d22600af22561becde22bebdb",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE4/seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE4/experiment-preregistration-v1.json",
+      "sha256": "2d46783c4fd3d2cd13cbfafc1a8719f0f844fd6e8d628ba30f72018a075b9c59",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE4/seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE4/experiment-v1.exit.json",
+      "sha256": "b725b1e9cde34864c0ac0cb7face65004734bc4019dd8636406e974ea7e98018",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE4/seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE4/experiment-v1.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE4/seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE4/experiment-v1.stdout",
+      "sha256": "70ec36b54621eaf6cbf3ebf23d466462ecfcbecae5ccac718388af444e0ea8ea",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE4/seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE4/experiment-v1.time",
+      "sha256": "ae2265a7a63cac2f72ad9e37f4bb7e1dea52e508b64e5905c2f40af5d6e8b797",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE4/seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE4/exposure-chronology-v1.json",
+      "sha256": "49905688b8697c1fbb6c9f1c6415c5645911139cf1411177ef64b97220cdcc81",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE4/seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE4/referee-report-v1.md",
+      "sha256": "d6f9eb7a913d8b8636b33218e2a7f5b406add8e33adc492322dad2e9ab272ce0",
+      "match": true
+    },
+    {
+      "seal": "reviews/BLIND-RESOURCE4/seal-v1.json",
+      "file": "reviews/BLIND-RESOURCE4/reviewer-input-hashes-v1.json",
+      "sha256": "839fbd0a925ad0a097979402e8ecc772071e31132d9c610221a1ec7aa9f14ac4",
+      "match": true
+    }
+  ],
+  "qualifications": [
+    "COMPACT original fair-bit and v2 real-M defects remain rejected. FRONTIER-CHALLENGE1 same-reviewer compact-v3 recheck is supporting evidence only; DIFFERENT fresh DELIVERY-AUDIT1 edited-statement-and-proof gate is controlling full repair review.",
+    "BLIND-RESOURCE3 later status/provenance exposure is preserved and is NOT the pristine compact-v3 gate. BLIND-RESOURCE4 had only clean theorem statements, coefficient tables and specifically requested definitions; its exact report/seal controls.",
+    "All mathematical coefficient fields in sanitized/author tables are canonically identical, recorded in blind-table-linkage-v1.json and independently in DELIVERY-AUDIT1 coefficient-binding. Author experiment shorthand resolves explicitly to workers/FF3/experiments; retained proof-v1 headings are historical text, exact v2/v3 file hashes govern.",
+    "Every retry uses fresh randomness conditional on x and prior failures. Outputs are sample pairs, not arbitrary leaked internal traces. Shared S is fixed before independent row processing. Complete endpoints P_sK=T_s and UK=V are independent requirements.",
+    "Expected polynomial numeric-M cost is not polynomial-in-logM cost or all-tape bounded time. Outer caps give output TV only; inner coin/edge/H samplers need separate caps/errors in a future bounded reduction.",
+    "ENERGY given-h theorem uses shell-constant full laws. Pair marginals alone do not imply joint-shell uniformity. Count-bit bound doubles for pair products; polynomial numerical alphabets and magnitudes are required for DP.",
+    "Optional TWOEVENT construction imports ALL named premises: finite uniform U,V,strictly positive N,0<u<p<=1,both likelihood inequalities,and union-of-source-shell C. The blind p=u/zero-target extension remains separately recorded and is not promoted by indexing. No optional asymptotic Gaussian instantiation is imported through v7.",
+    "Finite n2 rational endpoints and known-residual rank transport do not give a scalable efficient Gaussian full-binary-cube reduction. No FF/hardness or scientific-exhaustion conclusion.",
+    "All203 inherited regression IDs/provenance and scoped dispositions remain; new endpoint/joint-rank/trace/runtime boundaries preserved. Bounded controls do not prove infinite distributions."
+  ],
+  "path_binding": "coordinator/kernel-resource-v3-path-resolution-v1.json",
+  "table_binding": "coordinator/blind-table-linkage-v1.json",
+  "dependency_binding": "coordinator/energy-twoevent-dependency-binding-v1.json",
+  "blind_text_diffs": "coordinator/acceptance-v7-blind-text-diffs.txt",
+  "FF_status": "OPEN",
+  "SV_status": "REVIEWED-SUBSTANTIVE-DIAGNOSTIC-AT-INHERITED-RADIUS",
+  "hardness_status": "NOT_ESTABLISHED",
+  "native_goal": "active",
+  "scientific_termination": false,
+  "protected_period": "COMPLETED; review/targeted repair phase"
+}

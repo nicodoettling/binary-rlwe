@@ -1,0 +1,15 @@
+{
+  "id": "WEIGHT-GAUSS-FV1",
+  "registered_at": "2026-10-21T19:36:06.858978+00:00",
+  "hypothesis": "Weight-slice coverage and retained-secret conditional TV factors are exact; discarding S does not retain lower bound",
+  "code": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/weight-gauss-fv1.py",
+  "sha256": "9c512bea782ecf755c4903cc36bef9707de2ed5766a465378506cd078c7a7ab0",
+  "inputs": "allbinary n4,8; exact binomial n16,32,64,128; deterministic finite conditional laws; CP1",
+  "wall_seconds": 120,
+  "address_space_bytes": 536870912,
+  "estimate_seconds": 1,
+  "estimate_peak_MiB": 20,
+  "command": "/usr/bin/time -v timeout --signal=TERM --kill-after=5 120s prlimit --as=536870912 --cpu=115 python3 experiments/weight-gauss-fv1.py",
+  "precision": "exact integer/Fraction, no infinite tails approximated",
+  "slot": "root LIGHT, no other jobs currently active"
+}

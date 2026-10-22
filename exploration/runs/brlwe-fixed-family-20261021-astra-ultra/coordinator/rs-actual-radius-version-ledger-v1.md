@@ -1,0 +1,5 @@
+# SV-RS-ACTUAL version ledger
+
+Version1 remains immutable. Before its review sealed, the blind reconstruction requested an explicit definition of polynomial-value parameters and the exact C8 loops. The v1 parameter phrase could be read too broadly to cover exponentially small advantage or failure tolerance. Also its support t used log2(p), whereas the cited dense-family statement uses ceil(log2(p)). The former still gives eligible norm, but it is not the exact cited family's parameter. No false scalar/RS inequality has been found. Version2 narrows explicitly to the inherited fixed-b,c polynomial corollary and aligns t with the exact dense-family definition. These clarifications reopen the corollary's exact-version gates; no v1 acceptance is claimed.
+
+The first independent reviewer saw the v1 author-status sentence. Its corollary reconstruction is therefore recorded with a status-only exposure, not as the strict fresh blind gate. A later sanitized v2 statement requires a fresh blind reviewer. Other ten-claim blindness is unaffected.

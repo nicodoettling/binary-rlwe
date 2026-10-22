@@ -1,0 +1,96 @@
+--- coordinator/gaussian-average-obstruction-statement-v1.md
+
++++ reviews/BLIND-FRONTIER1/allowed-input/gaussian-average-obstruction-statement-v1.md
+
+@@ -1,6 +1,4 @@
+
+ # GAUSS-AVG-v1: quantitative average-cube additive Gaussian obstruction
+-
+-PROVISIONAL. This is a restricted-model diagnostic, not a lower bound for every modulus-transfer kernel.
+ 
+ Let n≥4 be a power of two, T the real negacyclic coefficient shift, S uniform in {0,1}^n, and M_S=sum_i S_i T^i. Let (Delta,Z) be any jointly Gaussian real n-vectors, possibly degenerate and with arbitrary means, independent of S. Write C=Cov(Delta), B=Cov(Z), and W_S=Z-M_S Delta. Let W_* have a fixed Gaussian law N(m_*,V_*), independent of S. Choose L>0 such that
+ 
+@@ -13,6 +11,6 @@
+
+ 
+ Thus when the public perturbation has inverse-polynomial nonzero covariance trace and all variances have polynomial bounds, this class has inverse-polynomial retained-secret discrepancy. It cannot achieve negligible full joint error at a fixed polynomial parameter family by changing an auxiliary modulus alone while those covariance scales remain as stated.
+ 
+-Scope: the perturbation law is SECRET-INDEPENDENT and the residual is exactly the displayed affine expression. Both residuals compared here are continuous Gaussian laws. No assertion is made about a final integer-rounding operation, exact coefficient discrete-Gaussian laws, center-dependent theta normalizers, secret-dependent Gaussian choices, nonlinear rejection kernels, unretained-secret marginal TV, or a polynomial-time sample-only distinguishing test. Data processing may decrease this discrepancy. The target source-to-decision theorem remains OPEN.
++Scope: the perturbation law is SECRET-INDEPENDENT and the residual is exactly the displayed affine expression. Both residuals compared here are continuous Gaussian laws. No assertion is made about a final integer-rounding operation, exact coefficient discrete-Gaussian laws, center-dependent theta normalizers, secret-dependent Gaussian choices, nonlinear rejection kernels, unretained-secret marginal TV, or a polynomial-time sample-only distinguishing test. Data processing may decrease this discrepancy.
+ 
+-This strengthens the exact covariance diagnostic by using all four-corner faces of the cube. Exact failure at four exponentially rare secrets alone would not prove this conclusion. Degree n=2 is excluded, and the exact equal-covariance example in FF1-COV-v1 remains a regression.
++This strengthens the exact covariance diagnostic by using all four-corner faces of the cube. Exact failure at four exponentially rare secrets alone would not prove this conclusion. Degree n=2 is excluded.
+
+--- coordinator/fractional-information-statement-v1.md
+
++++ reviews/BLIND-FRONTIER1/allowed-input/fractional-information-statement-v1.md
+
+@@ -1,6 +1,4 @@
+
+ # FRAC-INFO-v1: fixed-noise fractional experiments eventually identify the binary secret
+-
+-Author candidate, PROVISIONAL pending full and fresh blind review. This is an information-theoretic obstruction to a particular source comparison, not an efficient attack, a reduction, or an impossibility theorem for FF.
+ 
+ Let n>=2 be a power of two, R=Z[X]/(X^n+1), J a nonzero integral ideal, Lambda=J^-1 in coefficient Euclidean space, and D=N(J). Let q>=3 be an integer coprime to D. Identify Lambda/qLambda with R/qR by v/D -> v D^-1 modq. Let s,sigma>0 be real Gaussian widths. Independently draw K source vectors a_i from D_(Lambda,s), expose their identified residue classes A_i, draw one coefficient-binary S uniformly from {0,1}^n, and independent exact coefficient D_(Z,sigma) errors E_i. Observe (A_i,B_i=A_i S+E_i modq) for all i. Every law below includes the one retained S and all its conditional sample laws.
+ 
+
+--- coordinator/weight-covariance-statement-v1.md
+
++++ reviews/BLIND-FRONTIER1/allowed-input/weight-covariance-statement-v1.md
+
+@@ -1,6 +1,4 @@
+
+ # WEIGHT-COV-v1: revealing Hamming weight does not remove the affine covariance obstruction
+-
+-Provisional author theorem; full and fresh blind review required.
+ 
+ Let n>=4 be a power of two and let T be the real negacyclic shift matrix, T^n=-I. For coefficient vector s define M_s=sum_j s_j T^j. Fix an integer w with2<=w<=n-2. Let (Delta,Z) be any joint real random vector pair with finite second moments, whose law may depend on n,w but is the SAME for every binary s of Hamming weight w. Put W_s=Z-M_s Delta and C=Cov(Delta).
+ 
+
+--- coordinator/all-subfields-comparison-statement-v1.md
+
++++ reviews/BLIND-FRONTIER1/allowed-input/all-subfields-comparison-statement-v1.md
+
+@@ -1,6 +1,4 @@
+
+ # SV-ALL-SUBFIELDS-v1: the standard chain captures polynomial contraction criteria
+-
+-Provisional author candidate; full and fresh blind review required.
+ 
+ Let n>=2 be a power of two, K_n=Q(zeta_(2n)), R_n=Z[zeta_(2n)], and J_o a nonzero integral ideal. For ANY subfield L of K_n, write g=[L:Q] and d_L=[O_L:J_o intersect O_L], where O_L=R_n intersect L. Let m=min(2g,n). Then m is a power of two, m>=2, L is contained in the standard cyclotomic subfield K_m=Q(X^(n/m)), and
+ 
+
+--- coordinator/weight-gaussian-statement-v1.md
+
++++ reviews/BLIND-FRONTIER1/allowed-input/weight-gaussian-statement-v1.md
+
+@@ -1,6 +1,4 @@
+
+ # WEIGHT-GAUSS-v1: quantitative obstruction with Hamming-weight advice
+-
+-Provisional author candidate; full and fresh blind review required.
+ 
+ Let n>=4 be a power of two,2<=w<=n-2, and S uniform on the binary vectors of Hamming weight w. Let (Delta,Z) be jointly Gaussian real vectors, independent of S within this weight slice, with arbitrary means/cross covariance, C=Cov(Delta), B=Cov(Z). Let W_S=Z-M_S Delta, using negacyclic multiplication. Let V_* be any positive semidefinite target covariance; target Gaussian means may depend on S. Choose L>0 bounding both ||V_*||op and every ||Cov(W_s)||op. The explicit choice max(||V_*||op,2tr(B)+2n^2 tr(C)) is valid when positive.
+ 
+
+--- coordinator/source-prime-support-statement-v2.md
+
++++ reviews/BLIND-FRONTIER1/allowed-input/source-prime-support-statement-v2.md
+
+@@ -1,6 +1,4 @@
+
+ # SV-PRIME-SUPPORT-v2: a wider subfield classification
+-
+-Provisional author candidate; full and fresh blind review required.
+ 
+ Use exactly the ordinary-basis input, unique2-primary factor a, odd ideal J_o, computable indices d_g and decoder of SV-SUBFIELD-v2. Assume N(J)<=2^(rho*n), fixed 0<=rho<1. In the mathematical factorization J_o=product_i P_i^b_i over odd rational characteristics p_i, define
+ 
+@@ -12,6 +10,6 @@
+
+ 
+ Consequently, if B(J_o)<=C*log2(n) for fixed C, the SAME factorization-free algorithm runs in polynomial time and decodes all rational targets at the actual inherited DD radius. More generally it suffices that e<=n^C and, for each rational odd prime p, at most t distinct prime ideals above p occur in J_o, where t is fixed. The total number of prime ideals, and the number of different rational characteristics, need not be bounded. The algorithm does not receive the factorization, B, t or C.
+ 
+-For every fixed 0<rho<1, this family contains eligible exponential-index ideals with unbounded prime-ideal support and trivial full Galois stabilizer. An explicit asymptotic family can be built using split primes and primes with successively increasing exact2-adic valuations of p-1, with a polynomial numeric exponent. The construction and all effectiveness qualifications are in the proof. It is an existence/scope example, not an additional input oracle or a source hardness claim.
++For every fixed 0<rho<1, this family contains eligible exponential-index ideals with unbounded prime-ideal support and trivial full Galois stabilizer. An explicit asymptotic family can be built using split primes and primes with successively increasing exact2-adic valuations of p-1, with a polynomial numeric exponent. It is an existence/scope example, not an additional input oracle or a source hardness claim.
+ 
+ No implication is asserted from polynomial exponent alone when arbitrarily many primes ABOVE ONE rational characteristic occur. This theorem supplies a sufficient classical decoding criterion, not hardness of its complement. It changes no target family and establishes no new FF reduction.

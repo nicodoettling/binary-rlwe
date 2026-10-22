@@ -1,0 +1,17 @@
+{
+  "grant": "Corrected v2 HEAVY slot granted120s/2GiB after distinct preregistration. Preserve v1 syntax/path failure; no mathematical inference. FULL-REPAIR4 may request LIGHT later; currently no other job.",
+  "time": "2026-10-21T20:55:23.142857+00:00",
+  "code_and_registration": [
+    {
+      "file": "independent-certificate-check-v2.py",
+      "sha256": "b2965fbad872ae30501a58de69e3a571a64c8b23880c490497de042dbf78688c"
+    },
+    {
+      "file": "independent-certificate-check-v2-registration.md",
+      "sha256": "02a4b41bafd7d69c4dcebde9d4dc49655451374916f0d68554bd427019bc4515"
+    }
+  ],
+  "command": "/usr/bin/time -v timeout --signal=TERM --kill-after=5s 120s prlimit --as=2147483648 -- python3 independent-certificate-check-v2.py",
+  "precision": "integer/Fraction; no floating probability aggregation",
+  "seeds": "none"
+}

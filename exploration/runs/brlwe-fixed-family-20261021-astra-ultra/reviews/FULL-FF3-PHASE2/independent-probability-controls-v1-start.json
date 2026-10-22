@@ -1,0 +1,17 @@
+{
+  "grant": "LIGHT120s/512MiB GRANTED now; register and run bounded controls.",
+  "time": "2026-10-21T21:01:59.351108+00:00",
+  "code_and_registration": [
+    {
+      "file": "independent-probability-controls-v1.py",
+      "sha256": "50d91b496298b1eadf3f85be188bb9f24a34068bf26b41cdc89d901fdb6b21f4"
+    },
+    {
+      "file": "independent-probability-controls-v1-registration.md",
+      "sha256": "cdd0288c3ff7e6757b11812a37bcfeaf64e70efc8baab79c9d577e615c5345a6"
+    }
+  ],
+  "command": "/usr/bin/time -v timeout --signal=TERM --kill-after=5s 120s prlimit --as=536870912 -- python3 independent-probability-controls-v1.py",
+  "seeds": "none",
+  "precision": "exact rational/integer"
+}

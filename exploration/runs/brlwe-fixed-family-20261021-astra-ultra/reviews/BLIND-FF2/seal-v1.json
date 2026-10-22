@@ -1,0 +1,99 @@
+{
+  "seal_version": "BLIND-FF2-SEAL-v1",
+  "utc": "2026-10-21T19:00:22.522677+00:00",
+  "scope": "Exact input and independent report artifacts; seal excludes itself and the receipt to avoid a hash cycle.",
+  "main_verdicts": {
+    "CRT-PROJ-v1": "ACCEPTED within the explicitly frozen Gaussian/sampling convention",
+    "CERT-EXTRACT-v2": "ACCEPTED within the specified input promises and fresh-bank filtration"
+  },
+  "auxiliary_scope_issue": "Prime deletion is proved for positive integer 1<=D<2^n; N(J) domain is undefined in the packet. No core theorem depends on that deletion clause.",
+  "source_hardness": "Not established by these statements.",
+  "artifact_count": 17,
+  "artifacts": [
+    {
+      "relative_path": "allowed-read-manifest-v1.json",
+      "bytes": 3546,
+      "sha256": "bdc18c840a82c1c839077bb75701459f08d15baf3cd6fcc644b122c0710c1a47"
+    },
+    {
+      "relative_path": "artifact-integrity-v1.json",
+      "bytes": 613,
+      "sha256": "48456c043a900fbfdb41d4a72e3d7fccf5b4237f2b0e678b378f0a1bdf862b28"
+    },
+    {
+      "relative_path": "assignment-verbatim.txt",
+      "bytes": 2687,
+      "sha256": "39f096969156e2a30203ab4098877f8118031ad5729130b833b68191eabfbd7a"
+    },
+    {
+      "relative_path": "exposure-final-v1.json",
+      "bytes": 1697,
+      "sha256": "df6377d371520bae9a1cc5a7344ad89124a25546d5e27ea0099a1e74797faceb"
+    },
+    {
+      "relative_path": "finite-models-v1.preregistration.json",
+      "bytes": 2223,
+      "sha256": "d1942ed31d545d6da665de519fa083a0afe161f130a1ce39d1d8c57957de31b4"
+    },
+    {
+      "relative_path": "finite-models-v1.py",
+      "bytes": 10060,
+      "sha256": "30f843f680e8826c60c4f9bb03b84bdfae84203e1d152cd1fbaffcf6e36bec38"
+    },
+    {
+      "relative_path": "finite-models-v1.resources.txt",
+      "bytes": 879,
+      "sha256": "0ed80b9748f41d0d90e17f5d862e024a27fb30677cba66d59cb78621331f983b"
+    },
+    {
+      "relative_path": "finite-models-v1.run.json",
+      "bytes": 1084,
+      "sha256": "214cb154725cf5650859a9d31e15e816592f6a4eebc1244fd7e838a0078676ba"
+    },
+    {
+      "relative_path": "finite-models-v1.stdout.jsonl",
+      "bytes": 1520,
+      "sha256": "46795d46f1df59ea5ffb27b9711e230559c8d332534314ea0d4ac91b68e40225"
+    },
+    {
+      "relative_path": "independent-report-v1.md",
+      "bytes": 25100,
+      "sha256": "6a8f640fb4c038782a4d787fad56f8e270e6b04376f0fbc74913404769f7fc1a"
+    },
+    {
+      "relative_path": "input-freeze-v1.json",
+      "bytes": 3124,
+      "sha256": "d4d0258fc8c8bdb9da7bf29c60cea818e584322f029b8afed8f340a8dda0907c"
+    },
+    {
+      "relative_path": "inputs/certificate-extraction.md",
+      "bytes": 4631,
+      "sha256": "b17fb368a2fda01d42ede6f5cc58ff61c16b759a2e688b637d97f8f8cab75548"
+    },
+    {
+      "relative_path": "inputs/crt-projection.md",
+      "bytes": 2222,
+      "sha256": "8a1151a7a4c523312bc82b8da13c6eefd67df32d52e0a80931e5f3313182d9b3"
+    },
+    {
+      "relative_path": "inputs/inherited-one-root-extractor.md",
+      "bytes": 4989,
+      "sha256": "8617dfdeb1b79f71e5d6531c4514d397ed946fde2adee4e7e2d5dcf5bcefb5af"
+    },
+    {
+      "relative_path": "inputs/prime-construction.md",
+      "bytes": 1035,
+      "sha256": "c0585251bbdb70d8b2a98b0d8a9f67c59b5d379c22f5c0ed6ff9a73e1b71120f"
+    },
+    {
+      "relative_path": "primary-source-observation-v1.json",
+      "bytes": 1145,
+      "sha256": "716d45ecf69191e73f1edd5eaee5dee87a0728006a28d2616850ac1c73920265"
+    },
+    {
+      "relative_path": "probability-audit-v1.md",
+      "bytes": 8353,
+      "sha256": "9596de2ae44ba4b3841ad35db4079dcc4d14172a0ac6f8a1d9264dddd749121d"
+    }
+  ]
+}

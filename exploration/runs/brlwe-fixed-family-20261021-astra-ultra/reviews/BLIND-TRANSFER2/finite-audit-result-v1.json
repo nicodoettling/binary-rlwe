@@ -1,0 +1,132 @@
+{
+  "status": "ALL_EXACT_CHECKS_PASSED",
+  "checks": {
+    "radial": {
+      "kernels": 4,
+      "rows": 36,
+      "uniform_and_noise_exact": true
+    },
+    "compact": {
+      "entries": 33,
+      "input_rows": 81,
+      "all_fixed_secret_endpoints": 4,
+      "uniform_exact": true,
+      "max_G": "31747846170836756094431065767102005668874369915000841877198843/11688058834193179864192788149647847121368047468795377899320297"
+    },
+    "joint_rank": {
+      "entries": 47,
+      "class_rows": 27,
+      "input_rows": 81,
+      "all_fixed_secret_endpoints": 4,
+      "uniform_exact": true
+    },
+    "rank_transport": {
+      "M_and_N_range": [
+        1,
+        24
+      ],
+      "exact_pairs": 576
+    },
+    "twoevent_grid": {
+      "admissible_cases": 106,
+      "denominators": [
+        4,
+        8,
+        16
+      ]
+    },
+    "twosecret": {
+      "endpoint_cases": 4536,
+      "rings": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "H_mixture_weights": [
+        "0",
+        "1/2",
+        "1"
+      ]
+    },
+    "compressed_selectors": {
+      "admissible_prior_cases": 4000,
+      "inputs": 2,
+      "proposals": 2,
+      "classes": 2,
+      "exact_density_and_guessing_bounds": true
+    },
+    "public_randomclass": {
+      "cases": 25,
+      "joint_priors": "correlated S,Z grid",
+      "fresh_class_kernel": true
+    },
+    "enumeration_surrogate": {
+      "fixed_secret_cases": 8,
+      "Q": [
+        7,
+        17
+      ],
+      "n": 2,
+      "T": 1,
+      "finite_noise": "(1/2,1/4,1/4) on 0,+1,-1",
+      "finite_model_only": true
+    },
+    "bounded_affine": {
+      "law_families": 36,
+      "n": [
+        4,
+        8
+      ],
+      "cube_and_all_nontrivial_slices": true,
+      "tail_versions": true
+    },
+    "rs_codes": [
+      {
+        "n": 4,
+        "p": 17,
+        "t": 1,
+        "minimum_distance": 4,
+        "codewords": 17
+      },
+      {
+        "n": 4,
+        "p": 17,
+        "t": 2,
+        "minimum_distance": 3,
+        "codewords": 289
+      },
+      {
+        "n": 4,
+        "p": 17,
+        "t": 3,
+        "minimum_distance": 2,
+        "codewords": 4913
+      },
+      {
+        "n": 8,
+        "p": 17,
+        "t": 1,
+        "minimum_distance": 8,
+        "codewords": 17
+      },
+      {
+        "n": 8,
+        "p": 17,
+        "t": 2,
+        "minimum_distance": 7,
+        "codewords": 289
+      }
+    ],
+    "CP1": {
+      "posterior_A_each": "21/2000",
+      "posterior_C_each": "1/20",
+      "posterior_D": "879/1000",
+      "event": "21/2000",
+      "forbidden_product": "1/100",
+      "residual_after_hit": "21/221",
+      "old_product_claim_rejected": true,
+      "cause": "support restriction and posterior renormalization"
+    }
+  }
+}

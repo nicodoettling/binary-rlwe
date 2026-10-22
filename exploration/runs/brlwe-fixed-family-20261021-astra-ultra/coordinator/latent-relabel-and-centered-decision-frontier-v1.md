@@ -1,0 +1,18 @@
+# Latent relabelling and centered direct-decision escape
+
+Exploratory interface analysis, not an impossibility theorem or accepted reduction. Written during the protected programme.
+
+A retained-secret obstruction must not be promoted to an obstruction on the observable mixture. For example, let S be uniform on four labels and let two observations both equal S. Applying a fixed derangement pi to both observations preserves the complete observable batch distribution, whereas the laws retaining the original S have total variation one. Relabelling independently per row generally destroys the shared-secret law. Consequently the bounded-affine and compressed-selector theorems do not by themselves rule out a kernel which replaces the latent secret of the whole batch. A transfer used in the inherited selected-root predictor would, however, need an effective relation between the new secret and the old source correlation; equality of the observable RLWE law alone does not provide that relation.
+
+The strongest obvious bypass is a binary-experiment kernel: efficiently decide a source event and, depending on it, sample a whole fresh planted or comparator batch using a fresh shared secret. FF3-TWOEVENT gives the exact probability inequalities for such kernels on finite alphabets. This avoids estimating the original secret if a suitable efficiently testable source event is available. A finite statistical existence argument may compute the source likelihood by summing over all 2^n secrets, so it does not supply the needed efficient event. Using the wrapper's known S to define the event changes the advice available to the source comparison; that comparison must be reproved rather than inherited.
+
+A more direct code-dependent candidate is the centered response
+
+ F(A_1,...,A_k) = E_[S,E,coins] D(A_i,A_i S+E_i)_i
+                  - E_[U,coins] D(A_i,U_i)_i.
+
+Both terms are executable by the wrapper with fresh sampled S and exact/charged Gaussian samples, and each call has one shared S. Under independent uniform public A its expectation is the promised signed distinguishing gap (after choosing orientation). This avoids decoding S and exposes a concrete direct-decision functional for OHCP. What is missing is a proved difference between its uniform-public average and its fractional-source Gaussian average. A useful target acceptance gap does not constrain D on off-promise public distributions. The inherited whole-secret or selected-root information bounds do not apply to F merely because it is executable.
+
+One proposed repair would multiply F by a public-input gate that keeps almost all uniform public tuples but rejects almost all fractional-source tuples. For J=R and widths well below q, testing small integer representatives gives such a gate. For general J, the public residue identifies a coset of q J^-1; finding a small representative of that coset is itself a lattice decoding task. No efficient ordinary-basis gate has been established at the required general parameters. A gate supplied with the hidden short source vector is not an executable function of the public input. This points to a concrete remaining source-dependent algorithmic interface, not a hardness theorem or proof that all gates are impossible.
+
+A future bounded test should freeze one explicit source family not already classified by the current BDD decoders, define the public gate from its ordinary input basis, and prove both public endpoints and all finite sampling costs. Alternatively prove a computational comparison directly for the centered functional F with its actual code/advice. Neither interface is solved here; no new source hardness assumption is silently introduced.

@@ -1,0 +1,30 @@
+The reviewed source is J^-1 for an ordinary-basis integral ideal J in the power-of-two cyclotomic integer ring. All new source algorithms use coefficient arithmetic and finite fields. The canonical infinity norm is max_sigma |sigma(w)|, and coefficient Parseval is ||w||_2^2=(1/n)sum_sigma |sigma(w)|^2. This normalization is used consistently for rounding, symbol-error bounds and list selection.
+
+The exact inherited radius is epsilon_*ell^2/(1024 nKchiQmax). Since Qmax>=Qmin>=n sigma_floor, with sigma_floor=8n^2 ceil(sqrt(Kn))ell^4, epsilon_*<1 and chi>=1,
+
+    r < 1/(8192 n^4 K ceil(sqrt(Kn)) ell^2) < 1/(4sqrt(n)).
+
+The new comparisons do not drop K, Qmax, epsilon_* or chi. At rho<1 the integral determinant of uJ gives coefficient separation at least D^(-1/n)>1/2 for nonzero u in J^-1. Therefore the list decoder's coefficient-ball selection is unique at the inherited radius. The general RS theorem obtains correctness directly from code distance and nearest lifting, without requiring that extra lattice guard.
+
+The computational boundaries are:
+
+| Claim | Computed source information | Charged numeric work | Exact decoding or comparison condition |
+| --- | --- | --- | --- |
+| PRIME-SUPPORT-v2 | Odd ideal and all standard contraction indices by integer normal forms | Polynomial in feasible minimum d_*; sufficient B=O(log n) makes this polynomial in n | Inherited radius; no factorization needed |
+| DENSE-SPLIT-v1 | Constructed consecutive support, norm p^t, exponent p | Constructing basis polynomial in n,p; collision enumeration has exponential d_* | Diagnostic of that enumeration only |
+| RS-DECODE-v1 | Exponent, primitive root, cyclic support from ordinary basis | Polynomial in n, numeric p, and full encodings | r<1/2 and 8p^2r^2<n-t+1 |
+| GAP-DECODE-v1 | All primitive-root support orderings and maximum gap | Polynomial in n, numeric p, and full encodings | r<1/2 and 8p^2r^2<g_max |
+| LIST-DECODE-v1 | Same recognition; interpolation and algebraic root tree | Polynomial in n,p,d,B and full encodings | N>n(2B+1), d<n-h, r<1/2, (2r)^nD<1 |
+| RS-ACTUAL-v3 | Constructed dense source after common inherited parameters | Fixed b,c, inverse-polynomial epsilon_*, fixed/inverse-polynomial zeta; polynomial numeric p and chi | r=C/ceil(Cp), 1/2<pr<=1 and eventually n-t+1>8 |
+
+Inversion and lcm of reduced denominators compute the quotient exponent. Basis multiplication/evaluation and rational squared-distance tests have polynomial bit complexity. HNF/SNF are used at their previously accepted ordinary integer bit-complexity scope; no new sharper complexity exponent or specific software implementation is asserted. A large nonreduced supplied basis is charged by its full encoding. Codeword residues and nearest lifts have polynomial output encoding relative to the target and p. Exact membership can be tested by the integrality of products with all supplied basis vectors, avoiding acquisition of a special inverse-ideal basis.
+
+The only new family-existence use of a deep prime theorem is the effective least-prime bound. The reviewer inspected the publisher PDF of Xylouris, Acta Arithmetica 150.1 (2011), printed pages 65–66, DOI 10.4064/aa150-1-4. Theorem 1.1 supplies exponent 5.18 and an effectively computable absolute constant; replacing the exponent by 6 is conservative. Source: https://www.impan.pl/shop/en/publication/transaction/download/product/83078 . This is an imported theorem, not a reproof. The accepted DD2 construction uses reduced residue classes whose first positive representatives exceed the requested threshold, then deterministic trial division. Its polynomial numeric bound and distinctness argument apply at the present thresholds. No prime-density heuristic, unknown short vector or factoring oracle is introduced.
+
+For the growing-support example, a prime ideal above each constructed p_j can be obtained in polynomial n,p_j time. A self-contained justification of the indicated Berlekamp step is enough: for squarefree F=X^n+1 over F_p, the Frobenius-fixed subalgebra of F_p[X]/F is a product of one F_p per irreducible factor. A basis is found by linear algebra for z^p-z. If multiple factors remain, some basis vector distinguishes two components; gcds with that vector minus each of the p constants split them. Repetition yields irreducible factors in polynomial n,p work. Here p_j has polynomial numeric value. This is example construction only; PRIME-SUPPORT decoding itself does not factor its input.
+
+The C8 loops were checked in the original same-J theorem, lines 87–99, and the accepted theorem-v8/algorithm-v2/proof-v9 interface. Their integer arithmetic and loop values are polynomial in numeric kappa; Q_* is fixed before epsilon_C,a,chi. For the explicitly fixed b,c and fixed/inverse-polynomial zeta, choose common polynomial-value kappa using D=1 for Smax and D=2^(rho n) for the tail guard. Thus Q_* has polynomial value, a=O(sqrt(log n)), C is inverse polynomial, the prime threshold is polynomial value, and chi=ceil(Cp) is polynomial value. The remaining inherited parameter P may have superpolynomial value; log P and every complete scalar/routine encoding are charged. No blanket statement that all real or integer parameters have polynomial value is imported.
+
+The actual-radius witness explicitly enlarges chi. Arbitrarily inflated chi would not retain inverse-polynomial radius; the present choice does because Cp has polynomial value. The common kappa can be fixed before the source ideal, since v0d0=h0 is independent of chi. The subsequent source has p>Qmax and so remains coprime to every auxiliary modulus. This validates an exact source-family diagnostic and does not strengthen the inherited target quantifiers.
+
+The all-subfields consequence depends on its new comparison theorem. The full proof was checked in this report, but global acceptance of that exact dependency belongs to the coordinator and separate blind gate. Even after acceptance, it compares feasible collision indices only. It cannot be used to claim that the displayed exponential-index ideals are hard; RS-ACTUAL-v3 proves direct decoding of them at the actual delivered radius.

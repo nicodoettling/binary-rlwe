@@ -1,0 +1,9 @@
+{
+ "id":"FF1-FV2", "registered_before_execution":true,
+ "hypothesis":"The covariance second-difference identity holds with cross covariance retained; n=2 is an actual exception, whereas isotropic n=4,8 perturbations fail. Correlating the latent correction with G increases guessing after H is revealed.",
+ "code":"ff1-fv2.py", "input":"Exact rational matrices n=2,4,8; exhaustive n2 binary secrets; two n4 weight2 secrets; exhaustive S,G in {0,1}, E in {-1,1}; K=1,2,3,8 covariance direction checks.",
+ "seed":"none: exhaustive deterministic", "precision":"exact fractions; no Gaussian truncation",
+ "command":"ulimit -v 524288; /usr/bin/time -v timeout 120s python3 ff1-fv2.py > ff1-fv2-output.json 2> ff1-fv2-resource.txt",
+ "limits":{"wall_seconds":120,"address_space_bytes":536870912,"expected_seconds":1,"expected_rss_bytes":20000000,"heavy":false},
+ "expected":"Assertions pass, n2 correction works, n4 equal-weight covariances differ, guessing rises from 3/4 to 1 with H. Finite checks do not prove the general PSD/Fourier theorem."
+}

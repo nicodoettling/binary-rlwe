@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-21T21:18:45.061895+00:00",
+  "service_elapsed_seconds": 12634.425451591029,
+  "scheduled_boundary_utc": "2026-10-21T21:18:10.636448Z",
+  "type": "210-minute protected-period END and discovery cutoff",
+  "goal_status": "active",
+  "goal_receipt": "coordinator/goal-checkpoint-021.json",
+  "scientific_termination": false,
+  "terminal_certificate": null,
+  "next_phase": "Review, targeted repair, dependency reconciliation until270m; no new discovery assignments",
+  "roles": {
+    "root": "Review integration, exact evidence graph, replies to fresh frontier challenge",
+    "blind_transfer2": "Fresh statement-only twelve-claim review; resource-wording findings preserved",
+    "frontier_challenge1": "Fresh nonauthor escape-route challenge and full sparse/resource-repair reviews"
+  },
+  "frontier": "FF remains OPEN: no efficient exact/negligible full shared-secret source-to-fixed-target edge. Accepted source classifiers and diagnostics at actual inherited radius; new code decoders/bit implementation/sparse acquisition under exact reviews. New sparse principal family has exponential quotient exponent and an explicitly acquired norm-sqrt3 member. No source hardness established.",
+  "protected_work_evidence": [
+    "coordinator/gate-045-nonterminal.json",
+    "coordinator/allocation-090-nonterminal.json",
+    "coordinator/allocation-150-nonterminal.json",
+    "coordinator/acceptance-v4.json",
+    "coordinator/latent-relabel-and-centered-decision-frontier-v1.md",
+    "coordinator/good-secret-preselection-frontier-v1.md",
+    "coordinator/rs-bit-complexity-statement-v2.md",
+    "coordinator/sparse-acquisition-statement-v1.md",
+    "experiments/preselection-fv1-output.json",
+    "experiments/sparse-acq-fv1-output.json"
+  ],
+  "resume": "Read clock/cap/native goal before continuation. No new discovery. Review/targeted repair only. Next220m21:28:10Z; consolidation22:18:10Z, workers/experimentsstop22:33:10Z, finalcheckpoint22:43:10Z; graceful22:47:05Z/hard22:48:10Z. Never complete goal for time/report; no successor."
+}

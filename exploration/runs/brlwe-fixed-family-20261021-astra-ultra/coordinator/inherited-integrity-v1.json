@@ -1,0 +1,122 @@
+{
+  "at": "2026-10-21T17:54:35.332106+00:00",
+  "scope": "byte verification only; inherited acceptance retains exact guards, no new proof certification",
+  "checks": [
+    {
+      "path": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/modround-statement-v1.md",
+      "expected_sha256": "fdcbdf08b35faced79539eb82712607deb765d391cd65cbfe4e52cf2a32f9e6b",
+      "match": true
+    },
+    {
+      "path": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/modround-proof-v1.md",
+      "expected_sha256": "6cd5ca4a4cd569ba5ab886f0d5842204fd78e1fa61995b4c4fefed7fe68815c1",
+      "match": true
+    },
+    {
+      "path": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/am-main-theorem-v3.md",
+      "expected_sha256": "eaabea064b734ccefbbb1d2410ed03fecdbe671f098c2e69d59d432df855e33c",
+      "match": true
+    },
+    {
+      "path": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/am-main-proof-v3.md",
+      "expected_sha256": "f27a64db55c4442e38497518d8b9beca3b13e21bf0530a40497c9bc897131143",
+      "match": true
+    },
+    {
+      "path": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/selected-functional-statement-v2.md",
+      "expected_sha256": "2249ed6838cc5ef44b67407abb2d4d2b8d7975d6e2abc4ecff43e115e45b02ed",
+      "match": true
+    },
+    {
+      "path": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/selected-functional-proof-v2.md",
+      "expected_sha256": "62060ad053176080b00147cd7277c742fa58b4775a2ae7c47a727101806b516c",
+      "match": true
+    },
+    {
+      "path": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD1/extraction-theorem-v1.md",
+      "expected_sha256": "c8ad79f0f681e346e149749d46c3bb98ff5e2e6a2ef5cbc406a47f8c2abf0e38",
+      "match": true
+    },
+    {
+      "path": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD1/extraction-proof-v1.md",
+      "expected_sha256": "4a599d9eed5dfefca4b3d0bbcd1402aaba2e709310e7eaa62feb36d5b6b3f357",
+      "match": true
+    },
+    {
+      "path": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD2/am1-strengthened-theorem-v1.md",
+      "expected_sha256": "3500de1a74555ecbf8102d4fb52a87f6a0d87c7f9cdcca22e849f7a2812d870d",
+      "match": true
+    },
+    {
+      "path": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD2/am1-strengthened-proof-v1.md",
+      "expected_sha256": "d1d22c6a34776a493b7d43611abb076c8e97f07542ad48da33d5072683766e43",
+      "match": true
+    },
+    {
+      "path": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD2/prime-list-theorem-proof-v1.md",
+      "expected_sha256": "c54f0a6e37aa6ed6a13bb9cf387f98ce99fb12311a517c6fec32e3e32188d6cf",
+      "match": true
+    },
+    {
+      "path": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/fixed-main-statement-v2.md",
+      "expected_sha256": "25da2502104e746d3e9f2ca10e3d070372ff95b853b1fd2b0e6c96b1b909ecb6",
+      "match": true
+    },
+    {
+      "path": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/fixed-main-proof-v2.md",
+      "expected_sha256": "2e98d25b0f349e22dfeb23ba5ea18ebe339039fa08fb39f92cf45afa9f50f0c7",
+      "match": true
+    },
+    {
+      "path": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/nonvacuity-and-radius-note-v1.md",
+      "expected_sha256": "1f0bcde15cfa7dabdb2e522e0749ea714a8c2f1dafd49bbc8c659cf51de7a574",
+      "match": true
+    },
+    {
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/A/fractional-composition/theorem-only-v1.md",
+      "expected_sha256": "5c471744bb04c8149b0d539eaa26e1544d0ba8097b0d68ea019cabb74461b485",
+      "match": true
+    },
+    {
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/A/fractional-composition/proof-v1.md",
+      "expected_sha256": "f4c889a64173135b2e29cebeb8190f352b1d4de6ada77f37a3f7c4f3ec797af2",
+      "match": true
+    },
+    {
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/B/ideal-denominator/gaussian-periodic-theorem-v2.md",
+      "expected_sha256": "be7f05d67fc8f2b24fc6b93321c95005f4d7f6e24bab513b2cbaf35c82aeaad7",
+      "match": true
+    },
+    {
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/B/ideal-denominator/gaussian-periodic-proof-v2.md",
+      "expected_sha256": "207a9af38eb570e2a140d88008c0f4bc363f7d3c8a72049c53bbab85798910b4",
+      "match": true
+    },
+    {
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/c8-repair/multiplier-ohcp-theorem-v8.md",
+      "expected_sha256": "857a62e9f4a937a80e5cb3b115c8b132abf122c16665d29b39dcb62bde86fe0a",
+      "match": true
+    },
+    {
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/c8-repair/multiplier-ohcp-proof-v9.md",
+      "expected_sha256": "e9b3023715a3d4ec90c474aba6945223aa376248b1fa216134964a5643fb4c5f",
+      "match": true
+    },
+    {
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/c8-repair/multiplier-ohcp-algorithm-v2.md",
+      "expected_sha256": "4361c90a7fa7cfe25d0ab3e8cd5c5333fb474cf1fb764375e10c29fca5102735",
+      "match": true
+    },
+    {
+      "path": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/workers/B/theorem-only-v1.md",
+      "expected_sha256": "6e71289b7e9979ad169d1008d2e40f2cdb3f09f1bd7a29b48e41c90431e6becd",
+      "match": true
+    },
+    {
+      "path": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/workers/B/proof-v1.md",
+      "expected_sha256": "0b67d511c9bfc43f5a7fdbc51102f983471a1095bd0612efcd66ee82395c6fab",
+      "match": true
+    }
+  ],
+  "all_match": true
+}

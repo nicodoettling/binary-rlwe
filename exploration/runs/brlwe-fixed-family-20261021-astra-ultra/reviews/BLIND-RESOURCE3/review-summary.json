@@ -1,0 +1,74 @@
+{
+  "original_compact_v2": "Mathematics and finite table verified; literal effective-resource premise for M incomplete, uncomputable-M counterexample preserved.",
+  "energy_v2": "All mathematical/resource claims proved under explicit assumptions; full project acceptance not claimed.",
+  "compact_v3": "Rational encoded-M repair mathematically sufficient; strict blind repair gate deferred to different fresh referee after incidental author-status hints in authorized revision. No author checker or witness was opened.",
+  "finite_result": {
+    "status": "all asserted exact checks passed",
+    "input_hashes": {
+      "radial-kernel-tables.json": "573e8ef817299486670f9ed9b61d7611387b882f21de93cc1f64ba39d7dad81c",
+      "compact-selector-table.json": "59acd26442278a2a0191953888256f3cbb546e46212273d82190e06570c5040a"
+    },
+    "source_inputs": 81,
+    "target_outputs": 16,
+    "binary_secrets": 4,
+    "cube_edges": 4,
+    "radial_endpoint_and_row_equalities": 68,
+    "selector_nonzeros": 33,
+    "normalization_equalities": 81,
+    "independent_inversion_entry_equalities": 1296,
+    "full_endpoint_equalities": 80,
+    "maximum_G": "31747846170836756094431065767102005668874369915000841877198843/11688058834193179864192788149647847121368047468795377899320297",
+    "maximum_G_classes": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "capped_row_cases": 567,
+    "shared_vs_fresh_secret_batch_TV": "15/256",
+    "rank_size_cases": 1024,
+    "rank_input_pairs": 278784,
+    "DP_models": 24,
+    "DP_rank_unrank_vectors": 994,
+    "CP1_selected_probability": "21/2000",
+    "CP1_invalid_product_bound": "1/100",
+    "TWOEVENT_finite_rational_cases": 91,
+    "seeds": "none; deterministic exhaustive enumeration"
+  },
+  "experiment_receipt": {
+    "command": [
+      "/usr/bin/time",
+      "-v",
+      "-o",
+      "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-RESOURCE3/exact-check-time.txt",
+      "timeout",
+      "--signal=TERM",
+      "--kill-after=5s",
+      "120s",
+      "prlimit",
+      "--as=536870912",
+      "--cpu=120",
+      "--",
+      "python3",
+      "-I",
+      "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-RESOURCE3/independent_exact_check.py"
+    ],
+    "started_at": "2026-10-21T21:32:26.773873+00:00",
+    "ended_at": "2026-10-21T21:32:27.055025+00:00",
+    "elapsed_seconds": 0.2811630379874259,
+    "returncode": 0,
+    "timeout_seconds": 120,
+    "kill_after_seconds": 5,
+    "address_space_bytes": 536870912,
+    "cpu_seconds": 120,
+    "cleanup": "No child services, temporary files or persistent processes requested; timeout owns any experiment child."
+  },
+  "input_and_code_hashes_unchanged": true,
+  "independent_code": "independent_exact_check.py",
+  "full_report": "complete-report.md",
+  "frozen_inputs": "frozen-inputs",
+  "exposure": "exposure-log.md",
+  "global_acceptance": "Not asserted: unavailable historical regressions, canonical integration/witness linkage, fresh cleaned repair review, and delivery gates remain coordinator obligations.",
+  "recorded_at": "2026-10-21T21:39:15.221796+00:00"
+}

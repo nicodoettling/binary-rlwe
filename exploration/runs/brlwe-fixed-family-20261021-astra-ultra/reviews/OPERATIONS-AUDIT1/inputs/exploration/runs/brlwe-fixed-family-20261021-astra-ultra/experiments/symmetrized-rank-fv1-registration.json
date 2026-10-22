@@ -1,0 +1,18 @@
+{
+  "id": "SYM-RANK-FV1",
+  "registered_at": "2026-10-21T20:34:08.327469+00:00",
+  "hypothesis": "Legal signed-monomial/ring-automorphism group averaging may restore n4 forward joint-rank endpoint feasibility excluded without symmetrization",
+  "code": "experiments/symmetrized-rank-fv1.py",
+  "sha256": "694fd2c09414d186f2ec558a9add15a3271f18baffbabd466a700ce373a34e58",
+  "inputs": "Frozen FF3-FV17 exact integer endpoint matrix; n4Q3q2; all32 legal affine cube transforms; all16secret and comparator output rows",
+  "seeds": "none deterministic",
+  "wall_limit_seconds": 120,
+  "address_space_bytes": 2147483648,
+  "estimated_seconds": 45,
+  "estimated_peak_MiB": 700,
+  "precision": "Integer group/orbit reduction; floating LP only discovery; exact rational weights or integer Farkas required",
+  "tails": "finite rational noise only; not Gaussian or asymptotic proof",
+  "authorization": "root HEAVY slot concurrent only FULL-SOURCE3 LIGHT",
+  "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 timeout -k 5s 120s prlimit --as=2147483648 /usr/bin/time -v python3 experiments/symmetrized-rank-fv1.py",
+  "status": "REGISTERED"
+}

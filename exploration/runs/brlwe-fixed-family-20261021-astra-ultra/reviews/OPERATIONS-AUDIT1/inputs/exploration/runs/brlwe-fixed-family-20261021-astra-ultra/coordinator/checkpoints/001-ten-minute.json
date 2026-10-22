@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-21T17:58:47.197644+00:00",
+  "service_elapsed_seconds": 636.5613923269557,
+  "cap_state": "running",
+  "goal_status": "active",
+  "goal_receipt": "coordinator/goal-checkpoint-001.json",
+  "roles": {
+    "root": "FF2 joint CRT-noise flattening and multi-value extraction",
+    "ff1": "MR retained-S witness, signed correction, independent K floor",
+    "sv": "direct BDD classification at exact radius, residue-degree structure"
+  },
+  "frontier": [
+    "Candidate fixed-q extraction of an identifying CRT certificate via norm lower bound and projected Gaussian uniformity; not yet frozen/reviewed",
+    "Separate completion sigma>=2ts sqrt(Kn)L still prevents arbitrary sample exponents",
+    "SV provisional direct decoding family theorem exists, no hardness claim"
+  ],
+  "next": "Freeze CRT projection/extraction lemmas and finite audit; inspect completion obstruction; full/blind reviews later. Continue protected programme to21:18:10Z."
+}

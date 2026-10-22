@@ -1,0 +1,146 @@
+{
+  "sealed_at": "2026-10-21T21:50:16.280960+00:00",
+  "reviewer": "BLIND-RESOURCE4",
+  "scope": "Fresh statement-only correlated same-model mathematical review; no formal proof-assistant or statistical independence claim",
+  "targets": [
+    "compact-selector-statement-v3",
+    "energy-rank-kernel-statement-v2"
+  ],
+  "local_verdict": {
+    "exact_finite_claims": "ACCEPTED",
+    "general_conditional_theorems": "ACCEPTED",
+    "computational_claims": "ACCEPTED within stated expected-time, numerical-size and representation conditions",
+    "full_asymptotic_binary_secret_family": "NOT ASSERTED / NOT CERTIFIED",
+    "optional_TWOEVENT_Gaussian_instantiation": "NOT IMPORTED / NOT AUDITED"
+  },
+  "findings_retained": [
+    "TWOEVENT dependency initially absent and requested before reading",
+    "Narrower imported TWOEVENT premises versus independently reconstructed boundary cases",
+    "Pointwise retry law required after arbitrary posterior support restriction",
+    "Outer-trial cap distinct from worst-case random-bit/runtime cap",
+    "Numeric M distinct from its encoding length",
+    "Pair extension inherits uniformity within joint shells",
+    "Full shared-secret law established conditional on the same secret; no arbitrary trace metadata theorem"
+  ],
+  "experiment_invocations": 1,
+  "hidden_retries": 0,
+  "LIGHT_slot_released": true,
+  "configured_model_note": "Task requested Astra ultra with inherited explicit service_tier=default; configuration evidence is not billing telemetry",
+  "files": [
+    {
+      "path": "allowed-input/compact-selector-statement-v3.md",
+      "sha256": "eecebca3d1d23bb1cd88c577d90b66cc42e8f14254098356aedd9cdf285e26e1",
+      "bytes": 3662
+    },
+    {
+      "path": "allowed-input/compact-selector-table.json",
+      "sha256": "59acd26442278a2a0191953888256f3cbb546e46212273d82190e06570c5040a",
+      "bytes": 6997
+    },
+    {
+      "path": "allowed-input/definitions.md",
+      "sha256": "430c7e82f09cea2e29824ae09ea17caae38d45b8c978bc5469516854a70e783d",
+      "bytes": 1028
+    },
+    {
+      "path": "allowed-input/endpoint-definitions-v1.md",
+      "sha256": "2a73440eb168d2ca9d581ed6365a9b5a41cc39305b5c5bf8c4ecba94def9e035",
+      "bytes": 1686
+    },
+    {
+      "path": "allowed-input/energy-rank-kernel-statement-v2.md",
+      "sha256": "a8c7daf894df5d0d5ac8ac5fa8132fcbad884ab5020baac7500d820169c95556",
+      "bytes": 3203
+    },
+    {
+      "path": "allowed-input/radial-kernel-tables.json",
+      "sha256": "573e8ef817299486670f9ed9b61d7611387b882f21de93cc1f64ba39d7dad81c",
+      "bytes": 802
+    },
+    {
+      "path": "allowed-input/two-event-noise-kernel-statement-v1.md",
+      "sha256": "ba5c8050af98cce9e7dec3d9c1b9a1806f606f9b59f1ca40e62917aa093e913b",
+      "bytes": 2151
+    },
+    {
+      "path": "allowed-read-addendum-v1.json",
+      "sha256": "ff9a8dbb3b991f4369c5cf0289bc935a24cf6db07357706f2e1c5ff21689a773",
+      "bytes": 336
+    },
+    {
+      "path": "allowed-read-manifest-v1.json",
+      "sha256": "c52561b729f66e8f301cc8ebb214a91b335e1a90cef492a8dd9eaf1d36e5b5b9",
+      "bytes": 1435
+    },
+    {
+      "path": "assignment-verbatim.txt",
+      "sha256": "c6f2f44fec468d0a041babe40d361aeb0450b6c0d87254ac12a68cb29c20b011",
+      "bytes": 2670
+    },
+    {
+      "path": "coordinator-messages-v1.json",
+      "sha256": "bd399d007a7adad950382573974920bea6556b5a769044672edb0127a39e71f1",
+      "bytes": 1490
+    },
+    {
+      "path": "exact-audit-results-v1.json",
+      "sha256": "70ec36b54621eaf6cbf3ebf23d466462ecfcbecae5ccac718388af444e0ea8ea",
+      "bytes": 3392
+    },
+    {
+      "path": "exact-audit-v1.py",
+      "sha256": "3cd527f76b36a71cc08e24ac82ccae076bb7f1d18ef2d6c3af714b48f4f5c8a0",
+      "bytes": 7092
+    },
+    {
+      "path": "exact-kernel-v1.json",
+      "sha256": "5eba480ca71d980edd8c9b34e7334cd336f91c7d22600af22561becde22bebdb",
+      "bytes": 183853
+    },
+    {
+      "path": "experiment-preregistration-v1.json",
+      "sha256": "2d46783c4fd3d2cd13cbfafc1a8719f0f844fd6e8d628ba30f72018a075b9c59",
+      "bytes": 4246
+    },
+    {
+      "path": "experiment-v1.exit.json",
+      "sha256": "b725b1e9cde34864c0ac0cb7face65004734bc4019dd8636406e974ea7e98018",
+      "bytes": 797
+    },
+    {
+      "path": "experiment-v1.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "experiment-v1.stdout",
+      "sha256": "70ec36b54621eaf6cbf3ebf23d466462ecfcbecae5ccac718388af444e0ea8ea",
+      "bytes": 3392
+    },
+    {
+      "path": "experiment-v1.time",
+      "sha256": "ae2265a7a63cac2f72ad9e37f4bb7e1dea52e508b64e5905c2f40af5d6e8b797",
+      "bytes": 916
+    },
+    {
+      "path": "exposure-chronology-v1.json",
+      "sha256": "49905688b8697c1fbb6c9f1c6415c5645911139cf1411177ef64b97220cdcc81",
+      "bytes": 3325
+    },
+    {
+      "path": "referee-report-v1.md",
+      "sha256": "d6f9eb7a913d8b8636b33218e2a7f5b406add8e33adc492322dad2e9ab272ce0",
+      "bytes": 34358
+    },
+    {
+      "path": "reviewer-input-hashes-v1.json",
+      "sha256": "839fbd0a925ad0a097979402e8ecc772071e31132d9c610221a1ec7aa9f14ac4",
+      "bytes": 2639
+    }
+  ],
+  "seal_exclusions": [
+    "seal-v1.json",
+    "seal-v1.sha256"
+  ],
+  "mutation_policy": "Do not overwrite sealed artifacts; any amendment gets a new version and invalidates downstream reliance as appropriate."
+}

@@ -1,0 +1,68 @@
+{
+  "scope": "Local FULL review; not coordinator ACCEPT",
+  "claims": [
+    {
+      "id": "CRT-DUAL-v1",
+      "status": "FULL_REVIEW_PASS_PENDING_BLIND",
+      "dependencies": []
+    },
+    {
+      "id": "CRT-FOURIER-v1",
+      "status": "FULL_REVIEW_PASS_PENDING_BLIND",
+      "dependencies": [
+        "CRT-DUAL-v1"
+      ]
+    },
+    {
+      "id": "CRT-CERT-v1",
+      "status": "FULL_REVIEW_PASS_PENDING_BLIND",
+      "dependencies": [
+        "norm/SNF"
+      ]
+    },
+    {
+      "id": "CRT-FAMILY-v1",
+      "status": "FULL_REVIEW_PASS_PENDING_BLIND",
+      "dependencies": [
+        "CRT-FOURIER-v1",
+        "exact DD2-PRIMES-v1"
+      ]
+    },
+    {
+      "id": "CERT-CONDITIONAL-v1",
+      "status": "ANALYTIC_PASS_UNDER_EXPLICIT_FRESH_COIN_MODEL",
+      "dependencies": [
+        "CRT-FOURIER-v1",
+        "exact DD1 identity"
+      ]
+    },
+    {
+      "id": "CERT-FINITE-MODEL-v1",
+      "status": "REJECTED_FOR_CERTIFICATION_PENDING_VERSIONED_REPAIR",
+      "dependencies": [
+        "FULL-FF1-MODEL-1"
+      ]
+    },
+    {
+      "id": "CERT-FAMILY-v1",
+      "status": "PROVISIONAL_REOPENED",
+      "dependencies": [
+        "CERT-FINITE-MODEL-v1",
+        "CRT-FAMILY-v1"
+      ]
+    },
+    {
+      "id": "FF-source-bridge",
+      "status": "OPEN_NOT_REVIEWED",
+      "dependencies": [
+        "K-dependent A-FRAC completion",
+        "exact source endpoint requirements"
+      ]
+    },
+    {
+      "id": "SOURCE-HARDNESS",
+      "status": "UNESTABLISHED",
+      "dependencies": []
+    }
+  ]
+}

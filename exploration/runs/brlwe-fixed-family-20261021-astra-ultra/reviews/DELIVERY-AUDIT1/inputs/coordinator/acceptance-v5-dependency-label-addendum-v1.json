@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-21T21:39:02.317089+00:00",
+  "base": "coordinator/acceptance-v5.json",
+  "base_sha256": "3aa7b065e4fdb99d500875419b80bb8240a64c7ab80848b54bb0468aca5a2693",
+  "reason": "Frozen accepted-claim copies retained earlier pending labels/dependency names. Their dependency_resolution and top qualifications already closed exact generic-r equivalence. Mutable claims and graph now use RS-v2 explicitly. No theorem bytes or acceptance scope changed.",
+  "corrected": [
+    "SV-GAP-DECODE-v1",
+    "SV-LIST-DECODE-v1",
+    "SV-RS-ACTUAL-v3"
+  ],
+  "graph": "claim-dependencies.json"
+}

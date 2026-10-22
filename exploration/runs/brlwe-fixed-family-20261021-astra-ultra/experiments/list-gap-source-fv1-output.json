@@ -1,0 +1,87 @@
+{
+  "status": "PASS",
+  "full_list_decoder_cases": [
+    {
+      "n": 16,
+      "p": 97,
+      "t": 2,
+      "B": 1,
+      "d": 9,
+      "p_times_r": "3/2",
+      "miss_bound": 1,
+      "monomials": 55,
+      "constraints": 48,
+      "root_count": 1,
+      "tree_counts": [
+        1,
+        1,
+        1
+      ],
+      "degree_budgets": [
+        1,
+        1,
+        1
+      ],
+      "scalar_and_unique_RS_guards_fail": true,
+      "norm_eligible": true
+    },
+    {
+      "n": 32,
+      "p": 193,
+      "t": 3,
+      "B": 2,
+      "d": 24,
+      "p_times_r": "2",
+      "miss_bound": 0,
+      "monomials": 169,
+      "constraints": 160,
+      "root_count": 1,
+      "tree_counts": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "degree_budgets": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scalar_and_unique_RS_guards_fail": true,
+      "norm_eligible": true
+    }
+  ],
+  "root_recursion_controls": {
+    "shared_prefix_roots": [
+      [
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    "inseparable_root": [
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    "inseparable_counts": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "spectral_gap_subsets": 254,
+  "precision": "exact finite fields and rational arithmetic",
+  "tails": "none",
+  "scope": "bounded controls; not infinite proof or ordinary-basis implementation certification",
+  "wall_seconds": 0.08540984697174281
+}

@@ -1,0 +1,39 @@
+{
+  "at_utc": "2026-10-21T21:11:41.805127+00:00",
+  "status": "PASS",
+  "author_files_reverified": 177,
+  "snapshot_records_reverified": 219,
+  "all_author_and_root_target_versions_unchanged": true,
+  "mutable_coordinator_context_changes": [
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/regressions.json",
+      "current_sha256": "2a5e044635e3312dffad587eecc863e0fc2c7f4736d60713a02f3dcde2e618ec"
+    }
+  ],
+  "jobs": [
+    {
+      "stem": "independent-certificate-check-v1",
+      "exit": 1,
+      "cleanup": "foreground timeout-managed process returned; no detached jobs or sessions"
+    },
+    {
+      "stem": "independent-certificate-check-v2",
+      "exit": 0,
+      "cleanup": "foreground timeout-managed process returned; no detached jobs or sessions"
+    },
+    {
+      "stem": "independent-probability-controls-v1",
+      "exit": 0,
+      "cleanup": "foreground timeout-managed process returned; no detached jobs or sessions"
+    },
+    {
+      "stem": "independent-enum-repair-controls-v1",
+      "exit": 0,
+      "cleanup": "foreground timeout-managed process returned; no detached jobs or sessions"
+    }
+  ],
+  "active_jobs": 0,
+  "inherited_references": 203,
+  "old_source_phase1_seal_unchanged": true,
+  "scope": "file integrity, exact recorded outputs and cleanup only; no extra experiment or blanket historical recertification"
+}

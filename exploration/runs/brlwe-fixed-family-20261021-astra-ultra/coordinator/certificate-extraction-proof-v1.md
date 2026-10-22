@@ -1,0 +1,25 @@
+# CERT-EXTRACT-v1 proof candidate
+
+PROVISIONAL. Extends the exact DD1-EXTRACT-v1 CRT transformation identity, with a newly justified partial endpoint and sequential law audit. No inherited acceptance transfers to this extension without review.
+
+Fix the secret s for the entire proof. Write p0(s) for unmasked acceptance and pU for comparator acceptance. For each fixed retained-root set H, let p_end(H,s) be acceptance when every response coordinate outside H is independently uniformly masked. Conditional on all public multipliers, the remaining response coordinates are translated copies of E_H, independently across the k samples. The hypothesis and product TV triangle inequality give |p_end(H,s)-pU|≤k tau≤epsilon/4. The masked complement is uniform and independent of the unmasked projection: conditioning on the original error and any unmasked coordinates, an independent uniform additive mask remains uniform. This is the FULL response law, not a claim of original CRT error independence.
+
+Now suppose |p0(s)-pU|≥epsilon/2. For every H of size<r, |p0(s)-p_end(H,s)|≥epsilon/4. Along the ordered complement-prefix hybrids there are at most n adjacent gaps. At least one has magnitude ≥epsilon/(4n).
+
+At stage l, condition on s and the ENTIRE previous-stage transcript, including every selected root, all old bank observations, all D coins and any previous failure/incorrect output. If continuing, H is fixed and has size l-1. The new calibration and test raw banks are independent of this transcript conditional on s. For each calibrated prefix, its Ncal outputs are iid conditional on s/history, with the corresponding exact hybrid mean. Different prefixes may be dependent through bank reuse. Hoeffding at error a and a union bound over ≤n+1 prefixes gives calibration failure ≤delta/(4r), because 2Ncal a²≥ceil(log2(8r(n+1)/delta))≥ln(8r(n+1)/delta). No product of marginal events is used.
+
+On calibration success, a good secret produces a maximal empirical gap at least epsilon/(4n)-2a>epsilon/(8n), so it cannot fail the threshold. Any selected gap passing that threshold has actual separation at least epsilon/(8n)-2a=7epsilon/(64n)>4a, whether s is good or not.
+
+Condition further on the entire current calibration transcript. The test bank remains independent conditional on s. For each candidate t at the selected root j, (A,p)→(A+p e_j,p) is a bijection, and
+
+    B'=A's+E+(t-s(alpha_j))p e_j+W.
+
+For correct t this is exactly the previous hybrid; for incorrect t, the nonzero scalar maps uniform p to uniform at j, giving exactly the next hybrid. This equality retains the COMPLETE coefficient-error law and the one shared s. Each t estimator has iid outputs across its disjoint test blocks. Reusing the same test bank across t makes estimators dependent, handled by a union bound. The displayed Ntest gives failure ≤delta/(4r), conditional on every preceding positive-probability history and selected root. On simultaneous success, strict distance comparison marks precisely the correct t by the >4a gap.
+
+Thus conditional stage failure on a good fixed s is at most delta/(2r); conditional incorrect value on any fixed s is at most that amount. Add these bounds over stages by conditional expectation and a union bound, giving delta/2 total. This is valid after adaptive root selection because the noise bound holds for EVERY possible H, and new physical banks are independent after conditioning on s and full past. No posterior assumption that S remains uniform after a selected transcript is used. Previously returned values do not enter the new transformations. The all-input finite field sampler couples to ideal uniform coins until one cap failure; at most Tfield draws give an additional delta/2. The exact output/incorrect bounds follow.
+
+For random binary S, let X=p0(S)-pU. Since |EX|≥epsilon and |X|≤1, Pr[|X|≥epsilon/2]≥epsilon/(2-epsilon)≥epsilon/2. Apply the pointwise good-secret success and subtract delta to obtain epsilon/2-delta. This preserves a possibly small good-secret set; it does not assert per-secret decision advantage or amplify success by fresh coins across secrets.
+
+Distinctness of selected roots is enforced by masking only the current complement. CRT-PROJ-v1's norm-divisor injectivity gives at most one binary S for a reported r-value tuple. For information-theoretic analysis, a map can invert valid tuples by exhaustive enumeration, so correct-certificate probability is at most optimal full-secret guessing from the same observation. This is a bound on an unbounded predictor, not a polynomial-time algorithm or permission to hide enumeration inside the reduction.
+
+The finite sample, call and draw counts sum the per-stage DD1 construction with n as a uniform upper bound on remaining roots. Whole raw batches share s. Fixed-family flattening and arbitrary polynomial k/epsilon are exactly as in CRT-PROJ-v1. The inherited A-FRAC completion lower bound sigma≥2ts sqrt(Kn)L persists and may fail for these larger K; neither this proof nor its corollary closes that edge.

@@ -1,0 +1,9 @@
+# Dimension padding and order-based alternatives
+
+Exploratory interface audit. No general impossibility or imported hardness theorem.
+
+For the inherited MR condition at target degree N, take a fixed target width sigma(N)=N^a, an allowed adversary sample bound k(N)=N^b and advantage N^(-c). The necessary displayed sufficient guard requires N^a>=8 N^(b+c) N(N/2+2). Substituting N=n^d, even with d chosen after b,c, multiplies both exponent comparisons by d: it does not remove a>=b+c+2 asymptotically. Merely relabeling the target security parameter therefore does not repair this composition's order of quantifiers.
+
+An extension-ring/module embedding is a different construction and is not covered by that substitution argument. It would need an exact rank-one shared binary target law at degree N, a source map, coefficient-noise composition and all-input resources. A rectangular generic-matrix reduction does not supply those circulant constraints. Even if the correction dimension were smaller than N, a transfer floor containing sqrt(k(N)) still prevents a fixed target exponent from covering all b through a dimension change alone. This observation concerns that floor, not every possible computational reduction.
+
+A targeted primary-source intake of Bolboceanu–Brakerski–Perlman–Sharma, Order-LWE and the Hardness of Ring-LWE with Entropic Secrets, was made at https://eprint.iacr.org/2018/494 . The accessible author abstract distinguishes subring/ideal-secret results from its proposed broad high-entropy class. The PDF request returned403 in the available browser, so no quantitative theorem from its body is imported here. In particular this intake supplies neither an effective map of the present norm-restricted ordinary-basis source at its actual radius nor the exact fixed-family binary target law. A concrete theorem/body and parameter audit would be required before using it. The word entropic is not a substitute for those interfaces.

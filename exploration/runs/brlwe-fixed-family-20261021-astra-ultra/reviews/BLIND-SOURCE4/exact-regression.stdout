@@ -1,0 +1,136 @@
+{
+  "status": "PASS bounded exact controls only",
+  "counts": {
+    "supports": 270,
+    "fourier_basis_vectors": 1046,
+    "annihilator_products": 8244,
+    "root_examples": 6,
+    "root_exhaustive_candidates": 750
+  },
+  "root_details": [
+    {
+      "name": "inseparable_fifth_power",
+      "roots": [
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "widths": [
+        1,
+        1,
+        1
+      ],
+      "budget": 5
+    },
+    {
+      "name": "shared_prefix_split",
+      "roots": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "widths": [
+        1,
+        1,
+        2
+      ],
+      "budget": 2
+    },
+    {
+      "name": "x_content_and_multiplicity",
+      "roots": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "widths": [
+        2,
+        2,
+        2
+      ],
+      "budget": 3
+    },
+    {
+      "name": "formal_root_too_long",
+      "roots": [],
+      "widths": [
+        1,
+        1,
+        1
+      ],
+      "budget": 1
+    },
+    {
+      "name": "all_constants",
+      "roots": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          0
+        ]
+      ],
+      "widths": [
+        5,
+        5,
+        5
+      ],
+      "budget": 5
+    },
+    {
+      "name": "no_root",
+      "roots": [],
+      "widths": [
+        1,
+        0,
+        0
+      ],
+      "budget": 2
+    }
+  ],
+  "CP1": {
+    "vk": "10/11",
+    "A": "21/2000",
+    "C": "1/20",
+    "D": "879/1000",
+    "two_hits": "21/2000",
+    "gamma_squared": "1/100",
+    "post_selected_f": "21/221",
+    "old_product_claim": "REJECTED"
+  }
+}

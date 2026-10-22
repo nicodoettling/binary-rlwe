@@ -1,0 +1,16 @@
+# Proof of FF3-COMPACT-SELECTOR-v1
+
+Fix the entire input x. A trial draws e uniformly and accepts with probability G(c_e(x))/M. By(N), its acceptance probability is1/M. Fresh trial tapes are independent conditional on this fixed x, so rejection count is geometric of mean M and its L-trial tail is(1-1/M)^L<=exp(-L/M). Since the average of G over edges is1, M>=1 whenever(N)holds. A G=0 branch is never accepted and its subsequent conditional variant distribution need not be defined.
+
+The accepted edge probability isG(c_e(x))/|E|. Multiplying by the conditional variant probability g/G yields g(c_e(x),j,k)/|E|. Conditional on e,j,k,x, the two residual draws are independent with their declared full ring laws. The map from target pair(c,d) to(d-cu,d-cv) is a bijection because v-u=X^i is a unit. Thus its conditional point probability is exactly the product displayed in(K). Summing yields(K), and summing over y gives(N)/|E|=1. This proves complete row normalization, including every low-probability source input.
+
+The endpoint equations are separate assumptions because choosing e,j,k after observing x alters the source distribution on a selected branch. No step applies the two-secret theorem to a selected branch under its original unconditioned law. In the finite instance FV11 directly evaluates each source-weighted sum for every fixed s and every target y, and the corresponding comparator sum, with rational coefficients and exact support reconstruction. Those equations therefore provide the full target joint laws, not only moments or selected events.
+
+For a batch, fix the same retained secret s first. Source samples and fresh trial/H tapes are independent conditional on s, and the per-sample equation is T_s. Consequently the exact output law is T_s^tensor k, and mixing one common binary s gives the intended shared-secret law. Approximate implementations are coupled one sample at a time using the per-input error bound; a union bound gives at most k times that bound, regardless of a stopping history. CP-1's invalid product inference is not used.
+
+The uniform comparator is preserved by its own UK=V equation, and its samples are independent under independent kernel tapes. The finite H tables select target weight classes with the stated h(z,w) probabilities and sample uniformly from the coefficient vectors in the class, giving exactly h(z,w)/binomial(n,w) per atom for q2. No Gaussian assertion is inferred from this weight representation.
+
+The cost statement is conditional on explicit polynomial table construction/encoding and samplers. Uniform edge sampling needs one index i and n-1 independent bits for u, with u_i=0. Ring multiplication and its monomial inverse use polynomial arithmetic. It never samples the true secret or assumes a decoder. Repeating these operations expected M times gives the claimed cost. Table state count alone does not bound M, bit length, table construction, or endpoint approximation error.
+
+
+Resource clarification for v2: choose i uniformly from0,...,n-1 by repeated ceil(log2 n)-bit proposals below n, with expected fewer than2 proposals, then draw the n-1 remaining coefficient bits of u. This is expected O(n) fair bits. For power-of-two n no rejection is needed, giving a worst-case O(n) bound. All kernel/endpoint formulas are unchanged.

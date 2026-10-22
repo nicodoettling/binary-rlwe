@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-21T21:45:30.931251+00:00",
+  "kind": "Documentary index checker; not mathematical experiment",
+  "attempt": "Inline initial acceptance-index verification",
+  "exit_code": 1,
+  "stderr": "AssertionError: (1, FULL-SV1)",
+  "cause": "Treated human review labels in early acceptance review_seals as relative file paths. No data hash mismatch established.",
+  "repair": "verify-acceptance-index-v2.py resolves output-relative, reviews-relative or label keys by exact expected SHA256; acceptance-integrity-v2.json records80checks/26acceptedclaims.",
+  "originals": "No historical acceptance, statement, proof or review bytes changed."
+}

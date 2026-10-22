@@ -1,0 +1,560 @@
+{
+  "at": "2026-10-21T19:39:31.677352+00:00",
+  "count": 21,
+  "entries": [
+    {
+      "id": "CRT-FV1-SELECTION-WITNESS-FAIL",
+      "reference": {
+        "registry": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/regressions.json",
+        "sha256": "27b966ec59faa61249b3dec9682bafdcf12e95418b7676739032bc00a5d77e40",
+        "json_pointer": "/new_entries/0"
+      },
+      "source_reference": {
+        "id": "CRT-FV1-SELECTION-WITNESS-FAIL",
+        "status": "PRESERVED_FAILED_EXPERIMENT",
+        "scope": "Proposed n2 q5 ternary finite law does not increase selected-root zero event; no theorem rejection inferred",
+        "evidence": [
+          "experiments/crt-fv1.py",
+          "experiments/crt-fv1-stderr.txt",
+          "experiments/crt-fv1-resources.txt"
+        ],
+        "replacement": "CRT-FV2 uses separate exact uniform Fq\u00b2 law"
+      },
+      "resolved_entry": {
+        "id": "CRT-FV1-SELECTION-WITNESS-FAIL",
+        "status": "PRESERVED_FAILED_EXPERIMENT",
+        "scope": "Proposed n2 q5 ternary finite law does not increase selected-root zero event; no theorem rejection inferred",
+        "evidence": [
+          "experiments/crt-fv1.py",
+          "experiments/crt-fv1-stderr.txt",
+          "experiments/crt-fv1-resources.txt"
+        ],
+        "replacement": "CRT-FV2 uses separate exact uniform Fq\u00b2 law"
+      },
+      "source_hash_match": null,
+      "disposition": "PRESERVED_WITH_SCOPED_APPLICATION",
+      "reason": "Preserved failed experiment; no candidate derives a new theorem from this failed selected-root control."
+    },
+    {
+      "id": "CERT-MODEL-1",
+      "reference": {
+        "registry": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/regressions.json",
+        "sha256": "27b966ec59faa61249b3dec9682bafdcf12e95418b7676739032bc00a5d77e40",
+        "json_pointer": "/new_entries/1"
+      },
+      "source_reference": {
+        "id": "CERT-MODEL-1",
+        "status": "REJECT-UNQUALIFIED-v1",
+        "scope": "Finite input effectiveness and iid concentration premises; analytical CRT identity unchanged",
+        "evidence": [
+          "reviews/FULL-FF1/initial-findings-v1.md"
+        ],
+        "witness": "32 fair outputs reusing one bit have empirical error>1/4 with probability1, contradicting unjustified iid2exp(-4) bound",
+        "repair_required": "Rational epsilon/delta with full bit costs; explicit independent fresh D coins per execution; supplied all-input bounded code"
+      },
+      "resolved_entry": {
+        "id": "CERT-MODEL-1",
+        "status": "REJECT-UNQUALIFIED-v1",
+        "scope": "Finite input effectiveness and iid concentration premises; analytical CRT identity unchanged",
+        "evidence": [
+          "reviews/FULL-FF1/initial-findings-v1.md"
+        ],
+        "witness": "32 fair outputs reusing one bit have empirical error>1/4 with probability1, contradicting unjustified iid2exp(-4) bound",
+        "repair_required": "Rational epsilon/delta with full bit costs; explicit independent fresh D coins per execution; supplied all-input bounded code"
+      },
+      "source_hash_match": null,
+      "disposition": "PRESERVED_WITH_SCOPED_APPLICATION",
+      "reason": "FRAC iid is conditional on fixed S with truly independent draws; estimator is explicitly statistical with no efficient computable-real comparison claim. No finite-code concentration wrapper is supplied."
+    },
+    {
+      "id": "FF1-REG-1",
+      "reference": {
+        "registry": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/regressions.json",
+        "sha256": "27b966ec59faa61249b3dec9682bafdcf12e95418b7676739032bc00a5d77e40",
+        "json_pointer": "/new_entries/2"
+      },
+      "source_reference": {
+        "id": "FF1-REG-1",
+        "source_registry": "workers/FF1/regressions.json",
+        "source_registry_sha256": "cb22b3ba0da2010755ab4bca04d80407676ccf933f3dd618e5ccc923e825ac2f",
+        "json_pointer": "/new/0",
+        "entry_sha256": "ceab511625605e9dcf11e84c366d00c47fa7c52e5930c43f59922671164c4494",
+        "status": "SCOPED-REFERENCE; author bounded control, no new main acceptance from cataloguing"
+      },
+      "resolved_entry": {
+        "id": "FF1-REG-1",
+        "rejected_shortcut": "Fresh-secret tensor shortcut",
+        "witness": "Exact shared-secret two-sample event differs from fresh-secret product by23979/9834496.",
+        "evidence": "experiments/ff1-fv1-output.json",
+        "status": "SCOPED_AUTHOR_CONTROL; no main impossibility inferred"
+      },
+      "source_hash_match": true,
+      "disposition": "PRESERVED_WITH_SCOPED_APPLICATION",
+      "reason": "Shared S retained; iid only conditional on S, never fresh-secret tensorization."
+    },
+    {
+      "id": "FF1-REG-2",
+      "reference": {
+        "registry": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/regressions.json",
+        "sha256": "27b966ec59faa61249b3dec9682bafdcf12e95418b7676739032bc00a5d77e40",
+        "json_pointer": "/new_entries/3"
+      },
+      "source_reference": {
+        "id": "FF1-REG-2",
+        "source_registry": "workers/FF1/regressions.json",
+        "source_registry_sha256": "cb22b3ba0da2010755ab4bca04d80407676ccf933f3dd618e5ccc923e825ac2f",
+        "json_pointer": "/new/1",
+        "entry_sha256": "7bb6f739f2d623d9377404a16bad8dc76e7f67868d46d5d6bf99e68fe2c46316",
+        "status": "SCOPED-REFERENCE; author bounded control, no new main acceptance from cataloguing"
+      },
+      "resolved_entry": {
+        "id": "FF1-REG-2",
+        "rejected_shortcut": "Increasing-Q removes all rounding mismatch",
+        "witness": "Retained-S cosine difference remains; provisional analytic W1/W2; finite Fourier diagnostics only.",
+        "evidence": "deterministic-rounding-witness-proof-v1.md",
+        "status": "SCOPED_AUTHOR_CONTROL; no main impossibility inferred"
+      },
+      "source_hash_match": true,
+      "disposition": "PRESERVED_WITH_SCOPED_APPLICATION",
+      "reason": "GAUSS is an additional restricted affine continuous diagnostic; it neither generalizes nor certifies deterministic-rounding witnesses."
+    },
+    {
+      "id": "FF1-REG-3",
+      "reference": {
+        "registry": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/regressions.json",
+        "sha256": "27b966ec59faa61249b3dec9682bafdcf12e95418b7676739032bc00a5d77e40",
+        "json_pointer": "/new_entries/4"
+      },
+      "source_reference": {
+        "id": "FF1-REG-3",
+        "source_registry": "workers/FF1/regressions.json",
+        "source_registry_sha256": "cb22b3ba0da2010755ab4bca04d80407676ccf933f3dd618e5ccc923e825ac2f",
+        "json_pointer": "/new/2",
+        "entry_sha256": "9dd247dbf10dcaf4de0753032ee0682397bfcee75f9b39b88d15599b10a9bc42",
+        "status": "SCOPED-REFERENCE; author bounded control, no new main acceptance from cataloguing"
+      },
+      "resolved_entry": {
+        "id": "FF1-REG-3",
+        "rejected_shortcut": "Binary Hamming weight determines ring covariance",
+        "witness": "n4 S1=1+X versus S2=1+X\u00b2 have weight2 and distinct multiplication covariances.",
+        "evidence": "experiments/ff1-fv2-output.json",
+        "status": "SCOPED_AUTHOR_CONTROL; no main impossibility inferred"
+      },
+      "source_hash_match": true,
+      "disposition": "PRESERVED_WITH_SCOPED_APPLICATION",
+      "reason": "WEIGHT-COV and WEIGHT-GAUSS derive nonconstant within-slice covariance using exact four-corner algebra."
+    },
+    {
+      "id": "FF1-REG-4",
+      "reference": {
+        "registry": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/regressions.json",
+        "sha256": "27b966ec59faa61249b3dec9682bafdcf12e95418b7676739032bc00a5d77e40",
+        "json_pointer": "/new_entries/5"
+      },
+      "source_reference": {
+        "id": "FF1-REG-4",
+        "source_registry": "workers/FF1/regressions.json",
+        "source_registry_sha256": "cb22b3ba0da2010755ab4bca04d80407676ccf933f3dd618e5ccc923e825ac2f",
+        "json_pointer": "/new/3",
+        "entry_sha256": "8681f1c8e63782ed1e0c22a33c8e8df0a3ff175aeb9391732b3690d3f43094b0",
+        "status": "SCOPED-REFERENCE; author bounded control, no new main acceptance from cataloguing"
+      },
+      "resolved_entry": {
+        "id": "FF1-REG-4",
+        "rejected_shortcut": "COV obstruction includes n2",
+        "witness": "n2 correlated additive correction yields equal covariance for all four secrets; n>=4 is essential.",
+        "evidence": "experiments/ff1-fv2-output.json",
+        "status": "SCOPED_AUTHOR_CONTROL; no main impossibility inferred"
+      },
+      "source_hash_match": true,
+      "disposition": "PRESERVED_WITH_SCOPED_APPLICATION",
+      "reason": "GAUSS/WEIGHT exclude n2; C=B=I,H=(I-T)/2 equal-covariance example retained."
+    },
+    {
+      "id": "FF1-REG-5",
+      "reference": {
+        "registry": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/regressions.json",
+        "sha256": "27b966ec59faa61249b3dec9682bafdcf12e95418b7676739032bc00a5d77e40",
+        "json_pointer": "/new_entries/6"
+      },
+      "source_reference": {
+        "id": "FF1-REG-5",
+        "source_registry": "workers/FF1/regressions.json",
+        "source_registry_sha256": "cb22b3ba0da2010755ab4bca04d80407676ccf933f3dd618e5ccc923e825ac2f",
+        "json_pointer": "/new/4",
+        "entry_sha256": "45d980b2a80dd73e439360a7a3f9b8a5cd669912f18aeaf0d2db569e8f9082ed",
+        "status": "SCOPED-REFERENCE; author bounded control, no new main acceptance from cataloguing"
+      },
+      "resolved_entry": {
+        "id": "FF1-REG-5",
+        "rejected_shortcut": "Correlated H may be revealed without changing G law",
+        "witness": "S,G uniformbits; E uniform\u00b11; H=E\u2212G: pguess3/4 becomes1 after H revelation.",
+        "evidence": "experiments/ff1-fv2-output.json",
+        "status": "SCOPED_AUTHOR_CONTROL; no main impossibility inferred"
+      },
+      "source_hash_match": true,
+      "disposition": "PRESERVED_WITH_SCOPED_APPLICATION",
+      "reason": "FRAC uses original independent source/error law and no disclosed correlated complement. Extra-information monotonicity cannot reduce recovery success; no conditional law is kept unchanged after revelation."
+    },
+    {
+      "id": "FF1-REG-6",
+      "reference": {
+        "registry": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/regressions.json",
+        "sha256": "27b966ec59faa61249b3dec9682bafdcf12e95418b7676739032bc00a5d77e40",
+        "json_pointer": "/new_entries/7"
+      },
+      "source_reference": {
+        "id": "FF1-REG-6",
+        "source_registry": "workers/FF1/regressions.json",
+        "source_registry_sha256": "cb22b3ba0da2010755ab4bca04d80407676ccf933f3dd618e5ccc923e825ac2f",
+        "json_pointer": "/new/5",
+        "entry_sha256": "c024e785d38dd15d9ec963a59ba1112478eabc7356e642aa1da6cb4de470692d",
+        "status": "SCOPED-REFERENCE; author bounded control, no new main acceptance from cataloguing"
+      },
+      "resolved_entry": {
+        "id": "FF1-REG-6",
+        "rejected_shortcut": "Tensor signed inversion retains local overhead",
+        "witness": "Exact BSC inverse row norm becomes(1\u22122\u03b4)^\u2212k, exponential for\u03b4=n^-a,k=n^(a+1).",
+        "evidence": "signed-kernel-correction-v1.md",
+        "status": "SCOPED_AUTHOR_CONTROL; no main impossibility inferred"
+      },
+      "source_hash_match": true,
+      "disposition": "PRESERVED_WITH_SCOPED_APPLICATION",
+      "reason": "No signed deconvolution or bounded inverse overhead claim. FRAC uses affinity for genuine iid laws."
+    },
+    {
+      "id": "FF1-REG-7",
+      "reference": {
+        "registry": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/regressions.json",
+        "sha256": "27b966ec59faa61249b3dec9682bafdcf12e95418b7676739032bc00a5d77e40",
+        "json_pointer": "/new_entries/8"
+      },
+      "source_reference": {
+        "id": "FF1-REG-7",
+        "source_registry": "workers/FF1/regressions.json",
+        "source_registry_sha256": "cb22b3ba0da2010755ab4bca04d80407676ccf933f3dd618e5ccc923e825ac2f",
+        "json_pointer": "/new/6",
+        "entry_sha256": "24cc4cb3c1006fb865b8970c1622a8381fe35fdbb054028c2a0998b5be358dc8",
+        "status": "SCOPED-REFERENCE; author bounded control, no new main acceptance from cataloguing"
+      },
+      "resolved_entry": {
+        "id": "FF1-REG-7",
+        "rejected_shortcut": "Independent column signs preserve rank-one ring structure",
+        "witness": "n4 z=(1,1,1,\u22121): (TDz)[0,3]=1 versus(DzT)[0,3]=\u22121; only constant signs commute.",
+        "evidence": "micciancio2018-ring-interface-v1.md",
+        "status": "SCOPED_AUTHOR_CONTROL; no main impossibility inferred"
+      },
+      "source_hash_match": true,
+      "disposition": "PRESERVED_WITH_SCOPED_APPLICATION",
+      "reason": "Negacyclic multiplication matrices remain sums of shift powers; no independent column-sign reduction."
+    },
+    {
+      "id": "FF1-REG-8",
+      "reference": {
+        "registry": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/regressions.json",
+        "sha256": "27b966ec59faa61249b3dec9682bafdcf12e95418b7676739032bc00a5d77e40",
+        "json_pointer": "/new_entries/9"
+      },
+      "source_reference": {
+        "id": "FF1-REG-8",
+        "source_registry": "workers/FF1/regressions.json",
+        "source_registry_sha256": "cb22b3ba0da2010755ab4bca04d80407676ccf933f3dd618e5ccc923e825ac2f",
+        "json_pointer": "/new/7",
+        "entry_sha256": "052545e344fdf49553e2e86c7b114f1ed34d7625147e7678c0997358088f2ac4",
+        "status": "SCOPED-REFERENCE; author bounded control, no new main acceptance from cataloguing"
+      },
+      "resolved_entry": {
+        "id": "FF1-REG-8",
+        "rejected_shortcut": "Full-ring binary leftover hash is uniform",
+        "witness": "Support\u22642^n versusq^n; retained noiseless hash also efficiently separated by unit division.",
+        "evidence": "computational-gadget-escape-supplement-v1.md",
+        "status": "SCOPED_AUTHOR_CONTROL; no main impossibility inferred"
+      },
+      "source_hash_match": true,
+      "disposition": "PRESERVED_WITH_SCOPED_APPLICATION",
+      "reason": "No leftover-hash uniformity assertion; the actual fractional alpha(A) is retained."
+    },
+    {
+      "id": "FF1-REG-9",
+      "reference": {
+        "registry": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/regressions.json",
+        "sha256": "27b966ec59faa61249b3dec9682bafdcf12e95418b7676739032bc00a5d77e40",
+        "json_pointer": "/new_entries/10"
+      },
+      "source_reference": {
+        "id": "FF1-REG-9",
+        "source_registry": "workers/FF1/regressions.json",
+        "source_registry_sha256": "cb22b3ba0da2010755ab4bca04d80407676ccf933f3dd618e5ccc923e825ac2f",
+        "json_pointer": "/new/8",
+        "entry_sha256": "709b08f81cbf3f06e295d74d71a47e4b4d5ff2ef9a39f45387b76e6021036f56",
+        "status": "SCOPED-REFERENCE; author bounded control, no new main acceptance from cataloguing"
+      },
+      "resolved_entry": {
+        "id": "FF1-REG-9",
+        "rejected_shortcut": "Exact covariance obstruction is automatically a TV obstruction",
+        "witness": "Rare-secret issue and lack of moment control prevent that inference; >3/4 exact-cube supplement still does not prove approximate TV.",
+        "evidence": "covariance-average-cube-supplement-v1.md",
+        "status": "SCOPED_AUTHOR_CONTROL; no main impossibility inferred"
+      },
+      "source_hash_match": true,
+      "disposition": "PRESERVED_WITH_SCOPED_APPLICATION",
+      "reason": "GAUSS averages all cube faces and invokes exact Gaussian magnitudes; WEIGHT-GAUSS averages disjoint slice faces; WEIGHT-COV gives no TV bound."
+    },
+    {
+      "id": "FF1-REG-10",
+      "reference": {
+        "registry": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/regressions.json",
+        "sha256": "27b966ec59faa61249b3dec9682bafdcf12e95418b7676739032bc00a5d77e40",
+        "json_pointer": "/new_entries/11"
+      },
+      "source_reference": {
+        "id": "FF1-REG-10",
+        "source_registry": "workers/FF1/regressions.json",
+        "source_registry_sha256": "cb22b3ba0da2010755ab4bca04d80407676ccf933f3dd618e5ccc923e825ac2f",
+        "json_pointer": "/new/9",
+        "entry_sha256": "db9762f6cb69a226de963d562a9fc7ce51278720dd6f656c25c2ea4eba10f041",
+        "status": "SCOPED-REFERENCE; author bounded control, no new main acceptance from cataloguing"
+      },
+      "resolved_entry": {
+        "id": "FF1-REG-10",
+        "rejected_shortcut": "Shrinking GP w shrinks fractional s arbitrarily",
+        "witness": "B-GP s\u00b2=w\u00b2+r\u00b2 with scalar smoothing r>=1; narrow uniform-coset proposal can cost1/D.",
+        "evidence": "narrow-public-bridge-attempt-v1.md",
+        "status": "SCOPED_AUTHOR_CONTROL; no main impossibility inferred"
+      },
+      "source_hash_match": true,
+      "disposition": "PRESERVED_WITH_SCOPED_APPLICATION",
+      "reason": "No new GP bridge or shrinking source-width claim. FRAC fixes its standalone exact source experiment."
+    },
+    {
+      "id": "SV-HNF-EQUALITY-1",
+      "reference": {
+        "registry": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/regressions.json",
+        "sha256": "27b966ec59faa61249b3dec9682bafdcf12e95418b7676739032bc00a5d77e40",
+        "json_pointer": "/new_entries/12"
+      },
+      "source_reference": {
+        "id": "SV-HNF-EQUALITY-1",
+        "source_registry": "workers/SV/regression-scope-v1.json",
+        "source_registry_sha256": "fd74bf0fc1dfc3827da0a11f544d06c38ab68145a4a3b4112c424b9017eb850b",
+        "json_pointer": "/new_controls/0",
+        "entry_sha256": "e49ff3eac8a77e2b9f1bcb253b9973ed262f9e804d8c551cc69a902695366d47",
+        "status": "SCOPED-REFERENCE; author bounded control, no new main acceptance from cataloguing"
+      },
+      "resolved_entry": {
+        "id": "SV-HNF-EQUALITY-1",
+        "statement": "For ideals h=e; do not claim an additional ideal regime h<e.",
+        "evidence": "source-classification-proof-v1.md; experiments/SV-FV1.stdout.json"
+      },
+      "source_hash_match": true,
+      "disposition": "PRESERVED_WITH_SCOPED_APPLICATION",
+      "reason": "Source exponent is exactly computed; no extra h<e regime claimed."
+    },
+    {
+      "id": "SV-STRICT-ROUND-1",
+      "reference": {
+        "registry": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/regressions.json",
+        "sha256": "27b966ec59faa61249b3dec9682bafdcf12e95418b7676739032bc00a5d77e40",
+        "json_pointer": "/new_entries/13"
+      },
+      "source_reference": {
+        "id": "SV-STRICT-ROUND-1",
+        "source_registry": "workers/SV/regression-scope-v1.json",
+        "source_registry_sha256": "fd74bf0fc1dfc3827da0a11f544d06c38ab68145a4a3b4112c424b9017eb850b",
+        "json_pointer": "/new_controls/1",
+        "entry_sha256": "6c1f72fafc08bc167c7d434157585bc6b3ecf33f9ba0da97b9c4988d6bbb8362",
+        "status": "SCOPED-REFERENCE; author bounded control, no new main acceptance from cataloguing"
+      },
+      "resolved_entry": {
+        "id": "SV-STRICT-ROUND-1",
+        "statement": "J=R,f=2,T=1/4: equality r||f||=1/2 rounds fT to1 then outputs1/2 rather than lambda0. Strict guard required.",
+        "evidence": "experiments/SV-FV1.py"
+      },
+      "source_hash_match": true,
+      "disposition": "PRESERVED_WITH_SCOPED_APPLICATION",
+      "reason": "The inherited strict16r^2 g<1 guard is retained and verified at the actual DD radius."
+    },
+    {
+      "id": "SV-ORBIT-SIGN-1",
+      "reference": {
+        "registry": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/regressions.json",
+        "sha256": "27b966ec59faa61249b3dec9682bafdcf12e95418b7676739032bc00a5d77e40",
+        "json_pointer": "/new_entries/14"
+      },
+      "source_reference": {
+        "id": "SV-ORBIT-SIGN-1",
+        "source_registry": "workers/SV/regression-scope-v1.json",
+        "source_registry_sha256": "fd74bf0fc1dfc3827da0a11f544d06c38ab68145a4a3b4112c424b9017eb850b",
+        "json_pointer": "/new_controls/2",
+        "entry_sha256": "64064074b3b034256b3712d16a49adeeb4652ddb664ebd5a5baff0edfaf05bb6",
+        "status": "SCOPED-REFERENCE; author bounded control, no new main acceptance from cataloguing"
+      },
+      "resolved_entry": {
+        "id": "SV-ORBIT-SIGN-1",
+        "statement": "n4,p3: sigma_p(X\u00b2)=-X\u00b2, so this coefficient is zero in the fixed lattice; unsigned-cycle treatment gives wrong rank and residue image.",
+        "evidence": "frobenius-prime-proof-v1.md; experiments/SV-FV2.stdout.json"
+      },
+      "source_hash_match": true,
+      "disposition": "PRESERVED_WITH_SCOPED_APPLICATION",
+      "reason": "ALL-SUBFIELDS uses signed invariant orbits; inconsistent signs force the coordinate orbit to vanish."
+    },
+    {
+      "id": "SV-RAMIFIED-DESCENT-1",
+      "reference": {
+        "registry": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/regressions.json",
+        "sha256": "27b966ec59faa61249b3dec9682bafdcf12e95418b7676739032bc00a5d77e40",
+        "json_pointer": "/new_entries/15"
+      },
+      "source_reference": {
+        "id": "SV-RAMIFIED-DESCENT-1",
+        "source_registry": "workers/SV/regression-scope-v1.json",
+        "source_registry_sha256": "fd74bf0fc1dfc3827da0a11f544d06c38ab68145a4a3b4112c424b9017eb850b",
+        "json_pointer": "/new_controls/3",
+        "entry_sha256": "95ceb720e6ea2dc67922e259e1ff5e2476e31ce426fb780c50495b1e347310e0",
+        "status": "SCOPED-REFERENCE; author bounded control, no new main acceptance from cataloguing"
+      },
+      "resolved_entry": {
+        "id": "SV-RAMIFIED-DESCENT-1",
+        "statement": "J=(1-X),n4 has norm2 and full Galois stabilizer size4, but contraction index2, so naive identity d_H^h=D gives16!=2. Remove2-part first.",
+        "evidence": "symmetry-descent-proof-v1.md; experiments/SV-FV3.py"
+      },
+      "source_hash_match": true,
+      "disposition": "PRESERVED_WITH_SCOPED_APPLICATION",
+      "reason": "SUPPORT uses odd J_o for unramified contraction; ALL-SUBFIELDS uses general extension norm, which does permit ramification and is not the false d_H^h=N(J) descent assertion."
+    },
+    {
+      "id": "SV-COMPOSITE-IMAGE-1",
+      "reference": {
+        "registry": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/regressions.json",
+        "sha256": "27b966ec59faa61249b3dec9682bafdcf12e95418b7676739032bc00a5d77e40",
+        "json_pointer": "/new_entries/16"
+      },
+      "source_reference": {
+        "id": "SV-COMPOSITE-IMAGE-1",
+        "source_registry": "workers/SV/regression-scope-v1.json",
+        "source_registry_sha256": "fd74bf0fc1dfc3827da0a11f544d06c38ab68145a4a3b4112c424b9017eb850b",
+        "json_pointer": "/new_controls/4",
+        "entry_sha256": "1c20b2815f8a9a90a1e667367834ce3bd1a7c0b54f68a1d357e88bce64b269ca",
+        "status": "SCOPED-REFERENCE; author bounded control, no new main acceptance from cataloguing"
+      },
+      "resolved_entry": {
+        "id": "SV-COMPOSITE-IMAGE-1",
+        "statement": "At n16,p97, product of two distinct split primes has norm97\u00b2<2^16. sigma97 is identity; fixed-lattice residue image has97\u00b2 elements, not97. Prime theorem cannot be relabeled for arbitrary composites.",
+        "evidence": "Algebraic exact model; symmetry-descent uses actual d_H instead."
+      },
+      "source_hash_match": true,
+      "disposition": "PRESERVED_WITH_SCOPED_APPLICATION",
+      "reason": "Each prime ideal is counted in B and t; FRONTIER1-CHARACTERISTIC-COUNT refines this exact same n16,p97 witness."
+    },
+    {
+      "id": "SV-2PRIMARY-DEFINITION-1",
+      "reference": {
+        "registry": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/regressions.json",
+        "sha256": "27b966ec59faa61249b3dec9682bafdcf12e95418b7676739032bc00a5d77e40",
+        "json_pointer": "/new_entries/17"
+      },
+      "source_reference": {
+        "id": "SV-2PRIMARY-DEFINITION-1",
+        "status": "REJECTED-V1; v2 pending exact review",
+        "scope": "Unique a=2^{v_2(e)} required, not arbitrary e=a*m with m odd",
+        "witness": "n8 J=(17,X-3),a17,m1,T=r1/20; constructedf17 violates2sqrt8 and decoderreturns1/17",
+        "evidence": "reviews/BLIND-SV1/report-v1.md"
+      },
+      "resolved_entry": {
+        "id": "SV-2PRIMARY-DEFINITION-1",
+        "status": "REJECTED-V1; v2 pending exact review",
+        "scope": "Unique a=2^{v_2(e)} required, not arbitrary e=a*m with m odd",
+        "witness": "n8 J=(17,X-3),a17,m1,T=r1/20; constructedf17 violates2sqrt8 and decoderreturns1/17",
+        "evidence": "reviews/BLIND-SV1/report-v1.md"
+      },
+      "source_hash_match": null,
+      "disposition": "PRESERVED_WITH_SCOPED_APPLICATION",
+      "reason": "Accepted SUBFIELD/SYMDESC v2 unique a=2^v2(e) is used; no arbitrary odd factor choice."
+    },
+    {
+      "id": "FRAC-IID-REUSE-1",
+      "reference": {
+        "registry": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/regressions.json",
+        "sha256": "27b966ec59faa61249b3dec9682bafdcf12e95418b7676739032bc00a5d77e40",
+        "json_pointer": "/new_entries/18"
+      },
+      "source_reference": {
+        "id": "FRAC-IID-REUSE-1",
+        "status": "EXACT-NEGATIVE-CONTROL",
+        "scope": "Conditional iid required for affinity powers",
+        "witness": "P=(4/5,1/5), Q reversed; repeating one draw8 times leaves Bayes error1/5, violating the invalid iid upper bound0.08388608",
+        "evidence": "experiments/frac-info-fv2-output.json"
+      },
+      "resolved_entry": {
+        "id": "FRAC-IID-REUSE-1",
+        "status": "EXACT-NEGATIVE-CONTROL",
+        "scope": "Conditional iid required for affinity powers",
+        "witness": "P=(4/5,1/5), Q reversed; repeating one draw8 times leaves Bayes error1/5, violating the invalid iid upper bound0.08388608",
+        "evidence": "experiments/frac-info-fv2-output.json"
+      },
+      "source_hash_match": null,
+      "disposition": "PRESERVED_WITH_SCOPED_APPLICATION",
+      "reason": "Reproduced with a separate exact P=(9/10,1/10) ten-copy control; fresh conditional iid is essential."
+    },
+    {
+      "id": "FRAC-FLOAT-UNDERFLOW-1",
+      "reference": {
+        "registry": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/regressions.json",
+        "sha256": "27b966ec59faa61249b3dec9682bafdcf12e95418b7676739032bc00a5d77e40",
+        "json_pointer": "/new_entries/19"
+      },
+      "source_reference": {
+        "id": "FRAC-FLOAT-UNDERFLOW-1",
+        "status": "PRESERVED-PRECISION-DEFECT",
+        "scope": "Positive scalar tail formulas underflowed to printed0 in v1; v2 records logarithmic diagnostics; neither is certified interval arithmetic",
+        "evidence": [
+          "experiments/frac-info-fv1-output.json",
+          "experiments/frac-info-fv2-output.json"
+        ]
+      },
+      "resolved_entry": {
+        "id": "FRAC-FLOAT-UNDERFLOW-1",
+        "status": "PRESERVED-PRECISION-DEFECT",
+        "scope": "Positive scalar tail formulas underflowed to printed0 in v1; v2 records logarithmic diagnostics; neither is certified interval arithmetic",
+        "evidence": [
+          "experiments/frac-info-fv1-output.json",
+          "experiments/frac-info-fv2-output.json"
+        ]
+      },
+      "source_hash_match": null,
+      "disposition": "PRESERVED_WITH_SCOPED_APPLICATION",
+      "reason": "Author v1 zeros are precision failures; v2 log diagnostics and our log tail remain non-interval numerical evidence."
+    },
+    {
+      "id": "NARROW-COSET-NORMALIZER-1",
+      "reference": {
+        "registry": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/regressions.json",
+        "sha256": "27b966ec59faa61249b3dec9682bafdcf12e95418b7676739032bc00a5d77e40",
+        "json_pointer": "/new_entries/20"
+      },
+      "source_reference": {
+        "id": "NARROW-COSET-NORMALIZER-1",
+        "status": "SCOPED-BOUNDARY-CONTROL",
+        "scope": "Point-input uniform-coset kernel at shrinking width; no positive-width GP-source impossibility claimed",
+        "witness": "J uniqueprimeover2, r=n^-c: exposed quotientzero probabilitybridge\u21921/2 versusDG\u21921",
+        "evidence": [
+          "coordinator/narrow-coset-kernel-challenge-v1.md",
+          "experiments/frac-info-fv2-output.json"
+        ]
+      },
+      "resolved_entry": {
+        "id": "NARROW-COSET-NORMALIZER-1",
+        "status": "SCOPED-BOUNDARY-CONTROL",
+        "scope": "Point-input uniform-coset kernel at shrinking width; no positive-width GP-source impossibility claimed",
+        "witness": "J uniqueprimeover2, r=n^-c: exposed quotientzero probabilitybridge\u21921/2 versusDG\u21921",
+        "evidence": [
+          "coordinator/narrow-coset-kernel-challenge-v1.md",
+          "experiments/frac-info-fv2-output.json"
+        ]
+      },
+      "source_hash_match": null,
+      "disposition": "PRESERVED_WITH_SCOPED_APPLICATION",
+      "reason": "No uniform-coset surrogate is inserted in FRAC; exact coset masses remain divided by rho_s(Lambda). Point-input countercontrol is not promoted to a positive-width theorem."
+    }
+  ]
+}

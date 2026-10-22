@@ -1,0 +1,13 @@
+{
+  "id": "SPARSE-ACQ-FV1",
+  "registered_at": "2026-10-21T21:15:38.785195+00:00",
+  "hypothesis": "Explicit Lucas quotient SNF and sparse-member membership from changed ordinary bases",
+  "code": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/sparse-acq-fv1.py",
+  "sha256": "29d64fcd58246710b83e7fdbb1d6cc580c23dcb336be0e77e0c0a442632cc8da",
+  "inputs": "n4,8,16,32,64; f=X\u00b2-X-1; deterministic unitriangular basis changes",
+  "seeds": "deterministic",
+  "limits": "120s wall,512MiB address,110s CPU",
+  "estimate": "<10s,64MiB",
+  "precision": "exact sympy integer/rational; no tails",
+  "command": "timeout --kill-after=5s 120s prlimit --as=536870912 --cpu=110 /usr/bin/time -v python3 experiments/sparse-acq-fv1.py"
+}

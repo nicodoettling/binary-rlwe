@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-10-21T19:23:27.105916+00:00",
+  "frozen_packet_checks": [
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-SV2/inputs/symmetry-descent.md",
+      "sha256": "407838eb0f4de49a36cad867cadd3f45cb65a4901a0415ba2d2990ac1e40c6a0",
+      "matches_frozen_packet": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-SV2/inputs/subfield-contraction.md",
+      "sha256": "56bb24b0907d0a37d111e137dbb82a9e971c821503cd7d6df4f1e1977c3c6901",
+      "matches_frozen_packet": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-SV2/inputs/bdd-decoder-definitions.md",
+      "sha256": "1b72f95055b9c5a8953c46ee778ade4d57a55d5a61c4a1ce29003c049f59a5a3",
+      "matches_frozen_packet": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-SV2/inputs/frobenius-definitions.md",
+      "sha256": "17315abf7b50bbb758a3e0e5c580d159895a1e238ad3b01b88e77a08e8e28d3e",
+      "matches_frozen_packet": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-SV2/inputs/inherited-fixed-parameters.md",
+      "sha256": "25da2502104e746d3e9f2ca10e3d070372ff95b853b1fd2b0e6c96b1b909ecb6",
+      "matches_frozen_packet": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-SV2/inputs/inherited-am-parameters.md",
+      "sha256": "eaabea064b734ccefbbb1d2410ed03fecdbe671f098c2e69d59d432df855e33c",
+      "matches_frozen_packet": true
+    }
+  ],
+  "experiment_code_sha256": "a519e89a9c61200a69a880cc3fc6027cf62e0317f40a4896979e27bc7f998c9d",
+  "experiment_code_matches_preregistration": true,
+  "experiment_exit_code": 0,
+  "experiment_stderr_empty": true,
+  "experiment_counts_checked": true,
+  "own_artifact_root": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-SV2",
+  "no_other_research_directories_written": true,
+  "final_manifest_excludes_only_itself_and_its_hash_sidecar": true
+}

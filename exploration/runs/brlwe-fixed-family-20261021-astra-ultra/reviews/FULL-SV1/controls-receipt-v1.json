@@ -1,0 +1,18 @@
+{
+  "id": "FULL-SV1-FV1",
+  "start_utc": "2026-10-21T18:22:54Z",
+  "exit_code": 0,
+  "wall_seconds": 0.38,
+  "max_rss_KiB": 47104,
+  "timeout_seconds": 120,
+  "address_space_MiB": 512,
+  "seed": null,
+  "code_sha256": "c105e3749a200d5b1806e89df61c0a357af943d51f2635300527ad90c29f5bf6",
+  "registration_sha256": "ddc7cc71aa28d3c29b8c94129e8d8ef4c29881548202af67ba795834a6619645",
+  "result": "PASS bounded exact controls",
+  "slot": "Fresh root allocation; released after job",
+  "stdout": "controls-v1.stdout.json",
+  "stderr": "controls-v1.stderr.txt",
+  "resource_file": "controls-v1.resources.txt",
+  "limits": "not asymptotic proof; no probabilistic lemma"
+}

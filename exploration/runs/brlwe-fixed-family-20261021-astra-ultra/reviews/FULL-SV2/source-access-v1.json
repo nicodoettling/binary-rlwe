@@ -1,0 +1,63 @@
+{
+  "review": "FULL-SV2",
+  "accessed_on_UTC": "2026-10-21",
+  "mechanism": "web tool primary pages/PDF text extraction; no secondary mathematical source used",
+  "accesses": [
+    {
+      "order": 1,
+      "action": "open",
+      "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+      "identified_version": "3.08, July19,2020;166PDFpages",
+      "scope": "title/version metadata"
+    },
+    {
+      "order": 2,
+      "action": "open",
+      "url": "https://epubs.siam.org/doi/abs/10.1137/0208040",
+      "identified_version": "Kannan and Bachem, SIAM J.Comput.8(4),1979,499\u2013507, DOI10.1137/0208040",
+      "scope": "primary publisher abstract lines53\u201366; polynomial operation/bit bounds and multipliers; full paid paper not accessed"
+    },
+    {
+      "order": 3,
+      "action": "find",
+      "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+      "patterns": [
+        "THEOREM 3.34",
+        "PROPOSITION 4.1",
+        "PROPOSITION 6.2",
+        "EXAMPLE 8.18"
+      ],
+      "scope": "prime transitivity/residue formula, norms, cyclotomic integers/ramification, Frobenius degree"
+    },
+    {
+      "order": 4,
+      "action": "open",
+      "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+      "line_positions": [
+        3396,
+        5932,
+        8520
+      ],
+      "scope": "Theorem3.34 proof, Proposition6.2 proof, decomposition-group Propositions8.11/8.13"
+    },
+    {
+      "order": 5,
+      "action": "open",
+      "url": "https://www.impan.pl/shop/en/publication/transaction/download/product/83078",
+      "identified_version": "Xylouris, Acta Arithmetica150.1(2011), DOI10.4064/aa150-1-4",
+      "scope": "PDFpages0\u20131,printed65\u201366, effective Linnik formulation and Theorem1.1 exponent5.18; no claimed reproof"
+    },
+    {
+      "order": 6,
+      "action": "open",
+      "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+      "line_positions": [
+        3480,
+        6088,
+        4036
+      ],
+      "scope": "completed transitivity and integer-ring proof; norm-extension Proposition4.1 and index/numerical norm Proposition4.2"
+    }
+  ],
+  "external_byte_hash_scope": "Browser identified versioned primary content and exact accessed locations; raw downloaded PDF bytes were not available to hash. All local mathematical inputs are separately SHA256 manifested. No unseen full-paper proof is claimed checked."
+}

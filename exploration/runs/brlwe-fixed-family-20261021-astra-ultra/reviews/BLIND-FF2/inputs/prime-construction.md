@@ -1,0 +1,5 @@
+# Prime-list construction and source assumption
+
+Primary source assumption: Xylouris, Acta Arithmetica150(2011), Theorem1.1 printed p66, gives an effectively computable absolute C with least prime P(a,m)<=C m^5.18 whenever gcd(a,m)=1. One may use the weaker exponent6 and C>=1. Source https://www.impan.pl/shop/en/publication/transaction/download/product/83078 . Bertrand's postulate may also be used.
+
+For power-two n>=2, integers M>=1,Qmin>=3, put R0=M+n, t0=max(1,ceil((Qmin-1)/(2n))), B=R0+t0+2. Find a prime p with B<p<2B. For t=t0,...,t0+R0, form a_t=1+2nt modulo m=2np; discard any a_t divisible by p, retain first R0 remaining. In each retained progression enumerate a_t+k m (k>=0) to its first prime by exact trial division. Claim: this yields M+n distinct split primes in [Qmin,C(4nB)^6] with polynomial numerical runtime. The master list is independent of J. If D=N(J)<2^n, deleting primes dividing D leaves at least M. This construction and its resource conclusion are to be assessed; they are not correctness assumptions.

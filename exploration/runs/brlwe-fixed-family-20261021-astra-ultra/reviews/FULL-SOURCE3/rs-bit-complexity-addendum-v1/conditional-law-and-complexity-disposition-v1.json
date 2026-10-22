@@ -1,0 +1,23 @@
+{
+  "at_utc": "2026-10-21T21:15:18.324089+00:00",
+  "recommendation": "PASS_SCOPED_NEW_BIT_MECHANISM",
+  "root_success": "theta=(p-1)/2^(m+1)>=1/8",
+  "conditional_law": "fresh m-bit draw conditional on full earlier transcript",
+  "bounded_fail": "(1-theta)^(8ceil(log2(1/eta)))<=eta",
+  "RS_GAP_bit_runtime": true,
+  "old_trial_division": "omitted because primality is a promise; copying old check would invalidate bit-runtime claim",
+  "LIST_bit_runtime": false,
+  "LIST_remaining_cost": "full-F_p polynomial-root scans in coefficient recursion",
+  "upstream_RS_v2_repair_gate": "different fresh reviewer; not supplied here",
+  "new_experiments": 0,
+  "independent_hand_controls": [
+    "n2,p5",
+    "n4,p17",
+    "eta2/3,1/3,1/1000",
+    "nonprime9 failure",
+    "persistent b failure"
+  ],
+  "author_control": "RS-ROOT-FV1 exact45cases read, not independently executed",
+  "all_inputs_unchanged": true,
+  "root_acceptance_and_blind_gate": "separate"
+}

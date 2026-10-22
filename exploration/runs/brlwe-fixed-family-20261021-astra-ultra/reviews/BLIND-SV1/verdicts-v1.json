@@ -1,0 +1,21 @@
+{
+  "review_id":"BLIND-SV1",
+  "scope":"Exact frozen packet statements only; inherited DD/AM definitions and guards only; not a global certification or hardness theorem",
+  "candidate_verdicts":[
+    {"id":"SV-BDD-CLASS-v1","review_verdict":"PASS_INDEPENDENT_PROOF","programme_status":"PROVISIONAL_PENDING_COORDINATOR_INTEGRATION","dependencies_reopened_by_symmetry_wording":false},
+    {"id":"SV-FROB-PRIME-v1","review_verdict":"PASS_INDEPENDENT_PROOF","programme_status":"PROVISIONAL_PENDING_COORDINATOR_INTEGRATION","dependencies_reopened_by_symmetry_wording":false},
+    {"id":"SV-SYMDESC-v1","review_verdict":"REJECTED_LITERAL_DEFINITION","programme_status":"REJECTED","defect":"e=a*m with m odd does not define a as a power of2","minimal_repair":"Define a=2^{v_2(e)} and m=e/a before claiming a in{1,2}","repair_mathematics":"Independent conditional proof complete in report-v1.md; no acceptance of an unversioned repair","fresh_recheck_required":true}
+  ],
+  "rejected_and_affected_claims":[
+    {"id":"SYM-A","location":"Preamble","status":"REJECTED","statement":"Eligibility plus e=a*m and m odd implies a in{1,2}","counterexample":"n4 eligible prime over3, e3,a3,m1"},
+    {"id":"SYM-ODDPART","location":"Preamble","status":"REJECTED","statement":"J+mR is the complete odd part without specifying a as the 2-primary part","dependencies":["SYM-A"],"counterexample":"n8 J=(17,X-3),a17,m1 gives R rather than J"},
+    {"id":"SYM-MEMBER-BOUND","location":"Part2","status":"REJECTED","statement":"Constructed f=a*v has norm<=2sqrt(n)","dependencies":["SYM-A"],"counterexample":"n8 J=(17,X-3),a17,m1 returns f=+17 or-17"},
+    {"id":"SYM-DECODER","location":"Part3 general-r decoder","status":"REJECTED","statement":"The stated r<1/(4sqrt(n)) guard suffices for the constructed f","dependencies":["SYM-MEMBER-BOUND"],"counterexample":"Same n8 ideal,lambda0,T=r=1/20 returns1/17"},
+    {"id":"SYM-PRIMEPOWER-H-D","location":"Part4 odd prime powers","status":"REJECTED_LITERAL_DEFINITION","statement":"H of computed J_o has size f_res and d_H=p^b=e","dependencies":["SYM-ODDPART"],"counterexample":"Same n8 prime has f_res1,e17 but computed J_o=R has h8,d_H1"}
+  ],
+  "unaffected_general_lemmas":["Canonical-to-coefficient product bound","Exponent denominator algorithm","Odd stable ideal descent identity d^h=D","Signed invariant lattice construction","Scalar/member rounding under their own exact strict guards"],
+  "regressions":{"approved_experiment":"BLIND-SV1-E01","exit_code":0,"signed_cycle_cases":126,"ideal_cases":10,"hand_counterexamples":["rounding equality","unstripped ramification descent","literal a/m decomposition"]},
+  "small_dimension_finding":"Full inherited G-AM excludes n=2,4,8; general source decoder statements at their own r guards remain meaningful",
+  "source_hardness_claim":false,
+  "fixed_target_reduction_audited":false
+}

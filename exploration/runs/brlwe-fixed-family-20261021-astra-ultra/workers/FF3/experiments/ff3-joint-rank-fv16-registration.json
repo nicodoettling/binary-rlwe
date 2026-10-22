@@ -1,0 +1,9 @@
+{
+ "id":"FF3-JOINT-RANK-FV16","registered_before_execution":true,
+ "hypothesis":"Direct joint shell-rank coupling may preserve all binary-secret laws where independent full-direction H branches fail. The target energy pair is selected by a polynomial table depending on public A zero count and both residual zero counts; the actual target directions also use the full joint source residual rank, so the compressed-class information theorem does not apply.",
+ "code":"ff3-joint-rank-fv16.py","inputs":"n2,n4,Q3q2,same exact rational source/target noise. Uniform cube edges. Input class(za,z0,z1),target class(w0,w1),243or3125nonnegative table variables. Each table row normalized to1(M=1). Joint forward rank r=r0*M_z1+r1,output j=floor((N*r+T)/M). All fixed-secret and comparator endpoint constraints, exact integer coefficient assembly. Full rank row normalization checked for EVERYsource input,edge,target energy pair.",
+ "seed":"none","command":"ulimit -v 2097152; /usr/bin/time -v timeout 120s python3 ff3-joint-rank-fv16.py > ff3-joint-rank-fv16-output.jsonl 2> ff3-joint-rank-fv16-resource.txt",
+ "limits":{"wall_seconds":120,"address_space_bytes":2147483648,"expected_seconds":25,"expected_rss_bytes":1000000000,"heavy":true,"per_LP_seconds":20},
+ "precision":"All rank probabilities cleared by lcm of target shell-pair sizes; integer source counts and endpoint equations. Bincount arithmetic is exact since nonnegative integer sums stay below2^53. Numeric LP only discovery. Rational primal reconstruction when support<=150; otherwise preserve candidate as pending. Integer Farkas with rounding safety shift and complete A^Tz,b^Tz checks if infeasible. No status promoted without exact check.",
+ "expected":"An exact finite full-direction kernel or scoped exact failure of this specific rank ordering and table normalization, with other direction couplings left open. FV15 fixed-product failure remains numerical-only; this is not another class-only output LP."
+}

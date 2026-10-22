@@ -1,0 +1,259 @@
+{
+  "narrow_coset_zero_event_controls": [
+    {
+      "n": 2,
+      "q": 3,
+      "r": 0.5,
+      "bridge_zero": 0.49999302538825624,
+      "target_zero": 0.9925718697047319,
+      "absolute_gap": 0.49257884431647564,
+      "scope": "Point-input y=0 only; truncated binary64 theta diagnostic, not positive-width Gaussian-source theorem."
+    },
+    {
+      "n": 4,
+      "q": 3,
+      "r": 0.25,
+      "bridge_zero": 0.5,
+      "target_zero": 1.0,
+      "absolute_gap": 0.5,
+      "scope": "Point-input y=0 only; truncated binary64 theta diagnostic, not positive-width Gaussian-source theorem."
+    },
+    {
+      "n": 8,
+      "q": 3,
+      "r": 0.125,
+      "bridge_zero": 0.5,
+      "target_zero": 1.0,
+      "absolute_gap": 0.5,
+      "scope": "Point-input y=0 only; truncated binary64 theta diagnostic, not positive-width Gaussian-source theorem."
+    },
+    {
+      "n": 16,
+      "q": 3,
+      "r": 0.0625,
+      "bridge_zero": 0.5,
+      "target_zero": 1.0,
+      "absolute_gap": 0.5,
+      "scope": "Point-input y=0 only; truncated binary64 theta diagnostic, not positive-width Gaussian-source theorem."
+    },
+    {
+      "n": 32,
+      "q": 3,
+      "r": 0.03125,
+      "bridge_zero": 0.5,
+      "target_zero": 1.0,
+      "absolute_gap": 0.5,
+      "scope": "Point-input y=0 only; truncated binary64 theta diagnostic, not positive-width Gaussian-source theorem."
+    }
+  ],
+  "exact_finite_coset_gap": "1/6",
+  "exact_pair_controls": [
+    {
+      "secrets": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "tv1": "88/225",
+      "tv2": "27568/50625"
+    },
+    {
+      "secrets": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "tv1": "88/225",
+      "tv2": "27568/50625"
+    },
+    {
+      "secrets": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "tv1": "88/225",
+      "tv2": "27568/50625"
+    },
+    {
+      "secrets": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "tv1": "88/225",
+      "tv2": "27568/50625"
+    },
+    {
+      "secrets": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "tv1": "88/225",
+      "tv2": "27568/50625"
+    },
+    {
+      "secrets": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "tv1": "88/225",
+      "tv2": "27568/50625"
+    }
+  ],
+  "iid_reuse_negative_control": {
+    "repeated8_error": "1/5",
+    "invalid_iid_bound": 0.08388608000000004
+  },
+  "cp1": "rejects unproved sequential product",
+  "floating_gaussian_diagnostics": [
+    {
+      "q": 3,
+      "m": 1,
+      "s": 2.0,
+      "sigma": 1.0,
+      "delta_bound": 0.16190602734302836,
+      "min_observed_TV": 0.6684779380738094,
+      "max_affinity": 0.5065567893322357,
+      "scalar_unnormalized_tail_log_diagnostics": [
+        {
+          "log_upper_formula_binary64": -451.67001482202653,
+          "positive_in_exact_real_arithmetic": true
+        },
+        {
+          "log_upper_formula_binary64": -1255.9359880040922,
+          "positive_in_exact_real_arithmetic": true
+        }
+      ],
+      "truncation_L": [
+        24,
+        20
+      ]
+    },
+    {
+      "q": 3,
+      "m": 2,
+      "s": 2.0,
+      "sigma": 1.0,
+      "delta_bound": 0.16190602734302836,
+      "min_observed_TV": 0.7967896999096283,
+      "max_affinity": 0.3799854573368305,
+      "scalar_unnormalized_tail_log_diagnostics": [
+        {
+          "log_upper_formula_binary64": -451.6445026562757,
+          "positive_in_exact_real_arithmetic": true
+        },
+        {
+          "log_upper_formula_binary64": -1255.9359880040922,
+          "positive_in_exact_real_arithmetic": true
+        }
+      ],
+      "truncation_L": [
+        48,
+        20
+      ]
+    },
+    {
+      "q": 5,
+      "m": 2,
+      "s": 2.0,
+      "sigma": 1.0,
+      "delta_bound": 0.08783590176133996,
+      "min_observed_TV": 0.9034622888006194,
+      "max_affinity": 0.16889181783330304,
+      "scalar_unnormalized_tail_log_diagnostics": [
+        {
+          "log_upper_formula_binary64": -451.6445026562757,
+          "positive_in_exact_real_arithmetic": true
+        },
+        {
+          "log_upper_formula_binary64": -1255.9359880040922,
+          "positive_in_exact_real_arithmetic": true
+        }
+      ],
+      "truncation_L": [
+        48,
+        20
+      ]
+    },
+    {
+      "q": 5,
+      "m": 3,
+      "s": 3.0,
+      "sigma": 1.5,
+      "delta_bound": 0.16249321963496507,
+      "min_observed_TV": 0.8058552297077771,
+      "max_affinity": 0.35628411136589133,
+      "scalar_unnormalized_tail_log_diagnostics": [
+        {
+          "log_upper_formula_binary64": -451.5834322975597,
+          "positive_in_exact_real_arithmetic": true
+        },
+        {
+          "log_upper_formula_binary64": -557.7944669317778,
+          "positive_in_exact_real_arithmetic": true
+        }
+      ],
+      "truncation_L": [
+        108,
+        20
+      ]
+    },
+    {
+      "q": 7,
+      "m": 2,
+      "s": 3.0,
+      "sigma": 1.0,
+      "delta_bound": 0.10817820201478588,
+      "min_observed_TV": 0.9517337486567157,
+      "max_affinity": 0.0885784208774949,
+      "scalar_unnormalized_tail_log_diagnostics": [
+        {
+          "log_upper_formula_binary64": -451.61962520183465,
+          "positive_in_exact_real_arithmetic": true
+        },
+        {
+          "log_upper_formula_binary64": -1255.9359880040922,
+          "positive_in_exact_real_arithmetic": true
+        }
+      ],
+      "truncation_L": [
+        72,
+        20
+      ]
+    }
+  ],
+  "limitations": "Finite exact laws are controls, not Gaussian proof. Analytical tail formulas are evaluated logarithmically in binary64 to avoid false zero from underflow; no interval certification or asymptotic proof claimed."
+}

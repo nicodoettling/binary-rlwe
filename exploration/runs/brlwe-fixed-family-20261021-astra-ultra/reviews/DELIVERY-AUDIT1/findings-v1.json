@@ -1,0 +1,102 @@
+{
+  "at": "2026-10-21T22:03:55.348884+00:00",
+  "findings": [
+    {
+      "id": "DA1-01",
+      "kind": "delivery status drift",
+      "status": "RESOLVED",
+      "original": [
+        "inputs/reduction-attempts.md:11",
+        "inputs/reduction-attempts.md:19",
+        "inputs/coordinator/programme-v2.md",
+        "inputs/coordinator/frontier-challenge-replies-v2.md"
+      ],
+      "resolution": [
+        "reduction-attempts.md",
+        "coordinator/programme-v4.md",
+        "coordinator/frontier-challenge-replies-v4.md"
+      ]
+    },
+    {
+      "id": "DA1-02",
+      "kind": "omitted LIST sufficient premises",
+      "status": "RESOLVED",
+      "original": [
+        "inputs/parameter-table.md:20",
+        "inputs/parameter-table.md:21"
+      ],
+      "resolution": [
+        "parameter-table.md:20",
+        "parameter-table.md:21"
+      ]
+    },
+    {
+      "id": "DA1-03",
+      "kind": "moved statement experiment-path ambiguity",
+      "status": "RESOLVED",
+      "original": [
+        "coordinator/compact-selector-statement-v3.md:22",
+        "coordinator/compact-selector-statement-v3.md:27"
+      ],
+      "resolution": [
+        "coordinator/kernel-resource-v3-path-resolution-v1.json",
+        "reviews/DELIVERY-AUDIT1/compact-v3-full/seal-v1.json"
+      ]
+    },
+    {
+      "id": "DA1-04",
+      "kind": "omitted fractional-source, dimension and source eligibility premises",
+      "status": "RESOLVED",
+      "original": [
+        "inputs/reduction-attempts.md:15",
+        "inputs/parameter-table.md:25",
+        "inputs/coordinator/final-draft-v1.md"
+      ],
+      "resolution": [
+        "reduction-attempts.md:15",
+        "parameter-table.md:25",
+        "source-comparison.md:3",
+        "coordinator/final-draft-v4.md:36",
+        "coordinator/final-draft-v4.md:40",
+        "coordinator/final-draft-v4.md:65"
+      ]
+    },
+    {
+      "id": "DA1-05",
+      "kind": "exact Gaussian laws versus statistical ENUM transfer ambiguity",
+      "status": "RESOLVED",
+      "original": [
+        "inputs/coordinator/final-draft-v1.md:34"
+      ],
+      "resolution": [
+        "coordinator/final-draft-v4.md:34"
+      ]
+    },
+    {
+      "id": "DA1-06",
+      "kind": "RSS measurement wording carry-forward from operations audit",
+      "status": "RESOLVED",
+      "original": [
+        "coordinator/final-draft-v3.md:77"
+      ],
+      "resolution": [
+        "coordinator/final-draft-v4.md:77",
+        "coordinator/operational-deviations-v1.json"
+      ]
+    }
+  ],
+  "exact_wording_and_reasoning": "full-report-v1.md",
+  "unresolved_mathematical_delivery_findings": [],
+  "pending_final_operational_receipts": [
+    "Actual final native usage delta from zero baseline",
+    "Final evidence inventory after reviewer seals",
+    "Actual observed local process/worker cleanup and final cap metadata at observation time"
+  ],
+  "scientific_status": {
+    "FF": "OPEN",
+    "SV": "SUBSTANTIVE_AT_INHERITED_DD_RADIUS",
+    "hardness": "NOT_ESTABLISHED",
+    "scientific_exhaustion": false,
+    "native_goal": "ACTIVE"
+  }
+}

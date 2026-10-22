@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-21T22:45:21.225181+00:00",
+  "method": "Actual tools.get_goal result saved immediately before this observation receipt",
+  "receipt": "coordinator/goal-final-receipt.json",
+  "native_updated_at_epoch": 1792622721,
+  "native_updated_at_utc": "2026-10-21T22:45:21+00:00",
+  "service_activation": "2026-10-21T17:48:10.636448+00:00",
+  "service_elapsed_seconds": 17830.58880943095,
+  "qualification": "Native counters as returned at this pre-delivery observation; later receipt-writing and final response are excluded. Native goal clock and service clock have different origins."
+}

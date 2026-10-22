@@ -1,0 +1,35 @@
+{
+  "created_at": "2026-10-21T21:35:44.925495+00:00",
+  "allowed_files": [
+    {
+      "path": "allowed-input/compact-selector-statement-v3.md",
+      "sha256": "eecebca3d1d23bb1cd88c577d90b66cc42e8f14254098356aedd9cdf285e26e1"
+    },
+    {
+      "path": "allowed-input/compact-selector-table.json",
+      "sha256": "59acd26442278a2a0191953888256f3cbb546e46212273d82190e06570c5040a"
+    },
+    {
+      "path": "allowed-input/definitions.md",
+      "sha256": "430c7e82f09cea2e29824ae09ea17caae38d45b8c978bc5469516854a70e783d"
+    },
+    {
+      "path": "allowed-input/endpoint-definitions-v1.md",
+      "sha256": "2a73440eb168d2ca9d581ed6365a9b5a41cc39305b5c5bf8c4ecba94def9e035"
+    },
+    {
+      "path": "allowed-input/energy-rank-kernel-statement-v2.md",
+      "sha256": "a8c7daf894df5d0d5ac8ac5fa8132fcbad884ab5020baac7500d820169c95556"
+    },
+    {
+      "path": "allowed-input/radial-kernel-tables.json",
+      "sha256": "573e8ef817299486670f9ed9b61d7611387b882f21de93cc1f64ba39d7dad81c"
+    }
+  ],
+  "allowed_methodology": [
+    "/home/nico/.codex/skills/mathematical-proof-audit/SKILL.md",
+    "its referenced audit-protocol.md and probability-regressions.md"
+  ],
+  "operational_reads": "Live cap path only for immutable deadlines",
+  "other_mathematical_reads": "Request specific missing definitions before reading anything else; no author proofs, previous reports, project claims/status, or experiment checker permitted."
+}

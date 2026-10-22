@@ -1,0 +1,74 @@
+{
+  "at": "2026-10-21T21:40:08.213134+00:00",
+  "methodology": [
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/SKILL.md",
+      "sha256": "9350ffeb5aebe0b126710786586f94ef5d990be35b8b9defc8004136dae40318"
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/references/audit-protocol.md",
+      "sha256": "2d076ba631c340d71f6259757c6207dbe230872810e9bad3188b215f46d095f4"
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/references/probability-regressions.md",
+      "sha256": "ad7eecf93ed02e5b2957243a9bbb2cac8e8eeeb991971f4d77d0818cd04a4fa4"
+    }
+  ],
+  "addendum": {
+    "at": "2026-10-21T21:37:47.241914+00:00",
+    "files": [
+      {
+        "path": "allowed-input/two-event-noise-kernel-statement-v1.md",
+        "sha256": "ba5c8050af98cce9e7dec3d9c1b9a1806f606f9b59f1ca40e62917aa093e913b",
+        "observed_sha256": "ba5c8050af98cce9e7dec3d9c1b9a1806f606f9b59f1ca40e62917aa093e913b"
+      }
+    ],
+    "purpose": "Requested mathematical dependency only. No author proof, status or prior review supplied."
+  },
+  "chronology": [
+    {
+      "order": 1,
+      "read": "SKILL.md, initial allowed-read manifest, UTC clock",
+      "timestamp_note": "tool clock returned 2026-10-21 21:36:59 UTC"
+    },
+    {
+      "order": 2,
+      "read": "audit-protocol.md, probability-regressions.md, operational live cap, six manifest-authorized mathematical files",
+      "timestamp_note": "exact six file hash/read times in reviewer-input-hashes-v1.json"
+    },
+    {
+      "order": 3,
+      "action": "Requested missing FF3-TWOEVENT dependency from root; no unauthorized read"
+    },
+    {
+      "order": 4,
+      "authorization": "Root authorized sole dependency via allowed-read-addendum-v1.json at 21:37:47.241914Z"
+    },
+    {
+      "order": 5,
+      "read": "authorized addendum and two-event-noise-kernel-statement-v1.md",
+      "timestamp_note": "tool clock returned 21:38:15 UTC"
+    },
+    {
+      "order": 6,
+      "action": "Preregistered own independent script at 21:40:08.213134Z; received exact LIGHT authorization before execution",
+      "scope": "No mathematical evidence from coordinator"
+    },
+    {
+      "order": 7,
+      "action": "Single registered exact computation at 21:40:45.638188Z; own outputs inspected; LIGHT slot released",
+      "evidence": "experiment-v1.exit.json"
+    },
+    {
+      "order": 8,
+      "action": "Independently identified TWOEVENT import boundary cases and sent to coordinator before report amendment at 21:48:21 UTC",
+      "scope": "No author proof or earlier review read"
+    },
+    {
+      "order": 9,
+      "action": "Coordinator clarified that its reconciliation imports all TWOEVENT premises, while retaining this reviewer independent boundary extension",
+      "exposure_note": "Received after independent boundary finding and report draft; no author proof, prior verdict, or asymptotic proof supplied. Exact message in coordinator-messages-v1.json."
+    }
+  ],
+  "exposure_statement": "No author proof/status, earlier report, project claim summary, experiment checker, or other mathematical file was read. This is correlated same-model scrutiny, not formal certification. Root requested Astra ultra and service_tier=default; these are configuration instructions, not billing telemetry."
+}

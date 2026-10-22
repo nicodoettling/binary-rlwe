@@ -1,0 +1,160 @@
+{
+  "at": "2026-10-21T19:41:25.498934+00:00",
+  "reviewer": "FULL-FRONTIER1",
+  "mode": "Fresh nonauthor full proof/source/complexity review; not blind",
+  "claims": [
+    {
+      "claim_id": "GAUSS-AVG-v1",
+      "referee_verdict": "PASS-EXACT-RESTRICTED-SCOPE",
+      "coordinator_claim_status": "PROVISIONAL-PENDING-FRESH-BLIND-AND-EXACT-RECONCILIATION",
+      "scope": "Restricted continuous Gaussian retained-secret affine obstruction",
+      "dependencies_checked": "Gaussian characteristic transform; finite-dimensional PSD linear algebra",
+      "exact_inputs": [
+        {
+          "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/gaussian-average-obstruction-statement-v1.md",
+          "sha256": "7b3f0d3c6367dcf354d2fbfcff42c3c19cb668d34baf0393094f37f8031752cd",
+          "frozen_copy": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FRONTIER1/inputs/gaussian-average-obstruction-statement-v1.md",
+          "bytes": 1957
+        },
+        {
+          "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/gaussian-average-obstruction-proof-v1.md",
+          "sha256": "afd286d46e5095fafc75fba79881e6eecdc0d9c24cadf5b5e0130efbef931d93",
+          "frozen_copy": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FRONTIER1/inputs/gaussian-average-obstruction-proof-v1.md",
+          "bytes": 3113
+        }
+      ],
+      "required_repair": null,
+      "report": "full-report-v1.md",
+      "probability_report": "probability-audit-v1.md",
+      "source_complexity_report": "source-complexity-report-v1.md"
+    },
+    {
+      "claim_id": "FRAC-INFO-v1",
+      "referee_verdict": "PASS-EXACT-RESTRICTED-SCOPE",
+      "coordinator_claim_status": "PROVISIONAL-PENDING-FRESH-BLIND-AND-EXACT-RECONCILIATION",
+      "scope": "Finite-alphabet optimal statistical recovery for the exact fractional source law; no efficient estimator",
+      "dependencies_checked": "Poisson summation with explicit normalizers; coefficient ideal dual; conditional iid affinity",
+      "exact_inputs": [
+        {
+          "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/fractional-information-statement-v1.md",
+          "sha256": "94f562284bf0f7b9117be57261e0c19deb76dcdff7bd317f7a722203f604b8bd",
+          "frozen_copy": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FRONTIER1/inputs/fractional-information-statement-v1.md",
+          "bytes": 2923
+        },
+        {
+          "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/fractional-information-proof-v1.md",
+          "sha256": "e1ec235c7bf9b3f7d58d25786a3bcece4bb62b0430b7c6da4296a26255d7c5c8",
+          "frozen_copy": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FRONTIER1/inputs/fractional-information-proof-v1.md",
+          "bytes": 3618
+        }
+      ],
+      "required_repair": null,
+      "report": "full-report-v1.md",
+      "probability_report": "probability-audit-v1.md",
+      "source_complexity_report": "source-complexity-report-v1.md"
+    },
+    {
+      "claim_id": "WEIGHT-COV-v1",
+      "referee_verdict": "PASS-EXACT-RESTRICTED-SCOPE",
+      "coordinator_claim_status": "PROVISIONAL-PENDING-FRESH-BLIND-AND-EXACT-RECONCILIATION",
+      "scope": "Exact covariance/full-law equality obstruction on interior fixed-weight slices",
+      "dependencies_checked": "Four-face cancellation; finite second moments; PSD diagonal argument",
+      "exact_inputs": [
+        {
+          "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/weight-covariance-statement-v1.md",
+          "sha256": "af37700170161bd8593c5573c192f3b24b113eb5a518db08f35d69a0d678b234",
+          "frozen_copy": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FRONTIER1/inputs/weight-covariance-statement-v1.md",
+          "bytes": 1413
+        },
+        {
+          "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/weight-covariance-proof-v1.md",
+          "sha256": "88617f5c420181734206414ed3fd30bdcdf5ba84dee2575699ba406e029ad7a3",
+          "frozen_copy": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FRONTIER1/inputs/weight-covariance-proof-v1.md",
+          "bytes": 1973
+        }
+      ],
+      "required_repair": null,
+      "report": "full-report-v1.md",
+      "probability_report": "probability-audit-v1.md",
+      "source_complexity_report": "source-complexity-report-v1.md"
+    },
+    {
+      "claim_id": "SV-PRIME-SUPPORT-v1",
+      "referee_verdict": "PASS-EXACT-RESTRICTED-SCOPE",
+      "coordinator_claim_status": "PROVISIONAL-PENDING-FRESH-BLIND-AND-EXACT-RECONCILIATION",
+      "scope": "Sufficient factorization-free classical source regime at the exact inherited DD radius",
+      "dependencies_checked": "Accepted SV-SUBFIELD-v2; effective Linnik; ordinary-input arithmetic",
+      "exact_inputs": [
+        {
+          "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/source-prime-support-statement-v1.md",
+          "sha256": "b7d9c43af7dedfcaeec509b9693dd374b7f05f197ea9a3bd0fbc09e9c0967df9",
+          "frozen_copy": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FRONTIER1/inputs/source-prime-support-statement-v1.md",
+          "bytes": 1839
+        },
+        {
+          "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/source-prime-support-proof-v1.md",
+          "sha256": "12967509eed52f8fe2896e7d341a792beacbd06cd4a50a43a07bc04c1ea4014d",
+          "frozen_copy": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FRONTIER1/inputs/source-prime-support-proof-v1.md",
+          "bytes": 4089
+        }
+      ],
+      "required_repair": null,
+      "report": "full-report-v1.md",
+      "probability_report": "probability-audit-v1.md",
+      "source_complexity_report": "source-complexity-report-v1.md"
+    },
+    {
+      "claim_id": "SV-ALL-SUBFIELDS-v1",
+      "referee_verdict": "PASS-EXACT-RESTRICTED-SCOPE",
+      "coordinator_claim_status": "PROVISIONAL-PENDING-FRESH-BLIND-AND-EXACT-RECONCILIATION",
+      "scope": "All subfield contraction criteria captured by standard chain up to a square",
+      "dependencies_checked": "Finite abelian subgroup structure; ideal norm extension; accepted signed fixed-lattice construction",
+      "exact_inputs": [
+        {
+          "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/all-subfields-comparison-statement-v1.md",
+          "sha256": "e4bc6f736371b22a5bcb966a065b36f32b16966acdc1958e5ed56de9176d2ea0",
+          "bytes": 1746
+        },
+        {
+          "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/all-subfields-comparison-proof-v1.md",
+          "sha256": "665ed6fc53b8ea17207603bbee9560e330e397b1b922cc244f8c98fecff151d1",
+          "bytes": 3082
+        }
+      ],
+      "required_repair": null,
+      "report": "full-report-v1.md",
+      "probability_report": "probability-audit-v1.md",
+      "source_complexity_report": "source-complexity-report-v1.md"
+    },
+    {
+      "claim_id": "WEIGHT-GAUSS-v1",
+      "referee_verdict": "PASS-EXACT-RESTRICTED-SCOPE",
+      "coordinator_claim_status": "PROVISIONAL-PENDING-FRESH-BLIND-AND-EXACT-RECONCILIATION",
+      "scope": "Continuous Gaussian retained-secret TV obstruction conditional on Hamming-weight advice",
+      "dependencies_checked": "WEIGHT-COV four-face identity and Gaussian characteristic test, each checked directly in this review",
+      "exact_inputs": [
+        {
+          "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/weight-gaussian-statement-v1.md",
+          "sha256": "c8bb8ed7fbc2f4c0be3ffed21e8a5e4d83d07b02e7d2d1bfc8569b095006406f",
+          "bytes": 1806
+        },
+        {
+          "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/weight-gaussian-proof-v1.md",
+          "sha256": "bd2a0689f44b4a39541738e0d55016d46d3cd7fdf2ba7601645c6f7044c98bd8",
+          "bytes": 2515
+        }
+      ],
+      "required_repair": null,
+      "report": "full-report-v1.md",
+      "probability_report": "probability-audit-v1.md",
+      "source_complexity_report": "source-complexity-report-v1.md"
+    }
+  ],
+  "FF_status": "OPEN; none of these claims achieves it",
+  "SV_status": "Additional sufficient deterministic classification recommended at exact inherited radius",
+  "hardness_status": "NOT_ESTABLISHED",
+  "same_model_qualification": "Correlated scrutiny, not formal verification",
+  "inherited_regressions": 203,
+  "current_run_regressions": 21,
+  "new_scoped_negative_controls": 6
+}

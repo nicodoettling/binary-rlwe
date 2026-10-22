@@ -1,0 +1,188 @@
+{
+  "reviewer": "FULL-SV2",
+  "role": "Fresh nonauthor full source/complexity reviewer; not blind",
+  "sealed_at": "2026-10-21T19:02:22.037193+00:00",
+  "verdict": "PASS_EXACT_DETERMINISTIC_SCOPE",
+  "reviewed_exact_targets": [
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/symmetry-descent-statement-v2.md",
+      "sha256": "087405376d31699635e87d954eaaa9305da4635b61f2b572205ba89db533cddf",
+      "bytes": 3642,
+      "scope": "read exact complete contents"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/symmetry-descent-proof-v2.md",
+      "sha256": "4a8e0b32f33c7121517108e9e1b63ff3eb9d2a50f0afea1e5c70c4e0eaa5df2a",
+      "bytes": 6766,
+      "scope": "read exact complete contents"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/subfield-contraction-statement-v2.md",
+      "sha256": "9157018baf8fa6d4e6fc3f3e889f3ba6fd07ce206175be4f37508553593c2bae",
+      "bytes": 3363,
+      "scope": "read exact complete contents"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/subfield-contraction-proof-v2.md",
+      "sha256": "bd394211a85a33ed1566aba5232300db46bc24462777186d8c7f38a24967d9d8",
+      "bytes": 4793,
+      "scope": "read exact complete contents"
+    }
+  ],
+  "author_dependencies": "Exact local source-classification and Frobenius v1 files hash-manifested; exact accepted DD radius and explicit guards read;23 accepted DD file hashes verified",
+  "regressions": {
+    "inherited_count": 203,
+    "all_source_reference_hashes_match": true,
+    "live_registry_growth_reconciled": true,
+    "current_local_entries_scoped": 21,
+    "new_reviewer_controls": 7
+  },
+  "experiments": {
+    "count": 2,
+    "v1": "exit1 SymPy domain failure preserved",
+    "v2": "exit0 PASS under120s/115sCPU/512MiB;actual0.83s/49152KiB",
+    "no_remaining_allocation": true
+  },
+  "scope_limits": [
+    "No programme acceptance before separate blind review and coordinator reconciliation",
+    "No source hardness or FF verdict",
+    "No wide-DGS-to-BDD inference",
+    "No recertification of all inherited probabilistic/quantum results",
+    "Reviewer-originated unbounded-support counterfamily is a new hand-derived scope control, pending separate fresh review if integrated",
+    "Primary web access recorded by version/locations; raw downloaded PDF bytes not available to hash",
+    "Default-tier config read; backend billing telemetry unavailable",
+    "Same-model review is correlated scrutiny"
+  ],
+  "artifacts": [
+    {
+      "path": "accepted-dependency-integrity-v1.json",
+      "sha256": "28d9f9cd3d2bdb503a288b27e097cf38f5f5d7edeca79c7ab90af51c58cc54d2",
+      "bytes": 9558
+    },
+    {
+      "path": "assignment-verbatim.txt",
+      "sha256": "8b320d535c8ac2839ecb9ef8f5cc79125939cb8ac35137c9b24b13d1b368669f",
+      "bytes": 3258
+    },
+    {
+      "path": "controls-v1-grant.txt",
+      "sha256": "c813b687e8eab8f6a95a6268b5cf53cbc852307dea0ae0650979f2bfd78ee7fd",
+      "bytes": 259
+    },
+    {
+      "path": "controls-v1-preregistration.md",
+      "sha256": "254f755ce22bc9915d945e99668783eb67246be065262495385a6fedf773cd92",
+      "bytes": 1985
+    },
+    {
+      "path": "controls-v1-receipt.json",
+      "sha256": "e2a99231c4c5ffa45b51a2f7f779beec4149f8ea93404e75a997920ef46ca604",
+      "bytes": 548
+    },
+    {
+      "path": "controls-v1.py",
+      "sha256": "7065f3fedf94346a3c4e16cbcba647d210682cb1673c0b708d910e8d1d365334",
+      "bytes": 6489
+    },
+    {
+      "path": "controls-v1.stderr",
+      "sha256": "6bc57eb2ad5a4665e9b5133e0936052b2567c30d011c58b2223a059065c91065",
+      "bytes": 1864
+    },
+    {
+      "path": "controls-v1.stdout",
+      "sha256": "21ea1182434dd04d39fb452540ea3c4e5d167b63a94fa4b5b72f36bcc259d649",
+      "bytes": 544
+    },
+    {
+      "path": "controls-v2-grant.txt",
+      "sha256": "1ba238ad51db04ef0599f75e7ff8aafb537df3d65bb859c5f673e371ec802391",
+      "bytes": 266
+    },
+    {
+      "path": "controls-v2-preregistration.md",
+      "sha256": "fab9e43b268144c9a3f9d0e3ad74c1451fcc6da9fe63562e82f87ac7d7155a88",
+      "bytes": 682
+    },
+    {
+      "path": "controls-v2-receipt.json",
+      "sha256": "4055de9f6d4292f31a6fc27188e17e4eb63009409cd53f213e4a394def5b665e",
+      "bytes": 555
+    },
+    {
+      "path": "controls-v2.diff",
+      "sha256": "91537549ff196ff4d470c7cc881f653087b2bb03ad83079a67a80420e516a5e4",
+      "bytes": 422
+    },
+    {
+      "path": "controls-v2.py",
+      "sha256": "dde738fa2cd5fdf546dc6e6f21da3c10fb1d5c2664ae055620ce10dc092d176a",
+      "bytes": 6567
+    },
+    {
+      "path": "controls-v2.stderr",
+      "sha256": "e4432e55241f5e5183368ce967d179f79ef4a41f35ead84479301e6de25d62ef",
+      "bytes": 812
+    },
+    {
+      "path": "controls-v2.stdout",
+      "sha256": "8b07bbba309243a59a060887b2dbde9f0be2952f15e323abb7f298a6d14c21c0",
+      "bytes": 2312
+    },
+    {
+      "path": "delivery-check-v1.json",
+      "sha256": "2c0c505e25afef411e61f9f69824c8100e3658d4436344d7c557b46288207125",
+      "bytes": 11552
+    },
+    {
+      "path": "inherited-regression-resolved-v1.json",
+      "sha256": "08ebfb19daee35b658ea018db925adebb9742400cd22f3476ccd54beb48ccb9f",
+      "bytes": 620817
+    },
+    {
+      "path": "input-manifest-v1.json",
+      "sha256": "0c12efea92c991fc91cddd2461f8f939e8237b406d8f45514a1e8adcd5eda5e6",
+      "bytes": 6671
+    },
+    {
+      "path": "input-manifest-v2.json",
+      "sha256": "6e36e79bf01fde47cbae2bf492b7bf39429ff93f6ead6dc94810170738cd95b0",
+      "bytes": 7861
+    },
+    {
+      "path": "input-manifest-v3.json",
+      "sha256": "7e61760dbb332373480e7250d5196df63c0650c98a7f9810e6a736cc93f7ee94",
+      "bytes": 8761
+    },
+    {
+      "path": "new-negative-controls-v1.md",
+      "sha256": "dab3d460a56868d11adc544cd70dd9d35efa5c09c047f3debea647b770933db8",
+      "bytes": 4799
+    },
+    {
+      "path": "registry-snapshot-at-seal-v1.json",
+      "sha256": "27b966ec59faa61249b3dec9682bafdcf12e95418b7676739032bc00a5d77e40",
+      "bytes": 325044
+    },
+    {
+      "path": "regression-dispositions-v1.json",
+      "sha256": "59ca59ecc9b7c2a77bc5c1a1fc04cbfe9179ca7d6329515a49742ba1417b6e2b",
+      "bytes": 432606
+    },
+    {
+      "path": "report-v1.md",
+      "sha256": "8cd298f93eb5a80df4a80af59a47adbf1578305394d3b541155abf1a2c2760e4",
+      "bytes": 19564
+    },
+    {
+      "path": "source-access-v1.json",
+      "sha256": "09ad3ba3437649eeb0bdbd680bcca569d48f32d4dd9a212525f498d944fc8b15",
+      "bytes": 2390
+    },
+    {
+      "path": "supplemental-regression-dispositions-v1.json",
+      "sha256": "7b39b8bf444ae971d3d9b6cfa00d644deb42b59fcab95d4c048b623d686bd0a0",
+      "bytes": 17803
+    }
+  ]
+}

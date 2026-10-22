@@ -1,0 +1,27 @@
+/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/symmetrized-rank-fv2.py:75: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  lp=linprog(np.zeros(A.shape[1]),A_eq=af,b_eq=bf,bounds=(0,None),method='highs',options={'threads':1,'time_limit':25.0,'primal_feasibility_tolerance':1e-9,'dual_feasibility_tolerance':1e-9})
+/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/symmetrized-rank-fv2.py:81: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  dual=linprog(np.ones(len(b)),A_ub=-af.T,b_ub=np.zeros(A.shape[1]),bounds=[(-1,1)]*len(b),method='highs',options={'threads':1,'time_limit':25.0})
+	Command being timed: "python3 experiments/symmetrized-rank-fv2.py"
+	User time (seconds): 25.84
+	System time (seconds): 0.84
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:26.69
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 422884
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 495145
+	Voluntary context switches: 6
+	Involuntary context switches: 77
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 3120
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

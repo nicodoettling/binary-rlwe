@@ -1,0 +1,16 @@
+{
+  "id": "WEIGHT-COV-FV1",
+  "registered_at": "2026-10-21T19:21:25.634540+00:00",
+  "hypothesis": "Same-weight four-secret covariance differences have nonzero prescribed matrix for nonzero PSD C; autocorrelation advice leaks more than weight in finite cubes",
+  "code": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/weight-cov-fv1.py",
+  "sha256": "6ee1ef533ccd81d70883c5622f0fc04ed4949b10224118610c159ac7c44d656c",
+  "inputs": "n4,8,16 exact covariance faces; allbinary secrets n2,4,8,16; deterministicseed0..3",
+  "wall_seconds": 120,
+  "address_space_bytes": 536870912,
+  "estimated_seconds": 10,
+  "estimated_peak_MiB": 50,
+  "precision": "exact integers/Fraction; entropy floats diagnostic; no distribution tails in finite experiment",
+  "command": "/usr/bin/time -v timeout --signal=TERM --kill-after=5 120s prlimit --as=536870912 --cpu=115 python3 experiments/weight-cov-fv1.py",
+  "slot": "root LIGHT, both worker jobs released, zero other current jobs",
+  "expected": "Analytic identities and exact finite scope controls pass; no asymptotic entropy conclusion"
+}

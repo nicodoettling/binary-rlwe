@@ -1,0 +1,9 @@
+{
+ "id":"FF3-NORMALIZED-FV5","registered_before_execution":true,
+ "hypothesis":"Conditioning independent residual H outputs onto the compatible target-pair subspace yields a positive row-normalized kernel, but changes row theta-like normalizers and may break planted/comparator endpoint identities. The n1 two-secret product is a positive exact control. Exact likelihood-type grouping can reduce a future n4 unrestricted LP.",
+ "code":"ff3-normalized-fv5.py","inputs":"n1,n2 Q3q2, H from FV4, all binary candidate residuals; exact coefficient noise(7/8,1/16,1/16)→(3/4,1/4). Separately n4 Q3 andq2 exhaustive likelihood-zero-count type enumeration. No LP is executed.",
+ "seed":"none","command":"ulimit -v 524288; /usr/bin/time -v timeout 120s python3 ff3-normalized-fv5.py > ff3-normalized-fv5-output.json 2> ff3-normalized-fv5-resource.txt",
+ "limits":{"wall_seconds":120,"address_space_bytes":536870912,"expected_seconds":5,"expected_rss_bytes":50000000,"heavy":false},
+ "precision":"Exact Fraction for each normalized row and all full conditional endpoint laws; exact integer grouping. No Gaussian or asymptotic theorem is inferred.",
+ "expected":"n1 TV0; n2 produces an explicit nonzero endpoint discrepancy and nonconstant normalizer, or a positive candidate if exact laws unexpectedly hold. n4 grouping only determines a possible next bounded LP size."
+}

@@ -1,0 +1,447 @@
+{
+  "at": "2026-10-21T21:53:49.048436+00:00",
+  "method": "Union of child task_started/task_complete/turn_aborted lifecycle timestamps, current prefix snapshots. A documentary reconstruction, not backend scheduler or process observation.",
+  "maximum_observed_active_children": 2,
+  "active_children_at_snapshot": [
+    "/root/delivery_audit1",
+    "/root/operations_audit1"
+  ],
+  "anomalies": [],
+  "events": [
+    {
+      "timestamp": "2026-10-21T17:49:20.250Z",
+      "kind": "task_started",
+      "turn_id": "01a15f94-f5c7-7650-82fd-eef1c5116f41",
+      "agent": "/root/ff1",
+      "active_child_count": 1,
+      "active_children": [
+        "/root/ff1"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T17:49:46.180Z",
+      "kind": "task_started",
+      "turn_id": "01a15f95-5b3a-7a32-a714-f873c4e4f8bd",
+      "agent": "/root/sv",
+      "active_child_count": 2,
+      "active_children": [
+        "/root/ff1",
+        "/root/sv"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T18:29:56.826Z",
+      "kind": "task_complete",
+      "turn_id": "01a15f94-f5c7-7650-82fd-eef1c5116f41",
+      "agent": "/root/ff1",
+      "active_child_count": 1,
+      "active_children": [
+        "/root/sv"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T18:30:10.674Z",
+      "kind": "task_started",
+      "turn_id": "01a15fba-59ec-7fd2-bc8b-c62c17db3922",
+      "agent": "/root/ff1",
+      "active_child_count": 2,
+      "active_children": [
+        "/root/ff1",
+        "/root/sv"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T18:30:23.634Z",
+      "kind": "task_complete",
+      "turn_id": "01a15f95-5b3a-7a32-a714-f873c4e4f8bd",
+      "agent": "/root/sv",
+      "active_child_count": 1,
+      "active_children": [
+        "/root/ff1"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T18:31:29.476Z",
+      "kind": "task_started",
+      "turn_id": "01a15fbb-8db9-7e63-9a3d-11301bd9396f",
+      "agent": "/root/blind_sv1",
+      "active_child_count": 2,
+      "active_children": [
+        "/root/blind_sv1",
+        "/root/ff1"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T18:46:05.359Z",
+      "kind": "task_complete",
+      "turn_id": "01a15fba-59ec-7fd2-bc8b-c62c17db3922",
+      "agent": "/root/ff1",
+      "active_child_count": 1,
+      "active_children": [
+        "/root/blind_sv1"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T18:47:11.906Z",
+      "kind": "task_complete",
+      "turn_id": "01a15fbb-8db9-7e63-9a3d-11301bd9396f",
+      "agent": "/root/blind_sv1",
+      "active_child_count": 0,
+      "active_children": []
+    },
+    {
+      "timestamp": "2026-10-21T18:47:18.644Z",
+      "kind": "task_started",
+      "turn_id": "01a15fca-096b-7a82-a917-ba4438855d1d",
+      "agent": "/root/blind_ff2",
+      "active_child_count": 1,
+      "active_children": [
+        "/root/blind_ff2"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T18:47:59.105Z",
+      "kind": "task_started",
+      "turn_id": "01a15fca-a774-7fa3-a3ea-5087bc42c67e",
+      "agent": "/root/full_sv2",
+      "active_child_count": 2,
+      "active_children": [
+        "/root/blind_ff2",
+        "/root/full_sv2"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T19:00:37.365Z",
+      "kind": "task_complete",
+      "turn_id": "01a15fca-096b-7a82-a917-ba4438855d1d",
+      "agent": "/root/blind_ff2",
+      "active_child_count": 1,
+      "active_children": [
+        "/root/full_sv2"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T19:02:40.128Z",
+      "kind": "task_complete",
+      "turn_id": "01a15fca-a774-7fa3-a3ea-5087bc42c67e",
+      "agent": "/root/full_sv2",
+      "active_child_count": 0,
+      "active_children": []
+    },
+    {
+      "timestamp": "2026-10-21T19:03:50.047Z",
+      "kind": "task_started",
+      "turn_id": "01a15fd9-2a11-7be1-8d8d-3a4bf0295e25",
+      "agent": "/root/ff3_kernel",
+      "active_child_count": 1,
+      "active_children": [
+        "/root/ff3_kernel"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T19:08:07.336Z",
+      "kind": "task_started",
+      "turn_id": "01a15fdd-16f4-7a82-8fe4-36a226c97054",
+      "agent": "/root/blind_sv2",
+      "active_child_count": 2,
+      "active_children": [
+        "/root/blind_sv2",
+        "/root/ff3_kernel"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T19:23:42.475Z",
+      "kind": "task_complete",
+      "turn_id": "01a15fdd-16f4-7a82-8fe4-36a226c97054",
+      "agent": "/root/blind_sv2",
+      "active_child_count": 1,
+      "active_children": [
+        "/root/ff3_kernel"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T19:24:38.270Z",
+      "kind": "task_started",
+      "turn_id": "01a15fec-35f2-7230-98f0-1566bf62f85f",
+      "agent": "/root/full_frontier1",
+      "active_child_count": 2,
+      "active_children": [
+        "/root/ff3_kernel",
+        "/root/full_frontier1"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T19:42:35.509Z",
+      "kind": "task_complete",
+      "turn_id": "01a15fec-35f2-7230-98f0-1566bf62f85f",
+      "agent": "/root/full_frontier1",
+      "active_child_count": 1,
+      "active_children": [
+        "/root/ff3_kernel"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T19:45:51.085Z",
+      "kind": "task_started",
+      "turn_id": "01a15fff-a1e4-72e3-a0df-df3ac2e936cf",
+      "agent": "/root/full_frontier1",
+      "active_child_count": 2,
+      "active_children": [
+        "/root/ff3_kernel",
+        "/root/full_frontier1"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T20:03:08.159Z",
+      "kind": "task_complete",
+      "turn_id": "01a15fff-a1e4-72e3-a0df-df3ac2e936cf",
+      "agent": "/root/full_frontier1",
+      "active_child_count": 1,
+      "active_children": [
+        "/root/ff3_kernel"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T20:03:37.539Z",
+      "kind": "task_started",
+      "turn_id": "01a1600f-e7b7-7c00-8f2c-9a6affaa4d30",
+      "agent": "/root/blind_frontier1",
+      "active_child_count": 2,
+      "active_children": [
+        "/root/blind_frontier1",
+        "/root/ff3_kernel"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T20:28:33.142Z",
+      "kind": "task_complete",
+      "turn_id": "01a15fd9-2a11-7be1-8d8d-3a4bf0295e25",
+      "agent": "/root/ff3_kernel",
+      "active_child_count": 1,
+      "active_children": [
+        "/root/blind_frontier1"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T20:29:20.156Z",
+      "kind": "task_started",
+      "turn_id": "01a16027-7194-7ad2-af7e-f41dcc7fded7",
+      "agent": "/root/full_source3",
+      "active_child_count": 2,
+      "active_children": [
+        "/root/blind_frontier1",
+        "/root/full_source3"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T20:38:54.652Z",
+      "kind": "task_complete",
+      "turn_id": "01a1600f-e7b7-7c00-8f2c-9a6affaa4d30",
+      "agent": "/root/blind_frontier1",
+      "active_child_count": 1,
+      "active_children": [
+        "/root/full_source3"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T20:39:20.003Z",
+      "kind": "task_started",
+      "turn_id": "01a16030-98bb-72d0-858c-542565605b7d",
+      "agent": "/root/blind_source4",
+      "active_child_count": 2,
+      "active_children": [
+        "/root/blind_source4",
+        "/root/full_source3"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T20:43:24.929Z",
+      "kind": "task_complete",
+      "turn_id": "01a16027-7194-7ad2-af7e-f41dcc7fded7",
+      "agent": "/root/full_source3",
+      "active_child_count": 1,
+      "active_children": [
+        "/root/blind_source4"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T20:44:15.103Z",
+      "kind": "task_started",
+      "turn_id": "01a16035-1978-79c1-aae9-5e4ae8416548",
+      "agent": "/root/full_source3",
+      "active_child_count": 2,
+      "active_children": [
+        "/root/blind_source4",
+        "/root/full_source3"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T20:54:29.214Z",
+      "kind": "task_complete",
+      "turn_id": "01a16030-98bb-72d0-858c-542565605b7d",
+      "agent": "/root/blind_source4",
+      "active_child_count": 1,
+      "active_children": [
+        "/root/full_source3"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T20:54:56.663Z",
+      "kind": "task_started",
+      "turn_id": "01a1603e-e391-76c0-b858-bc63d99618ff",
+      "agent": "/root/blind_source4",
+      "active_child_count": 2,
+      "active_children": [
+        "/root/blind_source4",
+        "/root/full_source3"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T21:05:02.083Z",
+      "kind": "task_complete",
+      "turn_id": "01a1603e-e391-76c0-b858-bc63d99618ff",
+      "agent": "/root/blind_source4",
+      "active_child_count": 1,
+      "active_children": [
+        "/root/full_source3"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T21:05:24.498Z",
+      "kind": "task_started",
+      "turn_id": "01a16048-7806-7590-98ab-a76b07139746",
+      "agent": "/root/blind_transfer2",
+      "active_child_count": 2,
+      "active_children": [
+        "/root/blind_transfer2",
+        "/root/full_source3"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T21:15:38.070Z",
+      "kind": "task_complete",
+      "turn_id": "01a16035-1978-79c1-aae9-5e4ae8416548",
+      "agent": "/root/full_source3",
+      "active_child_count": 1,
+      "active_children": [
+        "/root/blind_transfer2"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T21:16:21.211Z",
+      "kind": "task_started",
+      "turn_id": "01a16052-7d4e-78e1-b4f7-4647cc94a906",
+      "agent": "/root/frontier_challenge1",
+      "active_child_count": 2,
+      "active_children": [
+        "/root/blind_transfer2",
+        "/root/frontier_challenge1"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T21:27:00.653Z",
+      "kind": "task_complete",
+      "turn_id": "01a16048-7806-7590-98ab-a76b07139746",
+      "agent": "/root/blind_transfer2",
+      "active_child_count": 1,
+      "active_children": [
+        "/root/frontier_challenge1"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T21:27:18.097Z",
+      "kind": "task_started",
+      "turn_id": "01a1605c-8344-7da3-9adf-4fb3a45f74e2",
+      "agent": "/root/blind_resource3",
+      "active_child_count": 2,
+      "active_children": [
+        "/root/blind_resource3",
+        "/root/frontier_challenge1"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T21:29:39.850Z",
+      "kind": "task_complete",
+      "turn_id": "01a16052-7d4e-78e1-b4f7-4647cc94a906",
+      "agent": "/root/frontier_challenge1",
+      "active_child_count": 1,
+      "active_children": [
+        "/root/blind_resource3"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T21:33:08.673Z",
+      "kind": "task_started",
+      "turn_id": "01a16061-dcb5-7771-9697-bc5c11ec0e6f",
+      "agent": "/root/frontier_challenge1",
+      "active_child_count": 2,
+      "active_children": [
+        "/root/blind_resource3",
+        "/root/frontier_challenge1"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T21:36:05.836Z",
+      "kind": "task_complete",
+      "turn_id": "01a16061-dcb5-7771-9697-bc5c11ec0e6f",
+      "agent": "/root/frontier_challenge1",
+      "active_child_count": 1,
+      "active_children": [
+        "/root/blind_resource3"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T21:36:51.598Z",
+      "kind": "task_started",
+      "turn_id": "01a16065-4381-7eb0-b6e5-1102360ceec7",
+      "agent": "/root/blind_resource4",
+      "active_child_count": 2,
+      "active_children": [
+        "/root/blind_resource3",
+        "/root/blind_resource4"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T21:40:31.431Z",
+      "kind": "task_complete",
+      "turn_id": "01a1605c-8344-7da3-9adf-4fb3a45f74e2",
+      "agent": "/root/blind_resource3",
+      "active_child_count": 1,
+      "active_children": [
+        "/root/blind_resource4"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T21:42:04.247Z",
+      "kind": "task_started",
+      "turn_id": "01a1606a-08cc-7fe1-9e0c-0f8d87b5ce9b",
+      "agent": "/root/delivery_audit1",
+      "active_child_count": 2,
+      "active_children": [
+        "/root/blind_resource4",
+        "/root/delivery_audit1"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T21:50:29.887Z",
+      "kind": "task_complete",
+      "turn_id": "01a16065-4381-7eb0-b6e5-1102360ceec7",
+      "agent": "/root/blind_resource4",
+      "active_child_count": 1,
+      "active_children": [
+        "/root/delivery_audit1"
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T21:51:06.850Z",
+      "kind": "task_started",
+      "turn_id": "01a16072-5056-7d92-a635-a6bacc2f148d",
+      "agent": "/root/operations_audit1",
+      "active_child_count": 2,
+      "active_children": [
+        "/root/delivery_audit1",
+        "/root/operations_audit1"
+      ]
+    }
+  ]
+}

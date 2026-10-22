@@ -1,0 +1,9 @@
+{
+ "id":"FF3-EXACT-FV3","registered_before_execution":true,
+ "hypothesis":"The floating feasible supports from FV2 admit exact nonnegative rational kernels; naive entrywise approximation errors are removed by solving the exact equality system on the frozen supports.",
+ "code":"ff3-exact-fv3.py","inputs":"FV2 summary and reserve_n1_b, reserve_n2_a, reserve_n2_b frozen witness supports; exact rational noise parameters recovered from the immutable summary.",
+ "seed":"none","command":"ulimit -v 524288; /usr/bin/time -v timeout 120s python3 ff3-exact-fv3.py > ff3-exact-fv3-output.jsonl 2> ff3-exact-fv3-resource.txt",
+ "limits":{"wall_seconds":120,"address_space_bytes":536870912,"expected_seconds":20,"expected_rss_bytes":50000000,"heavy":false},
+ "precision":"Python Fraction exact sparse Gauss-Jordan, complete row and endpoint recheck, nonnegative entry check. No floating arithmetic is used. System<=161 equations,156 unknowns. A failure preserves the numerical-only status from FV2.",
+ "expected":"Exact certificates for three supports, or explicitly exposed inconsistency/nonpositivity; finite rational experiments only."
+}

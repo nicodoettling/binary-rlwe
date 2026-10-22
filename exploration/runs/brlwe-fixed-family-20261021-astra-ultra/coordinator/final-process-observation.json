@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-21T22:44:58.198430+00:00",
+  "service_elapsed_seconds": 17807.562530518975,
+  "observer_pid": 2,
+  "pid_namespace": "pid:[4026536073]",
+  "visible_processes": [
+    {
+      "pid": 1,
+      "ppid": 0,
+      "name": "codex",
+      "state": "S (sleeping)",
+      "executable_basename": "codex-linux-sandbox",
+      "mentions_output_path": false,
+      "observer": false
+    },
+    {
+      "pid": 2,
+      "ppid": 1,
+      "name": "python3",
+      "state": "R (running)",
+      "executable_basename": "python3",
+      "mentions_output_path": false,
+      "observer": true
+    }
+  ],
+  "unreadable_or_exited_pids": [],
+  "cap_file_observed": "run.log.brlwe-fixed-family-20261021-astra-ultra.cap-status.json",
+  "cap_file_updated_at": "2026-10-21T17:48:10.733979+00:00",
+  "cap_cached_state": "running",
+  "scheduled_graceful_at": "2026-10-21T22:47:05.636448+00:00",
+  "hard_deadline_at": "2026-10-21T22:48:10.636448+00:00",
+  "systemd_live_query": {
+    "attempted_at": "2026-10-21T22:09:42Z approximately",
+    "exit_code": 1,
+    "stderr": "Failed to connect to bus: Operation not permitted",
+    "retried_or_bypassed": false
+  },
+  "limits": "This sandbox PID namespace does not expose the enclosing Codex service or a complete host process census. Visible local processes, completed tool sessions, worker completion reports and coordinator experiment grants are separate evidence. Startup cap state is not live cleanup proof. Future service termination is unobserved.",
+  "process_or_service_mutations": 0,
+  "coordinator_activity_attestation_at": "2026-10-21T22:44:58.299297+00:00",
+  "known_active_experiments_from_coordinator": 0,
+  "known_background_exec_sessions_pending_from_coordinator": 0,
+  "scope_of_activity_counts": "Coordinator-owned tracked calls only; not an OS-wide census",
+  "activity_basis": [
+    "coordinator/worker-experiment-stop-receipt.json",
+    "coordinator/final-agent-observation.json",
+    "All coordinator-owned experiment and long exec sessions returned; no worker or experiment was launched after the285-minute boundary. Current foreground documentary commands are not background experiment sessions."
+  ]
+}

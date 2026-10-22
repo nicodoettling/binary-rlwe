@@ -1,0 +1,29 @@
+{
+  "status": "PASS bounded exact finite laws only",
+  "counts": {
+    "normalized_models": 984,
+    "prior_input_channels": 8856,
+    "output_checks": 35424,
+    "retry_prefix_checks": 1968
+  },
+  "correlated_public": {
+    "guess": "1",
+    "conditional_prior_guess": "1/2",
+    "correct_bound": "1",
+    "incorrect_uniform_bound": "1/2"
+  },
+  "persistent_seed_negative": {
+    "normalization": "1",
+    "guess": "5/8",
+    "bound": "1/2",
+    "mean_trials": "5",
+    "claimed_fresh_mean": "2",
+    "fresh_guess": "1/4"
+  },
+  "other_negative_controls": [
+    "nonnormalization rejects",
+    "nonatomic-v1 channel violates 1/2 bound; nonatomic Z is symbolic, not sampled",
+    "output leakage rejects",
+    "CP-1 old product rejects"
+  ]
+}

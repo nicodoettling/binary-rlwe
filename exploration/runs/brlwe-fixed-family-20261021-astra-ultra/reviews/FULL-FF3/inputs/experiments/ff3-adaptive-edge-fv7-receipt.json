@@ -1,0 +1,12 @@
+{
+  "id": "ff3-adaptive-edge-fv7",
+  "exit_code": 0,
+  "elapsed_wall_report": "0:00.49",
+  "peak_RSS_KiB": 73728,
+  "wall_limit_seconds": 120,
+  "address_space_limit_bytes": 536870912,
+  "slot_released": true,
+  "descendant_check": "pgrep matching exact script name returned exit1/no process",
+  "code_sha256": "033bb199fcf8c1c47a27eeb62d54e8111734fe2c6847e1d510e5ae9bf1e04df8",
+  "registration_sha256": "a4b4d6dcfccabe890a96c5e268703498efe3eecc51a203cf51560fb771f76bdc"
+}

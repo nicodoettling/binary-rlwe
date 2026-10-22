@@ -1,0 +1,214 @@
+{"progress_case": "2power_4_1"}
+{"progress_case": "2power_4_3"}
+{"progress_case": "2power_8_1"}
+{"progress_case": "2power_8_7"}
+{"progress_case": "unit4"}
+{"progress_case": "prime3_8"}
+{"progress_case": "mixed2_3_8"}
+{"progress_case": "mixed4_7_8"}
+{"progress_case": "primepower97_16"}
+{"progress_case": "composite17_97_16"}
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "name": "2power_4_1",
+      "n": 4,
+      "D": 2,
+      "e": 2,
+      "a": 2,
+      "odd_norm": 1,
+      "stabilizer": [
+        1,
+        3,
+        5,
+        7
+      ],
+      "fixed_rank": 1,
+      "d_H": 1,
+      "collision_candidates": 2,
+      "member_squared_norm": 4,
+      "bad_sign_orbits": 2
+    },
+    {
+      "name": "2power_4_3",
+      "n": 4,
+      "D": 8,
+      "e": 2,
+      "a": 2,
+      "odd_norm": 1,
+      "stabilizer": [
+        1,
+        3,
+        5,
+        7
+      ],
+      "fixed_rank": 1,
+      "d_H": 1,
+      "collision_candidates": 2,
+      "member_squared_norm": 4,
+      "bad_sign_orbits": 2
+    },
+    {
+      "name": "2power_8_1",
+      "n": 8,
+      "D": 2,
+      "e": 2,
+      "a": 2,
+      "odd_norm": 1,
+      "stabilizer": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15
+      ],
+      "fixed_rank": 1,
+      "d_H": 1,
+      "collision_candidates": 2,
+      "member_squared_norm": 4,
+      "bad_sign_orbits": 3
+    },
+    {
+      "name": "2power_8_7",
+      "n": 8,
+      "D": 128,
+      "e": 2,
+      "a": 2,
+      "odd_norm": 1,
+      "stabilizer": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15
+      ],
+      "fixed_rank": 1,
+      "d_H": 1,
+      "collision_candidates": 2,
+      "member_squared_norm": 4,
+      "bad_sign_orbits": 3
+    },
+    {
+      "name": "unit4",
+      "n": 4,
+      "D": 1,
+      "e": 1,
+      "a": 1,
+      "odd_norm": 1,
+      "stabilizer": [
+        1,
+        3,
+        5,
+        7
+      ],
+      "fixed_rank": 1,
+      "d_H": 1,
+      "collision_candidates": 2,
+      "member_squared_norm": 1,
+      "bad_sign_orbits": 2
+    },
+    {
+      "name": "prime3_8",
+      "n": 8,
+      "D": 81,
+      "e": 3,
+      "a": 1,
+      "odd_norm": 81,
+      "stabilizer": [
+        1,
+        3,
+        9,
+        11
+      ],
+      "fixed_rank": 2,
+      "d_H": 3,
+      "collision_candidates": 3,
+      "member_squared_norm": 3,
+      "bad_sign_orbits": 3
+    },
+    {
+      "name": "mixed2_3_8",
+      "n": 8,
+      "D": 162,
+      "e": 6,
+      "a": 2,
+      "odd_norm": 81,
+      "stabilizer": [
+        1,
+        3,
+        9,
+        11
+      ],
+      "fixed_rank": 2,
+      "d_H": 3,
+      "collision_candidates": 3,
+      "member_squared_norm": 12,
+      "bad_sign_orbits": 3
+    },
+    {
+      "name": "mixed4_7_8",
+      "n": 8,
+      "D": 196,
+      "e": 14,
+      "a": 2,
+      "odd_norm": 49,
+      "stabilizer": [
+        1,
+        7
+      ],
+      "fixed_rank": 4,
+      "d_H": 7,
+      "collision_candidates": 3,
+      "member_squared_norm": 12,
+      "bad_sign_orbits": 1
+    },
+    {
+      "name": "primepower97_16",
+      "n": 16,
+      "D": 9409,
+      "e": 9409,
+      "a": 1,
+      "odd_norm": 9409,
+      "stabilizer": [
+        1
+      ],
+      "fixed_rank": 16,
+      "d_H": 9409,
+      "collision_candidates": 274,
+      "member_squared_norm": 7,
+      "bad_sign_orbits": 0
+    },
+    {
+      "name": "composite17_97_16",
+      "n": 16,
+      "D": 28033,
+      "e": 1649,
+      "a": 1,
+      "odd_norm": 28033,
+      "stabilizer": [
+        1
+      ],
+      "fixed_rank": 16,
+      "d_H": 28033,
+      "collision_candidates": 649,
+      "member_squared_norm": 7,
+      "bad_sign_orbits": 0
+    }
+  ],
+  "ramified_naive_identity_rejected": {
+    "n": 4,
+    "D": 2,
+    "h": 4,
+    "actual_contraction_index": 2,
+    "d_power_h": 16
+  },
+  "arithmetic": "exact rational/integer/SNF",
+  "limits": "finite checks; not asymptotic proof"
+}

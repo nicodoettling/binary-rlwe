@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "exact_covariance_faces": 76,
+  "finite_support_model": "Delta=V times three independent Rademachers; Z independent coordinate Rademachers, so C=VV^T,L=0,B=I",
+  "finite_autocorrelation_fibers": [
+    {
+      "n": 2,
+      "secrets": 4,
+      "autocorrelation_fibers": 3,
+      "maximum_fiber": 2,
+      "optimal_guess_after_autocorrelation": "3/4",
+      "optimal_guess_after_weight": "3/4",
+      "conditional_shannon_bits_float_diagnostic": 0.5
+    },
+    {
+      "n": 4,
+      "secrets": 16,
+      "autocorrelation_fibers": 8,
+      "maximum_fiber": 4,
+      "optimal_guess_after_autocorrelation": "1/2",
+      "optimal_guess_after_weight": "5/16",
+      "conditional_shannon_bits_float_diagnostic": 1.1721804688852169
+    },
+    {
+      "n": 8,
+      "secrets": 256,
+      "autocorrelation_fibers": 79,
+      "maximum_fiber": 10,
+      "optimal_guess_after_autocorrelation": "79/256",
+      "optimal_guess_after_weight": "9/256",
+      "conditional_shannon_bits_float_diagnostic": 1.9343273296696086
+    },
+    {
+      "n": 16,
+      "secrets": 65536,
+      "autocorrelation_fibers": 15837,
+      "maximum_fiber": 26,
+      "optimal_guess_after_autocorrelation": "15837/65536",
+      "optimal_guess_after_weight": "17/65536",
+      "conditional_shannon_bits_float_diagnostic": 2.364200504259594
+    }
+  ],
+  "precision": "All matrix/fiber/count arithmetic exact integers; entropy log2 floats diagnostic only",
+  "scope": "Finite controls do not establish asymptotic entropy or Gaussian/full-law theorem"
+}

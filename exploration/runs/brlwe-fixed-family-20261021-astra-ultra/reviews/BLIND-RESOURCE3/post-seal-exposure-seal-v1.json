@@ -1,0 +1,12 @@
+{
+  "sealed_at": "2026-10-21T21:40:23.994957+00:00",
+  "prior_seal": {
+    "path": "final-seal-v1.json",
+    "sha256": "9cde9f336188da456659bab1802fcccbe77651f641eb836d90e651447d953cdd"
+  },
+  "addition": {
+    "path": "post-seal-exposure-v1.txt",
+    "sha256": "83d06e2c6be0698f62306309806b3ef8209d8c211652124881ffa7e63a80d27c"
+  },
+  "statement": "Original sealed files remain unchanged; this supplements exposure chronology only."
+}

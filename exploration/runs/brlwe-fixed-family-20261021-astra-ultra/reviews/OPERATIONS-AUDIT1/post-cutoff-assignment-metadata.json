@@ -1,0 +1,73 @@
+{
+  "at": "2026-10-21T21:57:37.686861+00:00",
+  "scope": "Selected task names, stored argument hashes and tool fields only. No message content or ciphertext retained.",
+  "records": [
+    {
+      "timestamp": "2026-10-21T21:27:18.008Z",
+      "tool": "spawn_agent",
+      "task": "blind_resource3",
+      "field_names": [
+        "task_name",
+        "model",
+        "reasoning_effort",
+        "fork_turns",
+        "message"
+      ],
+      "stored_assignment_sha256": "75d6d0d085325cbcd2ef0b26d7f66715726252ed629eef3f2c0d4c84e8f474af",
+      "assignment_payload": "OMITTED; stored tool message may be encrypted; use preserved plaintext assignment files for scope"
+    },
+    {
+      "timestamp": "2026-10-21T21:33:08.655Z",
+      "tool": "followup_task",
+      "task": "/root/frontier_challenge1",
+      "field_names": [
+        "target",
+        "message"
+      ],
+      "stored_assignment_sha256": "7b1ef5eee611d6da5c907075bc6eade5d14ad077cb6233eeb8b91287c247dfe5",
+      "assignment_payload": "OMITTED; stored tool message may be encrypted; use preserved plaintext assignment files for scope"
+    },
+    {
+      "timestamp": "2026-10-21T21:36:51.476Z",
+      "tool": "spawn_agent",
+      "task": "blind_resource4",
+      "field_names": [
+        "task_name",
+        "model",
+        "reasoning_effort",
+        "fork_turns",
+        "message"
+      ],
+      "stored_assignment_sha256": "4120f24455f3a250279c236239c7f06f88eaa1ddfd7eddc3ef4e1962462f7616",
+      "assignment_payload": "OMITTED; stored tool message may be encrypted; use preserved plaintext assignment files for scope"
+    },
+    {
+      "timestamp": "2026-10-21T21:42:04.122Z",
+      "tool": "spawn_agent",
+      "task": "delivery_audit1",
+      "field_names": [
+        "task_name",
+        "model",
+        "reasoning_effort",
+        "fork_turns",
+        "message"
+      ],
+      "stored_assignment_sha256": "4de856830149bc5f759280311ce70194d327959d74a3ed6cb0a5496d48ea3a89",
+      "assignment_payload": "OMITTED; stored tool message may be encrypted; use preserved plaintext assignment files for scope"
+    },
+    {
+      "timestamp": "2026-10-21T21:51:06.710Z",
+      "tool": "spawn_agent",
+      "task": "operations_audit1",
+      "field_names": [
+        "task_name",
+        "model",
+        "reasoning_effort",
+        "fork_turns",
+        "message"
+      ],
+      "stored_assignment_sha256": "93e46725f640914c7a4e37b147210d5e7925411032e9b70f03965d6e23fe5985",
+      "assignment_payload": "OMITTED; stored tool message may be encrypted; use preserved plaintext assignment files for scope"
+    }
+  ]
+}

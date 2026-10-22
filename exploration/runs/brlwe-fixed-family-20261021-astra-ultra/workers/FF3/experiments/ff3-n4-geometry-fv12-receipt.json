@@ -1,0 +1,23 @@
+{
+  "id": "FF3-N4-GEOMETRY-FV12",
+  "created_utc": "2026-10-21T20:27:42.633845+00:00",
+  "code": "ff3-n4-geometry-fv12.py",
+  "code_sha256": "df6620c72f4cbc75a7bae9c9dee75f28e84245131999408e9105dbd0fc4d6e9d",
+  "registration": "ff3-n4-geometry-fv12-registration.json",
+  "registration_sha256": "62275f7436b36a65779299dae4d1346edab70c26eadccddfc2889a04c5413b4a",
+  "command": "ulimit -v 2097152; /usr/bin/time -v timeout 120s python3 ff3-n4-geometry-fv12.py > ff3-n4-geometry-fv12-output.jsonl 2> ff3-n4-geometry-fv12-resource.txt",
+  "limits": {
+    "wall_seconds": 120,
+    "address_space_bytes": 2147483648,
+    "expected_seconds": 30,
+    "expected_rss_bytes": 1200000000,
+    "heavy": true,
+    "selector_LP_seconds": 80
+  },
+  "wall_time_recorded": "0:07.97",
+  "maximum_RSS_KiB": 964724,
+  "exit_status": 0,
+  "root_slot": "Fresh parent grant before each execution, preserved in worker conversation.",
+  "cleanup": "Matching pgrep returned exit1 with empty output after this job; aggregate cleanup rechecked at phase2 seal.",
+  "numeric_status_policy": "Floating solver statuses and operational errors retained; only exact postchecks support mathematical conclusions."
+}

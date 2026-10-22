@@ -1,0 +1,22 @@
+{
+  "id": "FULL-FF3-INDEPENDENT-v1",
+  "registered_at": "2026-10-21T19:51:30.730048+00:00",
+  "code_sha256": "611c15229b386849424ba94035ee91e410dc4cc1bf9f37da707e2c6fdaeb922b",
+  "hypotheses": [
+    "Independently reconstruct every unrestricted and FV7/FV8 Farkas endpoint from ring laws, verify FV9 positive selector without author solver/code",
+    "Exact shifted-box conditional enumeration at n2Q17T1 includes the recorded sign counterexample and allzeroA support",
+    "All6560 nonzero ternary degree8 multiplication matrices satisfy determinant/rank bound modulo17, including nonunits",
+    "Full shared-secret batch and complete CP1 prior normalizer remain preserved"
+  ],
+  "inputs": "Frozen87file packet, especially exact rational witnesses; source/target parameters explicit in code",
+  "input_freeze_sha256": "3c0526b24e6f4416cf6f69bc61dd29db3121700e0d21d9878b8a0f14a6ba8bde",
+  "seed": null,
+  "precision": "Exact integer/Fraction throughout; no floating solver or Gaussian numerical truncation",
+  "tails": "No infinite distributions numerically approximated; Gaussian tails audited analytically in report",
+  "timeout_seconds": 120,
+  "address_space_bytes": 536870912,
+  "estimated_seconds": 30,
+  "estimated_peak_MiB": 70,
+  "command": "/usr/bin/time -v -o exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF3/independent-controls-v1.resources.txt timeout --signal=TERM --kill-after=5s 120s prlimit --as=536870912 -- python3 exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF3/independent-controls-v1.py > exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF3/independent-controls-v1.stdout.jsonl 2> exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF3/independent-controls-v1.stderr.txt",
+  "status": "REGISTERED_NOT_RUN_SLOT_PENDING"
+}

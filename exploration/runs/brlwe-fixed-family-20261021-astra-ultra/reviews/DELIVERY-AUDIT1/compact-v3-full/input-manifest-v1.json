@@ -1,0 +1,84 @@
+{
+  "at": "2026-10-21T21:47:58.179886+00:00",
+  "exposure": "Fresh nonauthor full reviewer. Before task saw generic compressed-selector v2 statement/proof, old compact fair-bit defect in BLIND-TRANSFER2 final scope, new M encoding rejection labels, coordinator status summaries/acceptance-v1..v6. First actual read of compact v3 statement and proof at21:47:22 UTC after this assignment. No blind status claimed; no BLIND-RESOURCE4 report read. Did not review/pass v2 beforehand or author any candidate.",
+  "inputs": [
+    {
+      "source": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/compact-selector-statement-v3.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/coordinator/compact-selector-statement-v3.md",
+      "sha256": "20c66a210cfb4821eec35b371fbf7478ec3493d18d656a18a5b06dffc2fed889",
+      "bytes": 3952
+    },
+    {
+      "source": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/compact-selector-proof-v3.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/coordinator/compact-selector-proof-v3.md",
+      "sha256": "8625e7453ae8d937ba9b885dd802a065987224862c70becbbc2713046c76a71f",
+      "bytes": 3634
+    },
+    {
+      "source": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/compact-selector-statement-v2.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/coordinator/compact-selector-statement-v2.md",
+      "sha256": "89864b1f1d37ebb66e3fb7e364c8ad657c185808cdcdbb1c4370058aed7b2846",
+      "bytes": 3780
+    },
+    {
+      "source": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/compact-selector-proof-v2.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/coordinator/compact-selector-proof-v2.md",
+      "sha256": "cfe90ffc7b4b0b6e0e8efdd424f6b20b361b9e66107022752ccf787b66414211",
+      "bytes": 3307
+    },
+    {
+      "source": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/compact-selector-v2-rejection-v1.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/coordinator/compact-selector-v2-rejection-v1.md",
+      "sha256": "ba0a9dd24a148137d8f812820ddf700db8945ea2300def6d45a4df928d6eabbb",
+      "bytes": 607
+    },
+    {
+      "source": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/kernel-resource-wording-rejections-v1.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/coordinator/kernel-resource-wording-rejections-v1.md",
+      "sha256": "9f5cb7df524559e52e080997fc06c05b2e2999453612bf01f7cabd5ff023ec53",
+      "bytes": 693
+    },
+    {
+      "source": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/blind-table-linkage-v1.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/coordinator/blind-table-linkage-v1.json",
+      "sha256": "6c3181b9f010c29479d51273b2ca828e69062b9721fd1fd147e84ae33360160e",
+      "bytes": 4589
+    },
+    {
+      "source": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/compact-selector-statement-v1.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/workers/FF3/compact-selector-statement-v1.md",
+      "sha256": "d606b293a7ec544c6e003eec7f4c8b137ee7d3f76f958cdf0793b058f03237ee",
+      "bytes": 3672
+    },
+    {
+      "source": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/compact-selector-proof-v1.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/workers/FF3/compact-selector-proof-v1.md",
+      "sha256": "8e84e8aa29c9381b36e153ef0f930a0708ccbcc44324f36d29879624ddaab356",
+      "bytes": 2953
+    },
+    {
+      "source": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/experiments/public-geometry-public_norm_local_edge_weights-witness.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/workers/FF3/experiments/public-geometry-public_norm_local_edge_weights-witness.json",
+      "sha256": "140a8b92c3a772c217801f66f9d7618843330f0ca8264718858c3cfcf679cba8",
+      "bytes": 7091
+    },
+    {
+      "source": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/experiments/radial-ring-H-vertices.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/workers/FF3/experiments/radial-ring-H-vertices.json",
+      "sha256": "6d63ee7547c399c361f9883ac7432fee8115911b7c851a10012a83781e175665",
+      "bytes": 1434
+    },
+    {
+      "source": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/experiments/ff3-public-geometry-fv11.py",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/workers/FF3/experiments/ff3-public-geometry-fv11.py",
+      "sha256": "a82c019eae561ddd86e9ad8fc57b8e3bb67f9436216f8a5d32c26db415ba9fd7",
+      "bytes": 6428
+    },
+    {
+      "source": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-TRANSFER2/final-scope-v2.txt",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/BLIND-TRANSFER2/final-scope-v2.txt",
+      "sha256": "5649846e9ca1952e504ae2ba2f5224f324520aa018e5d3f89c549b69af69a1f4",
+      "bytes": 3686
+    }
+  ]
+}

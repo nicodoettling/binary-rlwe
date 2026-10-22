@@ -1,0 +1,20 @@
+{
+  "id": "FULL-FF3-SECONDARY-v1",
+  "completed_at": "2026-10-21T19:56:46.083259+00:00",
+  "approval": "Root granted LIGHT120s/512MiB; FV12 had released",
+  "exit_status": 0,
+  "elapsed_seconds": 12.17,
+  "peak_RSS_KiB": 26436,
+  "timeout_seconds": 120,
+  "AS_bytes": 536870912,
+  "status": "PASS_BOUNDED_EXACT_CONTROLS_ONLY",
+  "cleanup": "Command ended; no detached children or scratch",
+  "tails": "No infinite Gaussian computation",
+  "artifacts": {
+    "independent-secondary-v1.py": "dcfd05df5ccb2eebc9b97d786c67f1944a7fbe9f3f8942ada6f4fa701dcc18aa",
+    "independent-secondary-v1-registration.json": "a7cf3576333aa8b8a5f5865274bc409fe568404d9c98af1310c46f60115eae86",
+    "independent-secondary-v1.stdout.jsonl": "a5126ea517dda2ae798c71e2ca58469e32e287fbad218deffaad7fcb1150aff1",
+    "independent-secondary-v1.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "independent-secondary-v1.resources.txt": "e12cfeba0eacf2e3d785e8c59b865746662844385792cea9ee0b6c8f4c3d9c42"
+  }
+}

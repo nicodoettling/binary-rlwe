@@ -1,0 +1,23 @@
+{
+  "command": [
+    "/usr/bin/time",
+    "-v",
+    "-o",
+    "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-RESOURCE4/experiment-v1.time",
+    "timeout",
+    "--signal=TERM",
+    "--kill-after=5s",
+    "120s",
+    "python3",
+    "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-RESOURCE4/exact-audit-v1.py"
+  ],
+  "started_at": "2026-10-21T21:40:45.638188+00:00",
+  "ended_at": "2026-10-21T21:40:45.790131+00:00",
+  "wall_seconds": 0.15195192804094404,
+  "returncode": 0,
+  "AS_limit_bytes": 536870912,
+  "timeout_seconds": 120,
+  "live_cap_hard_deadline": "2026-10-21T22:48:10.636448+00:00",
+  "root_LIGHT_authorized": true,
+  "hidden_retries": 0
+}

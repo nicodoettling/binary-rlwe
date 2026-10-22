@@ -1,0 +1,89 @@
+{
+  "registered_at": "2026-10-21T21:30:24.480832+00:00",
+  "hypothesis": "All literal finite compact-selector identities hold exactly; fresh formula and direct inversion match; rank formula has uniform fibers; DP rank/unrank matches exhaustive shells; TWOEVENT algebra holds on enumerated finite cases; CP1 rejects marginal-product inference. This bounded enumeration supports but does not replace the general proofs.",
+  "files_sha256": {
+    "independent_exact_check.py": "398a7271bb04b9e0552f708f3dd30924c993131683ee002deb3f571c9d6ca702",
+    "run_exact_check.py": "38f57b614bc66659d9338ed44e4b591f6be913aa0072776d5de13f5b0f8a28ed",
+    "frozen-inputs/compact-selector-table.json": "59acd26442278a2a0191953888256f3cbb546e46212273d82190e06570c5040a",
+    "frozen-inputs/radial-kernel-tables.json": "573e8ef817299486670f9ed9b61d7611387b882f21de93cc1f64ba39d7dad81c",
+    "frozen-inputs/compact-selector-statement-v2.md": "99bc6ba88f7760ab8c3bf1045a3162c8c18cb35c4f311b3ae6d1af528ddfa230",
+    "frozen-inputs/energy-rank-kernel-statement-v2.md": "a8c7daf894df5d0d5ac8ac5fa8132fcbad884ab5020baac7500d820169c95556",
+    "frozen-inputs/definitions.md": "430c7e82f09cea2e29824ae09ea17caae38d45b8c978bc5469516854a70e783d",
+    "frozen-inputs/endpoint-definitions-v1.md": "401cb1e19d271a003b7d08b9e7eb0db64117a5a2f318b678f95f275f2f8a4b49",
+    "frozen-inputs/two-event-noise-kernel-statement-v1.md": "ba5c8050af98cce9e7dec3d9c1b9a1806f606f9b59f1ca40e62917aa093e913b"
+  },
+  "seeds": "none; deterministic exhaustive exact arithmetic",
+  "dimensions": {
+    "compact": {
+      "n": 2,
+      "Q": 3,
+      "q": 2,
+      "inputs": 81,
+      "outputs": 16,
+      "secrets": 4,
+      "edges": 4,
+      "H_variants": 4,
+      "g_nonzeros": 33
+    },
+    "rank_M_N": "each 1 through 32",
+    "DP_n": "1 through 4",
+    "DP_alphabets": [
+      [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      [
+        -1,
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        -2,
+        -1
+      ],
+      [
+        0
+      ]
+    ],
+    "retry_M": 3,
+    "retry_L": "0 through 6",
+    "TWOEVENT": "p in {1/2,3/4,1}, u in {1/8,1/4,3/8}, N=(a,1-a), a=k/16, k=1,...,15; retain premise-satisfying cases"
+  },
+  "precision": "All mathematical arithmetic exact Python integers and fractions.Fraction; one count-bit diagnostic uses float log2 with 1e-12 tolerance and is not relied upon for any exact identity.",
+  "tails": "No unbounded numerical tail experiment; capped retry law enumerated exactly; Gaussian tails proved analytically in report.",
+  "estimated_wall_seconds": 10,
+  "hard_wall_seconds": 120,
+  "address_space_limit_bytes": 536870912,
+  "cpu_limit_seconds": 120,
+  "expected_peak_RSS_MiB": 64,
+  "experiment_command": "python3 run_exact_check.py",
+  "underlying_command": [
+    "/usr/bin/time",
+    "-v",
+    "-o",
+    "exact-check-time.txt",
+    "timeout",
+    "--signal=TERM",
+    "--kill-after=5s",
+    "120s",
+    "prlimit",
+    "--as=536870912",
+    "--cpu=120",
+    "--",
+    "python3",
+    "-I",
+    "independent_exact_check.py"
+  ],
+  "slot": "LIGHT requested from root; not yet run"
+}

@@ -1,0 +1,77 @@
+{
+  "inherited": "inherited-regression-references.json",
+  "inherited_count": 203,
+  "new": [
+    {
+      "id": "FF1-REG-1",
+      "rejected_shortcut": "Fresh-secret tensor shortcut",
+      "witness": "Exact shared-secret two-sample event differs from fresh-secret product by23979/9834496.",
+      "evidence": "experiments/ff1-fv1-output.json",
+      "status": "SCOPED_AUTHOR_CONTROL; no main impossibility inferred"
+    },
+    {
+      "id": "FF1-REG-2",
+      "rejected_shortcut": "Increasing-Q removes all rounding mismatch",
+      "witness": "Retained-S cosine difference remains; provisional analytic W1/W2; finite Fourier diagnostics only.",
+      "evidence": "deterministic-rounding-witness-proof-v1.md",
+      "status": "SCOPED_AUTHOR_CONTROL; no main impossibility inferred"
+    },
+    {
+      "id": "FF1-REG-3",
+      "rejected_shortcut": "Binary Hamming weight determines ring covariance",
+      "witness": "n4 S1=1+X versus S2=1+X\u00b2 have weight2 and distinct multiplication covariances.",
+      "evidence": "experiments/ff1-fv2-output.json",
+      "status": "SCOPED_AUTHOR_CONTROL; no main impossibility inferred"
+    },
+    {
+      "id": "FF1-REG-4",
+      "rejected_shortcut": "COV obstruction includes n2",
+      "witness": "n2 correlated additive correction yields equal covariance for all four secrets; n>=4 is essential.",
+      "evidence": "experiments/ff1-fv2-output.json",
+      "status": "SCOPED_AUTHOR_CONTROL; no main impossibility inferred"
+    },
+    {
+      "id": "FF1-REG-5",
+      "rejected_shortcut": "Correlated H may be revealed without changing G law",
+      "witness": "S,G uniformbits; E uniform\u00b11; H=E\u2212G: pguess3/4 becomes1 after H revelation.",
+      "evidence": "experiments/ff1-fv2-output.json",
+      "status": "SCOPED_AUTHOR_CONTROL; no main impossibility inferred"
+    },
+    {
+      "id": "FF1-REG-6",
+      "rejected_shortcut": "Tensor signed inversion retains local overhead",
+      "witness": "Exact BSC inverse row norm becomes(1\u22122\u03b4)^\u2212k, exponential for\u03b4=n^-a,k=n^(a+1).",
+      "evidence": "signed-kernel-correction-v1.md",
+      "status": "SCOPED_AUTHOR_CONTROL; no main impossibility inferred"
+    },
+    {
+      "id": "FF1-REG-7",
+      "rejected_shortcut": "Independent column signs preserve rank-one ring structure",
+      "witness": "n4 z=(1,1,1,\u22121): (TDz)[0,3]=1 versus(DzT)[0,3]=\u22121; only constant signs commute.",
+      "evidence": "micciancio2018-ring-interface-v1.md",
+      "status": "SCOPED_AUTHOR_CONTROL; no main impossibility inferred"
+    },
+    {
+      "id": "FF1-REG-8",
+      "rejected_shortcut": "Full-ring binary leftover hash is uniform",
+      "witness": "Support\u22642^n versusq^n; retained noiseless hash also efficiently separated by unit division.",
+      "evidence": "computational-gadget-escape-supplement-v1.md",
+      "status": "SCOPED_AUTHOR_CONTROL; no main impossibility inferred"
+    },
+    {
+      "id": "FF1-REG-9",
+      "rejected_shortcut": "Exact covariance obstruction is automatically a TV obstruction",
+      "witness": "Rare-secret issue and lack of moment control prevent that inference; >3/4 exact-cube supplement still does not prove approximate TV.",
+      "evidence": "covariance-average-cube-supplement-v1.md",
+      "status": "SCOPED_AUTHOR_CONTROL; no main impossibility inferred"
+    },
+    {
+      "id": "FF1-REG-10",
+      "rejected_shortcut": "Shrinking GP w shrinks fractional s arbitrarily",
+      "witness": "B-GP s\u00b2=w\u00b2+r\u00b2 with scalar smoothing r>=1; narrow uniform-coset proposal can cost1/D.",
+      "evidence": "narrow-public-bridge-attempt-v1.md",
+      "status": "SCOPED_AUTHOR_CONTROL; no main impossibility inferred"
+    }
+  ],
+  "CP-1": "cp1-and-conditional-audit-v1.md; full inherited report retained; FV1 checks decisive rational inequality only"
+}

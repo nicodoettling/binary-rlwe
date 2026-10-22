@@ -1,0 +1,321 @@
+{
+  "at": "2026-10-21T19:41:25.503888+00:00",
+  "review": "FULL-FRONTIER1",
+  "full_not_blind": true,
+  "local_inputs": [
+    {
+      "path": "exploration/fixed-family-20261021/PLAN.md",
+      "sha256": "275bfe83f759044ea8acb3118c76f0e480a59cb850cfb70d97422a651cfa4ed5",
+      "bytes": 15108,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/SKILL.md",
+      "sha256": "9350ffeb5aebe0b126710786586f94ef5d990be35b8b9defc8004136dae40318",
+      "bytes": 4484,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/references/audit-protocol.md",
+      "sha256": "2d076ba631c340d71f6259757c6207dbe230872810e9bad3188b215f46d095f4",
+      "bytes": 8480,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/references/probability-regressions.md",
+      "sha256": "ad7eecf93ed02e5b2957243a9bbb2cac8e8eeeb991971f4d77d0818cd04a4fa4",
+      "bytes": 6814,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/gaussian-average-obstruction-statement-v1.md",
+      "sha256": "7b3f0d3c6367dcf354d2fbfcff42c3c19cb668d34baf0393094f37f8031752cd",
+      "bytes": 1957,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/gaussian-average-obstruction-proof-v1.md",
+      "sha256": "afd286d46e5095fafc75fba79881e6eecdc0d9c24cadf5b5e0130efbef931d93",
+      "bytes": 3113,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/fractional-information-statement-v1.md",
+      "sha256": "94f562284bf0f7b9117be57261e0c19deb76dcdff7bd317f7a722203f604b8bd",
+      "bytes": 2923,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/fractional-information-proof-v1.md",
+      "sha256": "e1ec235c7bf9b3f7d58d25786a3bcece4bb62b0430b7c6da4296a26255d7c5c8",
+      "bytes": 3618,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/weight-covariance-statement-v1.md",
+      "sha256": "af37700170161bd8593c5573c192f3b24b113eb5a518db08f35d69a0d678b234",
+      "bytes": 1413,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/weight-covariance-proof-v1.md",
+      "sha256": "88617f5c420181734206414ed3fd30bdcdf5ba84dee2575699ba406e029ad7a3",
+      "bytes": 1973,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/source-prime-support-statement-v1.md",
+      "sha256": "b7d9c43af7dedfcaeec509b9693dd374b7f05f197ea9a3bd0fbc09e9c0967df9",
+      "bytes": 1839,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/source-prime-support-proof-v1.md",
+      "sha256": "12967509eed52f8fe2896e7d341a792beacbd06cd4a50a43a07bc04c1ea4014d",
+      "bytes": 4089,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/all-subfields-comparison-statement-v1.md",
+      "sha256": "e4bc6f736371b22a5bcb966a065b36f32b16966acdc1958e5ed56de9176d2ea0",
+      "bytes": 1746,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/all-subfields-comparison-proof-v1.md",
+      "sha256": "665ed6fc53b8ea17207603bbee9560e330e397b1b922cc244f8c98fecff151d1",
+      "bytes": 3082,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/weight-gaussian-statement-v1.md",
+      "sha256": "c8bb8ed7fbc2f4c0be3ffed21e8a5e4d83d07b02e7d2d1bfc8569b095006406f",
+      "bytes": 1806,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/weight-gaussian-proof-v1.md",
+      "sha256": "bd2a0689f44b4a39541738e0d55016d46d3cd7fdf2ba7601645c6f7044c98bd8",
+      "bytes": 2515,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/subfield-contraction-statement-v2.md",
+      "sha256": "9157018baf8fa6d4e6fc3f3e889f3ba6fd07ce206175be4f37508553593c2bae",
+      "bytes": 3363,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/subfield-contraction-proof-v2.md",
+      "sha256": "bd394211a85a33ed1566aba5232300db46bc24462777186d8c7f38a24967d9d8",
+      "bytes": 4793,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/symmetry-descent-statement-v2.md",
+      "sha256": "087405376d31699635e87d954eaaa9305da4635b61f2b572205ba89db533cddf",
+      "bytes": 3642,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/symmetry-descent-proof-v2.md",
+      "sha256": "4a8e0b32f33c7121517108e9e1b63ff3eb9d2a50f0afea1e5c70c4e0eaa5df2a",
+      "bytes": 6766,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/source-classification-theorem-v1.md",
+      "sha256": "1b72f95055b9c5a8953c46ee778ade4d57a55d5a61c4a1ce29003c049f59a5a3",
+      "bytes": 4670,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/source-classification-proof-v1.md",
+      "sha256": "5c208872ddd99f74294dc60dbcd1a952470b5d09956d576c7346e2f52eca0d5f",
+      "bytes": 6685,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/primary-source-check-v1.md",
+      "sha256": "69895a89fa2ae4dfcbe7790f47df766a5bdb3b04633e801da10ae1038849a840",
+      "bytes": 1340,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF1/regressions.json",
+      "sha256": "cb22b3ba0da2010755ab4bca04d80407676ccf933f3dd618e5ccc923e825ac2f",
+      "bytes": 3825,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/regression-scope-v1.json",
+      "sha256": "fd74bf0fc1dfc3827da0a11f544d06c38ab68145a4a3b4112c424b9017eb850b",
+      "bytes": 12822,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/acceptance-v1.json",
+      "sha256": "5148b580d29102ccbfbe090568f991a4edba768d4798c222b5550a7df27f5732",
+      "bytes": 18809,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/acceptance-v2.json",
+      "sha256": "32ce0b4004df097bd8b5bd8ad8ce7de78e7d7c24eb7d1e40c0f03828dd97dc65",
+      "bytes": 16815,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/acceptance-v3.json",
+      "sha256": "5f08eb262c7f98632a09fa607b7ebaba88fe58a06558ffadcae8f28bfde49b6c",
+      "bytes": 11586,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/initialize.py",
+      "sha256": "00a55f644bf7e926128a2c07e55e05b1f4c401549e7163ea69c9f53fa84c6ff5",
+      "bytes": 9020,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/regressions.json",
+      "sha256": "27b966ec59faa61249b3dec9682bafdcf12e95418b7676739032bc00a5d77e40",
+      "bytes": 325044,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-SV2/primary-source-exposure-v1.json",
+      "sha256": "f0f66dd200c77860b58bc0323f41842dec2751b6f83446d330a10ced3c0cdd2b",
+      "bytes": 20819,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/fixed-main-statement-v2.md",
+      "sha256": "25da2502104e746d3e9f2ca10e3d070372ff95b853b1fd2b0e6c96b1b909ecb6",
+      "bytes": 6464,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/am-main-theorem-v3.md",
+      "sha256": "eaabea064b734ccefbbb1d2410ed03fecdbe671f098c2e69d59d432df855e33c",
+      "bytes": 11306,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/reviews/FULL2/source-complexity-report-v1.md",
+      "sha256": "2484a3bc796fdf1434d27f6d117ca3265e4a760fecf13388acd7c775beef8416",
+      "bytes": 11651,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "bytes": 334642,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/frac-info-fv1-output.json",
+      "sha256": "f0572c6dd9aa70e873d907626c055d6de195458cabe568a48f05e7bb80642486",
+      "bytes": 3325,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/frac-info-fv2-output.json",
+      "sha256": "9bf8cb1f76e2c475ffe6e79968e801a00767a46136fe407e092ae50bd8e64334",
+      "bytes": 5921,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/frac-info-fv2.py",
+      "sha256": "5dfbad8184bebbb11808f5f48487e4562102d0108726a10c63fae246145d2694",
+      "bytes": 5022,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/gauss-avg-fv1-output.json",
+      "sha256": "fca6bdecfe55fd2192f5b1d7a55ddfc38150b2b3f944514c977c0efcb9dba054",
+      "bytes": 734,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/gauss-avg-fv1.py",
+      "sha256": "48fbf7729a2cf009cf07d66d7a2116373648f89349a6d3a1abda288e47d068d1",
+      "bytes": 3377,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/weight-cov-fv2-output.json",
+      "sha256": "cc63499d98ee23d23d0a25c78424d4807c3e03f3f0a384ce4e43e2b5218330fa",
+      "bytes": 1535,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/weight-cov-fv2.py",
+      "sha256": "3e69a0b9d374fc3b5788d3021c9714035bb4dfa91dbec8c2be777b4d3fa7d9a1",
+      "bytes": 2787,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/weight-cov-fv1-not-run.json",
+      "sha256": "31f6b2d6c84901731e341d4b466a02ddd6703567fe56c8d7acae196898539cdb",
+      "bytes": 238,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/weight-cov-fv2-cleanup.json",
+      "sha256": "9bb7e318790286d416c907e46256bff28c3eca8f8be4ee29e43774afca7e4e04",
+      "bytes": 220,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/weight-gauss-fv1.py",
+      "sha256": "9c512bea782ecf755c4903cc36bef9707de2ed5766a465378506cd078c7a7ab0",
+      "bytes": 2034,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/weight-gauss-fv1-output.json",
+      "sha256": "c281af72c87312515be53c45bb90be512d322479e298dce0a0060830bf5fa421",
+      "bytes": 431,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/weight-gauss-fv1-registration.json",
+      "sha256": "0d0675ac94d88ccecf7613009a66a84518dfea11b68e7efb101d2d7f1bce4ec1",
+      "bytes": 896,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/weight-gauss-fv1-resources.txt",
+      "sha256": "60eb0b1bc8f336712c81af6f5e80bfe08b1ff7e9c881e3b2a832432d55741c96",
+      "bytes": 830,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/weight-gauss-fv1-cleanup.json",
+      "sha256": "b23e8a1bd23b2d1313d0f7c24a59cd3765863822d61c855b0374ece5d90f6e34",
+      "bytes": 137,
+      "access": "Read whole or targeted relevant portions; source/experiment outputs sometimes displayed with truncation, relevant proof/guard portions then retrieved separately"
+    }
+  ],
+  "external_primary_inputs": [
+    {
+      "url": "https://www.impan.pl/shop/en/publication/transaction/download/product/83078",
+      "content": "Xylouris theorem1.1 primary PDF text at printed65-66; effective exponent5.18 implies6",
+      "access_limit": "No proof of analytic number theory independently rechecked; source statement inspected"
+    },
+    {
+      "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+      "content": "Propositions4.1(a),4.2 and proof at printed69, PDF index70",
+      "access_limit": "Text extraction read; no claim of complete-book review"
+    },
+    {
+      "url": "https://epubs.siam.org/doi/abs/10.1137/0208040?journalCode=smjcat",
+      "content": "Kannan-Bachem primary publisher abstract on operation and intermediate-bit bounds including transformation matrices",
+      "access_limit": "Full article not read; abstract and access gate only. Unchanged accepted normal-form dependency."
+    }
+  ],
+  "discovery_only": "Workspace file listings and nearby AGENTS.md names; no applicable project AGENTS.md found",
+  "prohibited_actions": "No agents spawned, goals created, detached jobs, package changes, Git mutations or external messages",
+  "experiment": "One granted LIGHT job; exact registration and receipts preserved"
+}

@@ -1,0 +1,57 @@
+{
+  "recorded_at": "2026-10-21T18:33:18.441902+00:00",
+  "service_elapsed_seconds": 2707.805456088041,
+  "scheduled_gate_utc": "2026-10-21T18:33:10.636448+00:00",
+  "type": "45-minute NONTERMINAL programme gate",
+  "scientific_termination": false,
+  "goal_status": "active",
+  "protected_until_utc": "2026-10-21T21:18:10.636448+00:00",
+  "statuses": {
+    "fixed_family_reduction": "OPEN; sample-dependent Gaussian completion and source modulus interface unresolved",
+    "source_diagnostic": "Three substantive ordinary-basis classification candidates pass full review; fresh blind in progress; exact inherited DD radius only",
+    "hardness_foundation": "NOT_ESTABLISHED"
+  },
+  "new_outcomes": [
+    "Fixed q distinct-root certificate uses a new norm/SNF argument and negligible projection bias for q>=n^4,sigma=n^2 before every polynomial sample/advantage exponent; full review passed CRT, certificate model repaired pending fresh review.",
+    "Direct classical BDD classification by exponent, acquired member, polynomial index, Frobenius and computable odd-ideal stabilizer quotient; covers exponential-index families when relevant numeric characteristic/descent index is polynomial; full review sealed.",
+    "Exact affine covariance obstruction and quantitative average-cube Gaussian gap identify limitations only of specified secret-independent Gaussian corrections.",
+    "Deterministic modulus rounding mismatch, signed inverse exponential cost, and direct rectangular sign-matrix incompatibility remain scoped diagnostics, not general impossibility."
+  ],
+  "substantive_alternatives": [
+    "Nonlinear or normalized narrow-coset modulus kernel, with complete posterior normalization and uniform endpoint.",
+    "A direct fixed-q source comparison using identifying information; handle q-primary components and arbitrary K explicitly.",
+    "A computational ring-compatible rectangular/subfield hybrid with independently justified source premise.",
+    "Source scope strengthening beyond individual small-characteristic primes: common stabilizer/composite support and exact effective member acquisition."
+  ],
+  "assumptions_to_challenge": [
+    "Fresh independent D tapes and rational finite encodings in CERT-v2",
+    "Partial CRT uniformity applies only before identifying size and to fresh banks conditional on previous history",
+    "Information-theoretic certificate inverse is not a polynomial recovery algorithm",
+    "Completion cannot replace physical K by code-call count or ignore latent H posterior",
+    "Fixed target q cannot silently assume coprimality with every eligible J",
+    "SV numeric enumeration is not polynomial in log(index); failed sufficient tests are not hardness"
+  ],
+  "allocations": {
+    "root": "Construct and test alternate source completion/narrow-coset or direct fixed-q interfaces; integrate exact reviews; quantitative Gaussian challenge remains provisional",
+    "ff1": "Fresh nonauthor full review CERT-v2 plus CRT dependency, initial18:45Z/seal19:00Z; then recycle for fresh blind FF",
+    "blind_sv1": "Fresh statement-only SV review, initial18:50Z/seal19:10Z; then allocate source scope strengthening"
+  },
+  "next_allocation_utc": "2026-10-21T19:18:10.636448+00:00",
+  "remaining_worthwhile_tests": [
+    "Fresh full and blind exact CERT-v2 joint-law scrutiny",
+    "Independent blind source descent and numeric-bit runtime audit",
+    "Explicit narrow-coset kernel with normalized conditional law or bounded finite counterexample",
+    "Investigate fixed-q primary/composite source map, not only easy prime example",
+    "Challenge quantitative Gaussian claim and distinguish retained-S from sample-only distance"
+  ],
+  "evidence": [
+    "reviews/FULL-SV1/seal-v1.json",
+    "reviews/FULL-FF1/seal-v1.json",
+    "reviews/FULL-FF1/supplementary-v2-seal.json",
+    "coordinator/certificate-extraction-statement-v2.md",
+    "coordinator/completion-alternatives-v1.md",
+    "workers/FF1/author-phase1-seal-v1.json",
+    "workers/SV/author-package-v1.sha256"
+  ],
+  "no_exhaustion_claim": true
+}

@@ -1,0 +1,2471 @@
+{
+  "created_at": "2026-10-21T18:28:07.346224+00:00",
+  "baseline_count": 203,
+  "baseline_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+  "entries": [
+    {
+      "id": "R01",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/0",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "R02",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/1",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "R03",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/2",
+      "scope_categories": [
+        "FULL_CONDITIONAL_LAW"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Current proof fixes S and full prior history; new banks and per-call coins must be fresh; full CRT error dependence retained; conditional failures added. CP-1 product rejected. See probability-report-v1.md and finite-controls-v1-output.json.",
+      "rerun_claim": false
+    },
+    {
+      "id": "R04",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/3",
+      "scope_categories": [
+        "FULL_CONDITIONAL_LAW"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Current proof fixes S and full prior history; new banks and per-call coins must be fresh; full CRT error dependence retained; conditional failures added. CP-1 product rejected. See probability-report-v1.md and finite-controls-v1-output.json.",
+      "rerun_claim": false
+    },
+    {
+      "id": "R05",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/4",
+      "scope_categories": [
+        "FULL_CONDITIONAL_LAW"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Current proof fixes S and full prior history; new banks and per-call coins must be fresh; full CRT error dependence retained; conditional failures added. CP-1 product rejected. See probability-report-v1.md and finite-controls-v1-output.json.",
+      "rerun_claim": false
+    },
+    {
+      "id": "R06",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/5",
+      "scope_categories": [
+        "ARITHMETIC_CERTIFICATE"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Norm/SNF counts distinct vanished roots at one prime, sums every Fourier character, and proves tuple injectivity only. Adaptive tuples allow an unbounded inverse but no efficient inversion. No repeated-prime averaging or q-dependent common-partition theorem imported.",
+      "rerun_claim": false
+    },
+    {
+      "id": "R07",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/6",
+      "scope_categories": [
+        "ARITHMETIC_CERTIFICATE"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Norm/SNF counts distinct vanished roots at one prime, sums every Fourier character, and proves tuple injectivity only. Adaptive tuples allow an unbounded inverse but no efficient inversion. No repeated-prime averaging or q-dependent common-partition theorem imported.",
+      "rerun_claim": false
+    },
+    {
+      "id": "R08",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/7",
+      "scope_categories": [
+        "ARITHMETIC_CERTIFICATE"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Norm/SNF counts distinct vanished roots at one prime, sums every Fourier character, and proves tuple injectivity only. Adaptive tuples allow an unbounded inverse but no efficient inversion. No repeated-prime averaging or q-dependent common-partition theorem imported.",
+      "rerun_claim": false
+    },
+    {
+      "id": "R09",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/8",
+      "scope_categories": [
+        "ARITHMETIC_CERTIFICATE"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Norm/SNF counts distinct vanished roots at one prime, sums every Fourier character, and proves tuple injectivity only. Adaptive tuples allow an unbounded inverse but no efficient inversion. No repeated-prime averaging or q-dependent common-partition theorem imported.",
+      "rerun_claim": false
+    },
+    {
+      "id": "R10",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/9",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "R11",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/10",
+      "scope_categories": [
+        "FULL_CONDITIONAL_LAW"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Current proof fixes S and full prior history; new banks and per-call coins must be fresh; full CRT error dependence retained; conditional failures added. CP-1 product rejected. See probability-report-v1.md and finite-controls-v1-output.json.",
+      "rerun_claim": false
+    },
+    {
+      "id": "R12",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/11",
+      "scope_categories": [
+        "FULL_CONDITIONAL_LAW"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Current proof fixes S and full prior history; new banks and per-call coins must be fresh; full CRT error dependence retained; conditional failures added. CP-1 product rejected. See probability-report-v1.md and finite-controls-v1-output.json.",
+      "rerun_claim": false
+    },
+    {
+      "id": "R13",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/12",
+      "scope_categories": [
+        "FULL_CONDITIONAL_LAW"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Current proof fixes S and full prior history; new banks and per-call coins must be fresh; full CRT error dependence retained; conditional failures added. CP-1 product rejected. See probability-report-v1.md and finite-controls-v1-output.json.",
+      "rerun_claim": false
+    },
+    {
+      "id": "R14",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/13",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "R15",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/14",
+      "scope_categories": [
+        "FULL_CONDITIONAL_LAW"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Current proof fixes S and full prior history; new banks and per-call coins must be fresh; full CRT error dependence retained; conditional failures added. CP-1 product rejected. See probability-report-v1.md and finite-controls-v1-output.json.",
+      "rerun_claim": false
+    },
+    {
+      "id": "R16",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/15",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "R17",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/16",
+      "scope_categories": [
+        "ARITHMETIC_CERTIFICATE"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Norm/SNF counts distinct vanished roots at one prime, sums every Fourier character, and proves tuple injectivity only. Adaptive tuples allow an unbounded inverse but no efficient inversion. No repeated-prime averaging or q-dependent common-partition theorem imported.",
+      "rerun_claim": false
+    },
+    {
+      "id": "R18",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/17",
+      "scope_categories": [
+        "FULL_CONDITIONAL_LAW"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Current proof fixes S and full prior history; new banks and per-call coins must be fresh; full CRT error dependence retained; conditional failures added. CP-1 product rejected. See probability-report-v1.md and finite-controls-v1-output.json.",
+      "rerun_claim": false
+    },
+    {
+      "id": "C03-HC1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/18",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "C03-HC2",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/19",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "C03-HC3",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/20",
+      "scope_categories": [
+        "GAUSSIAN_NORMALIZATION"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Exact rho_sigma(Z) retained, coefficient Gaussian convention explicit, canonical Parseval scaling checked; no continuous/rounded substitution.",
+      "rerun_claim": false
+    },
+    {
+      "id": "C03-HC4",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/21",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "C03-HC5",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/22",
+      "scope_categories": [
+        "FULL_CONDITIONAL_LAW"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Current proof fixes S and full prior history; new banks and per-call coins must be fresh; full CRT error dependence retained; conditional failures added. CP-1 product rejected. See probability-report-v1.md and finite-controls-v1-output.json.",
+      "rerun_claim": false
+    },
+    {
+      "id": "C03-HC6",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/23",
+      "scope_categories": [
+        "FULL_CONDITIONAL_LAW"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Current proof fixes S and full prior history; new banks and per-call coins must be fresh; full CRT error dependence retained; conditional failures added. CP-1 product rejected. See probability-report-v1.md and finite-controls-v1-output.json.",
+      "rerun_claim": false
+    },
+    {
+      "id": "C03-HC7",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/24",
+      "scope_categories": [
+        "FULL_CONDITIONAL_LAW"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Current proof fixes S and full prior history; new banks and per-call coins must be fresh; full CRT error dependence retained; conditional failures added. CP-1 product rejected. See probability-report-v1.md and finite-controls-v1-output.json.",
+      "rerun_claim": false
+    },
+    {
+      "id": "C02-LATENT-PUBLIC",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/25",
+      "scope_categories": [
+        "ARITHMETIC_CERTIFICATE"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Norm/SNF counts distinct vanished roots at one prime, sums every Fourier character, and proves tuple injectivity only. Adaptive tuples allow an unbounded inverse but no efficient inversion. No repeated-prime averaging or q-dependent common-partition theorem imported.",
+      "rerun_claim": false
+    },
+    {
+      "id": "C02-CHAR",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/26",
+      "scope_categories": [
+        "ARITHMETIC_CERTIFICATE"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Norm/SNF counts distinct vanished roots at one prime, sums every Fourier character, and proves tuple injectivity only. Adaptive tuples allow an unbounded inverse but no efficient inversion. No repeated-prime averaging or q-dependent common-partition theorem imported.",
+      "rerun_claim": false
+    },
+    {
+      "id": "C01-ATT",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/27",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "CP-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/28",
+      "scope_categories": [
+        "FULL_CONDITIONAL_LAW"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Current proof fixes S and full prior history; new banks and per-call coins must be fresh; full CRT error dependence retained; conditional failures added. CP-1 product rejected. See probability-report-v1.md and finite-controls-v1-output.json.",
+      "rerun_claim": false
+    },
+    {
+      "id": "NC1-v1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/29",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "S0-dependency",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/30",
+      "scope_categories": [
+        "FIXED_FAMILY_SCOPE"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Fixed q(n),sigma(n) precede arbitrary polynomial k/advantage exponents only for certificate auxiliary; source bridge and K-dependent completion remain open. No historical main/hardness acceptance transferred.",
+      "rerun_claim": false
+    },
+    {
+      "id": "PUBLIC-ENCODED-F",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/31",
+      "scope_categories": [
+        "ARITHMETIC_CERTIFICATE"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Norm/SNF counts distinct vanished roots at one prime, sums every Fourier character, and proves tuple injectivity only. Adaptive tuples allow an unbounded inverse but no efficient inversion. No repeated-prime averaging or q-dependent common-partition theorem imported.",
+      "rerun_claim": false
+    },
+    {
+      "id": "W2-SUBGROUP-BOUNDARY",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/32",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "UNIFORM-APPROX-COLLAPSE",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/33",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "SE-CORRELATION-F3",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/34",
+      "scope_categories": [
+        "FULL_CONDITIONAL_LAW"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Current proof fixes S and full prior history; new banks and per-call coins must be fresh; full CRT error dependence retained; conditional failures added. CP-1 product rejected. See probability-report-v1.md and finite-controls-v1-output.json.",
+      "rerun_claim": false
+    },
+    {
+      "id": "W2-CONSTANT-COMPARISON",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/35",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "N02-DUAL-NUMBER",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/36",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "PAIRWISE-SE-F3",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/37",
+      "scope_categories": [
+        "FULL_CONDITIONAL_LAW"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Current proof fixes S and full prior history; new banks and per-call coins must be fresh; full CRT error dependence retained; conditional failures added. CP-1 product rejected. See probability-report-v1.md and finite-controls-v1-output.json.",
+      "rerun_claim": false
+    },
+    {
+      "id": "N03-PV-CONDITIONING",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/38",
+      "scope_categories": [
+        "FULL_CONDITIONAL_LAW"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Current proof fixes S and full prior history; new banks and per-call coins must be fresh; full CRT error dependence retained; conditional failures added. CP-1 product rejected. See probability-report-v1.md and finite-controls-v1-output.json.",
+      "rerun_claim": false
+    },
+    {
+      "id": "N03-SCAL-POSTERIOR",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/39",
+      "scope_categories": [
+        "FULL_CONDITIONAL_LAW"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Current proof fixes S and full prior history; new banks and per-call coins must be fresh; full CRT error dependence retained; conditional failures added. CP-1 product rejected. See probability-report-v1.md and finite-controls-v1-output.json.",
+      "rerun_claim": false
+    },
+    {
+      "id": "RECT-ALG-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/40",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "SOURCE-SMALL-D",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/41",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "A-PPT-LEDGER-SCOPE",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/42",
+      "scope_categories": [
+        "FIXED_FAMILY_SCOPE"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Fixed q(n),sigma(n) precede arbitrary polynomial k/advantage exponents only for certificate auxiliary; source bridge and K-dependent completion remain open. No historical main/hardness acceptance transferred.",
+      "rerun_claim": false
+    },
+    {
+      "id": "EX-PURE-MIX-ZERO",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/43",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "EX-PUBLIC-TAPE",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/44",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "EX-APPENDED-H",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/45",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "EX-M3-CROSSBLOCK",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/46",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "EX-RETAINED-M3",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/47",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "B-JL-BZERO",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/48",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "B-JL-REDRAW-T",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/49",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "A-ERASURE-RANKMIX",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/50",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "D-THETA-RETAIN-U-v1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/51",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "D-LSW-THETA-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/52",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "C-TOWER-RELATION-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/53",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "D-REUSED-PIVOT-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/54",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "A-TOWER-LAW-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/55",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "C-SMALL-N-EXISTENCE-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/56",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "D-NORMALFORM-WRAP-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/57",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "B-GP-RATIONAL-ENCODING-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/58",
+      "scope_categories": [
+        "FINITE_MODEL_ENCODING"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Numeric q and supplied code costs charged; v1 finite model not certified because rational epsilon/delta and fresh-call model need explicit versioned repair (MODEL-1). No encoding-length-to-value or unbounded-real-test shortcut accepted.",
+      "rerun_claim": false
+    },
+    {
+      "id": "C-OHCP-LOGSHIFT-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/59",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "ROOT-IDEAL-SUBSPACE-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/60",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "B-SUP-RETAINED-COINS-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/61",
+      "scope_categories": [
+        "FULL_CONDITIONAL_LAW"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Current proof fixes S and full prior history; new banks and per-call coins must be fresh; full CRT error dependence retained; conditional failures added. CP-1 product rejected. See probability-report-v1.md and finite-controls-v1-output.json.",
+      "rerun_claim": false
+    },
+    {
+      "id": "C-OHCP-BOUNDED-RUNTIME-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/62",
+      "scope_categories": [
+        "FINITE_MODEL_ENCODING"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Numeric q and supplied code costs charged; v1 finite model not certified because rational epsilon/delta and fresh-call model need explicit versioned repair (MODEL-1). No encoding-length-to-value or unbounded-real-test shortcut accepted.",
+      "rerun_claim": false
+    },
+    {
+      "id": "C-SUPER-CONFIDENCE-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/63",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "C-QUOTIENT-CARRIES-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/64",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "C-PHYSICAL-HAAR-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/65",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "C-CAUSAL-WALK-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/66",
+      "scope_categories": [
+        "FULL_CONDITIONAL_LAW"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Current proof fixes S and full prior history; new banks and per-call coins must be fresh; full CRT error dependence retained; conditional failures added. CP-1 product rejected. See probability-report-v1.md and finite-controls-v1-output.json.",
+      "rerun_claim": false
+    },
+    {
+      "id": "B-CANONICAL-FAIL-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/67",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "B-RANK-FIBER-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/68",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "B-TWO-ROW-NORMALIZER-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/69",
+      "scope_categories": [
+        "FULL_CONDITIONAL_LAW"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Current proof fixes S and full prior history; new banks and per-call coins must be fresh; full CRT error dependence retained; conditional failures added. CP-1 product rejected. See probability-report-v1.md and finite-controls-v1-output.json.",
+      "rerun_claim": false
+    },
+    {
+      "id": "B-TOWER-WASHOUT-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/70",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "B-BINARY-FOURIER-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/71",
+      "scope_categories": [
+        "FULL_CONDITIONAL_LAW"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Current proof fixes S and full prior history; new banks and per-call coins must be fresh; full CRT error dependence retained; conditional failures added. CP-1 product rejected. See probability-report-v1.md and finite-controls-v1-output.json.",
+      "rerun_claim": false
+    },
+    {
+      "id": "A-CLASS-ASSERTION-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/72",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "A-COFACTOR-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/73",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "A-CLASS-CP1-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/74",
+      "scope_categories": [
+        "FULL_CONDITIONAL_LAW"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Current proof fixes S and full prior history; new banks and per-call coins must be fresh; full CRT error dependence retained; conditional failures added. CP-1 product rejected. See probability-report-v1.md and finite-controls-v1-output.json.",
+      "rerun_claim": false
+    },
+    {
+      "id": "D-HIGHINDEX-GUESS-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/75",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "A-TRACE-PARAM-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/76",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "A-CLASSRING-PADDING-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/77",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "B-COMPANION-INVERSE-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/78",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "C8-FV1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/79",
+      "scope_categories": [
+        "FINITE_MODEL_ENCODING"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Numeric q and supplied code costs charged; v1 finite model not certified because rational epsilon/delta and fresh-call model need explicit versioned repair (MODEL-1). No encoding-length-to-value or unbounded-real-test shortcut accepted.",
+      "rerun_claim": false
+    },
+    {
+      "id": "ROOT-ORDER-PAIRING-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/80",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "ROOT-ORDER-SCALE-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/81",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "ROOT-BINCLASS-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/82",
+      "scope_categories": [
+        "ARITHMETIC_CERTIFICATE"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Norm/SNF counts distinct vanished roots at one prime, sums every Fourier character, and proves tuple injectivity only. Adaptive tuples allow an unbounded inverse but no efficient inversion. No repeated-prime averaging or q-dependent common-partition theorem imported.",
+      "rerun_claim": false
+    },
+    {
+      "id": "BT10-FV1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/83",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "ROOT-FRAC-SCALE-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/84",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "ROOT-FRAC-SMALLBALL-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/85",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "B-BE-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/86",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "RF3-BINCLASS-SCOPE-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/87",
+      "scope_categories": [
+        "ARITHMETIC_CERTIFICATE"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Norm/SNF counts distinct vanished roots at one prime, sums every Fourier character, and proves tuple injectivity only. Adaptive tuples allow an unbounded inverse but no efficient inversion. No repeated-prime averaging or q-dependent common-partition theorem imported.",
+      "rerun_claim": false
+    },
+    {
+      "id": "E-PAIR-TRUNCATION-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/88",
+      "scope_categories": [
+        "FULL_CONDITIONAL_LAW"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Current proof fixes S and full prior history; new banks and per-call coins must be fresh; full CRT error dependence retained; conditional failures added. CP-1 product rejected. See probability-report-v1.md and finite-controls-v1-output.json.",
+      "rerun_claim": false
+    },
+    {
+      "id": "ROOT-COSET-NORMALIZER-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/89",
+      "scope_categories": [
+        "FULL_CONDITIONAL_LAW"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Current proof fixes S and full prior history; new banks and per-call coins must be fresh; full CRT error dependence retained; conditional failures added. CP-1 product rejected. See probability-report-v1.md and finite-controls-v1-output.json.",
+      "rerun_claim": false
+    },
+    {
+      "id": "BT13-FV1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/90",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "BT12-FV1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/91",
+      "scope_categories": [
+        "ARITHMETIC_CERTIFICATE"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Norm/SNF counts distinct vanished roots at one prime, sums every Fourier character, and proves tuple injectivity only. Adaptive tuples allow an unbounded inverse but no efficient inversion. No repeated-prime averaging or q-dependent common-partition theorem imported.",
+      "rerun_claim": false
+    },
+    {
+      "id": "ROOT-MASK-RESIDUE-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/92",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "BT14-HISTORY-ATOM-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/93",
+      "scope_categories": [
+        "FULL_CONDITIONAL_LAW"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Current proof fixes S and full prior history; new banks and per-call coins must be fresh; full CRT error dependence retained; conditional failures added. CP-1 product rejected. See probability-report-v1.md and finite-controls-v1-output.json.",
+      "rerun_claim": false
+    },
+    {
+      "id": "BT14-FV1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/94",
+      "scope_categories": [
+        "FULL_CONDITIONAL_LAW"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Current proof fixes S and full prior history; new banks and per-call coins must be fresh; full CRT error dependence retained; conditional failures added. CP-1 product rejected. See probability-report-v1.md and finite-controls-v1-output.json.",
+      "rerun_claim": false
+    },
+    {
+      "id": "FQ-R1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/95",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "FQ-R2",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/96",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "FQ-R3",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/97",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "FQ-R4",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/98",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "ROOT-QCOH-FV1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/99",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "G-PI-FV1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/100",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "ROOT-FRAC-DOMAIN-2",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/101",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "ROOT-WRAP-FV1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/102",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "BT15-FV1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/103",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "FQ-COND-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/104",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "FQ-NORM-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/105",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "FQ-PERIOD-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/106",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "FQ-RETRY-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/107",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "FQ-MODULUS-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/108",
+      "scope_categories": [
+        "FINITE_MODEL_ENCODING"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Numeric q and supplied code costs charged; v1 finite model not certified because rational epsilon/delta and fresh-call model need explicit versioned repair (MODEL-1). No encoding-length-to-value or unbounded-real-test shortcut accepted.",
+      "rerun_claim": false
+    },
+    {
+      "id": "F-QFINITE-FV1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/109",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "BT16-FV1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/110",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "BT16-NATURAL-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/111",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "BT16-POSTERIOR-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/112",
+      "scope_categories": [
+        "FULL_CONDITIONAL_LAW"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Current proof fixes S and full prior history; new banks and per-call coins must be fresh; full CRT error dependence retained; conditional failures added. CP-1 product rejected. See probability-report-v1.md and finite-controls-v1-output.json.",
+      "rerun_claim": false
+    },
+    {
+      "id": "BT16-PRIMEPOWER-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/113",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "BT16-ZERO-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/114",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "RF4-FV1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/115",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "RF4-PERIOD-NEG1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/116",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "RF4-RETRY-NEG1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/117",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "RF4-ALIAS-NEG1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/118",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "BT17-SYMBOLIC-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/119",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "ROOT-PARAM-FV1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/120",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "ROOT-PARAM-T-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/121",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "ROOT-PARAM-FV2",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/122",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "ROOT-PARAM-ENC-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/123",
+      "scope_categories": [
+        "FINITE_MODEL_ENCODING"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Numeric q and supplied code costs charged; v1 finite model not certified because rational epsilon/delta and fresh-call model need explicit versioned repair (MODEL-1). No encoding-length-to-value or unbounded-real-test shortcut accepted.",
+      "rerun_claim": false
+    },
+    {
+      "id": "ROOT-PARAM-FV3",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/124",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "RF4-PARAM-FV2",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/125",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "H-ALIGN-FV1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/126",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "H-LLL-BITLENGTH-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/127",
+      "scope_categories": [
+        "FINITE_MODEL_ENCODING"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Numeric q and supplied code costs charged; v1 finite model not certified because rational epsilon/delta and fresh-call model need explicit versioned repair (MODEL-1). No encoding-length-to-value or unbounded-real-test shortcut accepted.",
+      "rerun_claim": false
+    },
+    {
+      "id": "H-REL-FV2",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/128",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "H-V0-BITLENGTH-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/129",
+      "scope_categories": [
+        "FINITE_MODEL_ENCODING"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Numeric q and supplied code costs charged; v1 finite model not certified because rational epsilon/delta and fresh-call model need explicit versioned repair (MODEL-1). No encoding-length-to-value or unbounded-real-test shortcut accepted.",
+      "rerun_claim": false
+    },
+    {
+      "id": "RH1-FV1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/130",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "HC1-FV1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/131",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "ROOT-TOWER-FV1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/132",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "BT19-NONPRIME-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/133",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "BT19-NONSUFFICIENT-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/134",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "BT19-SELECTION-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/135",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "BT19-RETRY-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/136",
+      "scope_categories": [
+        "FINITE_MODEL_ENCODING"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Numeric q and supplied code costs charged; v1 finite model not certified because rational epsilon/delta and fresh-call model need explicit versioned repair (MODEL-1). No encoding-length-to-value or unbounded-real-test shortcut accepted.",
+      "rerun_claim": false
+    },
+    {
+      "id": "BT18-SYMBOLIC-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/137",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "RT1-MOMENT-FV1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/138",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "RT2-WEIGHTED-FV1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/139",
+      "scope_categories": [
+        "FULL_CONDITIONAL_LAW"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Current proof fixes S and full prior history; new banks and per-call coins must be fresh; full CRT error dependence retained; conditional failures added. CP-1 product rejected. See probability-report-v1.md and finite-controls-v1-output.json.",
+      "rerun_claim": false
+    },
+    {
+      "id": "BT20-VACUITY-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/140",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "BT20-RETRY-MARGIN-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/141",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "BT20-WIDTHVALUE-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/142",
+      "scope_categories": [
+        "FINITE_MODEL_ENCODING"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Numeric q and supplied code costs charged; v1 finite model not certified because rational epsilon/delta and fresh-call model need explicit versioned repair (MODEL-1). No encoding-length-to-value or unbounded-real-test shortcut accepted.",
+      "rerun_claim": false
+    },
+    {
+      "id": "RT2-NC1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/143",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "RT2-NC2",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/144",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "RT2-NC3",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/145",
+      "scope_categories": [
+        "FULL_CONDITIONAL_LAW"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Current proof fixes S and full prior history; new banks and per-call coins must be fresh; full CRT error dependence retained; conditional failures added. CP-1 product rejected. See probability-report-v1.md and finite-controls-v1-output.json.",
+      "rerun_claim": false
+    },
+    {
+      "id": "BT21-VACUITY-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/146",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "BT21-ADAPTIVE-MULTIPLIER-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/147",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "BT22-TV-MOMENT-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/148",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "BT22-JOINT-MULTIPLIER-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/149",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "BT22-MARGIN-WIDTH-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/150",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "M1-FV1-NORMALIZERS",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/151",
+      "scope_categories": [
+        "FULL_CONDITIONAL_LAW"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Current proof fixes S and full prior history; new banks and per-call coins must be fresh; full CRT error dependence retained; conditional failures added. CP-1 product rejected. See probability-report-v1.md and finite-controls-v1-output.json.",
+      "rerun_claim": false
+    },
+    {
+      "id": "M1-FV1-CP1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/152",
+      "scope_categories": [
+        "FULL_CONDITIONAL_LAW"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Current proof fixes S and full prior history; new banks and per-call coins must be fresh; full CRT error dependence retained; conditional failures added. CP-1 product rejected. See probability-report-v1.md and finite-controls-v1-output.json.",
+      "rerun_claim": false
+    },
+    {
+      "id": "B-FV1-CUBE289",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/153",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "M1-FALLBACK-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/154",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "A-LIN-FV1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/155",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "A-RATIONAL-BOUNDARY-v1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/156",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "B-THETA-FV1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/157",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "B-M1-FV1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/158",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "A-BFAM-FV1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/159",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "FBR1-Q-PREMISE-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/160",
+      "scope_categories": [
+        "FIXED_FAMILY_SCOPE"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Fixed q(n),sigma(n) precede arbitrary polynomial k/advantage exponents only for certificate auxiliary; source bridge and K-dependent completion remain open. No historical main/hardness acceptance transferred.",
+      "rerun_claim": false
+    },
+    {
+      "id": "M1-Q-FV1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/161",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "B-REVEAL-S-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/162",
+      "scope_categories": [
+        "FULL_CONDITIONAL_LAW"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Current proof fixes S and full prior history; new banks and per-call coins must be fresh; full CRT error dependence retained; conditional failures added. CP-1 product rejected. See probability-report-v1.md and finite-controls-v1-output.json.",
+      "rerun_claim": false
+    },
+    {
+      "id": "FBR2-WIDTH-BOUNDARY-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/inherited_entries/163",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "DD1-WITNESS-SAME-P",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/0",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "DD1-SHARED-SECRET",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/1",
+      "scope_categories": [
+        "FULL_CONDITIONAL_LAW"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Current proof fixes S and full prior history; new banks and per-call coins must be fresh; full CRT error dependence retained; conditional failures added. CP-1 product rejected. See probability-report-v1.md and finite-controls-v1-output.json.",
+      "rerun_claim": false
+    },
+    {
+      "id": "DD1-EXTRACT-FULL-LAW",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/2",
+      "scope_categories": [
+        "FULL_CONDITIONAL_LAW"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Current proof fixes S and full prior history; new banks and per-call coins must be fresh; full CRT error dependence retained; conditional failures added. CP-1 product rejected. See probability-report-v1.md and finite-controls-v1-output.json.",
+      "rerun_claim": false
+    },
+    {
+      "id": "DD1-EXTRACT-4A-TIE",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/3",
+      "scope_categories": [
+        "STRICT_THRESHOLD"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Actual selected gap >=14a>4a, preserving the exact 4a tie negative control; reviewer finite corner controls pass.",
+      "rerun_claim": false
+    },
+    {
+      "id": "DD1-SFUNC-MAX-ORDER",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/4",
+      "scope_categories": [
+        "ARITHMETIC_CERTIFICATE"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Norm/SNF counts distinct vanished roots at one prime, sums every Fourier character, and proves tuple injectivity only. Adaptive tuples allow an unbounded inverse but no efficient inversion. No repeated-prime averaging or q-dependent common-partition theorem imported.",
+      "rerun_claim": false
+    },
+    {
+      "id": "DD1-MAIN-GAUSSIAN-NOTATION",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/5",
+      "scope_categories": [
+        "GAUSSIAN_NORMALIZATION"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Exact rho_sigma(Z) retained, coefficient Gaussian convention explicit, canonical Parseval scaling checked; no continuous/rounded substitution.",
+      "rerun_claim": false
+    },
+    {
+      "id": "DD1-MAIN-RATIONAL-EXPONENT",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/6",
+      "scope_categories": [
+        "FINITE_MODEL_ENCODING"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Numeric q and supplied code costs charged; v1 finite model not certified because rational epsilon/delta and fresh-call model need explicit versioned repair (MODEL-1). No encoding-length-to-value or unbounded-real-test shortcut accepted.",
+      "rerun_claim": false
+    },
+    {
+      "id": "FULL1-SCOPE-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/7",
+      "scope_categories": [
+        "FIXED_FAMILY_SCOPE"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Fixed q(n),sigma(n) precede arbitrary polynomial k/advantage exponents only for certificate auxiliary; source bridge and K-dependent completion remain open. No historical main/hardness acceptance transferred.",
+      "rerun_claim": false
+    },
+    {
+      "id": "FULL1-SCOPE-2",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/8",
+      "scope_categories": [
+        "FIXED_FAMILY_SCOPE"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Fixed q(n),sigma(n) precede arbitrary polynomial k/advantage exponents only for certificate auxiliary; source bridge and K-dependent completion remain open. No historical main/hardness acceptance transferred.",
+      "rerun_claim": false
+    },
+    {
+      "id": "FULL1-CONTROL-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/9",
+      "scope_categories": [
+        "ARITHMETIC_CERTIFICATE"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Norm/SNF counts distinct vanished roots at one prime, sums every Fourier character, and proves tuple injectivity only. Adaptive tuples allow an unbounded inverse but no efficient inversion. No repeated-prime averaging or q-dependent common-partition theorem imported.",
+      "rerun_claim": false
+    },
+    {
+      "id": "FULL1-CONTROL-2",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/10",
+      "scope_categories": [
+        "STRICT_THRESHOLD"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Actual selected gap >=14a>4a, preserving the exact 4a tie negative control; reviewer finite corner controls pass.",
+      "rerun_claim": false
+    },
+    {
+      "id": "FULL1-CONTROL-3",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/11",
+      "scope_categories": [
+        "FULL_CONDITIONAL_LAW"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Current proof fixes S and full prior history; new banks and per-call coins must be fresh; full CRT error dependence retained; conditional failures added. CP-1 product rejected. See probability-report-v1.md and finite-controls-v1-output.json.",
+      "rerun_claim": false
+    },
+    {
+      "id": "FULL1-SCOPE-3",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/12",
+      "scope_categories": [
+        "FINITE_MODEL_ENCODING"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Numeric q and supplied code costs charged; v1 finite model not certified because rational epsilon/delta and fresh-call model need explicit versioned repair (MODEL-1). No encoding-length-to-value or unbounded-real-test shortcut accepted.",
+      "rerun_claim": false
+    },
+    {
+      "id": "FULL1-DEFECT-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/13",
+      "scope_categories": [
+        "FINITE_MODEL_ENCODING"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Numeric q and supplied code costs charged; v1 finite model not certified because rational epsilon/delta and fresh-call model need explicit versioned repair (MODEL-1). No encoding-length-to-value or unbounded-real-test shortcut accepted.",
+      "rerun_claim": false
+    },
+    {
+      "id": "DD2-NORM-ROOT-MULTIPLICITY",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/14",
+      "scope_categories": [
+        "ARITHMETIC_CERTIFICATE"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Norm/SNF counts distinct vanished roots at one prime, sums every Fourier character, and proves tuple injectivity only. Adaptive tuples allow an unbounded inverse but no efficient inversion. No repeated-prime averaging or q-dependent common-partition theorem imported.",
+      "rerun_claim": false
+    },
+    {
+      "id": "DD2-CRT-ERROR-CORRELATION",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/15",
+      "scope_categories": [
+        "FULL_CONDITIONAL_LAW"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Current proof fixes S and full prior history; new banks and per-call coins must be fresh; full CRT error dependence retained; conditional failures added. CP-1 product rejected. See probability-report-v1.md and finite-controls-v1-output.json.",
+      "rerun_claim": false
+    },
+    {
+      "id": "DD2-UNKNOWN-CUBE-TRANSLATE",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/16",
+      "scope_categories": [
+        "ARITHMETIC_CERTIFICATE"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Norm/SNF counts distinct vanished roots at one prime, sums every Fourier character, and proves tuple injectivity only. Adaptive tuples allow an unbounded inverse but no efficient inversion. No repeated-prime averaging or q-dependent common-partition theorem imported.",
+      "rerun_claim": false
+    },
+    {
+      "id": "DD2-CANCELLATION-OVERLAP",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/17",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "ROOT-SELECTED-FIBER-BOUNDARY",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/18",
+      "scope_categories": [
+        "ARITHMETIC_CERTIFICATE"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Norm/SNF counts distinct vanished roots at one prime, sums every Fourier character, and proves tuple injectivity only. Adaptive tuples allow an unbounded inverse but no efficient inversion. No repeated-prime averaging or q-dependent common-partition theorem imported.",
+      "rerun_claim": false
+    },
+    {
+      "id": "BLIND1-REPEATED-PRIMES",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/19",
+      "scope_categories": [
+        "ARITHMETIC_CERTIFICATE"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Norm/SNF counts distinct vanished roots at one prime, sums every Fourier character, and proves tuple injectivity only. Adaptive tuples allow an unbounded inverse but no efficient inversion. No repeated-prime averaging or q-dependent common-partition theorem imported.",
+      "rerun_claim": false
+    },
+    {
+      "id": "BLIND1-OPTIMAL-DEFINITION",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/20",
+      "scope_categories": [
+        "ARITHMETIC_CERTIFICATE"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Norm/SNF counts distinct vanished roots at one prime, sums every Fourier character, and proves tuple injectivity only. Adaptive tuples allow an unbounded inverse but no efficient inversion. No repeated-prime averaging or q-dependent common-partition theorem imported.",
+      "rerun_claim": false
+    },
+    {
+      "id": "MR-TIE-CONVENTION",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/21",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "MR-ROUNDED-PUBLIC-BIAS",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/22",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "MR-DISCRETE-GAUSSIAN-NORMALIZER",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/23",
+      "scope_categories": [
+        "GAUSSIAN_NORMALIZATION"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Exact rho_sigma(Z) retained, coefficient Gaussian convention explicit, canonical Parseval scaling checked; no continuous/rounded substitution.",
+      "rerun_claim": false
+    },
+    {
+      "id": "MR-FULL-SHARED-LAW",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/24",
+      "scope_categories": [
+        "FULL_CONDITIONAL_LAW"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Current proof fixes S and full prior history; new banks and per-call coins must be fresh; full CRT error dependence retained; conditional failures added. CP-1 product rejected. See probability-report-v1.md and finite-controls-v1-output.json.",
+      "rerun_claim": false
+    },
+    {
+      "id": "MR-VARIABLE-WIDTH-CAPS",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/25",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "MR-ADVANTAGE-WINDOW",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/26",
+      "scope_categories": [
+        "FIXED_FAMILY_SCOPE"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Fixed q(n),sigma(n) precede arbitrary polynomial k/advantage exponents only for certificate auxiliary; source bridge and K-dependent completion remain open. No historical main/hardness acceptance transferred.",
+      "rerun_claim": false
+    },
+    {
+      "id": "MR-FV1-LOGGING-FAILURE",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/27",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "MR-SIGNED-SECRET-COVARIANCE",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/28",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "FULL2-WORDING-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/29",
+      "scope_categories": [
+        "FIXED_FAMILY_SCOPE"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Fixed q(n),sigma(n) precede arbitrary polynomial k/advantage exponents only for certificate auxiliary; source bridge and K-dependent completion remain open. No historical main/hardness acceptance transferred.",
+      "rerun_claim": false
+    },
+    {
+      "id": "FULL2-SCOPE-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/30",
+      "scope_categories": [
+        "FIXED_FAMILY_SCOPE"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Fixed q(n),sigma(n) precede arbitrary polynomial k/advantage exponents only for certificate auxiliary; source bridge and K-dependent completion remain open. No historical main/hardness acceptance transferred.",
+      "rerun_claim": false
+    },
+    {
+      "id": "FULL2-CONTROL-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/31",
+      "scope_categories": [
+        "ARITHMETIC_CERTIFICATE"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Norm/SNF counts distinct vanished roots at one prime, sums every Fourier character, and proves tuple injectivity only. Adaptive tuples allow an unbounded inverse but no efficient inversion. No repeated-prime averaging or q-dependent common-partition theorem imported.",
+      "rerun_claim": false
+    },
+    {
+      "id": "FULL2-CONTROL-2",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/32",
+      "scope_categories": [
+        "STRICT_THRESHOLD"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Actual selected gap >=14a>4a, preserving the exact 4a tie negative control; reviewer finite corner controls pass.",
+      "rerun_claim": false
+    },
+    {
+      "id": "FULL2-CONTROL-3",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/33",
+      "scope_categories": [
+        "FULL_CONDITIONAL_LAW"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Current proof fixes S and full prior history; new banks and per-call coins must be fresh; full CRT error dependence retained; conditional failures added. CP-1 product rejected. See probability-report-v1.md and finite-controls-v1-output.json.",
+      "rerun_claim": false
+    },
+    {
+      "id": "FULL2-NONVACUITY-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/34",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "FULL2-RADIUS-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/35",
+      "scope_categories": [
+        "RETAINED_OUTSIDE_AUXILIARY"
+      ],
+      "disposition": "RETAINED_NO_CURRENT_USE",
+      "reason": "No use of this historical construction, parameter witness, source transform, sampler, attack, or quantum interface in CRT-PROJ/CERT-EXTRACT; original failure and scope remain at the exact referenced entry. No new hardness inference.",
+      "rerun_claim": false
+    },
+    {
+      "id": "BLIND2-QUERY-LAW-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/36",
+      "scope_categories": [
+        "FIXED_FAMILY_SCOPE"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Fixed q(n),sigma(n) precede arbitrary polynomial k/advantage exponents only for certificate auxiliary; source bridge and K-dependent completion remain open. No historical main/hardness acceptance transferred.",
+      "rerun_claim": false
+    },
+    {
+      "id": "BLIND2-PARTITION-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/37",
+      "scope_categories": [
+        "ARITHMETIC_CERTIFICATE"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Norm/SNF counts distinct vanished roots at one prime, sums every Fourier character, and proves tuple injectivity only. Adaptive tuples allow an unbounded inverse but no efficient inversion. No repeated-prime averaging or q-dependent common-partition theorem imported.",
+      "rerun_claim": false
+    },
+    {
+      "id": "BLIND2-SMALL-N-1",
+      "source_registry": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "source_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "source_pointer": "/new_entries/38",
+      "scope_categories": [
+        "FIXED_FAMILY_SCOPE"
+      ],
+      "disposition": "AUDITED_CURRENT_MECHANISM",
+      "reason": "Fixed q(n),sigma(n) precede arbitrary polynomial k/advantage exponents only for certificate auxiliary; source bridge and K-dependent completion remain open. No historical main/hardness acceptance transferred.",
+      "rerun_claim": false
+    }
+  ],
+  "new_entries": [
+    {
+      "id": "FULL-FF1-MODEL-1",
+      "status": "REJECTED_FINITE_MODEL_CERTIFICATION_PENDING_VERSIONED_REPAIR",
+      "evidence": "initial-findings-v1.md"
+    },
+    {
+      "id": "FULL-FF1-POSTERIOR-1",
+      "status": "NEGATIVE_CONTROL_REJECTS_POSTERIOR_UNIFORMITY",
+      "evidence": "finite-controls-v1-output.json"
+    },
+    {
+      "id": "FULL-FF1-WHOLE-TV-1",
+      "status": "NEGATIVE_CONTROL_ONE_BLOCK_TV_NOT_WHOLE_EXECUTION",
+      "evidence": "finite-controls-v1-output.json"
+    },
+    {
+      "id": "FULL-FF1-D-COINS-1",
+      "status": "NEGATIVE_CONTROL_REUSED_COIN_HOEFFDING_FALSE",
+      "evidence": "finite-controls-v1-output.json"
+    },
+    {
+      "id": "FULL-FF1-SAME-Q-COPRIME-1",
+      "status": "SOURCE_BRIDGE_BOUNDARY_NOT_CERTIFICATE_DEFECT",
+      "evidence": "source-complexity-report-v1.md"
+    }
+  ],
+  "scope": "Mechanism and scope audit; no claim all historical computations rerun"
+}

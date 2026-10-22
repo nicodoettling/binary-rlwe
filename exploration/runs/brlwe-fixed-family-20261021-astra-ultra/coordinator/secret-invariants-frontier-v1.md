@@ -1,0 +1,9 @@
+# Secret invariants: exact scope and remaining bridge
+
+The Hamming weight has only n+1 values, so refining the common secret partition by weight multiplies its class-count bound by at most n+1. The inherited selected-functional counting theorem applies to ANY common partition, so this alone would preserve an exponential entropy margin for fixed rho<1. However WEIGHT-COV-v1 proves that this advice does not make a nontrivial affine perturbation exactly secret-independent on interior weight slices.
+
+The full ring autocorrelation M_S M_S^T determines the Gaussian correction covariance, but its information leakage is not merely log(n+1). Exact bounded counts at n=16 give15837 autocorrelation fibers among65536 binary secrets (maximum fiber26), versus17 Hamming-weight fibers. These numbers are finite diagnostics only, not an asymptotic uniqueness or min-entropy theorem. Any source comparison with such advice must refine the partition and re-establish posterior bounds; the old unrestricted-S entropy calculation cannot simply be reused.
+
+A targeted primary check of Elser, The complexity of bit retrieval, arXiv1601.03428, pages1–5, concerns periodic +/-1 sequences, rather than this negacyclic0/1 setting. Its general uniqueness discussion is conjectural; its displayed single-bit-flip theorem does not bound the fibers required here. No algorithmic or entropy theorem from that paper is imported. Primary URL: https://arxiv.org/pdf/1601.03428 .
+
+A separate shifted-secret attempt is unresolved. Adding a known coefficient changes a binary bit correctly only under its guessed value; the wrong guess produces an off-promise secret. An arbitrary decision program may behave freely there. Polynomially many guesses of O(log n) bits do not by themselves yield a test selecting the correct branch or amplify the measure of good secrets. A controlled hybrid or posterior argument would be needed.

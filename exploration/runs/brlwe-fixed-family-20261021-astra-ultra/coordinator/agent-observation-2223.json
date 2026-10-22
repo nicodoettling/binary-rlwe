@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-21T22:23:14.476Z",
+  "call": {
+    "call_id": "call_b027fb86ae9e4ace8e0da046c36b0e39",
+    "timestamp": "2026-10-21T22:23:14.322Z",
+    "line": 4948
+  },
+  "result_line": 4950,
+  "result_line_sha256": "ae55f9b143d8b9f9854e16989cd134c54d65218483e1a201e209e8fddcc4719f",
+  "tool_result": {
+    "agents": [
+      {
+        "agent_name": "/root",
+        "agent_status": "running"
+      },
+      {
+        "agent_name": "/root/delivery_audit1",
+        "agent_status": {
+          "completed": "Sealed delivery audit passes draft v4\u2019s mathematical scope. All six findings are resolved; final usage, inventory and observed cleanup remain pending.\n\n- Report: `reviews/DELIVERY-AUDIT1/full-report-v1.md`\n- Seal SHA256: `c252b30e528bde78f7b73396fbf07ea76c1e2e7471c8e0a281fb9f1bfc70349b`\n- Verified 203 inherited IDs, 609 disposition links and 28 accepted dependency nodes.\n- FF remains open; hardness unestablished; exhaustion rejected.\n- No reviewer-owned active jobs."
+        }
+      },
+      {
+        "agent_name": "/root/operations_audit1",
+        "agent_status": "running"
+      }
+    ]
+  },
+  "captured_at": "2026-10-21T22:23:22.815296+00:00",
+  "source": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T17-48-11-01a15f93-e6bd-7fd2-953c-80af410308a1.jsonl",
+  "service_activation": "2026-10-21T17:48:10.636448+00:00",
+  "active_child_count": 1,
+  "scope": "Actual latest list_agents response only; not a process census. No arbitrary message, arguments, environment or encrypted-content fields extracted."
+}

@@ -1,0 +1,89 @@
+{
+  "at": "2026-10-21T22:02:23.277372+00:00",
+  "verdict": "DOCUMENTARY_OPERATIONAL_SUPPORT_WITH_EXPLICIT_QUALIFICATIONS",
+  "not_a_mathematical_acceptance_or_final_shutdown_certificate": true,
+  "items": [
+    {
+      "id": "OA-01",
+      "status": "HISTORICAL_CADENCE_DEVIATION_DISCLOSE",
+      "max_lateness_seconds": 251.526828,
+      "max_checkpoint_interval_seconds": 819.512951,
+      "early_checkpoint_seconds": {
+        "023": -1.969241,
+        "024": -10.248407
+      }
+    },
+    {
+      "id": "OA-02",
+      "status": "HISTORICAL_UNMEASURED_PEAK_MEMORY",
+      "path": "reviews/BLIND-SV1/experiment-01-execution.json",
+      "address_space_cap_is_not_measured_peak": true
+    },
+    {
+      "id": "OA-03",
+      "status": "LABEL_MEASUREMENT_SCOPES_IN_FINAL_REPORT",
+      "job": "SYM-RANK-FV2",
+      "script_seconds": 26.469174596946687,
+      "GNU_time_process_wall_seconds": 26.69
+    },
+    {
+      "id": "OA-04",
+      "status": "WORKING_INDEX_STALE_FINAL_REFRESH_PENDING_NOT_OVERDUE",
+      "changed_paths": [
+        "reviews/BLIND-RESOURCE3/complete-report.md"
+      ],
+      "missing_indexed_paths": []
+    },
+    {
+      "id": "OA-05",
+      "status": "RESOLVED_OBSERVED",
+      "current_pointer": "coordinator/spawn-receipts-all-v6.json",
+      "runtime_updated_at": "2026-10-21T21:58:46.673190+00:00"
+    },
+    {
+      "id": "OA-06",
+      "status": "CAP_STATE_STARTUP_SNAPSHOT_FINAL_OBSERVATIONS_PENDING_NOT_OVERDUE",
+      "cap_updated_at": "2026-10-21T17:48:10.733979+00:00"
+    },
+    {
+      "id": "OA-07",
+      "status": "AUDITOR_EXTRACTION_LAPSE_DISCLOSED_SANITIZED_ARTIFACTS",
+      "receipt": "audit-extraction-lapse.json",
+      "retained_ciphertext_prefix_matches": 0
+    }
+  ],
+  "supported_observations": {
+    "new_native_goal_calls": 1,
+    "token_budget_present": false,
+    "observed_goal_update_calls": 0,
+    "goal_status": "active",
+    "maximum_observed_active_children": 2,
+    "local_thread_configurations": "Astra/ultra/never",
+    "explicit_default_settings_events": 12,
+    "explicit_default_settings_agents": 7,
+    "clock_reset_detected": false,
+    "premature_scientific_termination_detected": false,
+    "new_discovery_assignment_identified_after_cutoff": false,
+    "backend_billing_verified": false,
+    "aggregate_memory_containment_claim": false
+  },
+  "pending_final_items": [
+    "final.md and final delivery binding",
+    "new final experiment/evidence index after review seals",
+    "final active native-goal and usage receipt",
+    "actual worker/experiment stop receipt",
+    "actual final checkpoint",
+    "actual observed cleanup/runtime status with limits of observation"
+  ],
+  "mathematical_status_reporting": {
+    "FF": "OPEN",
+    "SV": "substantive classification at inherited radius; not independently mathematically audited here",
+    "hardness": "NOT_ESTABLISHED",
+    "scientific_exhaustion": "fresh challenge explicitly rejects"
+  },
+  "audit_writes_only": "reviews/OPERATIONS-AUDIT1",
+  "new_experiments": 0,
+  "new_agents": 0,
+  "new_goals": 0,
+  "process_cleanup_observation_claim": false
+}

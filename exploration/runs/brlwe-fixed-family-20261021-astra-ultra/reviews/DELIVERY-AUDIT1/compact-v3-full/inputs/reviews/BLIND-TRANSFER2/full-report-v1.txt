@@ -1,0 +1,622 @@
+BLIND-TRANSFER2 — INDEPENDENT STATEMENT-ONLY REPORT v1
+Frozen original packet: allowed-read-manifest-v2.json.
+Authorized additions: allowed-read-addendum-v1.json, -v2.json, -v3.json.
+Scope: ten original targets, added SV-RS-BIT-v2, and only the dependencies
+needed to assess their explicit assertions. No author proof was received.
+
+1. Verdict and limits of this report
+
+I obtained independent proofs of the mathematical channel, information,
+affine-mismatch, and decoding assertions. Both supplied n=2 kernels satisfy
+every normalization and endpoint equation by complete exact rational
+enumeration from the supplied definitions. No probabilistic or endpoint
+counterexample was found. The finite checks are not being used as proofs of
+the unbounded theorems; the proofs below supply those separately.
+
+There are two ancillary resource-wording qualifications in the ORIGINAL
+versions. I notified the coordinator before sealing this report:
+
+* FF3-COMPACT-SELECTOR-v1 says that for arbitrary n an exact uniform cube
+  edge can be sampled in O(n) bits. This is correct as an EXPECTED fair-bit
+  bound, or as a worst-case fair-bit bound when n is a power of two. A
+  literal worst-case bound for arbitrary n is false: n=3 has 12 edges, and
+  a bounded fair-bit algorithm has dyadic output probabilities, whereas
+  1/12 is not dyadic. The kernel and expected-running-time claims stand.
+* FF3-ENERGY-RANK-v1 gives the single-vector count bound
+  n log2(max(Q,q))+1 bits. Its pair extension preserves polynomial
+  complexity, but a pair-shell PRODUCT can require
+  2n log2(max(Q,q))+1 bits. For n=2, I={-1,0,1}, the energy-1 shell has four
+  vectors, so its square has 16 vectors and its count needs five bits,
+  exceeding 2 log2(3)+1. The single-vector bound itself is correct. The
+  phrase 'same statement' must not propagate that identical numerical
+  count bound to pair products.
+
+Consequently this report does not silently certify either stronger literal
+resource reading. A precise new version may be checked separately. These
+qualifications do not refute the mathematical kernels or polynomial
+expected complexity. No conclusion here establishes the unrestricted
+fixed-family reduction or source hardness.
+
+Review configuration was specified in the assignment as gpt-6-astra,
+ultra, inherited default service tier. This is configuration information,
+not backend billing telemetry. Blindness means the author argument and
+claimed verdict were withheld; it is not statistical independence from
+other same-model/lineage reviewers. The coordinator owns final integration
+and any stronger project-wide certification.
+
+2. Input exposure, finite checks, and negative controls
+
+The fourteen original mathematical inputs matched their listed SHA-256
+hashes. Every authorized addendum file also matched its hash. The complete
+assignment is preserved in assignment-verbatim-v1.txt; exposure and seal
+files accompany this report. Apart from these inputs, I read only the
+specified mathematical-proof-audit skill and its two required references,
+my own newly written artifacts, and the clock. No web source, author proof,
+historical report, experiment output, project ledger, status, or plan was
+read. Historical project regressions were intentionally not imported,
+because the strict statement-only assignment expressly excluded them;
+CP-1 was authorized through the methodology reference.
+
+Experiment finite-audit-v1.py was written independently from the packet,
+then hash-preregistered before execution. The coordinator granted a LIGHT
+slot. Its command is recorded exactly in finite-audit-prereg-v1.json and
+used /usr/bin/time, timeout 120s, and prlimit --as=536870912. It exited 0
+after 13.7729 seconds, with peak RSS 16384 KiB. Children were reaped and no
+service or background job remained. All arithmetic was exact integer or
+Fraction arithmetic; there was no random seed and no hidden Gaussian
+truncation. Complete results, stderr, exit, and resource receipts are kept.
+
+Results:
+  - all 36 rows of the four radial kernels were nonnegative and normalized;
+    every radial kernel mapped the uniform and stated noise laws exactly;
+  - the compact selector's 81 rows, four fixed-secret endpoints, and uniform
+    endpoint all matched exactly, and its claimed maximum G was exact;
+  - all 27 joint-rank h rows and all 81 full channel rows were normalized;
+    all four fixed-secret endpoints and the uniform endpoint matched;
+  - 576 rank-size pairs M,N in [1,24] had exactly uniform target ranks;
+  - 106 admissible two-event rational cases passed;
+  - 4536 two-secret endpoint cases on Z/2, Z/3, Z/4, Z/5 passed;
+  - 4000 admissible compressed-selector/prior cases passed the exact
+    guessing and dominating-density inequalities;
+  - 25 correlated-public/randomized-class cases passed;
+  - eight fixed-secret ENUM surrogate cases at n=2, Q=7,17, T=1 passed;
+    the surrogate noise was finite (1/2,1/4,1/4) on 0,+1,-1, not a Gaussian;
+  - 36 finite affine law families at n=4,8 passed cube, all applicable
+    slice, and tail bounds;
+  - complete RS codeword enumeration for (n,p,t)=(4,17,1/2/3) and
+    (8,17,1/2) yielded the exact claimed minimum distances.
+
+The added root-trials-audit-v1.py received a separate preregistration and
+LIGHT grant. Under the same limits it exited 0 in 0.0428 seconds, peak RSS
+11264 KiB. It checked all 19 qualifying pairs with odd prime p<=100 and
+n in {2,4,8,16,32}, all proposal bit strings, every complete first-failure
+history, and five rational tolerances. Complete artifacts are preserved.
+
+CP-1 was reproduced with exact fractions. Conditioning vk=1 has probability
+10/11 and yields A_b=21/2000, C_b=1/20, D=879/1000. Initial incidences are
+p(x)=1/10, p(e_b)=121/2000, p(f_b)=21/2000. None is strictly above 1/10.
+The selected two-hit event is 21/2000 > 1/100, while the residual later
+incidence is 21/221 < 1/10. Thus the old marginal product bound is rejected.
+The mechanism is support restriction and posterior renormalization, not
+merely oracle-value correlation. No argument below branches on a latent
+cache-hit status or declares a reused value fresh.
+
+The new randomized-root negative control uses n=2,p=5,eta=1/2,L=8.
+Fresh trials fail with probability (3/4)^8=6561/65536. Reusing one seed on
+all eight trials fails with probability 3/4; after one failure, the reused
+seed has conditional success probability zero. The latter violates the
+advertised amplification and is explicitly excluded by the theorem's
+freshness condition.
+
+3. FF3-TWOSECRET-v1 — proof
+
+Write d_s=s1-s0. The map (a,b) -> (u,v)=(b-a*s0,b-a*s1) is bijective,
+because a=(u-v)/d_s and b=u+a*s0. Under label 0, u=e and v=e-a*d_s.
+Conditional on each e, v is uniform, so the complete joint law is
+nu_Q(u) times U_Q(v). Under label 1 it is U_Q(u) times nu_Q(v).
+Under the source comparator it is U_Q times U_Q.
+
+The two independent H calls therefore yield respectively
+nu_q times U_q, U_q times nu_q, and U_q times U_q. Inverting with the
+target unit t1-t0 gives exactly the displayed target law for the same
+unknown label, including independence of the public multiplier and full
+target noise vector. This proves the entire joint noise law, not moments.
+Every row is normalized because it is a composition of bijections and
+normalized independent kernels. Independent executions have the product
+conditional law for every fixed label; integrating one shared label
+preserves the shared-secret batch. No sample resamples the secret.
+
+There are exactly two H calls plus ring operations. Their implementation
+cost model is inherited rather than invented. Only two secrets are
+supported; for binary n>=2 this does not supply the full 2^n-secret family.
+
+4. FF3-ENUM-v1 — proof and resource accounting
+
+For a nonzero binary difference d=s-t, multiplication by d over the
+integer coefficient lattice has nonzero determinant. Indeed X^n+1 is
+irreducible for power-of-two n (Eisenstein at 2 after X -> X+1), so a
+nonzero polynomial of degree<n is nonzero in the field Q[X]/(X^n+1).
+Every column of its negacyclic multiplication matrix has Euclidean norm
+||d||<=sqrt(n). Hadamard gives 1<=|det M_d|<=n^(n/2). Smith normal form
+then bounds the kernel modulo prime Q by
+  |ker M_d mod Q| = product_i gcd(Q,a_i) <= product_i |a_i|
+                  = |det M_d| <= n^(n/2).
+This argument does not assume that d is a unit modulo Q.
+
+Uniform A*d is uniform on the image, so any set of at most (4T+1)^n
+residual values has probability at most
+  n^(n/2) (4T+1)^n / Q^n.
+When the true integer error lies in [-T,T]^n and another candidate passes,
+A*(s-t) has a representative in [-2T,2T]^n. Since 4T+1<Q this box has
+exactly (4T+1)^n residues. Union over the 2^n-1 alternatives yields etaQ.
+No independence between competing candidate events was assumed.
+
+For one Gaussian coordinate, normalizer>=1 and monotonicity/integration
+give the safe estimate
+  Pr(|E|>T) <= (2+sigmaQ^2/(pi*T)) exp(-pi*T^2/sigmaQ^2).
+Union over coordinates gives tailQ. Hence the true s is the unique survivor
+except with probability at most tailQ+etaQ. Couple the output to a fresh
+target sample with the SAME s, using the same fresh output coins whenever
+the correct unique survivor is found. This bounds the full output TV,
+including public multiplier and all error coordinates.
+
+On comparator input, for each fixed t the residual B-A*t is uniform, so
+the chance any candidate passes is at most betaQ. Couple to a fresh target
+comparator whenever none passes. This proves the comparator bound even
+though the exceptional output can have an arbitrary distribution.
+
+All these estimates are pointwise in fixed s. Condition on the single
+shared S before taking k products; a coupling/union bound gives the stated
+k-fold errors, capped by one. The error is not charged only per marginal
+after discarding S. With finite scalar samplers of total per-output error
+xi, another coupling adds k*xi to the full batch bound.
+
+For T=ceil(sigmaQ*n), the tail has a polynomial prefactor times exp(-pi*n^2)
+when sigmaQ has polynomial value. Under Q>=16n(4T+1), etaQ is at most
+(1/(8 sqrt(n)))^n, and betaQ is also negligible. These estimates are uniform
+enough for every fixed polynomial sample exponent, with one channel family.
+Also Q>=64 sigmaQ n^2, proving sigmaQ/Q<=1/(64n^2). Increasing Q enforces a
+separately fixed positive target noise reserve. A polynomial-value Q is an
+additional supplied family when available; no prime generator or decoder
+is hidden in this statement.
+
+The algorithm really enumerates 2^n candidates, each with polynomial
+arithmetic work. One retained candidate and a zero/one/many counter suffice
+for polynomial memory. Exact target Gaussian sampling defines a kernel;
+bounded finite sampling requires its explicitly charged approximation and
+bit cost. Uniqueness of the survivor gives no efficient search algorithm.
+
+5. FF3-COMPRESSED-SELECTOR-INFORMATION-v2 — proof
+
+Use the randomized-class formulation; the deterministic one is its point
+mass special case. Conditional on a fixed input x, one proposal/class has
+law mu(e)R(c|x,e). The success probability is
+  sum_e,c mu(e)R(c|x,e)G(e,c)/M = 1/M.
+Every complete surviving retry history has this same next-trial law,
+because e, the class draw, and acceptance coins are all fresh conditional
+on x. Thus trials are geometric with mean M, and the complete ACCEPTED law is
+  Q_x(e,c)=mu(e)R(c|x,e)G(e,c).
+There is no omitted Bayes denominator: the sum is exactly one. Branches
+with zero proposal or zero weight simply have zero accepted mass.
+
+For every x,e,c, Q_x(e,c)<=M mu(e). Averaging over any X|S=s preserves this
+pointwise domination. For any prior pi on N secret values,
+  P_guess(S|E,C)
+    = sum_e,c max_s pi_s Q_s(e,c)
+    <= M * (#classes) * max_s pi_s
+    <= M L max_s pi_s.
+The output factorization is exactly the Markov condition needed for data
+processing of guessing probability. It excludes input state, trial history,
+advice, and correlated extra coins from the output channel. The trivial
+upper bound one supplies the displayed minimum.
+
+Let ell_C<=L be the actual class-alphabet size and use reference law
+rho(e,c)=mu(e)/ell_C. On its support Q_s/rho<=M ell_C. Therefore
+  D(Q_s || rho)<=log2(M ell_C),
+and the usual mixture identity for relative entropy gives
+  I(S;E,C)<=sum_s pi_s D(Q_s||rho)<=log2 M+log2 L.
+Data processing proves the claimed I(S;Y) bound. No posterior independence
+is assumed. The argument also handles arbitrary (including continuous)
+input X because its only use is averaging the bounded channel rows.
+
+An estimator's success event in the retained pair (S,Y) changes by at most
+eta under joint TV eta. Apply the target estimator to Y, then combine its
+success >=1-delta-eta with the uniform-prior upper bound ML/N. This proves
+(T). The estimator can be exponential; its existence does not give the
+channel an oracle for S.
+
+The Gaussian corollary follows from the independently proved ENUM estimate
+on the target modulus q. All bounds concern fixed-secret laws and retain S.
+With sigma polynomial and q>=16n(4T+1), delta_n is negligible, hence
+ML>=2^n(1-delta_n-eta_n). Polynomial M and L cannot meet it. Fixed target
+parameters/families precede the polynomial sample/advantage exponents.
+
+For q=2, X^n+1=(X+1)^n over F_2. Exactly half of ring elements A have A(1)=1
+and are units. On that event A^{-1}B=S if E=0, giving guessing success at
+least (1/2)(3/4)^n and ML>=(1/2)(3/2)^n for exact transfer. Conditional on a
+unit A and uniform S, AS is uniform, so
+  I(S;B|A)=n-H(E)=n(1-h2(1/4)).
+Nonunit contributions are nonnegative; averaging gives the displayed
+information lower bound. With retained-secret TV eta and the same uniform
+S, finite-alphabet conditional entropy continuity costs O(eta*n+h2(eta)),
+so negligible eta does not remove its linear-in-n information gap. This
+supplementary observation is not needed for the Gaussian conclusion; the
+exponentially small guessing event alone does not justify an approximate
+q=2 corollary.
+
+6. FF3-ENERGY-RANK-v1 — proof and the pair qualification
+
+For source shell size M and target size N, source uniform rank r and fresh
+uniform T in {0,...,N-1} make Nr+T uniform on {0,...,MN-1}: each integer
+has a unique quotient r and remainder T upon division by N. Its quotient
+by M is uniform on {0,...,N-1}, each value having exactly M preimages.
+Consequently conditioning on a chosen output class f yields a uniform
+output vector in that class. Mapping alpha->beta gives the uniform endpoint;
+mapping p->n gives the finite-noise endpoint. Within-class uniformity of P
+and the target law is load-bearing. A fixed source-rank permutation keeps
+the required uniformity. All rows are normalized.
+
+For a residual pair, use the product-shell rank r0*M_e1+r1 and product-shell
+size M_e0*M_e1. The same counting proof applies when the relevant input
+laws are constant on those JOINT classes, as required by the phrase 'same
+statement'. Merely knowing joint class masses would not suffice for an
+arbitrary law nonuniform inside a joint class. The statement's warning
+about a separate full-cube endpoint proof is necessary and correct.
+
+Integer dynamic programming counts suffixes by their remaining energy.
+There are polynomially many states when n, alphabet sizes, and maximum
+absolute entries have the stated numerical bounds. Lexicographic ranking
+sums preceding suffix counts; unranking inverts those comparisons. All
+single-vector counts are <=max(Q,q)^n and have the displayed bit bound.
+Pair products are <=max(Q,q)^(2n) and retain polynomial bit complexity;
+their numerical bit bound needs the factor two described in section 1.
+Rational h rows of polynomial size/bit length can be sampled in expected
+polynomial time by exact rational discrete sampling. Uniform finite rank
+coins also admit expected polynomial sampling. No bounded exact sampler
+for arbitrary real h is asserted.
+
+If the class-row sampler has TV error epsilon, applying the exact rank
+kernel cannot increase TV. For wrapped scalar Gaussian Z mod Q, decompose
+by the event Z lies in the fixed centered interval. On that event its law
+is exactly the corresponding normalized finite Gaussian. The other event
+has mass tau, so the scalar TV is <=tau, and product TV is <=n*tau.
+Contract the input discrepancy through H and add the corresponding target
+discrepancy and sampler error. This proves the stated wrapped-noise bound;
+the uniform endpoint is exact for ideal H. Linear growth of Q/sigma and
+q/sigma0 gives exp(-Omega(n^2)) scalar tails at polynomial widths.
+
+7. FF3-COMPACT-SELECTOR-v1 — proof and exact finite certificate
+
+For fixed input x, proposal e is uniform over |E| edges and has acceptance
+probability G(c_e(x))/M. Exact pointwise normalization makes its average
+1/M on EVERY input. Fresh proposals/coins on each retry imply
+  Pr(accepted e | x)=G(c_e(x))/|E|.
+For positive G, selecting (j,k) with g/G makes the full accepted
+edge/variant probability g(c_e(x),j,k)/|E|. G=0 branches have zero accepted
+probability and need not define g/G. Applying independent normalized H
+rows and the invertible residual map gives exactly formula (K), hence a
+normalized row. The mean number of trials is M.
+
+After each complete rejection history conditional on x, the next success
+probability remains 1/M. Thus capped failure is (1-1/M)^L<=exp(-L/M),
+including M=1, when it is zero for positive L. Couple capped and uncapped
+executions using the same tape until success; any fixed fallback costs at
+most this failure probability. This is a genuine conditional argument,
+unlike the CP-1 marginal multiplication. Independent fixed-secret executions
+give the full batch endpoint law when the displayed endpoint equations
+hold. A union coupling adds k*exp(-L/M), plus charged H/coin errors.
+
+The finite certificate was checked without trusting the labels on its JSON.
+I reconstructed ring multiplication, every source/target probability,
+each radial entry by zero count, every edge, every selector weight, and
+every one of the 81-by-16 channel entries as rational numbers. All rows and
+all five endpoint equations match exactly. The maximum sum G(c) is exactly
+the stated rational numerator/denominator, and it is less than three.
+
+For arbitrary n, choose i uniformly in {0,...,n-1}, choose the other n-1
+bits independently, and set u_i=0. This samples an edge without a list and
+uses expected O(n) fair bits by rejection sampling i. If n is a power of
+two, log2 n+n-1 bits give a fixed bound. The stronger arbitrary-n bounded
+fair-bit reading is refuted in section 1. The dimension-n asymptotic claim
+remains conditional on actual effective tables and polynomial M; the n=2
+certificate supplies no scalable family or Gaussian replacement.
+
+8. FF3-JOINT-RANK-FINITE-v1 — exact certificate and rank dependence
+
+I decoded each column index exactly as specified, reconstructed all source
+and target shells in ascending lexicographic residue order, and verified
+every h row is a probability distribution. For every input and every edge,
+I enumerated all h outputs and all T values, computed J using integer
+division, and solved the target residual equations. The unit edge
+difference gives exactly one target pair for each residual pair. The
+resulting 81 rows and all four fixed-secret plus comparator endpoints
+match exactly. This finite rational enumeration is a proof of this finite
+instance, not an extrapolation to larger n.
+
+There is genuine residual-rank dependence. Fix edge u=(0,0),v=(1,0) and
+class (za,z0,z1)=(0,0,0). With r0=(1,1),r1=(2,2), A=(2,2),B=(1,1), the
+pair rank is 3. Swapping r0 and r1 gives A=(1,1),B=(2,2), pair rank 12.
+The h row chooses (w0,w1)=(0,1) with probability one; M=16,N=2. The first
+input yields J=0 for both T values, while the second yields J=1. Thus edge
+and class alone do not determine the output law. The compressed-selector
+bound therefore does not exclude this channel. Shared-secret batches
+follow from the four separate exact fixed-secret equalities.
+
+9. FF3-TWOEVENT-v1 — proof including Gaussian extremes
+
+The denominator p-u is positive. The lower likelihood inequality makes
+g1 nonnegative; the upper makes g0 nonnegative. Summing each numerator
+over y gives p-u, hence both rows normalize. Direct substitution gives
+  p*g1+(1-p)*g0=N,
+  u*g1+(1-u)*g0=V.
+This is the complete conditional output law; p=1 is permitted and causes
+no zero denominator.
+
+For the first sampler put a=(1-p)/(1-u). Proposed mass N(y) times acceptance
+1-a/L(y) is N(y)-a*V(y), with total success 1-a=(p-u)/(1-u). Normalizing
+gives g1. For the second sampler, proposed mass V(y) times acceptance
+1-(u/p)L(y) is V(y)-(u/p)N(y), with success (p-u)/p; normalizing gives g0.
+Under p>=3/4,u<=1/4 both success probabilities are >=2/3. Fresh trials
+conditional on the complete preceding rejection history yield failure
+<=3^{-ell}; coupling to the unlimited sampler proves the TV bound. No
+exact finite real-probability arithmetic claim is made.
+
+For the Gaussian construction, write a0=q/sigma0>=n and
+B_n=n(2+sigmaQ^2/(pi*T)), a polynomial-value prefactor. Since
+T>=sigmaQ*n*q/sigma0, the source box has
+  1-p <= B_n exp(-pi*n^2*a0^2).
+Wrapping can only increase its mass compared with the unwrapped box.
+Also u<=1/(4q)^n, so eventually p>=3/4 and u<=1/4.
+
+The scalar Gaussian normalizer is <=1+sigma0<=2sigma0. Each centered
+target residue has a representative of absolute value <=q/2, so
+  q Pr(E0 mod q=y) >= (q/(2sigma0)) exp(-pi*a0^2/4).
+For n>=2 the prefactor is at least one; hence
+  min_y L(y) >= exp(-pi*n*a0^2/4).
+For sufficiently large n,
+  (1-p)/(1-u) <= 2 B_n exp(-pi*n^2*a0^2)
+              <= exp(-pi*n*a0^2/4) <= min L.
+The exponential gap dominates the polynomial prefactor. Conversely
+max L<=q^n, while p/u>=(3/4)(4q)^n>=q^n. Thus both likelihood inequalities
+hold. The wrapped target law is strictly positive. The construction is an
+exact mathematical noise-law kernel and does not locate the secret's
+residual or supply bounded finite theta evaluation/sampling.
+
+10. FF3-SELECTOR-PUBLIC-v3 — proof
+
+At every positive-probability atom z, repeat section 5 with proposal mu_z,
+the declared conditional fresh class kernel, and prior pi_z(s)=Pr(S=s|Z=z).
+The complete accepted law still has the pointwise bound M*mu_z(e), because
+normalization holds for every possible x at that z. Therefore
+  P_guess(S|output,Z=z)<=ML max_s pi_z(s).
+Sum over the finite/countable discrete atoms to get the asserted bound.
+If S is uniform and independent of Z, the right side is ML/N. Dependence
+of X on S and Z is already included by averaging conditional channel rows.
+The proof requires the stated output factorization and no persistent
+class seed. It does not infer independence of S and a public quantity
+merely because that quantity is named 'public'. Nonatomic extension is
+outside the assertion, so no unprovided regular conditional law is used.
+
+11. BOUNDED-AFFINE-TV-v1 — independent spectral proof
+
+Let T=M_X be the real signed shift. Then T is orthogonal and T^n=-I.
+Write C=E[Delta Delta^T], d=tr C=E||Delta||^2, and
+  A=(T+T^T)/2, H=sign(A).
+For power-of-two n>=4 the eigenvalues of A are cos((2j+1)pi/n), none zero.
+Their minimum absolute value is a=sin(pi/n)>=2/n. Thus H is a symmetric
+orthogonal matrix commuting with T and H*A=|A|>=a I. The antisymmetric
+part of H*T has zero trace against symmetric C, so
+  tr(H*T*C)=tr(|A|*C)>=a*d.
+Use the real quadratic statistic f(w)=w^T H w.
+
+For cube S, use Walsh sign chi(s)=(2s0-1)(2s1-1). Expanding
+W_s=Z-sum_i s_i T^i Delta, averaging chi kills the constant, linear, and
+all other quadratic terms. Independence of (Delta,Z) from S is exactly
+what makes their expectations common. The surviving term is
+  E_S chi(S) E f(W_S) = (1/2) tr(H*T*C) >= a*d/2 >= d/n.
+The same coefficient of the common Y expectation is zero. If W_s,Y lie
+in the radius-R ball, f has range [-R^2,R^2], so
+  |E f(W_s)-E f(Y)| <= 2R^2 TV(Law(W_s),Law(Y)).
+Since the retained S law is uniform on both sides, its joint TV is exactly
+the average of the conditional TVs. Consequently it is >=d/(2n R^2),
+which is stronger than the claimed d/(n^3 R^2).
+
+For the weight-w slice, consider event B that exactly one of positions
+0,2 is occupied and exactly one of positions 1,3 is occupied. Its probability
+is
+  p_w=4*binom(n-4,w-2)/binom(n,w),
+exactly the stated falling-factorial expression. Conditional on B and the
+remaining coordinates, put s0=b,s2=1-b,s1=c,s3=1-c; b,c are independent
+uniform bits. Let D=I-T^2. The two varying multipliers are D and T*D.
+The corresponding Walsh coefficient of E f(W_s) is
+  (1/2) tr(|A| D C D^T).
+The minimum singular value of D is 2 sin(pi/n)=2a. Therefore this coefficient
+is >=2 a^3 d >=16d/n^3. Applying the same TV bound to the four configurations
+and averaging over the outside coordinates gives retained joint TV
+>=8 p_w d/(n^3 R^2), stronger than the asserted 4 p_w version. Contributions
+from outside B are nonnegative and may be discarded. This argument handles
+all 2<=w<=n-2, including n=4,w=2.
+
+For tails use f_R(w)=f(w)1_{||w||<=R}. Its range is still [-R^2,R^2], and
+|E f(W_s)-E f_R(W_s)|<=eta_s, likewise for Y. Repeating the cube calculation
+gives
+  TV >= [d/n - E eta_S - eta_Y]/(2R^2),
+which implies the advertised weaker bound
+  [d/n^3 - E eta_S - eta_Y]/R^2.
+For the slice, the corresponding bound is at least
+  [16 p_w d/n^3 - E eta_S - eta_Y]/(2R^2),
+and again implies the advertised weaker 4 p_w bound. No distributional
+Gaussian assumption, independence of Delta and Z, or covariance matching
+was used.
+
+For the modular statement, condition the FULL Gaussian vector Y_G on
+||Y_G||<=R. This event has positive probability, since zero has positive
+mass and R>0. Denote the resulting common bounded law by Y. The map modulo
+q is injective on integer vectors in the radius-R ball when R<q/2, so the
+bounded lower bound is unchanged for W_s mod q versus Y mod q. Coupling
+Y_G to its conditioning costs tau before reduction modulo q and at most
+tau after reduction. The triangle inequality gives precisely the claimed
+minus-tau statement and its slice variant. No coordinatewise conditioning
+is substituted for the norm-ball event.
+
+12. SV-RS-DECODE-v2 — recognition, code, decoding, radius
+
+Let A_J be the supplied integer column basis. The least e with e*A_J^{-1}
+integral is the lcm of its reduced denominators, so it recovers the additive
+quotient exponent. Under the promise this is p. Rational matrix inversion,
+integer gcd/lcm, and basis membership tests have polynomial bit complexity
+in full input lengths. In the numeric-p version, one may test p and scan
+field elements to find roots; scanning costs polynomial in the NUMERIC p.
+For a candidate primitive alpha, evaluate every basis element at each
+alpha^(2j+1). The common zeros give the support. Checking pR subset J and
+the support dimension/determinant verifies the promised product ideal.
+Trying all primitive roots and cyclic starting positions recognizes a
+consecutive interval whenever one exists; a different primitive root need
+not preserve an interval, so this search is necessary in the recognition
+claim. It is polynomial in n, numeric p, and full input lengths.
+
+Because p belongs to J, z=p*lambda is integral. In R/pR, evaluation at the
+n distinct roots identifies the algebra with F_p^n. The condition
+lambda*J subset R is equivalent to z*j=0 mod p for every j in J. Thus
+z's Fourier evaluations vanish off the t-point support of J and are
+arbitrary on it. For support j=0,...,t-1, Fourier inversion gives
+  z_k = alpha^{-k} f(alpha^{-2k}) mod p,
+where deg f<t (the factor 1/n is absorbed into f). The n evaluation points
+alpha^{-2k} are distinct and the multipliers alpha^{-k} are nonzero.
+This is a generalized Reed–Solomon code of dimension t and minimum distance
+n-t+1: a nonzero polynomial of degree<t has at most t-1 roots, and that
+bound is attained by a product of t-1 evaluation factors. A cyclic shift
+of support changes only the displayed nonzero coefficient multipliers.
+
+Round each coefficient of p*T to an integer. A wrong rounded coordinate
+requires |p*w_k|>=1/2, regardless of tie convention. Parseval with the
+specified canonical norm gives sum_k |w_k|^2<=r^2. Hence the Hamming error
+count is at most floor(4p^2r^2). The guard 8p^2r^2<n-t+1 puts it strictly
+below half the minimum distance.
+
+For completeness, the finite-field decoder can be an explicit linear
+system. For h=floor(4p^2r^2), solve
+  E(x_i)*v_i=Q(x_i), deg E<=h, deg Q<=h+t-1,
+with E monic of degree h. A solution exists by multiplying the actual
+error locator by any additional monic factors. For any solution, Q-fE
+vanishes at at least n-h uncorrupted points; since n-h>h+t-1, it is zero.
+Thus divide Q by E to recover f exactly. Modular linear algebra and
+polynomial division suffice, with no scan of all field values once alpha
+is known. Rational lifting then selects, for each coefficient residue z_k,
+the unique number z_k/p+integer within distance <1/2 of T_k. It exists by
+r<1/2 and is unique; all these lifts lie in J^{-1} because adding R does
+not leave J^{-1}. The result is the promised lambda.
+
+The inherited parameter addition gives
+  r=epsilon_* ell^2/(1024 n K chi Qmax)
+with epsilon_*<=1, K,chi>=1, ell=ceil(log2(2nK)),
+  Qmax>=8n^3 ceil(sqrt(Kn)) ell^4.
+These guards make r<1/2 directly (indeed much smaller). Squaring and
+substituting gives exactly
+  8 p^2 epsilon_*^2 ell^4
+    < (n-t+1)(1024 n K chi Qmax)^2.
+The symbol epsilon=epsilon_*/4 is not substituted a second time. This is
+an algorithm at the stated radius, with no reversal of a sampling theorem.
+
+The radius allowance is sqrt((n-t+1)/8)/p, together with r<1/2. Relative
+to scalar rounding's 1/(2p), the ratio is sqrt((n-t+1)/2), of the claimed
+order sqrt(n-t). At r=1/p it succeeds exactly under the stated sufficient
+condition n-t+1>8, while the scalar sufficient guard fails. This radius
+is only illustrative; no inherited parameter instantiation is asserted.
+
+The dense-family assertions used here also check from the authorized
+definitions. With t the largest positive odd integer <=rho*n/ell,
+log(p^t)=Theta(n) for polynomial-value p>=n^4, while p^t<=2^(rho*n).
+The quotient exponent is p. A nontrivial Galois stabilizer is a nontrivial
+2-group acting freely on split primes, so an invariant support would have
+even size; odd t excludes it. In the standard degree-g subfield, the t
+consecutive odd exponents hit exactly min(t,g) distinct residues modulo
+2g, giving contraction index p^min(t,g). If g<=t it is infeasible; if g>t,
+feasibility is exactly g>t log2 p. The minimum feasible standard index is
+p^t and is exponential.
+
+For the arbitrary-subfield comparison needed by that assertion, the
+Galois group is C2 times C_(n/2). An index-g subgroup intersects the cyclic
+factor in a subgroup of size at least n/(2g), so its fixed field lies in
+the standard degree-min(2g,n) field. Extension degree is at most two.
+Extending the contracted ideal from L into that standard field gives an
+ideal contained in the standard contraction, whence d_m<=d_L^[K_m:L]
+<=d_L^2. Norm feasibility is preserved. Therefore d_all>=sqrt(d_*) is
+exponential too. None of these contraction facts contradicts the direct
+decoder, or asserts hardness of any other radius/ideal family. Ancillary
+algorithmic assertions in the supplied subfield statements were not
+promoted to additional independent review targets.
+
+13. SV-RS-BIT-v2 and its GAP dependency — proof
+
+For promised odd prime p with 2n dividing p-1, F_p^* is cyclic of order p-1.
+The map b -> b^((p-1)/(2n)) is onto its 2n-th roots, each with exactly
+(p-1)/(2n) preimages. Since n is a power of two, exactly n of those roots
+satisfy alpha^n=-1, namely the primitive roots of order 2n. Thus exactly
+(p-1)/2 proposals b in {0,...,2^m-1} succeed. The COMPLETE one-trial law is
+uniform on all these 2^m bit strings, with explicit failure for b=0,
+b>=p, and for the remaining strings failing the root test. Success is
+  theta=(p-1)/2^(m+1)>=1/4,
+because odd p implies 2^m<=2(p-1).
+
+For the filtration containing the complete outcomes and coins of all
+previous trials, the next m bits are independent fair bits by hypothesis.
+On every positive-mass surviving history, success is the same theta.
+The probability of L consecutive failures is exactly (1-theta)^L,
+not a product inferred from marginal probabilities. For
+a_int=ceil(log2(1/eta))>=1 and L=8a_int,
+  (1-theta)^L <= (3/4)^(8a_int) <= 2^(-a_int) <= eta.
+On any success alpha has order exactly 2n; its odd powers enumerate all n
+primitive roots. The deterministic recognition/decoding following success
+is correct under the source promises, so the only promised-input failure
+is the root-acquisition FAIL event.
+
+For GAP, let the largest support gap have length g. Removing its g-1 empty
+positions leaves a containing cyclic interval of length n-g+1. The inverse
+ideal Fourier support is therefore contained in a GRS code of that
+dimension, hence distance g. The same rounding and finite-field linear
+system succeed under 8p^2r^2<g. Gap lengths sum to n, so g_max>=ceil(n/t).
+Eligibility t log2 p<=rho*n gives n/t>=log2 p/rho, proving the simpler
+sufficient guard. Enumerating the n primitive roots and their n evaluation
+positions finds the maximizing interval; no additional scan through F_p
+is needed. This independently supplies the GAP dependency actually used
+by the bit-complexity target.
+
+Repeated squaring costs polynomial in log p. There are O(log(1/eta))
+trials, each using m bits. Evaluation, modular linear systems, exact rational
+lifting, and ordinary-basis checks all have polynomial bit complexity in
+n, log p, and full input lengths. Before constructing a decoder of error
+parameter h, check its explicit guard; on guarded inputs h<n/2. Bounded
+code schedules can return FAIL if a required modular inverse or guard is
+invalid, so no loop of numerical length p is forced on unpromised inputs.
+No primality certification, factorization, or effective prime-family
+generation is claimed. LIST is explicitly excluded from the positive bit
+runtime conclusion; its unprovided root routine was neither assumed nor
+audited here.
+
+Finally, either RS or GAP guard implies 8p^2r^2<=n, up to the displayed
+strict inequality. If the inherited r is inverse polynomial, this already
+forces p<sqrt(n/8)/r to be polynomial in value. Thus this bit implementation
+does not by itself create a new inherited-radius asymptotic family.
+
+14. Claim dependencies and final scope
+
+TWOSECRET depends only on normalized H and the two unit differences.
+ENUM depends on irreducibility, determinant/kernel counting, the scalar
+tail bound, and elementary coupling. INFORMATION's general selector part
+is independent of ENUM; only its Gaussian corollary uses ENUM. PUBLIC
+uses the general information/guessing channel argument conditionally.
+ENERGY uses shell uniformity and rational rank counting; its optional
+construction uses TWOEVENT. COMPACT and JOINT-RANK require their separately
+checked five endpoint equations; individual H endpoints never replace
+them. AFFINE uses the signed-shift spectral gap and retained-secret TV.
+RS uses the promised ideal support and exact radius guard. BIT uses RS/GAP
+plus the explicitly fresh trial law. No edge from any of these claims to
+an unrestricted fixed-family reduction has been supplied or inferred.
+
+There is no unresolved mathematical proof gap within the positive claims
+as interpreted explicitly above. The two original ancillary resource
+readings in section 1 remain qualified until a precise separate version
+is supplied and checked. All finite experiments are completed and reaped.
+This report does not terminate the parent investigation or authorize any
+continuation beyond its cap.

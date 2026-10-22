@@ -1,0 +1,31 @@
+{
+  "at": "2026-10-21T21:35:32.564255+00:00",
+  "original_seal_sha256": "c3297d7f28e9471e5d72c0317cc33f73b9718da02fcfc302c0cd3bbb6ede7d6e",
+  "original_seal_files_verified": 98,
+  "original_sealed_files_unchanged": true,
+  "finite_control_inputs": [
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FRONTIER-CHALLENGE1/control-v1.py",
+      "expected": "a4cbe991d25b5385caed5aa6f6f5aa6efb2bbd3fa357a28d007cf8030f29d714",
+      "actual": "a4cbe991d25b5385caed5aa6f6f5aa6efb2bbd3fa357a28d007cf8030f29d714",
+      "match": true
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/experiments/radial-ring-H-vertices.json",
+      "expected": "6d63ee7547c399c361f9883ac7432fee8115911b7c851a10012a83781e175665",
+      "actual": "6d63ee7547c399c361f9883ac7432fee8115911b7c851a10012a83781e175665",
+      "match": true
+    },
+    {
+      "path": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/experiments/public-geometry-public_norm_local_edge_weights-witness.json",
+      "expected": "140a8b92c3a772c217801f66f9d7618843330f0ca8264718858c3cfcf679cba8",
+      "actual": "140a8b92c3a772c217801f66f9d7618843330f0ca8264718858c3cfcf679cba8",
+      "match": true
+    }
+  ],
+  "finite_control_reused_without_rerun": true,
+  "why_reuse": "All exact finite coefficients and K are unchanged; supplied M affects rejection cost but cancels from the accepted kernel",
+  "inherited_regression_count": 203,
+  "inherited_reference_sha256": "faa7d34d032d07ab26b7ededd9ad0c8ab337694c2933b62f76760fb03a9b20e1",
+  "new_experiments": 0
+}

@@ -1,0 +1,73 @@
+{
+  "at": "2026-10-21T19:18:50.761976+00:00",
+  "service_elapsed_seconds": 5440.125533608021,
+  "scheduled_gate_utc": "2026-10-21T19:18:10.636448+00:00",
+  "type": "90-minute NONTERMINAL substantive allocation check",
+  "scientific_termination": false,
+  "goal_status": "active",
+  "protected_end": "2026-10-21T21:18:10.636448Z",
+  "statuses": {
+    "fixed_family_reduction": "OPEN; exact auxiliary certificate accepted, efficient source-to-fixed-target edge unresolved",
+    "source_diagnostic": "Reviewed BDD/exponent/Frobenius classification at actual inherited radius; broader symmetry/subfield fresh blind near completion; support extension provisional",
+    "hardness_foundation": "NOT_ESTABLISHED"
+  },
+  "substantive_outcomes": [
+    "CRT-PROJ-v1 and CERT-EXTRACT-v2 accepted with50 review artifact hashes after full and fresh statement-only review; fixed target q>=n^4,sigma=n^2 precedes arbitrary polynomial k/epsilon exponents. Certificate only identifies secret; no efficient inversion.",
+    "Exact discrete fractional-source candidate FRAC-INFO shows statistical secret information persists at sufficiently high polynomial samples, forbidding a universal statistical secrecy assertion at fixed noise. No efficient attack claimed; full/blind pending.",
+    "New nonlinear FF3 finite LP kernels are exactly feasible for narrow nonzero noise. Two-secret exact residual-coordinate channel and all-binary exhaustive channel frozen. Exhaustive channel has negligible full-batch errors but exponential2^n cost.",
+    "Broader SV small-subfield contraction covers bounded prime support and trivial stabilizer; full review passed and independent blind reconstruction supports it. New per-characteristic support extension and explicit unbounded-support family frozen for review."
+  ],
+  "alternatives_after_initial_failures": [
+    {
+      "failure": "Deterministic rounding incurs inverse-polynomial per-sample mismatch; affine Gaussian covariance cannot be equal for every binary secret",
+      "new_avenue": "Nonlinear Blackwell kernels with source noise reserve; exact positive finite models and normalized exponential construction",
+      "remaining_test": "Polynomial implicit realization without source secret recovery; two-secret residual construction extension to entire cube"
+    },
+    {
+      "failure": "Narrow uniform-coset bridge has wrong coset normalization at a point input",
+      "new_avenue": "Normalized theta or posterior kernels; invariants as auxiliary information with charged leakage",
+      "remaining_test": "Prove both endpoints and common latent-mask posterior under any secret-dependent invariant"
+    },
+    {
+      "failure": "Fixed-q certificate not efficiently invertible, and source completion still grows with physical K",
+      "new_avenue": "Controlled root selection or a computational source comparison; certificate inverse as promised high-index ideal CVP",
+      "remaining_test": "Avoid unproved MDS properties of arbitrary cyclotomic root subsets and avoid arbitrary polynomial entropy sample claims"
+    },
+    {
+      "failure": "Symmetry source criterion does not cover trivial stabilizers or unbounded prime support",
+      "new_avenue": "Ordinary-basis small-subfield contraction and per-characteristic support extension",
+      "remaining_test": "Fresh exact blind review, numeric-vs-bit verification, explicit counterfamilies for unsupported generalization"
+    }
+  ],
+  "assumptions": [
+    "Target ring/modulus/noise fixed before every adversary resource exponent; auxiliary source parameters may depend on those resources with charges.",
+    "One shared S and full coefficient Gaussian law retained; exact endpoint multipliers uniform; all calls bounded even off promise.",
+    "Information-theoretic uniqueness does not provide efficient inversion; source invariant leakage cannot be ignored.",
+    "Actual source radius unchanged from DD until a new FF theorem exists; easy wide DGS is not automatically a classical BDD algorithm.",
+    "All203 inherited regressions remain exact-reference scoped; no automatic promotion."
+  ],
+  "allocation": {
+    "root": "Continue FF2 computational/controlled-information and invariant alternatives, maintain exact reviews, develop/review stronger source scope",
+    "ff3_kernel": "Continue constructive nonlinear/residual and invariant-assisted channels through19:45Z; freeze useful statements and exact computational bottlenecks",
+    "blind_sv2": "Finish independent symmetry/subfield review by19:45Z or earlier; recycle slot into fresh full review of new probability/source candidates after seal"
+  },
+  "remaining_worthwhile_tests": [
+    "Full and fresh blind audits of GAUSS-AVG/FRAC-INFO; reject any scope overclaim",
+    "Independent review of all-secret exhaustive nonlinear simulator and two-secret exact channel",
+    "Check low-information secret invariants versus Gaussian correction and posterior support",
+    "Review source support extension and its effective nonempty family construction",
+    "Explore actual fixed-q source bridge and q-primary compatibility without averaging over a resource-dependent target family"
+  ],
+  "evidence": [
+    "coordinator/acceptance-v2.json",
+    "workers/FF3/exhaustive-kernel-statement-v1.md",
+    "workers/FF3/two-secret-channel-statement-v1.md",
+    "workers/FF3/experiments/ff3-exact-fv3-registration.json",
+    "reviews/FULL-SV2/seal-v1.json",
+    "reviews/BLIND-SV2/experiment-preregistration-v1.json",
+    "coordinator/source-prime-support-statement-v1.md",
+    "coordinator/certificate-inversion-frontier-v1.md"
+  ],
+  "next_binding_allocation": "2026-10-21T20:18:10.636448Z",
+  "no_exhaustion_claim": true
+}

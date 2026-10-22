@@ -1,0 +1,14 @@
+{
+  "id": "FULL-CERT2-FV1",
+  "hypothesis": "Exact CRT transformation and fresh-bank conditional endpoint laws retain the shared secret and full errors; strict separation, norm divisibility and binary-certificate injectivity hold; same-bank selection/reused D coins/repeated roots fail as expected.",
+  "code": "controls-v1.py",
+  "inputs": "Degree2 q5 exact coefficient-error weights(1,2,1)/4; correlated CRT noise(U,U) finite conditional control; all old histories; rational gap grid; q3 capped draw; n2q5,n4q17 characters h<=2,n8q17 h1; all binary tuples at computed certificate sizes; small floating truncated-DG diagnostics with explicit omitted-tail formula.",
+  "seeds": "none, deterministic enumeration",
+  "timeout_seconds": 120,
+  "address_space_MiB": 512,
+  "jobs": 1,
+  "heavy": false,
+  "slot": "not allocated; request after registration and wait before execution",
+  "independence": "Independent code; author summaries and theorem proofs exposed because this is FULL review. No author experiment code imported.",
+  "limits": "Correlated finite noise is a mechanism control, not the stated DG law. Float computations are diagnostics only. Failure is preserved before any new version or rerun."
+}

@@ -1,0 +1,145 @@
+SV-DENSE-SPLIT-v1
+--- coordinator/dense-split-source-statement-v1.md
+
++++ reviews/BLIND-SOURCE4/allowed-input/dense-split-source-statement-v1.md
+
+@@ -1,6 +1,4 @@
+
+ # SV-DENSE-SPLIT-v1: an explicit limit of the contraction classification
+-
+-Provisional candidate; full and fresh blind review required. This is a limitation of specified source algorithms, not source hardness.
+ 
+ Fix a rational constant 0<rho<1 and an effective polynomial-value family of completely split primes p(n)>=n^4 for powers-of-two n. Write ell=ceil(log2 p), and let t be the largest positive odd integer not exceeding floor(rho*n/ell), for all sufficiently large n where it exists. Choose a primitive 2n-th root alpha in F_p. Define
+ 
+
+SV-RS-DECODE-v2
+--- coordinator/rs-source-decoder-statement-v2.md
+
++++ reviews/BLIND-TRANSFER2/allowed-input/rs-source-decoder-statement-v2.md
+
+@@ -1,6 +1,4 @@
+
+ # SV-RS-DECODE-v2: direct decoding for consecutive split-prime support
+-
+-Provisional author candidate; full and fresh blind review required.
+ 
+ Let n>=2 be a power of two and R=Z[X]/(X^n+1), with coefficient Euclidean norm and canonical infinity norm equal to the maximum absolute embedding value. Let p be an odd completely split prime, p=1 mod2n. Let alpha have order2n in F_p, and let1<=t<n. Suppose an ordinary-basis integral ideal J has precisely the consecutive split-prime support
+ 
+
+SV-GAP-DECODE-v1
+--- coordinator/spectral-gap-decoder-statement-v1.md
+
++++ reviews/BLIND-SOURCE4/allowed-input/spectral-gap-decoder-statement-v1.md
+
+@@ -1,6 +1,4 @@
+
+ # SV-GAP-DECODE-v1: prime-exponent source decoding from a spectral gap
+-
+-Provisional author candidate; full and fresh blind review required.
+ 
+ Let n>=2 be a power of two, and let an integral ideal J in R=Z[X]/(X^n+1) be supplied by an ordinary integer basis. Assume its additive quotient exponent is a completely split odd prime p, and J is neither R nor pR. For a primitive2n-th root alpha in F_p, let T_alpha be the nonempty proper subset of indices j in Z/nZ for which every element of J vanishes at alpha^(2j+1). Write t=|T_alpha|, so N(J)=p^t. Let g_alpha be the largest positive cyclic gap between consecutive elements of T_alpha, with gap n for a singleton. Let g_max be the maximum g_alpha over all primitive roots alpha. These quantities and a maximizing root/interval are deterministically computable in time polynomial in n, NUMERIC p and full input lengths, without a supplied factorization of J.
+ 
+
+SV-LIST-DECODE-v1
+--- coordinator/list-source-decoder-statement-v1.md
+
++++ reviews/BLIND-SOURCE4/allowed-input/list-source-decoder-statement-v1.md
+
+@@ -1,6 +1,4 @@
+
+ # SV-LIST-DECODE-v1: list recovery followed by unique lattice selection
+-
+-Provisional author candidate; full and fresh blind review required.
+ 
+ Use the ordinary-basis consecutive-support setting of SV-RS-DECODE-v1, with2<=t<n, prime p=1 mod2n, ideal norm D_J=p^t, and rational target T=lambda+w in J^-1 with canonical infinity error at most rational r. Let B>=0 and d>=0 be integers satisfying2B+1<=p. Define
+ 
+
+SV-RS-ACTUAL-v3
+--- coordinator/rs-actual-radius-witness-statement-v3.md
+
++++ reviews/BLIND-SOURCE4/allowed-input/rs-actual-radius-witness-statement-v3.md
+
+@@ -1,6 +1,4 @@
+
+ # SV-RS-ACTUAL-v3: a nonempty inherited-radius regime beyond scalar rounding
+-
+-Provisional parameter corollary of SV-RS-DECODE-v1 and SV-DENSE-SPLIT-v1; exact-version review required. It is not a new FF theorem.
+ 
+ Fix a rational constant 0<rho<1 and a parameter family from the inherited FIXED-MAIN-v2 asymptotic corollary: fixed integers b>=0,c>=1, k0<=n^b, epsilon_*=n^(-c), fixed or inverse-polynomial zeta, and polynomial-value q0,M,Qmin,Qmax, with complete finite input/routine costs charged. Assume all exact FIXED-MAIN-v2 / AM-MAIN-v3 guards for sufficiently large n. Its master auxiliary list is fixed independently of J. Choose the common C8 integer kappa uniformly large enough for all 1<=D<=2^(rho*n), hence common Q_*, epsilon_C and lower ceiling a. The inherited theorem permits an explicitly charged integer chi>=a, not only its minimal corollary choice chi=a.
+ 
+
+SV-RS-BIT-v2
+
+
+SV-SPARSE-ACQ-v1
+
+
+FF3-TWOSECRET-v1
+--- workers/FF3/two-secret-channel-statement-v1.md
+
++++ reviews/BLIND-TRANSFER2/allowed-input/two-secret-channel-statement-v1.md
+
+@@ -1,6 +1,4 @@
+
+ # FF3-TWOSECRET-v1: exact residual-coordinate modulus transfer
+-
+-PROVISIONAL author candidate, finite-law identity. This theorem covers a secret set of size TWO in any finite ring when the secret difference is a unit. It is not the full binary-cube theorem.
+ 
+ Let R_Q,R_q be finite commutative rings of respective cardinalities N_Q,N_q. Pick two source secrets s0,s1 with s1-s0 a unit of R_Q, and two target secrets t0,t1 with t1-t0 a unit of R_q. Let nu_Q and nu_q be arbitrary probability distributions on the respective rings. Assume an explicitly given Markov kernel H:R_Q→R_q maps uniform to uniform and nu_Q to nu_q exactly. Neither H nor the algorithm receives the unknown secret label i in {0,1}.
+ 
+
+FF3-ENUM-v1
+--- workers/FF3/exhaustive-kernel-statement-v1.md
+
++++ reviews/BLIND-TRANSFER2/allowed-input/exhaustive-kernel-statement-v1.md
+
+@@ -1,6 +1,4 @@
+
+ # FF3-ENUM-v1: a normalized negligible-error channel with explicit exponential cost
+-
+-PROVISIONAL author candidate. This is a constructive statistical escape from restricted additive-kernel obstructions. It DOES NOT establish the required polynomial-time FF reduction.
+ 
+ Let n>=2 be a power of two; R=Z[X]/(X^n+1); Q an odd prime; T a positive integer with 4T+1<Q. The source has one uniform coefficient-binary S, uniform A in R/QR, and B=A*S+E modQ, with independent coefficient errors D_(Z,sigmaQ), sigmaQ>=1. Let q0>=2 and sigma0>=1 be arbitrary target parameters; the target law uses uniform C in R/q0R and D=C*S+F modq0 with exact independent coefficient D_(Z,sigma0) errors. The comparator at each modulus is uniform independent public/response pairs.
+ 
+
+FF3-COMPRESSED-SELECTOR-INFORMATION-v2
+
+
+FF3-SELECTOR-PUBLIC-v3
+
+
+FF3-TWOEVENT-v1
+
+
+FF3-JOINT-RANK-FINITE-v1
+--- workers/FF3/joint-rank-finite-statement-v1.md
+
++++ reviews/BLIND-TRANSFER2/allowed-input/joint-rank-finite-statement-v1.md
+
+@@ -1,6 +1,4 @@
+
+ # FF3-JOINT-RANK-FINITE-v1
+-
+-PROVISIONAL author finite theorem. No Gaussian or asymptotic polynomial-family conclusion.
+ 
+ Let n=2, source ring R_3=Z_3[X]/(X^2+1), target R_2=Z_2[X]/(X^2+1). For each fixed coefficient-binary secret s in{0,1}^2, source A is uniform and B=A*s+E where coefficients of E are independent with probabilities(7/8,1/16,1/16) on residues(0,1,2). The desired target has C uniform and D=C*s+F where F has independent coefficient probabilities(3/4,1/4) on(0,1). The comparator is independent uniform public/response on each ring.
+ 
+@@ -14,7 +12,7 @@
+
+ 
+ Draw T uniformly from{0,...,N-1}; put J=floor((N*R+T)/M). Recover target residuals t0,t1 by splitting J into their two target shell ranks. Set C=(t0-t1)/(v-u),D=t0+C*u in R_2.
+ 
+-The table has47nonzero entries, all unspecified entries zero, in experiments/joint-rank-n2-certificate-fv16.json. Entry column index is
++The table has47nonzero entries, all unspecified entries zero, in joint-rank-table.json. Entry column index is
+ 
+  (((za*3+z0)*3+z1)*9+w0*3+w1).
+ 
+@@ -22,4 +20,3 @@
+
+ 
+ The kernel retains the full input residual-pair rank. Its output is not a function only of the edge and the27-valued zero-count class. Thus the compressed-selector guessing bound does not exclude it.
+ 
+-The same forward rank ordering and per-class normalized table model at n4 is a separate finite question. FV16 returned UNKNOWN there; any later status requires its own exact evidence. Neither the n2 positive certificate nor a numerical n4 status establishes a fixed-family transfer.
+
+BOUNDED-AFFINE-TV-v1
+

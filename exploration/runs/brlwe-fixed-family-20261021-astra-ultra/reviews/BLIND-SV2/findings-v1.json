@@ -1,0 +1,77 @@
+{
+  "created_at": "2026-10-21T19:23:27.105916+00:00",
+  "reviewer": "BLIND-SV2",
+  "review_mode": "Statement-only blind; no author proof or other referee report read.",
+  "targets": [
+    "SV-SYMDESC v2",
+    "SV-SUBFIELD v2"
+  ],
+  "mathematical_verdict": "PROVED under frozen assumptions and cited standard polynomial-bit normal-form theorem. No statement repair recommended.",
+  "coordinator_global_certification": false,
+  "probabilistic_inherited_reductions_audited": false,
+  "source_qualification": "Milne relevant full text verified. Kannan\u2013Bachem polynomial-bit theorem confirmed from authoritative publisher abstract; full paper not retrievable and its internal proof not independently audited.",
+  "findings": [
+    {
+      "id": "SV2-01",
+      "status": "ACCEPTED",
+      "claim": "Eligible 2-primary exponent a is in {1,2}; J+mR is precisely the odd part and a*J_o is contained in J."
+    },
+    {
+      "id": "SV2-02",
+      "status": "ACCEPTED",
+      "claim": "Odd H-invariant ideals descend without ramification obstruction; d_H^h=D_o, including arbitrary odd composite support."
+    },
+    {
+      "id": "SV2-03",
+      "status": "ACCEPTED",
+      "claim": "Signed invariant basis is integral, disjoint-support, and rank n/h; inconsistent signed components vanish."
+    },
+    {
+      "id": "SV2-04",
+      "status": "ACCEPTED",
+      "claim": "Ordinary-basis quantities and all subfield contraction indices are polynomial-bit computable; square nonsingular HNF suffices.",
+      "qualification": "Standard normal-form complexity import as disclosed."
+    },
+    {
+      "id": "SV2-05",
+      "status": "ACCEPTED",
+      "claim": "Binary collision search acquires the short multiplier with polynomial numeric-index cost; rounding/division is exact under the strict guard."
+    },
+    {
+      "id": "SV2-06",
+      "status": "ACCEPTED",
+      "claim": "The actual inherited width guard implies r<1/(8192*n^4)<1/(4*sqrt(n)) for every allowed finite n."
+    },
+    {
+      "id": "SV2-07",
+      "status": "ACCEPTED",
+      "claim": "Bounded prime support and polynomial exponent imply log2 d_g<=rho*g+2*t*C*log2 n; a logarithmic power-of-two g suffices asymptotically."
+    },
+    {
+      "id": "SV2-08",
+      "status": "ACCEPTED",
+      "claim": "Finite small dimensions are legitimately absorbed, with all basis/target/output lengths still charged."
+    }
+  ],
+  "negative_controls": [
+    "Ramified ideal (1-i) violates d^h=D if odd-part separation is omitted.",
+    "Rounding at exact coefficient error +1/2 can fail; strict guard retained.",
+    "Eligible trivial-stabilizer examples with p=257 and growing finite support can require only g=n; finite evidence is not an infinite-family lower bound."
+  ],
+  "experiments": [
+    {
+      "id": "BLIND-SV2-EX1",
+      "exit_code": 0,
+      "wall_seconds_external": 0.29,
+      "peak_rss_kib_external": 13312,
+      "counts": {
+        "signed_subgroups": 57,
+        "order_tower_comparisons": 39078,
+        "split_ideals": 279,
+        "nonsplit_ideals": 3,
+        "ramified_exponents": 38
+      }
+    }
+  ],
+  "scope": "No source-hardness, fixed-family reduction, ordinary-input-basis acquisition for an external reduction, or probabilistic DD theorem follows from this review. Same-model scrutiny is correlated."
+}

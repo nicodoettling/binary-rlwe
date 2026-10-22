@@ -1,0 +1,3 @@
+# Energy rank order conventions
+
+The energy-rank proof uses only a fixed bijective ranking of each finite shell. Its lexicographic convention can be replaced by any fixed shell order, or a fixed permutation of output ranks, without affecting the uniform-rank proof. FV15/FV16 use lexicographic RESIDUE labels(0,1,2) and(0,1). Interpreting source2as-1 and target1as-1 identifies zero-count shells with squared-energy shells, but integer lexicographic order differs from residue-label order. These are fixed shell permutations, not a Gaussian-law substitution or a changed normalizer. The actual finite H and joint-rank laws are checked in their declared residue order.

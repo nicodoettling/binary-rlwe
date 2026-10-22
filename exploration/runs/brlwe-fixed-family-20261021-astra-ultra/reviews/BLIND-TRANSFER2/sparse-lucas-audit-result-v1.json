@@ -1,0 +1,98 @@
+{
+  "status": "ALL_EXACT_CHECKS_PASSED",
+  "lucas": [
+    {
+      "n": 4,
+      "L_half": 3,
+      "smith_diagonal": [
+        3,
+        3
+      ],
+      "norm": 9
+    },
+    {
+      "n": 8,
+      "L_half": 7,
+      "smith_diagonal": [
+        7,
+        7
+      ],
+      "norm": 49
+    },
+    {
+      "n": 16,
+      "L_half": 47,
+      "smith_diagonal": [
+        47,
+        47
+      ],
+      "norm": 2209
+    },
+    {
+      "n": 32,
+      "L_half": 2207,
+      "smith_diagonal": [
+        2207,
+        2207
+      ],
+      "norm": 4870849
+    },
+    {
+      "n": 64,
+      "L_half": 4870847,
+      "smith_diagonal": [
+        4870847,
+        4870847
+      ],
+      "norm": 23725150497409
+    },
+    {
+      "n": 128,
+      "L_half": 23725150497407,
+      "smith_diagonal": [
+        23725150497407,
+        23725150497407
+      ],
+      "norm": 562882766124611619513723649
+    },
+    {
+      "n": 256,
+      "L_half": 562882766124611619513723647,
+      "smith_diagonal": [
+        562882766124611619513723647,
+        562882766124611619513723647
+      ],
+      "norm": 316837008400094222150776738483768236006420971486980609
+    }
+  ],
+  "acquisition": [
+    {
+      "n": 4,
+      "basis": "three-times adjacent-column shears of multiplication basis",
+      "found": [
+        -1,
+        -1,
+        1,
+        0
+      ],
+      "tested": 34,
+      "exact_rational_round_and_divide": true
+    },
+    {
+      "n": 8,
+      "basis": "three-times adjacent-column shears of multiplication basis",
+      "found": [
+        -1,
+        -1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "tested": 130,
+      "exact_rational_round_and_divide": true
+    }
+  ]
+}

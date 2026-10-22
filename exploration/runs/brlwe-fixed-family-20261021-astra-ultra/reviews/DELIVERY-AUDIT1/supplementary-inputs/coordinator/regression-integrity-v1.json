@@ -1,0 +1,1062 @@
+{
+  "at": "2026-10-21T21:39:52.941029+00:00",
+  "inherited_exact_count": 203,
+  "checks": [
+    {
+      "id": "R01",
+      "source_pointer": "/inherited_entries/0",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "R02",
+      "source_pointer": "/inherited_entries/1",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "R03",
+      "source_pointer": "/inherited_entries/2",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "R04",
+      "source_pointer": "/inherited_entries/3",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "R05",
+      "source_pointer": "/inherited_entries/4",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "R06",
+      "source_pointer": "/inherited_entries/5",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "R07",
+      "source_pointer": "/inherited_entries/6",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "R08",
+      "source_pointer": "/inherited_entries/7",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "R09",
+      "source_pointer": "/inherited_entries/8",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "R10",
+      "source_pointer": "/inherited_entries/9",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "R11",
+      "source_pointer": "/inherited_entries/10",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "R12",
+      "source_pointer": "/inherited_entries/11",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "R13",
+      "source_pointer": "/inherited_entries/12",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "R14",
+      "source_pointer": "/inherited_entries/13",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "R15",
+      "source_pointer": "/inherited_entries/14",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "R16",
+      "source_pointer": "/inherited_entries/15",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "R17",
+      "source_pointer": "/inherited_entries/16",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "R18",
+      "source_pointer": "/inherited_entries/17",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "C03-HC1",
+      "source_pointer": "/inherited_entries/18",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "C03-HC2",
+      "source_pointer": "/inherited_entries/19",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "C03-HC3",
+      "source_pointer": "/inherited_entries/20",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "C03-HC4",
+      "source_pointer": "/inherited_entries/21",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "C03-HC5",
+      "source_pointer": "/inherited_entries/22",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "C03-HC6",
+      "source_pointer": "/inherited_entries/23",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "C03-HC7",
+      "source_pointer": "/inherited_entries/24",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "C02-LATENT-PUBLIC",
+      "source_pointer": "/inherited_entries/25",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "C02-CHAR",
+      "source_pointer": "/inherited_entries/26",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "C01-ATT",
+      "source_pointer": "/inherited_entries/27",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "CP-1",
+      "source_pointer": "/inherited_entries/28",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "NC1-v1",
+      "source_pointer": "/inherited_entries/29",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "S0-dependency",
+      "source_pointer": "/inherited_entries/30",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "PUBLIC-ENCODED-F",
+      "source_pointer": "/inherited_entries/31",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "W2-SUBGROUP-BOUNDARY",
+      "source_pointer": "/inherited_entries/32",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "UNIFORM-APPROX-COLLAPSE",
+      "source_pointer": "/inherited_entries/33",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "SE-CORRELATION-F3",
+      "source_pointer": "/inherited_entries/34",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "W2-CONSTANT-COMPARISON",
+      "source_pointer": "/inherited_entries/35",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "N02-DUAL-NUMBER",
+      "source_pointer": "/inherited_entries/36",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "PAIRWISE-SE-F3",
+      "source_pointer": "/inherited_entries/37",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "N03-PV-CONDITIONING",
+      "source_pointer": "/inherited_entries/38",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "N03-SCAL-POSTERIOR",
+      "source_pointer": "/inherited_entries/39",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "RECT-ALG-1",
+      "source_pointer": "/inherited_entries/40",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "SOURCE-SMALL-D",
+      "source_pointer": "/inherited_entries/41",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "A-PPT-LEDGER-SCOPE",
+      "source_pointer": "/inherited_entries/42",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "EX-PURE-MIX-ZERO",
+      "source_pointer": "/inherited_entries/43",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "EX-PUBLIC-TAPE",
+      "source_pointer": "/inherited_entries/44",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "EX-APPENDED-H",
+      "source_pointer": "/inherited_entries/45",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "EX-M3-CROSSBLOCK",
+      "source_pointer": "/inherited_entries/46",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "EX-RETAINED-M3",
+      "source_pointer": "/inherited_entries/47",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "B-JL-BZERO",
+      "source_pointer": "/inherited_entries/48",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "B-JL-REDRAW-T",
+      "source_pointer": "/inherited_entries/49",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "A-ERASURE-RANKMIX",
+      "source_pointer": "/inherited_entries/50",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "D-THETA-RETAIN-U-v1",
+      "source_pointer": "/inherited_entries/51",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "D-LSW-THETA-1",
+      "source_pointer": "/inherited_entries/52",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "C-TOWER-RELATION-1",
+      "source_pointer": "/inherited_entries/53",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "D-REUSED-PIVOT-1",
+      "source_pointer": "/inherited_entries/54",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "A-TOWER-LAW-1",
+      "source_pointer": "/inherited_entries/55",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "C-SMALL-N-EXISTENCE-1",
+      "source_pointer": "/inherited_entries/56",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "D-NORMALFORM-WRAP-1",
+      "source_pointer": "/inherited_entries/57",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "B-GP-RATIONAL-ENCODING-1",
+      "source_pointer": "/inherited_entries/58",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "C-OHCP-LOGSHIFT-1",
+      "source_pointer": "/inherited_entries/59",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "ROOT-IDEAL-SUBSPACE-1",
+      "source_pointer": "/inherited_entries/60",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "B-SUP-RETAINED-COINS-1",
+      "source_pointer": "/inherited_entries/61",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "C-OHCP-BOUNDED-RUNTIME-1",
+      "source_pointer": "/inherited_entries/62",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "C-SUPER-CONFIDENCE-1",
+      "source_pointer": "/inherited_entries/63",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "C-QUOTIENT-CARRIES-1",
+      "source_pointer": "/inherited_entries/64",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "C-PHYSICAL-HAAR-1",
+      "source_pointer": "/inherited_entries/65",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "C-CAUSAL-WALK-1",
+      "source_pointer": "/inherited_entries/66",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "B-CANONICAL-FAIL-1",
+      "source_pointer": "/inherited_entries/67",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "B-RANK-FIBER-1",
+      "source_pointer": "/inherited_entries/68",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "B-TWO-ROW-NORMALIZER-1",
+      "source_pointer": "/inherited_entries/69",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "B-TOWER-WASHOUT-1",
+      "source_pointer": "/inherited_entries/70",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "B-BINARY-FOURIER-1",
+      "source_pointer": "/inherited_entries/71",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "A-CLASS-ASSERTION-1",
+      "source_pointer": "/inherited_entries/72",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "A-COFACTOR-1",
+      "source_pointer": "/inherited_entries/73",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "A-CLASS-CP1-1",
+      "source_pointer": "/inherited_entries/74",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "D-HIGHINDEX-GUESS-1",
+      "source_pointer": "/inherited_entries/75",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "A-TRACE-PARAM-1",
+      "source_pointer": "/inherited_entries/76",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "A-CLASSRING-PADDING-1",
+      "source_pointer": "/inherited_entries/77",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "B-COMPANION-INVERSE-1",
+      "source_pointer": "/inherited_entries/78",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "C8-FV1",
+      "source_pointer": "/inherited_entries/79",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "ROOT-ORDER-PAIRING-1",
+      "source_pointer": "/inherited_entries/80",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "ROOT-ORDER-SCALE-1",
+      "source_pointer": "/inherited_entries/81",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "ROOT-BINCLASS-1",
+      "source_pointer": "/inherited_entries/82",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "BT10-FV1",
+      "source_pointer": "/inherited_entries/83",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "ROOT-FRAC-SCALE-1",
+      "source_pointer": "/inherited_entries/84",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "ROOT-FRAC-SMALLBALL-1",
+      "source_pointer": "/inherited_entries/85",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "B-BE-1",
+      "source_pointer": "/inherited_entries/86",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "RF3-BINCLASS-SCOPE-1",
+      "source_pointer": "/inherited_entries/87",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "E-PAIR-TRUNCATION-1",
+      "source_pointer": "/inherited_entries/88",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "ROOT-COSET-NORMALIZER-1",
+      "source_pointer": "/inherited_entries/89",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "BT13-FV1",
+      "source_pointer": "/inherited_entries/90",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "BT12-FV1",
+      "source_pointer": "/inherited_entries/91",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "ROOT-MASK-RESIDUE-1",
+      "source_pointer": "/inherited_entries/92",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "BT14-HISTORY-ATOM-1",
+      "source_pointer": "/inherited_entries/93",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "BT14-FV1",
+      "source_pointer": "/inherited_entries/94",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "FQ-R1",
+      "source_pointer": "/inherited_entries/95",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "FQ-R2",
+      "source_pointer": "/inherited_entries/96",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "FQ-R3",
+      "source_pointer": "/inherited_entries/97",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "FQ-R4",
+      "source_pointer": "/inherited_entries/98",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "ROOT-QCOH-FV1",
+      "source_pointer": "/inherited_entries/99",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "G-PI-FV1",
+      "source_pointer": "/inherited_entries/100",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "ROOT-FRAC-DOMAIN-2",
+      "source_pointer": "/inherited_entries/101",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "ROOT-WRAP-FV1",
+      "source_pointer": "/inherited_entries/102",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "BT15-FV1",
+      "source_pointer": "/inherited_entries/103",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "FQ-COND-1",
+      "source_pointer": "/inherited_entries/104",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "FQ-NORM-1",
+      "source_pointer": "/inherited_entries/105",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "FQ-PERIOD-1",
+      "source_pointer": "/inherited_entries/106",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "FQ-RETRY-1",
+      "source_pointer": "/inherited_entries/107",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "FQ-MODULUS-1",
+      "source_pointer": "/inherited_entries/108",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "F-QFINITE-FV1",
+      "source_pointer": "/inherited_entries/109",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "BT16-FV1",
+      "source_pointer": "/inherited_entries/110",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "BT16-NATURAL-1",
+      "source_pointer": "/inherited_entries/111",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "BT16-POSTERIOR-1",
+      "source_pointer": "/inherited_entries/112",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "BT16-PRIMEPOWER-1",
+      "source_pointer": "/inherited_entries/113",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "BT16-ZERO-1",
+      "source_pointer": "/inherited_entries/114",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "RF4-FV1",
+      "source_pointer": "/inherited_entries/115",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "RF4-PERIOD-NEG1",
+      "source_pointer": "/inherited_entries/116",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "RF4-RETRY-NEG1",
+      "source_pointer": "/inherited_entries/117",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "RF4-ALIAS-NEG1",
+      "source_pointer": "/inherited_entries/118",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "BT17-SYMBOLIC-1",
+      "source_pointer": "/inherited_entries/119",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "ROOT-PARAM-FV1",
+      "source_pointer": "/inherited_entries/120",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "ROOT-PARAM-T-1",
+      "source_pointer": "/inherited_entries/121",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "ROOT-PARAM-FV2",
+      "source_pointer": "/inherited_entries/122",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "ROOT-PARAM-ENC-1",
+      "source_pointer": "/inherited_entries/123",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "ROOT-PARAM-FV3",
+      "source_pointer": "/inherited_entries/124",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "RF4-PARAM-FV2",
+      "source_pointer": "/inherited_entries/125",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "H-ALIGN-FV1",
+      "source_pointer": "/inherited_entries/126",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "H-LLL-BITLENGTH-1",
+      "source_pointer": "/inherited_entries/127",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "H-REL-FV2",
+      "source_pointer": "/inherited_entries/128",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "H-V0-BITLENGTH-1",
+      "source_pointer": "/inherited_entries/129",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "RH1-FV1",
+      "source_pointer": "/inherited_entries/130",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "HC1-FV1",
+      "source_pointer": "/inherited_entries/131",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "ROOT-TOWER-FV1",
+      "source_pointer": "/inherited_entries/132",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "BT19-NONPRIME-1",
+      "source_pointer": "/inherited_entries/133",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "BT19-NONSUFFICIENT-1",
+      "source_pointer": "/inherited_entries/134",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "BT19-SELECTION-1",
+      "source_pointer": "/inherited_entries/135",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "BT19-RETRY-1",
+      "source_pointer": "/inherited_entries/136",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "BT18-SYMBOLIC-1",
+      "source_pointer": "/inherited_entries/137",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "RT1-MOMENT-FV1",
+      "source_pointer": "/inherited_entries/138",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "RT2-WEIGHTED-FV1",
+      "source_pointer": "/inherited_entries/139",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "BT20-VACUITY-1",
+      "source_pointer": "/inherited_entries/140",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "BT20-RETRY-MARGIN-1",
+      "source_pointer": "/inherited_entries/141",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "BT20-WIDTHVALUE-1",
+      "source_pointer": "/inherited_entries/142",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "RT2-NC1",
+      "source_pointer": "/inherited_entries/143",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "RT2-NC2",
+      "source_pointer": "/inherited_entries/144",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "RT2-NC3",
+      "source_pointer": "/inherited_entries/145",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "BT21-VACUITY-1",
+      "source_pointer": "/inherited_entries/146",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "BT21-ADAPTIVE-MULTIPLIER-1",
+      "source_pointer": "/inherited_entries/147",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "BT22-TV-MOMENT-1",
+      "source_pointer": "/inherited_entries/148",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "BT22-JOINT-MULTIPLIER-1",
+      "source_pointer": "/inherited_entries/149",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "BT22-MARGIN-WIDTH-1",
+      "source_pointer": "/inherited_entries/150",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "M1-FV1-NORMALIZERS",
+      "source_pointer": "/inherited_entries/151",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "M1-FV1-CP1",
+      "source_pointer": "/inherited_entries/152",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "B-FV1-CUBE289",
+      "source_pointer": "/inherited_entries/153",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "M1-FALLBACK-1",
+      "source_pointer": "/inherited_entries/154",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "A-LIN-FV1",
+      "source_pointer": "/inherited_entries/155",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "A-RATIONAL-BOUNDARY-v1",
+      "source_pointer": "/inherited_entries/156",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "B-THETA-FV1",
+      "source_pointer": "/inherited_entries/157",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "B-M1-FV1",
+      "source_pointer": "/inherited_entries/158",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "A-BFAM-FV1",
+      "source_pointer": "/inherited_entries/159",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "FBR1-Q-PREMISE-1",
+      "source_pointer": "/inherited_entries/160",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "M1-Q-FV1",
+      "source_pointer": "/inherited_entries/161",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "B-REVEAL-S-1",
+      "source_pointer": "/inherited_entries/162",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "FBR2-WIDTH-BOUNDARY-1",
+      "source_pointer": "/inherited_entries/163",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "DD1-WITNESS-SAME-P",
+      "source_pointer": "/new_entries/0",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "DD1-SHARED-SECRET",
+      "source_pointer": "/new_entries/1",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "DD1-EXTRACT-FULL-LAW",
+      "source_pointer": "/new_entries/2",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "DD1-EXTRACT-4A-TIE",
+      "source_pointer": "/new_entries/3",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "DD1-SFUNC-MAX-ORDER",
+      "source_pointer": "/new_entries/4",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "DD1-MAIN-GAUSSIAN-NOTATION",
+      "source_pointer": "/new_entries/5",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "DD1-MAIN-RATIONAL-EXPONENT",
+      "source_pointer": "/new_entries/6",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "FULL1-SCOPE-1",
+      "source_pointer": "/new_entries/7",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "FULL1-SCOPE-2",
+      "source_pointer": "/new_entries/8",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "FULL1-CONTROL-1",
+      "source_pointer": "/new_entries/9",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "FULL1-CONTROL-2",
+      "source_pointer": "/new_entries/10",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "FULL1-CONTROL-3",
+      "source_pointer": "/new_entries/11",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "FULL1-SCOPE-3",
+      "source_pointer": "/new_entries/12",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "FULL1-DEFECT-1",
+      "source_pointer": "/new_entries/13",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "DD2-NORM-ROOT-MULTIPLICITY",
+      "source_pointer": "/new_entries/14",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "DD2-CRT-ERROR-CORRELATION",
+      "source_pointer": "/new_entries/15",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "DD2-UNKNOWN-CUBE-TRANSLATE",
+      "source_pointer": "/new_entries/16",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "DD2-CANCELLATION-OVERLAP",
+      "source_pointer": "/new_entries/17",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "ROOT-SELECTED-FIBER-BOUNDARY",
+      "source_pointer": "/new_entries/18",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "BLIND1-REPEATED-PRIMES",
+      "source_pointer": "/new_entries/19",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "BLIND1-OPTIMAL-DEFINITION",
+      "source_pointer": "/new_entries/20",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "MR-TIE-CONVENTION",
+      "source_pointer": "/new_entries/21",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "MR-ROUNDED-PUBLIC-BIAS",
+      "source_pointer": "/new_entries/22",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "MR-DISCRETE-GAUSSIAN-NORMALIZER",
+      "source_pointer": "/new_entries/23",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "MR-FULL-SHARED-LAW",
+      "source_pointer": "/new_entries/24",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "MR-VARIABLE-WIDTH-CAPS",
+      "source_pointer": "/new_entries/25",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "MR-ADVANTAGE-WINDOW",
+      "source_pointer": "/new_entries/26",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "MR-FV1-LOGGING-FAILURE",
+      "source_pointer": "/new_entries/27",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "MR-SIGNED-SECRET-COVARIANCE",
+      "source_pointer": "/new_entries/28",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "FULL2-WORDING-1",
+      "source_pointer": "/new_entries/29",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "FULL2-SCOPE-1",
+      "source_pointer": "/new_entries/30",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "FULL2-CONTROL-1",
+      "source_pointer": "/new_entries/31",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "FULL2-CONTROL-2",
+      "source_pointer": "/new_entries/32",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "FULL2-CONTROL-3",
+      "source_pointer": "/new_entries/33",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "FULL2-NONVACUITY-1",
+      "source_pointer": "/new_entries/34",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "FULL2-RADIUS-1",
+      "source_pointer": "/new_entries/35",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "BLIND2-QUERY-LAW-1",
+      "source_pointer": "/new_entries/36",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "BLIND2-PARTITION-1",
+      "source_pointer": "/new_entries/37",
+      "source_and_entry_hash_match": true
+    },
+    {
+      "id": "BLIND2-SMALL-N-1",
+      "source_pointer": "/new_entries/38",
+      "source_and_entry_hash_match": true
+    }
+  ],
+  "new_exact_local_references_added": [
+    "FF3-COMP-1",
+    "FF3-ID-1",
+    "FF3-JOINT-1",
+    "FF3-NORM-1",
+    "FF3-NUM-1",
+    "CP-1",
+    "FF3-RESIDUAL-RELATION-1",
+    "FF3-ENUM-COST-1",
+    "FF3-ENUM-NONUNIT-1",
+    "FF3-ENUM-COMP-1",
+    "FF3-CORRELATED-NORM-1",
+    "FF3-COUPLED-PRODUCT-FAIL-1",
+    "FF3-PAIR-MIXTURE-1",
+    "FF3-FIXED-EDGE-SEPARATION-1",
+    "FF3-ADAPTIVE-FIXED-H-FAIL-1",
+    "FF3-COEFFICIENTWISE-H-FAIL-1",
+    "FF3-RADIAL-POSITIVE-1",
+    "FULL-FF3-ENUM-SIGN-1",
+    "FF3-LOCAL-SELECTOR-FAIL-1",
+    "FF3-PUBLIC-GEOMETRY-POSITIVE-1",
+    "FF3-N4-POOL-DIAGNOSTIC-1",
+    "FF3-JOINT-CLASS-N4-FAIL-1",
+    "FF3-COMPRESSION-M-1",
+    "FF3-COMPRESSION-L-1",
+    "FF3-COMPRESSION-FACTOR-1",
+    "FF3-COMPRESSION-PRIOR-1",
+    "FF3-COMPRESSION-RANDOMIZED-1",
+    "FF3-RANK-DIRECTION-ENDPOINT-1",
+    "FF3-JOINT-RANK-POSITIVE-1",
+    "FF3-JOINT-RANK-UNKNOWN-1",
+    "FF3-SYMMETRY-BATCH-1",
+    "FULL-FF3-P2-Z-ATOM-1",
+    "FULL-FF3-P2-PERSISTENT-CLASS-1",
+    "FULL-FF3-P2-AFFINE-N2-1",
+    "FULL-FF3-P2-SHARED-GROUP-1",
+    "FULL-FF3-P2-AFFINE-RAW-TAIL-1",
+    "FULL-FF3-P2-ENUM-TRANSLATE-1"
+  ],
+  "local_count": 68,
+  "qualification": "Registry identity, exact reference and disposition integration only; no historical theorem promoted or203 experiments rerun."
+}

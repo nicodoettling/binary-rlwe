@@ -1,0 +1,11 @@
+# Certificate extension and symmetry coverage
+
+Exploratory FF2 analysis; no general lower bound or new decision reduction.
+
+The identifying CRT certificate stops after enough roots to make the binary secret unique. Continuing to all n roots would allow ordinary finite-field inversion, but the accepted calibration guarantee does not automatically persist after a useful root subset has been extracted. A distinguisher can obtain its entire gap from that subset. Randomizing those response coordinates can remove the gap; retaining them gives no guarantee that the next hybrid selects an unlearned root. The n-root linear inversion is therefore not supplied by the current certificate theorem.
+
+Known CRT secret coordinates allow compensating public shifts at those coordinates without changing the full planted response law. This exact operation alone does not remove a distinguisher's reliance on them. Removing their information and preserving a gap are different obligations. The retained error law is joint across CRT coordinates and cannot be replaced by independent projected errors.
+
+Averaging over ring automorphisms does not by itself force the selected root to cover all roots of the original sample. An equivariant selector can choose a canonical representative of a secret orbit and select the same root transported back from that representative. When one maps every transformed selection back, it can be the same original root. Thus a coverage argument needs a proved restriction on the actual extractor/secret posterior, not only transitivity of the group on roots. This is an interface warning; it does not claim an efficient RLWE distinguisher realizing every abstract selector.
+
+Vector-LWE can flip independent columns when changing individual binary secret bits. In rank-one RLWE the public matrix is constrained to multiplication by one ring element; independent column flips generally violate that constraint. The legal signed-monomial/automorphism symmetries are recorded separately in affine-orbit-amplification-frontier-v1.md and workers/FF3/full-direction-open-interfaces-v1.md. A new non-linear or dimension-changing secret randomization is still open if its complete target law and cost are proved.

@@ -1,0 +1,137 @@
+{
+  "at": "2026-10-21T21:52:26.168894+00:00",
+  "reviewer": "DELIVERY-AUDIT1 fresh compact-v3 full reviewer",
+  "role": "Fresh nonauthor exact statement AND proof review; not blind; same-model correlated scrutiny",
+  "claim": "FF3-COMPACT-SELECTOR-v3",
+  "verdict": "PASS_EXACT_CONDITIONAL_KERNEL_AND_EXPECTED_COST_SCOPE",
+  "statement": "coordinator/compact-selector-statement-v3.md",
+  "statement_sha256": "20c66a210cfb4821eec35b371fbf7478ec3493d18d656a18a5b06dffc2fed889",
+  "proof": "coordinator/compact-selector-proof-v3.md",
+  "proof_sha256": "8625e7453ae8d937ba9b885dd802a065987224862c70becbbc2713046c76a71f",
+  "required_binding": "coordinator/kernel-resource-v3-path-resolution-v1.json",
+  "required_binding_sha256": "6740588bf0ac3873438ef11956eee216f2086062f34f9ee4a4622e0fefdc76c7",
+  "freshness": "Never authored claim or previously passed compact-v1/v2. First v3 statement/proof read after separate21:47 assignment. Previous status and counterexample exposure disclosed.",
+  "regressions": "Old non-dyadic arbitrary-n edge case and uncomputable-M defect remain rejected. CP-1 retained; fresh rational M=3/2 stopped-kernel/persistent-edge controls given exactly by hand. Zero-G and M1 boundaries covered.",
+  "finite_evidence": "Earlier complete exact n2 endpoints reused only after independent byte/data linkage and checker-scope audit; no all-endpoint experiment rerun.",
+  "scope_exclusions": [
+    "No asymptotic endpoint-table family",
+    "No Gaussian substitution for finite rational laws",
+    "No all-input/all-tape runtime bound from merely capping selector retries",
+    "No fixed-family reduction or hardness/exhaustion result"
+  ],
+  "unresolved_mathematical_findings": [],
+  "open_delivery_gates": [
+    "Separate fresh BLIND-RESOURCE4 gate and coordinator dependency reconciliation; this report is not final acceptance."
+  ],
+  "active_jobs_created_by_reviewer": 0,
+  "artifacts": [
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/assignment-verbatim.txt",
+      "sha256": "17f6f570051f2c9e52800d31778c7561fd428199ea6cb575ac28f6ed15970797"
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/coefficient-binding-v1.json",
+      "sha256": "20a0f5740e9458c201cf57d34d5d8900b49fa23a2e1ef14f65432ac6d3c00910"
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/full-report-v1.md",
+      "sha256": "1e30743f5b967e2dfb6b8ad86e4ef1971b11f04447606ce8dc5f168867a05d56"
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/input-manifest-addendum-v1.json",
+      "sha256": "7a8d07eed0def6854e26ffdddff24a88ab164a827a5e81379ba38404505efbcb"
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/input-manifest-v1.json",
+      "sha256": "130caa22fc0c61a318131da0c1bc10a44c1aa9ab6724a73c1b77cbc6e855ed19"
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/coordinator/blind-table-linkage-v1.json",
+      "sha256": "6c3181b9f010c29479d51273b2ca828e69062b9721fd1fd147e84ae33360160e"
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/coordinator/compact-selector-proof-v2.md",
+      "sha256": "cfe90ffc7b4b0b6e0e8efdd424f6b20b361b9e66107022752ccf787b66414211"
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/coordinator/compact-selector-proof-v3.md",
+      "sha256": "8625e7453ae8d937ba9b885dd802a065987224862c70becbbc2713046c76a71f"
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/coordinator/compact-selector-statement-v2.md",
+      "sha256": "89864b1f1d37ebb66e3fb7e364c8ad657c185808cdcdbb1c4370058aed7b2846"
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/coordinator/compact-selector-statement-v3.md",
+      "sha256": "20c66a210cfb4821eec35b371fbf7478ec3493d18d656a18a5b06dffc2fed889"
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/coordinator/compact-selector-v2-rejection-v1.md",
+      "sha256": "ba0a9dd24a148137d8f812820ddf700db8945ea2300def6d45a4df928d6eabbb"
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/coordinator/kernel-resource-v3-path-resolution-v1.json",
+      "sha256": "6740588bf0ac3873438ef11956eee216f2086062f34f9ee4a4622e0fefdc76c7"
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/coordinator/kernel-resource-wording-rejections-v1.md",
+      "sha256": "9f5cb7df524559e52e080997fc06c05b2e2999453612bf01f7cabd5ff023ec53"
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/BLIND-TRANSFER2/final-scope-v2.txt",
+      "sha256": "5649846e9ca1952e504ae2ba2f5224f324520aa018e5d3f89c549b69af69a1f4"
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/BLIND-TRANSFER2/finite-audit-v1.py",
+      "sha256": "b340145a15169dd0061f4eb0cce8b5721ec92c584e84a2b4a885d7970e636322"
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/BLIND-TRANSFER2/full-report-v1.txt",
+      "sha256": "a5ac8105eac82ca5483f95766ba940f731e01797b60a62f8a3f791718fbad176"
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/FULL-FF3-PHASE2/full-report-v1.md",
+      "sha256": "1ff44833ff98c0d96c7b6f30447d12f331d26c4b7dad0b4688436984af1748aa"
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/FULL-FF3-PHASE2/independent-certificate-check-v2.py",
+      "sha256": "b2965fbad872ae30501a58de69e3a571a64c8b23880c490497de042dbf78688c"
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/FULL-FF3-PHASE2/independent-certificate-check-v2.stdout.jsonl",
+      "sha256": "6eed6016ff4be14405355b0dd49ed560f257d6246b5ebac0ef2b0b33581bd09b"
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/FULL-FF3-PHASE2/phase2-final-seal-v1.json",
+      "sha256": "7434c7e38e5e9d529c74ebd475ce9e405b09e0dee8663143c1b9b0b4a0fbef5d"
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/FULL-FF3-PHASE2/regression-dispositions-v1.json",
+      "sha256": "85f1a5476c7de805cdd8a0972decac9e7e01998de7a13a245b08273315132cae"
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/FULL-FF3-PHASE2/source-complexity-report-v1.md",
+      "sha256": "c9374e485513726ed19d3b78db0640652b5d9f062c5761e7a438fa76f80bac9b"
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/workers/FF3/compact-selector-proof-v1.md",
+      "sha256": "8e84e8aa29c9381b36e153ef0f930a0708ccbcc44324f36d29879624ddaab356"
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/workers/FF3/compact-selector-statement-v1.md",
+      "sha256": "d606b293a7ec544c6e003eec7f4c8b137ee7d3f76f958cdf0793b058f03237ee"
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/workers/FF3/experiments/ff3-public-geometry-fv11.py",
+      "sha256": "a82c019eae561ddd86e9ad8fc57b8e3bb67f9436216f8a5d32c26db415ba9fd7"
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/workers/FF3/experiments/public-geometry-public_norm_local_edge_weights-witness.json",
+      "sha256": "140a8b92c3a772c217801f66f9d7618843330f0ca8264718858c3cfcf679cba8"
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/workers/FF3/experiments/radial-ring-H-vertices.json",
+      "sha256": "6d63ee7547c399c361f9883ac7432fee8115911b7c851a10012a83781e175665"
+    }
+  ]
+}

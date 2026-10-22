@@ -1,0 +1,24 @@
+{
+  "id": "FF3-JOINT-RESIDUAL-FV13",
+  "created_utc": "2026-10-21T20:27:42.633845+00:00",
+  "code": "ff3-joint-residual-fv13.py",
+  "code_sha256": "d2981ce607260f4247930d0ad706eb9d794c7580975a24d1d7bbd2a5a449ee53",
+  "registration": "ff3-joint-residual-fv13-registration.json",
+  "registration_sha256": "fa907fe6dd993371d54a1a09a00a9741e77a858ed24846e85c4d7402e82d6181",
+  "command": "ulimit -v 2097152; /usr/bin/time -v timeout 120s python3 ff3-joint-residual-fv13.py > ff3-joint-residual-fv13-output.jsonl 2> ff3-joint-residual-fv13-resource.txt",
+  "limits": {
+    "wall_seconds": 120,
+    "address_space_bytes": 2147483648,
+    "expected_seconds": 30,
+    "expected_rss_bytes": 1000000000,
+    "heavy": true,
+    "primal_LP_seconds": 40,
+    "dual_LP_seconds": 35
+  },
+  "wall_time_recorded": "0:02.87",
+  "maximum_RSS_KiB": 490208,
+  "exit_status": 0,
+  "root_slot": "Fresh parent grant before each execution, preserved in worker conversation.",
+  "cleanup": "Matching pgrep returned exit1 with empty output after this job; aggregate cleanup rechecked at phase2 seal.",
+  "numeric_status_policy": "Floating solver statuses and operational errors retained; only exact postchecks support mathematical conclusions."
+}

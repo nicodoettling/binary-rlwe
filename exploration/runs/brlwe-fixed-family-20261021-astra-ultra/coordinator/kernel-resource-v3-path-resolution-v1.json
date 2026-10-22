@@ -1,0 +1,27 @@
+{
+  "at": "2026-10-21T21:48:58.578617+00:00",
+  "applies_to": [
+    "coordinator/compact-selector-statement-v3.md",
+    "coordinator/compact-selector-proof-v3.md"
+  ],
+  "interpretation": "These moved copies retain workers/FF3-relative experiment citations. This explicit path binding supersedes any interpretation relative to coordinator or output root. Statement/proof bytes unchanged. Proof heading v1 is retained historical text; file/version/hash in exact acceptance identifies v3 proof.",
+  "bindings": [
+    {
+      "frozen_shorthand": "experiments/radial-ring-H-vertices.json",
+      "resolved_output_relative": "workers/FF3/experiments/radial-ring-H-vertices.json",
+      "sha256": "6d63ee7547c399c361f9883ac7432fee8115911b7c851a10012a83781e175665"
+    },
+    {
+      "frozen_shorthand": "experiments/public-geometry-public_norm_local_edge_weights-witness.json",
+      "resolved_output_relative": "workers/FF3/experiments/public-geometry-public_norm_local_edge_weights-witness.json",
+      "sha256": "140a8b92c3a772c217801f66f9d7618843330f0ca8264718858c3cfcf679cba8"
+    },
+    {
+      "frozen_shorthand": "experiments/ff3-public-geometry-fv11.py",
+      "resolved_output_relative": "workers/FF3/experiments/ff3-public-geometry-fv11.py",
+      "sha256": "a82c019eae561ddd86e9ad8fc57b8e3bb67f9436216f8a5d32c26db415ba9fd7"
+    }
+  ],
+  "sanitized_data_identity": "coordinator/blind-table-linkage-v1.json",
+  "earlier_v2_binding": "coordinator/kernel-resource-v2-path-resolution-v1.md"
+}

@@ -1,0 +1,54 @@
+{
+  "reviewer": "BLIND-FF2",
+  "version": "INPUT-FREEZE-v1",
+  "utc": "2026-10-21T18:47:59.524913+00:00",
+  "actual_read_files": [
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-FF2/allowed-read-manifest-v1.json",
+      "sha256": "bdc18c840a82c1c839077bb75701459f08d15baf3cd6fcc644b122c0710c1a47",
+      "role": "manifest"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-FF2/inputs/crt-projection.md",
+      "sha256": "8a1151a7a4c523312bc82b8da13c6eefd67df32d52e0a80931e5f3313182d9b3",
+      "role": "packet"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-FF2/inputs/certificate-extraction.md",
+      "sha256": "b17fb368a2fda01d42ede6f5cc58ff61c16b759a2e688b637d97f8f8cab75548",
+      "role": "packet"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-FF2/inputs/inherited-one-root-extractor.md",
+      "sha256": "8617dfdeb1b79f71e5d6531c4514d397ed946fde2adee4e7e2d5dcf5bcefb5af",
+      "role": "packet"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-FF2/inputs/prime-construction.md",
+      "sha256": "c0585251bbdb70d8b2a98b0d8a9f67c59b5d379c22f5c0ed6ff9a73e1b71120f",
+      "role": "packet"
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/SKILL.md",
+      "sha256": "9350ffeb5aebe0b126710786586f94ef5d990be35b8b9defc8004136dae40318",
+      "role": "generic audit instruction"
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/references/audit-protocol.md",
+      "sha256": "2d076ba631c340d71f6259757c6207dbe230872810e9bad3188b215f46d095f4",
+      "role": "generic audit instruction"
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/references/probability-regressions.md",
+      "sha256": "ad7eecf93ed02e5b2957243a9bbb2cac8e8eeeb991971f4d77d0818cd04a4fa4",
+      "role": "generic audit instruction"
+    }
+  ],
+  "allowed_not_yet_read": [
+    "https://www.impan.pl/shop/en/publication/transaction/download/product/83078"
+  ],
+  "prohibited_exposure": "No original/provenance paths, author proofs, other reviews/statuses/ledgers, coordinator conclusions, historical evidence or other workers context read. Parent assignment and environment/tool instructions are visible.",
+  "authority": "Exact packet statements; one-root packet supplies definitions/interface only and no desired verdict.",
+  "scope": "Independently prove or falsify CRT-PROJ-v1 and CERT-EXTRACT-v2; assess supplied prime interface. No other sources without specific request.",
+  "constraints": "No spawned agents; no installs; no background jobs; no goals; no git mutations; no external communications. Each experiment requires saved preregistration then fresh root slot."
+}

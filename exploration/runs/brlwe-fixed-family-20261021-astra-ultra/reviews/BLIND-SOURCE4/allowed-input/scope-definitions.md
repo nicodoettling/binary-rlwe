@@ -1,0 +1,7 @@
+# Definitions and permitted source scope
+
+The five review targets are DENSE-SPLIT, RS-DECODE, GAP-DECODE, LIST-DECODE and RS-ACTUAL-v3. The other two statements supply mathematical dependencies to check as needed. R=Z[X]/(X^n+1), n a power of two. Coefficient norm is Euclidean. Canonical infinity norm is max absolute embedding value, so coefficient norm is at most canonical infinity norm. An ordinary integer column basis is the only ideal representation supplied.
+
+Each theorem's exact algorithmic and quantifier claims must be judged independently. Input costs and polynomial numeric versus bit complexity must remain separate. A sufficient classical algorithm at a radius is not a hardness proof for its complement. The inherited radius is specified by the supplied parameter definitions; there is no premise that the target family itself is independent of every adversary's exponent.
+
+Permitted primary sources: J.S.Milne Algebraic Number Theory notes https://www.jmilne.org/math/CourseNotes/ANT.pdf for ideal/subfield facts; Xylouris effective Linnik theorem https://www.impan.pl/shop/en/publication/transaction/download/product/83078 for polynomial-value primes in progressions. If another primary source is needed, request a specific addition before reading outside this packet. Historical proofs, author proofs, reports, experiments and any other run status files are outside the mathematical allowed-read set.

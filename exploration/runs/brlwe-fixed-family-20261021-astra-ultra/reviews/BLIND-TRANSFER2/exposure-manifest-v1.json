@@ -1,0 +1,163 @@
+{
+  "sealed_at_utc": "2026-10-21T21:24:40.688474+00:00",
+  "referee": "BLIND-TRANSFER2",
+  "assignment_file": "assignment-verbatim-v1.txt",
+  "mathematical_inputs": [
+    {
+      "path": "allowed-input/two-secret-channel-statement-v1.md",
+      "sha256": "78db7757ba23e6cea708059e17aa87d4229d7b2b01d621acbbac0f5be7a4794d",
+      "authorized_by": "allowed-read-manifest-v2.json"
+    },
+    {
+      "path": "allowed-input/exhaustive-kernel-statement-v1.md",
+      "sha256": "b466f7c6116394acc012d099295a6af6bc8f7243079e603e7a1967a191d9d337",
+      "authorized_by": "allowed-read-manifest-v2.json"
+    },
+    {
+      "path": "allowed-input/compressed-selector-information-statement-v2.md",
+      "sha256": "8abf13ef4d35625ae82a6ffb44a7feb76d06700ada6a553a4a3ebd25a3e89d70",
+      "authorized_by": "allowed-read-manifest-v2.json"
+    },
+    {
+      "path": "allowed-input/energy-rank-kernel-statement-v1.md",
+      "sha256": "74d9717609a1bf0012b5884481dcccdb4822a8159c4c4f9899f7bea6bd6d0e52",
+      "authorized_by": "allowed-read-manifest-v2.json"
+    },
+    {
+      "path": "allowed-input/compact-selector-statement-v1.md",
+      "sha256": "d378258f6d5e9a528e819d77e212eddfa6486a357ecc97adfea600e9d962c81d",
+      "authorized_by": "allowed-read-manifest-v2.json"
+    },
+    {
+      "path": "allowed-input/joint-rank-finite-statement-v1.md",
+      "sha256": "8eda7140196f8144f1c164a2baddaa7351f07866cf81dd97617db8ea78a6570b",
+      "authorized_by": "allowed-read-manifest-v2.json"
+    },
+    {
+      "path": "allowed-input/two-event-noise-kernel-statement-v1.md",
+      "sha256": "ba5c8050af98cce9e7dec3d9c1b9a1806f606f9b59f1ca40e62917aa093e913b",
+      "authorized_by": "allowed-read-manifest-v2.json"
+    },
+    {
+      "path": "allowed-input/selector-public-statement-v3.md",
+      "sha256": "1c51d957ea4214c50f47c2c013e9472a6b2627507a36589fc477c5b9e768c2ac",
+      "authorized_by": "allowed-read-manifest-v2.json"
+    },
+    {
+      "path": "allowed-input/bounded-affine-tv-statement-v1.md",
+      "sha256": "4ed10092743879e7433b39bfc8988088821c7ceb29f4944f3794baea10cc7c6e",
+      "authorized_by": "allowed-read-manifest-v2.json"
+    },
+    {
+      "path": "allowed-input/rs-source-decoder-statement-v2.md",
+      "sha256": "5aab626734ad6c445c7062858d110ef247d86057f9a3bb018fd04e0702592972",
+      "authorized_by": "allowed-read-manifest-v2.json"
+    },
+    {
+      "path": "allowed-input/joint-rank-table.json",
+      "sha256": "8d461dc240f3cb47638a3306810746bd52cbd2e2189464c634915122d2f84853",
+      "authorized_by": "allowed-read-manifest-v2.json"
+    },
+    {
+      "path": "allowed-input/compact-selector-table.json",
+      "sha256": "59acd26442278a2a0191953888256f3cbb546e46212273d82190e06570c5040a",
+      "authorized_by": "allowed-read-manifest-v2.json"
+    },
+    {
+      "path": "allowed-input/radial-kernel-tables.json",
+      "sha256": "573e8ef817299486670f9ed9b61d7611387b882f21de93cc1f64ba39d7dad81c",
+      "authorized_by": "allowed-read-manifest-v2.json"
+    },
+    {
+      "path": "allowed-input/definitions-and-scope.md",
+      "sha256": "643ab95e0ed46bea82d12c191c27a368db6dde1181ff209731862c10bae5839d",
+      "authorized_by": "allowed-read-manifest-v2.json"
+    },
+    {
+      "path": "allowed-input/dense-split-source-statement-v1.md",
+      "sha256": "843a3ea886c9d39826b0492284e50c48656c310e36dfb6ed0c195e35af9416af",
+      "authorized_by": "allowed-read-addendum-v1.json"
+    },
+    {
+      "path": "allowed-input/all-subfields-comparison-statement-v1.md",
+      "sha256": "1225f638cb7b835d17f1775aeda24495f22f190e1f5f95a139c2171b4138b550",
+      "authorized_by": "allowed-read-addendum-v1.json"
+    },
+    {
+      "path": "allowed-input/subfield-contraction-statement-v2.md",
+      "sha256": "31b97bf2f3e0c33f7464ed41bd6041809784f2716c0332b53164c9f779896f3f",
+      "authorized_by": "allowed-read-addendum-v1.json"
+    },
+    {
+      "path": "allowed-input/inherited-radius-guards-v1.md",
+      "sha256": "445239aa2e01d580c9e2024934c8703c24bcb8058fc94a533f31a31af10d2365",
+      "authorized_by": "allowed-read-addendum-v1.json"
+    },
+    {
+      "path": "allowed-input/rs-bit-complexity-statement-v2.md",
+      "sha256": "fd27a2ceb2766c24c37616273158f1a2899de63a518af804fd047ccb4b43f89c",
+      "authorized_by": "allowed-read-addendum-v2.json"
+    },
+    {
+      "path": "allowed-input/spectral-gap-decoder-statement-v1.md",
+      "sha256": "4043228d1a634dfd950acbacf232f4cb013ae3ed9c98ca1a6d2cdbafc0bd591c",
+      "authorized_by": "allowed-read-addendum-v3.json"
+    },
+    {
+      "path": "allowed-input/sparse-acquisition-statement-v1.md",
+      "sha256": "c3c1078b33309f7b3d9061fbdad1114c3178dea28e64c7e8849a947ad5d97d84",
+      "authorized_by": "allowed-read-addendum-v4.json"
+    }
+  ],
+  "manifest_files": [
+    {
+      "path": "allowed-read-manifest-v2.json",
+      "sha256": "2466e1e09ad5c396db7d6b280fd7ce30f00cb3e02b52458d6d4d3bb9a124c898"
+    },
+    {
+      "path": "allowed-read-addendum-v1.json",
+      "sha256": "dd5a88412248a7b0d61f100da5dbe61972dc2a8e187005ceeaf86255eac1a0af"
+    },
+    {
+      "path": "allowed-read-addendum-v2.json",
+      "sha256": "6dba8b79406941be0a73e92d720ca3ab4b036e543176c24ba123dbafb0c96145"
+    },
+    {
+      "path": "allowed-read-addendum-v3.json",
+      "sha256": "79c11e75be7f177563a9ae7215776047a10ef3b48bca4fed21f580d724a4981d"
+    },
+    {
+      "path": "allowed-read-addendum-v4.json",
+      "sha256": "b9be090dfff957052c09fe7896210353efca937c5a52fc26b759cbeff2b751b5"
+    }
+  ],
+  "methodology": [
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/SKILL.md",
+      "sha256": "9350ffeb5aebe0b126710786586f94ef5d990be35b8b9defc8004136dae40318"
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/references/audit-protocol.md",
+      "sha256": "2d076ba631c340d71f6259757c6207dbe230872810e9bad3188b215f46d095f4"
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/references/probability-regressions.md",
+      "sha256": "ad7eecf93ed02e5b2957243a9bbb2cac8e8eeeb991971f4d77d0818cd04a4fa4"
+    }
+  ],
+  "other_exposure": [
+    "clock and tool operational responses",
+    "own newly written scripts, preregistrations, exact outputs, reports and receipts",
+    "coordinator authorizations and scheduling messages only"
+  ],
+  "excluded_and_not_read": [
+    "author proofs",
+    "prior review reports",
+    "project plans, ledgers and statuses",
+    "prior experimental outputs",
+    "undisclosed project regression files",
+    "web or external mathematical sources"
+  ],
+  "blindness": "Statement-only proof exposure; same-model/lineage correlation is acknowledged, not statistical independence.",
+  "writes": "Only new versioned files in this referee folder; no external communications, installs, goals, services, git mutation or spawned workers."
+}

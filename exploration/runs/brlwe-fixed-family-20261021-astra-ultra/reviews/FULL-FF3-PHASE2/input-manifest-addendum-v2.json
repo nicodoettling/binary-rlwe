@@ -1,0 +1,53 @@
+{
+  "at_utc": "2026-10-21T21:00:11.371945+00:00",
+  "files": [
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/bounded-affine-fv1.py",
+      "snapshot": "inputs/further/bounded-affine-fv1.py",
+      "sha256": "c792f3c643dea265fc1ab2408112dd88d086daa3805f7fac11ce343aa119ff67",
+      "bytes": 1968
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/bounded-affine-fv1-output.json",
+      "snapshot": "inputs/further/bounded-affine-fv1-output.json",
+      "sha256": "e55325754e364001f94ad32eb8bcab5fbfee3a2c7cd057b097c6240a0b1649a9",
+      "bytes": 1873
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/bounded-affine-fv1-registration.json",
+      "snapshot": "inputs/further/bounded-affine-fv1-registration.json",
+      "sha256": "3d3ae13efe76666cf01d842da5ff4ca43a45f21c21778938062745851e118497",
+      "bytes": 924
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/bounded-affine-fv1.resources",
+      "snapshot": "inputs/further/bounded-affine-fv1.resources",
+      "sha256": "e28e74d76c1db5ee8dada8a6c77f0a14b8661f1373c31abde85756a27f3f8c79",
+      "bytes": 757
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "snapshot": "inputs/further/DD-regressions.json",
+      "sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "bytes": 334642
+    },
+    {
+      "source": "/home/nico/.codex/skills/mathematical-proof-audit/SKILL.md",
+      "snapshot": "inputs/further/SKILL.md",
+      "sha256": "9350ffeb5aebe0b126710786586f94ef5d990be35b8b9defc8004136dae40318",
+      "bytes": 4484
+    },
+    {
+      "source": "/home/nico/.codex/skills/mathematical-proof-audit/references/audit-protocol.md",
+      "snapshot": "inputs/further/audit-protocol.md",
+      "sha256": "2d076ba631c340d71f6259757c6207dbe230872810e9bad3188b215f46d095f4",
+      "bytes": 8480
+    },
+    {
+      "source": "/home/nico/.codex/skills/mathematical-proof-audit/references/probability-regressions.md",
+      "snapshot": "inputs/further/probability-regressions.md",
+      "sha256": "ad7eecf93ed02e5b2957243a9bbb2cac8e8eeeb991971f4d77d0818cd04a4fa4",
+      "bytes": 6814
+    }
+  ]
+}

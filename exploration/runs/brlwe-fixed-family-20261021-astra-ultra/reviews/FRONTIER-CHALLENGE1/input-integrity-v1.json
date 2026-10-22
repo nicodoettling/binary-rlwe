@@ -1,0 +1,382 @@
+{
+  "at": "2026-10-21T21:28:18.986802+00:00",
+  "checks": [
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/fixed-family-20261021/PLAN.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/.codex/skills/mathematical-proof-audit/SKILL.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/.codex/skills/mathematical-proof-audit/references/audit-protocol.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/.codex/skills/mathematical-proof-audit/references/probability-regressions.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/.codex/skills/research-project-map/SKILL.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/.codex/skills/research-project-map/references/work-programmes.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/claims.json",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/regressions.json",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": false
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reduction-attempts.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": false
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/parameter-table.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/source-comparison.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/objective-statement-v1.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/deadlines.json",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/compact-selector-statement-v2.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/compact-selector-proof-v2.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/energy-rank-kernel-statement-v2.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/energy-rank-kernel-proof-v2.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/kernel-resource-wording-rejections-v1.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/sparse-acquisition-statement-v1.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/sparse-acquisition-proof-v1.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/dimension-padding-and-order-intake-v1.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/completion-alternatives-v1.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/narrow-coset-kernel-challenge-v1.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/full-direction-open-interfaces-v1.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/experiments/ff3-public-geometry-fv11.py",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/experiments/radial-ring-H-vertices.json",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/experiments/public-geometry-public_norm_local_edge_weights-witness.json",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF3-PHASE2/full-report-v1.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF3-PHASE2/source-complexity-report-v1.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF3-PHASE2/phase2-final-seal-v1.json",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/good-secret-preselection-frontier-v1.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/affine-orbit-amplification-frontier-v1.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/latent-relabel-and-centered-decision-frontier-v1.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/secret-invariants-frontier-v1.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/ff2-frontier-v1.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/subfield-source-frontier-v1.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/certificate-inversion-frontier-v1.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/certificate-coverage-frontier-v1.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/direct-oracle-hybrid-frontier-v1.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/acceptance-v1.json",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/acceptance-v2.json",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/acceptance-v3.json",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/acceptance-v4.json",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/final.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/programme-decisions.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/reconciliation.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/acceptance-v1.json",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/fixed-main-statement-v2.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/fixed-main-proof-v2.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/am-main-theorem-v3.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/frontier-challenge-replies-v1.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/frontier-challenge-replies-v2.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/programme-v2.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/review-scope-corrections-v1.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/compact-selector-statement-v1.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/compact-selector-proof-v1.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/energy-rank-kernel-statement-v1.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/energy-rank-kernel-proof-v1.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/phase2-report-v1.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF3-PHASE2/symmetry-finite-review-v1.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/source-classification-theorem-v1.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/source-classification-proof-v1.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/source-prime-support-statement-v2.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/all-subfields-comparison-statement-v1.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/dense-split-source-statement-v1.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/rs-source-decoder-statement-v2.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/certificate-extraction-statement-v2.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/certificate-extraction-proof-v2.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/fractional-information-statement-v1.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/crt-projection-statement-v1.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/compressed-selector-information-statement-v2.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/bounded-affine-tv-statement-v1.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/workers/B/report-v1.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/workers/B/concrete-family-v1.md",
+      "snapshot_sha256_match": true,
+      "source_sha256_match": true
+    }
+  ],
+  "snapshot_all_pass": true,
+  "source_all_unchanged": false
+}

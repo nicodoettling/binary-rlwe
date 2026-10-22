@@ -1,0 +1,31 @@
+{
+  "at": "2026-10-21T22:18:15.150695+00:00",
+  "syntax_ast_parse": "PASS; no execution or import",
+  "draft_pin_matches": true,
+  "math_block_present_unchanged": true,
+  "math_block_sha256": "8ccbc7dfe1de149c1290732fef150e7fdaf70b1aae1cffc86c7e76bb0490d7ba",
+  "report_replacement_targets": [
+    {
+      "line": 116,
+      "target_sha256": "182585657af71c91a9613fe13ffd4141bbea802a77d83d21c6d91ca8d1e68726",
+      "matches_in_input_report": 1
+    },
+    {
+      "line": 118,
+      "target_sha256": "7f4d8752801e7be3a1cb80c124c9767ffe732ab9337265660a88799646b2a1f0",
+      "matches_in_input_report": 1
+    },
+    {
+      "line": 119,
+      "target_sha256": "0548a94b62d7cdecaa819361c003652f6e37f20adb3cec7c856905970626bf75",
+      "matches_in_input_report": 1
+    },
+    {
+      "line": 120,
+      "target_sha256": "cc03c33f8d313a7c264f389adf18789221969222957f3bf6dc02130ae58bf614",
+      "matches_in_input_report": 1
+    }
+  ],
+  "original_audit_seal_sha256": "c7be106d187acd20d252679410e7f51ab880c8854e01c56618d5a81981df24d9",
+  "original_audit_artifact_hash_failures": []
+}

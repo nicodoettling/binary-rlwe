@@ -1,0 +1,43 @@
+{
+  "role": "fresh nonauthor full reviewer; NOT blind",
+  "author_packet": "177 frozen files copied and hash-verified; not all historical/supporting files manually reread",
+  "full_read_targets": [
+    "exhaustive-kernel-statement-v1.md",
+    "exhaustive-kernel-proof-v2.md",
+    "enum-repair-ledger-v1.md",
+    "compressed-selector-information-statement-v1.md",
+    "compressed-selector-information-proof-v1.md",
+    "compressed-selector-public-extension-v1.md",
+    "energy-rank-kernel-statement-v1.md",
+    "energy-rank-kernel-proof-v1.md",
+    "energy-rank-order-conventions-v1.md",
+    "joint-rank-finite-statement-v1.md",
+    "joint-rank-finite-proof-v1.md",
+    "compact-selector-statement-v1.md",
+    "compact-selector-proof-v1.md",
+    "two-event-noise-kernel-statement-v1.md",
+    "two-event-noise-kernel-v1.md",
+    "full-direction-open-interfaces-v1.md",
+    "regressions-phase2-v1.json",
+    "regressions.json",
+    "inherited-regression-references.json",
+    "review-index-v2.md"
+  ],
+  "other_full_reads": [
+    "root bounded-affine-tv statement/proof-v1",
+    "root symmetrized-rank-fv1/fv2 code",
+    "root bounded-affine-fv1 code/output",
+    "FF3 FV10,FV11,FV13,FV16,FV17 code and witnesses",
+    "FF3 FV14 code/output",
+    "prior FULL-FF3 full-report-v1 after initial independent proof reconstruction",
+    "root selector-public-rejection-v1 and selector-randomized-class-rejection-v1"
+  ],
+  "machine_read": "All full matrices/witnesses used in independent-certificate-check-v2; no author code imported or optimizer called",
+  "repair_versions_not_reviewed": "coordinator compressed-selector-information-v2 and selector-public-v3 copied/hash-bound only; separate FULL-REPAIR4 fresh gate",
+  "blind_reports_read": [],
+  "same_model_correlation": "Inherited parent summaries and common model/context lineage make reviewers correlated. This is repeated adversarial scrutiny, not independent statistical confirmation.",
+  "new_source_request_outside_this_seal": "RS bit-complexity-v2 assigned later, reserved for separately sealed addendum",
+  "skill": "/home/nico/.codex/skills/mathematical-proof-audit/SKILL.md and two references; snapshots in inputs/further",
+  "forbidden_actions_performed": [],
+  "at_utc": "2026-10-21T21:10:52.033768+00:00"
+}

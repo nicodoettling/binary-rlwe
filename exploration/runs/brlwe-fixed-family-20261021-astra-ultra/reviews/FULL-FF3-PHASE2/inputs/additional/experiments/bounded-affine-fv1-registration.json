@@ -1,0 +1,17 @@
+{
+  "id": "BOUNDED-AFFINE-FV1",
+  "registered_at": "2026-10-21T20:46:03.570965+00:00",
+  "hypothesis": "Retained-secret exact finite laws obey raw-second-moment TV bound; independence, tail and no-wrap hypotheses are necessary",
+  "code": "experiments/bounded-affine-fv1.py",
+  "sha256": "c792f3c643dea265fc1ab2408112dd88d086daa3805f7fac11ce343aa119ff67",
+  "inputs": "n4/8 fullbinarycube and interiorweight slices; uniform signed unit perturbations; common target equals marginal mixture; explicit negative controls",
+  "seeds": "none",
+  "wall_limit_seconds": 120,
+  "address_space_bytes": 536870912,
+  "estimated_seconds": 3,
+  "estimated_peak_MiB": 32,
+  "precision": "Fraction exact finite laws, no floating values",
+  "tails": "Finite support; rare-atom negative control exact, no infinite Gaussian simulation",
+  "authorization": "root LIGHT; BLIND-SOURCE4 LIGHT released; no active jobs",
+  "status": "REGISTERED"
+}

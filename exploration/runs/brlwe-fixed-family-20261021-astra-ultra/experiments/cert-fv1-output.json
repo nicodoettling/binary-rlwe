@@ -1,0 +1,10 @@
+{
+  "model": "Abstract two-coordinate CRT over F3, correlated diagonal noise; exact finite conditional-law control, not Gaussian/ring instantiation",
+  "test_law_equalities": 108,
+  "partial_uniform_endpoint_checks": 27,
+  "boolean_response_tests_with_nonzero_advantage": 420,
+  "good_secret_history_gap_checks": 1260,
+  "rare_good_secret_fraction": "1/9",
+  "average_gap": "2/27",
+  "conditional_audit": "For every fixed s and retained H, fresh bank law independent of any disjoint prior bank. Equalities checked at full(A,B) law, not only scalar means. No good-secret amplification inferred."
+}

@@ -1,0 +1,5 @@
+# Randomized-class retry law: preserved countermodel
+
+FULL-REPAIR4 identified that specifying only the marginal randomized class R(c|x,e) and an averaged one-trial normalization does not justify a geometric retry law if hidden class state persists across trials. For N=8 uniform S, X=S, uniform8-valued E, L=2,M=2,G(e,c)=2c, draw one hidden seed: with probability4/7 use C=1[E=S] on every retry, and with probability3/7 always use C=1. Marginal normalization equals(4/7)(2/8)+(3/7)2=1 at every input. Reusing the seed gives guessing probability5/8>ML/N=1/2 and mean5 trials, not2. Fresh per-trial class draws give guessing probability1/4 and mean2. The deterministic-class theorem is unaffected.
+
+The base v1 randomized-class wording is not used to authorize persistent hidden state. A new explicit version requires independent conditional draws of the declared class kernel on every retry, along with fresh proposal and acceptance coins given the fixed input. The public extension is rebound to that exact base version. Old texts/reviews remain unchanged; fresh full and blind checks target the explicit versions.

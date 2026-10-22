@@ -1,0 +1,68 @@
+BLIND-TRANSFER2 — FINAL ORIGINAL-VERSION SCOPE
+
+Read full-report-v1.txt and sparse-report-v1.txt together. There are twelve
+target statements, five supporting definition/dependency statements, and
+three finite coefficient tables. The allowed manifests identify their
+exact immutable hashes. No replacement statement or author proof was
+read, and no acceptance transfers to a replacement version automatically.
+
+ACCEPTED within this referee's independently proved scope:
+  FF3-TWOSECRET-v1
+  FF3-ENUM-v1
+  FF3-COMPRESSED-SELECTOR-INFORMATION-v2
+  FF3-JOINT-RANK-FINITE-v1
+  FF3-TWOEVENT-v1
+  FF3-SELECTOR-PUBLIC-v3
+  BOUNDED-AFFINE-TV-v1
+  SV-RS-DECODE-v2
+  SV-RS-BIT-v2
+  SV-SPARSE-ACQ-v1
+
+Original versions NOT ACCEPTED AS WHOLE STATEMENTS; stronger literal
+resource readings are REJECTED by the following finite counterexamples:
+
+  FF3-COMPACT-SELECTOR-v1:
+    mathematical kernel, normalization, all finite endpoint equations,
+    rejection bounds, and EXPECTED runtime are proved. The assertion of
+    O(n) fair bits for arbitrary n cannot be a worst-case bound: n=3 has
+    twelve equal-probability edges, impossible using bounded fair bits.
+    An explicit expected-bit qualification or a power-of-two restriction
+    is needed for that resource line. Its unstated interpretation is not
+    silently supplied by this report.
+
+  FF3-ENERGY-RANK-v1:
+    scalar and pair mathematical rank transports, endpoints, DP polynomial
+    complexity, and wrapping bounds are proved. The single-vector bit
+    bound must not be inherited unchanged by pair-shell product counts.
+    n=2,I={-1,0,1},energy=1 has shell count4, pair count16, five bits; this
+    exceeds 2 log2(3)+1. Pair products have the valid polynomial bound
+    2n log2(max(Q,q))+1. The ambiguous 'same statement' extension needs an
+    explicit resource qualification for whole-statement acceptance.
+
+These findings are about exact original wording, not failures of the
+finite kernels or the polynomial complexity conclusions. A fresh gate
+must check the full precise repaired versions against the two old finite
+counterexamples and at least one targeted new control.
+
+CP-1 is reproduced and rejects the forbidden product bound. All actual
+geometric calculations above have pointwise complete-history conditional
+success laws. The reused-root-seed negative control also fails as expected.
+Three separately preregistered LIGHT experiments all exited 0; no worker
+or experiment created by this referee remains running.
+
+Implementation precision note: the root-trial control uses exact integer
+and Fraction arithmetic for every group, probability, tolerance and
+history calculation. Its bounded prime list uses int(p**0.5) as the trial
+division limit only for odd p<=100. The qualifying primes can independently
+be read off by trial division through 9: for n=2 they are
+5,13,17,29,37,41,53,61,73,89,97; for n=4 they are17,41,73,89,97; for n=8
+they are17,97; for n=16 only97; none for n=32. Thus the 19 exact cases are
+not dependent on an uncertified large-argument floating-point primality
+test. All theorem proofs use exact group/order counting, not that list.
+
+The statement-only blindness restriction overrides the methodology's
+generic instruction to import undisclosed project historical material.
+The parent coordinator must reconcile these raw reports against its own
+complete dependency graph and any previously recorded project regressions.
+This seal is a referee deliverable, not scientific termination of the
+parent investigation, and it does not alter the global cap.

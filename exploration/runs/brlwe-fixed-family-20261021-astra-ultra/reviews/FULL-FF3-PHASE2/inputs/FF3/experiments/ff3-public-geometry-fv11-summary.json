@@ -1,0 +1,29 @@
+{
+  "results": [
+    {
+      "mode": "public_norm_local_edge_weights",
+      "variables": 432,
+      "equations": 161,
+      "LP_status": 0,
+      "LP_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "exact_verified": true,
+      "support": 33,
+      "maximum_denominator_bits": 212,
+      "maximum_local_weight_sum": "31747846170836756094431065767102005668874369915000841877198843/11688058834193179864192788149647847121368047468795377899320297",
+      "witness_sha256": "140a8b92c3a772c217801f66f9d7618843330f0ca8264718858c3cfcf679cba8"
+    },
+    {
+      "mode": "oriented_public_norm_local_edge_weights",
+      "variables": 864,
+      "equations": 161,
+      "LP_status": 0,
+      "LP_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "exact_verified": true,
+      "support": 41,
+      "maximum_denominator_bits": 211,
+      "maximum_local_weight_sum": "311109816854785468074608393417296999716415466847301512709/81811927729445343338983615025107190220272911609446800616",
+      "witness_sha256": "c6bc43eb1afad136039018f09b42a222990187a3fe12f251758debb278fb229a"
+    }
+  ],
+  "seconds": 0.24065687600523233
+}

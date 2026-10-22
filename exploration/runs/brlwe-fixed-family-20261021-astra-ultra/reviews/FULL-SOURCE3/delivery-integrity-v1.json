@@ -1,0 +1,394 @@
+{
+  "checked_at_utc": "2026-10-21T20:43:12.869808+00:00",
+  "snapshot_count": 48,
+  "all_snapshot_hashes_match": true,
+  "all_frozen_math_sources_unchanged": true,
+  "all_final_claim_hashes_match": true,
+  "running_experiments": 0,
+  "checks": [
+    {
+      "manifest": "input-manifest-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/source-prime-support-proof-v2.md",
+      "snapshot": "inputs/00-source-prime-support-proof-v2.md",
+      "expected": "3e2e62f75c75766c90de436e8387cb3331f8c2b4a9dc0a14b7fc1f8862ff3cfe",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/source-prime-support-statement-v2.md",
+      "snapshot": "inputs/01-source-prime-support-statement-v2.md",
+      "expected": "1176e7484ba806a92ea18d95e22375938f210d38fe1268fe9f178e280d76374d",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/dense-split-source-statement-v1.md",
+      "snapshot": "inputs/02-dense-split-source-statement-v1.md",
+      "expected": "10d8282bae4ed3ef96eda1d304f4538935b9308b7cb23e2b651672fc9dbae102",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/dense-split-source-proof-v1.md",
+      "snapshot": "inputs/03-dense-split-source-proof-v1.md",
+      "expected": "ddc8225562237ed46751f9326db1a2a51de5646eb6550be74e20b5c8552a1535",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/rs-source-decoder-proof-v1.md",
+      "snapshot": "inputs/04-rs-source-decoder-proof-v1.md",
+      "expected": "b812deb279acfeb36c9ea27ec17d750b6f5cd23ff5f2e24f1b519e412e79daa6",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/rs-source-decoder-statement-v1.md",
+      "snapshot": "inputs/05-rs-source-decoder-statement-v1.md",
+      "expected": "e5849eaeb63737f596b08213e4d3dd7ea3bc6e4b0fe4873cfe8140205318ea32",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/spectral-gap-decoder-proof-v1.md",
+      "snapshot": "inputs/06-spectral-gap-decoder-proof-v1.md",
+      "expected": "7e7a55eed374c5e75f7cc27006bf87ddd64d68f54e51ed97ea17590bf3546ee8",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/spectral-gap-decoder-statement-v1.md",
+      "snapshot": "inputs/07-spectral-gap-decoder-statement-v1.md",
+      "expected": "00921998d7781d3f8d5df8954cb4a919f3fa60524d1d64530913113d3cfdec9a",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/list-source-decoder-proof-v1.md",
+      "snapshot": "inputs/08-list-source-decoder-proof-v1.md",
+      "expected": "50a5b5d86176ce64416d5603ee559d3e610decf636523a03c0cc04d5fcd6ea2f",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/list-source-decoder-statement-v1.md",
+      "snapshot": "inputs/09-list-source-decoder-statement-v1.md",
+      "expected": "e9c47f9fd5645b3d70868d4c36027ce94ebd86b1ca1c40164b7c32a0fc52710b",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/rs-actual-radius-witness-proof-v1.md",
+      "snapshot": "inputs/10-rs-actual-radius-witness-proof-v1.md",
+      "expected": "408dc7e37016279a3ae62e2337a7d3af769d40688b571062538d32704d59bb32",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/rs-actual-radius-witness-statement-v1.md",
+      "snapshot": "inputs/11-rs-actual-radius-witness-statement-v1.md",
+      "expected": "402db730de4281c45c21b12840b700dca685033c4cdb926e6cc1ec1eae5f8dab",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/subfield-contraction-statement-v2.md",
+      "snapshot": "inputs/12-subfield-contraction-statement-v2.md",
+      "expected": "9157018baf8fa6d4e6fc3f3e889f3ba6fd07ce206175be4f37508553593c2bae",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/subfield-contraction-proof-v2.md",
+      "snapshot": "inputs/13-subfield-contraction-proof-v2.md",
+      "expected": "bd394211a85a33ed1566aba5232300db46bc24462777186d8c7f38a24967d9d8",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/symmetry-descent-proof-v2.md",
+      "snapshot": "inputs/14-symmetry-descent-proof-v2.md",
+      "expected": "4a8e0b32f33c7121517108e9e1b63ff3eb9d2a50f0afea1e5c70c4e0eaa5df2a",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/symmetry-descent-statement-v2.md",
+      "snapshot": "inputs/15-symmetry-descent-statement-v2.md",
+      "expected": "087405376d31699635e87d954eaaa9305da4635b61f2b572205ba89db533cddf",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/all-subfields-comparison-statement-v1.md",
+      "snapshot": "inputs/16-all-subfields-comparison-statement-v1.md",
+      "expected": "e4bc6f736371b22a5bcb966a065b36f32b16966acdc1958e5ed56de9176d2ea0",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/all-subfields-comparison-proof-v1.md",
+      "snapshot": "inputs/17-all-subfields-comparison-proof-v1.md",
+      "expected": "665ed6fc53b8ea17207603bbee9560e330e397b1b922cc244f8c98fecff151d1",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/acceptance-v1.json",
+      "snapshot": "inputs/18-acceptance-v1.json",
+      "expected": "5148b580d29102ccbfbe090568f991a4edba768d4798c222b5550a7df27f5732",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/acceptance-v3.json",
+      "snapshot": "inputs/19-acceptance-v3.json",
+      "expected": "5f08eb262c7f98632a09fa607b7ebaba88fe58a06558ffadcae8f28bfde49b6c",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/source-prime-support-statement-v1.md",
+      "snapshot": "inputs/20-source-prime-support-statement-v1.md",
+      "expected": "b7d9c43af7dedfcaeec509b9693dd374b7f05f197ea9a3bd0fbc09e9c0967df9",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/source-prime-support-proof-v1.md",
+      "snapshot": "inputs/21-source-prime-support-proof-v1.md",
+      "expected": "12967509eed52f8fe2896e7d341a792beacbd06cd4a50a43a07bc04c1ea4014d",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/fixed-main-statement-v2.md",
+      "snapshot": "inputs/22-fixed-main-statement-v2.md",
+      "expected": "25da2502104e746d3e9f2ca10e3d070372ff95b853b1fd2b0e6c96b1b909ecb6",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/fixed-main-proof-v2.md",
+      "snapshot": "inputs/23-fixed-main-proof-v2.md",
+      "expected": "2e98d25b0f349e22dfeb23ba5ea18ebe339039fa08fb39f92cf45afa9f50f0c7",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/am-main-theorem-v3.md",
+      "snapshot": "inputs/24-am-main-theorem-v3.md",
+      "expected": "eaabea064b734ccefbbb1d2410ed03fecdbe671f098c2e69d59d432df855e33c",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/am-main-proof-v3.md",
+      "snapshot": "inputs/25-am-main-proof-v3.md",
+      "expected": "f27a64db55c4442e38497518d8b9beca3b13e21bf0530a40497c9bc897131143",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/acceptance-v1.json",
+      "snapshot": "inputs/26-acceptance-v1.json",
+      "expected": "ba065e4b5f569236839b2597882698ade120219a13551376b8a14af6d5d2e23e",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/regressions.json",
+      "snapshot": "inputs/27-regressions.json",
+      "expected": "27b966ec59faa61249b3dec9682bafdcf12e95418b7676739032bc00a5d77e40",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "snapshot": "inputs/28-regressions.json",
+      "expected": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/fixed-family-20261021/PLAN.md",
+      "snapshot": "inputs/29-PLAN.md",
+      "expected": "275bfe83f759044ea8acb3118c76f0e480a59cb850cfb70d97422a651cfa4ed5",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/run.log.brlwe-fixed-family-20261021-astra-ultra.cap-status.json",
+      "snapshot": "inputs/30-run.log.brlwe-fixed-family-20261021-astra-ultra.cap-status.json",
+      "expected": "43f7b8bc69ade0c86c7c4966c7dc45f80c173ec027448a532c2f81d454224753",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/RF4/same-j-composition/same-j-theorem-only-v1.md",
+      "snapshot": "inputs/31-same-j-theorem-only-v1.md",
+      "expected": "96b88a725cc5dc4f8c943275d3b8788fdb9e6ac108c72fe62b383af9614e5e62",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-v1.json",
+      "source": "/home/nico/.codex/skills/mathematical-proof-audit/SKILL.md",
+      "snapshot": "inputs/32-SKILL.md",
+      "expected": "9350ffeb5aebe0b126710786586f94ef5d990be35b8b9defc8004136dae40318",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-v1.json",
+      "source": "/home/nico/.codex/skills/mathematical-proof-audit/references/audit-protocol.md",
+      "snapshot": "inputs/33-audit-protocol.md",
+      "expected": "2d076ba631c340d71f6259757c6207dbe230872810e9bad3188b215f46d095f4",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-v1.json",
+      "source": "/home/nico/.codex/skills/mathematical-proof-audit/references/probability-regressions.md",
+      "snapshot": "inputs/34-probability-regressions.md",
+      "expected": "ad7eecf93ed02e5b2957243a9bbb2cac8e8eeeb991971f4d77d0818cd04a4fa4",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-addendum-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/rs-actual-radius-witness-statement-v2.md",
+      "snapshot": "inputs/supplement-00-rs-actual-radius-witness-statement-v2.md",
+      "expected": "2d231a6380b87c3642433f869c26ca84aacea5dd3d36fbc0dd89c24f254f6123",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-addendum-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/rs-actual-radius-witness-proof-v2.md",
+      "snapshot": "inputs/supplement-01-rs-actual-radius-witness-proof-v2.md",
+      "expected": "ba4c56f5c1030ebce428a7406dc973d82a4cc51f4441ed2e1d0b303fbb57a391",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-addendum-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/rs-actual-radius-version-ledger-v1.md",
+      "snapshot": "inputs/supplement-02-rs-actual-radius-version-ledger-v1.md",
+      "expected": "85dbb817c9486964c812f84d675c76fdd4e6f3b1d544aa2d8a6f2aeb752f876d",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-addendum-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/rs-actual-radius-witness-statement-v3.md",
+      "snapshot": "inputs/supplement-03-rs-actual-radius-witness-statement-v3.md",
+      "expected": "6e721a1eff0c5390c44f9984ae0b930bdfb5657c769199707fd2afb6dab9eccc",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-addendum-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/rs-actual-radius-witness-proof-v3.md",
+      "snapshot": "inputs/supplement-04-rs-actual-radius-witness-proof-v3.md",
+      "expected": "49ebed1855cf5cb1851f8acf0ef3351c93bc3cf7a239b62310427d9fa0244f21",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-addendum-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/rs-actual-radius-version-ledger-v2.md",
+      "snapshot": "inputs/supplement-05-rs-actual-radius-version-ledger-v2.md",
+      "expected": "f31953df8c0ee2a650de39b0ef6245ce58cc5074205866169ae9c977125507e9",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-addendum-v1.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD2/prime-list-theorem-proof-v1.md",
+      "snapshot": "inputs/supplement-06-prime-list-theorem-proof-v1.md",
+      "expected": "c54f0a6e37aa6ed6a13bb9cf387f98ce99fb12311a517c6fec32e3e32188d6cf",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-addendum-v2.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/c8-repair/multiplier-ohcp-theorem-v8.md",
+      "snapshot": "inputs/extra-00-multiplier-ohcp-theorem-v8.md",
+      "expected": "857a62e9f4a937a80e5cb3b115c8b132abf122c16665d29b39dcb62bde86fe0a",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-addendum-v2.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/c8-repair/multiplier-ohcp-algorithm-v2.md",
+      "snapshot": "inputs/extra-01-multiplier-ohcp-algorithm-v2.md",
+      "expected": "4361c90a7fa7cfe25d0ab3e8cd5c5333fb474cf1fb764375e10c29fca5102735",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-addendum-v2.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/c8-repair/multiplier-ohcp-proof-v9.md",
+      "snapshot": "inputs/extra-02-multiplier-ohcp-proof-v9.md",
+      "expected": "e9b3023715a3d4ec90c474aba6945223aa376248b1fa216134964a5643fb4c5f",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-addendum-v2.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/regression-scope-v1.json",
+      "snapshot": "inputs/extra-03-regression-scope-v1.json",
+      "expected": "fd74bf0fc1dfc3827da0a11f544d06c38ab68145a4a3b4112c424b9017eb850b",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-addendum-v2.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/source-classification-theorem-v1.md",
+      "snapshot": "inputs/extra-04-source-classification-theorem-v1.md",
+      "expected": "1b72f95055b9c5a8953c46ee778ade4d57a55d5a61c4a1ce29003c049f59a5a3",
+      "snapshot_match": true,
+      "source_still_matches": true
+    },
+    {
+      "manifest": "input-manifest-addendum-v2.json",
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/source-classification-proof-v1.md",
+      "snapshot": "inputs/extra-05-source-classification-proof-v1.md",
+      "expected": "5c208872ddd99f74294dc60dbcd1a952470b5d09956d576c7346e2f52eca0d5f",
+      "snapshot_match": true,
+      "source_still_matches": true
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "review": "FULL, not blind",
+  "created_utc": "2026-10-21T18:20:54.803768+00:00",
+  "inputs": [
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/symmetry-descent-theorem-v1.md",
+      "sha256": "a16f483e8292606f8763eee79b2d64193bb43eb96e1609c0775c68231b5fcf10",
+      "bytes": 3537,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/frobenius-prime-theorem-v1.md",
+      "sha256": "17315abf7b50bbb758a3e0e5c580d159895a1e238ad3b01b88e77a08e8e28d3e",
+      "bytes": 2502,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/primary-source-check-v1.md",
+      "sha256": "69895a89fa2ae4dfcbe7790f47df766a5bdb3b04633e801da10ae1038849a840",
+      "bytes": 1340,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/initial-report-v1.md",
+      "sha256": "627f59c2f96d4809ee305e94ff2408efd416ab0c3fb4d48862894e6694da0556",
+      "bytes": 3590,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/source-classification-proof-v1.md",
+      "sha256": "5c208872ddd99f74294dc60dbcd1a952470b5d09956d576c7346e2f52eca0d5f",
+      "bytes": 6685,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/author-freeze-v1.md",
+      "sha256": "2b4dab1a2b21d901430220376b28adf2c13dc8b28d513f5467d2ff5ebeeefea3",
+      "bytes": 2045,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/configuration-evidence-v1.md",
+      "sha256": "74adf77b876efc37c7f40a3cbb1f5a3de99bce97bac93fa7b130cf1f03e39a78",
+      "bytes": 1301,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/parameter-table-v1.md",
+      "sha256": "958ff3cc9451c3550423bef5179f999a1098575c5dc49cf1086d9c788dc19126",
+      "bytes": 4095,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/assignment-v1.md",
+      "sha256": "e161720cfb0032c16a204b85ffd4750e8783d6f5a84c87b74bdc29d7fa727422",
+      "bytes": 4566,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/checkpoint-1758-v1.md",
+      "sha256": "6c8d02b1ccf2314f1fcb0d42d8b7379dfd6736d4341b6a1d6a25d1ee823ee920",
+      "bytes": 2373,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/source-classification-theorem-v1.md",
+      "sha256": "1b72f95055b9c5a8953c46ee778ade4d57a55d5a61c4a1ce29003c049f59a5a3",
+      "bytes": 4670,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/frobenius-prime-proof-v1.md",
+      "sha256": "8ed560e6c7a58a77d3eb03fbb622afac7347a77bcb9c47188ee141d269ed7546",
+      "bytes": 3542,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/symmetry-descent-proof-v1.md",
+      "sha256": "970995d371e5a8daf8f0f24ec0df056c23a3c8d4fb625cf487a6d8e9bdf08885",
+      "bytes": 6526,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/residual-family-frontier-v1.md",
+      "sha256": "9c90b2a5db2d8a432099866cabb47d9013cc9f50274b1278dfeddccc397354fd",
+      "bytes": 5473,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/regression-scope-v1.json",
+      "sha256": "fd74bf0fc1dfc3827da0a11f544d06c38ab68145a4a3b4112c424b9017eb850b",
+      "bytes": 12822,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/initial-artifacts-v1.sha256",
+      "sha256": "3703de7ca040a4304e8c761a5bf70f4b6c7df0bf0b6dddfa14648b1d08a03db5",
+      "bytes": 567,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/author-package-v1.sha256",
+      "sha256": "470be0848a4e5a3143db24b87cb27a50af52ed5352a675e8805768a5e030bbb5",
+      "bytes": 1218,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/experiments/SV-FV2.exit.txt",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "bytes": 2,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/experiments/SV-FV3.exit.txt",
+      "sha256": "ca2ebdf97d7469496b1f4b78958f9dc8447efdcb623953fee7b6996b762f6fff",
+      "bytes": 4,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/experiments/SV-FV1.code.sha256",
+      "sha256": "935c5dbac6aa1a2c42f3b6d30fd44499864d15b09f1f399a6c4b17bf6f1481c3",
+      "bytes": 76,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/experiments/SV-FV4.exit.txt",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "bytes": 2,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/experiments/SV-FV1.exit.txt",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "bytes": 2,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/experiments/SV-FV2-preregistration.md",
+      "sha256": "5c8f3df844b98fa46f8da62699517e05eba26213d6eb81fa1224a0859a3adfdf",
+      "bytes": 1275,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/experiments/SV-FV4.code.sha256",
+      "sha256": "0b8e4b4a484ac9aabf9675c1e11ff91a337436b86546126d305837d93d66c918",
+      "bytes": 76,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/experiments/SV-FV3.stdout.json",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/experiments/SV-FV4.resources.txt",
+      "sha256": "f0bc70a75ea51dfff9ce068349401a22a8f13718c64299a907425c9a570626c0",
+      "bytes": 793,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/experiments/SV-FV1.py",
+      "sha256": "fb3da9f7b426577b08dc2508f8da07733251127f4128d993ce8dc4b5430bbadb",
+      "bytes": 3931,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/experiments/SV-FV3.py",
+      "sha256": "b65239fe3843580009697d89d4758ccda137a21e3338423d303ceb092e26e1c1",
+      "bytes": 4420,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/experiments/SV-FV2.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/experiments/SV-FV1.resources.txt",
+      "sha256": "f1b9a5839ddfd3d1799175e738f6d6b14ed1a2a7032e65a9189bfa7a65f4046d",
+      "bytes": 793,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/experiments/SV-FV2.code.sha256",
+      "sha256": "50253b2b9ca659a9ed68f17cad19b0521e95e03284b665e96ece25e3c7d76cd2",
+      "bytes": 76,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/experiments/SV-FV1.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/experiments/SV-FV1.stdout.json",
+      "sha256": "5c8aeeb05efc7a5d668a133c9b94fad84e1e8a8f1e666fe0c3a3c7faa46df57a",
+      "bytes": 1263,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/experiments/SV-FV2.stdout.json",
+      "sha256": "236e22e75cf68dbfc0d99029443e5549460dac8e6010852034accfdc590722b0",
+      "bytes": 2086,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/experiments/SV-FV2.py",
+      "sha256": "9eb430a27ed98b87316d7afb19471013bbe7c3ba387c43afdfe98fda059c9bb2",
+      "bytes": 3013,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/experiments/SV-FV3-preregistration.md",
+      "sha256": "21c2392827d6de2468329ed64ec430014fe2d8766318223eda306b7b4b08a48c",
+      "bytes": 1438,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/experiments/SV-FV4.stdout.txt",
+      "sha256": "1b6b7ff250efd4ffe481b03d5f46404079a5abf8b86aa6cd8966e7d2c04a55d3",
+      "bytes": 3889,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/experiments/SV-FV3.code.sha256",
+      "sha256": "d45de8ecb1f35c392f75ef10f99f5cb1246983e14641b2cd823c4a3a8ca1afd1",
+      "bytes": 76,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/experiments/SV-FV4-preregistration.md",
+      "sha256": "40a3992452cb8697d35b26374140c5ca0b671bcea09a4c8f922f57035f33b522",
+      "bytes": 1333,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/experiments/SV-FV3.resources.txt",
+      "sha256": "5fd7c64b04311b08733f1beaa75fcd1f07d602ae8ea5757294c29d6e9cf8f7a0",
+      "bytes": 841,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/experiments/SV-FV1-preregistration.md",
+      "sha256": "dc1fa86b07aac708b5f48b95ad0b910177dbd7fdaa75ef024b30cbb5d91ae999",
+      "bytes": 1408,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/experiments/SV-FV3.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/experiments/SV-FV4.py",
+      "sha256": "6e8022b2fff32b06f46d0937de143d528092d5ccad9e09f8bf4c5783c9400893",
+      "bytes": 5028,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/experiments/SV-FV2.resources.txt",
+      "sha256": "395e780e0a8396cb1a4e4812473438dd10af0a8a309d860f0cc983e86f8f0229",
+      "bytes": 797,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/experiments/SV-FV4.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/final.md",
+      "sha256": "36ddf7e2d4a55b46a9c2e73132600cd6a5ee8836deade913137d60ad94fea622",
+      "bytes": 11403,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/programme-decisions.md",
+      "sha256": "1747bd5297e6d10a18f81104134f84229af9241b7babe1b79d791a201230ff3e",
+      "bytes": 6273,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/reconciliation.md",
+      "sha256": "c242b33cb82fc9412312b4978d36abb047384bebc7a0e470fc9241622e2affd8",
+      "bytes": 7096,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/acceptance-v1.json",
+      "sha256": "ba065e4b5f569236839b2597882698ade120219a13551376b8a14af6d5d2e23e",
+      "bytes": 9212,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/fixed-main-statement-v2.md",
+      "sha256": "25da2502104e746d3e9f2ca10e3d070372ff95b853b1fd2b0e6c96b1b909ecb6",
+      "bytes": 6464,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/fixed-main-proof-v2.md",
+      "sha256": "2e98d25b0f349e22dfeb23ba5ea18ebe339039fa08fb39f92cf45afa9f50f0c7",
+      "bytes": 4407,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/modround-statement-v1.md",
+      "sha256": "fdcbdf08b35faced79539eb82712607deb765d391cd65cbfe4e52cf2a32f9e6b",
+      "bytes": 2441,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/modround-proof-v1.md",
+      "sha256": "6cd5ca4a4cd569ba5ab886f0d5842204fd78e1fa61995b4c4fefed7fe68815c1",
+      "bytes": 4094,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/am-main-theorem-v3.md",
+      "sha256": "eaabea064b734ccefbbb1d2410ed03fecdbe671f098c2e69d59d432df855e33c",
+      "bytes": 11306,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/am-main-proof-v3.md",
+      "sha256": "f27a64db55c4442e38497518d8b9beca3b13e21bf0530a40497c9bc897131143",
+      "bytes": 10085,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/reviews/FULL2/source-complexity-report-v1.md",
+      "sha256": "2484a3bc796fdf1434d27f6d117ca3265e4a760fecf13388acd7c775beef8416",
+      "bytes": 11651,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/reviews/FULL2/exact-v2-recheck.md",
+      "sha256": "6335a0e592ffd7357140880bcb6fcabac33c50c41f5e85618d9b0955486a4150",
+      "bytes": 8517,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/SKILL.md",
+      "sha256": "9350ffeb5aebe0b126710786586f94ef5d990be35b8b9defc8004136dae40318",
+      "bytes": 4484,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/references/audit-protocol.md",
+      "sha256": "2d076ba631c340d71f6259757c6207dbe230872810e9bad3188b215f46d095f4",
+      "bytes": 8480,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/references/probability-regressions.md",
+      "sha256": "ad7eecf93ed02e5b2957243a9bbb2cac8e8eeeb991971f4d77d0818cd04a4fa4",
+      "bytes": 6814,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF1/inherited-regression-references.json",
+      "sha256": "8535a7ae8370aff60a81f8782ffb853245d167ac2a4aa1abd68ca3eda6d6dd6a",
+      "bytes": 99999,
+      "exposure": "FULL review supporting input; principal theorem/proof files read in full; exposed author code is not independent control"
+    }
+  ],
+  "missing": []
+}

@@ -1,0 +1,68 @@
+{
+  "at": "2026-10-21T20:02:53.964020+00:00",
+  "role": "Fresh nonauthor FULL-FF3; not blind",
+  "prior_role": "Same agent previously completed FULL-FRONTIER1; exposed to its six Gaussian/source frontier proofs and accepted dependencies. No authorship of FF3 packet. Same-model scrutiny correlated, not formal verification.",
+  "assignment": "assignment-verbatim.txt",
+  "input_inventory": "input-freeze-v1.json",
+  "all87_copied_hashes_match": true,
+  "text_read": [
+    "exhaustive-kernel-statement-v1.md",
+    "two-secret-channel-proof-v1.md",
+    "residual-extension-analysis-v1.md",
+    "finite-kernel-statement-v1.md",
+    "exhaustive-kernel-proof-v1.md",
+    "phase1-report-v1.md",
+    "review-index-v1.md",
+    "two-event-noise-kernel-v1.md",
+    "progress.md",
+    "two-secret-channel-statement-v1.md"
+  ],
+  "author_code_read": [
+    "experiments/ff3-exact-fv3.py",
+    "experiments/ff3-constructive-fv4.py",
+    "experiments/ff3-normalized-fv5.py",
+    "experiments/ff3-pair-mixture-fv6.py",
+    "experiments/ff3-adaptive-edge-fv7.py",
+    "experiments/ff3-asymmetric-fv8.py",
+    "experiments/ff3-radial-fv9.py"
+  ],
+  "exact_witness_access": "Both independent verifier scripts explicitly identify certificates parsed and reconstructed; no author Python imported. All87files preserved; inventory membership does not imply every log line was manually read.",
+  "other_author_context_read": [
+    "claims.json",
+    "regressions.json",
+    "inherited-regression-references.json",
+    "author-phase1-seal-v1.json",
+    "FV2/FV3/FV4/FV5/FV6/FV7/FV8/FV9 summaries or outputs as referenced in reports",
+    "FV1 abort receipt and resource log"
+  ],
+  "additional_sources": [
+    {
+      "path": "exploration/fixed-family-20261021/PLAN.md",
+      "sha256": "275bfe83f759044ea8acb3118c76f0e480a59cb850cfb70d97422a651cfa4ed5"
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/SKILL.md",
+      "sha256": "9350ffeb5aebe0b126710786586f94ef5d990be35b8b9defc8004136dae40318"
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/references/audit-protocol.md",
+      "sha256": "2d076ba631c340d71f6259757c6207dbe230872810e9bad3188b215f46d095f4"
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/references/probability-regressions.md",
+      "sha256": "ad7eecf93ed02e5b2957243a9bbb2cac8e8eeeb991971f4d77d0818cd04a4fa4"
+    },
+    {
+      "path": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3"
+    }
+  ],
+  "access_limits": [
+    "No external primary-source theorem needed; all new arguments reconstructed directly. No new external literature accessed.",
+    "No complete DD/AM recertification; inherited203 entries are exact scope references with current applicability.",
+    "FV7 event-score formula audited and author exact value retained; independent Farkas certificate carries the exclusion.",
+    "No later FF3additive-v2, corrected ENUMproof-v2, root dense-split-source or rs-source-decoder proof read."
+  ],
+  "permissions": "Writes only FULL-FF3 and previously authorized immutable FULL-FRONTIER1 scope addendum; no detached jobs, installations, Git mutations, spawning or outside communication.",
+  "service": "Inherited explicit default, Astra ultra; no tier change requested."
+}

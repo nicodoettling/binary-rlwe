@@ -1,0 +1,135 @@
+{
+  "review_id": "BLIND-SV1",
+  "sealed_at_utc": "2026-10-21T18:47:01.625623+00:00",
+  "state": "SEALED_EXACT_V1_REVIEW",
+  "report": "report-v1.md",
+  "verdicts": "verdicts-v1.json",
+  "packet_inputs_unchanged": true,
+  "all_scientific_jobs_complete": true,
+  "experiment_count": 1,
+  "actual_allowed_reads": "local-input-hashes.json and exposure-declaration-v1.md; primary-exposure-hashes.json records web excerpts",
+  "verdict_summary": "SV-BDD-CLASS PASS; SV-FROB-PRIME PASS; SV-SYMDESC literal a/m definition REJECTED, intended definition proved conditionally; repaired statement requires separate version/recheck",
+  "global_programme_terminated": false,
+  "files": [
+    {
+      "relative_path": "allowed-read-manifest-v1.json",
+      "bytes": 4072,
+      "sha256": "f36561ee6f1ff9e3a3c4c7866846e552bc2f71eb8c1e154fa99621e3ac649e74"
+    },
+    {
+      "relative_path": "assignment-verbatim.txt",
+      "bytes": 2884,
+      "sha256": "2cf2ce4cfc944b664db3f203dbe1ae7cff7c4306b3035996713f7e0ff9214198"
+    },
+    {
+      "relative_path": "coordinator-followup-verbatim.txt",
+      "bytes": 463,
+      "sha256": "77bafd12bebb555e1319a62d12af07cf43fba4eb2f626294182b669e24f13dbf"
+    },
+    {
+      "relative_path": "experiment-01-execution.json",
+      "bytes": 906,
+      "sha256": "c48578e1ba7615af1228571e4c61ade59813438bade485ecc76a48c93cc51c35"
+    },
+    {
+      "relative_path": "experiment-01-preregistration.json",
+      "bytes": 1341,
+      "sha256": "430ec29ea3cf8a7b11428e5b1cae94535b94f34a5be16752d5509c5113f0cb1e"
+    },
+    {
+      "relative_path": "experiment-01-result.json",
+      "bytes": 20192,
+      "sha256": "6223d36b346055edc358add0ccce932eec49e20f4513fa2932d703f5da3f1a6d"
+    },
+    {
+      "relative_path": "experiment-01-slot-grant.txt",
+      "bytes": 727,
+      "sha256": "b5223cbf4862294cfbef11bfd939d237180a91283d05818922034e4f0a510190"
+    },
+    {
+      "relative_path": "experiment-01.py",
+      "bytes": 7707,
+      "sha256": "8b38c1c78b3cef8b89fb6e09d3bd2ceebde4f98501d5bca60cedabba46aa60b2"
+    },
+    {
+      "relative_path": "exposure-declaration-v1.md",
+      "bytes": 4998,
+      "sha256": "5ccbb78a2ca159611883a55951096764708be9f613af7c2c9b99c9c9fbb7b651"
+    },
+    {
+      "relative_path": "inputs/frobenius-prime.md",
+      "bytes": 2437,
+      "sha256": "980bb49b02bca6d6a81f5264e26bd21bc1949feb1efb9855adcc31e9d83cfa70"
+    },
+    {
+      "relative_path": "inputs/inherited-am-main.md",
+      "bytes": 11306,
+      "sha256": "eaabea064b734ccefbbb1d2410ed03fecdbe671f098c2e69d59d432df855e33c"
+    },
+    {
+      "relative_path": "inputs/inherited-fixed-main.md",
+      "bytes": 6294,
+      "sha256": "3358158fb5f138b584de4dc726c63b21af58b2f669fc0f291bcef62826a80359"
+    },
+    {
+      "relative_path": "inputs/source-classification.md",
+      "bytes": 4508,
+      "sha256": "e94bd870da471255430bca2c30f110c07317a83c2d92eb29526bb320490dc097"
+    },
+    {
+      "relative_path": "inputs/symmetry-descent.md",
+      "bytes": 3348,
+      "sha256": "14601246520f12ee8df9754460f17ddc1c301884072a801500cc47e3179de159"
+    },
+    {
+      "relative_path": "local-input-hashes.json",
+      "bytes": 2242,
+      "sha256": "c356a60537ebcd69aa857af63d8eb193252d156b711bb8276ec73d2e09238249"
+    },
+    {
+      "relative_path": "primary-exposure-check3.json",
+      "bytes": 634,
+      "sha256": "8ba433826bf5c27c2e8ee9703a1a717802903cc8ba7db9c1ed68c557b1c7fe02"
+    },
+    {
+      "relative_path": "primary-exposure-final-factorization.json",
+      "bytes": 516,
+      "sha256": "fcbf8970c67d623fae640166df4649eb97e2e8fdecdb8c3facc2aa4919afece1"
+    },
+    {
+      "relative_path": "primary-exposure-hashes.json",
+      "bytes": 5436,
+      "sha256": "f627e50182e694f47a04c60efc8112ed691ece7fdae857395a3f59bcb91cf79e"
+    },
+    {
+      "relative_path": "primary-exposure-intake-replay.json",
+      "bytes": 555,
+      "sha256": "1928b5a7d65caac3e3d987f81b12bebdafdab948a59477d30428959737f578de"
+    },
+    {
+      "relative_path": "primary-exposure-kb-search.json",
+      "bytes": 2530,
+      "sha256": "028179ff05ee68cc929b8de7d9780bc99602ca625a6bb9779035426c06c73be4"
+    },
+    {
+      "relative_path": "primary-exposure-milne-find1.json",
+      "bytes": 508,
+      "sha256": "1deb68bc4ec524b3fa73d6430fbd6d56d2ee00485b3d46859c807b6d1ce5ae7b"
+    },
+    {
+      "relative_path": "primary-exposure-milne-open2.json",
+      "bytes": 508,
+      "sha256": "e19675819c856e03033c700b0291be6fc1fda475b5c176379b01b739931ade65"
+    },
+    {
+      "relative_path": "report-v1.md",
+      "bytes": 25410,
+      "sha256": "2080b244a29662241dbf558550d2e3e6d9cac5847bc0620277e62ba5a4cceab4"
+    },
+    {
+      "relative_path": "verdicts-v1.json",
+      "bytes": 2857,
+      "sha256": "48801fc88bd5e2decd64dbe7a1c6a6f8c2bfcff8ac5fb5c6bc4867923708092f"
+    }
+  ]
+}

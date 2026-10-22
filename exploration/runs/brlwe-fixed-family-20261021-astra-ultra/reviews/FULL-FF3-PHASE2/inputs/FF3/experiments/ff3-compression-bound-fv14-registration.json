@@ -1,0 +1,9 @@
+{
+ "id":"FF3-COMPRESSION-BOUND-FV14","registered_before_execution":true,
+ "hypothesis":"Exact accepted-edge/class normalization implies secret-guessing probability<=M*L*maxprior. Regression controls must reject omittingM,L,uniform-prior assumption,or output-factorization. Targetq2 unit/zero-error lower bounds and repairedENUMsign are checked separately.",
+ "code":"ff3-compression-bound-fv14.py","inputs":"Seven rational finite selector models on at most8secrets,8edges,8classes; deterministic and randomized classes; explicit leaking-output negative control. Exhaustive binarytarget n1,n2,n4 rationalBernoulli(1/4). Exact FULL-FF3-ENUM-SIGN-1 replay; CP-1 retained.",
+ "seed":"none","command":"ulimit -v 524288; /usr/bin/time -v timeout 120s python3 ff3-compression-bound-fv14.py > ff3-compression-bound-fv14-output.jsonl 2> ff3-compression-bound-fv14-resource.txt",
+ "limits":{"wall_seconds":120,"address_space_bytes":536870912,"expected_seconds":1,"expected_rss_bytes":20000000,"heavy":false},
+ "precision":"Exact Fraction arithmetic and integer enumeration; no numeric solver or transcendental approximations. All full conditional accepted laws and normalization checked before guessing bound.",
+ "expected":"Every model satisfies the precise bound; named scope omissions explicitly falsified. These controls do not certify the analytic Gaussian tail/rank theorem or fresh review gates."
+}

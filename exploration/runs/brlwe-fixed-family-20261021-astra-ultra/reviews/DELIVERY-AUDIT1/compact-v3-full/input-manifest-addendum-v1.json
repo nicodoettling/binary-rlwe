@@ -1,0 +1,76 @@
+{
+  "at": "2026-10-21T21:52:26.168763+00:00",
+  "inputs": [
+    {
+      "source": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/kernel-resource-v3-path-resolution-v1.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/coordinator/kernel-resource-v3-path-resolution-v1.json",
+      "sha256": "6740588bf0ac3873438ef11956eee216f2086062f34f9ee4a4622e0fefdc76c7",
+      "bytes": 1494,
+      "depth": "full report / code selected relevant sections / exact parsed identity as described in full report"
+    },
+    {
+      "source": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF3-PHASE2/full-report-v1.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/FULL-FF3-PHASE2/full-report-v1.md",
+      "sha256": "1ff44833ff98c0d96c7b6f30447d12f331d26c4b7dad0b4688436984af1748aa",
+      "bytes": 16852,
+      "depth": "full report / code selected relevant sections / exact parsed identity as described in full report"
+    },
+    {
+      "source": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF3-PHASE2/source-complexity-report-v1.md",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/FULL-FF3-PHASE2/source-complexity-report-v1.md",
+      "sha256": "c9374e485513726ed19d3b78db0640652b5d9f062c5761e7a438fa76f80bac9b",
+      "bytes": 6623,
+      "depth": "full report / code selected relevant sections / exact parsed identity as described in full report"
+    },
+    {
+      "source": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF3-PHASE2/independent-certificate-check-v2.py",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/FULL-FF3-PHASE2/independent-certificate-check-v2.py",
+      "sha256": "b2965fbad872ae30501a58de69e3a571a64c8b23880c490497de042dbf78688c",
+      "bytes": 13273,
+      "depth": "full report / code selected relevant sections / exact parsed identity as described in full report"
+    },
+    {
+      "source": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF3-PHASE2/independent-certificate-check-v2.stdout.jsonl",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/FULL-FF3-PHASE2/independent-certificate-check-v2.stdout.jsonl",
+      "sha256": "6eed6016ff4be14405355b0dd49ed560f257d6246b5ebac0ef2b0b33581bd09b",
+      "bytes": 4145,
+      "depth": "full report / code selected relevant sections / exact parsed identity as described in full report"
+    },
+    {
+      "source": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF3-PHASE2/phase2-final-seal-v1.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/FULL-FF3-PHASE2/phase2-final-seal-v1.json",
+      "sha256": "7434c7e38e5e9d529c74ebd475ce9e405b09e0dee8663143c1b9b0b4a0fbef5d",
+      "bytes": 50467,
+      "depth": "full report / code selected relevant sections / exact parsed identity as described in full report"
+    },
+    {
+      "source": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-TRANSFER2/full-report-v1.txt",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/BLIND-TRANSFER2/full-report-v1.txt",
+      "sha256": "a5ac8105eac82ca5483f95766ba940f731e01797b60a62f8a3f791718fbad176",
+      "bytes": 35569,
+      "depth": "full report / code selected relevant sections / exact parsed identity as described in full report"
+    },
+    {
+      "source": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-TRANSFER2/finite-audit-v1.py",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/BLIND-TRANSFER2/finite-audit-v1.py",
+      "sha256": "b340145a15169dd0061f4eb0cce8b5721ec92c584e84a2b4a885d7970e636322",
+      "bytes": 11399,
+      "depth": "full report / code selected relevant sections / exact parsed identity as described in full report"
+    },
+    {
+      "source": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-TRANSFER2/seal-v1.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/BLIND-TRANSFER2/seal-v1.json",
+      "sha256": "43f5fe6ba73f2c7b712f7f0a8b710d2a3990f72f7b0a735d2c0ccfd79543315d",
+      "bytes": 10275,
+      "depth": "full report / code selected relevant sections / exact parsed identity as described in full report"
+    },
+    {
+      "source": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF3-PHASE2/regression-dispositions-v1.json",
+      "snapshot": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/FULL-FF3-PHASE2/regression-dispositions-v1.json",
+      "sha256": "85f1a5476c7de805cdd8a0972decac9e7e01998de7a13a245b08273315132cae",
+      "bytes": 171729,
+      "depth": "full report / code selected relevant sections / exact parsed identity as described in full report"
+    }
+  ],
+  "blindness": "Full reviewer; no BLIND-RESOURCE4 verdict or proof read. Its allowed mathematical tables were compared only for exact coefficient identity."
+}

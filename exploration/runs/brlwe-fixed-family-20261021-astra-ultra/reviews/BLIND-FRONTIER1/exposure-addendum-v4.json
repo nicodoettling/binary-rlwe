@@ -1,0 +1,25 @@
+{
+  "at": "2026-10-21T20:26:47.249200+00:00",
+  "files": [
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-FRONTIER1/allowed-read-addendum-v4.json",
+      "sha256": "9e1df1e5269d3900f35f15d1bc0c427d94281670b1236b10410554fa86d1bba1",
+      "bytes": 907,
+      "exposure": "entire content"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-FRONTIER1/allowed-input/rs-actual-radius-witness-statement-v1.md",
+      "sha256": "402db730de4281c45c21b12840b700dca685033c4cdb926e6cc1ec1eae5f8dab",
+      "bytes": 1838,
+      "exposure": "entire content"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-FRONTIER1/allowed-input/actual-radius-parameter-definitions-v1.md",
+      "sha256": "eb12d66a9d457d1eea01b3c92da4f1018bc1c0c75476b7ea3c0ae3334d2967a7",
+      "bytes": 1717,
+      "exposure": "entire content"
+    }
+  ],
+  "additional_permitted_paths": "Manifest lists three historical theorem paths; none was opened. Only the copied theorem and parameter definitions were read.",
+  "source_proofs_or_outcomes": "None accessed"
+}

@@ -1,0 +1,45 @@
+{
+  "service_activation_utc": "2026-10-21T17:48:10.636448+00:00",
+  "service_activation_monotonic": 699808.034735,
+  "recorded_at": "2026-10-21T17:51:23.708094+00:00",
+  "observed_monotonic": 700001.106536314,
+  "clock_reset": false,
+  "nonterminal_gate": {
+    "offset_minutes": 45,
+    "utc": "2026-10-21T18:33:10.636448+00:00",
+    "monotonic": 702508.034735
+  },
+  "allocation_90": {
+    "offset_minutes": 90,
+    "utc": "2026-10-21T19:18:10.636448+00:00",
+    "monotonic": 705208.034735
+  },
+  "allocation_150": {
+    "offset_minutes": 150,
+    "utc": "2026-10-21T20:18:10.636448+00:00",
+    "monotonic": 708808.034735
+  },
+  "protected_end_discovery_cutoff": {
+    "offset_minutes": 210,
+    "utc": "2026-10-21T21:18:10.636448+00:00",
+    "monotonic": 712408.034735
+  },
+  "consolidation_start": {
+    "offset_minutes": 270,
+    "utc": "2026-10-21T22:18:10.636448+00:00",
+    "monotonic": 716008.034735
+  },
+  "workers_experiments_stop": {
+    "offset_minutes": 285,
+    "utc": "2026-10-21T22:33:10.636448+00:00",
+    "monotonic": 716908.034735
+  },
+  "final_checkpoint": {
+    "offset_minutes": 295,
+    "utc": "2026-10-21T22:43:10.636448+00:00",
+    "monotonic": 717508.034735
+  },
+  "graceful_shutdown_at": "2026-10-21T22:47:05.636448+00:00",
+  "scheduled_kill_at": "2026-10-21T22:48:05.636448+00:00",
+  "hard_deadline_at": "2026-10-21T22:48:10.636448+00:00"
+}

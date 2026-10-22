@@ -1,0 +1,6 @@
+{
+  "recorded_at": "2026-10-21T21:57:59.599849+00:00",
+  "issue": "Supplement extraction initially assumed message arguments were plaintext and printed five 260-character encrypted-assignment prefixes in one tool result. This violated the audit instruction against dumping ciphertext.",
+  "remedy": "Removed all message prefixes from the persisted metadata file; corrected extraction script to retain only task/config metadata and hashes. No decryption attempted, no plaintext secrets read or reported. Tool output cannot be retroactively removed.",
+  "scope": "Auditor process lapse only; not evidence of a launch, mathematical or billing defect."
+}

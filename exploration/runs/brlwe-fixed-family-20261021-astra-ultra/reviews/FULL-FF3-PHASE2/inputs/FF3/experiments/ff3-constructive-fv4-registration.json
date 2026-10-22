@@ -1,0 +1,9 @@
+{
+ "id":"FF3-CONSTRUCTIVE-FV4","registered_before_execution":true,
+ "hypothesis":"The two-secret normalized residual channel preserves both full endpoints; naive independent mapping of four residuals violates affine compatibility. The exhaustive all-secret kernel obeys its conditional-law and comparator couplings, and determinant/rank inequality includes nonunits.",
+ "code":"ff3-constructive-fv4.py","inputs":"Exact n1,n2 two-secret Q3q2 channel H; named four-residual violation; every d in{-1,0,1}^n except0 for n2,n4 and primes3,5,7,17; n2Q7q2T1 exhaustive simulator with uniform error on{-1,0,1}^2 and target rational product noise(3/4,1/4).",
+ "seed":"none exhaustive","command":"ulimit -v 524288; /usr/bin/time -v timeout 120s python3 ff3-constructive-fv4.py > ff3-constructive-fv4-output.json 2> ff3-constructive-fv4-resource.txt",
+ "limits":{"wall_seconds":120,"address_space_bytes":536870912,"expected_seconds":5,"expected_rss_bytes":50000000,"heavy":false},
+ "precision":"Only exact Python Fraction and integer arithmetic. Rational finite errors are named surrogates, not discrete Gaussian approximations. Full one-sample and two-sample conditional output laws are calculated.",
+ "expected":"All exact assertions pass; four-residual product repair rejected; comparator acceptance bounded; nonunit determinant/rank cases retained."
+}

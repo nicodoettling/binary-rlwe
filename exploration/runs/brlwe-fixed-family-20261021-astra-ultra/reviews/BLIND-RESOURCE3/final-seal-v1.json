@@ -1,0 +1,204 @@
+{
+  "sealed_at": "2026-10-21T21:39:55.062403+00:00",
+  "scope": "Every explicitly known permitted input and referee-generated report/code/receipt; seal files themselves excluded to avoid circular hashing. No unknown file was opened.",
+  "files": [
+    {
+      "path": "allowed-input/compact-selector-statement-v2.md",
+      "bytes": 3428,
+      "sha256": "99bc6ba88f7760ab8c3bf1045a3162c8c18cb35c4f311b3ae6d1af528ddfa230"
+    },
+    {
+      "path": "allowed-input/compact-selector-statement-v3.md",
+      "bytes": 3952,
+      "sha256": "20c66a210cfb4821eec35b371fbf7478ec3493d18d656a18a5b06dffc2fed889"
+    },
+    {
+      "path": "allowed-input/compact-selector-table.json",
+      "bytes": 6997,
+      "sha256": "59acd26442278a2a0191953888256f3cbb546e46212273d82190e06570c5040a"
+    },
+    {
+      "path": "allowed-input/definitions.md",
+      "bytes": 1028,
+      "sha256": "430c7e82f09cea2e29824ae09ea17caae38d45b8c978bc5469516854a70e783d"
+    },
+    {
+      "path": "allowed-input/endpoint-definitions-v1.md",
+      "bytes": 1920,
+      "sha256": "401cb1e19d271a003b7d08b9e7eb0db64117a5a2f318b678f95f275f2f8a4b49"
+    },
+    {
+      "path": "allowed-input/energy-rank-kernel-statement-v2.md",
+      "bytes": 3203,
+      "sha256": "a8c7daf894df5d0d5ac8ac5fa8132fcbad884ab5020baac7500d820169c95556"
+    },
+    {
+      "path": "allowed-input/radial-kernel-tables.json",
+      "bytes": 802,
+      "sha256": "573e8ef817299486670f9ed9b61d7611387b882f21de93cc1f64ba39d7dad81c"
+    },
+    {
+      "path": "allowed-input/two-event-noise-kernel-statement-v1.md",
+      "bytes": 2151,
+      "sha256": "ba5c8050af98cce9e7dec3d9c1b9a1806f606f9b59f1ca40e62917aa093e913b"
+    },
+    {
+      "path": "allowed-read-addendum-v1.json",
+      "bytes": 392,
+      "sha256": "6dd93ac2e8cfacd8fa1e7ae4d4ec746d0e4838e173ea81aebba1f8c34ab3655d"
+    },
+    {
+      "path": "allowed-read-addendum-v2.json",
+      "bytes": 386,
+      "sha256": "2eefff29e7635e673570049b114e5a79ad8f3085a89e6455f59231cc3deec19e"
+    },
+    {
+      "path": "allowed-read-manifest-v1.json",
+      "bytes": 1045,
+      "sha256": "77252e2004b000faba8031c9d58dbee5767a728c2d4666fbcafc899d7549e4ef"
+    },
+    {
+      "path": "assignment-verbatim.txt",
+      "bytes": 2417,
+      "sha256": "031cf79d580608fe73a275216adda6e61fb0bf425015f2ed812f4b7bf36899fb"
+    },
+    {
+      "path": "claim-graph-local.json",
+      "bytes": 4819,
+      "sha256": "99f93f55d278ee3aab5c60e2f083f49805a7510b973961bcf7406f8dca7ff53c"
+    },
+    {
+      "path": "complete-report.md",
+      "bytes": 37687,
+      "sha256": "774e5020cc3593ce2e8dab4adc208d6400b6e4ffc7dece8635f53a40a6b0a2c8"
+    },
+    {
+      "path": "exact-check-run-receipt.json",
+      "bytes": 939,
+      "sha256": "6b9d61003c316f05de4dd03152e4f8460223ab9899934dabbf7cd0477ae96ca2"
+    },
+    {
+      "path": "exact-check-stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "exact-check-stdout.json",
+      "bytes": 1130,
+      "sha256": "ef72d07bb0279d65702167ceec7f262b47b0f4ef0878da5b27140ff32695191f"
+    },
+    {
+      "path": "exact-check-time.txt",
+      "bytes": 961,
+      "sha256": "cf59c6aca72ccd077a758f1cdba3d748b6b30b82e508fc9982d9df56f995814a"
+    },
+    {
+      "path": "exposure-log.md",
+      "bytes": 3891,
+      "sha256": "92bc3d9e25c41d4a6c9f3b80dd3e1c5c8b43e6400fcb4a2996660d1c6b90c02a"
+    },
+    {
+      "path": "frozen-addendum-receipts-v1.json",
+      "bytes": 345,
+      "sha256": "3c4e60e0d0e780d3380e4011e2171a74d8fdcd3447306b454fbf4d124ea60196"
+    },
+    {
+      "path": "frozen-input-receipts-v1.json",
+      "bytes": 2431,
+      "sha256": "c5d5b68a53b6c1834e81316300b73a5916360dfbcd5d001ecfd8bd271bcc542b"
+    },
+    {
+      "path": "frozen-inputs/compact-selector-statement-v2.md",
+      "bytes": 3428,
+      "sha256": "99bc6ba88f7760ab8c3bf1045a3162c8c18cb35c4f311b3ae6d1af528ddfa230"
+    },
+    {
+      "path": "frozen-inputs/compact-selector-statement-v3.md",
+      "bytes": 3952,
+      "sha256": "20c66a210cfb4821eec35b371fbf7478ec3493d18d656a18a5b06dffc2fed889"
+    },
+    {
+      "path": "frozen-inputs/compact-selector-table.json",
+      "bytes": 6997,
+      "sha256": "59acd26442278a2a0191953888256f3cbb546e46212273d82190e06570c5040a"
+    },
+    {
+      "path": "frozen-inputs/definitions.md",
+      "bytes": 1028,
+      "sha256": "430c7e82f09cea2e29824ae09ea17caae38d45b8c978bc5469516854a70e783d"
+    },
+    {
+      "path": "frozen-inputs/endpoint-definitions-v1.md",
+      "bytes": 1920,
+      "sha256": "401cb1e19d271a003b7d08b9e7eb0db64117a5a2f318b678f95f275f2f8a4b49"
+    },
+    {
+      "path": "frozen-inputs/energy-rank-kernel-statement-v2.md",
+      "bytes": 3203,
+      "sha256": "a8c7daf894df5d0d5ac8ac5fa8132fcbad884ab5020baac7500d820169c95556"
+    },
+    {
+      "path": "frozen-inputs/radial-kernel-tables.json",
+      "bytes": 802,
+      "sha256": "573e8ef817299486670f9ed9b61d7611387b882f21de93cc1f64ba39d7dad81c"
+    },
+    {
+      "path": "frozen-inputs/two-event-noise-kernel-statement-v1.md",
+      "bytes": 2151,
+      "sha256": "ba5c8050af98cce9e7dec3d9c1b9a1806f606f9b59f1ca40e62917aa093e913b"
+    },
+    {
+      "path": "frozen-methodology/SKILL.md",
+      "bytes": 4484,
+      "sha256": "9350ffeb5aebe0b126710786586f94ef5d990be35b8b9defc8004136dae40318"
+    },
+    {
+      "path": "frozen-methodology/audit-protocol.md",
+      "bytes": 8480,
+      "sha256": "2d076ba631c340d71f6259757c6207dbe230872810e9bad3188b215f46d095f4"
+    },
+    {
+      "path": "frozen-methodology/probability-regressions.md",
+      "bytes": 6814,
+      "sha256": "ad7eecf93ed02e5b2957243a9bbb2cac8e8eeeb991971f4d77d0818cd04a4fa4"
+    },
+    {
+      "path": "frozen-repair-receipts-v1.json",
+      "bytes": 174,
+      "sha256": "70bd4e00e87dce2dd4b30688e3387b8b0987641e4650ae610abc34433060409d"
+    },
+    {
+      "path": "independent_exact_check.py",
+      "bytes": 9550,
+      "sha256": "398a7271bb04b9e0552f708f3dd30924c993131683ee002deb3f571c9d6ca702"
+    },
+    {
+      "path": "preregistration-v1.json",
+      "bytes": 3166,
+      "sha256": "1de7c951e87231825b335ee3cc491d7f55cc2904eac3d45caa1a6d6048ddabb1"
+    },
+    {
+      "path": "review-summary.json",
+      "bytes": 3207,
+      "sha256": "9a9a4f7984aa824eee17f3553420475159523ce1a4bce920ebd17844e254133f"
+    },
+    {
+      "path": "root-coordination-record.txt",
+      "bytes": 3338,
+      "sha256": "f324099742c400730c1664b9e5c0fed911b0393c0f7839961ff5e37c569d6f7a"
+    },
+    {
+      "path": "run_exact_check.py",
+      "bytes": 1110,
+      "sha256": "38f57b614bc66659d9338ed44e4b591f6be913aa0072776d5de13f5b0f8a28ed"
+    },
+    {
+      "path": "timing-only-receipt.json",
+      "bytes": 646,
+      "sha256": "e9657dd79dd8214e7022b289f352f0894b8ef8f63864db7e3c8a2927027bc04b"
+    }
+  ],
+  "reviewer": "BLIND-RESOURCE3",
+  "strict_blind_interval": "Original v2 independent reasoning and completed exact experiment before authorized v3 author-status/provenance hints; see exposure-log.md.",
+  "final_disposition": "Local report complete; original v2 M defect retained; ENERGY-v2 proved under supplied assumptions; v3 rational-M repair checked mathematically with exposure qualification; global certification not claimed."
+}

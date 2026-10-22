@@ -1,0 +1,150 @@
+{
+  "at": "2026-10-21T21:57:37.686861+00:00",
+  "scope": "Actual local configuration settings only; no billing observation. Only sessions with these events supply explicit tier fields.",
+  "records": [
+    {
+      "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T17-49-20-01a15f94-f583-7e80-8df9-e6001ee7e5bf.jsonl",
+      "line": 465,
+      "agent": "/root/ff1",
+      "timestamp": "2026-10-21T18:19:43.598Z",
+      "selected_fields": {
+        "model": "gpt-6-astra",
+        "service_tier": "default",
+        "approval_policy": "never",
+        "reasoning_effort": "ultra"
+      }
+    },
+    {
+      "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T19-24-38-01a15fec-35b1-73b0-9959-688df1cc8cfc.jsonl",
+      "line": 413,
+      "agent": "/root/full_frontier1",
+      "timestamp": "2026-10-21T19:53:10.509Z",
+      "selected_fields": {
+        "model": "gpt-6-astra",
+        "service_tier": "default",
+        "approval_policy": "never",
+        "reasoning_effort": "ultra"
+      }
+    },
+    {
+      "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T19-03-49-01a15fd9-29d1-7eb0-b32d-97d9c42c745f.jsonl",
+      "line": 624,
+      "agent": "/root/ff3_kernel",
+      "timestamp": "2026-10-21T19:46:41.663Z",
+      "selected_fields": {
+        "model": "gpt-6-astra",
+        "service_tier": "default",
+        "approval_policy": "never",
+        "reasoning_effort": "ultra"
+      }
+    },
+    {
+      "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T20-29-20-01a16027-7152-7541-a92e-e738568ef01e.jsonl",
+      "line": 370,
+      "agent": "/root/full_source3",
+      "timestamp": "2026-10-21T20:53:55.344Z",
+      "selected_fields": {
+        "model": "gpt-6-astra",
+        "service_tier": "default",
+        "approval_policy": "never",
+        "reasoning_effort": "ultra"
+      }
+    },
+    {
+      "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T17-48-11-01a15f93-e6bd-7fd2-953c-80af410308a1.jsonl",
+      "line": 590,
+      "agent": "/root",
+      "timestamp": "2026-10-21T18:28:36.966Z",
+      "selected_fields": {
+        "model": "gpt-6-astra",
+        "service_tier": "default",
+        "approval_policy": "never",
+        "reasoning_effort": "ultra"
+      }
+    },
+    {
+      "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T17-48-11-01a15f93-e6bd-7fd2-953c-80af410308a1.jsonl",
+      "line": 1199,
+      "agent": "/root",
+      "timestamp": "2026-10-21T19:06:52.442Z",
+      "selected_fields": {
+        "model": "gpt-6-astra",
+        "service_tier": "default",
+        "approval_policy": "never",
+        "reasoning_effort": "ultra"
+      }
+    },
+    {
+      "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T17-48-11-01a15f93-e6bd-7fd2-953c-80af410308a1.jsonl",
+      "line": 1748,
+      "agent": "/root",
+      "timestamp": "2026-10-21T19:41:26.064Z",
+      "selected_fields": {
+        "model": "gpt-6-astra",
+        "service_tier": "default",
+        "approval_policy": "never",
+        "reasoning_effort": "ultra"
+      }
+    },
+    {
+      "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T17-48-11-01a15f93-e6bd-7fd2-953c-80af410308a1.jsonl",
+      "line": 2416,
+      "agent": "/root",
+      "timestamp": "2026-10-21T20:22:53.739Z",
+      "selected_fields": {
+        "model": "gpt-6-astra",
+        "service_tier": "default",
+        "approval_policy": "never",
+        "reasoning_effort": "ultra"
+      }
+    },
+    {
+      "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T17-48-11-01a15f93-e6bd-7fd2-953c-80af410308a1.jsonl",
+      "line": 3114,
+      "agent": "/root",
+      "timestamp": "2026-10-21T21:01:01.904Z",
+      "selected_fields": {
+        "model": "gpt-6-astra",
+        "service_tier": "default",
+        "approval_policy": "never",
+        "reasoning_effort": "ultra"
+      }
+    },
+    {
+      "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T17-48-11-01a15f93-e6bd-7fd2-953c-80af410308a1.jsonl",
+      "line": 3821,
+      "agent": "/root",
+      "timestamp": "2026-10-21T21:32:00.601Z",
+      "selected_fields": {
+        "model": "gpt-6-astra",
+        "service_tier": "default",
+        "approval_policy": "never",
+        "reasoning_effort": "ultra"
+      }
+    },
+    {
+      "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T21-42-04-01a1606a-0884-7d91-b44e-a6a247ffafd8.jsonl",
+      "line": 345,
+      "agent": "/root/delivery_audit1",
+      "timestamp": "2026-10-21T21:56:12.944Z",
+      "selected_fields": {
+        "model": "gpt-6-astra",
+        "service_tier": "default",
+        "approval_policy": "never",
+        "reasoning_effort": "ultra"
+      }
+    },
+    {
+      "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T17-49-46-01a15f95-5af6-7a52-89f5-88d4ca9ba925.jsonl",
+      "line": 439,
+      "agent": "/root/sv",
+      "timestamp": "2026-10-21T18:20:52.541Z",
+      "selected_fields": {
+        "model": "gpt-6-astra",
+        "service_tier": "default",
+        "approval_policy": "never",
+        "reasoning_effort": "ultra"
+      }
+    }
+  ]
+}

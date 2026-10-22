@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-21T20:02:53.971538+00:00",
+  "frozen_inputs_rechecked": 87,
+  "inherited_regressions": 203,
+  "local_regressions": 17,
+  "review_controls": 5,
+  "experiment_jobs": 2,
+  "both_exits": 0,
+  "all_jobs_released": true,
+  "author_files_edited": false,
+  "ENUM_v1_defect_preserved": true,
+  "new_root_proofs_read": false,
+  "remaining_gates": [
+    "Root reconciliation",
+    "fresh blind review",
+    "fresh review of separately corrected ENUM proof; this exact proof-v1 has rejected intermediate inclusion"
+  ],
+  "review_complete": true
+}

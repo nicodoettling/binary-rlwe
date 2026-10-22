@@ -1,0 +1,166 @@
+{
+  "id": "DD-ACCEPTANCE-v1",
+  "accepted_at": "2026-10-21T13:53:30.098921+00:00",
+  "clock": {
+    "checked_at": "2026-10-21T13:53:30.098921+00:00",
+    "elapsed_seconds": 5669.816932,
+    "phase": "discovery",
+    "cap_state": "running",
+    "cap_updated_at": "2026-10-21T12:19:00.377452+00:00",
+    "actual_start": "2026-10-21T12:19:00.281989+00:00",
+    "graceful_shutdown_at": "2026-10-21T16:17:55.281989+00:00",
+    "hard_deadline_at": "2026-10-21T16:19:00.281989+00:00"
+  },
+  "status": "ACCEPTED_WITH_EXPLICIT_SCOPE",
+  "main": "FIXED-MAIN-v2",
+  "accepted_new_components": [
+    "MR-v1",
+    "AM-MAIN-v3",
+    "SFUNC-v2",
+    "DD1-EXTRACT-v1",
+    "DD2-AM1-SNF-v1",
+    "DD2-PRIMES-v1"
+  ],
+  "optional_accepted_note": "coordinator/nonvacuity-and-radius-note-v1.md (not a main dependency)",
+  "files": {
+    "coordinator/modround-statement-v1.md": "fdcbdf08b35faced79539eb82712607deb765d391cd65cbfe4e52cf2a32f9e6b",
+    "coordinator/modround-proof-v1.md": "6cd5ca4a4cd569ba5ab886f0d5842204fd78e1fa61995b4c4fefed7fe68815c1",
+    "coordinator/am-main-theorem-v3.md": "eaabea064b734ccefbbb1d2410ed03fecdbe671f098c2e69d59d432df855e33c",
+    "coordinator/am-main-proof-v3.md": "f27a64db55c4442e38497518d8b9beca3b13e21bf0530a40497c9bc897131143",
+    "coordinator/selected-functional-statement-v2.md": "2249ed6838cc5ef44b67407abb2d4d2b8d7975d6e2abc4ecff43e115e45b02ed",
+    "coordinator/selected-functional-proof-v2.md": "62060ad053176080b00147cd7277c742fa58b4775a2ae7c47a727101806b516c",
+    "workers/DD1/extraction-theorem-v1.md": "c8ad79f0f681e346e149749d46c3bb98ff5e2e6a2ef5cbc406a47f8c2abf0e38",
+    "workers/DD1/extraction-proof-v1.md": "4a599d9eed5dfefca4b3d0bbcd1402aaba2e709310e7eaa62feb36d5b6b3f357",
+    "workers/DD2/am1-strengthened-theorem-v1.md": "3500de1a74555ecbf8102d4fb52a87f6a0d87c7f9cdcca22e849f7a2812d870d",
+    "workers/DD2/am1-strengthened-proof-v1.md": "d1d22c6a34776a493b7d43611abb076c8e97f07542ad48da33d5072683766e43",
+    "workers/DD2/prime-list-theorem-proof-v1.md": "c54f0a6e37aa6ed6a13bb9cf387f98ce99fb12311a517c6fec32e3e32188d6cf",
+    "coordinator/fixed-main-statement-v2.md": "25da2502104e746d3e9f2ca10e3d070372ff95b853b1fd2b0e6c96b1b909ecb6",
+    "coordinator/fixed-main-proof-v2.md": "2e98d25b0f349e22dfeb23ba5ea18ebe339039fa08fb39f92cf45afa9f50f0c7",
+    "coordinator/nonvacuity-and-radius-note-v1.md": "1f0bcde15cfa7dabdb2e522e0749ea714a8c2f1dafd49bbc8c659cf51de7a574"
+  },
+  "inherited_exact_files": [
+    {
+      "claim": "A-FRAC-v1",
+      "kind": "theorem",
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/A/fractional-composition/theorem-only-v1.md",
+      "sha256": "5c471744bb04c8149b0d539eaa26e1544d0ba8097b0d68ea019cabb74461b485",
+      "acceptance": "ACCEPTED_CONDITIONAL_ANALYTIC",
+      "match": true
+    },
+    {
+      "claim": "A-FRAC-v1",
+      "kind": "proof",
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/A/fractional-composition/proof-v1.md",
+      "sha256": "f4c889a64173135b2e29cebeb8190f352b1d4de6ada77f37a3f7c4f3ec797af2",
+      "acceptance": "ACCEPTED_CONDITIONAL_ANALYTIC",
+      "match": true
+    },
+    {
+      "claim": "B-GP-v2",
+      "kind": "theorem",
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/B/ideal-denominator/gaussian-periodic-theorem-v2.md",
+      "sha256": "be7f05d67fc8f2b24fc6b93321c95005f4d7f6e24bab513b2cbaf35c82aeaad7",
+      "acceptance": "ACCEPTED_CONDITIONAL_FINITE_BRIDGE",
+      "match": true
+    },
+    {
+      "claim": "B-GP-v2",
+      "kind": "proof",
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/workers/B/ideal-denominator/gaussian-periodic-proof-v2.md",
+      "sha256": "207a9af38eb570e2a140d88008c0f4bc363f7d3c8a72049c53bbab85798910b4",
+      "acceptance": "ACCEPTED_CONDITIONAL_FINITE_BRIDGE",
+      "match": true
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "kind": "theorem",
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/c8-repair/multiplier-ohcp-theorem-v8.md",
+      "sha256": "857a62e9f4a937a80e5cb3b115c8b132abf122c16665d29b39dcb62bde86fe0a",
+      "acceptance": "ACCEPTED_CONDITIONAL_COMPUTATIONAL_INTERFACE",
+      "match": true
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "kind": "proof",
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/c8-repair/multiplier-ohcp-proof-v9.md",
+      "sha256": "e9b3023715a3d4ec90c474aba6945223aa376248b1fa216134964a5643fb4c5f",
+      "acceptance": "ACCEPTED_CONDITIONAL_COMPUTATIONAL_INTERFACE",
+      "match": true
+    },
+    {
+      "claim": "C-OHCP-v8",
+      "kind": "algorithm",
+      "path": "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/c8-repair/multiplier-ohcp-algorithm-v2.md",
+      "sha256": "4361c90a7fa7cfe25d0ab3e8cd5c5333fb474cf1fb764375e10c29fca5102735",
+      "acceptance": "ACCEPTED_CONDITIONAL_COMPUTATIONAL_INTERFACE",
+      "match": true
+    },
+    {
+      "claim": "M3-ENTROPY-v1",
+      "kind": "theorem",
+      "path": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/workers/B/theorem-only-v1.md",
+      "sha256": "6e71289b7e9979ad169d1008d2e40f2cdb3f09f1bd7a29b48e41c90431e6becd",
+      "acceptance": "ab-acceptance-v1 exact scoped acceptance",
+      "match": true
+    },
+    {
+      "claim": "M3-ENTROPY-v1",
+      "kind": "proof",
+      "path": "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/workers/B/proof-v1.md",
+      "sha256": "0b67d511c9bfc43f5a7fdbc51102f983471a1095bd0612efcd66ee82395c6fab",
+      "acceptance": "ab-acceptance-v1 exact scoped acceptance",
+      "match": true
+    }
+  ],
+  "dependency_review": "reviews/FULL2/source-complexity-report-v1.md",
+  "inherited_acceptance": [
+    "exploration/runs/brlwe-standard-hardness-20261017-astra-ultra/coordinator/samej-acceptance-v1.md",
+    "exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/coordinator/ab-acceptance-v1.md"
+  ],
+  "full_review": [
+    "reviews/FULL2/full-report-v1.md",
+    "reviews/FULL2/source-complexity-report-v1.md",
+    "reviews/FULL2/exact-v2-recheck.md"
+  ],
+  "blind_review": [
+    "reviews/BLIND2/independent-report.md",
+    "reviews/BLIND2/followup-v2-report.md"
+  ],
+  "seals": {
+    "reviews/FULL1/seal-v1.json": "0ebc8ba7ced811daa5be65fdd1308962650ccc8af2ac753140cde7befd3cb3e3",
+    "reviews/BLIND1/seal-v1.json": "8a21d98bf02c6cec040807c3a90198afd911897b355ccaa75af5bb44a92d1e96",
+    "reviews/FULL2/seal-v1.json": "72fc3e7fae66041f0d9b23b4c5e36634963daa504bfff828bf700d00303b5d5d",
+    "reviews/FULL2/seal-v2.json": "8bfc1990c2be060e1c29ade21aac2c8bd3948f40ab03196fb3ed39e8da18b1f7",
+    "reviews/BLIND2/seal-manifest.json": "089f1e6a0d22128de9c11654e06ed8a709e86622b98ed50cdd37d2105bcf7799",
+    "reviews/BLIND2/followup-v2-seal-manifest.json": "a18e5781eaf2fe0d84bf4a95c604a1b5f145bdff2e79940164273ba1922a8b01"
+  },
+  "integrity": [
+    "coordinator/first-wave-integrity-verification.json",
+    "coordinator/second-wave-integrity-verification-v1.json",
+    "coordinator/second-wave-integrity-verification-v2.json"
+  ],
+  "regression_coverage": {
+    "baseline": 164,
+    "new": 39,
+    "total": 203,
+    "registry": "regressions.json",
+    "sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3"
+  },
+  "probability_gates": {
+    "full_joint_law": "PASS: retain one S through K raw samples; condition on full calibration history before disjoint test bank; no CRT-error independence shortcut",
+    "normalizers_support": "PASS: actual Gaussian normalizers, posterior denominator and occupied fibers retained; source-only bad event charged",
+    "CP-1": "PASS: old product conclusion rejected; exact 160-atom control reproduced; current arguments use conditional bounds, union bounds, complete-law TV and inherited causal C8",
+    "finite_falsification": "PASS at stated scopes; 12 preregistered jobs, 11 exit0, one preserved logging failure; finite and floating evidence do not replace analytic proofs"
+  },
+  "scope": [
+    "R=Z[X]/(X^n+1), n power of two; integral ordinary-basis J with N(J)<=2^(rho*n), fixed rho<1",
+    "Classical BDD in J^-1; rational target within the explicit canonical-infinity radius; source-family hardness is not established",
+    "Exact target uses one coefficient-binary shared secret, uniform public ring multipliers and independent coefficient discrete-Gaussian errors",
+    "One prescribed target modulus q0; D0 all-input bounded code; actual calls may be transformed/hybrid",
+    "Explicit finite guards and sample/advantage/noise window; fixed b,c before target family; full input/evaluator/oracle runtime charged",
+    "No unrestricted worst-case hardness, quantum composition, practical efficiency or one fixed noise family for all PPT exponents"
+  ],
+  "status_banner_policy": "Frozen theorem/proof bytes retain their original PROVISIONAL banners. This exact-hash acceptance record is authoritative for these versions only; later edits require new review.",
+  "review_independence": "Full and fresh statement-only reviewers were separate fork-none Astra ultra agents; same-model agreement is correlated scrutiny, not formal verification.",
+  "unresolved_main_gates": []
+}

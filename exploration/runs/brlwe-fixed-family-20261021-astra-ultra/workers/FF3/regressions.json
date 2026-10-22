@@ -1,0 +1,108 @@
+{
+  "inherited": "inherited-regression-references.json",
+  "inherited_count": 203,
+  "new": [
+    {
+      "id": "FF3-COMP-1",
+      "claim": "FF3-BLACKWELL-v1",
+      "model": "Source coefficient noise uniform; target informative. Both comparator and every fixed secret included.",
+      "expected": "Infeasible; source planted equals its comparator, so its outputs cannot be both informative target and uniform."
+    },
+    {
+      "id": "FF3-ID-1",
+      "claim": "FF3-BLACKWELL-v1",
+      "model": "Same modulus and same exact rational product error law.",
+      "expected": "Identity kernel is feasible with exact full conditional laws and comparator."
+    },
+    {
+      "id": "FF3-JOINT-1",
+      "claim": "FF3-BLACKWELL-v1",
+      "model": "One secret shared by two samples; source inputs and fresh kernels iid only conditional on that secret.",
+      "expected": "Exact one-sample fixed-secret equations imply correct shared-secret batch law. Replacing the shared secret by fresh per-sample secrets is rejected."
+    },
+    {
+      "id": "FF3-NORM-1",
+      "claim": "FF3-BLACKWELL-v1",
+      "model": "Finite LP must include all source row masses and uniform endpoint as well as planted equalities.",
+      "expected": "No claim based on unnormalized positive matrix, planted-only fit, or per-secret selected kernels."
+    },
+    {
+      "id": "FF3-NUM-1",
+      "claim": "FF3-BLACKWELL-v1",
+      "model": "HiGHS floating solver output reconstructed as rational entries.",
+      "expected": "Only exact rational constraint/nonnegativity verification can certify finite feasibility or Farkas infeasibility; solver status alone is provisional evidence."
+    },
+    {
+      "id": "CP-1",
+      "claim": "all probabilistic claims",
+      "model": "Cached-prefix finite model from mathematical-proof-audit/references/probability-regressions.md.",
+      "expected": "Retain rejection: 21/2000 > (1/10)^2; no marginal multiplication after support restriction."
+    },
+    {
+      "id": "FF3-RESIDUAL-RELATION-1",
+      "claim": "FF3-TWOSECRET-v1 extension",
+      "model": "For four candidate secrets0,1,X,1+X, residuals must satisfy u0-u1-uX+u1X=0. Independent full-support channels violate it.",
+      "expected": "Reject naive independent residual-channel extension; positive named bad outcome in FV4."
+    },
+    {
+      "id": "FF3-ENUM-COST-1",
+      "claim": "FF3-ENUM-v1",
+      "model": "Unique binary candidate from small residual search",
+      "expected": "Charge2^n enumeration. Uniqueness does not imply efficient search or give free actual-secret advice."
+    },
+    {
+      "id": "FF3-ENUM-NONUNIT-1",
+      "claim": "FF3-ENUM-v1",
+      "model": "All differences d in{-1,0,1}^n, including rank-deficient residues",
+      "expected": "Use determinant/rank upper bound and preserve nonunits; never condition them away."
+    },
+    {
+      "id": "FF3-ENUM-COMP-1",
+      "claim": "FF3-ENUM-v1",
+      "model": "Uniform comparator may accidentally have a unique candidate",
+      "expected": "Charge betaQ; never assert its candidate is uniform or claim exact uniform endpoint after uncharged acceptance."
+    },
+    {
+      "id": "FF3-CORRELATED-NORM-1",
+      "claim": "row-normalized compatible residual product",
+      "model": "K_x(c,d) proportional to product_s H(b-as,d-cs), with exact Z(x).",
+      "expected": "Verify uniform and every fixed-secret endpoint independently; satisfying row normalization and affine compatibility alone is insufficient."
+    },
+    {
+      "id": "FF3-COUPLED-PRODUCT-FAIL-1",
+      "claim": "normalized full residual product",
+      "model": "FV5 exact n2Q3q2 H and all4candidate residuals, every Z retained.",
+      "expected": "Reject claimed endpoint repair: each planted conditionalTV\u22480.1180482685 and comparatorTV\u22480.0200531575, with exact rationals in FV5 output. No general coupled-kernel impossibility."
+    },
+    {
+      "id": "FF3-PAIR-MIXTURE-1",
+      "claim": "positive mixture of two-secret channels",
+      "model": "Arbitrary fixed positive weights on all cube edges; full retained-secret conditional laws.",
+      "expected": "Check mixtures against every secret plus comparator. Numerical LP status alone insufficient; seek exact retained-secret convex separator."
+    },
+    {
+      "id": "FF3-FIXED-EDGE-SEPARATION-1",
+      "claim": "fixed nonnegative edge mixture",
+      "model": "FV6 n4Q3q2 H, retained S eventD=C*S.",
+      "expected": "Target81/256; every fixed edge channel\u22641004756811/9885304832, so every fixed mixture TV\u22652123015421/9885304832. Does not restrict input-dependent weights."
+    },
+    {
+      "id": "FF3-ADAPTIVE-FIXED-H-FAIL-1",
+      "claim": "arbitrary observation-dependent edge selection for fixed symmetric H",
+      "model": "FV7 n2Q3q2 all4cube edge channels.",
+      "expected": "Zero-residual probability at most9011/16224 below9/16, exact gap115/16224; full Farkas certificate retained. Does not extend to asymmetric scalar H variants."
+    },
+    {
+      "id": "FF3-COEFFICIENTWISE-H-FAIL-1",
+      "claim": "full scalar-H vertex hull",
+      "model": "FV8 n2Q3q2 all scalar channel extrema, independent coefficient/branch choices, arbitrary input-dependent mixture.",
+      "expected": "Exact Farkas separation. The smaller solver UNKNOWN is preserved. No extension to correlated ring H."
+    },
+    {
+      "id": "FF3-RADIAL-POSITIVE-1",
+      "claim": "correlated ring-level radial H",
+      "model": "FV9 exact n2Q3q2 correlated ring-noise H and adaptive selector.",
+      "expected": "Exact positive kernel preserves all4fixed-secret laws and uniform comparator. Any broad claim excluding all correlated H must fail this control."
+    }
+  ]
+}

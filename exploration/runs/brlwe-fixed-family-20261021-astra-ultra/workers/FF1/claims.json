@@ -1,0 +1,82 @@
+{
+  "updated_at": "2026-10-21T18:16:21.680384+00:00",
+  "claims": [
+    {
+      "id": "FF1-MR-WITNESS-v1",
+      "status": "PROVISIONAL",
+      "statement": "Named deterministic MR retained-S planted distance is amplified at polynomial batch size; finite-Q coupling explicit.",
+      "files": [
+        "deterministic-rounding-witness-statement-v1.md",
+        "deterministic-rounding-witness-proof-v1.md"
+      ],
+      "dependencies": [
+        "DD MR-v1 scalar normalized DG comparison",
+        "Poisson summation",
+        "conditional iid bounded concentration"
+      ],
+      "regressions": [
+        "MR-FULL-SHARED-LAW",
+        "MR-DISCRETE-GAUSSIAN-NORMALIZER",
+        "MR-ADVANTAGE-WINDOW",
+        "CP-1",
+        "FF1-REG-1",
+        "FF1-REG-2"
+      ],
+      "downstream": "Rules out increasing-Q-only universal statistical transfer for this named channel."
+    },
+    {
+      "id": "FF1-COV-v1",
+      "status": "PROVISIONAL",
+      "statement": "Secret-independent additive covariance correction exact equality at four binary secrets forces zero public perturbation covariance for n>=4 power2.",
+      "files": [
+        "gaussian-correction-obstruction-statement-v1.md",
+        "gaussian-correction-obstruction-proof-v1.md"
+      ],
+      "dependencies": [
+        "PSD covariance",
+        "negacyclic Fourier diagonalization"
+      ],
+      "regressions": [
+        "MR-SIGNED-SECRET-COVARIANCE",
+        "FF1-REG-3",
+        "FF1-REG-4"
+      ],
+      "downstream": "Exact covariance model only; no approximate-TV lower bound."
+    },
+    {
+      "id": "FF1-COV-CUBE-v1",
+      "status": "PROVISIONAL",
+      "statement": "The same exact covariance equality on >3/4 of uniform binary cube forces zero public perturbation covariance.",
+      "files": [
+        "covariance-average-cube-supplement-v1.md"
+      ],
+      "dependencies": [
+        "FF1-COV-v1",
+        "four-face partition count"
+      ],
+      "regressions": [
+        "FF1-REG-4",
+        "FF1-REG-9"
+      ],
+      "downstream": "Exact covariance model only."
+    },
+    {
+      "id": "FF1-FIXED-FAMILY",
+      "status": "OPEN",
+      "statement": "One fixed target ring/modulus/noise before arbitrary polynomial sample/advantage resources.",
+      "files": [
+        "quantifiers-and-interfaces-v1.md",
+        "reduction-attempts-v1.md"
+      ],
+      "dependencies": [
+        "new transfer or different proof interface"
+      ],
+      "regressions": [
+        "FULL2-SCOPE-1",
+        "MR-ADVANTAGE-WINDOW"
+      ],
+      "downstream": "Main FF objective remains unresolved."
+    }
+  ],
+  "review": "No new theorem candidate has full/blind exact-version acceptance."
+}

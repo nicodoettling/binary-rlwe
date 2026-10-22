@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-21T20:12:48.788024+00:00",
+  "reason": "Explicit parent tenth-claim statement-only addendum",
+  "files": [
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-FRONTIER1/allowed-read-addendum-v3.json",
+      "sha256": "7ecdad345e4295c6fe51663cb962001ca610b8695bd4b5e7fd0896eaa02f01fe",
+      "bytes": 520,
+      "exposure": "entire content"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-FRONTIER1/allowed-input/list-source-decoder-statement-v1.md",
+      "sha256": "0d782566f57fc60c00dac0f3b3ae195936b88e880ddf878493eb8fa1ed9157d4",
+      "bytes": 2020,
+      "exposure": "entire content"
+    }
+  ],
+  "external_sources_read": []
+}

@@ -1,0 +1,3 @@
+# FULL-SV2 controls preregistration v2
+
+All hypotheses, fixed inputs, exact arithmetic, no-seed declaration, cutoff, and resource caps are identical to controls-v1-preregistration.md. The only code change explicitly reconstructs the already-integral C as a SymPy integer-domain matrix before calling Hermite normal form; v1 failed at that library domain check with DMDomainError, not at a mathematical assertion. Original v1 code, outputs and exit remain preserved. The complete unified diff is controls-v2.diff. Resources remain wall120s/CPU115s/AS512MiB. This is the second and final allowed job, requiring a new root grant. No result is anticipated from the failed suffix of v1.

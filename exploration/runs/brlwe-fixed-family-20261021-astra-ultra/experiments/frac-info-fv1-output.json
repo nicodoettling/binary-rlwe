@@ -1,0 +1,181 @@
+{
+  "exact_pair_controls": [
+    {
+      "secrets": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "tv1": "88/225",
+      "tv2": "27568/50625"
+    },
+    {
+      "secrets": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "tv1": "88/225",
+      "tv2": "27568/50625"
+    },
+    {
+      "secrets": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "tv1": "88/225",
+      "tv2": "27568/50625"
+    },
+    {
+      "secrets": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "tv1": "88/225",
+      "tv2": "27568/50625"
+    },
+    {
+      "secrets": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "tv1": "88/225",
+      "tv2": "27568/50625"
+    },
+    {
+      "secrets": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "tv1": "88/225",
+      "tv2": "27568/50625"
+    }
+  ],
+  "iid_reuse_negative_control": {
+    "repeated8_error": "1/5",
+    "invalid_iid_bound": 0.08388608000000004
+  },
+  "cp1": "rejects unproved sequential product",
+  "floating_gaussian_diagnostics": [
+    {
+      "q": 3,
+      "m": 1,
+      "s": 2.0,
+      "sigma": 1.0,
+      "delta_bound": 0.16190602734302836,
+      "min_observed_TV": 0.6684779380738094,
+      "max_affinity": 0.5065567893322357,
+      "scalar_unnormalized_tail_bounds": [
+        6.953523418481164e-197,
+        0.0
+      ],
+      "truncation_L": [
+        24,
+        20
+      ]
+    },
+    {
+      "q": 3,
+      "m": 2,
+      "s": 2.0,
+      "sigma": 1.0,
+      "delta_bound": 0.16190602734302836,
+      "min_observed_TV": 0.7967896999096283,
+      "max_affinity": 0.3799854573368305,
+      "scalar_unnormalized_tail_bounds": [
+        7.133205149852087e-197,
+        0.0
+      ],
+      "truncation_L": [
+        48,
+        20
+      ]
+    },
+    {
+      "q": 5,
+      "m": 2,
+      "s": 2.0,
+      "sigma": 1.0,
+      "delta_bound": 0.08783590176133996,
+      "min_observed_TV": 0.9034622888006194,
+      "max_affinity": 0.16889181783330304,
+      "scalar_unnormalized_tail_bounds": [
+        7.133205149852087e-197,
+        0.0
+      ],
+      "truncation_L": [
+        48,
+        20
+      ]
+    },
+    {
+      "q": 5,
+      "m": 3,
+      "s": 3.0,
+      "sigma": 1.5,
+      "delta_bound": 0.16249321963496507,
+      "min_observed_TV": 0.8058552297077771,
+      "max_affinity": 0.35628411136589133,
+      "scalar_unnormalized_tail_bounds": [
+        7.582409478279825e-197,
+        5.661623371109906e-243
+      ],
+      "truncation_L": [
+        108,
+        20
+      ]
+    },
+    {
+      "q": 7,
+      "m": 2,
+      "s": 3.0,
+      "sigma": 1.0,
+      "delta_bound": 0.10817820201478588,
+      "min_observed_TV": 0.9517337486567157,
+      "max_affinity": 0.0885784208774949,
+      "scalar_unnormalized_tail_bounds": [
+        7.31288688122301e-197,
+        0.0
+      ],
+      "truncation_L": [
+        72,
+        20
+      ]
+    }
+  ],
+  "limitations": "Finite exact laws are controls, not Gaussian proof. Binary64 Gaussian checks have stated scalar truncation bounds; no interval certification or asymptotic proof claimed."
+}

@@ -1,0 +1,5 @@
+# Public-information extension: nonatomic quantifier defect
+
+Preserved before repair,2026-10-21. FULL-FF3-PHASE2 independently found that workers/FF3/compressed-selector-public-extension-v1.md imposes its conditions only for every positive-mass z but never restricts the public Z to a discrete distribution. For a nonatomic independent Z the conditions are vacuous. Take uniform N=4 secret S, input X=S, uniform four-valued proposal E, class C=1[E=S] with L=2, G(e,c)=c and M=1. Rejection until acceptance reveals S, so guessing probability1 exceeds ML/N=1/2. The normalization is1/4 at every z but the v1 positive-mass quantifier checks none. The finite public-A application and base pointwise normalized theorem are unaffected. The v1 unrestricted extension is not accepted.
+
+The repair explicitly restricts Z to a finite or countable discrete random variable and imposes conditions at each positive-mass atom. This suffices for finite encoded public A and does not claim an unproved regular-conditional version. Core selector theorem and corrected ENUM dependencies remain separate. New exact proof and blind gates are required.

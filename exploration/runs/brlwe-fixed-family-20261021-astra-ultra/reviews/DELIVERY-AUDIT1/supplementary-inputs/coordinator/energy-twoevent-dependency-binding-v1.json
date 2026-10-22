@@ -1,0 +1,16 @@
+{
+  "at": "2026-10-21T21:50:29.861658+00:00",
+  "claim": "FF3-ENERGY-RANK-v2",
+  "given_h_core": "Unchanged; general shell-constant source/target laws and an h with both class endpoints. No TWOEVENT strict-positivity requirement is imposed on this core.",
+  "optional_dependency": "FF3-TWOEVENT-v1",
+  "required_imported_hypotheses": [
+    "Nonempty finite sets with uniform U,V",
+    "P probability law and strictly positive target N",
+    "C with0<u=U(C)<p=P(C)<=1",
+    "Both displayed likelihood inequalities",
+    "C union of source energy classes; target N,V shell-constant"
+  ],
+  "scope": "The named-theorem construction imports every premise; no inference from inequalities alone and no optional Gaussian instantiation is promoted. BLIND-RESOURCE4 additional p=u/zero-target boundary reconstruction remains separate, outside this imported construction.",
+  "full_dependency_clarification": "DELIVERY-AUDIT1 independently confirmed named dependency binding suffices, no theorem/proof byte repair required.",
+  "acceptance_status": "Final resource gate still pending"
+}

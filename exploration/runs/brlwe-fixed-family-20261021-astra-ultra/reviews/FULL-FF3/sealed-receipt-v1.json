@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-21T20:02:53.981459+00:00",
+  "seal": "review-seal-v1.json",
+  "seal_sha256": "2f8bf3626d094fde5833623904b6ebfc4d7e08c61983e45ba4096dc432faf192",
+  "sealed_files": 111,
+  "status": "FULL_REVIEW_COMPLETE_RETURN_IDLE",
+  "experiments": "Both slots released; no running children or scratch files",
+  "immutability": "Covered files and seal will not be overwritten; subsequent corrections require an additive versioned artifact",
+  "FRONTIER1_scope_addendum": "../FULL-FRONTIER1/prime-support-scope-defect-addendum-v1.md and .seal.json; old36file seal unchanged"
+}

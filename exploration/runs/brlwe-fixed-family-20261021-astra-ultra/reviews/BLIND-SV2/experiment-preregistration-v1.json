@@ -1,0 +1,28 @@
+{
+  "created_at": "2026-10-21T19:15:09.365376+00:00",
+  "experiment": "BLIND-SV2-EX1",
+  "hypotheses": [
+    "Signed fixed-lattice basis has rank n/|H|, entries 0,+1,-1 and disjoint supports.",
+    "Odd H-invariant split ideals satisfy d_H^|H|=D; subfield quotient sizes equal exact residue-image sizes.",
+    "The order tower inequality f_g*n <= max(2*n,g*f_n) holds for all tested odd residues.",
+    "The 2-primary exponent is 2^ceil(s/n), including the first ineligible boundary.",
+    "Prime-power and mixed 2-primary/odd ordinary bases support exact collision acquisition and exact rounding/division.",
+    "Trivial-stabilizer eligible examples can have only g=n pass; this does not refute the bounded-support asymptotic claim."
+  ],
+  "code_sha256": "a519e89a9c61200a69a880cc3fc6027cf62e0317f40a4896979e27bc7f998c9d",
+  "input": "All finite inputs are literal constants or deterministic loops in the sealed code. No external mathematical inputs.",
+  "seeds": "None; exhaustive/deterministic.",
+  "dimensions": "Signed subgroups n=2,4,8,16,32,64; order towers n<=4096 and odd values<=1001; all split subsets through n=8; targeted split n=16,64,128; nonsplit n=4,8,16; exact rational matrices n<=16.",
+  "precision": "Exact integers and fractions; no floats in assertions, no probability tails. Only elapsed time uses float.",
+  "resources": {
+    "wall_seconds": 120,
+    "cpu_seconds": 115,
+    "address_space_bytes": 536870912,
+    "processes": 1,
+    "heavy": false
+  },
+  "exact_command": "/usr/bin/time -v -o resource-usage.txt timeout 120s prlimit --as=536870912 --cpu=115 -- python3 finite-checks.py > finite-checks.stdout.json 2> finite-checks.stderr.txt",
+  "workdir": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-SV2",
+  "planned_reporting": "Preserve stdout, stderr, exit code and peak RSS even on failure. Finite controls are not infinite proofs.",
+  "status": "Preregistered; awaiting fresh root slot; not executed."
+}

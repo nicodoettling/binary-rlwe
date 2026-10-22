@@ -1,0 +1,84 @@
+{
+  "at": "2026-10-21T21:57:37.686861+00:00",
+  "scope": "Additional GNU time records in stderr/time files, supplementary to first snapshot. Exit status 0 does not override a recorded terminating signal.",
+  "records": [
+    {
+      "path": "workers/FF1/experiments/ff1-fv1-receipt.json",
+      "elapsed": "0:00.05\\n\\tAverage",
+      "peak_RSS_KiB": "12288",
+      "exit": "0"
+    },
+    {
+      "path": "workers/FF1/experiments/ff1-fv2-receipt.json",
+      "elapsed": "0:00.03\\n\\tAverage",
+      "peak_RSS_KiB": "12288",
+      "exit": "0"
+    },
+    {
+      "path": "reviews/BLIND-RESOURCE4/experiment-v1.time",
+      "elapsed": "0:00.14",
+      "peak_RSS_KiB": "17408",
+      "exit": "0"
+    },
+    {
+      "path": "reviews/BLIND-TRANSFER2/root-trials-audit-time-v1.txt",
+      "elapsed": "0:00.04",
+      "peak_RSS_KiB": "11264",
+      "exit": "0"
+    },
+    {
+      "path": "reviews/BLIND-TRANSFER2/sparse-lucas-audit-time-v1.txt",
+      "elapsed": "0:00.03",
+      "peak_RSS_KiB": "12288",
+      "exit": "0"
+    },
+    {
+      "path": "reviews/BLIND-TRANSFER2/finite-audit-time-v1.txt",
+      "elapsed": "0:13.77",
+      "peak_RSS_KiB": "16384",
+      "exit": "0"
+    },
+    {
+      "path": "reviews/FRONTIER-CHALLENGE1/control-v1.time.txt",
+      "elapsed": "0:00.18",
+      "peak_RSS_KiB": "13312",
+      "exit": "0"
+    },
+    {
+      "path": "reviews/FULL-FF3-PHASE2/independent-probability-controls-v1.stderr.txt",
+      "elapsed": "0:02.43",
+      "peak_RSS_KiB": "13312",
+      "exit": "0"
+    },
+    {
+      "path": "reviews/FULL-FF3-PHASE2/independent-certificate-check-v2.stderr.txt",
+      "elapsed": "0:44.46",
+      "peak_RSS_KiB": "479448",
+      "exit": "0"
+    },
+    {
+      "path": "reviews/FULL-FF3-PHASE2/independent-enum-repair-controls-v1.stderr.txt",
+      "elapsed": "0:00.93",
+      "peak_RSS_KiB": "12288",
+      "exit": "0"
+    },
+    {
+      "path": "reviews/FULL-FF3-PHASE2/independent-certificate-check-v1.stderr.txt",
+      "elapsed": "0:00.08",
+      "peak_RSS_KiB": "31340",
+      "exit": "1"
+    },
+    {
+      "path": "reviews/BLIND-RESOURCE3/exact-check-time.txt",
+      "elapsed": "0:00.27",
+      "peak_RSS_KiB": "17408",
+      "exit": "0"
+    },
+    {
+      "path": "reviews/FULL-SOURCE3/controls-v1.stderr.txt",
+      "elapsed": "0:00.28",
+      "peak_RSS_KiB": "11264",
+      "exit": "0"
+    }
+  ]
+}

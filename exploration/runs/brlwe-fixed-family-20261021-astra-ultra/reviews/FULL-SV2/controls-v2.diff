@@ -1,0 +1,10 @@
+--- controls-v1.py
++++ controls-v2.py
+@@ -25,6 +25,7 @@
+ def subindex(A,V):
+     inv=A.inv(); s=math.lcm(*[int(q.q) for q in inv]); C=s*inv*V
+     assert all(q.q==1 for q in C)
++    C=S.Matrix([[int(C[i,j]) for j in range(C.cols)] for i in range(C.rows)])
+     sn=smith_normal_form(C,domain=S.ZZ)
+     d=math.prod(s//math.gcd(s,int(sn[i,i])) for i in range(V.cols))
+     H=hermite_normal_form(C.row_join(s*S.eye(A.rows)))

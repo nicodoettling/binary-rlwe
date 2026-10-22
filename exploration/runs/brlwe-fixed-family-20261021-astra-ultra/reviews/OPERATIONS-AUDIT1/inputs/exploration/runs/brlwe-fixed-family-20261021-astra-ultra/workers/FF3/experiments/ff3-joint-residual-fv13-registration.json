@@ -1,0 +1,9 @@
+{
+ "id":"FF3-JOINT-RESIDUAL-FV13","registered_before_execution":true,
+ "hypothesis":"A compact direct correlated pair-of-residuals channel avoids the limited radial-H product pool. The output class table depends on public A zero count,two source residual zero counts,and two target residual zero counts. This contains ALL radial H product mixtures,not merely the six FV12 vertices.",
+ "code":"ff3-joint-residual-fv13.py","inputs":"n4Q3q2,source(7/8,1/16,1/16),target(3/4,1/4),all32edges,125input classes,25output weight pairs.3125nonnegative per-atom weights and maximum class mass M.4650exact integer equations. FV12 source count arrays and profiles. Independent n2 matrix assembly embeds the exact FV11 selector and checks every row/endpoint before the n4 attempt.",
+ "seed":"none","command":"ulimit -v 2097152; /usr/bin/time -v timeout 120s python3 ff3-joint-residual-fv13.py > ff3-joint-residual-fv13-output.jsonl 2> ff3-joint-residual-fv13-resource.txt",
+ "limits":{"wall_seconds":120,"address_space_bytes":2147483648,"expected_seconds":30,"expected_rss_bytes":1000000000,"heavy":true,"primal_LP_seconds":40,"dual_LP_seconds":35},
+ "precision":"Integer model with all row/conditional/comparator equations. Discovery minimizes M. If infeasible, seek an exact integer Farkas certificate by rounding normalized dual on a2^48grid, clearing common RHS denominators and adding a checked normalizer safety shift. Exact big-integer matrix products verify A^Tz>=0,b^Tz<0. Positive numeric candidate is saved for a separately granted exact-support job; no numeric status alone proves a claim.",
+ "expected":"Exact correlated channel candidate with measuredM or scoped certificate excluding this entire compact weight-class ansatz. All radial H kernels remain valid. FV12 numerical infeasibility is preserved as numerical only,not promoted by this enlargement."
+}

@@ -1,0 +1,39 @@
+{
+  "created_utc": "2026-10-21T21:22:19.672772+00:00",
+  "slot": "ROOT granted final LIGHT120s/512MiB, second global light slot",
+  "hypotheses": [
+    "Lucas quotient Smith diagonal is (L_(n/2),L_(n/2))",
+    "Sparse member can be acquired from a nontrivially changed ordinary ideal basis",
+    "Exact rational rounding and division recover the promised inverse-ideal target"
+  ],
+  "determinism": "all integer and Fraction arithmetic; no random seeds",
+  "dimensions": "Lucas n=4,8,16,32,64,128,256; acquisition n=4,8,h=3,B=1; rational noise coefficients1/(100n)",
+  "precision": "exact; no numerical tails or transcendental approximations",
+  "estimate": "under2s and32MiB",
+  "limits": {
+    "wall_seconds": 120,
+    "address_space_bytes": 536870912
+  },
+  "code_sha256": "19baa781fdfeaf45ff011b2db0b89cc765e10dc81857b8090d15a7b561c527c6",
+  "input_statement_sha256": "c3c1078b33309f7b3d9061fbdad1114c3178dea28e64c7e8849a947ad5d97d84",
+  "exact_command_argv": [
+    "/usr/bin/time",
+    "-v",
+    "-o",
+    "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-TRANSFER2/sparse-lucas-audit-time-v1.txt",
+    "timeout",
+    "--signal=TERM",
+    "120s",
+    "prlimit",
+    "--as=536870912",
+    "--",
+    "python3",
+    "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-TRANSFER2/sparse-lucas-audit-v1.py"
+  ],
+  "outputs": [
+    "sparse-lucas-audit-result-v1.json",
+    "sparse-lucas-audit-stderr-v1.txt",
+    "sparse-lucas-audit-time-v1.txt",
+    "sparse-lucas-audit-exit-v1.json"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-21T18:49:25.288755+00:00",
+  "service_elapsed_seconds": 3674.657373263035,
+  "goal_status": "active",
+  "goal_receipt": "coordinator/goal-checkpoint-006.json",
+  "roles": {
+    "root": "FF2 alternative construction and source-comparison integration",
+    "blind_ff2": "Fresh statement-only CRT/CERT review",
+    "full_sv2": "Fresh full review of repaired symmetry and new subfield source classifier"
+  },
+  "frontier": "BDD-CLASS and FROB-PRIME accepted at exact inherited radius after full+blind review. Symmetry v1 rejected literally, v2 repaired pending fresh review. New SUBFIELD-v2 extends candidate scope to bounded prime support/trivial stabilizer. CRT/CERT full pass, blind running. FRAC-INFO and GAUSS-AVG provisional. FF remains OPEN.",
+  "evidence": [
+    "coordinator/acceptance-v1.json",
+    "coordinator/subfield-contraction-statement-v2.md",
+    "coordinator/symmetry-descent-statement-v2.md",
+    "experiments/subfield-fv1-output.json",
+    "reviews/FULL-CERT2/seal-v1.json",
+    "reviews/BLIND-SV1/seal-v1.json"
+  ],
+  "resume": "Check clock/cap/goal on continuation. Next70mcheckpoint18:58:10Z;90minallocation19:18:10Z. No scientific termination before21:18:10Z. Continue constructive FF alternatives and explicit source refinements; exact repaired source needs fresh blind after full."
+}

@@ -1,0 +1,362 @@
+{
+  "at": "2026-10-21T21:22:17.122099+00:00",
+  "inputs": [
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/fixed-family-20261021/PLAN.md",
+      "snapshot": "inputs/exploration/fixed-family-20261021/PLAN.md",
+      "sha256": "275bfe83f759044ea8acb3118c76f0e480a59cb850cfb70d97422a651cfa4ed5",
+      "bytes": 15108,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/.codex/skills/mathematical-proof-audit/SKILL.md",
+      "snapshot": "inputs/external/home/nico/.codex/skills/mathematical-proof-audit/SKILL.md",
+      "sha256": "9350ffeb5aebe0b126710786586f94ef5d990be35b8b9defc8004136dae40318",
+      "bytes": 4484,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/.codex/skills/mathematical-proof-audit/references/audit-protocol.md",
+      "snapshot": "inputs/external/home/nico/.codex/skills/mathematical-proof-audit/references/audit-protocol.md",
+      "sha256": "2d076ba631c340d71f6259757c6207dbe230872810e9bad3188b215f46d095f4",
+      "bytes": 8480,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/.codex/skills/mathematical-proof-audit/references/probability-regressions.md",
+      "snapshot": "inputs/external/home/nico/.codex/skills/mathematical-proof-audit/references/probability-regressions.md",
+      "sha256": "ad7eecf93ed02e5b2957243a9bbb2cac8e8eeeb991971f4d77d0818cd04a4fa4",
+      "bytes": 6814,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/.codex/skills/research-project-map/SKILL.md",
+      "snapshot": "inputs/external/home/nico/.codex/skills/research-project-map/SKILL.md",
+      "sha256": "f4407e349bdc28c6feca89c969aca353da5cd8dd62317b7e558694afcef13b7b",
+      "bytes": 11234,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/.codex/skills/research-project-map/references/work-programmes.md",
+      "snapshot": "inputs/external/home/nico/.codex/skills/research-project-map/references/work-programmes.md",
+      "sha256": "11c38b5c5eac5148947288ae233d537a6ed2576a271a98068482202bb87dada5",
+      "bytes": 8690,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/claims.json",
+      "snapshot": "inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/claims.json",
+      "sha256": "4a8fc58ef05af8055b887e235660552679a7170c754ff53ee3671d56c691f409",
+      "bytes": 33212,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/regressions.json",
+      "snapshot": "inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/regressions.json",
+      "sha256": "3264ab6e3117b155a04ae16e4b92545c1c05862558e351759c5731b7b7cbbe24",
+      "bytes": 404851,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reduction-attempts.md",
+      "snapshot": "inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reduction-attempts.md",
+      "sha256": "72cea53b68f74387c770246084a182138e5b1f3719c6576b34dc13258dd6419c",
+      "bytes": 890,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/parameter-table.md",
+      "snapshot": "inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/parameter-table.md",
+      "sha256": "f3c45564f65b82adc1e506d8452b0a0ad84154048dc8632ad09b95ae78d23452",
+      "bytes": 4239,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/source-comparison.md",
+      "snapshot": "inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/source-comparison.md",
+      "sha256": "8a1a2e247b2d48bd22bdac481f636c6922af25da4a8d4a6750cc65b0ae9d009e",
+      "bytes": 4460,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/objective-statement-v1.md",
+      "snapshot": "inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/objective-statement-v1.md",
+      "sha256": "6666ca7222abb251214fd5e7d6f9e96c3ddbbb29216c9469ac5cf0034da2a216",
+      "bytes": 3456,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/deadlines.json",
+      "snapshot": "inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/deadlines.json",
+      "sha256": "ef590a6fb66cb9ba8d1f1fe248af31c1167b6a2a1b5ac503a4e2cb844ba37995",
+      "bytes": 1370,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/compact-selector-statement-v2.md",
+      "snapshot": "inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/compact-selector-statement-v2.md",
+      "sha256": "89864b1f1d37ebb66e3fb7e364c8ad657c185808cdcdbb1c4370058aed7b2846",
+      "bytes": 3780,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/compact-selector-proof-v2.md",
+      "snapshot": "inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/compact-selector-proof-v2.md",
+      "sha256": "cfe90ffc7b4b0b6e0e8efdd424f6b20b361b9e66107022752ccf787b66414211",
+      "bytes": 3307,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/energy-rank-kernel-statement-v2.md",
+      "snapshot": "inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/energy-rank-kernel-statement-v2.md",
+      "sha256": "ab8e55aa2930d04d3d24529abf5e4f6f5ebee5e25507830a6bff0ba792101355",
+      "bytes": 3355,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/energy-rank-kernel-proof-v2.md",
+      "snapshot": "inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/energy-rank-kernel-proof-v2.md",
+      "sha256": "3972798c783f0ba0116e72b1b393e0ca90b59afd9e6805413cbc3e29b3e8db9d",
+      "bytes": 3898,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/kernel-resource-wording-rejections-v1.md",
+      "snapshot": "inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/kernel-resource-wording-rejections-v1.md",
+      "sha256": "9f5cb7df524559e52e080997fc06c05b2e2999453612bf01f7cabd5ff023ec53",
+      "bytes": 693,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/sparse-acquisition-statement-v1.md",
+      "snapshot": "inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/sparse-acquisition-statement-v1.md",
+      "sha256": "c3c1078b33309f7b3d9061fbdad1114c3178dea28e64c7e8849a947ad5d97d84",
+      "bytes": 2126,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/sparse-acquisition-proof-v1.md",
+      "snapshot": "inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/sparse-acquisition-proof-v1.md",
+      "sha256": "985e843a98a4413dd7cebf3a98042aedd2b971d241eeb210bd22401b43e952f3",
+      "bytes": 2428,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/dimension-padding-and-order-intake-v1.md",
+      "snapshot": "inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/dimension-padding-and-order-intake-v1.md",
+      "sha256": "f0a766791946767f7c416350e34202c2e46395f6e09f69e9eb528f74e812cd84",
+      "bytes": 1962,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/completion-alternatives-v1.md",
+      "snapshot": "inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/completion-alternatives-v1.md",
+      "sha256": "42da52ba660cfe78683358b8e908c74a7bb1849da2e5fad718a916192712b572",
+      "bytes": 5219,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/narrow-coset-kernel-challenge-v1.md",
+      "snapshot": "inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/narrow-coset-kernel-challenge-v1.md",
+      "sha256": "4eec7f023a11f02f28b64ab5ca22657a30c617e377fdd9cd1c7e67696e4b3209",
+      "bytes": 3228,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/full-direction-open-interfaces-v1.md",
+      "snapshot": "inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/full-direction-open-interfaces-v1.md",
+      "sha256": "1053fec4ca8277d4e39bb7683dd875d6da13ce390958c6dd801e9419cbf90f50",
+      "bytes": 4062,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/experiments/ff3-public-geometry-fv11.py",
+      "snapshot": "inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/experiments/ff3-public-geometry-fv11.py",
+      "sha256": "a82c019eae561ddd86e9ad8fc57b8e3bb67f9436216f8a5d32c26db415ba9fd7",
+      "bytes": 6428,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/experiments/radial-ring-H-vertices.json",
+      "snapshot": "inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/experiments/radial-ring-H-vertices.json",
+      "sha256": "6d63ee7547c399c361f9883ac7432fee8115911b7c851a10012a83781e175665",
+      "bytes": 1434,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/experiments/public-geometry-public_norm_local_edge_weights-witness.json",
+      "snapshot": "inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/FF3/experiments/public-geometry-public_norm_local_edge_weights-witness.json",
+      "sha256": "140a8b92c3a772c217801f66f9d7618843330f0ca8264718858c3cfcf679cba8",
+      "bytes": 7091,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF3-PHASE2/full-report-v1.md",
+      "snapshot": "inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF3-PHASE2/full-report-v1.md",
+      "sha256": "1ff44833ff98c0d96c7b6f30447d12f331d26c4b7dad0b4688436984af1748aa",
+      "bytes": 16852,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF3-PHASE2/source-complexity-report-v1.md",
+      "snapshot": "inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF3-PHASE2/source-complexity-report-v1.md",
+      "sha256": "c9374e485513726ed19d3b78db0640652b5d9f062c5761e7a438fa76f80bac9b",
+      "bytes": 6623,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF3-PHASE2/phase2-final-seal-v1.json",
+      "snapshot": "inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-FF3-PHASE2/phase2-final-seal-v1.json",
+      "sha256": "7434c7e38e5e9d529c74ebd475ce9e405b09e0dee8663143c1b9b0b4a0fbef5d",
+      "bytes": 50467,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/good-secret-preselection-frontier-v1.md",
+      "snapshot": "inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/good-secret-preselection-frontier-v1.md",
+      "sha256": "9b44d4d422b9c4cb05ab9b3fb35009bbea678fd26109ee45bce7412c32cd6fbe",
+      "bytes": 3743,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/affine-orbit-amplification-frontier-v1.md",
+      "snapshot": "inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/affine-orbit-amplification-frontier-v1.md",
+      "sha256": "756f20f74c7a964457c37a3c802c8f6d9ef99e9e11392c7094219d561c3fc5b6",
+      "bytes": 3038,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/latent-relabel-and-centered-decision-frontier-v1.md",
+      "snapshot": "inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/latent-relabel-and-centered-decision-frontier-v1.md",
+      "sha256": "b571291d4f479c06138baeecf80abb6174014558c732701a6f87ed87ad61c824",
+      "bytes": 3689,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/secret-invariants-frontier-v1.md",
+      "snapshot": "inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/secret-invariants-frontier-v1.md",
+      "sha256": "b87f03f0c75faff61755b87dbcb3b5bc6207d7ebfa1fd498d1fda9a3e42c1659",
+      "bytes": 1902,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/ff2-frontier-v1.md",
+      "snapshot": "inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/ff2-frontier-v1.md",
+      "sha256": "4f9d042ec32923c3de7fdabb2cbd1a37e94810fdeed69e92b96c6641e1e41e01",
+      "bytes": 2515,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/subfield-source-frontier-v1.md",
+      "snapshot": "inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/subfield-source-frontier-v1.md",
+      "sha256": "557686e2e5bb1e876bf5d6a5a8d09442edc0a3ce07c13016dc7ec9169dc2d5a8",
+      "bytes": 2686,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/certificate-inversion-frontier-v1.md",
+      "snapshot": "inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/certificate-inversion-frontier-v1.md",
+      "sha256": "3c95e83f96085e3b8db15ea650282e25998adf3d637f0b079f7f294f0169fc21",
+      "bytes": 1765,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/certificate-coverage-frontier-v1.md",
+      "snapshot": "inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/certificate-coverage-frontier-v1.md",
+      "sha256": "add781987d409c669b0ac15d7fd34459d8d4b36b22fe45d1fe34c00d2b234adf",
+      "bytes": 2226,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/direct-oracle-hybrid-frontier-v1.md",
+      "snapshot": "inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/direct-oracle-hybrid-frontier-v1.md",
+      "sha256": "dc533cd4907957f8238e77d581d4cdaee8920b7183a3280726682c969950245f",
+      "bytes": 2368,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/acceptance-v1.json",
+      "snapshot": "inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/acceptance-v1.json",
+      "sha256": "5148b580d29102ccbfbe090568f991a4edba768d4798c222b5550a7df27f5732",
+      "bytes": 18809,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/acceptance-v2.json",
+      "snapshot": "inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/acceptance-v2.json",
+      "sha256": "32ce0b4004df097bd8b5bd8ad8ce7de78e7d7c24eb7d1e40c0f03828dd97dc65",
+      "bytes": 16815,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/acceptance-v3.json",
+      "snapshot": "inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/acceptance-v3.json",
+      "sha256": "5f08eb262c7f98632a09fa607b7ebaba88fe58a06558ffadcae8f28bfde49b6c",
+      "bytes": 11586,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/acceptance-v4.json",
+      "snapshot": "inputs/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/acceptance-v4.json",
+      "sha256": "0cb4b08fb3444c6c39d9dc53e8fe74488611ac12e63e202f9de7f234ce2da24f",
+      "bytes": 39446,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/final.md",
+      "snapshot": "inputs/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/final.md",
+      "sha256": "36ddf7e2d4a55b46a9c2e73132600cd6a5ee8836deade913137d60ad94fea622",
+      "bytes": 11403,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/programme-decisions.md",
+      "snapshot": "inputs/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/programme-decisions.md",
+      "sha256": "1747bd5297e6d10a18f81104134f84229af9241b7babe1b79d791a201230ff3e",
+      "bytes": 6273,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/reconciliation.md",
+      "snapshot": "inputs/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/reconciliation.md",
+      "sha256": "c242b33cb82fc9412312b4978d36abb047384bebc7a0e470fc9241622e2affd8",
+      "bytes": 7096,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "snapshot": "inputs/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "bytes": 334642,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/acceptance-v1.json",
+      "snapshot": "inputs/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/acceptance-v1.json",
+      "sha256": "ba065e4b5f569236839b2597882698ade120219a13551376b8a14af6d5d2e23e",
+      "bytes": 9212,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/fixed-main-statement-v2.md",
+      "snapshot": "inputs/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/fixed-main-statement-v2.md",
+      "sha256": "25da2502104e746d3e9f2ca10e3d070372ff95b853b1fd2b0e6c96b1b909ecb6",
+      "bytes": 6464,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/fixed-main-proof-v2.md",
+      "snapshot": "inputs/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/fixed-main-proof-v2.md",
+      "sha256": "2e98d25b0f349e22dfeb23ba5ea18ebe339039fa08fb39f92cf45afa9f50f0c7",
+      "bytes": 4407,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/am-main-theorem-v3.md",
+      "snapshot": "inputs/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/am-main-theorem-v3.md",
+      "sha256": "eaabea064b734ccefbbb1d2410ed03fecdbe671f098c2e69d59d432df855e33c",
+      "bytes": 11306,
+      "depth": "Exact reviewed input; see exposure and reports for full versus selective reading"
+    }
+  ]
+}

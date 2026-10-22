@@ -1,0 +1,118 @@
+{
+  "sealed_at": "2026-10-21T22:22:55.389299+00:00",
+  "reviewer": "/root/operations_audit1",
+  "scope": "Additive static operational closeout-assembler review only",
+  "report": "report.md",
+  "assignment": "assignment.txt",
+  "verdict": "NO_REMAINING_BLOCKING_SOURCE_DEFECT_IDENTIFIED; actual future receipts/publication not certified",
+  "artifacts": [
+    {
+      "path": "assignment.txt",
+      "bytes": 1190,
+      "sha256": "51dff22a5c2c9d7496ffb4bcdd19f8126b1da8d1573846b4ac00523400ed170f"
+    },
+    {
+      "path": "input-manifest.json",
+      "bytes": 1517,
+      "sha256": "5ca077c8098ca5d6647ac4697b993190b3c7b14a434338b91df1bdccf18906b5"
+    },
+    {
+      "path": "inputs/coordinator/closeout-checkpoint.py",
+      "bytes": 2973,
+      "sha256": "a3b59f70e5f49758eb5de9819bf409b92def482c4705b8d896bfba3fd8c37214"
+    },
+    {
+      "path": "inputs/coordinator/closeout-plan-v1.json",
+      "bytes": 2819,
+      "sha256": "ecde37695844d791c5879a0232d75838f1286bf252ca79158f0318f4de42570f"
+    },
+    {
+      "path": "inputs/coordinator/final-draft-v4.md",
+      "bytes": 15086,
+      "sha256": "e0bebf18e96b8dd1415838822ba2d9c2012115d13face97c2dc9c0d8f47ae870"
+    },
+    {
+      "path": "inputs/coordinator/finalize-capped-delivery-v1.py",
+      "bytes": 17721,
+      "sha256": "ffb14cf99f05ae5957fd9d6cc2647ea2e8769240b7dcd243788b34905d74fd70"
+    },
+    {
+      "path": "inputs/coordinator/programme-v4.md",
+      "bytes": 8172,
+      "sha256": "ed41230369be3753ea6e6cc2b4cdf45efe171cf7f2eac2096a233eaf15d9e775"
+    },
+    {
+      "path": "inputs/experiments/evidence-index-v2.json",
+      "bytes": 155605,
+      "sha256": "b2c9e200ca3c205a0271692b223549531efc5eedb55e18693503acca30caa5ba"
+    },
+    {
+      "path": "inputs/final.md",
+      "bytes": 16672,
+      "sha256": "01913c6d270512048514b9c50b11b0b3eb644424690f409583b0da41b6465b11"
+    },
+    {
+      "path": "inputs/run.log.brlwe-fixed-family-20261021-astra-ultra.cap-status.json",
+      "bytes": 3010,
+      "sha256": "43f7b8bc69ade0c86c7c4966c7dc45f80c173ec027448a532c2f81d454224753"
+    },
+    {
+      "path": "repair-input-manifest-v2.json",
+      "bytes": 513,
+      "sha256": "0d138b71fd3370a1a8fc49a45ac6e3811af6c24d7698e1bf62bf0e8d0f38fe36"
+    },
+    {
+      "path": "repair-input-manifest-v3.json",
+      "bytes": 505,
+      "sha256": "dbaef7aa9ac652a651a6dc2980aba0bd04457920609ac51cf80e86c037ee2c3b"
+    },
+    {
+      "path": "repair-inputs/coordinator/closeout-checkpoint-v2.py",
+      "bytes": 3200,
+      "sha256": "3b210564e78258adbf2e483fc764ac8b3afee2af603dbfe740ea5650354677c7"
+    },
+    {
+      "path": "repair-inputs/coordinator/finalize-capped-delivery-v2.py",
+      "bytes": 22055,
+      "sha256": "0a2a5a7556f57d8fef5c57dda7f176d29044b1d657b0222ea924cf77e764e457"
+    },
+    {
+      "path": "repair-v3-inputs/coordinator/closeout-checkpoint-v3.py",
+      "bytes": 3479,
+      "sha256": "18f2d07035f64c190bcbaa02504f40745397ba68863d10afbc51fcba6b1abf8f"
+    },
+    {
+      "path": "repair-v3-inputs/coordinator/finalize-capped-delivery-v3.py",
+      "bytes": 22211,
+      "sha256": "34687b1bd80f4073cc4bf0a6090535dbd632f85866857b9796e3b698cb0accf0"
+    },
+    {
+      "path": "report.md",
+      "bytes": 6551,
+      "sha256": "2e57804c38efab26b9ee4233d6f51d88770df0bfa729bb9c5f2b197f6e2aeae8"
+    },
+    {
+      "path": "static-checks-v1.json",
+      "bytes": 1078,
+      "sha256": "2a997b9e93372903e6ac67492a7152b2b054741846ab85dd118cacdf9e9f28cb"
+    },
+    {
+      "path": "static-checks-v3.json",
+      "bytes": 439,
+      "sha256": "17025e28975729f3ebc9c4bed4cf7ac73e3c81a2eefcb263e8d520bc5f044578"
+    },
+    {
+      "path": "v1-review.md",
+      "bytes": 3262,
+      "sha256": "10f3afdfb69f8de0ac002cfe10f410ab91e5be3c82399c2ff270add8f046c40a"
+    },
+    {
+      "path": "v2-v3.diff",
+      "bytes": 1413,
+      "sha256": "8b28d285e2b462f6d8ae0eac1f530dbcfd156adcb0e0f8bfdb4a632d3cfa5836"
+    }
+  ],
+  "original_audit_seal_unchanged": "c7be106d187acd20d252679410e7f51ab880c8854e01c56618d5a81981df24d9",
+  "original_audit_artifacts_checked": 311,
+  "execution": "None of the reviewed finalizer/checkpoint scripts were executed or imported."
+}

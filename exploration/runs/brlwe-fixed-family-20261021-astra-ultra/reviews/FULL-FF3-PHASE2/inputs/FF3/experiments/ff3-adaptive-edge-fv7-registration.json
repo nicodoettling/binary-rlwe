@@ -1,0 +1,9 @@
+{
+ "id":"FF3-ADAPTIVE-EDGE-FV7","registered_before_execution":true,
+ "hypothesis":"Input-dependent positive edge selection may repair the fixed-mixture obstruction. Two nested finite ansatzes are tested: edge weights depending only on public A, and edge weights depending on full observed(A,B). Both comparator and every fixed-secret endpoint are enforced jointly.",
+ "code":"ff3-adaptive-edge-fv7.py","inputs":"n2 Q3q2, all4cube edges and exact H/noise fromFV6;81source observations and16target observations.36public-only or324full-observation nonnegative weights, with row normalization.",
+ "seed":"none","command":"ulimit -v 524288; /usr/bin/time -v timeout 120s python3 ff3-adaptive-edge-fv7.py > ff3-adaptive-edge-fv7-output.jsonl 2> ff3-adaptive-edge-fv7-resource.txt",
+ "limits":{"wall_seconds":120,"address_space_bytes":536870912,"expected_seconds":10,"expected_rss_bytes":100000000,"heavy":false,"per_LP_seconds":30},
+ "precision":"All model coefficients and postchecks use Fraction. HiGHS single-thread discovery. Feasible supports are solved and verified over exact rationals. Infeasible duals are rationally reconstructed and shifted along row-normalization constraints to make every A^Tz nonnegative, then b.z<0 is verified exactly. Numerical status alone is not certification.",
+ "expected":"Either an exact positive conditional selection rule for structural inspection, or exact Farkas separation of these nested finite efficient-kernel ansatzes. The old fixed-weight certificate is not applied to input-dependent weights."
+}

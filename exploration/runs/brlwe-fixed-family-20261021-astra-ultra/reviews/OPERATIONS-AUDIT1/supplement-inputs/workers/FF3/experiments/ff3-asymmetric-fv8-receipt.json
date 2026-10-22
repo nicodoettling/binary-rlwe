@@ -1,0 +1,12 @@
+{
+  "id": "ff3-asymmetric-fv8",
+  "exit_code": 0,
+  "elapsed_wall_report": "0:01.51",
+  "peak_RSS_KiB": 124468,
+  "wall_limit_seconds": 120,
+  "address_space_limit_bytes": 536870912,
+  "slot_released": true,
+  "descendant_check": "pgrep matching exact script name returned exit1/no process",
+  "code_sha256": "1e010fe2cc8b62b9672881e9b687a908ec9a18079e55dffd5b12bc606ae753cb",
+  "registration_sha256": "d01842671bdd449ae90b4156235f31f315f500410ec77fddf09afc44737fe3cb"
+}

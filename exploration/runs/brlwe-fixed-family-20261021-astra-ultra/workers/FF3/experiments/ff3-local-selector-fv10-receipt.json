@@ -1,0 +1,23 @@
+{
+  "id": "FF3-LOCAL-SELECTOR-FV10",
+  "created_utc": "2026-10-21T20:27:42.633845+00:00",
+  "code": "ff3-local-selector-fv10.py",
+  "code_sha256": "d51d8becb253bb463661205b5237d67bef4ddba601060fb11d8f8ed11c9732f7",
+  "registration": "ff3-local-selector-fv10-registration.json",
+  "registration_sha256": "ec7e20459494adfa5c7f2105e97173310ff653a307c7a36adce8fcf19c4442d1",
+  "command": "ulimit -v 524288; /usr/bin/time -v timeout 120s python3 ff3-local-selector-fv10.py > ff3-local-selector-fv10-output.jsonl 2> ff3-local-selector-fv10-resource.txt",
+  "limits": {
+    "wall_seconds": 120,
+    "address_space_bytes": 536870912,
+    "expected_seconds": 10,
+    "expected_rss_bytes": 100000000,
+    "heavy": false,
+    "per_LP_seconds": 20
+  },
+  "wall_time_recorded": "0:00.58",
+  "maximum_RSS_KiB": 69632,
+  "exit_status": 0,
+  "root_slot": "Fresh parent grant before each execution, preserved in worker conversation.",
+  "cleanup": "Matching pgrep returned exit1 with empty output after this job; aggregate cleanup rechecked at phase2 seal.",
+  "numeric_status_policy": "Floating solver statuses and operational errors retained; only exact postchecks support mathematical conclusions."
+}

@@ -1,0 +1,16 @@
+{
+  "at": "2026-10-21T22:20:53.537489+00:00",
+  "inputs": [
+    {
+      "path": "coordinator/finalize-capped-delivery-v2.py",
+      "bytes": 22055,
+      "sha256": "0a2a5a7556f57d8fef5c57dda7f176d29044b1d657b0222ea924cf77e764e457"
+    },
+    {
+      "path": "coordinator/closeout-checkpoint-v2.py",
+      "bytes": 3200,
+      "sha256": "3b210564e78258adbf2e483fc764ac8b3afee2af603dbfe740ea5650354677c7"
+    }
+  ],
+  "method": "AST parse and static source inspection only; no import, execution or finalization."
+}

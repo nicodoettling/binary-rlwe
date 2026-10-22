@@ -1,0 +1,367 @@
+{
+  "at": "2026-10-21T19:10:40.244472+00:00",
+  "type": "Nonterminal exact auxiliary claim acceptance",
+  "accepted_claims": [
+    {
+      "id": "CRT-PROJ-v1",
+      "status": "ACCEPTED-EXACT-AUXILIARY-SCOPE",
+      "statement": "coordinator/crt-projection-statement-v1.md",
+      "proof": "coordinator/crt-projection-proof-v1.md",
+      "dependencies": [],
+      "evidence_sha256": {
+        "coordinator/crt-projection-statement-v1.md": "0327d8958b5449e6ce192991594edf4ef03c0949f2e0d4fde4fb5243b46e1aca",
+        "coordinator/crt-projection-proof-v1.md": "1c100c8f3e83f2d358140d41e5c84008c65fc8e170ad496f089ee158b0a9b15b"
+      },
+      "review": "FULL-FF1, fresh FULL-CERT2, and fresh statement-only BLIND-FF2; coordinator acceptance-v2.json",
+      "check_depth": "Same-model correlated full proof/source/complexity and independent blind reconstruction, with bounded finite controls; not formal verification"
+    },
+    {
+      "id": "CERT-EXTRACT-v2",
+      "status": "ACCEPTED-EXACT-AUXILIARY-SCOPE",
+      "statement": "coordinator/certificate-extraction-statement-v2.md",
+      "proof": "coordinator/certificate-extraction-proof-v2.md",
+      "dependencies": [
+        "CRT-PROJ-v1",
+        "DD1 exact CRT identity; newly proved adaptive extension"
+      ],
+      "supersedes": "CERT-EXTRACT-v1",
+      "repair_evidence": "reviews/FULL-FF1/initial-findings-v1.md",
+      "evidence_sha256": {
+        "coordinator/certificate-extraction-statement-v2.md": "1a82181c03be7aaf09ef1ec7103828471c20be27a68ef182055c0f45a93353ab",
+        "coordinator/certificate-extraction-proof-v2.md": "90b9a4b7c50984e89757dc52e360170a8aa6ea098e20eb02c32ab0b3eac197e4"
+      },
+      "review": "FULL-FF1, fresh FULL-CERT2, and fresh statement-only BLIND-FF2; coordinator acceptance-v2.json",
+      "check_depth": "Same-model correlated full proof/source/complexity and independent blind reconstruction, with bounded finite controls; not formal verification"
+    }
+  ],
+  "review_seals": {
+    "FULL-FF1": "5b43c1fa72424d4733ee239ac3efd6c45e8ab43658aca65dc3c5d130814c3b37",
+    "FULL-CERT2": "b0432dc0b4826c426733d33e3e0f00207aa3f18430e12a4b7f28c4305f9a3c40",
+    "BLIND-FF2": "fb86c7193d78be8121cf6ced75c95d39ab1b68485349a886f50caa68fe70a785"
+  },
+  "review_integrity_checks": [
+    {
+      "file": "reviews/FULL-FF1/allowed-inputs-v1.json",
+      "expected": "dbd7100c5c09e4d8fbf6f1681814d35ef95d14d58fa2b3be68ab696f9390deb0",
+      "actual": "dbd7100c5c09e4d8fbf6f1681814d35ef95d14d58fa2b3be68ab696f9390deb0",
+      "match": true
+    },
+    {
+      "file": "reviews/FULL-FF1/assignment-v1.md",
+      "expected": "3cbbac06743627b636d3d29199b40c73fc9a1a7d1378e99e361653763ef62f8e",
+      "actual": "3cbbac06743627b636d3d29199b40c73fc9a1a7d1378e99e361653763ef62f8e",
+      "match": true
+    },
+    {
+      "file": "reviews/FULL-FF1/claim-dispositions-v1.json",
+      "expected": "e98c80e17450be9145bff303c685108627b9e60b72e47ff86a7111c3a5b57a42",
+      "actual": "e98c80e17450be9145bff303c685108627b9e60b72e47ff86a7111c3a5b57a42",
+      "match": true
+    },
+    {
+      "file": "reviews/FULL-FF1/finite-controls-v1-output.json",
+      "expected": "92bc05f048d93d351d684ad618d46174efe018631bce20ee64a86f769d0cde6f",
+      "actual": "92bc05f048d93d351d684ad618d46174efe018631bce20ee64a86f769d0cde6f",
+      "match": true
+    },
+    {
+      "file": "reviews/FULL-FF1/finite-controls-v1-registration.json",
+      "expected": "537d361e0e37cdc3b58fc1f3ef031214e7be756105459a9fc332b701a2b2d4ad",
+      "actual": "537d361e0e37cdc3b58fc1f3ef031214e7be756105459a9fc332b701a2b2d4ad",
+      "match": true
+    },
+    {
+      "file": "reviews/FULL-FF1/finite-controls-v1-resources.txt",
+      "expected": "38497f7b0d8f525c3be6f879cb3ad8643403fa7d8306ea997b78ac2f5780ba2c",
+      "actual": "38497f7b0d8f525c3be6f879cb3ad8643403fa7d8306ea997b78ac2f5780ba2c",
+      "match": true
+    },
+    {
+      "file": "reviews/FULL-FF1/finite-controls-v1-stderr.txt",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "match": true
+    },
+    {
+      "file": "reviews/FULL-FF1/finite-controls-v1.py",
+      "expected": "211bdb93df831778544baf904f7adb5755ca1cd5fc6bc0514b2278ab5c9869cc",
+      "actual": "211bdb93df831778544baf904f7adb5755ca1cd5fc6bc0514b2278ab5c9869cc",
+      "match": true
+    },
+    {
+      "file": "reviews/FULL-FF1/full-report-v1.md",
+      "expected": "7133101ff01b34b82573b78e49020a01faa4d1b6e5660c71e2e3169a454e1c58",
+      "actual": "7133101ff01b34b82573b78e49020a01faa4d1b6e5660c71e2e3169a454e1c58",
+      "match": true
+    },
+    {
+      "file": "reviews/FULL-FF1/initial-findings-v1.md",
+      "expected": "d8150e94b357cc11141408f9803354f74286b076bd9336d0f20ff9ba91a2fd97",
+      "actual": "d8150e94b357cc11141408f9803354f74286b076bd9336d0f20ff9ba91a2fd97",
+      "match": true
+    },
+    {
+      "file": "reviews/FULL-FF1/probability-report-v1.md",
+      "expected": "cf1119b48c8392470b3ad0f5d5a92c58b98502644dae3cdcdbfba123b706251c",
+      "actual": "cf1119b48c8392470b3ad0f5d5a92c58b98502644dae3cdcdbfba123b706251c",
+      "match": true
+    },
+    {
+      "file": "reviews/FULL-FF1/read-receipt-v1.json",
+      "expected": "5c5b036a2d07fec2f9915aabc2e95a129e93dc2dec9465093a53dc30468ace70",
+      "actual": "5c5b036a2d07fec2f9915aabc2e95a129e93dc2dec9465093a53dc30468ace70",
+      "match": true
+    },
+    {
+      "file": "reviews/FULL-FF1/regression-dispositions-v1.json",
+      "expected": "84eff4971500374a54a2bf0afadc8423d0e5cb2be6c3daea0a3874491205aa70",
+      "actual": "84eff4971500374a54a2bf0afadc8423d0e5cb2be6c3daea0a3874491205aa70",
+      "match": true
+    },
+    {
+      "file": "reviews/FULL-FF1/source-complexity-report-v1.md",
+      "expected": "593de739fb7e4a949ff52053948dd69829a6b86c0b91a3214bc6547cc2b271d5",
+      "actual": "593de739fb7e4a949ff52053948dd69829a6b86c0b91a3214bc6547cc2b271d5",
+      "match": true
+    },
+    {
+      "file": "reviews/FULL-CERT2/assignment.txt",
+      "expected": "69f004d27db5f263d4e6d88fa152b4bfa438efa639db766f14f6b86a98d0c185",
+      "actual": "69f004d27db5f263d4e6d88fa152b4bfa438efa639db766f14f6b86a98d0c185",
+      "match": true
+    },
+    {
+      "file": "reviews/FULL-CERT2/controls-receipt-v1.json",
+      "expected": "78d52739068a152c846f590e728602871b3ea44e286458d37e3df04fc99e0a15",
+      "actual": "78d52739068a152c846f590e728602871b3ea44e286458d37e3df04fc99e0a15",
+      "match": true
+    },
+    {
+      "file": "reviews/FULL-CERT2/controls-registration-v1.json",
+      "expected": "a8727b997f22a7d302ea56391b1aaede446d3336a38a318a95a4ba5b5d5640e5",
+      "actual": "a8727b997f22a7d302ea56391b1aaede446d3336a38a318a95a4ba5b5d5640e5",
+      "match": true
+    },
+    {
+      "file": "reviews/FULL-CERT2/controls-v1.py",
+      "expected": "6ec81210912c062a8ca97b3cffc7677ebb7ea42d25d6728b704c36d52d16f0bf",
+      "actual": "6ec81210912c062a8ca97b3cffc7677ebb7ea42d25d6728b704c36d52d16f0bf",
+      "match": true
+    },
+    {
+      "file": "reviews/FULL-CERT2/controls-v1.resources.txt",
+      "expected": "db5da3b36586a16d459e78d88d493d0251751a51e92df06fdec8c5ebf5119bb5",
+      "actual": "db5da3b36586a16d459e78d88d493d0251751a51e92df06fdec8c5ebf5119bb5",
+      "match": true
+    },
+    {
+      "file": "reviews/FULL-CERT2/controls-v1.stderr.txt",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "match": true
+    },
+    {
+      "file": "reviews/FULL-CERT2/controls-v1.stdout.json",
+      "expected": "e55c438cd97df6c1341daecaf1b5b31de761043bdd26d1a2acf0554823e99ea9",
+      "actual": "e55c438cd97df6c1341daecaf1b5b31de761043bdd26d1a2acf0554823e99ea9",
+      "match": true
+    },
+    {
+      "file": "reviews/FULL-CERT2/full-report-v1.md",
+      "expected": "b9ab6e3119b3f3c7a3d5316d4d4c514f560d17ec0beb5d71783a75472e126a77",
+      "actual": "b9ab6e3119b3f3c7a3d5316d4d4c514f560d17ec0beb5d71783a75472e126a77",
+      "match": true
+    },
+    {
+      "file": "reviews/FULL-CERT2/input-manifest-addendum-v1.json",
+      "expected": "29b30bd59d158eff273e9a176702d0d8f82c26208e91e475d887beff5f3e26dc",
+      "actual": "29b30bd59d158eff273e9a176702d0d8f82c26208e91e475d887beff5f3e26dc",
+      "match": true
+    },
+    {
+      "file": "reviews/FULL-CERT2/input-manifest-v1.json",
+      "expected": "bf8182433067506419f35a2262044c243d1a6f6e740f85316277b7b28051788c",
+      "actual": "bf8182433067506419f35a2262044c243d1a6f6e740f85316277b7b28051788c",
+      "match": true
+    },
+    {
+      "file": "reviews/FULL-CERT2/intake-v1.md",
+      "expected": "5f7d830482f823dc3ef63be982c455720c48b85b04282446a984d40efb3169bc",
+      "actual": "5f7d830482f823dc3ef63be982c455720c48b85b04282446a984d40efb3169bc",
+      "match": true
+    },
+    {
+      "file": "reviews/FULL-CERT2/integrity-check-v1.json",
+      "expected": "e6a124bf6c357f193ddb02d3b5e180f73b4e748ccf8368ebe939f6c787866516",
+      "actual": "e6a124bf6c357f193ddb02d3b5e180f73b4e748ccf8368ebe939f6c787866516",
+      "match": true
+    },
+    {
+      "file": "reviews/FULL-CERT2/operational-notes-v1.md",
+      "expected": "29ee6ceb29b2a50dfb611d6e89e3e08fc1fa2a8d28bd4c6d9dffdb370d15b278",
+      "actual": "29ee6ceb29b2a50dfb611d6e89e3e08fc1fa2a8d28bd4c6d9dffdb370d15b278",
+      "match": true
+    },
+    {
+      "file": "reviews/FULL-CERT2/preliminary-report-v1.md",
+      "expected": "ddd1505e250b429c40457a2767ca0a3e23316072d3556dc20168354f27d0b6a8",
+      "actual": "ddd1505e250b429c40457a2767ca0a3e23316072d3556dc20168354f27d0b6a8",
+      "match": true
+    },
+    {
+      "file": "reviews/FULL-CERT2/probability-audit-v1.md",
+      "expected": "05c6a5dce4571011c0ba19b97a6bb23d4ef371bae506d2929c2d4e62dd803eca",
+      "actual": "05c6a5dce4571011c0ba19b97a6bb23d4ef371bae506d2929c2d4e62dd803eca",
+      "match": true
+    },
+    {
+      "file": "reviews/FULL-CERT2/regression-dispositions-v1.json",
+      "expected": "6faa10bbf6fc7344e96d96aa0b84cab7985741b3fced646bf5a6bfd2b3aea753",
+      "actual": "6faa10bbf6fc7344e96d96aa0b84cab7985741b3fced646bf5a6bfd2b3aea753",
+      "match": true
+    },
+    {
+      "file": "reviews/FULL-CERT2/review-disposition-v1.json",
+      "expected": "56f38fb092e547b2a7f98d7dfcebec6db7d37bab37dcfc88e001ec765973f35a",
+      "actual": "56f38fb092e547b2a7f98d7dfcebec6db7d37bab37dcfc88e001ec765973f35a",
+      "match": true
+    },
+    {
+      "file": "reviews/FULL-CERT2/source-access-v1.json",
+      "expected": "05eccc96aab2284e7b62c943d21a1a9c990a1cb8448fec2338435d8689e359d9",
+      "actual": "05eccc96aab2284e7b62c943d21a1a9c990a1cb8448fec2338435d8689e359d9",
+      "match": true
+    },
+    {
+      "file": "reviews/FULL-CERT2/source-complexity-report-v1.md",
+      "expected": "7b780edfc16cdbfb0948d66f1ec40a9983ca19a293bacf5cb41b7e12da9353f4",
+      "actual": "7b780edfc16cdbfb0948d66f1ec40a9983ca19a293bacf5cb41b7e12da9353f4",
+      "match": true
+    },
+    {
+      "file": "reviews/BLIND-FF2/allowed-read-manifest-v1.json",
+      "expected": "bdc18c840a82c1c839077bb75701459f08d15baf3cd6fcc644b122c0710c1a47",
+      "actual": "bdc18c840a82c1c839077bb75701459f08d15baf3cd6fcc644b122c0710c1a47",
+      "match": true
+    },
+    {
+      "file": "reviews/BLIND-FF2/artifact-integrity-v1.json",
+      "expected": "48456c043a900fbfdb41d4a72e3d7fccf5b4237f2b0e678b378f0a1bdf862b28",
+      "actual": "48456c043a900fbfdb41d4a72e3d7fccf5b4237f2b0e678b378f0a1bdf862b28",
+      "match": true
+    },
+    {
+      "file": "reviews/BLIND-FF2/assignment-verbatim.txt",
+      "expected": "39f096969156e2a30203ab4098877f8118031ad5729130b833b68191eabfbd7a",
+      "actual": "39f096969156e2a30203ab4098877f8118031ad5729130b833b68191eabfbd7a",
+      "match": true
+    },
+    {
+      "file": "reviews/BLIND-FF2/exposure-final-v1.json",
+      "expected": "df6377d371520bae9a1cc5a7344ad89124a25546d5e27ea0099a1e74797faceb",
+      "actual": "df6377d371520bae9a1cc5a7344ad89124a25546d5e27ea0099a1e74797faceb",
+      "match": true
+    },
+    {
+      "file": "reviews/BLIND-FF2/finite-models-v1.preregistration.json",
+      "expected": "d1942ed31d545d6da665de519fa083a0afe161f130a1ce39d1d8c57957de31b4",
+      "actual": "d1942ed31d545d6da665de519fa083a0afe161f130a1ce39d1d8c57957de31b4",
+      "match": true
+    },
+    {
+      "file": "reviews/BLIND-FF2/finite-models-v1.py",
+      "expected": "30f843f680e8826c60c4f9bb03b84bdfae84203e1d152cd1fbaffcf6e36bec38",
+      "actual": "30f843f680e8826c60c4f9bb03b84bdfae84203e1d152cd1fbaffcf6e36bec38",
+      "match": true
+    },
+    {
+      "file": "reviews/BLIND-FF2/finite-models-v1.resources.txt",
+      "expected": "0ed80b9748f41d0d90e17f5d862e024a27fb30677cba66d59cb78621331f983b",
+      "actual": "0ed80b9748f41d0d90e17f5d862e024a27fb30677cba66d59cb78621331f983b",
+      "match": true
+    },
+    {
+      "file": "reviews/BLIND-FF2/finite-models-v1.run.json",
+      "expected": "214cb154725cf5650859a9d31e15e816592f6a4eebc1244fd7e838a0078676ba",
+      "actual": "214cb154725cf5650859a9d31e15e816592f6a4eebc1244fd7e838a0078676ba",
+      "match": true
+    },
+    {
+      "file": "reviews/BLIND-FF2/finite-models-v1.stdout.jsonl",
+      "expected": "46795d46f1df59ea5ffb27b9711e230559c8d332534314ea0d4ac91b68e40225",
+      "actual": "46795d46f1df59ea5ffb27b9711e230559c8d332534314ea0d4ac91b68e40225",
+      "match": true
+    },
+    {
+      "file": "reviews/BLIND-FF2/independent-report-v1.md",
+      "expected": "6a8f640fb4c038782a4d787fad56f8e270e6b04376f0fbc74913404769f7fc1a",
+      "actual": "6a8f640fb4c038782a4d787fad56f8e270e6b04376f0fbc74913404769f7fc1a",
+      "match": true
+    },
+    {
+      "file": "reviews/BLIND-FF2/input-freeze-v1.json",
+      "expected": "d4d0258fc8c8bdb9da7bf29c60cea818e584322f029b8afed8f340a8dda0907c",
+      "actual": "d4d0258fc8c8bdb9da7bf29c60cea818e584322f029b8afed8f340a8dda0907c",
+      "match": true
+    },
+    {
+      "file": "reviews/BLIND-FF2/inputs/certificate-extraction.md",
+      "expected": "b17fb368a2fda01d42ede6f5cc58ff61c16b759a2e688b637d97f8f8cab75548",
+      "actual": "b17fb368a2fda01d42ede6f5cc58ff61c16b759a2e688b637d97f8f8cab75548",
+      "match": true
+    },
+    {
+      "file": "reviews/BLIND-FF2/inputs/crt-projection.md",
+      "expected": "8a1151a7a4c523312bc82b8da13c6eefd67df32d52e0a80931e5f3313182d9b3",
+      "actual": "8a1151a7a4c523312bc82b8da13c6eefd67df32d52e0a80931e5f3313182d9b3",
+      "match": true
+    },
+    {
+      "file": "reviews/BLIND-FF2/inputs/inherited-one-root-extractor.md",
+      "expected": "8617dfdeb1b79f71e5d6531c4514d397ed946fde2adee4e7e2d5dcf5bcefb5af",
+      "actual": "8617dfdeb1b79f71e5d6531c4514d397ed946fde2adee4e7e2d5dcf5bcefb5af",
+      "match": true
+    },
+    {
+      "file": "reviews/BLIND-FF2/inputs/prime-construction.md",
+      "expected": "c0585251bbdb70d8b2a98b0d8a9f67c59b5d379c22f5c0ed6ff9a73e1b71120f",
+      "actual": "c0585251bbdb70d8b2a98b0d8a9f67c59b5d379c22f5c0ed6ff9a73e1b71120f",
+      "match": true
+    },
+    {
+      "file": "reviews/BLIND-FF2/primary-source-observation-v1.json",
+      "expected": "716d45ecf69191e73f1edd5eaee5dee87a0728006a28d2616850ac1c73920265",
+      "actual": "716d45ecf69191e73f1edd5eaee5dee87a0728006a28d2616850ac1c73920265",
+      "match": true
+    },
+    {
+      "file": "reviews/BLIND-FF2/probability-audit-v1.md",
+      "expected": "9596de2ae44ba4b3841ad35db4079dcc4d14172a0ac6f8a1d9264dddd749121d",
+      "actual": "9596de2ae44ba4b3841ad35db4079dcc4d14172a0ac6f8a1d9264dddd749121d",
+      "match": true
+    }
+  ],
+  "reconciled_issues": [
+    {
+      "issue": "Gaussian parameter convention",
+      "resolution": "D_Z,sigma means mass proportional exp(-pi*x*x/sigma^2), consistent with supplied original DD convention and full proofs; alternative conventions require translation."
+    },
+    {
+      "issue": "Auxiliary prime-deletion packet did not define N(J) domain",
+      "resolution": "Only positive integer D=N(J) for a nonzero integral ideal is used, hence1<=D<2^n. No deletion clause needed by either accepted auxiliary theorem or fixed split-prime existence. No acceptance extended to D=0 or undefined ideals."
+    },
+    {
+      "issue": "Adaptive conditional law",
+      "resolution": "Only fresh disjoint raw banks conditional on fixed S and observed past, including new calibration before independent test. No arbitrary conditioning on future errors, no sequential-product claim."
+    },
+    {
+      "issue": "Certificate invertibility",
+      "resolution": "Tuple identifies S uniquely; efficient inversion and source BDD bridge remain unproved."
+    }
+  ],
+  "FF_status": "OPEN",
+  "SV_status": "Reviewed substantive classification at inherited radius; strengthened versions pending blind",
+  "hardness_status": "NOT_ESTABLISHED",
+  "native_goal": "active",
+  "protected_period": "in progress; no termination before21:18:10.636448Z"
+}

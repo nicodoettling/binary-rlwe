@@ -1,0 +1,1275 @@
+{
+  "recorded_at": "2026-10-21T17:51:23.708094+00:00",
+  "requested_total_agents": 3,
+  "reported_concurrency_slots": 3,
+  "observed_list_agents_receipt": {
+    "agents": [
+      {
+        "agent_name": "/root",
+        "agent_status": "running"
+      },
+      {
+        "agent_name": "/root/ff1",
+        "agent_status": "running"
+      },
+      {
+        "agent_name": "/root/sv",
+        "agent_status": "running"
+      }
+    ]
+  },
+  "root_model_evidence": {
+    "source": "launcher-run.json/codex_command",
+    "argv": [
+      "/home/nico/.codex/packages/standalone/releases/0.160.0-x86_64-unknown-linux-musl/bin/codex",
+      "--search",
+      "exec",
+      "-c",
+      "service_tier=\"default\"",
+      "-c",
+      "features.fast_mode=true",
+      "--sandbox",
+      "workspace-write",
+      "-c",
+      "approval_policy=\"never\"",
+      "--color",
+      "never",
+      "-C",
+      "/home/nico/projects/research_projects/binaryRLWE",
+      "--model",
+      "gpt-6-astra",
+      "-c",
+      "model_reasoning_effort=\"ultra\"",
+      "-c",
+      "agents.enabled=true",
+      "-c",
+      "agents.max_concurrent_threads_per_session=2",
+      "-"
+    ],
+    "requested_model": "gpt-6-astra",
+    "requested_reasoning_effort": "ultra",
+    "explicit_service_tier": "default",
+    "backend_billing_telemetry": "unavailable"
+  },
+  "spawn_receipts": [
+    {
+      "requested_task_name": "ff1",
+      "requested_model": "gpt-6-astra",
+      "requested_reasoning_effort": "ultra",
+      "fork_turns": "none",
+      "actual_receipt": {
+        "task_name": "/root/ff1"
+      }
+    },
+    {
+      "requested_task_name": "sv",
+      "requested_model": "gpt-6-astra",
+      "requested_reasoning_effort": "ultra",
+      "fork_turns": "none",
+      "actual_receipt": {
+        "task_name": "/root/sv"
+      }
+    }
+  ],
+  "child_tier": {
+    "configuration": "inherit root explicit default; assignments prohibit tier changes",
+    "spawn_api_service_tier_field": false,
+    "available_receipts_do_not_report_tier": true,
+    "backend_telemetry": "not verified"
+  },
+  "model_catalog_note": "Tool catalogue labels Astra priority availability, but spawn accepts no tier field. No requested change from root default; this discrepancy is disclosed and requires available metadata inspection, not silent tier selection.",
+  "fast_mode": "true enables serialization; no Fast selection requested",
+  "os_process_observation": "Tool sandbox PID namespace does not expose enclosing Codex argv; manifest argv is launch configuration evidence only",
+  "local_session_metadata_observed_at": "2026-10-21T18:03:41.911346+00:00",
+  "local_session_metadata": [
+    {
+      "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T17-49-20-01a15f94-f583-7e80-8df9-e6001ee7e5bf.jsonl",
+      "thread_id": "01a15f94-f583-7e80-8df9-e6001ee7e5bf",
+      "source": {
+        "subagent": {
+          "thread_spawn": {
+            "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+            "depth": 1,
+            "agent_path": "/root/ff1",
+            "agent_nickname": "Hubble",
+            "agent_role": null
+          }
+        }
+      },
+      "thread_source": "subagent",
+      "turn_context": [
+        {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never"
+        }
+      ],
+      "tier_not_in_observed_fields": true
+    },
+    {
+      "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T17-48-11-01a15f93-e6bd-7fd2-953c-80af410308a1.jsonl",
+      "thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+      "source": "exec",
+      "thread_source": "user",
+      "turn_context": [
+        {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never"
+        }
+      ],
+      "tier_not_in_observed_fields": true
+    },
+    {
+      "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T17-49-46-01a15f95-5af6-7a52-89f5-88d4ca9ba925.jsonl",
+      "thread_id": "01a15f95-5af6-7a52-89f5-88d4ca9ba925",
+      "source": {
+        "subagent": {
+          "thread_spawn": {
+            "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+            "depth": 1,
+            "agent_path": "/root/sv",
+            "agent_nickname": "Bohr",
+            "agent_role": null
+          }
+        }
+      },
+      "thread_source": "subagent",
+      "turn_context": [
+        {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never"
+        }
+      ],
+      "tier_not_in_observed_fields": true
+    }
+  ],
+  "additional_spawns": [
+    {
+      "recorded_at": "2026-10-21T18:32:28.424016+00:00",
+      "tool": "collaboration.spawn_agent",
+      "actual_return": {
+        "task_name": "/root/blind_sv1"
+      },
+      "arguments": {
+        "task_name": "blind_sv1",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "role": "Fresh statement-only BLIND-SV1",
+      "capacity": "FF1 active in FULL-CERT2; SV finished; root+FF1+BLIND-SV1 =3 active total",
+      "tier_evidence": "spawn API has no tier argument; inherited explicit default config, not backend billing telemetry"
+    },
+    {
+      "recorded_at": "2026-10-21T18:49:25.288755+00:00",
+      "tool": "collaboration.spawn_agent",
+      "actual_return": {
+        "task_name": "/root/blind_ff2"
+      },
+      "arguments": {
+        "task_name": "blind_ff2",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "tier_evidence": "No spawn tier field; explicit inherited default required, no backend telemetry",
+      "slot_recycled_from": "ff1"
+    },
+    {
+      "recorded_at": "2026-10-21T18:49:25.288755+00:00",
+      "tool": "collaboration.spawn_agent",
+      "actual_return": {
+        "task_name": "/root/full_sv2"
+      },
+      "arguments": {
+        "task_name": "full_sv2",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "tier_evidence": "No spawn tier field; explicit inherited default required, no backend telemetry",
+      "slot_recycled_from": "blind_sv1"
+    }
+  ],
+  "additional_spawn_transcript_records": [
+    {
+      "task": "blind_sv1",
+      "receipt_saved": "coordinator/assignments/blind_sv1.json",
+      "tool_return_found": true
+    },
+    {
+      "task": "blind_ff2",
+      "receipt_saved": "coordinator/assignments/blind_ff2.json",
+      "tool_return_found": true
+    },
+    {
+      "task": "full_sv2",
+      "receipt_saved": "coordinator/assignments/full_sv2.json",
+      "tool_return_found": true
+    },
+    {
+      "task": "ff3_kernel",
+      "receipt_saved": "coordinator/assignments/ff3_kernel.json",
+      "tool_return_found": true
+    },
+    {
+      "task": "blind_sv2",
+      "receipt_saved": "coordinator/assignments/blind_sv2.json",
+      "tool_return_found": true
+    },
+    {
+      "task": "ff1",
+      "receipt_saved": "coordinator/assignments/ff1.json",
+      "tool_return_found": true
+    },
+    {
+      "task": "sv",
+      "receipt_saved": "coordinator/assignments/sv.json",
+      "tool_return_found": true
+    },
+    {
+      "task": "full_frontier1",
+      "receipt_saved": "coordinator/assignments/full_frontier1.json",
+      "tool_return_found": true
+    },
+    {
+      "task": "blind_frontier1",
+      "receipt_saved": "coordinator/assignments/blind_frontier1.json",
+      "tool_return_found": true
+    }
+  ],
+  "latest_child_metadata_snapshot": {
+    "at": "2026-10-21T19:44:50.970499+00:00",
+    "children": [
+      {
+        "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T17-49-20-01a15f94-f583-7e80-8df9-e6001ee7e5bf.jsonl",
+        "session_metadata": {
+          "id": "01a15f94-f583-7e80-8df9-e6001ee7e5bf",
+          "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+          "timestamp": "2026-10-21T17:49:20.139Z",
+          "agent_path": "/root/ff1",
+          "source": {
+            "subagent": {
+              "thread_spawn": {
+                "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+                "depth": 1,
+                "agent_path": "/root/ff1",
+                "agent_nickname": "Hubble",
+                "agent_role": null
+              }
+            }
+          },
+          "thread_source": "subagent"
+        },
+        "first_turn_config": {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          }
+        }
+      },
+      {
+        "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T19-24-38-01a15fec-35b1-73b0-9959-688df1cc8cfc.jsonl",
+        "session_metadata": {
+          "id": "01a15fec-35b1-73b0-9959-688df1cc8cfc",
+          "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+          "timestamp": "2026-10-21T19:24:38.199Z",
+          "agent_path": "/root/full_frontier1",
+          "source": {
+            "subagent": {
+              "thread_spawn": {
+                "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+                "depth": 1,
+                "agent_path": "/root/full_frontier1",
+                "agent_nickname": "Curie",
+                "agent_role": null
+              }
+            }
+          },
+          "thread_source": "subagent"
+        },
+        "first_turn_config": {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          }
+        }
+      },
+      {
+        "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T19-03-49-01a15fd9-29d1-7eb0-b32d-97d9c42c745f.jsonl",
+        "session_metadata": {
+          "id": "01a15fd9-29d1-7eb0-b32d-97d9c42c745f",
+          "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+          "timestamp": "2026-10-21T19:03:49.975Z",
+          "agent_path": "/root/ff3_kernel",
+          "source": {
+            "subagent": {
+              "thread_spawn": {
+                "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+                "depth": 1,
+                "agent_path": "/root/ff3_kernel",
+                "agent_nickname": "Averroes",
+                "agent_role": null
+              }
+            }
+          },
+          "thread_source": "subagent"
+        },
+        "first_turn_config": {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          }
+        }
+      },
+      {
+        "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T18-31-29-01a15fbb-8d77-7ce1-87f9-b0d2a76c0012.jsonl",
+        "session_metadata": {
+          "id": "01a15fbb-8d77-7ce1-87f9-b0d2a76c0012",
+          "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+          "timestamp": "2026-10-21T18:31:29.405Z",
+          "agent_path": "/root/blind_sv1",
+          "source": {
+            "subagent": {
+              "thread_spawn": {
+                "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+                "depth": 1,
+                "agent_path": "/root/blind_sv1",
+                "agent_nickname": "Copernicus",
+                "agent_role": null
+              }
+            }
+          },
+          "thread_source": "subagent"
+        },
+        "first_turn_config": {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          }
+        }
+      },
+      {
+        "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T17-49-46-01a15f95-5af6-7a52-89f5-88d4ca9ba925.jsonl",
+        "session_metadata": {
+          "id": "01a15f95-5af6-7a52-89f5-88d4ca9ba925",
+          "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+          "timestamp": "2026-10-21T17:49:46.109Z",
+          "agent_path": "/root/sv",
+          "source": {
+            "subagent": {
+              "thread_spawn": {
+                "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+                "depth": 1,
+                "agent_path": "/root/sv",
+                "agent_nickname": "Bohr",
+                "agent_role": null
+              }
+            }
+          },
+          "thread_source": "subagent"
+        },
+        "first_turn_config": {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          }
+        }
+      },
+      {
+        "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T18-47-18-01a15fca-092b-7371-8a0e-79e95477f56d.jsonl",
+        "session_metadata": {
+          "id": "01a15fca-092b-7371-8a0e-79e95477f56d",
+          "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+          "timestamp": "2026-10-21T18:47:18.577Z",
+          "agent_path": "/root/blind_ff2",
+          "source": {
+            "subagent": {
+              "thread_spawn": {
+                "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+                "depth": 1,
+                "agent_path": "/root/blind_ff2",
+                "agent_nickname": "Avicenna",
+                "agent_role": null
+              }
+            }
+          },
+          "thread_source": "subagent"
+        },
+        "first_turn_config": {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          }
+        }
+      },
+      {
+        "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T18-47-59-01a15fca-a72a-7a00-b736-c3caef47e055.jsonl",
+        "session_metadata": {
+          "id": "01a15fca-a72a-7a00-b736-c3caef47e055",
+          "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+          "timestamp": "2026-10-21T18:47:59.023Z",
+          "agent_path": "/root/full_sv2",
+          "source": {
+            "subagent": {
+              "thread_spawn": {
+                "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+                "depth": 1,
+                "agent_path": "/root/full_sv2",
+                "agent_nickname": "Feynman",
+                "agent_role": null
+              }
+            }
+          },
+          "thread_source": "subagent"
+        },
+        "first_turn_config": {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          }
+        }
+      },
+      {
+        "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T19-08-07-01a15fdd-16b4-7c81-b297-dd19b8363753.jsonl",
+        "session_metadata": {
+          "id": "01a15fdd-16b4-7c81-b297-dd19b8363753",
+          "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+          "timestamp": "2026-10-21T19:08:07.226Z",
+          "agent_path": "/root/blind_sv2",
+          "source": {
+            "subagent": {
+              "thread_spawn": {
+                "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+                "depth": 1,
+                "agent_path": "/root/blind_sv2",
+                "agent_nickname": "Bernoulli",
+                "agent_role": null
+              }
+            }
+          },
+          "thread_source": "subagent"
+        },
+        "first_turn_config": {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          }
+        }
+      }
+    ],
+    "limitation": "Configuration evidence only; no backend billing telemetry. No tier field inferred."
+  },
+  "updated_at": "2026-10-21T21:45:54.056177+00:00",
+  "capacity_mismatches": [
+    {
+      "at": "2026-10-21T19:44:50.970499+00:00",
+      "action": "spawn blind_frontier1 after full_frontier1 completed",
+      "actual_error": "collab spawn failed: agent thread limit reached",
+      "list_observed": "root running, ff3_kernel running, full_frontier1 completed",
+      "response": "No capacity bypass; useful root work continues while waiting for completed-slot recycling"
+    }
+  ],
+  "capacity_resolution": [
+    {
+      "at": "2026-10-21T20:04:52.622349+00:00",
+      "previous_errors": "two fresh blind spawns rejected by threadlimit despite completed full_frontier1",
+      "state_change": "full_frontier1 reused forFULL-FF3, then returnedcompleted again",
+      "actual_success": {
+        "task_name": "/root/blind_frontier1"
+      },
+      "requested_model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none",
+      "active_total": 3,
+      "no_bypass": "No nestedCLI/session, tierchange or extraactiveworker"
+    }
+  ],
+  "latest_actual_spawn_receipts": "coordinator/spawn-receipts-all-v2.json",
+  "metadata_refresh_v2": {
+    "at": "2026-10-21T20:26:51.822225+00:00",
+    "sessions": [
+      {
+        "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T17-49-20-01a15f94-f583-7e80-8df9-e6001ee7e5bf.jsonl",
+        "session_metadata": {
+          "id": "01a15f94-f583-7e80-8df9-e6001ee7e5bf",
+          "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+          "timestamp": "2026-10-21T17:49:20.139Z",
+          "agent_path": "/root/ff1",
+          "source": {
+            "subagent": {
+              "thread_spawn": {
+                "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+                "depth": 1,
+                "agent_path": "/root/ff1",
+                "agent_nickname": "Hubble",
+                "agent_role": null
+              }
+            }
+          }
+        },
+        "first_turn_config": {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          }
+        }
+      },
+      {
+        "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T19-24-38-01a15fec-35b1-73b0-9959-688df1cc8cfc.jsonl",
+        "session_metadata": {
+          "id": "01a15fec-35b1-73b0-9959-688df1cc8cfc",
+          "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+          "timestamp": "2026-10-21T19:24:38.199Z",
+          "agent_path": "/root/full_frontier1",
+          "source": {
+            "subagent": {
+              "thread_spawn": {
+                "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+                "depth": 1,
+                "agent_path": "/root/full_frontier1",
+                "agent_nickname": "Curie",
+                "agent_role": null
+              }
+            }
+          }
+        },
+        "first_turn_config": {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          }
+        }
+      },
+      {
+        "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T20-03-37-01a1600f-e771-7230-b56e-51a658fb2647.jsonl",
+        "session_metadata": {
+          "id": "01a1600f-e771-7230-b56e-51a658fb2647",
+          "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+          "timestamp": "2026-10-21T20:03:37.464Z",
+          "agent_path": "/root/blind_frontier1",
+          "source": {
+            "subagent": {
+              "thread_spawn": {
+                "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+                "depth": 1,
+                "agent_path": "/root/blind_frontier1",
+                "agent_nickname": "Noether",
+                "agent_role": null
+              }
+            }
+          }
+        },
+        "first_turn_config": {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          }
+        }
+      },
+      {
+        "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T19-03-49-01a15fd9-29d1-7eb0-b32d-97d9c42c745f.jsonl",
+        "session_metadata": {
+          "id": "01a15fd9-29d1-7eb0-b32d-97d9c42c745f",
+          "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+          "timestamp": "2026-10-21T19:03:49.975Z",
+          "agent_path": "/root/ff3_kernel",
+          "source": {
+            "subagent": {
+              "thread_spawn": {
+                "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+                "depth": 1,
+                "agent_path": "/root/ff3_kernel",
+                "agent_nickname": "Averroes",
+                "agent_role": null
+              }
+            }
+          }
+        },
+        "first_turn_config": {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          }
+        }
+      },
+      {
+        "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T18-31-29-01a15fbb-8d77-7ce1-87f9-b0d2a76c0012.jsonl",
+        "session_metadata": {
+          "id": "01a15fbb-8d77-7ce1-87f9-b0d2a76c0012",
+          "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+          "timestamp": "2026-10-21T18:31:29.405Z",
+          "agent_path": "/root/blind_sv1",
+          "source": {
+            "subagent": {
+              "thread_spawn": {
+                "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+                "depth": 1,
+                "agent_path": "/root/blind_sv1",
+                "agent_nickname": "Copernicus",
+                "agent_role": null
+              }
+            }
+          }
+        },
+        "first_turn_config": {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          }
+        }
+      },
+      {
+        "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T17-49-46-01a15f95-5af6-7a52-89f5-88d4ca9ba925.jsonl",
+        "session_metadata": {
+          "id": "01a15f95-5af6-7a52-89f5-88d4ca9ba925",
+          "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+          "timestamp": "2026-10-21T17:49:46.109Z",
+          "agent_path": "/root/sv",
+          "source": {
+            "subagent": {
+              "thread_spawn": {
+                "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+                "depth": 1,
+                "agent_path": "/root/sv",
+                "agent_nickname": "Bohr",
+                "agent_role": null
+              }
+            }
+          }
+        },
+        "first_turn_config": {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          }
+        }
+      },
+      {
+        "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T18-47-18-01a15fca-092b-7371-8a0e-79e95477f56d.jsonl",
+        "session_metadata": {
+          "id": "01a15fca-092b-7371-8a0e-79e95477f56d",
+          "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+          "timestamp": "2026-10-21T18:47:18.577Z",
+          "agent_path": "/root/blind_ff2",
+          "source": {
+            "subagent": {
+              "thread_spawn": {
+                "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+                "depth": 1,
+                "agent_path": "/root/blind_ff2",
+                "agent_nickname": "Avicenna",
+                "agent_role": null
+              }
+            }
+          }
+        },
+        "first_turn_config": {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          }
+        }
+      },
+      {
+        "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T18-47-59-01a15fca-a72a-7a00-b736-c3caef47e055.jsonl",
+        "session_metadata": {
+          "id": "01a15fca-a72a-7a00-b736-c3caef47e055",
+          "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+          "timestamp": "2026-10-21T18:47:59.023Z",
+          "agent_path": "/root/full_sv2",
+          "source": {
+            "subagent": {
+              "thread_spawn": {
+                "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+                "depth": 1,
+                "agent_path": "/root/full_sv2",
+                "agent_nickname": "Feynman",
+                "agent_role": null
+              }
+            }
+          }
+        },
+        "first_turn_config": {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          }
+        }
+      },
+      {
+        "path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T19-08-07-01a15fdd-16b4-7c81-b297-dd19b8363753.jsonl",
+        "session_metadata": {
+          "id": "01a15fdd-16b4-7c81-b297-dd19b8363753",
+          "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+          "timestamp": "2026-10-21T19:08:07.226Z",
+          "agent_path": "/root/blind_sv2",
+          "source": {
+            "subagent": {
+              "thread_spawn": {
+                "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+                "depth": 1,
+                "agent_path": "/root/blind_sv2",
+                "agent_nickname": "Bernoulli",
+                "agent_role": null
+              }
+            }
+          }
+        },
+        "first_turn_config": {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "approval_policy": "never",
+          "sandbox_policy": {
+            "type": "workspace-write",
+            "network_access": false,
+            "exclude_tmpdir_env_var": false,
+            "exclude_slash_tmp": false
+          }
+        }
+      }
+    ],
+    "limitation": "Configuration evidence, not backend billing telemetry; child service-tier field absent."
+  },
+  "metadata_refresh_v3": {
+    "at": "2026-10-21T21:12:49.432044+00:00",
+    "spawn_receipts": "coordinator/spawn-receipts-all-v3.json",
+    "children": [
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T17-49-20-01a15f94-f583-7e80-8df9-e6001ee7e5bf.jsonl",
+        "thread_id": "01a15f94-f583-7e80-8df9-e6001ee7e5bf",
+        "agent_path": "/root/ff1",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T19-24-38-01a15fec-35b1-73b0-9959-688df1cc8cfc.jsonl",
+        "thread_id": "01a15fec-35b1-73b0-9959-688df1cc8cfc",
+        "agent_path": "/root/full_frontier1",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T20-03-37-01a1600f-e771-7230-b56e-51a658fb2647.jsonl",
+        "thread_id": "01a1600f-e771-7230-b56e-51a658fb2647",
+        "agent_path": "/root/blind_frontier1",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T19-03-49-01a15fd9-29d1-7eb0-b32d-97d9c42c745f.jsonl",
+        "thread_id": "01a15fd9-29d1-7eb0-b32d-97d9c42c745f",
+        "agent_path": "/root/ff3_kernel",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T20-29-20-01a16027-7152-7541-a92e-e738568ef01e.jsonl",
+        "thread_id": "01a16027-7152-7541-a92e-e738568ef01e",
+        "agent_path": "/root/full_source3",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T18-31-29-01a15fbb-8d77-7ce1-87f9-b0d2a76c0012.jsonl",
+        "thread_id": "01a15fbb-8d77-7ce1-87f9-b0d2a76c0012",
+        "agent_path": "/root/blind_sv1",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T17-49-46-01a15f95-5af6-7a52-89f5-88d4ca9ba925.jsonl",
+        "thread_id": "01a15f95-5af6-7a52-89f5-88d4ca9ba925",
+        "agent_path": "/root/sv",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T20-39-19-01a16030-987a-76c0-81e0-38241d1fabf6.jsonl",
+        "thread_id": "01a16030-987a-76c0-81e0-38241d1fabf6",
+        "agent_path": "/root/blind_source4",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T21-05-24-01a16048-77c3-73d0-a89e-134c23b4da3e.jsonl",
+        "thread_id": "01a16048-77c3-73d0-a89e-134c23b4da3e",
+        "agent_path": "/root/blind_transfer2",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T18-47-18-01a15fca-092b-7371-8a0e-79e95477f56d.jsonl",
+        "thread_id": "01a15fca-092b-7371-8a0e-79e95477f56d",
+        "agent_path": "/root/blind_ff2",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T18-47-59-01a15fca-a72a-7a00-b736-c3caef47e055.jsonl",
+        "thread_id": "01a15fca-a72a-7a00-b736-c3caef47e055",
+        "agent_path": "/root/full_sv2",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T19-08-07-01a15fdd-16b4-7c81-b297-dd19b8363753.jsonl",
+        "thread_id": "01a15fdd-16b4-7c81-b297-dd19b8363753",
+        "agent_path": "/root/blind_sv2",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      }
+    ],
+    "interpretation": "Configuration evidence only; no backend billing telemetry; explicit root default inherited without child tier field."
+  },
+  "metadata_refresh_v4": {
+    "at": "2026-10-21T21:37:37.203139+00:00",
+    "receipt": "coordinator/spawn-receipts-all-v4.json",
+    "actual_spawn_attempts": 17,
+    "metadata": [
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T17-49-20-01a15f94-f583-7e80-8df9-e6001ee7e5bf.jsonl",
+        "thread_id": "01a15f94-f583-7e80-8df9-e6001ee7e5bf",
+        "agent_path": "/root/ff1",
+        "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T19-24-38-01a15fec-35b1-73b0-9959-688df1cc8cfc.jsonl",
+        "thread_id": "01a15fec-35b1-73b0-9959-688df1cc8cfc",
+        "agent_path": "/root/full_frontier1",
+        "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T20-03-37-01a1600f-e771-7230-b56e-51a658fb2647.jsonl",
+        "thread_id": "01a1600f-e771-7230-b56e-51a658fb2647",
+        "agent_path": "/root/blind_frontier1",
+        "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T21-27-18-01a1605c-8306-7290-a69c-b3e7a92777e7.jsonl",
+        "thread_id": "01a1605c-8306-7290-a69c-b3e7a92777e7",
+        "agent_path": "/root/blind_resource3",
+        "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T21-16-21-01a16052-7d09-7e61-b3c3-a7ea4eb0db4d.jsonl",
+        "thread_id": "01a16052-7d09-7e61-b3c3-a7ea4eb0db4d",
+        "agent_path": "/root/frontier_challenge1",
+        "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T19-03-49-01a15fd9-29d1-7eb0-b32d-97d9c42c745f.jsonl",
+        "thread_id": "01a15fd9-29d1-7eb0-b32d-97d9c42c745f",
+        "agent_path": "/root/ff3_kernel",
+        "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T20-29-20-01a16027-7152-7541-a92e-e738568ef01e.jsonl",
+        "thread_id": "01a16027-7152-7541-a92e-e738568ef01e",
+        "agent_path": "/root/full_source3",
+        "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T18-31-29-01a15fbb-8d77-7ce1-87f9-b0d2a76c0012.jsonl",
+        "thread_id": "01a15fbb-8d77-7ce1-87f9-b0d2a76c0012",
+        "agent_path": "/root/blind_sv1",
+        "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T17-48-11-01a15f93-e6bd-7fd2-953c-80af410308a1.jsonl",
+        "thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+        "agent_path": "/root",
+        "parent_thread_id": null,
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T21-36-51-01a16065-433d-76b3-99d0-b65b7aaefd72.jsonl",
+        "thread_id": "01a16065-433d-76b3-99d0-b65b7aaefd72",
+        "agent_path": "/root/blind_resource4",
+        "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T17-49-46-01a15f95-5af6-7a52-89f5-88d4ca9ba925.jsonl",
+        "thread_id": "01a15f95-5af6-7a52-89f5-88d4ca9ba925",
+        "agent_path": "/root/sv",
+        "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T20-39-19-01a16030-987a-76c0-81e0-38241d1fabf6.jsonl",
+        "thread_id": "01a16030-987a-76c0-81e0-38241d1fabf6",
+        "agent_path": "/root/blind_source4",
+        "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T21-05-24-01a16048-77c3-73d0-a89e-134c23b4da3e.jsonl",
+        "thread_id": "01a16048-77c3-73d0-a89e-134c23b4da3e",
+        "agent_path": "/root/blind_transfer2",
+        "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T18-47-18-01a15fca-092b-7371-8a0e-79e95477f56d.jsonl",
+        "thread_id": "01a15fca-092b-7371-8a0e-79e95477f56d",
+        "agent_path": "/root/blind_ff2",
+        "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T18-47-59-01a15fca-a72a-7a00-b736-c3caef47e055.jsonl",
+        "thread_id": "01a15fca-a72a-7a00-b736-c3caef47e055",
+        "agent_path": "/root/full_sv2",
+        "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T19-08-07-01a15fdd-16b4-7c81-b297-dd19b8363753.jsonl",
+        "thread_id": "01a15fdd-16b4-7c81-b297-dd19b8363753",
+        "agent_path": "/root/blind_sv2",
+        "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      }
+    ]
+  },
+  "metadata_refresh_v5": {
+    "at": "2026-10-21T21:45:54.056177+00:00",
+    "receipt": "coordinator/spawn-receipts-all-v5.json",
+    "actual_spawn_attempts": 18,
+    "metadata": [
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T17-49-20-01a15f94-f583-7e80-8df9-e6001ee7e5bf.jsonl",
+        "thread_id": "01a15f94-f583-7e80-8df9-e6001ee7e5bf",
+        "agent_path": "/root/ff1",
+        "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T19-24-38-01a15fec-35b1-73b0-9959-688df1cc8cfc.jsonl",
+        "thread_id": "01a15fec-35b1-73b0-9959-688df1cc8cfc",
+        "agent_path": "/root/full_frontier1",
+        "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T20-03-37-01a1600f-e771-7230-b56e-51a658fb2647.jsonl",
+        "thread_id": "01a1600f-e771-7230-b56e-51a658fb2647",
+        "agent_path": "/root/blind_frontier1",
+        "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T21-27-18-01a1605c-8306-7290-a69c-b3e7a92777e7.jsonl",
+        "thread_id": "01a1605c-8306-7290-a69c-b3e7a92777e7",
+        "agent_path": "/root/blind_resource3",
+        "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T21-16-21-01a16052-7d09-7e61-b3c3-a7ea4eb0db4d.jsonl",
+        "thread_id": "01a16052-7d09-7e61-b3c3-a7ea4eb0db4d",
+        "agent_path": "/root/frontier_challenge1",
+        "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T19-03-49-01a15fd9-29d1-7eb0-b32d-97d9c42c745f.jsonl",
+        "thread_id": "01a15fd9-29d1-7eb0-b32d-97d9c42c745f",
+        "agent_path": "/root/ff3_kernel",
+        "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T20-29-20-01a16027-7152-7541-a92e-e738568ef01e.jsonl",
+        "thread_id": "01a16027-7152-7541-a92e-e738568ef01e",
+        "agent_path": "/root/full_source3",
+        "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T18-31-29-01a15fbb-8d77-7ce1-87f9-b0d2a76c0012.jsonl",
+        "thread_id": "01a15fbb-8d77-7ce1-87f9-b0d2a76c0012",
+        "agent_path": "/root/blind_sv1",
+        "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T17-48-11-01a15f93-e6bd-7fd2-953c-80af410308a1.jsonl",
+        "thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+        "agent_path": "/root",
+        "parent_thread_id": null,
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T21-36-51-01a16065-433d-76b3-99d0-b65b7aaefd72.jsonl",
+        "thread_id": "01a16065-433d-76b3-99d0-b65b7aaefd72",
+        "agent_path": "/root/blind_resource4",
+        "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T21-42-04-01a1606a-0884-7d91-b44e-a6a247ffafd8.jsonl",
+        "thread_id": "01a1606a-0884-7d91-b44e-a6a247ffafd8",
+        "agent_path": "/root/delivery_audit1",
+        "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T17-49-46-01a15f95-5af6-7a52-89f5-88d4ca9ba925.jsonl",
+        "thread_id": "01a15f95-5af6-7a52-89f5-88d4ca9ba925",
+        "agent_path": "/root/sv",
+        "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T20-39-19-01a16030-987a-76c0-81e0-38241d1fabf6.jsonl",
+        "thread_id": "01a16030-987a-76c0-81e0-38241d1fabf6",
+        "agent_path": "/root/blind_source4",
+        "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T21-05-24-01a16048-77c3-73d0-a89e-134c23b4da3e.jsonl",
+        "thread_id": "01a16048-77c3-73d0-a89e-134c23b4da3e",
+        "agent_path": "/root/blind_transfer2",
+        "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T18-47-18-01a15fca-092b-7371-8a0e-79e95477f56d.jsonl",
+        "thread_id": "01a15fca-092b-7371-8a0e-79e95477f56d",
+        "agent_path": "/root/blind_ff2",
+        "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T18-47-59-01a15fca-a72a-7a00-b736-c3caef47e055.jsonl",
+        "thread_id": "01a15fca-a72a-7a00-b736-c3caef47e055",
+        "agent_path": "/root/full_sv2",
+        "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      },
+      {
+        "session_path": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T19-08-07-01a15fdd-16b4-7c81-b297-dd19b8363753.jsonl",
+        "thread_id": "01a15fdd-16b4-7c81-b297-dd19b8363753",
+        "agent_path": "/root/blind_sv2",
+        "parent_thread_id": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+        "model": "gpt-6-astra",
+        "effort": "ultra",
+        "approval_policy": "never",
+        "service_tier_in_turn_context": "NOT_PRESENT"
+      }
+    ]
+  }
+}

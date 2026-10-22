@@ -1,0 +1,35 @@
+{
+  "at": "2026-10-21T22:42:57.503Z",
+  "call": {
+    "call_id": "call_4ddc1d093718499b996f09bd8762e6f3",
+    "timestamp": "2026-10-21T22:42:57.354Z",
+    "line": 5201
+  },
+  "result_line": 5203,
+  "result_line_sha256": "e660ea718092d7cd8fb96f971107922e4a3ea28b2dc9b2ae4fa11fc390fc791c",
+  "tool_result": {
+    "agents": [
+      {
+        "agent_name": "/root",
+        "agent_status": "running"
+      },
+      {
+        "agent_name": "/root/delivery_audit1",
+        "agent_status": {
+          "completed": "Sealed delivery audit passes draft v4\u2019s mathematical scope. All six findings are resolved; final usage, inventory and observed cleanup remain pending.\n\n- Report: `reviews/DELIVERY-AUDIT1/full-report-v1.md`\n- Seal SHA256: `c252b30e528bde78f7b73396fbf07ea76c1e2e7471c8e0a281fb9f1bfc70349b`\n- Verified 203 inherited IDs, 609 disposition links and 28 accepted dependency nodes.\n- FF remains open; hardness unestablished; exhaustion rejected.\n- No reviewer-owned active jobs."
+        }
+      },
+      {
+        "agent_name": "/root/operations_audit1",
+        "agent_status": {
+          "completed": "Reviewed and sealed the v1\u2192v3 repairs. **No remaining blocking defect identified in v3 by static review.** Future receipts and successful publication still require verification.\n\n[Complete report](/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/OPERATIONS-AUDIT1/closeout-assembler-v1/report.md)\n\nAll 21 additive artifacts and the original 311 audit artifacts verify unchanged. No finalization script was executed.\n\nSeal: `c52aecb4da6c839e9cc63651dab0b3bad61e476163ac97ad890a3ddc6c521db1`."
+        }
+      }
+    ]
+  },
+  "captured_at": "2026-10-21T22:43:04.431573+00:00",
+  "source": "/home/nico/.codex/sessions/2026/10/21/rollout-2026-10-21T17-48-11-01a15f93-e6bd-7fd2-953c-80af410308a1.jsonl",
+  "service_activation": "2026-10-21T17:48:10.636448+00:00",
+  "active_child_count": 0,
+  "scope": "Actual latest list_agents response only; not a process census. No arbitrary message, arguments, environment or encrypted-content fields extracted."
+}

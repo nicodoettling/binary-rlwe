@@ -1,0 +1,18 @@
+{
+  "id": "SUBFIELD-FV1",
+  "registered_at": "2026-10-21T18:45:07.138215+00:00",
+  "hypothesis": "Cyclotomic order inequality and exact sparse subfield image ranks support bounded-prime-support contraction classifier; no invariance of entire ideal required.",
+  "code": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/subfield-fv1.py",
+  "sha256": "eed1aa06161f359245fa5d8cfc024eb5f91cde168288ead1d27f6830ad53c7b5",
+  "seed": null,
+  "inputs": "n powers2 through1024, primes3..299; explicit p3 plus splitprime ideal cases n64,128,256; split product n16q97",
+  "command": "timeout 120s prlimit --as=536870912 --cpu=110 /usr/bin/time -v -o experiments/subfield-fv1-resources.txt python3 experiments/subfield-fv1.py > experiments/subfield-fv1-output.json 2> experiments/subfield-fv1-stderr.txt (cwd OUTPUT)",
+  "limits": {
+    "wall_seconds": 120,
+    "address_space_bytes": 536870912,
+    "cpu_seconds": 110
+  },
+  "estimated": "<10s, <100MiB, light single process",
+  "precision": "Exact integers/modular rank; no floating tails",
+  "expected": "All asserts pass; large numeric enumeration explicitly not attempted"
+}

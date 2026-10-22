@@ -1,0 +1,739 @@
+{
+  "at": "2026-10-21T22:03:55.367631+00:00",
+  "reviewer": "DELIVERY-AUDIT1",
+  "role": "Fresh nonauthor nonblind delivery/dependency audit; correlated same-model scrutiny, not formal verification",
+  "verdict": "PASS_MATHEMATICAL_DELIVERY_SCOPE_WITH_EXPLICIT_FINAL_OPERATIONAL_RECEIPTS_PENDING",
+  "draft": "coordinator/final-draft-v4.md",
+  "draft_sha256": "e0bebf18e96b8dd1415838822ba2d9c2012115d13face97c2dc9c0d8f47ae870",
+  "acceptance": "coordinator/acceptance-v7.json",
+  "acceptance_sha256": "f63e200b8fea46ca67e94c02fa4cf3e1c0671e4f7ed0b912a0d120d47633c54b",
+  "report": "reviews/DELIVERY-AUDIT1/full-report-v1.md",
+  "report_sha256": "4d20e5448f0b87594576f2736f9cab7942fcc98fdf9619a14acca534b7d5ae78",
+  "separate_fresh_full_gate": "reviews/DELIVERY-AUDIT1/compact-v3-full/seal-v1.json",
+  "separate_fresh_full_gate_sha256": "d412510f463b6558be20ca879284e046732a8c5d386bcd0727367e68c18c00a3",
+  "resolved_findings": [
+    "DA1-01",
+    "DA1-02",
+    "DA1-03",
+    "DA1-04",
+    "DA1-05",
+    "DA1-06"
+  ],
+  "unresolved_mathematical_delivery_findings": [],
+  "unresolved_scientific_objectives": [
+    "Full fixed-family reduction",
+    "Compatible established source-hardness foundation"
+  ],
+  "open_final_operational_gates": [
+    "Final actual native usage receipt",
+    "Final evidence inventory refresh",
+    "Actual final local job/worker/cleanup observations"
+  ],
+  "integrity_summary": {
+    "hash_bindings": 2011,
+    "unique_paths": 1078,
+    "accepted_nodes": 28,
+    "local_dependency_edges": 21,
+    "graph_gaps": 0,
+    "inherited_regression_ids": 203,
+    "exact_current_disposition_links": 609,
+    "local_controls": 74,
+    "failed_final_checks": 0
+  },
+  "exposure": "Parent status/results exposed; delivery review not blind. BLIND-RESOURCE4 report read only after separately sealed fresh compact statement/proof review. Read depth and snapshots are in input manifests.",
+  "own_checker_error_preserved": "v2 used noncanonical JSON non-ASCII encoding for entry digests; corrected v3 agrees with all original hashes; both retained",
+  "new_experiment_invocations": 0,
+  "active_jobs_created_by_reviewer": 0,
+  "spawned_agents": 0,
+  "goal_mutations": 0,
+  "root_artifacts_modified": 0,
+  "future_cleanup_certified": false,
+  "artifacts": [
+    {
+      "path": "reviews/DELIVERY-AUDIT1/assignment-verbatim.txt",
+      "sha256": "87b6f05ff6ff6a44e9642923e4e2c09bd9f7f326ed0e5cc2808f3ca234483641",
+      "bytes": 2664
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/assignment-verbatim.txt",
+      "sha256": "17f6f570051f2c9e52800d31778c7561fd428199ea6cb575ac28f6ed15970797",
+      "bytes": 1098
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/coefficient-binding-v1.json",
+      "sha256": "20a0f5740e9458c201cf57d34d5d8900b49fa23a2e1ef14f65432ac6d3c00910",
+      "bytes": 3435
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/full-report-v1.md",
+      "sha256": "1e30743f5b967e2dfb6b8ad86e4ef1971b11f04447606ce8dc5f168867a05d56",
+      "bytes": 14037
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/input-manifest-addendum-v1.json",
+      "sha256": "7a8d07eed0def6854e26ffdddff24a88ab164a827a5e81379ba38404505efbcb",
+      "bytes": 5593
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/input-manifest-v1.json",
+      "sha256": "130caa22fc0c61a318131da0c1bc10a44c1aa9ab6724a73c1b77cbc6e855ed19",
+      "bytes": 5916
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/coordinator/blind-table-linkage-v1.json",
+      "sha256": "6c3181b9f010c29479d51273b2ca828e69062b9721fd1fd147e84ae33360160e",
+      "bytes": 4589
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/coordinator/compact-selector-proof-v2.md",
+      "sha256": "cfe90ffc7b4b0b6e0e8efdd424f6b20b361b9e66107022752ccf787b66414211",
+      "bytes": 3307
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/coordinator/compact-selector-proof-v3.md",
+      "sha256": "8625e7453ae8d937ba9b885dd802a065987224862c70becbbc2713046c76a71f",
+      "bytes": 3634
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/coordinator/compact-selector-statement-v2.md",
+      "sha256": "89864b1f1d37ebb66e3fb7e364c8ad657c185808cdcdbb1c4370058aed7b2846",
+      "bytes": 3780
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/coordinator/compact-selector-statement-v3.md",
+      "sha256": "20c66a210cfb4821eec35b371fbf7478ec3493d18d656a18a5b06dffc2fed889",
+      "bytes": 3952
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/coordinator/compact-selector-v2-rejection-v1.md",
+      "sha256": "ba0a9dd24a148137d8f812820ddf700db8945ea2300def6d45a4df928d6eabbb",
+      "bytes": 607
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/coordinator/kernel-resource-v3-path-resolution-v1.json",
+      "sha256": "6740588bf0ac3873438ef11956eee216f2086062f34f9ee4a4622e0fefdc76c7",
+      "bytes": 1494
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/coordinator/kernel-resource-wording-rejections-v1.md",
+      "sha256": "9f5cb7df524559e52e080997fc06c05b2e2999453612bf01f7cabd5ff023ec53",
+      "bytes": 693
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/BLIND-TRANSFER2/final-scope-v2.txt",
+      "sha256": "5649846e9ca1952e504ae2ba2f5224f324520aa018e5d3f89c549b69af69a1f4",
+      "bytes": 3686
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/BLIND-TRANSFER2/finite-audit-v1.py",
+      "sha256": "b340145a15169dd0061f4eb0cce8b5721ec92c584e84a2b4a885d7970e636322",
+      "bytes": 11399
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/BLIND-TRANSFER2/full-report-v1.txt",
+      "sha256": "a5ac8105eac82ca5483f95766ba940f731e01797b60a62f8a3f791718fbad176",
+      "bytes": 35569
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/BLIND-TRANSFER2/seal-v1.json",
+      "sha256": "43f5fe6ba73f2c7b712f7f0a8b710d2a3990f72f7b0a735d2c0ccfd79543315d",
+      "bytes": 10275
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/FULL-FF3-PHASE2/full-report-v1.md",
+      "sha256": "1ff44833ff98c0d96c7b6f30447d12f331d26c4b7dad0b4688436984af1748aa",
+      "bytes": 16852
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/FULL-FF3-PHASE2/independent-certificate-check-v2.py",
+      "sha256": "b2965fbad872ae30501a58de69e3a571a64c8b23880c490497de042dbf78688c",
+      "bytes": 13273
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/FULL-FF3-PHASE2/independent-certificate-check-v2.stdout.jsonl",
+      "sha256": "6eed6016ff4be14405355b0dd49ed560f257d6246b5ebac0ef2b0b33581bd09b",
+      "bytes": 4145
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/FULL-FF3-PHASE2/phase2-final-seal-v1.json",
+      "sha256": "7434c7e38e5e9d529c74ebd475ce9e405b09e0dee8663143c1b9b0b4a0fbef5d",
+      "bytes": 50467
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/FULL-FF3-PHASE2/regression-dispositions-v1.json",
+      "sha256": "85f1a5476c7de805cdd8a0972decac9e7e01998de7a13a245b08273315132cae",
+      "bytes": 171729
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/reviews/FULL-FF3-PHASE2/source-complexity-report-v1.md",
+      "sha256": "c9374e485513726ed19d3b78db0640652b5d9f062c5761e7a438fa76f80bac9b",
+      "bytes": 6623
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/workers/FF3/compact-selector-proof-v1.md",
+      "sha256": "8e84e8aa29c9381b36e153ef0f930a0708ccbcc44324f36d29879624ddaab356",
+      "bytes": 2953
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/workers/FF3/compact-selector-statement-v1.md",
+      "sha256": "d606b293a7ec544c6e003eec7f4c8b137ee7d3f76f958cdf0793b058f03237ee",
+      "bytes": 3672
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/workers/FF3/experiments/ff3-public-geometry-fv11.py",
+      "sha256": "a82c019eae561ddd86e9ad8fc57b8e3bb67f9436216f8a5d32c26db415ba9fd7",
+      "bytes": 6428
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/workers/FF3/experiments/public-geometry-public_norm_local_edge_weights-witness.json",
+      "sha256": "140a8b92c3a772c217801f66f9d7618843330f0ca8264718858c3cfcf679cba8",
+      "bytes": 7091
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/inputs/workers/FF3/experiments/radial-ring-H-vertices.json",
+      "sha256": "6d63ee7547c399c361f9883ac7432fee8115911b7c851a10012a83781e175665",
+      "bytes": 1434
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/compact-v3-full/seal-v1.json",
+      "sha256": "d412510f463b6558be20ca879284e046732a8c5d386bcd0727367e68c18c00a3",
+      "bytes": 7429
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/documentary-integrity-v1.json",
+      "sha256": "08632e3015d260c573cd06e38d4e3a7aff9f3812c3d6bfc521c0d5b37ccb7e91",
+      "bytes": 758936
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/documentary-integrity-v2.json",
+      "sha256": "698daebd71c20b5851dd257dccce35fe877fc5881f3fe1e9d9064dee8b3a899a",
+      "bytes": 992178
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/documentary-integrity-v3.json",
+      "sha256": "3096184439b438f61202aeebcf7a0663e31af5810e1aa2afd6fd1b3703f462f0",
+      "bytes": 989894
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/findings-v1.json",
+      "sha256": "abf285c1d6ced7493f618e4f62ecb828624f9dd906b9c4bf9cf218b83a7b3bfe",
+      "bytes": 3050
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/full-report-v1.md",
+      "sha256": "4d20e5448f0b87594576f2736f9cab7942fcc98fdf9619a14acca534b7d5ae78",
+      "bytes": 20528
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/goal-documentary-scan-v1.json",
+      "sha256": "fdc249a847c1a0bbcba0ba09b2e49699f84c619baf06ab49f165209630739c65",
+      "bytes": 3932
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/input-manifest-v1.json",
+      "sha256": "2dabb283cdea2197b33b50a0e6f8edcd083c2f45023fe4f2e68b40f78d671876",
+      "bytes": 10957
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/inputs/claim-dependencies.json",
+      "sha256": "c455100167b5e3ba0000550e0c1d393ccde309e8382c2f273be498771f36cc42",
+      "bytes": 22958
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/inputs/claims.json",
+      "sha256": "1eb8c108e250628c16694b7989ca6fabbfca8cf3f772876020d112ff3128cada",
+      "bytes": 38989
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/inputs/coordinator/acceptance-v1.json",
+      "sha256": "5148b580d29102ccbfbe090568f991a4edba768d4798c222b5550a7df27f5732",
+      "bytes": 18809
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/inputs/coordinator/acceptance-v2.json",
+      "sha256": "32ce0b4004df097bd8b5bd8ad8ce7de78e7d7c24eb7d1e40c0f03828dd97dc65",
+      "bytes": 16815
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/inputs/coordinator/acceptance-v3.json",
+      "sha256": "5f08eb262c7f98632a09fa607b7ebaba88fe58a06558ffadcae8f28bfde49b6c",
+      "bytes": 11586
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/inputs/coordinator/acceptance-v4.json",
+      "sha256": "0cb4b08fb3444c6c39d9dc53e8fe74488611ac12e63e202f9de7f234ce2da24f",
+      "bytes": 39446
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/inputs/coordinator/acceptance-v5-dependency-label-addendum-v1.json",
+      "sha256": "eb8545345d8cdddaf18f4614ade31e15bdaf76f105e084c020965264ee677aee",
+      "bytes": 593
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/inputs/coordinator/acceptance-v5.json",
+      "sha256": "3aa7b065e4fdb99d500875419b80bb8240a64c7ab80848b54bb0468aca5a2693",
+      "bytes": 155218
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/inputs/coordinator/acceptance-v6.json",
+      "sha256": "1b383c296a7809020201ae2c57e9c79e3cc56200aeb55f0ce82b5f33ec01fa16",
+      "bytes": 153873
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/inputs/coordinator/final-draft-v1.md",
+      "sha256": "2f1bc77f88386ed84ccc4148b1d6c9d6f2813088efae0b90f6bc3b83e5347b0b",
+      "bytes": 14065
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/inputs/coordinator/frontier-challenge-replies-v2.md",
+      "sha256": "62a8bc0256e8a1894d1655946dd4f177a5af5e26e0f05edb31ec7c057ea95cd0",
+      "bytes": 13932
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/inputs/coordinator/goal-checkpoint-023.json",
+      "sha256": "77ad82d327576217c7db4ad409fe9a882dca07b9ba071fd565812991ace39386",
+      "bytes": 1004
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/inputs/coordinator/goal-creation-receipt.json",
+      "sha256": "056ccde66a087a19df8d0d0b3519c83d6efd2911fe40a8f1634a4fecddb40f6a",
+      "bytes": 994
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/inputs/coordinator/programme-v2.md",
+      "sha256": "bf57a2be781e091608b3eda9f5ca65c13dd772d87ff4a8d46083c2b1f9ce1f96",
+      "bytes": 7451
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/inputs/coordinator/protected-period-compliance.json",
+      "sha256": "b1dc342efa28bd8b50081ed262ee2a0e84bc931cc215957281bceb3605245b02",
+      "bytes": 31143
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/inputs/coordinator/regression-integrity-v1.json",
+      "sha256": "56ae4413c62eb834eadcc058ab862cecae704e251de6b90a2ec2e41bf86bc052",
+      "bytes": 28419
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/inputs/coordinator/startup-manifest-snapshot.json",
+      "sha256": "feae0fb91c1933530736abffb91d135be9617822b939b70c33772a6d3c4bddc8",
+      "bytes": 4572
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/inputs/parameter-table.md",
+      "sha256": "ab49fd889e16efb08fc76bc0e0ba3a07163e0dd743f4a11f486df9375256edfe",
+      "bytes": 5521
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/inputs/programme-decisions.md",
+      "sha256": "494bcbb02974bf4cc8096af604b623ed8f1258ee4da9b1b66288f63db925bdb8",
+      "bytes": 4680
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/inputs/reconciliation.md",
+      "sha256": "8b7d8c9d8cee9d73a6b44662d702511fef62fd21da2925a1e9b9858c4b96d4c1",
+      "bytes": 3400
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/inputs/reduction-attempts.md",
+      "sha256": "41e473104f4d3a6d180583f84e4e1f520eb0a245bbd8a5824606f9659b261379",
+      "bytes": 9290
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/inputs/regressions.json",
+      "sha256": "349fe5ca793aa2a9ec3a58ff876ea370e64635eead084860a8e1c81c0954d13b",
+      "bytes": 733808
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/inputs/run.log.brlwe-fixed-family-20261021-astra-ultra.cap-status.json",
+      "sha256": "43f7b8bc69ade0c86c7c4966c7dc45f80c173ec027448a532c2f81d454224753",
+      "bytes": 3010
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/inputs/source-comparison.md",
+      "sha256": "0e72cbfecfd01d60aed3917a9e86bfca6f4806e747a298620f84155c55f2b18a",
+      "bytes": 6169
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/preserved/check-current-documentary-v2.py",
+      "sha256": "08c322c840f23b47005aa94425249744721e7e836a4ca29a267237af475aefe6",
+      "bytes": 4976
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/preserved/check-current-documentary-v3.py",
+      "sha256": "dba110705e267ca1c32b6a772c6f8ab22b8a7182dce95a818ae1fd91562c59da",
+      "bytes": 4975
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-input-manifest-v1.json",
+      "sha256": "b009b2d01f00d5e573d3693f668fec8f31d190c5e5ee23d3f75692140f6cebdc",
+      "bytes": 44394
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/claim-dependencies.json",
+      "sha256": "7ef5567dca6dea2a4a2b4f83705efbbb06f0b0ca527fcca47a66c097814fefb1",
+      "bytes": 23428
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/claims.json",
+      "sha256": "dcc28562628c8794963c1f17c319a9500d22b4ed4f0a096019faf50e50967c76",
+      "bytes": 40728
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/acceptance-v7-blind-text-diffs.txt",
+      "sha256": "60a0421045922f76f5ad1cd786bc9253e3d739787512fd7e8db997f574c2f5a4",
+      "bytes": 4780
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/acceptance-v7.json",
+      "sha256": "f63e200b8fea46ca67e94c02fa4cf3e1c0671e4f7ed0b912a0d120d47633c54b",
+      "bytes": 64691
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/blind-table-linkage-v1.json",
+      "sha256": "6c3181b9f010c29479d51273b2ca828e69062b9721fd1fd147e84ae33360160e",
+      "bytes": 4589
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/bounded-affine-tv-statement-v1.md",
+      "sha256": "4ed10092743879e7433b39bfc8988088821c7ceb29f4944f3794baea10cc7c6e",
+      "bytes": 2007
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/certificate-extraction-proof-v2.md",
+      "sha256": "90b9a4b7c50984e89757dc52e360170a8aa6ea098e20eb02c32ab0b3eac197e4",
+      "bytes": 5922
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/certificate-extraction-statement-v2.md",
+      "sha256": "1a82181c03be7aaf09ef1ec7103828471c20be27a68ef182055c0f45a93353ab",
+      "bytes": 4800
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/compressed-selector-information-proof-v2.md",
+      "sha256": "51d0824a7e767c555cb0e156adaaf9922c01728462b2ef0c7e0f96f273dc7f8f",
+      "bytes": 3877
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/compressed-selector-information-statement-v2.md",
+      "sha256": "8abf13ef4d35625ae82a6ffb44a7feb76d06700ada6a553a4a3ebd25a3e89d70",
+      "bytes": 4636
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/crt-projection-proof-v1.md",
+      "sha256": "1c100c8f3e83f2d358140d41e5c84008c65fc8e170ad496f089ee158b0a9b15b",
+      "bytes": 3483
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/crt-projection-statement-v1.md",
+      "sha256": "0327d8958b5449e6ce192991594edf4ef03c0949f2e0d4fde4fb5243b46e1aca",
+      "bytes": 2308
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/energy-rank-kernel-proof-v2.md",
+      "sha256": "3972798c783f0ba0116e72b1b393e0ca90b59afd9e6805413cbc3e29b3e8db9d",
+      "bytes": 3898
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/energy-rank-kernel-statement-v2.md",
+      "sha256": "ab8e55aa2930d04d3d24529abf5e4f6f5ebee5e25507830a6bff0ba792101355",
+      "bytes": 3355
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/energy-twoevent-dependency-binding-v1.json",
+      "sha256": "9c96747097b913d596ac6e5ccecbbc928fa7be0d16fa8aabad4e4ce00c960d8b",
+      "bytes": 1077
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/final-draft-v2.md",
+      "sha256": "1a2778b1370d764012dc4be73939caa5b063276bb848d6146fdfe252b23d18c4",
+      "bytes": 14491
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/final-draft-v3.md",
+      "sha256": "add9b8563d14e1407b4f7130122514520afdea92704a92010173be59c3e04b6a",
+      "bytes": 14926
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/final-draft-v4.md",
+      "sha256": "e0bebf18e96b8dd1415838822ba2d9c2012115d13face97c2dc9c0d8f47ae870",
+      "bytes": 15086
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/fractional-information-statement-v1.md",
+      "sha256": "94f562284bf0f7b9117be57261e0c19deb76dcdff7bd317f7a722203f604b8bd",
+      "bytes": 2923
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/frontier-challenge-replies-v3.md",
+      "sha256": "eb5327c84cdda949a87de2383ff19f8a29c744db289395de901bc8ea0f96adb9",
+      "bytes": 14795
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/frontier-challenge-replies-v4.md",
+      "sha256": "da62be1456f7046db5f46627440d5f61e63ed2055580a61bba55575ea77012dc",
+      "bytes": 15367
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/goal-checkpoint-024.json",
+      "sha256": "e3521f8792a3351077b363f435e61986c0c3996d34771c231539286b33ece2de",
+      "bytes": 1004
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/goal-creation-receipt.json",
+      "sha256": "056ccde66a087a19df8d0d0b3519c83d6efd2911fe40a8f1634a4fecddb40f6a",
+      "bytes": 994
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/kernel-resource-v3-path-resolution-v1.json",
+      "sha256": "6740588bf0ac3873438ef11956eee216f2086062f34f9ee4a4622e0fefdc76c7",
+      "bytes": 1494
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/list-source-decoder-statement-v1.md",
+      "sha256": "e9c47f9fd5645b3d70868d4c36027ce94ebd86b1ca1c40164b7c32a0fc52710b",
+      "bytes": 2089
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/native-usage-delta.json",
+      "sha256": "8adac68d31f0c742d2caafd67d5d1d83bbc105cd6bbf4d6e0ac284f499f5fb8f",
+      "bytes": 1287
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/objective-statement-v1.md",
+      "sha256": "6666ca7222abb251214fd5e7d6f9e96c3ddbbb29216c9469ac5cf0034da2a216",
+      "bytes": 3456
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/operational-deviations-v1.json",
+      "sha256": "4874186d7632044cd22898177c384348038b17c07b86c78115f512db9c615677",
+      "bytes": 1921
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/programme-v3.md",
+      "sha256": "2e8dffb1464e60fd9bb81aa6d99ca4f380446b81636a66b511fe527161044c2a",
+      "bytes": 7774
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/programme-v4.md",
+      "sha256": "ed41230369be3753ea6e6cc2b4cdf45efe171cf7f2eac2096a233eaf15d9e775",
+      "bytes": 8172
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/protected-period-compliance.json",
+      "sha256": "381844a09c4ca9c9d225391fd31b59753119d103433e4ff813579c1fadbeaa87",
+      "bytes": 31167
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/reconcile-regressions-v1.py",
+      "sha256": "b36eb69334ba07e087bad36a37b643b6c65e93094c6b2be6fc3283557472e99f",
+      "bytes": 3551
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/regression-integrity-v1.json",
+      "sha256": "56ae4413c62eb834eadcc058ab862cecae704e251de6b90a2ec2e41bf86bc052",
+      "bytes": 28419
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/rs-actual-radius-witness-proof-v3.md",
+      "sha256": "49ebed1855cf5cb1851f8acf0ef3351c93bc3cf7a239b62310427d9fa0244f21",
+      "bytes": 2852
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/rs-actual-radius-witness-statement-v3.md",
+      "sha256": "6e721a1eff0c5390c44f9984ae0b930bdfb5657c769199707fd2afb6dab9eccc",
+      "bytes": 2092
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/rs-bit-complexity-proof-v2.md",
+      "sha256": "ab1b0cd2d912bd75d9177b1975d088c1d4c2cd99c2353544120704a459d80ab8",
+      "bytes": 2841
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/rs-bit-complexity-statement-v2.md",
+      "sha256": "fd27a2ceb2766c24c37616273158f1a2899de63a518af804fd047ccb4b43f89c",
+      "bytes": 2549
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/runtime-verification.json",
+      "sha256": "5ed015c229bdb86c01019ac293a41208e676b1154fc09c79df172a0bd2b54390",
+      "bytes": 57908
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/selector-public-statement-v3.md",
+      "sha256": "1c51d957ea4214c50f47c2c013e9472a6b2627507a36589fc477c5b9e768c2ac",
+      "bytes": 1447
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/sparse-acquisition-proof-v1.md",
+      "sha256": "985e843a98a4413dd7cebf3a98042aedd2b971d241eeb210bd22401b43e952f3",
+      "bytes": 2428
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/sparse-acquisition-statement-v1.md",
+      "sha256": "c3c1078b33309f7b3d9061fbdad1114c3178dea28e64c7e8849a947ad5d97d84",
+      "bytes": 2126
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/coordinator/spawn-receipts-all-v4.json",
+      "sha256": "c698b2ef85daa3505cb328879f26597d3269bf2ea1099cfad83568ab7fcf0305",
+      "bytes": 16509
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/external-repo/exploration/fixed-family-20261021/COORDINATOR_PROMPT.md",
+      "sha256": "8ac819fb7fa01165ba3194c6208702ec676b5e991d28d72151326925b689832a",
+      "bytes": 11055
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/external-repo/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/acceptance-v1.json",
+      "sha256": "ba065e4b5f569236839b2597882698ade120219a13551376b8a14af6d5d2e23e",
+      "bytes": 9212
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/external-repo/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/fixed-main-proof-v2.md",
+      "sha256": "2e98d25b0f349e22dfeb23ba5ea18ebe339039fa08fb39f92cf45afa9f50f0c7",
+      "bytes": 4407
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/external-repo/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/fixed-main-statement-v2.md",
+      "sha256": "25da2502104e746d3e9f2ca10e3d070372ff95b853b1fd2b0e6c96b1b909ecb6",
+      "bytes": 6464
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/methodology/mathematical-proof-audit/SKILL.md",
+      "sha256": "9350ffeb5aebe0b126710786586f94ef5d990be35b8b9defc8004136dae40318",
+      "bytes": 4484
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/methodology/mathematical-proof-audit/references/audit-protocol.md",
+      "sha256": "2d076ba631c340d71f6259757c6207dbe230872810e9bad3188b215f46d095f4",
+      "bytes": 8480
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/methodology/mathematical-proof-audit/references/probability-regressions.md",
+      "sha256": "ad7eecf93ed02e5b2957243a9bbb2cac8e8eeeb991971f4d77d0818cd04a4fa4",
+      "bytes": 6814
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/methodology/research-project-map/SKILL.md",
+      "sha256": "f4407e349bdc28c6feca89c969aca353da5cd8dd62317b7e558694afcef13b7b",
+      "bytes": 11234
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/methodology/research-project-map/references/maintenance-and-retrieval.md",
+      "sha256": "49b28ae109e465256be26d757cb03c5d4129fd59c64665dbc4dfab1cd262b8d0",
+      "bytes": 7170
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/methodology/research-project-map/references/record-contract.md",
+      "sha256": "4a22e300c28017fc2755d147d4e692f3dd92061833e2984f9edec43347f858a0",
+      "bytes": 7412
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/methodology/research-project-map/references/work-programmes.md",
+      "sha256": "11c38b5c5eac5148947288ae233d537a6ed2576a271a98068482202bb87dada5",
+      "bytes": 8690
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/parameter-table.md",
+      "sha256": "04b42941db446984c9f73285cc3dcd52713da51fadfba911b235734d22c15d1f",
+      "bytes": 5666
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/programme-decisions.md",
+      "sha256": "4ab8b5e9373805bc40a984c7bc6c7e6fa93f5c8a018845c7a86ea2624b3436b9",
+      "bytes": 5901
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/reconciliation.md",
+      "sha256": "4e419c90f3fa7fe2c68798d7bea3ee30616dfdf9f598514b5998c5cfe61532d0",
+      "bytes": 4015
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/reduction-attempts.md",
+      "sha256": "6d644a58df6bfa254bbf7e7146429107b41d70fed07ec7f9c984d5fc8a774de4",
+      "bytes": 9524
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/regressions.json",
+      "sha256": "ee05e3e06d4548108b036f6c552be3599800a8bf5a4ce8a4ad03301d5077451e",
+      "bytes": 736718
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/reviews/BLIND-RESOURCE4/exposure-chronology-v1.json",
+      "sha256": "49905688b8697c1fbb6c9f1c6415c5645911139cf1411177ef64b97220cdcc81",
+      "bytes": 3325
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/reviews/BLIND-RESOURCE4/referee-report-v1.md",
+      "sha256": "d6f9eb7a913d8b8636b33218e2a7f5b406add8e33adc492322dad2e9ab272ce0",
+      "bytes": 34358
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/reviews/BLIND-RESOURCE4/seal-v1.json",
+      "sha256": "8bb07d7bb7bff0cb9935479f3e8080b193d654c5d6945808cc9827b6885fbda3",
+      "bytes": 5361
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/reviews/BLIND-TRANSFER2/final-scope-v2.txt",
+      "sha256": "5649846e9ca1952e504ae2ba2f5224f324520aa018e5d3f89c549b69af69a1f4",
+      "bytes": 3686
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/reviews/BLIND-TRANSFER2/full-report-v1.txt",
+      "sha256": "a5ac8105eac82ca5483f95766ba940f731e01797b60a62f8a3f791718fbad176",
+      "bytes": 35569
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/reviews/FRONTIER-CHALLENGE1/frontier-challenge-report-v1.md",
+      "sha256": "92dc1205ccbc89aa81d3232e4d2bb39cf0810d4077a123b88a4c72651cf20d91",
+      "bytes": 13924
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/reviews/FULL-FF3-PHASE2/full-report-v1.md",
+      "sha256": "1ff44833ff98c0d96c7b6f30447d12f331d26c4b7dad0b4688436984af1748aa",
+      "bytes": 16852
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/reviews/FULL-FF3-PHASE2/source-complexity-report-v1.md",
+      "sha256": "c9374e485513726ed19d3b78db0640652b5d9f062c5761e7a438fa76f80bac9b",
+      "bytes": 6623
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/reviews/FULL-REPAIR4/full-report.md",
+      "sha256": "e67749064c8a24d79529d3abdb4cb5280eae9988427dbee982299955ee863245",
+      "bytes": 19405
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/source-comparison.md",
+      "sha256": "002b9434927177449817345db219bf6317e8ed335f37737c5767e8b95869f706",
+      "bytes": 6355
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/workers/FF3/exhaustive-kernel-statement-v1.md",
+      "sha256": "b6c3a787dfe567fc6fb1fecfb2714d0a138d92287523382661c4f6946f7d37ed",
+      "bytes": 3402
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/workers/FF3/two-event-noise-kernel-statement-v1.md",
+      "sha256": "ba5c8050af98cce9e7dec3d9c1b9a1806f606f9b59f1ca40e62917aa093e913b",
+      "bytes": 2151
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/workers/FF3/two-secret-channel-statement-v1.md",
+      "sha256": "7cceb1801d9ebf2d6a23c5636266c74326b54a4e8b7499ecd13262aec25a66a8",
+      "bytes": 1610
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/workers/SV/frobenius-prime-theorem-v1.md",
+      "sha256": "17315abf7b50bbb758a3e0e5c580d159895a1e238ad3b01b88e77a08e8e28d3e",
+      "bytes": 2502
+    },
+    {
+      "path": "reviews/DELIVERY-AUDIT1/supplementary-inputs/workers/SV/source-classification-theorem-v1.md",
+      "sha256": "1b72f95055b9c5a8953c46ee778ade4d57a55d5a61c4a1ce29003c049f59a5a3",
+      "bytes": 4670
+    }
+  ],
+  "mutation_policy": "Frozen seal. Any new input or amendment requires a separate version/addendum; do not overwrite sealed files."
+}

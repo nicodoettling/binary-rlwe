@@ -1,0 +1,99 @@
+{
+  "sealed_at": "2026-10-21T21:35:59.644962+00:00",
+  "review": "FRONTIER-CHALLENGE1 compact-v3 additive full review",
+  "original_seal_sha256": "c3297d7f28e9471e5d72c0317cc33f73b9718da02fcfc302c0cd3bbb6ede7d6e",
+  "files": [
+    {
+      "path": "assignment.txt",
+      "sha256": "04252a8da1d4c99e89d3c2fe52985356085117516587f2a00c65990d2259ca2e",
+      "bytes": 1065
+    },
+    {
+      "path": "delivery-snapshot-findings-v1.md",
+      "sha256": "686d035f6f964fee70d2e8e3e6c647a7e073fb9b66a9c0b4c4cbfe057f64facd",
+      "bytes": 2335
+    },
+    {
+      "path": "full-source-complexity-review-v1.md",
+      "sha256": "bd5263fee8d24e12cea7b7d2477c80d6a96842dd935e7896f7a28f6a6e23d840",
+      "bytes": 7516
+    },
+    {
+      "path": "input-manifest-v1.json",
+      "sha256": "9668f2d74657ec5c91181a2924c0d2d4d8a0fe5f434366acd25f0359b6badc8e",
+      "bytes": 3181
+    },
+    {
+      "path": "inputs/claims.json",
+      "sha256": "553677a980cfbac8f618b2e3a1d20662aa5284321e5bca1396544d1ead3f1393",
+      "bytes": 38974
+    },
+    {
+      "path": "inputs/coordinator/compact-selector-proof-v2.md",
+      "sha256": "cfe90ffc7b4b0b6e0e8efdd424f6b20b361b9e66107022752ccf787b66414211",
+      "bytes": 3307
+    },
+    {
+      "path": "inputs/coordinator/compact-selector-proof-v3.md",
+      "sha256": "8625e7453ae8d937ba9b885dd802a065987224862c70becbbc2713046c76a71f",
+      "bytes": 3634
+    },
+    {
+      "path": "inputs/coordinator/compact-selector-statement-v2.md",
+      "sha256": "89864b1f1d37ebb66e3fb7e364c8ad657c185808cdcdbb1c4370058aed7b2846",
+      "bytes": 3780
+    },
+    {
+      "path": "inputs/coordinator/compact-selector-statement-v3.md",
+      "sha256": "20c66a210cfb4821eec35b371fbf7478ec3493d18d656a18a5b06dffc2fed889",
+      "bytes": 3952
+    },
+    {
+      "path": "inputs/coordinator/compact-selector-v2-rejection-v1.md",
+      "sha256": "ba0a9dd24a148137d8f812820ddf700db8945ea2300def6d45a4df928d6eabbb",
+      "bytes": 607
+    },
+    {
+      "path": "inputs/parameter-table.md",
+      "sha256": "f3c45564f65b82adc1e506d8452b0a0ad84154048dc8632ad09b95ae78d23452",
+      "bytes": 4239
+    },
+    {
+      "path": "inputs/programme-decisions.md",
+      "sha256": "494bcbb02974bf4cc8096af604b623ed8f1258ee4da9b1b66288f63db925bdb8",
+      "bytes": 4680
+    },
+    {
+      "path": "inputs/reconciliation.md",
+      "sha256": "260f5b6686cfcd1d378e2af409b04be16208fc72f1348d68a652eaf0b5c15ad0",
+      "bytes": 3319
+    },
+    {
+      "path": "inputs/source-comparison.md",
+      "sha256": "8a1a2e247b2d48bd22bdac481f636c6922af25da4a8d4a6750cc65b0ae9d009e",
+      "bytes": 4460
+    },
+    {
+      "path": "proof-v2-v3.diff.txt",
+      "sha256": "f1250e38da400cd8f818bd60e181d650b9b9861db14d5d2d059df953f97b9fae",
+      "bytes": 1007
+    },
+    {
+      "path": "reuse-integrity-v1.json",
+      "sha256": "be69da721d41c0bc43d52c735161ea0cd118e4e2ccd874950fb9b214b844ef78",
+      "bytes": 1612
+    },
+    {
+      "path": "statement-v2-v3.diff.txt",
+      "sha256": "b731c85b608dc5cfb0c14e3c64d81b4f1fd78725d8d710acbecc0f1f741295eb",
+      "bytes": 5037
+    },
+    {
+      "path": "verdict-v1.json",
+      "sha256": "c6d1f9dbc28fb175556f05664f76558cda3acca3a16c75d66507436c01a8dac5",
+      "bytes": 1278
+    }
+  ],
+  "count": 18,
+  "scope": "Exact v3 representation repair, complete kernel/endpoint/cost review, unchanged finite-control reuse, mutable delivery snapshot findings; originals preserved"
+}

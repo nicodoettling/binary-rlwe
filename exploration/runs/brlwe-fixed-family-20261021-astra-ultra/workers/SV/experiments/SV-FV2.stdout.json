@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "arithmetic": "exact integers/rationals and finite-field polynomial remainders",
+  "cases": [
+    {
+      "n": 4,
+      "p": 3,
+      "residue_degree": 2,
+      "fixed_rank": 2,
+      "sign_conflicted_cycles": 1,
+      "D": 9,
+      "vectors_enumerated": 4,
+      "member_squared_norm": 3
+    },
+    {
+      "n": 8,
+      "p": 3,
+      "residue_degree": 4,
+      "fixed_rank": 2,
+      "sign_conflicted_cycles": 3,
+      "D": 81,
+      "vectors_enumerated": 4,
+      "member_squared_norm": 3
+    },
+    {
+      "n": 8,
+      "p": 7,
+      "residue_degree": 2,
+      "fixed_rank": 4,
+      "sign_conflicted_cycles": 1,
+      "D": 49,
+      "vectors_enumerated": 4,
+      "member_squared_norm": 3
+    },
+    {
+      "n": 8,
+      "p": 17,
+      "residue_degree": 1,
+      "fixed_rank": 8,
+      "sign_conflicted_cycles": 0,
+      "D": 17,
+      "vectors_enumerated": 9,
+      "member_squared_norm": 4
+    },
+    {
+      "n": 16,
+      "p": 3,
+      "residue_degree": 8,
+      "fixed_rank": 2,
+      "sign_conflicted_cycles": 5,
+      "D": 6561,
+      "vectors_enumerated": 4,
+      "member_squared_norm": 3
+    },
+    {
+      "n": 16,
+      "p": 17,
+      "residue_degree": 2,
+      "fixed_rank": 8,
+      "sign_conflicted_cycles": 8,
+      "D": 289,
+      "vectors_enumerated": 9,
+      "member_squared_norm": 4
+    },
+    {
+      "n": 16,
+      "p": 31,
+      "residue_degree": 2,
+      "fixed_rank": 8,
+      "sign_conflicted_cycles": 1,
+      "D": 961,
+      "vectors_enumerated": 9,
+      "member_squared_norm": 6
+    },
+    {
+      "n": 32,
+      "p": 3,
+      "residue_degree": 16,
+      "fixed_rank": 2,
+      "sign_conflicted_cycles": 7,
+      "D": 43046721,
+      "vectors_enumerated": 4,
+      "member_squared_norm": 3
+    },
+    {
+      "n": 32,
+      "p": 97,
+      "residue_degree": 2,
+      "fixed_rank": 16,
+      "sign_conflicted_cycles": 16,
+      "D": 9409,
+      "vectors_enumerated": 13,
+      "member_squared_norm": 3
+    }
+  ],
+  "sign_conflicted_cycles_total": 42,
+  "limits": "finite control; no probability or asymptotic certification"
+}

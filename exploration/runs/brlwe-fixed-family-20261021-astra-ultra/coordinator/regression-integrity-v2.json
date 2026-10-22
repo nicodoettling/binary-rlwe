@@ -1,0 +1,1345 @@
+{
+  "at": "2026-10-21T22:09:04.629225+00:00",
+  "registry_sha256": "ee05e3e06d4548108b036f6c552be3599800a8bf5a4ce8a4ad03301d5077451e",
+  "inherited_exact_count": 203,
+  "exact_disposition_links": 609,
+  "local_count": 74,
+  "checks": [
+    {
+      "id": "R01",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "R02",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "R03",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "R04",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "R05",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "R06",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "R07",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "R08",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "R09",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "R10",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "R11",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "R12",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "R13",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "R14",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "R15",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "R16",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "R17",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "R18",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "C03-HC1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "C03-HC2",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "C03-HC3",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "C03-HC4",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "C03-HC5",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "C03-HC6",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "C03-HC7",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "C02-LATENT-PUBLIC",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "C02-CHAR",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "C01-ATT",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "CP-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "NC1-v1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "S0-dependency",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "PUBLIC-ENCODED-F",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "W2-SUBGROUP-BOUNDARY",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "UNIFORM-APPROX-COLLAPSE",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "SE-CORRELATION-F3",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "W2-CONSTANT-COMPARISON",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "N02-DUAL-NUMBER",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "PAIRWISE-SE-F3",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "N03-PV-CONDITIONING",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "N03-SCAL-POSTERIOR",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "RECT-ALG-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "SOURCE-SMALL-D",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "A-PPT-LEDGER-SCOPE",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "EX-PURE-MIX-ZERO",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "EX-PUBLIC-TAPE",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "EX-APPENDED-H",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "EX-M3-CROSSBLOCK",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "EX-RETAINED-M3",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "B-JL-BZERO",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "B-JL-REDRAW-T",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "A-ERASURE-RANKMIX",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "D-THETA-RETAIN-U-v1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "D-LSW-THETA-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "C-TOWER-RELATION-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "D-REUSED-PIVOT-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "A-TOWER-LAW-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "C-SMALL-N-EXISTENCE-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "D-NORMALFORM-WRAP-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "B-GP-RATIONAL-ENCODING-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "C-OHCP-LOGSHIFT-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "ROOT-IDEAL-SUBSPACE-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "B-SUP-RETAINED-COINS-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "C-OHCP-BOUNDED-RUNTIME-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "C-SUPER-CONFIDENCE-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "C-QUOTIENT-CARRIES-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "C-PHYSICAL-HAAR-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "C-CAUSAL-WALK-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "B-CANONICAL-FAIL-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "B-RANK-FIBER-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "B-TWO-ROW-NORMALIZER-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "B-TOWER-WASHOUT-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "B-BINARY-FOURIER-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "A-CLASS-ASSERTION-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "A-COFACTOR-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "A-CLASS-CP1-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "D-HIGHINDEX-GUESS-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "A-TRACE-PARAM-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "A-CLASSRING-PADDING-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "B-COMPANION-INVERSE-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "C8-FV1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "ROOT-ORDER-PAIRING-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "ROOT-ORDER-SCALE-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "ROOT-BINCLASS-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "BT10-FV1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "ROOT-FRAC-SCALE-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "ROOT-FRAC-SMALLBALL-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "B-BE-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "RF3-BINCLASS-SCOPE-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "E-PAIR-TRUNCATION-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "ROOT-COSET-NORMALIZER-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "BT13-FV1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "BT12-FV1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "ROOT-MASK-RESIDUE-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "BT14-HISTORY-ATOM-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "BT14-FV1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "FQ-R1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "FQ-R2",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "FQ-R3",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "FQ-R4",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "ROOT-QCOH-FV1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "G-PI-FV1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "ROOT-FRAC-DOMAIN-2",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "ROOT-WRAP-FV1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "BT15-FV1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "FQ-COND-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "FQ-NORM-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "FQ-PERIOD-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "FQ-RETRY-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "FQ-MODULUS-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "F-QFINITE-FV1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "BT16-FV1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "BT16-NATURAL-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "BT16-POSTERIOR-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "BT16-PRIMEPOWER-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "BT16-ZERO-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "RF4-FV1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "RF4-PERIOD-NEG1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "RF4-RETRY-NEG1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "RF4-ALIAS-NEG1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "BT17-SYMBOLIC-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "ROOT-PARAM-FV1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "ROOT-PARAM-T-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "ROOT-PARAM-FV2",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "ROOT-PARAM-ENC-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "ROOT-PARAM-FV3",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "RF4-PARAM-FV2",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "H-ALIGN-FV1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "H-LLL-BITLENGTH-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "H-REL-FV2",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "H-V0-BITLENGTH-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "RH1-FV1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "HC1-FV1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "ROOT-TOWER-FV1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "BT19-NONPRIME-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "BT19-NONSUFFICIENT-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "BT19-SELECTION-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "BT19-RETRY-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "BT18-SYMBOLIC-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "RT1-MOMENT-FV1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "RT2-WEIGHTED-FV1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "BT20-VACUITY-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "BT20-RETRY-MARGIN-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "BT20-WIDTHVALUE-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "RT2-NC1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "RT2-NC2",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "RT2-NC3",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "BT21-VACUITY-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "BT21-ADAPTIVE-MULTIPLIER-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "BT22-TV-MOMENT-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "BT22-JOINT-MULTIPLIER-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "BT22-MARGIN-WIDTH-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "M1-FV1-NORMALIZERS",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "M1-FV1-CP1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "B-FV1-CUBE289",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "M1-FALLBACK-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "A-LIN-FV1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "A-RATIONAL-BOUNDARY-v1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "B-THETA-FV1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "B-M1-FV1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "A-BFAM-FV1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "FBR1-Q-PREMISE-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "M1-Q-FV1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "B-REVEAL-S-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "FBR2-WIDTH-BOUNDARY-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "DD1-WITNESS-SAME-P",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "DD1-SHARED-SECRET",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "DD1-EXTRACT-FULL-LAW",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "DD1-EXTRACT-4A-TIE",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "DD1-SFUNC-MAX-ORDER",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "DD1-MAIN-GAUSSIAN-NOTATION",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "DD1-MAIN-RATIONAL-EXPONENT",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "FULL1-SCOPE-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "FULL1-SCOPE-2",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "FULL1-CONTROL-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "FULL1-CONTROL-2",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "FULL1-CONTROL-3",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "FULL1-SCOPE-3",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "FULL1-DEFECT-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "DD2-NORM-ROOT-MULTIPLICITY",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "DD2-CRT-ERROR-CORRELATION",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "DD2-UNKNOWN-CUBE-TRANSLATE",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "DD2-CANCELLATION-OVERLAP",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "ROOT-SELECTED-FIBER-BOUNDARY",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "BLIND1-REPEATED-PRIMES",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "BLIND1-OPTIMAL-DEFINITION",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "MR-TIE-CONVENTION",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "MR-ROUNDED-PUBLIC-BIAS",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "MR-DISCRETE-GAUSSIAN-NORMALIZER",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "MR-FULL-SHARED-LAW",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "MR-VARIABLE-WIDTH-CAPS",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "MR-ADVANTAGE-WINDOW",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "MR-FV1-LOGGING-FAILURE",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "MR-SIGNED-SECRET-COVARIANCE",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "FULL2-WORDING-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "FULL2-SCOPE-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "FULL2-CONTROL-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "FULL2-CONTROL-2",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "FULL2-CONTROL-3",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "FULL2-NONVACUITY-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "FULL2-RADIUS-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "BLIND2-QUERY-LAW-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "BLIND2-PARTITION-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    },
+    {
+      "id": "BLIND2-SMALL-N-1",
+      "source_match": true,
+      "current_disposition_matches": 3
+    }
+  ],
+  "local_checks": [
+    {
+      "id": "CRT-FV1-SELECTION-WITNESS-FAIL",
+      "status": "PRESERVED_FAILED_EXPERIMENT",
+      "check_depth": "Local registry content; acceptance/review scope remains authoritative"
+    },
+    {
+      "id": "CERT-MODEL-1",
+      "status": "REJECT-UNQUALIFIED-v1",
+      "check_depth": "Local registry content; acceptance/review scope remains authoritative"
+    },
+    {
+      "id": "FF1-REG-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF1-REG-2",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF1-REG-3",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF1-REG-4",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF1-REG-5",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF1-REG-6",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF1-REG-7",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF1-REG-8",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF1-REG-9",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF1-REG-10",
+      "exact_reference_match": true
+    },
+    {
+      "id": "SV-HNF-EQUALITY-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "SV-STRICT-ROUND-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "SV-ORBIT-SIGN-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "SV-RAMIFIED-DESCENT-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "SV-COMPOSITE-IMAGE-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "SV-2PRIMARY-DEFINITION-1",
+      "status": "REJECTED-V1; v2 pending exact review",
+      "check_depth": "Local registry content; acceptance/review scope remains authoritative"
+    },
+    {
+      "id": "FRAC-IID-REUSE-1",
+      "status": "EXACT-NEGATIVE-CONTROL",
+      "check_depth": "Local registry content; acceptance/review scope remains authoritative"
+    },
+    {
+      "id": "FRAC-FLOAT-UNDERFLOW-1",
+      "status": "PRESERVED-PRECISION-DEFECT",
+      "check_depth": "Local registry content; acceptance/review scope remains authoritative"
+    },
+    {
+      "id": "NARROW-COSET-NORMALIZER-1",
+      "status": "SCOPED-BOUNDARY-CONTROL",
+      "check_depth": "Local registry content; acceptance/review scope remains authoritative"
+    },
+    {
+      "id": "RS-INHERITED-EPSILON-SYMBOL-1",
+      "status": "REJECTED_BEFORE_REPAIR",
+      "check_depth": "Local registry content; acceptance/review scope remains authoritative"
+    },
+    {
+      "id": "SELECTOR-PUBLIC-NONATOMIC-1",
+      "status": "REJECTED_BEFORE_REPAIR",
+      "check_depth": "Local registry content; acceptance/review scope remains authoritative"
+    },
+    {
+      "id": "SYM-RANK-GROUP-N4-1",
+      "status": "EXACT_SCOPED_EXCLUSION_PENDING_REVIEW",
+      "check_depth": "Local registry content; acceptance/review scope remains authoritative"
+    },
+    {
+      "id": "SYM-RANK-EIGHT-COUPLINGS-N4-1",
+      "status": "EXACT_SCOPED_EXCLUSION_PENDING_REVIEW",
+      "check_depth": "Local registry content; acceptance/review scope remains authoritative"
+    },
+    {
+      "id": "AFFINE-TV-TAIL-INDEPENDENCE-NOWRAP-1",
+      "status": "EXACT_FINITE_NEGATIVE_CONTROLS",
+      "check_depth": "Local registry content; acceptance/review scope remains authoritative"
+    },
+    {
+      "id": "FF-SELECTOR-PERSISTENT-SEED-1",
+      "status": "REJECTION_PRESERVED_REPAIR_REVIEW_PENDING",
+      "check_depth": "Local registry content; acceptance/review scope remains authoritative"
+    },
+    {
+      "id": "SV-RS-BIT-LIST-SCOPE-1",
+      "status": "REJECTION_PRESERVED_REPAIR_REVIEW_PENDING",
+      "check_depth": "Local registry content; acceptance/review scope remains authoritative"
+    },
+    {
+      "id": "FF3-KERNEL-RESOURCE-WORDING-1",
+      "status": "REJECTED_LITERAL_RESOURCE_SCOPE_REPAIR_PENDING",
+      "check_depth": "Local registry content; acceptance/review scope remains authoritative"
+    },
+    {
+      "id": "FF-SYNTHESIS-SCOPE-1",
+      "status": "CORRECTED_EXACT_SCOPE_FRESH_CHALLENGE_CONFIRMED",
+      "check_depth": "Local registry content; acceptance/review scope remains authoritative"
+    },
+    {
+      "id": "FF3-COMP-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF3-ID-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF3-JOINT-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF3-NORM-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF3-NUM-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "CP-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF3-RESIDUAL-RELATION-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF3-ENUM-COST-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF3-ENUM-NONUNIT-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF3-ENUM-COMP-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF3-CORRELATED-NORM-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF3-COUPLED-PRODUCT-FAIL-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF3-PAIR-MIXTURE-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF3-FIXED-EDGE-SEPARATION-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF3-ADAPTIVE-FIXED-H-FAIL-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF3-COEFFICIENTWISE-H-FAIL-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF3-RADIAL-POSITIVE-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FULL-FF3-ENUM-SIGN-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF3-LOCAL-SELECTOR-FAIL-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF3-PUBLIC-GEOMETRY-POSITIVE-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF3-N4-POOL-DIAGNOSTIC-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF3-JOINT-CLASS-N4-FAIL-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF3-COMPRESSION-M-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF3-COMPRESSION-L-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF3-COMPRESSION-FACTOR-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF3-COMPRESSION-PRIOR-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF3-COMPRESSION-RANDOMIZED-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF3-RANK-DIRECTION-ENDPOINT-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF3-JOINT-RANK-POSITIVE-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF3-JOINT-RANK-UNKNOWN-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF3-SYMMETRY-BATCH-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FULL-FF3-P2-Z-ATOM-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FULL-FF3-P2-PERSISTENT-CLASS-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FULL-FF3-P2-AFFINE-N2-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FULL-FF3-P2-SHARED-GROUP-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FULL-FF3-P2-AFFINE-RAW-TAIL-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FULL-FF3-P2-ENUM-TRANSLATE-1",
+      "exact_reference_match": true
+    },
+    {
+      "id": "FF3-COMPACT-M-ENCODING-1",
+      "status": "V2_REJECTED_V3_ACCEPTED_EXACT_REPAIR",
+      "check_depth": "Local registry content; acceptance/review scope remains authoritative"
+    },
+    {
+      "id": "FF3-SELECTOR-H-ENDPOINT-INSUFFICIENT-1",
+      "status": "PRESERVED_EXACT_SCOPED_COUNTEREXAMPLE_OR_BOUNDARY",
+      "check_depth": "Local registry content; acceptance/review scope remains authoritative"
+    },
+    {
+      "id": "FF3-ENERGY-JOINT-SHELL-1",
+      "status": "PRESERVED_EXACT_SCOPED_COUNTEREXAMPLE_OR_BOUNDARY",
+      "check_depth": "Local registry content; acceptance/review scope remains authoritative"
+    },
+    {
+      "id": "FF3-ENERGY-TWOEVENT-BOUNDARY-1",
+      "status": "PRESERVED_EXACT_SCOPED_COUNTEREXAMPLE_OR_BOUNDARY",
+      "check_depth": "Local registry content; acceptance/review scope remains authoritative"
+    },
+    {
+      "id": "FF3-RETRY-TRACE-POSTERIOR-1",
+      "status": "PRESERVED_EXACT_SCOPED_COUNTEREXAMPLE_OR_BOUNDARY",
+      "check_depth": "Local registry content; acceptance/review scope remains authoritative"
+    },
+    {
+      "id": "FF3-OUTER-CAP-BIT-RUNTIME-1",
+      "status": "PRESERVED_EXACT_SCOPED_COUNTEREXAMPLE_OR_BOUNDARY",
+      "check_depth": "Local registry content; acceptance/review scope remains authoritative"
+    },
+    {
+      "id": "FF3-COMPACT-PERSISTENT-EDGE-1",
+      "status": "PRESERVED_EXACT_NEGATIVE_CONTROL",
+      "check_depth": "Local registry content; acceptance/review scope remains authoritative"
+    }
+  ],
+  "qualification": "Reference and byte integrity, not recertification of historical results or a rerun of 203 experiments."
+}

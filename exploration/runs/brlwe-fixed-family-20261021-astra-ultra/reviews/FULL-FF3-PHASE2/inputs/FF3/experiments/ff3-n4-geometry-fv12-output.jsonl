@@ -1,0 +1,2 @@
+{"stage": "assembled", "vertices": 6, "variables": 4501, "equations": 4650, "unique_normalizer_rows": 298, "source_states": 6561, "target_states": 256, "nonzero_coefficients": 7289785, "seconds": 3.8594346719328314}
+{"stage": "selector", "status": 2, "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)", "seconds": 7.749799935030751, "exact_selector_verified": false, "scope": "finite sampled-six-vertex radial ansatz, orientation-free public/residual zero-count selector"}

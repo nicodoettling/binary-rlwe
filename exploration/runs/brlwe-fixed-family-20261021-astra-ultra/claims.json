@@ -1,0 +1,712 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-21T22:11:42.929325+00:00",
+  "claims": [
+    {
+      "id": "FF-OBJECTIVE-v1",
+      "status": "OPEN",
+      "statement": "One target family fixed before all PPT sample and advantage exponents",
+      "dependencies": []
+    },
+    {
+      "id": "SV-OBJECTIVE-v1",
+      "status": "REVIEWED-SUBSTANTIVE-DIAGNOSTIC-AT-INHERITED-RADIUS",
+      "statement": "Reviewed substantive algorithmic classification or compatible established hardness connection at the actual delivered source parameters",
+      "dependencies": [],
+      "boundary": "Direct source family classification accepted at actual DD radius; any new FF-delivered radius requires fresh comparison. Does not certify FF or hardness."
+    },
+    {
+      "id": "HARDNESS-FOUNDATION",
+      "status": "OPEN",
+      "statement": "Independent established hardness premise connected by effective exact-parameter map",
+      "dependencies": []
+    },
+    {
+      "id": "CRT-PROJ-v1",
+      "status": "ACCEPTED-EXACT-AUXILIARY-SCOPE",
+      "statement": "coordinator/crt-projection-statement-v1.md",
+      "proof": "coordinator/crt-projection-proof-v1.md",
+      "dependencies": [],
+      "evidence_sha256": {
+        "coordinator/crt-projection-statement-v1.md": "0327d8958b5449e6ce192991594edf4ef03c0949f2e0d4fde4fb5243b46e1aca",
+        "coordinator/crt-projection-proof-v1.md": "1c100c8f3e83f2d358140d41e5c84008c65fc8e170ad496f089ee158b0a9b15b"
+      },
+      "review": "FULL-FF1, fresh FULL-CERT2, and fresh statement-only BLIND-FF2; coordinator acceptance-v2.json",
+      "check_depth": "Same-model correlated full proof/source/complexity and independent blind reconstruction, with bounded finite controls; not formal verification"
+    },
+    {
+      "id": "CERT-EXTRACT-v1",
+      "status": "REJECTED-UNQUALIFIED-FINITE-MODEL",
+      "statement": "coordinator/certificate-extraction-statement-v1.md",
+      "proof": "coordinator/certificate-extraction-proof-v1.md",
+      "dependencies": [
+        "CRT-PROJ-v1",
+        "DD1-EXTRACT-v1 exact identity only; new sequential extension requires review"
+      ],
+      "evidence_sha256": {
+        "coordinator/certificate-extraction-statement-v1.md": "b14b76ab0d5c9340424ea10e73d153e4f2bf25f44adee8c1af332de5dac91ffb",
+        "coordinator/certificate-extraction-proof-v1.md": "8a746f78041c3dd1cd0c314f43276e2bc4e2a331ff0632e894724b6e542a0697"
+      },
+      "review": "FULL-FF1 sealed v1 rejection of unqualified finite model; analytic identities pass under intended independent-coin model",
+      "check_depth": "author proof; finite checks are bounded evidence",
+      "finding": "Missing explicit rational input representations and fresh independent D coins; intended analytic conditional implication not refuted",
+      "review_evidence": "reviews/FULL-FF1/initial-findings-v1.md",
+      "descendants": "Fixed-family certificate corollary pending repaired exact review; FF remains OPEN"
+    },
+    {
+      "id": "SV-BDD-CLASS-v1",
+      "status": "ACCEPTED-EXACT-SCOPE",
+      "statement": "workers/SV/source-classification-theorem-v1.md",
+      "proof": "workers/SV/source-classification-proof-v1.md",
+      "dependencies": [
+        "FIXED-MAIN-v2 actual radius; inherited exact acceptance"
+      ],
+      "evidence_sha256": {
+        "workers/SV/source-classification-theorem-v1.md": "1b72f95055b9c5a8953c46ee778ade4d57a55d5a61c4a1ce29003c049f59a5a3",
+        "workers/SV/source-classification-proof-v1.md": "5c208872ddd99f74294dc60dbcd1a952470b5d09956d576c7346e2f52eca0d5f"
+      },
+      "review": "FULL-SV1 + fresh statement-only BLIND-SV1; reconciled exact bytes at coordinator/acceptance-v1.json",
+      "check_depth": "Same-model correlated proof/source/complexity and independent blind scrutiny with bounded controls, not formal verification"
+    },
+    {
+      "id": "SV-FROB-PRIME-v1",
+      "status": "ACCEPTED-EXACT-SCOPE",
+      "statement": "workers/SV/frobenius-prime-theorem-v1.md",
+      "proof": "workers/SV/frobenius-prime-proof-v1.md",
+      "dependencies": [
+        "SV-BDD-CLASS-v1"
+      ],
+      "evidence_sha256": {
+        "workers/SV/frobenius-prime-theorem-v1.md": "17315abf7b50bbb758a3e0e5c580d159895a1e238ad3b01b88e77a08e8e28d3e",
+        "workers/SV/frobenius-prime-proof-v1.md": "8ed560e6c7a58a77d3eb03fbb622afac7347a77bcb9c47188ee141d269ed7546"
+      },
+      "review": "FULL-SV1 + fresh statement-only BLIND-SV1; reconciled exact bytes at coordinator/acceptance-v1.json",
+      "check_depth": "Same-model correlated proof/source/complexity and independent blind scrutiny with bounded controls, not formal verification"
+    },
+    {
+      "id": "SV-SYMDESC-v1",
+      "status": "REJECTED-AMBIGUOUS-2PRIMARY-DEFINITION",
+      "statement": "workers/SV/symmetry-descent-theorem-v1.md",
+      "proof": "workers/SV/symmetry-descent-proof-v1.md",
+      "dependencies": [
+        "SV-BDD-CLASS-v1",
+        "primary unramified ideal descent and norm identities"
+      ],
+      "evidence_sha256": {
+        "workers/SV/symmetry-descent-theorem-v1.md": "a16f483e8292606f8763eee79b2d64193bb43eb96e1609c0775c68231b5fcf10",
+        "workers/SV/symmetry-descent-proof-v1.md": "970995d371e5a8daf8f0f24ec0df056c23a3c8d4fb625cf487a6d8e9bdf08885"
+      },
+      "review": "FULL-SV1 pass under intended reading; BLIND-SV1 exact-definition defect pending sealed report",
+      "finding": "Blind reviewer: e=a*m with m odd alone does not require a to be the power-of-two part. Counterexample e=3,a=3,m=1 violates a<=2. Intended unique 2-primary factorization remains an unaccepted repair.",
+      "descendants": "Any composition using unspecified a reopened"
+    },
+    {
+      "id": "CERT-EXTRACT-v2",
+      "status": "ACCEPTED-EXACT-AUXILIARY-SCOPE",
+      "statement": "coordinator/certificate-extraction-statement-v2.md",
+      "proof": "coordinator/certificate-extraction-proof-v2.md",
+      "dependencies": [
+        "CRT-PROJ-v1",
+        "DD1 exact CRT identity; newly proved adaptive extension"
+      ],
+      "supersedes": "CERT-EXTRACT-v1",
+      "repair_evidence": "reviews/FULL-FF1/initial-findings-v1.md",
+      "evidence_sha256": {
+        "coordinator/certificate-extraction-statement-v2.md": "1a82181c03be7aaf09ef1ec7103828471c20be27a68ef182055c0f45a93353ab",
+        "coordinator/certificate-extraction-proof-v2.md": "90b9a4b7c50984e89757dc52e360170a8aa6ea098e20eb02c32ab0b3eac197e4"
+      },
+      "review": "FULL-FF1, fresh FULL-CERT2, and fresh statement-only BLIND-FF2; coordinator acceptance-v2.json",
+      "check_depth": "Same-model correlated full proof/source/complexity and independent blind reconstruction, with bounded finite controls; not formal verification"
+    },
+    {
+      "id": "GAUSS-AVG-v1",
+      "status": "ACCEPTED-EXACT-DIAGNOSTIC-SCOPE",
+      "statement": "coordinator/gaussian-average-obstruction-statement-v1.md",
+      "proof": "coordinator/gaussian-average-obstruction-proof-v1.md",
+      "dependencies": [
+        "FF1 covariance-face idea; new quantitative Gaussian argument"
+      ],
+      "scope": "Retained-secret continuous jointly Gaussian secret-independent affine correction only; no discrete-kernel or sample-only impossibility",
+      "evidence_sha256": {
+        "coordinator/gaussian-average-obstruction-statement-v1.md": "7b3f0d3c6367dcf354d2fbfcff42c3c19cb668d34baf0393094f37f8031752cd",
+        "coordinator/gaussian-average-obstruction-proof-v1.md": "afd286d46e5095fafc75fba79881e6eecdc0d9c24cadf5b5e0130efbef931d93"
+      },
+      "review": "coordinator/acceptance-v4.json",
+      "check_depth": "Nonauthor full proof/source/complexity plus fresh statement-only reconstruction and bounded controls; same-model correlated scrutiny, not formal verification.",
+      "full_review": "FULL-FRONTIER1",
+      "blind_review": "BLIND-FRONTIER1 strict no-status six-claim subset"
+    },
+    {
+      "id": "FRAC-INFO-v1",
+      "status": "ACCEPTED-EXACT-DIAGNOSTIC-SCOPE",
+      "statement": "coordinator/fractional-information-statement-v1.md",
+      "proof": "coordinator/fractional-information-proof-v1.md",
+      "dependencies": [
+        "Poisson summation with all normalizers; iid conditional on fixed S; finite affinity inequality"
+      ],
+      "scope": "Information-theoretic fixed-noise fractional-source recovery; no efficient attack and no FF impossibility",
+      "evidence_sha256": {
+        "coordinator/fractional-information-statement-v1.md": "94f562284bf0f7b9117be57261e0c19deb76dcdff7bd317f7a722203f604b8bd",
+        "coordinator/fractional-information-proof-v1.md": "e1ec235c7bf9b3f7d58d25786a3bcece4bb62b0430b7c6da4296a26255d7c5c8"
+      },
+      "review": "coordinator/acceptance-v4.json",
+      "check_depth": "Nonauthor full proof/source/complexity plus fresh statement-only reconstruction and bounded controls; same-model correlated scrutiny, not formal verification.",
+      "full_review": "FULL-FRONTIER1",
+      "blind_review": "BLIND-FRONTIER1 strict no-status six-claim subset"
+    },
+    {
+      "id": "SV-SUBFIELD-v1",
+      "status": "REJECTED-AMBIGUOUS-2PRIMARY-DEFINITION",
+      "statement": "coordinator/subfield-contraction-statement-v1.md",
+      "proof": "coordinator/subfield-contraction-proof-v1.md",
+      "finding": "Root inherited same ambiguous e=a*m with m odd wording, before any review. Explicit unique 2-primary factorization required.",
+      "evidence_sha256": {
+        "coordinator/subfield-contraction-statement-v1.md": "860e6163cb6f1908acf56c47d80d6de28b98299d7fcbab769f5aff6b15b3403c",
+        "coordinator/subfield-contraction-proof-v1.md": "6a8a2779eabc5f8401c27f119ea305af48a9946ccc0a2161a641ee9a22e269e3"
+      },
+      "dependencies": [
+        "Ordinary-basis member decoder; cyclotomic contraction/order formula"
+      ]
+    },
+    {
+      "id": "SV-SYMDESC-v2",
+      "status": "ACCEPTED-EXACT-SCOPE",
+      "statement": "coordinator/symmetry-descent-statement-v2.md",
+      "proof": "coordinator/symmetry-descent-proof-v2.md",
+      "supersedes": "SV-SYMDESC-v1",
+      "repair": "Explicit unique power-of-two part a=2^{v_2(e)}; originals preserved",
+      "evidence_sha256": {
+        "coordinator/symmetry-descent-statement-v2.md": "087405376d31699635e87d954eaaa9305da4635b61f2b572205ba89db533cddf",
+        "coordinator/symmetry-descent-proof-v2.md": "4a8e0b32f33c7121517108e9e1b63ff3eb9d2a50f0afea1e5c70c4e0eaa5df2a"
+      },
+      "review": "Fresh FULL-SV2 plus fresh statement-only BLIND-SV2, reconciled acceptance-v3.json",
+      "check_depth": "Correlated same-model full and blind proof/source/complexity review; bounded exact controls; not formal verification"
+    },
+    {
+      "id": "SV-SUBFIELD-v2",
+      "status": "ACCEPTED-EXACT-SCOPE",
+      "statement": "coordinator/subfield-contraction-statement-v2.md",
+      "proof": "coordinator/subfield-contraction-proof-v2.md",
+      "supersedes": "SV-SUBFIELD-v1",
+      "repair": "Explicit unique power-of-two part a=2^{v_2(e)}; originals preserved",
+      "evidence_sha256": {
+        "coordinator/subfield-contraction-statement-v2.md": "9157018baf8fa6d4e6fc3f3e889f3ba6fd07ce206175be4f37508553593c2bae",
+        "coordinator/subfield-contraction-proof-v2.md": "bd394211a85a33ed1566aba5232300db46bc24462777186d8c7f38a24967d9d8"
+      },
+      "review": "Fresh FULL-SV2 plus fresh statement-only BLIND-SV2, reconciled acceptance-v3.json",
+      "check_depth": "Correlated same-model full and blind proof/source/complexity review; bounded exact controls; not formal verification"
+    },
+    {
+      "id": "SV-PRIME-SUPPORT-v1",
+      "status": "REJECTED-UNQUALIFIED-EXISTENCE-SCOPE",
+      "statement": "coordinator/source-prime-support-statement-v1.md",
+      "proof": "coordinator/source-prime-support-proof-v1.md",
+      "dependencies": [
+        "SV-SUBFIELD-v2 exact repaired theorem pending blind",
+        "Effective Linnik for nonempty unbounded-support example"
+      ],
+      "scope": "Factorization-free source decoding when sum_i b_i log2 p_i is O(log n); bounded support per rational characteristic suffices; no hardness",
+      "evidence_sha256": {
+        "coordinator/source-prime-support-statement-v1.md": "b7d9c43af7dedfcaeec509b9693dd374b7f05f197ea9a3bd0fbc09e9c0967df9",
+        "coordinator/source-prime-support-proof-v1.md": "12967509eed52f8fe2896e7d341a792beacbd06cd4a50a43a07bc04c1ea4014d"
+      },
+      "review": "Full and fresh blind pending",
+      "finding": "Core bound survives at rho=0, but exponential-index existence sentence requires 0<rho<1. Proof already states this. Original preserved; v2 narrows only that sentence."
+    },
+    {
+      "id": "FF3-TWOSECRET-v1",
+      "status": "ACCEPTED-EXACT-AUXILIARY-SCOPE",
+      "statement": "workers/FF3/two-secret-channel-statement-v1.md",
+      "proof": "workers/FF3/two-secret-channel-proof-v1.md",
+      "dependencies": [],
+      "scope": "Exact normalized finite-ring channel for two secret labels only; no full binary cube extension",
+      "evidence_sha256": {
+        "workers/FF3/two-secret-channel-statement-v1.md": "7cceb1801d9ebf2d6a23c5636266c74326b54a4e8b7499ecd13262aec25a66a8",
+        "workers/FF3/two-secret-channel-proof-v1.md": "9b4f40bef2fb5aa3b843e908577d4656f1c7bd1149b8f4a6c151f2b1046277ed"
+      },
+      "review": "coordinator/acceptance-v6.json",
+      "full_review": [
+        "FULL-FF3 phase1"
+      ],
+      "blind_review": "BLIND-TRANSFER2",
+      "check_depth": "Nonauthor full proof/source/complexity and fresh statement-only reconstruction, exact-version dependency reconciliation and bounded controls. Same-model correlated scrutiny, not formal verification."
+    },
+    {
+      "id": "FF3-ENUM-v1",
+      "status": "ACCEPTED-EXACT-AUXILIARY-SCOPE",
+      "statement": "workers/FF3/exhaustive-kernel-statement-v1.md",
+      "proof": "workers/FF3/exhaustive-kernel-proof-v2.md",
+      "dependencies": [],
+      "scope": "Full binary-secret normalized statistical transfer with explicit exponential enumeration; no efficient kernel",
+      "evidence_sha256": {
+        "workers/FF3/exhaustive-kernel-statement-v1.md": "b6c3a787dfe567fc6fb1fecfb2714d0a138d92287523382661c4f6946f7d37ed",
+        "workers/FF3/exhaustive-kernel-proof-v2.md": "7e5be386181b4bd2c20319fc7f2f74f9b9b07b55ec291529a985092507047087"
+      },
+      "review": "coordinator/acceptance-v6.json",
+      "rejected_proof": "workers/FF3/exhaustive-kernel-proof-v1.md",
+      "rejection": "workers/FF3/enum-repair-ledger-v1.md",
+      "full_review": [
+        "FULL-FF3-PHASE2 exact proof-v2 repair"
+      ],
+      "blind_review": "BLIND-TRANSFER2",
+      "check_depth": "Nonauthor full proof/source/complexity and fresh statement-only reconstruction, exact-version dependency reconciliation and bounded controls. Same-model correlated scrutiny, not formal verification."
+    },
+    {
+      "id": "WEIGHT-COV-v1",
+      "status": "ACCEPTED-EXACT-DIAGNOSTIC-SCOPE",
+      "statement": "coordinator/weight-covariance-statement-v1.md",
+      "proof": "coordinator/weight-covariance-proof-v1.md",
+      "dependencies": [],
+      "scope": "Exact finite-second-moment affine correction conditioned on Hamming weight only; not nonlinear, approximate, or hidden-secret marginal impossibility",
+      "evidence_sha256": {
+        "coordinator/weight-covariance-statement-v1.md": "af37700170161bd8593c5573c192f3b24b113eb5a518db08f35d69a0d678b234",
+        "coordinator/weight-covariance-proof-v1.md": "88617f5c420181734206414ed3fd30bdcdf5ba84dee2575699ba406e029ad7a3"
+      },
+      "review": "coordinator/acceptance-v4.json",
+      "check_depth": "Nonauthor full proof/source/complexity plus fresh statement-only reconstruction and bounded controls; same-model correlated scrutiny, not formal verification.",
+      "full_review": "FULL-FRONTIER1",
+      "blind_review": "BLIND-FRONTIER1 strict no-status six-claim subset"
+    },
+    {
+      "id": "SV-ALL-SUBFIELDS-v1",
+      "status": "ACCEPTED-EXACT-DIAGNOSTIC-SCOPE",
+      "statement": "coordinator/all-subfields-comparison-statement-v1.md",
+      "proof": "coordinator/all-subfields-comparison-proof-v1.md",
+      "evidence_sha256": {
+        "coordinator/all-subfields-comparison-statement-v1.md": "e4bc6f736371b22a5bcb966a065b36f32b16966acdc1958e5ed56de9176d2ea0",
+        "coordinator/all-subfields-comparison-proof-v1.md": "665ed6fc53b8ea17207603bbee9560e330e397b1b922cc244f8c98fecff151d1"
+      },
+      "dependencies": [
+        "SV-SYMDESC-v2 signed invariant basis and exact normal forms"
+      ],
+      "scope": "All-subfield feasible contraction minimum differs from standard-chain minimum by at most square; no general algorithmic impossibility",
+      "review": "coordinator/acceptance-v4.json",
+      "check_depth": "Nonauthor full proof/source/complexity plus fresh statement-only reconstruction and bounded controls; same-model correlated scrutiny, not formal verification.",
+      "full_review": "FULL-FRONTIER1",
+      "blind_review": "BLIND-FRONTIER1 strict no-status six-claim subset"
+    },
+    {
+      "id": "WEIGHT-GAUSS-v1",
+      "status": "ACCEPTED-EXACT-DIAGNOSTIC-SCOPE",
+      "statement": "coordinator/weight-gaussian-statement-v1.md",
+      "proof": "coordinator/weight-gaussian-proof-v1.md",
+      "dependencies": [
+        "WEIGHT-COV-v1 four-face identity",
+        "GAUSS-AVG-v1 one-dimensional Gaussian characteristic test"
+      ],
+      "scope": "Retained-secret continuous Gaussian lower bound with Hamming-weight advice; no nonlinear/hidden-secret/general-tail inference",
+      "evidence_sha256": {
+        "coordinator/weight-gaussian-statement-v1.md": "c8bb8ed7fbc2f4c0be3ffed21e8a5e4d83d07b02e7d2d1bfc8569b095006406f",
+        "coordinator/weight-gaussian-proof-v1.md": "bd2a0689f44b4a39541738e0d55016d46d3cd7fdf2ba7601645c6f7044c98bd8"
+      },
+      "review": "coordinator/acceptance-v4.json",
+      "check_depth": "Nonauthor full proof/source/complexity plus fresh statement-only reconstruction and bounded controls; same-model correlated scrutiny, not formal verification.",
+      "full_review": "FULL-FRONTIER1",
+      "blind_review": "BLIND-FRONTIER1 strict no-status six-claim subset"
+    },
+    {
+      "id": "SV-PRIME-SUPPORT-v2",
+      "status": "ACCEPTED-EXACT-DIAGNOSTIC-SCOPE",
+      "statement": "coordinator/source-prime-support-statement-v2.md",
+      "proof": "coordinator/source-prime-support-proof-v2.md",
+      "dependencies": [
+        "SV-SUBFIELD-v2",
+        "effective Linnik construction"
+      ],
+      "supersedes": "SV-PRIME-SUPPORT-v1",
+      "repair": "Restrict growing exponential-index existence to positive rho; core criterion includes rho=0",
+      "review": "coordinator/acceptance-v4.json",
+      "evidence_sha256": {
+        "coordinator/source-prime-support-statement-v2.md": "1176e7484ba806a92ea18d95e22375938f210d38fe1268fe9f178e280d76374d",
+        "coordinator/source-prime-support-proof-v2.md": "3e2e62f75c75766c90de436e8387cb3331f8c2b4a9dc0a14b7fc1f8862ff3cfe"
+      },
+      "check_depth": "Nonauthor full proof/source/complexity plus fresh statement-only reconstruction and bounded controls; same-model correlated scrutiny, not formal verification.",
+      "full_review": "FULL-SOURCE3 exact v2; earlier FULL-FRONTIER1 v1 is NOT a repair gate",
+      "blind_review": "BLIND-FRONTIER1 strict no-status six-claim subset"
+    },
+    {
+      "id": "SV-DENSE-SPLIT-v1",
+      "status": "ACCEPTED-EXACT-SOURCE-CLASSIFICATION-SCOPE",
+      "statement": "coordinator/dense-split-source-statement-v1.md",
+      "proof": "coordinator/dense-split-source-proof-v1.md",
+      "dependencies": [
+        "effective split-prime construction",
+        "optional SV-ALL-SUBFIELDS-v1"
+      ],
+      "scope": "Explicit failure of polynomial-contraction criterion, not source hardness",
+      "evidence": [
+        "experiments/dense-split-fv1-output.json"
+      ],
+      "review": "coordinator/acceptance-v5.json",
+      "evidence_sha256": {
+        "coordinator/dense-split-source-statement-v1.md": "10d8282bae4ed3ef96eda1d304f4538935b9308b7cb23e2b651672fc9dbae102",
+        "coordinator/dense-split-source-proof-v1.md": "ddc8225562237ed46751f9326db1a2a51de5646eb6550be74e20b5c8552a1535"
+      },
+      "full_review": [
+        "FULL-SOURCE3 phase1"
+      ],
+      "blind_review": "BLIND-SOURCE4",
+      "check_depth": "Nonauthor full proof/source/complexity and fresh statement-only reconstruction, exact-version dependency reconciliation and bounded controls. Same-model correlated scrutiny, not formal verification."
+    },
+    {
+      "id": "SV-RS-DECODE-v1",
+      "status": "REJECTED_FULL_STATEMENT_RADIUS_SYMBOL",
+      "statement": "coordinator/rs-source-decoder-statement-v1.md",
+      "proof": "coordinator/rs-source-decoder-proof-v1.md",
+      "dependencies": [
+        "coefficient Parseval",
+        "CRT ideal inverse identity",
+        "explicit Berlekamp-Welch linear system proved internally"
+      ],
+      "scope": "Ordinary-basis direct BDD for consecutive split-root ideals at guard8p\u00b2r\u00b2<n-t+1; actual DD radius explicitly substituted",
+      "review": "Full and freshblind pending",
+      "evidence": [
+        "experiments/rs-source-fv1-output.json"
+      ],
+      "qualification": "Generic-r algorithm separately supported; actual-radius paragraph wrong inherited symbol; no full acceptance",
+      "evidence_sha256": {
+        "coordinator/rs-source-decoder-statement-v1.md": "e5849eaeb63737f596b08213e4d3dd7ea3bc6e4b0fe4873cfe8140205318ea32",
+        "coordinator/rs-source-decoder-proof-v1.md": "b812deb279acfeb36c9ea27ec17d750b6f5cd23ff5f2e24f1b519e412e79daa6"
+      }
+    },
+    {
+      "id": "SV-GAP-DECODE-v1",
+      "status": "ACCEPTED-EXACT-SOURCE-CLASSIFICATION-SCOPE",
+      "statement": "coordinator/spectral-gap-decoder-statement-v1.md",
+      "proof": "coordinator/spectral-gap-decoder-proof-v1.md",
+      "dependencies": [
+        "SV-RS-DECODE-v2"
+      ],
+      "review": "coordinator/acceptance-v5.json",
+      "dependency_gate": "CLOSED_EXACT_GENERIC_R_EQUIVALENCE_BY_FULL_REPAIR4_AND_ACCEPTANCE_V5",
+      "dependency_resolution": "Uses only generic-r RS algorithm, identical in RS-v1/v2; FULL-REPAIR4 explicitly reconciles with accepted RS-v2. Rejected epsilon paragraph of RS-v1 is not imported.",
+      "evidence_sha256": {
+        "coordinator/spectral-gap-decoder-statement-v1.md": "00921998d7781d3f8d5df8954cb4a919f3fa60524d1d64530913113d3cfdec9a",
+        "coordinator/spectral-gap-decoder-proof-v1.md": "7e7a55eed374c5e75f7cc27006bf87ddd64d68f54e51ed97ea17590bf3546ee8"
+      },
+      "full_review": [
+        "FULL-SOURCE3 phase1",
+        "FULL-REPAIR4 generic-dependency reconciliation"
+      ],
+      "blind_review": "BLIND-SOURCE4",
+      "check_depth": "Nonauthor full proof/source/complexity and fresh statement-only reconstruction, exact-version dependency reconciliation and bounded controls. Same-model correlated scrutiny, not formal verification."
+    },
+    {
+      "id": "SV-LIST-DECODE-v1",
+      "status": "ACCEPTED-EXACT-SOURCE-CLASSIFICATION-SCOPE",
+      "statement": "coordinator/list-source-decoder-statement-v1.md",
+      "proof": "coordinator/list-source-decoder-proof-v1.md",
+      "dependencies": [
+        "SV-RS-DECODE-v2",
+        "new polynomial coefficient recursion",
+        "exact lattice uniqueness guard"
+      ],
+      "review": "coordinator/acceptance-v5.json",
+      "dependency_gate": "CLOSED_EXACT_GENERIC_R_EQUIVALENCE_BY_FULL_REPAIR4_AND_ACCEPTANCE_V5",
+      "dependency_resolution": "Uses only generic-r RS algorithm, identical in RS-v1/v2; FULL-REPAIR4 explicitly reconciles with accepted RS-v2. Rejected epsilon paragraph of RS-v1 is not imported.",
+      "evidence_sha256": {
+        "coordinator/list-source-decoder-statement-v1.md": "e9c47f9fd5645b3d70868d4c36027ce94ebd86b1ca1c40164b7c32a0fc52710b",
+        "coordinator/list-source-decoder-proof-v1.md": "50a5b5d86176ce64416d5603ee559d3e610decf636523a03c0cc04d5fcd6ea2f"
+      },
+      "full_review": [
+        "FULL-SOURCE3 phase1",
+        "FULL-REPAIR4 generic-dependency reconciliation"
+      ],
+      "blind_review": "BLIND-SOURCE4",
+      "check_depth": "Nonauthor full proof/source/complexity and fresh statement-only reconstruction, exact-version dependency reconciliation and bounded controls. Same-model correlated scrutiny, not formal verification."
+    },
+    {
+      "id": "SV-RS-DECODE-v2",
+      "status": "ACCEPTED-EXACT-SOURCE-CLASSIFICATION-SCOPE",
+      "statement": "coordinator/rs-source-decoder-statement-v2.md",
+      "proof": "coordinator/rs-source-decoder-proof-v2.md",
+      "review": "coordinator/acceptance-v5.json",
+      "evidence_sha256": {
+        "coordinator/rs-source-decoder-statement-v2.md": "e50c4bf45d59fa6f80924efa778761b85ce1b86ccee4d8dac7f4551e34396639",
+        "coordinator/rs-source-decoder-proof-v2.md": "008977a31b0a9a393ca4d635dc3b945d5309f1c216f80211f0fd4a61c7291698"
+      },
+      "full_review": [
+        "FULL-REPAIR4"
+      ],
+      "blind_review": "BLIND-TRANSFER2",
+      "check_depth": "Nonauthor full proof/source/complexity and fresh statement-only reconstruction, exact-version dependency reconciliation and bounded controls. Same-model correlated scrutiny, not formal verification."
+    },
+    {
+      "id": "SV-RS-ACTUAL-v3",
+      "status": "ACCEPTED-EXACT-SOURCE-CLASSIFICATION-SCOPE",
+      "statement": "coordinator/rs-actual-radius-witness-statement-v3.md",
+      "proof": "coordinator/rs-actual-radius-witness-proof-v3.md",
+      "dependencies": [
+        "SV-DENSE-SPLIT-v1",
+        "SV-RS-DECODE-v2 generic-r decoder",
+        "inherited FIXED-MAIN-v2 radius and charged chi freedom"
+      ],
+      "dependency_resolution": "Uses only generic-r RS algorithm, identical in RS-v1/v2; FULL-REPAIR4 explicitly reconciles with accepted RS-v2. Rejected epsilon paragraph of RS-v1 is not imported.",
+      "evidence_sha256": {
+        "coordinator/rs-actual-radius-witness-statement-v3.md": "6e721a1eff0c5390c44f9984ae0b930bdfb5657c769199707fd2afb6dab9eccc",
+        "coordinator/rs-actual-radius-witness-proof-v3.md": "49ebed1855cf5cb1851f8acf0ef3351c93bc3cf7a239b62310427d9fa0244f21"
+      },
+      "review": "coordinator/acceptance-v5.json",
+      "full_review": [
+        "FULL-SOURCE3 phase1",
+        "FULL-REPAIR4 generic-dependency reconciliation"
+      ],
+      "blind_review": "BLIND-SOURCE4",
+      "check_depth": "Nonauthor full proof/source/complexity and fresh statement-only reconstruction, exact-version dependency reconciliation and bounded controls. Same-model correlated scrutiny, not formal verification."
+    },
+    {
+      "id": "FF3-SELECTOR-PUBLIC-v2",
+      "status": "SUPERSEDED_RANDOMIZED_RETRY_SCOPE",
+      "statement": "coordinator/selector-public-statement-v2.md",
+      "proof": "coordinator/selector-public-proof-v2.md",
+      "scope": "Finite/countable discrete public Z only",
+      "superseded_by": "FF3-SELECTOR-PUBLIC-v3",
+      "evidence_sha256": {
+        "coordinator/selector-public-statement-v2.md": "be7ed4eb9f5690d66aba289e3e7b86055313973d96b71aaa377d95f4f87adc52",
+        "coordinator/selector-public-proof-v2.md": "6eb3ad7d977b904a426cfe81888a15ba50fa0ba6a369ae7910e7871c953c7f41"
+      }
+    },
+    {
+      "id": "BOUNDED-AFFINE-TV-v1",
+      "status": "ACCEPTED-EXACT-AUXILIARY-SCOPE",
+      "statement": "coordinator/bounded-affine-tv-statement-v1.md",
+      "proof": "coordinator/bounded-affine-tv-proof-v1.md",
+      "scope": "Retained-S secret-independent affine residual pair; bounded/tail/no-wrap hypotheses explicit",
+      "evidence_sha256": {
+        "coordinator/bounded-affine-tv-statement-v1.md": "4ed10092743879e7433b39bfc8988088821c7ceb29f4944f3794baea10cc7c6e",
+        "coordinator/bounded-affine-tv-proof-v1.md": "0690ad673537a2df1f3e7bf1b2b44ea2126d51e05f0de4eca0d4437006201673"
+      },
+      "review": "coordinator/acceptance-v6.json",
+      "full_review": [
+        "FULL-FF3-PHASE2 bounded-affine-full-review-v1.md"
+      ],
+      "blind_review": "BLIND-TRANSFER2",
+      "check_depth": "Nonauthor full proof/source/complexity and fresh statement-only reconstruction, exact-version dependency reconciliation and bounded controls. Same-model correlated scrutiny, not formal verification."
+    },
+    {
+      "id": "FF3-COMPRESSED-SELECTOR-INFORMATION-v2",
+      "status": "ACCEPTED-EXACT-AUXILIARY-SCOPE",
+      "statement": "coordinator/compressed-selector-information-statement-v2.md",
+      "proof": "coordinator/compressed-selector-information-proof-v2.md",
+      "dependencies": [
+        "FF3-ENUM-v1"
+      ],
+      "full_review": [
+        "FULL-REPAIR4 fresh retry/conditional law core",
+        "FULL-FF3-PHASE2 unchanged Gaussian corollary plus repaired ENUM"
+      ],
+      "evidence_sha256": {
+        "coordinator/compressed-selector-information-statement-v2.md": "8abf13ef4d35625ae82a6ffb44a7feb76d06700ada6a553a4a3ebd25a3e89d70",
+        "coordinator/compressed-selector-information-proof-v2.md": "51d0824a7e767c555cb0e156adaaf9922c01728462b2ef0c7e0f96f273dc7f8f"
+      },
+      "review": "coordinator/acceptance-v6.json",
+      "blind_review": "BLIND-TRANSFER2",
+      "check_depth": "Nonauthor full proof/source/complexity and fresh statement-only reconstruction, exact-version dependency reconciliation and bounded controls. Same-model correlated scrutiny, not formal verification."
+    },
+    {
+      "id": "FF3-SELECTOR-PUBLIC-v3",
+      "status": "ACCEPTED-EXACT-AUXILIARY-SCOPE",
+      "statement": "coordinator/selector-public-statement-v3.md",
+      "proof": "coordinator/selector-public-proof-v3.md",
+      "dependencies": [
+        "FF3-COMPRESSED-SELECTOR-INFORMATION-v2"
+      ],
+      "evidence_sha256": {
+        "coordinator/selector-public-statement-v3.md": "1c51d957ea4214c50f47c2c013e9472a6b2627507a36589fc477c5b9e768c2ac",
+        "coordinator/selector-public-proof-v3.md": "1010635301ddbad3005a92b2e04dc6ee5b78b3f1baeea6a971d7a2439406c9b5"
+      },
+      "review": "coordinator/acceptance-v6.json",
+      "full_review": [
+        "FULL-REPAIR4 exact discrete fresh-retry extension"
+      ],
+      "blind_review": "BLIND-TRANSFER2",
+      "check_depth": "Nonauthor full proof/source/complexity and fresh statement-only reconstruction, exact-version dependency reconciliation and bounded controls. Same-model correlated scrutiny, not formal verification."
+    },
+    {
+      "id": "SV-RS-BIT-v2",
+      "status": "ACCEPTED-EXACT-SOURCE-CLASSIFICATION-SCOPE",
+      "statement": "coordinator/rs-bit-complexity-statement-v2.md",
+      "proof": "coordinator/rs-bit-complexity-proof-v2.md",
+      "dependencies": [
+        "SV-RS-DECODE-v2",
+        "SV-GAP-DECODE-v1"
+      ],
+      "full_review": [
+        "FULL-SOURCE3 separate rs-bit-complexity-addendum-v1"
+      ],
+      "implementation_condition": "Prime promise: omit previous numeric-p trial division; acquire root from bounded fresh bits. LIST root scans remain numeric-p.",
+      "evidence_sha256": {
+        "coordinator/rs-bit-complexity-statement-v2.md": "fd27a2ceb2766c24c37616273158f1a2899de63a518af804fd047ccb4b43f89c",
+        "coordinator/rs-bit-complexity-proof-v2.md": "ab1b0cd2d912bd75d9177b1975d088c1d4c2cd99c2353544120704a459d80ab8"
+      },
+      "review": "coordinator/acceptance-v5.json",
+      "blind_review": "BLIND-TRANSFER2",
+      "check_depth": "Nonauthor full proof/source/complexity and fresh statement-only reconstruction, exact-version dependency reconciliation and bounded controls. Same-model correlated scrutiny, not formal verification.",
+      "implementation_qualification": "Prime is promised: OMIT old trial-division loop and field-wide root scan; bounded fresh-bit root acquisition plus n odd powers replaces them. LIST excluded."
+    },
+    {
+      "id": "SV-SPARSE-ACQ-v1",
+      "status": "ACCEPTED-EXACT-SOURCE-CLASSIFICATION-SCOPE",
+      "statement": "coordinator/sparse-acquisition-statement-v1.md",
+      "proof": "coordinator/sparse-acquisition-proof-v1.md",
+      "dependencies": [
+        "SV-BDD-CLASS-v1"
+      ],
+      "evidence_sha256": {
+        "coordinator/sparse-acquisition-statement-v1.md": "c3c1078b33309f7b3d9061fbdad1114c3178dea28e64c7e8849a947ad5d97d84",
+        "coordinator/sparse-acquisition-proof-v1.md": "985e843a98a4413dd7cebf3a98042aedd2b971d241eeb210bd22401b43e952f3"
+      },
+      "review": "coordinator/acceptance-v5.json",
+      "full_review": [
+        "FRONTIER-CHALLENGE1 sparse-full-review-v1.md"
+      ],
+      "blind_review": "BLIND-TRANSFER2",
+      "check_depth": "Nonauthor full proof/source/complexity and fresh statement-only reconstruction, exact-version dependency reconciliation and bounded controls. Same-model correlated scrutiny, not formal verification."
+    },
+    {
+      "id": "FF3-COMPACT-SELECTOR-v2",
+      "status": "REJECTED_UNSPECIFIED_M_ENCODING",
+      "statement": "coordinator/compact-selector-statement-v2.md",
+      "proof": "coordinator/compact-selector-proof-v2.md",
+      "dependencies": [],
+      "evidence_sha256": {
+        "coordinator/compact-selector-statement-v2.md": "89864b1f1d37ebb66e3fb7e364c8ad657c185808cdcdbb1c4370058aed7b2846",
+        "coordinator/compact-selector-proof-v2.md": "cfe90ffc7b4b0b6e0e8efdd424f6b20b361b9e66107022752ccf787b66414211"
+      },
+      "rejection": "coordinator/compact-selector-v2-rejection-v1.md"
+    },
+    {
+      "id": "FF3-ENERGY-RANK-v2",
+      "status": "ACCEPTED-EXACT-CONDITIONAL-KERNEL-SCOPE",
+      "statement": "coordinator/energy-rank-kernel-statement-v2.md",
+      "proof": "coordinator/energy-rank-kernel-proof-v2.md",
+      "dependencies": [],
+      "evidence_sha256": {
+        "coordinator/energy-rank-kernel-statement-v2.md": "ab8e55aa2930d04d3d24529abf5e4f6f5ebee5e25507830a6bff0ba792101355",
+        "coordinator/energy-rank-kernel-proof-v2.md": "3972798c783f0ba0116e72b1b393e0ca90b59afd9e6805413cbc3e29b3e8db9d"
+      },
+      "review": "coordinator/acceptance-v7.json",
+      "full_review": "reviews/FRONTIER-CHALLENGE1/kernel-repair-full-review-v1.md",
+      "blind_review": "reviews/BLIND-RESOURCE4/referee-report-v1.md",
+      "check_depth": "Different fresh full edited-proof reviewer and clean fresh theorem-only reconstruction, exact coefficient binding and finite controls; correlated same-model scrutiny, not formal verification.",
+      "dependency_binding": "coordinator/energy-twoevent-dependency-binding-v1.json",
+      "scope": "Given-h shell-constant rank theorem; pair requires JOINT shell-uniform law; numeric alphabets, expected rational sampling, exact finite Gaussian/truncation law. TWOEVENT conditional construction imports every premise."
+    },
+    {
+      "id": "FF3-TWOEVENT-v1",
+      "statement": "workers/FF3/two-event-noise-kernel-statement-v1.md",
+      "status": "ACCEPTED-EXACT-AUXILIARY-SCOPE",
+      "dependencies": [],
+      "proof": "workers/FF3/two-event-noise-kernel-v1.md",
+      "evidence_sha256": {
+        "workers/FF3/two-event-noise-kernel-statement-v1.md": "ba5c8050af98cce9e7dec3d9c1b9a1806f606f9b59f1ca40e62917aa093e913b",
+        "workers/FF3/two-event-noise-kernel-v1.md": "007695f536455299fcf747c5ada7150bbac147b93de2d53cd163b7493f8c9e3b"
+      },
+      "review": "coordinator/acceptance-v6.json",
+      "full_review": [
+        "FULL-FF3 phase1",
+        "FULL-FF3-PHASE2"
+      ],
+      "blind_review": "BLIND-TRANSFER2",
+      "check_depth": "Nonauthor full proof/source/complexity and fresh statement-only reconstruction, exact-version dependency reconciliation and bounded controls. Same-model correlated scrutiny, not formal verification."
+    },
+    {
+      "id": "FF3-JOINT-RANK-FINITE-v1",
+      "statement": "workers/FF3/joint-rank-finite-statement-v1.md",
+      "status": "ACCEPTED-EXACT-AUXILIARY-SCOPE",
+      "dependencies": [],
+      "proof": "workers/FF3/joint-rank-finite-proof-v1.md",
+      "evidence_sha256": {
+        "workers/FF3/joint-rank-finite-statement-v1.md": "a0f0d3ba6548e02668c869a238ae65518e0040f30d6b34710c648d54e0696ece",
+        "workers/FF3/joint-rank-finite-proof-v1.md": "5f18cf6956f045cdaddb3b06ac7f62e768805d6e5746bae6b8b1ca7d8c65e6ab"
+      },
+      "review": "coordinator/acceptance-v6.json",
+      "full_review": [
+        "FULL-FF3-PHASE2 exact reconstruction"
+      ],
+      "blind_review": "BLIND-TRANSFER2",
+      "check_depth": "Nonauthor full proof/source/complexity and fresh statement-only reconstruction, exact-version dependency reconciliation and bounded controls. Same-model correlated scrutiny, not formal verification."
+    },
+    {
+      "id": "FF3-COMPRESSED-SELECTOR-INFORMATION-v1",
+      "statement": "workers/FF3/compressed-selector-information-statement-v1.md",
+      "status": "REJECTED_OPTIONAL_RANDOMIZED_RETRY_SCOPE",
+      "dependencies": [
+        "FF3-ENUM-v1"
+      ],
+      "proof": "workers/FF3/compressed-selector-information-proof-v1.md",
+      "evidence_sha256": {
+        "workers/FF3/compressed-selector-information-statement-v1.md": "4b3781f61ab459b4809aaa32578ad3e687c8ed59a9424a72ad8d6c706a05913c",
+        "workers/FF3/compressed-selector-information-proof-v1.md": "45fd5b79c7a7fd885daadd0e4a9148ee1c21edea539c027c190cf188ba650a30"
+      }
+    },
+    {
+      "id": "FF3-SELECTOR-PUBLIC-v1",
+      "statement": "workers/FF3/compressed-selector-public-extension-v1.md",
+      "status": "REJECTED_NONATOMIC_AND_RANDOMIZED_SCOPE",
+      "dependencies": [
+        "FF3-COMPRESSED-SELECTOR-INFORMATION-v1"
+      ],
+      "evidence_sha256": {
+        "workers/FF3/compressed-selector-public-extension-v1.md": "557b14b8aa99e3e9197af786a2f3673375f8f0baf196c42b37d547e540d26a85"
+      }
+    },
+    {
+      "id": "FF3-COMPACT-SELECTOR-v1",
+      "statement": "workers/FF3/compact-selector-statement-v1.md",
+      "status": "REJECTED_UNQUALIFIED_WORST_CASE_FAIR_BITS",
+      "dependencies": [],
+      "proof": "workers/FF3/compact-selector-proof-v1.md",
+      "evidence_sha256": {
+        "workers/FF3/compact-selector-statement-v1.md": "d606b293a7ec544c6e003eec7f4c8b137ee7d3f76f958cdf0793b058f03237ee",
+        "workers/FF3/compact-selector-proof-v1.md": "8e84e8aa29c9381b36e153ef0f930a0708ccbcc44324f36d29879624ddaab356"
+      }
+    },
+    {
+      "id": "FF3-ENERGY-RANK-v1",
+      "statement": "workers/FF3/energy-rank-kernel-statement-v1.md",
+      "status": "REJECTED_LITERAL_PAIR_COUNT_BIT_BOUND",
+      "dependencies": [],
+      "proof": "workers/FF3/energy-rank-kernel-proof-v1.md",
+      "evidence_sha256": {
+        "workers/FF3/energy-rank-kernel-statement-v1.md": "4cf430aeb6067775c794d7e4307152b12e197efa9b70a4232cff95acb827b9e5",
+        "workers/FF3/energy-rank-kernel-proof-v1.md": "e9cb9682c135ab8d191b761fb95434fcade715086c1bdce6a1e0b8932c1ef8f1"
+      },
+      "rejection": "reviews/BLIND-TRANSFER2/final-scope-v2.txt"
+    },
+    {
+      "id": "SV-RS-BIT-v1",
+      "statement": "coordinator/rs-bit-complexity-statement-v1.md",
+      "status": "REJECTED_LIST_BINARY_P_SCOPE",
+      "dependencies": [],
+      "proof": "coordinator/rs-bit-complexity-proof-v1.md",
+      "evidence_sha256": {
+        "coordinator/rs-bit-complexity-statement-v1.md": "3ba248dbecd4c5edcda0b5c327ba4b5440720aea04245039d8b0cd8d5007dcc0",
+        "coordinator/rs-bit-complexity-proof-v1.md": "f8f50efdbfaccea84ed6db008be15c5c1dd2d4805f98cb1f7d91f954087a360d"
+      }
+    },
+    {
+      "id": "FF3-COMPACT-SELECTOR-v3",
+      "status": "ACCEPTED-EXACT-CONDITIONAL-KERNEL-SCOPE",
+      "statement": "coordinator/compact-selector-statement-v3.md",
+      "proof": "coordinator/compact-selector-proof-v3.md",
+      "supersedes": "FF3-COMPACT-SELECTOR-v2",
+      "repair": "Encoded rational M; finite M=3. Earlier v3 blind exposure disclosed; different fresh strict referee required.",
+      "review": "coordinator/acceptance-v7.json",
+      "full_review": "reviews/DELIVERY-AUDIT1/compact-v3-full/full-report-v1.md",
+      "blind_review": "reviews/BLIND-RESOURCE4/referee-report-v1.md",
+      "evidence_sha256": {
+        "coordinator/compact-selector-statement-v3.md": "20c66a210cfb4821eec35b371fbf7478ec3493d18d656a18a5b06dffc2fed889",
+        "coordinator/compact-selector-proof-v3.md": "8625e7453ae8d937ba9b885dd802a065987224862c70becbbc2713046c76a71f"
+      },
+      "check_depth": "Different fresh full edited-proof reviewer and clean fresh theorem-only reconstruction, exact coefficient binding and finite controls; correlated same-model scrutiny, not formal verification.",
+      "path_binding": "coordinator/kernel-resource-v3-path-resolution-v1.json",
+      "scope": "Encoded rational M; expected cost polynomial in numeric M and encodings, all endpoint equations separate; finite n2 exact instance only; outer L cap does not cap all inner bit/H runtimes."
+    }
+  ],
+  "inherited_graph": {
+    "source": "exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/acceptance-v1.json",
+    "sha256": "ba065e4b5f569236839b2597882698ade120219a13551376b8a14af6d5d2e23e",
+    "check_depth": "Exact inherited statement/proof hashes verified in coordinator/inherited-integrity-v1.json; source radius and target quantifiers reconstructed in objective/parameter/reduction records. Inherited acceptance retains its guards; this is not new proof certification."
+  }
+}

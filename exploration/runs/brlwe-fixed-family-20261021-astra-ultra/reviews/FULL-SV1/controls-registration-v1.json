@@ -1,0 +1,14 @@
+{
+  "id": "FULL-SV1-FV1",
+  "hypothesis": "Exact bounded controls agree with all three SV statements: ideal HNF exponent equality, effective odd-part removal, signed fixed integral lattice, Smith/image contraction index and unramified norm root, collision member acquisition; false relaxations fail.",
+  "code": "controls-v1.py",
+  "inputs": "Every upper column HNF ideal of degree 2 or 4 and index below 2^n, plus degree-8 prime above 3 and its mixed 2-primary product; ramified, nonideal and tie negative controls.",
+  "seeds": "none, deterministic exhaustive arithmetic",
+  "timeout_seconds": 120,
+  "address_space_MiB": 512,
+  "jobs": 1,
+  "heavy": false,
+  "slot": "requested from root; must receive fresh allocation before execution",
+  "independence": "Own implementation, no author experiment imports; author results and candidate proofs were exposed because this is FULL review.",
+  "limits": "Finite controls do not establish asymptotic correctness or complexity; preserve any failed assertion or timeout and revise under a new version."
+}

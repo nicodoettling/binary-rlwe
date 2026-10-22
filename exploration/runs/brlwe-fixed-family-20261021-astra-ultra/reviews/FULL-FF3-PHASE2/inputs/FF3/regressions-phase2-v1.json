@@ -1,0 +1,20 @@
+{
+ "inherited":"inherited-regression-references.json","inherited_count":203,"phase1":"regressions.json",
+ "new":[
+ {"id":"FULL-FF3-ENUM-SIGN-1","provenance":"../../reviews/FULL-FF3/new-regressions-v1.md","expected":"Reject E-box inclusion; correct box-E. Bounds unchanged through symmetric larger box; proof-v2 fresh review required."},
+ {"id":"FF3-LOCAL-SELECTOR-FAIL-1","evidence":"FV10","expected":"Exact exclusions only for the three declared local classes; retain FV11 positive after publicAstatistic is added."},
+ {"id":"FF3-PUBLIC-GEOMETRY-POSITIVE-1","evidence":"FV11","expected":"Exact n2 all-secret/comparator positive,33weights,maximum local class mass<3; no asymptotic promotion."},
+ {"id":"FF3-N4-POOL-DIAGNOSTIC-1","evidence":"FV12","expected":"Sampled6vertex infeasibility remains numeric-only; exact H vertices do not certify selector infeasibility."},
+ {"id":"FF3-JOINT-CLASS-N4-FAIL-1","evidence":"FV13","expected":"Exact integer Farkas for all joint target weight-pair tables with class(za,z0,z1); retain full-direction escape."},
+ {"id":"FF3-COMPRESSION-M-1","evidence":"FV14 selection-discloses-secret","expected":"Omitting maximum selection weight M is false."},
+ {"id":"FF3-COMPRESSION-L-1","evidence":"FV14 class-discloses-entire-secret","expected":"Omitting class alphabet L is false."},
+ {"id":"FF3-COMPRESSION-FACTOR-1","evidence":"FV14 outside-factorization","expected":"OutputY=X=S with constantclass is outside theorem; do not ignore full residual/input state."},
+ {"id":"FF3-COMPRESSION-PRIOR-1","evidence":"FV14 nonuniform-prior","expected":"Use actual maximum prior atom,or posterior guessing probability after advice; no freeS from outerwrapper."},
+ {"id":"FF3-COMPRESSION-RANDOMIZED-1","evidence":"FV14 randomized-class","expected":"Use exact selected conditional law and pointwise normalization averaged over declared class randomization."},
+ {"id":"FF3-RANK-DIRECTION-ENDPOINT-1","evidence":"FV15","expected":"Full ring H rows and both endpoints exact; finite rational laws remain distinct from wrappedGaussian."},
+ {"id":"FF3-JOINT-RANK-POSITIVE-1","evidence":"FV16 n2","expected":"47rational weights give exact all-secret/comparator laws; fullpairrank must be counted as retained information."},
+ {"id":"FF3-JOINT-RANK-UNKNOWN-1","evidence":"FV16 n4 and FV17","expected":"Preserve UNKNOWN and primalERROR. Only separately exact integer Farkas establishes scoped n4 failure."},
+ {"id":"FF3-SYMMETRY-BATCH-1","evidence":"full-direction-open-interfaces-v1.md","expected":"Averaged one-sample endpoints compose with fresh per-sample transforms conditional on commonS; one shared transform does not automatically give product of averages."},
+ {"id":"CP-1","evidence":"FV14 and inherited exact regression","expected":"Continue rejecting21/2000>(1/10)^2; no posterior marginal-product inference."}
+ ]
+}

@@ -1,0 +1,209 @@
+{
+  "reviewer": "FULL-FRONTIER1",
+  "sealed_at_utc": "2026-10-21T19:42:21.520936+00:00",
+  "review_mode": "fresh nonauthor full proof/source/complexity; author proofs and evidence exposed; not blind",
+  "verdict": "Six PASS-EXACT-RESTRICTED-SCOPE recommendations; coordinator status remains provisional until independent role/blind and graph reconciliation",
+  "claims": [
+    "GAUSS-AVG-v1",
+    "FRAC-INFO-v1",
+    "WEIGHT-COV-v1",
+    "SV-PRIME-SUPPORT-v1",
+    "SV-ALL-SUBFIELDS-v1",
+    "WEIGHT-GAUSS-v1"
+  ],
+  "artifact_count": 36,
+  "artifacts": [
+    {
+      "path": "assignment-addendum-verbatim.txt",
+      "sha256": "b77aa0dc6af85a19397f5ea643065b17c4420d5f4d789c3d4df8fd8f782486a7",
+      "bytes": 1503
+    },
+    {
+      "path": "assignment-addendum2-verbatim.txt",
+      "sha256": "329a2f5c46d3ed56f920f49abb6b87b9dda6f4ea636f68adacddb6ed6236a451",
+      "bytes": 654
+    },
+    {
+      "path": "assignment-verbatim.txt",
+      "sha256": "d5acd6b238038205f4c31b911645e1287fb8541fccfeb9b0b284e353752a6a1f",
+      "bytes": 4069
+    },
+    {
+      "path": "claim-dispositions-v1.json",
+      "sha256": "ebfd983068092a4c182d8a7b7473e4bf40ea3507be7760911e8b33f109ce01a4",
+      "bytes": 8724
+    },
+    {
+      "path": "controls-v1-receipt.json",
+      "sha256": "c11be599d6cd979d847e0dc44406453464723e60f21ceeaa7b383b68e94f942f",
+      "bytes": 655
+    },
+    {
+      "path": "controls-v1-registration.json",
+      "sha256": "4e1338633a7b601de531ceeb2246dbab763446ae275c6305ce69791033723ef1",
+      "bytes": 1614
+    },
+    {
+      "path": "controls-v1.py",
+      "sha256": "209349785aa7c9fb81cf24a76116f4f440e2b694dfc57583df097d03898d2f05",
+      "bytes": 5616
+    },
+    {
+      "path": "controls-v1.resources.txt",
+      "sha256": "d71792ed1b59c896001540b0549a7b9f3923d3fa2b7607cbaefe02da9f15f227",
+      "bytes": 886
+    },
+    {
+      "path": "controls-v1.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "controls-v1.stdout.json",
+      "sha256": "141e2f8513d07220f85aedddbc57bd8287c4f276c21c662da7ca16b5c6555b40",
+      "bytes": 2624
+    },
+    {
+      "path": "current-run-regressions-v1.json",
+      "sha256": "b877b942e199b57369af14879c72397ab75d349838b9f93b351803c486b0f848",
+      "bytes": 28992
+    },
+    {
+      "path": "exposure-final-v1.json",
+      "sha256": "feed08fa430a5ab548df4b950cd13256059fa3f164c3888c2a3ed98676c2b1f2",
+      "bytes": 21430
+    },
+    {
+      "path": "full-report-v1.md",
+      "sha256": "2b3c053790a48890b50ab71b966aaa324b09eb353b87ebc28e8f75c1a4715315",
+      "bytes": 16353
+    },
+    {
+      "path": "initial-findings-v1.md",
+      "sha256": "5d1bb1157b84d55c59cf55769395e500319e7c35207cabf848d81712de489e5e",
+      "bytes": 1873
+    },
+    {
+      "path": "input-freeze-addendum-v1.json",
+      "sha256": "4168ec68a7be757baa6d30dbd18b5658913e4edc0ade182c40695bd1775db276",
+      "bytes": 549
+    },
+    {
+      "path": "input-freeze-addendum-v2.json",
+      "sha256": "4b3f19afcab02f4df17f2484e22eba03454733cf53fa796e8f2e6a787bdcebfe",
+      "bytes": 531
+    },
+    {
+      "path": "input-freeze.json",
+      "sha256": "c2b7adc4680e1f591c0ca0b7f17209f64c29105cde312a4476f75732eaa4c8e2",
+      "bytes": 3201
+    },
+    {
+      "path": "inputs/all-subfields-comparison-proof-v1.md",
+      "sha256": "665ed6fc53b8ea17207603bbee9560e330e397b1b922cc244f8c98fecff151d1",
+      "bytes": 3082
+    },
+    {
+      "path": "inputs/all-subfields-comparison-statement-v1.md",
+      "sha256": "e4bc6f736371b22a5bcb966a065b36f32b16966acdc1958e5ed56de9176d2ea0",
+      "bytes": 1746
+    },
+    {
+      "path": "inputs/fractional-information-proof-v1.md",
+      "sha256": "e1ec235c7bf9b3f7d58d25786a3bcece4bb62b0430b7c6da4296a26255d7c5c8",
+      "bytes": 3618
+    },
+    {
+      "path": "inputs/fractional-information-statement-v1.md",
+      "sha256": "94f562284bf0f7b9117be57261e0c19deb76dcdff7bd317f7a722203f604b8bd",
+      "bytes": 2923
+    },
+    {
+      "path": "inputs/gaussian-average-obstruction-proof-v1.md",
+      "sha256": "afd286d46e5095fafc75fba79881e6eecdc0d9c24cadf5b5e0130efbef931d93",
+      "bytes": 3113
+    },
+    {
+      "path": "inputs/gaussian-average-obstruction-statement-v1.md",
+      "sha256": "7b3f0d3c6367dcf354d2fbfcff42c3c19cb668d34baf0393094f37f8031752cd",
+      "bytes": 1957
+    },
+    {
+      "path": "inputs/root-acceptance-v3.json",
+      "sha256": "5f08eb262c7f98632a09fa607b7ebaba88fe58a06558ffadcae8f28bfde49b6c",
+      "bytes": 11586
+    },
+    {
+      "path": "inputs/root-regressions.json",
+      "sha256": "27b966ec59faa61249b3dec9682bafdcf12e95418b7676739032bc00a5d77e40",
+      "bytes": 325044
+    },
+    {
+      "path": "inputs/source-prime-support-proof-v1.md",
+      "sha256": "12967509eed52f8fe2896e7d341a792beacbd06cd4a50a43a07bc04c1ea4014d",
+      "bytes": 4089
+    },
+    {
+      "path": "inputs/source-prime-support-statement-v1.md",
+      "sha256": "b7d9c43af7dedfcaeec509b9693dd374b7f05f197ea9a3bd0fbc09e9c0967df9",
+      "bytes": 1839
+    },
+    {
+      "path": "inputs/weight-covariance-proof-v1.md",
+      "sha256": "88617f5c420181734206414ed3fd30bdcdf5ba84dee2575699ba406e029ad7a3",
+      "bytes": 1973
+    },
+    {
+      "path": "inputs/weight-covariance-statement-v1.md",
+      "sha256": "af37700170161bd8593c5573c192f3b24b113eb5a518db08f35d69a0d678b234",
+      "bytes": 1413
+    },
+    {
+      "path": "inputs/weight-gaussian-proof-v1.md",
+      "sha256": "bd2a0689f44b4a39541738e0d55016d46d3cd7fdf2ba7601645c6f7044c98bd8",
+      "bytes": 2515
+    },
+    {
+      "path": "inputs/weight-gaussian-statement-v1.md",
+      "sha256": "c8bb8ed7fbc2f4c0be3ffed21e8a5e4d83d07b02e7d2d1bfc8569b095006406f",
+      "bytes": 1806
+    },
+    {
+      "path": "integrity-check-v1.json",
+      "sha256": "5867194ecbbbaf882a4a70eea5d35ef59eff341d66d1c7b5f87399dde578de68",
+      "bytes": 3443
+    },
+    {
+      "path": "new-regressions-v1.md",
+      "sha256": "4d2bb56c4dedbb0a0d1450d462dbc05ae2c689e3ca7217fc0ab501dfa80f80a9",
+      "bytes": 3592
+    },
+    {
+      "path": "probability-audit-v1.md",
+      "sha256": "18c0ca8479d217cbd7254c3f9202345fe1c29e408c2b778c264d3b55a319a9af",
+      "bytes": 9926
+    },
+    {
+      "path": "regression-dispositions-v1.json",
+      "sha256": "84205873bfaa5c12a147bfaa35214bc8f67e6565c4117de1aae2f9c394ccd61d",
+      "bytes": 257931
+    },
+    {
+      "path": "source-complexity-report-v1.md",
+      "sha256": "1b573aa3afe0a256826120021229cac7a182fe6fc7638109c6988fbe5260763f",
+      "bytes": 10772
+    }
+  ],
+  "inherited_DD_regressions": 203,
+  "current_run_regressions": 21,
+  "new_scoped_negative_controls": 6,
+  "candidate_edits": false,
+  "new_jobs": 1,
+  "job_exit": 0,
+  "job_wall_seconds": 0.1,
+  "job_peak_RSS_KiB": 13312,
+  "remaining_jobs": 0,
+  "operational_scope": "Only referee directory written. No spawned agents, detached jobs, package/Git mutations or external communications. Experiment slot released.",
+  "scientific_scope": "Review completion is not programme termination; FF remains open and source hardness is not established.",
+  "assurance": "Correlated same-model scrutiny and bounded controls, not formal verification."
+}

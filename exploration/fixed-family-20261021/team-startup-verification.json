@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-10-21T17:51:15.688049+00:00",
+  "native_goal": {
+    "threadId": "01a15f93-e6bd-7fd2-953c-80af410308a1",
+    "objective": "Establish a decision reduction for a binary-secret rank-one RLWE target family whose ring, polynomial-value modulus and polynomial coefficient-Gaussian noise parameters are fixed before quantifying over polynomial-time distinguishers, arbitrary polynomial sample bounds and inverse-polynomial advantages; and establish the computational significance of the exact delivered source radius or sampling width through a reviewed compatible hardness connection or a proved substantive algorithmic classification. Keep fixed-family reduction, source diagnosis and hardness-foundation statuses separate. Complete the mandated 210-minute protected investigation and mathematical challenge before terminal achievement.",
+    "status": "active",
+    "tokensUsed": 0,
+    "timeUsedSeconds": 0,
+    "createdAt": 1792604928,
+    "updatedAt": 1792604928
+  },
+  "spawn_metadata": [
+    {
+      "timestamp": "2026-10-21T17:49:20.121Z",
+      "call_id": "call_9d13b0bad5fe4db48578a167ee516649",
+      "task_name": "ff1",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none",
+      "result": {
+        "task_name": "/root/ff1"
+      }
+    },
+    {
+      "timestamp": "2026-10-21T17:49:46.093Z",
+      "call_id": "call_d27c3195c6d94f36be612a6680857a43",
+      "task_name": "sv",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "ultra",
+      "fork_turns": "none",
+      "result": {
+        "task_name": "/root/sv"
+      }
+    }
+  ],
+  "coordinator_runtime_receipt": null,
+  "scope": "Root process/cap verified separately. Two actual worker spawn calls use Astra ultra and fresh context; coordinator reports both slots active. Root default tier explicit; child tier inheritance configured, no backend billing telemetry. Native prompt bodies omitted."
+}

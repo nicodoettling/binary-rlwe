@@ -1,0 +1,21 @@
+{
+  "experiment": "BLIND-SV2-EX1",
+  "root_slot": "Granted by parent 2026-10-21 about19:15UTC",
+  "started_at": "2026-10-21T19:15:38.773818+00:00",
+  "finished_at": "2026-10-21T19:15:39.068528+00:00",
+  "argv": [
+    "/usr/bin/time",
+    "-v",
+    "-o",
+    "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-SV2/resource-usage.txt",
+    "timeout",
+    "120s",
+    "prlimit",
+    "--as=536870912",
+    "--cpu=115",
+    "--",
+    "python3",
+    "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-SV2/finite-checks.py"
+  ],
+  "exit_code": 0
+}

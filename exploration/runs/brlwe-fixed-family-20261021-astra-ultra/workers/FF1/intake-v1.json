@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-21T17:52:05.850676+00:00",
+  "role": "FF1 author",
+  "model_evidence": "Parent assignment states gpt-6-astra, ultra, service_tier=default; child has no independent process-level model/tier attestation. No settings changed.",
+  "cwd": "/home/nico/projects/research_projects/binaryRLWE",
+  "pid": 4,
+  "cap_source": "../../run.log.brlwe-fixed-family-20261021-astra-ultra.cap-status.json",
+  "service_start": "2026-10-21T17:48:10.636448Z",
+  "hard_deadline": "2026-10-21T22:48:10.636448Z",
+  "protected_end_discovery_cutoff": "2026-10-21T21:18:10Z",
+  "scope": "New writes in FF1 and /tmp only. No agents spawned. No services/goals/remote solvers.",
+  "skill": "/home/nico/.codex/skills/mathematical-proof-audit/SKILL.md",
+  "protocols_read": [
+    "audit-protocol.md",
+    "probability-regressions.md"
+  ],
+  "inherited_regression_count": 203,
+  "status": "Intake; not re-certification of inherited claims."
+}

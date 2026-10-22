@@ -1,0 +1,174 @@
+{
+  "at": "2026-10-21T21:12:49.432044+00:00",
+  "source": "actual root rollout calls and outputs",
+  "attempts": [
+    {
+      "at": "2026-10-21T17:49:20.121Z",
+      "call_id": "call_9d13b0bad5fe4db48578a167ee516649",
+      "configuration": {
+        "task_name": "ff1",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "assignment_storage": "Original argument may be encrypted at rest; worker received plaintext assignment is preserved in its evidence folder.",
+      "actual_return": "{\"task_name\":\"/root/ff1\"}"
+    },
+    {
+      "at": "2026-10-21T17:49:46.093Z",
+      "call_id": "call_d27c3195c6d94f36be612a6680857a43",
+      "configuration": {
+        "task_name": "sv",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "assignment_storage": "Original argument may be encrypted at rest; worker received plaintext assignment is preserved in its evidence folder.",
+      "actual_return": "{\"task_name\":\"/root/sv\"}"
+    },
+    {
+      "at": "2026-10-21T18:31:29.357Z",
+      "call_id": "call_f7b45d6bbeed444884ff73d275594658",
+      "configuration": {
+        "task_name": "blind_sv1",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "assignment_storage": "Original argument may be encrypted at rest; worker received plaintext assignment is preserved in its evidence folder.",
+      "actual_return": "{\"task_name\":\"/root/blind_sv1\"}"
+    },
+    {
+      "at": "2026-10-21T18:47:18.557Z",
+      "call_id": "call_5faa2a4933cc4d08b38b78c75f8852ef",
+      "configuration": {
+        "task_name": "blind_ff2",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "assignment_storage": "Original argument may be encrypted at rest; worker received plaintext assignment is preserved in its evidence folder.",
+      "actual_return": "{\"task_name\":\"/root/blind_ff2\"}"
+    },
+    {
+      "at": "2026-10-21T18:47:58.967Z",
+      "call_id": "call_93fdf8944a264cfeaccd114c28c2e423",
+      "configuration": {
+        "task_name": "full_sv2",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "assignment_storage": "Original argument may be encrypted at rest; worker received plaintext assignment is preserved in its evidence folder.",
+      "actual_return": "{\"task_name\":\"/root/full_sv2\"}"
+    },
+    {
+      "at": "2026-10-21T19:03:49.943Z",
+      "call_id": "call_7173cb8f62f54e06a73d247d278227f4",
+      "configuration": {
+        "task_name": "ff3_kernel",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "assignment_storage": "Original argument may be encrypted at rest; worker received plaintext assignment is preserved in its evidence folder.",
+      "actual_return": "{\"task_name\":\"/root/ff3_kernel\"}"
+    },
+    {
+      "at": "2026-10-21T19:08:07.208Z",
+      "call_id": "call_efad08b5c4a941cabe8aa143048395d9",
+      "configuration": {
+        "task_name": "blind_sv2",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "assignment_storage": "Original argument may be encrypted at rest; worker received plaintext assignment is preserved in its evidence folder.",
+      "actual_return": "{\"task_name\":\"/root/blind_sv2\"}"
+    },
+    {
+      "at": "2026-10-21T19:24:38.179Z",
+      "call_id": "call_a2601128c5874c9399b7c5f0b0ecf8db",
+      "configuration": {
+        "task_name": "full_frontier1",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "assignment_storage": "Original argument may be encrypted at rest; worker received plaintext assignment is preserved in its evidence folder.",
+      "actual_return": "{\"task_name\":\"/root/full_frontier1\"}"
+    },
+    {
+      "at": "2026-10-21T19:44:03.261Z",
+      "call_id": "call_3e932cce10e2487fa32e74e68ababbff",
+      "configuration": {
+        "task_name": "blind_frontier1",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "assignment_storage": "Original argument may be encrypted at rest; worker received plaintext assignment is preserved in its evidence folder.",
+      "actual_return": "collab spawn failed: agent thread limit reached"
+    },
+    {
+      "at": "2026-10-21T19:45:18.910Z",
+      "call_id": "call_34eb97b1f86e42a69f19a97f23bd96d9",
+      "configuration": {
+        "task_name": "blind_frontier1",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "assignment_storage": "Original argument may be encrypted at rest; worker received plaintext assignment is preserved in its evidence folder.",
+      "actual_return": "collab spawn failed: agent thread limit reached"
+    },
+    {
+      "at": "2026-10-21T20:03:37.408Z",
+      "call_id": "call_634d696cae7d48aa98187a2285855af8",
+      "configuration": {
+        "task_name": "blind_frontier1",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "assignment_storage": "Original argument may be encrypted at rest; worker received plaintext assignment is preserved in its evidence folder.",
+      "actual_return": "{\"task_name\":\"/root/blind_frontier1\"}"
+    },
+    {
+      "at": "2026-10-21T20:29:20.067Z",
+      "call_id": "call_835b48d83a6a4db3a98a7abc34969048",
+      "configuration": {
+        "task_name": "full_source3",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "assignment_storage": "Original argument may be encrypted at rest; worker received plaintext assignment is preserved in its evidence folder.",
+      "actual_return": "{\"task_name\":\"/root/full_source3\"}"
+    },
+    {
+      "at": "2026-10-21T20:39:19.916Z",
+      "call_id": "call_375ba47f94444c89ae0ae3483da6dd2a",
+      "configuration": {
+        "task_name": "blind_source4",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "assignment_storage": "Original argument may be encrypted at rest; worker received plaintext assignment is preserved in its evidence folder.",
+      "actual_return": "{\"task_name\":\"/root/blind_source4\"}"
+    },
+    {
+      "at": "2026-10-21T21:05:24.406Z",
+      "call_id": "call_91294154bced47599db89db1f4c5804e",
+      "configuration": {
+        "task_name": "blind_transfer2",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "ultra",
+        "fork_turns": "none"
+      },
+      "assignment_storage": "Original argument may be encrypted at rest; worker received plaintext assignment is preserved in its evidence folder.",
+      "actual_return": "{\"task_name\":\"/root/blind_transfer2\"}"
+    }
+  ]
+}

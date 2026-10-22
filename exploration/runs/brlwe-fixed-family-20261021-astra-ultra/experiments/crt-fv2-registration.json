@@ -1,0 +1,41 @@
+{
+  "id": "CRT-FV2",
+  "registered_before_execution": true,
+  "hypothesis": "CRT-PROJ-v1 dual norm and binary certificate bounds survive small exact models; finite Parseval and independent-bank conditional laws hold; same-bank adaptive projection and CP-1 naive product are rejected.",
+  "code": "experiments/crt-fv2.py",
+  "inputs": {
+    "n_q": [
+      [
+        2,
+        5
+      ],
+      [
+        4,
+        17
+      ],
+      [
+        8,
+        17
+      ]
+    ],
+    "dual_projection_sizes": [
+      1,
+      2
+    ],
+    "error_control": "exact rational {-1,0,1} product law",
+    "seed": null
+  },
+  "command": "/usr/bin/time -v timeout --signal=TERM --kill-after=5s 120s prlimit --as=536870912 --cpu=110 -- python3 exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/crt-fv2.py",
+  "limits": {
+    "wall_seconds": 120,
+    "address_space_bytes": 536870912,
+    "cpu_seconds": 110
+  },
+  "estimated_resources": "<10 seconds, <64MiB, one light slot; SV may use other light slot",
+  "precision": "Exact Python integers/Fraction for core; labeled binary64 Gaussian diagnostics with explicit omitted-tail bound",
+  "expected": "All stated controls pass; incorrect same-bank and sequential-product shortcuts rejected",
+  "scope": "Bounded falsification only; no infinite Gaussian/asymptotic certification",
+  "registered_at": "2026-10-21T18:03:15.201393+00:00",
+  "code_sha256": "1c44fab913dbc99603c0623a3f7706109a5d28bb4d8c13e4abab908db2102959",
+  "repair": "Separate same-bank selection control uses uniform Fq\u00b2; original ternary distribution has no selected-zero bias. Original failed code/output retained. Core theorem unchanged."
+}

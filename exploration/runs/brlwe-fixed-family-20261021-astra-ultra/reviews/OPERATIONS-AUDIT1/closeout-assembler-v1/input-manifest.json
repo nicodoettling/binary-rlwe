@@ -1,0 +1,46 @@
+{
+  "at": "2026-10-21T22:16:48.310736+00:00",
+  "inputs": [
+    {
+      "path": "coordinator/finalize-capped-delivery-v1.py",
+      "bytes": 17721,
+      "sha256": "ffb14cf99f05ae5957fd9d6cc2647ea2e8769240b7dcd243788b34905d74fd70"
+    },
+    {
+      "path": "coordinator/closeout-checkpoint.py",
+      "bytes": 2973,
+      "sha256": "a3b59f70e5f49758eb5de9819bf409b92def482c4705b8d896bfba3fd8c37214"
+    },
+    {
+      "path": "final.md",
+      "bytes": 16672,
+      "sha256": "01913c6d270512048514b9c50b11b0b3eb644424690f409583b0da41b6465b11"
+    },
+    {
+      "path": "coordinator/closeout-plan-v1.json",
+      "bytes": 2819,
+      "sha256": "ecde37695844d791c5879a0232d75838f1286bf252ca79158f0318f4de42570f"
+    },
+    {
+      "path": "coordinator/programme-v4.md",
+      "bytes": 8172,
+      "sha256": "ed41230369be3753ea6e6cc2b4cdf45efe171cf7f2eac2096a233eaf15d9e775"
+    },
+    {
+      "path": "coordinator/final-draft-v4.md",
+      "bytes": 15086,
+      "sha256": "e0bebf18e96b8dd1415838822ba2d9c2012115d13face97c2dc9c0d8f47ae870"
+    },
+    {
+      "path": "experiments/evidence-index-v2.json",
+      "bytes": 155605,
+      "sha256": "b2c9e200ca3c205a0271692b223549531efc5eedb55e18693503acca30caa5ba"
+    },
+    {
+      "path": "run.log.brlwe-fixed-family-20261021-astra-ultra.cap-status.json",
+      "bytes": 3010,
+      "sha256": "43f7b8bc69ade0c86c7c4966c7dc45f80c173ec027448a532c2f81d454224753"
+    }
+  ],
+  "execution": "Source/static review only; finalization scripts were not imported or executed."
+}

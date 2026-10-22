@@ -1,0 +1,13 @@
+ADDITIVE CORRECTION TO THE SEALED PHASE-1 REVIEW. The original reports and phase1-final-seal-v1.json remain unchanged. Their full-statement PASS recommendation for SV-RS-DECODE-v1 is withdrawn because it missed the literal inherited-radius symbol mismatch identified by BLIND-SOURCE4 and preserved in coordinator/rs-radius-symbol-rejection-v1.md.
+
+The RS-v1 statement substitutes epsilon into r=epsilon*ell^2/(1024 n K chi Qmax), and likewise uses epsilon^2 in the substituted sufficient condition. The inherited definitions distinguish epsilon=epsilon_*/4. The actual radius uses epsilon_*, so this literal paragraph understates the radius by 4 and its squared numerator by 16. This review's correct reconstruction of the inherited radius did not establish that the frozen RS-v1 paragraph matched it. I incorrectly recommended the whole statement without catching that mismatch.
+
+The pointwise generic-r algorithm, the ordinary-basis recognition proof, and the guard r<1/2 with 8p^2r^2<n-t+1 are separate and remain supported by this review's calculations. The defective actual-radius paragraph is NOT CERTIFIED. A full-statement acceptance of RS-v1 must not be inferred from the original seal or verdict JSON.
+
+The original recommendations for GAP-v1, LIST-v1 and ACTUAL-v3 now require explicit dependency reconciliation against the valid generic-r part or an independently reviewed repaired RS version. ACTUAL-v3 states its own epsilon_* radius correctly, but this does not silently repair its cited dependency. PRIME-SUPPORT-v2 and DENSE-v1 do not rely on the defective substitution and their independent full-review recommendations are unaffected. The all-subfields comparison is likewise unaffected.
+
+RS-v2 has been frozen by the coordinator for repair review. This reviewer does not claim a fresh gate for that repair and has not used a self-recheck to close it. A different fresh full reviewer and the required statement-only review must check its exact bytes. The root owns final reconciliation and downstream statuses.
+
+New regression FS3-RADIUS-SYMBOL-1: whenever using FIXED-MAIN-v2, explicitly substitute epsilon0=epsilon_*/2, epsilon=epsilon_*/4, delta=epsilon_*/16, obtaining r=epsilon_*ell^2/(1024 nKchiQmax). In a squared condition the numerator contains epsilon_*^2. Matching a remembered formula or a repaired interpretation is insufficient; compare the literal frozen statement against those definitions.
+
+This notice supersedes only the affected recommendations, not the preserved evidence or report bytes. No FF theorem or hardness claim was established by the original review or this correction. The protected investigation remains active.

@@ -1,0 +1,772 @@
+{
+  "at": "2026-10-21T22:00:05.889700+00:00",
+  "checks": [
+    {
+      "acceptance_version": 1,
+      "claim": "SV-BDD-CLASS-v1",
+      "path": "workers/SV/source-classification-theorem-v1.md",
+      "sha256": "1b72f95055b9c5a8953c46ee778ade4d57a55d5a61c4a1ce29003c049f59a5a3",
+      "match": true
+    },
+    {
+      "acceptance_version": 1,
+      "claim": "SV-BDD-CLASS-v1",
+      "path": "workers/SV/source-classification-proof-v1.md",
+      "sha256": "5c208872ddd99f74294dc60dbcd1a952470b5d09956d576c7346e2f52eca0d5f",
+      "match": true
+    },
+    {
+      "acceptance_version": 1,
+      "claim": "SV-FROB-PRIME-v1",
+      "path": "workers/SV/frobenius-prime-theorem-v1.md",
+      "sha256": "17315abf7b50bbb758a3e0e5c580d159895a1e238ad3b01b88e77a08e8e28d3e",
+      "match": true
+    },
+    {
+      "acceptance_version": 1,
+      "claim": "SV-FROB-PRIME-v1",
+      "path": "workers/SV/frobenius-prime-proof-v1.md",
+      "sha256": "8ed560e6c7a58a77d3eb03fbb622afac7347a77bcb9c47188ee141d269ed7546",
+      "match": true
+    },
+    {
+      "acceptance_version": 1,
+      "original_key": "FULL-SV1",
+      "resolved_review_seal": "reviews/FULL-SV1/seal-v1.json",
+      "sha256": "d94640625848c66612e4e18b335a979d5afd27223a17d88edf46a2c424bb9f80",
+      "match": true
+    },
+    {
+      "acceptance_version": 1,
+      "original_key": "BLIND-SV1",
+      "resolved_review_seal": "reviews/BLIND-SV1/seal-v1.json",
+      "sha256": "a711c8b188cf5d45b51c1a34382406d3160b84cdfe5eff50aa3c0fed8a2d6865",
+      "match": true
+    },
+    {
+      "acceptance_version": 2,
+      "claim": "CRT-PROJ-v1",
+      "path": "coordinator/crt-projection-statement-v1.md",
+      "sha256": "0327d8958b5449e6ce192991594edf4ef03c0949f2e0d4fde4fb5243b46e1aca",
+      "match": true
+    },
+    {
+      "acceptance_version": 2,
+      "claim": "CRT-PROJ-v1",
+      "path": "coordinator/crt-projection-proof-v1.md",
+      "sha256": "1c100c8f3e83f2d358140d41e5c84008c65fc8e170ad496f089ee158b0a9b15b",
+      "match": true
+    },
+    {
+      "acceptance_version": 2,
+      "claim": "CERT-EXTRACT-v2",
+      "path": "coordinator/certificate-extraction-statement-v2.md",
+      "sha256": "1a82181c03be7aaf09ef1ec7103828471c20be27a68ef182055c0f45a93353ab",
+      "match": true
+    },
+    {
+      "acceptance_version": 2,
+      "claim": "CERT-EXTRACT-v2",
+      "path": "coordinator/certificate-extraction-proof-v2.md",
+      "sha256": "90b9a4b7c50984e89757dc52e360170a8aa6ea098e20eb02c32ab0b3eac197e4",
+      "match": true
+    },
+    {
+      "acceptance_version": 2,
+      "original_key": "FULL-FF1",
+      "resolved_review_seal": "reviews/FULL-FF1/seal-v1.json",
+      "sha256": "5b43c1fa72424d4733ee239ac3efd6c45e8ab43658aca65dc3c5d130814c3b37",
+      "match": true
+    },
+    {
+      "acceptance_version": 2,
+      "original_key": "FULL-CERT2",
+      "resolved_review_seal": "reviews/FULL-CERT2/seal-v1.json",
+      "sha256": "b0432dc0b4826c426733d33e3e0f00207aa3f18430e12a4b7f28c4305f9a3c40",
+      "match": true
+    },
+    {
+      "acceptance_version": 2,
+      "original_key": "BLIND-FF2",
+      "resolved_review_seal": "reviews/BLIND-FF2/seal-v1.json",
+      "sha256": "fb86c7193d78be8121cf6ced75c95d39ab1b68485349a886f50caa68fe70a785",
+      "match": true
+    },
+    {
+      "acceptance_version": 3,
+      "claim": "SV-SYMDESC-v2",
+      "path": "coordinator/symmetry-descent-statement-v2.md",
+      "sha256": "087405376d31699635e87d954eaaa9305da4635b61f2b572205ba89db533cddf",
+      "match": true
+    },
+    {
+      "acceptance_version": 3,
+      "claim": "SV-SYMDESC-v2",
+      "path": "coordinator/symmetry-descent-proof-v2.md",
+      "sha256": "4a8e0b32f33c7121517108e9e1b63ff3eb9d2a50f0afea1e5c70c4e0eaa5df2a",
+      "match": true
+    },
+    {
+      "acceptance_version": 3,
+      "claim": "SV-SUBFIELD-v2",
+      "path": "coordinator/subfield-contraction-statement-v2.md",
+      "sha256": "9157018baf8fa6d4e6fc3f3e889f3ba6fd07ce206175be4f37508553593c2bae",
+      "match": true
+    },
+    {
+      "acceptance_version": 3,
+      "claim": "SV-SUBFIELD-v2",
+      "path": "coordinator/subfield-contraction-proof-v2.md",
+      "sha256": "bd394211a85a33ed1566aba5232300db46bc24462777186d8c7f38a24967d9d8",
+      "match": true
+    },
+    {
+      "acceptance_version": 3,
+      "original_key": "FULL-SV2",
+      "resolved_review_seal": "reviews/FULL-SV2/seal-v1.json",
+      "sha256": "4ca949fddd232b974cabe7c27a0749ab0d9a5995727320aa416f8b8013b4e5c7",
+      "match": true
+    },
+    {
+      "acceptance_version": 3,
+      "original_key": "BLIND-SV2",
+      "resolved_review_seal": "reviews/BLIND-SV2/final-artifact-manifest-v1.json",
+      "sha256": "02801f1df8c3899054c8dd11d18eb85aedcd73d91f05b61ec26601098936fbec",
+      "match": true
+    },
+    {
+      "acceptance_version": 4,
+      "claim": "GAUSS-AVG-v1",
+      "path": "coordinator/gaussian-average-obstruction-statement-v1.md",
+      "sha256": "7b3f0d3c6367dcf354d2fbfcff42c3c19cb668d34baf0393094f37f8031752cd",
+      "match": true
+    },
+    {
+      "acceptance_version": 4,
+      "claim": "GAUSS-AVG-v1",
+      "path": "coordinator/gaussian-average-obstruction-proof-v1.md",
+      "sha256": "afd286d46e5095fafc75fba79881e6eecdc0d9c24cadf5b5e0130efbef931d93",
+      "match": true
+    },
+    {
+      "acceptance_version": 4,
+      "claim": "FRAC-INFO-v1",
+      "path": "coordinator/fractional-information-statement-v1.md",
+      "sha256": "94f562284bf0f7b9117be57261e0c19deb76dcdff7bd317f7a722203f604b8bd",
+      "match": true
+    },
+    {
+      "acceptance_version": 4,
+      "claim": "FRAC-INFO-v1",
+      "path": "coordinator/fractional-information-proof-v1.md",
+      "sha256": "e1ec235c7bf9b3f7d58d25786a3bcece4bb62b0430b7c6da4296a26255d7c5c8",
+      "match": true
+    },
+    {
+      "acceptance_version": 4,
+      "claim": "WEIGHT-COV-v1",
+      "path": "coordinator/weight-covariance-statement-v1.md",
+      "sha256": "af37700170161bd8593c5573c192f3b24b113eb5a518db08f35d69a0d678b234",
+      "match": true
+    },
+    {
+      "acceptance_version": 4,
+      "claim": "WEIGHT-COV-v1",
+      "path": "coordinator/weight-covariance-proof-v1.md",
+      "sha256": "88617f5c420181734206414ed3fd30bdcdf5ba84dee2575699ba406e029ad7a3",
+      "match": true
+    },
+    {
+      "acceptance_version": 4,
+      "claim": "SV-ALL-SUBFIELDS-v1",
+      "path": "coordinator/all-subfields-comparison-statement-v1.md",
+      "sha256": "e4bc6f736371b22a5bcb966a065b36f32b16966acdc1958e5ed56de9176d2ea0",
+      "match": true
+    },
+    {
+      "acceptance_version": 4,
+      "claim": "SV-ALL-SUBFIELDS-v1",
+      "path": "coordinator/all-subfields-comparison-proof-v1.md",
+      "sha256": "665ed6fc53b8ea17207603bbee9560e330e397b1b922cc244f8c98fecff151d1",
+      "match": true
+    },
+    {
+      "acceptance_version": 4,
+      "claim": "WEIGHT-GAUSS-v1",
+      "path": "coordinator/weight-gaussian-statement-v1.md",
+      "sha256": "c8bb8ed7fbc2f4c0be3ffed21e8a5e4d83d07b02e7d2d1bfc8569b095006406f",
+      "match": true
+    },
+    {
+      "acceptance_version": 4,
+      "claim": "WEIGHT-GAUSS-v1",
+      "path": "coordinator/weight-gaussian-proof-v1.md",
+      "sha256": "bd2a0689f44b4a39541738e0d55016d46d3cd7fdf2ba7601645c6f7044c98bd8",
+      "match": true
+    },
+    {
+      "acceptance_version": 4,
+      "claim": "SV-PRIME-SUPPORT-v2",
+      "path": "coordinator/source-prime-support-statement-v2.md",
+      "sha256": "1176e7484ba806a92ea18d95e22375938f210d38fe1268fe9f178e280d76374d",
+      "match": true
+    },
+    {
+      "acceptance_version": 4,
+      "claim": "SV-PRIME-SUPPORT-v2",
+      "path": "coordinator/source-prime-support-proof-v2.md",
+      "sha256": "3e2e62f75c75766c90de436e8387cb3331f8c2b4a9dc0a14b7fc1f8862ff3cfe",
+      "match": true
+    },
+    {
+      "acceptance_version": 4,
+      "original_key": "FULL-FRONTIER1/review-seal-v1.json",
+      "resolved_review_seal": "reviews/FULL-FRONTIER1/review-seal-v1.json",
+      "sha256": "b3484f3664458e00e625a1b47ea5a1e7a04afb52d5fb814151325a52b7f4c2c4",
+      "match": true
+    },
+    {
+      "acceptance_version": 4,
+      "original_key": "BLIND-FRONTIER1/seal-v1.json",
+      "resolved_review_seal": "reviews/BLIND-FRONTIER1/seal-v1.json",
+      "sha256": "e352ce231730e8f7f5b840514b7b596e172132f7f60d948b3c44a94ff37984ce",
+      "match": true
+    },
+    {
+      "acceptance_version": 4,
+      "original_key": "FULL-SOURCE3/phase1-final-seal-v1.json",
+      "resolved_review_seal": "reviews/FULL-SOURCE3/phase1-final-seal-v1.json",
+      "sha256": "46f2aefbe140f2b7868834ce6a405b8619e34a0e31aad5e8e4e3b7edd5bf7215",
+      "match": true
+    },
+    {
+      "acceptance_version": 5,
+      "claim": "SV-DENSE-SPLIT-v1",
+      "path": "coordinator/dense-split-source-statement-v1.md",
+      "sha256": "10d8282bae4ed3ef96eda1d304f4538935b9308b7cb23e2b651672fc9dbae102",
+      "match": true
+    },
+    {
+      "acceptance_version": 5,
+      "claim": "SV-DENSE-SPLIT-v1",
+      "path": "coordinator/dense-split-source-proof-v1.md",
+      "sha256": "ddc8225562237ed46751f9326db1a2a51de5646eb6550be74e20b5c8552a1535",
+      "match": true
+    },
+    {
+      "acceptance_version": 5,
+      "claim": "SV-RS-DECODE-v2",
+      "path": "coordinator/rs-source-decoder-statement-v2.md",
+      "sha256": "e50c4bf45d59fa6f80924efa778761b85ce1b86ccee4d8dac7f4551e34396639",
+      "match": true
+    },
+    {
+      "acceptance_version": 5,
+      "claim": "SV-RS-DECODE-v2",
+      "path": "coordinator/rs-source-decoder-proof-v2.md",
+      "sha256": "008977a31b0a9a393ca4d635dc3b945d5309f1c216f80211f0fd4a61c7291698",
+      "match": true
+    },
+    {
+      "acceptance_version": 5,
+      "claim": "SV-GAP-DECODE-v1",
+      "path": "coordinator/spectral-gap-decoder-statement-v1.md",
+      "sha256": "00921998d7781d3f8d5df8954cb4a919f3fa60524d1d64530913113d3cfdec9a",
+      "match": true
+    },
+    {
+      "acceptance_version": 5,
+      "claim": "SV-GAP-DECODE-v1",
+      "path": "coordinator/spectral-gap-decoder-proof-v1.md",
+      "sha256": "7e7a55eed374c5e75f7cc27006bf87ddd64d68f54e51ed97ea17590bf3546ee8",
+      "match": true
+    },
+    {
+      "acceptance_version": 5,
+      "claim": "SV-LIST-DECODE-v1",
+      "path": "coordinator/list-source-decoder-statement-v1.md",
+      "sha256": "e9c47f9fd5645b3d70868d4c36027ce94ebd86b1ca1c40164b7c32a0fc52710b",
+      "match": true
+    },
+    {
+      "acceptance_version": 5,
+      "claim": "SV-LIST-DECODE-v1",
+      "path": "coordinator/list-source-decoder-proof-v1.md",
+      "sha256": "50a5b5d86176ce64416d5603ee559d3e610decf636523a03c0cc04d5fcd6ea2f",
+      "match": true
+    },
+    {
+      "acceptance_version": 5,
+      "claim": "SV-RS-ACTUAL-v3",
+      "path": "coordinator/rs-actual-radius-witness-statement-v3.md",
+      "sha256": "6e721a1eff0c5390c44f9984ae0b930bdfb5657c769199707fd2afb6dab9eccc",
+      "match": true
+    },
+    {
+      "acceptance_version": 5,
+      "claim": "SV-RS-ACTUAL-v3",
+      "path": "coordinator/rs-actual-radius-witness-proof-v3.md",
+      "sha256": "49ebed1855cf5cb1851f8acf0ef3351c93bc3cf7a239b62310427d9fa0244f21",
+      "match": true
+    },
+    {
+      "acceptance_version": 5,
+      "claim": "SV-RS-BIT-v2",
+      "path": "coordinator/rs-bit-complexity-statement-v2.md",
+      "sha256": "fd27a2ceb2766c24c37616273158f1a2899de63a518af804fd047ccb4b43f89c",
+      "match": true
+    },
+    {
+      "acceptance_version": 5,
+      "claim": "SV-RS-BIT-v2",
+      "path": "coordinator/rs-bit-complexity-proof-v2.md",
+      "sha256": "ab1b0cd2d912bd75d9177b1975d088c1d4c2cd99c2353544120704a459d80ab8",
+      "match": true
+    },
+    {
+      "acceptance_version": 5,
+      "claim": "SV-SPARSE-ACQ-v1",
+      "path": "coordinator/sparse-acquisition-statement-v1.md",
+      "sha256": "c3c1078b33309f7b3d9061fbdad1114c3178dea28e64c7e8849a947ad5d97d84",
+      "match": true
+    },
+    {
+      "acceptance_version": 5,
+      "claim": "SV-SPARSE-ACQ-v1",
+      "path": "coordinator/sparse-acquisition-proof-v1.md",
+      "sha256": "985e843a98a4413dd7cebf3a98042aedd2b971d241eeb210bd22401b43e952f3",
+      "match": true
+    },
+    {
+      "acceptance_version": 5,
+      "original_key": "reviews/FULL-SOURCE3/phase1-final-seal-v1.json",
+      "resolved_review_seal": "reviews/FULL-SOURCE3/phase1-final-seal-v1.json",
+      "sha256": "46f2aefbe140f2b7868834ce6a405b8619e34a0e31aad5e8e4e3b7edd5bf7215",
+      "match": true
+    },
+    {
+      "acceptance_version": 5,
+      "original_key": "reviews/FULL-SOURCE3/additive-correction-seal-v1.json",
+      "resolved_review_seal": "reviews/FULL-SOURCE3/additive-correction-seal-v1.json",
+      "sha256": "cde9466547daf28c5e7ea1d0205b6099f1d7cae601a3e2c252459874d31fd245",
+      "match": true
+    },
+    {
+      "acceptance_version": 5,
+      "original_key": "reviews/BLIND-SOURCE4/sealed.json",
+      "resolved_review_seal": "reviews/BLIND-SOURCE4/sealed.json",
+      "sha256": "166613c91d9cdbe6e1b83309b2549ae8eacdc4c86b4ac0d6ba65ff534ee4ff93",
+      "match": true
+    },
+    {
+      "acceptance_version": 5,
+      "original_key": "reviews/FULL-REPAIR4/sealed.json",
+      "resolved_review_seal": "reviews/FULL-REPAIR4/sealed.json",
+      "sha256": "2411987b1f47b16bb9b48f11095f391e36db6930317806c27148f2f95a947111",
+      "match": true
+    },
+    {
+      "acceptance_version": 5,
+      "original_key": "reviews/BLIND-TRANSFER2/seal-v1.json",
+      "resolved_review_seal": "reviews/BLIND-TRANSFER2/seal-v1.json",
+      "sha256": "43f5fe6ba73f2c7b712f7f0a8b710d2a3990f72f7b0a735d2c0ccfd79543315d",
+      "match": true
+    },
+    {
+      "acceptance_version": 5,
+      "original_key": "reviews/FULL-SOURCE3/rs-bit-complexity-addendum-v1/addendum-seal-v1.json",
+      "resolved_review_seal": "reviews/FULL-SOURCE3/rs-bit-complexity-addendum-v1/addendum-seal-v1.json",
+      "sha256": "7ef9646ef1157244370e5491873e698f7161f38d7e88c18b5cf82fb854f37120",
+      "match": true
+    },
+    {
+      "acceptance_version": 5,
+      "original_key": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "resolved_review_seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "sha256": "c3297d7f28e9471e5d72c0317cc33f73b9718da02fcfc302c0cd3bbb6ede7d6e",
+      "match": true
+    },
+    {
+      "acceptance_version": 5,
+      "original_key": "reviews/FULL-FF3/review-seal-v1.json",
+      "resolved_review_seal": "reviews/FULL-FF3/review-seal-v1.json",
+      "sha256": "2f8bf3626d094fde5833623904b6ebfc4d7e08c61983e45ba4096dc432faf192",
+      "match": true
+    },
+    {
+      "acceptance_version": 5,
+      "original_key": "reviews/FULL-FF3-PHASE2/phase2-final-seal-v1.json",
+      "resolved_review_seal": "reviews/FULL-FF3-PHASE2/phase2-final-seal-v1.json",
+      "sha256": "7434c7e38e5e9d529c74ebd475ce9e405b09e0dee8663143c1b9b0b4a0fbef5d",
+      "match": true
+    },
+    {
+      "acceptance_version": 6,
+      "claim": "FF3-TWOSECRET-v1",
+      "path": "workers/FF3/two-secret-channel-statement-v1.md",
+      "sha256": "7cceb1801d9ebf2d6a23c5636266c74326b54a4e8b7499ecd13262aec25a66a8",
+      "match": true
+    },
+    {
+      "acceptance_version": 6,
+      "claim": "FF3-TWOSECRET-v1",
+      "path": "workers/FF3/two-secret-channel-proof-v1.md",
+      "sha256": "9b4f40bef2fb5aa3b843e908577d4656f1c7bd1149b8f4a6c151f2b1046277ed",
+      "match": true
+    },
+    {
+      "acceptance_version": 6,
+      "claim": "FF3-ENUM-v1",
+      "path": "workers/FF3/exhaustive-kernel-statement-v1.md",
+      "sha256": "b6c3a787dfe567fc6fb1fecfb2714d0a138d92287523382661c4f6946f7d37ed",
+      "match": true
+    },
+    {
+      "acceptance_version": 6,
+      "claim": "FF3-ENUM-v1",
+      "path": "workers/FF3/exhaustive-kernel-proof-v2.md",
+      "sha256": "7e5be386181b4bd2c20319fc7f2f74f9b9b07b55ec291529a985092507047087",
+      "match": true
+    },
+    {
+      "acceptance_version": 6,
+      "claim": "FF3-COMPRESSED-SELECTOR-INFORMATION-v2",
+      "path": "coordinator/compressed-selector-information-statement-v2.md",
+      "sha256": "8abf13ef4d35625ae82a6ffb44a7feb76d06700ada6a553a4a3ebd25a3e89d70",
+      "match": true
+    },
+    {
+      "acceptance_version": 6,
+      "claim": "FF3-COMPRESSED-SELECTOR-INFORMATION-v2",
+      "path": "coordinator/compressed-selector-information-proof-v2.md",
+      "sha256": "51d0824a7e767c555cb0e156adaaf9922c01728462b2ef0c7e0f96f273dc7f8f",
+      "match": true
+    },
+    {
+      "acceptance_version": 6,
+      "claim": "FF3-SELECTOR-PUBLIC-v3",
+      "path": "coordinator/selector-public-statement-v3.md",
+      "sha256": "1c51d957ea4214c50f47c2c013e9472a6b2627507a36589fc477c5b9e768c2ac",
+      "match": true
+    },
+    {
+      "acceptance_version": 6,
+      "claim": "FF3-SELECTOR-PUBLIC-v3",
+      "path": "coordinator/selector-public-proof-v3.md",
+      "sha256": "1010635301ddbad3005a92b2e04dc6ee5b78b3f1baeea6a971d7a2439406c9b5",
+      "match": true
+    },
+    {
+      "acceptance_version": 6,
+      "claim": "FF3-TWOEVENT-v1",
+      "path": "workers/FF3/two-event-noise-kernel-statement-v1.md",
+      "sha256": "ba5c8050af98cce9e7dec3d9c1b9a1806f606f9b59f1ca40e62917aa093e913b",
+      "match": true
+    },
+    {
+      "acceptance_version": 6,
+      "claim": "FF3-TWOEVENT-v1",
+      "path": "workers/FF3/two-event-noise-kernel-v1.md",
+      "sha256": "007695f536455299fcf747c5ada7150bbac147b93de2d53cd163b7493f8c9e3b",
+      "match": true
+    },
+    {
+      "acceptance_version": 6,
+      "claim": "FF3-JOINT-RANK-FINITE-v1",
+      "path": "workers/FF3/joint-rank-finite-statement-v1.md",
+      "sha256": "a0f0d3ba6548e02668c869a238ae65518e0040f30d6b34710c648d54e0696ece",
+      "match": true
+    },
+    {
+      "acceptance_version": 6,
+      "claim": "FF3-JOINT-RANK-FINITE-v1",
+      "path": "workers/FF3/joint-rank-finite-proof-v1.md",
+      "sha256": "5f18cf6956f045cdaddb3b06ac7f62e768805d6e5746bae6b8b1ca7d8c65e6ab",
+      "match": true
+    },
+    {
+      "acceptance_version": 6,
+      "claim": "BOUNDED-AFFINE-TV-v1",
+      "path": "coordinator/bounded-affine-tv-statement-v1.md",
+      "sha256": "4ed10092743879e7433b39bfc8988088821c7ceb29f4944f3794baea10cc7c6e",
+      "match": true
+    },
+    {
+      "acceptance_version": 6,
+      "claim": "BOUNDED-AFFINE-TV-v1",
+      "path": "coordinator/bounded-affine-tv-proof-v1.md",
+      "sha256": "0690ad673537a2df1f3e7bf1b2b44ea2126d51e05f0de4eca0d4437006201673",
+      "match": true
+    },
+    {
+      "acceptance_version": 6,
+      "original_key": "reviews/FULL-SOURCE3/phase1-final-seal-v1.json",
+      "resolved_review_seal": "reviews/FULL-SOURCE3/phase1-final-seal-v1.json",
+      "sha256": "46f2aefbe140f2b7868834ce6a405b8619e34a0e31aad5e8e4e3b7edd5bf7215",
+      "match": true
+    },
+    {
+      "acceptance_version": 6,
+      "original_key": "reviews/FULL-SOURCE3/additive-correction-seal-v1.json",
+      "resolved_review_seal": "reviews/FULL-SOURCE3/additive-correction-seal-v1.json",
+      "sha256": "cde9466547daf28c5e7ea1d0205b6099f1d7cae601a3e2c252459874d31fd245",
+      "match": true
+    },
+    {
+      "acceptance_version": 6,
+      "original_key": "reviews/BLIND-SOURCE4/sealed.json",
+      "resolved_review_seal": "reviews/BLIND-SOURCE4/sealed.json",
+      "sha256": "166613c91d9cdbe6e1b83309b2549ae8eacdc4c86b4ac0d6ba65ff534ee4ff93",
+      "match": true
+    },
+    {
+      "acceptance_version": 6,
+      "original_key": "reviews/FULL-REPAIR4/sealed.json",
+      "resolved_review_seal": "reviews/FULL-REPAIR4/sealed.json",
+      "sha256": "2411987b1f47b16bb9b48f11095f391e36db6930317806c27148f2f95a947111",
+      "match": true
+    },
+    {
+      "acceptance_version": 6,
+      "original_key": "reviews/BLIND-TRANSFER2/seal-v1.json",
+      "resolved_review_seal": "reviews/BLIND-TRANSFER2/seal-v1.json",
+      "sha256": "43f5fe6ba73f2c7b712f7f0a8b710d2a3990f72f7b0a735d2c0ccfd79543315d",
+      "match": true
+    },
+    {
+      "acceptance_version": 6,
+      "original_key": "reviews/FULL-SOURCE3/rs-bit-complexity-addendum-v1/addendum-seal-v1.json",
+      "resolved_review_seal": "reviews/FULL-SOURCE3/rs-bit-complexity-addendum-v1/addendum-seal-v1.json",
+      "sha256": "7ef9646ef1157244370e5491873e698f7161f38d7e88c18b5cf82fb854f37120",
+      "match": true
+    },
+    {
+      "acceptance_version": 6,
+      "original_key": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "resolved_review_seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "sha256": "c3297d7f28e9471e5d72c0317cc33f73b9718da02fcfc302c0cd3bbb6ede7d6e",
+      "match": true
+    },
+    {
+      "acceptance_version": 6,
+      "original_key": "reviews/FULL-FF3/review-seal-v1.json",
+      "resolved_review_seal": "reviews/FULL-FF3/review-seal-v1.json",
+      "sha256": "2f8bf3626d094fde5833623904b6ebfc4d7e08c61983e45ba4096dc432faf192",
+      "match": true
+    },
+    {
+      "acceptance_version": 6,
+      "original_key": "reviews/FULL-FF3-PHASE2/phase2-final-seal-v1.json",
+      "resolved_review_seal": "reviews/FULL-FF3-PHASE2/phase2-final-seal-v1.json",
+      "sha256": "7434c7e38e5e9d529c74ebd475ce9e405b09e0dee8663143c1b9b0b4a0fbef5d",
+      "match": true
+    },
+    {
+      "acceptance_version": 7,
+      "claim": "FF3-COMPACT-SELECTOR-v3",
+      "path": "coordinator/compact-selector-statement-v3.md",
+      "sha256": "20c66a210cfb4821eec35b371fbf7478ec3493d18d656a18a5b06dffc2fed889",
+      "match": true
+    },
+    {
+      "acceptance_version": 7,
+      "claim": "FF3-COMPACT-SELECTOR-v3",
+      "path": "coordinator/compact-selector-proof-v3.md",
+      "sha256": "8625e7453ae8d937ba9b885dd802a065987224862c70becbbc2713046c76a71f",
+      "match": true
+    },
+    {
+      "acceptance_version": 7,
+      "claim": "FF3-ENERGY-RANK-v2",
+      "path": "coordinator/energy-rank-kernel-statement-v2.md",
+      "sha256": "ab8e55aa2930d04d3d24529abf5e4f6f5ebee5e25507830a6bff0ba792101355",
+      "match": true
+    },
+    {
+      "acceptance_version": 7,
+      "claim": "FF3-ENERGY-RANK-v2",
+      "path": "coordinator/energy-rank-kernel-proof-v2.md",
+      "sha256": "3972798c783f0ba0116e72b1b393e0ca90b59afd9e6805413cbc3e29b3e8db9d",
+      "match": true
+    },
+    {
+      "acceptance_version": 7,
+      "original_key": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "resolved_review_seal": "reviews/FRONTIER-CHALLENGE1/seal-v1.json",
+      "sha256": "c3297d7f28e9471e5d72c0317cc33f73b9718da02fcfc302c0cd3bbb6ede7d6e",
+      "match": true
+    },
+    {
+      "acceptance_version": 7,
+      "original_key": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/seal-v1.json",
+      "resolved_review_seal": "reviews/FRONTIER-CHALLENGE1/compact-v3-addendum/seal-v1.json",
+      "sha256": "43cb5ba340b5fba33d82c965d7057f6ee3c4764fd80aaafd060aa09c953d4c71",
+      "match": true
+    },
+    {
+      "acceptance_version": 7,
+      "original_key": "reviews/DELIVERY-AUDIT1/compact-v3-full/seal-v1.json",
+      "resolved_review_seal": "reviews/DELIVERY-AUDIT1/compact-v3-full/seal-v1.json",
+      "sha256": "d412510f463b6558be20ca879284e046732a8c5d386bcd0727367e68c18c00a3",
+      "match": true
+    },
+    {
+      "acceptance_version": 7,
+      "original_key": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "resolved_review_seal": "reviews/BLIND-RESOURCE3/final-seal-v1.json",
+      "sha256": "9cde9f336188da456659bab1802fcccbe77651f641eb836d90e651447d953cdd",
+      "match": true
+    },
+    {
+      "acceptance_version": 7,
+      "original_key": "reviews/BLIND-RESOURCE4/seal-v1.json",
+      "resolved_review_seal": "reviews/BLIND-RESOURCE4/seal-v1.json",
+      "sha256": "8bb07d7bb7bff0cb9935479f3e8080b193d654c5d6945808cc9827b6885fbda3",
+      "match": true
+    }
+  ],
+  "claim_rows": [
+    {
+      "id": "SV-BDD-CLASS-v1",
+      "acceptance_version": 1,
+      "current_status": "ACCEPTED-EXACT-SCOPE"
+    },
+    {
+      "id": "SV-FROB-PRIME-v1",
+      "acceptance_version": 1,
+      "current_status": "ACCEPTED-EXACT-SCOPE"
+    },
+    {
+      "id": "CRT-PROJ-v1",
+      "acceptance_version": 2,
+      "current_status": "ACCEPTED-EXACT-AUXILIARY-SCOPE"
+    },
+    {
+      "id": "CERT-EXTRACT-v2",
+      "acceptance_version": 2,
+      "current_status": "ACCEPTED-EXACT-AUXILIARY-SCOPE"
+    },
+    {
+      "id": "SV-SYMDESC-v2",
+      "acceptance_version": 3,
+      "current_status": "ACCEPTED-EXACT-SCOPE"
+    },
+    {
+      "id": "SV-SUBFIELD-v2",
+      "acceptance_version": 3,
+      "current_status": "ACCEPTED-EXACT-SCOPE"
+    },
+    {
+      "id": "GAUSS-AVG-v1",
+      "acceptance_version": 4,
+      "current_status": "ACCEPTED-EXACT-DIAGNOSTIC-SCOPE"
+    },
+    {
+      "id": "FRAC-INFO-v1",
+      "acceptance_version": 4,
+      "current_status": "ACCEPTED-EXACT-DIAGNOSTIC-SCOPE"
+    },
+    {
+      "id": "WEIGHT-COV-v1",
+      "acceptance_version": 4,
+      "current_status": "ACCEPTED-EXACT-DIAGNOSTIC-SCOPE"
+    },
+    {
+      "id": "SV-ALL-SUBFIELDS-v1",
+      "acceptance_version": 4,
+      "current_status": "ACCEPTED-EXACT-DIAGNOSTIC-SCOPE"
+    },
+    {
+      "id": "WEIGHT-GAUSS-v1",
+      "acceptance_version": 4,
+      "current_status": "ACCEPTED-EXACT-DIAGNOSTIC-SCOPE"
+    },
+    {
+      "id": "SV-PRIME-SUPPORT-v2",
+      "acceptance_version": 4,
+      "current_status": "ACCEPTED-EXACT-DIAGNOSTIC-SCOPE"
+    },
+    {
+      "id": "SV-DENSE-SPLIT-v1",
+      "acceptance_version": 5,
+      "current_status": "ACCEPTED-EXACT-SOURCE-CLASSIFICATION-SCOPE"
+    },
+    {
+      "id": "SV-RS-DECODE-v2",
+      "acceptance_version": 5,
+      "current_status": "ACCEPTED-EXACT-SOURCE-CLASSIFICATION-SCOPE"
+    },
+    {
+      "id": "SV-GAP-DECODE-v1",
+      "acceptance_version": 5,
+      "current_status": "ACCEPTED-EXACT-SOURCE-CLASSIFICATION-SCOPE"
+    },
+    {
+      "id": "SV-LIST-DECODE-v1",
+      "acceptance_version": 5,
+      "current_status": "ACCEPTED-EXACT-SOURCE-CLASSIFICATION-SCOPE"
+    },
+    {
+      "id": "SV-RS-ACTUAL-v3",
+      "acceptance_version": 5,
+      "current_status": "ACCEPTED-EXACT-SOURCE-CLASSIFICATION-SCOPE"
+    },
+    {
+      "id": "SV-RS-BIT-v2",
+      "acceptance_version": 5,
+      "current_status": "ACCEPTED-EXACT-SOURCE-CLASSIFICATION-SCOPE"
+    },
+    {
+      "id": "SV-SPARSE-ACQ-v1",
+      "acceptance_version": 5,
+      "current_status": "ACCEPTED-EXACT-SOURCE-CLASSIFICATION-SCOPE"
+    },
+    {
+      "id": "FF3-TWOSECRET-v1",
+      "acceptance_version": 6,
+      "current_status": "ACCEPTED-EXACT-AUXILIARY-SCOPE"
+    },
+    {
+      "id": "FF3-ENUM-v1",
+      "acceptance_version": 6,
+      "current_status": "ACCEPTED-EXACT-AUXILIARY-SCOPE"
+    },
+    {
+      "id": "FF3-COMPRESSED-SELECTOR-INFORMATION-v2",
+      "acceptance_version": 6,
+      "current_status": "ACCEPTED-EXACT-AUXILIARY-SCOPE"
+    },
+    {
+      "id": "FF3-SELECTOR-PUBLIC-v3",
+      "acceptance_version": 6,
+      "current_status": "ACCEPTED-EXACT-AUXILIARY-SCOPE"
+    },
+    {
+      "id": "FF3-TWOEVENT-v1",
+      "acceptance_version": 6,
+      "current_status": "ACCEPTED-EXACT-AUXILIARY-SCOPE"
+    },
+    {
+      "id": "FF3-JOINT-RANK-FINITE-v1",
+      "acceptance_version": 6,
+      "current_status": "ACCEPTED-EXACT-AUXILIARY-SCOPE"
+    },
+    {
+      "id": "BOUNDED-AFFINE-TV-v1",
+      "acceptance_version": 6,
+      "current_status": "ACCEPTED-EXACT-AUXILIARY-SCOPE"
+    },
+    {
+      "id": "FF3-COMPACT-SELECTOR-v3",
+      "acceptance_version": 7,
+      "current_status": "ACCEPTED-EXACT-CONDITIONAL-KERNEL-SCOPE"
+    },
+    {
+      "id": "FF3-ENERGY-RANK-v2",
+      "acceptance_version": 7,
+      "current_status": "ACCEPTED-EXACT-CONDITIONAL-KERNEL-SCOPE"
+    }
+  ],
+  "distinct_claims": 28,
+  "qualification": "Cross-version exact bytes/status reconciliation, not rerunning mathematics. Original v1 document checker failed because review-seal keys v1-v3 are labels, v4 is reviews-relative, v5+ output-relative; v2 resolves each by exact hash and retains original labels. No mathematical hash mismatch was observed."
+}

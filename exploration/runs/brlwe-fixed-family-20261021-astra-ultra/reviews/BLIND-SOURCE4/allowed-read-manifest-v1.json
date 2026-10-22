@@ -1,0 +1,53 @@
+{
+  "created_at": "2026-10-21T20:37:24.102691+00:00",
+  "allowed_files": [
+    {
+      "path": "allowed-input/dense-split-source-statement-v1.md",
+      "sha256": "843a3ea886c9d39826b0492284e50c48656c310e36dfb6ed0c195e35af9416af"
+    },
+    {
+      "path": "allowed-input/rs-source-decoder-statement-v1.md",
+      "sha256": "5805f47785b41095733d694bd204c6cd40d3f9edee05a1a1bbd5b3ce7178d11c"
+    },
+    {
+      "path": "allowed-input/spectral-gap-decoder-statement-v1.md",
+      "sha256": "4043228d1a634dfd950acbacf232f4cb013ae3ed9c98ca1a6d2cdbafc0bd591c"
+    },
+    {
+      "path": "allowed-input/list-source-decoder-statement-v1.md",
+      "sha256": "0d782566f57fc60c00dac0f3b3ae195936b88e880ddf878493eb8fa1ed9157d4"
+    },
+    {
+      "path": "allowed-input/rs-actual-radius-witness-statement-v3.md",
+      "sha256": "54275f498a0f37956debae9dda751ee8827aad99564c0f43776a0ba92c456b6d"
+    },
+    {
+      "path": "allowed-input/all-subfields-comparison-statement-v1.md",
+      "sha256": "1225f638cb7b835d17f1775aeda24495f22f190e1f5f95a139c2171b4138b550"
+    },
+    {
+      "path": "allowed-input/subfield-contraction-statement-v2.md",
+      "sha256": "31b97bf2f3e0c33f7464ed41bd6041809784f2716c0332b53164c9f779896f3f"
+    },
+    {
+      "path": "allowed-input/actual-radius-parameter-definitions-v1.md",
+      "sha256": "eb12d66a9d457d1eea01b3c92da4f1018bc1c0c75476b7ea3c0ae3334d2967a7"
+    },
+    {
+      "path": "allowed-input/c8-loop-definitions-v1.md",
+      "sha256": "1c9a292d8f4bc678dd1c794cbc2a3006d9666ec8791d61e9e66fa902e9913f97"
+    },
+    {
+      "path": "allowed-input/scope-definitions.md",
+      "sha256": "e8ab2b1237a2a9af04e71960dd3d7208994fd9037194ff10d2ffc54f3f5fbc4e"
+    }
+  ],
+  "allowed_methodology": [
+    "/home/nico/.codex/skills/mathematical-proof-audit/SKILL.md",
+    "audit-protocol.md and probability-regressions.md at the skill referenced paths"
+  ],
+  "allowed_operational_reads": [
+    "live cap file for time limits only"
+  ],
+  "all_other_mathematical_reads": "Ask coordinator before expanding the set"
+}

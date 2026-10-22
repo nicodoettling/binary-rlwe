@@ -1,0 +1,17 @@
+{
+  "id": "RS-SOURCE-FV1",
+  "registered_at": "2026-10-21T19:58:54.203296+00:00",
+  "hypothesis": "BW algebra and rounding error-count decoder, including cases beyond scalar guard and strict-distance negative boundary",
+  "code": "experiments/rs-source-fv1.py",
+  "code_sha256": "5ca88dacfeaa7c00828a542b50c020d25f55afda0d693d4c8cd80822ad9ca308",
+  "inputs": "n8/16/32 split primes17/97/193;27polynomials; bounded exact error patterns;56 rational targets",
+  "seeds": "none exhaustive listed finite control",
+  "wall_limit_seconds": 120,
+  "address_space_bytes": 536870912,
+  "estimated_seconds": 10,
+  "estimated_peak_MiB": 32,
+  "precision": "exact",
+  "tails": "none finite",
+  "status": "REGISTERED",
+  "authorization": "root LIGHT slot concurrent only withFF3HEAVYFV13"
+}

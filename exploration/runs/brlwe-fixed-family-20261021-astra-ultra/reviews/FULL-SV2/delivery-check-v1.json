@@ -1,0 +1,204 @@
+{
+  "checked_at": "2026-10-21T19:01:43.165654+00:00",
+  "all_frozen_mathematical_inputs_unchanged": true,
+  "input_count": 26,
+  "entries": [
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/symmetry-descent-statement-v2.md",
+      "intake_sha256": "087405376d31699635e87d954eaaa9305da4635b61f2b572205ba89db533cddf",
+      "current_sha256": "087405376d31699635e87d954eaaa9305da4635b61f2b572205ba89db533cddf",
+      "match": true,
+      "expected_mutable_registry_growth": false
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/symmetry-descent-proof-v2.md",
+      "intake_sha256": "4a8e0b32f33c7121517108e9e1b63ff3eb9d2a50f0afea1e5c70c4e0eaa5df2a",
+      "current_sha256": "4a8e0b32f33c7121517108e9e1b63ff3eb9d2a50f0afea1e5c70c4e0eaa5df2a",
+      "match": true,
+      "expected_mutable_registry_growth": false
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/subfield-contraction-statement-v2.md",
+      "intake_sha256": "9157018baf8fa6d4e6fc3f3e889f3ba6fd07ce206175be4f37508553593c2bae",
+      "current_sha256": "9157018baf8fa6d4e6fc3f3e889f3ba6fd07ce206175be4f37508553593c2bae",
+      "match": true,
+      "expected_mutable_registry_growth": false
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/subfield-contraction-proof-v2.md",
+      "intake_sha256": "bd394211a85a33ed1566aba5232300db46bc24462777186d8c7f38a24967d9d8",
+      "current_sha256": "bd394211a85a33ed1566aba5232300db46bc24462777186d8c7f38a24967d9d8",
+      "match": true,
+      "expected_mutable_registry_growth": false
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/source-classification-theorem-v1.md",
+      "intake_sha256": "1b72f95055b9c5a8953c46ee778ade4d57a55d5a61c4a1ce29003c049f59a5a3",
+      "current_sha256": "1b72f95055b9c5a8953c46ee778ade4d57a55d5a61c4a1ce29003c049f59a5a3",
+      "match": true,
+      "expected_mutable_registry_growth": false
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/source-classification-proof-v1.md",
+      "intake_sha256": "5c208872ddd99f74294dc60dbcd1a952470b5d09956d576c7346e2f52eca0d5f",
+      "current_sha256": "5c208872ddd99f74294dc60dbcd1a952470b5d09956d576c7346e2f52eca0d5f",
+      "match": true,
+      "expected_mutable_registry_growth": false
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/frobenius-prime-theorem-v1.md",
+      "intake_sha256": "17315abf7b50bbb758a3e0e5c580d159895a1e238ad3b01b88e77a08e8e28d3e",
+      "current_sha256": "17315abf7b50bbb758a3e0e5c580d159895a1e238ad3b01b88e77a08e8e28d3e",
+      "match": true,
+      "expected_mutable_registry_growth": false
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/frobenius-prime-proof-v1.md",
+      "intake_sha256": "8ed560e6c7a58a77d3eb03fbb622afac7347a77bcb9c47188ee141d269ed7546",
+      "current_sha256": "8ed560e6c7a58a77d3eb03fbb622afac7347a77bcb9c47188ee141d269ed7546",
+      "match": true,
+      "expected_mutable_registry_growth": false
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/primary-source-check-v1.md",
+      "intake_sha256": "69895a89fa2ae4dfcbe7790f47df766a5bdb3b04633e801da10ae1038849a840",
+      "current_sha256": "69895a89fa2ae4dfcbe7790f47df766a5bdb3b04633e801da10ae1038849a840",
+      "match": true,
+      "expected_mutable_registry_growth": false
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-SV1/report-v1.md",
+      "intake_sha256": "2080b244a29662241dbf558550d2e3e6d9cac5847bc0620277e62ba5a4cceab4",
+      "current_sha256": "2080b244a29662241dbf558550d2e3e6d9cac5847bc0620277e62ba5a4cceab4",
+      "match": true,
+      "expected_mutable_registry_growth": false
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/regressions.json",
+      "intake_sha256": "aea6d6a79be83fe61f52d4e42189ebc4dc593fa78dd46e1a8ad8f527d00da685",
+      "current_sha256": "27b966ec59faa61249b3dec9682bafdcf12e95418b7676739032bc00a5d77e40",
+      "match": false,
+      "expected_mutable_registry_growth": true
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/run.log.brlwe-fixed-family-20261021-astra-ultra.cap-status.json",
+      "intake_sha256": "43f7b8bc69ade0c86c7c4966c7dc45f80c173ec027448a532c2f81d454224753",
+      "current_sha256": "43f7b8bc69ade0c86c7c4966c7dc45f80c173ec027448a532c2f81d454224753",
+      "match": true,
+      "expected_mutable_registry_growth": false
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/fixed-main-statement-v2.md",
+      "intake_sha256": "25da2502104e746d3e9f2ca10e3d070372ff95b853b1fd2b0e6c96b1b909ecb6",
+      "current_sha256": "25da2502104e746d3e9f2ca10e3d070372ff95b853b1fd2b0e6c96b1b909ecb6",
+      "match": true,
+      "expected_mutable_registry_growth": false
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/am-main-theorem-v3.md",
+      "intake_sha256": "eaabea064b734ccefbbb1d2410ed03fecdbe671f098c2e69d59d432df855e33c",
+      "current_sha256": "eaabea064b734ccefbbb1d2410ed03fecdbe671f098c2e69d59d432df855e33c",
+      "match": true,
+      "expected_mutable_registry_growth": false
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/acceptance-v1.json",
+      "intake_sha256": "ba065e4b5f569236839b2597882698ade120219a13551376b8a14af6d5d2e23e",
+      "current_sha256": "ba065e4b5f569236839b2597882698ade120219a13551376b8a14af6d5d2e23e",
+      "match": true,
+      "expected_mutable_registry_growth": false
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/accepted-supporting-interfaces-v1.json",
+      "intake_sha256": "1ae884acebcc441df4ffa014e22fca61ce44f7ecf913d05518df7c0a14378908",
+      "current_sha256": "1ae884acebcc441df4ffa014e22fca61ce44f7ecf913d05518df7c0a14378908",
+      "match": true,
+      "expected_mutable_registry_growth": false
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/coordinator/m1-acceptance-v2.json",
+      "intake_sha256": "0eb6b339f82889b65251a467facc2d18ed9e5a4f333093a324f38fafc601eaff",
+      "current_sha256": "0eb6b339f82889b65251a467facc2d18ed9e5a4f333093a324f38fafc601eaff",
+      "match": true,
+      "expected_mutable_registry_growth": false
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/SKILL.md",
+      "intake_sha256": "9350ffeb5aebe0b126710786586f94ef5d990be35b8b9defc8004136dae40318",
+      "current_sha256": "9350ffeb5aebe0b126710786586f94ef5d990be35b8b9defc8004136dae40318",
+      "match": true,
+      "expected_mutable_registry_growth": false
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/references/audit-protocol.md",
+      "intake_sha256": "2d076ba631c340d71f6259757c6207dbe230872810e9bad3188b215f46d095f4",
+      "current_sha256": "2d076ba631c340d71f6259757c6207dbe230872810e9bad3188b215f46d095f4",
+      "match": true,
+      "expected_mutable_registry_growth": false
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/references/probability-regressions.md",
+      "intake_sha256": "ad7eecf93ed02e5b2957243a9bbb2cac8e8eeeb991971f4d77d0818cd04a4fa4",
+      "current_sha256": "ad7eecf93ed02e5b2957243a9bbb2cac8e8eeeb991971f4d77d0818cd04a4fa4",
+      "match": true,
+      "expected_mutable_registry_growth": false
+    },
+    {
+      "path": "/home/nico/.codex/config.toml",
+      "intake_sha256": "7f62faee271dfd2ae5455dc00e644a2cd1bc16a974b18d54629057119ae6ea9b",
+      "current_sha256": "7f62faee271dfd2ae5455dc00e644a2cd1bc16a974b18d54629057119ae6ea9b",
+      "match": true,
+      "expected_mutable_registry_growth": false
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "intake_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "current_sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "match": true,
+      "expected_mutable_registry_growth": false
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD2/prime-list-theorem-proof-v1.md",
+      "intake_sha256": "c54f0a6e37aa6ed6a13bb9cf387f98ce99fb12311a517c6fec32e3e32188d6cf",
+      "current_sha256": "c54f0a6e37aa6ed6a13bb9cf387f98ce99fb12311a517c6fec32e3e32188d6cf",
+      "match": true,
+      "expected_mutable_registry_growth": false
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-restricted-hardness-20261021-astra-ultra/regressions.json",
+      "intake_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "current_sha256": "6fe6fe279262064690ae1eca22155ef9da0858ead281560df04bb58b4a56622c",
+      "match": true,
+      "expected_mutable_registry_growth": false
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/workers/SV/regression-scope-v1.json",
+      "intake_sha256": "fd74bf0fc1dfc3827da0a11f544d06c38ab68145a4a3b4112c424b9017eb850b",
+      "current_sha256": "fd74bf0fc1dfc3827da0a11f544d06c38ab68145a4a3b4112c424b9017eb850b",
+      "match": true,
+      "expected_mutable_registry_growth": false
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-SV2/registry-snapshot-at-seal-v1.json",
+      "intake_sha256": "27b966ec59faa61249b3dec9682bafdcf12e95418b7676739032bc00a5d77e40",
+      "current_sha256": "27b966ec59faa61249b3dec9682bafdcf12e95418b7676739032bc00a5d77e40",
+      "match": true,
+      "expected_mutable_registry_growth": false
+    }
+  ],
+  "regression_count": 203,
+  "mutable_registry_reconciled": "supplemental-regression-dispositions-v1.json",
+  "experiments": {
+    "jobs": 2,
+    "first": "exit1 library-domain error retained",
+    "second": "exit0 PASS;0.83seconds;49152KiB",
+    "heavy_jobs": 0
+  },
+  "config_evidence": {
+    "service_tier": "default",
+    "source": "/home/nico/.codex/config.toml line4",
+    "billing_telemetry_verified": false
+  },
+  "review_verdict": "PASS_EXACT_DETERMINISTIC_SCOPE",
+  "programme_acceptance": "Requires separate fresh blind report and coordinator reconciliation; no FF or hardness verdict"
+}

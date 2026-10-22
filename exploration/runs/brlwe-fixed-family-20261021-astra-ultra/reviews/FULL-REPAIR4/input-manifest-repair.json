@@ -1,0 +1,35 @@
+{
+  "captured_at": "2026-10-21T21:01:59.382496+00:00",
+  "inputs": [
+    {
+      "original_path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/compressed-selector-information-statement-v2.md",
+      "snapshot_path": "inputs/repair-compressed-selector-information-statement-v2.md",
+      "sha256": "8abf13ef4d35625ae82a6ffb44a7feb76d06700ada6a553a4a3ebd25a3e89d70",
+      "bytes": 4636
+    },
+    {
+      "original_path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/compressed-selector-information-proof-v2.md",
+      "snapshot_path": "inputs/repair-compressed-selector-information-proof-v2.md",
+      "sha256": "51d0824a7e767c555cb0e156adaaf9922c01728462b2ef0c7e0f96f273dc7f8f",
+      "bytes": 3877
+    },
+    {
+      "original_path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/selector-public-statement-v3.md",
+      "snapshot_path": "inputs/repair-selector-public-statement-v3.md",
+      "sha256": "1c51d957ea4214c50f47c2c013e9472a6b2627507a36589fc477c5b9e768c2ac",
+      "bytes": 1447
+    },
+    {
+      "original_path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/selector-public-proof-v3.md",
+      "snapshot_path": "inputs/repair-selector-public-proof-v3.md",
+      "sha256": "1010635301ddbad3005a92b2e04dc6ee5b78b3f1baeea6a971d7a2439406c9b5",
+      "bytes": 1390
+    },
+    {
+      "original_path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/selector-randomized-class-rejection-v1.md",
+      "snapshot_path": "inputs/repair-selector-randomized-class-rejection-v1.md",
+      "sha256": "d8b4d35257348f085a3964207a6de665462a9c487aee32ebaf19570ea95a01f5",
+      "bytes": 1115
+    }
+  ]
+}

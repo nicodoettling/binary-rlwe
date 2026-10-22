@@ -1,0 +1,55 @@
+{
+  "at": "2026-10-21T21:35:32.557704+00:00",
+  "inputs": [
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/compact-selector-statement-v3.md",
+      "snapshot": "inputs/coordinator/compact-selector-statement-v3.md",
+      "sha256": "20c66a210cfb4821eec35b371fbf7478ec3493d18d656a18a5b06dffc2fed889"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/compact-selector-proof-v3.md",
+      "snapshot": "inputs/coordinator/compact-selector-proof-v3.md",
+      "sha256": "8625e7453ae8d937ba9b885dd802a065987224862c70becbbc2713046c76a71f"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/compact-selector-statement-v2.md",
+      "snapshot": "inputs/coordinator/compact-selector-statement-v2.md",
+      "sha256": "89864b1f1d37ebb66e3fb7e364c8ad657c185808cdcdbb1c4370058aed7b2846"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/compact-selector-proof-v2.md",
+      "snapshot": "inputs/coordinator/compact-selector-proof-v2.md",
+      "sha256": "cfe90ffc7b4b0b6e0e8efdd424f6b20b361b9e66107022752ccf787b66414211"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/compact-selector-v2-rejection-v1.md",
+      "snapshot": "inputs/coordinator/compact-selector-v2-rejection-v1.md",
+      "sha256": "ba0a9dd24a148137d8f812820ddf700db8945ea2300def6d45a4df928d6eabbb"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/claims.json",
+      "snapshot": "inputs/claims.json",
+      "sha256": "553677a980cfbac8f618b2e3a1d20662aa5284321e5bca1396544d1ead3f1393"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reconciliation.md",
+      "snapshot": "inputs/reconciliation.md",
+      "sha256": "260f5b6686cfcd1d378e2af409b04be16208fc72f1348d68a652eaf0b5c15ad0"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/parameter-table.md",
+      "snapshot": "inputs/parameter-table.md",
+      "sha256": "f3c45564f65b82adc1e506d8452b0a0ad84154048dc8632ad09b95ae78d23452"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/source-comparison.md",
+      "snapshot": "inputs/source-comparison.md",
+      "sha256": "8a1a2e247b2d48bd22bdac481f636c6922af25da4a8d4a6750cc65b0ae9d009e"
+    },
+    {
+      "source": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/programme-decisions.md",
+      "snapshot": "inputs/programme-decisions.md",
+      "sha256": "494bcbb02974bf4cc8096af604b623ed8f1258ee4da9b1b66288f63db925bdb8"
+    }
+  ]
+}

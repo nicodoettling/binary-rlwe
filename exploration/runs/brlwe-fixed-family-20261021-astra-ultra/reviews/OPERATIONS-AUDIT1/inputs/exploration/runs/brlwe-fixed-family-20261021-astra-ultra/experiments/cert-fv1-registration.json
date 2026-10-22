@@ -1,0 +1,11 @@
+{
+ "id":"CERT-FV1", "registered_before_execution":true,
+ "hypothesis":"CERT-EXTRACT-v1 exact CRT guess law and partial endpoint survive correlated noise; same fixed good secret retains a gap at every possible retained set; no artificial success amplification.",
+ "code":"experiments/cert-fv1.py", "inputs":{"field":3,"coordinates":2,"noise":"uniform on diagonal {(a,a)}","tests":"all Boolean response-only tests, every fixed s and retained set size<=1","seed":null},
+ "command":"/usr/bin/time -v timeout --signal=TERM --kill-after=5s 120s prlimit --as=536870912 --cpu=110 -- python3 exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/cert-fv1.py",
+ "limits":{"wall_seconds":120,"address_space_bytes":536870912,"cpu_seconds":110},
+ "estimated_resources":"<5s, <64MiB; root second light slot, SV first light slot",
+ "precision":"Exact integers and Fraction; finite abstract CRT law only, no Gaussian tail approximation",
+ "expected":"All complete-law identities pass and rare good-secret fraction stays explicit",
+ "scope":"Finite falsification of conditional steps, not an infinite Gaussian theorem or empirical concentration experiment"
+}

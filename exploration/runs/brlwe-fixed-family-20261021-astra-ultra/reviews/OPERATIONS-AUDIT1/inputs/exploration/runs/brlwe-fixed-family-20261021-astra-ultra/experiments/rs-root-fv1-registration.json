@@ -1,0 +1,18 @@
+{
+  "id": "RS-ROOT-FV1",
+  "registered_at": "2026-10-21T21:09:18.566104+00:00",
+  "hypothesis": "Exact m-bit proposal root success and equal fibers, fresh full-history failure law and finite caps; negative persistent tape and CP1.",
+  "code": "exploration/runs/brlwe-fixed-family-20261021-astra-ultra/experiments/rs-root-fv1.py",
+  "sha256": "13680e94a187f9f063346b2485798b4ef3b854f17747062415aa95c0f6befec7",
+  "inputs": "n2,4,8,16; split odd primes<=257; rational tolerance2^-bits bits1,2,4,8,16",
+  "seeds": "deterministic exhaustive",
+  "limits": {
+    "wall_seconds": 120,
+    "address_space_MiB": 512,
+    "cpu_seconds": 110
+  },
+  "estimate": "<2seconds/<32MiB",
+  "precision": "integer/Fraction; p primality only test data enumerated; no infinite Gaussian inference",
+  "command": "timeout --kill-after=5s 120s prlimit --as=536870912 --cpu=110 /usr/bin/time -v python3 experiments/rs-root-fv1.py (stdout/stderr/resources preserved)",
+  "expected": "Positive exact identities and both negative controls pass"
+}

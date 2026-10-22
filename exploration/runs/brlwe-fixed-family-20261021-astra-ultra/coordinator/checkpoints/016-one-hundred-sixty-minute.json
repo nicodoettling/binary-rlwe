@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-21T20:29:46.161643+00:00",
+  "service_elapsed_seconds": 9695.525195672992,
+  "goal_status": "active",
+  "goal_receipt": "coordinator/goal-checkpoint-016.json",
+  "roles": {
+    "root": "FF2 direct-oracle/shared-secret hybrid audit; actual-radius source parameter witness; review preparation and synthesis",
+    "blind_frontier1": "Independent statement-only ten-claim review plus separately disclosed status-exposed corollary, target seal21:05Z",
+    "full_source3": "Fresh full/source/complexity review of six new or repaired source candidates; initial20:55Z/seal21:10Z"
+  },
+  "frontier": "FF3 phase2 sealed: exact n2 full-direction kernel; exact n4 rank-model Farkas exclusion; general full-direction and legal symmetrization remain open. FF remains open. New RS actual-radius witness uses permitted charged chi enlargement; all new source claims pending review. Hardness not established.",
+  "evidence": [
+    "workers/FF3/author-phase2-seal-v1.json",
+    "coordinator/rs-actual-radius-witness-statement-v1.md",
+    "coordinator/direct-oracle-hybrid-frontier-v1.md",
+    "reviews/BLIND-FRONTIER1/allowed-read-addendum-v5.json"
+  ],
+  "resume": "Check clock/cap/goal first; next170m20:38:10Z. Productive protected investigation through21:18:10Z. Recycle blind slot after seal for fresh FF3/actual-radius blind review, source full slot subsequently for FF3 full repair review. No cap reset or goal completion."
+}

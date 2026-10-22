@@ -1,0 +1,30 @@
+{
+  "created_at": "2026-10-21T21:21:13.180245+00:00",
+  "allowed_files": [
+    {
+      "path": "allowed-input/compact-selector-statement-v2.md",
+      "sha256": "99bc6ba88f7760ab8c3bf1045a3162c8c18cb35c4f311b3ae6d1af528ddfa230"
+    },
+    {
+      "path": "allowed-input/energy-rank-kernel-statement-v2.md",
+      "sha256": "a8c7daf894df5d0d5ac8ac5fa8132fcbad884ab5020baac7500d820169c95556"
+    },
+    {
+      "path": "allowed-input/compact-selector-table.json",
+      "sha256": "59acd26442278a2a0191953888256f3cbb546e46212273d82190e06570c5040a"
+    },
+    {
+      "path": "allowed-input/radial-kernel-tables.json",
+      "sha256": "573e8ef817299486670f9ed9b61d7611387b882f21de93cc1f64ba39d7dad81c"
+    },
+    {
+      "path": "allowed-input/definitions.md",
+      "sha256": "430c7e82f09cea2e29824ae09ea17caae38d45b8c978bc5469516854a70e783d"
+    }
+  ],
+  "methodology": [
+    "/home/nico/.codex/skills/mathematical-proof-audit/SKILL.md",
+    "its audit-protocol.md and probability-regressions.md"
+  ],
+  "operational": "livecap for timing only"
+}

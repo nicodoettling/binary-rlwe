@@ -1,0 +1,66 @@
+{
+  "original_version_resource_counterexamples": [
+    {
+      "id": "BT2-FAIRBITS-1",
+      "claim": "FF3-COMPACT-SELECTOR-v1",
+      "n": 3,
+      "oriented_cube_edges": 12,
+      "desired_atom_probability": "1/12",
+      "witness": "Any algorithm using at most b independent fair bits has every output probability k/2^b, including variable-length algorithms padded to b bits. Equality k/2^b=1/12 requires3 dividing2^b, impossible.",
+      "scope": "Refutes a worst-case exact fair-bit interpretation for arbitrary n; does not refute expected O(n) bits."
+    },
+    {
+      "id": "BT2-PAIRCOUNT-1",
+      "claim": "FF3-ENERGY-RANK-v1",
+      "n": 2,
+      "source_and_target_alphabet": [
+        -1,
+        0,
+        1
+      ],
+      "energy": 1,
+      "shell": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "single_count": 4,
+      "pair_count": 16,
+      "pair_count_bit_length": 5,
+      "single_count_bit_bound_integer_floor": 4,
+      "exact_comparison": "3^2=9 <16=2^4, so a count16 needs5 bits and exceeds the scalar n log2(3)+1 bound.",
+      "scope": "Refutes inheritance of the identical scalar numerical bit bound into pair products, not polynomial complexity."
+    }
+  ],
+  "probability_controls": [
+    {
+      "id": "CP-1",
+      "exact_result_file": "finite-audit-result-v1.json",
+      "expected": "Old product claim rejected:21/2000>1/100, despite later incidence21/221<1/10."
+    },
+    {
+      "id": "BT2-REUSED-ROOT-SEED-1",
+      "exact_result_file": "root-trials-audit-result-v1.json",
+      "n": 2,
+      "p": 5,
+      "L": 8,
+      "eta": "1/2",
+      "fresh_failure": "6561/65536",
+      "reused_failure": "3/4",
+      "expected": "Reused-seed amplification rejected; the current theorem explicitly requires fresh trials."
+    }
+  ]
+}

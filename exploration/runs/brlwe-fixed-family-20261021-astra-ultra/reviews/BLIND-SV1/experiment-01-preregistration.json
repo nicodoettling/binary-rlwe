@@ -1,0 +1,13 @@
+{
+  "id": "BLIND-SV1-E01",
+  "status": "PREREGISTERED_NOT_RUN",
+  "hypothesis": "Signed fixed coefficient lattices have rank n/|H|; eligible explicit odd and mixed ideals satisfy d_H^|H|=D_o and the collision member construction; strict equality and unstripped ramification counterexamples survive.",
+  "code": "experiment-01.py (hash frozen before slot request)",
+  "seed": null,
+  "randomness": "none; fully deterministic",
+  "inputs": "All odd automorphisms for n=2,4,8,16,32,64; pure2 ideals (1-X)^b for (n,b)=(2,1),(4,3),(8,7); n4 p3 quadratic prime; n32 p31 quadratic prime, its square, square times (1-X), and product of first two distinct quadratic factors; n16 split primes97 and193 combined by CRT, with and without (1-X). Factors and roots chosen by explicitly coded lexicographic search.",
+  "precision": "unbounded exact Python integers and fractions.Fraction; no floating mathematical comparisons",
+  "resources": {"wall_timeout_seconds":120,"cpu_limit_seconds":115,"address_space_bytes":536870912,"process_count":1,"threads":1,"heavy":false},
+  "expected_outputs": "PASS with per-case index/exponent/stabilizer/descent-member witnesses; otherwise assertion/timeout failure is preserved and reviewed.",
+  "scope": "Finite regression only, not proof of the unrestricted statement. Root must grant a fresh slot before launch."
+}

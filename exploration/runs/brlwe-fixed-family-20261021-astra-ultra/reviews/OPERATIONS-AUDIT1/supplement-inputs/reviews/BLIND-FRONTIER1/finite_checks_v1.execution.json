@@ -1,0 +1,11 @@
+{
+  "authorization": "Parent message explicitly granted one LIGHT exact-arithmetic slot, 120s/512MiB, before execution",
+  "command": "/usr/bin/time -v /usr/bin/timeout --signal=TERM --kill-after=5s 120s /usr/bin/prlimit --as=536870912 --cpu=110 -- python3 finite_checks_v1.py",
+  "exit_status": 0,
+  "elapsed_seconds": 0.33,
+  "maximum_RSS_KiB": 12288,
+  "precision": "Exact integers and fractions",
+  "tails": "No infinite laws truncated",
+  "cleanup": "No background job remains; all script and output files retained",
+  "released": "Parent notified that LIGHT slot is free"
+}

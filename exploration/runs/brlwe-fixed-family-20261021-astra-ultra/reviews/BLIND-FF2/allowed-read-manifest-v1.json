@@ -1,0 +1,53 @@
+{
+  "created_at": "2026-10-21T18:46:54.830762+00:00",
+  "inputs": [
+    {
+      "packet_file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-FF2/inputs/crt-projection.md",
+      "sha256": "8a1151a7a4c523312bc82b8da13c6eefd67df32d52e0a80931e5f3313182d9b3",
+      "original_file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/crt-projection-statement-v1.md",
+      "original_sha256": "0327d8958b5449e6ce192991594edf4ef03c0949f2e0d4fde4fb5243b46e1aca",
+      "redacted_lines": [
+        3
+      ],
+      "redaction": "Status/author-review banners only; mathematical statement and algorithm definitions unchanged"
+    },
+    {
+      "packet_file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-FF2/inputs/certificate-extraction.md",
+      "sha256": "b17fb368a2fda01d42ede6f5cc58ff61c16b759a2e688b637d97f8f8cab75548",
+      "original_file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/certificate-extraction-statement-v2.md",
+      "original_sha256": "1a82181c03be7aaf09ef1ec7103828471c20be27a68ef182055c0f45a93353ab",
+      "redacted_lines": [
+        3
+      ],
+      "redaction": "Status/author-review banners only; mathematical statement and algorithm definitions unchanged"
+    },
+    {
+      "packet_file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-FF2/inputs/inherited-one-root-extractor.md",
+      "sha256": "8617dfdeb1b79f71e5d6531c4514d397ed946fde2adee4e7e2d5dcf5bcefb5af",
+      "original_file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD1/extraction-theorem-v1.md",
+      "original_sha256": "c8ad79f0f681e346e149749d46c3bb98ff5e2e6a2ef5cbc406a47f8c2abf0e38",
+      "redacted_lines": [
+        3
+      ],
+      "redaction": "Status/author-review banners only; mathematical statement and algorithm definitions unchanged"
+    },
+    {
+      "packet_file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/BLIND-FF2/inputs/prime-construction.md",
+      "sha256": "c0585251bbdb70d8b2a98b0d8a9f67c59b5d379c22f5c0ed6ff9a73e1b71120f",
+      "original_file": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/reviews/BLIND2/prime-list-statement.md",
+      "original_sha256": "c0585251bbdb70d8b2a98b0d8a9f67c59b5d379c22f5c0ed6ff9a73e1b71120f",
+      "redacted_lines": [],
+      "redaction": "Status/author-review banners only; mathematical statement and algorithm definitions unchanged"
+    }
+  ],
+  "allow_other": [
+    "/home/nico/.codex/skills/mathematical-proof-audit/SKILL.md",
+    "/home/nico/.codex/skills/mathematical-proof-audit/references/audit-protocol.md",
+    "/home/nico/.codex/skills/mathematical-proof-audit/references/probability-regressions.md",
+    "Primary Xylouris theorem at https://www.impan.pl/shop/en/publication/transaction/download/product/83078"
+  ],
+  "prohibit": [
+    "Original file paths (provenance only), author proofs, all review reports/statuses/ledgers, coordinator conclusions, other agents context"
+  ],
+  "purpose": "Fresh independent statement-only proof/counterexample review. No author proof or desired outcome supplied."
+}

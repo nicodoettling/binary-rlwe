@@ -1,0 +1,19 @@
+# BLIND-RESOURCE3 exposure log
+
+2026-10-21 21:27 UTC: received assignment preserved verbatim separately. Read allowed-read-manifest-v1.json, the five-file path/hash list only; mathematical-proof-audit SKILL.md, audit-protocol.md, probability-regressions.md; compact-selector-statement-v2.md, energy-rank-kernel-statement-v2.md, definitions.md. No author proof, status, checker, prior report, historical regression ledger, PLAN, or root conclusion was read. The two JSON tables were copied and hashed as opaque bytes without mathematical inspection at this point.
+
+Missing-definition request sent to root before further mathematical reads: P_s/T_s/U/V and batch joint generation; FF3-TWOEVENT and two likelihood inequalities; D_Z,sigma and centered-interval convention; timing-only livecap path.
+
+Skill methodological mandate to import historical counterexamples is intentionally deferred because the explicit assignment forbids their exposure before sealing this blind report. Global acceptance cannot be claimed from this isolated packet alone. Same-model review is correlated scrutiny and not formal verification.
+
+2026-10-21 21:28 UTC: root authorized allowed-read-addendum-v1.json and its endpoint-definitions-v1.md/two-event-noise-kernel-statement-v1.md. Read both, then radial-kernel-tables.json and compact-selector-table.json. Frozen addendum bytes and SHA-256 validated. Read the explicitly allowed livecap status file for timing; it displayed incidental operational service metadata, no mathematics. No config or backend billing assertion is derived from it.
+
+2026-10-21 21:32:26--21:32:27 UTC: completed the independently authored preregistered exact enumeration after root LIGHT approval. The original v2 proof reasoning, M-representation objection, exact code and all finite results predate v3 exposure. Exact stdout/stderr/resource receipts are preserved.
+
+After the completed experiment, root explicitly authorized allowed-read-addendum-v2.json and compact-selector-statement-v3.md. This revised statement adds positive rational binary-encoded M and charges numeric M and encoding length. It also unexpectedly includes author-status/provenance hints FV9/FV11, 'exactly checked', 'finite certified', author checker and witness paths, and a witness hash. These appeared in the authorized statement itself. The referee immediately notified root and requested a clean theorem-only replacement. NO referenced experiment, author proof, author checker, witness, prior review, PLAN, or ledger was opened. Strict status-blindness is claimed only through completion of the original v2 review experiment, not after this incidental v3 exposure. The root acknowledged this and instructed sealing with the qualification; a different fresh referee will own the cleaned repair blind gate.
+
+Root follow-up: finish original-v2 findings, independent ENERGY-v2 verdict, and mathematical compact-v3 repair check with qualification; no new experiment required and no referenced author/checker reads authorized. Thus v3 witness linkage beyond the original allowed mathematical tables is not independently established by this referee.
+
+All mathematical input files actually consumed are frozen under frozen-inputs; methodology under frozen-methodology. Operational cap file was used only for timing. The later re-read displayed only state and deadline fields. No web/external source, service launch, model/tier change, installation, git mutation, spawn, or goal creation was performed. Requested model/tier appears only in the assignment; no backend billing telemetry is claimed.
+
+2026-10-21 21:39 UTC: full mathematical report and local claim graph completed; preregistered code/input hashes revalidated unchanged, exact-check exit0 confirmed, stderr empty. No experiment repeated. Methodology and all permitted statement/data inputs are byte-frozen. Final timing-only receipt recorded before seal.

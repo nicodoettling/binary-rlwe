@@ -1,0 +1,84 @@
+{
+  "created_utc": "2026-10-21T18:32:30.126132+00:00",
+  "review": "nonauthor FULL, not blind",
+  "inputs": [
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/certificate-extraction-statement-v2.md",
+      "bytes": 4800,
+      "sha256": "1a82181c03be7aaf09ef1ec7103828471c20be27a68ef182055c0f45a93353ab",
+      "exposure": "FULL review; principal four files and DD1 pair read in full; regression supporting reference"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/certificate-extraction-proof-v2.md",
+      "bytes": 5922,
+      "sha256": "90b9a4b7c50984e89757dc52e360170a8aa6ea098e20eb02c32ab0b3eac197e4",
+      "exposure": "FULL review; principal four files and DD1 pair read in full; regression supporting reference"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/crt-projection-statement-v1.md",
+      "bytes": 2308,
+      "sha256": "0327d8958b5449e6ce192991594edf4ef03c0949f2e0d4fde4fb5243b46e1aca",
+      "exposure": "FULL review; principal four files and DD1 pair read in full; regression supporting reference"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/coordinator/crt-projection-proof-v1.md",
+      "bytes": 3483,
+      "sha256": "1c100c8f3e83f2d358140d41e5c84008c65fc8e170ad496f089ee158b0a9b15b",
+      "exposure": "FULL review; principal four files and DD1 pair read in full; regression supporting reference"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD1/extraction-theorem-v1.md",
+      "bytes": 5273,
+      "sha256": "c8ad79f0f681e346e149749d46c3bb98ff5e2e6a2ef5cbc406a47f8c2abf0e38",
+      "exposure": "FULL review; principal four files and DD1 pair read in full; regression supporting reference"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/workers/DD1/extraction-proof-v1.md",
+      "bytes": 6019,
+      "sha256": "4a599d9eed5dfefca4b3d0bbcd1402aaba2e709310e7eaa62feb36d5b6b3f357",
+      "exposure": "FULL review; principal four files and DD1 pair read in full; regression supporting reference"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/coordinator/acceptance-v1.json",
+      "bytes": 9212,
+      "sha256": "ba065e4b5f569236839b2597882698ade120219a13551376b8a14af6d5d2e23e",
+      "exposure": "FULL review; principal four files and DD1 pair read in full; regression supporting reference"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-direct-decision-20261021-astra-ultra/regressions.json",
+      "bytes": 334642,
+      "sha256": "5564bea5e2f23c294285e891ee50888a3c7e6ea38150098f6a5e278bb0d9add3",
+      "exposure": "FULL review; principal four files and DD1 pair read in full; regression supporting reference"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-SV1/regression-dispositions-v1.json",
+      "bytes": 154761,
+      "sha256": "12ab0eaa3abaaee419d84c905b9acbe790ae4c7b3be905d709f091b95eb1d62a",
+      "exposure": "FULL review; principal four files and DD1 pair read in full; regression supporting reference"
+    },
+    {
+      "path": "/home/nico/projects/research_projects/binaryRLWE/exploration/runs/brlwe-fixed-family-20261021-astra-ultra/reviews/FULL-SV1/seal-v1.json",
+      "bytes": 4130,
+      "sha256": "d94640625848c66612e4e18b335a979d5afd27223a17d88edf46a2c424bb9f80",
+      "exposure": "FULL review; principal four files and DD1 pair read in full; regression supporting reference"
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/SKILL.md",
+      "bytes": 4484,
+      "sha256": "9350ffeb5aebe0b126710786586f94ef5d990be35b8b9defc8004136dae40318",
+      "exposure": "FULL review; principal four files and DD1 pair read in full; regression supporting reference"
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/references/audit-protocol.md",
+      "bytes": 8480,
+      "sha256": "2d076ba631c340d71f6259757c6207dbe230872810e9bad3188b215f46d095f4",
+      "exposure": "FULL review; principal four files and DD1 pair read in full; regression supporting reference"
+    },
+    {
+      "path": "/home/nico/.codex/skills/mathematical-proof-audit/references/probability-regressions.md",
+      "bytes": 6814,
+      "sha256": "ad7eecf93ed02e5b2957243a9bbb2cac8e8eeeb991971f4d77d0818cd04a4fa4",
+      "exposure": "FULL review; principal four files and DD1 pair read in full; regression supporting reference"
+    }
+  ]
+}
